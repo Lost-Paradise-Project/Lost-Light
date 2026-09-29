@@ -1,42 +1,61 @@
-﻿"Changes: Sprites":
-- changed-files:
-  - any-glob-to-any-file: '**/*.rsi/*.png'
+﻿":musical_note: Звуки :musical_note:":
+  - changed-files:
+      - any-glob-to-any-file: "**/*.ogg"
 
-"Changes: Map":
-- changed-files:
-  - any-glob-to-any-file:
-    - 'Resources/Maps/**/*.yml'
-    - 'Resources/Prototypes/Maps/**/*.yml'
+":shark: C# :shark:":
+  - changed-files:
+      - any-glob-to-any-file: "**/*.cs"
 
-"Changes: UI":
-- changed-files:
-  - any-glob-to-any-file: '**/*.xaml*'
+":gear: Конфиги :gear:":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.toml"
+          - "**/*.config"
+          - "*.json"
+          - ".github/*.yml"
+          - ".github/*.json"
+          - ".vscode/*.json"
+          - ".editorconfig"
 
-"Changes: Shaders":
-- changed-files:
-  - any-glob-to-any-file: '**/*.swsl'
+":book: Документация :book:":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.xml"
+          - "**/*.md"
 
-"Changes: Audio":
-- changed-files:
-  - any-glob-to-any-file: '**/*.ogg'
+":page_facing_up: Локализация :page_facing_up:":
+  - changed-files:
+      - any-glob-to-any-file: 'Resources/Locale/**/*.ftl'
 
-"Changes: No C#":
-- changed-files:
-  # Equiv to any-glob-to-all as long as this has one matcher. If ALL changed files are not C# files, then apply label.
-  - all-globs-to-all-files: "!**/*.cs"
+":world_map: Карты :world_map:":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "Resources/Maps/**/*.yml"
+          - "Resources/Prototypes/Maps/**/*.yml"
 
-"Changes: C#":
-- changed-files:
-  - any-glob-to-any-file: '**/*.cs'
+":art: Спрайты :art:":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.rsi/*.png"
+          - "**/*.rsi/*.json"
 
-"Changes: Prototypes":
-- changed-files:
-  - any-glob-to-any-file: 'Resources/Prototypes/**/*.yml'
+":computer: Интерфейс :computer:":
+  - changed-files:
+      - any-glob-to-any-file: "**/*.xaml*"
 
-#Starlight exclusive label
-"Changes: Guidebook":
-- changed-files:
-  - any-glob-to-any-file:
-    - 'Resources/ServerInfo/**/*.xml'
-    - 'Resources/Prototypes/Guidebook/**/*.yml'
-    - 'Resources/Prototypes/*/Guidebook/**/*.xml'
+":baby_chick: YML :baby_chick:":
+  - changed-files:
+      - any-glob-to-any-file:
+          - "Resources/Prototypes/**/*.yml"
+
+":wrench: GitHub Workflow :wrench:":
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/*.yml"
+
+":crystal_ball: Шейдеры :crystal_ball:":
+  - changed-files:
+      - any-glob-to-any-file: '**/*.swsl'
+
+":no_entry: Не C# :no_entry:":
+  - changed-files:
+      - all-globs-to-all-files: "!**/*.cs"

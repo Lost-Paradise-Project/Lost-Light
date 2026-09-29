@@ -7,15 +7,15 @@ concurrency:
 
 on:
   push:
-    branches: [ master, staging, stable ]
+    branches: [ master, stable ]
   merge_group:
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
-    branches: [ master, staging, stable, Starlight ]
+    branches: [ master, stable ]
 
 jobs:
   build:
-    if: github.actor != 'PJBot' && github.event.pull_request.draft == false
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -37,6 +37,12 @@ jobs:
         run: |
           cd RobustToolbox/
           git submodule update --init --recursive
+
+      - name: Download parts
+        if: ${{ vars.SECRETSLINK != '' }}
+        uses: ./.github/actions/download-secrets
+        with:
+          secrets-url: ${{ secrets.SECRETS }}
 
       - name: Setup .NET Core
         uses: actions/setup-dotnet@v5

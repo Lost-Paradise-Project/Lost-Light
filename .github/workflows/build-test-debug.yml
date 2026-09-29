@@ -10,11 +10,11 @@ concurrency:
 
 on:
   push:
-    branches: [ master, staging, stable, Starlight, starlight-dev, upstream-devtest, fix/tests ]
+    branches: [ master, stable ]
   merge_group:
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
-    branches: [ master, staging, stable, Starlight, starlight-dev, upstream-devtest, main ]
+    branches: [ master, stable ]
   workflow_dispatch:
   workflow_call:
     inputs:
@@ -29,7 +29,7 @@ permissions: {}
 
 jobs:
   build:
-    if: github.actor != 'PJBot' && github.event.pull_request.draft == false
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -37,6 +37,7 @@ jobs:
     outputs:
       integration_test_filters: ${{ steps.integration-test-shards.outputs.filters }}
       integration_test_shards: ${{ steps.integration-test-shards.outputs.shards }}
+      secrets_downloaded: ${{ steps.secrets.outputs.downloaded }}
     steps:
       - name: Checkout Master
         uses: actions/checkout@v7
@@ -54,6 +55,13 @@ jobs:
         run: |
           cd RobustToolbox/
           git submodule update --init --recursive
+
+      - name: Download parts
+        id: secrets
+        if: ${{ vars.SECRETSLINK != '' }}
+        uses: ./.github/actions/download-secrets
+        with:
+          secrets-url: ${{ secrets.SECRETS }}
 
       - name: Setup .NET
         uses: actions/setup-dotnet@v6
@@ -114,7 +122,14 @@ jobs:
           retention-days: 1
 
       - name: Archive test binaries
-        run: tar --use-compress-program='zstd -T0' -cf /tmp/test-binaries.tar.zst bin
+        env:
+          ARTIFACT_KEY: ${{ steps.secrets.outputs.downloaded == 'true' && secrets.SECRETS || '' }}
+        run: |
+          tar --use-compress-program='zstd -T0' -cf /tmp/test-binaries.tar.zst bin
+          if [ -n "$ARTIFACT_KEY" ]; then
+            openssl enc -aes-256-cbc -pbkdf2 -salt -pass env:ARTIFACT_KEY -in /tmp/test-binaries.tar.zst -out /tmp/test-binaries.tar.zst.enc
+            mv /tmp/test-binaries.tar.zst.enc /tmp/test-binaries.tar.zst
+          fi
 
       - name: Upload test binaries
         uses: actions/upload-artifact@v6
@@ -136,6 +151,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
 
+      - name: Download parts
+        if: ${{ needs.build.outputs.secrets_downloaded == 'true' }}
+        uses: ./.github/actions/download-secrets
+        with:
+          secrets-url: ${{ secrets.SECRETS }}
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v6
 
@@ -145,7 +166,14 @@ jobs:
           name: test-binaries
 
       - name: Extract test binaries
-        run: tar --use-compress-program='zstd -d -T0' -xf test-binaries.tar.zst && rm test-binaries.tar.zst
+        env:
+          ARTIFACT_KEY: ${{ needs.build.outputs.secrets_downloaded == 'true' && secrets.SECRETS || '' }}
+        run: |
+          if [ -n "$ARTIFACT_KEY" ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ARTIFACT_KEY -in test-binaries.tar.zst -out test-binaries.dec.tar.zst
+            mv test-binaries.dec.tar.zst test-binaries.tar.zst
+          fi
+          tar --use-compress-program='zstd -d -T0' -xf test-binaries.tar.zst && rm test-binaries.tar.zst
 
       - name: Run Content.Tests
         env:
@@ -208,6 +236,12 @@ jobs:
           cd RobustToolbox/
           git submodule update --init --recursive
 
+      - name: Download parts
+        if: ${{ needs.build.outputs.secrets_downloaded == 'true' }}
+        uses: ./.github/actions/download-secrets
+        with:
+          secrets-url: ${{ secrets.SECRETS }}
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v6
 
@@ -217,7 +251,14 @@ jobs:
           name: test-binaries
 
       - name: Extract test binaries
-        run: tar --use-compress-program='zstd -d -T0' -xf test-binaries.tar.zst && rm test-binaries.tar.zst
+        env:
+          ARTIFACT_KEY: ${{ needs.build.outputs.secrets_downloaded == 'true' && secrets.SECRETS || '' }}
+        run: |
+          if [ -n "$ARTIFACT_KEY" ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ARTIFACT_KEY -in test-binaries.tar.zst -out test-binaries.dec.tar.zst
+            mv test-binaries.dec.tar.zst test-binaries.tar.zst
+          fi
+          tar --use-compress-program='zstd -d -T0' -xf test-binaries.tar.zst && rm test-binaries.tar.zst
 
       - name: Run Content.IntegrationTests
         env:
@@ -274,10 +315,11 @@ jobs:
           retention-days: 7
           if-no-files-found: ignore
 
+      # Дамп памяти содержит закрытый код, поэтому при сборке с секретами его не выгружаем
       - name: Upload hang dump
         id: upload-hang-dump
         uses: actions/upload-artifact@v6
-        if: always()
+        if: always() && needs.build.outputs.secrets_downloaded != 'true'
         continue-on-error: true
         with:
           name: hang-dump-shard-${{ matrix.shard }}
@@ -339,6 +381,13 @@ jobs:
           cd RobustToolbox/
           git submodule update --init --recursive
 
+      # Закрытые части сборки из приватного репозитория
+      - name: Download parts
+        if: ${{ needs.build.outputs.secrets_downloaded == 'true' }}
+        uses: ./.github/actions/download-secrets
+        with:
+          secrets-url: ${{ secrets.SECRETS }}
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v6
 
@@ -354,7 +403,14 @@ jobs:
           name: test-binaries
 
       - name: Extract test binaries
-        run: tar --use-compress-program='zstd -d -T0' -xf test-binaries.tar.zst && rm test-binaries.tar.zst
+        env:
+          ARTIFACT_KEY: ${{ needs.build.outputs.secrets_downloaded == 'true' && secrets.SECRETS || '' }}
+        run: |
+          if [ -n "$ARTIFACT_KEY" ]; then
+            openssl enc -d -aes-256-cbc -pbkdf2 -pass env:ARTIFACT_KEY -in test-binaries.tar.zst -out test-binaries.dec.tar.zst
+            mv test-binaries.dec.tar.zst test-binaries.tar.zst
+          fi
+          tar --use-compress-program='zstd -d -T0' -xf test-binaries.tar.zst && rm test-binaries.tar.zst
 
       - name: Run Linter
         if: github.event_name != 'pull_request'
@@ -397,7 +453,7 @@ jobs:
 
   ci-success:
     name: Debug CI Required
-    if: ${{ always() }}
+    if: ${{ always() && github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' }}
     needs:
       - build
       - content-tests

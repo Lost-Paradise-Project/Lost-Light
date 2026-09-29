@@ -1,0 +1,36 @@
+name: Download
+
+inputs:
+  secrets-url:
+    description: Ссылка для клонирования
+    required: true
+
+outputs:
+  downloaded:
+    description: "'true', если закрытые части скачаны"
+    value: ${{ steps.download.outputs.downloaded }}
+
+runs:
+  using: composite
+  steps:
+    - name: Download parts
+      id: download
+      shell: bash
+      env:
+        SECRETS_URL: ${{ inputs.secrets-url }}
+      run: |
+        # Секретов нет
+        if [ -z "$SECRETS_URL" ]; then
+          echo "::notice::Секреты недоступны, части не скачаны."
+          echo "downloaded=false" >> "$GITHUB_OUTPUT"
+          exit 0
+        fi
+
+        git clone --depth 1 "$SECRETS_URL" NewSecrets
+        mv NewSecrets/PResources/PPrototypes Resources/Prototypes/
+        mv NewSecrets/PResources/PTextures Resources/Textures/
+        mv NewSecrets/PShared Content.Shared/PShared
+        mv NewSecrets/PServer Content.Server/PServer
+        mv NewSecrets/PClient Content.Client/PClient
+        rm -rf NewSecrets
+        echo "downloaded=true" >> "$GITHUB_OUTPUT"

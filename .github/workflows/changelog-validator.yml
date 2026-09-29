@@ -14,6 +14,7 @@ permissions:
 
 jobs:
   validate-changelog:
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -37,8 +38,8 @@ jobs:
         run: |
           python ./Tools/_Starlight/validate_changelog.py
           if [ $? -eq 0 ]; then
-            echo "::notice::Changelog validation passed"
+            echo "::notice::Проверка чейнджлога пройдена"
           else
-            echo "::error::Changelog validation failed"
+            echo "::error::Проверка чейнджлога не пройдена"
             exit 1
           fi

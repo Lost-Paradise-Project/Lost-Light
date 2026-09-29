@@ -1,0 +1,11 @@
+ent-ClothingShoesBase = { ent-SolutionFood }
+    .desc = { ent-SolutionFood.desc }
+ent-ClothingShoesBaseButcherable = { ent-ClothingShoesBase }
+    .desc = { ent-ClothingShoesBase.desc }
+ent-ClothingShoesMilitaryBase = { ent-ClothingShoesBase }
+    .desc = { ent-ClothingShoesBase.desc }
+ent-ClothingShoesBootsSecFilled = { "" }
+    .desc = { "" }
+    .suffix = Заполненный
+ent-ClothingShoesBaseWinterBoots = { ent-ClothingShoesBaseButcherable }
+    .desc = Меховые ботинки, которые помогут пережить даже самую холодную зиму.

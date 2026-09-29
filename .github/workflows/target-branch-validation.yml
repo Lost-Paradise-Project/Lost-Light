@@ -11,27 +11,29 @@ on:
 
 jobs:
   check-target-branch:
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check if PR targets starlight-dev
+      - name: Check if PR targets master
+        env:
+          SOURCE_BRANCH: ${{ github.event.pull_request.head.ref }}
+          SOURCE_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          TARGET_BRANCH: ${{ github.event.pull_request.base.ref }}
         run: |
-          SOURCE_BRANCH="${{ github.event.pull_request.head.ref }}"
-          TARGET_BRANCH="${{ github.event.pull_request.base.ref }}"
-          echo "PR from: $SOURCE_BRANCH -> $TARGET_BRANCH"
+          echo "PR: $SOURCE_REPO:$SOURCE_BRANCH -> $TARGET_BRANCH"
 
-          # Allow starlight-dev to starlight PRs in both directions
-          if [[ ("$SOURCE_BRANCH" == "starlight-dev" && "$TARGET_BRANCH" == "Starlight") ||
-                ("$SOURCE_BRANCH" == "Starlight" && "$TARGET_BRANCH" == "starlight-dev") ]]; then
-            echo "Allowed: PR between starlight-dev and starlight branches"
+          if [[ "$SOURCE_REPO" == "${{ github.repository }}" &&
+                (("$SOURCE_BRANCH" == "master" && "$TARGET_BRANCH" == "stable") ||
+                 ("$SOURCE_BRANCH" == "stable" && "$TARGET_BRANCH" == "master")) ]]; then
+            echo "Разрешено: PR между master и stable"
             exit 0
           fi
 
-          # For all other PRs, require starlight-dev as target
-          if [ "$TARGET_BRANCH" != "starlight-dev" ]; then
-            echo "Error: PR must target 'starlight-dev' branch, but targets '$TARGET_BRANCH'"
-            echo "Please change the target branch to 'starlight-dev'"
+          # Все остальные PR должны идти в master
+          if [ "$TARGET_BRANCH" != "master" ]; then
+            echo "::error::PR должен быть направлен в ветку 'master', а направлен в '$TARGET_BRANCH'. Смените целевую ветку на 'master'."
             exit 1
           else
-            echo "Success: PR correctly targets 'starlight-dev' branch"
+            echo "Всё верно: PR направлен в 'master'"
           fi

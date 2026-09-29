@@ -7,7 +7,7 @@ concurrency:
 
 on:
   push:
-    branches: [ master, staging, stable, Starlight ]
+    branches: [ master, stable ]
     paths:
       - '**.cs'
       - '**.csproj'
@@ -21,7 +21,7 @@ on:
   merge_group:
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
-    branches: [ master, staging, stable, Starlight ]
+    branches: [ master, stable ]
     paths:
       - '**.cs'
       - '**.csproj'
@@ -34,7 +34,7 @@ on:
 jobs:
   build:
     name: Test Packaging
-    if: github.actor != 'PJBot' && github.event.pull_request.draft == false
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
 
     steps:
@@ -52,6 +52,13 @@ jobs:
         run: |
           cd RobustToolbox/
           git submodule update --init --recursive
+
+      - name: Download parts
+        id: secrets
+        if: ${{ vars.SECRETSLINK != '' }}
+        uses: ./.github/actions/download-secrets
+        with:
+          secrets-url: ${{ secrets.SECRETS }}
 
       # ubuntu-latest has .NET 10
       - name: Setup .NET Core # Starlight start
@@ -72,6 +79,7 @@ jobs:
         run: dotnet run --project Content.Packaging client --log-build --no-wipe-release
 
       - uses: actions/upload-artifact@v4
+        if: steps.secrets.outputs.downloaded != 'true'
         with:
           name: binlogs
           path: release/*.binlog

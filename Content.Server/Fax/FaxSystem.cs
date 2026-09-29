@@ -1,3 +1,5 @@
+using System.Linq;
+using Content.Shared._DEN.Fax; // DEN edit
 using Content.Server.Administration;
 using Content.Server.Administration.Managers;
 using Content.Server.Chat.Managers;
@@ -693,8 +695,18 @@ public sealed partial class FaxSystem : EntitySystem
         _popupSystem.PopupEntity(Loc.GetString("fax-machine-popup-received", ("from", faxName)), uid);
         _appearanceSystem.SetData(uid, FaxMachineVisuals.VisualState, FaxMachineVisualState.Printing);
 
+        // DEN edit start
         if (component.NotifyAdmins)
+        {
+            var stampedBy = printout.StampedBy
+                .Select(stamp => Loc.GetString(stamp.StampedName))
+                .ToList();
+
+            var faxSent = new FaxSentEvent(printout.Content, faxName, stampedBy);
+            RaiseLocalEvent(faxSent);
             NotifyAdmins(faxName, printout); // Starlight edit
+        }
+        // DEN edit end
 
         component.PrintingQueue.Enqueue(printout);
     }

@@ -2,103 +2,110 @@ name: "Labels: Review"
 
 # Cancel older jobs on PRs when new changes are pushed
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.event.workflow_run.head_sha }}
   cancel-in-progress: true
 
 on:
   pull_request_target:
-    types: [opened, reopened, synchronize, ready_for_review, edited, review_requested, review_request_removed]
+    types: [ opened, reopened, synchronize, ready_for_review, edited, review_requested, review_request_removed ]
+  workflow_run:
+    workflows: [ "Labels: Review Trigger" ]
+    types: [ completed ]
+
+permissions: {}
 
 jobs:
-  collect_reviews:
+  label:
+    name: Label by team reviews
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
-    outputs:
-      approved: ${{ steps.reviews_parsed.outputs.approved }}
-      changes_requested: ${{ steps.reviews_parsed.outputs.changes_requested }}
-      commented: ${{ steps.reviews_parsed.outputs.commented }}
     steps:
-      - name: Get latest reviews
-        id: reviews
-        run: |
-          reviews=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/reviews \
-            | jq -c '
-              sort_by(.submitted_at)
-              | group_by(.user.login)
-              | map(last)
-            ')
-          echo "reviews=$reviews" >> $GITHUB_OUTPUT
-
-      - name: Parse reviewers by state
-        id: reviews_parsed
-        run: |
-          approved=$(echo '${{ steps.reviews.outputs.reviews }}' \
-            | jq -c '[ map(select(.state=="APPROVED")) | map(.user.login) ]')
-          changes_requested=$(echo '${{ steps.reviews.outputs.reviews }}' \
-            | jq -c '[ map(select(.state=="CHANGES_REQUESTED")) | map(.user.login) ]')
-          commented=$(echo '${{ steps.reviews.outputs.reviews }}' \
-            | jq -c '[ map(select(.state=="COMMENTED")) | map(.user.login) ]')
-
-          echo "approved=$approved" >> $GITHUB_OUTPUT
-          echo "changes_requested=$changes_requested" >> $GITHUB_OUTPUT
-          echo "commented=$commented" >> $GITHUB_OUTPUT
-
-  check_approved:
-    needs: collect_reviews
-    if: needs.collect_reviews.outputs.approved != '[]'
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        user: ${{ fromJSON(needs.collect_reviews.outputs.approved) }}
-    steps:
-      - uses: tspascoal/get-user-teams-membership@v3
-        id: membership
+      - name: Update review labels
+        uses: actions/github-script@v7
+        env:
+          REVIEW_TEAMS: ${{ vars.REVIEW_TEAMS }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          LABEL_APPROVED: "Статус: Одобрено"
+          LABEL_CHANGES: "Статус: Ожидает изменений"
         with:
-          username: ${{ matrix.user }}
-          team: "maintainer,dev"
-          GITHUB_TOKEN: ${{ secrets.LABELER_PAT }}
+          github-token: ${{ secrets.BOT_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
 
-      - name: Mark if approved by team
-        if: steps.membership.outputs.isTeamMember == 'true'
-        run: echo "approved_by_team=true" >> $GITHUB_ENV
+            let prNumber = context.payload.pull_request?.number;
+            if (!prNumber) {
+              const headSha = process.env.HEAD_SHA;
+              const pulls = await github.paginate(github.rest.pulls.list, { owner, repo, state: "open", per_page: 100 });
+              prNumber = pulls.find(p => p.head.sha === headSha)?.number;
+            }
+            if (!prNumber) {
+              core.info("Открытый PR не найден, пропускаем.");
+              return;
+            }
 
-  add_label_approved:
-    needs: check_approved
-    if: env.approved_by_team == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-    steps:
-      - uses: actions-ecosystem/action-add-labels@v1
-        with:
-          labels: "S: Approved"
+            const teams = (process.env.REVIEW_TEAMS || "").split(",").map(t => t.trim()).filter(Boolean);
+            if (teams.length === 0) {
+              core.setFailed("Не задана переменная REVIEW_TEAMS.");
+              return;
+            }
 
-  check_changes_requested:
-    needs: collect_reviews
-    if: needs.collect_reviews.outputs.changes_requested != '[]'
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        user: ${{ fromJSON(needs.collect_reviews.outputs.changes_requested) }}
-    steps:
-      - uses: tspascoal/get-user-teams-membership@v3
-        id: membership
-        with:
-          username: ${{ matrix.user }}
-          team: "maintainer,dev"
-          GITHUB_TOKEN: ${{ secrets.LABELER_PAT }}
+            const reviews = await github.paginate(github.rest.pulls.listReviews, { owner, repo, pull_number: prNumber, per_page: 100 });
+            const latest = new Map();
+            for (const review of reviews) {
+              if (["APPROVED", "CHANGES_REQUESTED", "DISMISSED"].includes(review.state))
+                latest.set(review.user.login, review.state);
+            }
 
-      - name: Mark if changes requested by team
-        if: steps.membership.outputs.isTeamMember == 'true'
-        run: echo "changes_by_team=true" >> $GITHUB_ENV
+            async function isTeamMember(username) {
+              for (const team_slug of teams) {
+                try {
+                  const { data } = await github.rest.teams.getMembershipForUserInOrg({ org: owner, team_slug, username });
+                  if (data.state === "active")
+                    return true;
+                } catch (e) {
+                  if (e.status !== 404)
+                    throw e;
+                }
+              }
+              return false;
+            }
 
-  add_label_changes:
-    needs: check_changes_requested
-    if: env.changes_by_team == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-    steps:
-      - uses: actions-ecosystem/action-add-labels@v1
-        with:
-          labels: "S: Awaiting Changes"
+            let approved = false;
+            let changesRequested = false;
+            for (const [login, state] of latest) {
+              if (state === "DISMISSED" || !(await isTeamMember(login)))
+                continue;
+              if (state === "APPROVED")
+                approved = true;
+              if (state === "CHANGES_REQUESTED")
+                changesRequested = true;
+            }
+
+            async function addLabel(name) {
+              await github.rest.issues.addLabels({ owner, repo, issue_number: prNumber, labels: [name] });
+            }
+            async function removeLabel(name) {
+              try {
+                await github.rest.issues.removeLabel({ owner, repo, issue_number: prNumber, name });
+              } catch (e) {
+                if (e.status !== 404)
+                  throw e;
+              }
+            }
+
+            const labelApproved = process.env.LABEL_APPROVED;
+            const labelChanges = process.env.LABEL_CHANGES;
+
+            // Запрос изменений от команды важнее одобрения
+            if (changesRequested) {
+              await addLabel(labelChanges);
+              await removeLabel(labelApproved);
+              core.info(`PR #${prNumber}: команда запросила изменения.`);
+            } else if (approved) {
+              await addLabel(labelApproved);
+              await removeLabel(labelChanges);
+              core.info(`PR #${prNumber}: одобрено командой.`);
+            } else {
+              await removeLabel(labelApproved);
+              core.info(`PR #${prNumber}: нет одобрений от команды.`);
+            }

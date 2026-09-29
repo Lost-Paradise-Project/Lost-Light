@@ -1,0 +1,4 @@
+# Starlight edit Start: Nukies cuff loss check
+nuke-ops-no-more-threat-announcement-shuttle-call = Сенсоры дальнего действия показывают, что ядерная угроза была устранена. Эвакуационный шаттл вызван. Расчётное время прибытия: { $time } { $units }. Вы можете отозвать шаттл чтобы продлить смену.
+nuke-ops-no-more-threat-announcement = Сенсоры дальнего действия показывают, что ядерная угроза была устранена. Эвакуационный шаттл уже в пути.
+# Starlight edit End

@@ -11,6 +11,7 @@ on:
 
 jobs:
   check-typo-directory:
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -21,11 +22,11 @@ jobs:
           bad_paths="$(find . -path './.git' -prune -o -type d -name '*StarLight*' -print)"
 
           if [ -n "$bad_paths" ]; then
-            echo "::error::Found folders using StarLight. They should use Starlight."
+            echo "::error::Найдены папки с написанием StarLight. Правильно - Starlight."
             echo "$bad_paths"
             exit 1
           else
-            echo "No StarLight folders found."
+            echo "Папок StarLight не найдено."
           fi
 
       - name: Validate _Starlight namespaces

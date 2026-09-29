@@ -1,0 +1,16 @@
+ent-LPPHypnogogglesPink = розовые очки
+    .desc = { ent-ClothingEyesBase.desc }
+ent-LPPHypnogogglesTeal = голубые очки
+    .desc = { ent-ClothingEyesBase.desc }
+ent-LPPClothingKblindfoldTeal = голубая повязка
+    .desc = Слепой ведёт слепого за собой.
+ent-LPPClothingKblindfoldPink = розовая повязка
+    .desc = Слепой ведёт слепого за собой.
+ent-LPPClothingEyesGlassesContractor = очки контрактника
+    .desc = Моновизор, с защитой от осколков, огромная линза требуется для вывода всевозможных дисплеев, от показателя здоровья до системы свой-чужой.
+ent-LPPClothingEyesGlassesSunglassesPG = защитные очки ПГ
+    .desc = Крепкие очки для защиты глаз.
+ent-LPPClothingEyesGlassesNVG = ПНВ ПГ
+    .desc = Классические "мультиколбочные" ЭОП ПНВ для максимального обзора.
+ent-LPPClothingEyesGlassesAviatorUEG = авиаторы ОПЗ
+    .desc =  Стильные авиаторы в кварцевом цвете, со встроенным визором.

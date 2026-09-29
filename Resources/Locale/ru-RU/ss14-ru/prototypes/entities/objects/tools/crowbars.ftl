@@ -1,0 +1,14 @@
+ent-BaseCrowbar = монтировка
+    .desc = Многофункциональный инструмент для различных задач, таких как открывание дверей или борьба с межпространственными захватчиками.
+ent-Crowbar = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarRed = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarGreen = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarOrange = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarYellow = { ent-BaseCrowbar }
+    .desc = { ent-BaseCrowbar.desc }
+ent-CrowbarAbductor = abductor's crowbar
+    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders.

@@ -1,7 +1,7 @@
 using Content.Shared.Dataset;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
-﻿using System.Linq;
+using System.Linq;
 
 namespace Content.Shared._Starlight.Thaven;
 

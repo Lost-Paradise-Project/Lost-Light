@@ -1,0 +1,15 @@
+name: "Labels: Review Trigger"
+
+on:
+  pull_request_review:
+    types: [ submitted, dismissed ]
+
+permissions: {}
+
+jobs:
+  trigger:
+    name: Review changed
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger
+        run: echo "Ревью в PR #${{ github.event.pull_request.number }} изменено"

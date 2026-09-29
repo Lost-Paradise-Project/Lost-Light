@@ -7,7 +7,7 @@ concurrency:
 
 on:
   push:
-    branches: [ master, staging, stable, Starlight ]
+    branches: [ master, stable ]
   merge_group:
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
@@ -15,7 +15,7 @@ on:
 jobs:
   yaml-schema-validation:
     name: YAML RGA schema validator
-    if: github.actor != 'PJBot' && github.event.pull_request.draft == false
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
@@ -23,6 +23,12 @@ jobs:
       run: git submodule update --init
     - name: Pull engine updates
       uses: space-wizards/submodule-dependency@v0.1.5
+    - name: Download parts
+      if: ${{ vars.SECRETSLINK != '' }}
+      uses: ./.github/actions/download-secrets
+      with:
+        secrets-url: ${{ secrets.SECRETS }}
+
     - uses: PaulRitter/yaml-schema-validator@v1
       with:
         schema: Tools/Schemas/rga.yml

@@ -10,7 +10,7 @@ on:
 
 jobs:
   labeler:
-    if: github.actor != 'PJBot'
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
     permissions:
       contents: read
       pull-requests: write
@@ -18,3 +18,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/labeler@v5
+      with:
+        repo-token: ${{ secrets.BOT_TOKEN }}

@@ -1,0 +1,17 @@
+ent-AtmosFixBlockerMarker = Атмос маркер Вакум
+    .desc = Вакум, T20C
+ent-AtmosFixOxygenMarker = Атмос маркер Кислород
+    .desc = Кислород @ gas miner pressure, T20C
+ent-AtmosFixNitrogenMarker = Атмос маркер Азот
+    .desc = Азот @ gas miner pressure, T20C
+ent-AtmosFixPlasmaMarker = Атмос маркер Плазма
+    .desc = Плазма @ gas miner pressure, T20C
+ent-AtmosFixInstantPlasmaFireMarker = Атмос маркер плазменного огня
+    .desc = МГНОВЕННЫЙ ПЛАЗМЕННЫЙ ОГОНЬ
+ent-AtmosFixFreezerMarker = Атмос маркер Холодный воздух
+    .desc = Измените температуру воздуха на 235°К (-38,15°С), чтобы морозильная камера имела достаточно места для настройки.
+ent-AtmosFixVoxMarker = { ent-AtmosFixNitrogenMarker }
+    .desc = Азот @ 101 kPa, 20C
+    .suffix = Атмосфера для Воксов
+ent-AtmosFixAirMarker = Атмос маркер Воздух
+    .desc = Кислород (21%) и Азот (79%) @ давление газового шахтера, T20C

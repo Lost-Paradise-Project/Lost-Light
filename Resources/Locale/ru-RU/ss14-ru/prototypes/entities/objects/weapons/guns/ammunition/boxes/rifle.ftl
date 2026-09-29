@@ -1,0 +1,16 @@
+ent-BaseMagazineBoxRifle = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxRifleBig = ящик патронов (.20 винтовочные)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRifleSP = ammunition box (.20 rifle SP)
+    .desc = A cardboard box of .20 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+ent-MagazineBoxRifleHP = ammunition box (.20 rifle HP)
+    .desc = { ent-BaseMagazineBoxRifle.desc }
+ent-MagazineBoxRiflePractice = коробка патронов (.20 винтовочные учебные)
+    .desc = Картонная коробка патронов .20 винтовочные. Предназначена для хранения безвредных учебных боеприпасов.
+ent-MagazineBoxRifleIncendiary = коробка патронов (.20 винтовочные зажигательные)
+    .desc = Картонная коробка патронов .20 винтовочные. Предназначена для хранения самовоспламеняющихся зажигательных боеприпасов.
+ent-MagazineBoxRifleUranium = коробка патронов (.20 винтовочные урановые)
+    .desc = Картонная коробка патронов .20 винтовочные. Предназначена для хранения экзотических боеприпасов с урановым сердечником.
+ent-MagazineBoxRifle = коробка патронов (.20 винтовочные)
+    .desc = Картонная коробка патронов .20 винтовочные. Предназначена для хранения кинетических боеприпасов общего назначения.

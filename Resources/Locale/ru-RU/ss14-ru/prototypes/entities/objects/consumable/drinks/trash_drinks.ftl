@@ -1,0 +1,12 @@
+ent-DrinkBottleBaseEmpty = { ent-DrinkBaseOpenableOpen }
+    .desc = { ent-DrinkBaseOpenableOpen.desc }
+    .suffix = { ent-DrinkBaseEmptyTrash.suffix }
+ent-DrinkBottleBaseSmallEmpty = { ent-DrinkBaseOpenableOpen }
+    .desc = { ent-DrinkBaseOpenableOpen.desc }
+    .suffix = { ent-DrinkBaseEmptyTrash.suffix }
+ent-DrinkCartonBaseEmpty = { ent-DrinkBaseOpenableOpen }
+    .desc = { ent-DrinkBaseOpenableOpen.desc }
+    .suffix = { ent-DrinkBaseEmptyTrash.suffix }
+ent-DrinkCartonBaseLargeEmpty = { ent-DrinkBaseOpenableOpen }
+    .desc = { ent-DrinkBaseOpenableOpen.desc }
+    .suffix = { ent-DrinkBaseEmptyTrash.suffix }

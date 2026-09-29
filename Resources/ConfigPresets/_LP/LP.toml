@@ -1,0 +1,119 @@
+[game]
+hostname = "[18+][RU] 🔥 LOST PARADISE ❤️"
+desc = "- Мы проект со средним требованием к отыгрышу с разрешенным ЕРП. \n- Наша цель это создание приятного времяпрепровождения для всех игроков не зависимо от их предпочитаемого геймплея \n- Присоединяйтесь в наше Дискорд сообщество"
+lobbyduration = 120
+map_pool = "LPmaps"
+soft_max_players = 111
+hostname_in_titlebar = false
+admin_job_tracking = true
+peaceful_end = true
+maxcharacterslots = 5
+fuck_mapping = true
+autogamma_enabled = true
+reset_preset_after_restart = true
+
+[lobby]
+server_name = "Lost Paradise 4.0"
+
+[infolinks]
+discord = "https://wiki.lost-paradise.space/discord"
+github = "https://github.com/Lost-Paradise-Project/Paradise-Rebornger"
+wiki = "http://wiki.lost-paradise.space/"
+website = "https://boosty.to/lost-paradise"
+appeal = "https://discord.gg/lost-paradise-14"
+
+[game.panic_bunker]
+enabled = false
+show_reason = true
+min_account_age = 300
+min_overall_minutes = 300
+enable_without_admins = false
+disable_with_admins = true
+
+[server]
+rules_file = "LPPRuleset"
+force_client_hud_version_watermark = true
+
+[hub]
+tags = "lang:ru,region:eu_e,rp:med,rp:high,18+"
+
+[shuttle]
+arrivals_planet = false
+emergency_early_launch_allowed = true
+arrivals_map = "/Maps/_LP/Misc/paradise_terminal.yml"
+auto_call_time = 180
+
+[viewport]
+maximum_width = 26
+
+[netres]
+store_deletion_days = 7
+limit = 25.0
+
+[admin]
+admins_count_in_playercount = true
+see_own_notes = true
+
+[ahelp]
+rate_limit_count = 2
+rate_limit_period = 10
+admin_prefix = true
+admin_prefix_webhook = true
+
+[votekick]
+enabled = false
+
+[bug_reports]
+enable_player_bug_reports = true
+
+[vote]
+enabled = true
+same_type_timeout = 300.0
+timerrestart = 30
+map_enabled = true
+preset_enabled = true
+restart_enabled = false
+run_map_vote_after_restart = true
+run_preset_vote_after_restart = true
+
+[rules]
+time = 30.0
+
+[discord]
+rich_main_icon_id = "https://iili.io/f85IYyQ.png"
+
+[interaction]
+rate_limit_announce_admins_delay = -1
+
+[atmos]
+space_wind = true
+
+[ic]
+flavor_text = true
+flavor_text_length = 1024
+secrets_text = true
+secrets_exploitable = true
+inspect_windows = true
+
+[ooc]
+rp_notes = true
+
+[biomass]
+easy_mode = false
+
+[tips]
+out_of_game_frequency = 360
+
+[adminlogs]
+high_log_playtime = -1
+
+[cw]
+display = true
+
+[nulllink.roles_req]
+title_builder = "<ID нашего titleBuilder>"
+admin_builder = "<ID нашего adminRankBuilder>"
+mentors = "<ID roleRequirementPrototype менторов>"
+all-roles = "<ID roleRequirementPrototype «все роли»>"
+peaceful_bypass = "<ID roleRequirementPrototype обхода мирного режима>"
+panic_bunker_bypass = "<ID roleRequirementPrototype обхода бункера>"

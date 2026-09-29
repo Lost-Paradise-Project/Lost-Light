@@ -15,11 +15,11 @@ jobs:
           script: |
             const pr = context.payload.pull_request;
             if (!pr) {
-              core.setFailed("No PR data found!");
+              core.setFailed("Нет данных о PR!");
               return;
             }
             const labels = pr.labels.map(l => l.name);
-            if (labels.includes("Changes: Map")) {
+            if (labels.includes(":world_map: Карты :world_map:")) {
               core.setOutput("notify", "true");
             } else {
               core.setOutput("notify", "false");
@@ -34,7 +34,7 @@ jobs:
           script: |
             const pr = context.payload.pull_request;
             if (!pr) {
-              core.setFailed("No PR data found!");
+              core.setFailed("Нет данных о PR!");
               return;
             }
 
@@ -42,14 +42,14 @@ jobs:
             const { URL } = require("url");
             const url = process.env.DISCORD_WEBHOOK;
             if (!url) {
-              core.setFailed("No Discord webhook provided.");
+              core.info("Вебхук Discord не задан, уведомление не отправлено.");
               return;
             }
 
             // Prepare a single embed object
             const embed = {
-              title: "New PR with map changes!",
-              description: pr.title || "Untitled PR",
+              title: "Новый PR с изменениями карт!",
+              description: pr.title || "PR без названия",
               url: pr.html_url,
               color: 16776960,
               fields: [],
@@ -72,20 +72,20 @@ jobs:
             }
 
             // Split the PR body to avoid Discord's 1024-char field limit
-            const prBody = pr.body || "No description provided";
+            const prBody = pr.body || "Описание отсутствует";
             const bodyChunks = chunkString(prBody, 1024);
 
             // Add each chunk as a separate field (up to 25 fields total)
             if (bodyChunks.length === 1) {
               embed.fields.push({
-                name: "Description",
+                name: "Описание",
                 value: bodyChunks[0],
                 inline: false
               });
             } else {
               for (let i = 0; i < bodyChunks.length && i < 25; i++) {
                 embed.fields.push({
-                  name: `Description (part ${i+1}/${bodyChunks.length})`,
+                  name: `Описание (часть ${i+1}/${bodyChunks.length})`,
                   value: bodyChunks[i],
                   inline: false
                 });
@@ -95,17 +95,17 @@ jobs:
             // Add other PR info as separate fields
             embed.fields.push(
               {
-                name: "Author",
+                name: "Автор",
                 value: pr.user.login,
                 inline: true
               },
               {
-                name: "Repository",
+                name: "Репозиторий",
                 value: process.env.GITHUB_REPOSITORY,
                 inline: true
               },
               {
-                name: "PR Number",
+                name: "Номер PR",
                 value: `#${pr.number}`,
                 inline: true
               }
@@ -137,15 +137,15 @@ jobs:
               res.on("data", chunk => body += chunk);
               res.on("end", () => {
                 if (res.statusCode < 200 || res.statusCode >= 300) {
-                  core.setFailed(`Discord webhook returned ${res.statusCode}: ${body}`);
+                  core.setFailed(`Вебхук Discord вернул ${res.statusCode}: ${body}`);
                 } else {
-                  core.info("Successfully sent notification to Discord.");
+                  core.info("Уведомление отправлено в Discord.");
                 }
               });
             });
 
             req.on("error", err => {
-              core.setFailed(`Failed to send message: ${err.message}`);
+              core.setFailed(`Не удалось отправить сообщение: ${err.message}`);
             });
 
             req.write(data);

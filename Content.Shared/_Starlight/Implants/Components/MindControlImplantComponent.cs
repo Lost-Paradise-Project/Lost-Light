@@ -1,7 +1,7 @@
 ﻿using Robust.Shared.Audio;
 
 namespace Content.Shared._Starlight.Implants.Components;
-﻿
+
 /// <summary>
 /// Component for Mind Control implants.
 /// </summary>

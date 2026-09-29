@@ -1,0 +1,2 @@
+ent-BaseMobRat = { "" }
+    .desc = { "" }

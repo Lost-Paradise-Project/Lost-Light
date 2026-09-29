@@ -1,0 +1,2 @@
+ent-EffectFlashBluespaceSimple = { "" }
+    .desc = { "" }

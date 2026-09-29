@@ -15,7 +15,7 @@ on:
 
 jobs:
   Label:
-    if: ( github.event.pull_request.draft == false ) && ( github.actor != 'PJBot' )
+    if: ( github.event.pull_request.draft == false ) && ( github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' )
     permissions:
       contents: read
       pull-requests: write
@@ -25,6 +25,6 @@ jobs:
       - name: Check for Merge Conflicts
         uses: eps1lon/actions-label-merge-conflict@v3.0.0
         with:
-          dirtyLabel: "S: Merge Conflict"
-          repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          commentOnDirty: "This pull request has conflicts, please resolve those before we can evaluate the pull request."
+          dirtyLabel: "Статус: Конфликт"
+          repoToken: "${{ secrets.BOT_TOKEN }}"
+          commentOnDirty: "В этом PR есть конфликты слияния. Пожалуйста, разрешите их, чтобы мы могли рассмотреть изменения."

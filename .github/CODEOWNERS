@@ -1,11 +1,22 @@
-# STARLIGHT
-# Keep this file as it is when merging upstream, we dont want anything from the upstream version
-# Maintainer is needed on each as the latest rule takes precedence
-* @ss14Starlight/maintainer
-/Content.*/ @ss14Starlight/maintainer @ss14Starlight/dev
-/Resources/Textures/ @ss14Starlight/maintainer @ss14Starlight/spriters
-/Resources/Maps/ @ss14Starlight/maintainer @ss14Starlight/mappers
-/Resources/Prototypes/ @ss14Starlight/maintainer @ss14Starlight/prototypers
-/Resources/ServerInfo/ @ss14Starlight/maintainer @ss14Starlight/wiki
+# Приоритет у последнего подходящего правила в файле.
 
-/Resources/Prototypes/_NullLink/ @StarlightHost
+# Уведомление обо всех PR
+* @BL02DL
+
+# Прототипы
+*.yml @MegaDaimond @BL02DL
+
+# C#
+*.cs @BL02DL @SpicyDarkFox
+*.xaml @BL02DL @SpicyDarkFox
+
+# Карты
+/Resources/Prototypes/Maps/** @PowerKAT1 @BL02DL
+/Resources/Prototypes/**/Maps/** @PowerKAT1 @BL02DL
+/Resources/Maps/** @PowerKAT1 @BL02DL
+
+# Переводы
+*.ftl @PowerKAT1 @Evgencheg
+
+# Руководства
+*.xml @PowerKAT1 @BL02DL

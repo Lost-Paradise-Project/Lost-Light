@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       commits_count:
-        description: 'Number of recent commits to check'
+        description: 'Сколько последних коммитов проверить'
         required: false
         default: '10'
         type: string
@@ -20,7 +20,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch full history
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -34,24 +35,25 @@ jobs:
       - name: Find Missing Changelog PRs
         id: find_prs
         env:
-          CHANGELOG_FILE_PATH: 'Resources/Changelog/ChangelogStarlight.yml'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHANGELOG_FILE_PATH: 'Resources/Changelog/ChangelogLP.yml'
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           COMMITS_COUNT: ${{ inputs.commits_count }}
+          CHANGELOG_BRANCH: ${{ github.ref_name }}
         run: |
           python ./Tools/_Starlight/backfill_changelog.py
 
       - name: Process Missing PRs
         if: steps.find_prs.outputs.missing_prs != '[]'
         env:
-          CHANGELOG_FILE_PATH: 'Resources/Changelog/ChangelogStarlight.yml'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHANGELOG_FILE_PATH: 'Resources/Changelog/ChangelogLP.yml'
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           missing_prs='${{ steps.find_prs.outputs.missing_prs }}'
           echo "Processing PRs: $missing_prs"
 
-          # Parse JSON array and process each PR
+          # Разбираем JSON-массив и обрабатываем каждый PR
           echo "$missing_prs" | jq -r '.[]' | while read pr_number; do
             echo "Processing PR #$pr_number"
             export PR_NUMBER=$pr_number
@@ -65,22 +67,22 @@ jobs:
 
       - name: Display changelog after backfill
         run: |
-          if [ -f "Resources/Changelog/ChangelogStarlight.yml" ]; then
-            echo "=== Changelog updated ==="
+          if [ -f "Resources/Changelog/ChangelogLP.yml" ]; then
+            echo "=== Чейнджлог обновлён ==="
             git diff --name-only
           else
-            echo "Changelog file not found"
+            echo "Файл чейнджлога не найден"
           fi
 
       - name: Commit and push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "Resources/Changelog/ChangelogStarlight.yml"
+          git config user.name "${{ vars.CHANGELOG_USER }}"
+          git config user.email "${{ vars.CHANGELOG_EMAIL }}"
+          git add "Resources/Changelog/ChangelogLP.yml"
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "Нет изменений для коммита."
           else
             git pull origin ${{ github.ref_name }}
-            git commit -m "Backfill changelog entries [skip ci]"
+            git commit -m "Добавлены пропущенные записи чейнджлога [skip ci]"
             git push origin ${{ github.ref_name }}
           fi

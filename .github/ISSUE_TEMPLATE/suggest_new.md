@@ -1,14 +1,14 @@
 ---
-name: Suggest new
-about: Request the developers to add something new.
-title: "[Suggestion]"
-labels: "Under review"
-assignees: ss14-Starlight
+name: Предложение
+about: Попросить разработчиков добавить что-то новое.
+title: "[Предложение]"
+labels: "Статус: Не разобрано"
+assignees: ''
 
 ---
 
-**Describe what you want**
-<!-- A clear and concise description of what you want and what it should do. -->
+**Что вы предлагаете**
+<!-- Чёткое и краткое описание того, что вы хотите и как это должно работать. -->
 
-**Additional Context**
-<!-- Add any other context or screenshots related to the feature request here. -->
+**Дополнительная информация**
+<!-- Любые другие подробности или скриншоты, связанные с предложением. -->

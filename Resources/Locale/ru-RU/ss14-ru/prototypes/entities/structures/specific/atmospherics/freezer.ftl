@@ -1,0 +1,15 @@
+ent-AirSensorFreezerBase = { ent-AirSensorBase }
+    .desc = { ent-AirSensorBase.desc }
+    .suffix = Атмосфера холодильника
+ent-AirSensorFreezer = { ent-AirSensor }
+    .desc = { ent-AirSensor.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-GasVentPumpFreezer = { ent-GasVentPump }
+    .desc = { ent-GasVentPump.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-GasVentScrubberFreezer = { ent-GasVentScrubber }
+    .desc = { ent-GasVentScrubber.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-AirAlarmFreezer = freezer air alarm
+    .desc = An air alarm set up for use in freezers. It doesn't raise an alarm about the cold.
+    .suffix = Атмосфера холодильника, авто-режим отключён

@@ -8,6 +8,9 @@ Automatically figures out the last run and changelog contents with the GitHub AP
 
 import itertools
 import os
+# LP edit
+import sys
+# LP edit end
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -20,9 +23,12 @@ DEBUG_CHANGELOG_FILE_OLD = Path("Resources/Changelog/Old.yml")
 GITHUB_API_URL = os.environ.get("GITHUB_API_URL", "https://api.github.com")
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
-DISCORD_CHANGELOG_ROLE_ID = int(os.environ.get("DISCORD_CHANGELOG_ROLE_ID", "1308143973684088883"))
+# LP edit start
+# ID роли Discord для пинга; пусто — без пинга
+DISCORD_CHANGELOG_ROLE_ID = os.environ.get("DISCORD_CHANGELOG_ROLE_ID", "").strip()
 
-CHANGELOG_FILE = "Resources/Changelog/ChangelogStarlight.yml"
+CHANGELOG_FILE = os.environ.get("CHANGELOG_FILE_PATH", "Resources/Changelog/ChangelogLP.yml")
+# LP edit end
 TYPES_TO_EMOJI = {"Fix": "🐛", "Add": "🆕", "Remove": "❌", "Tweak": "⚒️"}
 ChangelogEntry = dict[str, Any]
 
@@ -43,7 +49,7 @@ def main():
         last_changelog_stream = get_last_changelog()
 
     last_changelog = yaml.safe_load(last_changelog_stream) or {}
-    with open(CHANGELOG_FILE, "r") as f:
+    with open(CHANGELOG_FILE, "r", encoding="utf-8") as f: # LP edit
         cur_changelog = yaml.safe_load(f) or {}
 
     new_entries = list(diff_changelog(last_changelog, cur_changelog))
@@ -51,7 +57,10 @@ def main():
         print("No new entries to report.")
         return
 
-    ping_role_once(str(DISCORD_CHANGELOG_ROLE_ID))
+    # LP edit start
+    if DISCORD_CHANGELOG_ROLE_ID:
+        ping_role_once(DISCORD_CHANGELOG_ROLE_ID)
+    # LP edit end
 
     pr_groups = group_entries_by_pr(new_entries)
     for pr_id, entries in pr_groups.items():
@@ -155,7 +164,7 @@ def build_embed_for_pr(pr_id: str, entries: list[ChangelogEntry]) -> dict[str, A
 
     description = "\n".join(description_lines)
     if len(description) > EMBED_DESCRIPTION_LIMIT:
-        description = description[: EMBED_DESCRIPTION_LIMIT - 50].rstrip() + "\n*...truncated...*"
+        description = description[: EMBED_DESCRIPTION_LIMIT - 50].rstrip() + "\n*...обрезано...*" # LP edit
 
     sorted_authors = sorted(authors)
     authors_str = ", ".join(sorted_authors)
@@ -182,7 +191,7 @@ def build_embed_for_pr(pr_id: str, entries: list[ChangelogEntry]) -> dict[str, A
   #      "fields": [
   #          {"name": "Author(s)", "value": author_field[:EMBED_FIELD_VALUE_LIMIT], "inline": False}
   #      ],
-        "footer": {"text": "Starlight changelog"},
+        "footer": {"text": "Lost Paradise: список изменений"}, # LP
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     }
     if pr_id != "no-pr":
@@ -199,7 +208,7 @@ def send_embed(embed: dict[str, Any]):
 
 
 def ping_role_once(role_id: str):
-    content = f"<@&{role_id}> New changelog updates are ready for release."
+    content = f"<@&{role_id}> Вышли новые изменения!" # LP
     payload = {
         "content": content,
         "allowed_mentions": {"roles": [int(role_id)]},

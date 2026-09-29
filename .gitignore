@@ -314,3 +314,16 @@ Resources/MapImages
 .direnv/
 .idea/
 /Resources/Textures/_Starlight/Logo/CClogo - Copy.png
+
+# locale fix
+!Resources/Locale/**
+# Secret
+**/NewSecrets/
+**/PShared*/
+**/PServer*/
+**/PClient*/
+**/PScripts*/
+**/PPrototypes*/
+**/PTextures*/
+**/pprototypes*/
+Scripts/logs/

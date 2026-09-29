@@ -18,14 +18,14 @@ jobs:
       - name: size-label
         uses: "pascalgn/size-label-action@v0.5.5"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
         with:
           # Custom size configuration
           sizes: >
             {
-              "0": "XS",
-              "10": "S",
-              "100": "M",
-              "1000": "L",
-              "5000": "XL"
+              "0": "Размер: XS",
+              "10": "Размер: S",
+              "100": "Размер: M",
+              "1000": "Размер: L",
+              "5000": "Размер: XL"
             }

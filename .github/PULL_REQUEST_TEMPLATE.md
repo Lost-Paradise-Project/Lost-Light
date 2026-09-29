@@ -1,29 +1,35 @@
-## Short description
-<!-- What do you propose to change with your PR? -->
+<!-- Рекомендации: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
 
-## Why we need to add this
-<!-- What is the reason for adding these changes? Please post links to Discussions as well as Bug Reports here. Please describe how this will change the game balance. -->
+## Описание PR
+<!-- Что вы изменили? -->
 
-## Media (Video/Screenshots)
+## Почему / Баланс
+<!-- Обсудите, как это повлияет на баланс игры или объясните, почему это было изменено. Укажите ссылки на соответствующие обсуждения или issue. -->
+
+## Технические детали
+<!-- Краткое описание изменений в коде для облегчения проверки. -->
+
+## Медиа
+<!-- Прикрепите медиафайлы, если PR вносит изменения в игру (одежда, предметы, механики и т.д.).
+Небольшие исправления/рефакторинг освобождаются от этого требования. -->
+
+## Требования
+<!-- Подтвердите следующее, поставив X в скобках без пробелов [X]: -->
+- [ ] Я прочитал(а) и следую [Рекомендациям по оформлению Pull Request и Changelog](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+- [ ] Я добавил(а) медиафайлы к этому PR или он не требует демонстрации в игре.
+<!-- Вы должны понимать, что несоблюдение вышеуказанного может привести к закрытию вашего PR по усмотрению сопровождающего -->
+
+## Критические изменения
+<!-- Перечислите все критические изменения, включая изменения пространств имен, публичных классов/методов/полей, переименования прототипов; и предоставьте инструкции по их исправлению. -->
+
+**Список изменений**
+<!-- Добавьте запись в Changelog, чтобы игроки знали о новых функциях или изменениях, которые могут повлиять на игровой процесс.
+Убедитесь, что вы прочитали рекомендации и вынесли этот шаблон Changelog из блока комментариев, чтобы он отображался.
+Changelog должен иметь символ :cl:, чтобы бот распознал изменения и добавил их в список изменений игры. -->
 <!--
-If your PR contains in-game changes you must provide screenshots/videos of the changes.
--->
-
-## Checks
-<!-- check boxes for faster reviewing of your PR -->
-
-- [ ] I do not require assistance to complete the PR.
-- [ ] Before posting/requesting review of a PR, I have verified that the changes work.
-- [ ] I have added screenshots/videos of the changes, or this PR does not change in-game mechanics.
-- [ ] I affirm that my changes are licensed under the [MIT License](https://github.com/ss14Starlight/space-station-14/blob/Starlight/LICENSE.TXT) and grant permission for use in this repository under its conditions.
-
-**Changelog**
-<!--
-If you want the players to know about changes made in this PR, specify them using the template outside the comment. Short and informative.
-
-:cl: STARLIGHT TEAM
-- add: Added Starlight.
-- remove: Removed SS13.
-- tweak: Changed SS14.
-- fix: Fixed Rinary.
+:cl:
+- add: Добавлено веселье!
+- remove: Удалено веселье!
+- tweak: Изменено веселье!
+- fix: Исправлено веселье!
 -->

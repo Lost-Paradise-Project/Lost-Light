@@ -1,0 +1,16 @@
+ent-FiringPin = боёк
+    .desc = Кому-то это сейчас, наверное, очень нужно...
+ent-FiringPinPistol = пистолетный боёк
+    .desc = { ent-FiringPin.desc }
+ent-FiringPinMakeshift = самодельный боёк
+    .desc = Это гвоздь. Приваренный к крышке от бутылки.
+ent-FiringPinSmartLMG = умная затворная рама
+    .desc = Единственная в своем роде, незаменимая. Включает в себя счетчик патронов.
+ent-FiringPinLaser = лазерный кристалл
+    .desc = Хрупкий, совсем как ассистенты, убитые им.
+ent-FiringPinAdvancedLaser = прототип лазерного кристалла
+    .desc = "НЕ РОНЯТЬ" — выгравировано на боку. Да какая разница.
+ent-FiringPinExpedition = экспедиционный боёк
+    .desc = Этот универсальный боёк предотвращает выстрел из оружия на станции, что полезно для контроля вооружения, используемого в экспедициях за пределами станции.
+ent-FiringPinMelted = melted firing pin
+    .desc = A lump of metal that used to be a firing pin, before someone kept shooting.

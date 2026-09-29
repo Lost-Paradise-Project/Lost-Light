@@ -1,0 +1,15 @@
+ent-BaseCartridgePistol = патрон (.35 авто)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgePistolSP = cartridge (.35 auto SP)
+    .desc = Arguably the most popular caliber on the market, used by all manner of pistols and submachine guns. Standard kinetic ammunition is common and useful in most situations.
+ent-CartridgePistolPractice = патрон (.35 авто учебный)
+    .desc = Пожалуй, самый популярный калибр на рынке, используемый во всевозможных пистолетах и пистолетах-пулемётах. Учебный боеприпас выстреливает меловым снарядом, который немного жалит, но в остальном не наносит стойкого вреда.
+ent-CartridgePistolIncendiary = патрон (.35 авто зажигательный)
+    .desc = Пожалуй, самый популярный калибр на рынке, используемый во всевозможных пистолетах и пистолетах-пулемётах. Зажигательный боеприпас содержит самовоспламеняющийся состав, поджигающий цели.
+ent-CartridgePistolUranium = патрон (.35 авто урановый)
+    .desc = Пожалуй, самый популярный калибр на рынке, используемый во всевозможных пистолетах и пистолетах-пулемётах. Урановый боеприпас заменяет свинцовый сердечник пули на делящийся материал, облучая цели изнутри.
+ent-CartridgePistolSpent = патрон (.35 авто)
+    .desc = { ent-BaseCartridgePistol.desc }
+    .suffix = Использован
+ent-CartridgePistol = патрон (.35 авто)
+    .desc = Пожалуй, самый популярный калибр на рынке, используемый во всевозможных пистолетах и пистолетах-пулемётах. Стандартный кинетический боеприпас распространён и полезен в большинстве ситуаций.

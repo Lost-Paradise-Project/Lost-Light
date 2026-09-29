@@ -1,0 +1,2 @@
+ent-EffectSpark = искры
+    .desc = { "" }

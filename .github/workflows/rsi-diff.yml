@@ -13,7 +13,11 @@ on:
 jobs:
   diff:
     name: Diff
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -40,7 +44,7 @@ jobs:
           headsha: ${{ github.event.pull_request.head.sha }}
 
       - name: Potentially find comment
-        uses: peter-evans/find-comment@v1
+        uses: peter-evans/find-comment@v3
         id: fc
         with:
           issue-number: ${{ github.event.number }}
@@ -49,7 +53,7 @@ jobs:
 
       - name: Create comment if it doesn't exist
         if: steps.fc.outputs.comment-id == ''
-        uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.number }}
           body: |
@@ -57,7 +61,7 @@ jobs:
 
       - name: Update comment if it exists
         if: steps.fc.outputs.comment-id != ''
-        uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: replace
@@ -66,9 +70,9 @@ jobs:
 
       - name: Update comment to read that it has been edited
         if: steps.fc.outputs.comment-id != ''
-        uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: append
           body: |
-            Edit: diff updated after ${{ github.event.pull_request.head.sha }}
+            Дифф обновлён после коммита ${{ github.event.pull_request.head.sha }}
