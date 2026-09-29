@@ -1,18 +1,15 @@
 {
     "version": 1,
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
     "license": "CC-BY-SA-3.0",
     "copyright": "Made by JustAdler for https://github.com/ss14Starlight/space-station-14",
-    "states":
-    [
+    "states": [
         {
             "name": "icon",
-            "delays":
-            [
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -23,8 +20,7 @@
         },
         {
             "name": "icon_empty",
-            "delays":
-            [
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -35,8 +31,7 @@
         },
         {
             "name": "fill-1",
-            "delays":
-            [
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -47,8 +42,7 @@
         },
         {
             "name": "fill-2",
-            "delays":
-            [
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -59,8 +53,7 @@
         },
         {
             "name": "fill-3",
-            "delays":
-            [
+            "delays": [
                 [
                     0.2,
                     0.2,

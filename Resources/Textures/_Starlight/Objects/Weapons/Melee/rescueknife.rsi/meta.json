@@ -1,23 +1,23 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "folded",
-      "copyright": "SevenShades"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "icon",
-      "copyright": "SevenShades"
-    },
-    {
-      "name": "stored",
-      "copyright": "SevenShades"
-    }
-  ]
+    "states": [
+        {
+            "name": "folded",
+            "copyright": "SevenShades"
+        },
+        {
+            "name": "icon",
+            "copyright": "SevenShades"
+        },
+        {
+            "name": "stored",
+            "copyright": "SevenShades"
+        }
+    ]
 }

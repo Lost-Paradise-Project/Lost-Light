@@ -1,4 +1,4 @@
-﻿using Content.Client.UserInterface;
+using Content.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 
 namespace Content.Client._Moffstation.BladeServer.UI;

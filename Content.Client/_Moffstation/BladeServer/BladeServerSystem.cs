@@ -1,4 +1,4 @@
-﻿using Content.Client.Examine;
+using Content.Client.Examine;
 using Content.Client.Verbs.UI;
 using Content.Shared._Moffstation.BladeServer;
 using Robust.Client.UserInterface;

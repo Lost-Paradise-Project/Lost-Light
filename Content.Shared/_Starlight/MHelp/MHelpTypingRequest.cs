@@ -1,4 +1,4 @@
-﻿#nullable enable
+#nullable enable
 using Robust.Shared.Serialization;
 
 namespace Content.Shared._Starlight.MHelp;

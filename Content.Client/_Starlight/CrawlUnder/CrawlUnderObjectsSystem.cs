@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.CrawlUnder;
+using Content.Shared._Starlight.CrawlUnder;
 using Robust.Shared.Timing;
 
 namespace Content.Client._Starlight.CrawlUnder;

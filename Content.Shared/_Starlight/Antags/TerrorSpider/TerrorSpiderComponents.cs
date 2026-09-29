@@ -1,4 +1,4 @@
-﻿using Content.Shared.Actions.Components;
+using Content.Shared.Actions.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 

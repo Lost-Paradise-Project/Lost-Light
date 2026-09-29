@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Antags.Abductor.Components;
+using Content.Shared._Starlight.Antags.Abductor.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 

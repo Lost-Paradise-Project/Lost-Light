@@ -1,4 +1,4 @@
-﻿- type: quickConstructionCategory
+- type: quickConstructionCategory
   id: Glass
   constructionEntries:
     - SheetRGlass # SL

@@ -28,8 +28,8 @@
             "name": "equipped-head-unshaded",
             "directions": 4
         },
-		{
-			"name": "light-overlay"
-		}
+        {
+            "name": "light-overlay"
+        }
     ]
 }

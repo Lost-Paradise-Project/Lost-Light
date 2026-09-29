@@ -1,4 +1,4 @@
-﻿using Content.Shared.Alert;
+using Content.Shared.Alert;
 
 namespace Content.Shared._Starlight.Railroading;
 

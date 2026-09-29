@@ -1,4 +1,4 @@
-﻿advertisement-donkpocket-1 = With great flavor comes great responsibility!
+advertisement-donkpocket-1 = With great flavor comes great responsibility!
 advertisement-donkpocket-2 = The Brothers DONK, new episodes streaming every Thursday on Donk Plus!
 advertisement-donkpocket-3 = Quality food for low prices!
 advertisement-donkpocket-4 = Better fed than dead!

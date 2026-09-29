@@ -1,4 +1,4 @@
-﻿# This was peeled off of upstream's `ResearchAndDevelopmentServer`. Changes to that prototype from upstream should be
+# This was peeled off of upstream's `ResearchAndDevelopmentServer`. Changes to that prototype from upstream should be
 # carefully considered to be added here or there, depending on whether it should affect just the machine variant, or all
 # variants of the R&D server.
 - type: entity

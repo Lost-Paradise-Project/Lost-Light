@@ -1,4 +1,4 @@
-﻿namespace Content.Server._Starlight.TextToSpeech;
+namespace Content.Server._Starlight.TextToSpeech;
 
 public enum TTSEffect
 {

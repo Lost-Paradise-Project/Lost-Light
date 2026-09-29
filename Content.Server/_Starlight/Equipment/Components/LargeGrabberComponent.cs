@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Shared.DoAfter;
 using Content.Shared.Whitelist;
 using Robust.Shared.Audio;

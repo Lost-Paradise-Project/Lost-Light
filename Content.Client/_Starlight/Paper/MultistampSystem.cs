@@ -39,4 +39,3 @@ public sealed partial class MultistampSystem : SharedMultistampSystem
             else _sprite.LayerSetColor((uid, sprite), 1, Color.White);
         }
     }
-

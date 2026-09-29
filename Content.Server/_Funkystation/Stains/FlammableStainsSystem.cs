@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using Content.Server._Funkystation.Atmos.Events;
 using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;

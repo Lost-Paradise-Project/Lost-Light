@@ -10,31 +10,31 @@
         {
             "name": "cart",
             "directions": 4,
-			"copyright": "Conflee, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "Conflee, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "icon",
-			"copyright": "Conflee, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "Conflee, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "cart_boxes1",
             "directions": 4,
-			"copyright": "Conflee",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "Conflee",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "cart_boxes2",
             "directions": 4,
-			"copyright": "Conflee",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "Conflee",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "cart_boxes3",
             "directions": 4,
-			"copyright": "Conflee",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "Conflee",
+            "license": "CC-BY-SA-3.0"
         }
     ]
 }

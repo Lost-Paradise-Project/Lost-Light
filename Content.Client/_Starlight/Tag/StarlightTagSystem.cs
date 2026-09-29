@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Tag;
+using Content.Shared._Starlight.Tag;
 using Content.Shared.Tag;
 using Robust.Client.Player;
 

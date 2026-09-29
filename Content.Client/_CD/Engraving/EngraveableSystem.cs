@@ -1,4 +1,4 @@
-﻿using Content.Shared._CD.Engraving;
+using Content.Shared._CD.Engraving;
 
 namespace Content.Client._CD.Engraving;
 

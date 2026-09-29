@@ -1,1 +1,1 @@
-﻿id-card-access-level-casino = Casino
+id-card-access-level-casino = Casino

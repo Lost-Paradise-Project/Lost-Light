@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Robust.Client.Placement;
 using Robust.Shared.Map;
 

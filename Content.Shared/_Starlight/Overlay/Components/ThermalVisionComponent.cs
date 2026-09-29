@@ -20,4 +20,3 @@ public sealed partial class ThermalVisionComponent : Component
     [DataField, AutoNetworkedField]
     public bool UseAlternativeShader = false;
 }
-

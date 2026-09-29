@@ -2,30 +2,28 @@
     "version": 1,
     "license": "CC-BY-SA-4.0",
     "copyright": "State based copyright",
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
-    "states":
-    [
+    "states": [
         {
             "name": "icon_alt",
-      "copyright": "The Purple Screen"
+            "copyright": "The Purple Screen"
         },
         {
             "name": "alt-equipped-EARS",
             "directions": 4,
-      "copyright": "The Purple Screen"
+            "copyright": "The Purple Screen"
         },
         {
             "name": "icon",
-      "copyright": "The Purple Screen"
+            "copyright": "The Purple Screen"
         },
         {
             "name": "equipped-EARS",
             "directions": 4,
-      "copyright": "The Purple Screen"
+            "copyright": "The Purple Screen"
         }
     ]
 }

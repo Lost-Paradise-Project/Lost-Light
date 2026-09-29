@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Content.Server._NullLink.Helpers;
 using Content.Shared.CCVar;
 using Content.Shared.NullLink.CCVar;

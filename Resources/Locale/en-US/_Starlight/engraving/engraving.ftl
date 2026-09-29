@@ -1,4 +1,4 @@
-﻿engraving-verb-engrave = Engrave
+engraving-verb-engrave = Engrave
 
 engraving-picture-verb = Change Photo
 engraving-picture-Ui-Popup = Describe the photo's appearance:

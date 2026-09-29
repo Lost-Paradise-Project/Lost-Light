@@ -1,4 +1,4 @@
-﻿using Content.Shared.Access.Components;
+using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Tag;
 using Content.Shared.Xenoarchaeology.Artifact;

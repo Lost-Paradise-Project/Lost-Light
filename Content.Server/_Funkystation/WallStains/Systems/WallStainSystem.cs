@@ -1,4 +1,4 @@
-﻿using Content.Server.Atmos.Components;
+using Content.Server.Atmos.Components;
 using Content.Server.Forensics;
 using Content.Shared._Funkystation.WallStains;
 using Content.Shared._Funkystation.WallStains.Components;

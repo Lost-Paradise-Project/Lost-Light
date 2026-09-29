@@ -1,4 +1,4 @@
-﻿using Content.Server._Starlight.Achievement;
+using Content.Server._Starlight.Achievement;
 using Content.Server.Administration.Managers;
 using Content.Server.EUI;
 using Content.Server.Revolutionary.Components;

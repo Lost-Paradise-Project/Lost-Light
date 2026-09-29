@@ -1,4 +1,4 @@
-﻿using Content.Shared.Actions;
+using Content.Shared.Actions;
 using Robust.Shared.Prototypes;
 using Content.Shared._Starlight.Overlay.Components;
 using Content.Shared._Starlight.Overlay.Events;
@@ -52,4 +52,3 @@ public abstract partial class SharedThermalVisionSystem : EntitySystem
 
     }
 }
-

@@ -1,4 +1,4 @@
-﻿namespace Content.Client._Starlight.Guidebook.Richtext;
+namespace Content.Client._Starlight.Guidebook.Richtext;
 
 public interface IDocumentTagOnLoaded
 {

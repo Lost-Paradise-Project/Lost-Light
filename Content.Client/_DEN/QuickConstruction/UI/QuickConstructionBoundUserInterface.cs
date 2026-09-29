@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Client.Construction;
 using Content.Client.UserInterface.Controls;
 using Content.Shared._DEN.QuickConstruction.Components;

@@ -41,4 +41,3 @@ names-soviet-marine-last-dataset-40 = Orion
 names-soviet-marine-last-dataset-41 = Strela
 names-soviet-marine-last-dataset-42 = Grom
 names-soviet-marine-last-dataset-43 = Kosmo
-

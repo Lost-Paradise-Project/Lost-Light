@@ -9,60 +9,60 @@
     "states": [
         {
             "name": "brigmed",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "disposals_proper",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "nosmoking",
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "secureareasmall",
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "wall_biohazard",
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "wall_extremeheat",
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "yessmoking",
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "direction_mining",
             "directions": 4,
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "mining",
-			"copyright": "/tg/station"
+            "copyright": "/tg/station"
         },
         {
             "name": "iaa",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "law",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "lawyer",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "magistrate",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "ntr",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "robo_surgery",
@@ -74,67 +74,67 @@
         },
         {
             "name": "locker_cargo",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "locker_command",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "locker_engie",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "locker_med",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "locker_sci",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "locker_sec",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "locker_service",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_cargo",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_command",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_engie",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_med",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_sci",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_sec",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "break_service",
-			"copyright": "Conflee"
+            "copyright": "Conflee"
         },
         {
             "name": "radiohost",
-			"copyright": "Huaqas"
+            "copyright": "Huaqas"
         },
         {
             "name": "evidence",
-			"copyright": "Made by Conflee"
+            "copyright": "Made by Conflee"
         },
         {
             "name": "drone",

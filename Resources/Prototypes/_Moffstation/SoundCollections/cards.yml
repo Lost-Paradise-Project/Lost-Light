@@ -1,4 +1,4 @@
-﻿- type: soundCollection
+- type: soundCollection
   id: cardFan
   files:
   - /Audio/_Moffstation/Effects/Cards/cardFan1.ogg

@@ -1408,4 +1408,3 @@
     - item: MuteToxinHypo
   - type: BorgModuleIcon
     icon: { sprite: _Starlight/Interface/Actions/actions_borg.rsi, state: xenoborg-hypo2-module }
-

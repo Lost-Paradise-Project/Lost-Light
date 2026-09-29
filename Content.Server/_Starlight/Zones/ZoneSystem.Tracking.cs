@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Zones;
+using Content.Shared._Starlight.Zones;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 

@@ -9,22 +9,22 @@
     "states": [
         {
             "name": "voxbeakcolor",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "voxbeakhookedcolor",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, beak_shaved/squarecere/hooked modified from beak by TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, beak_shaved/squarecere/hooked modified from beak by TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "voxbeakshavedcolor",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, beak_shaved/squarecere/hooked modified from beak by TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, beak_shaved/squarecere/hooked modified from beak by TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "voxbeaksquarecolor",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, beak_shaved/squarecere/hooked modified from beak by TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, beak_shaved/squarecere/hooked modified from beak by TrixxedHeart.",
             "directions": 4
         },
         {
@@ -49,42 +49,42 @@
         },
         {
             "name": "leftarm",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "leftfoot",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "lefthand",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "leftleg",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "rightarm",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "rightfoot",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "righthand",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         },
         {
             "name": "rightleg",
-			"copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
+            "copyright": "Taken from https://github.com/vgstation-coders/vgstation13 at 02ff588d59b3c560c685d9ca75e882d32a72d8cb, modified by Bhijn, Errant, Flareguy, and TrixxedHeart.",
             "directions": 4
         }
     ]

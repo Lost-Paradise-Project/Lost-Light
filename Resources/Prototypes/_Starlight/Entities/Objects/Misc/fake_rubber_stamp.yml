@@ -1,4 +1,4 @@
-﻿#All the random fake stamps. I am sorry
+#All the random fake stamps. I am sorry
 - type: entity
   name: fake generic rubber stamp
   parent: [BaseItem, BaseSyndicateContraband]
@@ -679,4 +679,3 @@
       layers:
         - state: box
         - state: stamp
-

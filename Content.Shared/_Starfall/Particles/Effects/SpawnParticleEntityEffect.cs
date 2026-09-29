@@ -29,4 +29,3 @@ public sealed partial class SpawnParticleEffect : EntityEffectBase<SpawnParticle
     public override string? EntityEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys, ILocalizationManager loc) // Starlight
         => null; // this doesnt need a guidebook entry
 }
-

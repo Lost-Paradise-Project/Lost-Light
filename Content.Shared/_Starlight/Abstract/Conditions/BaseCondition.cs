@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace Content.Shared._Starlight.Abstract.Conditions;
 /// <summary>

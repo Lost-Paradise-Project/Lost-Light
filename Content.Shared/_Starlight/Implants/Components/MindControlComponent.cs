@@ -1,4 +1,4 @@
-﻿using Content.Shared.Roles.Components;
+using Content.Shared.Roles.Components;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Starlight.Implants.Components;

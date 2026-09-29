@@ -1,4 +1,4 @@
-﻿using Content.Server.Objectives.Components;
+using Content.Server.Objectives.Components;
 using Content.Server._Starlight.Objectives.Components;
 using Content.Shared.Mind;
 using Content.Shared.Mobs;

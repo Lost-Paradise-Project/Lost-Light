@@ -1,4 +1,4 @@
-﻿// ReSharper disable CheckNamespace
+// ReSharper disable CheckNamespace
 using Content.Shared.Ensnaring.Components;
 using Robust.Shared.Physics.Events;
 

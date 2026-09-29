@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Serialization;
+using Robust.Shared.Serialization;
 using static Content.Shared.Pinpointer.SharedNavMapSystem;
 
 namespace Content.Shared._Starlight.Computers.RemoteEye.UI;

@@ -23,4 +23,3 @@ public sealed partial class RailroadTimerTaskComponent : Component
     [DataField]
     public SpriteSpecifier Icon = new SpriteSpecifier.Rsi(new ResPath("Objects/Devices/goldwatch.rsi"), "goldwatch");
 }
-

@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Language;
+using Content.Shared._Starlight.Language;
 using Content.Shared._Starlight.Speech;
 using Content.Shared.Radio;
 

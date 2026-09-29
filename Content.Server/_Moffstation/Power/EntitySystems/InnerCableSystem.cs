@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Server._Moffstation.Power.Components;
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;

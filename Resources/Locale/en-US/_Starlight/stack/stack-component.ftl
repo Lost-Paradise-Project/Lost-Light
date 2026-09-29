@@ -1,1 +1,1 @@
-﻿comp-stack-split-custom = Custom
+comp-stack-split-custom = Custom

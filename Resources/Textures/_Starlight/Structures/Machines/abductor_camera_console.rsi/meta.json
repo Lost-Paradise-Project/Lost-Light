@@ -1,43 +1,43 @@
 {
-  "version": 1,
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "copyright": "State based copyright",
-  "license": "CC-BY-SA-3.0",
-  "states": [
-    {
-      "name": "console",
-      "delays": [
-        [
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08,
-          0.08
-        ]
-      ],
-      "copyright": "Taken From TG Station"
-    }
-  ]
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "copyright": "State based copyright",
+    "license": "CC-BY-SA-3.0",
+    "states": [
+        {
+            "name": "console",
+            "delays": [
+                [
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08,
+                    0.08
+                ]
+            ],
+            "copyright": "Taken From TG Station"
+        }
+    ]
 }

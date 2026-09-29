@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Content.Server.Database;
 using Content.Shared._Starlight;
 using Robust.Server.Player;

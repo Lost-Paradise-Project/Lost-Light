@@ -1,4 +1,4 @@
-﻿using Content.Shared.Damage.Events;
+using Content.Shared.Damage.Events;
 using Content.Shared.Spider;
 using Content.Shared.Stealth;
 using Content.Shared.Stealth.Components;

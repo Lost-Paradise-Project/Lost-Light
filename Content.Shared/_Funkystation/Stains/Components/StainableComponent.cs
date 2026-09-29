@@ -1,4 +1,4 @@
-﻿using Content.Shared.DoAfter;
+using Content.Shared.DoAfter;
 using Content.Shared.FixedPoint;
 using Content.Shared.Tag;
 using Robust.Shared.GameStates;

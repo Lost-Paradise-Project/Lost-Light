@@ -1,4 +1,4 @@
-﻿using Content.Shared.Physics;
+using Content.Shared.Physics;
 
 namespace Content.Shared._Starlight.Fixtures;
 

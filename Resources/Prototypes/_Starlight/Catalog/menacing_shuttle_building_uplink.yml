@@ -1,4 +1,4 @@
-﻿- type: listing
+- type: listing
   id: ClothingOuterHardsuitPirateCapSet
   productEntity: ClothingOuterHardsuitPirateCap
   cost:
@@ -223,4 +223,3 @@
     BuildToken: 8
   categories:
   - MenacingShuttleUplinkWeapons
-

@@ -9,15 +9,15 @@
     "states": [
         {
             "name": "magazine",
-			"copyright": "Made by Flareguy for Ephemeral Space"
+            "copyright": "Made by Flareguy for Ephemeral Space"
         },
         {
             "name": "newspaper",
-			"copyright": "Made by Flareguy for Ephemeral Space"
+            "copyright": "Made by Flareguy for Ephemeral Space"
         },
         {
             "name": "legit",
-			"copyright": "Made by Flareguy for Ephemeral Space"
+            "copyright": "Made by Flareguy for Ephemeral Space"
         }
     ]
 }

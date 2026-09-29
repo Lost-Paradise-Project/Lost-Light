@@ -1,4 +1,4 @@
-﻿- type: cargoProduct
+- type: cargoProduct
   id: ServiceWashingMachineKit
   icon:
     sprite: _Funkystation/Structures/Machines/washing_machine.rsi

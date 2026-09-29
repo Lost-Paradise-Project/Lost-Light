@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Medical.Damage;
+using Content.Shared._Starlight.Medical.Damage;
 using Content.Shared.Body.Components;
 
 namespace Content.Server._Starlight.Medical;

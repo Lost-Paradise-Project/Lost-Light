@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Railroading.Components;
+using Content.Shared._Starlight.Railroading.Components;
 
 namespace Content.Shared._Starlight.Railroading.Events;
 

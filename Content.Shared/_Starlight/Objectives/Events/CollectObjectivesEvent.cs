@@ -1,4 +1,4 @@
-﻿using Content.Shared.Objectives;
+using Content.Shared.Objectives;
 
 namespace Content.Shared._Starlight.Objectives.Events;
 

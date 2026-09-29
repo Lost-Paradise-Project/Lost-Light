@@ -1,4 +1,4 @@
-﻿gofish-card-name-reverse = gofish card
+gofish-card-name-reverse = gofish card
 gofish-card-desc-reverse = You can't tell what is on the other side of that fish card.
 
 gofish-card-name = { gofish-card-value-name } Card

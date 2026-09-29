@@ -1,95 +1,95 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "plant-0",
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "plant-1",
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-2",
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-3",
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-4",
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-5",
-      "delays": [
-        [
-          1,
-          0.25,
-          0.15,
-          0.15,
-          0.25,
-          0.15,
-          0.15,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-6",
-      "delays": [
-        [
-          1,
-          0.25,
-          0.15,
-          0.15,
-          0.25,
-          0.15,
-          0.15,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-7",
-      "delays": [
-        [
-          1,
-          0.25,
-          0.15,
-          0.15,
-          0.25,
-          0.15,
-          0.15,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    },
-    {
-      "name": "plant-8",
-      "delays": [
-        [
-          1,
-          0.25,
-          0.15,
-          0.15,
-          0.25,
-          0.15,
-          0.15,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
-    }
-  ]
+    "states": [
+        {
+            "name": "plant-0",
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-1",
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-2",
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-3",
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-4",
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-5",
+            "delays": [
+                [
+                    1,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-6",
+            "delays": [
+                [
+                    1,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-7",
+            "delays": [
+                [
+                    1,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        },
+        {
+            "name": "plant-8",
+            "delays": [
+                [
+                    1,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.25,
+                    0.15,
+                    0.15,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from Skyrat-tg at https://github.com/Skyrat-SS13/Skyrat-tg/blob/692fef2ac49465fe269aa4168920a79d64ffd4ea/modular_skyrat/modules/aesthetics/plants/plants.dmi"
+        }
+    ]
 }

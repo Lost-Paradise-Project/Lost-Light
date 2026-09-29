@@ -83,4 +83,3 @@ public sealed partial class BluespaceHarvesterComponent : Component
     public float LastUiNetworkSupply;
     public bool LastUiIsBlocked;
 }
-

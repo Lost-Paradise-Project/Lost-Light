@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: PartExperiment
   parent: [BaseItem, BasePart]
   name: "experiment body part"

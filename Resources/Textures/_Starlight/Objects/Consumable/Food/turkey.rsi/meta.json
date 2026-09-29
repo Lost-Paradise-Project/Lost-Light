@@ -10,32 +10,32 @@
         {
             "name": "turkeycooked"
         },
-		{
+        {
             "name": "turkeyfeast"
         },
-		{
+        {
             "name": "turkeyfeast1"
         },
-		{
+        {
             "name": "turkeyfeast2"
         },
-		{
+        {
             "name": "turkeyfeasted"
         },
-		{
+        {
             "name": "turkeyslice"
         },
-		{
-		  "name": "plate-inhand-right",
-		  "directions": 4
-		},
-		{
-		  "name": "plate-inhand-left",
-		  "directions": 4
-		},
-		{
-		  "name": "plate-inhand-both",
-		  "directions": 4
-		}
+        {
+            "name": "plate-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "plate-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "plate-inhand-both",
+            "directions": 4
+        }
     ]
 }

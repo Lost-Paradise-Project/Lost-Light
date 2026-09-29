@@ -9,12 +9,12 @@
     "states": [
         {
             "name": "base",
-			"copyright": "Made by Conflee for Starlight",
+            "copyright": "Made by Conflee for Starlight",
             "directions": 4
         },
         {
             "name": "emergency_light_off",
-			"copyright": "Made by Conflee for Starlight",
+            "copyright": "Made by Conflee for Starlight",
             "directions": 4,
             "delays": [
                 [
@@ -33,7 +33,7 @@
         },
         {
             "name": "emergency_light_on",
-			"copyright": "Made by Conflee for Starlight",
+            "copyright": "Made by Conflee for Starlight",
             "directions": 4,
             "delays": [
                 [

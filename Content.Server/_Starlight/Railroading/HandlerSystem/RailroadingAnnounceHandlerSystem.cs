@@ -1,4 +1,4 @@
-﻿using Content.Server.Chat.Systems;
+using Content.Server.Chat.Systems;
 using Content.Server.GameTicking;
 using Content.Shared._Starlight.Railroading.Components.Handlers;
 using Content.Shared._Starlight.Railroading.Events;

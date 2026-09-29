@@ -1,4 +1,4 @@
-﻿using Content.Shared.Inventory;
+using Content.Shared.Inventory;
 // Based on the RMC14.
 // https://github.com/RMC-14/RMC-14
 namespace Content.Shared._Starlight.Medical.Surgery.Events;

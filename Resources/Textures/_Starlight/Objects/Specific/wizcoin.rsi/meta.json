@@ -9,69 +9,69 @@
     "states": [
         {
             "name": "wizcoin",
-			"copyright": "Starlight, made by staff member Conf"
+            "copyright": "Starlight, made by staff member Conf"
         },
         {
             "name": "redwizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "red-equipped-NECK",
-			"copyright": "TG Station, wonderfulnewworld",
-			"directions": 4
+            "copyright": "TG Station, wonderfulnewworld",
+            "directions": 4
         },
         {
             "name": "bluewizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "blue-equipped-NECK",
-			"copyright": "TG Station, wonderfulnewworld",
-			"directions": 4
+            "copyright": "TG Station, wonderfulnewworld",
+            "directions": 4
         },
         {
             "name": "yellowwizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "yellow-equipped-NECK",
-			"copyright": "TG Station, wonderfulnewworld",
-			"directions": 4
+            "copyright": "TG Station, wonderfulnewworld",
+            "directions": 4
         },
         {
             "name": "greenwizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "green-equipped-NECK",
-			"copyright": "TG Station, wonderfulnewworld",
-			"directions": 4
+            "copyright": "TG Station, wonderfulnewworld",
+            "directions": 4
         },
         {
             "name": "purplewizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "purple-equipped-NECK",
-			"copyright": "TG Station, wonderfulnewworld",
-			"directions": 4
+            "copyright": "TG Station, wonderfulnewworld",
+            "directions": 4
         },
         {
             "name": "orangewizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "orange-equipped-NECK",
-			"copyright": "TG Station, wonderfulnewworld",
-			"directions": 4
+            "copyright": "TG Station, wonderfulnewworld",
+            "directions": 4
         },
         {
             "name": "cyanwizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         },
         {
             "name": "omniwizcoin",
-			"copyright": "Conf, wonderfulnewworld"
+            "copyright": "Conf, wonderfulnewworld"
         }
     ]
 }

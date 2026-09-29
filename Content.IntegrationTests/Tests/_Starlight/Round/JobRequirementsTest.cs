@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using Content.IntegrationTests.Fixtures;
 using Content.Client.Lobby;
 using Content.Client.Players.PlayTimeTracking;

@@ -2,13 +2,11 @@
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "State based copyright",
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
-    "states":
-    [
+    "states": [
         {
             "name": "icon",
             "copyright": "Character & sprites by rtasva (GitHub/Discord), edited from sprites by deltaVelocity (GitHub/Discord)"

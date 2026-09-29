@@ -9,11 +9,11 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "Made by Conflee for Starlight"
+            "copyright": "Made by Conflee for Starlight"
         },
         {
             "name": "primed",
-			"copyright": "Made by Conflee for Starlight"
+            "copyright": "Made by Conflee for Starlight"
         },
         {
             "name": "active",
@@ -26,26 +26,26 @@
                     0.1
                 ]
             ],
-			"copyright": "Made by Conflee for Starlight"
+            "copyright": "Made by Conflee for Starlight"
         },
         {
             "name": "spent",
-			" copyright": "Made by Conflee for Starlight"
+            " copyright": "Made by Conflee for Starlight"
         },
         {
             "name": "equipped-BELT",
             "directions": 4,
-			"copyright": "Made by Conflee for Starlight"
+            "copyright": "Made by Conflee for Starlight"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "Made by Conflee for Starlight"
+            "copyright": "Made by Conflee for Starlight"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "Made by Conflee for Starlight"
+            "copyright": "Made by Conflee for Starlight"
         }
     ]
 }

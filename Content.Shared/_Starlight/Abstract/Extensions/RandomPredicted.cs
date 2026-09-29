@@ -1,4 +1,4 @@
-﻿using Content.Shared.Random.Helpers;
+using Content.Shared.Random.Helpers;
 using JetBrains.Annotations;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;

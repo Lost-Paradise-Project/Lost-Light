@@ -1,4 +1,4 @@
-﻿using Content.Shared.Construction.Prototypes;
+using Content.Shared.Construction.Prototypes;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 

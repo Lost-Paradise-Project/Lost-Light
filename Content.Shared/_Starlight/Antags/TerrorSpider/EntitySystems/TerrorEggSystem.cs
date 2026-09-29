@@ -1,4 +1,4 @@
-﻿using Content.Shared.Damage.Prototypes;
+using Content.Shared.Damage.Prototypes;
 using Content.Shared.Damage;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;

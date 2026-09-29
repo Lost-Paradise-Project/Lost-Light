@@ -9,21 +9,21 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "Korichi"
+            "copyright": "Korichi"
         },
         {
             "name": "equipped-HELMET",
-			"copyright": "Korichi",
+            "copyright": "Korichi",
             "directions": 4
         },
         {
             "name": "inhand-left",
-			"copyright": "Korichi",
+            "copyright": "Korichi",
             "directions": 4
         },
         {
             "name": "inhand-right",
-			"copyright": "Korichi",
+            "copyright": "Korichi",
             "directions": 4
         }
     ]

@@ -1,59 +1,59 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "normal-unshaded",
-      "delays": [
-        [
-          0.5,
-          0.5
-        ]
-      ],
-      "copyright": "by SlycoolGamer"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "eject-unshaded",
-      "delays": [
-        [
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3
-        ]
-      ],
-      "copyright": "by SlycoolGamer"
-    },
-    {
-      "name": "deny-unshaded",
-      "delays": [
-        [
-          0.3,
-          0.3,
-          0.3,
-          0.3,
-          0.3
-        ]
-      ],
-      "copyright": "by SlycoolGamer"
-    },
-    {
-      "name": "broken",
-      "copyright": "by SlycoolGamer"
-    },
-    {
-      "name": "off",
-      "copyright": "by SlycoolGamer"
-    },
-    {
-      "name": "panel",
-      "copyright": "by SlycoolGamer"
-    }
-  ]
+    "states": [
+        {
+            "name": "normal-unshaded",
+            "delays": [
+                [
+                    0.5,
+                    0.5
+                ]
+            ],
+            "copyright": "by SlycoolGamer"
+        },
+        {
+            "name": "eject-unshaded",
+            "delays": [
+                [
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3
+                ]
+            ],
+            "copyright": "by SlycoolGamer"
+        },
+        {
+            "name": "deny-unshaded",
+            "delays": [
+                [
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.3
+                ]
+            ],
+            "copyright": "by SlycoolGamer"
+        },
+        {
+            "name": "broken",
+            "copyright": "by SlycoolGamer"
+        },
+        {
+            "name": "off",
+            "copyright": "by SlycoolGamer"
+        },
+        {
+            "name": "panel",
+            "copyright": "by SlycoolGamer"
+        }
+    ]
 }

@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Stack;
+using Content.Shared._Starlight.Stack;
 using Content.Shared.Stacks;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;

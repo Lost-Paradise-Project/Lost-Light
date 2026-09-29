@@ -1,4 +1,4 @@
-﻿using System.Collections.Concurrent;
+using System.Collections.Concurrent;
 using Microsoft.Extensions.Logging;
 using LogLevel = Robust.Shared.Log.LogLevel;
 using LogLevelNet = Microsoft.Extensions.Logging.LogLevel;

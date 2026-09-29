@@ -1,4 +1,4 @@
-﻿using Content.Shared.Atmos;
+using Content.Shared.Atmos;
 using Content.Shared.FixedPoint;
 
 namespace Content.Server._Starlight.Energy.Supermatter;
@@ -105,4 +105,3 @@ internal static class Const
     public static string AudioEvaporate = "/Audio/_Starlight/Effects/supermatter/emitter2.ogg";
 }
 public record struct GasProperties(float HeatTransferPerMole, float HeatModifier, float RadiationStability, float RegenerationModifier, float ReactionModifier, float DestabilizationModifier, float GasDamage);
-

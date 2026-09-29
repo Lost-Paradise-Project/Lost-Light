@@ -1,4 +1,4 @@
-﻿using Content.Server._Starlight.Objectives.Systems;
+using Content.Server._Starlight.Objectives.Systems;
 
 namespace Content.Server._Starlight.Objectives.Components;
 

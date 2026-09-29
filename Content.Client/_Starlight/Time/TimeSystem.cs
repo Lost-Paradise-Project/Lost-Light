@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Time;
+using Content.Shared._Starlight.Time;
 
 namespace Content.Client._Starlight.Time;
 

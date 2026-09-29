@@ -1,19 +1,16 @@
 {
     "version": 1,
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
     "license": "CC-BY-SA-3.0",
     "copyright": "State based Copyright.",
-    "states":
-    [
+    "states": [
         {
             "name": "icon",
-			"copyright": "Created by DreadfulTaco on Starlight Discord.",
-            "delays":
-            [
+            "copyright": "Created by DreadfulTaco on Starlight Discord.",
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -24,13 +21,12 @@
         },
         {
             "name": "icon_empty",
-			"copyright": "Created by DreadfulTaco on Starlight Discord."
+            "copyright": "Created by DreadfulTaco on Starlight Discord."
         },
         {
             "name": "fill-1",
-			"copyright": "Created by DreadfulTaco on Starlight Discord.",
-			"delays":
-            [
+            "copyright": "Created by DreadfulTaco on Starlight Discord.",
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -41,9 +37,8 @@
         },
         {
             "name": "fill-2",
-			"copyright": "Created by DreadfulTaco on Starlight Discord.",
-            "delays":
-            [
+            "copyright": "Created by DreadfulTaco on Starlight Discord.",
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -54,9 +49,8 @@
         },
         {
             "name": "fill-3",
-			"copyright": "Created by DreadfulTaco on Starlight Discord.",
-            "delays":
-            [
+            "copyright": "Created by DreadfulTaco on Starlight Discord.",
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -67,9 +61,8 @@
         },
         {
             "name": "fill-4",
-			"copyright": "Created by DreadfulTaco on Starlight Discord.",
-            "delays":
-            [
+            "copyright": "Created by DreadfulTaco on Starlight Discord.",
+            "delays": [
                 [
                     0.2,
                     0.2,
@@ -80,9 +73,8 @@
         },
         {
             "name": "fill-5",
-			"copyright": "Created by DreadfulTaco on Starlight Discord.",
-            "delays":
-            [
+            "copyright": "Created by DreadfulTaco on Starlight Discord.",
+            "delays": [
                 [
                     0.2,
                     0.2,

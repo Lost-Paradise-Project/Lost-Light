@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Controls;
 using Robust.Client.Graphics;

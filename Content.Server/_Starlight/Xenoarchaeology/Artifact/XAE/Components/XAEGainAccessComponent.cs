@@ -1,4 +1,4 @@
-﻿using Content.Shared.Access;
+using Content.Shared.Access;
 using Content.Shared.Tag;
 using Robust.Shared.Prototypes;
 
@@ -25,4 +25,3 @@ public sealed partial class XAEGainAccessComponent : Component
     /// </summary>
     [DataField] public ProtoId<TagPrototype> DoorBumpTag = "DoorBumpOpener";
 }
-

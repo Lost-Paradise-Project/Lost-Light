@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Antags.TerrorSpider;
+using Content.Shared._Starlight.Antags.TerrorSpider;
 using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.UserInterface;

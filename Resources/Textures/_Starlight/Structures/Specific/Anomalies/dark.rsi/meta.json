@@ -1,122 +1,122 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "hub_portal",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "portal",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
-    },
-    {
-      "name": "darktrap-spawn",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
-    },
-    {
-      "name": "darktrap-active",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ],
-      "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
-    },
-    {
-      "name": "darktrap",
-      "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
-    }
-  ]
+    "states": [
+        {
+            "name": "hub_portal",
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
+        },
+        {
+            "name": "portal",
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
+        },
+        {
+            "name": "darktrap-spawn",
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
+        },
+        {
+            "name": "darktrap-active",
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ],
+            "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
+        },
+        {
+            "name": "darktrap",
+            "copyright": "Taken from https://github.com/CHOMPStation2/CHOMPStation2/"
+        }
+    ]
 }

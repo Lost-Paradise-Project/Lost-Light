@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Shared._Starlight.Sound;
 using Content.Shared.Movement.Components;
 using Robust.Shared.Physics.Components;

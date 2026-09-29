@@ -1,4 +1,4 @@
-﻿using Content.Shared.Interaction.Events;
+using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
 using Content.Shared.Tag;
 using Content.Shared.Weapons.Melee.Events;

@@ -1,4 +1,4 @@
-﻿using Content.Shared._NullLink;
+using Content.Shared._NullLink;
 
 namespace Content.Server._NullLink.PlayerData;
 

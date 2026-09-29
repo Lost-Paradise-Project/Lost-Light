@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Overlay.Events;
+using Content.Shared._Starlight.Overlay.Events;
 using Content.Shared._Starlight.Overlay.Systems;
 
 namespace Content.Shared._Starlight.Light;

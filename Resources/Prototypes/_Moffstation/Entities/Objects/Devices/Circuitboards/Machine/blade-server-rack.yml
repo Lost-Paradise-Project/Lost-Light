@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: BladeServerRackMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: blade server rack circuit board

@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Prototypes;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Starlight.Medical.Limbs;
 public partial interface IWithAction : IComponent

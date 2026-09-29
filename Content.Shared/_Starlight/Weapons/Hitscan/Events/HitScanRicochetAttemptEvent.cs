@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 
 namespace Content.Shared._Starlight.Weapons.Hitscan.Events;
 

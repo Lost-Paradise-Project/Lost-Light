@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 using Robust.Shared.Player;
 using Starlight.NullLink;

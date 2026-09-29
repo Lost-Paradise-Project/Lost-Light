@@ -1,4 +1,4 @@
-﻿# Black cards
+# Black cards
 - type: entity
   parent: BasePlayingCardDeckBox
   id: PlayingCardDeckBoxBlack

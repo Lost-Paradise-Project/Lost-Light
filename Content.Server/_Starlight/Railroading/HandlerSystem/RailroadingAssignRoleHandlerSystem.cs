@@ -1,4 +1,4 @@
-﻿using Content.Server.Roles;
+using Content.Server.Roles;
 using Content.Shared._Starlight.Railroading.Components.Handlers;
 using Content.Shared._Starlight.Railroading.Events;
 using Content.Shared.Mind.Components;

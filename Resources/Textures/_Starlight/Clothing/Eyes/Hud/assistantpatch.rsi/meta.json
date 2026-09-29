@@ -9,27 +9,27 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "TG Station, Alekshhh, wonderfulnewworld"
+            "copyright": "TG Station, Alekshhh, wonderfulnewworld"
         },
         {
             "name": "equipped-EYES",
             "directions": 4,
-			"copyright": "TG Station, Alekshhh, wonderfulnewworld"
+            "copyright": "TG Station, Alekshhh, wonderfulnewworld"
         },
         {
             "name": "equipped-EYES-dog",
             "directions": 4,
-			"copyright": "TG Station, Alekshhh, Sparlight, wonderfulnewworld"
+            "copyright": "TG Station, Alekshhh, Sparlight, wonderfulnewworld"
         },
         {
             "name": "equipped-EYES-moth",
             "directions": 4,
-			"copyright": "TG Station, HTMLSystem, wonderfulnewworld"
+            "copyright": "TG Station, HTMLSystem, wonderfulnewworld"
         },
         {
             "name": "equipped-EYES-resomi",
             "directions": 4,
-			"copyright": "TG Station, Huaqas, wonderfulnewworld"
+            "copyright": "TG Station, Huaqas, wonderfulnewworld"
         }
     ]
 }

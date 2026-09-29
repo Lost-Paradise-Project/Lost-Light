@@ -9,27 +9,27 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
+            "copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
+            "copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
+            "copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
         },
         {
             "name": "equipped-BACKPACK",
             "directions": 4,
-			"copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
+            "copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
         },
         {
             "name": "equipped-SUITSTORAGE",
             "directions": 4,
-			"copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
+            "copyright": "Made by Killer Tamashi (Discord), edited by Conflee"
         }
     ]
 }

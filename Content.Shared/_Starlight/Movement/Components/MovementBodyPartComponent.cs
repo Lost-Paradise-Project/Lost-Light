@@ -1,4 +1,4 @@
-﻿using Content.Shared.Movement.Components;
+using Content.Shared.Movement.Components;
 using Robust.Shared.GameStates;
 
 namespace Content.Shared._Starlight.Movement.Components;

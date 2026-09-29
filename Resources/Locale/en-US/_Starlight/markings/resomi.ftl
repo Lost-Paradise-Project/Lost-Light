@@ -173,4 +173,3 @@ marking-ResomiTailBandLarge-tail_band_large = Tail Band (Large)
 marking-ResomiTailBandSplit = Tail Band (Split)
 marking-ResomiTailBandSplit-tail_band_split_1 = Tail Band (Split)
 marking-ResomiTailBandSplit-tail_band_split_2 = Tail Band (Split)
-

@@ -1,4 +1,4 @@
-﻿using Content.Server.Actions;
+using Content.Server.Actions;
 using Content.Shared._Starlight.Medical.Limbs;
 using Content.Shared.Actions;
 using Content.Shared._Starlight.Abstract.Codegen;

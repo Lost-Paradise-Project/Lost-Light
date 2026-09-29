@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.EndOfRoundGriefing;
+using Content.Shared._Starlight.EndOfRoundGriefing;
 
 namespace Content.Client._Starlight.EndOfRoundGriefing;
 

@@ -52,4 +52,3 @@ public sealed class BreathableOrganBoundUserInterface(EntityUid owner, Enum uiKe
         _window?.Close();
     }
 }
-

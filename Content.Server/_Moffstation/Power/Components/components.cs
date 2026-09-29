@@ -1,4 +1,4 @@
-﻿using Content.Server._Moffstation.Power.EntitySystems;
+using Content.Server._Moffstation.Power.EntitySystems;
 using Content.Server.Power.Components;
 
 namespace Content.Server._Moffstation.Power.Components;

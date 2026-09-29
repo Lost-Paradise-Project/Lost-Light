@@ -1,4 +1,4 @@
-﻿- type: quickConstructionCategory
+- type: quickConstructionCategory
   id: Steel
   constructionEntries:
     - CrateGenericSteel #starlight

@@ -1,4 +1,4 @@
-﻿using Content.Shared.Weapons.Hitscan.Components;
+using Content.Shared.Weapons.Hitscan.Components;
 using Content.Shared.Weapons.Hitscan.Events;
 using Content.Shared._Starlight.Combat.Ranged.Pierce;
 using Robust.Shared.Map;

@@ -20,4 +20,3 @@ Comitas Systems software and hardware is heavily integrated into nearly every sy
 [/mono]
 
 [head=1][color=#ad0101]────────────────────[/color][/head]
-

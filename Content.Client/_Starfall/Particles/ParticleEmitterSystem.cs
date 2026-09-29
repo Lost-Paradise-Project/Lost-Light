@@ -50,4 +50,3 @@ public sealed partial class ParticleEmitterSystem : EntitySystem
             _particles.RemoveParticle(emitter);
     }
 }
-

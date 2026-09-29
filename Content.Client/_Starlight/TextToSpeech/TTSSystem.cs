@@ -1,4 +1,4 @@
-﻿using System.Collections.Concurrent;
+using System.Collections.Concurrent;
 using System.IO;
 using Content.Client._Starlight.Radio.Systems;
 using Content.Shared._Starlight.CCVar;

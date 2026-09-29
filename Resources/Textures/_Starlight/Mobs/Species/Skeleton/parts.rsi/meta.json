@@ -9,72 +9,72 @@
     "states": [
         {
             "name": "full",
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "head_f",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "head_m",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "l_arm",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "l_foot",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "l_hand",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "l_leg",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "r_arm",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "r_foot",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "r_hand",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "r_leg",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "skull_icon",
             "directions": 1,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "torso_f",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         },
         {
             "name": "torso_m",
             "directions": 4,
-			"copyright": "EmoGarbage"
+            "copyright": "EmoGarbage"
         }
     ]
 }

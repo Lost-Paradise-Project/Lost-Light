@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: BaseMailBox
   name: mailbox
   description: A mailbox for storing and retrieving mail.

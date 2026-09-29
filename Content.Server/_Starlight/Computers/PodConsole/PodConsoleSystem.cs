@@ -1,4 +1,4 @@
-﻿using Content.Server.DoAfter;
+using Content.Server.DoAfter;
 using Content.Server.Popups;
 using Content.Server.Shuttles.Components;
 using Content.Server.Shuttles.Systems;
@@ -38,4 +38,3 @@ public sealed partial class PodConsoleSystem : SharedPodConsoleSystem
     }
 
 }
-

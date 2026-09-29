@@ -1,4 +1,4 @@
-﻿<ui:CharacterICInfoControl
+<ui:CharacterICInfoControl
     xmlns="https://spacestation14.io"
     xmlns:ui="clr-namespace:Content.Client._Starlight.Character.Info.UI"
     xmlns:ui1="clr-namespace:Content.Client._Starlight.Character.UI">

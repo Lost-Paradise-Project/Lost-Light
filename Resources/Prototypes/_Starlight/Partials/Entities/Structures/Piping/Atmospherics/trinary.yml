@@ -10,4 +10,3 @@
     - type: SandboxCopyOverride
       override: !type:CreateVariants
         values: *protos
-

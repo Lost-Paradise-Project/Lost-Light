@@ -11,4 +11,3 @@ bounty-description-salvage-old-treasure = We have a collector of some antiquated
 bounty-description-salvage-space-bear-hide = We have a new rug merchant in dire need of exquisite materials. A raw space bear hide should interest them, go get it salvagers.
 bounty-description-salvage-bandolier = We have a certain collector of USSP merchandise, they wish to finish their cosplay outfit, and have requested a few bandoliers. Get it done.
 bounty-description-salvage-commie-id = Again, this certain collector of USSP merchandise is really going out down to the ID Card, let's get them a few to get their LARP on fleek.
-

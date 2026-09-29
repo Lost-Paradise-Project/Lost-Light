@@ -1,4 +1,4 @@
-﻿<bladeServerUi:BladeServerControl
+<bladeServerUi:BladeServerControl
     xmlns="https://spacestation14.io"
     xmlns:bladeServerUi="clr-namespace:Content.Client._Moffstation.BladeServer.UI"
     xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client">

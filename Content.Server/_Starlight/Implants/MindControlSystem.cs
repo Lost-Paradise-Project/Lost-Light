@@ -1,4 +1,4 @@
-﻿using Content.Server.Antag;
+using Content.Server.Antag;
 using Content.Server.Popups;
 using Content.Shared.Implants;
 using Content.Server.Roles;

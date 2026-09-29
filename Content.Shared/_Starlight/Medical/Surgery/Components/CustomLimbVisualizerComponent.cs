@@ -1,4 +1,4 @@
-﻿using Content.Shared.DisplacementMap;
+using Content.Shared.DisplacementMap;
 using Content.Shared.Humanoid;
 using Robust.Shared.GameStates;
 namespace Content.Shared._Starlight.Medical.Surgery.Components;

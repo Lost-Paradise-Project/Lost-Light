@@ -1,11 +1,11 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Backstrage, BurstShort, Default, Droopy, Ears, Fluffymohawk, Hedge, Longway, Mane, ManeBeardless, Mohawk, Mushroom, Notree, Pointy, Spiky, Twies, Upright and Long taken from https://github.com/infinitystation/Baystation12/tree/master/infinity/icons/mob/human_races/species/resomi. Cube created by CoolioDudio with edits by Huaqas (GitHub). Samurai, Wedge created by Huaqas (GitHub). Colonel created by Davyei (Discord). Aerodynamic, bun, cowlick, crest, crowned, mohawk_alt, peel, ponytail sleep, soap, spiky_alt and sweptup taken from Polaris commit 4e9c367322a5a07604d120c0972adbc61fba9a25, with edits by Huaqas (GitHub).",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Backstrage, BurstShort, Default, Droopy, Ears, Fluffymohawk, Hedge, Longway, Mane, ManeBeardless, Mohawk, Mushroom, Notree, Pointy, Spiky, Twies, Upright and Long taken from https://github.com/infinitystation/Baystation12/tree/master/infinity/icons/mob/human_races/species/resomi. Cube created by CoolioDudio with edits by Huaqas (GitHub). Samurai, Wedge created by Huaqas (GitHub). Colonel created by Davyei (Discord). Aerodynamic, bun, cowlick, crest, crowned, mohawk_alt, peel, ponytail sleep, soap, spiky_alt and sweptup taken from Polaris commit 4e9c367322a5a07604d120c0972adbc61fba9a25, with edits by Huaqas (GitHub).",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
     "states": [
         {
             "name": "ResomiBackstrafe",

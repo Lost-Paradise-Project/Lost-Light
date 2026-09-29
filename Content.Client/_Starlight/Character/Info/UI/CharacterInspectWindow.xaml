@@ -1,4 +1,4 @@
-﻿<ui:CharacterInspectWindow
+<ui:CharacterInspectWindow
     xmlns="https://spacestation14.io"
     xmlns:ui="clr-namespace:Content.Client._Starlight.Character.Info.UI"
     MinSize="400 545"

@@ -1,4 +1,4 @@
-﻿- type: !PartialOnly entity
+- type: !PartialOnly entity
   id: ClothingEyesGlassesSecurity
   components:
   - type: Tag

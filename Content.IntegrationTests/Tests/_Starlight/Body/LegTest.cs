@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.IntegrationTests.Fixtures;
 using Content.Server._Starlight.Medical.Body.Systems;
 using Content.Shared._Starlight.Medical.Body.Part;

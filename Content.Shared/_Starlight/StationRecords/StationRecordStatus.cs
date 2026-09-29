@@ -9,4 +9,3 @@ public enum StationRecordStatus : byte
     Cryo = 1,
     Unknown = 2,
 }
-

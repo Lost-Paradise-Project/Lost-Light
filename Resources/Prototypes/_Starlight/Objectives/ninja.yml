@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: ExtractObjective
   name: Extract off station

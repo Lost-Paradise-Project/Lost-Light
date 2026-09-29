@@ -1,4 +1,4 @@
-﻿using Robust.Shared.GameStates;
+using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Content.Shared.FixedPoint;
 using Content.Shared.Chemistry.Reagent;

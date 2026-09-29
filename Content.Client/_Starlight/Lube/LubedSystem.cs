@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Lube;
+using Content.Shared._Starlight.Lube;
 
 namespace Content.Client._Starlight.Lube;
 

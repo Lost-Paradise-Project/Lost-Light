@@ -8,67 +8,67 @@
     },
     "states": [
         {
-          "name": "stamina6",
-          "delays": [
-            [
-              1.0,
-              1.0
+            "name": "stamina6",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
             ]
-          ]
         },
         {
-          "name": "stamina5",
-          "delays": [
-            [
-              1.0,
-              1.0
+            "name": "stamina5",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
             ]
-          ]
         },
         {
-          "name": "stamina4",
-          "delays": [
-            [
-              1.0,
-              1.0
+            "name": "stamina4",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
             ]
-          ]
         },
         {
-          "name": "stamina3",
-          "delays": [
-            [
-              1.0,
-              1.0
+            "name": "stamina3",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
             ]
-          ]
         },
         {
-          "name": "stamina2",
-          "delays": [
-            [
-              1.0,
-              1.0
+            "name": "stamina2",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
             ]
-          ]
         },
         {
-          "name": "stamina1",
-          "delays": [
-            [
-              1.0,
-              1.0
+            "name": "stamina1",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
             ]
-          ]
         },
         {
-          "name": "stamina0",
-          "delays": [
-            [
-              0.5,
-              0.5
+            "name": "stamina0",
+            "delays": [
+                [
+                    0.5,
+                    0.5
+                ]
             ]
-          ]
         }
-      ]
+    ]
 }

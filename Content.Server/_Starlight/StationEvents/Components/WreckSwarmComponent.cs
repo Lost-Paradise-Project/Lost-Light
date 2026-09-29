@@ -1,4 +1,4 @@
-﻿using Content.Server._Starlight.StationEvents.Events;
+using Content.Server._Starlight.StationEvents.Events;
 using Content.Shared._Starlight.Salvage.Ruins;
 using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;

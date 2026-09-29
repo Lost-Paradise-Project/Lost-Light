@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Language.Systems;
+using Content.Shared._Starlight.Language.Systems;
 
 namespace Content.Shared._Starlight.Language.Components;
 

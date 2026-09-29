@@ -1,4 +1,4 @@
-﻿
+
 # Upstream has a highest stack size of 100 as BaseVeryLargeStack. This continues on it.
 - type: stack
   abstract: true

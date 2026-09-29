@@ -9,8 +9,12 @@
     "states": [
         {
             "name": "stomp_effect",
-            "delays":[
-                [0.1, 0.1, 1]
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    1
+                ]
             ],
             "copyright": "Taken from Paradise Station 13"
         }

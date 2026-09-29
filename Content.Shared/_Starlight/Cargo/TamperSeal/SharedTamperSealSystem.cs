@@ -444,4 +444,3 @@ public record struct TamperSealDestroyedEvent(
     bool ServerOnly,
     bool PlaySound = true,
     bool ShowPopup = true);
-

@@ -3,17 +3,17 @@
     "license": "CC-BY-SA-3.0",
     "copyright": "eye markings made by Huaqas (GitHub)",
     "size": {
-      "x": 32,
-      "y": 32
+        "x": 32,
+        "y": 32
     },
     "states": [
-      {
-        "name": "eye_left",
-        "directions": 4
-      },
-      {
-        "name": "eye_right",
-        "directions": 4
-      }
+        {
+            "name": "eye_left",
+            "directions": 4
+        },
+        {
+            "name": "eye_right",
+            "directions": 4
+        }
     ]
-  }
+}

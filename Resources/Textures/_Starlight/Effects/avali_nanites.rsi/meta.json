@@ -1,44 +1,44 @@
 {
-	"version": 1,
-	"license": "CC-BY-NC-SA-3.0",
-	"copyright": "Made by Zeyria (Discord)",
-	"size": {
-		"x": 64,
-		"y": 64
-	},
-	"states": [
-		{
-			"name": "nanite-building",
+    "version": 1,
+    "license": "CC-BY-NC-SA-3.0",
+    "copyright": "Made by Zeyria (Discord)",
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "states": [
+        {
+            "name": "nanite-building",
             "delays": [
-              [
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2
-              ]
+                [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                ]
             ]
-		},
-		{
-			"name": "nanite-deconstructing",
+        },
+        {
+            "name": "nanite-deconstructing",
             "delays": [
-              [
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2,
-                0.2
-              ]
+                [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                ]
             ]
-		},
+        },
         {
             "name": "shell",
             "delays": [
@@ -55,5 +55,5 @@
                 ]
             ]
         }
-	]
+    ]
 }

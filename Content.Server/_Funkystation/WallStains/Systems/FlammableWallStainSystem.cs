@@ -1,4 +1,4 @@
-﻿using Content.Server._Funkystation.Atmos.Events;
+using Content.Server._Funkystation.Atmos.Events;
 using Content.Server.Atmos.EntitySystems;
 using Content.Shared._Funkystation.WallStains.Components;
 using Content.Shared.Atmos;

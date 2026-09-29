@@ -148,4 +148,3 @@ public sealed partial class VampireSystem : EntitySystem
         return !TryComp<VampireActionComponent>(action, out var vac) || vac.AllowNonVampireUsers;
     }
 }
-

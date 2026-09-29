@@ -1,4 +1,4 @@
-﻿using Content.Server.Hands.Systems;
+using Content.Server.Hands.Systems;
 using Content.Server.Stack;
 using Content.Shared.Interaction;
 using Content.Shared.Stacks;

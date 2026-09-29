@@ -9,22 +9,22 @@
     "states": [
         {
             "name": "borg",
-			"copyright": "Created by Conflee (GitHub).",
+            "copyright": "Created by Conflee (GitHub).",
             "directions": 4
         },
         {
             "name": "borg_e",
-			"copyright": "Created by Conflee (GitHub).",
+            "copyright": "Created by Conflee (GitHub).",
             "directions": 4
         },
         {
             "name": "borg_e_r",
-			"copyright": "Created by Conflee (GitHub).",
+            "copyright": "Created by Conflee (GitHub).",
             "directions": 4
         },
         {
             "name": "borg_l",
-			"copyright": "Created by Conflee (GitHub).",
+            "copyright": "Created by Conflee (GitHub).",
             "directions": 4
         }
     ]

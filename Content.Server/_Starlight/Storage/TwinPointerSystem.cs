@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Storage;
+using Content.Shared._Starlight.Storage;
 using Content.Shared.Pinpointer;
 using Robust.Shared.Containers;
 

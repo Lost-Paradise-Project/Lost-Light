@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Medical.Body.Part;
+using Content.Shared._Starlight.Medical.Body.Part;
 using Content.Shared._Starlight.Medical.Limbs;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Systems;

@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Server._NullLink.PlayerData;
 using Content.Server.Chat.Managers;
 using Content.Server.GameTicking.Events;

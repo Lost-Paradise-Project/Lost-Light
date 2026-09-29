@@ -40,5 +40,3 @@
         max: 4
   - type: DynamicRuleCost
     cost: 100
-
-

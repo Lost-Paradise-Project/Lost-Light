@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Economy.Atm;
+using Content.Shared._Starlight.Economy.Atm;
 using JetBrains.Annotations;
 using Robust.Shared.Utility;
 

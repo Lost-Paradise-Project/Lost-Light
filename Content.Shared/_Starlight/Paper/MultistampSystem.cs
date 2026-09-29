@@ -112,4 +112,3 @@ public abstract partial class SharedMultistampSystem : EntitySystem
         Dirty(uid, stamps);
     }
 }
-

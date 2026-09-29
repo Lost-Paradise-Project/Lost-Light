@@ -1,4 +1,4 @@
-﻿using Content.Shared.Clothing.EntitySystems;
+using Content.Shared.Clothing.EntitySystems;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Stealth.Components;
 using Content.Shared.Interaction;

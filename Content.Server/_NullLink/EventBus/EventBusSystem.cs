@@ -1,4 +1,4 @@
-﻿namespace Content.Server._NullLink.EventBus;
+namespace Content.Server._NullLink.EventBus;
 
 public sealed partial class EventBusSystem : EntitySystem
 {

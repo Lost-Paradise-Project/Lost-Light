@@ -1,31 +1,31 @@
 {
-  "version": 1,
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "copyright": "State based copyright",
-  "license": "CC-BY-SA-3.0",
-  "states": [
-    {
-      "name": "base",
-      "directions": 1,
-      "copyright": "Taken From tgstation"
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "enabled",
-      "directions": 1,
-      "delays": [
-        [
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15
-        ]
-      ],
-      "copyright": "Taken From tgstation"
-    }
-  ]
+    "copyright": "State based copyright",
+    "license": "CC-BY-SA-3.0",
+    "states": [
+        {
+            "name": "base",
+            "directions": 1,
+            "copyright": "Taken From tgstation"
+        },
+        {
+            "name": "enabled",
+            "directions": 1,
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
+            ],
+            "copyright": "Taken From tgstation"
+        }
+    ]
 }

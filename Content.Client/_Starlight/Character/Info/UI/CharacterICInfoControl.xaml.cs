@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Character.Info;
+using Content.Shared._Starlight.Character.Info;
 using Content.Shared._Starlight.Character.Info.Components;
 using Content.Shared.Mind;
 using Content.Shared.Roles.Jobs;

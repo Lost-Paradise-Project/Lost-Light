@@ -94,4 +94,3 @@ public sealed partial class GunHeatComponent : Component
     public TimeSpan PopupCooldown = TimeSpan.FromSeconds(1);
     public TimeSpan NextPopupTime;
 }
-

@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 using Robust.Shared.Player;
 
 namespace Content.Shared._Starlight.Abstract.Conditions;

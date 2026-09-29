@@ -1,4 +1,4 @@
-﻿using Content.Shared._Funkystation.WallStains.Components;
+using Content.Shared._Funkystation.WallStains.Components;
 using Content.Shared.EntityEffects;
 
 namespace Content.Shared._Funkystation.WallStains;

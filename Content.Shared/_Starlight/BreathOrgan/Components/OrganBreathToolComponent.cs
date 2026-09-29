@@ -30,4 +30,3 @@ public sealed partial class OrganBreathToolComponent : Component
     [DataField, AutoNetworkedField]
     public EntityUid? ViewGasTankActionEntity;
 }
-

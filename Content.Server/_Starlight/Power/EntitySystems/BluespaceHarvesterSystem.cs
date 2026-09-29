@@ -340,4 +340,3 @@ public sealed partial class BluespaceHarvesterSystem : EntitySystem
         _ui.SetUiState(uid, BluespaceHarvesterUiKey.Key, state);
     }
 }
-

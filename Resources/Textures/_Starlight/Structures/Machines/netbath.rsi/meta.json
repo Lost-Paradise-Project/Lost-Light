@@ -1,65 +1,65 @@
 {
-  "version": 1,
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "copyright": "State based copyright",
-  "license": "CC-BY-SA-4.0",
-  "states": [
-    {
-      "name": "base",
-      "directions": 1,
-      "delays": [
-        [
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25
-        ]
-      ],
-      "copyright": "conf, darkrell"
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "overlay",
-      "directions": 1,
-      "delays": [
-        [
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25,
-          0.25
-        ]
-      ],
-      "copyright": "conf, darkrell"
-    },
-    {
-      "name": "enabled",
-      "directions": 1,
-      "delays": [
-        [
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15
-        ]
-      ],
-      "copyright": "conf, darkrell"
-    }
-  ]
+    "copyright": "State based copyright",
+    "license": "CC-BY-SA-4.0",
+    "states": [
+        {
+            "name": "base",
+            "directions": 1,
+            "delays": [
+                [
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25
+                ]
+            ],
+            "copyright": "conf, darkrell"
+        },
+        {
+            "name": "overlay",
+            "directions": 1,
+            "delays": [
+                [
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25,
+                    0.25
+                ]
+            ],
+            "copyright": "conf, darkrell"
+        },
+        {
+            "name": "enabled",
+            "directions": 1,
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
+            ],
+            "copyright": "conf, darkrell"
+        }
+    ]
 }

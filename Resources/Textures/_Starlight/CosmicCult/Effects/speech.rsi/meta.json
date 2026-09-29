@@ -10,22 +10,55 @@
         {
             "name": "malign0",
             "copyright": "A custom item by AftrLite(Github)",
-            "delays": [[0.3, 0.3, 0.3, 0.4, 0.3]]
+            "delays": [
+                [
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.4,
+                    0.3
+                ]
+            ]
         },
         {
             "name": "malign1",
             "copyright": "A custom item by AftrLite(Github)",
-            "delays": [[0.1, 0.1, 0.1, 0.1, 0.1, 0.1]]
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ]
         },
         {
             "name": "malign2",
             "copyright": "A custom item by AftrLite(Github)",
-            "delays": [[0.1, 0.1, 0.1, 0.1, 0.1, 0.1]]
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ]
         },
         {
             "name": "malign3",
             "copyright": "A custom item by AftrLite(Github)",
-            "delays": [[0.3, 0.3, 0.3, 0.4]]
+            "delays": [
+                [
+                    0.3,
+                    0.3,
+                    0.3,
+                    0.4
+                ]
+            ]
         }
     ]
 }

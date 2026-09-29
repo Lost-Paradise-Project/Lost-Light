@@ -1,25 +1,25 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Conflee",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "exosuit_beacon"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Conflee",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "mecha_sovieter"
-    },
-    {
-      "name": "inhand-left-sovieter",
-      "directions": 4
-    },
-    {
-      "name": "inhand-right-sovieter",
-      "directions": 4
-    }
-  ]
+    "states": [
+        {
+            "name": "exosuit_beacon"
+        },
+        {
+            "name": "mecha_sovieter"
+        },
+        {
+            "name": "inhand-left-sovieter",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right-sovieter",
+            "directions": 4
+        }
+    ]
 }

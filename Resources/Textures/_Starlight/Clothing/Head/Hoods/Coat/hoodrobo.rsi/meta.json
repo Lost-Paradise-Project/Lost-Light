@@ -9,12 +9,12 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "By Gotimanga for SS14, recolored into Roboticist by Cvlancer"
+            "copyright": "By Gotimanga for SS14, recolored into Roboticist by Cvlancer"
         },
         {
             "name": "equipped-HELMET",
             "directions": 4,
-			"copyright": "Gotimanga, Cvlancer"
+            "copyright": "Gotimanga, Cvlancer"
         }
     ]
 }

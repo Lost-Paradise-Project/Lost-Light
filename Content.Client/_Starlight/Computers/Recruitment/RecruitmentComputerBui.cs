@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Numerics;
 using Content.Client._Starlight.UI;
 using Content.Client.GameTicking.Managers;

@@ -1,4 +1,4 @@
-﻿using Content.Shared.Damage;
+using Content.Shared.Damage;
 
 namespace Content.Shared._Starlight.Medical.Damage;
 public sealed class DamageBeforeApplyEvent : EntityEventArgs

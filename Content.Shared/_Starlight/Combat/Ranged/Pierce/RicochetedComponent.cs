@@ -1,4 +1,4 @@
-﻿namespace Content.Shared._Starlight.Combat.Ranged.Pierce;
+namespace Content.Shared._Starlight.Combat.Ranged.Pierce;
 
 [RegisterComponent]
 public sealed partial class RicochetableComponent : Component

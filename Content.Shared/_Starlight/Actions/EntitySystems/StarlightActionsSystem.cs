@@ -1,4 +1,4 @@
-﻿using Content.Shared.Actions.Components;
+using Content.Shared.Actions.Components;
 
 namespace Content.Shared._Starlight.Actions.EntitySystems;
 public sealed class StarlightActionsSystem : EntitySystem

@@ -1,4 +1,4 @@
-﻿namespace Content.Shared._Starlight.UI;
+namespace Content.Shared._Starlight.UI;
 
 /// <summary>
 /// Marker component for admin ghosts. Used to determine if admin HUD preferences apply to an entity.

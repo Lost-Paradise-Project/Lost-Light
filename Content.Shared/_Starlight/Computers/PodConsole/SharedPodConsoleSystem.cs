@@ -1,4 +1,4 @@
-﻿using Content.Shared.DoAfter;
+using Content.Shared.DoAfter;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Robust.Shared.Serialization;

@@ -1,4 +1,4 @@
-﻿using Content.Shared._Funkystation.WashingMachine;
+using Content.Shared._Funkystation.WashingMachine;
 using Content.Shared._Funkystation.Stains.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Server.Forensics;

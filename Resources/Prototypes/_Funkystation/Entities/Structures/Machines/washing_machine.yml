@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: WashingMachine
   suffix: Laundry # Starlight
   parent: [ BaseMachinePowered, ConstructibleMachine ]

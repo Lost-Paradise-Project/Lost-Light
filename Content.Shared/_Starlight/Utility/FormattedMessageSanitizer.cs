@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Robust.Shared.Utility;
 
 namespace Content.Shared._Starlight.Utility;

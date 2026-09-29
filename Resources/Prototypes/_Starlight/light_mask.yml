@@ -1,4 +1,4 @@
-﻿- type: lightMask
+- type: lightMask
   id: SLCosmic
   maskPath: /Textures/_Starlight/CosmicCult/LightMasks/cosmic.png
   lightCones:

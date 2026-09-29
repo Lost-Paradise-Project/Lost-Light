@@ -1,35 +1,35 @@
 {
-  "version": 1,
-  "license": "CC0-1.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "anomclown",
-      "delays": [
-        [
-          1,
-          1,
-          1,
-          1
-        ]
-      ],
-      "copyright": "Created by Conflee, using sprites from SS13"
+    "version": 1,
+    "license": "CC0-1.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "anomclown-pulse",
-      "delays": [
-        [
-          0.15,
-          0.15,
-          0.15,
-          0.15
-        ]
-      ],
-      "copyright": "Created by Conflee, using sprites from SS13"
-    }
-  ]
+    "states": [
+        {
+            "name": "anomclown",
+            "delays": [
+                [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            ],
+            "copyright": "Created by Conflee, using sprites from SS13"
+        },
+        {
+            "name": "anomclown-pulse",
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
+            ],
+            "copyright": "Created by Conflee, using sprites from SS13"
+        }
+    ]
 }

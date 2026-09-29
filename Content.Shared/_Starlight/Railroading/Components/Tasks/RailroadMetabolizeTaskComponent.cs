@@ -22,4 +22,3 @@ public sealed partial class RailroadMetabolizeTaskComponent : Component
     [DataField]
     public SpriteSpecifier Icon;
 }
-

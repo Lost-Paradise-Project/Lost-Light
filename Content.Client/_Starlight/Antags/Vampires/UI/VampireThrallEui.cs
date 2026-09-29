@@ -1,4 +1,4 @@
-﻿using Content.Client.Eui;
+using Content.Client.Eui;
 
 namespace Content.Client._Starlight.Antags.Vampires.UI;
 

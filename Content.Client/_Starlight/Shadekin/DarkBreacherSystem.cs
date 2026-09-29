@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Shadekin;
+using Content.Shared._Starlight.Shadekin;
 
 namespace Content.Client._Starlight.Shadekin;
 

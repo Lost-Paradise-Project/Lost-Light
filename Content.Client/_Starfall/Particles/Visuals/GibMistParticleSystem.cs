@@ -28,4 +28,3 @@ public sealed partial class GibMistParticleSystem : EntitySystem
         emitter.ColorOverride = ev.BloodColor;
     }
 }
-

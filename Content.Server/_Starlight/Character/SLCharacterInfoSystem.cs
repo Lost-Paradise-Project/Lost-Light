@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Character.Info;
+using Content.Shared._Starlight.Character.Info;
 
 namespace Content.Server._Starlight.Character;
 

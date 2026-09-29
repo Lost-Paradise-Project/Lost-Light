@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Numerics;
 using Content.Client.Lobby.UI.Roles;
 using Content.Client.Players.PlayTimeTracking;
@@ -311,4 +311,3 @@ public sealed partial class JobPriorityEditor : BoxContainer
         CheckDirty();
     }
 }
-

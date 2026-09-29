@@ -9,26 +9,26 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "Character by FlameyTheRandom (SS14). Re-skin of icon sprite by FlameyTheRandom. Original sprite by LinkUyx#6557."
+            "copyright": "Character by FlameyTheRandom (SS14). Re-skin of icon sprite by FlameyTheRandom. Original sprite by LinkUyx#6557."
         },
         {
             "name": "equipped-HELMET",
-			"copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original helmet sprites by TiniestShark (github).",
+            "copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original helmet sprites by TiniestShark (github).",
             "directions": 4
         },
         {
             "name": "equipped-HELMET-vox",
-			"copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original helmet sprites by TiniestShark (github).",
+            "copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original helmet sprites by TiniestShark (github).",
             "directions": 4
         },
         {
             "name": "inhand-left",
-			"copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original inhand sprites by TiniestShark (github).",
+            "copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original inhand sprites by TiniestShark (github).",
             "directions": 4
         },
         {
             "name": "inhand-right",
-			"copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original inhand sprites by TiniestShark (github).",
+            "copyright": "Character by FlameyTheRandom (SS14). Re-skin of sprites by FlameyTheRandom. Original inhand sprites by TiniestShark (github).",
             "directions": 4
         }
     ]

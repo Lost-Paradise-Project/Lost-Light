@@ -1,4 +1,4 @@
-﻿using Content.Shared._DEN.QuickConstruction.Prototypes;
+using Content.Shared._DEN.QuickConstruction.Prototypes;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._DEN.QuickConstruction.Components;

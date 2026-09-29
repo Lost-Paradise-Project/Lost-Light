@@ -195,4 +195,3 @@ public sealed class GunneryConsoleWindow : FancyWindow
         return cannon.Name;
     }
 }
-

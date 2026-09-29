@@ -1,4 +1,4 @@
-﻿
+
 # Table to use instead of a hardcoded list in "random crystal spawner".
 - type: entityTable
   id: CrystalShardTable

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": 1,
     "license": "CC-BY-SA-4.0",
     "copyright": "Taken from space-station-14 at commit https://github.com/space-wizards/space-station-14/pull/21243/commits/d75da7f2f2c12db500760aef322dffab0042c7fe and modified by TheClockman138(Github). Modified further by wonderfulnewworld (GitHub).",
@@ -10,25 +10,25 @@
         {
             "name": "equipped-OUTERCLOTHING",
             "directions": 4,
-			"copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
-			"license": "CC-BY-SA-4.0"
+            "copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
+            "license": "CC-BY-SA-4.0"
         },
         {
             "name": "icon",
-			"copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
-			"license": "CC-BY-SA-4.0"
+            "copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
+            "license": "CC-BY-SA-4.0"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
-			"license": "CC-BY-SA-4.0"
+            "copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
+            "license": "CC-BY-SA-4.0"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
-			"license": "CC-BY-SA-4.0"
+            "copyright": "Psychpsyo, TheClockman138, wonderfulnewworld",
+            "license": "CC-BY-SA-4.0"
         }
     ]
 }

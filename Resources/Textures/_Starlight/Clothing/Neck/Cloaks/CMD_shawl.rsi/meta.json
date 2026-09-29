@@ -9,21 +9,21 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle"
+            "copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle"
         },
         {
             "name": "equipped-NECK",
-			"copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle",
+            "copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle",
             "directions": 4
         },
         {
             "name": "inhand-left",
-			"copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle",
+            "copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle",
             "directions": 4
         },
         {
             "name": "inhand-right",
-			"copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle",
+            "copyright": "Made by @Stxcking (github) for DV. Recolored by stygianeagle",
             "directions": 4
         }
     ]

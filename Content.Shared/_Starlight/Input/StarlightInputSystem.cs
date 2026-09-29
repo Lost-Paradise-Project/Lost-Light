@@ -1,4 +1,4 @@
-﻿using Content.Shared.Movement.Components;
+using Content.Shared.Movement.Components;
 using Content.Shared.NPC;
 using Content.Shared._Starlight.CCVar;
 using Robust.Shared.Configuration;

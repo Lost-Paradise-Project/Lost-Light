@@ -1,14 +1,14 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "GitHub AegisShieldDev",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "cybernetic_disruption",
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "GitHub AegisShieldDev",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "cybernetic_disruption",
             "delays": [
                 [
                     0.3,
@@ -26,6 +26,6 @@
                     0.3
                 ]
             ]
-    }
-  ]
+        }
+    ]
 }

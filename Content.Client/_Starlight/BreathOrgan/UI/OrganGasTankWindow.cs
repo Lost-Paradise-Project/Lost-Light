@@ -220,4 +220,3 @@ public sealed partial class OrganGasTankWindow
     protected override bool HasPoint(Vector2 point)
         => false;
 }
-

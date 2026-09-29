@@ -1,4 +1,4 @@
-﻿// ReSharper disable CheckNamespace
+// ReSharper disable CheckNamespace
 // Namespace mismatch is intentional, as this is needed to make the partial work correctly
 using Content.Shared._Starlight.Dolls.Events;
 using Content.Shared._Starlight.Actions.Components;

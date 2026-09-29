@@ -1,4 +1,4 @@
-﻿using Content.Client._Starlight.Character.Info.UI;
+using Content.Client._Starlight.Character.Info.UI;
 
 // ReSharper disable once CheckNamespace
 namespace Content.Client.UserInterface.Systems.Character;

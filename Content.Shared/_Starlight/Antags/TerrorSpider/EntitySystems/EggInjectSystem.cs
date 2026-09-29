@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Actions.Components;
+using Content.Shared._Starlight.Actions.Components;
 using Content.Shared.Actions;
 using Content.Shared.Charges.Systems;
 using Content.Shared.DoAfter;

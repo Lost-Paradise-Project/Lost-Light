@@ -23,7 +23,7 @@
             "name": "borg_l",
             "directions": 4
         },
-		{
+        {
             "name": "green",
             "directions": 4
         },
@@ -39,7 +39,7 @@
             "name": "green_l",
             "directions": 4
         },
-		{
+        {
             "name": "orange",
             "directions": 4
         },
@@ -55,7 +55,7 @@
             "name": "orange_l",
             "directions": 4
         },
-		{
+        {
             "name": "pink",
             "directions": 4
         },

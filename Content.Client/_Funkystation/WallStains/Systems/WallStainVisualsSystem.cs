@@ -1,4 +1,4 @@
-﻿using Content.Shared._Funkystation.WallStains;
+using Content.Shared._Funkystation.WallStains;
 using Content.Shared._Funkystation.WallStains.Components;
 using Robust.Client.GameObjects;
 

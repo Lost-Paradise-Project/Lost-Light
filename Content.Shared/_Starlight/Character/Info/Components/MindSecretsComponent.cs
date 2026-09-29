@@ -1,4 +1,4 @@
-﻿// SPDX-FileCopyrightText: 2025 Starlight
+// SPDX-FileCopyrightText: 2025 Starlight
 // SPDX-License-Identifier: Starlight-MIT
 
 using Content.Shared.GameTicking;

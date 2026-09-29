@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Speech;
+using Content.Shared._Starlight.Speech;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;
 

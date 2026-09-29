@@ -29,4 +29,3 @@
   - type: InstantAction
     event: !type:OpenUiActionEvent
       key: enum.SharedGasTankUiKey.OrganKey
-

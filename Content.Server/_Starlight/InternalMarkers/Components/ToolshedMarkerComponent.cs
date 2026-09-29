@@ -1,4 +1,4 @@
-﻿namespace Content.Server._Starlight.InternalMarkers.Components;
+namespace Content.Server._Starlight.InternalMarkers.Components;
 
 /// <summary>
 ///     The intent of this component is to track objects and it's data for script purposes.

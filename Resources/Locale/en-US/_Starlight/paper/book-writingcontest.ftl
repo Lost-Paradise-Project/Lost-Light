@@ -1123,5 +1123,3 @@ book-unnamed-god = "Theological Studies — The unnamed God"
           I can hear the door to the room I have hidden inside being struck. I will do my best to fight back, but I don't like my odds.
 
           Charles Chaplain signing off for the last time.
-
-

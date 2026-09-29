@@ -1,4 +1,4 @@
-﻿thankyou-icecream-1 = Brrrrr!
+thankyou-icecream-1 = Brrrrr!
 thankyou-icecream-2 = Chill out.
 thankyou-icecream-3 = Enjoy your ice cold treat!
 thankyou-icecream-4 = Ice is nice!

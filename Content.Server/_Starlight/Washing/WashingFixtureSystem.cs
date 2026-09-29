@@ -1,4 +1,4 @@
-﻿using Content.Server._Starlight.Nutrition.EntitySystems;
+using Content.Server._Starlight.Nutrition.EntitySystems;
 using Content.Server.DoAfter;
 using Content.Server.Popups;
 using Content.Shared._Starlight.Lube;

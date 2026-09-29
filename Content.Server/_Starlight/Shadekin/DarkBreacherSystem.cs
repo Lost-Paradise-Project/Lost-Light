@@ -1,4 +1,4 @@
-﻿using Content.Server.Power.Components;
+using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
 using Content.Shared._Starlight.Shadekin;
 using Content.Shared._Starlight.Shadekin.Components;

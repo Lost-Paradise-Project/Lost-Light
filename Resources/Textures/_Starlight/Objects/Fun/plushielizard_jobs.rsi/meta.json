@@ -1,4 +1,4 @@
-﻿{
+{
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "State based copyright",
@@ -9,7 +9,7 @@
     "states": [
         {
             "name": "roboticist",
-			"copyright": "seam_less (discord), Cvlancer"
+            "copyright": "seam_less (discord), Cvlancer"
         }
     ]
 }

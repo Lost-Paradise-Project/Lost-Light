@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Character.Info.Components;
+using Content.Shared._Starlight.Character.Info.Components;
 using Content.Shared.CCVar;
 using Content.Shared.Examine;
 using Content.Shared.GameTicking;

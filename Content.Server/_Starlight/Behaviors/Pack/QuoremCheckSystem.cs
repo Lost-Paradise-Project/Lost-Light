@@ -1,4 +1,4 @@
-﻿using Content.Server.NPC.Components;
+using Content.Server.NPC.Components;
 using Content.Server.NPC.Systems;
 using Content.Shared._Starlight.Behaviors.Pack;
 

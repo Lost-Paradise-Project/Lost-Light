@@ -1,4 +1,4 @@
-﻿using Content.Client.Items.Systems;
+using Content.Client.Items.Systems;
 using Content.Shared._Moffstation.BladeServer;
 using Content.Shared.Hands;
 using Robust.Client.GameObjects;

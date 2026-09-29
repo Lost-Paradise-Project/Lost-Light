@@ -6,11 +6,10 @@
         "x": 32,
         "y": 32
     },
-  "states": [
-    {
-      "name": "haveuseendisman",
-    "copyright": "Made by choccy"
-    }
-
-  ]
+    "states": [
+        {
+            "name": "haveuseendisman",
+            "copyright": "Made by choccy"
+        }
+    ]
 }

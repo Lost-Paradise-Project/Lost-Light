@@ -1,4 +1,4 @@
-﻿using Robust.Client.Graphics;
+using Robust.Client.Graphics;
 
 namespace Content.Client._Funkystation.WallStains.Systems;
 

@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Shared._Starlight.VentCrawl.Components;
 
 namespace Content.Shared._Starlight.VentCrawl.EntitySystems;

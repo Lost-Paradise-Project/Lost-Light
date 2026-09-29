@@ -1,4 +1,4 @@
-﻿engraving-verb = Modify Description
+engraving-verb = Modify Description
 engraving-popup-ui-message = Describe this item's appearance:
 
 engraving-no-message = The item lacks any special features.

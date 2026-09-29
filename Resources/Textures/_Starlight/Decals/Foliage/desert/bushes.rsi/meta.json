@@ -7,17 +7,17 @@
         "y": 32
     },
     "states": [
-    {
-        "name": "bush01"
-    },
-    {
-        "name": "bush02"
-    },
-    {
-        "name": "bush03"
-    },
-    {
-        "name": "bush04"
-    }
+        {
+            "name": "bush01"
+        },
+        {
+            "name": "bush02"
+        },
+        {
+            "name": "bush03"
+        },
+        {
+            "name": "bush04"
+        }
     ]
 }

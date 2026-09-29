@@ -1,4 +1,4 @@
-﻿moff-blade-server-rack-window-title = Blade Server Rack
+moff-blade-server-rack-window-title = Blade Server Rack
 moff-blade-server-rack-window-footer-flavor = DEVICE FIRMWARE © 2125 NANOSOFT
 
 moff-blade-server-rack-slot-status = Slot {$index}: {$content}

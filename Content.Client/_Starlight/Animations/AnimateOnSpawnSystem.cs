@@ -1,4 +1,4 @@
-﻿using Robust.Client.GameObjects;
+using Robust.Client.GameObjects;
 using Robust.Shared.Timing;
 using Robust.Client.Animations;
 using Content.Shared._Starlight.Animations;

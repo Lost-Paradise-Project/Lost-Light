@@ -8,23 +8,23 @@
     },
     "states": [
         {
-			"license": "CC-BY-SA-3.0",
-			"copyright": "Taken from tgstation and modified by Swept at https://github.com/tgstation/tgstation/commit/40d75cc340c63582fb66ce15bf75a36115f6bdaa, probably.",
+            "license": "CC-BY-SA-3.0",
+            "copyright": "Taken from tgstation and modified by Swept at https://github.com/tgstation/tgstation/commit/40d75cc340c63582fb66ce15bf75a36115f6bdaa, probably.",
             "name": "bowl"
         },
         {
-			"license": "CC-BY-SA-3.0",
-			"copyright": "Artist unknown.",
+            "license": "CC-BY-SA-3.0",
+            "copyright": "Artist unknown.",
             "name": "MothSoup"
         },
-		{
-			"license": "CC-BY-SA-3.0",
-			"copyright": "By Rhetorica for Starlight",
+        {
+            "license": "CC-BY-SA-3.0",
+            "copyright": "By Rhetorica for Starlight",
             "name": "hummus"
         },
-		{
-			"license": "CC-BY-SA-3.0",
-			"copyright": "By Rhetorica for Starlight",
+        {
+            "license": "CC-BY-SA-3.0",
+            "copyright": "By Rhetorica for Starlight",
             "name": "blindingstew"
         }
     ]

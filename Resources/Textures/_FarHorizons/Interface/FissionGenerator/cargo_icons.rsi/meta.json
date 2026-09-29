@@ -9,11 +9,11 @@
     "states": [
         {
             "name": "reactor",
-    "copyright": "Taken and modified from goonstation https://github.com/goonstation/goonstation/blob/ff86b044/icons/misc/nuclearreactor.dmi"
+            "copyright": "Taken and modified from goonstation https://github.com/goonstation/goonstation/blob/ff86b044/icons/misc/nuclearreactor.dmi"
         },
         {
             "name": "turbine",
-    "copyright": "Taken and modified from goonstation https://github.com/goonstation/goonstation/blob/ff86b044/icons/obj/large/96x160.dmi"
+            "copyright": "Taken and modified from goonstation https://github.com/goonstation/goonstation/blob/ff86b044/icons/obj/large/96x160.dmi"
         }
     ]
 }

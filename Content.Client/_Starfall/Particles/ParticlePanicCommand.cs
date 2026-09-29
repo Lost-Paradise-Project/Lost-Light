@@ -21,4 +21,3 @@ public sealed class ParticlePanicCommand : IConsoleCommand
         shell.WriteLine($"Cleared {count} emitter(s)/particle(s).");
     }
 }
-

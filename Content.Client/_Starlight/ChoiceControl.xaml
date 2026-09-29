@@ -1,4 +1,4 @@
-﻿<ui:ChoiceControl
+<ui:ChoiceControl
     xmlns="https://spacestation14.io"
     xmlns:ui="clr-namespace:Content.Client._Starlight">
     <BoxContainer Orientation="Horizontal">

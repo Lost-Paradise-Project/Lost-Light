@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using Starlight.NullLink;
 using Starlight.NullLink.Event;
 

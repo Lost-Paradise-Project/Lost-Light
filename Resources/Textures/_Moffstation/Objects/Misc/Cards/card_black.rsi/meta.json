@@ -147,11 +147,11 @@
             "name": "joker",
             "copyright": "Taken from Paradise Station https://github.com/ParadiseSS13/Paradise modified by VictorJob and Huaqas (GitHub)",
             "delays": [
-            [
-            0.5,
-            0.5
+                [
+                    0.5,
+                    0.5
+                ]
             ]
-        ]
         },
         {
             "name": "singlecard_down",

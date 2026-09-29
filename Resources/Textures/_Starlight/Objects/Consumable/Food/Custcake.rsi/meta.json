@@ -1,26 +1,26 @@
-﻿{
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from starlight textures by Conf & IQlvlZero",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "ResomiKart"
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from starlight textures by Conf & IQlvlZero",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "ResomiKartSlice"
-    },
-    {
-      "name": "mothcake"
-    },
-    {
-    "name": "mothcakeslice"
-    },
-    {
-    "name": "mothbatter"
-    }
-  ]
+    "states": [
+        {
+            "name": "ResomiKart"
+        },
+        {
+            "name": "ResomiKartSlice"
+        },
+        {
+            "name": "mothcake"
+        },
+        {
+            "name": "mothcakeslice"
+        },
+        {
+            "name": "mothbatter"
+        }
+    ]
 }

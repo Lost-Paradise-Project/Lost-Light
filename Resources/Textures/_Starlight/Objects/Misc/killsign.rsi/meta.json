@@ -2,18 +2,15 @@
     "version": 1,
     "license": "CC-BY-NC-SA-3.0",
     "copyright": "made by neomoth",
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
-    "states":
-    [
+    "states": [
         {
             "name": "dumb",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -23,8 +20,7 @@
         {
             "name": "blind",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -34,8 +30,7 @@
         {
             "name": "l",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -45,8 +40,7 @@
         {
             "name": "w",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -56,8 +50,7 @@
         {
             "name": "owo",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -67,8 +60,7 @@
         {
             "name": "harmbatong",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -78,8 +70,7 @@
         {
             "name": "gay",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -89,8 +80,7 @@
         {
             "name": "ssd",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -100,8 +90,7 @@
         {
             "name": "clueless",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -111,8 +100,7 @@
         {
             "name": "fat",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -122,8 +110,7 @@
         {
             "name": "moff",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -133,8 +120,7 @@
         {
             "name": "honk",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -144,8 +130,7 @@
         {
             "name": "vip",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -155,8 +140,7 @@
         {
             "name": "dm",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -166,8 +150,7 @@
         {
             "name": "admin",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -177,8 +160,7 @@
         {
             "name": "uwu",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -188,8 +170,7 @@
         {
             "name": "event",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15
@@ -199,8 +180,7 @@
         {
             "name": "point",
             "directions": 1,
-            "delays":
-            [
+            "delays": [
                 [
                     0.15,
                     0.15

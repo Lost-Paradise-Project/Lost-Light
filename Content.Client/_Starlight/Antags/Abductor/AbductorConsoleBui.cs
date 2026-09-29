@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.RichText;
 using Robust.Shared.Utility;

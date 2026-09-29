@@ -21,7 +21,12 @@
         },
         {
             "name": "vampire_starving",
-            "delays": [ [0.3, 0.3] ],
+            "delays": [
+                [
+                    0.3,
+                    0.3
+                ]
+            ],
             "copyright": "Taken from Paradise Station 13"
         },
         {

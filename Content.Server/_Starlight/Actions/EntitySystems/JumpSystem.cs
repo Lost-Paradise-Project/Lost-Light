@@ -1,4 +1,4 @@
-﻿using Content.Server.Atmos.EntitySystems;
+using Content.Server.Atmos.EntitySystems;
 using Content.Shared._Starlight.Actions.EntitySystems;
 using Content.Shared._Starlight.Actions.Components;
 using Content.Shared._Starlight.Actions.Events;

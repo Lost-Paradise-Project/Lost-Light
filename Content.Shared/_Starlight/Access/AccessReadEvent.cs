@@ -1,4 +1,4 @@
-﻿namespace Content.Shared._Starlight.Access;
+namespace Content.Shared._Starlight.Access;
 [ByRefEvent]
 public record struct AccessReadEvent()
 {

@@ -348,4 +348,3 @@ public sealed partial class CharacterRecordsSystem : EntitySystem
 }
 
 public sealed class CharacterRecordsModifiedEvent : EntityEventArgs;
-

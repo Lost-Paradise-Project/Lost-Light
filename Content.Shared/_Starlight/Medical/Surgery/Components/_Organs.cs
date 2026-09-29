@@ -1,4 +1,4 @@
-﻿using Content.Shared.Actions;
+using Content.Shared.Actions;
 using Content.Shared.Chat.Prototypes;
 using Content.Shared.Damage;
 using Content.Shared.Humanoid;

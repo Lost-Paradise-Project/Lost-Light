@@ -12,8 +12,8 @@
             "directions": 4
         },
         {
-        "name": "l_foot_feathers_secondary",
-        "directions": 4
+            "name": "l_foot_feathers_secondary",
+            "directions": 4
         },
         {
             "name": "r_foot_feathers_primary",
@@ -63,5 +63,5 @@
             "name": "r_leg_coat",
             "directions": 4
         }
-      ]
-  }
+    ]
+}

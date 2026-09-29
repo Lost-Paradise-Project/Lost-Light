@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using Content.Shared._Starlight.Speech.Components;
 using Content.Shared.Speech;
 using Robust.Shared.Random;

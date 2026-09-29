@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Lube;
+using Content.Shared._Starlight.Lube;
 using Content.Shared.Hands;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.IdentityManagement;

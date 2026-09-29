@@ -1,4 +1,4 @@
-﻿namespace Content.Shared._Starlight.Temperature.Components;
+namespace Content.Shared._Starlight.Temperature.Components;
 
 [RegisterComponent]
 public sealed partial class TemperatureProtectionComponent : Component

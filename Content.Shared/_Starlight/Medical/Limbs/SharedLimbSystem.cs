@@ -1,4 +1,4 @@
-﻿using Content.Shared.Body.Systems;
+using Content.Shared.Body.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 

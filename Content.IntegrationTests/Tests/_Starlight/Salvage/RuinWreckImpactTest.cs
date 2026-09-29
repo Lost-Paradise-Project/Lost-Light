@@ -100,4 +100,3 @@ public sealed class RuinWreckImpactTest : GameTest
 
     #endregion
 }
-

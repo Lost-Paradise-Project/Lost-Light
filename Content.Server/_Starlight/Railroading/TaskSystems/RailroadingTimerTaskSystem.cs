@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Railroading.Components.Tasks;
+using Content.Shared._Starlight.Railroading.Components.Tasks;
 using Content.Shared._Starlight.Railroading.Events;
 using Content.Shared.Objectives;
 using Robust.Shared.Timing;

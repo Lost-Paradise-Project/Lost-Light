@@ -2,13 +2,11 @@
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "sprite by neomoth, modified from Conflee and walksanator's emag sprites",
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
-    "states":
-    [
+    "states": [
         {
             "name": "inhand-left",
             "directions": 4

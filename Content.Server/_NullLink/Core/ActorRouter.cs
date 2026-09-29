@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 using Content.Server._NullLink.Helpers;
 using Content.Shared.NullLink.CCVar;

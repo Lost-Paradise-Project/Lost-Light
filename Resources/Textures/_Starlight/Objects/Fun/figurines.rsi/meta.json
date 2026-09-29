@@ -10,16 +10,16 @@
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "Flareguy"
+            "copyright": "Flareguy"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "Flareguy"
+            "copyright": "Flareguy"
         },
         {
             "name": "roboticist",
-			"copyright": "Flareguy, Cvlancer"
+            "copyright": "Flareguy, Cvlancer"
         }
     ]
 }

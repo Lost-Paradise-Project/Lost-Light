@@ -36,14 +36,14 @@
                     0.125
                 ]
             ],
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "off-equipped-HELMET",
             "directions": 4,
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "on-equipped-EARS",
@@ -74,14 +74,14 @@
                     0.125
                 ]
             ],
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "off-equipped-EARS",
             "directions": 4,
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "on-equipped-NECK",
@@ -112,37 +112,37 @@
                     0.125
                 ]
             ],
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "off-equipped-NECK",
             "directions": 4,
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "icon",
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "icon-on",
             "delays": [
                 [
-				    0.2,
+                    0.2,
                     0.2,
                     0.2,
                     0.2,
@@ -152,8 +152,8 @@
                     0.2
                 ]
             ],
-			"copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, Pixel8-dev, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         }
     ]
 }

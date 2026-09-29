@@ -9,112 +9,112 @@
     "states": [
         {
             "name": "base",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "stripe",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "practice",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "red",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "red-icon",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "rubber",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "sp",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "fmj",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "ap",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "incendiary",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "uranium",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "piercing",
-			"copyright": "TG Station, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "mag-1",
-			"copyright": "TG Station",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "mag-2",
-			"copyright": "TG Station",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "mag-3",
-			"copyright": "TG Station",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "mag-4",
-			"copyright": "TG Station",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "mag-5",
-			"copyright": "TG Station",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-left-mag",
             "directions": 4,
-			"copyright": "TG Station, TiniestShark, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, TiniestShark, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-left-stripe",
             "directions": 4,
-			"copyright": "TG Station, TiniestShark, SeamLesss",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, TiniestShark, SeamLesss",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-right-mag",
             "directions": 4,
-			"copyright": "TG Station, TiniestShark, wonderfulnewworld",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, TiniestShark, wonderfulnewworld",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-right-stripe",
             "directions": 4,
-			"copyright": "TG Station, TiniestShark, SeamLesss",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, TiniestShark, SeamLesss",
+            "license": "CC-BY-SA-3.0"
         }
     ]
 }

@@ -31,4 +31,3 @@ public sealed partial class SpawnParticleEffectSystem : EntityEffectSystem<Trans
         _particles.CreateParticle(args.Effect.Effect, entity.Owner, args.Effect.ColorOverride);
     }
 }
-

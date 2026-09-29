@@ -1,4 +1,4 @@
-﻿<bladeServerUi:BladeServerRackWindow
+<bladeServerUi:BladeServerRackWindow
     xmlns="https://spacestation14.io"
     xmlns:bladeServerUi="clr-namespace:Content.Client._Moffstation.BladeServer.UI"
     SetWidth="550"

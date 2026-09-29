@@ -1,4 +1,4 @@
-﻿namespace Content.Server._NullLink.Core;
+namespace Content.Server._NullLink.Core;
 
 public sealed class TokenHolder
 {

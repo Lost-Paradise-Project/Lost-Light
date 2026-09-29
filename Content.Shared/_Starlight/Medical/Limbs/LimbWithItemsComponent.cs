@@ -1,4 +1,4 @@
-﻿using Content.Shared.Whitelist;
+using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;

@@ -1,4 +1,4 @@
-﻿using Content.Shared._Afterlight.Silicons.Borgs;
+using Content.Shared._Afterlight.Silicons.Borgs;
 using Content.Shared._NullLink;
 using Content.Shared._Starlight.Silicons.Borgs;
 using Content.Shared.Silicons.Borgs.Components;

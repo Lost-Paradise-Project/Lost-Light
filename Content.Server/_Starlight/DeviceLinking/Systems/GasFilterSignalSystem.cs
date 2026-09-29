@@ -45,4 +45,3 @@ public sealed partial class GasFilterSignalSystem : EntitySystem
 
     }
 }
-

@@ -1,4 +1,4 @@
-﻿using Content.Shared.DisplacementMap;
+using Content.Shared.DisplacementMap;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Starlight.Effects;

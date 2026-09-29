@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Shared._Starlight.VentCrawl.Components;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Movement.Components;

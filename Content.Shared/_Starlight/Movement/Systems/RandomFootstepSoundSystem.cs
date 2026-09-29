@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Movement.Components;
+using Content.Shared._Starlight.Movement.Components;
 using Content.Shared.Movement.Events;
 using Robust.Shared.Random;
 

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   name: Gamorrah Pulse Pistol
   parent: [BaseWeaponBatterySmall, BaseCasinoContraband ]
   id: WeaponPulsePistolCasino

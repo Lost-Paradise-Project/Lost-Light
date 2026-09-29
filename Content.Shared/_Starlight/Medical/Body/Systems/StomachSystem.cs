@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Medical.Body.Components;
+using Content.Shared._Starlight.Medical.Body.Components;
 using Content.Shared.Body.Organ;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;

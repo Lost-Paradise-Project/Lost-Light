@@ -1,4 +1,4 @@
-﻿advertisement-icecream-1 = It's cooler than smoking!
+advertisement-icecream-1 = It's cooler than smoking!
 advertisement-icecream-2 = Wouldn't you like to escape the heat?
 advertisement-icecream-3 = Those industrial lathes must be making this place pretty warm, huh?
 advertisement-icecream-4 = Is it just me or did the room get hotter?

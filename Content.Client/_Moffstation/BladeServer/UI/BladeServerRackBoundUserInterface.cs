@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Shared._Moffstation.BladeServer;
 using Content.Shared.Input;
 using JetBrains.Annotations;

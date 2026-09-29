@@ -1,19 +1,19 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "fashion_killer",
-      "copyright": "Conflee"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "fashion_sing",
-      "copyright": "Conflee"
-    }
-  ]
+    "states": [
+        {
+            "name": "fashion_killer",
+            "copyright": "Conflee"
+        },
+        {
+            "name": "fashion_sing",
+            "copyright": "Conflee"
+        }
+    ]
 }

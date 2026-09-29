@@ -9,4 +9,3 @@ hand-labeler-delete-label-text = Delete Label
 
 # The text on the button when in delete mode.
 hand-labeler-delete-mode-text = Deleting...
-

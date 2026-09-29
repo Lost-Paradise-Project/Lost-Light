@@ -1,4 +1,4 @@
-﻿<ui:CharacterOverviewControl
+<ui:CharacterOverviewControl
      xmlns="https://spacestation14.io"
      xmlns:cc="clr-namespace:Content.Client.UserInterface.Controls"
      xmlns:ui="clr-namespace:Content.Client._Starlight.Character.Info.UI"

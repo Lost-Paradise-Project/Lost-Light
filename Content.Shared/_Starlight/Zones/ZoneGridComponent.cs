@@ -1,4 +1,4 @@
-﻿namespace Content.Shared._Starlight.Zones;
+namespace Content.Shared._Starlight.Zones;
 
 [RegisterComponent]
 [Access(typeof(SharedZoneSystem))]

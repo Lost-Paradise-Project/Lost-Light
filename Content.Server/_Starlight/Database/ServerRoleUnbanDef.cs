@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Network;
+using Robust.Shared.Network;
 using Starlight.NullLink;
 
 // ReSharper disable once CheckNamespace

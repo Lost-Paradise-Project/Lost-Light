@@ -160,20 +160,20 @@
             "copyright": "renamed from sleeve_2, taken from goonstation commit: https://github.com/goonstation/goonstation/commit/4059e4be90832b02b1228b1bee3db342094e4f1e"
         },
         {
-             "name": "plainwhite-vinyl-sleeve",
+            "name": "plainwhite-vinyl-sleeve",
             "copyright": "renamed from sleeve_1, taken from goonstation commit: https://github.com/goonstation/goonstation/commit/4059e4be90832b02b1228b1bee3db342094e4f1e"
         },
         {
-             "name": "nb-vinyl-sleeve",
+            "name": "nb-vinyl-sleeve",
             "copyright": "renamed from sleeve_nb, taken from goonstation commit: https://github.com/goonstation/goonstation/commit/4059e4be90832b02b1228b1bee3db342094e4f1e"
         },
         {
-             "name": "pride-vinyl-sleeve",
+            "name": "pride-vinyl-sleeve",
             "copyright": "renamed from sleeve_pride taken from goonstation commit: https://github.com/goonstation/goonstation/commit/4059e4be90832b02b1228b1bee3db342094e4f1e"
         },
         {
-             "name": "trans-vinyl-sleeve",
+            "name": "trans-vinyl-sleeve",
             "copyright": "renamed from sleeve_trans, taken from goonstation commit: https://github.com/goonstation/goonstation/commit/4059e4be90832b02b1228b1bee3db342094e4f1e"
         }
-  ]
+    ]
 }

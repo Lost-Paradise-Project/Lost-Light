@@ -1,4 +1,4 @@
-﻿namespace Content.Server._Starlight.Medical.Limbs;
+namespace Content.Server._Starlight.Medical.Limbs;
 
 [ByRefEvent]
 public record struct LimbAttachedEvent

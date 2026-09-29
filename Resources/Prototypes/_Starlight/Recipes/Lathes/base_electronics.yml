@@ -1,4 +1,4 @@
-﻿- type: latheRecipe
+- type: latheRecipe
   parent: BaseElectronicsRecipe
   abstract: true
   id: BaseCircuitboardRecipeHigh

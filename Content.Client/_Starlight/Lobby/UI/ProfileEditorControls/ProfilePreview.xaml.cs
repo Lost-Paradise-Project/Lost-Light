@@ -1,4 +1,4 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Content.Client.Sprite;
 using Content.Shared.Humanoid;
 using Content.Shared.Preferences;

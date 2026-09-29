@@ -1,4 +1,4 @@
-﻿using Content.Shared.Humanoid.Markings;
+using Content.Shared.Humanoid.Markings;
 using Content.Shared.Actions;
 using Content.Shared.Humanoid;
 using Content.Shared._Starlight.Humanoid.Markings;

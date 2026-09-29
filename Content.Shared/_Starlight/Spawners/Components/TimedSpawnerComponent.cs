@@ -1,4 +1,4 @@
-﻿using Content.Shared.Mobs;
+using Content.Shared.Mobs;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;

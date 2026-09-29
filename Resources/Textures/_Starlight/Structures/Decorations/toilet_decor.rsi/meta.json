@@ -10,22 +10,22 @@
         {
             "name": "handdryer",
             "directions": 4,
-			"copyright": "taken from https://github.com/SPLURT-Station/S.P.L.U.R.T-tg"
+            "copyright": "taken from https://github.com/SPLURT-Station/S.P.L.U.R.T-tg"
         },
         {
             "name": "toiletroll",
             "directions": 4,
-			"copyright": "created for Triad by Kepteyn"
+            "copyright": "created for Triad by Kepteyn"
         },
         {
             "name": "toiletrolloffset",
             "directions": 4,
-			"copyright": "created for Triad by Kepteyn"
+            "copyright": "created for Triad by Kepteyn"
         },
         {
             "name": "handsanitiser",
             "directions": 4,
-			"copyright": "created for Triad by Kepteyn"
+            "copyright": "created for Triad by Kepteyn"
         }
     ]
 }

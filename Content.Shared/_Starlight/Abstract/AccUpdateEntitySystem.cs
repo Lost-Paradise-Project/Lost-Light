@@ -1,4 +1,4 @@
-﻿namespace Content.Shared._Starlight.Abstract;
+namespace Content.Shared._Starlight.Abstract;
 
 public abstract class AccUpdateEntitySystem : EntitySystem
 {

@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using Content.Shared.Construction.Components;
 using Content.Shared.Containers.ItemSlots;
 using Robust.Shared.GameStates;

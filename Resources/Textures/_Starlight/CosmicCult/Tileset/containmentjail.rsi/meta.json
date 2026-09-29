@@ -8,58 +8,58 @@
     },
     "states": [
         {
-        "name": "icon"
+            "name": "icon"
         },
         {
-        "name": "storage-base"
+            "name": "storage-base"
         },
         {
-        "name": "storage-door-closed"
+            "name": "storage-door-closed"
         },
         {
-        "name": "storage-door-open"
+            "name": "storage-door-open"
         },
         {
-        "name": "unshaded-idle"
+            "name": "unshaded-idle"
         },
         {
-        "name": "unshaded-active",
-        "delays": [
-            [
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1,
-                0.1
+            "name": "unshaded-active",
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
             ]
-        ]
         },
         {
-        "name": "vfx-active",
-        "delays": [
-            [
-                0.15,
-                0.15,
-                0.15,
-                0.15
+            "name": "vfx-active",
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
             ]
-        ]
         },
         {
-        "name": "vfx-cooldown",
-        "delays": [
-            [
-                0.15,
-                0.15,
-                0.15,
-                0.15
+            "name": "vfx-cooldown",
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
             ]
-        ]
         }
     ]
 }

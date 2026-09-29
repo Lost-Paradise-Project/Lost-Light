@@ -188,4 +188,3 @@ public sealed partial class RecordEditorGui : Control
         WeightImperialLabel.Text = UnitConversion.GetImperialDisplayMass(newWeight);
     }
 }
-

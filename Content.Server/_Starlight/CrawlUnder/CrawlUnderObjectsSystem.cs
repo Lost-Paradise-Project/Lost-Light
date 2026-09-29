@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.CrawlUnder;
+using Content.Shared._Starlight.CrawlUnder;
 
 
 namespace Content.Server._Starlight.CrawlUnder;

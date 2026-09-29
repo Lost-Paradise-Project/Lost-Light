@@ -1,4 +1,4 @@
-﻿using Content.Server.GameTicking.Events;
+using Content.Server.GameTicking.Events;
 using Content.Shared._Starlight.Time;
 
 namespace Content.Server._Starlight.Time;

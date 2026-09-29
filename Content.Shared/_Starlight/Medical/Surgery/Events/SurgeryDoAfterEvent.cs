@@ -1,4 +1,4 @@
-﻿using Content.Shared.DoAfter;
+using Content.Shared.DoAfter;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 // Based on the RMC14.

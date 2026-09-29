@@ -151,5 +151,3 @@
       - PAI
       - StationAiCore
     event: !type:PsychicWhisperEvent
-
-

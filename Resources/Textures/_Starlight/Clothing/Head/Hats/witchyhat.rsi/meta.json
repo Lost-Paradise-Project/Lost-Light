@@ -9,38 +9,38 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "created by: xxhotgirl69 @ github",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "created by: xxhotgirl69 @ github",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "equipped-HELMET",
             "directions": 4,
-			"copyright": "created by: xxhotgirl69 @ github",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "created by: xxhotgirl69 @ github",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "equipped-HELMET-hamster",
             "directions": 4,
-			"copyright": "created by: xxhotgirl69 @ github",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "created by: xxhotgirl69 @ github",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "equipped-HELMET-dog",
             "directions": 4,
-			"copyright": "created by: xxhotgirl69 @ github",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "created by: xxhotgirl69 @ github",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "created by: xxhotgirl69 @ github",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "created by: xxhotgirl69 @ github",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "created by: xxhotgirl69 @ github",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "created by: xxhotgirl69 @ github",
+            "license": "CC-BY-SA-3.0"
         }
     ]
 }

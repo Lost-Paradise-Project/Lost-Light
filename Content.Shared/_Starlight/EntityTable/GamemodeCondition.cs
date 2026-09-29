@@ -26,5 +26,3 @@ public sealed partial class GamemodeCondition : EntityTableCondition
         return _conditionSystem.CheckGamemode(Presets);
     }
 }
-
-

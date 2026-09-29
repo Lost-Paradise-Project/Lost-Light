@@ -1,4 +1,4 @@
-﻿using Content.Shared._NullLink;
+using Content.Shared._NullLink;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 

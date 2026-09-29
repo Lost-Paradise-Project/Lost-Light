@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   id: SalvageMedic
   name: job-name-salvagemedic
   description: job-description-salvagemedic

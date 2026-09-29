@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: PartCyber
   parent: [BaseItem, BasePart]
   name: "cyber body part"

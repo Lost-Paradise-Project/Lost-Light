@@ -1,4 +1,4 @@
-﻿playing-card-name-reverse = playing card
+playing-card-name-reverse = playing card
 playing-card-desc-reverse = You can't tell what it is from this side.
 
 playing-card-name = {$card} of {$suit}

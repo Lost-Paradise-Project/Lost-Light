@@ -69,4 +69,3 @@ public abstract partial class SharedAbductorSystem : EntitySystem
 
     }
 }
-

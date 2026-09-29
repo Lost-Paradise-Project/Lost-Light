@@ -1,21 +1,21 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "base",
-      "directions": 4,
-  "copyright": "Originals Taken from tgstation at commit https://github.com/tgstation/tgstation/blob/HEAD/icons/obj/chairs.dmi, edits by Conflee"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "overlay",
-      "directions": 4,
-  "copyright": "Originals Taken from tgstation at commit https://github.com/tgstation/tgstation/blob/HEAD/icons/obj/chairs.dmi, edits by Conflee"
-    }
-  ]
+    "states": [
+        {
+            "name": "base",
+            "directions": 4,
+            "copyright": "Originals Taken from tgstation at commit https://github.com/tgstation/tgstation/blob/HEAD/icons/obj/chairs.dmi, edits by Conflee"
+        },
+        {
+            "name": "overlay",
+            "directions": 4,
+            "copyright": "Originals Taken from tgstation at commit https://github.com/tgstation/tgstation/blob/HEAD/icons/obj/chairs.dmi, edits by Conflee"
+        }
+    ]
 }

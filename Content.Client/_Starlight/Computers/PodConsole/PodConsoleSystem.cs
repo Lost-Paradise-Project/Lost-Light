@@ -1,4 +1,4 @@
-﻿using Content.Shared._Starlight.Computers.PodConsole;
+using Content.Shared._Starlight.Computers.PodConsole;
 
 namespace Content.Client._Starlight.Computers.PodConsole;
 

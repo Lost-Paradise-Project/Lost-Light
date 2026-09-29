@@ -1,4 +1,4 @@
-﻿# Originally developed on Harmony, ported to Starlight with permission
+# Originally developed on Harmony, ported to Starlight with permission
 - type: entity
   parent: FoodBoxPizzaFilled
   id: Pizzabomb

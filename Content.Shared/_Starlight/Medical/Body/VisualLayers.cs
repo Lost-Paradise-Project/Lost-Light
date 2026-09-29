@@ -1,4 +1,4 @@
-﻿using Content.Shared.Humanoid;
+using Content.Shared.Humanoid;
 
 namespace Content.Shared._Starlight.Medical.Body;
 public static class VisualLayers

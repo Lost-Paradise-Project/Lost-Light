@@ -1,4 +1,4 @@
-﻿using Content.Shared.Body.Part;
+using Content.Shared.Body.Part;
 using Content.Shared.Humanoid;
 using System.Linq;
 using Content.Shared._Starlight.Medical.Surgery.Events;

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: Welder
   id: WelderNoSparks
   categories: [ Debug ]

@@ -1,4 +1,4 @@
-﻿using System.Collections.Immutable;
+using System.Collections.Immutable;
 using Lidgren.Network;
 using Robust.Shared.Network;
 using Robust.Shared.Serialization;

@@ -209,4 +209,3 @@ public sealed partial class PlumbingFilterSystem : EntitySystem
             _audio.PlayPvs(device.ClickSound, uid, AudioParams.Default.WithVolume(-2f));
     }
 }
-

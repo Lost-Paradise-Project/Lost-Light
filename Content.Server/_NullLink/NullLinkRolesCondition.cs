@@ -1,4 +1,4 @@
-﻿using Content.Server.Connection.Whitelist;
+using Content.Server.Connection.Whitelist;
 
 namespace Content.Server._NullLink;
 

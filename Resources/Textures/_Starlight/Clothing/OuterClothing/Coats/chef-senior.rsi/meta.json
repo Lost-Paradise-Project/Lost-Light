@@ -7,24 +7,24 @@
         "y": 32
     },
     "states": [
-    {
-        "name": "icon",
-        "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
-    },
-    {
-        "name": "equipped-OUTERCLOTHING",
-        "directions": 4,
-        "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
-    },
-    {
-        "name": "inhand-left",
-        "directions": 4,
-        "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
-    },
-    {
-        "name": "inhand-right",
-        "directions": 4,
-        "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
-    }
-]
+        {
+            "name": "icon",
+            "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
+        },
+        {
+            "name": "equipped-OUTERCLOTHING",
+            "directions": 4,
+            "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4,
+            "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4,
+            "copyright": "Edited from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e by Kasern for Starlight"
+        }
+    ]
 }

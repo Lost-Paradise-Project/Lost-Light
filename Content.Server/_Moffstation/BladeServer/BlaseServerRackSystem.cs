@@ -1,4 +1,4 @@
-﻿using Content.Server._Moffstation.Power.EntitySystems;
+using Content.Server._Moffstation.Power.EntitySystems;
 using Content.Shared._Moffstation.BladeServer;
 
 namespace Content.Server._Moffstation.BladeServer;

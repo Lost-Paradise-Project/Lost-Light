@@ -69,4 +69,3 @@ public sealed partial class AutoLoaderComponent : Component
     [DataField]
     public EntProtoId HolderPrototypeId = "DisposalHolder";
 }
-

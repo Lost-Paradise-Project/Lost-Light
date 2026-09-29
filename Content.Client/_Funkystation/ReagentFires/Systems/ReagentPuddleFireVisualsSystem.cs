@@ -1,4 +1,4 @@
-﻿using Content.Client._Starfall.Particles;
+using Content.Client._Starfall.Particles;
 using Content.Shared._Funkystation.ReagentFires;
 using Content.Shared._Starfall.Particles;
 using Robust.Client.GameObjects;

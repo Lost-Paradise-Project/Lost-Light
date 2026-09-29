@@ -1,43 +1,43 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "normal-unshaded",
-      "delays": [
-        [
-          4.7,
-          0.1
-        ]
-      ],
-      "copyright": "By Conflee | Stripe by mikeysaurus"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "deny-unshaded",
-      "delays": [
-        [
-          0.13,
-          0.13
-        ]
-      ],
-      "copyright": "By Conflee | Stripe by mikeysaurus"
-    },
-    {
-      "name": "off",
-      "copyright": "By Conflee | Stripe by mikeysaurus"
-    },
-    {
-      "name": "broken",
-      "copyright": "By Conflee | Stripe by mikeysaurus"
-    },
-    {
-      "name": "panel",
-      "copyright": "By Conflee | Stripe by mikeysaurus"
-    }
-  ]
+    "states": [
+        {
+            "name": "normal-unshaded",
+            "delays": [
+                [
+                    4.7,
+                    0.1
+                ]
+            ],
+            "copyright": "By Conflee | Stripe by mikeysaurus"
+        },
+        {
+            "name": "deny-unshaded",
+            "delays": [
+                [
+                    0.13,
+                    0.13
+                ]
+            ],
+            "copyright": "By Conflee | Stripe by mikeysaurus"
+        },
+        {
+            "name": "off",
+            "copyright": "By Conflee | Stripe by mikeysaurus"
+        },
+        {
+            "name": "broken",
+            "copyright": "By Conflee | Stripe by mikeysaurus"
+        },
+        {
+            "name": "panel",
+            "copyright": "By Conflee | Stripe by mikeysaurus"
+        }
+    ]
 }

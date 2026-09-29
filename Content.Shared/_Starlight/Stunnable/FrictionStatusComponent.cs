@@ -1,4 +1,4 @@
-﻿using Content.Shared.Stunnable;
+using Content.Shared.Stunnable;
 using Robust.Shared.GameStates;
 
 namespace Content.Shared._Starlight.Stunnable;

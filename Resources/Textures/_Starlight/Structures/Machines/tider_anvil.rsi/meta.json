@@ -1,73 +1,73 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "icon",
-      "copyright": "made by stickycheZ101"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "panel",
-      "copyright": "made by stickycheZ101"
-    },
-    {
-      "name": "unlit",
-      "copyright": "made by stickycheZ101"
-    },
-    {
-      "name": "building",
-      "delays": [
-        [
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15
-        ]
-      ],
-      "copyright": "made by stickycheZ101"
-    },
-    {
-      "name": "unlit-building",
-      "delays": [
-        [
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15,
-          0.15
-        ]
-      ],
-      "copyright": "made by stickycheZ101"
-    },
-    {
-      "name": "inserting",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ],
-      "copyright": "made by stickycheZ101"
-    }
-  ]
+    "states": [
+        {
+            "name": "icon",
+            "copyright": "made by stickycheZ101"
+        },
+        {
+            "name": "panel",
+            "copyright": "made by stickycheZ101"
+        },
+        {
+            "name": "unlit",
+            "copyright": "made by stickycheZ101"
+        },
+        {
+            "name": "building",
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
+            ],
+            "copyright": "made by stickycheZ101"
+        },
+        {
+            "name": "unlit-building",
+            "delays": [
+                [
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15,
+                    0.15
+                ]
+            ],
+            "copyright": "made by stickycheZ101"
+        },
+        {
+            "name": "inserting",
+            "delays": [
+                [
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1,
+                    0.1
+                ]
+            ],
+            "copyright": "made by stickycheZ101"
+        }
+    ]
 }

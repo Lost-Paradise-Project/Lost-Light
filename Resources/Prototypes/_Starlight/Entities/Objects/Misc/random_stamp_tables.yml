@@ -1,4 +1,4 @@
-﻿- type: entityTable
+- type: entityTable
   id: RandomCaptainStampFakeTable
   table: !type:GroupSelector
     children:

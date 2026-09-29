@@ -9,26 +9,26 @@
     "states": [
         {
             "name": "icon",
-			"copyright": "TG Station, meganerobot",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, meganerobot",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "equipped-INNERCLOTHING",
             "directions": 4,
-			"copyright": "TG Station, meganerobot",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, meganerobot",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-			"copyright": "TG Station, meganerobot",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, meganerobot",
+            "license": "CC-BY-SA-3.0"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-			"copyright": "TG Station, meganerobot",
-			"license": "CC-BY-SA-3.0"
+            "copyright": "TG Station, meganerobot",
+            "license": "CC-BY-SA-3.0"
         }
     ]
 }

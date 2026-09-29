@@ -2,13 +2,11 @@
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "cat ears by neomoth, wings, fluff, cheeks by orsonik",
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
-    "states":
-    [
+    "states": [
         {
             "name": "koni_ears",
             "directions": 4

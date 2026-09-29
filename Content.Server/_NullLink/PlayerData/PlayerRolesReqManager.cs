@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Shared._NullLink;
 using Robust.Server.Player;
 using Robust.Shared.Player;

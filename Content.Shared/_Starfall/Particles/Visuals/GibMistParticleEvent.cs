@@ -19,4 +19,3 @@ public sealed class GibMistParticleEvent : EntityEventArgs
         BloodColor = bloodColor;
     }
 }
-

@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Prototypes;
+using Robust.Shared.Prototypes;
 // Based on the RMC14.
 // https://github.com/RMC-14/RMC-14
 namespace Content.Shared._Starlight.Medical.Surgery.Events;

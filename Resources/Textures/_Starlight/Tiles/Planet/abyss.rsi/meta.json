@@ -1,76 +1,76 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "State based copyright",
-  "size": {
-    "x": 32,
-    "y": 32
-  },
-  "states": [
-    {
-      "name": "abyss1",
-      "delays": [
-        [
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ]
-      ],
-      "copyright": "Darkrell"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based copyright",
+    "size": {
+        "x": 32,
+        "y": 32
     },
-    {
-      "name": "abyss2",
-      "delays": [
-        [
-          2,
-          2,
-          2,
-          2
-        ]
-      ],
-      "copyright": "Darkrell"
-    },
-    {
-      "name": "abyss3",
-      "delays": [
-        [
-          2,
-          2,
-          2,
-          2
-        ]
-      ],
-      "copyright": "Darkrell"
-    },
-    {
-      "name": "abyss4",
-      "delays": [
-        [
-          2,
-          2,
-          2,
-          2
-        ]
-      ],
-      "copyright": "Darkrell"
-    },
-    {
-      "name": "abyss5",
-      "delays": [
-        [
-          2,
-          2,
-          2,
-          2
-        ]
-      ],
-      "copyright": "Darkrell"
-    }
-  ]
+    "states": [
+        {
+            "name": "abyss1",
+            "delays": [
+                [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.2
+                ]
+            ],
+            "copyright": "Darkrell"
+        },
+        {
+            "name": "abyss2",
+            "delays": [
+                [
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            ],
+            "copyright": "Darkrell"
+        },
+        {
+            "name": "abyss3",
+            "delays": [
+                [
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            ],
+            "copyright": "Darkrell"
+        },
+        {
+            "name": "abyss4",
+            "delays": [
+                [
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            ],
+            "copyright": "Darkrell"
+        },
+        {
+            "name": "abyss5",
+            "delays": [
+                [
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            ],
+            "copyright": "Darkrell"
+        }
+    ]
 }

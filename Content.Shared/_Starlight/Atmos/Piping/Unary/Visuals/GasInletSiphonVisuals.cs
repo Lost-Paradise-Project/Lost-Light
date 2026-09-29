@@ -16,4 +16,3 @@ public enum GasInletSiphonState : byte
     UnpoweredOn,
     On,
 }
-

@@ -1,4 +1,4 @@
-﻿- type: construction
+- type: construction
   id: BladeServerFrameRecipe
   graph: BladeServer
   startNode: start

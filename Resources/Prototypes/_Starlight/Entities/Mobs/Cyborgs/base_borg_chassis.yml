@@ -1,4 +1,4 @@
-﻿# region Derelict
+# region Derelict
 
 - type: entity
   parent: [BaseXenoSiliconLanguages, BaseBorgChassis]

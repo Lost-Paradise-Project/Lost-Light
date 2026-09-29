@@ -1,4 +1,4 @@
-﻿using Robust.Client.UserInterface.RichText;
+using Robust.Client.UserInterface.RichText;
 
 namespace Content.Client._Starlight.UserInterface.RichText;
 

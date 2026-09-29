@@ -1,4 +1,4 @@
-﻿
+
 namespace Content.Client.Administration.Managers;
 
 public interface INullLinkPlayerRolesManager

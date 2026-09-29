@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Prototypes;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Starlight.Abstract.Extensions;
 public static class EntityExtensions

@@ -1,4 +1,4 @@
-﻿
+
 # Marker ""icon"" that doesn't actually render but is used to determine if the health bar *should* render.
 - type: healthBarIcon
   id: HealthBarMarkerIcon

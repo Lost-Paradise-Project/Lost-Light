@@ -24,4 +24,3 @@ public sealed partial class CCVars
     public static readonly CVarDef<int> ParticleGlobalBudget =
         CVarDef.Create("particles.global_budget", 8000, CVar.CLIENTONLY | CVar.ARCHIVE);
 }
-
