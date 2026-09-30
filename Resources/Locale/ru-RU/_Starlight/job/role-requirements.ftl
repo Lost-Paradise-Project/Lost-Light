@@ -19,7 +19,7 @@ role-timer-role-not-too-high = У вас [color=limegreen]{ TOSTRING($current, "
 role-timer-role-too-high = У вас [color=red]{ TOSTRING($current, "0") }[/color] игрового времени в роли [color={ $departmentColor }]{ $job }[/color] при максимально допустимых [color=lightblue]{ TOSTRING($required, "0") }[/color]. (Вы пытаетесь играть за роль для новичков?)
 
 role-whitelisted = Вы [color=limegreen]включены[/color] в белый список на эту роль.
-role-not-whitelisted = Вы не включены в белый список на эту роль.
+role-not-whitelisted = Вы [color=yellow]не включены[/color] в белый список на эту роль.
 
 role-timer-age-old-enough = Возраст вашего персонажа должен быть не менее [color=limegreen]{ $age }[/color], чтобы играть за эту роль.
 role-timer-age-not-old-enough = Возраст вашего персонажа должен быть не менее [color=yellow]{ $age }[/color], чтобы играть за эту роль.
@@ -36,4 +36,4 @@ role-timer-whitelisted-traits-fail = Ваш персонаж [color=yellow]до�
 role-timer-blacklisted-traits-pass = Ваш персонаж [color=limegreen]не должен[/color] иметь ни одной из следующих черт: [color=limegreen]{ $traits }[/color]
 role-timer-blacklisted-traits-fail = Ваш персонаж [color=yellow]не должен[/color] иметь ни одной из следующих черт: [color=yellow]{ $traits }[/color]
 
-role-ban = Вам заблокировали эту роль.
+role-ban = Вам [color=red]заблокировали[/color] эту роль.

@@ -47,13 +47,13 @@ rev-not-enough-ready-players = Недостаточно игроков гото�
 rev-no-one-ready = Нет готовых игроков! Нельзя запустить пресет Революционеры.
 rev-no-heads = Нет кандидатов на роль главы революции. Нельзя запустить пресет Революционеры.
 
-rev-won = Главы революции выжили и уничтожили весь командный состав станции.
+rev-won = [color=red]Агенты СКБ выжили и захватили контроль над станцией![/color]
 
-rev-lost = Все главы революции погибли, а командование выжило.
+rev-lost = Командование выжило и уничтожило всех агентов СКБ.
 
-rev-stalemate = И командование и главы революции погибли. Это ничья.
+rev-stalemate = И командование, и агенты СКБ погибли. Это ничья.
 
-rev-reverse-stalemate = И командование и главы революции выжили.
+rev-reverse-stalemate = И командование, и агенты СКБ выжили.
 
 # Starlight - added "or have abandoned the station" as a clarification for why revs may have won
 central-command-revolution-announcement = По данным дальних сенсоров, мы полагаем, что станция перешла под контроль враждебных революционных сил. Все главы отделов подтверждены как погибшие, пропавшие без вести или покинувшие станцию. Всем оставшимся членам экипажа ждать дальнейших указаний.
@@ -69,8 +69,9 @@ central-command-sender = Центральное командование
 soviet-commissariat-sender = Советский народный комиссариат
 
 rev-headrev-count = { $initialCount ->
-    [one] Глава революции был один:
-    *[other] Глав революции было { $initialCount }:
+    [one] Агент [color=Yellow]СССП[/color] был один:
+    [few] Агентов [color=Yellow]СССП[/color] было { $initialCount }:
+    *[other] Агентов [color=Yellow]СССП[/color] было { $initialCount }:
 }
 
 rev-headrev-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) конвертировал { $count } { $count ->

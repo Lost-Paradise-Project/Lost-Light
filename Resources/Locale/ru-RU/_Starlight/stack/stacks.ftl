@@ -65,6 +65,7 @@ stack-brutepack = { $amount ->
     [one] набор от ушибов
     [few] набора от ушибов
     *[other] наборов от ушибов
+}
 stack-blueointment = {$amount ->
     [1] blueointment
     *[other] blueointments
@@ -123,6 +124,7 @@ stack-credit = { $amount ->
     [one] кредит
     [few] кредита
     *[other] кредитов
+}
 stack-ticket = {$amount ->
     [1] ticket
     *[other] tickets

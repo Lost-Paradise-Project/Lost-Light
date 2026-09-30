@@ -1,7 +1,7 @@
 - type: radioChannel
   id: CosmicRadio
   name: language-Cosmic-name
-  keycode: 'a'
+  keycode: 'а' # LP edit
   frequency: 77777
   color: "#4cabb3"
   longRange: true

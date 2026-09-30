@@ -374,7 +374,8 @@ class FtlParser:
             if ends_with_newline:
                 content += "\n"
 
-            with open(filepath, "w", encoding="utf-8") as f:
+            # newline="\n" - иначе на Windows файлы пишутся с CRLF
+            with open(filepath, "w", encoding="utf-8", newline="\n") as f:
                 f.write(content)
 
         except OSError as e:
@@ -384,6 +385,7 @@ class FtlParser:
 class LocalizationManager:
     # Переводы сущностей живут только в ss14-ru/prototypes
     ENT_KEY_RE = re.compile(r"^ent-[a-zA-Z]")
+    FTL_ID_RE = re.compile(r"[a-zA-Z][a-zA-Z0-9_-]*")
     CYRILLIC_PATTERN = re.compile(r"[А-Яа-яЁё]")
     HEX_COLOR_RE = re.compile(r"#[0-9a-fA-F]{3,8}")
     # Таблицы замен слов: к ним непереводимые токены не применяются
@@ -1031,7 +1033,8 @@ class LocalizationManager:
 
                 if final_suffix is None and parent_proto.resolved_suffix is not None:
                     final_suffix = parent_proto.resolved_suffix
-                    suffix_parent = parent_id
+                    # suffix: "" у родителя сбрасывает суффикс - ссылаться не на что
+                    suffix_parent = parent_id if parent_proto.resolved_suffix else None
 
             resolved_proto = PrototypeEntry(
                 id=proto.id,
@@ -1099,6 +1102,10 @@ class LocalizationManager:
             ftl_key = f"ent-{proto.id}"
 
             if ftl_key in external_keys:
+                continue
+
+            # ID с символами, недопустимыми в ключах Fluent (например, "R&D"), игра не локализует
+            if not self.FTL_ID_RE.fullmatch(ftl_key):
                 continue
 
             try:

@@ -16,7 +16,6 @@ ignored_variable_mismatch_paths:
 - "Resources/Locale/ru-RU/stack/stacks.ftl"
 - "Resources/Locale/ru-RU/bed/cryostorage/cryogenic-storage.ftl"
 - "Resources/Locale/ru-RU/game-ticking/game-ticker.ftl"
-- "Resources/Locale/ru-RU/spray-painter/spray-painter.ftl"
 - "Resources/Locale/ru-RU/chat/managers/chat-manager.ftl"
 no_translate_tokens: # Вырезаются целыми словами, регистр не важен
 # Корпорации и бренды

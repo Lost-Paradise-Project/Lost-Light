@@ -1,7 +1,7 @@
 ## UI
 
 research-console-menu-title = Консоль R&D
-research-console-menu-research-points-text = Очки исследований: { $points }
+research-console-menu-research-points-text = Очки исследований: [color=orchid]{ $points }[/color]
 research-console-menu-main-discipline = Основная дисциплина: [color={ $color }]{ $name }[/color]
 research-console-menu-server-selection-button = Список серверов
 research-console-menu-server-sync-button = Синхронизировать
