@@ -8,4 +8,3 @@ namespace Content.Server._LP.StationGoal
     {
     }
 }
-
