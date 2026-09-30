@@ -259,7 +259,7 @@ public sealed partial class TTSSystem : EntitySystem
         return text;
     }
 
-    [GeneratedRegex(@"[^a-zA-Z0-9,.\-?!' ]")]
+    [GeneratedRegex(@"[^a-zA-Zа-яА-ЯёЁ0-9,.\-?!' ]")] // LP edit
     private static partial Regex CharFilter();
 
     [GeneratedRegex(@"[\u2018\u2019]")]

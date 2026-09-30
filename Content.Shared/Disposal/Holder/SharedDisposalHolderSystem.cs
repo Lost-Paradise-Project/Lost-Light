@@ -33,7 +33,7 @@ public abstract partial class SharedDisposalHolderSystem : EntitySystem
     /// <summary>
     /// Allowed characters for tagging disposed entities.
     /// </summary>
-    public static readonly Regex TagRegex = new("^[a-zA-Z0-9,* ]*$", RegexOptions.Compiled); // Starlight - add * for wildcards
+    public static readonly Regex TagRegex = new("^[a-zA-Zа-яА-ЯёЁ0-9,* ]*$", RegexOptions.Compiled); // Starlight - add * for wildcards // LP edit
     private const float DestinationEpsilon = 1e-3f; // Starlight
 
     public override void Initialize()
