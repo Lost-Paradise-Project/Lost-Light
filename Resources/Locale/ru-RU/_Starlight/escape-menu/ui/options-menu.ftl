@@ -1,0 +1,111 @@
+ui-options-function-open-m-help = Open mentor help
+ui-escape-connect-discord = Link Discord
+server-info-connect-discord-button = Link Discord
+ui-escape-connect-steam = Link Steam
+server-info-connect-steam-button = Link Steam
+
+## Graphics
+
+ui-options-trace = Display the bullet's trace
+ui-options-trace-tooltip = If you're lagging while shooting, uncheck this box,
+                           and the hitscan won't display the texture of the smoke behind the flying bullet.
+
+ui-options-holes = Display the bullet's holes
+ui-options-holes-tooltip = If you're lagging while shooting, uncheck this box,
+                           and the hitscan won't display the texture of the bullet holes.
+
+ui-options-sparks = Display sparks
+ui-options-sparks-tooltip = If you're lagging while shooting, uncheck this box,
+                           and the hitscan won't display sparks when the bullet hits a surface.
+
+## Accessibility
+
+ui-options-arachnophobia = Arachnophobia Mode
+ui-options-disable-job-icon-animation = Disable animation for chat and status icons
+
+## TTS
+
+ui-options-tts-label = Text-To-Speech
+ui-options-tts-volume = Громкость TTS:
+ui-options-tts-chime-volume = Chime Volume:
+credits-window-tts-title = Функция TTS (Text-To-Speech)
+
+ui-options-tts-radio-volume = Громкость TTS (Радио):
+ui-options-tts-announce-volume = Announcement Volume:
+
+ui-options-tts-enabled = Text-To-Speech Enabled
+ui-options-tts-radio-queue-enabled = Queue Radio TTS
+ui-options-radio-chime-mute = Mute Radio Chimes
+
+## UI
+
+ui-options-tab-ui = User Interface
+ui-options-ui-style = User Interface Style
+ui-options-ui-sight-hash = Sight Preferences String
+ui-options-wield-before-rack = Wield before racking
+ui-options-wield-before-rack-tooltip = Using a gun in hand wields it first; racking the bolt happens on the next press.
+ui-options-ranged-sight-rotation = Ranged Sight Rotation
+ui-options-melee-sight-rotation = Melee Sight Rotation
+ui-options-chat-width = Separated Chat Width
+ui-options-ui-ranged-sight = Sights
+ui-options-ranged-sight = Ranged Sight
+ui-options-melee-sight = Melee Sight
+ui-options-ranged-sight-scale = Sights Scale
+ui-options-ranged-sight-offset = Sights Basic Offset
+ui-options-sight-main-color = Sight Main Color
+ui-options-sight-second-color = Sight Second Color
+
+## General
+
+ui-starlight = Starlight
+ui-options-auto-punctuate = Automatically punctuate in-character messages
+ui-options-general-ghost-themes = Ghost Themes
+ui-options-general-ghost-themes-force-tester = Force display the Tester tab in the Ghost Themes menu
+
+## Admin
+
+ui-options-admin-ghost-hud = Admin Ghost HUD
+
+ui-options-admin-ghost-hud-setting-job = Job icons
+ui-options-admin-ghost-hud-setting-job-off = Off
+ui-options-admin-ghost-hud-setting-job-job = Job only
+ui-options-admin-ghost-hud-setting-job-jobandmindshield = Job and mindshield
+
+ui-options-admin-ghost-hud-show-criminal-record-icons = Show criminal record icons
+
+ui-options-admin-ghost-hud-setting-health = Health indicators
+ui-options-admin-ghost-hud-setting-health-off = Off
+ui-options-admin-ghost-hud-setting-health-icons = Icons
+ui-options-admin-ghost-hud-setting-health-bars = Bars
+ui-options-admin-ghost-hud-setting-health-iconsandbars = Icons and bars
+
+ui-options-admin-ghost-hud-show-faction-icons = Show faction icons
+ui-options-admin-ghost-hud-show-satiation-icons = Show satiation icons
+
+ui-options-admin-ghost = Admin Ghost Config
+ui-options-admin-ghost-script-label = aghost Script
+ui-options-admin-ghost-script-tooltip =
+    The name of the script you want to automatically run when becoming admin ghost, either by command or by observing from lobby.
+    Path is relative to your launcher's data directory, typically inside AppData on Windows or .local/share on Linux.
+
+## Theme
+
+ui-options-hud-theme-mpurp = M-Purp
+
+# Graphics
+ui-options-show-stains = Show clothing stains
+
+# Technically this is a more general Sprite Effects option, but right now it's literally only used for weather, so I'm just going to label it that for now
+ui-options-sprite-quality = Weather Quality:
+ui-options-sprite-quality-low = Low
+ui-options-sprite-quality-medium = Medium
+ui-options-sprite-quality-high = High
+ui-options-sprite-quality-tooltip =
+    Selects the visual quality used by sprites and effects that provide alternate versions.
+
+ui-options-interaction-particles = Interaction particles:
+ui-options-interaction-particles-all = All
+ui-options-interaction-particles-without-inhand = Except In-hand
+ui-options-interaction-particles-none = None
+ui-options-interaction-particles-tooltip =
+    In-hand and inventory particles are only shown for actions performed by your character.

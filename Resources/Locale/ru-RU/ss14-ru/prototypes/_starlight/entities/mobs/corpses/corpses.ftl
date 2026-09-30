@@ -1,0 +1,15 @@
+ent-MobRandomSyndicateCorpse = { ent-SalvageHumanCorpse }
+    .desc = { ent-SalvageHumanCorpse.desc }
+    .suffix = Dead, Syndicate
+ent-MobRandomNukieCorpse = { ent-SalvageHumanCorpse }
+    .desc = { ent-SalvageHumanCorpse.desc }
+    .suffix = Dead, Nukie
+ent-MobRandomSovietCorpse = { ent-SalvageHumanCorpse }
+    .desc = { ent-SalvageHumanCorpse.desc }
+    .suffix = Dead, Soviet
+ent-MobRandomMercenaryCorpse = { ent-SalvageHumanCorpse }
+    .desc = { ent-SalvageHumanCorpse.desc }
+    .suffix = Dead, Mercenary
+ent-MobRandomPirateCorpse = { ent-SalvageHumanCorpse }
+    .desc = { ent-SalvageHumanCorpse.desc }
+    .suffix = Dead, Pirate

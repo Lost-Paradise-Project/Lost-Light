@@ -1,0 +1,16 @@
+ent-BaseTrashDebris = trash debris
+    .desc = { ent-BaseDebris.desc }
+ent-BaseMeatDebris = meat debris
+    .desc = { ent-BaseDebris.desc }
+ent-TrashDebrisSmall = trash debris small
+    .desc = { ent-BaseTrashDebris.desc }
+ent-TrashDebrisMedium = trash debris medium
+    .desc = { ent-BaseTrashDebris.desc }
+ent-TrashDebrisLarge = trash debris large
+    .desc = { ent-BaseTrashDebris.desc }
+ent-MeatDebrisSmall = meat debris small
+    .desc = { ent-BaseMeatDebris.desc }
+ent-MeatDebrisMedium = meat debris medium
+    .desc = { ent-BaseMeatDebris.desc }
+ent-MeatDebrisLarge = meat debris large
+    .desc = { ent-BaseMeatDebris.desc }

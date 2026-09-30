@@ -1,0 +1,11 @@
+ent-MobEeepBase = { ent-SimpleSpaceMobBase }
+    .desc = { ent-SimpleSpaceMobBase.desc }
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobEeeplet = eeeplet
+    .desc = Electric sheep dream of teslas.
+    .suffix = baby
+ent-EeepSpark = eeep spark
+    .desc = You monster.
+ent-MobEeep = eeep
+    .desc = Uh oh.
+    .suffix = adult

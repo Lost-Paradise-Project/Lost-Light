@@ -1,0 +1,10 @@
+ent-Nukeops = { "" }
+    .desc = { "" }
+ent-NukeopsLate = { "" }
+    .desc = { "" }
+ent-Revolutionary = { "" }
+    .desc = { "" }
+ent-Zombie = { "" }
+    .desc = { "" }
+ent-Xenoborgs = { "" }
+    .desc = { "" }

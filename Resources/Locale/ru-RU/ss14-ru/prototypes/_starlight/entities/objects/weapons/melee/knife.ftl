@@ -1,0 +1,9 @@
+ent-Finka = finka
+    .desc = Legendary SNKVD dagger, an excellent melee weapon, and it's said there was a secret technique for throwing this knife.
+ent-FinkaAdmeme = ForceableFollow finka
+    .desc = Legendary SNKVD dagger, an excellent melee weapon, and it's said there was a secret technique for throwing this knife.
+    .suffix = Admeme
+ent-XenoShiv = shiv
+    .desc = A weak knife, really only used to keep others away.
+ent-XenoKnife = combat knife
+    .desc = A deadly knife intended for melee confrontations.

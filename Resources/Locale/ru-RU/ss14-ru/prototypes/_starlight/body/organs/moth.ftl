@@ -1,0 +1,9 @@
+ent-OrganMothEyes = moth eyes
+    .desc = Large compound eyes used to catch light.
+    .suffix = Moth
+ent-OrganMothStomach = moth stomach
+    .desc = A stomach specialized for digesting normally inedible cloth.
+    .suffix = Moth
+ent-OrganMothTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Moth

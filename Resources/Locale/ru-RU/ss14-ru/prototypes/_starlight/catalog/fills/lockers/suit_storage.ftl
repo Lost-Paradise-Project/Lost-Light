@@ -1,0 +1,12 @@
+ent-SuitStorageMiningSpecialist = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Mining
+ent-SuitStorageBlueShield = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = BlueShield
+ent-SuitStorageBlueShieldBluespaced = { ent-SuitStorageBlueShield }
+    .desc = { ent-SuitStorageBlueShield.desc }
+    .suffix = BlueShield, Bluespaced
+ent-SuitStorageSecDouble = double suit storage unit
+    .desc = { ent-SuitStorageSec.desc }
+    .suffix = { ent-SuitStorageSec.suffix }

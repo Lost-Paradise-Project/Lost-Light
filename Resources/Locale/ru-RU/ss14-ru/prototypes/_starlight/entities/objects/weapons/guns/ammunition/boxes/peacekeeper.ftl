@@ -1,0 +1,12 @@
+ent-BasePeacekeeperBox = grenade cartridge
+    .desc = { ent-BaseItem.desc }
+ent-BoxPeacekeeperFlash = peacekeeper flash ammo box
+    .desc = A box of flash grenades for the Peacekeeper, good for catching up to a running fiend or for dispersing crowds.
+ent-BoxPeacekeeperStinger = peacekeeper stinger ammo box
+    .desc = A box of stinger grenades for the Peacekeeper, very good at dispersing crowds and getting lawsuits.
+ent-BoxPeacekeeperGas = peacekeeper tear gas ammo box
+    .desc = A box of teargas grenades for the Peacekeeper, the label has a big "DO NOT FORGET INTERNALS" written in red.
+ent-BoxPeacekeeperBaton = peacekeeper baton ammo box
+    .desc = A box of less-lethal baton grenades for the Peacekeeper, do not forget that "less" means you can kill with it, just less.
+ent-BoxPeacekeeperBola = peacekeeper bola ammo box
+    .desc = A box of bola grenades for the Peacekeeper, to make tripping suspects even more fun!

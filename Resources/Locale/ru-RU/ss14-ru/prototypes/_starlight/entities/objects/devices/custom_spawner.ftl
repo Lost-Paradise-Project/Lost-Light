@@ -1,0 +1,15 @@
+ent-BaseCustomSpawner = spawner
+    .desc = Spawns things.
+ent-CustomSpawnerStatic = { ent-BaseCustomSpawner }
+    .desc = { ent-BaseCustomSpawner.desc }
+ent-CustomSpawner = { ent-CustomSpawnerStatic }
+    .desc = { ent-CustomSpawnerStatic.desc }
+    .suffix = Anchorable
+ent-CustomSpawnerMarker = { ent-BaseCustomSpawner }
+    .desc = { ent-BaseCustomSpawner.desc }
+    .suffix = Marker
+ent-CustomSpawnerMarkerHolo = { ent-CustomSpawnerMarker }
+    .desc = { ent-CustomSpawnerMarker.desc }
+    .suffix = Marker, Hologram
+ent-CustomSpawnerHologram = hologram
+    .desc = { "" }

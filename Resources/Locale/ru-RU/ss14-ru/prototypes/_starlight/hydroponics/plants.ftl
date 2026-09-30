@@ -1,0 +1,14 @@
+ent-OrganTreePlants = organ tree
+    .desc = { ent-BasePlant.desc }
+ent-EvilApplePlants = evil apple tree
+    .desc = { ent-BasePlant.desc }
+ent-ResinferaPlants = Resinfera tree
+    .desc = { ent-BasePlant.desc }
+ent-MintPlants = Mint tree
+    .desc = { ent-BasePlant.desc }
+ent-SpearMintPlants = Spear mint tree
+    .desc = { ent-BasePlant.desc }
+ent-CinnamonPlants = Cinnamon tree
+    .desc = { ent-BasePlant.desc }
+ent-CinnaflarePlants = Cinnaflare tree
+    .desc = { ent-BasePlant.desc }

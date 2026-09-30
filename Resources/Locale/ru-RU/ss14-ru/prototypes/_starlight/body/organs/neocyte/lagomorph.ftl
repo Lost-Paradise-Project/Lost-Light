@@ -1,0 +1,9 @@
+ent-OrganNeoLagomorphStomach = lagomorph biological reactor
+    .desc = { ent-OrganNeocyteStomach.desc }
+    .suffix = Neo-Lagomorph
+ent-OrganNeoLagomorphHeart = lagomorph cybernetic heart
+    .desc = { ent-OrganNeocyteHeart.desc }
+    .suffix = Neo-Lagomorph
+ent-OrganNeoLagomorphTongue = { ent-OrganNeocyteTongue }
+    .desc = { ent-OrganNeocyteTongue.desc }
+    .suffix = Neo-Lagomorph

@@ -1,0 +1,14 @@
+ent-ETOIDCard = { ent-IDCardStandard }
+    .desc = { ent-IDCardStandard.desc }
+ent-ETOIDCardTeamLead = ETO team lead ID card
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardCorpsman = ETO corpsman ID card
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardCombatTech = ETO combat technician ID card
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardDemo = ETO demolitionist ID card
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardMartyr = ETO martyr ID card
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardFootman = ETO footman ID card
+    .desc = { ent-ETOIDCard.desc }

@@ -1,0 +1,12 @@
+ent-FoodHoneybar = honeybar
+    .desc = A sticky and sweet grain bar coated in honey.
+ent-FoodHoneyFrame = honey frame
+    .desc = A wooden slate with honeycombs built inside.
+ent-FoodHoneyLoaf = honey loaf
+    .desc = A warm and soft loaf of bread drizzled with honey.
+ent-FoodHoneyRoll = honey roll
+    .desc = Whats the matter, someone steal your honey roll?
+ent-FoodHoneyLoafSlice = honey slice
+    .desc = A warm and soft slice of bread drizzled with honey.
+ent-Honeycomb = honeycomb
+    .desc = A comb of honey. It took a lot of bees a lot of time to make this.

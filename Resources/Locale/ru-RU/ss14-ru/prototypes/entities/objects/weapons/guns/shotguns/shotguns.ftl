@@ -31,6 +31,3 @@ ent-WeaponShotgunImprovisedLoaded = самодельный дробовик
     .suffix = Дробовик, Заряжен
 ent-WeaponShotgunHushpup = Хашпап
     .desc = Редкая модификация «Энфорсера», оснащённая экспериментальным глушителем. Отлично подходит для тех, у кого строгие моральные принципы. Использует ружейные патроны .50 калибра.
-ent-WeaponShotgunEnforcerRubber = { ent-WeaponShotgunEnforcer }
-    .desc = { ent-WeaponShotgunEnforcer.desc }
-    .suffix = Дробовик, Травматический

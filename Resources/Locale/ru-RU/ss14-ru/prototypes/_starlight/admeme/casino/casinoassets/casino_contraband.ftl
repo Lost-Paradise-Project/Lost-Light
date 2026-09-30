@@ -1,0 +1,2 @@
+ent-BaseCasinoContraband = { "" }
+    .desc = { "" }

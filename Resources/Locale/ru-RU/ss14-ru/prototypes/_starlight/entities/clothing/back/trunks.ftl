@@ -1,0 +1,13 @@
+ent-ClothingBackpackTrunk = trunk
+    .desc = A large and heavy trunk for holding even more things.
+ent-ClothingBackpackTrunkMail = mail trunk
+    .desc = A huge trunk made of every aspiring mail technician's dreams.
+ent-ClothingBackpackTrunkMailSenior = senior mail trunk
+    .desc = A huge trunk for the station's strongest mail technicians.
+ent-ClothingBackpackTrunkSyndicate = syndicate trunk
+    .desc = Huge, metal, and stylish. All the other syndicates will want to get their hands on this trunk.
+ent-ClothingBackpackTrunkSpaceCourier = space courier trunk
+    .desc = A huge trunk themed after a legendary space courier.
+ent-ClothingBackpackTrunkSpaceCourierPAI = space courier trunk
+    .desc = A huge trunk themed after a legendary space courier.
+    .suffix = Ghost Role

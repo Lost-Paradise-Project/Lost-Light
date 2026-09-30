@@ -23,7 +23,6 @@
     - HeadSide
     - Hair # Starlight
     - Tail
-    undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Hunger
   - type: Puller
     needsHands: false

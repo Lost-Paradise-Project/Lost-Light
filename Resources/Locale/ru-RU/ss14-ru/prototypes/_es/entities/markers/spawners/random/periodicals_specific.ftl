@@ -1,0 +1,12 @@
+ent-ESSpawnerRandomPeriodicalsNewspaper = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Newspaper
+ent-ESSpawnerRandomPeriodicalsPuzzle = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Puzzle
+ent-ESSpawnerRandomPeriodicalsSpacePeople = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Space People
+ent-ESSpawnerRandomPeriodicalsFashion = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Fashion

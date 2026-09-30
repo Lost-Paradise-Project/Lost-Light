@@ -1,0 +1,14 @@
+ent-FaxMachineMedicalBase = { ent-FaxMachineBase }
+    .desc = { ent-FaxMachineBase.desc }
+ent-FaxMachineMedical = { ent-FaxMachineMedicalBase }
+    .desc = { ent-FaxMachineMedicalBase.desc }
+    .suffix = MED: Medical
+ent-FaxMachineMedicalCMO = { ent-FaxMachineMedicalBase }
+    .desc = { ent-FaxMachineMedicalBase.desc }
+    .suffix = MED: CMO
+ent-FaxMachineMedicalChemistry = { ent-FaxMachineMedicalBase }
+    .desc = { ent-FaxMachineMedicalBase.desc }
+    .suffix = MED: Chemistry
+ent-FaxMachineMedicalPsychology = { ent-FaxMachineMedicalBase }
+    .desc = { ent-FaxMachineMedicalBase.desc }
+    .suffix = MED: Psychology

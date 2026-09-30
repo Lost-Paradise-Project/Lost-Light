@@ -1,0 +1,12 @@
+ent-BaseDoorElectronicsSyndicate = Syndicate door electronics
+    .desc = An electronics board used in doors and airlocks.
+    .suffix = { ent-DoorElectronics.suffix }
+ent-BaseDoorElectronicsCentComm = Central Command door electronics
+    .desc = An electronics board used in doors and airlocks.
+    .suffix = { ent-DoorElectronics.suffix }
+ent-BaseDoorElectronicsXenoborg = Xenoborg door electronics
+    .desc = An electronics board used in doors and airlocks.
+    .suffix = { ent-DoorElectronics.suffix }
+ent-BaseDoorElectronicsPirate = pirate door electronics
+    .desc = An electronics board used in doors and airlocks. Smells of saltwater.
+    .suffix = { ent-DoorElectronics.suffix }

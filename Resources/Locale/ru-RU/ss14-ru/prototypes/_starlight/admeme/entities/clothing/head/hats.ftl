@@ -1,0 +1,15 @@
+ent-ClothingHeadHatNTNC = NanoTrasen navy marine hat.
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHatNTNCGrey = NanoTrasen grey navy marine hat.
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHatNTNCEnsign = NanoTrasen navy ensign hat.
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHatTophatArmored = tophat
+    .desc = A stylish black tophat, lined in kevlar
+    .suffix = armored, admeme
+ent-ClothingHeadHatTophatBigArmored = big tophat
+    .desc = This hat clearly belongs to someone very, very important. It is lined in kevlar.
+    .suffix = armored, admeme
+ent-ClothingHeadHatTophatBigWhiteArmored = big tophat
+    .desc = This hat clearly belongs to someone very, very important. It is lined in kevlar.
+    .suffix = armored, admeme

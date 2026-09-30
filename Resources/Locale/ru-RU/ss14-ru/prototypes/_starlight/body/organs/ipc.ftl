@@ -1,0 +1,16 @@
+ent-BaseIPCOrganUnGibbable = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-SolutionBaseIPCOrganUnGibbableOrgan = { ent-Solution }
+    .desc = { ent-Solution.desc }
+ent-OrganIPCEyes = robotic eyes
+    .desc = Decidedly not squishy. Kinda sharp, actually.
+    .suffix = IPC
+ent-OrganIPCTongue = vocal modulator
+    .desc = A vocal modulator, typically used for lying.
+    .suffix = IPC
+ent-OrganIPCEars = robotic ears
+    .desc = Process audio at the same quality of station-side cyborgs
+    .suffix = IPC
+ent-OrganIPCHeart = micro pump
+    .desc = Circulates coolant in a sickingly familiar way.
+    .suffix = IPC

@@ -1,0 +1,15 @@
+ent-BaseMobDinosaur = dinosaur
+    .desc = Dinos
+    .suffix = { ent-SimpleMobBase.suffix }
+ent-BaseMobDinosaurCarno = carnivorous dinosaur
+    .desc = A carnivorous dino
+    .suffix = { ent-BaseMobDinosaur.suffix }
+ent-BaseMobDinosaurHerb = herbivore dinosaur
+    .desc = A vegetarian, but don't let that fool you. They're still out for blood
+    .suffix = { ent-BaseMobDinosaur.suffix }
+ent-MobDinosaurCompy = compsognathus
+    .desc = Over-sized chickens
+    .suffix = { ent-BaseMobDinosaur.suffix }
+ent-FoodEggCompyFertilized = { ent-FoodEgg }
+    .desc = { ent-FoodEgg.desc }
+    .suffix = Fertilized, Compy

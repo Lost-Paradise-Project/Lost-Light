@@ -1,0 +1,12 @@
+ent-MedTakPDA = { ent-BasePDA }
+    .desc = { ent-BasePDA.desc }
+ent-MedTakPDAMedic = MedTak medic PDA
+    .desc = Is it blood or red paint?
+ent-MedTakPDAPilot = MedTak pilot PDA
+    .desc = It's red paint.
+ent-MedTakPDASecurity = MedTak security PDA
+    .desc = It's blood.
+ent-MedTakPDATeamLead = MedTak team leader PDA
+    .desc = It's blood.
+ent-MedTakPDADispatcher = MedTak dispatcher PDA
+    .desc = It's red paint.

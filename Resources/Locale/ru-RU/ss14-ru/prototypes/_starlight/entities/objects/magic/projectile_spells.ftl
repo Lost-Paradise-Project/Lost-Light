@@ -1,0 +1,16 @@
+ent-ActionFirebolt = Firebolt
+    .desc = Fires a fast but weaker bolt of fire toward the aimed location. (Cooldown of 5 seconds)
+ent-ActionFireOrb = Fire Orb
+    .desc = Fires a slow moving Orb of fire that will ignite everyone in a big radius in a glorious inferno. (Cooldown of 4 minutes)
+ent-ActionFireArrow = Fire arrow
+    .desc = Fires a solid flame in the form of an arrow. (Cooldown of 10 seconds)
+ent-ActionArcticGlare = Arctic Glare
+    .desc = Glare at your enemies with the fury of the artic, freezing anyone close (short range spell, 2 min cooldown).
+ent-ActionIceShard = Ice Shard
+    .desc = Throw a sharp shard of ice that will slice and freeze the first person it touches. (30 seconds cooldown)
+ent-ActionIceOrb = Heart of Winter
+    .desc = Unleash a slow moving orb of ice, the orb throws icy shards every seconds and a half. Also destroys anything non living on impact. (3 min cooldown)
+ent-ActionIceStorm = Ice Storm
+    .desc = Summon a freezing blast of ice that chills everything it touches! (Cooldown of 2 minutes)
+ent-ProjectileIceStormSingle = ice spike
+    .desc = A freezing spike of magical ice!

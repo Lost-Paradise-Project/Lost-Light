@@ -1,0 +1,9 @@
+ent-OrganThavenBrain = thaven brain
+    .desc = An organic positronic brain. Quite remarkable, really.
+    .suffix = Thaven
+ent-OrganThavenEyes = thaven eyes
+    .desc = The eyes of a Thaven.
+    .suffix = Thaven
+ent-OrganThavenTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Thaven

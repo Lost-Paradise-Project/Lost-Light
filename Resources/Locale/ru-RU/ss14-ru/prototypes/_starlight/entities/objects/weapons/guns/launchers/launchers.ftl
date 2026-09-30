@@ -1,0 +1,15 @@
+ent-WeaponLauncherHydraSyndicate = modified hydra
+    .desc = It looks like a standard-issue Hydra cleanade launcher, but the safety measures have been filed off.
+    .suffix = Syndicate
+ent-WeaponLauncherHydraEMP = { ent-WeaponLauncherHydraSyndicate }
+    .desc = PLOOP... ZAP
+    .suffix = EMP
+ent-WeaponLauncherHydraFilled = { ent-WeaponLauncherHydra }
+    .desc = { ent-WeaponLauncherHydra.desc }
+    .suffix = Filled
+ent-WeaponLauncherChonoLoke = chono loke
+    .desc = A suspiciously convincing replica of the infamous China Lake grenade launcher, lovingly handcrafted by DONK CO. Fires DONK CO.-certified "totally real" grenades. Also accepts real ones, but that's probably fine.
+ent-WeaponLauncherPeacekeeper = peacekeeper
+    .desc = A multi purpose single-shot grenade launcher with a break-open action.
+ent-WeaponGrapplingHook = improvised grappling gun
+    .desc = A grappling gun made from parts around station.

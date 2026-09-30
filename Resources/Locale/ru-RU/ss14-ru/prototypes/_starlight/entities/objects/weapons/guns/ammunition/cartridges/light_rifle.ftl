@@ -1,0 +1,10 @@
+ent-CartridgeLightRifleRubber = cartridge (.30 rifle rubber)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleImprovised = improvised cartridge (.30 rifle)
+    .desc = A handmade rifle bullet, uses phosphorus as a propellent instead of gunpowder which makes it much less effective.
+ent-CartridgeLightRifleHP = cartridge (.30 rifle HP)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleFMJ = cartridge (.30 rifle FMJ)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleAP = cartridge (.30 rifle AP)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }

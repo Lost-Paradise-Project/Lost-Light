@@ -1,0 +1,12 @@
+ent-DeforestBrutePack = DeForest bruise pack
+    .desc = DeForest-Graded Bruise Packs for all your needs.
+    .suffix = Full
+ent-DeforestBrutePack1 = DeForest bruise pack
+    .desc = DeForest-Graded Bruise Packs for all your needs. The blue ones are supposedly rare.
+    .suffix = Single
+ent-DeforestOintment = DeForest ointment
+    .desc = DeForest's soothing ointment, used to treat severe burns. Does nothing for caustic.
+    .suffix = Full
+ent-DeforestOintment1 = DeForest ointment
+    .desc = DeForest's soothing ointment, used to treat severe burns. Does nothing for caustic. The blue ones are supposedly rare.
+    .suffix = Single

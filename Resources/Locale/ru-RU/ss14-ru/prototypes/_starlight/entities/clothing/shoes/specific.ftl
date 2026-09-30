@@ -1,0 +1,15 @@
+ent-ClothingShoesGaloshnt = galoshes
+    .desc = Specialized slippery rubber boots, designed to increase janitorial workplace accidents; a tider's nightmare.
+ent-ClothingShoesGreenLizardskin = зелёные туфли из кожи ящерицы
+    .desc = Возможно, с годами они немного утратили свой блеск, но эти зелёные туфли из кожи ящерицы идеально вам подходят.
+ent-ClothingShoesAerostatic = аэростатические ботинки
+    .desc = Удобные, чистые ботинки для длительной работы в напряжённом ритме.
+ent-ClothingShoesSchoolBlack = чёрные школьные туфли
+    .desc = Стильные и удобные школьные туфли тёмного оттенка с чулками.
+ent-ClothingShoesSchoolWhite = белые школьные туфли
+    .desc = Стильные и удобные школьные туфли светлого оттенка с чулками.
+ent-ClothingShoesSkatesCool = cooler roller skates
+    .desc = They're cooler than the other ones.
+ent-ClownShoesNoSlip = no-slip clown shoes
+    .desc = Tyranny of Honk's latest clothing line targets more specialized clowning niches. Now with 100% less operator slipping!
+    .suffix = No-slip

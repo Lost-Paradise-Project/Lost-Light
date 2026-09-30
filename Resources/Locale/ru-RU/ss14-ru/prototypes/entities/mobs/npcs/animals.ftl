@@ -233,6 +233,3 @@ ent-MobReindeerDoe = северный олень-самка
 ent-MobCorgiSmart = умный корги
     .desc = Необычайно умный пёс.
     .suffix = { ent-MobCorgiBaseAntag.suffix }
-ent-MobMouseAdmeme = { ent-MobMouse }
-    .desc = { ent-MobMouse.desc }
-    .suffix = АДМЕМЫ

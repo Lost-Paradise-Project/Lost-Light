@@ -1,0 +1,14 @@
+ent-CasinoIDCard = { ent-IDCardStandard }
+    .desc = { ent-IDCardStandard.desc }
+ent-CasinoIDCardDealer = Gamorrah dealer ID card
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardOwner = Gamorrah owner ID card
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardManager = Gamorrah manager ID card
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardSecurity = Gamorrah security ID card
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardBrigmed = Gamorrah brigmedic ID card
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardTreasurer = Gamorrah treasurer ID card
+    .desc = { ent-CasinoIDCard.desc }

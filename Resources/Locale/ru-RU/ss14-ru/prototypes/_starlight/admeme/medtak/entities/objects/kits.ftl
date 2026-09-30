@@ -1,0 +1,13 @@
+ent-BottleCaseMedTak = chemical case
+    .desc = A reinforced case with padded slots for bottles.
+ent-MedkitCombatMedTak = MedTak combat kit
+    .desc = An operator's personal medical kit.
+ent-PenPackMedTak = autoinjector pack
+    .desc = A pouch loaded with autoinjectors.
+    .suffix = MedTak, Filled
+ent-SurgicalKitMedTak = advanced surgical kit
+    .desc = A compact kit of surgical tools.
+    .suffix = MedTak, Filled
+ent-BoxFolderMedTak = { ent-BoxFolderBaseEmpty }
+    .desc = { ent-BoxFolderBaseEmpty.desc }
+    .suffix = MedTak

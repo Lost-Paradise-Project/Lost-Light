@@ -291,6 +291,3 @@ ent-HolopadCentCommEvacShuttle = { ent-HolopadLongRange }
 ent-HolopadServiceClownMime = { ent-Holopad }
     .desc = { ent-Holopad.desc }
     .suffix = Клоун/Мим
-ent-HolopadSecurityLawyer = { ent-Holopad }
-    .desc = { ent-Holopad.desc }
-    .suffix = АВД

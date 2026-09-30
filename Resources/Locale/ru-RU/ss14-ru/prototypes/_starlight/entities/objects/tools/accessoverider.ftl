@@ -1,0 +1,9 @@
+ent-AccessOveriderUnlimited = authentication overrider
+    .desc = A modified access configurator, specialized for ERT breach and clear operations on NT stations
+    .suffix = Unlimited
+ent-AccessOverider = { ent-AccessOveriderUnlimited }
+    .desc = { ent-AccessOveriderUnlimited.desc }
+    .suffix = Limited
+ent-AccessOveriderRecharging = { ent-AccessOverider }
+    .desc = { ent-AccessOverider.desc }
+    .suffix = Limited, recharging

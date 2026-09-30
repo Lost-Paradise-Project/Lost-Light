@@ -1,0 +1,16 @@
+ent-GasVentPumpFreezerBase = { "" }
+    .desc = { "" }
+ent-GasVentPumpFreezerAlt3 = { ent-GasVentPumpAlt3 }
+    .desc = { ent-GasVentPumpAlt3.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-GasVentPumpFreezerAlt4 = { ent-GasVentPumpAlt4 }
+    .desc = { ent-GasVentPumpAlt4.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-GasVentScrubberFreezerBase = { "" }
+    .desc = { "" }
+ent-GasVentScrubberFreezerAlt3 = { ent-GasVentScrubberAlt3 }
+    .desc = { ent-GasVentScrubberAlt3.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }
+ent-GasVentScrubberFreezerAlt4 = { ent-GasVentScrubberAlt4 }
+    .desc = { ent-GasVentScrubberAlt4.desc }
+    .suffix = { ent-AirSensorFreezerBase.suffix }

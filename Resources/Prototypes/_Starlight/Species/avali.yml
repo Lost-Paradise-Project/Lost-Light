@@ -28,8 +28,6 @@
   id: MobAvaliSprites
   sprites:
     Head: MobAvaliHead
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobAvaliTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -79,12 +77,6 @@
       required: false
     Legs:
       points: 2
-      required: false
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
-      points: 1
       required: false
     Arms:
       points: 4

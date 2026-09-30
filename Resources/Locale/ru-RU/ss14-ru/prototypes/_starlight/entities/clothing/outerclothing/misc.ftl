@@ -1,0 +1,10 @@
+ent-ClothingOuterWizardYellow = yellow wizard robes
+    .desc = A bizarre gem-encrusted yellow robe that radiates magical energies.
+ent-ClothingOuterWizardGreen = green wizard robes
+    .desc = A bizarre gem-encrusted green robe that radiates magical energies.
+ent-ClothingOuterWizardPurple = purple wizard robes
+    .desc = A bizarre gem-encrusted purple robe that radiates magical energies.
+ent-ClothingOuterWizardOrange = orange wizard robes
+    .desc = A bizarre gem-encrusted orange robe that radiates magical energies.
+ent-ClothingOuterWizardPeach = peach wizard robes
+    .desc = A bizarre gem-encrusted peach robe that radiates magical energies.

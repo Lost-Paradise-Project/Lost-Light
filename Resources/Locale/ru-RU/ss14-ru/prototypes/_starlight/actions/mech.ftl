@@ -1,0 +1,12 @@
+ent-ActionMechActivateAirHorn = HOOOOOONNNNNNNKKKKK!!!
+    .desc = Spread joy to everyone in hearing distance.
+ent-ActionMechToggleLights = Toggle Lights
+    .desc = Turn on mech-mounted spotlights for visibility in poorly lit areas.
+ent-ActionMechToggleInternals = Toggle Internals
+    .desc = Start ventilating the interior from the gas tank.
+ent-ActionMechToggleSirens = Toggle Sirens
+    .desc = Turn on mech-mounted siren for everyone knows who's coming.
+ent-ActionMechToggleThrusters = Toggle Thrusters
+    .desc = Turn on mech-mounted thrusters for flying in space.
+ent-ActionMechToggleNightVision = Toggle Camera
+    .desc = Turn on the night vision camera mounted on the Mech.

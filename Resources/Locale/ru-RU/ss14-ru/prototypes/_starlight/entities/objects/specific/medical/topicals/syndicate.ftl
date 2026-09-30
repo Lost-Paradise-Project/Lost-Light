@@ -1,0 +1,12 @@
+ent-SyndicateBrutePack = Interdyne bruise pack
+    .desc = Interdyne-Graded Bruise Packs for all your needs.
+    .suffix = Full
+ent-SyndicateBrutePack1 = Interdyne bruise pack
+    .desc = Interdyne-Graded Bruise Packs for all your needs. The red ones are supposedly rare.
+    .suffix = Single
+ent-SyndicateOintment = Interdyne ointment
+    .desc = Interdyne's special blend of pyrazine and aloe, used to treat severe burns. Does nothing for caustic.
+    .suffix = Full
+ent-SyndicateOintment1 = Interdyne ointment
+    .desc = Interdyne's special blend of pyrazine and aloe, used to treat severe burns. Does nothing for caustic. The red ones are supposedly rare.
+    .suffix = Single

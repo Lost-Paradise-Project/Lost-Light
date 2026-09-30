@@ -1,0 +1,12 @@
+ent-LubeGrenade = lube grenade
+    .desc = Special grenade for shenanigans, releasing large cloud of lube foam.
+ent-GlueGrenade = glue grenade
+    .desc = Special grenade for shenanigans, releasing large cloud of glue foam.
+ent-ToxicGasGrenade = acidic gas grenade
+    .desc = A painful crowd control gas grenade full of Sulfuric Acid. Turn on your internals before using it.
+ent-HalonGasGrenade = halon gas grenade
+    .desc = A special solid state chemical grenade used for quickly releasing halon gas to extinguish fires.
+ent-Grenade20mmStinger = { ent-ProjectileGrenadeBase }
+    .desc = { ent-ProjectileGrenadeBase.desc }
+ent-Grenade20mmGas = { ent-ProjectileGrenadeBase }
+    .desc = { ent-ProjectileGrenadeBase.desc }

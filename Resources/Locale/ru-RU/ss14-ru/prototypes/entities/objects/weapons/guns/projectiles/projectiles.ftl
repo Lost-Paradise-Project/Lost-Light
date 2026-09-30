@@ -118,5 +118,3 @@ ent-BulletLaserWindowPiercingMagnum = пролетающий окна заряд
     .desc = { ent-BulletLaser.desc }
 ent-EnergyCrossbowBolt = энергозаряд
     .desc = Будет больно.
-ent-BulletChargeGlaive = заряд-пиявка
-    .desc = { ent-BulletCharge.desc }

@@ -1,0 +1,14 @@
+ent-GasTurbinePrefabEmpty = { "" }
+    .desc = { "" }
+ent-GasTurbineEmpty = { ent-BaseGasTurbine }
+    .desc = { ent-BaseGasTurbine.desc }
+    .suffix = Empty
+ent-GasTurbineEmptySalvage = { ent-BaseGasTurbine }
+    .desc = { ent-BaseGasTurbine.desc }
+    .suffix = Salvage, Empty
+ent-GasTurbineSmallEmpty = { ent-BaseGasTurbineSmall }
+    .desc = { ent-BaseGasTurbineSmall.desc }
+    .suffix = Empty
+ent-GasTurbineSmallEmptySalvage = { ent-BaseGasTurbineSmall }
+    .desc = { ent-BaseGasTurbineSmall.desc }
+    .suffix = Salvage, Empty

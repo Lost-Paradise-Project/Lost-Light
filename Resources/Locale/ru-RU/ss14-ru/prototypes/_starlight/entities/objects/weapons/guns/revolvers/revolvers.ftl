@@ -1,0 +1,10 @@
+ent-WeaponRevolverMakeshift = makeshift revolver
+    .desc = Little more than a hand-cannon with a high chance of blowing up in your face.
+ent-WeaponRevolverImprovised = improvised revolver
+    .desc = A revolver that has two barrels and no cylinder. Can you really call this a revolver?
+ent-WeaponRevolverForged = forged revolver
+    .desc = The best Tider engineering can offer, a revolver with the ability to hold 4 bullets!
+ent-WeaponRevolverDispatcher = dispatcher
+    .desc = The NT Model 7 Service Revolver, known unofficially as the 'Dispatcher.' chambered in .45 Magnum with robust stopping power for putting an end to any non-compliance. A true timeless classic carried amongst NanoTrasen's elite security staff.
+ent-WeaponRevolverZOZ = TOZ-82 'Jupiter'
+    .desc = An oversized bullpup revolver whose design was smuggled out of the USSP. You might need both hands for this one. It's got a flip-out bayonet, but the damned thing is stuck shut. Loads 6 rounds of .45 magnum.

@@ -1,0 +1,15 @@
+ent-CardboardBoxLargeInternalsFilled = small emergency breathing supplies box
+    .desc = { ent-CardboardBoxLargeInternals.desc }
+    .suffix = FILLED
+ent-CardboardBoxLargeCargoRoundstart = cargo supplies box
+    .desc = { ent-CardboardBoxLargeCargo.desc }
+    .suffix = Cargo roundstart
+ent-CardboardBoxLargeEngiRoundstart = engineering supplies box
+    .desc = { ent-CardboardBoxLargeEngi.desc }
+    .suffix = Engi roundstart
+ent-CardboardBoxLargeBureaucracy = office supplies box
+    .desc = { ent-CardboardBoxLarge.desc }
+    .suffix = Office
+ent-CardboardBoxLargeServiceJani = janitorial supplies box
+    .desc = { ent-CardboardBoxLargeService.desc }
+    .suffix = Jani

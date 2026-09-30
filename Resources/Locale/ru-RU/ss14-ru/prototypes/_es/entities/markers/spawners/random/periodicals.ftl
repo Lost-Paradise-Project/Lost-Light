@@ -1,0 +1,9 @@
+ent-ESSpawnerRandomPeriodicals = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Magazines / Newspapers
+ent-ESSpawnerRandomPeriodicalsLegit = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Magazines / Newspapers, Legit
+ent-ESSpawnerRandomPeriodicalsContraband = Periodical Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Magazines / Newspapers, Contraband

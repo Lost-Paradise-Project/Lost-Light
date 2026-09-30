@@ -1,0 +1,12 @@
+ent-OrganNeoVoxStomach = vox biological reactor
+    .desc = { ent-OrganNeocyteStomach.desc }
+    .suffix = Neo-Vox
+ent-OrganNeoVoxHeart = vox cybernetic heart
+    .desc = { ent-OrganNeocyteHeart.desc }
+    .suffix = Neo-Vox
+ent-OrganNeoVoxLungs = vox cybernetic lungs
+    .desc = Filters nitrogen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier. Entirely cybernetic in nature, working in tandem with the visor's filtration system.
+    .suffix = Neo-Vox
+ent-OrganNeoVoxTongue = { ent-OrganNeocyteTongue }
+    .desc = { ent-OrganNeocyteTongue.desc }
+    .suffix = Neo-Vox

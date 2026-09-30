@@ -1,0 +1,9 @@
+ent-AirAlarmUnlocked = unlocked air alarm
+    .desc = An air alarm with its access reader deactivated. Anyone can adjust it.
+    .suffix = Unlocked
+ent-AirAlarmChamber = chamber air alarm
+    .desc = An air alarm set up for use in chambers. It doesn't report to the station's alert console.
+    .suffix = Chamber
+ent-AirAlarmChamberUnlocked = unlocked chamber air alarm
+    .desc = An air alarm set up for use in chambers. Anyone can adjust it, and it doesn't report to the station's alert console.
+    .suffix = Chamber, unlocked

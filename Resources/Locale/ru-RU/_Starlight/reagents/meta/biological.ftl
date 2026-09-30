@@ -1,0 +1,32 @@
+reagent-name-abductor-blood = abductor blood
+reagent-desc-abductor-blood = The blood of a supreme creature, something above laws and time. It is several times ahead of your understanding.
+
+reagent-name-avali-blood = diluted ammonia blood
+reagent-desc-avali-blood = Smells like piss.
+
+reagent-name-resomi-blood = diluted ammonia blood
+reagent-desc-resomi-blood = Smells like piss.
+
+reagent-name-dark-blood = dark blood
+reagent-desc-dark-blood = The blood from a creature of The Dark.
+
+reagent-name-cyclorite-blood = diluted nitric acid blood
+reagent-desc-cyclorite-blood = Feels slightly acidic.
+
+reagent-name-amalgam = amalgamation blood
+reagent-desc-amalgam = Reminds you of human blood, slime, ammonia, nitric acid... A lot, really.
+
+reagent-name-mortucussus = mortucussus
+reagent-desc-mortucussus = Would not advise eating. Can be used to synthesize ambuzol.
+
+reagent-name-putrid-blood = putrid blood
+reagent-desc-putrid-blood = Would not advise eating. Smells like it contains trace amounts of mortucussus.
+
+reagent-name-pseudoceramic-platelets = pseudoceramic platelets
+reagent-desc-pseudoceramic-platelets = Coarse, crunchy and slimy...
+
+reagent-name-doll-blood = anomalous blood
+reagent-desc-doll-blood = It's like a thick meat soup...
+
+reagent-name-sawian-blood = sawian blood
+reagent-desc-sawian-blood = Artificially created blood as a result of old bio-engineering technologies.

@@ -1,0 +1,14 @@
+ent-OrganTreeSeeds = packet of organ tree seeds
+    .desc = { ent-SeedBase.desc }
+ent-EvilAppleSeeds = packet of devilish apple seeds
+    .desc = { ent-SeedBase.desc }
+ent-ResinferaSeeds = packet of resinfera seeds
+    .desc = { ent-SeedBase.desc }
+ent-MintSeeds = packet of mint seeds
+    .desc = { ent-SeedBase.desc }
+ent-SpearMintSeeds = packet of spear mint seeds
+    .desc = { ent-SeedBase.desc }
+ent-CinnamonSeeds = packet of cinnamon seeds
+    .desc = { ent-SeedBase.desc }
+ent-CinnaflareSeeds = packet of cinnaflare seeds
+    .desc = { ent-SeedBase.desc }

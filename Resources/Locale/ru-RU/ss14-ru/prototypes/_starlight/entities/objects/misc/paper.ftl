@@ -1,0 +1,11 @@
+ent-TapeRecorderTranscript = запись разговора
+    .desc = { ent-Paper.desc }
+ent-PaperNTCC = nt-cc paper
+    .desc = A single unit of bureaucracy, branded with the logos of NanoTrasen and Central Command.
+ent-NukeCodePaperAllNukes = { ent-NukeCodePaper }
+    .desc = { ent-NukeCodePaper.desc }
+    .suffix = All Nukes
+ent-JailFree = get out of jail free card
+    .desc = Get out of jail free! is written on this card, and a drawing depicting a man with a clown mask and monocle escaping a cage is drawn on the right. Both the text and drawing are in crayon.
+ent-PaperITG = itg paper
+    .desc = A single unit of bureaucracy, branded with the logo of the Interstellar Trade Guild.

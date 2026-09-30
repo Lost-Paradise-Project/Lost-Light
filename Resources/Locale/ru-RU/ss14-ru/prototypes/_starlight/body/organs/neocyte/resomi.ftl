@@ -1,0 +1,12 @@
+ent-OrganNeoResomiEyes = resomi cybernetic eyes
+    .desc = These cybernetic eyes have great night vision for hunting prey in maintenance tunnels, but are very sensitive to bright flashes.
+    .suffix = Neo-Resomi
+ent-OrganNeoResomiHeart = resomi cybernetic heart
+    .desc = { ent-OrganNeocyteHeart.desc }
+    .suffix = Neo-Resomi
+ent-OrganNeoResomiLungs = resomi cybernetic lungs
+    .desc = Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier. Entirely cybernetic in nature, working in tandem with the visor's filtration system.
+    .suffix = Neo-Resomi
+ent-OrganNeoResomiTongue = { ent-OrganNeocyteTongueForked }
+    .desc = { ent-OrganNeocyteTongueForked.desc }
+    .suffix = Neo-Resomi

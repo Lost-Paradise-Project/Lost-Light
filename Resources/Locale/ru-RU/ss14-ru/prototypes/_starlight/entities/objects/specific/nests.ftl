@@ -1,0 +1,10 @@
+ent-BaseNest = Base Nest
+    .desc = { ent-BaseStructure.desc }
+ent-NestBeeHive = bee hive
+    .desc = You probably shouldnt anger them.
+ent-NestBeeBox = bee box
+    .desc = You probably shouldnt anger them.
+ent-NestSnake = snake nest
+    .desc = Smells like sulfur and rotten meat.
+ent-NestMouse = mouse nest
+    .desc = Smells like ammonia and cheese.

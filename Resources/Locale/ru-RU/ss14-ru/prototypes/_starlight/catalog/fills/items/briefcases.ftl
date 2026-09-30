@@ -1,0 +1,17 @@
+ent-BriefcaseIAAFilled = { ent-BriefcaseBrown }
+    .desc = { ent-BriefcaseBrown.desc }
+    .suffix = АВД
+ent-BriefcaseLawyerFilled = { ent-BriefcaseBrown }
+    .desc = { ent-BriefcaseBrown.desc }
+    .suffix = Lawyer
+ent-SyndieDeadDropSpawner = Syndicate High Command
+    .desc = { ent-MarkerBase.desc }
+ent-BriefcaseSyndieDeadDrop = syndicate briefcase
+    .desc = { ent-BriefcaseSyndicateRedspace.desc }
+    .suffix = Dead Drop, Do Not Map
+ent-BriefcaseWeaponDMRFilled = secure estoc case
+    .desc = { ent-BriefcaseWeapon.desc }
+    .suffix = { ent-BriefcaseWeapon.suffix }
+ent-ClothingNeckExplosiveCollarBox = secure explosives case
+    .desc = { ent-BriefcaseWeaponSmall.desc }
+    .suffix = { ent-BriefcaseWeaponSmall.suffix }

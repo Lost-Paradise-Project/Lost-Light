@@ -1,0 +1,15 @@
+ent-VinylPlayerCircuitboard = vinyl player machine board
+    .desc = A machine printed circuit board for a vinyl player.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-TapeDeckCircuitboard = tape deck machine board
+    .desc = A machine printed circuit board for a tape deck.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-StationRadioServerCircuitboard = station radio server machine board
+    .desc = A machine printed circuit board for a station radio server.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-StationRadioRigCircuitboard = station radio rig machine board
+    .desc = A machine printed circuit board for a station radio rig.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-StationRadioCircuitboard = station radio machine board
+    .desc = A machine printed circuit board for a station radio receiver.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }

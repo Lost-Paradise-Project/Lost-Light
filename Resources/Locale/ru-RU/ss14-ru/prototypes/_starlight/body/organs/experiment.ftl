@@ -1,0 +1,12 @@
+ent-OrganExperimentStomach = stomach
+    .desc = Gross. This is hard to stomach.
+ent-OrganExperimentHeart = heart
+    .desc = Skips a beat at the sight of landmines.
+ent-OrganExperimentLiver = liver
+    .desc = { ent-BaseAnimalOrgan.desc }
+ent-OrganExperimentEyes = eyes
+    .desc = Couldn't have seen that one coming.
+    .suffix = Experiment
+ent-OrganExperimentTongue = tongue
+    .desc = A fleshy muscle mostly used for lying.
+    .suffix = Experiment

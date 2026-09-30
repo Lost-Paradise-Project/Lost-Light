@@ -34,5 +34,3 @@ ent-BoxMagazineRifleSP = box of .20 rifle magazines
     .desc = A box full of .20 rifle magazines.
 ent-BoxMagazineRiflePractice = коробка магазинов с .20 винтовочными (учебные)
     .desc = Полная коробка магазинов с учебными патронами калибра .20 винтовочный.
-ent-BoxMagazineRifle = коробка магазинов с .20 винтовочными
-    .desc = Полная коробка магазинов с патронами калибра .20 винтовочный.

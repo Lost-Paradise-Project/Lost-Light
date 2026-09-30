@@ -1,0 +1,12 @@
+ent-ETOCorpsmanPDA = ETO corpsman PDA
+    .desc = Nobody dies on your watch, atleast not your team.
+ent-ETOTeamLeadPDA = ETO team leader PDA
+    .desc = Lead the team, fight against the corporate giants. Death to our enemy, freedom to their slaves.
+ent-ETOOperativePDA = ETO operative PDA
+    .desc = Fight for freedom, fight for the people.
+ent-ETOOperativePDACombatTech = ETO combat technician PDA
+    .desc = Build the pillars that support our cause, break the chains that hold us back.
+ent-ETOOperativePDAMartyr = ETO martyr PDA
+    .desc = Remember who you fight for, remember who you are.
+ent-ETOOperativePDADemo = ETO demolitionist PDA
+    .desc = Blow apart their walls, free those oppressed by your enemies.

@@ -1,0 +1,12 @@
+ent-BaseBrighteyeRule = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-SubBrighteye = { ent-BaseBrighteyeRule }
+    .desc = { ent-BaseBrighteyeRule.desc }
+ent-BrighteyeSpawn = { ent-BaseBrighteyeRule }
+    .desc = { ent-BaseBrighteyeRule.desc }
+ent-TheDarkMap = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-TheDarkHideoutSpawn = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-TheDarkGardenSpawn = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

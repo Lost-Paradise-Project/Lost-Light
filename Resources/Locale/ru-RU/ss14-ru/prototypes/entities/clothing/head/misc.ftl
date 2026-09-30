@@ -41,5 +41,3 @@ ent-ClothingHeadHatHairFlowerBase = hairflower
     .desc = A beautiful hairflower that can be inserted between locks of hair.
 ent-ClothingHeadPerformerWig = парик артиста
     .desc = При детальном рассмотрении оказывается, что он сделан из оптического волокна.
-ent-ClothingHeadHatHairflower = цветок для волос
-    .desc = Красивый цветок для волос, который можно вставить между локонами.

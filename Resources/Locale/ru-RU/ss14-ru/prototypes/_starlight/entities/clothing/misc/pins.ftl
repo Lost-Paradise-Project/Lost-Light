@@ -1,0 +1,10 @@
+ent-ClothingNeckAngelPin = pin of good deeds
+    .desc = For the best!
+    .suffix = DO NOT MAP, Admeme
+ent-ClothingNeckDevilPin = pin of evil deeds
+    .desc = For the worst!
+    .suffix = DO NOT MAP, Admeme
+ent-HoloReporterPin = reporter holo-pin
+    .desc = It's an electronic pin with a microphone-shaped button. A way of more clearly saying, DON'T SHOOT!
+ent-ActionHoloPin = Activate Holo-Pin
+    .desc = BREAKING NEWS! DON'T KILL ME PLEASE!

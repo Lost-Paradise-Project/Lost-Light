@@ -1,0 +1,10 @@
+ent-WallBrass = brass wall
+    .desc = { ent-BaseWall.desc }
+ent-WallBrassDiagonal = brass wall
+    .desc = { ent-WallDiagonalBase.desc }
+    .suffix = { ent-WallDiagonalBase.suffix }
+ent-WallReinforcedBrass = reinforced brass wall
+    .desc = { ent-BaseWall.desc }
+ent-WallReinforcedBrassDiagonal = reinforced brass wall
+    .desc = { ent-WallDiagonalBase.desc }
+    .suffix = { ent-WallDiagonalBase.suffix }

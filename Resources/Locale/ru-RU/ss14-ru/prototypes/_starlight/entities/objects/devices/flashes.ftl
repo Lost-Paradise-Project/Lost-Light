@@ -1,0 +1,12 @@
+ent-Flash0Use = flash
+    .desc = { ent-Flash.desc }
+    .suffix = 0 charges
+ent-Flash1Use = flash
+    .desc = { ent-Flash.desc }
+    .suffix = 1 charge
+ent-Flash3Use = flash
+    .desc = { ent-Flash.desc }
+    .suffix = 3 charges
+ent-Flash4Use = flash
+    .desc = { ent-Flash.desc }
+    .suffix = 4 charges

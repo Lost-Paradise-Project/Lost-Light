@@ -1,0 +1,11 @@
+ent-MobStargazer = stargazer
+    .desc = A mysterious creature from another dimension, its burning gaze melts away those that it finds irritating. It's outer shell is made with caramelan polymers mixed with ethyl butyrate, giving it a sticky but resistant protective layer. It is said that it makes a good watermelon lollipop.
+ent-StargazerShell1 = shard
+    .desc = A strange shell shard. The remains of the stargazer.
+ent-StargazerShell2 = shard
+    .desc = A strange shell shard. The remains of the stargazer.
+ent-StargazerShell3 = shard
+    .desc = A strange shell shard. The remains of the stargazer.
+ent-FoodSnackStargazerLollipop = stargazer lollipop
+    .desc = A sweet fleshy lollipop made from the carcass of a stargazer. It tastes vaguely of watermelon.
+    .suffix = DO NOT MAP

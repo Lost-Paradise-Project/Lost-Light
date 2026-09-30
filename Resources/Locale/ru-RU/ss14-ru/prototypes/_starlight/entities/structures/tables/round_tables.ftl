@@ -1,0 +1,14 @@
+ent-RoundTableBase = round table
+    .desc = A smaller, round table.
+ent-RoundTableSteel = round table
+    .desc = A smaller, round table.
+ent-RoundTableWood = round table
+    .desc = A smaller, round table.
+ent-RoundTableCarpet = round table
+    .desc = A smaller, round table.
+ent-RoundTablePlastic = round table
+    .desc = A smaller, round table.
+ent-RoundTableGlass = round table
+    .desc = A smaller, round table.
+ent-RoundTablePlasma = round table
+    .desc = A smaller, round table.

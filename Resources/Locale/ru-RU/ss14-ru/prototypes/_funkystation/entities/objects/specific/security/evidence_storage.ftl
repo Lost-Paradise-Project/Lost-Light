@@ -1,0 +1,14 @@
+ent-EvidenceBag = evidence bag
+    .desc = A small bag for holding criminal evidence.
+ent-EvidenceBagFilled = evidence bag
+    .desc = A small bag for holding criminal evidence.
+    .suffix = Filled
+ent-CardboardBoxLargeEvidenceFilled = evidence supplies box
+    .desc = { ent-CardboardBoxLargeEvidence.desc }
+    .suffix = FILLED
+ent-CardboardBoxLargeEvidenceFilledExtras = extra evidence supplies box
+    .desc = { ent-CardboardBoxLargeEvidence.desc }
+    .suffix = EXTRAS
+ent-BoxShelfEvidenceRoom = { ent-BoxShelf }
+    .desc = { ent-BoxShelf.desc }
+    .suffix = Evidence

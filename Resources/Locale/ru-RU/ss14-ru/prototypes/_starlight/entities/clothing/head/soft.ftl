@@ -1,0 +1,15 @@
+ent-ClothingHeadHatCargoFormalsoft = formal cargo cap
+    .desc = A baseball cap colored to match cargo's formal uniforms.
+ent-ClothingHeadHatCargoFormalsoftFlipped = formal cargo cap
+    .desc = { ent-ClothingHeadHatCargoFormalsoft.desc }
+    .suffix = { ent-ClothingHeadHeadHatBaseFlipped.suffix }
+ent-ClothingHeadHatMailsoftVisor = mail visor
+    .desc = A lightweight sun visor for every aspiring mail technician.
+ent-ClothingHeadHatMailsoftVisorFlipped = mail visor
+    .desc = { ent-ClothingHeadHatMailsoftVisor.desc }
+    .suffix = { ent-ClothingHeadHeadHatBaseFlipped.suffix }
+ent-ClothingHeadHatMailsoftVisorSenior = senior mail visor
+    .desc = A lightweight sun visor for the most devoted of mail technicians.
+ent-ClothingHeadHatMailsoftVisorSeniorFlipped = senior mail visor
+    .desc = { ent-ClothingHeadHatMailsoftVisorSenior.desc }
+    .suffix = { ent-ClothingHeadHeadHatBaseFlipped.suffix }

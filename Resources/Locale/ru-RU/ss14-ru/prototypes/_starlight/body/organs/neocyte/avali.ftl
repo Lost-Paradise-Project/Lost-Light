@@ -1,0 +1,12 @@
+ent-OrganNeoAvaliStomach = avali biological reactor
+    .desc = { ent-OrganNeocyteStomach.desc }
+    .suffix = Neo-Avali
+ent-OrganNeoAvaliHeart = avali cybernetic heart
+    .desc = { ent-OrganNeocyteHeart.desc }
+    .suffix = Neo-Avali
+ent-OrganNeoAvaliLiver = avali cybernetic liver
+    .desc = { ent-OrganNeocyteLiver.desc }
+    .suffix = Neo-Avali
+ent-OrganNeoAvaliTongue = { ent-OrganNeocyteTongueForked }
+    .desc = { ent-OrganNeocyteTongueForked.desc }
+    .suffix = Neo-Avali

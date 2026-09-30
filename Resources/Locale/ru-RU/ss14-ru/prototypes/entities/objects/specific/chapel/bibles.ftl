@@ -16,7 +16,3 @@ ent-BibleHonk = радость хонкоматери
     .desc = О великая и славная Мать, Госпожа Веселья, Покровительница Масок и Забав, благословенна ты среди шутов.
 ent-BibleRatvar = скрижаль Ратвара
     .desc = Святая реликвия Заводного Культа, благословлённая Заводной Справедливостью, Ратваром.
-ent-HolyLightEffect = { "" }
-    .desc = { "" }
-ent-EvilLightEffect = { ent-HolyLightEffect }
-    .desc = { ent-HolyLightEffect.desc }

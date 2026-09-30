@@ -1,3 +1,0 @@
-ent-LPPDrinkXenomeisterBottleFull = бутылка ксеномейстера
-    .desc = Зелёная бутылка что хранит в себе самый фентезийное "зелье" который можно найти в космосе.
-    .suffix = { ent-DrinkBottleGlassBaseFull.suffix }

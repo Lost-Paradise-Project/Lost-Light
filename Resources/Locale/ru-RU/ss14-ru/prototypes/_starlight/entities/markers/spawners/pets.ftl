@@ -1,0 +1,12 @@
+ent-SpawnMobKoboldKiki = Kiki Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Botanist Pet
+ent-SpawnMobMonkeyStirStir = Stir Stir Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Genpop Prisoner
+ent-SpawnMobPenguinFlippers = Rt Hon. Flippers Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Law Pet
+ent-SpawnMobLizardCecil = Cecil Spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = CC Pet

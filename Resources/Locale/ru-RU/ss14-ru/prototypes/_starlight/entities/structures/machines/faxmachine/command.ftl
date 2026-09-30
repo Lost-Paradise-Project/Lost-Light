@@ -1,0 +1,11 @@
+ent-FaxMachineCommandBase = { ent-FaxMachineBase }
+    .desc = { ent-FaxMachineBase.desc }
+ent-FaxMachineCommandBridge = { ent-FaxMachineCommandBase }
+    .desc = { ent-FaxMachineCommandBase.desc }
+    .suffix = CMD: Bridge
+ent-FaxMachineCommandConference = { ent-FaxMachineCommandBase }
+    .desc = { ent-FaxMachineCommandBase.desc }
+    .suffix = CMD: Conference
+ent-FaxMachineCommandAICore = { ent-FaxMachineCommandBase }
+    .desc = { ent-FaxMachineCommandBase.desc }
+    .suffix = CMD: AI Core

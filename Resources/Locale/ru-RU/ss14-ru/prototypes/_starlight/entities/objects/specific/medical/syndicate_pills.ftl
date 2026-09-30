@@ -1,0 +1,12 @@
+ent-PillLead5 = lead
+    .desc = { ent-Pill.desc }
+    .suffix = Lead 5u
+ent-PillLead = lead
+    .desc = { ent-Pill.desc }
+    .suffix = Lead 15u
+ent-PillDesoxyephedrine5 = desoxyephedrine
+    .desc = { ent-Pill.desc }
+    .suffix = Desoxyephedrine 5u
+ent-PillDesoxyephedrine = desoxyephedrine
+    .desc = { ent-Pill.desc }
+    .suffix = Desoxyephedrine 15u

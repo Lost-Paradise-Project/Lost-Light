@@ -44,16 +44,6 @@ ent-CaptainGunStealObjective = { ent-BaseCaptainObjective }
     .desc = { ent-BaseCaptainObjective.desc }
 ent-NukeDiskStealObjective = { ent-BaseCaptainObjective }
     .desc = { ent-BaseCaptainObjective.desc }
-ent-KillStationAiObjective = { ent-BaseTraitorObjective }
-    .desc = Nanotrasen с гордостью хвастается своим современным искусственным интеллектом. Напомните им, что это всего лишь очередная игрушка, которую можно сломать.
-ent-EnergyMagnumStealObjective = { ent-BaseTraitorStealObjective }
-    .desc = { ent-BaseTraitorStealObjective.desc }
-ent-SupercritAnomaliesObjective = { ent-BaseTraitorObjective }
-    .desc = Nanotrasen очень интересуется аномалиями с потенциально катастрофическими последствиями. Покажите им, с каким огнём они играют.
-ent-HijackTradeStationObjective = Захватить Автоматизированную Торговую Станцию.
-    .desc = Вашему аплинку был выделен один маяк для взлома. Установите его на Автоматизированной Торговой Станции и защищайте, пока он проводит захват.
-ent-MailFraudObjective = { ent-BaseTraitorObjective }
-    .desc = Нас интересует корреспонденция Nanotrasen. Нож для вскрытия писем в комплект не входит.
 
 # ent-NukeDiskStealObjective = { ent-BaseCaptainObjective }
 #     .desc = { ent-BaseCaptainObjective.desc }

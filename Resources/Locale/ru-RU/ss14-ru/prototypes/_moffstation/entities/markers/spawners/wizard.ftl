@@ -1,0 +1,14 @@
+ent-SpawnPointGhostWizardDuelistBase = ghost role spawn point
+    .desc = { ent-BaseAntagSpawner.desc }
+ent-SpawnPointGhostWizardDuelistRed = red wizard duelist spawn point
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistBlue = blue wizard duelist spawn point
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistPurple = purple wizard duelist spawn point
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistYellow = yellow wizard duelist spawn point
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistGreen = green wizard duelist spawn point
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistOrange = orange wizard duelist spawn point
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }

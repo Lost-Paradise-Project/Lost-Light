@@ -1,0 +1,10 @@
+ent-StatusEffectTemporaryBlindness = temporary blindness
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectMuted = mute
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectTheDark = the dark
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectTheDarkMap = { ent-StatusEffectTheDark }
+    .desc = { ent-StatusEffectTheDark.desc }
+ent-StatusEffectHeldBreath = holding breath
+    .desc = { ent-MobStatusEffectDebuff.desc }

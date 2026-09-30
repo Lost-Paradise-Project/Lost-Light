@@ -1,0 +1,12 @@
+ent-BulletDravon75mmHE = DVN-75 75mm HE shell
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletAK570_90mmHE = AK-90 90mm HE shell
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletLeviathan240mmHE = LVT-240 240mm HE shell
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletGrenade120mmBlast = 120mm blast grenade
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletCharon280mmSlug = M381 CHARYBDIS 280mm slug
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletCharon280mmSubnuclear = M381 CHARYBDIS 280mm subnuclear slug
+    .desc = { ent-BaseBulletTrigger.desc }

@@ -1,0 +1,11 @@
+ent-CCMoproachGlasses = { ent-ClothingEyesGlassesCentComm }
+    .desc = Centcomm officer glasses that are compatible with mothroaches. Unfortunately as a result, these are stuck to their face.
+ent-MobCCMoproach = cc moproach
+    .desc = A moproach specially trained in the ways of janitorial duties by the best NT has to offer.
+    .suffix = Jani ERT
+ent-MobCCMoproachHat = { ent-MobCCMoproach }
+    .desc = { ent-MobCCMoproach.desc }
+    .suffix = Jani ERT, hat
+ent-CCMoproachCubeWrapped = cc moproach cube
+    .desc = Just add water! *chitters*
+    .suffix = { ent-MoproachCubeWrapped.suffix }

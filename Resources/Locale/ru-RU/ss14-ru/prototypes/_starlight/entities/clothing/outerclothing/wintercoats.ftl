@@ -1,0 +1,11 @@
+ent-ClothingOuterWinterChemSenior = senior chemistry winter coat
+    .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
+ent-ClothingOuterWinterCargoSenior = formal cargo winter coat
+    .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
+ent-ClothingOuterWinterRoboAlt = white robotics winter coat
+    .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
+ent-ClothingOuterWinterDutyOfficer = duty officer's armored winter coat
+    .desc = A sturdy, utilitarian winter coat designed to protect a duty officer from any uppity perma prisoners.
+ent-ClothingOuterWinterCapUnarmored = captain's winter coat
+    .desc = A sturdy coat, a warm coat, but not an armored coat.
+    .suffix = Unarmored

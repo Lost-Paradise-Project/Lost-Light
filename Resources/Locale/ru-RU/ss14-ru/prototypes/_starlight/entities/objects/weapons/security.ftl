@@ -1,0 +1,15 @@
+ent-WeaponPistolPDW9TaserBorg = PDW-9 integrated taser
+    .desc = A self-recharging PDW-9 taser integrated directly into a security cyborg's chassis. Lethal mode requires Code Red or higher.
+ent-BorgStunbatonRechargeable = integrated stun baton
+    .desc = A self-recharging stun baton integrated directly into a security cyborg's chassis.
+ent-BorgHolocuffs = holocuffs
+    .desc = Holographic restraining cuffs emitted directly from a security cyborg's chassis. A fresh pair reappears moments after use, retrieved when the target is freed.
+ent-BorgFlashRechargeable = integrated flash
+    .desc = An ultrabright flashbulb integrated directly into a security cyborg's chassis. The internal capacitor recharges automatically.
+ent-BorgHoloprojectorSecurity = integrated holobarrier projector
+    .desc = A holographic barrier projector integrated directly into a security cyborg's chassis. The sealed microreactor keeps it self-charging.
+    .suffix = borg
+ent-DoubleStunbaton = double stun baton
+    .desc = { ent-Stunbaton.desc }
+ent-PurpleStunbaton = purple stun baton
+    .desc = { ent-Stunbaton.desc }

@@ -1,0 +1,12 @@
+ent-TrackingImplantMedTak = MedTak beacon
+    .desc = This implant will inform the nearest MedTak unit should the user fall into critical condition or die.
+ent-TrackingImplantMedTakBronze = MedTak bronze beacon
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-TrackingImplantMedTakSilver = MedTak silver beacon
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-TrackingImplantMedTakGold = MedTak gold beacon
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-TrackingImplantMedTakTeam = MedTak team beacon
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-MedTakMindShieldImplant = MedTak mindshield implant
+    .desc = This implant protects operators from mind control devices.

@@ -1,0 +1,169 @@
+uplink-contortionist-jumpsuit-name = Contortionist's Jumpsuit
+uplink-contortionist-jumpsuit-desc = It looks like an atmos jumpsuit, but it really is. This jumpsuit allows the agent to slip through the vents.
+uplink-marriage-axe-name = Marriage axe
+uplink-marriage-axe-desc = A charming subtle instrument of chaos—perfect for when diplomacy fails. Screams like a banshee, cuts like a demon, and turns people into regrettable memories. Handle with enthusiasm.
+uplink-mini-energy-crossbow-name = mini energy crossbow
+uplink-mini-energy-crossbow-desc = Fires low-damage kinetic bolts at a short range.
+uplink-minotaur-name = Minotaur bundle
+uplink-minotaur-desc = Lean and mean: Contains smooth, powerful, highly illegal Shotgun, a 5 12g buckshot drums.
+uplink-deagle-name = Desert Eagle
+uplink-deagle-desc = A robust magnum handgun.
+uplink-stechkin-name = Stechkin pistol
+uplink-stechkin-desc = A small, easily concealable 10mm handgun. Has a threaded barrel for suppressors.
+
+uplink-stechkin-bundle-name = Solid Operative Bundle
+uplink-stechkin-bundle-desc = A mysterious cardboard box containing a slew of equipment for only the most solid of operatives.
+
+uplink-pistol-high-capacity-magazine-name = Extended Pistol Magazine (.35 auto)
+uplink-pistol-high-capacity-magazine-desc = Pistol magazine with 16 cartridges. Compatible with the Viper.
+
+uplink-pistol-hp-magazine-name = Pistol Magazine (.35 auto HP)
+uplink-pistol-hp-magazine-desc = Pistol magazine with 10 cartridges. Compatible with the Viper.
+
+uplink-pistol-fmj-magazine-name = Pistol Magazine (.35 auto FMJ)
+uplink-pistol-fmj-magazine-desc = Pistol magazine with 10 cartridges. Compatible with the Viper.
+
+uplink-pistol-magnum-magazine-name = Pistol Magazine (.45 magnum)
+uplink-pistol-magnum-magazine-desc = Pistol magazine with 10 cartridges. Compatible with the Desert Eagle.
+
+uplink-magillitis-serum-implanter-name = Magillitis Serum Implanter
+uplink-magillitis-serum-implanter-desc = An experimental biochip which causes irreversable rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+uplink-gear-acidifier-implant-name = Gear Acidifier Implant
+uplink-gear-acidifier-implant-desc = Melts your equipment on use or death, leaving your body intact. Does not destroy restraints.
+
+uplink-pitbull-bundle-name = Pitbull Bundle
+uplink-pitbull-bundle-desc = A large bullpup rifle with a low fire-rate but excellent accuracy. Chambered in .45 magnum.
+
+
+uplink-rifle-magazine-pitbull-name = Bullpup magazine (.45 magnum)
+uplink-rifle-magazine-pitbull-desc = Bullpup magazines with 20 cartrides. Compatible with the Pitbull.
+
+uplink-nightvision-eyes = Night Vision Cyber Eyes
+uplink-nightvision-eyes-desc = Allows you to see in the dark but makes you more vulnerable to flashes. (Warning: You will need a surgical assistant for the procedure.)
+uplink-thermalvision-eyes = Thermal Vision Cyber Eyes
+uplink-thermalvision-eyes-desc = Allows you to see in the dark and detect creatures through walls but makes you more vulnerable to flashes. (Warning: You will need a surgical assistant for the procedure.)
+uplink-olfactory-implant-name = Olfactory Implant
+uplink-olfactory-implant-desc = Grants a partial ability to perceive and track scents. (Warning: You will need a surgical assistant for the procedure.)
+uplink-mantis-blade-arms-name = Mantis Blade Arms Bundle
+uplink-mantis-blade-arms-desc = Originally used as a simple construction tool, now turned into hidden blades that can extend from your arm while still keeping its destructive prying skill. Truly a sight to behold. (Warning: You will need a surgical assistant for the procedure.)
+uplink-advanced-claws-name = Advanced Claws Implant
+uplink-advanced-claws-desc = A cybernetic implant for hands. Allows an agent to extend sharp plasteel claws at will, and hide them away just as quickly. (Warning: You will need a surgical assistant for the procedure.)
+uplink-forensics-implant-name = Forensics Implant
+uplink-forensics-implant-desc = A cybernetic implant for hands. Removes an agent's fingerprints so as to not leave evidence of a crime. Does not work through gloves. (Warning: You will need a surgical assistant for the procedure.)
+uplink-syndie-implant-name = Syndicate Agent Implant
+uplink-syndie-implant-desc = A cybernetic eye implant. Enables an agent to see information about the station crew, humanoids and syndicate without any glasses. (Warning: You will need a surgical assistant for the procedure.)
+
+uplink-uzi-bundle-name = Type U3 Uzi Bundle
+uplink-uzi-bundle-desc = Contains the Type U3 Uzi, with two additional magazines.
+
+uplink-uzi-magazine-name = Uzi Magazine (.35 auto)
+uplink-uzi-magazine-desc = Submachine gun magazine with 32 cartridges. Compatible with the Type U3 Uzi
+
+uplink-breaching-magazine-name = Shotgun Magazine (12 gauge breaching)
+uplink-breaching-magazine-desc = A magazine loaded with breaching shells, for breaking down airlocks, windows and walls. Less effective on people.
+
+uplink-syndicate-borgi-name = Syndicate Borgi
+uplink-syndicate-borgi-desc = A basic syndicate borgi.
+
+uplink-syndicate-borgi-kitted-name = Kitted Syndicate Borgi
+uplink-syndicate-borgi-kitted-desc = A syndicate borgi, outfitted with an L6 module, operative module and E-sword module.
+
+uplink-syndicate-borgi-speed-name = Speed Syndicate Borgi
+uplink-syndicate-borgi-speed-desc = A syndicate borgi, with dagger modules and additional speed.
+
+
+uplink-reinforcement-radio-medical-cyborg-name = Syndicate Medical Cyborg Teleporter
+uplink-reinforcement-radio-medical-cyborg-desc = A medical borg, with syndicate variants of items where applicable. Comes with basic weapons.
+
+uplink-reinforcement-radio-saboteur-cyborg-name = Syndicate Saboteur Cyborg Teleporter
+uplink-reinforcement-radio-saboteur-cyborg-desc = A saboteur cyborg, complete with syndicate advanced tools, standard hacking equipment and basic weapons.
+
+uplink-reinforcement-radio-stealth-cyborg-name = Syndicate Stealth Cyborg Teleporter
+uplink-reinforcement-radio-stealth-cyborg-desc = A stealth cyborg. Whilst it is incapable of fighting, it has the ability to disguise, go invisible and move through vents. Comes with standard hacking tools.
+
+uplink-ecronizer-name = Ecronizer
+uplink-ecronizer-desc = A small device that can be used to bypass most scanning devices, making you and your items invisible to them.
+
+uplink-lube-grenade-name = Lube Grenade
+uplink-lube-grenade-desc = Special grenade for shenanigans, releasing large cloud of lube foam.
+
+uplink-glue-grenade-name = Glue Grenade
+uplink-glue-grenade-desc = Special grenade for shenanigans, releasing large cloud of glue foam.
+
+uplink-hydra-name = Hydra
+uplink-hydra-desc = A modified Hydra capable of taking both cleanades and standard grenades. Excellent for when you need to clean up the security department. Comes pre-filled with special syndicate cleanades.
+
+uplink-pizza-bomb-name = Nefarious Pizza bomb
+uplink-pizza-bomb-desc = Originally developed by covertly by DONK Co to disuade the heretics who prefer their pizza not in pocket form. This pizza box is wired, and explodes within moments of being opened.
+
+uplink-shuttle-board-name = Syndicate Shuttle Console Board
+uplink-shuttle-board-desc = A computer printed circuit board for a syndicate shuttle console.
+
+uplink-shuttle-bundle-name = Syndicate Shuttle Crate
+uplink-shuttle-bundle-desc = Everything but the shuttle board. It's a shuttle in a crate* (Some assembly required)
+
+uplink-friendship-bundle-name = Friendship Bundle
+uplink-friendship-bundle-desc = Friendship packaged in a convenient crate*. (Some assembly required)
+
+uplink-breaching-hammer-name = Breaching Hammer
+uplink-breaching-hammer-desc = A heavy-duty powered breaching tool disguised as a combat hammer. Functions like jaws of life for prying open doors and airlocks, while also serving as a devastating melee weapon. Can deal massive structural damage to walls and reinforced barriers, making it perfect for forced entry operations.
+
+uplink-explosive-collar-name = Explosive Collar
+uplink-explosive-collar-desc = The legally distinct reverse beartrap from a certin movie franchise.
+
+uplink-satchel-syndicate-name = Syndicate Satchel
+uplink-satchel-syndicate-desc = Ask not what the syndicate satchel can do for you, but rather, what can't it do.
+
+uplink-duffel-syndicate-name = Syndicate Duffel Bag
+uplink-duffel-syndicate-desc = A large duffel bag for holding various traitor goods.
+
+uplink-trunk-syndicate-name = Syndicate Trunk
+uplink-trunk-syndicate-desc = Huge, metal, reflective, and stylish. All the other syndicates will want to get their hands on this trunk.
+
+uplink-syndiedrobe-name = SyndieDrobe flatpack
+uplink-syndiedrobe-desc = Looks like Syndieland's back in business.
+
+uplink-noslip-clown-shoes-name = No-Slip Clown Shoes
+uplink-noslip-clown-shoes-desc = For the clowns who want that extra edge against security.
+
+uplink-banana-esword-name = Banana Energy Sword
+uplink-banana-esword-desc = A bananium-modified energy sword that slips whoever it slices. Does minimal damage.
+
+uplink-mimana-stealthy-name = Stealthy Mimana
+uplink-mimana-stealthy-desc = A mutated mimana that seems to fade into the background. Don't lose it!
+
+uplink-hushpup-ammo-name = Buckshot box (12 gauge)
+uplink-hushpup-ammo-desc = A box of 16 buckshot shotgun shells. Compatible with the Hushpup.
+
+uplink-reinforcement-radio-assault-cyborg-bundle-name = Syndicate Assault Cyborg Teleporter bundle
+uplink-reinforcement-radio-assault-cyborg-bundle-desc = Radio in a syndicate assault cyborg, equipped with a modified L6, a double esword, and basic hacking tools. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+
+uplink-reinforcement-radio-medical-cyborg-bundle-name = Syndicate Medical Cyborg Teleporter bundle
+uplink-reinforcement-radio-medical-cyborg-bundle-desc = A medical borg, with syndicate variants of items where applicable. Comes with basic weapons. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+
+uplink-reinforcement-radio-saboteur-cyborg-bundle-name = Syndicate Saboteur Cyborg Teleporter bundle
+uplink-reinforcement-radio-saboteur-cyborg-bundle-desc = A saboteur cyborg, complete with syndicate advanced tools, standard hacking equipment, and basic weapons. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+
+uplink-reinforcement-radio-stealth-cyborg-bundle-name = Syndicate Stealth Cyborg Teleporter bundle
+uplink-reinforcement-radio-stealth-cyborg-bundle-desc = A stealth cyborg. Whilst it is incapable of fighting, it has the ability to disguise, go invisible and move through vents. Comes with standard hacking tools. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're on the Cyborg's good side.
+
+uplink-syndicate-borgi-bundle-name = Syndicate Borgi bundle
+uplink-syndicate-borgi-bundle-desc = A basic syndicate borgi. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're the Borgi's best friends.
+
+uplink-syndicate-borgi-kitted-bundle-name = Kitted Syndicate Borgi bundle
+uplink-syndicate-borgi-kitted-bundle-desc = A syndicate borgi, outfitted with an L6 module, operative module and E-sword module. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're the Borgi's best friends.
+
+uplink-syndicate-borgi-speed-bundle-name = Speed Syndicate Borgi bundle
+uplink-syndicate-borgi-speed-bundle-desc = A syndicate borgi, with dagger modules and additional speed. Comes with a few Syndicate IDs for you and your buddies, just to make sure you're the Borgi's best friends.
+
+uplink-chameleon-bundle-name = Chameleon Kit Crate
+uplink-chameleon-bundle-desc = A crate containing a backpack full of items that contain chameleon technology allowing you to disguise as pretty much anything on the station, and more!
+
+uplink-reinforcement-radio-mothroach-name = Mothroach Reinforcement Teleporter
+uplink-reinforcement-radio-mothroach-desc =  Call in a trained mobroach to assist you. Comes with a single syndicate cigarette, a fedora, and a pair of cheap shades. Specializes in cleaning evidence and chittering.
+
+uplink-estoc-name = Estoc DMR
+uplink-estoc-desc = A designated marksman rifle, fitted with a mid-range optic for longer-range combat.
+
+uplink-plushie-linari-name = linari miun plushie
+uplink-plushie-linari-desc = An expertly crafted plush lizard in tactical officer gear, absent from the standard NanoTrasen catalogues. The stitching on the back says "Property of the Syndicate." Holding it makes you feel like you're breaking at least three corporate regulations.

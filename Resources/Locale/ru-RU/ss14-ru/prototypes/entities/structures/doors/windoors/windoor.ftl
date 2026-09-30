@@ -180,6 +180,3 @@ ent-UraniumWindoorNukeopLocked = { ent-WindoorUranium }
 ent-UraniumWindoorSecureNukeopLocked = { ent-WindoorSecureUranium }
     .desc = { ent-WindoorSecureUranium.desc }
     .suffix = Ядерные оперативники, Закрыт, Уран
-ent-WindoorSecureSecurityLawyerLocked = { ent-WindoorSecureSecurityLocked }
-    .desc = { ent-WindoorSecureSecurityLocked.desc }
-    .suffix = Служба Безопасности/Юридический, Закрыт

@@ -1,0 +1,16 @@
+ent-ClothingEyesSunGlassesETO = ETO operative glasses
+    .desc = Sunglasses modified with the ability to see who's who.
+ent-ClothingHeadsetETO = ETO operative headset
+    .desc = A headset supplied to ETO Operatives to maintain communication through battle.
+ent-ClothingHeadsetETOSpecialist = ETO specialist headset
+    .desc = A headset supplied to ETO Specialists to do what they do best.
+ent-ClothingMaskGasETOLead = ETO leader gas mask
+    .desc = A mask best fit for a leading terrorist. Protects the wearer from pot shots, but won't keep you alive alone. Modified with an Administration and Health HUD to show you health and the allegiance of those around you.
+ent-ClothingMaskGasETO = ETO operative mask
+    .desc = Standard ETO operative mask, has some ballistic reinforcement to keep your face from being swiss cheesed all the time, but won't keep you alive on its own.
+ent-ClothingMaskGasETOCorpsman = ETO corpsman gas mask
+    .desc = A mask fit for the corpsman, modified with a MedHud to show a holographic heads up of the health of your fellow team members.
+ent-ETOBomb = PS-3ETO
+    .desc = A modified bomb that packs a larger punch, capable of blowing apart your objective! Modified with magnetic straps to allow for one to attach it to their back.
+ent-ETOBetterBomb = PS-21ETO "Planet Buster"
+    .desc = A bomb of mass destruction, capable of ripping apart even the most fortified structures."Death to my enemy, freedom to their slaves."

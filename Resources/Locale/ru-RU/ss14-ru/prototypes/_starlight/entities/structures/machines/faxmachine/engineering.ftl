@@ -1,0 +1,14 @@
+ent-FaxMachineEngineeringBase = { ent-FaxMachineBase }
+    .desc = { ent-FaxMachineBase.desc }
+ent-FaxMachineEngineering = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ENG: Engineering
+ent-FaxMachineEngineeringCE = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ENG: CE
+ent-FaxMachineEngineeringAtmos = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ENG: Atmos
+ent-FaxMachineEngineeringNuclearReactor = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ENG: Nuclear Reactor

@@ -1,0 +1,16 @@
+ent-ClosetSkeleton = { "" }
+    .desc = { "" }
+ent-DragonSpawn = { "" }
+    .desc = { "" }
+ent-NinjaSpawn = { "" }
+    .desc = { "" }
+ent-ParadoxCloneSpawn = { "" }
+    .desc = { "" }
+ent-RevenantSpawn = { "" }
+    .desc = { "" }
+ent-WizardSpawn = { "" }
+    .desc = { "" }
+ent-LoneOpsSpawn = { "" }
+    .desc = { "" }
+ent-BaseDerelictCyborgSpawn = { "" }
+    .desc = { "" }

@@ -1,0 +1,9 @@
+ent-CrateITGMedicalSurplus = ITG Medical Surplus Crate
+    .desc = A box containing medical supplies from the back of an ITG warehouse
+    .suffix = { ent-CratePrivateSecure.suffix }
+ent-CrateITGShotgunSurplus = ITG Shotgun Surplus Crate
+    .desc = A box containing weapons from the back of an ITG warehouse
+    .suffix = { ent-CratePrivateSecure.suffix }
+ent-CrateITGSurplus = ITG Surplus Trading Crate
+    .desc = A box containing good from the back of an ITG warehouse, meant to be pawned off to station side shmucks
+    .suffix = { ent-CratePrivateSecure.suffix }

@@ -1,0 +1,17 @@
+ent-FoodOrganTree = organ pod
+    .desc = Strangest salad you've ever seen.
+ent-TrashMimanaPeelStealthy = mimana peel
+    .desc = { ent-TrashMimanaPeel.desc }
+    .suffix = Stealthy
+ent-FoodEvilApple = devilish apple
+    .desc = A fruit born of pure evil, eating it just might bring the doctors to you.
+ent-FoodResinfera = resinfera
+    .desc = A plant used to nurse minor bruises, careful of the spines.
+ent-FoodMintLeaf = mint leaf
+    .desc = A mint leaf to be made into mint extract, great for tea.
+ent-SpearMint = spearmint
+    .desc = A spear cut from a mutated mint plant.
+ent-FoodCinnamonStick = cinnamon stick
+    .desc = Dried bark rolled into a cinnamon stick, ready to bring the spice.
+ent-CinnaflareStick = cinnaflare stick
+    .desc = Dried bark rolled into a stick, ready to ignite and light the way.

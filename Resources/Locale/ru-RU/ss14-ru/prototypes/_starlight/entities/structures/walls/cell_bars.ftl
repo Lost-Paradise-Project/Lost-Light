@@ -1,0 +1,15 @@
+ent-BaseCellBars = cell bars
+    .desc = A sturdy set of metal bars.
+ent-CellBarsBroken = broken cell bars
+    .desc = Someone got real mad at an inanimate object.
+ent-CellBarsStraight = { ent-BaseCellBars }
+    .desc = { ent-BaseCellBars.desc }
+    .suffix = Straight
+ent-CellBarsCorner = { ent-BaseCellBars }
+    .desc = { ent-BaseCellBars.desc }
+    .suffix = Corner
+ent-CellBarsEnd = { ent-BaseCellBars }
+    .desc = { ent-BaseCellBars.desc }
+    .suffix = End
+ent-CellBarsGate = cell bars gate
+    .desc = You could use the door, if only.

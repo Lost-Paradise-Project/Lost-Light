@@ -19,5 +19,3 @@ ent-DrinkLithiumFlask = литиевая фляга
     .desc = Фляга с нарисованным на ней символом атома лития.
 ent-DrinkVacuumFlask = термос
     .desc = Поддерживает ваши напитки в идеальной температуре с 1892 года.
-ent-DrinkFlaskVisualsOpenable = { "" }
-    .desc = { "" }

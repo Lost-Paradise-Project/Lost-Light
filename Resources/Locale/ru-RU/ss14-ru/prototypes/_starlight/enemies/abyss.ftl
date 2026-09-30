@@ -1,0 +1,10 @@
+ent-MobElder = elder
+    .desc = { ent-SimpleSpaceMobBase.desc }
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobWorm = worm
+    .desc = { ent-SimpleSpaceMobBase.desc }
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-ActionMobBlink = Blink
+    .desc = Teleport to the clicked location.
+ent-WeaponElderSlash = { ent-WeaponArcSlash }
+    .desc = { ent-WeaponArcSlash.desc }

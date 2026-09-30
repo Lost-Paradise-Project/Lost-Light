@@ -1,0 +1,10 @@
+ent-BaseSiliconLanguages = { "" }
+    .desc = { "" }
+ent-BaseBorgiLanguages = { "" }
+    .desc = { "" }
+ent-BaseSiliconBrainLanguages = { "" }
+    .desc = { "" }
+ent-BaseXenoSiliconLanguages = { "" }
+    .desc = { "" }
+ent-BaseXenoBorgiLanguages = { "" }
+    .desc = { "" }

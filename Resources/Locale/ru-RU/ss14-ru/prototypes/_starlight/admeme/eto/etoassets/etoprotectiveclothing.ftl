@@ -1,0 +1,14 @@
+ent-ClothingOuterVestWebETOBase = ETO web vest
+    .desc = A protective vest built for ETO members, allowing you to stay light on your feet.
+ent-ClothingOuterVestWebETOCorpsman = ETO medical vest
+    .desc = A protective vest built for ETO corpsmen, allowing you to stay light on your feet and get to those in need.
+ent-ClothingOuterVestWebETOLead = ETO leader web vest
+    .desc = A highly protective web vest designed for the team leader.
+ent-ClothingOuterVestWebETOCombatTech = ETO combat technician vest
+    .desc = A sturdy vest ripped off of an advanced engineers hardsuit. Protects the body but weighs down the user.
+ent-ClothingHeadHelmetETO = ETO operative helmet
+    .desc = A helmet designed for ETO operatives, provides basic protection.
+ent-ClothingHeadETOEvaHelmet = ETO space hazard helmet
+    .desc = A space certified helmet with added ballistic protection.
+ent-ClothingOuterSoftsuitETO = ETO space hazard suit
+    .desc = A lightweight EVA suit padded with ballistic protection.

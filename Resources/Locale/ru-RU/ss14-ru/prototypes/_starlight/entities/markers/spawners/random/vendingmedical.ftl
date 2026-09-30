@@ -1,0 +1,12 @@
+ent-RandomVendingMedical = random medical vending machine spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Departmental
+ent-RandomVendingMedicalCivilian = random medical vending machine spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Civilian
+ent-RandomVendingMedicalWall = random medical vending machine spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Departmental, Wallmount
+ent-RandomVendingMedicalCivilianWall = random medical vending machine spawner
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Civilian, Wallmount

@@ -12,8 +12,6 @@ namespace Content.Shared.Humanoid
         TailOverlay, // markings that go ontop of tails
         Hair,
         FacialHair,
-        UndergarmentTop,
-        UndergarmentBottom,
         Chest,
         Head,
         Snout,

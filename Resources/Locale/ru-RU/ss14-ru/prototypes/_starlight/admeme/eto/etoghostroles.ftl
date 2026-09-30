@@ -1,0 +1,15 @@
+ent-RandomHumanoidSpawnerETOOperativeRifle = ETO Rifle Operative
+    .desc = { "" }
+    .suffix = Admeme
+ent-RandomHumanoidSpawnerETOOperativeSMG = ETO SMG Operative
+    .desc = { "" }
+    .suffix = Admeme
+ent-RandomHumanoidSpawnerETOOCorpsman = ETO Corpsman Operative
+    .desc = { "" }
+    .suffix = Admeme
+ent-RandomHumanoidSpawnerETOLead = ETO Team Lead
+    .desc = { "" }
+    .suffix = Admeme
+ent-RandomHumanoidSpawnerETOOCombatTech = ETO Combat Technician
+    .desc = { "" }
+    .suffix = Admeme

@@ -6,5 +6,3 @@ ent-FoodInjectableBase = { ent-FoodBaseTrash }
     .desc = { ent-FoodBaseTrash.desc }
 ent-FoodOpenableBase = { "" }
     .desc = { "" }
-ent-EdibleBase = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }

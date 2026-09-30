@@ -1,0 +1,12 @@
+ent-MedTakImplanter = { ent-BaseImplantOnlyImplanter }
+    .desc = A compact disposable implanter meant to quickly and (mostly) painlessly place an implant below the skin.
+ent-MedTakImplanterMindShield = MedTak mindshield implanter
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingBronze = MedTak bronze tracker
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingSilver = MedTak silver tracker
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingGold = MedTak gold tracker
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingTeam = MedTak tracker
+    .desc = { ent-MedTakImplanter.desc }

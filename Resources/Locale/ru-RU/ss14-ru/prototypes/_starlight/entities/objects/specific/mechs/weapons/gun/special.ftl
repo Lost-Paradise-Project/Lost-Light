@@ -1,0 +1,11 @@
+ent-WeaponMechSpecialMousetrapMortar = mousetrap mortar
+    .desc = Mounted mousetrap launcher.
+    .suffix = Mech Weapon, Gun, Special, Mortar
+ent-WeaponMechSpecialBananaMortar = banana mortar
+    .desc = Mounted banana peel launcher.
+    .suffix = Mech Weapon, Gun, Special, Mortar
+ent-WeaponMechSpecialPieCannon = HX-3 Mechanized Pie Cannon
+    .desc = An instrument of clowning for the 26th century. Honk 'em all...
+    .suffix = Mech Weapon, Gun, Special, Mortar
+ent-WeaponMechSpecialAirHorn = hOnKeR 5000
+    .desc = Holy shit, that's loud! HONK!

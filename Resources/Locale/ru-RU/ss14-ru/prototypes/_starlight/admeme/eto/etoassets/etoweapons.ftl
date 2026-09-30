@@ -1,0 +1,15 @@
+ent-WeaponRifleZ46 = PS Z46
+    .desc = A rifle designed by Private Servitude to make heavier rifles more commonly available. Chambers in .30 rifle rounds.
+    .suffix = ETO
+ent-WeaponRifleZ77T1 = PS Z77 T1
+    .desc = A rifle designed by Private Servitude, cheaper than the commonly used Lecter. Takes .20 rifle rounds.
+    .suffix = ETO
+ent-WeaponSubMachineGunDD22 = PS DD-22 Dryson
+    .desc = An SMG designed by Private Servitude, partially inspired by the AKMS. Chambers in .35 Rounds and feeds from a unique bottom mounted magazine.
+    .suffix = ETO
+ent-WeaponShotgunTaiga = PS Taiga-10
+    .desc = A shotgun designed by Private Servitude, feeds from 12 Gauge drum magazines. Can switch between semi-auto and full auto.
+    .suffix = ETO
+ent-WeaponPistol75auto = PS-75 Auto
+    .desc = A fully automatic handgun with an ergonomic design, feeds from .35 pistol magazines.
+    .suffix = ETO

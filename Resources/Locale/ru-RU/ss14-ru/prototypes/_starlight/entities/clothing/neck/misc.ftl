@@ -1,0 +1,16 @@
+ent-ClothingNeckEyeAmulet = eye amulet
+    .desc = It watches.
+ent-ClothingNeckMoonAmulet = moon amulet
+    .desc = Shines in the moonlight.
+ent-ClothingNeckStarAmulet = star amulet
+    .desc = Twinkles like a star.
+ent-ClothingNeckSunAmulet = sun amulet
+    .desc = Glows like the sun.
+ent-ClothingNeckExplosiveCollar = explosive collar
+    .desc = The legally distinct reverse beartrap from a certin movie franchise
+ent-ClothingNeckTSFBadge = TSF badge
+    .desc = An official badge from the Trans Solar Federation. This polished piece of law enforcement equipment bears the distinctive TSF eagle emblem, a symbol of authority recognized across known space.
+ent-ClothingNeckBunnyGang = Bunny Gang Scarf
+    .desc = The scarf of a secretive group of bunny mercenaries.
+ent-ClothingNeckFoxfire = Foxfire Charm
+    .desc = Flittering ghostly flames have started following you upon donning this around your neck.

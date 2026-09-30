@@ -1,0 +1,12 @@
+ent-MobXenoAdmeme = burrower
+    .desc = They mostly come at night. Mostly.
+    .suffix = Admeme
+ent-MobXenoRunnerAdmeme = praetorian
+    .desc = { ent-MobXenoAdmeme.desc }
+    .suffix = Admeme
+ent-MobXenoRounyAdmeme = rouny
+    .desc = { ent-MobXenoRunner.desc }
+    .suffix = Admeme
+ent-MobXenoSpitterAdmeme = spitter
+    .desc = { ent-MobXenoAdmeme.desc }
+    .suffix = Admeme

@@ -141,6 +141,3 @@ ent-SpawnPointReporter = репортёр
 ent-SpawnPointPsychologist = психолог
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
-ent-SpawnPointPassenger = пассажир
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }

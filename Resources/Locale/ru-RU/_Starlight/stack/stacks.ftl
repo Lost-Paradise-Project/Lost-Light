@@ -1,0 +1,143 @@
+stack-carpet-deco-tile = deco carpet tile
+stack-carpet-art-tile = artsy carpet tile
+stack-dark-bitile-tile = dark bi tile
+stack-steel-bitile-tile = steel bi tile
+stack-white-bitile-tile = white bi tile
+stack-hierophant-tile = hierophant carpet tile
+stack-sepia-tile = sepia tile
+stack-terracotta-tile = terracotta tile
+stack-terracotta-diagonal-tile = diagonal terracotta tile
+stack-terracotta-small-tile = small terracotta tile
+stack-labeller-refill-paper = labeller refill paper
+stack-dark-wood-floor = dark wood floor
+stack-dark-wood-pattern-floor = dark wood pattern floor
+stack-dark-large-wood-floor = large dark wood floor
+black-wood-floor = деревянный чёрный пол
+dark-wood-floor = деревянный тёмный пол
+light-wood-floor = деревянный светлый пол
+red-wood-floor = деревянный красный пол
+large-black-wood-floor = большой деревянный чёрный пол
+large-dark-wood-floor = большой деревянный тёмный пол
+large-light-wood-floor = большой деревянный светлый пол
+large-red-wood-floor = большой деревянный красный пол
+parquet-black-wood-floor = чёрный деревянный паркет
+parquet-dark-wood-floor = тёмный деревянный паркет
+parquet-light-wood-floor = светлый деревянный паркет
+parquet-red-wood-floor = красный деревянный паркет
+chess-wood-floor = деревянный шахматный пол
+chess-black-wood-floor = чёрный деревянный шахматный пол
+chess-dark-wood-floor = тёмный деревянный шахматный пол
+chess-light-wood-floor = светлый деревянный шахматный пол
+chess-red-wood-floor = красный деревянный шахматный пол
+stack-metal-dark-floor = dark metal floor
+stack-metal-brown-floor = brown metal floor
+stack-metal-blue-floor = blue metal floor
+stack-metal-purple-floor = purple metal floor
+stack-metal-red-floor = red metal floor
+stack-metal-green-floor = green metal floor
+stack-astro-dirt-floor = astro-dirt floor
+stack-3x3black-floor = 3x3 black floor
+stack-3x3brown-floor = 3x3 brown floor
+stack-3x3steel-floor = 3x3 steel floor
+stack-3x3white-floor = 3x3 white floor
+stack-old-concrete-bricks-floor = old concrete brick floor
+stack-old-concrete-tile-floor = old concrete tile floor
+stack-ornate-floor = ornate floor
+stack-rough-metal-floor = rough metal floor
+stack-rusty-metal-floor = rusty metal floor
+stack-steel-grate-floor = steel grate floor
+stack-tech-greeb-floor = tech maints greeb floor
+
+stack-bluespacecrystal = {$amount ->
+    [1] bluespace
+    *[other] bluespaces
+}
+
+stack-adamantine = {$amount ->
+    [1] adamantine bar
+    *[other] adamantine bars
+}
+
+stack-bluespace-tile = bluespace tile
+stack-sepia-xenobiology-tile = sepia tile
+
+stack-brutepack = набор от ушибов
+stack-blueointment = {$amount ->
+    [1] blueointment
+    *[other] blueointments
+}
+stack-redointment = {$amount ->
+    [1] redointment
+    *[other] redointments
+}
+stack-redbrutepack = {$amount ->
+    [1] redbrutepack
+    *[other] redbrutepacks
+}
+stack-interdyneointment = {$amount ->
+    [1] interdyneointment
+    *[other] interdyneointments
+}
+stack-interdynebrutepack = {$amount ->
+    [1] interdynebrutepack
+    *[other] interdynebrutepacks
+}
+stack-deforestointment = {$amount ->
+    [1] deforestointment
+    *[other] deforestointments
+}
+stack-deforestbrutepack = {$amount ->
+    [1] deforestbrutepack
+    *[other] deforestbrutepacks
+}
+stack-goldointment = {$amount ->
+    [1] goldointment
+    *[other] goldointments
+}
+stack-goldbrutepack = {$amount ->
+    [1] goldbrutepack
+    *[other] goldbrutepacks
+}
+stack-redpunctpack = {$amount ->
+    [1] redpunctpack
+    *[other] redpunctpacks
+}
+stack-redlacepack = {$amount ->
+    [1] redlacepack
+    *[other] redlacepacks
+}
+stack-redbruizpack = {$amount ->
+    [1] redbruizpack
+    *[other] redbruizpacks
+}
+
+stack-empty-oilpack = {$amount ->
+    [1] emptyoilpack
+    *[other] emptyoilpacks
+}
+
+stack-credit = кредиты
+stack-ticket = {$amount ->
+    [1] ticket
+    *[other] tickets
+}
+
+
+stack-wizcoin = {$amount ->
+    [1] wizcoin
+    *[other] wizcoins
+}
+
+stack-casino-chip = {$amount ->
+    [1] casino chip
+    *[other] casino chips
+}
+
+stack-abyssium-ore = {$amount ->
+    [1] abyssium ore
+    *[other] abyssium ores
+}
+stack-abyssium-bar = {$amount ->
+    [1] abyssium bar
+    *[other] abyssium bars
+}

@@ -1,0 +1,12 @@
+ent-GoldBrutePack = gold bruise pack
+    .desc = Limited-edition golden bruise packs.
+    .suffix = Full
+ent-GoldBrutePack1 = gold bruise pack
+    .desc = Limited-edition golden bruise packs. They're exceedingly rare. Treasure them.
+    .suffix = Single
+ent-GoldOintment = gold ointment
+    .desc = Limited-edition golden ointment. Heals mild caustic burns, too!
+    .suffix = Full
+ent-GoldOintment1 = gold ointment
+    .desc = Limited-edition golden ointments. Heals mild caustic burns, too! They're exceedingly rare. Treasure them.
+    .suffix = Single

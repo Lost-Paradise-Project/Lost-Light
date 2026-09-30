@@ -48,7 +48,6 @@ ui-options-quality-label = Качество
 ui-options-misc-label = Разное
 ui-options-interface-label = Интерфейс
 
-
 ui-options-auto-fill-highlights = Автозаполнение подсветки информацией персонажа
 ui-options-highlights-color = Цвет подсветки:
 ui-options-highlights-color-example = Это подсвеченный текст.
@@ -372,8 +371,6 @@ ui-options-chat-window-opacity = Непрозрачность окна чата
 ui-options-speech-bubble-text-opacity = Непрозрачность текста речевого пузыря
 ui-options-speech-bubble-speaker-opacity = Непрозрачность диктора речевого пузыря
 ui-options-speech-bubble-background-opacity = Непрозрачность фона речевого пузыря
-
-ui-options-censor-nudity = Цензура обнажённых персонажей
 
 ## Admin menu
 

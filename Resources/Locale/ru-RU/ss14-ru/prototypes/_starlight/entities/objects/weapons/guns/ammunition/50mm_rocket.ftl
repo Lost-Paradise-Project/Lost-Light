@@ -1,0 +1,9 @@
+ent-Bullet50mmRocketStarlight = { ent-BulletWeakRocket }
+    .desc = { ent-BulletWeakRocket.desc }
+ent-Cartridge50mmRocket = 50mm rocket
+    .desc = A 50mm rocket cartridge designed for the ADMP-27 VESPERA shuttle cannon system. Smaller and lighter than standard RPG rounds but still packs a punch.
+ent-Magazine50mmRocket = 50mm rocket magazine
+    .desc = A high-capacity 26-round magazine loaded with 60mm rockets for the ADMP-27 VESPERA shuttle cannon system.
+ent-Magazine50mmRocketEmpty = 50mm rocket magazine (empty)
+    .desc = { ent-Magazine60mmRocket.desc }
+    .suffix = empty

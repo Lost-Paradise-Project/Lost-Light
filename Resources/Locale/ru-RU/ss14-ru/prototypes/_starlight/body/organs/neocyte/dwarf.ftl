@@ -1,0 +1,9 @@
+ent-OrganNeoDwarfHeart = dwarf cybernetic heart
+    .desc = Doesn't actually need to beat, simply mimics the movement to provide comfort for the user.
+    .suffix = Neo-Dwarf
+ent-OrganNeoDwarfLiver = dwarf cybernetic liver
+    .desc = Pairing suggestion, a side of fermented RAM sticks and a nice CPU.
+    .suffix = Neo-Dwarf
+ent-OrganNeoDwarfStomach = dwarf biological reactor
+    .desc = Some call it over-engineered, but it's vital to the function of a neocyte. Turns organic matter into organic and electrical energy to power the neocyte's cybernetics and flesh.
+    .suffix = Neo-Dwarf

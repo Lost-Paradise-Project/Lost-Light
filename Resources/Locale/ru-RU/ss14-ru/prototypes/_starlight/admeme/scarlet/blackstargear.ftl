@@ -1,0 +1,16 @@
+ent-ClothingEyesGlassesBlackstar = Blackstar tactical visor
+    .desc = A flash-resistant tactical visor issued to Blackstar Dreadwalker operatives. Provides complete flash immunity and a security HUD.
+ent-ClothingOuterHardsuitBlackstar = Blackstar 'Warlord' combat suit
+    .desc = A heavily armored combat suit issued to elite Dreadwalker operatives of the Blackstar mercenary group. Built to survive anything the frontier can throw at it.
+ent-ClothingHeadHelmetBlackstar = Blackstar mercenary helmet
+    .desc = A reinforced combat helmet issued to Dreadwalker operatives of the Blackstar mercenary group. Offers superior protection over standard mercenary gear.
+ent-ClothingHeadHatBlackstarLegionCommander = Legion Commander's cap
+    .desc = The cap of a Legion Commander. Only one exists at a time.
+ent-ClothingUniformJumpsuitBlackstarLegionCommander = Legion Commander's uniform
+    .desc = The uniform of a Legion Commander of the Blackstar Legion.
+ent-ClothingHeadHatBeretBlackstarHighLegate = High Legate beret
+    .desc = A beret worn by High Legate officers of the Blackstar Legion.
+ent-ClothingHeadHatBeretBlackstarLegate = Legate beret
+    .desc = A beret worn by Legate officers of the Blackstar Legion.
+ent-ClothingHeadHelmetBlackstarLegate = Legate helmet
+    .desc = A helmet issued to Legate officers of the Blackstar Legion.

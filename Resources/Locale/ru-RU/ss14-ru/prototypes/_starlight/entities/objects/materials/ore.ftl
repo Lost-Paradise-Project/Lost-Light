@@ -1,0 +1,15 @@
+ent-AbyssiumOre = abyssium ore
+    .desc = { ent-OreBase.desc }
+    .suffix = Full
+ent-AbyssiumOre1 = { ent-AbyssiumOre }
+    .desc = { ent-AbyssiumOre.desc }
+    .suffix = Single
+ent-RawBluespaceCrystal = raw bluespace crystal
+    .desc = A glowing bluespace crystal, not much is known about how they work. It looks very delicate.
+    .suffix = Full
+ent-RawBluespaceCrystal1 = { ent-RawBluespaceCrystal }
+    .desc = { ent-RawBluespaceCrystal.desc }
+    .suffix = Single
+ent-RawBluespaceCrystal10 = { ent-RawBluespaceCrystal }
+    .desc = { ent-RawBluespaceCrystal.desc }
+    .suffix = 10

@@ -1,0 +1,12 @@
+ent-OrganRodentiaEyes = rodentia eyes
+    .desc = The beady eyes of a Rodentia.
+    .suffix = Rodentia
+ent-OrganRodentiaStomach = rodentia stomach
+    .desc = The resistant stomach of a Rodentia.
+    .suffix = Rodentia
+ent-OrganRodentiaHeart = rodentia heart
+    .desc = The animal-like heart of a Rodentia.
+    .suffix = Rodentia
+ent-OrganRodentiaTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Rodentia

@@ -1,0 +1,12 @@
+ent-BaseVinylDisc = vinyl disc
+    .desc = A flat round disc with music encoded onto it's surface. Very fragile!
+ent-BaseVinylSlippery = { ent-BaseVinylDisc }
+    .desc = { ent-BaseVinylDisc.desc }
+ent-VinylBroken = broken vinyl disc
+    .desc = A vinyl disk that has been broken into pieces. It is completely unplayable.
+ent-BaseCDDisc = cd disk
+    .desc = A compact disc with sound encoded onto it's surface. Requires care when handling.
+ent-BaseVinylSleeve = vinyl disc sleeve
+    .desc = A sleeve designed to hold and store vinyl disks.
+ent-BaseVinylSleeveFilled = vinyl disc sleeve
+    .desc = A sleeve designed to hold and store vinyl disks.

@@ -1,0 +1,10 @@
+ent-PaperMedTak = MedTak paper
+    .desc = A piece of paper headed by the MedTak logo. It looks expensive. For you.
+ent-PrintedDocumentMedTakContract = MedTak Coverage Contract
+    .desc = { ent-PaperMedTak.desc }
+ent-PrintedDocumentMedTakCorrespondence = MedTak Correspondence
+    .desc = { ent-PaperMedTak.desc }
+ent-PrintedDocumentMedTakInvoice = MedTak Invoice
+    .desc = { ent-PaperMedTak.desc }
+ent-PrintedDocumentMedTakReport = MedTak After Action Report
+    .desc = { ent-PaperMedTak.desc }

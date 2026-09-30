@@ -62,5 +62,3 @@ ent-DerelictMiningCyborgSpawn = { ent-BaseDerelictCyborgSpawn }
     .desc = { ent-BaseDerelictCyborgSpawn.desc }
 ent-DerelictSyndicateAssaultCyborgSpawn = { ent-BaseDerelictCyborgSpawn }
     .desc = { ent-BaseDerelictCyborgSpawn.desc }
-ent-GreytideVirus = { ent-BaseStationEventShortDelay }
-    .desc = { ent-BaseStationEventShortDelay.desc }

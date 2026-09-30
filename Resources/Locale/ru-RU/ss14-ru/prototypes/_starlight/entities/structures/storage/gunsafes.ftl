@@ -1,0 +1,17 @@
+ent-GunSafeSL = { ent-GunSafe }
+    .desc = { ent-GunSafe.desc }
+ent-GunSafeBaseArmorySL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Armory, Locked
+ent-GunSafeBaseSecuritySL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Security, Locked
+ent-GunSafeBaseCommandSL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Command, Locked
+ent-GunSafeBaseLawyerSL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Lawyer, Locked
+ent-GunSafeBaseSyndicateSL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Syndicate, Locked

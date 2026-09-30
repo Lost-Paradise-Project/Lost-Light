@@ -1,0 +1,15 @@
+ent-HealiumTankEmpty = healium tank
+    .desc = Contains a mixture of air and healium. Keep the pressure at 65 and it should put even those nitrogen breathers to sleep. It can hold 5 L of gas.
+    .suffix = Empty
+ent-HealiumTankFilled = { ent-HealiumTankEmpty }
+    .desc = { ent-HealiumTankEmpty.desc }
+    .suffix = Filled
+ent-ZXATankEmpty = zxa tank
+    .desc = Contains a mixture of air and ZXA. Keep the pressure at 23.6 and it'll send anyone with lungs straight to dreamland. It can hold 5 L of gas.
+    .suffix = Empty
+ent-ZXATankFilled = { ent-ZXATankEmpty }
+    .desc = { ent-ZXATankEmpty.desc }
+    .suffix = Filled
+ent-MechAirTankFilled = { ent-MechAirTank }
+    .desc = { ent-MechAirTank.desc }
+    .suffix = Filled

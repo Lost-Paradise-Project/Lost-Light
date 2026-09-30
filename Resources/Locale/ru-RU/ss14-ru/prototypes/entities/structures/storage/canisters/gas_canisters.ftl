@@ -52,6 +52,3 @@ ent-NitrousOxideCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
 ent-FrezonCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
-ent-MaxCapCanister = полный баллон
-    .desc = { ent-GasCanister.desc }
-    .suffix = ДЕБАГ, максимум

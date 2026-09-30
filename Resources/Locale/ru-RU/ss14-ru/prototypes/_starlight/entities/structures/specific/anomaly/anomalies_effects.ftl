@@ -1,0 +1,10 @@
+ent-OverlayFireEffect = { "" }
+    .desc = { "" }
+ent-OverlayEmbersEffect = { "" }
+    .desc = { "" }
+ent-OverlaySmokeEffect = { "" }
+    .desc = { "" }
+ent-OverlayBluespaceBurstEffect = { "" }
+    .desc = { "" }
+ent-OverlayBluespaceSparksEffect = { "" }
+    .desc = { "" }

@@ -1,0 +1,11 @@
+ent-BaseStarlightHealingItem = { ent-BaseHealingItem }
+    .desc = { ent-BaseHealingItem.desc }
+ent-MobTrueDoctorbot = real doctor
+    .desc = Definitely a real doctor.
+ent-SecurityMedkit = BrigKit
+    .desc = A heavy-duty first aid kit with slots and hooks for medical supplies, but nothing else.
+ent-OilPack5 = { ent-OilPack }
+    .desc = { ent-OilPack.desc }
+    .suffix = 5
+ent-MedkitRobotic = robotic treatment kit
+    .desc = Used to treat robotic patients, such as Cyborgs and IPCs.

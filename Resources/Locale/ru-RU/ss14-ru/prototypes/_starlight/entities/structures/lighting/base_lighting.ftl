@@ -1,0 +1,12 @@
+ent-PoweredlightBlackLight = { ent-Poweredlight }
+    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
+    .suffix = black light
+ent-AlwaysPoweredLightBlackLight = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
+    .suffix = Always Powered, black light
+ent-PoweredlightWarm = { ent-Poweredlight }
+    .desc = { ent-Poweredlight.desc }
+    .suffix = Warm
+ent-AlwaysPoweredLightWarm = { ent-AlwaysPoweredWallLight }
+    .desc = { ent-AlwaysPoweredWallLight.desc }
+    .suffix = Always Powered, Warm

@@ -48,7 +48,6 @@ ui-options-quality-label = Quality
 ui-options-misc-label = Misc
 ui-options-interface-label = Interface
 
-
 ui-options-auto-fill-highlights = Automatically set the highlights list based on your character's name and job
 ui-options-highlights-color = Highlights color:
 ui-options-highlights-color-example = This is highlighted text.
@@ -372,8 +371,6 @@ ui-options-chat-window-opacity = Chat window opacity
 ui-options-speech-bubble-text-opacity = Speech bubble text opacity
 ui-options-speech-bubble-speaker-opacity = Speech bubble speaker opacity
 ui-options-speech-bubble-background-opacity = Speech bubble background opacity
-
-ui-options-censor-nudity = Censor character nudity
 
 ## Admin menu
 

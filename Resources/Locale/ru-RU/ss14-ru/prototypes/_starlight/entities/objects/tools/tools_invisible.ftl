@@ -1,0 +1,17 @@
+ent-WirecuttersInvisible = invisible wirecutters
+    .desc = The perfect piece of invisible equipment to snip those nasty wires of that invisible door! Insulation not included.
+ent-ScrewdriverInvisible = invisible screwdriver
+    .desc = Go ahead. Open the invisible maintenance panel.
+ent-WrenchInvisible = invisible wrench
+    .desc = Impress everyone by anchoring that invisible machine!
+ent-CrowbarInvisible = invisible crowbar
+    .desc = Why cry those silent tears when you could pry instead!
+ent-MultitoolInvisible = invisible multitool
+    .desc = Pulse, pulse, pulse- wait, I thought it was supposed to be silent?
+ent-WelderInvisible = invisible welding tool
+    .desc = Despite being invisible, you still need eye protection. Somehow.
+ent-ToolboxInvisible = invisible toolbox
+    .desc = The perfect invisible carrier to hold your invisible equipment!
+ent-ToolboxInvisibleFilled = invisible toolbox
+    .desc = { ent-ToolboxInvisible.desc }
+    .suffix = Filled

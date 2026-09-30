@@ -1,0 +1,10 @@
+ent-BoxShotgunBirdshot = box of 12 gauge birdshot
+    .desc = A cardboard box of 12 gauge shotgun shells loaded with fine birdshot pellets. Wide spread, short range, favored by the GA-6 Fang.
+ent-ShellShotgunBirdshot = 12 gauge birdshot
+    .desc = A wide-spread shell loaded with dozens of tiny pellets. Devastating up close, nearly useless at range. Standard issue for the GA-6 Fang.
+ent-BaseShellShotgunToz = 20 gauge shell
+    .desc = { ent-BaseCartridge.desc }
+ent-ShellShotgunToz = 20 gauge shell
+    .desc = { ent-BaseShellShotgunToz.desc }
+ent-ShellShotgunBreaching = 12 gauge breaching shell
+    .desc = { ent-BaseShellShotgun.desc }

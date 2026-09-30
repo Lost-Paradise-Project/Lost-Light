@@ -1,0 +1,9 @@
+ent-CrateLawboards = AI lawboard crate
+    .desc = A crate filled with various AI lawboards.
+    .suffix = { ent-CrateRDSecure.suffix }
+ent-CrateStarterXenobiology = xenobiology starter crate
+    .desc = Contains a gray slime extract and a box of monkey cubes to get you started on your xenobiology adventures. Or because you really messed up. Oh, and a camera tagger. Don't let any spies get their hands on that thing.
+    .suffix = { ent-CrateScienceSecure.suffix }
+ent-CrateStationAiUpload = station AI upload console crate
+    .desc = Contains the components for constructing a station AI upload console. Still requires manual linking to the core. Requires Science access to open.
+    .suffix = { ent-CrateScienceSecure.suffix }

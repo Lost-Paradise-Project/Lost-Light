@@ -1,0 +1,15 @@
+ent-AnomalyCoreBanana = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
+    .suffix = Banana
+ent-AnomalyCoreBananaInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
+    .suffix = Banana, Inert
+ent-AnomalyCoreClown = { ent-BaseAnomalyCore }
+    .desc = The core of a destroyed clown anomaly. It emanates the purest essence of the Honkmother.
+    .suffix = Clown
+ent-AnomalyCoreClownInert = { ent-BaseAnomalyInertCore }
+    .desc = The inert core of a destroyed clown anomaly. It emanates the purest essence of the Honkmother.
+    .suffix = Clown, Inert
+ent-CraftingAnomalyCoreShadow = shadow anomaly core
+    .desc = { ent-AnomalyCoreShadow.desc }
+    .suffix = { ent-AnomalyCoreShadow.suffix }

@@ -1,0 +1,9 @@
+ent-WeaponEnergyTurretSilicon = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = Silicon
+ent-WeaponEnergyTurretSolgov = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = Solgov
+ent-WeaponEnergyTurretITG = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = ITG

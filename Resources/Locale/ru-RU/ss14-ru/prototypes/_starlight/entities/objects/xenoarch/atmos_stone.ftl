@@ -1,0 +1,12 @@
+ent-GassyStonePluoxium = { ent-GassyStoneBase }
+    .desc = { ent-GassyStoneBase.desc }
+    .suffix = Pluoxium
+ent-GassyStoneUlnitranium = { ent-GassyStoneBase }
+    .desc = { ent-GassyStoneBase.desc }
+    .suffix = Ulnitranium
+ent-GassyStoneZXA = { ent-GassyStoneBase }
+    .desc = { ent-GassyStoneBase.desc }
+    .suffix = ZXA
+ent-GassyStoneHalon = { ent-GassyStoneBase }
+    .desc = { ent-GassyStoneBase.desc }
+    .suffix = Halon

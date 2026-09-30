@@ -1,0 +1,10 @@
+ent-ClothingUniformJumpskirtCmoFormal = chief medical officer's formal skirtsuit
+    .desc = A lavish greenish blue skirtsuit with golden buttons and a green cross pin, fitted for the head of medical.
+ent-ClothingUniformJumpskirtCmoVest = chief medical officer's vest jumpskirt
+    .desc = A cozy teal cotton vest with a green cross pin paired with a white button-up.
+ent-ClothingUniformJumpskirtHopFormal = head of personnel's formal dress
+    .desc = A well-made dress with gold buttons and a red trim. Might as well look sharp when botany goes up in flames.
+ent-ClothingUniformJumpskirtQmFormal = quartermaster's formal dress
+    .desc = Inspired by the logistics officers of military's past, the perfect outfit for supplying a formal occasion.
+ent-ClothingUniformJumpskirtDutyOfficerOrange = duty officer's orange uniform
+    .desc = A bright security skirt to distinguish yourself from the warden, while giving them an excuse to beat you saying you looked like a prisoner.

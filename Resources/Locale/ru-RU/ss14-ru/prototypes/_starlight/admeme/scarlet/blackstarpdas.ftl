@@ -1,0 +1,14 @@
+ent-BlackstarLegionCommanderPDA = Legion Commander PDA
+    .desc = The weight of an entire legion behind every order.
+ent-BlackstarHighLegatePDA = High Legate PDA
+    .desc = Authority comes with a price.
+ent-BlackstarLegatePDA = Legate PDA
+    .desc = Keep your soldiers in line.
+ent-BlackstarDreadwalkerPDA = Dreadwalker PDA
+    .desc = Precision is the difference between a mission and a massacre.
+ent-BlackstarLegionnairePDA = Legionnaire PDA
+    .desc = Adapt. Overcome. Survive.
+ent-BlackstarBlackguardPDA = Blackguard PDA
+    .desc = The last line of defence before the last resort.
+ent-BlackstarInitiatePDA = Initiate PDA
+    .desc = You've earned your place. Now keep it.

@@ -20,5 +20,3 @@ ent-StatusEffectDesoxyStamina = х2 макс. выносливости
     .desc = { ent-StaminaModifierStatusEffect.desc }
 ent-StatusEffectStimulantsStamina = х1.5 макс. выносливости
     .desc = { ent-StaminaModifierStatusEffect.desc }
-ent-PainNumbnessStatusEffectBase = { ent-MobStatusEffectBase }
-    .desc = { ent-MobStatusEffectBase.desc }

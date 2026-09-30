@@ -62,5 +62,3 @@ ent-EscapeMasterThiefObjective = Become the greatest thief, and steal anything y
     .desc = Just make sure to get out alive and free.
 ent-FigurineStealCollectionObjective = { ent-BaseThiefStealCollectionObjective }
     .desc = { ent-BaseThiefStealCollectionObjective.desc }
-ent-FiringPinSmartLMGStealObjective = { ent-BaseThiefStealObjective }
-    .desc = { ent-BaseThiefStealObjective.desc }

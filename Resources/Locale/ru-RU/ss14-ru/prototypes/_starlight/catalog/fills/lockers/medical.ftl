@@ -1,0 +1,15 @@
+ent-CrateCentralCommandSecureChemicalFilled = central command medical crate
+    .desc = A secure crate from Central Command stocked to the brim with medical chemicals.
+    .suffix = Chemical, Filled
+ent-LockerSurgeonFilled = { ent-LockerSurgeon }
+    .desc = { ent-LockerSurgeon.desc }
+    .suffix = Filled
+ent-LockerCoronerFilled = { ent-LockerCoroner }
+    .desc = { ent-LockerCoroner.desc }
+    .suffix = Filled
+ent-LockerVirologistFilled = { ent-LockerVirologist }
+    .desc = { ent-LockerVirologist.desc }
+    .suffix = Filled
+ent-LockerGeneticistFilled = { ent-LockerGeneticist }
+    .desc = { ent-LockerGeneticist.desc }
+    .suffix = Filled

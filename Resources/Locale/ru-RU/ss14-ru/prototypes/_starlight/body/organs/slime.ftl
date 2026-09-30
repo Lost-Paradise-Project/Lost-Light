@@ -1,0 +1,15 @@
+ent-SentientSlimeCore = sentient slime core
+    .desc = The source of incredible, unending gooeyness.
+    .suffix = Slime
+ent-OrganSlimeLungs = slime gas sacs
+    .desc = Collects nitrogen, which slime cells use for maintenance.
+    .suffix = Slime
+ent-OrganSlimeHeart = slime circulator
+    .desc = A little circulator what makes the fluid move through the slime body.
+    .suffix = Slime
+ent-OrganSlimePeepoids = peepoids
+    .desc = Primitive and goopy, but more or less just as good as the human equivalent.
+    .suffix = Slime
+ent-OrganSlimeSlurpoid = slurpoid
+    .desc = It has all the consistency of gelatin.
+    .suffix = Slime

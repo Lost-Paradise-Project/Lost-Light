@@ -1,0 +1,11 @@
+ent-ToolboxElectricalTurretPirateFilled = electrical toolbox
+    .desc = { ent-ToolboxElectricalTurretPirate.desc }
+    .suffix = Pirate, Turret, Filled
+ent-ToolboxArtisticFilledCleaner = artistic toolbox
+    .desc = { ent-ToolboxArtistic.desc }
+    .suffix = Cleaner
+ent-ToolboxRoboticist = roboticist toolbox
+    .desc = What, it's just a roboticist toolbox? Were you expecting something else?
+ent-ToolboxRoboticistFilled = roboticist toolbox
+    .desc = { ent-ToolboxRoboticist.desc }
+    .suffix = Filled

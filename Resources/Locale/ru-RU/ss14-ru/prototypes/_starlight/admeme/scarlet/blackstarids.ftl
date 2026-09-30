@@ -1,0 +1,16 @@
+ent-BlackstarIDCard = Blackstar ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-BlackstarLegionCommanderIDCard = Legion Commander ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-BlackstarHighLegateIDCard = High Legate ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-BlackstarLegateIDCard = Legate ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-BlackstarDreadwalkerIDCard = Dreadwalker ID card
+    .desc = { ent-BlackstarIDCard.desc }
+ent-BlackstarLegionnaireIDCard = Legionnaire ID card
+    .desc = { ent-BlackstarIDCard.desc }
+ent-BlackstarBlackguardIDCard = Blackguard ID card
+    .desc = { ent-BlackstarIDCard.desc }
+ent-BlackstarInitiateIDCard = Initiate ID card
+    .desc = { ent-BlackstarIDCard.desc }

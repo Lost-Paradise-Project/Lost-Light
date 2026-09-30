@@ -1,0 +1,12 @@
+ent-MagazineLightRifleRubber = magazine (.30 rifle rubber)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleHP = magazine (.30 rifle HP)
+    .desc = Curved 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+ent-MagazineLightRifleFMJ = magazine (.30 rifle FMJ)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleAP = magazine (.30 rifle AP)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleMaxim = pan magazine (.30 rifle)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRiflePkBox = PK munitions box (.30 rifle)
+    .desc = { ent-BaseMagazineLightRifle.desc }

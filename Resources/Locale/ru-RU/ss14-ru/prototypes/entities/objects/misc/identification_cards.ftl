@@ -121,5 +121,3 @@ ent-WizardIDCard = ID-карта волшебника
 ent-UniversalIDCard = универсальная ID-карта
     .desc = ID-карта, которая позволит вам осуществить свои самые сокровенные желания.
     .suffix = АДМЕМЫ
-ent-PassengerIDCard = ID-карта пассажира
-    .desc = { ent-IDCardStandard.desc }

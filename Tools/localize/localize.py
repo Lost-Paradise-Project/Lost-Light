@@ -831,6 +831,7 @@ class LocalizationManager:
 
         yml_files = list(self.prototypes_src_dir.rglob("*.yml"))
         prototypes: Dict[str, PrototypeEntry] = {}
+        parse_failed = False
 
         with ProcessPoolExecutor() as executor:
             futures = {
@@ -842,10 +843,19 @@ class LocalizationManager:
                     for proto in future.result():
                         prototypes[proto.id] = proto
                 except Exception as e:
+                    parse_failed = True
                     logging.error(f"Ошибка парсинга YAML в {futures[future]}: {e}")
 
+        if parse_failed:
+            logging.warning(
+                "Не все YAML прочитаны - переводы удалённых прототипов сохранены, "
+                "чтобы не потерять переводы из нераспарсенных файлов."
+            )
+
         resolved_prototypes = self._resolve_inheritance(prototypes)
-        valid_ftls = self._generate_prototype_ftls(resolved_prototypes)
+        valid_ftls = self._generate_prototype_ftls(
+            resolved_prototypes, remove_orphans=not parse_failed
+        )
 
         self._cleanup_orphans(self.prototypes_ru_dir, valid_ftls)
 
@@ -910,8 +920,10 @@ class LocalizationManager:
                             )
                         )
                         idx += 1
-        except Exception:
-            pass
+        except Exception as e:
+            # Пробрасываем наверх: иначе сущности нераспарсенного файла
+            # считаются удалёнными и их переводы стираются.
+            raise RuntimeError(f"{filepath}: {e}") from None
         return entries
 
     def _resolve_inheritance(
@@ -975,7 +987,7 @@ class LocalizationManager:
         return resolved
 
     def _generate_prototype_ftls(
-        self, prototypes: Dict[str, PrototypeEntry]
+        self, prototypes: Dict[str, PrototypeEntry], remove_orphans: bool = True
     ) -> Set[Path]:
         external_keys: Set[str] = set()
 
@@ -1107,12 +1119,25 @@ class LocalizationManager:
                 file_entries[entry.key] = entry
             files_to_write[ftl_path] = file_entries
 
+        removed_orphans = 0
         for key, (entry, old_path) in global_entries.items():
             if key not in used_keys and key not in external_keys:
+                # ent-ключ без прототипа - прототип удалён, перевод больше не нужен.
+                # Ручные ключи (не ent-) в этих файлах сохраняются.
+                if remove_orphans and key.startswith("ent-"):
+                    logging.info(
+                        f"Удаление перевода удалённого прототипа: {key} "
+                        f"({old_path.relative_to(self.root_dir)})"
+                    )
+                    removed_orphans += 1
+                    continue
                 valid_ftls.add(old_path)
                 if old_path not in files_to_write:
                     files_to_write[old_path] = {}
                 files_to_write[old_path][key] = entry
+
+        if removed_orphans:
+            logging.info(f"Удалено переводов удалённых прототипов: {removed_orphans}")
 
         for ftl_path, entries_dict in files_to_write.items():
             if not entries_dict:

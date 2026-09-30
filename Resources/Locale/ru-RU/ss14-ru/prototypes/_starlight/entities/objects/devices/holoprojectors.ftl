@@ -1,0 +1,10 @@
+ent-HoloprojectorEngineering = engineering caution holo-projector
+    .desc = Creates a non-solid warning projection, meant for marking hazards.
+ent-HoloprojectorEngineeringEmpty = { ent-HoloprojectorEngineering }
+    .desc = { ent-HoloprojectorEngineering.desc }
+    .suffix = Empty
+ent-FalseShutterProjector = false shutter projector
+    .desc = Looks almost like the real thing. Useful for blocking the vision of the distracted or unobservant while you do what needs done.
+ent-FalseShutterProjectorEmpty = { ent-FalseShutterProjector }
+    .desc = { ent-FalseShutterProjector.desc }
+    .suffix = Empty

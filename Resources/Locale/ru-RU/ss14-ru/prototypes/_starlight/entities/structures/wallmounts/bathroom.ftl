@@ -1,0 +1,9 @@
+ent-HandDryer = hand dryer
+    .desc = A hand dryer, for when youre too good for paper towels.
+ent-ToiletPaper = toilet paper
+    .desc = One-ply, for maximum inefficiency. Company has to save pennies where they can, you guess.
+ent-ToiletPaperOffset = { ent-ToiletPaper }
+    .desc = { ent-ToiletPaper.desc }
+    .suffix = Offset
+ent-HandSanitiser = hand sanitiser dispenser
+    .desc = Don't get any in your eyes.

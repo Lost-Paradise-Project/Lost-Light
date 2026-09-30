@@ -1,0 +1,10 @@
+ent-Bullet60mmRocketEMP = EMP rocket
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-EmpRocketImpactEffect = { "" }
+    .desc = { "" }
+ent-CartridgeRocketEMP = EMP rocket grenade
+    .desc = A PG-7 EMP warhead designed for the RPG-7 launcher. Delivers a focused electromagnetic pulse on impact, disrupting electronics and power systems without causing structural damage. Does not explode.
+ent-GrenadeEMPTarnyx = EMP artillery grenade
+    .desc = A large EMP grenade cartridge designed for the SSG-TARNYX cannon. Releases a powerful electromagnetic pulse on impact, disrupting ship electronics across a wide area. Does not cause structural damage.
+ent-BulletGrenadeEMPTarnyx = EMP artillery shell
+    .desc = { ent-BaseBulletTrigger.desc }

@@ -1,0 +1,16 @@
+ent-TableAbductor = alien table
+    .desc = Literally the sturdiest thing you have ever seen.
+ent-TableCounterRetroSteel = retro steel counter
+    .desc = Looks like a good place to put a drink down.
+ent-TableCounterRetroWood = retro wood counter
+    .desc = Looks like a good place to put a drink down.
+ent-TableCounterRetroKitchen = retro kitchen counter
+    .desc = Looks like a good place to put a drink down.
+ent-TableCounterRetroSteelWood = retro steel and wood counter
+    .desc = Looks like a good place to put a drink down.
+ent-TableCounterRetroWhiteOrange = retro white and orange counter
+    .desc = Looks like a good place to put a drink down.
+ent-TableCounterRetroWhiteTeal = retro white and teal counter
+    .desc = Looks like a good place to put a drink down.
+ent-TableCounterRetroDiner = retro diner counter
+    .desc = Looks like a good place to put a drink down.

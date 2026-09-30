@@ -1,0 +1,11 @@
+ent-MobMoproachHat = { ent-MobMoproach }
+    .desc = { ent-MobMoproach.desc }
+    .suffix = hat
+ent-MoproachBox = moproach kit
+    .desc = A kit to quickly get two moproaches ready to work.
+ent-MoproachCubeWrapped = moproach cube
+    .desc = Unwrap this to get a moproach cube.
+    .suffix = Wrapped
+ent-PaperMoproachManual = { ent-Paper }
+    .desc = { ent-Paper.desc }
+    .suffix = moproach manual

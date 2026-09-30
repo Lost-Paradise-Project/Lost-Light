@@ -1,0 +1,10 @@
+ent-ActionSummonDemonicContract = Summon Infernal Contract
+    .desc = Summon an incredibly ominous piece of paper.
+ent-ActionDamnationsMenu = Open Book of the Damned
+    .desc = Refer to your list of damnations, see what ways you can oblige the crew.
+ent-ActionSummonBident = Recall Bident
+    .desc = Summon a suitably evil looking weapon for diplomatic purposes.
+ent-ActionSummonDevilPen = Manifest Quill
+    .desc = Something to write with...
+ent-ActionInfernalJaunt = Infernal Jaunt
+    .desc = Make an entrance! Comes with two charges — one for the entrance, and one for the exit. 5 minute recharge.

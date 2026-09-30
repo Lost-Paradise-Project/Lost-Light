@@ -28,8 +28,6 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
@@ -212,8 +210,6 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
@@ -248,7 +244,6 @@
       sprite: "Effects/creampie.rsi"
       state: "creampie_human"
       visible: false
-
 
 - type: entity
   parent: [BaseNeocyteAppearance, BaseSpeciesDummy]

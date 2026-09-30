@@ -1,0 +1,14 @@
+ent-CasinoPDA = { ent-BasePDA }
+    .desc = { ent-BasePDA.desc }
+ent-CasinoPDASecurity = Gamorrah security PDA
+    .desc = I don't enjoy killing, but when done righteously, it's just a chore, like any other. The house always wins.
+ent-CasinoPDAOwner = Gamorrah owner PDA
+    .desc = The house always wins.
+ent-CasinoPDAManager = Gamorrah manager PDA
+    .desc = The house always wins.
+ent-CasinoPDADealer = Gamorrah dealer PDA
+    .desc = Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable.The house always wins.
+ent-CasinoPDABrigmed = Gamorrah brigmedic PDA
+    .desc = Patch them up, send them back to the tables. The house always wins.
+ent-CasinoPDATreasurer = Gamorrah treasurer PDA
+    .desc = Every chip counted, every credit accounted for. The house always wins.

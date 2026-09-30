@@ -1,0 +1,11 @@
+ent-BaseMilkCrate = { ent-BaseStructureDynamic }
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-RecordMilkCrate = record crate
+    .desc = A sturdy plastic milk crate repurposed for filing away sleeved vinyls. It won't hold anything else.
+ent-RecordMilkCrateFilled = { ent-RecordMilkCrate }
+    .desc = { ent-RecordMilkCrate.desc }
+    .suffix = Filled
+ent-MilkCrate = milk crate
+    .desc = A sturdy plastic crate for hauling milk cartons. It won't hold anything else.
+ent-SyndicateMilkCrate = syndicate milk crate
+    .desc = A blood-red plastic milk crate for filing away sleeved vinyls. Nanotrasen would rather you didn't listen to these.

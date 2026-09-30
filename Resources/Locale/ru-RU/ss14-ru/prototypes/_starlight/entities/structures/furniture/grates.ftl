@@ -1,0 +1,14 @@
+ent-GrateBase = grate
+    .desc = Very industrial.
+ent-GrateGray = { ent-GrateBase }
+    .desc = { ent-GrateBase.desc }
+    .suffix = Gray
+ent-GrateEngie = { ent-GrateBase }
+    .desc = { ent-GrateBase.desc }
+    .suffix = Brown
+ent-GrateSec = { ent-GrateBase }
+    .desc = { ent-GrateBase.desc }
+    .suffix = Red
+ent-LatticeFalse = flimsy lattice
+    .desc = Not structurally viable.
+    .suffix = False, Grate

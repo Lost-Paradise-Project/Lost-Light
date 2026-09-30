@@ -1,0 +1,15 @@
+ent-SentientNeoSlimeCore = augmented sentient slime core
+    .desc = The source of incredible, unending gooeyness.
+    .suffix = Neo-Slime
+ent-OrganNeoSlimeHeart = augmented slime circulator
+    .desc = A little circulator what makes the fluid move through the slime body.
+    .suffix = Neo-Slime
+ent-OrganNeoSlimeLungs = augmented slime gas sacs
+    .desc = Collects nitrogen, which slime cells use for maintenance.
+    .suffix = Neo-Slime
+ent-OrganNeoSlimePeepoids = augmented peepoids
+    .desc = Primitive and goopy, but more or less just as good as the human equivalent.
+    .suffix = Neo-Slime
+ent-OrganNeoSlimeSlurpoid = augmented slurpoid
+    .desc = It has all the consistency of gelatin.
+    .suffix = Neo-Slime

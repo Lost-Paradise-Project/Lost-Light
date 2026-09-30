@@ -1,0 +1,12 @@
+ent-CentCommFlag = CentComm flag
+    .desc = Formerly Stellar Vanguard Solutions.
+ent-CybersunFlag = CyberSun flag
+    .desc = Paper, Suit, Progress.
+ent-InterdyneFlag = Interdyne Pharmaceutics flag
+    .desc = For Everyone's Health.
+ent-InterdyneSyndicateFlag = Interdyne Pharmaceutics flag?
+    .desc = F-r Ev_ry.ne' Hea_th.
+ent-DonkFlag = DONK CO flag
+    .desc = Put a DONK on it!
+ent-WaffleCoFlag = Waffle Corp flag
+    .desc = Reliable and Delicious.

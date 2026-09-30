@@ -1,0 +1,16 @@
+ent-BaseMailBox = mailbox
+    .desc = A mailbox for storing and retrieving mail.
+ent-CargoMailBox = cargo mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Cargo to store and retrieve their mail.
+ent-CommandMailBox = command mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Command to store and retrieve their mail.
+ent-EngineeringMailBox = engineering mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Engineering to store and retrieve their mail.
+ent-MedicalMailBox = medical mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Medical to store and retrieve their mail.
+ent-ScienceMailBox = science mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Science to store and retrieve their mail.
+ent-SecurityMailBox = security mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Security to store and retrieve their mail.
+ent-ServiceMailBox = service mailbox
+    .desc = A mailbox for storing and retrieving mail. Allows for Service to store and retrieve their mail.

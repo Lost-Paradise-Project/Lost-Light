@@ -1,0 +1,12 @@
+ent-OrganLagomorphEyes = lagomorph eyes
+    .desc = Couldn't have seen that one coming.
+    .suffix = Lagomorph
+ent-OrganLagomorphStomach = lagomorph stomach
+    .desc = Yearns for fresh produce.
+    .suffix = Lagomorph
+ent-OrganLagomorphHeart = lagomorph heart
+    .desc = The rapidly beating heart of a Lagomorph.
+    .suffix = Lagomorph
+ent-OrganLagomorphTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Lagomorph
