@@ -26,6 +26,16 @@ public sealed class SpanishAccentSystem : EntitySystem
     {
         var msg = message.Replace(" s", " es").Replace(" S", " Es");
 
+        // LP edit start
+        // эспасибо, эстанция
+        msg = msg.Replace(" с", " эс").Replace(" С", " Эс");
+
+        if (msg.StartsWith('с'))
+            return msg[1..].Insert(0, "эс");
+        else if (msg.StartsWith('С'))
+            return msg[1..].Insert(0, "Эс");
+        // LP edit end
+
         if (msg.StartsWith('s'))
             return msg[1..].Insert(0, "es");
         else if (msg.StartsWith('S'))

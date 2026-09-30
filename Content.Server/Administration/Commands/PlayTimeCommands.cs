@@ -6,7 +6,7 @@ using Robust.Shared.Console;
 
 namespace Content.Server.Administration.Commands;
 
-[AdminCommand(AdminFlags.Moderator)]
+[AdminCommand(AdminFlags.Playtime)] // LP edit
 public sealed partial class PlayTimeAddOverallCommand : IConsoleCommand
 {
     [Dependency] private IPlayerManager _playerManager = default!;
@@ -66,7 +66,7 @@ public sealed partial class PlayTimeAddOverallCommand : IConsoleCommand
     }
 }
 
-[AdminCommand(AdminFlags.Moderator)]
+[AdminCommand(AdminFlags.Playtime)] // LP edit
 public sealed partial class PlayTimeAddRoleCommand : IConsoleCommand
 {
     [Dependency] private IPlayerManager _playerManager = default!;

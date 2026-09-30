@@ -116,6 +116,19 @@ namespace Content.Shared.Lathe
         }
     }
 
+    // LP edit start
+    [Serializable]
+    public sealed partial class LatheGetResultEvent : EntityEventArgs
+    {
+        public readonly EntityUid ResultItem;
+
+        public LatheGetResultEvent(EntityUid result)
+        {
+            ResultItem = result;
+        }
+    }
+    // LP edit end
+
     /// <summary>
     /// Event raised on a lathe when it starts producing a recipe.
     /// </summary>

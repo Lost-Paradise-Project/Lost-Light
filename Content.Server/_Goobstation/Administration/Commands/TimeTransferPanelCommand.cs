@@ -5,7 +5,7 @@ using Robust.Shared.Console;
 
 namespace Content.Server._GoobStation.Administration.Commands;
 
-[AdminCommand(AdminFlags.Moderator)]
+[AdminCommand(AdminFlags.Playtime)] // LP edit
 public sealed partial class TimeTransferPanelCommand : LocalizedCommands
 {
     [Dependency] private EuiManager _euis = default!;

@@ -90,6 +90,7 @@
     order: 100 # Starlight
     name: "Central Command"
     notifyAdmins: true
+    receiveStationGoal: true # LP edit
 
 - type: entity
   parent: FaxMachineSyndicateBase # Starlight
@@ -118,5 +119,6 @@
       order: 200 # Starlight
       name: "Captain"
       receiveNukeCodes: true
+      receiveStationGoal: true # LP edit
     - type: StealTarget
       stealGroup: FaxMachineCaptain

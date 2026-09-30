@@ -37,6 +37,11 @@ public sealed partial class FrenchAccentSystem : EntitySystem
 
         // replaces th with 'z or 's depending on the case
         message.Text = ApplyThReplacement(message.Text);
+
+        // LP edit start
+        // Картавое р: пгивет, товагищ
+        message.Text = message.Text.Replace('р', 'г').Replace('Р', 'Г');
+        // LP edit end
         return message;
     }
 

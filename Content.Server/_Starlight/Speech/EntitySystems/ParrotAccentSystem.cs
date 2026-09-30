@@ -8,7 +8,10 @@ namespace Content.Server._Starlight.Speech.EntitySystems;
 
 public sealed partial class ParrotAccentSystem : EntitySystem
 {
-    [GeneratedRegex("[^A-Za-z0-9 -]")]
+    // LP edit start
+    // Оставляем и кириллицу, чтобы попугай запоминал русские слова
+    [GeneratedRegex("[^A-Za-zА-Яа-яЁё0-9 -]")]
+    // LP edit end
     private static partial Regex WordCleanupRegex();
 
     [Dependency] private IRobustRandom _random = default!;

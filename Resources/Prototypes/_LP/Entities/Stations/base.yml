@@ -1,0 +1,31 @@
+- type: entity
+  id: BaseStationGoal
+  abstract: true
+  components:
+    - type: StationGoal
+      goals:
+        - Singularity
+        - SolarPanels
+        - Artifacts
+        - Bank
+        - Zoo
+        - MiningOutpost
+        - Tesla
+        - SecurityTraining
+        - ShuttleMed
+        - ShuttleSec
+        - ShuttleRnd
+        - ShuttleSrv
+        - ShuttleEmergency
+        - Theatre
+        - CellAI
+        - Botany
+        # - Bunker # Максимально душная и неинтересная цель. Нафиг её
+        - LPTransit # Транзит
+        - LPRenovation # Почистить станцию
+        - LPBorgsForAI # Нафигачить боргов
+        - LPReserveEnergy # СМЭСики
+        - LPStationPreparation # Расширение дорм
+        - LPCorporateEvent # Пир для бюрократов
+        - LPTestPoligon # Испытательный полигон
+        - LPTunnelInventory # Растащить техи по отделам

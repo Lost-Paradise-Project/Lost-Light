@@ -117,3 +117,6 @@ mentors = "<ID roleRequirementPrototype менторов>"
 all-roles = "<ID roleRequirementPrototype «все роли»>"
 peaceful_bypass = "<ID roleRequirementPrototype обхода мирного режима>"
 panic_bunker_bypass = "<ID roleRequirementPrototype обхода бункера>"
+
+[loc]
+culture_name = "ru-RU"

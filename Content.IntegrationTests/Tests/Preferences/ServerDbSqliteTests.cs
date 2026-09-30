@@ -37,7 +37,19 @@ namespace Content.IntegrationTests.Tests.Preferences
 - type: dataset
   id: sqlite_test_names_last
   values:
-  - Ackerley";
+  - Ackerley
+
+# LP edit start
+- type: dataset
+  id: sqlite_test_names_last_male
+  values:
+  - Ackerley
+
+- type: dataset
+  id: sqlite_test_names_last_female
+  values:
+  - Ackerla
+# LP edit end";
 
         private static HumanoidCharacterProfile CharlieCharlieson()
         {

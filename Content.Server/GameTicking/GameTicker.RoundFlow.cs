@@ -443,6 +443,7 @@ namespace Content.Server.GameTicking
             AnnounceRound();
             UpdateInfoText();
             SendRoundStartedDiscordMessage();
+            RaiseLocalEvent(new RoundStartedEvent(RoundId)); // LP edit
 
 #if EXCEPTION_TOLERANCE
             }

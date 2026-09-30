@@ -124,6 +124,13 @@
         /// </summary>
         NameColor = 1 << 21,
 
+        // LP edit start
+        /// <summary>
+        ///     Allows you to edit players playtime.
+        /// </summary>
+        Playtime = 1 << 22,
+        // LP edit end
+
         /// <summary>
         ///     Dangerous permissions like loading prototypes.
         /// </summary>

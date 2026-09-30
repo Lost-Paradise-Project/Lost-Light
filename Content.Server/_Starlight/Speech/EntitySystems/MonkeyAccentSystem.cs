@@ -20,31 +20,34 @@ public sealed partial class MonkeyAccentSystem : EntitySystem
         {
             var word = words[i];
 
+            // LP edit start
+            // Обезьяна говорит кириллицей: УУУУК, ААХАА
             if (_random.NextDouble() >= 0.5)
             {
                 if (word.Length > 1)
                 {
                     foreach (var _ in word)
                     {
-                        accentedMessage.Append('O');
+                        accentedMessage.Append('У');
                     }
 
                     if (_random.NextDouble() >= 0.3)
-                        accentedMessage.Append('K');
+                        accentedMessage.Append('К');
                 }
                 else
-                    accentedMessage.Append('O');
+                    accentedMessage.Append('У');
             }
             else
             {
                 foreach (var _ in word)
                 {
                     if (_random.NextDouble() >= 0.8)
-                        accentedMessage.Append('H');
+                        accentedMessage.Append('Х');
                     else
-                        accentedMessage.Append('A');
+                        accentedMessage.Append('А');
                 }
             }
+            // LP edit end
 
             if (i < words.Length - 1)
                 accentedMessage.Append(' ');

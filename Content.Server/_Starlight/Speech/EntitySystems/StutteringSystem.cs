@@ -13,7 +13,10 @@ public sealed partial class StutteringSystem : SharedStutteringSystem
     [Dependency] private IRobustRandom _random = default!;
 
     // Regex of characters to stutter.
-    [GeneratedRegex(@"[b-df-hj-np-tv-wxyz]", RegexOptions.IgnoreCase | RegexOptions.Compiled, "en-US")]
+    // LP edit start
+    // Английские и русские согласные
+    [GeneratedRegex(@"[b-df-hj-np-tv-wxyzбвгджзйклмнпрстфхцчшщ]", RegexOptions.IgnoreCase | RegexOptions.Compiled, "en-US")]
+    // LP edit end
     private static partial Regex Stutter();
 
     public override void Initialize()

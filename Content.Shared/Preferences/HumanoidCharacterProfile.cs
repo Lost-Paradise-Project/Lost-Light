@@ -31,7 +31,7 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile
     {
-        private static readonly Regex RestrictedNameRegex = new(@"[^A-Za-z0-9 '\-,#]"); //Starlight edit, allow commas and number sign
+        private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яёЁ0-9' -]"); // LP edit
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
         /// <summary>
