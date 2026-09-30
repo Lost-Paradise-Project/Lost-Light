@@ -107,7 +107,6 @@ action-vampire-shadow-snare-placed = You set a shadow snare trap.
 action-vampire-shadow-snare-wrong-place = You can't place a trap here.
 action-vampire-shadow-snare-scatter = You scattered the shadow trap.
 vampire-shadow-snare-oldest-removed = Your old shadow snare dissipates.
-ent-shadow-snare-ensnare = shadow snare
 
 action-vampire-shadow-anchor-returned = You returned to the shadow anchor
 action-vampire-shadow-anchor-installed = You've secured a spot in the shadows
@@ -176,7 +175,6 @@ vampire-demonic-grasp-pull = The claw drags you toward the vampire!
 
 vampire-charge-start = You barrel forward with unstoppable force!
 vampire-charge-impact = You crash into {CAPITALIZE(THE($target))} with devastating force!
-
 
 vampire-blood-swell-cancel-shoot = Your fingers don`t fit in the trigger guard!!
 

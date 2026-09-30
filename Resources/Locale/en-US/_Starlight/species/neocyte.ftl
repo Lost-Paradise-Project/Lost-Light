@@ -22,6 +22,3 @@ subspecies-name-neoarachnid = Neo-Arachnid
 # Starlight species added after Neocytes
 subspecies-name-neoelf = Neo-Aielithii
 subspecies-name-neolagomorph = Neo-Lagomorph
-
-ent-AppearanceNeocyte = Urist McToaster
-    .desc = A dummy neocyte meant to be used in character setup.

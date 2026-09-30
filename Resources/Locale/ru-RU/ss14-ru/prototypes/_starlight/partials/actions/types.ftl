@@ -1,2 +1,0 @@
-ent-ActionWake = { "" }
-    .desc = { "" }
