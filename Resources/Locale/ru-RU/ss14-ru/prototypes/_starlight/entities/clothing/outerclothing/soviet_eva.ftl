@@ -1,2 +1,2 @@
-ent-ClothingOuterHardsuitSovietEVA = soviet EVA suit
-    .desc = A rugged space suit with the hammer and sickle emblazoned on the back. For the workers of space!
+ent-ClothingOuterHardsuitSovietEVA = советский скафандр ВКД
+    .desc = Прочный космический скафандр с серпом и молотом на спине. Для трудящихся космоса!

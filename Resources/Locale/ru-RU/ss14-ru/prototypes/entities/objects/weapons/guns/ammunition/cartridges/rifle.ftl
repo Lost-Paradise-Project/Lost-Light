@@ -1,7 +1,7 @@
 ent-BaseCartridgeRifle = патрон (.20 винтовочный)
     .desc = { ent-BaseCartridge.desc }
-ent-CartridgeRifleSP = cartridge (.20 rifle SP)
-    .desc = A modern intermediate cartridge for combat rifles. Standard kinetic ammunition is common and useful in most situations.
+ent-CartridgeRifleSP = патрон (.20 винтовочный SP)
+    .desc = Современный промежуточный патрон для боевых винтовок. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
 ent-CartridgeRiflePractice = патрон (.20 винтовочный учебный)
     .desc = Современный промежуточный патрон для боевых винтовок. Учебный боеприпас выстреливает меловым снарядом, который немного жалит, но в остальном не наносит стойкого вреда.
 ent-CartridgeRifleIncendiary = патрон (.20 винтовочный зажигательный)

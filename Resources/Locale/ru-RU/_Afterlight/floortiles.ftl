@@ -1,5 +1,5 @@
-tiles-glass-floor-bronze = bronze glass floor
-tiles-glass-floor-plasma = plasma glass floor
-tiles-glass-floor-plasma-reinforced = reinforced plasma glass floor
-tiles-glass-floor-uranium = uranium glass floor
-tiles-glass-floor-uranium-reinforced = reinforced uranium glass floor
+tiles-glass-floor-bronze = бронзовый стеклянный пол
+tiles-glass-floor-plasma = плазменный стеклянный пол
+tiles-glass-floor-plasma-reinforced = укреплённый плазменный стеклянный пол
+tiles-glass-floor-uranium = урановый стеклянный пол
+tiles-glass-floor-uranium-reinforced = укреплённый урановый стеклянный пол

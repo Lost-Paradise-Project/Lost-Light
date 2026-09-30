@@ -1,8 +1,8 @@
-ent-ActionAIShunt = Shunt
-    .desc = Shunt into a borg chassis with a AI interface installed.
-ent-ActionAIUnShunt = UnShunt
-    .desc = Disengage from the chassis/interface returning to your core.
-ent-ActionAIReconnectShunt = Reconnect Shunt
-    .desc = Reconnect to the last chassis or interface you shunted into.
-ent-ActionAIWarp = Warp
-    .desc = Open a list of crew and locations to warp to.
+ent-ActionAIShunt = Шунт
+    .desc = Шунтироваться в шасси борга с установленным интерфейсом ИИ.
+ent-ActionAIUnShunt = Расшунтироваться
+    .desc = Отключиться от шасси/интерфейса и вернуться в своё ядро.
+ent-ActionAIReconnectShunt = Переподключить шунт
+    .desc = Переподключиться к последнему шасси или интерфейсу, в который вы шунтировались.
+ent-ActionAIWarp = Варп
+    .desc = Открыть список экипажа и мест для варпа.

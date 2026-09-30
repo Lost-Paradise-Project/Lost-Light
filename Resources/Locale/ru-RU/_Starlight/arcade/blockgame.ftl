@@ -1,1 +1,1 @@
-blockgame-menu-text-no-scores = ERROR: OUT OF ORDER
+blockgame-menu-text-no-scores = ОШИБКА: НЕ РАБОТАЕТ

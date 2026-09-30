@@ -1,2 +1,2 @@
-ent-StatusEffectDoomedIcon = doomed
+ent-StatusEffectDoomedIcon = обречён
     .desc = { ent-MobStatusEffectDebuff.desc }

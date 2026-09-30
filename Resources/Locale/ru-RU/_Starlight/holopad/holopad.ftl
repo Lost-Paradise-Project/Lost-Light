@@ -1,5 +1,5 @@
 # Service
-holopad-service-lawyer = Service — Lawyer
+holopad-service-lawyer = Сервис — юрист
 
 # Security
-holopad-security-iaa = Security — Internal Affairs
+holopad-security-iaa = Служба безопасности — внутренние дела

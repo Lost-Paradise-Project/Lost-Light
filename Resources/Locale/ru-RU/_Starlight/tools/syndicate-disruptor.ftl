@@ -1,16 +1,16 @@
 # Popups
-syndicate-disruptor-no-charge = It's out of charge!
-syndicate-disruptor-cooldown = It can't be used right now!
+syndicate-disruptor-no-charge = Нет заряда!
+syndicate-disruptor-cooldown = Сейчас это нельзя использовать!
 
 # Menu ftl
-syndicate-disruptor-gas-leak = Causes a sensor error in the gas sensors, triggering a gas leak.
-syndicate-disruptor-bureaucratic-error = Creates errors in CentComm's hiring algorithms, causing some jobs to be over or under staffed.
-syndicate-disruptor-clerical-error = Creates errors in the station's employment records, removing random crew's records.
-syndicate-disruptor-breaker-flip = Causes power sensor errors, causing random APC breakers to flip.
-syndicate-disruptor-ion-storm = Creates an ion feedback on the station, disrupting Silicon's laws.
-syndicate-disruptor-comms-blackout = Causes the telecomms servers to short out for a time.
-syndicate-disruptor-power-grid-check = Causes a fake power spike to trigger a grid check.
-syndicate-disruptor-door-lagging-virus = Creates a virus that randomly bolts open some airlocks.
-syndicate-disruptor-security-drill = Causes errors in the station's security records, triggering a security drill.
-syndicate-disruptor-night-shift = Creates a false power savings trigger in the station's power grid, triggering low power mode.
-syndicate-disruptor-syndie-evac = Calls in a Syndicate Evac Pod for pickup.
+syndicate-disruptor-gas-leak = Вызывает ошибку датчиков газа, приводящую к утечке газа.
+syndicate-disruptor-bureaucratic-error = Создаёт ошибки в алгоритмах найма ЦентКома, из-за чего на некоторых должностях оказывается слишком много или слишком мало людей.
+syndicate-disruptor-clerical-error = Создаёт ошибки в записях о трудоустройстве станции, удаляя записи случайных членов экипажа.
+syndicate-disruptor-breaker-flip = Вызывает ошибки датчиков питания, из-за чего случайные автоматы ЛКП срабатывают.
+syndicate-disruptor-ion-storm = Создаёт ионную обратную связь на станции, нарушая законы кремниевых.
+syndicate-disruptor-comms-blackout = Вызывает короткое замыкание серверов телекоммуникаций на некоторое время.
+syndicate-disruptor-power-grid-check = Вызывает ложный скачок напряжения, запускающий проверку сети.
+syndicate-disruptor-door-lagging-virus = Создаёт вирус, который случайным образом открывает болты у некоторых шлюзов.
+syndicate-disruptor-security-drill = Вызывает ошибки в записях СБ станции, запуская учения СБ.
+syndicate-disruptor-night-shift = Создаёт ложный сигнал энергосбережения в энергосети станции, включая режим низкого энергопотребления.
+syndicate-disruptor-syndie-evac = Вызывает эвакуационную капсулу Синдиката для подбора.

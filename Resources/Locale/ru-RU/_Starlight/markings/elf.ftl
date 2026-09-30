@@ -1,6 +1,6 @@
-marking-ElfLongEars = Long Ears Standard
-marking-ElfLongEarsWide = Long Ears Wide
-marking-ElfLongEarsSmall = Long Ears Small
-marking-ElfLongEarsUpwards = Long Ears Upwards
-marking-ElfLongEarsTall = Long Ears Tall
-marking-ElfLongEarsThin = Long Ears Thin
+marking-ElfLongEars = Длинные уши (обычные)
+marking-ElfLongEarsWide = Длинные уши (широкие)
+marking-ElfLongEarsSmall = Длинные уши (маленькие)
+marking-ElfLongEarsUpwards = Длинные уши (торчащие вверх)
+marking-ElfLongEarsTall = Длинные уши (высокие)
+marking-ElfLongEarsThin = Длинные уши (тонкие)

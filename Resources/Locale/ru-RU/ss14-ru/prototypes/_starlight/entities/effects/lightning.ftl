@@ -1,2 +1,2 @@
-ent-VampireLightning = lightning
+ent-VampireLightning = молния
     .desc = { ent-BaseLightning.desc }

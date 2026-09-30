@@ -1,8 +1,8 @@
-ent-LicoxideHypo = licoxide hypo
-    .desc = A self-refilling injector for rapid administration of licoxide to victims.
-ent-LicoxideHypoPlus = licoxide hypo
-    .desc = A self-refilling injector for rapid administration of licoxide to victims. Has 1.5x the storage of the base one.
-ent-NocturineHypoPlus = extended nocturine hypo
-    .desc = A self-refilling injector for rapid administration of nocturine to victims. Has 1.5x the storage of the base one.
-ent-MuteToxinHypo = mute toxin hypo
-    .desc = A self-refilling injector for rapid administration of mute toxin to victims.
+ent-LicoxideHypo = гипоспрей ликоксида
+    .desc = Самозаправляющийся инъектор для быстрого введения ликоксида жертвам.
+ent-LicoxideHypoPlus = гипоспрей ликоксида
+    .desc = Самозаправляющийся инъектор для быстрого введения ликоксида жертвам. Хранилище в 1,5 раза больше базового.
+ent-NocturineHypoPlus = расширенный гипоспрей нокторина
+    .desc = Самозаправляющийся инъектор для быстрого введения нокторина жертвам. Хранилище в 1,5 раза больше базового.
+ent-MuteToxinHypo = гипоспрей токсина немоты
+    .desc = Самозаправляющийся инъектор для быстрого введения токсина немоты жертвам.

@@ -1,6 +1,6 @@
-ent-ElectrolyzerMachineCircuitboard = electrolyzer machine board
-    .desc = A machine printed circuit board for an electrolyzer.
+ent-ElectrolyzerMachineCircuitboard = машинная плата электролизёра
+    .desc = Печатная плата машины для электролизёра.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
-ent-WashingMachineCircuitboard = washing machine board
-    .desc = A machine printed circuit board for a NanoTrasen Model-C industrial-grade washing machine.
+ent-WashingMachineCircuitboard = плата стиральной машины
+    .desc = Печатная плата машины для промышленной стиральной машины НаноТрейзен модели C.
     .suffix = { ent-BaseMachineCircuitboard.suffix }

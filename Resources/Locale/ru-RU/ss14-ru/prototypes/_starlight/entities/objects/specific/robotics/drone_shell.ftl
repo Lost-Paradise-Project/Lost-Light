@@ -1,2 +1,2 @@
-ent-DroneShell = drone shell
-    .desc = A compact mechanical frame for drone assembly. Missing arms, sensors, and power.
+ent-DroneShell = корпус дрона
+    .desc = Компактный механический каркас для сборки дрона. Не хватает рук, датчиков и питания.

@@ -1,2 +1,2 @@
-ent-BaseMobAbductor = Urist McAbductor
+ent-BaseMobAbductor = Урист МакПохититель
     .desc = { ent-MobBloodstream.desc }

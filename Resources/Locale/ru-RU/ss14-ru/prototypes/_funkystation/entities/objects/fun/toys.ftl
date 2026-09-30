@@ -1,6 +1,6 @@
-ent-BoxFunLizardPlushieBulk = bulk lizard plushie box
-    .desc = A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
-ent-BoxFunSharkPlushieBulk = bulk soft toy shark box
-    .desc = A crate filled with a variety of everyone's favorite finned friend. Rawr!
-ent-BoxFunArtSupplies = art supplies
-    .desc = Make some happy little accidents with lots of crayons!
+ent-BoxFunLizardPlushieBulk = оптовая коробка плюшевых ящериц
+    .desc = Куча мягких плюшевых ящериц. Бросайте их повсюду, а потом гадайте, как объяснять эту покупку НТ.
+ent-BoxFunSharkPlushieBulk = оптовая коробка мягких игрушек-акул
+    .desc = Ящик, наполненный разнообразными версиями всеобщего плавникового друга. Ррр!
+ent-BoxFunArtSupplies = художественные принадлежности
+    .desc = Создайте немного счастливых случайностей с кучей мелков!

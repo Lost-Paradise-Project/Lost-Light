@@ -1,1 +1,1 @@
-bounty-console-tickets-label = Tickets: [color=yellow]{ $tickets }[/color]
+bounty-console-tickets-label = Талоны: [color=yellow]{ $tickets }[/color]

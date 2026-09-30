@@ -1,2 +1,2 @@
-ent-Ecronizer = ecronizer
-    .desc = This device will ecronize all your items from any scanning device.
+ent-Ecronizer = экронайзер
+    .desc = Это устройство экронизирует все ваши предметы от любого сканирующего устройства.

@@ -54,14 +54,14 @@ lathe-category-jumpsuits = Комбинезоны
 lathe-category-neck = Шея
 
 # Mechs
-lathe-category-mechs-vim = Vim
-lathe-category-mechs-honker = H.O.N.K.
-lathe-category-mechs-hamptr = H.A.M.P.T.R.
-lathe-category-mechs-ripley = Ripley
-lathe-category-mechs-ripleymkii = Ripley MK-II
-lathe-category-mechs-paddy = Paddy
-lathe-category-mechs-clarke = Clarke
-lathe-category-mechs-gygax = Gygax
-lathe-category-mechs-durand = Durand
-lathe-category-mechs-equipment = Mech equipment
-lathe-category-mechs-weapons = Mech weapons
+lathe-category-mechs-vim = Вим
+lathe-category-mechs-honker = Х.О.Н.К.
+lathe-category-mechs-hamptr = Х.А.М.П.Т.Р.
+lathe-category-mechs-ripley = Рипли
+lathe-category-mechs-ripleymkii = Рипли MK-II
+lathe-category-mechs-paddy = Пэдди
+lathe-category-mechs-clarke = Кларк
+lathe-category-mechs-gygax = Гигакс
+lathe-category-mechs-durand = Дюранд
+lathe-category-mechs-equipment = Оборудование мехов
+lathe-category-mechs-weapons = Оружие мехов

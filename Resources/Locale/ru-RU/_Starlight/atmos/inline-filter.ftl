@@ -1,2 +1,2 @@
-inline-gas-filter = inline gas filter
-inline-gas-filter-desc = Filters gases from a pipenet without splitting it in two.
+inline-gas-filter = встроенный газовый фильтр
+inline-gas-filter-desc = Фильтрует газы из трубопровода, не разделяя его на две части.

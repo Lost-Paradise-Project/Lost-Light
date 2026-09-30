@@ -1,2 +1,2 @@
-ent-SeniorMailBag = senior mail bag
-    .desc = A bright blue mail bag for the most devoted of mail technicians. Only contains a trace amount of Blue172.81!
+ent-SeniorMailBag = сумка старшего почтальона
+    .desc = Ярко-синяя почтовая сумка для самых преданных почтовых техников. Содержит лишь следы Blue172.81!

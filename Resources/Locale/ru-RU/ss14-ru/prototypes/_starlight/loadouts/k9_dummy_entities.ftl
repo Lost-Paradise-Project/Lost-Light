@@ -1,8 +1,8 @@
-ent-LoadoutDummyK9Brown = brown
-    .desc = A brown-coated security K9.
-ent-LoadoutDummyK9Black = black
-    .desc = A black-coated security K9.
-ent-LoadoutDummyK9Tan = tan
-    .desc = A tan-coated security K9.
-ent-LoadoutDummyK9Grey = grey
-    .desc = A grey-coated security K9.
+ent-LoadoutDummyK9Brown = коричневый
+    .desc = Служебная собака СБ с коричневой шерстью.
+ent-LoadoutDummyK9Black = чёрный
+    .desc = Служебная собака СБ с чёрной шерстью.
+ent-LoadoutDummyK9Tan = рыжеватый
+    .desc = Служебная собака СБ с рыжеватой шерстью.
+ent-LoadoutDummyK9Grey = серый
+    .desc = Служебная собака СБ с серой шерстью.

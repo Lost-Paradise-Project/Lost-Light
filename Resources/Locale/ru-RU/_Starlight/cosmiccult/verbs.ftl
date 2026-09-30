@@ -1,2 +1,2 @@
-verb-infuse-entropy = Infuse Entropy
-verb-infuse-entropy-description = Infuses your collected entropy into the monument.
+verb-infuse-entropy = Влить энтропию
+verb-infuse-entropy-description = Вливает собранную вами энтропию в Монумент.

@@ -1,4 +1,4 @@
-ent-BlackLightTube = black light tube
-    .desc = A colorful light tube. These emit "black light".
-ent-LightTubeWarm = warm light tube
-    .desc = A warm light tube conducive to slowly bleeding out in the snow. Definitely contains sodium.
+ent-BlackLightTube = ультрафиолетовая лампа-трубка
+    .desc = Цветная лампа-трубка. Излучает «чёрный свет».
+ent-LightTubeWarm = тёплая лампа-трубка
+    .desc = Тёплая лампа-трубка, способствующая медленному истечению кровью на снегу. Определённо содержит натрий.

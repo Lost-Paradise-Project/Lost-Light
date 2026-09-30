@@ -1,5 +1,5 @@
-marking-ResomiTattooEyeLeft-eye_left = Eye (Left)
-marking-ResomiTattooEyeLeft = Eye (Left)
+marking-ResomiTattooEyeLeft-eye_left = Глаз (левый)
+marking-ResomiTattooEyeLeft = Глаз (левый)
 
-marking-ResomiTattooEyeRight-eye_right = Eye (Right)
-marking-ResomiTattooEyeRight = Eye (Right)
+marking-ResomiTattooEyeRight-eye_right = Глаз (правый)
+marking-ResomiTattooEyeRight = Глаз (правый)

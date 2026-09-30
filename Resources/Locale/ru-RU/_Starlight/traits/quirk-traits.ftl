@@ -1,2 +1,2 @@
-trait-unclonable-name = Unclonable
-trait-unclonable-desc = Your unique DNA composition is incompatible with cloning technology. You cannot be cloned.
+trait-unclonable-name = Неклонируемый
+trait-unclonable-desc = Ваша уникальная композиция ДНК несовместима с технологией клонирования. Вас нельзя клонировать.

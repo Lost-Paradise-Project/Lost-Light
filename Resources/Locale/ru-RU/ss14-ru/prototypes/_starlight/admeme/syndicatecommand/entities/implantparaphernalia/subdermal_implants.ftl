@@ -1,2 +1,2 @@
-ent-SyndicateMindShieldImplant = Syndicate mindshield implant
-    .desc = This implant will ensure loyalty to the Syndicate. Infringes on the mindshield trademark.
+ent-SyndicateMindShieldImplant = Имплант щита разума Синдиката
+    .desc = Этот имплант обеспечит верность Синдикату. Нарушает торговую марку щита разума.

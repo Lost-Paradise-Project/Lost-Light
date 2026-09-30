@@ -1,2 +1,2 @@
-ent-StatusEffectCyberneticDisruption = cybernetics disrupted
+ent-StatusEffectCyberneticDisruption = кибернетика нарушена
     .desc = { ent-MobStatusEffectDebuff.desc }

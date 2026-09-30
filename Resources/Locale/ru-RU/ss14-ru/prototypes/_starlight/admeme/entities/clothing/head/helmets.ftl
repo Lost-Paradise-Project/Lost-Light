@@ -1,3 +1,3 @@
-ent-ClothingHeadHelmetCasino = casino guard helmet
-    .desc = Standard security gear. Protects the head from impacts.
-    .suffix = admeme
+ent-ClothingHeadHelmetCasino = шлем охранника казино
+    .desc = Стандартное снаряжение СБ. Защищает голову от ударов.
+    .suffix = админ-мем

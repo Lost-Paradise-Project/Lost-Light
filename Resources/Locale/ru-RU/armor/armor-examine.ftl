@@ -4,7 +4,7 @@ armor-examinable-verb-message = Изучить показатели брони.
 armor-examine = Обеспечивает следующую защиту:
 armor-coefficient-value = - [color=yellow]{ $type }[/color] урон снижается на [color=lightblue]{ $value }%[/color].
 armor-reduction-value = - [color=yellow]{ $type }[/color] урон снижается на [color=lightblue]{ $value }[/color].
-armor-stamina-value = - [color=blue]{ $type }[/color] damage reduced by [color=lightblue]{ $value }%[/color].
+armor-stamina-value = - [color=blue]{ $type }[/color] урон снижается на [color=lightblue]{ $value }%[/color].
 armor-damage-type-blunt = Ударный
 armor-damage-type-slash = Режущий
 armor-damage-type-piercing = Колющий
@@ -19,4 +19,4 @@ armor-damage-type-poison = Ядовитый
 armor-damage-type-shock = Электрический
 armor-damage-type-structural = Структурный
 armor-damage-type-holy = Святой
-armor-damage-type-stamina = Stamina
+armor-damage-type-stamina = Изнуряющий

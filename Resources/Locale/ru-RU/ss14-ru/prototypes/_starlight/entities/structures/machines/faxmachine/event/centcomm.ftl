@@ -1,3 +1,3 @@
 ent-FaxMachineCentralCommand = { ent-FaxMachineCentralCommandBase }
     .desc = { ent-FaxMachineCentralCommandBase.desc }
-    .suffix = CC
+    .suffix = ЦК

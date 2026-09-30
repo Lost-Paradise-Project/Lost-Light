@@ -1,2 +1,2 @@
-ent-BoxShelf = box shelf
-    .desc = A shelf for storing boxes.
+ent-BoxShelf = стеллаж для коробок
+    .desc = Стеллаж для хранения коробок.

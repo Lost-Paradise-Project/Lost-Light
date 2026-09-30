@@ -1,2 +1,2 @@
-ent-BoxWardenStamps = warden's stamp box
+ent-BoxWardenStamps = коробка печатей смотрителя
     .desc = { ent-BoxStamps.desc }

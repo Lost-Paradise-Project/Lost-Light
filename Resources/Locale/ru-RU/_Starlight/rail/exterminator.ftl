@@ -1,5 +1,5 @@
-rr-terminate = Chrono-Marked
-rr-terminate-desc = You are destined for great things, for which you have been sentenced to death. It's up to you to decide which one comes to fruition.
+rr-terminate = Отмеченный хроно
+rr-terminate-desc = Вам суждено великое, за что вас и приговорили к смерти. Только вам решать, какая судьба сбудется.
 
-rr-terminate-message = Well-wisher: reports indicate that an assassin of some kind has been dispatched to kill you. We can't interfere, but you need to prepare. They will be relentless.
-rr-terminate-wrapped-message = [bold]Well-wisher[/bold]: reports indicate that an assassin of some kind has been dispatched to kill you. We can't interfere, but you need to prepare. They will be relentless.
+rr-terminate-message = Доброжелатель: по данным разведки, за вами отправлен некий убийца. Мы не можем вмешаться, но вам нужно подготовиться. Он будет неумолим.
+rr-terminate-wrapped-message = [bold]Доброжелатель[/bold]: по данным разведки, за вами отправлен некий убийца. Мы не можем вмешаться, но вам нужно подготовиться. Он будет неумолим.

@@ -1,2 +1,2 @@
-ent-WeaponAdmemeX09Headsman = X-09 Headsman
-    .desc = They say the art of execution has evolved a lot over the years. For some people. Not for me.
+ent-WeaponAdmemeX09Headsman = X-09 Палач
+    .desc = Говорят, искусство казни сильно изменилось за годы. Для некоторых. Но не для меня.

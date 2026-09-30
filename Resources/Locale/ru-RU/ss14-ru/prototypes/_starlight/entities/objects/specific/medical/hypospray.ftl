@@ -1,8 +1,8 @@
-ent-TacticalJetInjector = tactical jet injector
-    .desc = A bold, tacticool, ultra high quality injector. Allows for a very fast injection, with a smaller capacity as a tradeoff. Guard it until your last breath.
-ent-DeforestJetInjector = DeForest jet injector
-    .desc = A cool, modern, ultra high quality injector. Allows for a fast injection, with a smaller capacity as a tradeoff. Go Interstellar, with DeForest Medical!
-ent-SyndiBorgHypo = gorlex hypospray
-    .desc = An adaptation of the Gorlex Hypospray for cyborgs.
-ent-GlubMedipen = glub auto-injector
-    .desc = A non-refillable medipen containing multiple doses of glub.
+ent-TacticalJetInjector = тактический струйный инъектор
+    .desc = Смелый, тактикульный инъектор сверхвысокого качества. Обеспечивает очень быструю инъекцию ценой меньшей ёмкости. Берегите его до последнего вздоха.
+ent-DeforestJetInjector = струйный инъектор DeForest
+    .desc = Крутой современный инъектор сверхвысокого качества. Обеспечивает быструю инъекцию ценой меньшей ёмкости. Станьте Межзвёздными с DeForest Medical!
+ent-SyndiBorgHypo = гипоспрей Горлекса
+    .desc = Адаптация гипоспрея Горлекса для киборгов.
+ent-GlubMedipen = автоинъектор глаба
+    .desc = Неперезаряжаемый медипен, содержащий несколько доз глаба.

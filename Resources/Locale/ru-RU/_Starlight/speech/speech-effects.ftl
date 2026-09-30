@@ -1,1 +1,1 @@
-fake-death-muted-success = You have no voice, so you pretend to die silently.
+fake-death-muted-success = У вас нет голоса, поэтому вы молча притворяетесь мёртвым.

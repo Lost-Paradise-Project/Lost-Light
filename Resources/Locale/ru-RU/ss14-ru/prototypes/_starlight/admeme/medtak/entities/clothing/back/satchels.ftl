@@ -1,2 +1,2 @@
-ent-ClothingBackpackSatchelMedTak = MedTak satchel
-    .desc = A spacious satchel.
+ent-ClothingBackpackSatchelMedTak = ранец МедТак
+    .desc = Просторный ранец.

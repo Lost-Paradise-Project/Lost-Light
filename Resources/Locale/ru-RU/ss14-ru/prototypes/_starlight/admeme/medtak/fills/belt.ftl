@@ -1,12 +1,12 @@
 ent-ClothingBeltMedTakFilledHeavy = { ent-ClothingBeltMedTak }
     .desc = { ent-ClothingBeltMedTak.desc }
-    .suffix = Filled, Security, Heavy
+    .suffix = Заполнено, СБ, тяжёлый
 ent-ClothingBeltMedTakFilledRifle = { ent-ClothingBeltMedTak }
     .desc = { ent-ClothingBeltMedTak.desc }
-    .suffix = Filled, Security, Rifle
+    .suffix = Заполнено, СБ, винтовка
 ent-ClothingBeltMedTakFilledMedic = { ent-ClothingBeltMedTak }
     .desc = { ent-ClothingBeltMedTak.desc }
-    .suffix = Filled, Medic
+    .suffix = Заполнено, медик
 ent-ClothingBeltMedTakFilledPilot = { ent-ClothingBeltMedTak }
     .desc = { ent-ClothingBeltMedTak.desc }
-    .suffix = Filled, Pilot
+    .suffix = Заполнено, пилот

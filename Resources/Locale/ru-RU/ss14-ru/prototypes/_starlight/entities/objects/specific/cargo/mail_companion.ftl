@@ -1,2 +1,2 @@
-ent-MailCompanion = MailCompanion™ v11.037
-    .desc = A handheld tracker tuned for station deliveries. Scan a letter or package to locate its intended recipient for a short time.
+ent-MailCompanion = Почтовый компаньон™ v11.037
+    .desc = Портативный трекер, настроенный на станционные доставки. Отсканируйте письмо или посылку, чтобы ненадолго определить местоположение адресата.

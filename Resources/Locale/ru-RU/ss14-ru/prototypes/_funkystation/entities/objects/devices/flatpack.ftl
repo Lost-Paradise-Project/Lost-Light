@@ -1,2 +1,2 @@
-ent-WashingMachineFlatpack = washing machine flatpack
-    .desc = An industrial-grade washing machine, mechanically compressed into a small flatpack.
+ent-WashingMachineFlatpack = плоская упаковка стиральной машины
+    .desc = Промышленная стиральная машина, механически сжатая в небольшую плоскую упаковку.

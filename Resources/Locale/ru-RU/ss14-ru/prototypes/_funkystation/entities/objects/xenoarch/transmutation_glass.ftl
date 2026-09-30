@@ -1,3 +1,3 @@
-ent-TransmutationGlass = strange glass
-    .desc = At a glance this glass appears normal, except for an abnormal amount of condensation on the bottom, even when empty.
-    .suffix = Transmutation
+ent-TransmutationGlass = странный стакан
+    .desc = На первый взгляд стакан выглядит обычным, за исключением необычного количества конденсата на дне, даже когда он пуст.
+    .suffix = Трансмутация

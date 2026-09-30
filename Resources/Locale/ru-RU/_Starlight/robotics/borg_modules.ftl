@@ -1,13 +1,13 @@
-borg-slot-uppies-empty = Small Personnel
-borg-slot-flash-empty = Flash
-borg-slot-zipties-empty = Handcuffs
-borg-slot-stunbaton-empty = Stun Baton
-borg-slot-disabler-empty = Disabler
-borg-slot-holoprojector-empty = Holographic Projector
-borg-slot-contrabag-empty = Contraband Bag
-borg-slot-rcd-ammo-empty = RCD Ammo
-borg-slot-games-gambling-empty = Games and gambling
+borg-slot-uppies-empty = Малый личный состав
+borg-slot-flash-empty = Вспышка
+borg-slot-zipties-empty = Наручники
+borg-slot-stunbaton-empty = Шоковая дубинка
+borg-slot-disabler-empty = Дизейблер
+borg-slot-holoprojector-empty = Голографический проектор
+borg-slot-contrabag-empty = Контрабандный мешок
+borg-slot-rcd-ammo-empty = Боеприпасы РСУ
+borg-slot-games-gambling-empty = Игры и азартные игры
 
 borg-slot-l6-empty = L6 Saw
-borg-slot-light-box-empty = Magazine Box (Light Rifle)
-borg-slot-light-ammo-box-empty = Ammunition Box (Light Rifle)
+borg-slot-light-box-empty = Коробка магазинов (лёгкая винтовка)
+borg-slot-light-ammo-box-empty = Коробка боеприпасов (лёгкая винтовка)

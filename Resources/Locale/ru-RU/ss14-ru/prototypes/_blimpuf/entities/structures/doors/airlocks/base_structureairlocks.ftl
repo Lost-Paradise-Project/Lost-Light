@@ -1,5 +1,5 @@
-ent-PlastitaniumAirlockIndestructible = plastitanium airlock
+ent-PlastitaniumAirlockIndestructible = пластитановый шлюз
     .desc = { ent-Airlock.desc }
-    .suffix = Indestructible
+    .suffix = Неразрушимый
 ent-PlastitaniumAirlock = { ent-PlastitaniumAirlockIndestructible }
     .desc = { ent-PlastitaniumAirlockIndestructible.desc }

@@ -1,4 +1,4 @@
-reagent-name-corgi-endless = endless corgi essence
+reagent-name-corgi-endless = эссенция бесконечного корги
 
-reagent-name-glubotoxin = Glubotoxin
-reagent-desc-glubotoxin = An odd, salty brine that seems to have unique effects. Consume in moderation.
+reagent-name-glubotoxin = Глюботоксин
+reagent-desc-glubotoxin = Странный солёный рассол с уникальными эффектами. Употреблять в меру.

@@ -1,2 +1,2 @@
-ent-TP14BoxDarkPerformer = kasane teto night bag
-    .desc = Darkness is this one's friend on the stage.
+ent-TP14BoxDarkPerformer = ночная сумка Касане Тэто
+    .desc = Тьма — друг этого артиста на сцене.

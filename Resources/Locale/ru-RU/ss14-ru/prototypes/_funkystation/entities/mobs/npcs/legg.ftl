@@ -1,2 +1,2 @@
-ent-Legg = legg
-    .desc = With a hardened shell and a scowl on their face, a legg is not one to be messed with.
+ent-Legg = яйцо-нога
+    .desc = С затвердевшей скорлупой и хмурым видом, с леггом лучше не связываться.

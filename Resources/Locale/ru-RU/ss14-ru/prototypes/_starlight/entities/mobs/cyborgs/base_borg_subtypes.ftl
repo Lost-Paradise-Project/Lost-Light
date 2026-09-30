@@ -1,6 +1,6 @@
-ent-BorgSecuritySubtypeBase = borg security subtype
+ent-BorgSecuritySubtypeBase = подтип борга СБ
     .desc = { ent-BorgSubtypeBase.desc }
-ent-BorgCargoSubtypeBase = borg cargo subtype
+ent-BorgCargoSubtypeBase = подтип борга карго
     .desc = { ent-BorgSubtypeBase.desc }
-ent-BorgPurrfusSubtypeBase = borg purrfus subtype
+ent-BorgPurrfusSubtypeBase = подтип борга Мурфус
     .desc = { ent-BorgSubtypeBase.desc }

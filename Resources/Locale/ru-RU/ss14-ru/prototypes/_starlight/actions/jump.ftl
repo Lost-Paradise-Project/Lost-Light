@@ -1,5 +1,5 @@
-ent-Jump = Jump
-    .desc = You jumps at the selected direction.
+ent-Jump = Прыжок
+    .desc = Вы прыгаете в выбранном направлении.
 ent-JumpResomi = { ent-Jump }
     .desc = { ent-Jump.desc }
 ent-JumpMoth = { ent-Jump }

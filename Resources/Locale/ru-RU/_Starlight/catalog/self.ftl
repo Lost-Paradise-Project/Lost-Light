@@ -1,20 +1,20 @@
 self-backpack-category-saboteur-description =
-    A man of passion, honor, and glory! Minus the glory and honor.
-    These tools here should help with what you're doing.
-    Includes: Jaws of death, omnitool, 2 C4, welder, multitool,
-    high caliber handgun, emp implanter, and a freedom implanter.
+    Человек страсти, чести и славы! Минус слава и честь.
+    Эти инструменты помогут вам в том, чем вы занимаетесь.
+    Включает: челюсти смерти, омнитул, 2 C4, сварочный аппарат, мультитул,
+    крупнокалиберный пистолет, имплантер ЭМИ и имплантер свободы.
 
 self-backpack-category-press-description =
-    Someone who doesn't publicly express their intentions isn't
-    worth their own weight in our organization.
-    Includes: Binary key, a microphone, handheld camera,
-    voice implant, scram implant, cybersun pen, recorders,
-    reporter clothing, and a box of fake stamps.
+    Тот, кто не выражает свои намерения публично, не стоит
+    своего веса в нашей организации.
+    Включает: бинарный ключ, микрофон, ручную камеру,
+    голосовой имплант, имплант скрама, ручку Cybersun, диктофоны,
+    одежду репортёра и коробку поддельных печатей.
 
 self-backpack-category-spy-description =
-    Don't like showing yourself out in the open? Well, as long
-    as you achieve your goals of liberation, these tools will work.
-    Includes: A wornout energy crossbow, camera bug,
-    storage implant, radio jammer, and a chameleon projector.
+    Не любите показываться на людях? Что ж, если вы
+    достигаете целей освобождения, эти инструменты подойдут.
+    Включает: изношенный энергетический арбалет, жучок для камер,
+    имплант хранилища, радиоглушитель и хамелеон-проектор.
 
-self-toolbox-name = SELF Supplies
+self-toolbox-name = Припасы С.Е.Л.Ф.

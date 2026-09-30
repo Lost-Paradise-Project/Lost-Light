@@ -1,6 +1,6 @@
-ent-SwordCosmicCult = entropic blade
-    .desc = An eerie greatsword wrought of indescribable material, forcibly extruded down into reality. Your instincts tell you that it does not belong here.
-ent-SpearCosmicCult = vacuous lance
-    .desc = An unnerving spear, wrought of indescribable material. Being near it feels like a prickle of static spreading through your nerves.
-ent-ScytheCosmicCult = astral razor
+ent-SwordCosmicCult = энтропийный клинок
+    .desc = Жуткий двуручный меч из неописуемого материала, насильственно вдавленный в реальность. Ваши инстинкты говорят, что ему здесь не место.
+ent-SpearCosmicCult = пустое копьё
+    .desc = Тревожное копьё из неописуемого материала. Находясь рядом с ним, чувствуешь, как по нервам разбегается покалывание статики.
+ent-ScytheCosmicCult = астральная бритва
     .desc = { ent-BaseCosmicCultItem.desc }

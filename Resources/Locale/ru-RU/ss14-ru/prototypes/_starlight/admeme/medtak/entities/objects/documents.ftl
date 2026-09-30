@@ -1,10 +1,10 @@
-ent-PaperMedTak = MedTak paper
-    .desc = A piece of paper headed by the MedTak logo. It looks expensive. For you.
-ent-PrintedDocumentMedTakContract = MedTak Coverage Contract
+ent-PaperMedTak = бумага МедТак
+    .desc = Лист бумаги с логотипом МедТак. Выглядит дорого. Для вас.
+ent-PrintedDocumentMedTakContract = Договор страхового покрытия МедТак
     .desc = { ent-PaperMedTak.desc }
-ent-PrintedDocumentMedTakCorrespondence = MedTak Correspondence
+ent-PrintedDocumentMedTakCorrespondence = Корреспонденция МедТак
     .desc = { ent-PaperMedTak.desc }
-ent-PrintedDocumentMedTakInvoice = MedTak Invoice
+ent-PrintedDocumentMedTakInvoice = Счёт МедТак
     .desc = { ent-PaperMedTak.desc }
-ent-PrintedDocumentMedTakReport = MedTak After Action Report
+ent-PrintedDocumentMedTakReport = Отчёт МедТак после операции
     .desc = { ent-PaperMedTak.desc }

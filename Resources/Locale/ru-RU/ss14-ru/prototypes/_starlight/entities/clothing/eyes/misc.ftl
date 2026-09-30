@@ -1,2 +1,2 @@
-ent-ClothingEyesWeldingGoggles = welding goggles
-    .desc = Protects the eyes from welders, approved by the mad scientist association.
+ent-ClothingEyesWeldingGoggles = сварочные очки
+    .desc = Защищают глаза от сварки, одобрены ассоциацией безумных учёных.

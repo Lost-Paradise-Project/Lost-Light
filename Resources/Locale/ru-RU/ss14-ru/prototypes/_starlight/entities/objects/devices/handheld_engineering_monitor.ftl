@@ -1,5 +1,5 @@
-ent-HandheldEngineeringMonitor = handheld engineering monitor
-    .desc = A hand-held diagnostic slate. It switches between mapping the station's power network and paging through atmospheric alarms.
+ent-HandheldEngineeringMonitor = портативный инженерный монитор
+    .desc = Портативная диагностическая панель. Переключается между картой энергосети станции и листанием атмосферных тревог.
 ent-HandheldEngineeringMonitorEmpty = { ent-HandheldEngineeringMonitor }
     .desc = { ent-HandheldEngineeringMonitor.desc }
-    .suffix = Empty
+    .suffix = Пусто

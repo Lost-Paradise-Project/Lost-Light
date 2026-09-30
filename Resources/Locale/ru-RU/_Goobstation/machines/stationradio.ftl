@@ -1,25 +1,25 @@
-signal-port-name-vinyl-player = Vinyl player output
-signal-port-description-vinyl-player = The vinyl player's music output. Connect to the rig.
+signal-port-name-vinyl-player = Выход проигрывателя пластинок
+signal-port-description-vinyl-player = Музыкальный выход проигрывателя пластинок. Подключается к радиоаппаратуре.
 
-signal-port-name-radio-rig = Radio rig input
-signal-port-description-radio-rig = The input of a radio rig, connect a vinyl player to this and then connect the rig to the radio server.
+signal-port-name-radio-rig = Вход радиоаппаратуры
+signal-port-description-radio-rig = Вход радиоаппаратуры: подключите к нему проигрыватель пластинок, а затем подключите аппаратуру к радиосерверу.
 
-signal-port-name-radio-server = Server input
-signal-port-description-radio-server = The input of the radio server, connect a radio rig to this to play music around the station!
+signal-port-name-radio-server = Вход сервера
+signal-port-description-radio-server = Вход радиосервера: подключите к нему радиоаппаратуру, чтобы музыка играла по всей станции!
 
-vinyl-popout-no-station = The vinyl ejects itself, you're not on a station!
-vinyl-popout-no-power = The vinyl ejects itself, the player isn't powered!
-vinyl-popout-no-radio-connection = The vinyl ejects itself, the player isn't connected to the radio system!
+vinyl-popout-no-station = Пластинка выскакивает: вы не на станции!
+vinyl-popout-no-power = Пластинка выскакивает: проигрыватель не запитан!
+vinyl-popout-no-radio-connection = Пластинка выскакивает: проигрыватель не подключён к радиосистеме!
 
 # Starlight - Station Radio Examination Text.
-vinyl-player-examine-empty = It's empty.
-vinyl-player-examine-loaded = There's a copy of { $vinyl } inside.
+vinyl-player-examine-empty = Он пуст.
+vinyl-player-examine-loaded = Внутри лежит копия { $vinyl }.
 
-station-radio-receiver-examine-full-volume = It's playing at full volume.
-station-radio-receiver-examine-low-volume = It's playing at low volume.
+station-radio-receiver-examine-full-volume = Играет на полной громкости.
+station-radio-receiver-examine-low-volume = Играет на низкой громкости.
 
-station-radio-server-examine-recording = The station server is not recording.
-station-radio-server-examine-not-recording = The station server is currently recording.
+station-radio-server-examine-recording = Сервер станции не записывает.
+station-radio-server-examine-not-recording = Сервер станции сейчас записывает.
 
-station-radio-server-microphone-on-use = The microphone is { $radioState }.
+station-radio-server-microphone-on-use = Микрофон { $radioState }.
 # Starlight - End

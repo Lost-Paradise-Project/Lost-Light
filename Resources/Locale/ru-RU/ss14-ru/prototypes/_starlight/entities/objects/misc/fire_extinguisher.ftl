@@ -1,6 +1,6 @@
-ent-FireExtinguisherAtmos = atmos fire extinguisher
-    .desc = A bright, pressurized fire extinguisher for the brave warriors of atmosia. Refill with your selection of water and space cleaner at your leisure.
+ent-FireExtinguisherAtmos = атмосферный огнетушитель
+    .desc = Яркий огнетушитель под давлением для храбрых воинов атмосии. Заправляйте водой и космическим очистителем на ваш выбор в любое удобное время.
 ent-SolutionFireExtinguisherVeryLarge = { ent-SolutionSpray }
     .desc = { ent-SolutionSpray.desc }
-ent-BluespaceFireExtinguisher = bluespace fire extinguisher
-    .desc = It extinguishes fires, and slowly refills with water.
+ent-BluespaceFireExtinguisher = блюспейс-огнетушитель
+    .desc = Тушит пожары и медленно пополняется водой.

@@ -1,1 +1,1 @@
-game-hud-open-bug-report-window-button-tooltip = Open bug report menu.
+game-hud-open-bug-report-window-button-tooltip = Открыть меню отчёта об ошибке.

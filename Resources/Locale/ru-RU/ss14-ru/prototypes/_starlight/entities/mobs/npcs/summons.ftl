@@ -1,2 +1,2 @@
-ent-SummonIceSculpture = ice sculpture
-    .desc = An animated ice construct, filled with malevolent magic.
+ent-SummonIceSculpture = ледяная скульптура
+    .desc = Оживлённая ледяная конструкция, наполненная злобной магией.

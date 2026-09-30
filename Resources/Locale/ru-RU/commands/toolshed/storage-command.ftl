@@ -3,4 +3,4 @@ command-description-storage-fasttake =
 command-description-storage-insert =
     Помещает переданную по конвейеру сущность в указанное хранилище.
 command-description-storage-query =
-    Gets the entities in the storagebase of the piped entities and passes them along.
+    Получает сущности из storagebase переданных сущностей и передаёт их дальше.

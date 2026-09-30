@@ -1,16 +1,16 @@
-admin-trick-reset-test-arena-description = Resets your test arena. Any players attached to entities will be sent to map 1 as ghosts.
+admin-trick-reset-test-arena-description = Сбрасывает вашу тестовую арену. Все игроки, привязанные к сущностям, будут отправлены на карту 1 в виде призраков.
 
-admin-smite-speak-proper-name = Speak Proper Language
-admin-smite-speak-proper-description = For when someone just can't stop talking poop.
+admin-smite-speak-proper-name = Говорить культурно
+admin-smite-speak-proper-description = На случай, если кто-то не может перестать нести чушь.
 
-admin-verb-text-make-adminmouse = Become Admin Mouse
-admin-verb-make-adminmouse = Makes yourself an Admin Mouse.
+admin-verb-text-make-adminmouse = Стать админской мышью
+admin-verb-make-adminmouse = Превращает вас в админскую мышь.
 
-admin-verb-text-make-mentormouse = Become Mentor Mouse
-admin-verb-make-mentormouse = Makes yourself a Mentor Mouse.
+admin-verb-text-make-mentormouse = Стать мышью ментора
+admin-verb-make-mentormouse = Превращает вас в мышь ментора.
 
-admin-smite-Felionoid-species-swap-name = Become Felionoid
-admin-smite-Felionoid-species-swap-description = It changes their species to Felionoid. Useful for people who were being space racist.
+admin-smite-Felionoid-species-swap-name = Стать фелионоидом
+admin-smite-Felionoid-species-swap-description = Меняет их вид на фелионоида. Полезно для тех, кто занимался космическим расизмом.
 
-admin-smite-gnome-name = Gnomify
-admin-smite-gnome-description = Makes the target very whimsical.
+admin-smite-gnome-name = Гномизировать
+admin-smite-gnome-description = Делает цель очень причудливой.

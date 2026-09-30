@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetMetalHydrogen = metal hydrogen helmet
-    .desc = A superb helmet made with the toughest and rarest materials available to man.
+ent-ClothingHeadHelmetMetalHydrogen = шлем из металлического водорода
+    .desc = Превосходный шлем, сделанный из самых прочных и редких материалов, доступных человеку.

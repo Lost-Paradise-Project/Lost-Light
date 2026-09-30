@@ -1,22 +1,22 @@
-reagent-physical-desc-abductor = abducted
+reagent-physical-desc-abductor = похищенный
 
-reagent-physical-desc-avali = non-ferrous
+reagent-physical-desc-avali = цветной металл
 
-reagent-physical-desc-resomi = non-ferrous
+reagent-physical-desc-resomi = цветной металл
 
-reagent-physical-desc-crab-juice = carcinized
+reagent-physical-desc-crab-juice = карцинизированный
 
-reagent-physical-desc-devil-juice = devilish
+reagent-physical-desc-devil-juice = дьявольский
 
-reagent-physical-desc-otherworldly = otherworldly
+reagent-physical-desc-otherworldly = потусторонний
 
-reagent-physical-desc-elf-diethylamine = rejuvenating
-reagent-physical-desc-elf-tranexamic-acid = clotting
-reagent-physical-desc-elf-space-cleaner = sparkling
+reagent-physical-desc-elf-diethylamine = омолаживающий
+reagent-physical-desc-elf-tranexamic-acid = свёртывающий
+reagent-physical-desc-elf-space-cleaner = искрящийся
 
-reagent-physical-desc-highlander = immortal
+reagent-physical-desc-highlander = бессмертный
 
-reagent-physical-desc-resinfera = spiny
+reagent-physical-desc-resinfera = колючий
 
 
-reagent-physical-desc-sawian = artificial
+reagent-physical-desc-sawian = искусственный

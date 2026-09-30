@@ -25,7 +25,7 @@ game-ticker-get-info-preround-text = Привет и добро пожалова
     >[color=yellow]{ $desc }[/color]
 game-ticker-no-map-selected = [color=red]Карта ещё не выбрана![/color]
 game-ticker-player-no-jobs-available-when-joining = При попытке присоединиться к игре ни одной роли не было доступно.
-game-ticker-player-no-character-for-job-available-when-joining = When attempting to join the game, no characters were available for selected job { $job }.
+game-ticker-player-no-character-for-job-available-when-joining = При попытке войти в игру не оказалось подходящих персонажей для выбранной должности { $job }.
 
 # Displayed in chat to admins when a player joins
 player-join-message = Игрок { $name } зашёл!

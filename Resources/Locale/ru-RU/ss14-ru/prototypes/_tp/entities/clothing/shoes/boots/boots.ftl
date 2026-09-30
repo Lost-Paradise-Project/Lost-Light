@@ -1,2 +1,2 @@
-ent-TP14ClothingShoesBootsDarkPerformer = dark performer's boots
-    .desc = With these, you could dance, and be a ninja in the night!
+ent-TP14ClothingShoesBootsDarkPerformer = ботинки тёмного артиста
+    .desc = В них можно танцевать и быть ночным ниндзя!

@@ -1,1 +1,1 @@
-loose-power-connector-triggered = The power connector sparks and the blade cuts out!
+loose-power-connector-triggered = Разъём питания искрит, и клинок гаснет!

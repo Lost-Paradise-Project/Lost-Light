@@ -1,2 +1,2 @@
-eeep-spawn = Attention crew, a powerful electrical surge has been detected on station.
-eeep-spawn-sender = Automated Power Monitoring System
+eeep-spawn = Внимание, экипаж: на станции обнаружен мощный электрический всплеск.
+eeep-spawn-sender = Автоматическая система мониторинга питания

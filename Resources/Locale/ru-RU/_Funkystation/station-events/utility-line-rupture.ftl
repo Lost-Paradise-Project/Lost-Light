@@ -1,2 +1,2 @@
-utility-line-rupture-announcement = Systems detect a high-pressure utility line nearing rupture point { $location }. Expulsion of flammable materials is highly probable. Engineering personnel are requested to intervene urgently.
-utility-line-rupture-sender = SIS/TR v3.20
+utility-line-rupture-announcement = Системы обнаружили, что коммунальная магистраль высокого давления близка к разрыву { $location }. Выброс горючих материалов крайне вероятен. Инженерному персоналу необходимо срочно вмешаться.
+utility-line-rupture-sender = СИС/ТР v3.20

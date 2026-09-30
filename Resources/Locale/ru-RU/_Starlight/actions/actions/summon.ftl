@@ -1,2 +1,2 @@
-item-summon-action-recall = The { CAPITALIZE($item) } materialises in your hand!
-item-summon-action-vanish = The { CAPITALIZE($item) } vanishes!
+item-summon-action-recall = { CAPITALIZE($item) } материализуется в вашей руке!
+item-summon-action-vanish = { CAPITALIZE($item) } исчезает!

@@ -1,7 +1,7 @@
-wall-stain-cleaning-start = You start cleaning the stain with all your might...
-wall-stain-cleaning-success = You manage to clean the stain off.
-wall-stain-cleaning-dry-rag = The rag is too dry! Wet it first.
-wall-stain-pour-start = You start carefully pouring the contents of { THE($container) } onto the wall...
-wall-stain-pour-water-blocked = You can't pour water on the wall.
-wall-stain-pour-success = You pour the contents of { THE($container) } onto the wall.
-wall-stain-pour-full = The wall is too soaked to hold any more liquid.
+wall-stain-cleaning-start = Вы начинаете изо всех сил оттирать пятно...
+wall-stain-cleaning-success = Вам удаётся оттереть пятно.
+wall-stain-cleaning-dry-rag = Тряпка слишком сухая! Сначала намочите её.
+wall-stain-pour-start = Вы начинаете осторожно выливать содержимое { THE($container) } на стену...
+wall-stain-pour-water-blocked = Вы не можете лить воду на стену.
+wall-stain-pour-success = Вы выливаете содержимое { THE($container) } на стену.
+wall-stain-pour-full = Стена слишком пропитана, чтобы впитать ещё жидкость.

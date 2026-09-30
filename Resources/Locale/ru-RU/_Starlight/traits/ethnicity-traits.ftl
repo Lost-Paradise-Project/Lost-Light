@@ -1,16 +1,16 @@
-trait-category-ethnicity = Ethnicity
+trait-category-ethnicity = Этничность
 
-trait-ethnicity-elf-high-name = Quela
-trait-ethnicity-elf-high-desc = You descend from the pure-intentioned philosophers, scientists, and explorers of the Quelani Worlds. Your native language is Aielic, and your poetry is second to none. Most likely, you came to the Starlight Sector as part of MAGE's mission to gather intelligence on the Wizarding Federation.
+trait-ethnicity-elf-high-name = Квели
+trait-ethnicity-elf-high-desc = Вы происходите от чистосердечных философов, учёных и исследователей Квеланийских миров. Ваш родной язык — айелик, а ваша поэзия не имеет равных. Скорее всего, вы прибыли в Сектор Starlight в рамках миссии МАГИ по сбору разведданных о Федерации волшебников.
 
-trait-ethnicity-elf-wood-name = Laurasse
-trait-ethnicity-elf-wood-desc = You take pride in your ability to cultivate and nurture plants. You grew up surrounded by Null Scar Dionae, and regard them as your closest friends. Like all laurassi, your mother tongue is Sylvan, preserved down through the ages by the wisdom of trees. To you, all these metal ships seem like cages; you wish they were more like your verdant homeworld, Tavas.
+trait-ethnicity-elf-wood-name = Лауразе
+trait-ethnicity-elf-wood-desc = Вы гордитесь своим умением выращивать и взращивать растения. Вы выросли в окружении дион Нулевого шрама и считаете их самыми близкими друзьями. Как и все лаураси, ваш родной язык — сильван, сохранённый сквозь века мудростью деревьев. Вам все эти металлические корабли кажутся клетками; вы хотели бы, чтобы они больше походили на вашу зелёную родину, Тавас.
 
-trait-ethnicity-elf-dark-name = Seiryth
-trait-ethnicity-elf-dark-desc = As the generations passed, some of those lost in the Null Scar looked deeper and deeper into the tear itself to harness its mysterious and dangerous secrets. They came to be known as the seirythii, and their leaders as the Seiryth Monarchs, ruling from unassailable fortresses on inhospitable, violent worlds. As one of their descendants, you were surprised to discover just how many nefarious creatures here in the Starlight sector already speak your native language, Darktongue.
+trait-ethnicity-elf-dark-name = Сейрит
+trait-ethnicity-elf-dark-desc = С течением поколений некоторые из потерянных в Нулевом шраме всё глубже вглядывались в саму брешь, чтобы обуздать её таинственные и опасные секреты. Они стали известны как сейритии, а их предводители — как Монархи Сейрит, правящие из неприступных крепостей на негостеприимных, жестоких мирах. Будучи одним из их потомков, вы с удивлением обнаружили, сколько зловещих существ здесь, в секторе Starlight, уже говорят на вашем родном языке — языке тьмы.
 
-trait-ethnicity-elf-cave-name = Detar
-trait-ethnicity-elf-cave-desc = While the other kindreds of aielith squabbled over the event horizon of the Null Scar, your people settled on supposedly uninhabitable Dark Worlds, those orbiting weak suns or none at all, by delving deep into the rock and living on geothermal heat. There your people waited, adapting to the darkness, for your chance to grab ultimate power. Your native language, Felyaic, is very similar to Darktongue, but has its own unique qualities that only detarii and seirythii understand.
+trait-ethnicity-elf-cave-name = Детар
+trait-ethnicity-elf-cave-desc = Пока другие роды айелитов спорили о горизонте событий Нулевого шрама, ваш народ поселился на якобы необитаемых Тёмных мирах — тех, что вращаются вокруг слабых солнц или вовсе без них, глубоко зарывшись в камень и живя на геотермальном тепле. Там ваш народ ждал, приспосабливаясь к темноте, шанса захватить абсолютную власть. Ваш родной язык, фелийский, очень похож на язык тьмы, но обладает собственными уникальными чертами, понятными только детарии и сейритии.
 
-trait-ethnicity-reptilian-drakari-name = Drakari
-trait-ethnicity-reptilian-drakari-desc = You descend from ancient reptilian clans whose traditions claim an ancestry stretching back to dragons themselves. Whether those stories are history or myth has been argued for centuries, but their influence upon your people is undeniable. Drakari culture values kinship, strength, hospitality, and the preservation of old stories, with many families maintaining traditions that predate humanity's arrival in the stars. Your native language is an archaic dialect of Sinta'Unathi (in other words, Draconic), though most Drakari speak Galactic Common fluently.
+trait-ethnicity-reptilian-drakari-name = Дракари
+trait-ethnicity-reptilian-drakari-desc = Вы происходите от древних кланов рептилий, чьи предания утверждают, что их род восходит к самим драконам. Были ли эти рассказы историей или мифом, спорят веками, но их влияние на ваш народ неоспоримо. Культура дракари ценит родство, силу, гостеприимство и сохранение древних историй, а многие семьи сохраняют традиции, старше прихода человечества к звёздам. Ваш родной язык — архаичный диалект синта'унати (иными словами, драконий), хотя большинство дракари свободно говорят на галактическом общем.

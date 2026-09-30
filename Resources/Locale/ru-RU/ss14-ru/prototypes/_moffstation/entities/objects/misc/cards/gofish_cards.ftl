@@ -1,8 +1,8 @@
-ent-GoFishCardDeckBox = box of go fish cards
+ent-GoFishCardDeckBox = коробка карт «Рыбалка»
     .desc = { ent-BasePlayingCardDeckBox.desc }
-    .suffix = GoFish
-ent-GoFishCardDeck = deck of cards
+    .suffix = Рыбалка
+ent-GoFishCardDeck = колода карт
     .desc = { ent-BasePlayingCardDeck.desc }
-    .suffix = GoFish
+    .suffix = Рыбалка
 ent-GoFishRulesCard = { ent-BasePlayingCard }
     .desc = { ent-BasePlayingCard.desc }

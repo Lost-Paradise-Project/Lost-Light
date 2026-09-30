@@ -1,2 +1,2 @@
-ent-NothingEntity = nothing object
+ent-NothingEntity = пустой объект
     .desc = { "" }

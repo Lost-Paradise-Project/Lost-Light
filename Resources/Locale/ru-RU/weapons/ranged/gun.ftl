@@ -51,8 +51,8 @@ gun-magazine-examine = Тут [color={ $color }]{ $count }[/color] { $count ->
     *[other] штук
 }.
 # 🌟Starlight - Start🌟
-gun-magazine-ammo-type = It contains [color={ $color }]{ $type }[/color].
-gun-magazine-empty = Magazine is empty.
+gun-magazine-ammo-type = Содержит [color={ $color }]{ $type }[/color].
+gun-magazine-empty = Магазин пуст.
 # 🌟Starlight - End🌟
 
 # RevolverAmmoProvider

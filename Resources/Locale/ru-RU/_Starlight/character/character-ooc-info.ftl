@@ -1,2 +1,2 @@
-personal-notes-text-placeholder = Any personal notes for roleplaying. (Only shown to you in the Character Info window)
-ooc-notes-text-placeholder = Publicly Visible Out-Of-Character notes for roleplaying. (Shown to anyone when they open the Character Info window)
+personal-notes-text-placeholder = Любые личные заметки для ролевой игры. (Видны только вам в окне информации о персонаже)
+ooc-notes-text-placeholder = Публично видимые внеигровые заметки для ролевой игры. (Видны всем, кто открывает окно информации о персонаже)

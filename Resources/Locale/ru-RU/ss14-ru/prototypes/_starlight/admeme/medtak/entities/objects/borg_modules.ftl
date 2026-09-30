@@ -1,6 +1,6 @@
 ent-BaseBorgModuleMedTak = { ent-BaseBorgModule }
     .desc = { ent-BaseBorgModule.desc }
-ent-BorgModuleMedTakMedical = MedTak medical cyborg module
-    .desc = A MedTak cyborg module for medical support.
-ent-BorgModuleMedTakRifle = MedTak rifle cyborg module
-    .desc = A MedTak cyborg module equipped with a cut down CODE-9 and a breaching hammer.
+ent-BorgModuleMedTakMedical = медицинский модуль киборга МедТак
+    .desc = Модуль киборга МедТак для медицинской поддержки.
+ent-BorgModuleMedTakRifle = винтовочный модуль киборга МедТак
+    .desc = Модуль киборга МедТак с урезанной CODE-9 и пробивным молотом.

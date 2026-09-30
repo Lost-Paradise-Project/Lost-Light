@@ -1,2 +1,2 @@
-ent-EncryptionKeyMedTak = MedTak encryption key
-    .desc = An encryption key used by MedTak operators.
+ent-EncryptionKeyMedTak = ключ шифрования МедТак
+    .desc = Ключ шифрования, используемый операторами МедТак.

@@ -1,2 +1,2 @@
-hardsuit-chemical-immunity-blocked = Your hardsuit protects you from chemical injection!
-hardsuit-chemical-immunity-blocked-attacker = Their hardsuit protects them from chemical injection!
+hardsuit-chemical-immunity-blocked = Ваш скафандр защищает вас от химической инъекции!
+hardsuit-chemical-immunity-blocked-attacker = Их скафандр защищает их от химической инъекции!

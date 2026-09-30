@@ -1,20 +1,20 @@
 command-description-stations-list =
-    Returns a list of all stations.
+    Возвращает список всех станций.
 command-description-stations-get =
-    Gets the active station, if and only if there is only one.
+    Возвращает активную станцию, только если она единственная.
 command-description-stations-getowningstation =
-    Gets the station that a given entity is "owned by" (within)
+    Возвращает станцию, которой «принадлежит» (внутри которой находится) указанная сущность.
 command-description-stations-grids =
-    Returns all grids associated with the input station.
+    Возвращает все гриды, связанные с входной станцией.
 command-description-stations-config =
-    Returns the config associated with the input station, if any.
+    Возвращает конфигурацию, связанную с входной станцией, если она есть.
 command-description-stations-addgrid =
-    Adds a grid to the given station.
+    Добавляет грид к указанной станции.
 command-description-stations-rmgrid =
-    Removes a grid from the given station.
+    Убирает грид у указанной станции.
 command-description-stations-rename =
-    Renames the given station.
+    Переименовывает указанную станцию.
 command-description-stations-largestgrid =
-    Returns the largest grid the given station has, if any.
+    Возвращает крупнейший грид указанной станции, если он есть.
 command-description-stations-rerollBounties =
-    Clears all the current bounties for the station and gets a new selection.
+    Сбрасывает все текущие заказы станции и выбирает новый набор.

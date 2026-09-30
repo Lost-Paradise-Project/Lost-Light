@@ -1,66 +1,66 @@
-spellbook-staff-healing-name = Staff of Healing
-spellbook-staff-healing-description = You don't foresee having to use this in your quest for carnage too often.
+spellbook-staff-healing-name = Посох исцеления
+spellbook-staff-healing-description = Вы не предвидите, что вам часто придётся пользоваться им в вашем стремлении к резне.
 
-spellbook-event-summon-cheese-name = Summon Cheese
-spellbook-event-summon-cheese-description = Reach into the void and pluck out... a single piece of cheese!
+spellbook-event-summon-cheese-name = Призвать сыр
+spellbook-event-summon-cheese-description = Протяните руку в пустоту и выхватите... один кусочек сыра!
 
-spellbook-event-tower-babel-name = Language Shift
-spellbook-event-tower-babel-description = Can you Repeat that? Randomizes everything's languages! Has to be cast on station. Disables refunds.
-action-speech-spell-babel = Ya' Ni Lau' Re el
-action-speech-spell-babel-tts = Yare Ni, Laure Real
+spellbook-event-tower-babel-name = Смена языка
+spellbook-event-tower-babel-description = Можешь повторить? Случайным образом меняет языки у всех! Нужно применять на станции. Отключает возврат.
+action-speech-spell-babel = Я' Ни Лау' Ре эл
+action-speech-spell-babel-tts = Яре Ни, Лауре Реал
 
-tower-of-babel-shifted = Your tongue becomes twisted
-tower-of-babel-returned = Your tongue settles back into place
+tower-of-babel-shifted = Ваш язык заплетается
+tower-of-babel-returned = Ваш язык встаёт на место
 
-spellbook-event-mana-blade-name = Spectral Blade
-spellbook-event-mana-blade-description = Channel your power into your hand and create a sword out of hardened mana.
+spellbook-event-mana-blade-name = Призрачный клинок
+spellbook-event-mana-blade-description = Направьте свою силу в руку и создайте меч из затвердевшей маны.
 
-spellbook-icestorm-name = Ice Storm
-spellbook-icestorm-desc = Unleash a freezing blast of ice that chills everything it touches to the bone!
+spellbook-icestorm-name = Ледяная буря
+spellbook-icestorm-desc = Выпустите морозный ледяной взрыв, промораживающий до костей всё, чего он коснётся!
 
-spellbook-mind-swap-description-starlight = Exchange bodies with another person! You'll lose access to most wizard equipment while in another body... is it worth it?
+spellbook-mind-swap-description-starlight = Обменяйтесь телами с другим человеком! Вы потеряете доступ к большей части снаряжения волшебника, пока находитесь в другом теле... стоит ли оно того?
 
-spellbook-firemaster-name = The Pyromancer path
-spellbook-firemaster-desc = A set of armor and spells tailored for the greatest of pyromancers. Burn them all, show them the searing heat of your skills.
+spellbook-firemaster-name = Путь пиромансера
+spellbook-firemaster-desc = Набор брони и заклинаний, созданный для величайших пиромансеров. Сожгите их всех, покажите им палящий жар своего мастерства.
 
-spellbook-firebolt-name = Firebolt
-spellbook-firebolt-desc = A quick to recharge firebolt, sears the flesh and ignites those it lands on.
+spellbook-firebolt-name = Огненная стрела
+spellbook-firebolt-desc = Быстро перезаряжающаяся огненная стрела, обжигает плоть и поджигает тех, на кого попадает.
 
-spellbook-fireorb-name = Fireorb
-spellbook-fireorb-desc = A bigger and slower fireball, ignites everything in a wide area on detonation.
+spellbook-fireorb-name = Огненный шар
+spellbook-fireorb-desc = Больший и более медленный огненный шар, при взрыве поджигает всё в большой области.
 
-spellbook-explosionrune-name = Explosion Rune
-spellbook-explosionrune-desc = Place a magical rune under your feet that detonates once someone walks on it.
+spellbook-explosionrune-name = Взрывная руна
+spellbook-explosionrune-desc = Поместите под ноги магическую руну, которая взрывается, когда кто-то на неё наступит.
 
-spellbook-igniterune-name = Incendiary Rune
-spellbook-igniterune-desc = Place a magical rune under your feet that ignites anyone who dares walk on it.
+spellbook-igniterune-name = Зажигательная руна
+spellbook-igniterune-desc = Поместите под ноги магическую руну, которая поджигает любого, кто посмеет на неё наступить.
 
-spellbook-firearrow-name = Fire Arrows
-spellbook-firearrow-desc = Fire three arrows with a tight spread, quick to recharge.
+spellbook-firearrow-name = Огненные стрелы
+spellbook-firearrow-desc = Выпустите три стрелы с малым разбросом, быстро перезаряжается.
 
-spellbook-cryomancer-name = The Cryomancer path
-spellbook-cryomancer-desc = A set of armor and spells fit for a master Cryomancer. The cold takes all and today you will make sure of that.
+spellbook-cryomancer-name = Путь криомансера
+spellbook-cryomancer-desc = Набор брони и заклинаний, достойный мастера-криомансера. Холод забирает всё, и сегодня вы в этом удостоверитесь.
 
-spellbook-freezerune-name = Freeze Rune
-spellbook-freezerune-desc = A rune that appears where the caster wishes, freezes in place and damages anyone who walks on it.
+spellbook-freezerune-name = Замораживающая руна
+spellbook-freezerune-desc = Руна, появляющаяся там, где пожелает заклинатель, замораживает на месте и наносит урон любому, кто на неё наступит.
 
-spellbook-frozentome-name = The Frozen Tome
-spellbook-frozentome-desc = An ancient tome rich in cryo magic, allows the wielder to cast a ray of frost.
+spellbook-frozentome-name = Ледяной фолиант
+spellbook-frozentome-desc = Древний фолиант, богатый криомагией, позволяет владельцу выпускать луч мороза.
 
-spellbook-icesculpture-name = Summon Ice Sculpture
-spellbook-icesculpture-desc = Draws a magical rune that summons an ice sculpture after two seconds.
+spellbook-icesculpture-name = Призыв ледяной скульптуры
+spellbook-icesculpture-desc = Рисует магическую руну, которая через две секунды призывает ледяную скульптуру.
 
-spellbook-arcticglare-name = Artic Glare
-spellbook-arcticglare-desc = Show them the fury of the artic, freezing anyone in front of you.
+spellbook-arcticglare-name = Арктический взгляд
+spellbook-arcticglare-desc = Покажите им ярость Арктики, замораживая всех перед вами.
 
-spellbook-iceshard-name = Ice Shard
-spellbook-iceshard-desc = Throw a sharp shard of ice that will slice and freeze the first person it touches.
+spellbook-iceshard-name = Ледяной осколок
+spellbook-iceshard-desc = Бросьте острый ледяной осколок, который рассечёт и заморозит первого, кого коснётся.
 
-spellbook-iceorb-name = Heart of winter
-spellbook-iceorb-desc = Unleash a slow moving orb of ice that periodically throws ice shards around.
+spellbook-iceorb-name = Сердце зимы
+spellbook-iceorb-desc = Выпустите медленно движущийся ледяной шар, периодически разбрасывающий вокруг ледяные осколки.
 
-spellbook-icepillars-name = Summon ice pillars
-spellbook-icepillars-desc = Summon a row of somewhat sturdy ice pillars in front of you, block projectiles but not lasers.
+spellbook-icepillars-name = Призыв ледяных столбов
+spellbook-icepillars-desc = Призывает перед вами ряд довольно прочных ледяных столбов, они блокируют снаряды, но не лазеры.
 
-spellbook-eruption-name = Eruption
-spellbook-eruption-desc = Summon a rune that after 2 seconds will start sending fiery shrapnels in a wide area.
+spellbook-eruption-name = Извержение
+spellbook-eruption-desc = Призовите руну, которая через 2 секунды начнёт выпускать огненные осколки на большой площади.

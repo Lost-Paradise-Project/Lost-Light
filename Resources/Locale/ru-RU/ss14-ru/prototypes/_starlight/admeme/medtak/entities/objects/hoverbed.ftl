@@ -1,5 +1,5 @@
-ent-MedTakHoverBed = MedTak hover-stretcher
-    .desc = A repulsor-suspended stretcher system used by MedTak operators to transport patients.
+ent-MedTakHoverBed = ховер-носилки МедТак
+    .desc = Система носилок на репульсорной подвеске, используемая операторами МедТак для перевозки пациентов.
 ent-MedTakHoverBedSpawnFolded = { ent-MedTakHoverBed }
     .desc = { ent-MedTakHoverBed.desc }
-    .suffix = folded
+    .suffix = сложен

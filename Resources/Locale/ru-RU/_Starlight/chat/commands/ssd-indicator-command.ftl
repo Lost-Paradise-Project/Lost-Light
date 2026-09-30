@@ -1,5 +1,5 @@
-ssd-indicator-command-description = Mark yourself as SSD.
-ssd-indicator-command-help-text = The SSD command triggers the SSD indicator without needing to close the game.
+ssd-indicator-command-description = Пометить себя как SSD.
+ssd-indicator-command-help-text = Команда SSD включает индикатор SSD без необходимости закрывать игру.
                                   Please note that being in this state will automatically cryo your character after some time, removing you from the game.
-ssd-indicator-command-denied = You cannot SSD right now.
-ssd-indicator-command-no-character = You cannot SSD without being actively in control of a character.
+ssd-indicator-command-denied = Сейчас вы не можете уйти в SSD.
+ssd-indicator-command-no-character = Нельзя уйти в SSD, не управляя персонажем.

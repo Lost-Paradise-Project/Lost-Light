@@ -1,10 +1,10 @@
-ent-ShadekinShadow = shadekin Haze
+ent-ShadekinShadow = дымка шейдекина
     .desc = { ent-BaseShadow.desc }
-ent-ShadekinPhaseInEffect = shadekin Phase in
+ent-ShadekinPhaseInEffect = вход шейдекина в фазу
     .desc = { "" }
-ent-ShadekinPhaseInEffect2 = shadekin Phase in 2
+ent-ShadekinPhaseInEffect2 = вход шейдекина в фазу 2
     .desc = { ent-ShadekinPhaseInEffect.desc }
-ent-ShadekinPhaseOutEffect = shadekin Phase out
+ent-ShadekinPhaseOutEffect = выход шейдекина из фазы
     .desc = { ent-ShadekinPhaseInEffect.desc }
 ent-ShadekinShadegen = { "" }
     .desc = { "" }

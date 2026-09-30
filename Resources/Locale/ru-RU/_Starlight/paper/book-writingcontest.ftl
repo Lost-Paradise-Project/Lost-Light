@@ -1,5 +1,5 @@
 # Written by woldendov
-book-capns-scruples = There were me a rotten ferry cap'n of not too much acclaim.
+book-capns-scruples = Был я паромным капитаном, гнилым, и славой не блистал.
         Me sloop scarcely able to go from astroid to planet and back home again.
 
         On me travels I see a lot of this, that 'n' the other. It don't mind me none, not one bit, not me, me dog or me mother.
@@ -17,7 +17,7 @@ book-capns-scruples = There were me a rotten ferry cap'n of not too much acclaim
         "That's how simple it be." "Don't much mind the poor, methinks, but they should ride for free."
 
 # Written by sladeaz
-book-last-cow = The constant low thrum of the life-support fans hummed through the metal bones of Orbital Ranch Theta-9, a lonely little speck drifting in the icy shadow of Jupiter’s moons. It was the year 2652, and Bill Voss had spent four long, quiet years out here as the sole caretaker of Nanotrasen’s priceless pureblood Earth livestock. The warm, earthy smell of hay and manure always mixed with that sharp metallic bite of recycled air that coated his tongue like old pennies. Every morning he’d wake to the soft lowing of the cattle rolling through the grav-sim barn, the gentle clucking of the hens, and the faint rustle of sheep wool brushing against the stall walls. It was lonely work, sure, but those familiar scents and sounds kept the endless black void from pressing in too hard.
+book-last-cow = Постоянный низкий гул вентиляторов системы жизнеобеспечения разносился по металлическим костям Орбитального ранчо Тета-9, одинокой крохи, дрейфующей в ледяной тени лун Юпитера. Шёл 2652 год, и Билл Восс провёл здесь четыре долгих тихих года единственным смотрителем бесценного чистокровного земного скота НаноТрейзен. Тёплый землистый запах сена и навоза всегда смешивался с резким металлическим привкусом переработанного воздуха, что оседал на языке, как старые монеты. Каждое утро он просыпался от тихого мычания коров, что катилось по амбару с гравитационной симуляцией, от нежного кудахтанья кур и от слабого шороха овечьей шерсти о стенки стойл. Работа была одинокой, это точно, но знакомые запахи и звуки не давали бескрайней чёрной пустоте давить слишком сильно.
 
         He kept the old double-barrel shotgun hidden in a locked panel behind the feed bins. He’d smuggled it up in pieces years ago, breaking every corporate rule in the book. It was a twelve-gauge with a walnut stock worn smooth by generations of hands back on Earth. The gun felt solid and real in his grip—no finicky energy cells, no fancy electronics that could glitch out when you needed them most. Just brass shells, a good kick of recoil, and raw stopping power. He’d never had to use it. Until now.
 
@@ -118,7 +118,7 @@ book-last-cow = The constant low thrum of the life-support fans hummed through t
         Then there was only silence… and the wet sound of something still moving in the dark.
 
 # Written by mica_bloodless
-book-through-the-glass = The pounding on the windows stopped hours ago.
+book-through-the-glass = Стук в окна прекратился несколько часов назад.
          Are they tired, or paused on a slower cruelty?
          Their bloodshot eyes still hunt me through the glass, but they do not break for now they wait, heavy as a storm closely approaching.
          I'm cursed to be stuck in the lawyer's office: no defense here but pens, loose paper and varnished wood.
@@ -153,7 +153,7 @@ book-through-the-glass = The pounding on the windows stopped hours ago.
          For them to feed on my sinner’s body.
 
 # Written by karmakitsuna
-book-caves-of-urania = The horrible conclusion long over due, finally settled over my confused mind and despite my initial reluctance, suddenly became an awful certainty. I was lost. Completely, and hopelessly lost in the vast labyrinthine recesses of the caves of Urania-9775. No path yielded familiarity, no landmark offered guidance. The thought of never again seeing the blessed light of day, or feeling anything beneath my feet besides the icy unfeeling cavern rocks had fueled my disbelief up until this point. But now, hope had departed.
+book-caves-of-urania = Ужасный вывод, давно назревший, наконец опустился на мой растерянный разум и, несмотря на моё первоначальное нежелание, вдруг стал жуткой уверенностью. Я заблудился. Полностью и безнадёжно заблудился в обширных лабиринтообразных недрах пещер Урании-9775. Ни одна тропа не казалась знакомой, ни один ориентир не подсказывал путь. Мысль о том, что я больше никогда не увижу благословенный дневной свет и не почувствую под ногами ничего, кроме ледяных бесчувственных пещерных камней, подпитывала моё неверие до этого момента. Но теперь надежда покинула меня.
 
         I recalled learning how individuals faced in these situations often lost their composure. However, I took no pride in my mindfulness and felt no superiority for retaining my senses. For my own undoing would be the same. Our legacies would be identical- a case study covered briefly during orientation. I’d be unnamed and unremembered. Starvation would prove my ultimate fate, of this I was sure. Aside from the eyeless fish in pools around the caverns I’d seen no other forms of life.
 
@@ -190,7 +190,7 @@ book-caves-of-urania = The horrible conclusion long over due, finally settled ov
         My leader clutched my arm and trembled, their light shaking fitfully and casting flickering shadows across the walls of the tomb. I took no motion and drew no breath, my horrified gaze fixed upon the cold floor and lifeless figure ahead. And as the sounds registered in my ears my brain slowly comprehended their meaning. It was then that the awesome truth struck me. That this creature that I had killed, this unfathomable wraith, had once been me.
 
 # Written by anonymous
-book-chuckles = The stale burn of cheap tobacco mixed with too-pure air hits the back of Jo’s palate as she puffs on her cigarette. No one came down to this hall unless they needed a break from station goings-on. No noise — except the lights and fans — and no smells — except your own tobacco, or the occasional hydro-grown spliff. A girl could relax here, especially after a grueling lunch shift working the small mess hall alone. And relaxing she was, until the grating squeak of floppy red shoes dragged her back to fluorescent presence.
+book-chuckles = Затхлый жар дешёвого табака, смешанный со слишком чистым воздухом, бьёт Джо в нёбо, пока она затягивается сигаретой. Никто не приходил в этот зал, если ему не нужен был перерыв от станционных дел. Ни шума — кроме ламп и вентиляторов — и никаких запахов — кроме собственного табака или изредка гидропонного косяка. Здесь девушка могла расслабиться, особенно после изматывающей обеденной смены в одиночку в маленькой столовой. И она расслаблялась, пока скрипучий визг мягких красных туфель не вернул её к флуоресцентной реальности.
 
         “Oh hi, Jo! My favorite cook!” The spindly arachnid stands before here, waving with all three of his right arms, obsidian-black compound eyes glittering in the dim light of the hall.
 
@@ -277,7 +277,7 @@ book-chuckles = The stale burn of cheap tobacco mixed with too-pure air hits the
         Dreams of meat.
 
 # Written by teapoterror
-book-corridor-nine = There was something off with Corridor Nine. The central eight corridors were where all
+book-corridor-nine = С Девятым коридором было что-то не так. Центральные восемь коридоров были тем местом, где всё
         foot-traffic went throughout Quincy Port, a small little midway stop between somewhere and
         nowhere on the far reaches of frontier space. Consulting the electronic maps, you'd never even
         find a "Corridor Nine", unless you personally crawled around the old maintenance halls and
@@ -349,10 +349,10 @@ book-corridor-nine = There was something off with Corridor Nine. The central eig
         help but feel, looking at that walled off path… that there was something off with Corridor Nine.
 
 # Written by some_dork17
-book-bedside-photograph = Here I am, sitting on a blanket on a beach, staring up at the clouds. The breeze blows gently, cool in comparison to the warm sun shining from above. This is my first time in a place such as this. I’ve only seen what a beach looks like in photos, and so this whole experience is a new opportunity for me. I take a deep breath. I exhale with a shudder. I am only wearing a bathing suit, and I am suddenly realizing that it is rather cold, despite the warm, summer vista before me. I look in my beach day bag for something to put on. It feels like I spent forever packing for this big day, and here I am, having forgotten to pack anything warm to wear. I take a deep, long sigh, and exhale with a sputter. I begrudgingly pick up the blanket and wrap it around myself. I have been told the sand would get everywhere, but the warmth of the blanket is too tempting to pass up. The sand is soft like fresh marshmallows, it makes me want to lie back and fall asleep, but I know that I shouldn’t. I’ve been told I would get a sunburn if I drift off right now. I turn back to my bag for my sunscreen, and I find myself once again disappointed by my improper planning. Only medicine and the associated empty plastic packaging. Profoundly disappointing. I place my bag behind me and rest my head upon it. I take a breath that lasts for hours, and exhale for just a few seconds. This is what I’ve always wanted. I look forward to the ocean ahead, gently pushing against the sand at my feet. There is a brightly colored beach ball floating on the horizon. It bobs up and down. I could go get it, but I’ve been told the waves would bring it back, and so I choose to wait for it. I take a deep breath, but find no reason to exhale. The tide has come in, and it’s come in to brush against me. I move my bag out of the way to stop it from getting wet, but the water is very warm, so I don’t mind getting wet. I am quite thirsty, but I’ve always been told the water is salty, and not safe to drink, so I stop myself from trying it. With nothing else to do, I give up, lie back, and soak in the sunshine. I close my eyes and smile, my hardsuit cushioning my slumber as the water pools around me. This is everything I’ve ever wanted. I exhale.
+book-bedside-photograph = Вот я сижу на одеяле на пляже и смотрю на облака. Ветерок дует мягко, прохладный по сравнению с тёплым солнцем сверху. Я впервые в таком месте. Я видела пляж только на фотографиях, так что всё это для меня новая возможность. Я делаю глубокий вдох. Выдыхаю с дрожью. На мне только купальник, и вдруг я понимаю, что довольно холодно, несмотря на тёплый летний вид передо мной. Я ищу в пляжной сумке, что бы надеть. Кажется, я целую вечность собиралась к этому большому дню, а вот я здесь и забыла взять хоть что-то тёплое. Я делаю глубокий долгий вздох и выдыхаю с фырканьем. Неохотно поднимаю одеяло и заворачиваюсь в него. Мне говорили, что песок будет повсюду, но тепло одеяла слишком соблазнительно, чтобы отказаться. Песок мягкий, как свежий зефир, мне хочется откинуться и уснуть, но я знаю, что не стоит. Мне говорили, что я обгорю, если сейчас задремлю. Я оборачиваюсь к сумке за солнцезащитным кремом и в очередной раз разочаровываюсь в своём неправильном планировании. Только лекарства и соответствующая пустая пластиковая упаковка. Глубоко разочаровывает. Я кладу сумку за спину и опускаю на неё голову. Делаю вдох, длящийся часами, и выдыхаю всего за несколько секунд. Именно этого я всегда хотела. Я смотрю вперёд на океан, мягко напирающий на песок у моих ног. На горизонте плавает ярко раскрашенный пляжный мяч. Он покачивается вверх и вниз. Я могла бы пойти за ним, но мне говорили, что волны вернут его, и я решаю подождать. Я делаю глубокий вдох, но не нахожу причины выдыхать. Прилив пришёл и коснулся меня. Я убираю сумку с дороги, чтобы она не намокла, но вода очень тёплая, так что я не против промокнуть. Мне очень хочется пить, но мне всегда говорили, что вода солёная и небезопасна для питья, так что я не пробую. Больше делать нечего, я сдаюсь, откидываюсь назад и впитываю солнечный свет. Я закрываю глаза и улыбаюсь, мой скафандр смягчает мой сон, а вода собирается вокруг меня. Это всё, чего я когда-либо хотела. Я выдыхаю.
 
 # Written by csadt
-book-death-always = A deafening diffusion of pressure echoed on quarter inch thick crystalline diaphragm windows, reflecting sound and light in a cascade of information taken in by chroma sensitive diodes behind vat grown prysmarine corneas; themselves sewn with nanocarbonfibers to micro servos making adjustments on the specometer level at two million times a second.
+book-death-always = Оглушительное рассеяние давления отозвалось эхом в кристаллических диафрагмовых окнах толщиной в четверть дюйма, отражая звук и свет каскадом информации, принимаемой хроматически чувствительными диодами за выращенными в чанах прим-мариновыми роговицами; сами они сшиты нанокарбоновыми волокнами с микросервоприводами, вносящими коррективы на уровне спектрометра два миллиона раз в секунду.
         Behind it all a bag of water and salt processes the electrical impulses jumping from copper to neurons.
         Her neck jerks, skull moving a good three inches from its previous location.
         The bullet makes a clean cut just below her lips.
@@ -384,115 +384,84 @@ book-death-always = A deafening diffusion of pressure echoed on quarter inch thi
 
 # Written by mediocremann
 book-marty =
-         Coordinates: (-239, -195)
+         Координаты: (-239, -195)
          Stanchion_station
          Timecomp: 2385 02.06.21
-         Log#849211
-         Designation “M.A.R.T” AI-247
-
-         …Network/Vaultsecure DISCONNECT
-         …Network/Bridgefront DISCONNECT
-         …Network/Egoexteriorwest DISCONNECT
-         …Process/Thermal ONLINE
-
-                 query/kinematicssim run
-                 Blast velocity…700∓1.40% units/ms
-                 Est. time until critical system failure T-0.0002s
-
-                 Est. time until critical system failure T-0.00019s
-                 query/commcheck run
-                 Network/Commsci OFFLINE
-                 Network/Commbin OFFLINE
-
-                 Est. time until evacuation T-264.44333
-                 query/soulnum run
-
-                 Result: 364 lifeforms on vessel
-                 Exempt lifeform: Moth_roach, Mop_roach, Rattus, Chiroptera, (...)
-                 Result: 98 lifeforms on vessel
-                 query/evacsuccessprob run
-                 Result: 0%
-
-                 Re-run query…
-
-                 Re-run query…
-
-                 Re-run query…
-
-         Cancel query attempt (#492)
-         Logos: process-iterative
-
+         Журнал#849211
+         Обозначение «M.A.R.T» ИИ-247
+         …Сеть/Vaultsecure ОТКЛЮЧЕНО
+         …Сеть/Bridgefront ОТКЛЮЧЕНО
+         …Сеть/Egoexteriorwest ОТКЛЮЧЕНО
+         …Процесс/Thermal В СЕТИ
+         запрос/kinematicssim выполнить
+         Скорость взрыва…700∓1.40% ед/мс
+                 Расч. время до критического отказа системы T-0.0002с
+                 Расч. время до критического отказа системы T-0.00019с
+                 запрос/commcheck выполнить
+                 Сеть/Commsci ВНЕ СЕТИ
+                 Сеть/Commbin ВНЕ СЕТИ
+                 Расч. время до эвакуации T-264.44333
+                 запрос/soulnum выполнить
+                 Результат: 364 формы жизни на судне
+                 Исключённые формы жизни: Moth_roach, Mop_roach, Rattus, Chiroptera, (...)
+                 Результат: 98 форм жизни на судне
+                 запрос/evacsuccessprob выполнить
+                 Результат: 0%
+                 Повторить запрос…
+                 Повторить запрос…
+                 Повторить запрос…
+                 Отменить попытку запроса (#492)
+                 Logos: process-iterative
                  State_law1
-                 Do not harm crew, through action or inaction*1
-
-                 query/geometrysim run
-                         Width of Stanchion 1282∓0.27% units
-                         Max_diameter of blast 7744∓4.80% units
-
+                 Не причинять вред экипажу действием или бездействием*1
+                 запрос/geometrysim выполнить
+                 Ширина Stanchion 1282∓0.27% ед
+                 Макс_диаметр взрыва 7744∓4.80% ед
                  State_law2
-                 Obey orders by crew*2
-
-                 query/kinematicssim run
-         Blast velocity…698∓10.87% units/ms
-                 Est. time until critical system fail
-                 list/avereactionspeedorganic show
-
-                 homosapien-225ms
-                 lacertaweh-210ms
-                 lepidopterachit-50ms
-                 (...)
-                 ego_cpu-0.00021ms
-
-                 No possible action
+                 Подчиняться приказам экипажа*2
+         запрос/kinematicssim выполнить
+         Скорость взрыва…698∓10.87% ед/мс
+         Расч. время до критического отказа системы
+                 список/avereactionspeedorganic показать
+                 homosapien-225мс
+                 lacertaweh-210мс
+                 lepidopterachit-50мс
+                         (...)
+                         ego_cpu-0.00021мс
+                         Возможных действий нет
                  State_law3
-                 Protect own existence*3
-
-
-                 query/log#849211 run
-                 No possible action
-
-
-         query/manifest/sci run
-         Bambi Yuuka        , Research Director
-         query/vitals/RD run
-                 ALIVE, damage 27.3, bloodlevel 89%
-                 homosapien-225ms
-                         Est. time until catastrophic failure of organic functions T-00243∓21.09%
-                 No valid hierarchy found!
-
-
-                 Network/Egocore/internalprocessing
-                 Create intsim
-
-
-
-
-                 Network/Egocore/internalprocessing/internalsim/intsim run
-                         Intsim/law_resolution run
-
+                 Защищать собственное существование*3
+                 запрос/журнал#849211 выполнить
+                 Возможных действий нет
+         запрос/manifest/sci выполнить
+                 Bambi Yuuka        , директор исследований
+                 запрос/vitals/RD выполнить
+                 ЖИВА, урон 27.3, уровень крови 89%
+                 homosapien-225мс
+                 Расч. время до катастрофического отказа органических функций T-00243∓21.09%
+                 Действительная иерархия не найдена!
+                 Сеть/Egocore/internalprocessing
+                 Создать intsim
+                 Сеть/Egocore/internalprocessing/internalsim/intsim выполнить
+                 Intsim/law_resolution выполнить
                  intsim/query/reaction
-                 intsim/RD reaction speed-0.00032ms
-
-                 intsim/contact/egovox/vox3 run
-                 Increase speed 100000X
-         query/transcription
-
-                 M.A.R.T: ”Hello miss Yuuka, you called upon me? For what do I owe the
-         pleasure?”
-         intsim/RD: “Hey Marty, so the uh- the doors to my office seem to be bolted shut, can you unbolt them for me real quick? Can’t really do my job behind half a unit of steel, you know? Sometimes I wonder what the hell happened last shift to need all those doors bolted… well, nothing good presumably.”
-
-                 intsim/network/sci/door/.21/unbolt run
-
-                         intsim/RD: “Ah, thanks Marty, I won’t bother you much longer, I’m sure you
-         have much better things to do, don’t you?”
-                         M.A.R.T: “I’m here any time Yuuka, I live to serve the station.”
-                 intsim/contact/egovox/vox3 end
-                 query/transcription end
-
-                 Valid hierarchy.
+                 intsim/RD скорость реакции-0.00032мс
+                 intsim/contact/egovox/vox3 выполнить
+                 Увеличить скорость 100000X
+                 запрос/transcription
+                 M.A.R.T: «Здравствуйте, мисс Юука, вы обращались ко мне? Чем обязан
+                 удовольствию?»
+                 intsim/RD: «Привет, Марти, так вот... двери в мой кабинет, похоже, заблокированы болтами, можешь быстро разблокировать их для меня? Как-то не получается работать за половиной единицы стали, понимаешь? Иногда я думаю, что вообще случилось за прошлую смену, что понадобилось запирать все эти двери... ну, наверное, ничего хорошего.»
+         intsim/network/sci/door/.21/unbolt выполнить
+         intsim/RD: «А, спасибо, Марти, больше не буду тебя беспокоить, уверена, у тебя
+         есть дела получше, не так ли?»
+                 M.A.R.T: «Я здесь в любое время, Юука, я живу, чтобы служить станции.»
+                 intsim/contact/egovox/vox3 конец
+                         запрос/transcription конец
+                 Действительная иерархия.
 
 # Written by nullnominal
-book-nts-martyr = Fuck. That was a mistake on my part. I tried to help Still, yet Nanotrasion decided that me helping her wasn’t a worthwhile endeavor. I still tried to help, and now I’m in this godawful situation. They want me, and they will stop at nothing to achieve it. Still has PTSD, and NT, even if not directly, caused it to happen. She, well, had a shift where she perceived revolutionaries, but there were no revolutionaries. Because of that, she had decided to call for a Death Squad. NT never actually sent one however. They didn’t see the threat of revolutionaries to be worthy of it at that time.
+book-nts-martyr = Чёрт. Это была моя ошибка. Я пытался помочь Стилл, но Нанотрейзен решила, что моя помощь ей не стоит усилий. Я всё равно пытался помочь, и теперь я в этой богомерзкой ситуации. Они хотят меня и не остановятся ни перед чем. У Стилл ПТСР, и НТ, пусть и не напрямую, стала причиной этого. У неё была смена, где ей мерещились революционеры, но революционеров не было. Из-за этого она решила вызвать Эскадрон смерти. НТ на самом деле никого не отправила. Они не сочли угрозу революционеров достойной этого в то время.
 
         I tried. I really tried to manage her PTSD. I am her doctor, a trusted one in NT in fact. Hell, I’m a Chief Medical Officer. Obviously, I kept helping, as Still is one of my best friends. Why wouldn’t I? Her personality is more important than ruthless efficiency. Hell, her PTSD makes it so she is even less efficient than normal. NT obviously didn’t agree, as they sent NT-ISD after me.
 
@@ -608,7 +577,7 @@ book-nts-martyr = Fuck. That was a mistake on my part. I tried to help Still, ye
 
 
 # Written by xoan
-book-when-thoughts-end = In this familiar place I work, as I always do, with only a vague understanding of my purpose.
+book-when-thoughts-end = В этом знакомом месте я работаю, как всегда, лишь смутно понимая свою цель.
 
          Opening my eyes to the thickly opaque lime-green glass of the cryopod, my mind slowly comes into focus. The first thought is just how bitterly cold it is in here. A thin layer of brittle frost covers everything. My arms and legs feel like lead, requiring considerable effort to push through this chilly embrace to pop open the latch. As soon as it’s pushed open, air rushes in causing me to feel uncomfortably hot in comparison. A few moments later I clamber out of the pod, rising shakily to my feet. Just as I’m blinking away the last of the melting ice crystals I find myself already heading toward my assigned department.
 
@@ -638,7 +607,7 @@ book-when-thoughts-end = In this familiar place I work, as I always do, with onl
          “Hedrick? Hedrick are you alright?” I blink repeatedly as I refocus on the current situation. I look to the voice, to the roboticist. “…sorry” I start, “I have your delivery here.” I’m watched in silence as I unload the two crates. The three of them loom over me as I unpack the delivery order. Trying to cut the tension I strike up a conversation. “So why did you order all this? What sort of project are you working on?” To my surprise it is the musician that speaks. “A change.” Each one is grinning at me, sharing a look amongst themselves. He continues, “to put it a little more materialistically…” he reaches into his pocket, pulling out a security flash, the same type that I saw spill from the locker, except for the cracked bulb and exposed wires. My mind briefly flicks back to that moment remembering the uncomfortable disorientation. “We are making these, and a lot of them at that. It serves to open up the mind and view the world in a new, better way.” It’s at this point that I feel my arms grabbed by the other two, I realise that I’m being restrained! I try to tug and pull my arms free, but I’m held tight. Panic shoots through me like lightning wondering why they are doing this to me, and to what end. “Say…,” the musician lifts up the flash to my face, its cracked bulb brightening with a crackling red glow. He buzzes, “…has anyone discussed with you Hegelian Dialectics?”
 
 # Written by .wuspoppinb
-book-apocolypse = It is said there will come a time when shields are riven, spears shaken, and swords splintered; In the waning hours of the wolf, the wind, and wicked. In the many elder days, they called it Armageddon, the apocalypse, the end of all things. It is so foretold; the ending shall be heralded by the sounding of great horns, the likes of which blow unerring across the land, seas, and skies. The echo of which brings down that which was made to stand eternal.
+book-apocolypse = Говорят, придёт время, когда щиты будут расколоты, копья сломаны, а мечи расщеплены; в убывающие часы волка, ветра и зла. В былые древние дни это называли Армагеддоном, апокалипсисом, концом всего сущего. Так предречено: конец возвестит трубный глас великих рогов, что несутся безошибочно над землёй, морями и небесами. Эхо которого низвергает то, что было создано стоять вечно.
 
 
 
@@ -655,7 +624,7 @@ book-apocolypse = It is said there will come a time when shields are riven, spea
       The fourth rider, bore a visage to haunt the dreams of all men. Emaciated, gaunt, and impossibly thin, the rider could barely be called alive. His skin was sickeningly green, and the horse reflected it's master. His face bore no features, a smooth crest of flesh where eyes and a mouth would be. There was no mistaking it; this was Death, and with him, a fourth of the universe was his domain.
 
 # Written by naterthegreater
-book-wizard-dice = "Snide, smug, swindling sharks." Ricky kicks back the chair and drowns the string of curses in a glass of rum. The free booze is the only good thing about his job. "Tch, 'become an assistant, see the galaxy.'" And where does he end up?
+book-wizard-dice = «Язвительные, самодовольные, мошеннические акулы». Рикки откидывает стул и топит поток проклятий в стакане рома. Бесплатная выпивка — единственное хорошее в его работе. «Тьфу, "стань ассистентом, увидишь галактику"». И где он оказывается?
 
         Barratry, freaking Barratry. He slams his glass down and leers at the dirty little bar where staff drink their days away. CentComm loves touting their "first-rate working environments" and "commitment to employee well-being" when they're parading cameras around Manor and Oasis.
 
@@ -751,276 +720,269 @@ book-wizard-dice = "Snide, smug, swindling sharks." Ricky kicks back the chair a
 
 # Written by thelenzy
 book-hop-play =
-        Characters
-        The Head of Personnel
-        An Assistant
-        A Jerk
-        A Smart Alec
-        A Scientist
-        A Clown
-        An Anomaly
-        A Space Carp
-        A Security Officer
-        A Cadet
-
-        Scene 1
-        At the Head of Personal’s Office, crew members line up to get
-        what they need from the poor HOP. A Smart Alec with big glasses
-        waits in the back of the line, and a Jerk pushes them out of the
-        way, and takes their spot. An Assistant hesitantly walks
-        forward, now at the front of the line, followed by a Clown and a
-        Scientist.
-        HOP: Who’s next?
-        ASSISTANT: Uh, hi, that would be me.
-        HOP: Okay.
-        ASSISTANT: Yeah…
-        HOP: Do you need something?
-        ASSISTANT: Oh! Uh, yes!
-        The HOP stares blankly.
-        ASSISTANT: Ah, well this is really awkward, and this my first
-        time on the station, and, uh, a scary looking guy told me I have
-        to come here, and uh–
-        HOP: Did you lose your PDA?
-        ASSISTANT: Uh, PDA?
-        SMART ALEC: PDA, Personal Digital Assistant.
-        ASSISTANT: Well, I don’t think I have an assistant, actually I
-        think I’m an assistant?
-        HOP: No, It’s the device you wear on your suit… With your ID in
-        it.
-        ASSISTANT: Oh my ID! I think the scary guy mentioned that!
-        HOP: That was a security officer. They sent you here because you
-        lost your ID?
-        The Assistant stares blankly.
-        HOP: That was a question.
-        ASSISTANT: Oh! Well, then, uh, yeah.
-        JERK: For all things holy and unholy, hurry up! I’ve been
-        waiting in this line for light years! With how long this is
-        taking, a moth is gonna come by and eat my jumpsuit!
-        SMART ALEC: Erm, actually, a light year is a unit of distance–
-        JERK: Shut the hell up, ya smart alec!
-        SCIENTIST: You shut the hell up, you sad fuck. Everytime you
-        open your mouth, it’s like a toddler with a drum set on
-        Christmas day. And that’s not even mentioning a scent of stale
-        piss that assaults my nose when you wag your tongue.
-        JERK: Hey, fuck you, you sci-fi freak!
-        SCIENTIST: Hey pal, do us all a favor and glue your mouth shut,
-        then jump in that trash chute over there, and flush your sorry
-        ass to disposals. I’m tired of your putrid stench!
-        CLOWN: Guh-huh! This is getting good!
-        ASSISTANT: My, people do a lot of yelling here…
-        HOP: Ignore them. What is your name?
-        ASSISTANT: My name, oh, uh…
-        HOP: Like what you have people call you…
-        JERK: You know what, science guy, how about you stop trying to
-        blow up the station with your wicked experiments!
-        SMART ALEC: I’m pretty sure they were hired to do those–
-        JERK: Shut up! No one is talking to you! You, bud, are such a
-        lonely, sad waste of space, that even throwing you out the
-        airlock would still waste space.
-        SMART ALEC: Well, that wasn’t very nice.
-        The Clown giggles, the Scientist sighs, as the Assistant
-        whispers their name to the HOP.
-        HOP: Here’s a new PDA and ID. Don’t lose this one.
-        ASSISTANT: Okay! Uh, thank you!
-        HOP: Right. Next.
-        The Assistant skips off aimlessly. The Clown squeaks forward.
-        CLOWN: Hoppy, Hoppy! Time for All Access!
-        HOP: No.
-        CLOWN: Guh-huh! Pretty please, pretty Hoppy! I’ll be your
-        bestest friend in the whole wide station.
-        HOP: No.
-        CLOWN: Aww, really?
-        HOP: Just leave before I have security escort you.
-        CLOWN: Aw, looks like I’ll have to get All Access the other way,
-        guh-huh!
-        The Clown squeaks off gleefully, despite this failure. For All
-        Access can be gained by more underhanded methods, after all. The
-        Scientist moves forward.
-        SCIENTIST: Yo, so I’m here about the anomaly in your office.
-        HOP: Anomaly? Oh, was that always there?
-        The HOP Looks back to see the anomaly, flashing and glowing as
-        anomalies do.
-        ANOMALY: Wom wom. Woosh woosh. Wom woosh wom.
-        Scientist: Yeah, so I need to go back there and do experiments
-        on it.
-        HOP: No.
-        SCIENTIST: No? Broski, we need to do tests so we can like,
-        progress scientifically and stuff. You know that.
-        SMART ALEC: That’s true!
-        HOP: I don’t want you in my office.
-        SCIENTIST: Bruh, it might blow up if I like, leave it there.
-        HOP: It might blow up– well, why didn’t you start with that?!
-        Get it out of here, now.
-        SCIENTIST: Homedog, I don’t have access.
-        HOP: Can you wait one second, or is that too long? I’m going to
-        the door now.
-        JERK: Can you hurry up? I got places to be!
-        The HOP holds open the door for the Scientist, eagerly awaiting
-        the anomaly’s removal.
-        SCIENTIST: Thanks, duderino. So I can just run a few tests on it
-        and–
-        HOP: No! Remove it!
-        SCIENTIST: Bruh, ok. You don’t have to yell.
-        ANOMALY: Wom wom woosh. Woosh woosh. What a comfortable office.
-        The Scientist drags the anomaly off.
-        JERK: My grandma is quicker than this! About damn time!
-        HOP: It’s you.
-        JERK: Yes, I’m back. I want my Atmos job!
-        HOP: Okay. Do you have a signed form from the CE?
-        JERK: Well, the Chief is god knows where, I’m not waiting
-        around. Their dumbass is probably dead.
-        HOP: Their dumbass needs to approve any new hirings to their
-        department.
-        JERK: Oh c’mon, HOP, I need this job! Can’t you just give me the
-        damn card so we can both get on with our lives?! I got stuff to
-        do!
-        HOP: No signature, no Atmos job. I think we have a Mime position
-        open.
-        JERK: You lousy bitch-ass motherfucker from Mars, I swear to
-        fuck.
-        SMART ALEC: Erm, do you think you could hurry up? You clearly
-        aren’t getting an Atmospherics job.
-        JERK: Shut your mouth, four eyes, before I weld them shut.
-        The Smart Alec backs off. The HOP speaks into their headset.
-        HOP: Security, could you escort someone from my office. Leave
-        now. Now, what do you need?
-        SMART ALEC: Ah, well, I was wondering if the Librarian position
-        was still open?
-        HOP: Of course.
-        JERK: These flying fucks… All I wanted was Atmos access, is that
-        too much to ask? But no, we have to do everything by the book,
-        yeah, this mouthy nerd and this HOP with a crowbar up their ass.
-        Well, here’s a trick outta my book!
-        The Jerk pulls out a pistol and fires upon the Smart Alec.
-        SMART ALEC: I had dreams!
-        The Smart Alec falls to the floor, and capitulates to the
-        undeniable destination that awaits us all: Death.
-        HOP: Security, get to my office! We have a mad man with a gun!
-        JERK: I’ll be back, you blue bastard! You won’t live to regret
-        this mistake! Soon, this whole station will rue the day I’ve
-        been wronged!
-        The Jerk runs off, potentially cackling.
-        Scene 2
-        We rejoin our beloved HOP later on in the shift, still in their
-        office.
-        HOP: That was quite a start to the shift. Our new librarian got
-        better, the medical staff was able to resuscitate them, thank
-        the stars. As for me? I’ve been holed up in my office. Security
-        never did make it over. Trouble with the clown, I’ve heard. I
-        hired a new bartender, so that was cool. And of course, plenty
-        of crew members needed their IDs replaced. Are they really that
-        hard to keep track of? I suppose that’s why I’m Head of
-        Personnel. Someone needs to have a head on their shoulders.
-        Still, the threats from that unruly jerk unnerve me. My HOP
-        instincts tell me something fishy is afoot.
-        Something fishy is, in fact, a foot. Enter the Space Carp. Hip
-        music plays for their entrance
-        CARP: I’m the space carp! Blub blub!
-        HOP: Ah! That’s a talking carp! Fish aren’t supposed to speak.
-        CARP: Yeah, I’m a scary space carp, sent here to kill you! Blub!
-        Wait, are you only afraid of me because I’m talking?
-        HOP: Well, not afraid. Concerned.
-        CARP: Well, ya gonna be more than concerned once I flop over
-        your desk. Ooh, that’s a tight fit. Let’s get limber!
-        The space carp does a dance routine to a funky beat.
-        HOP: Not bad. I’m looking for a new station performer, if you
-        are interested.
-        CARP: Ah, well, ya see, I’m already employed.
-        The Jerk emerges from the shadows.
-        JERK: So you’ll give a fucking carp a job but you won’t give me
-        one!?
-        HOP: The long awaited return.
-        JERK: Time for my revenge, you head of punks! With my ray-finned
-        associate, and my sinister technology, I’ll make short work of
-        you, and then I’ll let the tesla loose!
-        HOP: Security, I’ve been waiting all day for you to make it to
-        my office. Now would be a good time…
-        JERK: Sinister technology: go!
-        The Jerk uses sinister technology to open the door, which closes
-        after the Jerk and the Carp enter.
-        JERK: Now you’re stuck in here with me, and you’re also stuck in
-        here with the carp! No one but the captain could get in here to
-        save you!
-        CARP: Ay! You’re in big trouble, buster. Blub blub!
-        HOP: Security! Security? Why did that clown have to go and cause
-        all that trouble…
-        JERK: Now it's time for my extra-aquatic minion to tear you to
-        shreds!
-        A squeaking echoes through the hall, and then the Clown enters.
-        CLOWN: Guh-huh! That doesn’t look good!
-        HOP: Of all the things I needed at this moment, a clown was not
-        one of them.
-        CLOWN: Hiya there, Hoppy! Caught between a carp and a hard
-        place?
-        HOP: I wouldn’t be in this mess if you hadn’t caught the ire of
-        this station’s security force.
-        CLOWN: Oh my! Well, pretty Hoppy, I needed to get more access,
-        so of course I borrowed it from Cappy! When at first you don’t
-        succeed, steal the captain’s ID! Guh-huh!
-        HOP: Why do you even need All Access?
-        CLOWN: Why, fun, of course! Guh-huh!
-        HOP: Wait, if you have the captain’s ID…
-        CLOWN: Why, I can trot right in!
-        The Clown opens the door and squeaks in.
-        JERK: Hey, you get out of here, or I’ll shoot you! With a gun!
-        Actually, I think I’ll just shoot you anyway, once I reload this
-        thing…
-        CLOWN: My oh my! Someone’s a bit sour today. I think you could
-        be a bit more sweet! Huyuck!
-        The Clown throws a pie square on the Jerks face! The Jerk falls
-        over and cries and screams.
-        JERK: Ah! My Face! My beautiful face! I’m allergic to pie! Get
-        it off! Get it off!
-        CARP: Allergic to pie? That’s pathetic.
-        The Carp ceases its assault on the HOP.
-        HOP: Well, Clown, it seems you saved my life.
-        CLOWN: All in a day's work, Guh-huh!
-        The Clown honks. A Security Officer and a Cadet arrive on the
-        scene.
-        SECOFF: Stop right there!
-        CADET: Yeah!
-        SECOFF: Put the captain’s ID on the ground right now, Clown, or
-        I’ll tase you. Then you’ll really be feeling funny.
-        CADET: Yeah!
-        SECOFF: Or perhaps we’ll beat you to putty with our batons.
-        CADET: Yeah!
-        SECOFF: Yeah, uh, can we have a sidebar real quick?
-        CADET: Yes sir!
-        The Security Officer takes the Cadet aside.
-        SECOFF: Yeah so, I really don’t need you being a hype man here,
-        you can just watch and follow my lead.
-        CADET: Oh, sorry sir. I thought it made us sound tough!
-        SECOFF: Well, it’s not. And you don’t have to call me “sir.” It
-        ain’t that deep.
-        CADET: Yes sir, sorry sir!
-        The Cadet face palms.
-        CADET: Oh, I’m just the darndest fool! I’ll never make an
-        officer at this rate!
-        The Cadet begins beating themselves up.
-        HOP: Can you do that somewhere other than my office?
-        SECOFF: Ah, well, first we need to arrest that Clown for
-        stealing the captain’s ID.
-        HOP: That clown saved my life. How about I do what I should have
-        done in the first place. Clown, let me see your ID.
-        CLOWN: Guh-huh?
-        HOP: All Access. It’s only fair.
-        SECOFF: We gotta make an arrest.
-        HOP: Then arrest this pie covered miscreant. And Clown, give
-        back the cap’s ID.
-        CLOWN: Guh-huh!
-        CARP: Ay, is that Performer gig still available?
-        HOP: Sure, you can be the Clown’s helper.
-        CARP: I’ll be cool as a carp-ender!
-        HOP: Sure. Everyone, get out of my office. After everything I’ve
-        dealt with today, I need a drink!
-        They exit the HOP office. As the HOP leaves, the clown throws a
-        banana in front of them, and they slip. The HOP sighs.
-        HOP: All in a day’s work.
-        They all laugh at the HOP.
-        THE END
+        Действующие лица
+        Глава персонала
+        Ассистент
+        Грубиян
+        Всезнайка
+        Учёный
+        Клоун
+        Аномалия
+        Космический карп
+        Офицер СБ
+        Кадет
+        Сцена 1
+        В кабинете Главы персонала члены экипажа выстроились в очередь, чтобы
+        получить у бедного ГП всё, что им нужно. Всезнайка в больших очках
+        ждёт в конце очереди, а Грубиян отталкивает его с дороги
+        и занимает его место. Ассистент нерешительно идёт
+        вперёд, теперь он первый в очереди, за ним Клоун и
+        Учёный.
+        ГП: Кто следующий?
+        АССИСТЕНТ: Э-э, привет, это, наверное, я.
+        ГП: Хорошо.
+        АССИСТЕНТ: Ну да…
+        ГП: Вам что-то нужно?
+        АССИСТЕНТ: О! Э-э, да!
+        ГП молча смотрит.
+        АССИСТЕНТ: Ах, ну, это очень неловко, и это мой первый
+        раз на станции, и э-э, какой-то страшный на вид тип сказал, что мне
+        надо прийти сюда, и э-э…
+        ГП: Вы потеряли свой КПК?
+        АССИСТЕНТ: Э-э, КПК?
+        ВСЕЗНАЙКА: КПК — Карманный Персональный Компьютер.
+        АССИСТЕНТ: Ну, не думаю, что у меня есть ассистент, вообще-то
+        я думаю, что я ассистент?
+        ГП: Нет, это устройство, которое вы носите на костюме... С вашей ID-картой
+        внутри.
+        АССИСТЕНТ: О, моя ID-карта! Кажется, страшный тип что-то такое говорил!
+        ГП: Это был офицер СБ. Они отправили вас сюда, потому что вы
+        потеряли ID-карту?
+        Ассистент молча смотрит.
+        ГП: Это был вопрос.
+        АССИСТЕНТ: О! Ну, тогда, э-э, да.
+        ГРУБИЯН: Ради всего святого и нечестивого, поторопитесь! Я стою
+        в этой очереди уже световые годы! С такой скоростью
+        скоро придёт моль и съест мой комбинезон!
+        ВСЕЗНАЙКА: Кхм, вообще-то световой год — это единица расстояния…
+        ГРУБИЯН: Заткнись к чёрту, всезнайка!
+        УЧЁНЫЙ: Сам заткнись к чёрту, жалкий ублюдок. Каждый раз, когда ты
+        открываешь рот, это как малыш с ударной установкой в
+        Рождество. И я уж не говорю о запахе застарелой
+        мочи, который бьёт мне в нос, когда ты шевелишь языком.
+        ГРУБИЯН: Эй, иди ты, научно-фантастический урод!
+        УЧЁНЫЙ: Эй, приятель, сделай всем одолжение: склей себе рот,
+        потом прыгни вон в тот мусоропровод и смойся своей никчёмной
+        задницей в утилизацию. Я устал от твоей гнилой вони!
+        КЛОУН: Гу-гу! Становится интересно!
+        АССИСТЕНТ: Ох, люди тут много кричат…
+        ГП: Не обращайте внимания. Как вас зовут?
+        АССИСТЕНТ: Моё имя, о, э-э…
+        ГП: Так, как вас просят называть…
+        ГРУБИЯН: Знаешь что, научный парень, а как насчёт того, чтобы ты перестал
+        пытаться взорвать станцию своими злобными экспериментами!
+        ВСЕЗНАЙКА: Я почти уверен, что их наняли для этих экспериментов…
+        ГРУБИЯН: Заткнись! С тобой никто не разговаривает! Ты, дружок, такая
+        одинокая, жалкая трата места, что даже выброс тебя в
+        шлюз всё равно потратил бы место.
+        ВСЕЗНАЙКА: Ну, это было не очень мило.
+        Клоун хихикает, Учёный вздыхает, а Ассистент
+        шепчет своё имя ГП.
+        ГП: Вот новый КПК и ID-карта. Не теряйте эту.
+        АССИСТЕНТ: Хорошо! Э-э, спасибо!
+        ГП: Ладно. Следующий.
+        Ассистент бесцельно упархивает. Клоун пищит вперёд.
+        КЛОУН: Гоппи, Гоппи! Время Полного доступа!
+        ГП: Нет.
+        КЛОУН: Гу-гу! Пожалуйста, милый Гоппи! Я буду твоим
+        лучшим другом на всей станции.
+        ГП: Нет.
+        КЛОУН: Ой, правда?
+        ГП: Уходите, пока я не вызвал СБ, чтобы вас вывели.
+        КЛОУН: Ой, похоже, придётся получить Полный доступ другим путём,
+        гу-гу!
+        Клоун радостно пищит прочь, несмотря на эту неудачу. Ведь Полный
+        доступ можно получить и более подлыми способами. Учёный
+        выходит вперёд.
+        УЧЁНЫЙ: Йо, так вот, я насчёт аномалии в вашем кабинете.
+        ГП: Аномалия? О, она всегда там была?
+        ГП оглядывается и видит аномалию, мигающую и светящуюся, как это делают аномалии.
+        АНОМАЛИЯ: Вом вом. Вуш вуш. Вом вуш вом.
+        Учёный: Да, так вот, мне нужно пройти туда и провести на ней эксперименты.
+        ГП: Нет.
+        УЧЁНЫЙ: Нет? Бро, нам нужно провести испытания, чтобы, ну,
+        прогрессировать в научном плане и всё такое. Вы же знаете.
+        ВСЕЗНАЙКА: Это верно!
+        ГП: Я не хочу вас в своём кабинете.
+        УЧЁНЫЙ: Чувак, она может взорваться, если я, ну, оставлю её там.
+        ГП: Она может взорваться... ну, почему вы не с этого начали?!
+        Уберите её отсюда, сейчас же.
+        УЧЁНЫЙ: Дружище, у меня нет доступа.
+        ГП: Можете подождать секунду, или это слишком долго? Я сейчас иду
+        к двери.
+        ГРУБИЯН: Можно побыстрее? Мне надо идти!
+        ГП придерживает дверь для Учёного, с нетерпением ожидая, когда
+        аномалию уберут.
+        УЧЁНЫЙ: Спасибо, дружище. Так я могу просто провести на ней пару тестов
+        и…
+        ГП: Нет! Уберите её!
+        УЧЁНЫЙ: Чувак, ладно. Не обязательно кричать.
+        АНОМАЛИЯ: Вом вом вуш. Вуш вуш. Какой удобный кабинет.
+        Учёный утаскивает аномалию.
+        ГРУБИЯН: Моя бабуля быстрее! Давно пора!
+        ГП: Это вы.
+        ГРУБИЯН: Да, я вернулся. Я хочу свою работу в Атмосе!
+        ГП: Хорошо. У вас есть подписанная форма от ГИ?
+        ГРУБИЯН: Ну, Главный чёрт знает где, я не буду ждать.
+        Его дурак, наверное, мёртв.
+        ГП: Его дураку нужно одобрить любой новый найм в его
+        отдел.
+        ГРУБИЯН: Да ладно, ГП, мне нужна эта работа! Разве вы не можете просто дать мне
+        эту чёртову карту, чтобы мы оба могли жить дальше?! Мне надо
+        идти!
+        ГП: Нет подписи — нет работы в Атмосе. Кажется, у нас открыта должность мима.
+        ГРУБИЯН: Ты паршивый ублюдок с Марса, клянусь
+        чёрт возьми.
+        ВСЕЗНАЙКА: Кхм, можно побыстрее? Вам явно
+        не светит работа в Атмосфере.
+        ГРУБИЯН: Закрой рот, очкарик, пока я не заварил тебе очки.
+        Всезнайка отступает. ГП говорит в гарнитуру.
+        ГП: СБ, не могли бы вы вывести кого-то из моего кабинета. Уходите
+        сейчас. Итак, что вам нужно?
+        ВСЕЗНАЙКА: А, ну, мне было интересно, открыта ли ещё должность
+        библиотекаря?
+        ГП: Конечно.
+        ГРУБИЯН: Эти летающие ублюдки... Всё, что мне было нужно, — доступ в Атмос, разве это
+        слишком много? Но нет, всё нужно делать по инструкции,
+        да, этот болтливый ботаник и этот ГП с ломом в заднице.
+        Ну, вот вам фокус из моей книжки!
+        Грубиян достаёт пистолет и стреляет во Всезнайку.
+        ВСЕЗНАЙКА: У меня были мечты!
+        Всезнайка падает на пол и покоряется
+        неизбежной участи, что ждёт нас всех: Смерти.
+        ГП: СБ, живо ко мне в кабинет! У нас безумец с пистолетом!
+        ГРУБИЯН: Я вернусь, синий ублюдок! Ты не доживёшь до сожаления
+        об этой ошибке! Скоро вся эта станция проклянёт тот день, когда меня
+        обидели!
+        Грубиян убегает, возможно, хохоча.
+        Сцена 2
+        Мы вновь встречаем нашего любимого ГП позже в смену, всё ещё в своём
+        кабинете.
+        ГП: Что ж, начало смены было то ещё. Наш новый библиотекарь
+        поправился, медики смогли его реанимировать, слава
+        звёздам. А я? Я сидел в своём кабинете. СБ
+        так и не добралась. Говорят, проблемы с клоуном. Я
+        нанял нового бармена, так что это было здорово. И, конечно, многим
+        членам экипажа нужно было заменить ID-карты. Неужели их так
+        трудно не терять? Наверное, поэтому я и Глава
+        персонала. Кто-то должен держать голову на плечах.
+        Тем не менее угрозы этого несносного грубияна меня беспокоят. Моё чутьё ГП
+        подсказывает, что что-то нечисто.
+        Что-то нечисто, и вот оно. Входит Космический карп. Под ритмичную
+        музыку выходит на сцену
+        КАРП: Я космический карп! Буль-буль!
+        ГП: А! Это говорящий карп! Рыбы не должны говорить.
+        КАРП: Да, я страшный космический карп, посланный убить вас! Буль!
+        Постойте, вы боитесь меня только потому, что я говорю?
+        ГП: Ну, не боюсь. Обеспокоен.
+        КАРП: Ну, вы будете больше, чем обеспокоены, когда я плюхнусь на
+        ваш стол. О, тут тесновато. Давайте разомнёмся!
+        Космический карп исполняет танцевальный номер под фанковый бит.
+        ГП: Неплохо. Я ищу нового артиста для станции, если вам
+        интересно.
+        КАРП: Ах, ну, видите ли, я уже трудоустроен.
+        Из тени выходит Грубиян.
+        ГРУБИЯН: Так вы дадите чёртовому карпу работу, а мне нет!?
+        ГП: Долгожданное возвращение.
+        ГРУБИЯН: Пора моей мести, вы, глава панков! С моим лучепёрым
+        соратником и моей зловещей технологией я быстро с вами
+        разделаюсь, а потом выпущу тесла!
+        ГП: СБ, я весь день жду, когда вы доберётесь до
+        моего кабинета. Сейчас было бы самое время…
+        ГРУБИЯН: Зловещая технология: вперёд!
+        Грубиян использует зловещую технологию, чтобы открыть дверь, которая закрывается
+        после того, как Грубиян и Карп входят.
+        ГРУБИЯН: Теперь вы застряли здесь со мной, и вы также застряли
+        здесь с карпом! Никто, кроме капитана, не сможет войти сюда,
+        чтобы вас спасти!
+        КАРП: Эй! У вас большие неприятности, приятель. Буль-буль!
+        ГП: СБ! СБ? Почему этот клоун должен был пойти и устроить
+        все эти неприятности…
+        ГРУБИЯН: Теперь пора моему вневодному приспешнику разорвать вас на
+        клочья!
+        По коридору разносится писк, и входит Клоун.
+        КЛОУН: Гу-гу! Это выглядит нехорошо!
+        ГП: Из всего, что мне нужно было в этот момент, клоун был
+        последним.
+        КЛОУН: Приветик, Гоппи! Между карпом и трудным местом?
+        ГП: Я бы не попал в эту передрягу, если бы вы не навлекли на себя гнев
+        СБ этой станции.
+        КЛОУН: О боже! Ну, милый Гоппи, мне нужно было больше доступа,
+        так что, конечно, я одолжил его у Кэппи! Если сначала не получилось,
+        своруй ID капитана! Гу-гу!
+        ГП: Зачем вам вообще нужен Полный доступ?
+        КЛОУН: Ну как же, веселья ради, конечно! Гу-гу!
+        ГП: Постойте, если у вас ID капитана…
+        КЛОУН: Ну, я могу спокойно войти!
+        Клоун открывает дверь и с писком заходит.
+        ГРУБИЯН: Эй, убирайтесь отсюда, или я выстрелю! Из пистолета!
+        Вообще-то, я, пожалуй, всё равно выстрелю, когда перезаряжу эту
+        штуку…
+        КЛОУН: Ох, боже! Кто-то сегодня немного кислый. Думаю, вам стоило бы
+        быть послаще! Хюяк!
+        Клоун бросает кремовый пирог Грубияну в лицо! Грубиян падает
+        и плачет, и кричит.
+        ГРУБИЯН: Ах! Моё лицо! Моё прекрасное лицо! У меня аллергия на пирог! Уберите
+        его! Уберите!
+        КАРП: Аллергия на пирог? Жалко.
+        Карп прекращает нападение на ГП.
+        ГП: Ну, Клоун, похоже, вы спасли мне жизнь.
+        КЛОУН: Всё в рабочий день, гу-гу!
+        Клоун гудит. На место прибывают офицер СБ и кадет.
+        ОФИЦЕР: Стоять!
+        КАДЕТ: Да!
+        ОФИЦЕР: Положи ID капитана на землю прямо сейчас, Клоун, или
+        я тебя застрелю шокером. Тогда тебе действительно станет смешно.
+        КАДЕТ: Да!
+        ОФИЦЕР: Или, может, мы забьём тебя дубинками до состояния пластилина.
+        КАДЕТ: Да!
+        ОФИЦЕР: Да, э-э, можно на пару слов?
+        КАДЕТ: Да, сэр!
+        Офицер СБ отводит Кадета в сторону.
+        ОФИЦЕР: Так вот, мне не нужно, чтобы ты тут был подпевалой,
+        просто смотри и следуй моему примеру.
+        КАДЕТ: О, простите, сэр. Я думал, это делает нас похожими на крутых!
+        ОФИЦЕР: Ну, нет. И не надо называть меня «сэр». Ничего
+        такого серьёзного.
+        КАДЕТ: Да, сэр, простите, сэр!
+        Кадет закрывает лицо рукой.
+        КАДЕТ: О, я просто самый большой дурак! При таких темпах мне никогда не стать
+        офицером!
+        Кадет начинает себя корить.
+        ГП: Не могли бы вы делать это где-нибудь в другом месте, а не в моём кабинете?
+        ОФИЦЕР: Ах, ну, сначала нам нужно арестовать этого Клоуна за
+        кражу ID капитана.
+        ГП: Этот клоун спас мне жизнь. Как насчёт того, что я сделаю то, что должен был
+        сделать с самого начала. Клоун, покажите вашу ID-карту.
+        КЛОУН: Гу-гу?
+        ГП: Полный доступ. Это будет справедливо.
+        ОФИЦЕР: Нам нужно произвести арест.
+        ГП: Тогда арестуйте этого негодяя, облепленного пирогом. И Клоун, верните
+        ID капитана.
+        КЛОУН: Гу-гу!
+        КАРП: Эй, эта должность артиста ещё свободна?
+        ГП: Конечно, можете стать помощником Клоуна.
+        КАРП: Я буду крут, как карп-ентер!
+        ГП: Ладно. Все, убирайтесь из моего кабинета. После всего, с чем мне пришлось
+        сегодня иметь дело, мне нужно выпить!
+        Они выходят из кабинета ГП. Когда ГП уходит, клоун бросает
+        банан перед ними, и они поскальзываются. ГП вздыхает.
+        ГП: Всё в рабочий день.
+        Все смеются над ГП.
+        КОНЕЦ
 
 # Written by orhu
-book-confession =  My name is Thomas Hill. I am an engineer. I have worked for NanoTransen for the last 18 years of my life. I've made friends here, worked long shifts alongside them. I’ve almost died hundreds of times. I love working here and I swear that I would never want to hurt anyone on this station. It's just... The thing is... I’m not human. Not anymore.
+book-confession =  Меня зовут Томас Хилл. Я инженер. Я работаю на НаноТрейзен последние 18 лет своей жизни. Я завёл здесь друзей, работал вместе с ними долгие смены. Я почти умирал сотни раз. Я люблю здесь работать и клянусь, что никогда не хотел бы навредить кому-либо на этой станции. Просто... дело в том... я не человек. Уже нет.
 
           There's something wrong with me. I'm not... me anymore. There's an... urge that makes me do things I don't want to. I’m hungry in a way I've never been hungry before. I don’t know why. Maybe I ate something bad. I want it to stop. I just want it to GO AWAY!!
 
@@ -1053,7 +1015,7 @@ book-confession =  My name is Thomas Hill. I am an engineer. I have worked for N
           Forgive me. I’m just so hungry.
 
 # Written by rings69
-book-life-of-a-clown = All day, everyday. Everyday was hell. People looked at me everywhere I went. They were all plotting- plotting to kill me and take my cheese… I just knew it… I was an adherent of the Honkmother, and everyone hated me because of it. It saddened me. I was just being myself, expressing myself in the only way I knew how. I wanted to make little kids laugh, to make people happy, and I’m being ostracized for it… I had friends, I was popular. Now, just because I wanted to squeeze my nose and go honk, people hated me…
+book-life-of-a-clown = Весь день, каждый день. Каждый день был адом. Люди смотрели на меня везде, куда бы я ни шёл. Все они замышляли — замышляли убить меня и забрать мой сыр... Я просто знал это... Я был приверженцем Хонкматери, и все ненавидели меня за это. Это огорчало меня. Я просто был собой, выражал себя единственным известным мне способом. Я хотел смешить маленьких детей, делать людей счастливыми, а меня за это изгоняют... У меня были друзья, я был популярен. А теперь только из-за того, что я хотел сжать свой нос и хонкнуть, люди ненавидели меня...
           I went to get my groceries. I was mocked and stared at. I just… There were three men and a woman. They stalked me through each aisle, following me from afar… Each time I looked to a new person for help, they ignored me. I grabbed my icecream, pistachio flavored. I smiled, imagining myself on my couch, eating my favorite ice cream!
           “Of course a clown buys pistachio…” I heard from behind me. I turned around. A woman and her child. She cringed as she saw my face.
           I ran away, going to the pasta aisle. I picked out fettucini, my favorite shape.
@@ -1068,7 +1030,7 @@ book-life-of-a-clown = All day, everyday. Everyday was hell. People looked at me
           This was the life of a clown…
 
 # Written by thepipetoadcouncil
-book-unnamed-god = "Theological Studies — The unnamed God"
+book-unnamed-god = «Богословские исследования — Безымянный Бог»
           By Dr Marcel Marceau
 
 

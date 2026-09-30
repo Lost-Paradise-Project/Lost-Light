@@ -1,2 +1,2 @@
-ent-ActionToggleThermal = Toggle Thermal Vision
-    .desc = Enable or disable thermal vision.
+ent-ActionToggleThermal = Переключить тепловое зрение
+    .desc = Включить или отключить тепловое зрение.

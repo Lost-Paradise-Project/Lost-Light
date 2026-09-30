@@ -1,8 +1,8 @@
 ent-BaseTreeDry = { "" }
-    .desc = Yep, it's a tree.
-ent-DryTreeA = Dry Tree
+    .desc = Да, это дерево.
+ent-DryTreeA = Сухое дерево
     .desc = { ent-BaseTreeDry.desc }
-ent-DryTreeB = Dry Tree
+ent-DryTreeB = Сухое дерево
     .desc = { ent-BaseTreeDry.desc }
-ent-DryTreeC = Dry Tree
+ent-DryTreeC = Сухое дерево
     .desc = { ent-BaseTreeDry.desc }

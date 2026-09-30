@@ -1,4 +1,4 @@
-ent-FoodPlateFestive = festive plate
-    .desc = A festive plate. Cheerful.
+ent-FoodPlateFestive = праздничная тарелка
+    .desc = Праздничная тарелка. Весёлая.
 ent-FoodPlateFestiveTrash = { ent-FoodPlateTrash }
-    .desc = Christmas is over.
+    .desc = Рождество закончилось.

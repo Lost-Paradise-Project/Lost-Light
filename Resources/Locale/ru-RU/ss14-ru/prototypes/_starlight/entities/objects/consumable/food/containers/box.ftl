@@ -1,2 +1,2 @@
-ent-FoodBoxCrispyRiceBar = box of crispy rice bars
-    .desc = A legally distinct bar of crispy rice held together with marshmallow.
+ent-FoodBoxCrispyRiceBar = коробка хрустящих рисовых батончиков
+    .desc = Юридически отличающийся батончик из хрустящего риса, скреплённый зефиром.

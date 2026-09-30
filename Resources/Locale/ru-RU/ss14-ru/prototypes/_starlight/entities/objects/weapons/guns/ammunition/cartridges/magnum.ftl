@@ -1,8 +1,8 @@
-ent-CartridgeMagnumRubber = cartridge (.45 magnum rubber)
+ent-CartridgeMagnumRubber = патрон (.45 магнум резиновый)
     .desc = { ent-BaseCartridgeMagnum.desc }
-ent-CartridgeMagnumImprovised = improvised cartridge (.45 magnum)
-    .desc = A handmade revolver bullet, stuffed to the brim with phosphorus for extra 'oomph'. Still not as good as a normal magnum bullet.
-ent-CartridgeMagnumHP = cartridge (.45 magnum HP)
-    .desc = Heavy magnum cartridge mostly used by revolvers. Chalk ammunition is generally non-harmful, used for practice.
-ent-CartridgeMagnumFMJ = cartridge (.45 magnum FMJ)
-    .desc = Heavy magnum cartridge mostly used by revolvers. Incendiary ammunition contains a self-igniting compound that sets the target ablaze.
+ent-CartridgeMagnumImprovised = самодельный патрон (.45 магнум)
+    .desc = Самодельная револьверная пуля, набитая фосфором для дополнительного «напора». Всё равно не так хороша, как обычная магнумная пуля.
+ent-CartridgeMagnumHP = патрон (.45 магнум HP)
+    .desc = Тяжёлый магнумный патрон, в основном для револьверов. Меловые боеприпасы в целом безвредны и используются для тренировки.
+ent-CartridgeMagnumFMJ = патрон (.45 магнум ПОО)
+    .desc = Тяжёлый магнумный патрон, в основном для револьверов. Зажигательные боеприпасы содержат самовоспламеняющийся состав, поджигающий цель.

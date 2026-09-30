@@ -1,2 +1,2 @@
-ent-AutoLoaderUnit = autoloader unit
-    .desc = A pneumatic autoloader delivery unit.
+ent-AutoLoaderUnit = блок автозагрузки
+    .desc = Пневматический блок доставки автозагрузки.

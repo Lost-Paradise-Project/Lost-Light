@@ -1,7 +1,7 @@
 # Starlight - Cosmetic Post-processing -> Additive lighting
-cp14-ui-options-postprocess = Additive lighting
+cp14-ui-options-postprocess = Аддитивное освещение
 cp14-ui-options-postprocess-tooltip =
-    When enabled, cosmetic post-processing effects such as
-    additive lighting will be present. This does not control
-    post-process effects that affect the game or otherwise
-    carry some form of gameplay-related meaning.
+    Если включено, будут присутствовать косметические эффекты
+    постобработки, такие как аддитивное освещение. Это не
+    управляет эффектами постобработки, влияющими на игру или
+    имеющими какое-либо игровое значение.

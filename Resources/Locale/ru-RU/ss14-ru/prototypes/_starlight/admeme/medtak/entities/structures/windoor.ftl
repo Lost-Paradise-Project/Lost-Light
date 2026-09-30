@@ -1,3 +1,3 @@
 ent-WindoorSecureMedTakLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
-    .suffix = MedTak, Locked
+    .suffix = МедТак, заперт

@@ -1,2 +1,2 @@
-ent-ActionToggleDome = Toggle energy dome
-    .desc = Turn the energy barrier on or off.
+ent-ActionToggleDome = Переключить энергокупол
+    .desc = Включить или выключить энергетический барьер.

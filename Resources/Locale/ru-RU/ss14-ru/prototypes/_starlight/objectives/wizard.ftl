@@ -1,6 +1,6 @@
-ent-WizardDuelistMeetObjective = Meet your competition
-    .desc = Set the terms of engagement for your duel, and use your scroll to teleport to a nearby station. No fighting on Space Wizard Federation grounds!
-ent-WizardDuelistMedallionObjective = Obtain the medallions
+ent-WizardDuelistMeetObjective = Встретьте соперников
+    .desc = Определите условия вашей дуэли и используйте свиток, чтобы телепортироваться на соседнюю станцию. Никаких драк на территории Федерации космических волшебников!
+ent-WizardDuelistMedallionObjective = Добыть медальоны
     .desc = { ent-BaseWizardObjective.desc }
-ent-WizardDuelistDemonstrateObjective = Display your proficiency and survive to tell the tale
-    .desc = Show them why you're the master of the arcane! Just make sure you don't get yourself killed in the process.
+ent-WizardDuelistDemonstrateObjective = Продемонстрируйте своё мастерство и выживите, чтобы рассказать об этом
+    .desc = Покажите им, почему вы мастер тайных искусств! Только следите, чтобы вас при этом не убили.

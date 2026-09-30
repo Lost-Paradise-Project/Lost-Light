@@ -1,3 +1,3 @@
-ent-DrinkAleBottlePlasticFull = ale bottle
-    .desc = Simple clean ale of Dwarf origin. The plastic bottle somewhat ruins the taste.
+ent-DrinkAleBottlePlasticFull = бутылка эля
+    .desc = Простой чистый эль дворфского происхождения. Пластиковая бутылка отчасти портит вкус.
     .suffix = { ent-DrinkBottlePlasticSmallBaseFull.suffix }

@@ -1,2 +1,2 @@
-ent-CosmicVoidspawner = wisp spawn point
+ent-CosmicVoidspawner = точка появления виспа
     .desc = { ent-MarkerBase.desc }

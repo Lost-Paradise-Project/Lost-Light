@@ -1,2 +1,2 @@
-ent-Gramophone = gramophone
-    .desc = A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
+ent-Gramophone = граммофон
+    .desc = Машина, способная воспроизводить самые разные мелодии. Удовольствие не гарантируется.

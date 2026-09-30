@@ -1,1 +1,1 @@
-magic-mirror-window-title = Magic Mirror
+magic-mirror-window-title = Волшебное зеркало

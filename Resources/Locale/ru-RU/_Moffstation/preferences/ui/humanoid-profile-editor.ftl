@@ -1,5 +1,5 @@
 moff-antag-label-moffstation = [font="DefaultBold" size=16][color={ $color }]{ $departmentName }[/color][/font]
-moff-antag-search-placeholder = Search Antags...
+moff-antag-search-placeholder = Поиск антагонистов...
 
-moff-antag-footer-hint = Read faction info for more details
-moff-antag-footer-info = Death to NanoTrasen!
+moff-antag-footer-hint = Подробности читайте в описании фракций
+moff-antag-footer-info = Смерть NanoTrasen!

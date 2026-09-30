@@ -1,2 +1,2 @@
-ent-WeaponImprovisedPneumaticCrewCannon = improvised pneumatic crew cannon
-    .desc = Trading variety for the ability to throw smaller crew at people, accept no substitute. Doesn't accept tanks without enough gas.
+ent-WeaponImprovisedPneumaticCrewCannon = самодельная пневматическая пушка для экипажа
+    .desc = Променяла разнообразие на возможность метать в людей мелкий экипаж, не принимайте замен. Не принимает баллоны без достаточного количества газа.

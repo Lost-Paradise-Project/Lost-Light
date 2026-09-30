@@ -1,3 +1,3 @@
-ent-ClothingMiscChameleon = gold medal of crewmanship
-    .desc = Given to crewmates who display excellent crewmanship.
-    .suffix = Chameleon
+ent-ClothingMiscChameleon = золотая медаль за командную работу
+    .desc = Выдаётся членам экипажа, проявившим отличную командную работу.
+    .suffix = Хамелеон

@@ -1,2 +1,2 @@
-ent-MobTotallyNormalHorse = parade
-    .desc = It is not two people in a costume. It is not two people in a costume. Oh god, it is not two people in a costume.
+ent-MobTotallyNormalHorse = парад
+    .desc = Это не двое людей в костюме. Это не двое людей в костюме. О боже, это не двое людей в костюме.

@@ -1,2 +1,2 @@
-ent-DigiboardMassMedia = news manager digi-board
-    .desc = Write your message to the world! Now portable!
+ent-DigiboardMassMedia = цифровая доска менеджера новостей
+    .desc = Напишите своё сообщение миру! Теперь портативно!

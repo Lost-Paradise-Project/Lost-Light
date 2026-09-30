@@ -1,11 +1,11 @@
-marking-BodyhairHumanMale-human_bodyhair_male = Body Hair
-marking-BodyhairHumanMale = Body Hair
+marking-BodyhairHumanMale-human_bodyhair_male = Волосы на теле
+marking-BodyhairHumanMale = Волосы на теле
 
-marking-BodyhairHumanFemale-human_bodyhair_female = Body Hair
-marking-BodyhairHumanFemale = Body Hair
+marking-BodyhairHumanFemale-human_bodyhair_female = Волосы на теле
+marking-BodyhairHumanFemale = Волосы на теле
 
-marking-BodyhairThaven-thaven_bodyhair = Body Hair
-marking-BodyhairThaven = Body Hair
+marking-BodyhairThaven-thaven_bodyhair = Волосы на теле
+marking-BodyhairThaven = Волосы на теле
 
-marking-BodyhairHumanUnsexed-human_bodyhair_unsexed = Body Hair
-marking-BodyhairHumanUnsexed = Body Hair
+marking-BodyhairHumanUnsexed-human_bodyhair_unsexed = Волосы на теле
+marking-BodyhairHumanUnsexed = Волосы на теле

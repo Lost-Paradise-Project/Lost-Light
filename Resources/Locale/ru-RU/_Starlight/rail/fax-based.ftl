@@ -1,43 +1,37 @@
-rr-criminal = Criminal
-rr-criminal-desc = That was a mistake, at any moment I could be reported and the hunt would begin.
+rr-criminal = Преступник
+rr-criminal-desc = Это была ошибка: в любой момент на меня могут донести, и начнётся охота.
 
-rr-criminal-message = Well-wisher: We have just intercepted a fax, you’ve been declared wanted. Nevertheless, your recent malicious act against NT has greatly impressed us. We’ll send you a gift by mail, it should arrive in about 20 minutes.
-rr-criminal-wrapped-message = [bold]Well-wisher[/bold]: We have just intercepted a fax, you’ve been declared wanted. Nevertheless, your recent malicious act against NT has greatly impressed us. We’ll send you a gift by mail, it should arrive in about 20 minutes.
+rr-criminal-message = Доброжелатель: мы только что перехватили факс, вас объявили в розыск. Тем не менее ваш недавний злой поступок против НТ произвёл на нас сильное впечатление. Мы отправим вам подарок по почте, он придёт примерно через 20 минут.
+rr-criminal-wrapped-message = [bold]Доброжелатель[/bold]: мы только что перехватили факс, вас объявили в розыск. Тем не менее ваш недавний злой поступок против НТ произвёл на нас сильное впечатление. Мы отправим вам подарок по почте, он придёт примерно через 20 минут.
 
-rr-criminal-letter-name = ORDER, dangerous criminal { $subject } is wanted
+rr-criminal-letter-name = ПРИКАЗ, разыскивается опасный преступник { $subject }
 rr-criminal-1-letter-content =
-                 [head=3]NT Information Security Department[/head]
+                 [head=3]Отдел информационной безопасности НТ[/head]
     ─────────────────────────────────────────
-                      [center][color=#006666][italic][bold]Order for Immediate Interception[/bold][/italic][/color][/center]
+                      [center][color=#006666][italic][bold]Приказ о немедленном перехвате[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
-    A dangerous criminal named '{ $subject }' has infiltrated your station.
-
-    { CAPITALIZE(SUBJECT($subject)) } { CONJUGATE-BE($subject) } charged with multiple counts of █████████████, as well as ██████████████. There is also clear evidence pointing to crimes of a ██████████████ nature against █████████████. { CAPITALIZE(SUBJECT($subject)) } may be armed.
-
-    In accordance with Directive 25, Section B of the Code of Information Crimes, you are ordered to deliver { OBJECT($subject) } to Central Command, dead or alive.
-
-    { $subject } [italic]must[/italic] be:
-    - [bold]Handcuffed[/bold] (even if { SUBJECT($subject) } { CONJUGATE-BE($subject) } compliant)
-    - [bold]Searched[/bold]
-    - [bold]Interrogated[/bold]
-
-    Failure to comply with this order may result in charges of incompetence and dismissal.
+    Опасный преступник по имени «{ $subject }» проник на вашу станцию.
+    { CAPITALIZE(SUBJECT($subject)) } { CONJUGATE-BE($subject) } обвинён в многочисленных случаях █████████████, а также ██████████████. Также имеются явные доказательства преступлений ██████████████ характера против █████████████. { CAPITALIZE(SUBJECT($subject)) } может быть вооружён.
+    В соответствии с Директивой 25, раздел B Кодекса информационных преступлений, вам приказано доставить { OBJECT($subject) } в Центральное командование живым или мёртвым.
+    { $subject } [italic]должен[/italic] быть:
+    - [bold]В наручниках[/bold] (даже если { SUBJECT($subject) } { CONJUGATE-BE($subject) } подчиняется)
+    - [bold]Обыскан[/bold]
+    - [bold]Допрошен[/bold]
+    Невыполнение этого приказа может повлечь обвинения в некомпетентности и увольнение.
     ─────────────────────────────────────────
-   ⠀                                    [italic]Place for stamps[/italic]
+    ⠀                                    [italic]Место для печатей[/italic]
 
-rr-criminal-failed-name = Decision regarding the criminal { $subject }
+rr-criminal-failed-name = Решение по делу преступника { $subject }
 rr-criminal-failed-content =
-                         [head=3]Authorized Inspector on the Case[/head]
+                         [head=3]Уполномоченный инспектор по делу[/head]
     ─────────────────────────────────────────
-                                      [center][color=#006666][italic][bold]Mitigation Decision[/bold][/italic][/color][/center]
+                                      [center][color=#006666][italic][bold]Решение о смягчении[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
-    Regarding the case of the criminal { $subject }. We have just intercepted a recruitment letter indicating that the crimes committed were not of direct intent.
-
-    In this regard, the crime is no longer classified as informational extremism, but as fatal negligence.
-
-    You should [bold]interrogate[/bold] the criminal, and if { SUBJECT($subject) } admits { POSS-ADJ($subject) } guilt, [bold]parole[/bold] { OBJECT($subject) } and allow { OBJECT($subject) } to work it off in lower positions, with damages assessed from one and a half to ten million credits.
+    По делу преступника { $subject }. Мы только что перехватили письмо о вербовке, указывающее, что совершённые преступления не были прямым умыслом.
+    В связи с этим преступление более не квалифицируется как информационный экстремизм, а как смертельная халатность.
+    Вам следует [bold]допросить[/bold] преступника, и если { SUBJECT($subject) } признаёт { POSS-ADJ($subject) } вину, [bold]освободить условно[/bold] { OBJECT($subject) } и позволить { OBJECT($subject) } отработать на низших должностях с оценкой ущерба от полутора до десяти миллионов кредитов.
     ─────────────────────────────────────────
-   ⠀                                    [italic]Place for stamps[/italic]
+    ⠀                                    [italic]Место для печатей[/italic]
 
-rr-nt-isd = NT ISD
-rr-cc = CentComm
+rr-nt-isd = ОВР НТ
+rr-cc = ЦентКом

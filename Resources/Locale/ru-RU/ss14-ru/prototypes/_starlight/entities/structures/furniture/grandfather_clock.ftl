@@ -1,2 +1,2 @@
-ent-FurnitureGrandfatherClock = grandfather clock
-    .desc = Tick, tock. Old but reliable.
+ent-FurnitureGrandfatherClock = напольные часы
+    .desc = Тик-так. Старые, но надёжные.

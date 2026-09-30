@@ -1,5 +1,5 @@
-ent-FoodSnackGumballWhite = gumball
-    .desc = So many flavors of sugar!
+ent-FoodSnackGumballWhite = жвачный шарик
+    .desc = Столько вкусов сахара!
 ent-FoodSnackGumballRed = { ent-FoodSnackGumballWhite }
     .desc = { ent-FoodSnackGumballWhite.desc }
 ent-FoodSnackGumballOrange = { ent-FoodSnackGumballWhite }

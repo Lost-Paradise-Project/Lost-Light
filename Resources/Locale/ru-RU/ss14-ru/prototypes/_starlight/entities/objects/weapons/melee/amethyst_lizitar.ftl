@@ -1,2 +1,2 @@
-ent-AmethystLizitar = amethyst lizitar
-    .desc = Now you really have no clue what this thing is made from.
+ent-AmethystLizitar = аметистовый лизитар
+    .desc = Теперь вы действительно не представляете, из чего это сделано.

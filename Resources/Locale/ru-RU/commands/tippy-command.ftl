@@ -1,6 +1,6 @@
 cmd-tippy-desc = Передать сообщение от имени клоуна Типпи.
 cmd-tippy-help = tippy <user | all> <сообщение> [прототип сущности | null] [время сообщения] [время появления] [интервал ковыляния]
-cmd-tippy-auto-1 = <user | all>
+cmd-tippy-auto-1 = <пользователь | all>
 cmd-tippy-auto-2 = текст
 cmd-tippy-auto-3 = прототип сущности
 cmd-tippy-auto-4 = время сообщения, в секундах

@@ -1,2 +1,2 @@
-ent-RescueKnife = rescue knife
-    .desc = A rescue knife issued to paramedics, with a built in striker for breaking thorugh anything keeping them from a patient.
+ent-RescueKnife = спасательный нож
+    .desc = Спасательный нож, выдаваемый парамедикам, со встроенным бойком для пробивания всего, что мешает добраться до пациента.

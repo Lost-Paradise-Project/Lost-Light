@@ -1,1 +1,1 @@
-name-identifier-format-intellicard = IC-{ $number }
+name-identifier-format-intellicard = ИК-{ $number }

@@ -1,2 +1,2 @@
-ent-CasinoChipCase = casino chip case
-    .desc = A black case trimmed in gold. Lockable, so the float arrives at the table intact.
+ent-CasinoChipCase = кейс для фишек казино
+    .desc = Чёрный кейс с золотой отделкой. Запирается, чтобы банк дошёл до стола в целости.

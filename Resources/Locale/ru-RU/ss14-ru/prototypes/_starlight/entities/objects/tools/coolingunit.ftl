@@ -1,4 +1,4 @@
-ent-CoolingUnit = portable cooling unit
-    .desc = A large portable heat sink with liquid cooled radiator packaged into a modified backpack.
-ent-EmergencyCoolingUnit = emergency cooling unit
-    .desc = An easily portable heat sink for emergencies. Contains very little power, rated for survival use only.
+ent-CoolingUnit = портативный охлаждающий блок
+    .desc = Большой портативный радиатор с жидкостным охлаждением, упакованный в модифицированный рюкзак.
+ent-EmergencyCoolingUnit = аварийный охлаждающий блок
+    .desc = Легко переносимый радиатор для чрезвычайных ситуаций. Содержит совсем мало энергии, рассчитан только на выживание.

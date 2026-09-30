@@ -1,5 +1,5 @@
-tool-quality-censer-name = Censer
-tool-quality-censer-tool-name = Censer
+tool-quality-censer-name = Кадило
+tool-quality-censer-tool-name = Кадило
 
-tool-quality-tearing-name = Tearing
-tool-quality-tearing-tool-name = Fireaxe
+tool-quality-tearing-name = Разрыв
+tool-quality-tearing-tool-name = Пожарный топор

@@ -1,6 +1,6 @@
-ent-BoxBeakerSmall = small beaker box
-    .desc = A box containing four small beakers.
-ent-BoxBeakerLarge = large beaker box
-    .desc = A box containing four large beakers.
-ent-BoxJug = jug box
-    .desc = A box containing two chemical storage jugs.
+ent-BoxBeakerSmall = коробка малых мензурок
+    .desc = Коробка с четырьмя малыми мензурками.
+ent-BoxBeakerLarge = коробка больших мензурок
+    .desc = Коробка с четырьмя большими мензурками.
+ent-BoxJug = коробка кувшинов
+    .desc = Коробка с двумя химическими кувшинами для хранения.

@@ -1,8 +1,8 @@
-cmd-myzone-desc = Prints the zone you are currently in.
-cmd-myzone-help = Usage: { $command }
+cmd-myzone-desc = Выводит зону, в которой вы сейчас находитесь.
+cmd-myzone-help = Использование: { $command }
 
-cmd-myzone-no-entity = You need to be attached to an entity to use this command.
-cmd-myzone-no-tracker = The server is not tracking zones for you.
+cmd-myzone-no-entity = Чтобы использовать эту команду, нужно быть привязанным к сущности.
+cmd-myzone-no-tracker = Сервер не отслеживает для вас зоны.
 
-cmd-myzone-in-zone = You are in zone { $zone }.
-cmd-myzone-not-in-zone = You are not in a zone.
+cmd-myzone-in-zone = Вы в зоне { $zone }.
+cmd-myzone-not-in-zone = Вы не находитесь в зоне.

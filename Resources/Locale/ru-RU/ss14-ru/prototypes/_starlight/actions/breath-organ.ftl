@@ -1,4 +1,4 @@
-ent-ActionToggleInternalsOrgan = Toggle Internals
-    .desc = Breathe from your organ.
-ent-ActionOpenOrganGasTankUI = View Organ Gas Tank
-    .desc = View the gas contents of your organ.
+ent-ActionToggleInternalsOrgan = Переключить дыхание
+    .desc = Дышать через ваш орган.
+ent-ActionOpenOrganGasTankUI = Просмотреть газовый баллон органа
+    .desc = Просмотреть газовое содержимое вашего органа.

@@ -1,4 +1,4 @@
-ent-BaseMobNeoResomi = Urist McRapster
+ent-BaseMobNeoResomi = Урист МакРесомик
     .desc = { ent-BaseSpeciesPickupable.desc }
 ent-AppearanceNeoResomi = { ent-BaseSpeciesDummy }
-    .desc = A dummy neo-resomi meant to be used in character setup.
+    .desc = Манекен нео-ресоми для использования в настройке персонажа.

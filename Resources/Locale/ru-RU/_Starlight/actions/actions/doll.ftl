@@ -1,2 +1,2 @@
-doll-shed-shell-action = You shudder at the thought of painfully shedding your shell.
-doll-snap-shell-action = You hesitate for a moment, gathering strength to snap off a piece of yourself.
+doll-shed-shell-action = Вы содрогаетесь при мысли о том, чтобы мучительно сбросить свой панцирь.
+doll-snap-shell-action = Вы на мгновение колеблетесь, собираясь с силами, чтобы отломить кусочек себя.

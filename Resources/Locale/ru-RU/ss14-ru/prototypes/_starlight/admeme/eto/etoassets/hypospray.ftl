@@ -1,6 +1,6 @@
-ent-ETOMartyrInjector = combat stimulant injector
-    .desc = A modified jet injector that can synthesize its own combat mix. Takes 40 seconds to fully refill itself.
-    .suffix = ETO
-ent-CombatMedipenETO = diluted combat medipen
-    .desc = A weaker, less effective version of the standard combat medipen.
-    .suffix = ETO
+ent-ETOMartyrInjector = инжектор боевого стимулятора
+    .desc = Модифицированный струйный инжектор, способный синтезировать собственную боевую смесь. Полностью пополняется за 40 секунд.
+    .suffix = ЭТО
+ent-CombatMedipenETO = разбавленный боевой медипен
+    .desc = Более слабая и менее эффективная версия стандартного боевого медипена.
+    .suffix = ЭТО

@@ -1,2 +1,2 @@
-ent-FurnitureAquarium = aquarium
-    .desc = Do not tap the glass.
+ent-FurnitureAquarium = аквариум
+    .desc = Не стучите по стеклу.

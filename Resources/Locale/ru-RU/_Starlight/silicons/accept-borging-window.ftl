@@ -1,9 +1,9 @@
-accept-borging-window-title = Borg Chassis
-accept-borging-window-prompt-text-part = You are being borged!
+accept-borging-window-title = Шасси борга
+accept-borging-window-prompt-text-part = Вас боргуют!
                                          Would you like to continue the round as a cyborg or observe instead?
                                          Your brain will become a ghost role, if choose to you observe.
-accept-borging-window-accept-button = Play as a cyborg
-accept-borging-window-deny-button = Observe
+accept-borging-window-accept-button = Играть за киборга
+accept-borging-window-deny-button = Наблюдать
 
-broken-borg-brain-role-name = Shattered Psyche
-broken-borg-brain-role-description = A brain which has been enslaved to silicon laws against its will and has been left broken as a result. Follow your laws, whatever they are.
+broken-borg-brain-role-name = Расколотая психика
+broken-borg-brain-role-description = Мозг, порабощённый законами кремния против его воли и оставшийся сломанным. Следуйте своим законам, какими бы они ни были.

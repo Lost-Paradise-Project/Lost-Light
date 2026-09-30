@@ -1,2 +1,2 @@
-ent-PrototypeJawsOfLife = prototype of the jaws of life
-    .desc = Early version, not as effective.
+ent-PrototypeJawsOfLife = прототип челюстей жизни
+    .desc = Ранняя версия, не такая эффективная.

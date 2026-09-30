@@ -1,2 +1,2 @@
-ent-CrisisButton = crisis button
-    .desc = Used to broadcast an distress call to security comms.
+ent-CrisisButton = кнопка кризиса
+    .desc = Используется для передачи сигнала бедствия на связь СБ.

@@ -1,18 +1,18 @@
-moods-ui-menu-title = Your Moods
-moods-ui-shared-mood = Shared
-thaven-moods-update-notify = You feel a shift in your moods!
+moods-ui-menu-title = Ваши настроения
+moods-ui-shared-mood = Общее
+thaven-moods-update-notify = Вы чувствуете сдвиг в своих настроениях!
 
-thaven-moods-ui-verb = Edit Moods
-thaven-moods-admin-ui-title = Edit Moods
-thaven-moods-admin-ui-new-mood = New Mood
-thaven-moods-admin-ui-save = Save
-thaven-mood-admin-ui-move-up = Move Up
-thaven-mood-admin-ui-move-down = Move Down
-thaven-mood-admin-ui-delete = Delete
+thaven-moods-ui-verb = Изменить настроения
+thaven-moods-admin-ui-title = Изменить настроения
+thaven-moods-admin-ui-new-mood = Новое настроение
+thaven-moods-admin-ui-save = Сохранить
+thaven-mood-admin-ui-move-up = Вверх
+thaven-mood-admin-ui-move-down = Вниз
+thaven-mood-admin-ui-delete = Удалить
 
-admin-trick-add-random-mood-description = Add a random mood to this entity.
-admin-trick-give-moods-description = Give this entity moods.
+admin-trick-add-random-mood-description = Добавить этой сущности случайное настроение.
+admin-trick-give-moods-description = Дать этой сущности настроения.
 
-admin-trick-floodpipes = Floodfill colors
-admin-trick-floodpipes-description = Floods pipe color to all connected pipes.
-admin-trick-autolink-air-alarms = Automatically link air alarms to atmos devices & firelocks.
+admin-trick-floodpipes = Заливка цветом
+admin-trick-floodpipes-description = Заливает цветом трубы все подключённые трубы.
+admin-trick-autolink-air-alarms = Автоматически связывает атмосферные сигнализации с атмосферными устройствами и противопожарными шлюзами.

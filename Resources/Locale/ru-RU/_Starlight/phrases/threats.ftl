@@ -1,1 +1,1 @@
-phrase-safety-softcritical = soft critical
+phrase-safety-softcritical = мягкое критическое состояние

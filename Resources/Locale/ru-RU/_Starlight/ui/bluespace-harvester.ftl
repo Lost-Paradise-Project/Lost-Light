@@ -1,29 +1,29 @@
-bluespace-harvester-window-title = Bluespace Harvester
-bluespace-harvester-input-management = Input Management
-bluespace-harvester-input = Input
-bluespace-harvester-input-level = Input level:
-bluespace-harvester-desired-level = Desired level:
-bluespace-harvester-current-power-use = Current power use:
-bluespace-harvester-power-for-next-level = Power for next level:
-bluespace-harvester-network-supply = Network supply:
-bluespace-harvester-danger-warning = WARNING: Unsafe operation mode! Risk of portal spawning!
-bluespace-harvester-blocked-warning = CRITICAL: Bluespace rift detected! Systems offline until rift closes!
-bluespace-harvester-output = Output
-bluespace-harvester-available-points = Available points:
-bluespace-harvester-total-points = Total points:
-bluespace-harvester-buy = Buy
+bluespace-harvester-window-title = Блюспейс-жнец
+bluespace-harvester-input-management = Управление входом
+bluespace-harvester-input = Вход
+bluespace-harvester-input-level = Уровень входа:
+bluespace-harvester-desired-level = Желаемый уровень:
+bluespace-harvester-current-power-use = Текущее потребление энергии:
+bluespace-harvester-power-for-next-level = Энергия для следующего уровня:
+bluespace-harvester-network-supply = Питание сети:
+bluespace-harvester-danger-warning = ПРЕДУПРЕЖДЕНИЕ: небезопасный режим работы! Риск появления портала!
+bluespace-harvester-blocked-warning = КРИТИЧНО: обнаружен блюспейс-разлом! Системы отключены, пока разлом не закроется!
+bluespace-harvester-output = Выход
+bluespace-harvester-available-points = Доступные очки:
+bluespace-harvester-total-points = Всего очков:
+bluespace-harvester-buy = Купить
 
 # Portal announcement
-bluespace-harvester-portal-warning = WARNING: A bluespace rift has been detected! Hostile entities are emerging from the rift. Bluespace Harvester operations suspended until rift closure.
+bluespace-harvester-portal-warning = ПРЕДУПРЕЖДЕНИЕ: обнаружен блюспейс-разлом! Из разлома появляются враждебные сущности. Работа блюспейс-жнеца приостановлена до закрытия разлома.
 
 # Loot Tables
-bluespace-harvester-pool-exotic-hat = Unknown Exotic Hat
-bluespace-harvester-pool-snack = Unknown Snack
-bluespace-harvester-pool-basic-materials = Unknown Basic Materials Stack
-bluespace-harvester-pool-rare-materials = Unknown Rare Materials Stack
-bluespace-harvester-pool-plushie = Unknown Collector Plushie
-bluespace-harvester-pool-experimental-tool = Unknown Experimental Tool
-bluespace-harvester-pool-power-cell = Unknown Power Cell
-bluespace-harvester-pool-artifact = Unknown artifact
-bluespace-harvester-pool-rare-seeds = Unknown Rare Seeds
-bluespace-harvester-pool-circuit-board = Unknown Circuit Board
+bluespace-harvester-pool-exotic-hat = Неизвестная экзотическая шляпа
+bluespace-harvester-pool-snack = Неизвестная закуска
+bluespace-harvester-pool-basic-materials = Неизвестная стопка простых материалов
+bluespace-harvester-pool-rare-materials = Неизвестная стопка редких материалов
+bluespace-harvester-pool-plushie = Неизвестная коллекционная плюшевая игрушка
+bluespace-harvester-pool-experimental-tool = Неизвестный экспериментальный инструмент
+bluespace-harvester-pool-power-cell = Неизвестная энергоячейка
+bluespace-harvester-pool-artifact = Неизвестный артефакт
+bluespace-harvester-pool-rare-seeds = Неизвестные редкие семена
+bluespace-harvester-pool-circuit-board = Неизвестная плата

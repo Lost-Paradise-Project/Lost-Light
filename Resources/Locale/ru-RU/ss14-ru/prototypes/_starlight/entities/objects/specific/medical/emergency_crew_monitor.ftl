@@ -1,2 +1,2 @@
-ent-EmergencyHandheldCrewMonitor = emergency crew monitor
-    .desc = A hand-held crew monitor displaying the status of suit sensors of injured crew.
+ent-EmergencyHandheldCrewMonitor = аварийный монитор экипажа
+    .desc = Портативный монитор экипажа, показывающий состояние датчиков костюмов раненых членов экипажа.

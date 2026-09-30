@@ -1,2 +1,2 @@
-ent-GasCanisterHose = hose
-    .desc = A flexible hose for connecting gas canisters and tanks.
+ent-GasCanisterHose = шланг
+    .desc = Гибкий шланг для подключения газовых баллонов и ёмкостей.

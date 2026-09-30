@@ -1,1 +1,1 @@
-bug-report-report-unknown = unknown
+bug-report-report-unknown = неизвестно

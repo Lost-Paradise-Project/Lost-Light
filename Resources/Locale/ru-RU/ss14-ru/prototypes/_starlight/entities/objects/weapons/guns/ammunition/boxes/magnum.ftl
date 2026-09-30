@@ -1,4 +1,4 @@
-ent-MagazineBoxMagnumRubber = ammunition box (.45 magnum rubber)
+ent-MagazineBoxMagnumRubber = коробка боеприпасов (.45 магнум резиновые)
     .desc = { ent-BaseMagazineBoxMagnum.desc }
-ent-MagazineBoxMagnumFMJ = ammunition box (.45 magnum FMJ)
+ent-MagazineBoxMagnumFMJ = коробка боеприпасов (.45 магнум ПОО)
     .desc = { ent-BaseMagazineBoxMagnum.desc }

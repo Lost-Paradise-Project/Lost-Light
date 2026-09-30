@@ -1,2 +1,2 @@
-ent-ChainSickle = chain sickle
+ent-ChainSickle = цепной серп
     .desc = { ent-GrapplingHook.desc }

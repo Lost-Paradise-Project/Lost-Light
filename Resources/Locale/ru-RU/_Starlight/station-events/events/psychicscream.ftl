@@ -1,3 +1,3 @@
-station-event-psychicscreach-announcement = We just received readings that an unknown energy emission just passed through the station. Electrical systems appear to have been affected. Is anyone reading this?
-station-event-psychicscreach-nosebleed = Your nose begins to bleed...
-station-event-psychicscreach-borg = Your integrated sensors detect an anomaly. Your systems will be impacted as you begin a partial restart.
+station-event-psychicscreach-announcement = Мы только что получили показания, что неизвестное энергетическое излучение прошло сквозь станцию. Электрические системы, похоже, затронуты. Кто-нибудь это читает?
+station-event-psychicscreach-nosebleed = У вас начинает идти кровь из носа...
+station-event-psychicscreach-borg = Ваши встроенные датчики обнаруживают аномалию. Ваши системы пострадают, когда вы начнёте частичный перезапуск.

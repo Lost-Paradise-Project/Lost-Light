@@ -1,3 +1,3 @@
 # Funky atmos - /tg/ gases
-reagent-name-bz-metabolites = BZ Metabolites
-reagent-desc-bz-metabolites = A byproduct of BZ that disrupts changeling chemical reserves.
+reagent-name-bz-metabolites = Метаболиты BZ
+reagent-desc-bz-metabolites = Побочный продукт BZ, нарушающий запасы химикатов генокрада.

@@ -1,4 +1,4 @@
-ent-BaseMobNeoKin = Urist McShadowster
+ent-BaseMobNeoKin = Урист МакТенёчек
     .desc = { ent-MobBloodstream.desc }
 ent-AppearanceNeoKin = { ent-BaseNeocyteAppearance }
-    .desc = A dummy neokin meant to be used in character setup.
+    .desc = Манекен нео-сородича для использования в настройке персонажа.

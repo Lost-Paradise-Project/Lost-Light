@@ -1,44 +1,44 @@
 # Records editor
-humanoid-profile-editor-cd-allergies-tab = Allergies
-humanoid-profile-editor-cd-records-tab = Records
+humanoid-profile-editor-cd-allergies-tab = Аллергии
+humanoid-profile-editor-cd-records-tab = Записи
 
 # General
-humanoid-profile-editor-cd-records-height = Height (cm):
-humanoid-profile-editor-cd-records-weight = Weight (kg):
-humanoid-profile-editor-cd-records-contact-name = Emergency Contact Names(s):
+humanoid-profile-editor-cd-records-height = Рост (см):
+humanoid-profile-editor-cd-records-weight = Вес (кг):
+humanoid-profile-editor-cd-records-contact-name = Имена экстренных контактов:
 
 # Employment
-humanoid-profile-editor-cd-records-employment = Employment
-humanoid-profile-editor-cd-records-work-authorization = Work Authorization:
+humanoid-profile-editor-cd-records-employment = Трудоустройство
+humanoid-profile-editor-cd-records-work-authorization = Разрешение на работу:
 
 # Security
-humanoid-profile-editor-cd-records-identifying-features = Identifying Features:
+humanoid-profile-editor-cd-records-identifying-features = Особые приметы:
 
 # Medical
-humanoid-profile-editor-cd-records-allergies = Allergies:
-humanoid-profile-editor-cd-records-drug-allergies = Drug Allergies:
-humanoid-profile-editor-cd-records-postmortem = Postmortem Instructions:
+humanoid-profile-editor-cd-records-allergies = Аллергии:
+humanoid-profile-editor-cd-records-drug-allergies = Аллергия на лекарства:
+humanoid-profile-editor-cd-records-postmortem = Посмертные указания:
 
 # Admin
-humanoid-profile-editor-cd-records-admin = Admin
+humanoid-profile-editor-cd-records-admin = Админ
 
 # Entries
-humanoid-profile-editor-cd-records-add-entry = Add Entry
-humanoid-profile-editor-cd-records-edit-entry = Edit Entry
-humanoid-profile-editor-cd-records-view-entry = View Entry
-humanoid-profile-editor-cd-records-remove-entry = Remove Entry
-humanoid-profile-editor-cd-records-up = Up
-humanoid-profile-editor-cd-records-down = Down
+humanoid-profile-editor-cd-records-add-entry = Добавить запись
+humanoid-profile-editor-cd-records-edit-entry = Изменить запись
+humanoid-profile-editor-cd-records-view-entry = Просмотреть запись
+humanoid-profile-editor-cd-records-remove-entry = Удалить запись
+humanoid-profile-editor-cd-records-up = Вверх
+humanoid-profile-editor-cd-records-down = Вниз
 
-cd-records-entry-edit-popup-title = View/Edit Entry
-cd-records-entry-edit-popup-save = Save
-cd-records-entry-default-title = Untitled Entry
+cd-records-entry-edit-popup-title = Просмотр/изменение записи
+cd-records-entry-edit-popup-save = Сохранить
+cd-records-entry-default-title = Запись без названия
 
-cd-records-entry-edit-popup-title-placeholder = Entry Title
-cd-records-entry-edit-popup-involved-placeholder = Author(s)
-cd-records-entry-edit-popup-description-placeholder = Description
+cd-records-entry-edit-popup-title-placeholder = Название записи
+cd-records-entry-edit-popup-involved-placeholder = Автор(ы)
+cd-records-entry-edit-popup-description-placeholder = Описание
 
-cd-records-entry-edit-popup-title-required = Title is required
-cd-records-entry-edit-popup-involved-required = Author(s) is required
-cd-records-entry-edit-popup-description-required = Description is required
-cd-records-entry-edit-popup-description-too-long = Description is too long! ({ $current }/{ $max } characters)
+cd-records-entry-edit-popup-title-required = Требуется название
+cd-records-entry-edit-popup-involved-required = Требуется автор(ы)
+cd-records-entry-edit-popup-description-required = Требуется описание
+cd-records-entry-edit-popup-description-too-long = Описание слишком длинное! ({ $current }/{ $max } символов)

@@ -1,2 +1,2 @@
-ent-ClothingBeltCargo = cargo utility belt
-    .desc = Can hold various cargo related things.
+ent-ClothingBeltCargo = грузовой универсальный пояс
+    .desc = Может вмещать различные предметы, связанные с карго.

@@ -1,4 +1,4 @@
-ent-MobShadekin = Urist McShadow
+ent-MobShadekin = Урист МакТень
     .desc = { ent-BaseMobShadekin.desc }
-ent-MobBrighteye = Urist McBrighteye
+ent-MobBrighteye = Урист МакЯркоглаз
     .desc = { ent-BaseMobShadekin.desc }

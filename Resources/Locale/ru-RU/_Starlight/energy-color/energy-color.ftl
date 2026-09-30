@@ -1,2 +1,2 @@
-energy-color-hacking-locked = You can't seem to hack the { $item }.
-energy-color-hacking-locked-status = A protection mechanism in the { $item } was { $state }.
+energy-color-hacking-locked = Вам не удаётся взломать { $item }.
+energy-color-hacking-locked-status = Защитный механизм в { $item }: { $state }.

@@ -1,5 +1,6 @@
 name: Проблема с картой
 description: Для проблем, связанных с картами.
+type: Bug
 body:
   - type: markdown
     attributes:

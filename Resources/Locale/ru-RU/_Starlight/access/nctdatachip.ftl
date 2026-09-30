@@ -1,8 +1,8 @@
-nctdatachip-trainee = The current registered Trainee is: { $targetName }
-nctdatachip-notice = [italic]Use in hand to reset the assigned trainee and access.[/italic]
-nctdatachip-notice2 = [color=pink]The datachip is unable to copy any access that has been deemed high-risk by NanoTrasen Officials. That includes some, if not most, head related access permissions.[/color]
+nctdatachip-trainee = Текущий зарегистрированный стажёр: { $targetName }
+nctdatachip-notice = [italic]Используйте в руке, чтобы сбросить назначенного стажёра и доступ.[/italic]
+nctdatachip-notice2 = [color=pink]Датачип не может копировать доступ, который должностные лица НаноТрейзен сочли высокорисковым. Это включает часть, если не большую часть, разрешений, связанных с главами.[/color]
 
-nctdatachip-denied = You do not have access to use this NCT Trainee Access Chip!
-nctdatachip-reset = The chip's screen blinks red.
+nctdatachip-denied = У вас нет доступа к этому чипу доступа стажёра НКТ!
+nctdatachip-reset = Экран чипа мигает красным.
 
-nctdatachip-scanned = The chip's microscanners activate as you scan { $targetName }'s ID, copying its access.
+nctdatachip-scanned = Микросканеры чипа активируются, когда вы сканируете ID-карту { $targetName }, копируя её доступ.

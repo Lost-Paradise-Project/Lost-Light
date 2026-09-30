@@ -1,4 +1,4 @@
-ent-MagazineGrenadeCleanade = cleanade grenade cartridge
+ent-MagazineGrenadeCleanade = гранатный картридж «очистительный»
     .desc = { ent-BaseMagazineGrenade.desc }
-ent-MagazineGrenadeCleanadeSyndicate = "cleanade" grenade cartridge
+ent-MagazineGrenadeCleanadeSyndicate = гранатный картридж «очистительный»
     .desc = { ent-BaseMagazineGrenade.desc }

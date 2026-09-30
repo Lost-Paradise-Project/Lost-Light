@@ -1,7 +1,7 @@
-ent-CosmicEffigy = effigy of entropy
-    .desc = An abhorrent malign anomaly. Raw entropy oozes forth, betraying its instability.
+ent-CosmicEffigy = истукан энтропии
+    .desc = Отвратительная зловещая аномалия. Сырая энтропия сочится наружу, выдавая её нестабильность.
 ent-CosmicAnomalyTrap = { ent-BaseAnomalyInjector }
     .desc = { ent-BaseAnomalyInjector.desc }
-    .suffix = Malign
+    .suffix = Зловещий
 ent-CosmicAnomalyInjection = { "" }
     .desc = { "" }

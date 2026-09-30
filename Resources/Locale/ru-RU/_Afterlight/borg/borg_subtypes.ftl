@@ -1,5 +1,5 @@
-al-borg-select-subtype-flavour-text = Available cosmetic frames
+al-borg-select-subtype-flavour-text = Доступные косметические корпуса
 # medical
-al-borg-medical-subtype-qualified-doctor-name = qualified doctor
+al-borg-medical-subtype-qualified-doctor-name = квалифицированный врач
 # mining
-al-borg-mining-subtype-spider-miner-name = spider miner
+al-borg-mining-subtype-spider-miner-name = паук-шахтёр

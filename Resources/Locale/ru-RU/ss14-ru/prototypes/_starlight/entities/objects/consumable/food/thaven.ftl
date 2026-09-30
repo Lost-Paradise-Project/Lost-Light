@@ -1,2 +1,2 @@
-ent-FoodThavenMeat = raw thaven fillet
-    .desc = Concerning.
+ent-FoodThavenMeat = сырое филе тавена
+    .desc = Тревожно.

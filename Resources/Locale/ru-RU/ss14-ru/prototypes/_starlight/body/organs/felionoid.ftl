@@ -1,6 +1,6 @@
-ent-OrganFelionoidEyes = felionoid eyes
-    .desc = The eyes of a Felionoid.
-    .suffix = Felionoid
+ent-OrganFelionoidEyes = глаза фелионоида
+    .desc = Глаза фелионоида.
+    .suffix = Фелионоид
 ent-OrganFelionoidTongue = { ent-OrganHumanTongue }
     .desc = { ent-OrganHumanTongue.desc }
-    .suffix = Felionoid
+    .suffix = Фелионоид

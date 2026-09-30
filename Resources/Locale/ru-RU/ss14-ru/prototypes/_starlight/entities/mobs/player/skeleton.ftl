@@ -1,4 +1,4 @@
 ent-MobSkeletonPerson = { ent-BaseMobSkeletonPerson }
     .desc = { ent-BaseMobSkeletonPerson.desc }
-ent-MobSkeletonClosetFreeAgent = closet skeleton (Free Agent)
+ent-MobSkeletonClosetFreeAgent = шкафной скелет (свободный агент)
     .desc = { ent-MobSkeletonPerson.desc }

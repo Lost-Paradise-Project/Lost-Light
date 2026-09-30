@@ -1,2 +1,2 @@
-ent-ClothingBeltMedTak = MedTak belt
-    .desc = A versatile belt worn by MedTak operators.
+ent-ClothingBeltMedTak = пояс МедТак
+    .desc = Универсальный пояс, носимый операторами МедТак.

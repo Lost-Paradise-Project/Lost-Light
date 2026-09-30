@@ -1,5 +1,5 @@
-ent-CosmicDeconversionJail = containment oubliette
-    .desc = An advanced mobile containment cell. When powered, its interior space is actively caustic towards anomalous influences.
-ent-OublietteCircuitBoard = containment oubliette machine board
-    .desc = A machine printed circuit board for a containment oubliette.
+ent-CosmicDeconversionJail = изолятор сдерживания
+    .desc = Продвинутая мобильная камера сдерживания. Когда запитана, её внутреннее пространство активно едко по отношению к аномальным влияниям.
+ent-OublietteCircuitBoard = плата станка изолятора сдерживания
+    .desc = Печатная плата станка для изолятора сдерживания.
     .suffix = { ent-BaseMachineCircuitboard.suffix }

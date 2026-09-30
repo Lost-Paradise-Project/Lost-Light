@@ -1,2 +1,2 @@
-ent-MobCyclorite = Urist McCyclorite
+ent-MobCyclorite = Урист МакЦиклорит
     .desc = { ent-BaseMobCyclorite.desc }

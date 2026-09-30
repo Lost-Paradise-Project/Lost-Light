@@ -1,2 +1,2 @@
-ent-NeuralLinkDisruptor = neural link disruptor
-    .desc = Used to temporarily disrupt cyberware. Implants with passive effects are unaffected.
+ent-NeuralLinkDisruptor = разрушитель нейросвязи
+    .desc = Используется для временного нарушения работы киберимплантов. Импланты с пассивными эффектами не затрагиваются.

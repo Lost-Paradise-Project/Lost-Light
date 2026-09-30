@@ -1,8 +1,8 @@
-ent-CigPackSoviet = Gerat's sandworm packet
-    .desc = For when a sandworm has managed to eat your nuclear MRV supply.
-ent-CigPackRollie = rollie packet
-    .desc = An old rolling paper packet full of things to make rollies with.
-ent-CigPackMedRollie = medicinal blunt packet
-    .desc = An old rolling paper packet full of things to make blunts with. Its purely medicinal man..
-ent-CigPackBub = greyman's specials pack
-    .desc = An old rolling paper packet full of Greyman's special cigarettes. You feel more surgically inclined while smoking them.
+ent-CigPackSoviet = пачка «Песчаный червь» Герата
+    .desc = На случай, когда песчаный червь съел ваш запас ядерных боеголовок.
+ent-CigPackRollie = пачка самокруток
+    .desc = Старая пачка папиросной бумаги, полная всего для скручивания самокруток.
+ent-CigPackMedRollie = пачка лечебных косяков
+    .desc = Старая пачка папиросной бумаги, полная всего для скручивания косяков. Это чисто лечебное, чувак..
+ent-CigPackBub = пачка «Особые Серого человека»
+    .desc = Старая пачка папиросной бумаги, полная особых сигарет Серого человека. Во время курения вы чувствуете себя более хирургически настроенным.

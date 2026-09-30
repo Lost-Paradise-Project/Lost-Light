@@ -1,11 +1,11 @@
-trait-clumsy-name = Clumsy
-trait-clumsy-desc = You are a bit accident-prone
+trait-clumsy-name = Неуклюжий
+trait-clumsy-desc = Вы немного склонны к несчастным случаям
 
-trait-highlightsensitivity-name = High Light Sensitivity
-trait-highlightsensitivity-desc = You are much more sensitive to light than most shadekins
+trait-highlightsensitivity-name = Высокая светочувствительность
+trait-highlightsensitivity-desc = Вы гораздо более чувствительны к свету, чем большинство шейдекинов
 
-trait-extremelightsensitivity-name = Extreme Light Sensitivity
-trait-extremelightsensitivity-desc = You are extremely more sensitive to light than most shadekins.
+trait-extremelightsensitivity-name = Крайняя светочувствительность
+trait-extremelightsensitivity-desc = Вы крайне более чувствительны к свету, чем большинство шейдекинов.
 
-trait-nightblind-name = Nightblind
-trait-nightblind-desc = Unlike the rest of your species, you cannot see in the dark.
+trait-nightblind-name = Куриная слепота
+trait-nightblind-desc = В отличие от остальных вашего вида, вы не видите в темноте.

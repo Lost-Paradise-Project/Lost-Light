@@ -1,2 +1,2 @@
-ghost-role-critter-harmless = Harmless Critter
-ghost-role-bot-harmless = Harmless Bot
+ghost-role-critter-harmless = Безобидное существо
+ghost-role-bot-harmless = Безобидный бот

@@ -1,2 +1,2 @@
-ent-GavelBlock = gavel block
-    .desc = This is what they hit.
+ent-GavelBlock = блок судейского молотка
+    .desc = Вот по чему бьют.

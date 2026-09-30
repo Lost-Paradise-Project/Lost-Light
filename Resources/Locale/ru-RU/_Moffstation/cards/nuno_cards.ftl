@@ -1,8 +1,8 @@
-nuno-card-name-reverse = nuno card
-nuno-card-desc-reverse = You have no idea what card this is...
+nuno-card-name-reverse = карта НУНО
+nuno-card-desc-reverse = Вы понятия не имеете, что это за карта...
 
 nuno-card-name = { $suit } { $card }
-nuno-card-desc = Such a simple but fun game!
+nuno-card-desc = Такая простая, но весёлая игра!
 
 nuno-card-suit-name = { $suit ->
     [nunored] Red
@@ -19,5 +19,5 @@ nuno-card-value-name = { $card ->
     *[other] { $card }
 }
 
-playing-card-wildcard = Wildcard
-playing-card-plus4 = Plus 4
+playing-card-wildcard = Джокер
+playing-card-plus4 = Плюс 4

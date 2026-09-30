@@ -1,3 +1,3 @@
-ent-MobCluwneBeast = cluwnebeast
-    .desc = A cluwne beast, nightmare fuel, time to run!
+ent-MobCluwneBeast = клюн-зверь
+    .desc = Клюн-зверь, ночной кошмар, пора бежать!
     .suffix = { ent-SimpleMobBase.suffix }

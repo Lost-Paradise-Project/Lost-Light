@@ -1,2 +1,2 @@
-ent-ClothingBackpackMedTak = MedTak operator backpack
-    .desc = A spacious backpack with lots of pockets, worn by MedTak operators.
+ent-ClothingBackpackMedTak = рюкзак оператора МедТак
+    .desc = Просторный рюкзак с множеством карманов, носимый операторами МедТак.

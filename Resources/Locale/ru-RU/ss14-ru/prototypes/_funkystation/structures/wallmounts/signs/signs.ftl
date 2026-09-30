@@ -1,2 +1,2 @@
-ent-SignEvidence = evidence sign
-    .desc = A sign, pointing out where the evidence storage room is.
+ent-SignEvidence = табличка «Улики»
+    .desc = Табличка, указывающая, где находится комната хранения улик.

@@ -1,2 +1,2 @@
-ent-FoodMothBatter = cotton batter
-    .desc = Cook it to get a cute moth cake.
+ent-FoodMothBatter = хлопковое тесто
+    .desc = Приготовьте, чтобы получить милый мотыльковый торт.

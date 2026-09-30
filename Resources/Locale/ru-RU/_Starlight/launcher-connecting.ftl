@@ -1,1 +1,1 @@
-connecting-open-browser = Open in browser
+connecting-open-browser = Открыть в браузере

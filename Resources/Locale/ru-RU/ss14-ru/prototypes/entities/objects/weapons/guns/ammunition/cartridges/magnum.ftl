@@ -1,7 +1,7 @@
 ent-BaseCartridgeMagnum = патрон (.45 магнум)
     .desc = { ent-BaseCartridge.desc }
-ent-CartridgeMagnumSP = cartridge (.45 magnum SP)
-    .desc = Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+ent-CartridgeMagnumSP = патрон (.45 магнум SP)
+    .desc = Тяжёлый патрон магнум, в основном используемый револьверами. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
 ent-CartridgeMagnumPractice = патрон (.45 магнум учебный)
     .desc = Тяжёлый патрон класса магнум, в основном используемый в револьверах. Учебный боеприпас выстреливает меловым снарядом, который немного жалит, но в остальном не наносит стойкого вреда.
 ent-CartridgeMagnumIncendiary = патрон (.45 магнум зажигательный)

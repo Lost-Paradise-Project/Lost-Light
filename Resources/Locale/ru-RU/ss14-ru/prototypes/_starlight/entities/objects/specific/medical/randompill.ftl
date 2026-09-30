@@ -1,6 +1,6 @@
-ent-OminousPill = ominous pill
-    .desc = This unusual pill bears no markings. You feel a sense of dread, but also... curiosity.
-ent-WeirdPill = weird pill
-    .desc = This unusual pill bears no markings. It's probably not deadly. Probably.
-ent-GoldenPill = golden pill
-    .desc = Jackpot! Golden unmarked pill! There could be anything in here!
+ent-OminousPill = зловещая таблетка
+    .desc = Эта необычная таблетка не имеет маркировки. Вы чувствуете ужас, но также... любопытство.
+ent-WeirdPill = странная таблетка
+    .desc = Эта необычная таблетка не имеет маркировки. Она, вероятно, не смертельна. Вероятно.
+ent-GoldenPill = золотая таблетка
+    .desc = Джекпот! Золотая таблетка без маркировки! Внутри может быть что угодно!

@@ -1,17 +1,18 @@
 nano-chat-new-message-title-recipient = { $sender } ({ $jobTitle })
 
 # Emojis
-nano-chat-emoji-picker = Emoji's
-nano-chat-emoji-search = Search...
-nano-chat-emoji-close = Close
-nano-chat-emote-selector = Emote Selector
-nano-chat-emote-clear-search = Clear
-nano-chat-all-categories = All
-nano-chat-recent-emotes = Recent
-nano-chat-loading-emotes = Loading emotes...
-nano-chat-no-emotes-found = No emotes found
-nano-chat-no-emotes = No emotes
+nano-chat-emoji-picker = Эмодзи
+nano-chat-emoji-search = Поиск...
+nano-chat-emoji-close = Закрыть
+nano-chat-emote-selector = Выбор эмоций
+nano-chat-emote-clear-search = Очистить
+nano-chat-all-categories = Все
+nano-chat-recent-emotes = Недавние
+nano-chat-loading-emotes = Загрузка эмоций...
+nano-chat-no-emotes-found = Эмоции не найдены
+nano-chat-no-emotes = Нет эмоций
 nano-chat-emote-count = {$count ->
-    [one] 1 emote
-    *[other] { $count } emotes
+    [one] { $count } эмоция
+    [few] { $count } эмоции
+    *[other] { $count } эмоций
 }

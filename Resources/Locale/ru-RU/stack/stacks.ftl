@@ -204,7 +204,7 @@ stack-rolling-paper = { $amount ->
 }
 
 stack-fulton = фултон
-stack-speso = speso
+stack-speso = кредит
 stack-plasma = { $amount ->
     [1] лист
     [few] листа
@@ -223,7 +223,7 @@ stack-goliath-hide = { $amount ->
     *[other] пластин
 } голиафа
 stack-telecrystal = телекристалл
-stack-telebond = telebond
+stack-telebond = телебонд
 stack-gold-ore = золотая руда
 stack-rough-diamond = сырой алмаз
 stack-iron-ore = железная руда

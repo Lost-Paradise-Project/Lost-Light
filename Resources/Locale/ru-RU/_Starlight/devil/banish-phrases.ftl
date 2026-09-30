@@ -1,6 +1,6 @@
-devil-banish-phrase-1 = stop
-devil-banish-phrase-2 = halt
-devil-banish-phrase-3 = begone
-devil-banish-phrase-4 = leave
-devil-banish-phrase-5 = cease
-devil-banish-phrase-6 = give up
+devil-banish-phrase-1 = стоп
+devil-banish-phrase-2 = хватит
+devil-banish-phrase-3 = прочь
+devil-banish-phrase-4 = уходи
+devil-banish-phrase-5 = прекрати
+devil-banish-phrase-6 = сдавайся

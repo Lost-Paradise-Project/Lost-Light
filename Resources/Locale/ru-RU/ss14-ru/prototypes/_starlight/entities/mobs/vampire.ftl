@@ -1,2 +1,2 @@
-ent-MobVampireSanguinePool = sanguine pool
-    .desc = A sentient puddle of vampiric blood.
+ent-MobVampireSanguinePool = кровавая лужа
+    .desc = Разумная лужа вампирской крови.

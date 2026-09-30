@@ -1,3 +1,3 @@
-reagent-name-syndicate-space-cleaner = syndicate space cleaner
-reagent-desc-syndicate-space-cleaner = A special variety of common space cleaner used by the Syndicate on... "cleanup operations".
-reagent-physical-desc-suspicious = suspicious
+reagent-name-syndicate-space-cleaner = космический очиститель Синдиката
+reagent-desc-syndicate-space-cleaner = Особая разновидность обычного космического очистителя, используемая Синдикатом для... «операций по уборке».
+reagent-physical-desc-suspicious = подозрительный

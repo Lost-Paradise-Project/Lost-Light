@@ -1,3 +1,3 @@
 ent-FaxMachineITG = { ent-FaxMachineITGBase }
     .desc = { ent-FaxMachineITGBase.desc }
-    .suffix = ITG
+    .suffix = МТГ

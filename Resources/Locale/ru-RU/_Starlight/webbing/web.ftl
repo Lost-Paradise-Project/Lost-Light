@@ -1,1 +1,1 @@
-construction-recipe-silk-woven-cuffs = web cuffs
+construction-recipe-silk-woven-cuffs = паутинные наручники

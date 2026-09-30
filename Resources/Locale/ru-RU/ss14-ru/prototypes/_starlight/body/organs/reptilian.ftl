@@ -1,6 +1,6 @@
-ent-OrganReptilianStomach = reptilian stomach
+ent-OrganReptilianStomach = желудок рептилоида
     .desc = { ent-OrganAnimalStomach.desc }
-    .suffix = Reptilian
+    .suffix = Рептилоид
 ent-OrganReptilianTongue = { ent-OrganHumanTongue }
     .desc = { ent-OrganHumanTongue.desc }
-    .suffix = Reptilian
+    .suffix = Рептилоид

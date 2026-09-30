@@ -1,3 +1,3 @@
-ent-WelderNoSparks = welding tool
+ent-WelderNoSparks = сварочный инструмент
     .desc = { ent-Welder.desc }
-    .suffix = Debug, no sparks
+    .suffix = Отладка, без искр

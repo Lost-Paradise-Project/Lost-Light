@@ -1,2 +1,2 @@
-ent-CrateSovietArmaments = SKB armaments crate
-    .desc = The red tide is here.
+ent-CrateSovietArmaments = ящик вооружения СКБ
+    .desc = Красный прилив пришёл.

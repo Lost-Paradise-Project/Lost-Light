@@ -1,74 +1,74 @@
 # Chest
-marking-FelionoidChestBelly = Belly
-marking-FelionoidChestBrightBelly = Bright Belly
-marking-FelionoidChestStripes = Striped Belly
-marking-FelionoidChestTabby = Tabby Belly
-marking-FelionoidChestCalico = Calico Belly
+marking-FelionoidChestBelly = Живот
+marking-FelionoidChestBrightBelly = Светлый живот
+marking-FelionoidChestStripes = Полосатый живот
+marking-FelionoidChestTabby = Табби-живот
+marking-FelionoidChestCalico = Ситцевый живот
 
 # Ears
-marking-FelionoidEars = Ears
-marking-FelionoidEarsRound = Round Ears
+marking-FelionoidEars = Уши
+marking-FelionoidEarsRound = Круглые уши
 
 # Arms
-marking-FelionoidArmPawMittensL = Left Arm Paw Mittens
-marking-FelionoidArmPawMittensR = Right Arm Paw Mittens
-marking-FelionoidArmTabbyL = Left Arm Tabby
-marking-FelionoidArmTabbyR = Right Arm Tabby
-marking-FelionoidArmCalicoR = Right Arm Calico
-marking-FelionoidArmCalicoL = Left Arm Calico
-marking-FelionoidArmStripesR = Right Arm Striped
-marking-FelionoidArmStripesL = Left Arm Striped
+marking-FelionoidArmPawMittensL = Лапчатые варежки на левой руке
+marking-FelionoidArmPawMittensR = Лапчатые варежки на правой руке
+marking-FelionoidArmTabbyL = Табби на левой руке
+marking-FelionoidArmTabbyR = Табби на правой руке
+marking-FelionoidArmCalicoR = Ситцевая окраска правой руки
+marking-FelionoidArmCalicoL = Ситцевая окраска левой руки
+marking-FelionoidArmStripesR = Полосы на правой руке
+marking-FelionoidArmStripesL = Полосы на левой руке
 
 # Hands
-marking-FelionoidHandPawMittensR = Right Hand Paw Mittens
-marking-FelionoidHandPawMittensL = Left Hand Paw Mittens
+marking-FelionoidHandPawMittensR = Лапчатые варежки на правой кисти
+marking-FelionoidHandPawMittensL = Лапчатые варежки на левой кисти
 
 # Legs
-marking-FelionoidLegPawMittensR = Right Leg Paw Mittens
-marking-FelionoidLegPawMittensL = Left Leg Paw Mittens
-marking-FelionoidLegTabbyR = Right Leg Tabby
-marking-FelionoidLegTabbyL = Left Leg Tabby
-marking-FelionoidLegCalicoL = Left Leg Calico
+marking-FelionoidLegPawMittensR = Лапчатые варежки на правой ноге
+marking-FelionoidLegPawMittensL = Лапчатые варежки на левой ноге
+marking-FelionoidLegTabbyR = Табби на правой ноге
+marking-FelionoidLegTabbyL = Табби на левой ноге
+marking-FelionoidLegCalicoL = Ситцевая окраска левой ноги
 
 # Feet
-marking-FelionoidFootPawMittensR = Right Foot Paw Mittens
-marking-FelionoidFootPawMittensL = Left Foot Paw Mittens
+marking-FelionoidFootPawMittensR = Лапчатые варежки на правой стопе
+marking-FelionoidFootPawMittensL = Лапчатые варежки на левой стопе
 
 # Facial Hair
-marking-FelionoidFacialHairBeard = Beard
-marking-FelionoidFacialHairColonel = Colonel
-marking-FelionoidFacialHairFu = Fu
-marking-FelionoidFacialHairMane = Mane
-marking-FelionoidFacialHairNeck = Neck
+marking-FelionoidFacialHairBeard = Борода
+marking-FelionoidFacialHairColonel = Полковник
+marking-FelionoidFacialHairFu = Фу
+marking-FelionoidFacialHairMane = Грива
+marking-FelionoidFacialHairNeck = Шея
 
 # Hair
-marking-FelionoidHairCrestedQuills = Crested Quills
-marking-FelionoidHairFlowing = Flowing
-marking-FelionoidHairHawk = Hawk
-marking-FelionoidHairKeelQuills = Keel Quills
-marking-FelionoidHairKeetQuills = Keet Quills
-marking-FelionoidHairKingly = Kingly
-marking-FelionoidHairMange = Mange
-marking-FelionoidHairNights = Nights
+marking-FelionoidHairCrestedQuills = Хохолковые иглы
+marking-FelionoidHairFlowing = Струящаяся
+marking-FelionoidHairHawk = Ястреб
+marking-FelionoidHairKeelQuills = Килевые иглы
+marking-FelionoidHairKeetQuills = Кеетовые иглы
+marking-FelionoidHairKingly = Королевская
+marking-FelionoidHairMange = Паршивая
+marking-FelionoidHairNights = Ночная
 
 # Head
-marking-FelionoidHeadTiger = Tiger Head
-marking-FelionoidHeadTabby = Tabby Head
-marking-FelionoidHeadCalico = Calico Head
-marking-FelionoidHeadStripes = Striped Head
+marking-FelionoidHeadTiger = Тигровая голова
+marking-FelionoidHeadTabby = Голова табби
+marking-FelionoidHeadCalico = Ситцевая голова
+marking-FelionoidHeadStripes = Полосатая голова
 
 # Tattoos
-marking-TattooFelionoidHeartLeftArm = Left Arm Heart Tattoo
-marking-TattooFelionoidHeartRightArm = Right Arm Heart Tattoo
-marking-TattooFelionoidHiveChest = Hive Back Tattoo
-marking-TattooFelionoidNightlingChest = Nightling Chest Tattoo
+marking-TattooFelionoidHeartLeftArm = Татуировка-сердце на левой руке
+marking-TattooFelionoidHeartRightArm = Татуировка-сердце на правой руке
+marking-TattooFelionoidHiveChest = Татуировка улья на спине
+marking-TattooFelionoidNightlingChest = Татуировка ночного создания на груди
 
 # Snout
-marking-FelionoidSnout = Snout
+marking-FelionoidSnout = Морда
 
 # Tail
-marking-FelionoidTail = Felionoid Tail
-marking-FelionoidTail-tail_behind = Felionoid Tail
-marking-FelionoidTailAnimated = Felionoid Tail, Wag
-marking-FelionoidTailAnimated-tail_wagging = Tail, Wag
-marking-FelionoidTailTipAnimated = Tipped Tail, Wag
+marking-FelionoidTail = Хвост фелионоида
+marking-FelionoidTail-tail_behind = Хвост фелионоида
+marking-FelionoidTailAnimated = Хвост фелионоида (виляет)
+marking-FelionoidTailAnimated-tail_wagging = Хвост (виляет)
+marking-FelionoidTailTipAnimated = Хвост с кончиком (виляет)

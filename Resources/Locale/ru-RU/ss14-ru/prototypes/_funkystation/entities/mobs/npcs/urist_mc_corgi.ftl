@@ -1,3 +1,3 @@
-ent-SparlightMobUristMcCorgi = Extradimensional Corgi
-    .desc = Now THIS is a rare sight to see!
+ent-SparlightMobUristMcCorgi = Внемерный корги
+    .desc = Вот ЭТО редкое зрелище!
     .suffix = { ent-MobCorgiBase.suffix }

@@ -1,2 +1,2 @@
-ent-ProjectileWeakFireball = weak fireball
-    .desc = Burnin up for you.
+ent-ProjectileWeakFireball = слабый огненный шар
+    .desc = Сгораю ради вас.

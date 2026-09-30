@@ -1,1 +1,1 @@
-retractable-item-cybernetics-disrupted = Your cybernetics are currently disrupted.
+retractable-item-cybernetics-disrupted = Ваша кибернетика сейчас нарушена.

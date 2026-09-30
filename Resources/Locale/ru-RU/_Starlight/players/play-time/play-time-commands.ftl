@@ -1,1 +1,1 @@
-parse-player-record-fail = Did not find player record for '{ $username }'
+parse-player-record-fail = Запись игрока «{ $username }» не найдена

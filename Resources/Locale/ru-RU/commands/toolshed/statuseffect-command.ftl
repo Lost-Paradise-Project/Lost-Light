@@ -1,8 +1,8 @@
 command-description-statuseffect-add =
-    Adds time in seconds to a given status effect's duration, or creates one with a duration equal to time.
+    Добавляет секунды к длительности указанного статус-эффекта или создаёт его с длительностью, равной времени.
 command-description-statuseffect-update =
-    Sets the duration of a status effect to the higher of the inputted time or existing time. If time is 0, duration will be infinite.
+    Задаёт длительность статус-эффекта равной большему из введённого и существующего времени. Если время равно 0, длительность будет бесконечной.
 command-description-statuseffect-set =
-    Sets the duration of a status effect to the inputted time in seconds. If time is 0, duration will be infinite.
+    Задаёт длительность статус-эффекта равной введённому времени в секундах. Если время равно 0, длительность будет бесконечной.
 command-description-statuseffect-remove =
-    Removes a time from a given status effect by prototype. If time isn't set, removes the status effect.
+    Убирает время у указанного статус-эффекта по прототипу. Если время не указано, убирает статус-эффект целиком.

@@ -51,7 +51,7 @@ humanoid-profile-editor-job-priority-low-button = Низкий
 humanoid-profile-editor-job-priority-never-button = Никогда
 humanoid-profile-editor-naming-rules-warning = Внимание: Оскорбительные или странные имена и описания могут повлечь за собой беседу с администрацией. Прочитайте \[Правила\].
 humanoid-profile-editor-markings-tab = Черты внешности
-humanoid-profile-editor-cybernetics-tab = Cybernetics
+humanoid-profile-editor-cybernetics-tab = Кибернетика
 humanoid-profile-editor-flavortext-tab = Описание
 
 # Traits

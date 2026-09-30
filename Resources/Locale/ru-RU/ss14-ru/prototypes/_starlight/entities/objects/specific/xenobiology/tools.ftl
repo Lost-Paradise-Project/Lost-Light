@@ -1,6 +1,6 @@
-ent-SlimeExtractBag = slime extract bag
-    .desc = A bag for greedy xenobiologists to store unreasonable amounts of extracts.
-ent-HandheldSlimeScanner = handheld slime scanner
-    .desc = A hand-held scanner for collecting information on slimes.
-ent-XenobiologyConsoleCameraTagger = Xenobiology Console Camera Tagger
-    .desc = Can tag any camera to register it to the xenobiology network. Spy on slimes further away, or even your neighbors!
+ent-SlimeExtractBag = сумка для экстрактов слайма
+    .desc = Сумка для жадных ксенобиологов, чтобы хранить непомерное количество экстрактов.
+ent-HandheldSlimeScanner = портативный сканер слаймов
+    .desc = Портативный сканер для сбора информации о слаймах.
+ent-XenobiologyConsoleCameraTagger = Маркировщик камер ксенобиологической консоли
+    .desc = Может пометить любую камеру, чтобы зарегистрировать её в ксенобиологической сети. Шпионьте за слаймами подальше или даже за соседями!

@@ -1,5 +1,5 @@
-thankyou-legaldrobe-1 = You can win any case in that outfit!
-thankyou-legaldrobe-2 = Get one for your client as well!
-thankyou-legaldrobe-3 = Win or lose, you get paid either way!
-thankyou-legaldrobe-4 = Remember: It's only illegal if NanoTrasen catches you!
-thankyou-legaldrobe-5 = OBJECTION! That outfit is too cool for court!
+thankyou-legaldrobe-1 = Вы выиграете любое дело в этом наряде!
+thankyou-legaldrobe-2 = Возьмите такой же и своему клиенту!
+thankyou-legaldrobe-3 = Выиграете или проиграете, вы получаете деньги в любом случае!
+thankyou-legaldrobe-4 = Помните: это незаконно, только если НаноТрейзен вас поймает!
+thankyou-legaldrobe-5 = ПРОТЕСТ! Этот наряд слишком крут для суда!

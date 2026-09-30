@@ -1,2 +1,2 @@
-ent-WeaponNinjaChainSickle = kusarigama
-    .desc = A sickle attached to a websilk chain. The Spider Clan embodies the ancient ways, even as they steal the future.
+ent-WeaponNinjaChainSickle = кусаригама
+    .desc = Серп, прикреплённый к цепи из паутинного шёлка. Клан Паука воплощает древние пути, даже воруя будущее.

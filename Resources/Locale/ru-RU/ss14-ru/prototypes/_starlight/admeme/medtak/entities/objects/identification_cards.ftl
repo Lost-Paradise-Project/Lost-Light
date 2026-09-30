@@ -1,12 +1,12 @@
 ent-MedTakIDCard = { ent-IDCardStandard }
     .desc = { ent-IDCardStandard.desc }
-ent-MedTakIDCardTeamLead = MedTak team leader ID card
+ent-MedTakIDCardTeamLead = ID-карта командира группы МедТак
     .desc = { ent-MedTakIDCard.desc }
-ent-MedTakIDCardDispatcher = MedTak dispatcher ID card
+ent-MedTakIDCardDispatcher = ID-карта диспетчера МедТак
     .desc = { ent-MedTakIDCard.desc }
-ent-MedTakIDCardMedic = MedTak medic ID card
+ent-MedTakIDCardMedic = ID-карта медика МедТак
     .desc = { ent-MedTakIDCard.desc }
-ent-MedTakIDCardPilot = MedTak pilot ID card
+ent-MedTakIDCardPilot = ID-карта пилота МедТак
     .desc = { ent-MedTakIDCard.desc }
-ent-MedTakIDCardSecurity = MedTak security ID card
+ent-MedTakIDCardSecurity = ID-карта СБ МедТак
     .desc = { ent-MedTakIDCard.desc }

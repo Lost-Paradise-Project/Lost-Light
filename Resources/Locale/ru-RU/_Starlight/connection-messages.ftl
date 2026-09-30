@@ -1,5 +1,5 @@
-ban-banned-id = Ban ID: { $id }
+ban-banned-id = ID бана: { $id }
 
-ban-project = You have been banned on the NullLink network from the { $project } project.
+ban-project = Вы забанены в сети NullLink в проекте { $project }.
 
-ban-project-server = You have been banned on the NullLink network from the { $project } project on server: { $server }.
+ban-project-server = Вы забанены в сети NullLink в проекте { $project } на сервере: { $server }.

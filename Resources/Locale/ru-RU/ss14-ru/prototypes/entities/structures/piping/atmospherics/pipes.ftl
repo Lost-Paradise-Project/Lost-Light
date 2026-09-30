@@ -1,6 +1,6 @@
 ent-GasPipeSansLayers = газовая труба
     .desc = Удерживает газ.
-ent-VentCrawlHolder = vent craw holder
+ent-VentCrawlHolder = держатель ползущего по вентиляции
     .desc = { "" }
 ent-GasPipeBase = { ent-GasPipeSansLayers }
     .desc = { ent-GasPipeSansLayers.desc }

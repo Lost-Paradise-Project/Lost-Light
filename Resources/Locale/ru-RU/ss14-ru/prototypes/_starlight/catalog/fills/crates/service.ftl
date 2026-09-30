@@ -1,6 +1,6 @@
-ent-CrateServiceHydraRefill = hydra refill crate
-    .desc = Contains two refills for the Hydra cleanade launcher.
-ent-CrateServiceIceCreamMakerStarter = ice cream maker starter crate
-    .desc = Contains a flatpack of an ice cream maker, a jug of ice cream, cream, cocoa powder, berries, pistachios, and glasses.
-ent-CrateServiceDocumentPrinter = document printer crate
-    .desc = A document printer.
+ent-CrateServiceHydraRefill = ящик пополнения гидры
+    .desc = Содержит две заправки для гранатомёта очистительных гранат «Гидра».
+ent-CrateServiceIceCreamMakerStarter = стартовый ящик мороженицы
+    .desc = Содержит плоскую упаковку мороженицы, кувшин мороженого, сливки, порошок какао, ягоды, фисташки и бокалы.
+ent-CrateServiceDocumentPrinter = ящик принтера документов
+    .desc = Принтер документов.

@@ -10,8 +10,8 @@ reagent-desc-buzzochloric-bees = Жидкие пчёлы. О боже, это Ж
 reagent-name-ground-bee = молотые пчёлы
 reagent-desc-ground-bee = Молотые пчёлы. Мерзость.
 
-reagent-name-brass = brass
-reagent-desc-brass = Smells like clockwork.
+reagent-name-brass = латунь
+reagent-desc-brass = Пахнет часовым механизмом.
 
 reagent-name-licoxide = ликоксид
 reagent-desc-licoxide = Синтетическая аккумуляторная кислота. Выглядит... электризующе.
@@ -41,4 +41,4 @@ reagent-name-canidessence = каниназ
 reagent-desc-canidessence = Тип канцерогенного фермента, который, как известно, расщепляет белки, содержащиеся в голосовых связках большинства животных. НЕ рекомендуется смешивать.
 
 # Starlight
-reagent-name-concentratedcorgijuice = juice that makes you a corgi forever
+reagent-name-concentratedcorgijuice = сок, навсегда превращающий в корги

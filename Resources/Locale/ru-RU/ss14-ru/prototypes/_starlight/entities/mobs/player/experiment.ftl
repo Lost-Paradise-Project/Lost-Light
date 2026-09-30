@@ -1,2 +1,2 @@
-ent-MobExperiment = Urist McExperiment
+ent-MobExperiment = Урист МакЭксперимент
     .desc = { ent-BaseMobExperiment.desc }

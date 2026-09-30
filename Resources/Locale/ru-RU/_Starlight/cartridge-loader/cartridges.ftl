@@ -1,1 +1,1 @@
-med-tek-analyze-verb-name = Analyze Patient
+med-tek-analyze-verb-name = Анализировать пациента

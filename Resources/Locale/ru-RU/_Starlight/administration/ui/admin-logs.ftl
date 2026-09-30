@@ -1,1 +1,1 @@
-admin-logs-entity-context-tooltip = Right click to open the context menu of an entity in this log.
+admin-logs-entity-context-tooltip = Щёлкните правой кнопкой, чтобы открыть контекстное меню сущности в этом журнале.

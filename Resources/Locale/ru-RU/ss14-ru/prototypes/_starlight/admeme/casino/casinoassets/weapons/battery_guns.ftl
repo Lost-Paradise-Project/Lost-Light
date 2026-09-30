@@ -1,2 +1,2 @@
-ent-WeaponPulsePistolCasino = Gamorrah Pulse Pistol
-    .desc = Success depends on forethought, dispassionate calculation of probabilities, accounting for every stray variable. Thats why this gun is the Gamorrah Weapon.
+ent-WeaponPulsePistolCasino = импульсный пистолет Гоморры
+    .desc = Успех зависит от предусмотрительности, беспристрастного расчёта вероятностей и учёта каждой случайной переменной. Поэтому этот пистолет — оружие Гоморры.

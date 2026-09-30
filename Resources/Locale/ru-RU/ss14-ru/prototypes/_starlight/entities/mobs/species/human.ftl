@@ -1,2 +1,2 @@
-ent-BaseMobHuman = Urist McHands
+ent-BaseMobHuman = Урист МакРуки
     .desc = { ent-BaseMobSpeciesOrganic.desc }

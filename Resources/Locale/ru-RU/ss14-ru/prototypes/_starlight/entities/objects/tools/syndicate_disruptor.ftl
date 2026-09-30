@@ -1,8 +1,8 @@
 ent-BaseEventSelector = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-SyndicateDisruptor = syndicate disruptor
-    .desc = Call in various disruptions to create opportunities, such as power or comms outages. Each feature applies a different cooldown.
-    .suffix = agent
-ent-SyndicateDisruptorSignaller = syndicate disruptor signaller
-    .desc = Call in various disruptions to create opportunities, such as power or comms outages. Each feature applies a different cooldown.
-    .suffix = signaller
+ent-SyndicateDisruptor = дезорганизатор Синдиката
+    .desc = Вызывайте различные помехи, чтобы создавать возможности, например отключения питания или связи. Каждая функция имеет свою перезарядку.
+    .suffix = агент
+ent-SyndicateDisruptorSignaller = сигнализатор дезорганизатора Синдиката
+    .desc = Вызывайте различные помехи, чтобы создавать возможности, например отключения питания или связи. Каждая функция имеет свою перезарядку.
+    .suffix = сигнализатор

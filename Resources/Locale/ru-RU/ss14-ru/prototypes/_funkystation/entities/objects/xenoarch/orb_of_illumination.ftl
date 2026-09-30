@@ -1,3 +1,3 @@
-ent-GlowingOrb = glowing orb
-    .desc = A bright orb of light. It seems fragile.
-    .suffix = ARTIFACT
+ent-GlowingOrb = светящийся шар
+    .desc = Яркий шар света. Кажется хрупким.
+    .suffix = АРТЕФАКТ

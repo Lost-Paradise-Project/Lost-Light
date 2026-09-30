@@ -18,5 +18,5 @@ ent-IonStormPlus = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-ParadoxCrisisSpawn = { ent-ParadoxCloneSpawn }
     .desc = { ent-ParadoxCloneSpawn.desc }
-ent-UtilityLineRupture = Utility Line Rupture
+ent-UtilityLineRupture = Разрыв коммуникации
     .desc = { ent-BaseStationEvent.desc }

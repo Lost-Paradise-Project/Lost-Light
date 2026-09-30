@@ -1,9 +1,9 @@
 
-reagent-name-elf-diethylamine = ghyran essence
-reagent-desc-elf-diethylamine = Distilled green magic.
+reagent-name-elf-diethylamine = эссенция гхирана
+reagent-desc-elf-diethylamine = Дистиллированная зелёная магия.
 
-reagent-name-elf-tranexamic-acid = haemostatic precipitate
-reagent-desc-elf-tranexamic-acid = An arcane substance that prevents the untoward movement of blood.
+reagent-name-elf-tranexamic-acid = кровоостанавливающий осадок
+reagent-desc-elf-tranexamic-acid = Тайное вещество, препятствующее нежелательному движению крови.
 
-reagent-name-elf-space-cleaner = ontological splendor
-reagent-desc-elf-space-cleaner = Somehow, everything it touches seems slightly better.
+reagent-name-elf-space-cleaner = онтологическое великолепие
+reagent-desc-elf-space-cleaner = Всё, чего оно касается, почему-то становится чуть лучше.

@@ -1,2 +1,2 @@
-ent-EncryptionKeyETO = ETO encryption key
-    .desc = An encryption key used by ETO operatives.
+ent-EncryptionKeyETO = ключ шифрования ЭТО
+    .desc = Ключ шифрования, используемый оперативниками ЭТО.

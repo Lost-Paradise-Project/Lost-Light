@@ -1,24 +1,24 @@
 # Far Horizons + Starlight
-species-name-neocyte = Neocyte
-guidebook-armor-neocyte = Neocyte Frames
+species-name-neocyte = Неоцит
+guidebook-armor-neocyte = Каркасы неоцитов
 # Starlight, Neocyte Frames, True Neocyte, Neo Laspi, Human, Felionoid, Dwarf, and Cyclorite renamed
-subspecies-name-trueneocyte = True Neocyte
-subspecies-name-neovulpkanin = Neo-Vulpkanin
-subspecies-name-neovox = Neo-Vox
-subspecies-name-neothaven = Neo-Thaven
-subspecies-name-neoslimeperson = Neo-Laspi
-subspecies-name-neokin = Neo-Kin
-subspecies-name-neoresomi = Neo-Resomi
-subspecies-name-neoreptilian = Neo-Reptilian
-subspecies-name-neomoth = Neo-Moth
-subspecies-name-neohuman = Neo-Human
-subspecies-name-neofelionoid = Neo-Felionoid
-subspecies-name-neodwarf = Neo-Dwarf
-subspecies-name-neodiona = Neo-Diona
-subspecies-name-neocyclorite = Neo-Cyclorite
-subspecies-name-neoavali = Neo-Avali
-subspecies-name-neoarachnid = Neo-Arachnid
+subspecies-name-trueneocyte = Истинный неоцит
+subspecies-name-neovulpkanin = Нео-вульпканин
+subspecies-name-neovox = Нео-вокс
+subspecies-name-neothaven = Нео-тавен
+subspecies-name-neoslimeperson = Нео-ласпи
+subspecies-name-neokin = Нео-сородич
+subspecies-name-neoresomi = Нео-ресоми
+subspecies-name-neoreptilian = Нео-рептилоид
+subspecies-name-neomoth = Нео-моль
+subspecies-name-neohuman = Нео-человек
+subspecies-name-neofelionoid = Нео-фелионоид
+subspecies-name-neodwarf = Нео-дворф
+subspecies-name-neodiona = Нео-диона
+subspecies-name-neocyclorite = Нео-циклорит
+subspecies-name-neoavali = Нео-авали
+subspecies-name-neoarachnid = Нео-арахнид
 
 # Starlight species added after Neocytes
-subspecies-name-neoelf = Neo-Aielithii
-subspecies-name-neolagomorph = Neo-Lagomorph
+subspecies-name-neoelf = Нео-айелит
+subspecies-name-neolagomorph = Нео-лагоморф

@@ -1,30 +1,30 @@
 command-description-gamemap-get =
-    Gets the map that the piped entity is currently on.
+    Получает карту, на которой сейчас находится сущность из конвейера.
 command-description-gamemap-getid =
-    Gets a map by its ID.
+    Получает карту по её ID.
 command-description-gamemap-init =
-    Initializes the piped map entity.
+    Инициализирует сущность карты из конвейера.
 command-description-gamemap-initid =
-    Initializes the map with the specified ID.
+    Инициализирует карту с указанным ID.
 command-description-gamemap-pause =
-    Pauses the piped map entity.
+    Ставит на паузу сущность карты из конвейера.
 command-description-gamemap-pauseid =
-    Pauses the map with the specified ID.
+    Ставит на паузу карту с указанным ID.
 command-description-gamemap-unpause =
-    Unpauses the piped map entity.
+    Снимает с паузы сущность карты из конвейера.
 command-description-gamemap-unpauseid =
-    Unpauses the map with the specified ID.
+    Снимает с паузы карту с указанным ID.
 command-description-gamemap-load =
-    Loads a map from the specified path to the specified map ID.
+    Загружает карту по указанному пути в карту с указанным ID.
 command-description-gamemap-loadoffset =
-    Loads a map from the specified path with the given map ID. Allows specifying an offset and rotation.
+    Загружает карту по указанному пути с заданным ID карты. Позволяет указать смещение и поворот.
 command-description-gamemap-add =
-    Adds a new map with the specified map ID. Lets you choose whether to initialize it or not.
+    Добавляет новую карту с указанным ID. Позволяет выбрать, инициализировать её или нет.
 command-description-gamemap-rm =
-    Properly removes the piped map entity.
+    Корректно удаляет сущность карты из конвейера.
 command-description-gamemap-rmid =
-    Properly removes the map with the specified ID.
+    Корректно удаляет карту с указанным ID.
 command-description-gamemap-save =
-    Saves the piped map entity to the given path.
+    Сохраняет сущность карты из конвейера по указанному пути.
 command-description-gamemap-saveid =
-    Saves the map with the specified ID to the given path.
+    Сохраняет карту с указанным ID по указанному пути.

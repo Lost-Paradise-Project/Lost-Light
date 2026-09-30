@@ -1,2 +1,2 @@
-cmd-salarychangecredits-desc = Changes a player's credits balance.
-cmd-salarychangecredits-help = Usage: salarychangecredits <player> <amount>
+cmd-salarychangecredits-desc = Изменяет баланс кредитов игрока.
+cmd-salarychangecredits-help = Использование: salarychangecredits <игрок> <сумма>

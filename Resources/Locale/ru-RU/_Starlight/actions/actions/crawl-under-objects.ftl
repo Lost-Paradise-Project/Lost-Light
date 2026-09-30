@@ -1,7 +1,7 @@
-crawl-under-objects-toggle-on = Now sneaking!
-crawl-under-objects-toggle-off = No longer sneaking!
-crawl-under-objects-toggle-off-fail = You can't stop sneaking here!
-crawl-under-objects-attack-fail = You can't attack while sneaking!
-crawl-under-objects-pickup-fail = You can't pick that up from here!
-crawl-under-objects-use-fail = You can't use that from here!
-crawl-under-objects-interact-fail = You can't do that from here!
+crawl-under-objects-toggle-on = Теперь вы крадётесь!
+crawl-under-objects-toggle-off = Вы больше не крадётесь!
+crawl-under-objects-toggle-off-fail = Здесь нельзя перестать красться!
+crawl-under-objects-attack-fail = Нельзя атаковать, пока вы крадётесь!
+crawl-under-objects-pickup-fail = Отсюда это не подобрать!
+crawl-under-objects-use-fail = Отсюда этим не воспользоваться!
+crawl-under-objects-interact-fail = Отсюда этого не сделать!

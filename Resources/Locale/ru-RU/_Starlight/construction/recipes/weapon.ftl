@@ -1,1 +1,1 @@
-construction-recipe-improvised-grapple-gun = improvised grappling gun
+construction-recipe-improvised-grapple-gun = самодельный абордажный крюк

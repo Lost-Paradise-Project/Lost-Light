@@ -1,5 +1,5 @@
-ent-SpawnMobEeeplet = Eeeplet Spawner
+ent-SpawnMobEeeplet = спавнер иипленка
     .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostEeeplet = ghost role spawn point
+ent-SpawnPointGhostEeeplet = точка появления роли призрака
     .desc = { ent-BaseAntagSpawner.desc }
-    .suffix = eeeplet
+    .suffix = ииплёнок

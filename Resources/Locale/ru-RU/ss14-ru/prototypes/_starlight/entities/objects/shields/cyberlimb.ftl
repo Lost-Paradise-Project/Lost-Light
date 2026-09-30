@@ -1,2 +1,2 @@
-ent-EnergyShieldCyber = bulwark
-    .desc = The true shield for warriors, made out of hard-light materials making it lightweight and portable.
+ent-EnergyShieldCyber = бастион
+    .desc = Настоящий щит для воинов, сделанный из жёстко-световых материалов, лёгкий и портативный.

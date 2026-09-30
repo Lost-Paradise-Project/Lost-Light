@@ -1,2 +1,2 @@
-ent-EffectTerrorCocoon = cocoon
-    .desc = Web cocoon with people inside!
+ent-EffectTerrorCocoon = кокон
+    .desc = Паутинный кокон с людьми внутри!

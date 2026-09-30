@@ -1,5 +1,5 @@
-ent-SalvageTicket = ticket
-    .desc = exchange your tickets for equipment!
+ent-SalvageTicket = талон
+    .desc = обменивайте свои талоны на снаряжение!
 ent-SalvageTicket5 = { ent-SalvageTicket }
     .desc = { ent-SalvageTicket.desc }
     .suffix = 5

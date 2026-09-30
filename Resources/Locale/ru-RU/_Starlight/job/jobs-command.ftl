@@ -1,6 +1,6 @@
 command-description-jobs-setunlimited =
-    Make a job slot unlimited.
+    Делает слот должности неограниченным.
 command-description-jobs-setlimited =
-    Make a job slot limited. Allows resetting to 0, or to whatever the midround count would be.
+    Делает слот должности ограниченным. Позволяет сбросить до 0 или до значения, которое было бы в середине раунда.
 command-description-jobs-del =
-    Delete a job slot entirely from the station.
+    Полностью удаляет слот должности со станции.

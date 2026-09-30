@@ -1,4 +1,4 @@
-ui-lobby-welcome = Welcome to { $name }
+ui-lobby-welcome = Добро пожаловать на { $name }
 ui-lobby-title = Лобби: { $serverName }
 ui-lobby-ahelp-button = АХелп
 ui-lobby-options-button = Настройки
@@ -8,13 +8,13 @@ ui-lobby-ready-up-button = Готовность
 ui-lobby-online-players-block = Текущие игроки
 ui-lobby-server-info-block = Серверная информация
 ui-lobby-ready-button-tooltip-no-possible-characters =
-    You have no active characters with jobs that align with your selected job priorities.
-    Please double check that you have at least one active character with a job set to "Yes"
-    with a corresponding job priority set above "Never".
-ui-lobby-ready-button-tooltip-is-ready = Your application to participate in the next crew shift has been recieved.
-ui-lobby-ready-button-tooltip-is-not-ready = You have not applied to participate in the next crew shift.
-ui-lobby-ready-button-tooltip-not-loaded = Hold on! Your characters have not loaded yet!
-ui-lobby-ready-button-tooltip-join-state = Clock in late to the current crew shift.
+    У вас нет активных персонажей с должностями, соответствующими выбранным приоритетам.
+    Убедитесь, что у вас есть хотя бы один активный персонаж с должностью, отмеченной «Да»,
+    и что соответствующий приоритет должности выше «Никогда».
+ui-lobby-ready-button-tooltip-is-ready = Ваша заявка на участие в следующей смене экипажа получена.
+ui-lobby-ready-button-tooltip-is-not-ready = Вы не подавали заявку на участие в следующей смене экипажа.
+ui-lobby-ready-button-tooltip-not-loaded = Погодите! Ваши персонажи ещё не загрузились!
+ui-lobby-ready-button-tooltip-join-state = Выйти на текущую смену экипажа с опозданием.
 
-ui-lobby-lock-priorities-checkbox-tooltip = Allow dragging and dropping of job priorities directly.
-ui-lobby-lock-priorities-checkbox-label = Allow dragging
+ui-lobby-lock-priorities-checkbox-tooltip = Разрешить перетаскивание приоритетов должностей напрямую.
+ui-lobby-lock-priorities-checkbox-label = Разрешить перетаскивание

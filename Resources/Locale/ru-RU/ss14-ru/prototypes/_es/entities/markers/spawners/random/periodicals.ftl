@@ -1,9 +1,9 @@
-ent-ESSpawnerRandomPeriodicals = Periodical Spawner
+ent-ESSpawnerRandomPeriodicals = Спавнер периодики
     .desc = { ent-MarkerBase.desc }
-    .suffix = Magazines / Newspapers
-ent-ESSpawnerRandomPeriodicalsLegit = Periodical Spawner
+    .suffix = Журналы / газеты
+ent-ESSpawnerRandomPeriodicalsLegit = Спавнер периодики
     .desc = { ent-MarkerBase.desc }
-    .suffix = Magazines / Newspapers, Legit
-ent-ESSpawnerRandomPeriodicalsContraband = Periodical Spawner
+    .suffix = Журналы / газеты, легальные
+ent-ESSpawnerRandomPeriodicalsContraband = Спавнер периодики
     .desc = { ent-MarkerBase.desc }
-    .suffix = Magazines / Newspapers, Contraband
+    .suffix = Журналы / газеты, контрабанда

@@ -1,6 +1,6 @@
-ent-BaseCartridgeLightRifleSP = cartridge (.30 rifle SP)
+ent-BaseCartridgeLightRifleSP = патрон (.30 винтовочный SP)
     .desc = { ent-BaseCartridge.desc }
-ent-CartridgeLightRifleSP = cartridge (.30 rifle SP)
+ent-CartridgeLightRifleSP = патрон (.30 винтовочный SP)
     .desc = { ent-BaseCartridgeLightRifleSP.desc }
 ent-CartridgeLightRiflePractice = патрон (.30 винтовочный учебный)
     .desc = Классический промежуточный патрон, используемый во многих боевых винтовках и ручных пулемётах. Учебный боеприпас выстреливает меловым снарядом, который немного жалит, но в остальном не наносит стойкого вреда.

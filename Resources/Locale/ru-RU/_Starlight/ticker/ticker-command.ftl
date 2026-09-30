@@ -1,28 +1,28 @@
 command-description-ticker-endround =
-    Ends the current round without starting the restart timer.
+    Завершает текущий раунд без запуска таймера перезапуска.
 command-description-ticker-restartround =
-    Ends the round if it isn't already ended, and start/restart the round restart timer with an optional specified number of seconds.
+    Завершает раунд, если он ещё не завершён, и запускает/перезапускает таймер перезапуска раунда с необязательным указанным числом секунд.
 command-description-ticker-restartroundnow =
-    Ends the round and returns to lobby.
+    Завершает раунд и возвращает в лобби.
 command-description-ticker-cancelrestart =
-    Cancels the round restart timer.
+    Отменяет таймер перезапуска раунда.
 command-description-ticker-cancelpostround =
-    Cancels the post-end state and returns to being considered in-round.
+    Отменяет состояние после конца раунда и возвращает к состоянию «в раунде».
 command-description-ticker-toggletimeronend =
-    Toggle whether the round restart timer will auto-start on round end. Resets to true automatically upon returning to lobby.
+    Переключает, будет ли таймер перезапуска раунда автоматически запускаться в конце раунда. Автоматически сбрасывается на true при возврате в лобби.
 command-description-ticker-delaystart =
-    Delay round start by a specified number of seconds, or pause if 0 or unspecified.
+    Откладывает начало раунда на указанное число секунд или ставит на паузу, если 0 или не указано.
 command-description-ticker-getrule =
-    Get a reference to an added gamerule entity.
+    Получает ссылку на добавленную сущность игрового правила.
 command-description-ticker-getrules =
-    Get all gamerules that are currently added.
+    Получает все игровые правила, добавленные в данный момент.
 command-description-ticker-getrulesoftype =
-    Get all added gamerule entities of a given rule prototype.
+    Получает все добавленные сущности игровых правил заданного прототипа правила.
 command-description-ticker-getactiverules =
-    Get all ACTIVE gamerules that are currently added.
+    Получает все АКТИВНЫЕ игровые правила, добавленные в данный момент.
 command-description-ticker-getactiverulesoftype =
-    Get all ACTIVE gamerule entities that are currently added of a given rule prototype.
+    Получает все АКТИВНЫЕ сущности игровых правил, добавленные в данный момент, заданного прототипа правила.
 command-description-ticker-addrule =
-    Add a gamerule entity prototype to the round.
+    Добавляет прототип сущности игрового правила в раунд.
 command-description-ticker-endrule =
-    End a gamerule entity's gamerule.
+    Завершает игровое правило сущности игрового правила.

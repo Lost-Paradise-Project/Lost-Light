@@ -1,7 +1,7 @@
-ent-ReinforcedBrassWindow = reinforced brass window
+ent-ReinforcedBrassWindow = укреплённое латунное окно
     .desc = { ent-Window.desc }
 ent-ReinforcedBrassWindowDiagonal = { ent-ReinforcedBrassWindow }
     .desc = { ent-ReinforcedBrassWindow.desc }
-    .suffix = diagonal
-ent-WindowReinforcedDirectionalBrass = directional reinforced brass window
-    .desc = Don't smudge up the glass down there.
+    .suffix = диагональное
+ent-WindowReinforcedDirectionalBrass = направленное укреплённое латунное окно
+    .desc = Не оставляйте разводы на стекле там внизу.

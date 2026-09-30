@@ -1,8 +1,8 @@
-objective-framing = Frame someone in { $department } as a Syndicate agent
-objective-false-uprising = Start rumors that someone in { $department } is starting an uprising
-objective-stalking = Spy on and keep a written record of the members of { $department } and their activities
-objective-disgrace = Disgrace the head of { $department } publicly
-objective-harass = Harass and inconvenience { $department } this shift, without dealing direct body harm
-objective-impersonate = Impersonate a member of { $department } this shift, and smear them and their department's reputation
-objective-feud = Falsify aggression and increase hostilities between { $department } and another department this shift
-objective-waste = Waste { $department }'s resources this shift, in any way you deem satisfactory
+objective-framing = Подставить кого-то из отдела «{ $department }» как агента Синдиката
+objective-false-uprising = Пустить слухи, что кто-то из отдела «{ $department }» затевает восстание
+objective-stalking = Шпионить за членами отдела «{ $department }» и их деятельностью и вести письменные записи
+objective-disgrace = Публично опозорить главу отдела «{ $department }»
+objective-harass = Досаждать и создавать неудобства отделу «{ $department }» в эту смену, не причиняя прямого вреда телу
+objective-impersonate = Выдать себя за члена отдела «{ $department }» в эту смену и очернить его и репутацию его отдела
+objective-feud = Сфабриковать агрессию и усилить вражду между отделом «{ $department }» и другим отделом в эту смену
+objective-waste = Растрачивать ресурсы отдела «{ $department }» в эту смену любым удовлетворяющим вас способом

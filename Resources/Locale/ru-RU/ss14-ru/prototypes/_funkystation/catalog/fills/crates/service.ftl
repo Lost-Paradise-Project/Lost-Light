@@ -1,2 +1,2 @@
-ent-CrateServiceWashingMachineSet = DIY washing machine kit
-    .desc = A NanoTrasen Model-C washing machine, disassembled and ready for shipping. Contains small parts that may be ingested by infants.
+ent-CrateServiceWashingMachineSet = набор «Стиральная машина своими руками»
+    .desc = Стиральная машина НаноТрейзен модели C в разобранном виде, готовая к отправке. Содержит мелкие детали, которые могут быть проглочены младенцами.

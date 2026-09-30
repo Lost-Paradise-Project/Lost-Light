@@ -1,2 +1,2 @@
-ent-PropSnowman = snowman
-    .desc = A cheap decoration.
+ent-PropSnowman = снеговик
+    .desc = Дешёвое украшение.

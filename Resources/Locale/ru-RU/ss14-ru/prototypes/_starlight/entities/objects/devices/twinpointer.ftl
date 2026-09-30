@@ -1,6 +1,6 @@
-ent-TwinPointerKit = twinpointer kit
-    .desc = A box containing a pair of twinpointers for mutually assured direction.
-ent-TwinPointerLeft = left twinpointer
-    .desc = The left half of a pair of twinpointers. Great when you're never right.
-ent-TwinPointerRight = right twinpointer
-    .desc = The right half of a pair of twinpointers. Perfect when you have nothing left.
+ent-TwinPointerKit = набор двойных указателей
+    .desc = Коробка с парой двойных указателей для взаимно гарантированного направления.
+ent-TwinPointerLeft = левый двойной указатель
+    .desc = Левая половина пары двойных указателей. Отлично, когда вы никогда не правы.
+ent-TwinPointerRight = правый двойной указатель
+    .desc = Правая половина пары двойных указателей. Идеально, когда у вас ничего не осталось.

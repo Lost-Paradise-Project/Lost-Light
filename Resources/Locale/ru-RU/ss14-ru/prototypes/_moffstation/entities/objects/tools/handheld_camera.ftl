@@ -1,3 +1,3 @@
-ent-SurveillanceWirelessCameraHandheld = wireless camera
-    .desc = A camera. It's watching you. Kinda.
-    .suffix = Handheld
+ent-SurveillanceWirelessCameraHandheld = беспроводная камера
+    .desc = Камера. Она наблюдает за вами. Вроде как.
+    .suffix = Ручная

@@ -1,2 +1,2 @@
-gavel-broken = { $ent } breaks with a loud bang!
-gavel-broken-entityname-prefix = broken
+gavel-broken = { $ent } ломается с громким хлопком!
+gavel-broken-entityname-prefix = сломан

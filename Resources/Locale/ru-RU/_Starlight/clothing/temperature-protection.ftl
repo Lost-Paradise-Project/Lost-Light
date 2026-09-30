@@ -1,4 +1,4 @@
-clothing-temperature-protection = - Reduces [color={ $color }]{ $type }[/color] temperatures by [color={ $color }]{ $value }%[/color].
-clothing-temperature-vulnerable = - Increases [color={ $color }]{ $type }[/color] temperatures by [color={ $color }]{ $value }%[/color].
-clothing-temperature-type-cold = cold
-clothing-temperature-type-hot = hot
+clothing-temperature-protection = - Снижает [color={ $color }]{ $type }[/color] температуры на [color={ $color }]{ $value }%[/color].
+clothing-temperature-vulnerable = - Повышает [color={ $color }]{ $type }[/color] температуры на [color={ $color }]{ $value }%[/color].
+clothing-temperature-type-cold = холодный
+clothing-temperature-type-hot = горячий

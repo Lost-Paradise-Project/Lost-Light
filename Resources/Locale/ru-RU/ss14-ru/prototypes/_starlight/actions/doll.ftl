@@ -1,4 +1,4 @@
-ent-ActionGenerateShellPiece = snap shell
-    .desc = Break off an expendable piece of your shell, either to use it as a crude knife or to donate it to a fellow doll.
-ent-ActionFakeDeath = Fake Death
-    .desc = Pretend to take your final breath while staying alive.
+ent-ActionGenerateShellPiece = отломить панцирь
+    .desc = Отломите расходуемый кусок своего панциря, чтобы использовать его как грубый нож или отдать товарищу-кукле.
+ent-ActionFakeDeath = Ложная смерть
+    .desc = Притворитесь, что делаете последний вздох, оставаясь живым.

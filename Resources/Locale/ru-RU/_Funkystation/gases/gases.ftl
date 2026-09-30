@@ -1,13 +1,13 @@
 # Funky atmos - /tg/ gases
 gases-bz = BZ
-gases-healium = Healium
-gases-nitrium = Nitrium
-gases-pluoxium = Pluoxium
-gases-hydrogen = Hydrogen
-gases-hyper-noblium = Hyper-Noblium
-gases-proto-nitrate = Proto-Nitrate
-gases-zauker = Zauker
-gases-halon = Halon
-gases-helium = Helium
-gases-anti-noblium = Anti-Noblium
-gases-unknown = Unknown
+gases-healium = Хилиум
+gases-nitrium = Нитриум
+gases-pluoxium = Плюоксиум
+gases-hydrogen = Водород
+gases-hyper-noblium = Гипер-ноблий
+gases-proto-nitrate = Прото-нитрат
+gases-zauker = Заукер
+gases-halon = Галон
+gases-helium = Гелий
+gases-anti-noblium = Анти-ноблий
+gases-unknown = Неизвестно

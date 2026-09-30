@@ -1,2 +1,2 @@
-ent-ActionToggleWeldingMask = Adjust Welding Mask
-    .desc = Covers or reveals your face.
+ent-ActionToggleWeldingMask = Поправить сварочную маску
+    .desc = Закрывает или открывает ваше лицо.

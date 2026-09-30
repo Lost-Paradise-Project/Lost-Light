@@ -1,1 +1,1 @@
-disposal-unit-full = This disposal unit is full!
+disposal-unit-full = Эта утилизационная установка заполнена!

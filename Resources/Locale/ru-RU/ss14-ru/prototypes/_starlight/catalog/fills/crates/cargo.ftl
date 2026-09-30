@@ -1,4 +1,4 @@
-ent-CrateMailBags = mailbag crate
-    .desc = Contains two mail bags, in case you lost the ones we gave you already.
-ent-CrateEmergencySpaceHazard = space hazard suit crate
-    .desc = For all your disastrous shifts.
+ent-CrateMailBags = ящик почтовых сумок
+    .desc = Содержит две почтовые сумки на случай, если вы потеряли те, что мы вам уже дали.
+ent-CrateEmergencySpaceHazard = ящик космических опасных скафандров
+    .desc = Для всех ваших катастрофических смен.

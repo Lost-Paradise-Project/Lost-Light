@@ -1,3 +1,3 @@
 ent-BaseToiletRegen = { ent-BaseToilet }
     .desc = { ent-BaseToilet.desc }
-    .suffix = Empty
+    .suffix = Пусто

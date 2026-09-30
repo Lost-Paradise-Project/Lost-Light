@@ -1,3 +1,3 @@
-ent-MobParadoxArtifact = space-time paradox
-    .desc = A big ball of wibbly wobbly, timey wimey stuff.
-    .suffix = ARTIFACT
+ent-MobParadoxArtifact = пространственно-временной парадокс
+    .desc = Большой комок непонятной путаницы времени и пространства.
+    .suffix = АРТЕФАКТ

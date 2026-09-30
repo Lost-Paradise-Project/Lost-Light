@@ -1,2 +1,2 @@
-ent-DemonicPitchfork = bident
-    .desc = the faded text "bloodedge the griff-" is engraved along the side.
+ent-DemonicPitchfork = бидент
+    .desc = Вдоль боковой стороны выгравирован выцветший текст «bloodedge the griff-».

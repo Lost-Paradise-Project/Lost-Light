@@ -1,8 +1,8 @@
-uplink-cddisksyndicate-name = Syndicate Advertisement CD
-uplink-cddisksyndicate-desc = 102.9 Syndicate radio
+uplink-cddisksyndicate-name = Рекламный CD Синдиката
+uplink-cddisksyndicate-desc = Радио Синдиката 102.9
 
-uplink-cddisknumber-name = Number Station CD
-uplink-cddisknumber-desc = Call in a threat to distract the station... good luck playing the whole thing.
+uplink-cddisknumber-name = CD с числовой станции
+uplink-cddisknumber-desc = Позвоните с угрозой, чтобы отвлечь станцию... удачи в прослушивании до конца.
 
-uplink-box-nuclearoperativecds-name = Box of Nuclear Operative CDs
-uplink-box-nuclearoperativecds-desc = A collection of CDs recorded by one salty Nuclear Operative Commander.
+uplink-box-nuclearoperativecds-name = Коробка с CD ядерных оперативников
+uplink-box-nuclearoperativecds-desc = Коллекция CD, записанных одним желчным командиром ядерных оперативников.

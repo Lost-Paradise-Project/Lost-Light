@@ -1,2 +1,2 @@
-chat-speech-verb-name-radio = Station Radio
-chat-speech-verb-radio = broadcasts
+chat-speech-verb-name-radio = Радио станции
+chat-speech-verb-radio = вещает

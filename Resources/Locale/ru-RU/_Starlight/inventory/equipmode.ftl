@@ -1,6 +1,6 @@
-equipmode-switch = Switch to { $type } on interact
+equipmode-switch = Переключить на «{ $type }» при взаимодействии
 
-equipmode-mode-remove = unequip
-equipmode-mode-open = open
+equipmode-mode-remove = снять
+equipmode-mode-open = открыть
 
-equipmode-remove = Unequip
+equipmode-remove = Снять

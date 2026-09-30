@@ -1,6 +1,6 @@
-thankyou-icecream-1 = Brrrrr!
-thankyou-icecream-2 = Chill out.
-thankyou-icecream-3 = Enjoy your ice cold treat!
-thankyou-icecream-4 = Ice is nice!
-thankyou-icecream-5 = Don't get brain freeze!
-thankyou-icecream-6 = Let it go, let it go...
+thankyou-icecream-1 = Брррр!
+thankyou-icecream-2 = Остыньте.
+thankyou-icecream-3 = Наслаждайтесь ледяным лакомством!
+thankyou-icecream-4 = Лёд — это здорово!
+thankyou-icecream-5 = Не получите мозговую заморозку!
+thankyou-icecream-6 = Отпусти, отпусти...

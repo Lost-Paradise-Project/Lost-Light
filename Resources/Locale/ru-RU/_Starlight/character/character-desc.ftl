@@ -1,4 +1,4 @@
-detail-examine-verb-text = Detail
-detail-examine-verb-disabled = Too far away to closely examine.
-exploitable-examine-verb-text = Exploitable Info
-exploitable-examine-verb-text-disabled = Too far away to closely examine.
+detail-examine-verb-text = Подробности
+detail-examine-verb-disabled = Слишком далеко, чтобы внимательно рассмотреть.
+exploitable-examine-verb-text = Уязвимая информация
+exploitable-examine-verb-text-disabled = Слишком далеко, чтобы внимательно рассмотреть.

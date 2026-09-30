@@ -1,1 +1,1 @@
-comp-gas-canister-slot-name-hose = hose
+comp-gas-canister-slot-name-hose = шланг

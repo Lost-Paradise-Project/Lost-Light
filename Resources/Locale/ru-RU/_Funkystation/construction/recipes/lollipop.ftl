@@ -1,1 +1,1 @@
-construction-lollipop-stargazer = stargazer shell
+construction-lollipop-stargazer = оболочка звездочёта

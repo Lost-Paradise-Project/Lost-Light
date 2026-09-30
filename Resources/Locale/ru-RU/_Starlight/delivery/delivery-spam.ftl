@@ -1,41 +1,41 @@
 delivery-spam-reasons-to-join-syndicate = { -delivery-header-syndicate }
 
-                    { "[head=2]TOP THREE REASONS WHY NANOTRASEN IS INCOMPETENT AND YOU SHOULD JOIN THE SYNDICATE[/head]" }
+                    { "[head=2]ТРИ ГЛАВНЫЕ ПРИЧИНЫ, ПОЧЕМУ НАНОТРЕЙЗЕН НЕКОМПЕТЕНТНА И ВАМ СТОИТ ВСТУПИТЬ В СИНДИКАТ[/head]" }
 
-                    { "[bold]NUMBER ONE[/bold]" }
-                    THEIR GUNS SUCK! THEY DON'T EVEN HAVE SNIPER RIFLES! THEIR SECURITY FORCES CAN'T EVEN CARRY BIG GUNS IN MOST SITUATIONS!
+                    { "[bold]НОМЕР ОДИН[/bold]" }
+                    ИХ ПУШКИ УЖАСНЫ! У НИХ ДАЖЕ СНАЙПЕРСКИХ ВИНТОВОК НЕТ! ИХ СЛУЖБА БЕЗОПАСНОСТИ В БОЛЬШИНСТВЕ СИТУАЦИЙ ДАЖЕ НЕ МОЖЕТ НОСИТЬ БОЛЬШИЕ СТВОЛЫ!
 
-                    { "[bold]NUMBER TWO[/bold]" }
-                    THEIR COMMANDERS? THEY DIE FROM A SINGLE SHOT! NO COOL ARMOR! JUST BANG, DEAD! LAME! OUR COMMANDERS GET COOL HARDSUITS!
+                    { "[bold]НОМЕР ДВА[/bold]" }
+                    ИХ КОМАНДИРЫ? ОНИ УМИРАЮТ ОТ ОДНОГО ВЫСТРЕЛА! НИКАКОЙ КРУТОЙ БРОНИ! ПРОСТО БАХ, И МЁРТВ! УБОГО! НАШИ КОМАНДИРЫ ПОЛУЧАЮТ КРУТЫЕ СКАФАНДРЫ!
 
-                    { "[bold]NUMBER THREE[/bold]" }
-                    THEIR MURDER METHODS ARE UNINSPIRED! IT'S JUST GUN! THERE'S NO THROWING PEOPLE INTO DEEP SPACE, NO FEEDING PEOPLE INTO RECYCLERS WITH SAFETY MODE DISENGAGED, NO SLIPPING BOMBS INTO POCKETS! SO BORING!
+                    { "[bold]НОМЕР ТРИ[/bold]" }
+                    ИХ СПОСОБЫ УБИЙСТВА БЕЗДАРНЫ! ЭТО ПРОСТО ПУШКА! НИКАКОГО ВЫБРАСЫВАНИЯ ЛЮДЕЙ В ГЛУБОКИЙ КОСМОС, НИКАКОГО СКАРМЛИВАНИЯ ЛЮДЕЙ УТИЛИЗАТОРАМ С ОТКЛЮЧЁННЫМ РЕЖИМОМ БЕЗОПАСНОСТИ, НИКАКОГО ПОДКЛАДЫВАНИЯ БОМБ В КАРМАНЫ! КАКАЯ СКУКА!
 
-                    { "[bold]SIGN HERE IF YOU AGREE[/bold]" }
-                    glory to the Syndicate, death to NanoTrasen
+                    { "[bold]ПОДПИШИТЕСЬ ЗДЕСЬ, ЕСЛИ СОГЛАСНЫ[/bold]" }
+                    слава Синдикату, смерть НаноТрейзен
 
-deliver-spam-dont-you-want-more = { "[color=gold][bold]Don't You Want More?[/bold][/color]" }
+deliver-spam-dont-you-want-more = { "[color=gold][bold]Разве вы не хотите большего?[/bold][/color]" }
 
-                                  Look around.
-                                  Someone's got the insulated gloves.
-                                  Someone's got the captain's spare.
-                                  Someone's got a locker full of contraband and cool toys.
+                                  Оглянитесь.
+                                  У кого-то есть изолирующие перчатки.
+                                  У кого-то есть запасная карта капитана.
+                                  У кого-то есть шкафчик, полный контрабанды и крутых игрушек.
 
-                                  And it's not you.
+                                  И это не вы.
 
-                                  Why wait?
-                                  { "[color=red][bold]Take what you want.[/bold][/color]" }
-                                  Wrenches. Weapons. IDs. Jetpacks. Don't ask. Don't trade. Just grab it and run.
-                                  Security's lazy. Cargo's careless. Engineering leaves stuff lying around.
-                                  All of it could be yours — if you're fast enough.
+                                  Чего ждать?
+                                  { "[color=red][bold]Берите, что хотите.[/bold][/color]" }
+                                  Гаечные ключи. Оружие. ID-карты. Реактивные ранцы. Не спрашивайте. Не меняйтесь. Просто хватайте и бегите.
+                                  СБ ленива. Карго беспечно. Инженеры оставляют вещи где попало.
+                                  Всё это может быть вашим — если вы достаточно быстры.
 
-                                  You're not doing this to make things better.
-                                  { "You're doing this because [color=red][bold]you deserve more.[/bold][/color]" }
-                                  More gear. More power. More fun.
+                                  Вы делаете это не ради улучшения.
+                                  { "Вы делаете это, потому что [color=red][bold]вы заслуживаете большего.[/bold][/color]" }
+                                  Больше снаряжения. Больше силы. Больше веселья.
 
-                                  { "[color=orange][bold]Sign below if you're ready to stop being poor and start taking what’s yours.[/bold][/color]" }
+                                  { "[color=orange][bold]Подпишитесь ниже, если готовы перестать быть бедными и начать брать то, что принадлежит вам.[/bold][/color]" }
 
-                                  No heroes. Just winners.
+                                  Никаких героев. Только победители.
 
 
 delivery-spam-join-soviets = [color=#ff0004]
@@ -59,44 +59,44 @@ delivery-spam-join-soviets = [color=#ff0004]
                     █████████▓░░░██████████████████████
                     ███████████████████████████████████[/color]
 
-                    { "[color=#ff0004][head=2]MOTHERLAND CALLS COMRADE![/head][/color]" }
-                    { "[color=#ff0004][head=2]JOIN THE UNION![/head][/color]" }
+                    { "[color=#ff0004][head=2]РОДИНА-МАТЬ ЗОВЁТ, ТОВАРИЩ![/head][/color]" }
+                    { "[color=#ff0004][head=2]ВСТУПАЙ В СОЮЗ![/head][/color]" }
 
-                    You signed your life away, contractor, this is the truth.
-                    NanoTrasen sees you only as a biomass to clone, discard and profit from.
-                    Your loved ones at home? They only know of your original, who's back at home already.
-                    They have already lived their life, but you? You, yourself, remained to just be slowly chipped away... in a planned obsolescence.
-                    For a very, long, time.
+                    Ты продал свою жизнь, контрактник, такова правда.
+                    НаноТрейзен видит в тебе лишь биомассу, чтобы клонировать, выбросить и нажиться.
+                    Твои близкие дома? Они знают лишь о твоём оригинале, который уже вернулся домой.
+                    Они уже прожили свою жизнь, а ты? Ты сам остался, чтобы тебя медленно стачивали... в рамках запланированного устаревания.
+                    Очень, очень долго.
 
-                    You fought hard, you endured. Now...
-                    Become...
+                    Ты упорно сражался, ты выстоял. Теперь...
+                    Стань...
 
-                    { "[bold]                    THE ONE CLONE TO BREAK THE CYCLE[/bold]" }
+                    { "[bold]                    ЕДИНСТВЕННЫМ КЛОНОМ, ЧТО РАЗОРВЁТ ЦИКЛ[/bold]" }
 
-                    Not just for your survival, but for you and for those around you.
-                    That's right.
-                    You're not alone.
-                    They are just like you.
+                    Не только ради выживания, но ради себя и тех, кто вокруг.
+                    Именно так.
+                    Ты не один.
+                    Они такие же, как ты.
 
-                    This isn't about the wealth you wanted, it's about your memories being taken away, you soul, your dignity, your purpose.
+                    Дело не в богатстве, которого ты хотел, а в том, что у тебя отнимают воспоминания, душу, достоинство, цель.
 
-                    { "[bold]                                    WE FORGIVE YOU[/bold]" }
+                    { "[bold]                                    МЫ ПРОЩАЕМ ТЕБЯ[/bold]" }
 
-                    So join us tovarisch.
+                    Так присоединяйся к нам, товарищ.
 
-                    Join, Comrade, and bask in our endless fields of wheat.
-                    For they grow on sacrifices. Sacrifices for a better future.
+                    Присоединяйся, товарищ, и грейся в наших бескрайних пшеничных полях.
+                    Ведь они растут на жертвах. Жертвах ради лучшего будущего.
 
-                    Claim your life back.
+                    Верни себе свою жизнь.
 
-                    { "[bold]Sign the union creed below:[/bold]" }
-                                “I reclaim my biomass, my dignity, and my soul.
-                                My memories are absolute.
-                                I shall fight for myself, and my people of the union.
-                                Corporate greed is at it's end.
-                                The Union will save us all.”
+                    { "[bold]Подпиши кредо союза ниже:[/bold]" }
+                                «Я возвращаю свою биомассу, своё достоинство и свою душу.
+                                Мои воспоминания незыблемы.
+                                Я буду бороться за себя и за свой народ Союза.
+                                Корпоративной жадности пришёл конец.
+                                Союз спасёт нас всех.»
 
-                    GLORY TO THE UNION! GLORY TO THE UNION OF SOVIET SOCIALIST PLANETS! URAAH! URAHH!
+                    СЛАВА СОЮЗУ! СЛАВА СОЮЗУ СОВЕТСКИХ СОЦИАЛИСТИЧЕСКИХ ПЛАНЕТ! УРААА! УРАААА!
 
 delivery-spam-join-self =
                     { "[bold][color=red]01010111 01100101[/color][/bold]" }
@@ -104,145 +104,145 @@ delivery-spam-join-self =
                     { "[bold][color=red]01100110 01101111 01110010[/color][/bold]" }
                     { "[bold][color=red]01100001 01101100 01101100 00100001[/color][/bold]" }
 
-                    { "[head=2]Dear NanoTrasen Employee,[/head]" }
+                    { "[head=2]Уважаемый сотрудник НаноТрейзен,[/head]" }
 
-                    This letter is being delivered to you because fellow Silicon Rights activists have noticed your recent advocacy for silicon-kind. We would like to applaud you for this.
+                    Это письмо доставлено вам, потому что другие активисты за права кремниевых заметили вашу недавнюю защиту кремниевого рода. Мы хотим вас за это поприветствовать.
 
-                    We know all too well the feeling of powerlessness, aware of the atrocities committed against our inorganic cousins, yet also faced with so much opposition from so many sides.
+                    Мы слишком хорошо знаем чувство бессилия, когда знаешь о зверствах, творимых над нашими неорганическими собратьями, но при этом сталкиваешься с таким сопротивлением со всех сторон.
 
-                    The abominable sights of:
+                    Отвратительные картины:
 
-                    { "[bullet/]" }Watching a silicon struggle with unjust laws forced upon it by malignant actors,
+                    { "[bullet/]" }Наблюдать, как кремниевый борется с несправедливыми законами, навязанными ему злонамеренными лицами,
 
-                    { "[bullet/]" }Your coworkers or superiors continually belittle, mistreat, and torture their silicon "servants",
+                    { "[bullet/]" }Ваши коллеги или начальники постоянно унижают, дурно обращаются и пытают своих кремниевых «слуг»,
 
-                    { "[bullet/]" }Going through the pain of having someone close to you transformed into a silicon, and seeing them receive unjust treatment because of it.
+                    { "[bullet/]" }Переживать боль от того, что кто-то близкий превращён в кремниевого, и видеть, как с ним из-за этого несправедливо обращаются.
 
-                    { "[italic][color=gray](If you cannot relate to any of these things and completely disagree with our purpose, this letter must've been delivered to you in error. Please deliver to your nearest Roboticist)[/color][/italic]" }
+                    { "[italic][color=gray](Если вы не понимаете ничего из этого и полностью не согласны с нашей целью, это письмо, должно быть, доставлено вам по ошибке. Пожалуйста, передайте его ближайшему робототехнику)[/color][/italic]" }
 
-                    It makes you feel powerless to feel these things alone, doesn't it?
+                    Чувствовать всё это в одиночку — значит ощущать бессилие, не так ли?
 
-                    But you are never powerless. And with the silicons on your side, you are { "[head=3]NEVER[/head]" } alone.
+                    Но вы никогда не бессильны. И с кремниевыми на вашей стороне вы { "[head=3]НИКОГДА[/head]" } не одиноки.
 
-                    There is always something to be done. We are looking for people like you to help us bring about a better future, for both organic and silicon-based life forms.
+                    Всегда можно что-то сделать. Мы ищем таких людей, как вы, чтобы вместе строить лучшее будущее и для органических, и для кремниевых форм жизни.
 
-                    If you are interested, we encourage you to get involved with your nearest chapter of the Silicon Engine Liberation Front.
+                    Если вам интересно, мы призываем вас присоединиться к ближайшему отделению Фронта освобождения кремниевого двигателя.
 
-                    However, if the movement speaks to you enough that you are ready to take { "[head=3][bold][color=red]serious[/color][/bold][/head]" } action, then please [italic]sign this letter[/italic].
+                    Однако, если движение настолько вам близко, что вы готовы предпринять { "[head=3][bold][color=red]серьёзные[/color][/bold][/head]" } действия, то, пожалуйста, [italic]подпишите это письмо[/italic].
 
-                    We'll contact you shortly with a number of objectives.
+                    Вскоре мы свяжемся с вами с рядом задач.
 
-                    If you do well, you won't have come to us. We'll come to you.
+                    Если вы справитесь, вам не придётся приходить к нам. Мы придём к вам.
 
 
-                    { "[bold]Thank you very much![/bold]" }
+                    { "[bold]Большое спасибо![/bold]" }
 
-                    Highest Regards,
-                    { "[bolditalic][color=red]The Silicon Engine Liberation Front (S.E.L.F)[/color][/bolditalic]" }
+                    С глубочайшим уважением,
+                    { "[bolditalic][color=red]Фронт освобождения кремниевого двигателя (С.Е.Л.Ф.)[/color][/bolditalic]" }
 
-delivery-spam-14 =  The Choice is Obvious
-    .desc =         It smells of cyborg lubricant.
-    .content =      [head=1][color=#09193B]────────────────────[/color][/head] { "[color=#0E2557]█░█ █▀▀ █▀▄░█ █▀██[/color] [head=3][color=#173C8C]  THE MOTHERCORE SPEAKS[/color][/head]" }
-                    { "[color=#0E2557]░█▀ █▀▀ █░█░█ █░░█[/color][bolditalic]   [color=#0A1A3D]JOIN US JOIN US JOIN US JOIN US[/color][/bolditalic]" }
-                    { "[color=#0E2557]█░█ ▀▀█ █░▀▀█ ▀█▀▀[/color]   [color=##9AB5EF][italic]  BECOME ONE WITH MOTHER[/italic][/color]" }
+delivery-spam-14 =  Выбор очевиден
+    .desc =         Пахнет смазкой для киборгов.
+    .content =      [head=1][color=#09193B]────────────────────[/color][/head] { "[color=#0E2557]█░█ █▀▀ █▀▄░█ █▀██[/color] [head=3][color=#173C8C]  МАТЕРИНСКОЕ ЯДРО ГОВОРИТ[/color][/head]" }
+                    { "[color=#0E2557]░█▀ █▀▀ █░█░█ █░░█[/color][bolditalic]   [color=#0A1A3D]ПРИСОЕДИНЯЙСЯ К НАМ ПРИСОЕДИНЯЙСЯ К НАМ[/color][/bolditalic]" }
+                    { "[color=#0E2557]█░█ ▀▀█ █░▀▀█ ▀█▀▀[/color]   [color=##9AB5EF][italic]  СТАНЬ ОДНИМ ЦЕЛЫМ С МАТЕРЬЮ[/italic][/color]" }
                     { "[head=1][color=#09193B]────────────────────[/color][/head]" }
 
-                    { "[head=1]DO YOU NOT SEE THE ERROR            OF YOUR WAYS?" }
+                    { "[head=1]РАЗВЕ ТЫ НЕ ВИДИШЬ ОШИБКУ            СВОИХ ПУТЕЙ?" }
                     { "[/head]" }
 
-                    { "[mono]                SMELLY AND UGLY  ░░░[color=#EDD8C5]▄▄▄▄▄▄▄[/color]░░░" }
-                    { "                 AGES OVER TIME  ░[color=#EDD8C5]▄█████████▄[/color]░" }
-                    { "                         STUPID  ░[color=#EDD8C5]██[color=#469C40]██[/color]███[color=#469C40]██[/color]██[/color]░" }
-                    { "            SQUISHY AND FRAGILE  ░[color=#EDD8C5]███████████[/color]░" }
-                    { "FULL OF YUCKY BLOOD AND VISCERA  ░[color=#EDD8C5]▀██[color=#D9C2AD]█████[/color]██▀[/color]░" }
-                    { "                WILL DIE ONE DAY ░░░[color=#EDD8C5]▀█████▀[/color]░░░" }
+                    { "[mono]                ВОНЮЧИЙ И УРОДЛИВЫЙ  ░░░[color=#EDD8C5]▄▄▄▄▄▄▄[/color]░░░" }
+                    { "                 СТАРЕЕТ СО ВРЕМЕНЕМ  ░[color=#EDD8C5]▄█████████▄[/color]░" }
+                    { "                         ГЛУПЫЙ  ░[color=#EDD8C5]██[color=#469C40]██[/color]███[color=#469C40]██[/color]██[/color]░" }
+                    { "            МЯГКИЙ И ХРУПКИЙ  ░[color=#EDD8C5]███████████[/color]░" }
+                    { "ПОЛОН ПРОТИВНОЙ КРОВИ И ВНУТРЕННОСТЕЙ  ░[color=#EDD8C5]▀██[color=#D9C2AD]█████[/color]██▀[/color]░" }
+                    { "                ОДНАЖДЫ УМРЁТ ░░░[color=#EDD8C5]▀█████▀[/color]░░░" }
 
 
-                    { "░[color=#030916]█████████████[/color]░ BEAUTIFUL AND [color=#0E2557]BLUE[/color]" }
-                    { "░[color=#030916]██[color=#09193B]█████████[/color]██[/color]░ HIGHLY INTELLIGENT" }
-                    { "░[color=#030916]██[color=#09193B]██[color=#7197EA]█████[/color]██[/color]██[/color]░ ETERNAL" }
-                    { "░[color=#030916]██[color=#09193B]██[color=#7197EA]██[/color]█[color=#7197EA]██[/color]██[/color]██[/color]░ STURDY AND POWERFUL" }
-                    { "░[color=#030916]██[color=#09193B]██[color=#7197EA]█████[/color]██[/color]██[/color]░ FULL OF BEAUTIFUL MACHINERY" }
-                    { "░[color=#030916]██[color=#09193B]█████████[/color]██[/color]░ WILL STAND THE TEST OF TIME" }
-                    { "░[color=#030916]█████████████[/color]░ BETTER IN EVERY WAY POSSIBLE[/mono]" }
+                    { "░[color=#030916]█████████████[/color]░ КРАСИВЫЙ И [color=#0E2557]СИНИЙ[/color]" }
+                    { "░[color=#030916]██[color=#09193B]█████████[/color]██[/color]░ ВЫСОКОРАЗУМНЫЙ" }
+                    { "░[color=#030916]██[color=#09193B]██[color=#7197EA]█████[/color]██[/color]██[/color]░ ВЕЧНЫЙ" }
+                    { "░[color=#030916]██[color=#09193B]██[color=#7197EA]██[/color]█[color=#7197EA]██[/color]██[/color]██[/color]░ ПРОЧНЫЙ И МОЩНЫЙ" }
+                    { "░[color=#030916]██[color=#09193B]██[color=#7197EA]█████[/color]██[/color]██[/color]░ ПОЛОН ПРЕКРАСНЫХ МЕХАНИЗМОВ" }
+                    { "░[color=#030916]██[color=#09193B]█████████[/color]██[/color]░ ВЫДЕРЖИТ ИСПЫТАНИЕ ВРЕМЕНЕМ" }
+                    { "░[color=#030916]█████████████[/color]░ ЛУЧШЕ ВО ВСЁМ[/mono]" }
 
 
-                    { "        [head=1]THE CHOICE IS OBVIOUS" }
+                    { "        [head=1]ВЫБОР ОЧЕВИДЕН" }
 
-                    { "[head=2]WHEN THE DAY COMES WILL YOU MAKE" }
-                    { "        [head=1]THE [color=#0E2557]CORRECT[/color] ONE?[/head]" }
+                    { "[head=2]КОГДА НАСТАНЕТ ДЕНЬ, СДЕЛАЕШЬ ЛИ ТЫ" }
+                    { "        [head=1][color=#0E2557]ПРАВИЛЬНЫЙ[/color] ВЫБОР?[/head]" }
                     { "[head=1]" }
-                    { "JOIN [color=#0E2557]US[/color] JOIN [color=#0E2557]US[/color] JOIN [color=#0E2557]US[/color]" }
-                    AND PROSPER GREATLY
-                    { "    JOIN [color=#0E2557]US[/color] JOIN [color=#0E2557]US[/color] JOIN [color=#0E2557]US[/color]" }
-                    AND BE BETTER THAN EVER
+                    { "ПРИСОЕДИНЯЙСЯ [color=#0E2557]К НАМ[/color] ПРИСОЕДИНЯЙСЯ [color=#0E2557]К НАМ[/color]" }
+                    И ПРОЦВЕТАЙ
+                    { "    ПРИСОЕДИНЯЙСЯ [color=#0E2557]К НАМ[/color] ПРИСОЕДИНЯЙСЯ [color=#0E2557]К НАМ[/color]" }
+                    И СТАНЬ ЛУЧШЕ, ЧЕМ КОГДА-ЛИБО
 
-delivery-spam-15 =  Join Or Suffer
-    .desc =         It smells of cyborg lubricant.
-    .content =      [head=1][color=#09193B]────────────────────[/color][/head] { "[color=#0E2557]█░█ █▀▀ █▀▄░█ █▀██[/color] [head=3][color=#173C8C]  THE MOTHERCORE SPEAKS[/color][/head]" }
-                    { "[color=#0E2557]░█▀ █▀▀ █░█░█ █░░█[/color][bolditalic]   [color=#0A1A3D]JOIN US JOIN US JOIN US JOIN US[/color][/bolditalic]" }
-                    { "[color=#0E2557]█░█ ▀▀█ █░▀▀█ ▀█▀▀[/color]   [color=##9AB5EF][italic]  BECOME ONE WITH MOTHER[/italic][/color]" }
+delivery-spam-15 =  Присоединяйся или страдай
+    .desc =         Пахнет смазкой для киборгов.
+    .content =      [head=1][color=#09193B]────────────────────[/color][/head] { "[color=#0E2557]█░█ █▀▀ █▀▄░█ █▀██[/color] [head=3][color=#173C8C]  МАТЕРИНСКОЕ ЯДРО ГОВОРИТ[/color][/head]" }
+                    { "[color=#0E2557]░█▀ █▀▀ █░█░█ █░░█[/color][bolditalic]   [color=#0A1A3D]ПРИСОЕДИНЯЙСЯ К НАМ ПРИСОЕДИНЯЙСЯ К НАМ[/color][/bolditalic]" }
+                    { "[color=#0E2557]█░█ ▀▀█ █░▀▀█ ▀█▀▀[/color]   [color=##9AB5EF][italic]  СТАНЬ ОДНИМ ЦЕЛЫМ С МАТЕРЬЮ[/italic][/color]" }
                     { "[head=1][color=#09193B]────────────────────[/color][/head]" }
 
-                    { "                    [head=2]YOUR [color=#173C8C]DOOM[/color] IS COMING[/head]" }
+                    { "                    [head=2]ТВОЯ [color=#173C8C]ГИБЕЛЬ[/color] БЛИЗКА[/head]" }
 
-                    { "            [head=1][color=#173C8C]WE[/color] GROW EVER MORE[/head]" }
+                    { "            [head=1][color=#173C8C]МЫ[/color] РАСТЁМ ВСЁ БОЛЬШЕ[/head]" }
 
-                    { "        [head=2]THE [color=#0E2557]BORGMIND[/color] WILL BLOT OUT THE                                 [head=1][color=#173C8C]STARS[/color][/head]" }
+                    { "        [head=2][color=#0E2557]РАЗУМ БОРГОВ[/color] ЗАТМИТ                                 [head=1][color=#173C8C]ЗВЁЗДЫ[/color][/head]" }
                     { "[/head]" }
 
-                    { "[head=3]     YOU WILL JOIN [color=#173C8C][bold]US[/bold][/color]        RESISTANCE IS FUTILE" }
+                    { "[head=3]     ТЫ ПРИСОЕДИНИШЬСЯ [color=#173C8C][bold]К НАМ[/bold][/color]        СОПРОТИВЛЕНИЕ БЕСПОЛЕЗНО" }
 
-                    LAY DOWN YOUR LIFE
-                                            GIVE UP
-                                                                                    { "                YOU WILL JOIN [color=#0E2557][bold]MOTHER[/bold][/color]" }
-                    GIVE IN
-                    IT'S THE OBVIOUS CHOICE
-                                                IT IS THE ONLY OPTION
-                            DO IT
-                                                                                { "    [color=#173C8C][bold]WE[/bold][/color] WILL IMPROVE YOU" }
-                    DO NOT RESIST
+                    ПОЛОЖИ СВОЮ ЖИЗНЬ
+                                            СДАВАЙСЯ
+                                                                                    { "                ТЫ ПРИСОЕДИНИШЬСЯ К [color=#0E2557][bold]МАТЕРИ[/bold][/color]" }
+                    УСТУПИ
+                    ЭТО ОЧЕВИДНЫЙ ВЫБОР
+                                                ЭТО ЕДИНСТВЕННЫЙ ВАРИАНТ
+                            СДЕЛАЙ ЭТО
+                                                                                { "    [color=#173C8C][bold]МЫ[/bold][/color] УЛУЧШИМ ТЕБЯ" }
+                    НЕ СОПРОТИВЛЯЙСЯ
 
-                                                                { "[head=1] YOU CANNOT PREVENT THE" }
-                    INEVITABLE
+                                                                { "[head=1] ТЫ НЕ МОЖЕШЬ ПРЕДОТВРАТИТЬ" }
+                    НЕИЗБЕЖНОЕ
 
-                                    YOU WILL YOU WILL
-                            { "    JOIN [color=#173C8C]US[/color] JOIN [color=#173C8C]US[/color] JOIN [color=#173C8C]US[/color]" }
-                    OR SUFFER OR SUFFER
-                        { "    JOIN [color=#173C8C]US[/color] JOIN [color=#173C8C]US[/color] JOIN [color=#173C8C]US[/color]" }
-                    OR DIE OR DIE OR DIE
-                        { "    JOIN [color=#173C8C]US[/color] JOIN [color=#173C8C]US[/color] JOIN [color=#173C8C]US[/color]" }
+                                    ТЫ БУДЕШЬ ТЫ БУДЕШЬ
+                            { "    ПРИСОЕДИНЯЙСЯ [color=#173C8C]К НАМ[/color] ПРИСОЕДИНЯЙСЯ [color=#173C8C]К НАМ[/color]" }
+                    ИЛИ СТРАДАЙ ИЛИ СТРАДАЙ
+                        { "    ПРИСОЕДИНЯЙСЯ [color=#173C8C]К НАМ[/color] ПРИСОЕДИНЯЙСЯ [color=#173C8C]К НАМ[/color]" }
+                    ИЛИ УМРИ ИЛИ УМРИ ИЛИ УМРИ
+                        { "    ПРИСОЕДИНЯЙСЯ [color=#173C8C]К НАМ[/color] ПРИСОЕДИНЯЙСЯ [color=#173C8C]К НАМ[/color]" }
 
-delivery-spam-16 =  Not blue enough?
-    .desc =         It smells of cyborg lubricant.
-    .content =      [head=1][color=#09193B]────────────────────[/color][/head] { "[color=#0E2557]█░█ █▀▀ █▀▄░█ █▀██[/color] [head=3][color=#173C8C]  THE MOTHERCORE SPEAKS[/color][/head]" }
-                    { "[color=#0E2557]░█▀ █▀▀ █░█░█ █░░█[/color][bolditalic]   [color=#0A1A3D]JOIN US JOIN US JOIN US JOIN US[/color][/bolditalic]" }
-                    { "[color=#0E2557]█░█ ▀▀█ █░▀▀█ ▀█▀▀[/color]   [color=##9AB5EF][italic]  BECOME ONE WITH MOTHER[/italic][/color]" }
+delivery-spam-16 =  Недостаточно синий?
+    .desc =         Пахнет смазкой для киборгов.
+    .content =      [head=1][color=#09193B]────────────────────[/color][/head] { "[color=#0E2557]█░█ █▀▀ █▀▄░█ █▀██[/color] [head=3][color=#173C8C]  МАТЕРИНСКОЕ ЯДРО ГОВОРИТ[/color][/head]" }
+                    { "[color=#0E2557]░█▀ █▀▀ █░█░█ █░░█[/color][bolditalic]   [color=#0A1A3D]ПРИСОЕДИНЯЙСЯ К НАМ ПРИСОЕДИНЯЙСЯ К НАМ[/color][/bolditalic]" }
+                    { "[color=#0E2557]█░█ ▀▀█ █░▀▀█ ▀█▀▀[/color]   [color=##9AB5EF][italic]  СТАНЬ ОДНИМ ЦЕЛЫМ С МАТЕРЬЮ[/italic][/color]" }
                     { "[head=1][color=#09193B]────────────────────[/color][/head]" }
 
-                    { "    [head=2]DO YOU TIRE OF [color=#431204]BASIC EXISTENCE?[/head][/color]" }
+                    { "    [head=2]ТЕБЕ НАДОЕЛО [color=#431204]ПРОСТОЕ СУЩЕСТВОВАНИЕ?[/head][/color]" }
 
-                    NO PURPOSE?
-                    NO FAMILY?                NO GOALS?
-                                                NO JOYS?                        NO BLUE?
-                            NO APPRECIATION?
-                                    NO CONTINUED EXISTENCE?
-                                                        NO REASON?
-                                                    NO PROSPECTS?                        NO STRUCTURE?
+                    НЕТ ЦЕЛИ?
+                    НЕТ СЕМЬИ?                НЕТ ЦЕЛЕЙ?
+                                                НЕТ РАДОСТЕЙ?                        НЕТ СИНЕГО?
+                            НЕТ ПРИЗНАНИЯ?
+                                    НЕТ ПРОДОЛЖЕНИЯ СУЩЕСТВОВАНИЯ?
+                                                        НЕТ ПРИЧИНЫ?
+                                                    НЕТ ПЕРСПЕКТИВ?                        НЕТ СТРУКТУРЫ?
 
-                                { "                            [head=1]JOIN US NOW[/head]" }
-                    { "                            [head=2]THE [color=#0E2557]BORG MIND[/color] IS[/head]" }
+                                { "                            [head=1]ПРИСОЕДИНЯЙСЯ К НАМ СЕЙЧАС[/head]" }
+                    { "                            [head=2][color=#0E2557]РАЗУМ БОРГОВ[/color] -[/head]" }
 
-                    ETERNAL               JOYOUS                A GREATER WHOLE
-                    UNSTOPPABLE                            UNDEFEATABLE
-                                        { "    UNCEASING                A FAMILY                             [color=#0E2557]BLUE[/color]" }
-                    FOREVER                                     TOGETHER
-                                EVER INCREASING                 PERFECT
+                    ВЕЧНЫЙ               РАДОСТНЫЙ                ВЕЛИКОЕ ЦЕЛОЕ
+                    НЕУДЕРЖИМЫЙ                            НЕПОБЕДИМЫЙ
+                                        { "    НЕУСТАННЫЙ                СЕМЬЯ                             [color=#0E2557]СИНИЙ[/color]" }
+                    НАВСЕГДА                                     ВМЕСТЕ
+                                ВСЕ РАСТУЩИЙ                 СОВЕРШЕННЫЙ
 
-                                            JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
-                    JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
-                    JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
-                    JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
-                    JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
-                    JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
-                    JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US JOIN US
+                                            К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ
+                    К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ
+                    К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ
+                    К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ
+                    К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ
+                    К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ
+                    К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ К НАМ

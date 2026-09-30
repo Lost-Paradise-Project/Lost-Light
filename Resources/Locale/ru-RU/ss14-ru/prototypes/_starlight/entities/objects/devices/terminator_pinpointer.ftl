@@ -1,2 +1,2 @@
-ent-PinpointerTerminator = target beacon
-    .desc = the current whereabouts of your target.
+ent-PinpointerTerminator = маяк цели
+    .desc = текущее местонахождение вашей цели.

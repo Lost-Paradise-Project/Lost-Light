@@ -1,20 +1,20 @@
 # Examine
 
-digital-lock-examine-maintenance-open = The [color=lightgray]maintenance panel[/color] is [color=red]open[/color].
-digital-lock-examine-maintenance-closed = The [color=lightgray]maintenance panel[/color] is [color=darkgreen]closed[/color].
+digital-lock-examine-maintenance-open = [color=lightgray]Панель обслуживания[/color] [color=red]открыта[/color].
+digital-lock-examine-maintenance-closed = [color=lightgray]Панель обслуживания[/color] [color=darkgreen]закрыта[/color].
 
 # UI
-digital-lock-interface-title = Digital Lock
+digital-lock-interface-title = Цифровой замок
 
-digital-lock-interface-status-error = ERROR
+digital-lock-interface-status-error = ОШИБКА
 
 ## Upper status
-digital-lock-interface-first-status-input-code = INPUT CODE
-digital-lock-interface-first-status-confirm-code = CONFIRM CODE
-digital-lock-interface-first-status-lock-opened = OPENED
-digital-lock-interface-first-status-changemode-confirmation = CHANGE MODE?
-digital-lock-interface-first-status-changemode-cancel-confirmation = CANCEL?
+digital-lock-interface-first-status-input-code = ВВЕДИТЕ КОД
+digital-lock-interface-first-status-confirm-code = ПОДТВЕРДИТЕ КОД
+digital-lock-interface-first-status-lock-opened = ОТКРЫТО
+digital-lock-interface-first-status-changemode-confirmation = СМЕНИТЬ РЕЖИМ?
+digital-lock-interface-first-status-changemode-cancel-confirmation = ОТМЕНА?
 
 ## Lower status
-digital-lock-interface-second-status-current-code = CODE: { $code }
-digital-lock-interface-second-status-changemode-confirmation = C: NO, E: YES
+digital-lock-interface-second-status-current-code = КОД: { $code }
+digital-lock-interface-second-status-changemode-confirmation = C: НЕТ, E: ДА

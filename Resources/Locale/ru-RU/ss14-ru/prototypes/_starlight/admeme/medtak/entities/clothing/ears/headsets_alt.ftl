@@ -1,2 +1,2 @@
-ent-ClothingHeadsetAltMedTak = MedTak operator headset
-    .desc = A headset used by MedTak operators.
+ent-ClothingHeadsetAltMedTak = накладные наушники оператора МедТак
+    .desc = Гарнитура, используемая операторами МедТак.

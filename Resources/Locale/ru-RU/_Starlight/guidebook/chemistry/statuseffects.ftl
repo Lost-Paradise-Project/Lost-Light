@@ -1,1 +1,1 @@
-reagent-effect-status-effect-PoliteLanguage = politeness
+reagent-effect-status-effect-PoliteLanguage = вежливость

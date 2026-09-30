@@ -1,11 +1,11 @@
-signal-port-name-nuclear-reactor-data-sender = Nuclear Reactor
-signal-port-description-nuclear-reactor-data-sender = Sending info about a nuclear reactor to a monitor.
+signal-port-name-nuclear-reactor-data-sender = Ядерный реактор
+signal-port-description-nuclear-reactor-data-sender = Отправляет данные о ядерном реакторе на монитор.
 
-signal-port-name-gas-turbine-data-sender = Gas Turbine
-signal-port-description-gas-turbine-data-sender = Sending info about a gas turbine to a monitor.
+signal-port-name-gas-turbine-data-sender = Газовая турбина
+signal-port-description-gas-turbine-data-sender = Отправляет данные о газовой турбине на монитор.
 
-signal-port-name-gas-turbine-speed-high = High Speed
-signal-port-description-gas-turbine-speed-high = Speed is higher than optimal.
+signal-port-name-gas-turbine-speed-high = Высокая скорость
+signal-port-description-gas-turbine-speed-high = Скорость выше оптимальной.
 
-signal-port-name-gas-turbine-speed-low = Low Speed
-signal-port-description-gas-turbine-speed-low = Speed is lower than optimal.
+signal-port-name-gas-turbine-speed-low = Низкая скорость
+signal-port-description-gas-turbine-speed-low = Скорость ниже оптимальной.

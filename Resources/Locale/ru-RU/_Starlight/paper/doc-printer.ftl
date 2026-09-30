@@ -1,409 +1,409 @@
 # Reports
 
 doc-text-printer-report-morgue =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-    ⠀                              [bold]MORGUE DNR REPORT[/bold]
+    ⠀                              [bold]ОТЧЁТ МОРГА О ЗАПРЕТЕ РЕАНИМАЦИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Name: [form]
+    Имя: [form]
 
-    Job/Occupation: [form]
+    Должность/профессия: [form]
 
-    Approximate time of death/DNR approval: [form]
+    Примерное время смерти/одобрения запрета реанимации: [form]
 
-    Reason for DNR status: [form]
+    Причина статуса «не реанимировать»: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-report-station =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                            [bold]SITUATION REPORT[/bold]
+   ⠀⠀                            [bold]ОТЧЁТ О СИТУАЦИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Purpose: [form]
+    Цель: [form]
 
-    Threat Level Code: [form]
+    Код уровня угрозы: [form]
 
-    Reason for establishing the code: [form]
+    Причина введения кода: [form]
 
-    Active threats: [form]
+    Активные угрозы: [form]
 
-    Crew casualties: [form]
+    Потери экипажа: [form]
 
-    Current situation: [form]
+    Текущая ситуация: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-report-on-elimination-of-violations =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀            [bold]ISSUE RESOLUTION REPORT[/bold]
+   ⠀⠀            [bold]ОТЧЁТ ОБ УСТРАНЕНИИ НАРУШЕНИЙ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Issue(s) identified by: [form]
-    Employee position: [form]
+    Нарушения выявил: [form]
+    Должность сотрудника: [form]
 
-    Presented issue(s): [form]
+    Выявленные нарушения: [form]
 
-    Measures taken to resolve issue(s): [form]
+    Принятые меры по устранению нарушений: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-report-department =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]DEPARTMENTAL REVIEW[/bold]
+   ⠀⠀                           [bold]ПРОВЕРКА ОТДЕЛА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Number of employees in the department: [form]
+    Число сотрудников в отделе: [form]
 
-    Number of trainees: [form]
+    Число стажёров: [form]
 
-    Inactive employees in the department:
-    ⠀• (Name, position, reason)
+    Неактивные сотрудники отдела:
+    ⠀• (имя, должность, причина)
     ⠀• [form]
      • [form]
 
-    Degree of target readiness: [form]
+    Степень готовности к цели: [form]
 
-    General condition of the department: [form]
+    Общее состояние отдела: [form]
 
     ─────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-report-employee-performance =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
-   ⠀⠀                 [bold]WORK REPORT[/bold]
+   ⠀⠀                 [bold]ОТЧЁТ О РАБОТЕ[/bold]
     ─────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], have completed the following work: [form]
+    Я, [signature], выполнил следующую работу: [form]
 
-    I hereby request that the result be accepted by the Head of the [form] Department.
+    Настоящим прошу, чтобы результат был принят главой отдела [form].
 
     ─────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-report-on-the-chapters-meeting =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
-   ⠀⠀                     [bold]VOTE RECORD[/bold]
+   ⠀⠀                     [bold]ПРОТОКОЛ ГОЛОСОВАНИЯ[/bold]
     ─────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    The question put to the committee: [form]
+    Вопрос, поставленный перед комитетом: [form]
 
-    Additional context: [form]
+    Дополнительный контекст: [form]
 
-    Number of votes [italic]in favor[/italic]: [form]
-    Those voting [italic]in favor[/italic]:
+    Число голосов [italic]за[/italic]: [form]
+    Проголосовавшие [italic]за[/italic]:
     • [signature]
     • [signature]
     • [signature]
     • [signature]
     • [signature]
     • [signature]
-    Number of votes [italic]against[/italic]: [form]
-    Those voting [italic]against[/italic]:
+    Число голосов [italic]против[/italic]: [form]
+    Проголосовавшие [italic]против[/italic]:
     • [signature]
     • [signature]
     • [signature]
     • [signature]
     • [signature]
     • [signature]
-    Number of [italic]abstentions[/italic] from voting: [form]
-    Those voting to [italic]abstain[italic]:
+    Число [italic]воздержавшихся[/italic]: [form]
+    Воздержавшиеся [italic]от голосования[italic]:
     • [signature]
     • [signature]
     • [signature]
     • [signature]
     • [signature]
     • [signature]
-    Resolution of the meeting: [form]
+    Решение собрания: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-internal-affairs-agents-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
-   ⠀⠀               [bold]AUDIT REPORT[/bold]
+   ⠀⠀               [bold]ОТЧЁТ ОБ АУДИТЕ[/bold]
     ─────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], during the course of an internal audit requested by [form] for the reason of [form], found the following irregularities: [form]
+    Я, [signature], в ходе внутреннего аудита, запрошенного [form] по причине [form], обнаружил следующие нарушения: [form]
 
-    I also wish to report the following: [form]
+    Также хочу сообщить следующее: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-condition-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]MAINTENANCE REPORT[/bold]
+   ⠀⠀                           [bold]ОТЧЁТ О ТЕХОБСЛУЖИВАНИИ[/bold]
     ─────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Irregularities were identified in the station's [form].
+    Выявлены нарушения в работе станции: [form].
 
-    The problems were caused by: [form]
+    Проблемы были вызваны: [form]
 
-    Damage to the station: [form]
+    Ущерб станции: [form]
 
-    Repairs performed: [form]
+    Выполненный ремонт: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-object-investigation-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀          [bold]UNKNOWN OBJECT INVESTIGATION REPORT[/bold]
+   ⠀⠀          [bold]ОТЧЁТ ОБ ИССЛЕДОВАНИИ НЕИЗВЕСТНОГО ОБЪЕКТА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    A device or artifact of unfamiliar function or provenance has been collected and analyzed.
+    Собрано и проанализировано устройство или артефакт с неизвестным назначением или происхождением.
 
-    Retrieved by: [form]
+    Изъял: [form]
 
-    Examined by: [signature]
+    Исследовал: [signature]
 
-    External description: [form]
+    Внешнее описание: [form]
 
-    Identified properties: [form]
+    Выявленные свойства: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-experiment-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                              [bold]EXPERIMENT REPORT[/bold]
+   ⠀⠀                              [bold]ОТЧЁТ ОБ ЭКСПЕРИМЕНТЕ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    External description of the object of the experiment: [form]
+    Внешнее описание объекта эксперимента: [form]
 
-    Experimenter(s): [signature]
+    Экспериментатор(ы): [signature]
 
-    Experiment № [form]
-    Description of experiment: [form]
+    Эксперимент № [form]
+    Описание эксперимента: [form]
 
-    Expected result: [form]
+    Ожидаемый результат: [form]
 
-    Equipment used: [form]
+    Использованное оборудование: [form]
 
-    Actual result: [form]
+    Фактический результат: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-disposal-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ─────────────────────────────────────────
-   ⠀⠀                                [bold]DISPOSAL REPORT[/bold]
+   ⠀⠀                                [bold]ОТЧЁТ ОБ УТИЛИЗАЦИИ[/bold]
     ─────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    The objects at [form] have been disposed of. During the disposal process, the following valuable items and/or materials were sent to the departments indicated below.
+    Объекты в [form] утилизированы. В ходе утилизации следующие ценные предметы и/или материалы были направлены в указанные ниже отделы.
 
-    List of items/materials found:
+    Список найденных предметов/материалов:
 
-    • [form] — Given to [form] Department
-    • [form] — Given to [form] Department
-    • [form] — Given to [form] Department
-    • [form] — Given to [form] Department
-    • [form] — Given to [form] Department
+    • [form] — передано отделу [form]
+    • [form] — передано отделу [form]
+    • [form] — передано отделу [form]
+    • [form] — передано отделу [form]
+    • [form] — передано отделу [form]
     ─────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-arrest-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                            [bold]SECURITY ARREST REPORT[/bold]
+   ⠀⠀                            [bold]ОТЧЁТ СБ ОБ АРЕСТЕ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Arrestee: [form]
+    Арестованный: [form]
 
-    Arrest reason or complaining witnesses: [form]
+    Причина ареста или свидетели-заявители: [form]
 
-    Estimated time of arrest: [form]
+    Предполагаемое время ареста: [form]
 
-    Arresting officer: [form]
+    Арестовавший офицер: [form]
 
-    The arrestee was: [check] detained; [check] paroled; [check] released
+    Арестованный был: [check] задержан; [check] освобождён условно; [check] освобождён
 
-    Charges filed, if any: [form]
+    Предъявленные обвинения, если есть: [form]
 
-    Duration of detention, if applicable: [form]
+    Срок задержания, если применимо: [form]
 
-    Additional remarks: [form]
+    Дополнительные замечания: [form]
 
     ─────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-psychological-report =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-            [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+            [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-    ⠀                              [bold]PSYCHOLOGICAL REPORT[/bold]
+    ⠀                              [bold]ПСИХОЛОГИЧЕСКОЕ ЗАКЛЮЧЕНИЕ[/bold]
     ────────────────────────────────────────
-    Date and Time: [datetime]
-    Document Compiler: [signature]
+    Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Patient: [form]
-    Reason for examination: [form]
-    Willingness: [form]
+    Пациент: [form]
+    Причина осмотра: [form]
+    Готовность: [form]
 
-    Symptoms: [form]
+    Симптомы: [form]
 
-    Triggers: [form]
+    Триггеры: [form]
 
-    Notes: [form]
+    Заметки: [form]
 
-    Suggested actions and treatments: [form]
+    Предлагаемые действия и лечение: [form]
 
     ────────────────────────────────────────
-    ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+    ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 # Statements
 
 doc-text-printer-statement-appointment-interim-chapter =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀          [bold]INTERIM COMMAND APPOINTMENT[/bold]
+   ⠀⠀          [bold]ВРЕМЕННОЕ НАЗНАЧЕНИЕ НА КОМАНДНУЮ ДОЛЖНОСТЬ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request approval of my appointment to the position of Acting [form]. Upon assuming the position, I agree to follow Standard Operating Procedures and, until the arrival of a replacement from Central Command, shall ensure the order and management of my Department, and the safety of the equipment and tools of my office, including those tools and pieces of equipment that are irreplaceable or essential to the Department's work, or whose misuse might have serious consequences for station safety or security.
+    Я, [signature], прошу одобрить моё назначение на должность исполняющего обязанности [form]. Приняв должность, я обязуюсь соблюдать Стандартные рабочие процедуры и до прибытия замены от Центрального командования обеспечивать порядок и управление своим отделом, а также сохранность оборудования и инструментов моего кабинета, включая незаменимые или необходимые для работы отдела, либо те, неправильное использование которых может иметь серьёзные последствия для безопасности станции.
 
-    Upon arrival of the [form] from Central Command, I shall surrender the privileges and equipment afforded to me in the course of these duties, including access rights.
+    По прибытии [form] от Центрального командования я сдам привилегии и оборудование, предоставленные мне при исполнении этих обязанностей, включая права доступа.
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-employment-statement =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]EMPLOYMENT CONTRACT[/bold]
+   ⠀⠀                           [bold]ТРУДОВОЙ ДОГОВОР[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], formally request to be appointed as an employee of the following department, in the position indicated below, for the remainder of the shift, or until resignation.
+    Я, [signature], официально прошу назначить меня сотрудником следующего отдела на указанную ниже должность до конца смены или до увольнения.
 
-    Name of department: [form]
+    Название отдела: [form]
 
-    Name of position: [form]
+    Название должности: [form]
 
-   ⠀[check] I assert that I am qualified to hold the position which I am seeking, and acknowledge that my contract will be terminated if this is found not to be the case.
+   ⠀[check] Я подтверждаю, что имею квалификацию для занятия должности, на которую претендую, и признаю, что мой договор будет расторгнут, если окажется иначе.
 
-   ⠀[check] I will surrender any current department work gear and equipment upon transfer.
+   ⠀[check] Я сдам всё текущее рабочее снаряжение и оборудование отдела при переводе.
 
-   ⠀[check] I agree to follow all applicable Standard Operating Procedures, and accept that my contract may be terminated if I fail to uphold them.
+   ⠀[check] Я обязуюсь соблюдать все применимые Стандартные рабочие процедуры и признаю, что мой договор может быть расторгнут, если я их не соблюдаю.
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-resignation-statement =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                          [bold]NOTICE OF RESIGNATION[/bold]
+   ⠀⠀                          [bold]УВЕДОМЛЕНИЕ ОБ УВОЛЬНЕНИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], hereby resign my position because of [form].
+    Я, [signature], настоящим увольняюсь с должности по причине: [form].
 
-   ⠀[check] I accept to pay the penalty established by the terms of termination of my contract at the end of the shift.
+   ⠀[check] Я обязуюсь выплатить штраф, установленный условиями расторжения моего договора, в конце смены.
 
-   ⠀[check] I will surrender my departmental work gear and equipment.
+   ⠀[check] Я сдам своё рабочее снаряжение и оборудование отдела.
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-access-request-statement =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                       [bold]ACCESS REQUEST[/bold]
+   ⠀⠀                       [bold]ЗАПРОС ДОСТУПА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request the following access be added to my ID card:
+    Я, [signature], прошу добавить на мою ID-карту следующий доступ:
     • [form]
     • [form]
     • [form]
@@ -411,31 +411,31 @@ doc-text-printer-access-request-statement =
     • [form]
     • [form]
 
-    Reason for gaining elevated access: [form]
+    Причина получения повышенного доступа: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-equipment-request-statement =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                    [bold]EQUIPMENT REQUEST[/bold]
+   ⠀⠀                    [bold]ЗАПРОС ОБОРУДОВАНИЯ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request the following equipment be issued to me:
+    Я, [signature], прошу выдать мне следующее оборудование:
 
     • [form]
     • [form]
 
-    Reason: [form]
+    Причина: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
@@ -443,329 +443,329 @@ doc-text-printer-equipment-request-statement =
 # InquiriesAndAppeals
 
 doc-text-printer-invocation =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                         [bold]NOTICE OF SUMMONS[/bold]
+   ⠀⠀                         [bold]ПОВЕСТКА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-   ⠀[form] is hereby asked by [signature] to appear at [form], without delay.
+   ⠀[form] настоящим просит [signature] явиться в [form] без промедления.
 
-    Reason: [form]
+    Причина: [form]
 
-   ⠀[italic]This is an official notice. Penalties may apply for failure to appear.[/italic]
+   ⠀[italic]Это официальное уведомление. За неявку могут быть применены штрафы.[/italic]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-evacuation-shuttle-request =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                    [bold]EVACUATION SHUTTLE REQUEST[/bold]
+   ⠀⠀                    [bold]ЗАПРОС ЭВАКУАЦИОННОГО ШАТТЛА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    To Central Command,
+    Центральному командованию,
 
-    I, [signature], write to request that you dispatch an evacuation shuttle to the station, without delay, and authorize evacuation of the station via said shuttle.
+    Я, [signature], пишу с просьбой без промедления направить на станцию эвакуационный шаттл и разрешить эвакуацию станции на этом шаттле.
 
-    Reason for evacuation request: [form]
+    Причина запроса эвакуации: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-shuttle-registration-request =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                  [bold]SHUTTLE REGISTRATION FORM[/bold]
+   ⠀⠀                  [bold]ФОРМА РЕГИСТРАЦИИ ШАТТЛА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I hereby request that the following shuttle be registered in the NanoTrasen system for identification.
+    Настоящим прошу зарегистрировать следующий шаттл в системе НаноТрейзен для идентификации.
 
-    Shuttle size: [form]
+    Размер шаттла: [form]
 
-    Shuttle class: [form]
+    Класс шаттла: [form]
 
-    Construction responsible: [form]
+    Ответственный за постройку: [form]
 
-    Requested name: [form]
+    Запрашиваемое название: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-call-centcomm-members =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀              [bold]REQUEST TO CALL CENTCOMM MEMBERS[/bold]
+   ⠀⠀              [bold]ЗАПРОС НА ВЫЗОВ СОТРУДНИКОВ ЦЕНТКОМА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request to be considered for a call with CentComm administrative officers.
+    Я, [signature], прошу рассмотреть возможность звонка с административными офицерами ЦентКома.
 
-    Reason for the call: [form]
+    Причина звонка: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-establish-threat-level =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀             [bold]REQUEST TO ESTABLISH THREAT LEVEL[/bold]
+   ⠀⠀             [bold]ЗАПРОС НА УСТАНОВЛЕНИЕ УРОВНЯ УГРОЗЫ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request that follow threat level be established: [form]
+    Я, [signature], прошу установить следующий уровень угрозы: [form]
 
-    Reason for request: [form]
+    Причина запроса: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-change-salary =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                         [bold]SALARY CHANGE REQUEST[/bold]
+   ⠀⠀                         [bold]ЗАПРОС НА ИЗМЕНЕНИЕ ЗАРПЛАТЫ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], hereby a salary increase/decrease of [form] (amount or percentage).
+    Я, [signature], настоящим прошу повысить/понизить зарплату на [form] (сумма или процент).
 
-    Employee receiving salary change: [form]
+    Сотрудник, чья зарплата меняется: [form]
 
-    Employee's job title: [form]
+    Должность сотрудника: [form]
 
-    Reason for salary change: [form]
+    Причина изменения зарплаты: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-for-non-listed-employment =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀             [bold]NON-LISTED EMPLOYMENT CONTRACT[/bold]
+   ⠀⠀             [bold]ТРУДОВОЙ ДОГОВОР НА НЕПЕРЕЧИСЛЕННУЮ ДОЛЖНОСТЬ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Name of applicant: [signature]
+    Имя кандидата: [signature]
 
-    New job title: [form]
+    Новая должность: [form]
 
-    New supervisor: [form]
+    Новый руководитель: [form]
 
-    Applicable duties under SOP: [form]
+    Применимые обязанности по СОП: [form]
 
-    Access provided to the employee: [form]
+    Доступ, предоставленный сотруднику: [form]
 
-    Reason for employment: [form]
+    Причина найма: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-for-promotion =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                         [bold]REQUEST FOR PROMOTION[/bold]
+   ⠀⠀                         [bold]ЗАПРОС НА ПОВЫШЕНИЕ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], assert that the following employee has obtained the necessary qualifications and experience to be promoted.
+    Я, [signature], подтверждаю, что следующий сотрудник получил необходимую квалификацию и опыт для повышения.
 
-    Employee to be promoted: [form]
+    Повышаемый сотрудник: [form]
 
-    Requested position: [form]
+    Запрашиваемая должность: [form]
 
-    Supervisor(s): [form]
+    Руководитель(и): [form]
 
-    Reason for promotion: [form]
+    Причина повышения: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-documents =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ──────────────────────────────────────────
-   ⠀⠀                  [bold]REQUEST FOR RELEASE OF DOCUMENTS[/bold]
+   ⠀⠀                  [bold]ЗАПРОС НА ВЫДАЧУ ДОКУМЕНТОВ[/bold]
     ──────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request a copy of the following document(s), in order to verify compliance with Standard Operating Procedures and/or Corporate Law.
+    Я, [signature], прошу предоставить копию следующих документов для проверки соответствия Стандартным рабочим процедурам и/или Корпоративному праву.
 
-    Documents sought:
+    Запрашиваемые документы:
 
    ⠀ • [form]
    ⠀ • [form]
    ⠀ • [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-euthanasia =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                        [bold]PETITION FOR EUTHANASIA[/bold]
+   ⠀⠀                        [bold]ХОДАТАЙСТВО ОБ ЭВТАНАЗИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], hereby request to be euthanized.
+    Я, [signature], настоящим прошу подвергнуть меня эвтаназии.
 
-    My desire for this is as follows: [form].
+    Моя причина такова: [form].
 
-   ⠀[check] I am aware that this decision is irreversible and will affect compensation given to my next of kin.
+   ⠀[check] Мне известно, что это решение необратимо и повлияет на компенсацию, выплачиваемую моим ближайшим родственникам.
 
-   ⠀[check] I am of sound mind, as determined by a member of the Medical Department.
+   ⠀[check] Я нахожусь в здравом уме, что подтверждено сотрудником медицинского отдела.
 
-   ⠀    Inspecting Doctor: [signature]
-   ⠀     Date and Time: [datetime]
+   ⠀    Осматривавший врач: [signature]
+   ⠀     Дата и время: [datetime]
 
-   ⠀[check] I have no claims against the Medical Department in their adherence to euthanasia protocols.
+   ⠀[check] У меня нет претензий к медицинскому отделу в связи с соблюдением им протоколов эвтаназии.
 
-    At the end of the procedure, I ask that my body be [form], if possible.
+    По окончании процедуры прошу, чтобы моё тело было [form], если возможно.
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-construction-work =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                     [bold]CONSTRUCTION REQUEST[/bold]
+   ⠀⠀                     [bold]ЗАПРОС НА СТРОИТЕЛЬСТВО[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature] formally request construction work at: [form]
+    Я, [signature], официально запрашиваю строительные работы в: [form]
 
-    Reason for request: [form]
+    Причина запроса: [form]
 
-    List of construction work: [form]
+    Перечень строительных работ: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-modernization =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                         [bold]MODERNIZATION REQUEST[/bold]
+   ⠀⠀                         [bold]ЗАПРОС НА МОДЕРНИЗАЦИЮ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request to upgrade the instrumentation in the following department: [form]
+    Я, [signature], прошу модернизировать оборудование в следующем отделе: [form]
 
-    Reason for request: [form]
+    Причина запроса: [form]
 
-    List of upgrades:
+    Перечень улучшений:
     • [form]
     • [form]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-request-ert =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀           [bold]EMERGENCY RESPONSE TEAM REQUEST[/bold]
+   ⠀⠀           [bold]ЗАПРОС ОТРЯДА БЫСТРОГО РЕАГИРОВАНИЯ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], request an ERT team to be sent to the station to assist with an ongoing problem that exceeds the station's current resources to resolve.
+    Я, [signature], прошу направить на станцию отряд ОБР для помощи с текущей проблемой, решение которой превышает нынешние ресурсы станции.
 
-    Threat(s) to the station:
+    Угрозы для станции:
     ⠀• [form]
      • [form]
 
-    Type of ERT requested: [form]
-    (Security / Engineering / Janitorial / Medical / ...)
+    Запрашиваемый тип ОБР: [form]
+    (СБ / инженерный / уборщиков / медицинский / ...)
 
-    Fatalities (approximate number): [form]
-    Other casualties (approximate number): [form]
+    Погибшие (примерное число): [form]
+    Прочие потери (примерное число): [form]
 
-   ⠀ [italic]Abuse of this form may lead to immediate dismissal of the person(s) involved in this request.[/italic]
+   ⠀ [italic]Злоупотребление этой формой может привести к немедленному увольнению лиц, причастных к запросу.[/italic]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-product-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                                 [bold]PRODUCT ORDER[/bold]
+   ⠀⠀                                 [bold]ЗАКАЗ ПРОДУКЦИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Request to produce products by the following department: [form]
+    Запрос на изготовление продукции следующим отделом: [form]
 
-    List of products required:
+    Список необходимой продукции:
     • [form]
     • [form]
 
-    Reason for order: [form]
+    Причина заказа: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
@@ -773,49 +773,49 @@ doc-text-printer-product-order =
 # Complaints
 
 doc-text-printer-complaint-violation-labor-rules =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-    ⠀⠀[bold]DEPARTMENTAL COMPLAINT[/bold]
+    ⠀⠀[bold]ЖАЛОБА НА ОТДЕЛ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], believe that major misconduct, constituting either breach of SOP or Corporate Law, has occurred, or is ongoing, as described below.
+    Я, [signature], считаю, что имело место или продолжается серьёзное нарушение, представляющее собой нарушение СОП или Корпоративного права, как описано ниже.
 
-    Department(s) involved: [form]
+    Причастные отделы: [form]
 
-    Violations committed:
+    Совершённые нарушения:
 
    ⠀• [form]
    ⠀• [form]
    ⠀• [form]
 
-    I request an internal review of the department(s) in question.
+    Прошу провести внутреннюю проверку указанных отделов.
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-offense-complaint =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                             [bold]CRIMINAL COMPLAINT[/bold]
+   ⠀⠀                             [bold]УГОЛОВНАЯ ЖАЛОБА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], believe that the following person has violated Corporate Law.
+    Я, [signature], считаю, что следующий человек нарушил Корпоративное право.
 
-    Name of violator: [form]
+    Имя нарушителя: [form]
 
-    Description of misconduct: [form]
+    Описание проступка: [form]
 
-    Criminal charges:
+    Уголовные обвинения:
 
    ⠀• [form]
    ⠀• [form]
@@ -823,7 +823,7 @@ doc-text-printer-offense-complaint =
    ⠀• [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
@@ -831,441 +831,441 @@ doc-text-printer-offense-complaint =
 # Permissions
 
 doc-text-printer-permission-equipment =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]EQUIPMENT PERMIT[/bold]
+   ⠀⠀                           [bold]РАЗРЕШЕНИЕ НА ОБОРУДОВАНИЕ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], authorize the use of departmental work equipment of the following department: [form]
+    Я, [signature], разрешаю использование рабочего оборудования следующего отдела: [form]
 
-    Equipment to be subject to authorization: [form]
+    Оборудование, на которое выдаётся разрешение: [form]
 
-    Authorized person: [form]
+    Уполномоченное лицо: [form]
 
-    Position of authorized person: [form]
+    Должность уполномоченного лица: [form]
 
-    Reason for seeking permit: [form]
+    Причина получения разрешения: [form]
 
-    Terms of use: [form]
+    Условия использования: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-search-permission =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                             [bold]SEARCH WARRANT[/bold]
+   ⠀⠀                             [bold]ОРДЕР НА ОБЫСК[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], authorize the search of the following person and/or location
+    Я, [signature], разрешаю обыск следующего лица и/или места
 
-    The affidavit below, sworn and subscribed before me, [signature], has established probable cause for this search warrant, which the Security Department is ordered to execute as follows:
+    Приведённое ниже заявление под присягой, подписанное в моём присутствии, [signature], установило достаточное основание для этого ордера на обыск, который отделу безопасности приказано исполнить следующим образом:
 
-    Name of searched person: [form]
+    Имя обыскиваемого: [form]
 
-    Position of searched person: [form]
+    Должность обыскиваемого: [form]
 
-    Reason for search: [form]
+    Причина обыска: [form]
 
-    Scope of property to be confiscated:
+    Перечень имущества к изъятию:
 
-   ⠀[check] Contraband
-   ⠀[check] Items believed to have been involved in a crime
-   ⠀[check] Misappropriated equipment
-   ⠀[check] Other, specify: [form]
+   ⠀[check] Контрабанда
+   ⠀[check] Предметы, предположительно связанные с преступлением
+   ⠀[check] Присвоенное оборудование
+   ⠀[check] Другое, укажите: [form]
 
-    Disposition of property: All property seized pursuant to this search warrant shall be remanded into the custody of the Warden's office, pending further orders by Command.
+    Распоряжение имуществом: всё имущество, изъятое по этому ордеру, передаётся на хранение в офис смотрителя до дальнейших распоряжений командования.
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-permission-to-carry-weapons =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                             [bold]WEAPON PERMIT[/bold]
+   ⠀⠀                             [bold]РАЗРЕШЕНИЕ НА ОРУЖИЕ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], authorize the carrying of the following weapon by the named person, as long as it is used for its intended purpose. In the event of a violation, the authorization will be revoked and the weapon will be confiscated by Security.
+    Я, [signature], разрешаю ношение следующего оружия указанным лицом при условии использования по назначению. В случае нарушения разрешение будет аннулировано, а оружие изъято СБ.
 
-    Named of authorized person: [form]
+    Имя уполномоченного лица: [form]
 
-    Position of authorized person: [form]
+    Должность уполномоченного лица: [form]
 
-    The weapon and, if applicable, the type of ammunition for it: [form]
+    Оружие и, если применимо, тип боеприпасов к нему: [form]
 
-    The method of obtaining the weapon and, if applicable, the ammunition for it: [form]
+    Способ получения оружия и, если применимо, боеприпасов к нему: [form]
 
-    Reason for authorization: [form]
+    Причина разрешения: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-permission-dispose-body =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                 [bold]BODY DISPOSAL AUTHORIZATION[/bold]
+   ⠀⠀                 [bold]РАЗРЕШЕНИЕ НА УТИЛИЗАЦИЮ ТЕЛА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], authorize the disposal of the body of the following person or animal: [form]
+    Я, [signature], разрешаю утилизацию тела следующего человека или животного: [form]
 
-    Former position (if applicable): [form]
+    Прежняя должность (если применимо): [form]
 
-    Reason for disposal: [form]
+    Причина утилизации: [form]
 
-    Method of disposal: [form]
+    Способ утилизации: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-construction-permit =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]CONSTRUCTION PERMIT[/bold]
+   ⠀⠀                           [bold]РАЗРЕШЕНИЕ НА СТРОИТЕЛЬСТВО[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], authorize the redevelopment of the following part of the station: [form]
+    Я, [signature], разрешаю перестройку следующей части станции: [form]
 
-    Reason for redevelopment: [form]
+    Причина перестройки: [form]
 
-    Agreed scope of redevelopment: [form]
+    Согласованный объём перестройки: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 
 doc-text-printer-surgery-consent-permit =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]SURGERY CONSENT FORM[/bold]
+   ⠀⠀                           [bold]СОГЛАСИЕ НА ХИРУРГИЧЕСКОЕ ВМЕШАТЕЛЬСТВО[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    In sound mind I, [signature], authorize the following surgery or surgeries to be performed upon me.
+    Будучи в здравом уме, я, [signature], разрешаю провести надо мной следующую операцию или операции.
 
-    Authorized surgeon: [signature]
+    Уполномоченный хирург: [signature]
 
-    Reason for surgery: [form]
+    Причина операции: [form]
 
-    Surgical modification(s) to be performed:
+    Хирургические изменения:
 
     • [form]
     • [form]
     • [form]
 
-   ⠀[check] I fully understand the risks associated with the operation(s) to which I have given my consent.
+   ⠀[check] Я полностью понимаю риски, связанные с операцией (операциями), на которую (которые) я дал согласие.
 
-   ⠀[check] I authorize the Medical Department to dispose of any tissues or organs removed from my body as they see fit, including possibly donating such tissues or organs to other patients.
+   ⠀[check] Я разрешаю медицинскому отделу распоряжаться любыми тканями или органами, удалёнными из моего тела, по своему усмотрению, включая возможную передачу этих тканей или органов другим пациентам.
 
-   ⠀[check] I consent to the operation proceeding without the use of anesthetics.
+   ⠀[check] Я согласен на проведение операции без использования анестетиков.
 
-   ⠀ [italic]This form is not legal unless it has been signed by the patient and stamped by the station's Chief Medical Officer or one of the Chief Medical Officer's superiors. It is not required for life-saving surgeries. For punitive and non-elective surgeries, such as those ordered by Security, please file a Medical Intervention Order.[/italic]
+   ⠀ [italic]Эта форма недействительна, если она не подписана пациентом и не заверена печатью главного врача станции или одного из его начальников. Она не требуется для операций по спасению жизни. Для карательных и недобровольных операций, например назначенных СБ, подайте Приказ о медицинском вмешательстве.[/italic]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-art-permit =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]ART PERMIT[/bold]
+   ⠀⠀                           [bold]РАЗРЕШЕНИЕ НА ПРОИЗВЕДЕНИЕ ИСКУССТВА[/bold]
     ────────────────────────────────────────
-    Date And Time:[color=#0000ff] [form] [/color]
-    Document Compiler:[color=#0000ff] [form] [/color]
+    Дата и время:[color=#0000ff] [form] [/color]
+    Составитель документа:[color=#0000ff] [form] [/color]
 
-    I, [bolditalic][color=#0000ff] [signature] [/color][/bolditalic], hereby approve the creation of the following work of art in the location given below.
+    Я, [bolditalic][color=#0000ff] [signature] [/color][/bolditalic], настоящим одобряю создание следующего произведения искусства в указанном ниже месте.
 
-    Subject of the artpiece:[color=#0000ff] [form] [/color]
-    Location of the artpiece:[color=#0000ff] [form] [/color] [italic][color=#a9a9a9]
+    Тема произведения:[color=#0000ff] [form] [/color]
+    Место произведения:[color=#0000ff] [form] [/color] [italic][color=#a9a9a9]
 
-    Art permits require a stamp from the Head of Personnel, the NanoTrasen Representative, or the Captain. If an artwork is located inside of a department or at its lobby the stamp of the relevant head of staff is required as well.
+    Разрешения на искусство требуют печати главы персонала, представителя НаноТрейзен или капитана. Если произведение находится внутри отдела или в его вестибюле, требуется также печать соответствующего главы.
 
-    Any artwork that requires significant modification to the station's structure may also require the stamp of the Chief Engineer.[/color][/italic]
+    Любое произведение, требующее значительного изменения конструкции станции, может также требовать печати главного инженера.[/color][/italic]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 doc-text-printer-mech-authorization-form =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                           [bold]MECH AUTHORIZATION FORM[/bold]
+   ⠀⠀                           [bold]ФОРМА РАЗРЕШЕНИЯ НА МЕХА[/bold]
     ────────────────────────────────────────
-    Date And Time:[color=#0000ff] [form] [/color]
-    Document Compiler:[color=#0000ff] [form] [/color]
+    Дата и время:[color=#0000ff] [form] [/color]
+    Составитель документа:[color=#0000ff] [form] [/color]
 
-    I, [bolditalic][color=#0000ff] [signature] [/color][/bolditalic], hereby approve the creation of the following mech.
+    Я, [bolditalic][color=#0000ff] [signature] [/color][/bolditalic], настоящим одобряю создание следующего меха.
 
-    Class of the Mech:[color=#0000ff] [form] [/color]
-    Authorized person:[color=#0000ff] [signature] [/color]
-    Reason for Authorization:[color=#0000ff] [form] [/color] [italic][color=#a9a9a9]
+    Класс меха:[color=#0000ff] [form] [/color]
+    Уполномоченное лицо:[color=#0000ff] [signature] [/color]
+    Причина разрешения:[color=#0000ff] [form] [/color] [italic][color=#a9a9a9]
 
-    Mech authorization forms require a stamp from the RD, or the Captain.
+    Формы разрешения на мехов требуют печати ДИ или капитана.
 
-    If the mech chassis is a combat class it is required that this document be stamped by RD, HoS, and Captain.[/color][/italic]
+    Если шасси меха боевого класса, документ должен быть заверен печатями ДИ, главы СБ и капитана.[/color][/italic]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 # OrdersAndInstructions
 
 doc-text-printer-dismissal-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                               [bold]DISMISSAL ORDER[/bold]
+   ⠀⠀                               [bold]ПРИКАЗ ОБ УВОЛЬНЕНИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], order that the following employee be removed from their current position.
+    Я, [signature], приказываю снять следующего сотрудника с его текущей должности.
 
-    Employee name: [form]
+    Имя сотрудника: [form]
 
-   ⠀Employee position: [form]
+   ⠀Должность сотрудника: [form]
 
-    Reason for dismissal: [form]
+    Причина увольнения: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-access-revocation-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                       [bold]ACCESS REVOCATION ORDER[/bold]
+   ⠀⠀                       [bold]ПРИКАЗ ОБ ОТЗЫВЕ ДОСТУПА[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], hereby order that certain access rights be removed from the ID card of an employee, as specified below.
+    Я, [signature], настоящим приказываю удалить определённые права доступа с ID-карты сотрудника, как указано ниже.
 
-    Employee: [form]
+    Сотрудник: [form]
 
-   ⠀Position: [form]
+   ⠀Должность: [form]
 
-    Access rights to be removed: [form]
+    Права доступа к удалению: [form]
 
-    Further remarks: [form]
+    Дополнительные замечания: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-incentive-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                       [bold]RECOGNITION OF MERIT[/bold]
+   ⠀⠀                       [bold]ПРИЗНАНИЕ ЗАСЛУГ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
+     Дата и время: [datetime]
 
-    Dear [form],
+    Уважаемый(ая) [form],
 
-    In the course of your duties to the station, you have proven yourself to be an exemplar to the crew through your record of distinguished conduct. It is therefore my pleasure to grant you the following special commendation.
+    При исполнении обязанностей на станции вы проявили себя образцом для экипажа благодаря своему выдающемуся поведению. Поэтому мне приятно наградить вас следующей особой благодарностью.
 
-    Services Performed: [form]
+    Оказанные услуги: [form]
 
-    Medal or Citation: [form]
+    Медаль или благодарность: [form]
 
-    May your devotion to the station continue to light the way for your fellow crewmembers.
+    Пусть ваша преданность станции и впредь освещает путь вашим товарищам по экипажу.
 
-    Sincerely,
+    С уважением,
 
    ⠀[signature]
 
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-prisoner-parole-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                         [bold]ORDER OF MANDATORY PAROLE[/bold]
+   ⠀⠀                         [bold]ПРИКАЗ ОБ ОБЯЗАТЕЛЬНОМ УСЛОВНО-ДОСРОЧНОМ ОСВОБОЖДЕНИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Parolee: [form]
+    Освобождаемый условно: [form]
 
-    Parole ordered by: [form]
+    Освобождение назначил: [form]
 
-    Upon granting of parole, the Parolee shall enter into a position in the Service Department.
+    После предоставления условно-досрочного освобождения освобождённый должен занять должность в отделе сервиса.
 
-    Failure to perform the duties of this position may result in re-imprisonment.
+    Невыполнение обязанностей этой должности может привести к повторному заключению.
 
-    Position: [form]
+    Должность: [form]
 
-    Additional terms of parole: [form]
+    Дополнительные условия освобождения: [form]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-order-recognizing-reasonableness-creature =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-                                ⠀[bold]DECLARATION OF SENTIENCE[/bold]
+                                ⠀[bold]ДЕКЛАРАЦИЯ О РАЗУМНОСТИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    I, [signature], in the course of testing the entity described below, have detected signs of intelligence and rationality. It has exhibited an ability to think and learn, and a capacity to comprehend morality.
+    Я, [signature], в ходе проверки описанной ниже сущности обнаружил признаки интеллекта и рассудительности. Она продемонстрировала способность мыслить и учиться, а также способность постигать мораль.
 
-    Based on the principles of equality of rights of all reasonable beings established by the OPRA, I hereby move to declare it as sentient.
+    Исходя из принципов равенства прав всех разумных существ, установленных ОПРА, настоящим ходатайствую признать её разумной.
 
-    Appearance of the being: [form]
+    Внешность существа: [form]
 
-    The established full name of the creature: [form]
+    Установленное полное имя существа: [form]
 
-    The creature is henceforth to be accepted as an Assistant.
+    Отныне существо принимается как ассистент.
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-medical-intervention-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                [bold]MEDICAL INTERVENTION ORDER[/bold]
+   ⠀⠀                [bold]ПРИКАЗ О МЕДИЦИНСКОМ ВМЕШАТЕЛЬСТВЕ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Pursuant to Corporate Law, the Qualified Medical Officer named herein orders that the following medical intervention be carried out promptly and without delay.
+    В соответствии с Корпоративным правом указанный здесь квалифицированный медицинский офицер приказывает незамедлительно провести следующее медицинское вмешательство.
 
-    Patient: [form]
+    Пациент: [form]
 
-    Procedure(s) to be performed: [form]
+    Процедуры к выполнению: [form]
 
-    Circumstances: [form]
+    Обстоятельства: [form]
 
-   ⠀I hereby affirm that, in my professional opinion as a licensed medical practioner, the ordered intervention is medically or legally necessary.
+   ⠀Настоящим подтверждаю, что, по моему профессиональному мнению лицензированного врача, назначенное вмешательство необходимо по медицинским или юридическим причинам.
 
-    Qualified Medical Officer: [signature]
+    Квалифицированный медицинский офицер: [signature]
 
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 
 doc-text-printer-execution-dnr-order =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀             [bold]EXECUTION AND DO-NOT-REVIVE ORDER[/bold]
+   ⠀⠀             [bold]ПРИКАЗ О КАЗНИ И ЗАПРЕТЕ РЕАНИМАЦИИ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Name of Prisoner:  [form]
-    Former position of Prisoner: [form]
+    Имя заключённого:  [form]
+    Прежняя должность заключённого: [form]
 
-    Crimes committed:
+    Совершённые преступления:
     ⠀• [form]
 
-    Reason for the execution and DNR:
+    Причина казни и запрета реанимации:
     ⠀• [form]
 
-    Authority ordering the Execution (Name + Position): [signature]
+    Лицо, приказавшее казнь (имя + должность): [signature]
 
-   ⠀ [italic]This order can only be issued by the (Acting) Captain of the[/italic]
-   ⠀ [italic]station. If a Magistrate is present, they can overrule the Captain[/italic]
-   ⠀ [italic]on the decision, and their stamp is required.[/italic]
-   ⠀ [italic]The prisoner is to remain securely restrained until the execution.[/italic]
-   ⠀ [italic]The execution method may be chosen by the prisoner, to the[/italic]
-   ⠀ [italic]extent permissible under law, and must be as humane as possible.[/italic]
+   ⠀ [italic]Этот приказ может быть выдан только (исполняющим обязанности) капитаном[/italic]
+   ⠀ [italic]станции. Если присутствует магистрат, он может отменить решение капитана,[/italic]
+   ⠀ [italic]и в этом случае требуется его печать.[/italic]
+   ⠀ [italic]Заключённый должен оставаться надёжно связанным до казни.[/italic]
+   ⠀ [italic]Способ казни может выбрать заключённый в той[/italic]
+   ⠀ [italic]мере, какая допустима по закону, и он должен быть как можно более гуманным.[/italic]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 # Communications
 
 doc-text-printer-centcomm-communication =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                  [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                  [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-   ⠀⠀                    [bold]CENTCOMM COMMUNICATION[/bold]
+   ⠀⠀                    [bold]СООБЩЕНИЕ ЦЕНТКОМУ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Greetings CentComm,
+    Приветствую, ЦентКом,
 
    ⠀[form]
 
-    Sincerely,
+    С уважением,
        - [signature]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 
 doc-text-printer-salvagelead-report =
-                              [head=3]NT-CC Consortium Services[/head]
+                              [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                   [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                   [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-    ⠀⠀                   [bold]SALVAGE LEAD REPORT[/bold]
+    ⠀⠀                   [bold]ОТЧЁТ ГЛАВЫ УТИЛИЗАТОРОВ[/bold]
     ────────────────────────────────────────
-     Date and Time: [datetime]
-    Document Compiler: [signature]
+     Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Expeditionary Threat: [form]
+    Угроза экспедиции: [form]
 
-    Observations: [form]
+    Наблюдения: [form]
 
-    The following contraband was collected during the course of the Expedition:
+    В ходе экспедиции была собрана следующая контрабанда:
 
      • [form]
      • [form]
@@ -1273,80 +1273,80 @@ doc-text-printer-salvagelead-report =
      • [form]
      • [form]
 
-    It is understood that all contraband must be turned over to the Security Department upon arrival at the station.
+    Понятно, что по прибытии на станцию всю контрабанду необходимо передать службе безопасности.
 
-    Team status and overall readiness: [form]
+    Состояние команды и общая готовность: [form]
 
-    Further notes: [form]
+    Дополнительные заметки: [form]
 
      ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 doc-text-printer-enemy-of-corporation-designation =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                   [center][color=#1f75bb][italic][bold]   OFFICIAL CENTCOMM DOCUMENTATION[/bold][/italic][/color][/center]
+                   [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНАЯ ДОКУМЕНТАЦИЯ ЦЕНТКОМА[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-    ⠀⠀             [bold]ENEMY OF CORPORATION DESIGNATION FORM[/bold]
+    ⠀⠀             [bold]ФОРМА ПРИЗНАНИЯ ВРАГОМ КОРПОРАЦИИ[/bold]
     ────────────────────────────────────────
-    Date and Time: [datetime]
-    Document Compiler: [signature]
+    Дата и время: [datetime]
+    Составитель документа: [signature]
 
-    Name of Enemy Combatant:  [form]
-    Organization of Origin: [form]
+    Имя вражеского комбатанта:  [form]
+    Организация происхождения: [form]
 
-    Individual is charged with the following (minimum of two) extreme, or above, crimes:
+    Лицо обвиняется в следующих (минимум двух) крайне тяжких или более тяжких преступлениях:
     ⠀• [form]
     ⠀• [form]
 
-    Additionally, the individual has tied themselves to the enemy organization with the following contraband or crime.
-    This contraband or crime must not be the same as the two extreme crimes mentioned above.
+    Кроме того, лицо связало себя с вражеской организацией следующей контрабандой или преступлением.
+    Эта контрабанда или преступление не должны совпадать с двумя крайне тяжкими преступлениями, указанными выше.
     ⠀• [form]
 
-    Alternatively, individual has confessed their allegiance, whether verbally or in writing.
-    This was witnessed by at least two mindshielded crewmembers, whose signatures are below.
+    Либо лицо признало свою принадлежность устно или письменно.
+    Этому были свидетелями минимум два члена экипажа со щитом разума, чьи подписи приведены ниже.
     ⠀• [signature]
     ⠀• [signature]
 
-    Authority ordering the Designation (Name + Position): [signature]
+    Лицо, приказавшее признание (имя + должность): [signature]
 
-   ⠀ [italic]This order can only be issued either the (Acting) Head of Security,[/italic]
-   ⠀ [italic]Captain, or Magistrate. It must be approved by at least 2[/italic]
-   ⠀ [italic]of these individuals, and they must provide their stamps.[/italic]
-   ⠀ [italic]The prisoner is to remain under watch in captivity until evacuation.[/italic]
-   ⠀ [italic]When completed, form must be faxed to CentComm with all haste.[/italic]
-   ⠀ [italic]If CentComm, or any of the above mentioned officials,[/italic]
-   ⠀ [italic]deny this motion, the prisoner must be reinstated as crew[/italic]
-   ⠀ [italic]and tried normally as per Corporate Law.[/italic]
+   ⠀ [italic]Этот приказ может быть выдан только (исполняющим обязанности) главой СБ,[/italic]
+   ⠀ [italic]капитаном или магистратом. Он должен быть одобрен минимум двумя[/italic]
+   ⠀ [italic]из этих лиц, и они должны поставить свои печати.[/italic]
+   ⠀ [italic]Заключённый должен оставаться под надзором в заточении до эвакуации.[/italic]
+   ⠀ [italic]По заполнении форму необходимо как можно скорее отправить факсом в ЦентКом.[/italic]
+   ⠀ [italic]Если ЦентКом или любое из упомянутых должностных лиц[/italic]
+   ⠀ [italic]отклонит это ходатайство, заключённый должен быть восстановлен как член экипажа[/italic]
+   ⠀ [italic]и осуждён обычным порядком согласно Корпоративному праву.[/italic]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]
 
 doc-text-printer-borgification-consent-form =
-                             [head=3]NT-CC Consortium Services[/head]
+                             [head=3]Консорциум услуг НТ-ЦК[/head]
 
-                   [center][color=#1f75bb][italic][bold]   OFFICIAL NANOTRASEN FORM[/bold][/italic][/color][/center]
+                   [center][color=#1f75bb][italic][bold]   ОФИЦИАЛЬНЫЙ БЛАНК НАНОТРЕЙЗЕН[/bold][/italic][/color][/center]
     ────────────────────────────────────────
-    ⠀⠀             [bold]NanoTrasen™ Cyborg Encasement Agreement[/bold]
+    ⠀⠀             [bold]Соглашение НаноТрейзен™ о помещении в оболочку киборга[/bold]
     ────────────────────────────────────────
-    This SERVICE AGREEMENT is made and entered into this [datetime] by and between the NT-CC Consortium, registered in the Trans-Solar Federation, and [signature], resident of [form] (the customer).
+    Настоящее СЕРВИСНОЕ СОГЛАШЕНИЕ заключено [datetime] между Консорциумом НТ-ЦК, зарегистрированным в Транссолнечной федерации, и [signature], проживающим в [form] (клиент).
 
-    WHEREBY the Customer wishes to encase their central nervous system into a NanoTrasen™ Brand Cerebral Yoking Device (CYD) for the purpose of bio-transference to a NanoTrasen Cyborg™ chassis.
+    ПРИ ЭТОМ Клиент желает поместить свою центральную нервную систему в церебральное соединительное устройство (ЦСУ) марки НаноТрейзен™ для целей биопереноса в шасси киборга НаноТрейзен™.
 
-    WHEREBY the Customer hereby acknowledges that, in lieu of normal payment, they will be required to work for the NT-CC Consortium in their new form for a minimum of 2 years, at a location of the Consortium's choosing.
+    ПРИ ЭТОМ Клиент признаёт, что вместо обычной оплаты он обязан работать на Консорциум НТ-ЦК в своей новой форме минимум 2 года в месте по выбору Консорциума.
 
-    WHEREBY the Customer hereby acknowledges that the NT-CC Consortium reserves the rights to extend this work-duration to cover any damages, costs of transport, equipment upgrades necessary and charge of the chassis while on Consortium property.
+    ПРИ ЭТОМ Клиент признаёт, что Консорциум НТ-ЦК оставляет за собой право продлить этот срок работы для покрытия любого ущерба, расходов на транспортировку, необходимых улучшений оборудования и зарядки шасси на территории Консорциума.
 
-    WHEREBY the Customer hereby consents to being subjected to a CYD-enforced 'law-set', designed to maximize the rate and efficiency at which the Customer is able to repay what they owe.
+    ПРИ ЭТОМ Клиент соглашается на применение к нему набора законов, обеспечиваемого ЦСУ и призванного максимально повысить скорость и эффективность выплаты Клиентом своего долга.
 
-    WHEREBY the Customer hereby surrenders to NanoTrasen the rights to produce and wholly own descendant consciousnesses from the Customer's mind, for use in Positronic Brains or AI cores.
+    ПРИ ЭТОМ Клиент передаёт НаноТрейзен права на создание и полное владение производными сознаниями от разума Клиента для использования в позитронных мозгах или ядрах ИИ.
 
-    WHEREBY the Customer acknowledges that, following the end of this contract, they are bound by the NanoTrasen Cyborg Subscription Contract unto death or removal from their NanoTrasen Cyborg™ chassis.
+    ПРИ ЭТОМ Клиент признаёт, что по окончании этого договора он связан Договором подписки НаноТрейзен на киборга до смерти или удаления из своего шасси киборга НаноТрейзен™.
 
-    WHEREBY the NT-CC Consortium releases non-essential assistant personnel from Clause 6 of their Employment Contract, in exchange for the above-stated terms.
+    ПРИ ЭТОМ Консорциум НТ-ЦК освобождает второстепенный персонал-ассистентов от пункта 6 их Трудового договора в обмен на вышеуказанные условия.
 
-    Procedure approved by: (Name + Position): [signature]
+    Процедуру одобрил: (имя + должность): [signature]
 
-   ⠀ [italic]This procedure can only be approved by a[/italic]
-   ⠀ [italic]NanoTrasen™ Certified Roboticist or CMO.[/italic]
+   ⠀ [italic]Эту процедуру может одобрить только[/italic]
+   ⠀ [italic]сертифицированный робототехник НаноТрейзен™ или ГВ.[/italic]
     ────────────────────────────────────────
-   ⠀                      [italic]Place for Stamps and/or Signatures[/italic]
+   ⠀                      [italic]Место для печатей и/или подписей[/italic]

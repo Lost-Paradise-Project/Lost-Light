@@ -1,2 +1,2 @@
 # Airlocks
-spray-painter-style-airlockstandard-plastitanium = Plastitanium
+spray-painter-style-airlockstandard-plastitanium = Пластитан

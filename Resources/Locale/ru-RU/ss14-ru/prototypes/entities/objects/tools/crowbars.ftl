@@ -10,5 +10,5 @@ ent-CrowbarOrange = { ent-BaseCrowbar }
     .desc = { ent-BaseCrowbar.desc }
 ent-CrowbarYellow = { ent-BaseCrowbar }
     .desc = { ent-BaseCrowbar.desc }
-ent-CrowbarAbductor = abductor's crowbar
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders.
+ent-CrowbarAbductor = лом похитителя
+    .desc = Многоцелевой инструмент для вскрытия дверей и борьбы с межпространственными захватчиками.

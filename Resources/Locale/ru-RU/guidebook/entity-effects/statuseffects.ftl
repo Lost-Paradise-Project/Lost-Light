@@ -14,4 +14,4 @@ entity-effect-status-effect-StaminaModifier = изменение выносли�
 entity-effect-status-effect-RadiationProtection = защита от радиации
 entity-effect-status-effect-Drowsiness = сонливость
 entity-effect-status-effect-Adrenaline = адреналин
-entity-effect-status-effect-PoliteLanguage = polite language
+entity-effect-status-effect-PoliteLanguage = вежливая речь

@@ -1,2 +1,2 @@
-ent-StatusEffectSleepiness = sleepiness
+ent-StatusEffectSleepiness = сонливость
     .desc = { ent-MobStatusEffectDebuff.desc }

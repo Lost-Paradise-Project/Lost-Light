@@ -1,2 +1,2 @@
-ent-ClothingBeltStorageWaistbagScience = science waist bag
-    .desc = A purple waist bag meant for carrying the tools of the luscious.
+ent-ClothingBeltStorageWaistbagScience = научная поясная сумка
+    .desc = Фиолетовая поясная сумка для ношения инструментов роскошных.

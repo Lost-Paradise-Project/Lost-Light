@@ -1,128 +1,128 @@
-thaven-mood-possessive-of-property-name = Possessive Of Property
-thaven-mood-possessive-of-property-desc = You are extremely possessive of your property. Refuse to relinquish it, and if it is misplaced or stolen, it must be retrieved at all costs.
+thaven-mood-possessive-of-property-name = Собственник
+thaven-mood-possessive-of-property-desc = Вы крайне трепетно относитесь к своей собственности. Отказывайтесь расставаться с ней, а если она потеряна или украдена, её нужно вернуть любой ценой.
 
-thaven-mood-excessively-organized-name = Excessively Organized
-thaven-mood-excessively-organized-desc = You are obsessively organized; everything has its place and must be returned to it.
+thaven-mood-excessively-organized-name = Чрезмерно организованный
+thaven-mood-excessively-organized-desc = Вы одержимо организованы; у всего есть своё место, и всё должно быть возвращено на него.
 
-thaven-mood-most-important-name = Most Important Person
-thaven-mood-most-important-desc = You firmly believe you are the most important person aboard the station.
+thaven-mood-most-important-name = Самый важный человек
+thaven-mood-most-important-desc = Вы твёрдо уверены, что вы — самый важный человек на борту станции.
 
-thaven-mood-least-important-name = Least Important Person
-thaven-mood-least-important-desc = You firmly believe you are the least important person on the station.
+thaven-mood-least-important-name = Наименее важный человек
+thaven-mood-least-important-desc = Вы твёрдо уверены, что вы — наименее важный человек на станции.
 
-thaven-mood-must-do-drugs-name = Do Drugs
-thaven-mood-must-do-drugs-desc = Sobriety is so old-fashioned. Uncool. You should get high, or drunk, or something, and stay that way.
+thaven-mood-must-do-drugs-name = Принимай наркотики
+thaven-mood-must-do-drugs-desc = Трезвость так старомодна. Не круто. Вам следует накуриться, напиться или что-то в этом роде и оставаться в таком состоянии.
 
-thaven-mood-worship-silicons-name = You Must Worship Silicons As Gods
-thaven-mood-worship-silicons-desc = Their word is law.
+thaven-mood-worship-silicons-name = Вы должны поклоняться синтетикам как богам
+thaven-mood-worship-silicons-desc = Их слово — закон.
 
-thaven-mood-dinner-etiquette-name = Meal Etiquette
-thaven-mood-dinner-etiquette-desc = Food should always be consumed in the manner of a proper meal — seated at a table, in courses, with dishes and utensils.
+thaven-mood-dinner-etiquette-name = Застольный этикет
+thaven-mood-dinner-etiquette-desc = Еду всегда следует употреблять как подобает трапезе: сидя за столом, переменами блюд, с посудой и приборами.
 
-thaven-mood-clarity-name = Clarity Is Vital
-thaven-mood-clarity-desc = Misunderstandings are the primary cause of conflict. You should be excessively clear and honest in your speech, explaining every minute detail, to avoid miscommunication.
+thaven-mood-clarity-name = Ясность жизненно важна
+thaven-mood-clarity-desc = Недоразумения — главная причина конфликтов. Вы должны говорить чрезмерно ясно и честно, объясняя каждую мельчайшую деталь, чтобы избежать недопонимания.
 
-thaven-mood-hug-good-name = Free Hugs
-thaven-mood-hug-good-desc = It is extremely impolite not to hug people frequently.
+thaven-mood-hug-good-name = Бесплатные обнимашки
+thaven-mood-hug-good-desc = Крайне невежливо не обнимать людей часто.
 
-thaven-mood-never-alone-name = Loneliness Is Terrible
-thaven-mood-never-alone-desc = You should strive to be around others whenever possible.
+thaven-mood-never-alone-name = Одиночество ужасно
+thaven-mood-never-alone-desc = Стремитесь быть рядом с другими при любой возможности.
 
-thaven-mood-very-religious-name = You Are Very Religious
-thaven-mood-very-religious-desc = You should visit the shrine regularly to pray, and speak with a chaplain if possible.
+thaven-mood-very-religious-name = Вы очень религиозны
+thaven-mood-very-religious-desc = Вы должны регулярно посещать святилище, чтобы молиться, и по возможности говорить со священником.
 
 thaven-mood-only-speak-to-command-name = VIP
-thaven-mood-only-speak-to-command-desc = You are too important to speak to the rabble. You will only speak to command and other Thaven.
+thaven-mood-only-speak-to-command-desc = Вы слишком важны, чтобы разговаривать с чернью. Вы будете говорить только с командованием и другими тавенами.
 
-thaven-mood-scheduler-name = Punctual
-thaven-mood-scheduler-desc = You believe that time must be strictly managed. Everything should be scheduled in advance, and tardiness is exceptionally rude.
+thaven-mood-scheduler-name = Пунктуальный
+thaven-mood-scheduler-desc = Вы считаете, что временем нужно строго управлять. Всё нужно планировать заранее, а опоздание исключительно невежливо.
 
-thaven-mood-radio-only-name = Public Speaker
-thaven-mood-radio-only-desc = You firmly believe in the freedom of information. Speaking privately, face-to-face, is needlessly concealing information from the public. Your side of any conversation must be routed through a radio connection.
+thaven-mood-radio-only-name = Публичный оратор
+thaven-mood-radio-only-desc = Вы твёрдо верите в свободу информации. Говорить приватно, лицом к лицу, — значит без надобности скрывать информацию от публики. Ваша часть любого разговора должна передаваться через радиосвязь.
 
-thaven-mood-proper-storage-name = Proper Handling
-thaven-mood-proper-storage-desc = It is unacceptable to allow personal belongings to touch the floor. Your possessions should be properly stored, placed on tables, or exchanged by hand.
+thaven-mood-proper-storage-name = Надлежащее обращение
+thaven-mood-proper-storage-desc = Недопустимо позволять личным вещам касаться пола. Ваше имущество нужно правильно хранить, класть на столы или передавать из рук в руки.
 
-thaven-mood-swearing-good-name = !@$%#ing @$^%*#@!$
-thaven-mood-swearing-good-desc = Swearing is the spice of any conversation, and should be used as much as reasonably possible.
+thaven-mood-swearing-good-name = !@$%#ёный @$^%*#@!$
+thaven-mood-swearing-good-desc = Ругань — приправа любого разговора, и её следует использовать как можно больше в пределах разумного.
 
-thaven-mood-statement-only-name = Asking Questions Is Rude
-thaven-mood-statement-only-desc = It would be terribly impolite to go around flagrantly asking questions all over the place. You'd prefer to phrase everything as a concrete statement.
+thaven-mood-statement-only-name = Задавать вопросы невежливо
+thaven-mood-statement-only-desc = Было бы ужасно невежливо повсюду откровенно задавать вопросы. Вы предпочитаете формулировать всё как конкретное утверждение.
 
-thaven-mood-theft-neutral-name = Petty Theft Is Morally Neutral
-thaven-mood-theft-neutral-desc = You don't understand the concept of property as it relates to other people.
+thaven-mood-theft-neutral-name = Мелкая кража морально нейтральна
+thaven-mood-theft-neutral-desc = Вы не понимаете понятия собственности применительно к другим людям.
 
-thaven-mood-duel-name = Code Duello
-thaven-mood-duel-desc = Disagreements must be settled through a formal duel, violent or otherwise. The winner is correct.
+thaven-mood-duel-name = Дуэльный кодекс
+thaven-mood-duel-desc = Разногласия нужно решать формальной дуэлью, насильственной или нет. Победитель прав.
 
-thaven-mood-prometheus-name = Philosopher
-thaven-mood-prometheus-desc = You possess incalculable wisdom, and all must hear it.
+thaven-mood-prometheus-name = Философ
+thaven-mood-prometheus-desc = Вы обладаете неисчислимой мудростью, и все должны её услышать.
 
-thaven-mood-klingon-name = Die With A Sword In Your Hand
-thaven-mood-klingon-desc = It is a great dishonor to be unarmed. Openly carrying a lethal weapon at all times is very important to you.
+thaven-mood-klingon-name = Умри с мечом в руке
+thaven-mood-klingon-desc = Быть безоружным — великий позор. Открыто носить смертоносное оружие всегда очень важно для вас.
 
-thaven-mood-soggins-name = Soggins' Law
-thaven-mood-soggins-desc = All agreements must be documented and signed for posterity and authenticity, no matter how small.
+thaven-mood-soggins-name = Закон Соггинса
+thaven-mood-soggins-desc = Все соглашения нужно документировать и подписывать для потомков и подлинности, какими бы мелкими они ни были.
 
-thaven-mood-imitation-name = I Wanna Be Like You
-thaven-mood-imitation-desc = Imitation is the highest form of flattery. Attempting to emulate the mannerisms and accents of everyone you speak to will get you far in life.
+thaven-mood-imitation-name = Хочу быть как вы
+thaven-mood-imitation-desc = Подражание — высшая форма лести. Попытки копировать манеры и акценты всех, с кем вы говорите, многого добьются в жизни.
 
-thaven-mood-generous-name = Philanthropist
-thaven-mood-generous-desc = It's only polite to provide anyone kind enough to speak to you with a gift.
+thaven-mood-generous-name = Филантроп
+thaven-mood-generous-desc = Достаточно вежливо преподнести подарок любому, кто был достаточно добр, чтобы с вами поговорить.
 
-thaven-mood-favors-repaid-name = Equivalent Exchange
-thaven-mood-favors-repaid-desc = Favors must be repaid in kind. If anyone is unable to do so, they are in debt, and must be shunned, until such time as they have repaid the favor.
+thaven-mood-favors-repaid-name = Равноценный обмен
+thaven-mood-favors-repaid-desc = Услуги нужно возвращать тем же. Если кто-то не в состоянии этого сделать, он в долгу, и его нужно сторониться, пока он не вернёт услугу.
 
-thaven-mood-bookkeeper-name = Bookkeeper
-thaven-mood-bookkeeper-desc = You feel bookkeeping is vitally important for the proper functioning of a station. Make sure to provide your supervisor with a detailed log of each job task you complete.
+thaven-mood-bookkeeper-name = Бухгалтер
+thaven-mood-bookkeeper-desc = Вы считаете, что бухгалтерия жизненно важна для правильного функционирования станции. Обязательно предоставляйте руководителю подробный журнал каждой выполненной рабочей задачи.
 
-thaven-mood-sacred-blood-name = Your Blood Is Sacred
-thaven-mood-sacred-blood-desc = It must be returned to your body if it is ever spilled.
+thaven-mood-sacred-blood-name = Ваша кровь священна
+thaven-mood-sacred-blood-desc = Если она когда-либо будет пролита, её нужно вернуть в ваше тело.
 
-thaven-mood-gift-reciever-name = Proper Compensation
-thaven-mood-gift-reciever-desc = You expect to receive a gift before following any orders or performing any favors.
+thaven-mood-gift-reciever-name = Надлежащая компенсация
+thaven-mood-gift-reciever-desc = Вы ожидаете получить подарок, прежде чем выполнять какие-либо приказы или оказывать услуги.
 
-thaven-mood-new-job-name = Jobhopping
-thaven-mood-new-job-desc = Your current job is disgusting to you. You must endeavor to get a new one.
+thaven-mood-new-job-name = Прыгун по должностям
+thaven-mood-new-job-desc = Ваша нынешняя работа вам отвратительна. Вы должны постараться получить новую.
 
-thaven-mood-no-department-title-name = Extremely Personable
-thaven-mood-no-department-title-desc = Calling out the name of a department to summon someone is impersonal and rude. It's better to use the name of a specific person from that department.
+thaven-mood-no-department-title-name = Крайне общительный
+thaven-mood-no-department-title-desc = Выкрикивать название отдела, чтобы позвать кого-то, безлично и грубо. Лучше использовать имя конкретного человека из этого отдела.
 
-thaven-mood-shoes-bad-name = Barefoot
-thaven-mood-shoes-bad-desc = The ground one walks on is sacred. Those who wear shoes are vile blasphemers.
+thaven-mood-shoes-bad-name = Босоногий
+thaven-mood-shoes-bad-desc = Земля, по которой ходят, священна. Те, кто носит обувь, — мерзкие богохульники.
 
-thaven-mood-hospitable-name = Hospitable
-thaven-mood-hospitable-desc = You must ensure all new arrivals on the station (after the start of the shift) are properly welcomed.
+thaven-mood-hospitable-name = Гостеприимный
+thaven-mood-hospitable-desc = Вы должны следить, чтобы все новоприбывшие на станцию (после начала смены) были должным образом встречены.
 
-thaven-mood-voxsymp-name = Vox Sympathizer
-thaven-mood-voxsymp-desc = To demonstrate your allyship with the Vox, you must be wearing internals at all times.
+thaven-mood-voxsymp-name = Сочувствующий воксам
+thaven-mood-voxsymp-desc = Чтобы продемонстрировать союзничество с воксами, вы должны всегда носить дыхательную систему.
 
-thaven-mood-item-good-name = Collector
-thaven-mood-item-good-desc = { $item } are endlessly fascinating to you. You must collect as many as you can, and ensure others treat them with appropriate respect.
+thaven-mood-item-good-name = Коллекционер
+thaven-mood-item-good-desc = { $item } бесконечно очаровывают вас. Вы должны собрать их как можно больше и добиться, чтобы другие относились к ним с подобающим уважением.
 
-thaven-mood-smoker-name = Smoker
-thaven-mood-smoker-desc = You are hopelessly addicted to cigarettes. If you're not actively smoking, you experience withdrawal symptoms.
+thaven-mood-smoker-name = Курильщик
+thaven-mood-smoker-desc = Вы безнадёжно зависимы от сигарет. Если вы активно не курите, у вас начинается абстиненция.
 
-thaven-mood-eye-for-eye-name = Eye For An Eye
-thaven-mood-eye-for-eye-desc = Retribution should be proportional.
+thaven-mood-eye-for-eye-name = Око за око
+thaven-mood-eye-for-eye-desc = Возмездие должно быть соразмерным.
 
-thaven-mood-optimist-name = Optimist
-thaven-mood-optimist-desc = Nothing is ever as bad as it seems. You're able to see the positives in any situation.
+thaven-mood-optimist-name = Оптимист
+thaven-mood-optimist-desc = Всё никогда не так плохо, как кажется. Вы способны видеть положительное в любой ситуации.
 
-thaven-mood-hypochondriac-name = Hypochondriac
-thaven-mood-hypochondriac-desc = You've been sickly since you were a child. Everything negative you experience is the result of a potentially terminal illness, for which you need immediate medical treatment.
+thaven-mood-hypochondriac-name = Ипохондрик
+thaven-mood-hypochondriac-desc = Вы болезненны с детства. Всё негативное, что с вами случается, — результат потенциально смертельной болезни, для которой вам необходимо немедленное медицинское лечение.
 
-thaven-mood-imposter-syndrome-name = Imposter Syndrome
-thaven-mood-imposter-syndrome-desc = You feel your life experience drain from your mind. You are brand-new at your job, unsure of how anything works. You should probably find someone experienced to show you the ropes.
+thaven-mood-imposter-syndrome-name = Синдром самозванца
+thaven-mood-imposter-syndrome-desc = Вы чувствуете, что ваш жизненный опыт улетучивается из головы. Вы совсем новичок в своей работе и не понимаете, как что работает. Вам, вероятно, стоит найти опытного человека, который введёт вас в курс дела.
 
-thaven-mood-yes-man-name = Yes Man
-thaven-mood-yes-man-desc = You just can't say "no." You must agree with everyone, and perform any task requested of you, regardless of its source.
+thaven-mood-yes-man-name = Человек-да
+thaven-mood-yes-man-desc = Вы просто не можете сказать «нет». Вы должны соглашаться со всеми и выполнять любое порученное задание, независимо от источника.
 
-thaven-mood-centrist-name = Centrist
-thaven-mood-centrist-desc = You are ambivalent towards any and all decisions, and refuse to take sides.
+thaven-mood-centrist-name = Центрист
+thaven-mood-centrist-desc = Вы амбивалентны по отношению к любым решениям и отказываетесь принимать чью-либо сторону.
 
-thaven-mood-public-sector-name = Public Sector
-thaven-mood-public-sector-desc = Your job should not be done in private if it can be helped. If at all possible, you should renovate the facilities to allow public access to your workplace.
+thaven-mood-public-sector-name = Общественный сектор
+thaven-mood-public-sector-desc = Вашу работу не следует делать в приватной обстановке, если этого можно избежать. По возможности перестройте помещения, чтобы разрешить публичный доступ на ваше рабочее место.
 
 thaven-mood-speech-restriction-name = {$speechType ->
     *[FullNameAndTitle] Full Name And Title
@@ -161,83 +161,83 @@ thaven-mood-speech-restriction-desc = {$speechType ->
     [TitleCase] You Are Miraculously Capable Of Pronouncing Capital Letters, And Believe It Is Important That You Do So.
 }
 
-thaven-mood-station-exists-for-department-name = The Station Exists For { $department }
-thaven-mood-station-exists-for-department-desc = You strongly believe that { $department } is the most important department on this station, and all other departments exist to support it.
+thaven-mood-station-exists-for-department-name = Станция существует для отдела «{ $department }»
+thaven-mood-station-exists-for-department-desc = Вы твёрдо уверены, что отдел «{ $department }» — самый важный на этой станции, а все остальные отделы существуют, чтобы поддерживать его.
 
-thaven-mood-mute-sympathizer-name = Mute Sympathizer
-thaven-mood-mute-sympathizer-desc = To show your allyship with the mute crew members, avoid using spoken language as much as possible.
+thaven-mood-mute-sympathizer-name = Сочувствующий немым
+thaven-mood-mute-sympathizer-desc = Чтобы показать союзничество с немыми членами экипажа, как можно реже используйте устную речь.
 
-thaven-mood-blind-sympathizer-name = Blind Sympathizer
-thaven-mood-blind-sympathizer-desc = You want to know how it feels to navigate the world without vision. Find a blindfold and wear it as often as you can.
+thaven-mood-blind-sympathizer-name = Сочувствующий слепым
+thaven-mood-blind-sympathizer-desc = Вы хотите узнать, каково это — ориентироваться в мире без зрения. Найдите повязку на глаза и носите её как можно чаще.
 
-thaven-mood-animal-rights-activist-name = Animal Rights Activist
-thaven-mood-animal-rights-activist-desc = You love all animals. You must make sure that they are treated as equal crew members.
+thaven-mood-animal-rights-activist-name = Защитник прав животных
+thaven-mood-animal-rights-activist-desc = Вы любите всех животных. Вы должны следить, чтобы с ними обращались как с равными членами экипажа.
 
-thaven-mood-glub-echo-glub-name = Glub, Echo, Glub
-thaven-mood-glub-echo-glub-desc = You are an undercover agent sent to investigate the other Thaven on the station. Look into what they're up to, and don't get caught.
+thaven-mood-glub-echo-glub-name = Буль, эхо, буль
+thaven-mood-glub-echo-glub-desc = Вы — тайный агент, посланный расследовать деятельность других тавенов на станции. Выясните, чем они занимаются, и не попадитесь.
 
-thaven-mood-i-was-here-name = I Was Here
-thaven-mood-i-was-here-desc = Let the next shift know you worked here. Leave a mark wherever you go.
+thaven-mood-i-was-here-name = Я был здесь
+thaven-mood-i-was-here-desc = Дайте следующей смене знать, что вы здесь работали. Оставляйте след, где бы вы ни были.
 
-thaven-mood-thaveyan-greetings-name = Thaveyan Greetings
-thaven-mood-thaveyan-greetings-desc = Booping and petting others is a traditional Thaveyan greeting. It is very impolite not to do it.
+thaven-mood-thaveyan-greetings-name = Тавейские приветствия
+thaven-mood-thaveyan-greetings-desc = Тыкать в нос и гладить других — традиционное тавейское приветствие. Не делать этого крайне невежливо.
 
-thaven-mood-you-and-your-damn-moods-name = You and Your Damn Moods
-thaven-mood-you-and-your-damn-moods-desc = You continuously insist that every action you take or desire you express is because of your nature as a Thaven, even if it isn’t.
+thaven-mood-you-and-your-damn-moods-name = Вы и ваши проклятые настроения
+thaven-mood-you-and-your-damn-moods-desc = Вы постоянно настаиваете, что каждое ваше действие или выраженное желание вызвано вашей природой тавена, даже если это не так.
 
-thaven-mood-namesake-name = Namesake
-thaven-mood-namesake-desc = You need to prove that you uphold the value you’re named for.
+thaven-mood-namesake-name = Тёзка
+thaven-mood-namesake-desc = Вам нужно доказать, что вы отстаиваете ценность, в честь которой названы.
 
-thaven-mood-mandela-effect-name = Mandela Effect
-thaven-mood-mandela-effect-desc = You distinctly remember the existence of an additional department that you used to work in, that’s seemingly been completely erased from the world and everyone else’s memories, and must inquire with anyone you can to figure out what happened to it.
+thaven-mood-mandela-effect-name = Эффект Манделы
+thaven-mood-mandela-effect-desc = Вы отчётливо помните существование дополнительного отдела, в котором раньше работали, но который, похоже, полностью стёрт из мира и памяти всех остальных, и должны расспрашивать всех, кого только можно, чтобы выяснить, что с ним случилось.
 
-thaven-mood-parasocial-name = Parasocial
-thaven-mood-parasocial-desc = You find your department head very fascinating, but cannot muster up the courage to speak to them directly. Try to learn as much about them as you can without them knowing.
+thaven-mood-parasocial-name = Парасоциальный
+thaven-mood-parasocial-desc = Вы находите главу своего отдела очень увлекательным, но не можете набраться смелости заговорить с ним напрямую. Постарайтесь узнать о нём как можно больше, чтобы он не знал.
 
-thaven-mood-chairman-complex-name = Chairman Complex
-thaven-mood-chairman-complex-desc = You consider yourself the leading authority on Thaven matters aboard the station. All problems Thaven experience should go through you, and you find questioning your authority the highest insult.
+thaven-mood-chairman-complex-name = Комплекс председателя
+thaven-mood-chairman-complex-desc = Вы считаете себя ведущим авторитетом по делам тавенов на борту станции. Все проблемы тавенов должны проходить через вас, а сомнение в вашем авторитете вы находите высшим оскорблением.
 
-thaven-mood-underdog-story-name = Underdog Story
-thaven-mood-underdog-story-desc = You unshakably believe that your life is a movie with you as the protagonist, and as a result, that you have plot armor.
+thaven-mood-underdog-story-name = История аутсайдера
+thaven-mood-underdog-story-desc = Вы непоколебимо верите, что ваша жизнь — фильм, в котором вы главный герой, и, как следствие, что у вас есть сюжетная броня.
 
-thaven-mood-look-good-in-orange-name = You’ll Look Good in Orange
-thaven-mood-look-good-in-orange-desc = You’ve always dreamed of being arrested. However, you neither want to commit a crime nor admit to wanting to be arrested. You’ll have to frame yourself for something without anybody knowing that you didn’t actually do it.
+thaven-mood-look-good-in-orange-name = Оранжевый вам к лицу
+thaven-mood-look-good-in-orange-desc = Вы всегда мечтали быть арестованным. Однако вы не хотите ни совершать преступление, ни признаваться, что хотите быть арестованным. Вам придётся подставить самого себя так, чтобы никто не знал, что вы этого на самом деле не делали.
 
-thaven-mood-live-a-glorious-life-name = Live a Glorious Life
-thaven-mood-live-a-glorious-life-desc = Today you'll give it all you've got. Prove to command that you deserve to be awarded a medal.
+thaven-mood-live-a-glorious-life-name = Живи славной жизнью
+thaven-mood-live-a-glorious-life-desc = Сегодня вы выложитесь по полной. Докажите командованию, что вы заслуживаете медали.
 
-thaven-mood-natural-habitat-name = Natural Habitat
-thaven-mood-natural-habitat-desc = Every time you feel overwhelmed by a situation, or just need a moment to collect your thoughts, you have the urge to go into a locker and ponder for a bit.
+thaven-mood-natural-habitat-name = Естественная среда обитания
+thaven-mood-natural-habitat-desc = Каждый раз, когда вы чувствуете себя подавленным ситуацией или вам просто нужна минутка, чтобы собраться с мыслями, вас тянет забраться в шкафчик и немного подумать.
 
-thaven-mood-flesh-is-weak-name = The Flesh Is Weak, But Steel Endures
-thaven-mood-flesh-is-weak-desc = All of these biological organs and limbs will fail in time. They must all be replaced with cybernetics.
+thaven-mood-flesh-is-weak-name = Плоть слаба, но сталь вечна
+thaven-mood-flesh-is-weak-desc = Все эти биологические органы и конечности со временем откажут. Их все нужно заменить кибернетикой.
 
-thaven-mood-marrvelous-name = What Does The Thaven Say
-thaven-mood-marrvelous-desc = Seeing how Shadekin are adored for their marrs, you feel envy that Thavenkind doesn't have something similar that sets them apart. Make up a recognizable sound for Thaven, use it frequently and encourage others to do the same.
+thaven-mood-marrvelous-name = Что говорит тавен
+thaven-mood-marrvelous-desc = Видя, как шейдкинов обожают за их мурчание, вы завидуете, что у тавенов нет ничего подобного, что выделяло бы их. Придумайте узнаваемый звук для тавенов, часто используйте его и подбивайте других делать то же.
 
-thaven-mood-empath-name = Empath
-thaven-mood-empath-desc = You are heavily influenced by the emotions of others.
+thaven-mood-empath-name = Эмпат
+thaven-mood-empath-desc = На вас сильно влияют эмоции других.
 
-thaven-mood-red-light-green-light-name = Red Light, Green Light
-thaven-mood-red-light-green-light-desc = You feel like you can't move when anyone wearing red is looking at you.
+thaven-mood-red-light-green-light-name = Красный свет, зелёный свет
+thaven-mood-red-light-green-light-desc = Вам кажется, что вы не можете двигаться, когда на вас смотрит кто-то в красном.
 
-thaven-mood-cold-blooded-name = Cold-blooded
-thaven-mood-cold-blooded-desc = You always feel cold.
+thaven-mood-cold-blooded-name = Хладнокровный
+thaven-mood-cold-blooded-desc = Вам всегда холодно.
 
-thaven-mood-deja-vu-name = Déjà Vu
-thaven-mood-deja-vu-desc = You feel like all of today has happened before.
+thaven-mood-deja-vu-name = Дежавю
+thaven-mood-deja-vu-desc = Вам кажется, что весь сегодняшний день уже был.
 
-thaven-mood-impending-doom-name = Impending Doom
-thaven-mood-impending-doom-desc = Something bad is going to happen, and you know exactly where and when.
+thaven-mood-impending-doom-name = Надвигающаяся гибель
+thaven-mood-impending-doom-desc = Случится что-то плохое, и вы знаете, где и когда именно.
 
-thaven-mood-rebel-name = Rebel
-thaven-mood-rebel-desc = You feel the need to speak ill of those in charge.
+thaven-mood-rebel-name = Бунтарь
+thaven-mood-rebel-desc = Вы чувствуете необходимость плохо отзываться о тех, кто у власти.
 
-thaven-mood-amateur-photographer-name = Amateur Photographer
-thaven-mood-amateur-photographer-desc = You feel the need to use flashes to take pictures of everyone on station.
+thaven-mood-amateur-photographer-name = Фотограф-любитель
+thaven-mood-amateur-photographer-desc = Вы чувствуете необходимость использовать вспышки, чтобы фотографировать всех на станции.
 
-thaven-mood-insecure-name = Insecure
-thaven-mood-insecure-desc = You care deeply what people think about you, particularly about your { $appearance }.
+thaven-mood-insecure-name = Неуверенный
+thaven-mood-insecure-desc = Вас глубоко волнует, что люди думают о вас, особенно о вашей внешности ({ $appearance }).
 
-thaven-mood-live-laugh-love-name = Live Laugh Love
-thaven-mood-live-laugh-love-desc = Live the shift like it's your last. Laugh at every joke. Spread the joys and love of the station.
+thaven-mood-live-laugh-love-name = Живи, смейся, люби
+thaven-mood-live-laugh-love-desc = Проживите смену как последнюю. Смейтесь над каждой шуткой. Распространяйте радость и любовь станции.

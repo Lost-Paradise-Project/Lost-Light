@@ -1,6 +1,6 @@
 ent-NuclearBomb = ядерная боеголовка
     .desc = Вам, вероятно, не стоит оставаться здесь, чтобы проверить, запущена ли она.
-    .suffix = ROUND ENDING
+    .suffix = КОНЕЦ РАУНДА
 ent-NuclearBombUnanchored = { ent-NuclearBomb }
     .desc = { ent-NuclearBomb.desc }
     .suffix = Не закреплено

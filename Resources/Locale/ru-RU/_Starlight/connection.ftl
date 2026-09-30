@@ -1,1 +1,1 @@
-starlight-conn-ratelimited = Too many connection attempts from your address. Please wait a moment before reconnecting.
+starlight-conn-ratelimited = Слишком много попыток подключения с вашего адреса. Подождите немного перед повторным подключением.

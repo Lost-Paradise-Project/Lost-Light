@@ -1,6 +1,6 @@
-salvage-dungeon-mod-syndie-stronghold =  Unknown complex
-salvage-dungeon-mod-soviet-stronghold = United complex
-salvage-dungeon-mod-soviet-warehouse = Warehouse of strategic resources
+salvage-dungeon-mod-syndie-stronghold =  Неизвестный комплекс
+salvage-dungeon-mod-soviet-stronghold = Объединённый комплекс
+salvage-dungeon-mod-soviet-warehouse = Склад стратегических ресурсов
 
-salvage-biome-mod-true-abyss = Abyss
-salvage-biome-mod-abyss = Abyss Touched
+salvage-biome-mod-true-abyss = Бездна
+salvage-biome-mod-abyss = Тронутый бездной

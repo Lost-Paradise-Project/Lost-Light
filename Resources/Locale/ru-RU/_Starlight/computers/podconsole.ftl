@@ -1,2 +1,2 @@
-pod-locked = Escape pod is locked
-pod-launching = Escape pod is launching in { $time } seconds
+pod-locked = Спасательная капсула заблокирована
+pod-launching = Спасательная капсула запустится через { $time } с

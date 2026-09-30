@@ -1,2 +1,2 @@
-admin-notes-notes-button = Notes
-admin-notes-network-notes-button = NullLink Network Notes
+admin-notes-notes-button = Заметки
+admin-notes-network-notes-button = Заметки сети NullLink

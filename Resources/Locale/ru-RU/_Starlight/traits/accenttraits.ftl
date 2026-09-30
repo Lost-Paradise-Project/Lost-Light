@@ -1,26 +1,26 @@
-trait-damaged-throat-name = Damaged Throat
-trait-damaged-throat-desc = Your throat is damaged, causing pain and coughing when you speak normally. Whispering avoids this problem.
+trait-damaged-throat-name = Повреждённое горло
+trait-damaged-throat-desc = Ваше горло повреждено: при обычной речи вы испытываете боль и кашляете. Шёпот избавляет от этой проблемы.
 
-trait-archaic-accent-name = Archaic Accent
-trait-archaic-accent-desc = You speak in a way that many others find outdated
+trait-archaic-accent-name = Архаичный акцент
+trait-archaic-accent-desc = Вы говорите так, что многие находят это устаревшим.
 
-trait-chav-accent-name = Cockney Accent
-trait-chav-accent-desc = Oi wanka, wot did you just say about me nan?
+trait-chav-accent-name = Гопнический акцент
+trait-chav-accent-desc = Слышь, лошара, чо ты там за мою мамку вякнул?
 
-trait-nerd-accent-name = Nerd Accent
-trait-nerd-accent-desc = You speak a lot more technical jargon than anyone really wants to hear!
+trait-nerd-accent-name = Акцент ботана
+trait-nerd-accent-desc = Вы сыплете техническим жаргоном куда больше, чем кто-либо хочет слушать!
 
-trait-scottish-accent-name = Scottish Accent
-trait-scottish-accent-desc = You speak like ye aboot ta go ta the Loch!
+trait-scottish-accent-name = Шотландский акцент
+trait-scottish-accent-desc = Вы говорите так, будто вот-вот отправитесь на озеро Лох!
 
-trait-polite-accent-name = Polite Accent
-trait-polite-accent-desc = You speak without using all of the crass language that others do!
+trait-polite-accent-name = Вежливый акцент
+trait-polite-accent-desc = Вы говорите без всей той грубой лексики, которой пользуются остальные!
 
-trait-pirate-accent-name = Pirate accent
-trait-pirate-accent-desc = You can't stop speaking like a pirate!
+trait-pirate-accent-name = Пиратский акцент
+trait-pirate-accent-desc = Вы не можете перестать говорить как пират!
 
-trait-cowboy-name = Cowboy accent
-trait-cowboy-desc = You speak with a distinct cowboy accent!
+trait-cowboy-name = Ковбойский акцент
+trait-cowboy-desc = Вы говорите с ярко выраженным ковбойским акцентом!
 
-trait-italian-name = Italian accent
-trait-italian-desc = Mamma mia! You seem to have lived in space Italy!
+trait-italian-name = Итальянский акцент
+trait-italian-desc = Мамма мия! Кажется, вы жили в космической Италии!

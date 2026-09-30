@@ -1,5 +1,5 @@
-ent-TurnstileAssembly = turnstile assembly
-    .desc = An unfinished turnstile assembly.
+ent-TurnstileAssembly = сборка турникета
+    .desc = Незаконченная сборка турникета.
 ent-Turnstile = турникет
     .desc = Механическая дверь, обеспечивающая односторонний доступ и препятствующая проникновению посторонних.
 ent-TurnstileArrow = { "" }

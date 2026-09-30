@@ -1,5 +1,5 @@
-revenant-chill-name = Chill of the grave
-revenant-chill-desc = Create a large patch of ice around you while cooling the area down.
+revenant-chill-name = Холод могилы
+revenant-chill-desc = Создаёт большое пятно льда вокруг вас, охлаждая местность.
 
-revenant-misfire-name = Misfire
-revenant-misfire-desc = Causes a nearby gun to fire on its own at the closest living target. Leaves you corporeal for longer than average.
+revenant-misfire-name = Осечка
+revenant-misfire-desc = Заставляет ближайшее оружие самостоятельно стрелять в ближайшую живую цель. Оставляет вас телесным дольше обычного.

@@ -1,13 +1,13 @@
-character-physical-text-placeholder = An outer physical description of your character that others can get by looking at them...
-character-personality-text-placeholder = An outer description of your character's behavior/personality that others can get by looking at them...
-character-exploitable-text-placeholder = Any information about this character that could be exploited by antagonists (Only shown to antagonists and ghosts)...
-character-secrets-text-placeholder = Secrets that are only known by this character or entity possessing it... (Only shown to who is controlling this character or paradox clones).
+character-physical-text-placeholder = Внешнее физическое описание вашего персонажа, которое другие могут узнать, взглянув на него...
+character-personality-text-placeholder = Внешнее описание поведения и личности вашего персонажа, которое другие могут узнать, взглянув на него...
+character-exploitable-text-placeholder = Любая информация об этом персонаже, которой могут воспользоваться антагонисты (видна только антагонистам и призракам)...
+character-secrets-text-placeholder = Тайны, известные только этому персонажу или существу, которое им управляет... (видны только тому, кто управляет персонажем, и клонам-парадоксам).
 
-character-info-window-title = { $player }: Character Info
-character-info-inspect-prompt = Open Character Menu
-character-info-ic = IC Info
-character-info-ooc = OOC Info
-character-info-objectives = Overview
-character-info-background = Background
-character-info-background-label = Background:
-character-info-background-none = No background.
+character-info-window-title = { $player }: информация о персонаже
+character-info-inspect-prompt = Открыть меню персонажа
+character-info-ic = Информация IC
+character-info-ooc = Информация OOC
+character-info-objectives = Обзор
+character-info-background = Предыстория
+character-info-background-label = Предыстория:
+character-info-background-none = Нет предыстории.

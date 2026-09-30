@@ -1,3 +1,3 @@
-loadout-group-radiohost-jumpsuit = Radio Host Shirt
-loadout-group-radiohost-glasses = Glasses
-loadout-group-radiohost-jackets = Outer Clothing
+loadout-group-radiohost-jumpsuit = Радиоведущий, рубашка
+loadout-group-radiohost-glasses = Очки
+loadout-group-radiohost-jackets = Верхняя одежда

@@ -1,4 +1,4 @@
-markings-layer-BodyCover = Implants
-markings-layer-BodyCoverCover = LEDs
-markings-layer-FaceCover = Visor
-markings-layer-FaceCoverCover = Visor LEDs
+markings-layer-BodyCover = Импланты
+markings-layer-BodyCoverCover = Светодиоды
+markings-layer-FaceCover = Визор
+markings-layer-FaceCoverCover = Светодиоды визора

@@ -1,3 +1,3 @@
-ai-shunt-into = Enter Chassis
-ai-shunt-out-of = Exit Chassis
-ai-shunt-reconnect = Reconnect Chassis
+ai-shunt-into = Войти в шасси
+ai-shunt-out-of = Выйти из шасси
+ai-shunt-reconnect = Переподключить шасси

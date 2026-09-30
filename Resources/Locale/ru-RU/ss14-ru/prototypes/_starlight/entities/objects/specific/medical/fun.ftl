@@ -1,6 +1,6 @@
-ent-PillGold5 = gold
+ent-PillGold5 = золото
     .desc = { ent-Pill.desc }
-    .suffix = Gold 5u
-ent-PillGold = gold
+    .suffix = Золото 5 ед.
+ent-PillGold = золото
     .desc = { ent-Pill.desc }
-    .suffix = Gold 15u
+    .suffix = Золото 15 ед.

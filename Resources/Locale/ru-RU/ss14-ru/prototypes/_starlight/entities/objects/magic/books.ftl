@@ -1,6 +1,6 @@
-ent-BookOfCantrips = abridged grimoire
-    .desc = A thin manuscript containing just some of the lesser secrets of Elvenkind.
-    .suffix = Elf
+ent-BookOfCantrips = сокращённый гримуар
+    .desc = Тонкая рукопись, содержащая лишь некоторые из меньших тайн эльфов.
+    .suffix = Эльф
 ent-BookOfCantripsDebug = { ent-BookOfCantrips }
-    .desc = A thin manuscript containing just some of the lesser secrets of Elvenkind. Someone wrote "PROPERTY OF M.A.G.E." on the inside cover.
-    .suffix = Elf, DEBUG
+    .desc = Тонкая рукопись, содержащая лишь некоторые из меньших тайн эльфов. Кто-то написал «СОБСТВЕННОСТЬ М.А.Г.И.» на внутренней стороне обложки.
+    .suffix = Эльф, ОТЛАДКА

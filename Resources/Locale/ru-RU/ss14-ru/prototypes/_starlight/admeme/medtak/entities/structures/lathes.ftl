@@ -1,5 +1,5 @@
-ent-MedTakTechFab = MedTak techfab
-    .desc = Prints equipment for a MedTak outpost.
-ent-PrinterDocMedTak = document printer
-    .desc = Bureaucratic perfection. Stores a database of relevant MedTak documents, and lets you print them as long as you have paper.
-    .suffix = MedTak
+ent-MedTakTechFab = техфаб МедТак
+    .desc = Печатает оборудование для аванпоста МедТак.
+ent-PrinterDocMedTak = принтер документов
+    .desc = Бюрократическое совершенство. Хранит базу данных соответствующих документов МедТак и позволяет печатать их, пока есть бумага.
+    .suffix = МедТак

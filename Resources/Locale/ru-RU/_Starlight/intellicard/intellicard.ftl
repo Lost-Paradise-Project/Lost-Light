@@ -1,1 +1,1 @@
-intellicard-cannot-transfer-to = Target cannot receive a digital consciousness.
+intellicard-cannot-transfer-to = Цель не может получить цифровое сознание.

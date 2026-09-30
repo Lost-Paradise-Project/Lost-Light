@@ -1,3 +1,3 @@
-thankyou-donkpocket-1 = All purchases are final.
-thankyou-donkpocket-2 = We are not liable for any medical expenses this purchase may cause.
-thankyou-donkpocket-3 = Heat 'em up and enjoy!
+thankyou-donkpocket-1 = Все покупки окончательны.
+thankyou-donkpocket-2 = Мы не несём ответственности за любые медицинские расходы, которые может повлечь эта покупка.
+thankyou-donkpocket-3 = Нагрей и наслаждайся!

@@ -1,2 +1,2 @@
-ent-SyntrunnerActionExitConsole = Exit
-    .desc = Exit console.
+ent-SyntrunnerActionExitConsole = Выйти
+    .desc = Выйти из консоли.

@@ -1,1 +1,1 @@
-playing-card-hand-convert-to-hand-verb-text = Convert to hand
+playing-card-hand-convert-to-hand-verb-text = Перенести в руку

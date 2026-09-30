@@ -1,6 +1,6 @@
-ent-WallmountMassScannerBroken = mass scanner
-    .desc = A computer for detecting nearby bodies, displaying them by position and mass.
-    .suffix = Wall broken
-ent-WallmountMassScanner = mass scanner
-    .desc = A computer for detecting nearby bodies, displaying them by position and mass.
-    .suffix = Wall
+ent-WallmountMassScannerBroken = массовый сканер
+    .desc = Компьютер для обнаружения ближайших тел, отображающий их по положению и массе.
+    .suffix = Стена, сломан
+ent-WallmountMassScanner = массовый сканер
+    .desc = Компьютер для обнаружения ближайших тел, отображающий их по положению и массе.
+    .suffix = Стена

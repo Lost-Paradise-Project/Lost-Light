@@ -1,2 +1,2 @@
-ent-nctterminal = NCT Dispatch
-    .desc = Contact NCT Dispatch for assistance.
+ent-nctterminal = Диспетчер НКТ
+    .desc = Свяжитесь с диспетчером НКТ за помощью.

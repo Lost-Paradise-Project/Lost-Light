@@ -1,6 +1,6 @@
-ent-MobGorillaRampaging = Rampaging Gorilla
-    .desc = A gorilla that has gone wild. Run!
+ent-MobGorillaRampaging = Бушующая горилла
+    .desc = Горилла, впавшая в буйство. Бегите!
     .suffix = { ent-MobGorilla.suffix }
-ent-MobCargorilla = Cargorilla
-    .desc = Cargo's pet gorilla. He seems to have an 'I love Mom' tattoo.
+ent-MobCargorilla = Каргорилла
+    .desc = Горилла-питомец карго. У него, похоже, есть татуировка «Я люблю маму».
     .suffix = { ent-MobGorilla.suffix }

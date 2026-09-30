@@ -1,19 +1,19 @@
 # cmd descriptions
 command-description-shuttle-delayemergencyshuttledeparture =
-    Delay the departure of emergency shuttles by a specified number of seconds.
+    Откладывает отправление эвакуационных шаттлов на указанное число секунд.
 command-description-shuttle-delayemergencyshuttlearrival =
-    Delay the arrival of the emergency shuttle to station by a specified number of seconds.
+    Откладывает прибытие эвакуационного шаттла на станцию на указанное число секунд.
 command-description-shuttle-dockemergencyshuttle =
-    Instantly dock the emergency shuttle.
+    Мгновенно стыкует эвакуационный шаттл.
 command-description-shuttle-callemergencyshuttle =
-    Call the emergency shuttle with an optional arrival time.
+    Вызывает эвакуационный шаттл с необязательным временем прибытия.
 command-description-shuttle-recallemergencyshuttle =
-    Recall the emergency shuttle.
+    Отзывает эвакуационный шаттл.
 command-description-shuttle-allowemergencyshuttlecalls =
-    Allow or disallow calling the emergency shuttle.
+    Разрешает или запрещает вызов эвакуационного шаттла.
 
 # messages
 delayemergencyshuttledeparture-message =
-    All emergency shuttle launches have been delayed by { $seconds } seconds.
+    Все запуски эвакуационных шаттлов отложены на { $seconds } с.
 delayemergencyshuttlearrival-message =
-    All emergency shuttle arrivals have been delayed by { $seconds } seconds.
+    Все прибытия эвакуационных шаттлов отложены на { $seconds } с.

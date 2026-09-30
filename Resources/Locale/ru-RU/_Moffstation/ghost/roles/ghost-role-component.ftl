@@ -1,3 +1,3 @@
-ghost-role-information-wizard-duelist-name = Wizard Duelist
+ghost-role-information-wizard-duelist-name = Дуэлянт-волшебник
 # Starlight, formatted Space Wizards Federation
-ghost-role-information-wizard-duelist-desc = YER A WIZARD! Prove you're the best the Space Wizards Federation has to offer!
+ghost-role-information-wizard-duelist-desc = ТЫ ВОЛШЕБНИК! Докажи, что ты лучший из тех, что может предложить Федерация космических волшебников!

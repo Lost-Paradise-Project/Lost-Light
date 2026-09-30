@@ -1,2 +1,2 @@
-ent-ClothingOuterWireVest = wire harness
-    .desc = An assortment of knots used to hold things on your back.
+ent-ClothingOuterWireVest = жгут проводов
+    .desc = Набор узлов, удерживающих вещи на спине.

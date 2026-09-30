@@ -1,2 +1,2 @@
-reagent-name-juice-crab = crab juice
-reagent-desc-juice-crab = Tastes less awful than Fourteen Loko.
+reagent-name-juice-crab = крабовый сок
+reagent-desc-juice-crab = На вкус не так ужасен, как Fourteen Loko.

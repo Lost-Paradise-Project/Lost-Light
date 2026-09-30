@@ -135,9 +135,9 @@ ghost-role-information-holoparasite-description = Слушайте своего 
 ghost-role-information-holoclown-name = Голоклоун
 ghost-role-information-holoclown-description = Слушайте своего хозяина. Используйте свои карманы и руку, чтобы ему помочь.
 
-ghost-role-information-cluwnebeast-name = Cluwne Beast
-ghost-role-information-cluwnebeast-description = Hide in the shadows, attack anything that moves and turn the crew into cluwnes.
-ghost-role-information-cluwnebeast-rules = You are an antagonist, stalk your prey and turn the crew into friendly cluwnes!
+ghost-role-information-cluwnebeast-name = Зверь-клуон
+ghost-role-information-cluwnebeast-description = Прячьтесь в тени, нападайте на всё, что движется, и превращайте экипаж в клуонов.
+ghost-role-information-cluwnebeast-rules = Вы — антагонист: выслеживайте добычу и превращайте экипаж в дружелюбных клуонов!
 
 ghost-role-information-ifrit-name = Ифрит
 ghost-role-information-ifrit-description = Слушайте своего хозяина. Не танкуйте урон. Сильно бейте людей.
@@ -250,7 +250,7 @@ ghost-role-information-syndicate-kobold-reinforcement-description = Кому-т�
 
 ghost-role-information-syndicate-cyborg-assault-name = Штурмовой киборг Синдиката
 ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный киборг Синдиката
-ghost-role-information-syndicate-cyborg-medical-name = Syndicate Medical Cyborg
+ghost-role-information-syndicate-cyborg-medical-name = Медицинский киборг Синдиката
 ghost-role-information-syndicate-cyborg-description = Синдикату нужно подкрепление. Вы, холодная кремниевая машина для убийства, поможете им.
 
 ghost-role-information-derelict-engineering-cyborg-name = Брошенный киборг-инженер
@@ -351,8 +351,8 @@ ghost-role-information-mothership-core-desc = Вы — ядро матринск
 ghost-role-information-xenoborg-name = Ксеноборг
 ghost-role-information-xenoborg-desc = Странный киборг, сделанный, чтобы воспроизводить себя и захватывать станцию, превращая любое разумное существо в ксеноборга.
 
-ghost-role-information-xenoroach-name = Xenoroach
-ghost-role-information-xenoroach-description = A tiny biomechanical spy-bot deployed by the Xenoborg Mothership. Crawl through vents, slip under doors, and relay what you see back to the Mothership Core. You are fragile — your greatest weapon is your small size.
+ghost-role-information-xenoroach-name = Ксенотаракан
+ghost-role-information-xenoroach-description = Крошечный биомеханический шпион-бот, засланный Материнским кораблём ксеноборгов. Ползайте по вентиляции, проскальзывайте под дверями и передавайте увиденное Ядру Материнского корабля. Вы хрупки — ваше главное оружие это ваш малый размер.
 
 ghost-role-information-wizard-name = Волшебник
 ghost-role-information-wizard-desc = ТЫ ВОЛШЕБНИК! Покажи станции, из чего сделана твоя магия.

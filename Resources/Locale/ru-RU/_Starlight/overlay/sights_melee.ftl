@@ -1,2 +1,2 @@
-overlay-melee-sight-arrows = Arrows
-overlay-melee-sight-dot-arrows = [Dot] Arrows
+overlay-melee-sight-arrows = Стрелки
+overlay-melee-sight-dot-arrows = [Точка] Стрелки

@@ -1,4 +1,4 @@
-ent-LancerArcadeComputerCircuitboard = Lancer Solo Strike arcade board
-    .desc = A computer printed circuit board for a Lancer Solo Strike arcade cabinet.
-ent-LancerArcade = Lancer Solo Strike
-    .desc = An arcade cabinet running Lancer Solo Strike.
+ent-LancerArcadeComputerCircuitboard = Плата аркады «Lancer Solo Strike»
+    .desc = Печатная плата компьютера для аркадного автомата «Lancer Solo Strike».
+ent-LancerArcade = Lancer: Одиночный удар
+    .desc = Аркадный автомат с игрой «Lancer Solo Strike».

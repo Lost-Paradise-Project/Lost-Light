@@ -1,2 +1,2 @@
-ent-SovietRevolutionSupplySpawner = soviet revolution supply spawner
+ent-SovietRevolutionSupplySpawner = спавнер снабжения советской революции
     .desc = { ent-MarkerBase.desc }

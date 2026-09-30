@@ -1,2 +1,2 @@
-gas-ulnitranium-abbreviation = Ulnit
+gas-ulnitranium-abbreviation = Ульнит
 gas-zxa-abbreviation = ZXA

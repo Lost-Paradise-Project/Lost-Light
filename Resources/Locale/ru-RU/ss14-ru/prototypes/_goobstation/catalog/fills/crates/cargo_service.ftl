@@ -1,4 +1,4 @@
-ent-CrateRadioHostVinyls = vinyls crate
-    .desc = A crate with 14 randomly selected Vinyls to add to your collection.
-ent-CrateRadioHostADs = ads crate
-    .desc = A crate with 6 randomly selected advertisement CDs to add to your collection.
+ent-CrateRadioHostVinyls = ящик с винилом
+    .desc = Ящик с 14 случайно выбранными пластинками для пополнения вашей коллекции.
+ent-CrateRadioHostADs = ящик с рекламой
+    .desc = Ящик с 6 случайно выбранными рекламными CD для пополнения вашей коллекции.

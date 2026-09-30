@@ -1,2 +1,2 @@
-ent-MobSkeletonArtifact = strange skeleton
+ent-MobSkeletonArtifact = странный скелет
     .desc = { ent-MobSkeletonCloset.desc }

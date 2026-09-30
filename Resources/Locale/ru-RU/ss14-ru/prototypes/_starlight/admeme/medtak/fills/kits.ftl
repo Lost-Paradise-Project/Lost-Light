@@ -1,12 +1,12 @@
 ent-MedkitCombatMedTakFilled = { ent-MedkitCombatMedTak }
     .desc = { ent-MedkitCombatMedTak.desc }
-    .suffix = Filled
+    .suffix = Заполнен
 ent-MedkitCombatMedTakFilledMedic = { ent-MedkitCombatMedTak }
     .desc = { ent-MedkitCombatMedTak.desc }
-    .suffix = Filled, Medic
+    .suffix = Заполнено, медик
 ent-MedkitCombatMedTakFilledBorg = { ent-MedkitCombatMedTak }
     .desc = { ent-MedkitCombatMedTak.desc }
-    .suffix = Filled, Borg
+    .suffix = Заполнено, борг
 ent-BottleCaseMedTakFilled = { ent-BottleCaseMedTak }
     .desc = { ent-BottleCaseMedTak.desc }
-    .suffix = Filled, Medic
+    .suffix = Заполнено, медик

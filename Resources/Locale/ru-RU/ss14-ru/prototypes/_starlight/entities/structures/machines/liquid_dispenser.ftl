@@ -1,2 +1,2 @@
-ent-LiquidDispenser = liquid dispenser
-    .desc = A thin device, what spills liquid all over the floor
+ent-LiquidDispenser = раздатчик жидкости
+    .desc = Тонкое устройство, разливающее жидкость по всему полу

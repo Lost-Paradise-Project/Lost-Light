@@ -1,2 +1,2 @@
-ent-PhenylpiperidineSolidified = phenylpiperidine crystal
-    .desc = 5u of phenylpiperidine solidified with tricordrazine. Worth a lot.
+ent-PhenylpiperidineSolidified = кристалл фенилпиперидина
+    .desc = 5 ед. фенилпиперидина, затвердевшего с трикордразином. Стоит очень дорого.

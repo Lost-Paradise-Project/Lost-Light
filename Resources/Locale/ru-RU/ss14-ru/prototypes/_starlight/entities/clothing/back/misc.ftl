@@ -1,4 +1,4 @@
-ent-ClothingNullSpaceDrainer = nullspace drainer
-    .desc = A Superimposed device that occupies the physical and nullspace. Intaking external and foreign energy into data. This device restrains and blocks entities from entering and or leaving nullspace.
-ent-ClothingBackpackGreenshield = greenshield cloak
-    .desc = A spacious cloak with lots of pockets, worn by Greenshield officers.
+ent-ClothingNullSpaceDrainer = поглотитель нуль-пространства
+    .desc = Наложенное устройство, занимающее физическое пространство и нуль-пространство. Поглощает внешнюю и чужеродную энергию в данные. Это устройство сдерживает и не даёт сущностям входить в нуль-пространство и/или покидать его.
+ent-ClothingBackpackGreenshield = плащ Зелёного щита
+    .desc = Просторный плащ с множеством карманов, носимый офицерами Зелёного щита.

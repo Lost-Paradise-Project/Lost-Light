@@ -1,7 +1,7 @@
-station-crew-stats-header = [bold]Station "{ $station }" crew statistics:[/bold]
-station-crew-stats-crew = - Registered crew: { $count }
-station-crew-stats-borgs = - Registered borgs: { $count }
-station-crew-stats-lost-crew = - Lost crew: { $count }
-station-crew-stats-lost-borgs = - Lost borgs: { $count }
-station-crew-stats-evacuated = - Evacuated crew: { $count }
-station-crew-stats-stolen-borgs = - Stolen borgs: { $count }
+station-crew-stats-header = [bold]Статистика экипажа станции «{ $station }»:[/bold]
+station-crew-stats-crew = - Зарегистрированный экипаж: { $count }
+station-crew-stats-borgs = - Зарегистрированные борги: { $count }
+station-crew-stats-lost-crew = - Потерянный экипаж: { $count }
+station-crew-stats-lost-borgs = - Потерянные борги: { $count }
+station-crew-stats-evacuated = - Эвакуированный экипаж: { $count }
+station-crew-stats-stolen-borgs = - Украденные борги: { $count }

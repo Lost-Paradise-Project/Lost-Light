@@ -1,4 +1,4 @@
 ent-BaseColdBird = { "" }
     .desc = { "" }
-ent-BaseMobAvali = Urist McAvali
+ent-BaseMobAvali = Урист МакАвали
     .desc = { ent-BaseColdBird.desc }

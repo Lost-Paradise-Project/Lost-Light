@@ -1,5 +1,5 @@
-ent-GasFilterInline = inline gas filter
-    .desc = Filters gases from a pipenet without splitting it in two.
+ent-GasFilterInline = встроенный газовый фильтр
+    .desc = Фильтрует газы из трубопровода, не разделяя его на две части.
 ent-GasMolarMixerAlt1 = { ent-GasMolarMixer }
     .desc = { ent-GasMolarMixer.desc }
 ent-GasMolarMixerAlt2 = { ent-GasMolarMixer }

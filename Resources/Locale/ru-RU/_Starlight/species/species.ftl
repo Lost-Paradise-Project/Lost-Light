@@ -1,14 +1,14 @@
-species-name-abductor = Abductor
-species-name-avali = Avali
-species-name-cyclorite = Cyclorite
-species-name-doll = Doll
-species-name-elf = Aielith
-species-name-felionoid = Felionoid
-species-name-lagomorph = Lagomorph
-species-name-resomi = Resomi
-species-name-shadekin = Shadekin
-species-name-thaven = Thaven
-species-name-rodentia = Rodentia
-species-name-experiment = Experiment
+species-name-abductor = Похититель
+species-name-avali = Авали
+species-name-cyclorite = Циклорит
+species-name-doll = Кукла
+species-name-elf = Айелит
+species-name-felionoid = Фелионоид
+species-name-lagomorph = Лагоморф
+species-name-resomi = Ресоми
+species-name-shadekin = Шейдекин
+species-name-thaven = Тавен
+species-name-rodentia = Грызун
+species-name-experiment = Эксперимент
 
-species-name-sawian = Sawian
+species-name-sawian = Савиан

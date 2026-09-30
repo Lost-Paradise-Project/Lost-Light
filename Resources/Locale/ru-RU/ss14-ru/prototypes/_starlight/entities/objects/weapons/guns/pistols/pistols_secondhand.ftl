@@ -1,6 +1,6 @@
 ent-WeaponPistolViperWorn = { ent-WeaponPistolViper }
     .desc = { ent-WeaponPistolViper.desc }
-    .suffix = Second Hand
+    .suffix = Б/у
 ent-WeaponPistolCobraWorn = { ent-WeaponPistolCobra }
     .desc = { ent-WeaponPistolCobra.desc }
-    .suffix = Second Hand
+    .suffix = Б/у

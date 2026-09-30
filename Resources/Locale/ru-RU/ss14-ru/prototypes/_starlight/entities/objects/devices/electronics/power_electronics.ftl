@@ -1,3 +1,3 @@
-ent-APCAdvancedElectronics = advanced APC electronics
-    .desc = Circuit used to construct an advanced APC.
+ent-APCAdvancedElectronics = продвинутая электроника ЛКП
+    .desc = Схема, используемая для постройки продвинутого ЛКП.
     .suffix = { ent-BaseElectronics.suffix }

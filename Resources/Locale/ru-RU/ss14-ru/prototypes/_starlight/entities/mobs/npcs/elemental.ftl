@@ -1,6 +1,6 @@
 ent-ReagentSlimeGlubotoxin = { ent-ReagentSlime }
     .desc = { ent-ReagentSlime.desc }
-    .suffix = Glubotoxin
+    .suffix = Глюботоксин
 ent-ReagentSlimeWehJuice = { ent-ReagentSlime }
     .desc = { ent-ReagentSlime.desc }
-    .suffix = Weh Juice
+    .suffix = Сок вэх

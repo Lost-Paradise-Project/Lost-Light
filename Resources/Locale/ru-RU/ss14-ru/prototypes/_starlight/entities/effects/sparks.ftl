@@ -1,4 +1,4 @@
-ent-SLEffectSparksBaton = sparks
+ent-SLEffectSparksBaton = искры
     .desc = { ent-ESEffectSparks.desc }
-ent-SLEffectSparksRCD = sparks
+ent-SLEffectSparksRCD = искры
     .desc = { ent-MoffEffectSparksWelding.desc }

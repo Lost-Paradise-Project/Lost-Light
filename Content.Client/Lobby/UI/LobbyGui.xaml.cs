@@ -6,6 +6,7 @@ using Robust.Client.Console;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
+using Content.Client._LP.Reklama;
 
 namespace Content.Client.Lobby.UI
 {
@@ -31,6 +32,15 @@ namespace Content.Client.Lobby.UI
 
             CollapseButton.OnPressed += _ => TogglePanel(false);
             ExpandButton.OnPressed += _ => TogglePanel(true);
+
+            // LP edit start
+            var reklamaBtns = ReklamaControlManager.GetAdIcons();
+            foreach (var proto in reklamaBtns)
+            {
+                ReklamaLineBox.AddChild(proto);
+            }
+            // LP edit end
+
 
             //Starlight start
             _serverName = _configurationManager.GetCVar(StarlightCCVars.ServerName);

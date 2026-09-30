@@ -1,3 +1,3 @@
-ent-BluespaceHarvesterMachineCircuitboard = bluespace harvester machine board
-    .desc = A highly advanced circuit board for constructing a Bluespace Harvester. Handle with care.
+ent-BluespaceHarvesterMachineCircuitboard = плата станка блюспейс-жнеца
+    .desc = Высокотехнологичная плата для постройки блюспейс-жнеца. Обращайтесь осторожно.
     .suffix = { ent-BaseMachineCircuitboard.suffix }

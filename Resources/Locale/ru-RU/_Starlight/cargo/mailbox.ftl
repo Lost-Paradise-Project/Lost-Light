@@ -1,5 +1,5 @@
-mailbox-get = Get your mail
-mailbox-has-mail = Seems you have mail inside
-mailbox-special-mail = Only standard mail can fit inside
-mailbox-wrong-department = This mail doesnt belong to this department
-mailbox-no-department = Mail belongs to no department?!
+mailbox-get = Получить почту
+mailbox-has-mail = Похоже, внутри есть почта
+mailbox-special-mail = Внутрь помещается только обычная почта
+mailbox-wrong-department = Эта почта не принадлежит этому отделу
+mailbox-no-department = Почта не принадлежит ни одному отделу?!

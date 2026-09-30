@@ -1,5 +1,5 @@
-ent-MatBag = construction bag
-    .desc = A rough, dirty, heavy duty construction bag with a magnet messily welded onto its side, it can be placed inside your backpack or attached to the hip like a belt.
+ent-MatBag = строительная сумка
+    .desc = Грубая, грязная, прочная строительная сумка с небрежно приваренным сбоку магнитом, её можно положить в рюкзак или прикрепить к бедру как пояс.
 ent-MatBagFilled = { ent-MatBag }
     .desc = { ent-MatBag.desc }
-    .suffix = Filled
+    .suffix = Заполнен

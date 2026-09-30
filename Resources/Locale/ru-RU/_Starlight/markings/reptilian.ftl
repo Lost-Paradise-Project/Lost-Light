@@ -1,25 +1,25 @@
-marking-LizardChestDragonwings = Draconic Wings
-marking-LizardChestDragonwings-body_dragonwings = Draconic Wings
-marking-LizardChestDragonwings-body_dragonwings_membrane = Draconic Wings Membrane
+marking-LizardChestDragonwings = Драконьи крылья
+marking-LizardChestDragonwings-body_dragonwings = Драконьи крылья
+marking-LizardChestDragonwings-body_dragonwings_membrane = Мембрана драконьих крыльев
 
 # Snake Tail Markings
-marking-SnakeLargeTail = Snake Tail (Large)
-marking-SnakeLargeTail-snake_large = Base
-marking-SnakeLargeTail-snake_large_overlay = Overlay
+marking-SnakeLargeTail = Змеиный хвост (большой)
+marking-SnakeLargeTail-snake_large = Основа
+marking-SnakeLargeTail-snake_large_overlay = Наложение
 
-marking-SnakeLargeTailAnimated = Snake Tail (Large, Animated)
-marking-SnakeLargeTailAnimated-snake_large_wagging = Base
-marking-SnakeLargeTailAnimated-snake_large_wagging_overlay = Overlay
+marking-SnakeLargeTailAnimated = Змеиный хвост (большой, анимированный)
+marking-SnakeLargeTailAnimated-snake_large_wagging = Основа
+marking-SnakeLargeTailAnimated-snake_large_wagging_overlay = Наложение
 
 # Eastern Dragon Snout
-marking-LizardSnoutEasternDragon = Lizard Snout (Eastern Dragon)
-marking-LizardSnoutEasternDragon-eastern_dragon = Snout
-marking-LizardSnoutEasternDragon-eastern_dragon_overlay = Overlay
+marking-LizardSnoutEasternDragon = Морда ящера (восточный дракон)
+marking-LizardSnoutEasternDragon-eastern_dragon = Морда
+marking-LizardSnoutEasternDragon-eastern_dragon_overlay = Наложение
 
-marking-LizardSnoutEasternDragonUsiki = Lizard Snout (Eastern Dragon, Whiskers)
-marking-LizardSnoutEasternDragonUsiki-eastern_dragon = Snout
-marking-LizardSnoutEasternDragonUsiki-eastern_dragon_overlay = Overlay
-marking-LizardSnoutEasternDragonUsiki-eastern_dragon_usiki = Whiskers
+marking-LizardSnoutEasternDragonUsiki = Морда ящера (восточный дракон, усы)
+marking-LizardSnoutEasternDragonUsiki-eastern_dragon = Морда
+marking-LizardSnoutEasternDragonUsiki-eastern_dragon_overlay = Наложение
+marking-LizardSnoutEasternDragonUsiki-eastern_dragon_usiki = Усы
 
-marking-LizardHeadGuilmon = Lizard Snout (Guilmon)
-marking-LizardHeadGuilmon-guilmon = Guilmon Snout
+marking-LizardHeadGuilmon = Морда ящера (гилмон)
+marking-LizardHeadGuilmon-guilmon = Морда гилмона

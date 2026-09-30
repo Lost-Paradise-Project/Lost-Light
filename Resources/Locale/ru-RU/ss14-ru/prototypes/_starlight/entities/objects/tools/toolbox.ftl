@@ -1,3 +1,3 @@
-ent-ToolboxElectricalTurretPirate = electrical toolbox
-    .desc = A toolbox typically stocked with electrical gear.
-    .suffix = Pirate, Turret
+ent-ToolboxElectricalTurretPirate = электрический ящик с инструментами
+    .desc = Ящик с инструментами, обычно набитый электрическим снаряжением.
+    .suffix = Пират, турель

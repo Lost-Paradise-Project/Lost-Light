@@ -1,6 +1,6 @@
 ent-DebugMechEquipment = { "" }
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = ОТЛАДКА
 ent-CombatMechEquipment = { "" }
     .desc = { "" }
 ent-IndustrialMechEquipment = { "" }
@@ -9,5 +9,5 @@ ent-SpecialMechEquipment = { "" }
     .desc = { "" }
 ent-SmallMechEquipment = { "" }
     .desc = { "" }
-ent-MechEquipmentSovietHorn = soviet horn
-    .desc = A glorious mechanicad horn that plays a variety of glorious sounds. Glory to the motherland!
+ent-MechEquipmentSovietHorn = советский гудок
+    .desc = Славный механический гудок, издающий множество славных звуков. Слава родине!

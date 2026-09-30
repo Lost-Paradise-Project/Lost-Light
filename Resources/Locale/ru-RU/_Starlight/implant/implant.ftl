@@ -1,15 +1,15 @@
-magillitisserum-implant-activated-user = You feel your muscles swell and your hair grow as you return to monke.
-magillitisserum-implant-activated-others = { CAPITALIZE(THE($entity)) } swells and their hair grows rapidly. Uh oh!.
-portal-implant-action-popup = THIS ACTION WILL TELEPORT YOU FAR WAY! Use it again to confirm.
-death-acidifier-implant-activate-gear = Your equipment begins to dissolve!
-gear-acidifier-action-popup = This will destroy all your equipment!
-mind-control-user-freed = You are no longer under the effects of the Implant, You do not remember anything that happened while under its effects, or the person whom implanted you.
+magillitisserum-implant-activated-user = Вы чувствуете, как ваши мышцы растут, а волосы отрастают, когда вы возвращаетесь к обезьяне.
+magillitisserum-implant-activated-others = { CAPITALIZE(THE($entity)) } раздувается, и его волосы стремительно растут. Ой-ой!
+portal-implant-action-popup = ЭТО ДЕЙСТВИЕ ТЕЛЕПОРТИРУЕТ ВАС ДАЛЕКО! Используйте его ещё раз для подтверждения.
+death-acidifier-implant-activate-gear = Ваше снаряжение начинает растворяться!
+gear-acidifier-action-popup = Это уничтожит всё ваше снаряжение!
+mind-control-user-freed = Вы больше не находитесь под действием импланта. Вы не помните ничего, что произошло под его действием, и того, кто вас имплантировал.
 mind-control-user-briefing =
-    You have been Implanted with a mind control device by [color = darkred]{ $master-name }[/color].
-    Listen to the instructions they provide. Try not to get yourself killed or injured, or compromise your implant...
-    Unless [color = darkred]{ $master-name }[/color] commands it.
-mind-control-prevented = A MindShield prevented the Implant!
-mind-control-prevents-mindshield = Another Implant was in the way.
-mind-control-invalid = The subject must be alive.
-roles-antag-mind-controlled-name = Mind Controlled
-roles-antag-mind-controlled-objective = Obey your handler's commands.
+    Вам имплантировали устройство контроля разума, принадлежащее [color = darkred]{ $master-name }[/color].
+    Слушайте его указания. Постарайтесь не погибнуть и не пострадать и не скомпрометировать свой имплант...
+    Если только [color = darkred]{ $master-name }[/color] не прикажет иначе.
+mind-control-prevented = Щит разума предотвратил имплантацию!
+mind-control-prevents-mindshield = Другой имплант помешал.
+mind-control-invalid = Субъект должен быть жив.
+roles-antag-mind-controlled-name = Под контролем разума
+roles-antag-mind-controlled-objective = Подчиняйтесь командам вашего куратора.

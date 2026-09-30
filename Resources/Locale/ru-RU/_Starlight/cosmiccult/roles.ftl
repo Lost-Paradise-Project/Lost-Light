@@ -1,3 +1,3 @@
-role-subtype-cultist = Cultist
-role-subtype-colossus = Colossus
-role-subtype-cosmic-minion = Cosmic Minion
+role-subtype-cultist = Культист
+role-subtype-colossus = Колосс
+role-subtype-cosmic-minion = Космический приспешник

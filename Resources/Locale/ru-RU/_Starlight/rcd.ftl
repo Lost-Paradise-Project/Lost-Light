@@ -1,1 +1,1 @@
-rcd-floor-xeno = xenoborg tile
+rcd-floor-xeno = плитка ксеноборга

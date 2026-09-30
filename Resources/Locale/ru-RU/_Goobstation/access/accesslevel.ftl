@@ -1,1 +1,1 @@
-id-card-access-level-journalism = Journalism
+id-card-access-level-journalism = Журналистика

@@ -1,8 +1,8 @@
-ent-BoxMedalsCC = cc medals box
+ent-BoxMedalsCC = коробка медалей ЦК
     .desc = { ent-BoxCardboard.desc }
-ent-ClothingNeckCentralCommandMedal = central command medal
-    .desc = Given by central command to commend exemplary behavior.
-ent-ClothingNeckCentralCommandMedalValor = central command medal of valor
-    .desc = Given by central command to recognize valor.
-ent-ClothingNeckCentralCommandMedalGaudy = central command medal of excellence
-    .desc = Humbly given by central command to commend excellency.
+ent-ClothingNeckCentralCommandMedal = медаль Центрального командования
+    .desc = Выдаётся Центральным командованием за образцовое поведение.
+ent-ClothingNeckCentralCommandMedalValor = медаль доблести Центрального командования
+    .desc = Выдаётся Центральным командованием за проявленную доблесть.
+ent-ClothingNeckCentralCommandMedalGaudy = медаль превосходства Центрального командования
+    .desc = Скромно выдаётся Центральным командованием за превосходство.

@@ -1,1 +1,1 @@
-delivery-teleporter-no-access-verb = No access
+delivery-teleporter-no-access-verb = Нет доступа

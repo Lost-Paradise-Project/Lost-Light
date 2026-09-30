@@ -1,77 +1,77 @@
 ### Examine
 
-gas-turbine-examine-stator-null = It seems to be missing a stator.
-gas-turbine-examine-stator = It has a stator.
+gas-turbine-examine-stator-null = Похоже, статор отсутствует.
+gas-turbine-examine-stator = Статор на месте.
 
-gas-turbine-examine-blade-null = It seems to be missing a turbine blade.
-gas-turbine-examine-blade = It has a turbine blade.
+gas-turbine-examine-blade-null = Похоже, лопасть турбины отсутствует.
+gas-turbine-examine-blade = Лопасть турбины на месте.
 
-gas-turbine-spinning-0 = The blades are not spinning.
-gas-turbine-spinning-1 = The blades are turning slowly.
-gas-turbine-spinning-2 = The blades are spinning.
-gas-turbine-spinning-3 = The blades are spinning quickly.
-gas-turbine-spinning-4 = [color=red]The blades are spinning out of control![/color]
+gas-turbine-spinning-0 = Лопасти не вращаются.
+gas-turbine-spinning-1 = Лопасти медленно вращаются.
+gas-turbine-spinning-2 = Лопасти вращаются.
+gas-turbine-spinning-3 = Лопасти быстро вращаются.
+gas-turbine-spinning-4 = [color=red]Лопасти вращаются вразнос![/color]
 
-gas-turbine-damaged-0 = It appears to be in good condition.[/color]
-gas-turbine-damaged-1 = The turbine looks a bit scuffed.[/color]
-gas-turbine-damaged-2 = [color=yellow]The turbine looks badly damaged.[/color]
-gas-turbine-damaged-3 = [color=orange]It's critically damaged![/color]
+gas-turbine-damaged-0 = Кажется, она в хорошем состоянии.[/color]
+gas-turbine-damaged-1 = Турбина выглядит немного потрёпанной.[/color]
+gas-turbine-damaged-2 = [color=yellow]Турбина выглядит сильно повреждённой.[/color]
+gas-turbine-damaged-3 = [color=orange]Она в критическом состоянии![/color]
 
-gas-turbine-ruined = [color=red]It's completely broken![/color]
+gas-turbine-ruined = [color=red]Она полностью сломана![/color]
 
 ### Popups
 
 # Shown when an event occurs
-gas-turbine-overheat = { $owner } triggers the emergency overheat dump valve!
-gas-turbine-explode = { CAPITALIZE(THE($owner)) } tears itself apart!
+gas-turbine-overheat = { $owner } активирует аварийный клапан сброса перегрева!
+gas-turbine-explode = { CAPITALIZE(THE($owner)) } разрывает на части!
 
 # Shown when damage occurs
-gas-turbine-spark = { CAPITALIZE(THE($owner)) } starts sparking!
-gas-turbine-spark-stop = { CAPITALIZE(THE($owner)) } stops sparking.
-gas-turbine-smoke = { CAPITALIZE(THE($owner)) } begins to smoke!
-gas-turbine-smoke-stop = { CAPITALIZE(THE($owner)) } stops smoking.
+gas-turbine-spark = { CAPITALIZE(THE($owner)) } начинает искрить!
+gas-turbine-spark-stop = { CAPITALIZE(THE($owner)) } перестаёт искрить.
+gas-turbine-smoke = { CAPITALIZE(THE($owner)) } начинает дымить!
+gas-turbine-smoke-stop = { CAPITALIZE(THE($owner)) } перестаёт дымить.
 
 # Shown during repairs
-gas-turbine-repair-fail-blade = You need to replace the turbine blade before this can be repaired.
-gas-turbine-repair-fail-stator = You need to replace the stator before this can be repaired.
-gas-turbine-repair-ruined = You repair { THE($target) }'s casing with { THE($tool) }.
-gas-turbine-repair-partial = You repair some of the damage to { THE($target) } using { THE($tool) }.
-gas-turbine-repair-complete = You finish repairing { THE($target) } with { THE($tool) }.
-gas-turbine-repair-no-damage = There is no damage to repair on { THE($target) } using { THE($tool) }.
+gas-turbine-repair-fail-blade = Перед ремонтом нужно заменить лопасть турбины.
+gas-turbine-repair-fail-stator = Перед ремонтом нужно заменить статор.
+gas-turbine-repair-ruined = Вы чините корпус { THE($target) } с помощью { THE($tool) }.
+gas-turbine-repair-partial = Вы устраняете часть повреждений { THE($target) } с помощью { THE($tool) }.
+gas-turbine-repair-complete = Вы заканчиваете ремонт { THE($target) } с помощью { THE($tool) }.
+gas-turbine-repair-no-damage = У { THE($target) } нет повреждений, которые можно починить с помощью { THE($tool) }.
 
 # Anchoring warnings
-gas-turbine-unanchor-warning = You cannot unanchor { THE($owner) } while the turbine is spinning!
-gas-turbine-anchor-warning = Invalid anchor position.
+gas-turbine-unanchor-warning = Нельзя открепить { THE($owner) }, пока турбина вращается!
+gas-turbine-anchor-warning = Недопустимое место для крепления.
 
-gas-turbine-eject-fail-speed = You cannot remove turbine parts while the turbine is spinning!
-gas-turbine-insert-fail-speed = You cannot insert turbine parts while the turbine is spinning!
+gas-turbine-eject-fail-speed = Нельзя извлекать детали турбины, пока она вращается!
+gas-turbine-insert-fail-speed = Нельзя вставлять детали турбины, пока она вращается!
 
 ### UI
 
 # Shown when using the UI
-gas-turbine-ui-tab-main = Controls
-gas-turbine-ui-tab-parts = Parts
+gas-turbine-ui-tab-main = Управление
+gas-turbine-ui-tab-parts = Детали
 
-gas-turbine-ui-rpm = RPM
+gas-turbine-ui-rpm = ОБ/МИН
 
-gas-turbine-ui-overspeed = OVERSPEED
-gas-turbine-ui-overtemp = OVERTEMP
-gas-turbine-ui-stalling = STALLING
-gas-turbine-ui-undertemp = UNDERTEMP
+gas-turbine-ui-overspeed = ПРЕВЫШЕНИЕ СКОРОСТИ
+gas-turbine-ui-overtemp = ПЕРЕГРЕВ
+gas-turbine-ui-stalling = СРЫВ
+gas-turbine-ui-undertemp = НЕДОГРЕВ
 
-gas-turbine-ui-flow-rate = Flow Rate
-gas-turbine-ui-stator-load = Stator Load
+gas-turbine-ui-flow-rate = Скорость потока
+gas-turbine-ui-stator-load = Нагрузка статора
 
-gas-turbine-ui-blade = Turbine Blade
-gas-turbine-ui-blade-integrity = Integrity
-gas-turbine-ui-blade-stress = Stress
+gas-turbine-ui-blade = Лопасть турбины
+gas-turbine-ui-blade-integrity = Целостность
+gas-turbine-ui-blade-stress = Напряжение
 
-gas-turbine-ui-stator = Turbine Stator
-gas-turbine-ui-stator-potential = Potential
-gas-turbine-ui-stator-supply = Supply
+gas-turbine-ui-stator = Статор турбины
+gas-turbine-ui-stator-potential = Потенциал
+gas-turbine-ui-stator-supply = Подача
 
 gas-turbine-ui-power = { POWERWATTS($power) }
 
-gas-turbine-ui-locked-message = Controls locked.
-gas-turbine-ui-footer-left = Danger: fast-moving machinery.
+gas-turbine-ui-locked-message = Управление заблокировано.
+gas-turbine-ui-footer-left = Опасно: быстро движущиеся механизмы.
 gas-turbine-ui-footer-right = 2.1 REV 1

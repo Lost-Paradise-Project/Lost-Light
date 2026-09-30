@@ -1,227 +1,227 @@
 ## Secure Command Terminal – UI strings
 
-secure-terminal-window-title = Secure Terminal
-secure-terminal-requests-header = Requests
-secure-terminal-information-header = Information
-secure-terminal-authorization-header = Authorization
+secure-terminal-window-title = Защищённый терминал
+secure-terminal-requests-header = Запросы
+secure-terminal-information-header = Информация
+secure-terminal-authorization-header = Авторизация
 
-secure-terminal-select-request = Select a request from the list on the left to see details.
+secure-terminal-select-request = Выберите запрос в списке слева, чтобы увидеть подробности.
 
-secure-terminal-request-button = Request
-secure-terminal-request-button-confirm = Confirm?
-secure-terminal-authorize-button = Authorize
-secure-terminal-deny-button = Deny / Cancel
-secure-terminal-recall-button = Recall Armory
+secure-terminal-request-button = Запрос
+secure-terminal-request-button-confirm = Подтвердить?
+secure-terminal-authorize-button = Разрешить
+secure-terminal-deny-button = Отклонить / Отмена
+secure-terminal-recall-button = Отозвать оружейную
 secure-terminal-recall-locked = { $minutes ->
-    [1] Recall available in 1 minute.
-    *[other] Recall available in { $minutes } minutes.
+    [1] Отзыв будет доступен через 1 минуту.
+    *[other] Отзыв будет доступен через { $minutes } мин.
 }
-secure-terminal-used-note = This armory has been permanently activated or recalled this round and cannot be deployed again.
-secure-terminal-already-used = This resource has already been used this round and cannot be requested again.
+secure-terminal-used-note = Эта оружейная была окончательно активирована или отозвана в этом раунде и не может быть развёрнута снова.
+secure-terminal-already-used = Этот ресурс уже использован в этом раунде и не может быть запрошен снова.
 
-secure-terminal-auth-waiting = No active proposal for this request. Required authorization:
-secure-terminal-auth-desc = Current proposal — no response = [color=red]red[/color], agreed = [color=green]green[/color]:
-secure-terminal-awaiting-member = Awaiting { $label }
-secure-terminal-authorized-by-label = Signed by:
-secure-terminal-veto-label = Veto
+secure-terminal-auth-waiting = Нет активного предложения по этому запросу. Требуемая авторизация:
+secure-terminal-auth-desc = Текущее предложение — нет ответа = [color=red]красный[/color], согласие = [color=green]зелёный[/color]:
+secure-terminal-awaiting-member = Ожидание: { $label }
+secure-terminal-authorized-by-label = Подписали:
+secure-terminal-veto-label = Вето
 
-secure-terminal-pending-countdown-label = Expires in { $minutes }m { $seconds }s…
-secure-terminal-countdown-label = Activating in { $minutes }m { $seconds }s…
+secure-terminal-pending-countdown-label = Истекает через { $minutes } мин. { $seconds } с…
+secure-terminal-countdown-label = Активация через { $minutes } мин. { $seconds } с…
 
-secure-terminal-fee-note = Processing fee: { $fee }
-secure-terminal-salary-note = Changes to salaries:
+secure-terminal-fee-note = Плата за обработку: { $fee }
+secure-terminal-salary-note = Изменения зарплат:
 secure-terminal-delay-note = { $minutes ->
-    [1] ETA: 1 minute after authorization.
-    *[other] ETA: { $minutes } minutes after authorization.
+    [1] Расчётное время: 1 минута после авторизации.
+    *[other] Расчётное время: { $minutes } мин. после авторизации.
 }
-secure-terminal-delay-note-immediate = Takes effect immediately on authorization.
+secure-terminal-delay-note-immediate = Вступает в силу сразу после авторизации.
 
-secure-terminal-requires-no-war-note = Disabled during War Ops.
-secure-terminal-requires-war-note = Only available during War Ops.
-secure-terminal-requires-alert-note = Requires { $level } alert to be active.
+secure-terminal-requires-no-war-note = Отключено во время военных операций.
+secure-terminal-requires-war-note = Доступно только во время военных операций.
+secure-terminal-requires-alert-note = Требуется активный уровень тревоги: { $level }.
 secure-terminal-alert-time-remaining = { $minutes ->
-    [1] Alert must be active for 1 more minute before this can be requested.
-    *[other] Alert must be active for { $minutes } more minutes before this can be requested.
+    [1] Уровень тревоги должен действовать ещё 1 минуту, прежде чем это можно будет запросить.
+    *[other] Уровень тревоги должен действовать ещё { $minutes } мин., прежде чем это можно будет запросить.
 }
 secure-terminal-on-cooldown-note = { $minutes ->
-    [1] On cooldown — available in 1 minute.
-    *[other] On cooldown — available in { $minutes } minutes.
+    [1] На перезарядке — доступно через 1 минуту.
+    *[other] На перезарядке — доступно через { $minutes } мин.
 }
-secure-terminal-requires-alert-suffix = Need: { $level }
-secure-terminal-requires-war-suffix = Need: War Ops
+secure-terminal-requires-alert-suffix = Нужно: { $level }
+secure-terminal-requires-war-suffix = Нужно: военная операция
 
-secure-terminal-reason = Insert request reason:
+secure-terminal-reason = Укажите причину запроса:
 
 ## Server → global announcements
 
-secure-terminal-proposal-created = { $request } has been requested and is awaiting co-authorization.
-secure-terminal-proposal-created-reason = { $request } has been requested and is awaiting co-authorization. Reason: { $reason }
-secure-terminal-proposal-denied = { $request } request has been cancelled.
-secure-terminal-proposal-denied-cc = { $request } request has been denied by Central Command.
-secure-terminal-proposal-cancelled-by = Secure Terminal — { $actor } cancelled the { $request } request.
-secure-terminal-proposal-vetoed-by = Secure Terminal — { $request } request was vetoed by: { $vetoers }.
-secure-terminal-radio-proposal = { $request } has been proposed. Please go to the nearest Keycard Authentication Device to authorize or deny.
-secure-terminal-radio-proposal-reason = { $request } has been proposed. Please go to the nearest Keycard Authentication Device to authorize or deny. Reason: { $reason }
-secure-terminal-radio-denied = { $request } request has been cancelled.
-secure-terminal-activation-countdown = { $request } has been fully authorized.
-    Activating in { $minutes } minutes.
-    Station salary has been reduced due to the mobilization cost.
-secure-terminal-unknown-job = Unknown
+secure-terminal-proposal-created = { $request } запрошено и ожидает совместной авторизации.
+secure-terminal-proposal-created-reason = { $request } запрошено и ожидает совместной авторизации. Причина: { $reason }
+secure-terminal-proposal-denied = Запрос «{ $request }» отменён.
+secure-terminal-proposal-denied-cc = Запрос «{ $request }» отклонён Центральным командованием.
+secure-terminal-proposal-cancelled-by = Защищённый терминал — { $actor } отменил запрос «{ $request }».
+secure-terminal-proposal-vetoed-by = Защищённый терминал — на запрос «{ $request }» наложили вето: { $vetoers }.
+secure-terminal-radio-proposal = Предложено: { $request }. Пожалуйста, подойдите к ближайшему устройству карточной авторизации, чтобы разрешить или отклонить.
+secure-terminal-radio-proposal-reason = Предложено: { $request }. Пожалуйста, подойдите к ближайшему устройству карточной авторизации, чтобы разрешить или отклонить. Причина: { $reason }
+secure-terminal-radio-denied = Запрос «{ $request }» отменён.
+secure-terminal-activation-countdown = { $request } полностью авторизовано.
+    Активация через { $minutes } мин.
+    Зарплата станции снижена из-за стоимости мобилизации.
+secure-terminal-unknown-job = Неизвестно
 
 ## Popup messages
 
-secure-terminal-no-station = No station found for this console.
-secure-terminal-request-denied = Access denied.
-secure-terminal-authorize-denied = You do not hold the required clearance to co-sign this request.
-secure-terminal-requires-war = This request is only available when War Ops have been formally declared.
-secure-terminal-wrong-alert = The current alert level does not meet this request's requirements.
-secure-terminal-alert-not-long-enough = The alert level has not been active long enough to authorize this. Please wait and try again.
-secure-terminal-recall-too-soon = The armory has not been deployed long enough to recall. Please wait.
-secure-terminal-on-cooldown = This request is on cooldown.
-secure-terminal-already-pending = A proposal for this request is already pending.
-secure-terminal-already-active = Another request is already pending or activating. Wait for it to complete before making a new one.
-secure-terminal-no-active-proposal = No active proposal found for this request.
-secure-terminal-already-authorized = You have already authorized this proposal.
-secure-terminal-already-activated = This terminal already authorized this proposal.
-secure-terminal-auth-note = This terminal is only for authorization.
-secure-terminal-authorized-by = Attention — { $request } request has been authorized. Authorized by: { $signatories }.
-secure-terminal-armory-recalled = { $request } recall order issued. Armory deployment has been cancelled.
-secure-terminal-awaiting-admin = Attention — { $request } request has been sent. Awaiting authorization by Central Command.
-secure-terminal-admin = Requesting Admin Approval for: { $request }
-                        Reason: { $reason }
-                        Use the popup or AGhost (communication interface) to Approve/Deny.
-                        Closing the popup will NOT deny the request.
-secure-terminal-admin-approval-title = Secure Terminal Admin Approval
-secure-terminal-admin-approval-request = Request: { $request }
-secure-terminal-admin-approval-description = Action: { $description }
-secure-terminal-admin-approval-reason = Reason: { $reason }
-secure-terminal-admin-approval-authorized-by = Signed by:
-secure-terminal-admin-approval-approve = Approve
-secure-terminal-admin-approval-deny = Deny
-secure-terminal-authorized-by-central-command = Central Command has countersigned this request.
-secure-terminal-authorized-by-central-command-deferred = Central Command has deferred to station command authority.
+secure-terminal-no-station = Для этой консоли не найдена станция.
+secure-terminal-request-denied = Доступ запрещён.
+secure-terminal-authorize-denied = У вас нет необходимого допуска, чтобы подписать этот запрос.
+secure-terminal-requires-war = Этот запрос доступен только после официального объявления военных операций.
+secure-terminal-wrong-alert = Текущий уровень тревоги не соответствует требованиям этого запроса.
+secure-terminal-alert-not-long-enough = Уровень тревоги действует недостаточно долго для авторизации. Подождите и повторите попытку.
+secure-terminal-recall-too-soon = Оружейная развёрнута недостаточно давно, чтобы её отозвать. Подождите.
+secure-terminal-on-cooldown = Этот запрос на перезарядке.
+secure-terminal-already-pending = Предложение по этому запросу уже ожидает рассмотрения.
+secure-terminal-already-active = Другой запрос уже ожидает рассмотрения или выполняется. Дождитесь его завершения, прежде чем делать новый.
+secure-terminal-no-active-proposal = Активное предложение по этому запросу не найдено.
+secure-terminal-already-authorized = Вы уже авторизовали это предложение.
+secure-terminal-already-activated = Этот терминал уже авторизовал это предложение.
+secure-terminal-auth-note = Этот терминал предназначен только для авторизации.
+secure-terminal-authorized-by = Внимание — запрос «{ $request }» авторизован. Авторизовали: { $signatories }.
+secure-terminal-armory-recalled = Отдан приказ об отзыве: { $request }. Развёртывание оружейной отменено.
+secure-terminal-awaiting-admin = Внимание — запрос «{ $request }» отправлен. Ожидается авторизация Центральным командованием.
+secure-terminal-admin = Запрос одобрения администрацией: { $request }
+                        Причина: { $reason }
+                        Используйте всплывающее окно или AGhost (интерфейс связи), чтобы одобрить или отклонить.
+                        Закрытие окна НЕ отклонит запрос.
+secure-terminal-admin-approval-title = Одобрение администрации для защищённого терминала
+secure-terminal-admin-approval-request = Запрос: { $request }
+secure-terminal-admin-approval-description = Действие: { $description }
+secure-terminal-admin-approval-reason = Причина: { $reason }
+secure-terminal-admin-approval-authorized-by = Подписали:
+secure-terminal-admin-approval-approve = Одобрить
+secure-terminal-admin-approval-deny = Отклонить
+secure-terminal-authorized-by-central-command = Центральное командование подтвердило этот запрос.
+secure-terminal-authorized-by-central-command-deferred = Центральное командование передало решение командованию станции.
 
 ## Request names & descriptions
 
-secure-terminal-ai-leadership-name = AI Leadership
-secure-terminal-captain-and-ntrep-name = Captain and NanoTrasen Representative
-secure-terminal-captain-name = Captain
-secure-terminal-captain-or-ntrep-name = Captain or NanoTrasen Representative
-secure-terminal-chief-medical-officer-name = Chief Medical Officer
-secure-terminal-civilian-leadership-name = Civilian Leadership
-secure-terminal-command-name = Command
-secure-terminal-engineering-leadership-name = Engineering Leadership
-secure-terminal-head-of-security-name = Head of Security
-secure-terminal-med-and-science-leadership-name = Medical and Science Leadership
-secure-terminal-medical-leadership-name = Medical Leadership
-secure-terminal-research-director-name = Research Director
-secure-terminal-security-and-command-name = Security and Command
-secure-terminal-security-leadership-name = Security Leadership
-secure-terminal-security-name = Security
+secure-terminal-ai-leadership-name = Руководство ИИ
+secure-terminal-captain-and-ntrep-name = Капитан и представитель НаноТрейзен
+secure-terminal-captain-name = Капитан
+secure-terminal-captain-or-ntrep-name = Капитан или представитель НаноТрейзен
+secure-terminal-chief-medical-officer-name = Главный врач
+secure-terminal-civilian-leadership-name = Гражданское руководство
+secure-terminal-command-name = Командование
+secure-terminal-engineering-leadership-name = Инженерное руководство
+secure-terminal-head-of-security-name = Глава службы безопасности
+secure-terminal-med-and-science-leadership-name = Руководство медицинского и научного отделов
+secure-terminal-medical-leadership-name = Медицинское руководство
+secure-terminal-research-director-name = Директор исследований
+secure-terminal-security-and-command-name = Служба безопасности и командование
+secure-terminal-security-leadership-name = Руководство службы безопасности
+secure-terminal-security-name = Служба безопасности
 
-secure-terminal-warops-security-name = Nuclear Response Team
-secure-terminal-warops-security-desc = Deploys an ERT Security detail specialized for War Ops. Only available during War Ops.
+secure-terminal-warops-security-name = Ядерная группа реагирования
+secure-terminal-warops-security-desc = Направляет отряд СБ ОБР, специализированный на военных операциях. Доступно только во время военных операций.
                                        Use when the station is under direct armed assault during a declared War Ops.
-secure-terminal-warops-security-announcement = An Emergency Response Team — Security Specialized detail — has been authorized and is en route. Estimated arrival: 30 minutes.
+secure-terminal-warops-security-announcement = Отряд быстрого реагирования — специализированный отряд СБ — авторизован и уже в пути. Расчётное время прибытия: 30 минут.
 
-secure-terminal-ert-security-name = ERT Security
-secure-terminal-ert-security-desc = Deploys an ERT Security detail.
-secure-terminal-ert-security-announcement = An Emergency Response Team — Security detail — has been authorized and is en route. Estimated arrival: 10 minutes.
+secure-terminal-ert-security-name = СБ ОБР
+secure-terminal-ert-security-desc = Направляет отряд СБ ОБР.
+secure-terminal-ert-security-announcement = Отряд быстрого реагирования — отряд СБ — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
-secure-terminal-ert-engineering-name = ERT Engineering
-secure-terminal-ert-engineering-desc = Deploys an ERT Engineering detail to assist with critical station infrastructure.
+secure-terminal-ert-engineering-name = Инженеры ОБР
+secure-terminal-ert-engineering-desc = Направляет инженерный отряд ОБР для помощи с критической инфраструктурой станции.
     Recommended when the station has suffered catastrophic structural, atmospheric, or power failures beyond local repair capacity.
-secure-terminal-ert-engineering-announcement = An Emergency Response Team — Engineering detail — has been authorized and is en route. Estimated arrival: 10 minutes.
+secure-terminal-ert-engineering-announcement = Отряд быстрого реагирования — инженерный отряд — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
-secure-terminal-ert-medical-name = ERT Medical
-secure-terminal-ert-medical-desc = Deploys an ERT Medical detail for mass casualty triage and emergency surgery.
+secure-terminal-ert-medical-name = Медики ОБР
+secure-terminal-ert-medical-desc = Направляет медицинский отряд ОБР для сортировки при массовых потерях и экстренных операций.
     Recommended when the station's medical department is overwhelmed, incapacitated, or destroyed.
-secure-terminal-ert-medical-announcement = An Emergency Response Team — Medical detail — has been authorized and is en route. Estimated arrival: 10 minutes.
+secure-terminal-ert-medical-announcement = Отряд быстрого реагирования — медицинский отряд — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
-secure-terminal-ert-janitorial-name = ERT Janitorial
-secure-terminal-ert-janitorial-desc = Deploys an ERT Janitorial detail for hazardous cleanup and station restoration.
+secure-terminal-ert-janitorial-name = Уборщики ОБР
+secure-terminal-ert-janitorial-desc = Направляет отряд уборщиков ОБР для устранения опасных загрязнений и восстановления станции.
     Recommended following large-scale biological, chemical, or environmental contamination requiring rapid decontamination.
-secure-terminal-ert-janitorial-announcement = An Emergency Response Team — Janitorial detail — has been authorized and is en route. Estimated arrival: 10 minutes.
+secure-terminal-ert-janitorial-announcement = Отряд быстрого реагирования — отряд уборщиков — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
-secure-terminal-ert-chaplain-name = ERT Chaplain
-secure-terminal-ert-chaplain-desc = Deploys an ERT Chaplain for crew morale and last rites support.
+secure-terminal-ert-chaplain-name = Капеллан ОБР
+secure-terminal-ert-chaplain-desc = Направляет капеллана ОБР для поддержки морального духа экипажа и последнего напутствия.
     Provides pastoral support and maintains crew morale during prolonged emergencies.
-secure-terminal-ert-chaplain-announcement = An Emergency Response Team — Chaplaincy — has been authorized and is en route. Estimated arrival: 10 minutes.
+secure-terminal-ert-chaplain-announcement = Отряд быстрого реагирования — капелланская служба — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
-secure-terminal-ert-cburn-name = ERT CBURN
-secure-terminal-ert-cburn-desc = Deploys an ERT CBURN detail.
-secure-terminal-ert-cburn-announcement = An Emergency Response Team — CBURN detail — has been authorized and is en route. Estimated arrival: 15 minutes.
+secure-terminal-ert-cburn-name = ОБР РХБЗ
+secure-terminal-ert-cburn-desc = Направляет отряд ОБР РХБЗ.
+secure-terminal-ert-cburn-announcement = Отряд быстрого реагирования — отряд РХБЗ — авторизован и уже в пути. Расчётное время прибытия: 15 минут.
 
-secure-terminal-code-gamma-name = Code GAMMA
-secure-terminal-code-gamma-desc = Escalates the station to [color=palevioletred]GAMMA[/color] alert. Martial law — all civilians are to be escorted by security to safe areas.
+secure-terminal-code-gamma-name = Код ГАММА
+secure-terminal-code-gamma-desc = Повышает тревогу на станции до [color=palevioletred]ГАММА[/color]. Военное положение — всех гражданских должна сопровождать СБ в безопасные зоны.
     Security must be armed at all times. All civilians must report to their nearest head of staff and be escorted to a secure location. Emergency lights activate.
-secure-terminal-code-gamma-announcement = Attention! Code GAMMA is being put into effect shortly. Martial law will be enforced. All crew report to your nearest head of staff immediately.
+secure-terminal-code-gamma-announcement = Внимание! Код ГАММА скоро вступит в силу. Будет введено военное положение. Всему экипажу немедленно доложить ближайшему главе.
 
-secure-terminal-end-gamma-name = End GAMMA Alert
-secure-terminal-end-gamma-desc = Lifts [color=palevioletred]GAMMA[/color] alert and returns the station to Green. Requires GAMMA to have been active for at least 15 minutes.
-secure-terminal-end-gamma-announcement = Code GAMMA is being lifted. The station is being restored to normal operations. Remain alert and await further instruction from your head of staff.
+secure-terminal-end-gamma-name = Отбой тревоги ГАММА
+secure-terminal-end-gamma-desc = Снимает тревогу [color=palevioletred]ГАММА[/color] и возвращает станцию в зелёный код. Требуется, чтобы ГАММА действовала не менее 15 минут.
+secure-terminal-end-gamma-announcement = Код ГАММА снимается. Станция возвращается к нормальной работе. Сохраняйте бдительность и ждите дальнейших указаний вашего главы.
 
-secure-terminal-code-psi-name = Code PSI
-secure-terminal-code-psi-desc = Escalates the station to [color=mediumpurple]PSI[/color] alert. Hostile synthetic units detected — avoid non-conforming cyborgs and seek command staff.
+secure-terminal-code-psi-name = Код ПСИ
+secure-terminal-code-psi-desc = Повышает тревогу на станции до [color=mediumpurple]ПСИ[/color]. Обнаружены враждебные синтетические юниты — избегайте несоответствующих киборгов и обращайтесь к командованию.
     Indicates hostile or non-conforming cyborg activity. All crew must avoid unknown borgs, stay in groups, and seek head-of-staff guidance.
-secure-terminal-code-psi-announcement = Attention! Command has authorized Code PSI. Non-NanoTrasen silicon units have been identified as an active threat. All crew — report to your nearest head of staff.
+secure-terminal-code-psi-announcement = Внимание! Командование объявило код ПСИ. Кремниевые юниты, не принадлежащие НаноТрейзен, признаны активной угрозой. Всему экипажу — доложить ближайшему главе.
 
-secure-terminal-end-psi-name = End PSI Alert
-secure-terminal-end-psi-desc = Lifts [color=mediumpurple]PSI[/color] alert and returns the station to Green. Requires PSI to have been active for at least 15 minutes.
-secure-terminal-end-psi-announcement = Code PSI is being lifted. The identified synthetic threat has been neutralized. The station is returning to normal operations.
+secure-terminal-end-psi-name = Отбой тревоги ПСИ
+secure-terminal-end-psi-desc = Снимает тревогу [color=mediumpurple]ПСИ[/color] и возвращает станцию в зелёный код. Требуется, чтобы ПСИ действовала не менее 15 минут.
+secure-terminal-end-psi-announcement = Код ПСИ снимается. Выявленная синтетическая угроза нейтрализована. Станция возвращается к нормальной работе.
 
-secure-terminal-armory-gamma-name = Gamma Armory
-secure-terminal-armory-gamma-desc = Dispatches the [color=palevioletred]Gamma Armory[/color] — heavy weapons cache for GAMMA situations. One-time deployment.
+secure-terminal-armory-gamma-name = Гамма-оружейная
+secure-terminal-armory-gamma-desc = Отправляет [color=palevioletred]гамма-оружейную[/color] — склад тяжёлого оружия для ситуаций ГАММА. Разовое развёртывание.
                                     Issues heavy-duty security equipment to authorized personnel.
-secure-terminal-armory-gamma-announcement = The Gamma Armory has been authorized and is en route.
+secure-terminal-armory-gamma-announcement = Гамма-оружейная авторизована и уже в пути.
 
-secure-terminal-armory-psi-name = Psi Armory
-secure-terminal-armory-psi-desc = Dispatches the [color=mediumpurple]Psi Armory[/color] — anti-cybernetic weaponry for PSI situations. One-time deployment.
+secure-terminal-armory-psi-name = Пси-оружейная
+secure-terminal-armory-psi-desc = Отправляет [color=mediumpurple]пси-оружейную[/color] — противокиберстическое вооружение для ситуаций ПСИ. Разовое развёртывание.
                                   Provides tools needed to neutralize non-conforming silicons.
-secure-terminal-armory-psi-announcement = The Psi Armory has been authorized and is en route.
+secure-terminal-armory-psi-announcement = Пси-оружейная авторизована и уже в пути.
 
-secure-terminal-med-pod-name = Emergency Medical Pod
-secure-terminal-med-pod-desc = Dispatches the Emergency Medical Pod — rapid-deployment triage with surgical and revival equipment.
+secure-terminal-med-pod-name = Экстренный медицинский модуль
+secure-terminal-med-pod-desc = Отправляет экстренный медицинский модуль — быстро разворачиваемую сортировку с хирургическим и реанимационным оборудованием.
     Use when mass casualties exceed the station's medical capacity.
-secure-terminal-med-pod-announcement = The Emergency Medical Pod has been authorized and is en route. Estimated arrival: 5 minutes.
+secure-terminal-med-pod-announcement = Экстренный медицинский модуль авторизован и уже в пути. Расчётное время прибытия: 5 минут.
 
-secure-terminal-itg-salvage-team-name = ITG Salvage Team
-secure-terminal-itg-salvage-team-desc = Contracts the Interstellar Trade Guild's local Salvage team to engage active station threats.
+secure-terminal-itg-salvage-team-name = Спасательная команда МТГ
+secure-terminal-itg-salvage-team-desc = Нанимает местную спасательную команду Межзвёздной торговой гильдии для борьбы с активными угрозами станции.
     Recommended when no Security personnel are present, or when Security cannot respond without assistance.
-secure-terminal-itg-salvage-team-announcement = The Interstellar Trade Guild's local Salvage team has been contracted to engage active station threats.
+secure-terminal-itg-salvage-team-announcement = Местная спасательная команда Межзвёздной торговой гильдии нанята для борьбы с активными угрозами станции.
 
-secure-terminal-dismiss-itg-salvage-team-name = Dismiss ITG Salvage Team
-secure-terminal-dismiss-itg-salvage-team-desc = Ends the Interstellar Trade Guild's assistance contract and returns their team to standard duties.
+secure-terminal-dismiss-itg-salvage-team-name = Распустить спасательную команду МТГ
+secure-terminal-dismiss-itg-salvage-team-desc = Прекращает контракт помощи Межзвёздной торговой гильдии и возвращает её команду к обычным обязанностям.
     Recommended once all threats to the station have been dealt with.
-secure-terminal-dismiss-itg-salvage-team-announcement = The Interstellar Trade Guild's contract has ended and their Salvage team has returned to standard duties.
+secure-terminal-dismiss-itg-salvage-team-announcement = Контракт Межзвёздной торговой гильдии завершён, и её спасательная команда вернулась к обычным обязанностям.
 
-secure-terminal-nukerequest-name = Self Destruct Code
-secure-terminal-nukerequest-desc = Request the nuclear self-destruct codes.
+secure-terminal-nukerequest-name = Код самоуничтожения
+secure-terminal-nukerequest-desc = Запросить коды ядерного самоуничтожения.
                                    Misuse of the nuclear request system will not be tolerated under any circumstances.
                                    Transmission does not guarantee a response.
 
-secure-terminal-code-violet-name = Code Violet
-secure-terminal-code-violet-desc = Declares [color=Violet]Violet[/color] alert in response to a confirmed station-wide outbreak.
+secure-terminal-code-violet-name = Код Фиолетовый
+secure-terminal-code-violet-desc = Объявляет [color=Violet]фиолетовую[/color] тревогу в ответ на подтверждённую вспышку по всей станции.
 
-secure-terminal-end-violet-name = End Violet Alert
-secure-terminal-end-violet-desc = Lifts [color=Violet]Violet[/color] alert and returns the station to Green. Requires Violet to have been active for at least 10 minutes.
+secure-terminal-end-violet-name = Отбой фиолетовой тревоги
+secure-terminal-end-violet-desc = Снимает [color=Violet]фиолетовую[/color] тревогу и возвращает станцию в зелёный код. Требуется, чтобы фиолетовая тревога действовала не менее 10 минут.
 
-secure-terminal-emergency-maintenance-name = Emergency Maintenance Access
-secure-terminal-emergency-maintenance-desc = Grant Emergency Maintenance Access.
-secure-terminal-emergency-maintenance-announcement = Access restrictions on maintenance and external airlocks have been removed.
+secure-terminal-emergency-maintenance-name = Экстренный доступ в техтоннели
+secure-terminal-emergency-maintenance-desc = Предоставить экстренный доступ в техтоннели.
+secure-terminal-emergency-maintenance-announcement = Ограничения доступа на техтоннели и внешние шлюзы сняты.
 
-secure-terminal-end-emergency-maintenance-name = Revoke Emergency Maintenance Access
-secure-terminal-end-emergency-maintenance-desc = Revoke Emergency Maintenance Access.
-secure-terminal-end-emergency-maintenance-announcement = Access restrictions on maintenance and external airlocks have been re-added.
+secure-terminal-end-emergency-maintenance-name = Отозвать экстренный доступ в техтоннели
+secure-terminal-end-emergency-maintenance-desc = Отозвать экстренный доступ в техтоннели.
+secure-terminal-end-emergency-maintenance-announcement = Ограничения доступа на техтоннели и внешние шлюзы восстановлены.
 
-secure-terminal-emergency-station-name = Station-Wide Emergency Access
-secure-terminal-emergency-station-desc = Activate Station-Wide Emergency Access.
-secure-terminal-emergency-station-announcement = Access restrictions on all station airlocks have been removed due to an ongoing crisis. Trespassing laws still apply unless ordered otherwise by Command staff.
+secure-terminal-emergency-station-name = Экстренный доступ по всей станции
+secure-terminal-emergency-station-desc = Включить экстренный доступ по всей станции.
+secure-terminal-emergency-station-announcement = Ограничения доступа на всех шлюзах станции сняты из-за продолжающегося кризиса. Законы о проникновении по-прежнему действуют, если командование не прикажет иное.
 
-secure-terminal-end-emergency-station-name = Deactivate Station-Wide Emergency Access
-secure-terminal-end-emergency-station-desc = Deactivate Station-Wide Emergency Access.
-secure-terminal-end-emergency-station-announcement = Access restrictions on all station airlocks have been re-added. Seek station AI or a colleague's assistance if you are stuck.
+secure-terminal-end-emergency-station-name = Отключить экстренный доступ по всей станции
+secure-terminal-end-emergency-station-desc = Отключить экстренный доступ по всей станции.
+secure-terminal-end-emergency-station-announcement = Ограничения доступа на всех шлюзах станции восстановлены. Если застряли, обратитесь к ИИ станции или за помощью к коллеге.
 
-secure-terminal-unlock-escape-pods-name = Unlock escape pods
-secure-terminal-unlock-escape-pods-desc = Escape pods will be unlocked and crew can launch them at will
-secure-terminal-unlock-escape-pods-announcement = Command has authorized escape pods to be used for evacuation
+secure-terminal-unlock-escape-pods-name = Разблокировать спасательные капсулы
+secure-terminal-unlock-escape-pods-desc = Спасательные капсулы будут разблокированы, и экипаж сможет запускать их по желанию
+secure-terminal-unlock-escape-pods-announcement = Командование разрешило использовать спасательные капсулы для эвакуации

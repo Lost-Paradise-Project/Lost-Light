@@ -1,5 +1,5 @@
-ent-MobZleeb = zleeb zlorp
-    .desc = A very small creature with a very important mission.
+ent-MobZleeb = злиб злорп
+    .desc = Очень маленькое существо с очень важной миссией.
     .suffix = { ent-SimpleMobBase.suffix }
-ent-MechZleeb = zoop zib zob
-    .desc = A strange space faring ship. It looks only big enough for a small creature.
+ent-MechZleeb = зуп зиб зоб
+    .desc = Странный космический корабль. Кажется, он достаточно велик только для маленького существа.

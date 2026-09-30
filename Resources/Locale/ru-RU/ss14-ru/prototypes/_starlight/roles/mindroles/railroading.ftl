@@ -1,4 +1,4 @@
-ent-RRMindRoleCriminal = Criminal Role
+ent-RRMindRoleCriminal = Роль преступника
     .desc = { ent-BaseMindRoleAntag.desc }
-ent-RRMindRoleDeserter = Deserter Role
+ent-RRMindRoleDeserter = Роль дезертира
     .desc = { "" }

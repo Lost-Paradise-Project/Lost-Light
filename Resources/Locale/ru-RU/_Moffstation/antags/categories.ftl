@@ -1,17 +1,17 @@
-antag-category-enabled = { $selected }/{ $total } enabled
+antag-category-enabled = Включено: { $selected }/{ $total }
 
-antag-category-syndicate-name = Syndicate
-antag-category-syndicate-desc = The Spinward Syndicate (often shortened to just ‘The Syndicate’) is a loose coalition of corporations, criminal enterprises and minor factions of all shapes and sizes. While united by their hatred of NanoTrasen, the Syndicate's members often squabble amongst themselves over their often-contrasting ideals.
+antag-category-syndicate-name = Синдикат
+antag-category-syndicate-desc = Синдикат Спинворда (часто просто «Синдикат») — это рыхлая коалиция корпораций, преступных предприятий и малых фракций всех мастей. Хотя их объединяет ненависть к NanoTrasen, члены Синдиката часто ссорятся между собой из-за своих нередко противоположных идеалов.
 
 # Starlight, we actually have USSP lore, so we'll use that.
-antag-category-ussp-name = United Soviet Socialist Planets
-antag-category-ussp-desc = The United Soviet Socialist Planets, otherwise referred to as the Union of Soviet Socialist Planets, is a government that was formed as the result of the Cygni Rebellion and the many revolts that occurred soon after within nearby systems. United under the idea of collective ownership and broad governance rather than corporate oversight, they seek to stand alone from the Trans-Solar Federation and other corporate bodies.
+antag-category-ussp-name = Объединённые Советские Социалистические Планеты
+antag-category-ussp-desc = Объединённые Советские Социалистические Планеты, они же Союз Советских Социалистических Планет, — государство, образованное в результате Восстания Циньи и множества бунтов, вспыхнувших вскоре после него в соседних системах. Объединившись вокруг идеи коллективной собственности и широкого управления вместо корпоративного надзора, они стремятся держаться независимо от Транссолнечной федерации и прочих корпоративных образований.
 
-antag-category-outlaws-name = Outlaws
-antag-category-outlaws-desc = In the cracks between major corporations and countries, numerous outlaws plot in the shadows. They may be in it for themselves or to further the schemes of any number of minor factions.
+antag-category-outlaws-name = Преступники
+antag-category-outlaws-desc = В щелях между крупными корпорациями и государствами в тени плетут интриги многочисленные преступники. Они могут действовать ради себя или ради замыслов любой из множества малых фракций.
 
 antag-category-nanotrasen-name = NanoTrasen
-antag-category-nanotrasen-desc = The company you (allegedly) work for. Glory to NanoTrasen!
+antag-category-nanotrasen-desc = Компания, на которую вы (якобы) работаете. Слава NanoTrasen!
 
-antag-category-misc-name = Other
-antag-category-misc-desc = Various roles which don't fall under the other factions.
+antag-category-misc-name = Прочее
+antag-category-misc-desc = Разные роли, не входящие в другие фракции.

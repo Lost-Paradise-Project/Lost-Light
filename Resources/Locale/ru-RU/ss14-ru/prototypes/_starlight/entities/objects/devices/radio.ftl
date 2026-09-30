@@ -1,2 +1,2 @@
-ent-RadioHandheldExpedition = expedition radio
-    .desc = A handy expedition radio.
+ent-RadioHandheldExpedition = экспедиционная рация
+    .desc = Удобная экспедиционная рация.

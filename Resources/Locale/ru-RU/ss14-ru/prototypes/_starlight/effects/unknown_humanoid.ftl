@@ -1,2 +1,2 @@
-ent-EffectUnknownHumanoid = unknown humanoid
-    .desc = Ignore.
+ent-EffectUnknownHumanoid = неизвестный гуманоид
+    .desc = Игнорировать.

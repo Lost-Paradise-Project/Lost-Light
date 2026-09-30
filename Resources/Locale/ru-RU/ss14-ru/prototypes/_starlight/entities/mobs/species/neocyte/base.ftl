@@ -1,4 +1,4 @@
-ent-BaseMobNeocyte = Urist McToaster
+ent-BaseMobNeocyte = Урист МакТостер
     .desc = { ent-BaseMobSpeciesOrganic.desc }
 ent-BaseNeocyteAppearance = { "" }
     .desc = { "" }

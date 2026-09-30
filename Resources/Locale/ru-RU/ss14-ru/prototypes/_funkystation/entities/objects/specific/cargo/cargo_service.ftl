@@ -1,6 +1,6 @@
-ent-BoxServiceCustomSmokable = DIY smokeables box
-    .desc = Want to get a little creative with what you use to destroy your lungs? Then this box is for you! Has everything you need to roll your own cigarettes.
-ent-BoxServiceBlankBooks = blank books box
-    .desc = Contains 10 empty books of random appearance.
-ent-BoxServiceGuidebooks = guidebooks box
-    .desc = Contains guidebooks.
+ent-BoxServiceCustomSmokable = коробка «Сверни сам»
+    .desc = Хотите проявить творчество в том, чем разрушаете лёгкие? Тогда эта коробка для вас! Есть всё необходимое для самокруток.
+ent-BoxServiceBlankBooks = коробка чистых книг
+    .desc = Содержит 10 пустых книг случайного вида.
+ent-BoxServiceGuidebooks = коробка руководств
+    .desc = Содержит руководства.

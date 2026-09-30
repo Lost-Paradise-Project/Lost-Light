@@ -1,3 +1,3 @@
-preset-not-enough-ready-players-sl = Can't start { $presetName }. Requires { $minimumPlayers } players but we have { $readyPlayersCount } effective players.
+preset-not-enough-ready-players-sl = Невозможно запустить { $presetName }. Требуется игроков: { $minimumPlayers }, а эффективных игроков: { $readyPlayersCount }.
 
-game-ticker-player-no-valid-roundstart-character = None of your enabled characters met all the requirements for your assigned job and antagonist selections, so you will remain in the lobby.
+game-ticker-player-no-valid-roundstart-character = Ни один из ваших включённых персонажей не соответствовал всем требованиям выбранных вами должности и роли антагониста, поэтому вы останетесь в лобби.

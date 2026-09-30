@@ -1,10 +1,10 @@
-ent-BaseMagazineBoxImprovised = improvised ammunition box (.any)
-    .desc = This looks suspiciously like a .20 magazine box with a crude bullet drawing ontop. Mixing ammo is not advised.
-ent-MagazineBoxImprovisedPistol = improvised ammunition box (.35 auto improvised)
+ent-BaseMagazineBoxImprovised = самодельная коробка боеприпасов (.любые)
+    .desc = Подозрительно похоже на коробку магазинов .20 с грубым рисунком пули сверху. Смешивать боеприпасы не рекомендуется.
+ent-MagazineBoxImprovisedPistol = самодельная коробка боеприпасов (.35 авто самодельные)
     .desc = { ent-BaseMagazineBoxImprovised.desc }
-ent-MagazineBoxImprovisedRifle = improvised ammunition box (.30 rifle improvised)
+ent-MagazineBoxImprovisedRifle = самодельная коробка боеприпасов (.30 винтовочные самодельные)
     .desc = { ent-BaseMagazineBoxImprovised.desc }
-ent-MagazineBoxImprovisedMagnum = improvised ammunition box (.45 magnum improvised)
+ent-MagazineBoxImprovisedMagnum = самодельная коробка боеприпасов (.45 магнум самодельные)
     .desc = { ent-BaseMagazineBoxImprovised.desc }
-ent-MagazineBoxImprovisedShotgun = 12 gauge improvised buckshot box
+ent-MagazineBoxImprovisedShotgun = самодельная коробка картечи 12 калибра
     .desc = { ent-BaseMagazineBoxImprovised.desc }

@@ -1,5 +1,5 @@
-ent-NTCredit = credit
-    .desc = You gotta have real money. Can be used in place of Spesos, at a 1:1 conversion rate.
+ent-NTCredit = кредит
+    .desc = Нужны настоящие деньги. Можно использовать вместо спесо в соотношении 1:1.
 ent-NTCredit10 = { ent-NTCredit }
     .desc = { ent-NTCredit.desc }
     .suffix = 10

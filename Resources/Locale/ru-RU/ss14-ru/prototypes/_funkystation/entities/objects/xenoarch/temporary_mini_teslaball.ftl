@@ -1,2 +1,2 @@
-ent-BaseEnergyBallTemporary = temporary tesla
+ent-BaseEnergyBallTemporary = временная тесла
     .desc = { ent-TeslaMiniEnergyBall.desc }

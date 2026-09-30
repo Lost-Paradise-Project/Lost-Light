@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetSovietEVA = soviet EVA helmet
-    .desc = A sturdy EVA helmet with a red star emblazoned on the front. Glory to the workers of space!
+ent-ClothingHeadHelmetSovietEVA = советский шлем ВКД
+    .desc = Крепкий шлем ВКД с красной звездой на лбу. Слава труженикам космоса!

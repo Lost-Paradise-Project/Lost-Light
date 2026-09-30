@@ -8,8 +8,8 @@ crayon-interact-invalid-location = Туда не дотянуться!
 
 ## UI
 crayon-window-title = Мелок
-crayon-window-rotation = Glyph rotation
-crayon-window-preview = Show preview
+crayon-window-rotation = Поворот рисунка
+crayon-window-preview = Показать предпросмотр
 crayon-window-placeholder = Поиск, или создание очереди рисования из списка имён, разделённых запятыми
 crayon-category-1-brushes = Кисти
 crayon-category-2-alphanum = Цифры и буквы

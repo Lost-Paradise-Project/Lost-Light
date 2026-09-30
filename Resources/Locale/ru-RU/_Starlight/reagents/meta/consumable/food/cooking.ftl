@@ -1,1 +1,1 @@
-reagent-name-corn-oil = corn oil
+reagent-name-corn-oil = кукурузное масло

@@ -1,1 +1,1 @@
-construction-category-food = Food
+construction-category-food = Еда

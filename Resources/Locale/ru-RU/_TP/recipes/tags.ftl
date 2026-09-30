@@ -1,1 +1,1 @@
-construction-graph-tag-piezo-shard = a piezo crystal shard
+construction-graph-tag-piezo-shard = осколок пьезокристалла

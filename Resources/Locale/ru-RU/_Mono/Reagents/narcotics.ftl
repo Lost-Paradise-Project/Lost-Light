@@ -1,2 +1,2 @@
-reagent-name-phenylpiperidine = phenylpiperidine
-reagent-desc-phenylpiperidine = A highly potent opioid painkiller and narcotic. Its highly addictive, and horribly abused. When mixed with Tricordrazine at a 5:1 ratio (5u phenylpiperidine, 1u Tricordrazine) at 375k it is solidified, and highly valuable. Do not mix with Dylovene under any circumstances.
+reagent-name-phenylpiperidine = фенилпиперидин
+reagent-desc-phenylpiperidine = Мощное опиоидное обезболивающее и наркотик. Вызывает сильную зависимость, им ужасно злоупотребляют. При смешивании с трикордразином в соотношении 5:1 (5 ед. фенилпиперидина, 1 ед. трикордразина) при 375 К затвердевает и становится очень ценным. Ни в коем случае не смешивайте с диловеном.

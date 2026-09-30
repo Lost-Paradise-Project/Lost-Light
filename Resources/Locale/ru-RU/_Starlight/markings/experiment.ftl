@@ -1,23 +1,23 @@
 # chest
-marking-backexpiescar = Back Scar
-marking-backexpiescar-backscar = Back Scar
-marking-chestexpiescar = Chest Scar
-marking-chestexpiescar-chestscar = Chest Scar
+marking-backexpiescar = Шрам на спине
+marking-backexpiescar-backscar = Шрам на спине
+marking-chestexpiescar = Шрам на груди
+marking-chestexpiescar-chestscar = Шрам на груди
 
 # head
-marking-eyeexpiescar = Eye Scar
-marking-eyeexpiescar-eyescar = Eye Scar
-marking-noseexpiescar = Nose Scar
-marking-noseexpiescar-nosescar = Nose Scar
+marking-eyeexpiescar = Шрам на глазу
+marking-eyeexpiescar-eyescar = Шрам на глазу
+marking-noseexpiescar = Шрам на носу
+marking-noseexpiescar-nosescar = Шрам на носу
 
 # arms
-marking-armexpiescar = Left Arm Scar
-marking-armexpiescar-armscar = Left Arm Scar
-marking-armexpiebandage = Arm Bandages
-marking-armexpiebandage-armbandage = Arm Bandages
+marking-armexpiescar = Шрам на левой руке
+marking-armexpiescar-armscar = Шрам на левой руке
+marking-armexpiebandage = Бинты на руках
+marking-armexpiebandage-armbandage = Бинты на руках
 
 # legs
-marking-legexpiescar = Right Leg Scar
-marking-legexpiescar-legscar = Right Leg Scar
-marking-legexpiebandage = Leg Bandages
-marking-legexpiebandage-legbandage = Leg Bandages
+marking-legexpiescar = Шрам на правой ноге
+marking-legexpiescar-legscar = Шрам на правой ноге
+marking-legexpiebandage = Бинты на ногах
+marking-legexpiebandage-legbandage = Бинты на ногах

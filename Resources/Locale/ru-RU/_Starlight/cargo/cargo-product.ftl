@@ -1,16 +1,16 @@
 # WizDen gases
-cargo-product-gas-oxygen = bulk oxygen gas (1000 mol, 293K)
-cargo-product-gas-oxygen-liquid = bulk oxygen gas (1000 mol, 72K)
-cargo-product-gas-nitrogen = bulk nitrogen gas (1000 mol, 293K)
-cargo-product-gas-nitrogen-liquid = bulk nitrogen gas (1000 mol, 72K)
-cargo-product-gas-carbon-dioxide = bulk carbon dioxide gas (1000 mol, 72K)
-cargo-product-gas-carbon-dioxide-liquid = bulk carbon dioxide gas (1000 mol, 72K)
-cargo-product-gas-plasma = bulk plasma gas (1000 mol, 293K)
-cargo-product-gas-plasma-liquid = bulk plasma gas (1000 mol, 72K)
-cargo-product-gas-water-vapor = bulk water vapor (1000 mol, 293K)
+cargo-product-gas-oxygen = газ кислород в баллоне (1000 моль, 293 К)
+cargo-product-gas-oxygen-liquid = газ кислород в баллоне (1000 моль, 72 К)
+cargo-product-gas-nitrogen = газ азот в баллоне (1000 моль, 293 К)
+cargo-product-gas-nitrogen-liquid = газ азот в баллоне (1000 моль, 72 К)
+cargo-product-gas-carbon-dioxide = газ углекислый газ в баллоне (1000 моль, 72 К)
+cargo-product-gas-carbon-dioxide-liquid = газ углекислый газ в баллоне (1000 моль, 72 К)
+cargo-product-gas-plasma = газ плазма в баллоне (1000 моль, 293 К)
+cargo-product-gas-plasma-liquid = газ плазма в баллоне (1000 моль, 72 К)
+cargo-product-gas-water-vapor = водяной пар в баллоне (1000 моль, 293 К)
 
 # Funky gases
-cargo-product-gas-bz = bulk bz gas (1000 mol, 293K)
+cargo-product-gas-bz = газ BZ в баллоне (1000 моль, 293 К)
 
 # Starlight gases
-cargo-product-gas-zxa = bulk zxa gas (1000 mol, 293K)
+cargo-product-gas-zxa = газ ZXA в баллоне (1000 моль, 293 К)

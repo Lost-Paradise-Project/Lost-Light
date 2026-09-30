@@ -1,2 +1,2 @@
-reagent-name-nitrosyl-plasmide = nitrosyl plasmide
-reagent-desc-nitrosyl-plasmide = A powerful stimulant that can prevent drowsiness, stuns and knock downs.
+reagent-name-nitrosyl-plasmide = нитрозил-плазмид
+reagent-desc-nitrosyl-plasmide = Мощный стимулятор, способный предотвращать сонливость, оглушение и сбивание с ног.

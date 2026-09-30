@@ -1,6 +1,6 @@
-ent-TarotCardDeckBox = box of major arcana tarot cards
-    .desc = A small carton containing a set of the Major Arcana cards from the cartomantic tarot deck.
-    .suffix = Tarot
-ent-TarotCardDeck = deck of cards
+ent-TarotCardDeckBox = коробка карт старших арканов Таро
+    .desc = Небольшая картонная коробка с набором карт старших арканов из картомантической колоды Таро.
+    .suffix = Таро
+ent-TarotCardDeck = колода карт
     .desc = { ent-BasePlayingCardDeck.desc }
-    .suffix = Tarot
+    .suffix = Таро

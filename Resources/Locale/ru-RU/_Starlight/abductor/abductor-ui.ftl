@@ -1,47 +1,47 @@
 # Teleport tab
 
 
-abductors-ui-teleport = Teleport
-abductors-ui-attract = Attract
+abductors-ui-teleport = Телепортировать
+abductors-ui-attract = Притянуть
 
-abductors-ui-gizmo-transferred = Target information transferred
+abductors-ui-gizmo-transferred = Информация о цели передана
 
 # Experiment tab
 
-abductors-ui-experiment = Experiment
-abductors-ui-complete-experiment = Complete the experiment
+abductors-ui-experiment = Эксперимент
+abductors-ui-complete-experiment = Завершить эксперимент
 
 # Armor tab
 
-abductors-ui-armor-control = Armor Control
+abductors-ui-armor-control = Управление бронёй
 
-abductors-ui-combat-mode = Combat Mode
-abductors-ui-stealth-mode = Stealth Mode
+abductors-ui-combat-mode = Боевой режим
+abductors-ui-stealth-mode = Режим скрытности
 
-abductors-ui-lock-armor = Lock Armor
-abductors-ui-unlock-armor = Unlock Armor
+abductors-ui-lock-armor = Заблокировать броню
+abductors-ui-unlock-armor = Разблокировать броню
 
-abductors-ui-vest-linked = Vest linked
+abductors-ui-vest-linked = Жилет привязан
 
 # Shop tab
 
-abductors-ui-shop = Shop
+abductors-ui-shop = Магазин
 
-abductors-ui-shop-Wonderprod = Wonderprod
-abductors-ui-shop-WeaponAlien = Alien pistol
-abductors-ui-shop-ClothingHeadHelmetAbductor = Helmet
-abductors-ui-shop-AbductorGizmo = Gizmo
-abductors-ui-shop-AbductorExtractor = Extractor
-abductors-ui-shop-MedkitCombat = Combat medical kit
-abductors-ui-shop-VendingMachineRestockAbductorDispenser = alien dispenser restock
+abductors-ui-shop-Wonderprod = Чудо-шокер
+abductors-ui-shop-WeaponAlien = Пистолет пришельцев
+abductors-ui-shop-ClothingHeadHelmetAbductor = Шлем
+abductors-ui-shop-AbductorGizmo = Гизмо
+abductors-ui-shop-AbductorExtractor = Экстрактор
+abductors-ui-shop-MedkitCombat = Боевая аптечка
+abductors-ui-shop-VendingMachineRestockAbductorDispenser = пополнение раздатчика пришельцев
 
 # Ghost role, objectives, etc.
 
-abductors-ghost-role-name = Abductor Scientist
-abductors-ghost-role-desc = Kidnap people, stuff them with organs of dubious origin.
-abductora-ghost-role-name = Abductor Agent
-abductora-ghost-role-desc = Kidnap people, protect the scientist.
-abductors-ghost-role-rules = You are a [color=red][bold]Abductor[/bold][/color].
+abductors-ghost-role-name = Учёный-похититель
+abductors-ghost-role-desc = Похищайте людей, набивайте их органами сомнительного происхождения.
+abductora-ghost-role-name = Агент-похититель
+abductora-ghost-role-desc = Похищайте людей, защищайте учёного.
+abductors-ghost-role-rules = Вы — [color=red][bold]Похититель[/bold][/color].
                             Your intentions are to abduct people from the station and replace their organs with various experimental devices,
                             after which you return them back. You are not allowed to destroy the station or intentionally kill people.
                             It is in your interest to return the test subjects alive and healthy for the purity of the experiment.
@@ -50,13 +50,13 @@ abductors-ghost-role-rules = You are a [color=red][bold]Abductor[/bold][/color].
                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
                             You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
 
-abductor-round-end-agent-name = abductor
+abductor-round-end-agent-name = похититель
 
-objective-issuer-abductors = [color=#FD0098]Mothership[/color]
+objective-issuer-abductors = [color=#FD0098]Корабль-матка[/color]
 
-objective-condition-abduct-title = Abduct { $count } person.
-objective-condition-abduct-description = (use the Gizmo on a subdued victim, then use the Gizmo on the abductor console and select the attract action), then replace their heart with one of the glands, put them in the experimenter, and press complete experiment.
+objective-condition-abduct-title = Похитить человек: { $count }.
+objective-condition-abduct-description = (используйте гизмо на обездвиженной жертве, затем используйте гизмо на консоли похитителей и выберите действие «притянуть»), затем замените её сердце одной из желёз, поместите её в экспериментатор и нажмите «завершить эксперимент».
 
-abductor-role-greeting = I am a professional combat scientist of a high-tech race. My task is to abduct humans, conduct experiments on them, and return them intact for the purity of the experiment. It is not in my interest to destroy the station, kill, or assist the crew.
+abductor-role-greeting = Я профессиональный боевой учёный высокотехнологичной расы. Моя задача — похищать людей, проводить на них эксперименты и возвращать целыми ради чистоты эксперимента. В моих интересах не разрушать станцию, не убивать и не помогать экипажу.
 
-roles-antag-abductor-objective = Kidnap station crew and perform your experiments on them!
+roles-antag-abductor-objective = Похищайте членов экипажа станции и проводите на них свои эксперименты!

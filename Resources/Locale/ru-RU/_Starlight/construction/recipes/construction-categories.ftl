@@ -1,1 +1,1 @@
-construction-category-atmospherics = Atmospherics
+construction-category-atmospherics = Атмосфера

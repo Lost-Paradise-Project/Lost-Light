@@ -1,8 +1,8 @@
-ent-MoffEffectSparksSilent = sparks
+ent-MoffEffectSparksSilent = искры
     .desc = { ent-ESEffectSparks.desc }
-ent-MoffEffectSparksWelding = sparks
+ent-MoffEffectSparksWelding = искры
     .desc = { ent-ESEffectSparks.desc }
-ent-MoffEffectSparksBluespace = sparks
+ent-MoffEffectSparksBluespace = искры
     .desc = { ent-ESEffectSparks.desc }
-ent-MoffEffectSparksRedspace = sparks
+ent-MoffEffectSparksRedspace = искры
     .desc = { ent-ESEffectSparks.desc }

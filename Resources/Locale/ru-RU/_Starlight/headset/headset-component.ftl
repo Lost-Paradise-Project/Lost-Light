@@ -1,16 +1,16 @@
-chat-radio-law = Law
+chat-radio-law = Закон
 chat-radio-nanotrasen = NanoTrasen
-chat-radio-soviet = Soviet
-chat-radio-expedition = Expedition
-chat-radio-tsf = Trans-Solar
-chat-radio-tsf-borg = Solgov Cyborg
-chat-radio-blackstar = Blackstar
-chat-radio-merchant = Merchant
-chat-radio-winds = Winds of Magic
-chat-radio-global = Global
-chat-radio-aspace = Aspace
-chat-radio-medtak = MedTak
-chat-radio-medtak-borg = MedTak Silicon
+chat-radio-soviet = Советский
+chat-radio-expedition = Экспедиция
+chat-radio-tsf = Транссолнечный
+chat-radio-tsf-borg = Киборг Солгов
+chat-radio-blackstar = Чёрная звезда
+chat-radio-merchant = Торговец
+chat-radio-winds = Ветры магии
+chat-radio-global = Общий
+chat-radio-aspace = Аспейс
+chat-radio-medtak = МедТак
+chat-radio-medtak-borg = Кремний МедТак
 
-headset-loud-mode-examine-active = The headset's loudmode speaker is [color=green]ACTIVE[/color].
-headset-loud-mode-examine-inactive = The headset's loudmode speaker is [color=red]INACTIVE[/color].
+headset-loud-mode-examine-active = Динамик громкого режима гарнитуры [color=green]АКТИВЕН[/color].
+headset-loud-mode-examine-inactive = Динамик громкого режима гарнитуры [color=red]НЕАКТИВЕН[/color].

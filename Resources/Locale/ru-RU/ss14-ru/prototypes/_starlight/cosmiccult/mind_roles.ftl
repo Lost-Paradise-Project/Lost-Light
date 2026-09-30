@@ -1,6 +1,6 @@
-ent-MindRoleCosmicCult = Cosmic Cult Role
+ent-MindRoleCosmicCult = Роль Космического культа
     .desc = { ent-BaseMindRoleAntag.desc }
-ent-MindRoleCosmicColossus = Colossus Role
+ent-MindRoleCosmicColossus = Роль Колосса
     .desc = { ent-MindRoleGhostRoleTeamAntagonist.desc }
-ent-MindRoleCosmicMinion = Cosmic Minion Role
+ent-MindRoleCosmicMinion = Роль Космического приспешника
     .desc = { ent-MindRoleGhostRoleTeamAntagonistFlock.desc }

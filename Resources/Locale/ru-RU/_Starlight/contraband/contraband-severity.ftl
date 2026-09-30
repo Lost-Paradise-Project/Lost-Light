@@ -1,4 +1,4 @@
-contraband-examine-text-soviet = [color=orange]This item is highly illegal Soviet contraband![/color]
-contraband-examine-text-advancedcyberlimbs = [color=gray]This item is highly illegal Cybernetic contraband![/color]
-contraband-examine-text-tsf = [color=cyan]This item is Trans-Solar Federation property![/color]
-contraband-examine-text-medtak = [color=white]This item is restricted to MedTak operators.[/color]
+contraband-examine-text-soviet = [color=orange]Этот предмет — крайне незаконная советская контрабанда![/color]
+contraband-examine-text-advancedcyberlimbs = [color=gray]Этот предмет — крайне незаконная кибернетическая контрабанда![/color]
+contraband-examine-text-tsf = [color=cyan]Этот предмет — собственность Транссолнечной федерации![/color]
+contraband-examine-text-medtak = [color=white]Этот предмет предназначен только для операторов МедТак.[/color]

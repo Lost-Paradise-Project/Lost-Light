@@ -1,2 +1,2 @@
-slime-extract-not-exhausted = The slime extract bubbles with life! Try inserting something like blood, water, or plasma.
-slime-extract-exhausted = The slime extract has been exhausted and no longer seems to be reacting to new reagents. All you can do is throw it away. Or can you restore it somehow?
+slime-extract-not-exhausted = Экстракт слайма бурлит жизнью! Попробуйте вставить что-нибудь вроде крови, воды или плазмы.
+slime-extract-exhausted = Экстракт слайма истощён и больше не реагирует на новые реагенты. Остаётся только выбросить его. Или его можно как-то восстановить?

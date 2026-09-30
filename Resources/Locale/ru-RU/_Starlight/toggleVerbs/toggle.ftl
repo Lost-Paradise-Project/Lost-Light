@@ -1,4 +1,4 @@
-verb-toggle-magnet-activate = Activate Magnet
-verb-toggle-magnet-deactivate = Deactivate Magnet
+verb-toggle-magnet-activate = Активировать магнит
+verb-toggle-magnet-deactivate = Деактивировать магнит
 
-verb-categories-switch = Switch
+verb-categories-switch = Переключить

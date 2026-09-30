@@ -1,6 +1,6 @@
-ent-EffectNightVision = night vision
+ent-EffectNightVision = ночное зрение
     .desc = { "" }
-ent-EffectThermalVision = thermal vision
+ent-EffectThermalVision = тепловое зрение
     .desc = { "" }
 ent-EffectThermalVisionRevenant = { ent-EffectThermalVision }
     .desc = { ent-EffectThermalVision.desc }

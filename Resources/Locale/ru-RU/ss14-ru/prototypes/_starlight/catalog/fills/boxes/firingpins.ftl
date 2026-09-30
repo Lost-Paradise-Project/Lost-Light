@@ -1,6 +1,6 @@
-ent-BoxFiringPin = firing pin box
-    .desc = a box full of standard firing pins
-ent-BoxFiringPinPistol = pistol firing pin box
-    .desc = a box full of pistol firing pins
-ent-BoxFiringPinLaser = laser crystal box
-    .desc = a box full of laser crystals
+ent-BoxFiringPin = коробка бойков
+    .desc = коробка, полная стандартных бойков
+ent-BoxFiringPinPistol = коробка пистолетных бойков
+    .desc = коробка, полная пистолетных бойков
+ent-BoxFiringPinLaser = коробка лазерных кристаллов
+    .desc = коробка, полная лазерных кристаллов

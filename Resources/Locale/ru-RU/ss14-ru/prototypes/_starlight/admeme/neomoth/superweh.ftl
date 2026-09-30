@@ -1,3 +1,3 @@
 ent-PlushieSuperLizard = { ent-PlushieRainbowLizard }
-    .desc = An adorable stuffed toy that resembles a lizardperson of every color. Abnormally lightweight, allowing you to swing it with great speed.
-    .suffix = Fast
+    .desc = Очаровательная плюшевая игрушка, напоминающая ящеролюда всех цветов. Аномально лёгкая, позволяющая размахивать ею с огромной скоростью.
+    .suffix = Быстрый

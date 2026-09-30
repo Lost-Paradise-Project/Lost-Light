@@ -1,1 +1,1 @@
-comp-solution-transfer-reagent-not-allowed = You cannot refill it with that reagent.
+comp-solution-transfer-reagent-not-allowed = Нельзя пополнить этим реагентом.

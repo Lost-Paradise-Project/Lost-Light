@@ -1,1 +1,1 @@
-construction-recipe-vest-wire = wire harness
+construction-recipe-vest-wire = жгут проводов

@@ -1,4 +1,4 @@
-contraband-examine-text-Casino = [color=gold]This item is Gamorrah Casino property![/color]
+contraband-examine-text-Casino = [color=gold]Этот предмет — собственность казино «Гоморра»![/color]
 
-department-Casino = Gamorrah Casino
-department-Casino-description = Staff of the Gamorrah Casino.
+department-Casino = Казино «Гоморра»
+department-Casino-description = Персонал казино «Гоморра».

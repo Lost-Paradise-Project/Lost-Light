@@ -1,18 +1,18 @@
-ent-WeaponMedTakLightMachineGun = CODE-6 "Arbitration"
-    .desc = An ultralight assault LMG developed for MedTak security.
+ent-WeaponMedTakLightMachineGun = CODE-6 «Арбитраж»
+    .desc = Сверхлёгкий штурмовой ручной пулемёт, разработанный для СБ МедТак.
         Accepts .30 box magazines.
-    .suffix = Admeme
-ent-WeaponMedTakRifle = CODE-9 "Compliance"
-    .desc = A bullpuped heavy rifle designed for MedTak operators.
+    .suffix = Админ-мем
+ent-WeaponMedTakRifle = CODE-9 «Соответствие»
+    .desc = Тяжёлая винтовка-буллпап, разработанная для операторов МедТак.
         Accepts heavy .20 rifle magazines.
-    .suffix = Admeme
+    .suffix = Админ-мем
 ent-WeaponMedTakRifleROW = CODE-9 ROW
-    .desc = A cut-down CODE-9 designed for cyborgs, feeding from a slowly recharging internal ammo fabricator
-    .suffix = Admeme
-ent-WeaponMedTakPistol = CODE-4 "Triage"
-    .desc = A heavy sidearm issued to MedTak operators.
+    .desc = Урезанная CODE-9, разработанная для киборгов, питается от медленно заряжающегося внутреннего фабрикатора боеприпасов.
+    .suffix = Админ-мем
+ent-WeaponMedTakPistol = CODE-4 «Сортировка»
+    .desc = Тяжёлое личное оружие, выдаваемое операторам МедТак.
         Accepts .40 pistol magazines.
-ent-WeaponMedTakSubMachineGun = CODE-10 "Intervention"
-    .desc = A compact submachine gun with an integral supressor. It features an advanced recoil system, but suffers slightly in rate of fire.
-ent-WeaponMedTakShotgun = CODE-11 "Compromise"
-    .desc = An sleek drum-fed shotgun, rounds are chambered semi-automatically with the secondary trigger.
+ent-WeaponMedTakSubMachineGun = CODE-10 «Вмешательство»
+    .desc = Компактный пистолет-пулемёт со встроенным глушителем. Имеет продвинутую систему отдачи, но немного проигрывает в скорострельности.
+ent-WeaponMedTakShotgun = CODE-11 «Компромисс»
+    .desc = Изящный барабанный дробовик, патроны досылаются полуавтоматически вторым спуском.

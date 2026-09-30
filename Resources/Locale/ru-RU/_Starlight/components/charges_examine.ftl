@@ -1,5 +1,6 @@
-component-chargeexamine-loc = This paper has {$charges ->
-    [one] { $charges } charge
-    *[other] { $charges } charges
-} until it's effect occurs
-component-chargeexamine-loc-finished = This paper has no charges remaining.
+component-chargeexamine-loc = На этой бумаге {$charges ->
+    [one] { $charges } заряд
+    [few] { $charges } заряда
+    *[other] { $charges } зарядов
+} до срабатывания эффекта
+component-chargeexamine-loc-finished = На этой бумаге не осталось зарядов.

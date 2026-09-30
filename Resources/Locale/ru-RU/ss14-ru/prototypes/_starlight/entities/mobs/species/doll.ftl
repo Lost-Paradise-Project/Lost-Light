@@ -1,6 +1,6 @@
 ent-BaseMobDoll = { ent-BaseMobSpeciesOrganic }
     .desc = { ent-BaseMobSpeciesOrganic.desc }
 ent-BaseMobDollFresh = { ent-BaseMobSpeciesOrganic }
-    .desc = Where did that shell come from? It is all soft and spongy...
+    .desc = Откуда этот панцирь? Он весь мягкий и губчатый...
 ent-MobDollDummy = { ent-BaseSpeciesDummy }
     .desc = { ent-BaseSpeciesDummy.desc }

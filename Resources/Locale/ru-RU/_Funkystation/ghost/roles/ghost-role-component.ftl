@@ -1,16 +1,16 @@
-ghost-role-information-narsie-goose-name = Servant of Nar'sie
-ghost-role-information-narsie-goose-description = Blood must flow, only those who follow the true god Nar'sie shall be spared.
-ghost-role-information-narsie-goose-rules = You are a servant of Nar'sie. Relentlessly murder all those who do not follow Nar'Sie. If there are none on the station then all are your enemy.
+ghost-role-information-narsie-goose-name = Слуга Нар'Си
+ghost-role-information-narsie-goose-description = Кровь должна литься, пощажены будут только те, кто следует за истинным богом Нар'Си.
+ghost-role-information-narsie-goose-rules = Вы — слуга Нар'Си. Беспощадно убивайте всех, кто не следует за Нар'Си. Если на станции таких нет, то все вам враги.
 
-ghost-role-information-arti-skeleton-name = Artifact Skeleton
-ghost-role-information-arti-skeleton-description = You don't know why or how but in a flash of blue light you find yourself in a strange station. Having been freed from flesh prison there is nothing left in your skull, so you have no idea who or what you were doing before. Make the most of your new take on life.
+ghost-role-information-arti-skeleton-name = Скелет артефакта
+ghost-role-information-arti-skeleton-description = Вы не знаете ни почему, ни как, но в вспышке голубого света оказываетесь на странной станции. Освободившись от плотской темницы, вы обнаруживаете, что в вашем черепе ничего не осталось, и не помните, кем были и чем занимались. Извлеките максимум из своей новой жизни.
 
-ghost-role-information-arti-corgi-name = Extradimensional Corgi
-ghost-role-information-arti-corgi-description = A traveler from another plane of reality you have used an artifact as a focal point to teleport in your travels. Explore the station and learn about its inhabitants. Keep yourself safe at all costs, you have a family waiting for you at home.
+ghost-role-information-arti-corgi-name = Внепространственный корги
+ghost-role-information-arti-corgi-description = Вы путешественник из другого плана реальности и использовали артефакт как точку фокуса для телепортации в своих странствиях. Исследуйте станцию и узнайте больше о её обитателях. Берегите себя любой ценой: дома вас ждёт семья.
 
-ghost-role-information-zleeb-zlorb-name = Zleeb Zlorb
-ghost-role-information-zleeb-zlorb-description = Glorp zleeb zleeble gnranish! Glorb zlabble zleep sprazzle zlorp. gnar zleep SPACE COP glorbo. (You are Zleep the great! You dislike crime greatly. You are a SPACE COP.)
-ghost-role-information-zleeb-zlorb-rules = You are a small alien SPACE COP. You must enforce your laws (NOT NANOTRASEN'S!). These laws are up to you to decide but should match no more than 50% of NT's space law. Whatever you do, DON'T be a boot licker. Enforce YOUR version of galactic law to your best ability. Good luck, SPACE COP!
+ghost-role-information-zleeb-zlorb-name = Зли-Злорб
+ghost-role-information-zleeb-zlorb-description = Глорп зли злибле гнраниш! Глорб злабле злип спраззл злорп. гнар злип КОСМОКОП глорбо. (Вы — великий Злип! Вы сильно не любите преступность. Вы — КОСМОКОП.)
+ghost-role-information-zleeb-zlorb-rules = Вы — маленький инопланетный КОСМОКОП. Вы обязаны обеспечивать соблюдение своих законов (НЕ законов NanoTrasen!). Эти законы вы определяете сами, но они должны совпадать не более чем на 50% с космическим законом НТ. Что бы вы ни делали, НЕ будьте лизоблюдом. Обеспечивайте соблюдение СВОЕЙ версии галактического закона как можете. Удачи, КОСМОКОП!
 
-ghost-role-information-meowl-name = Meowl
-ghost-role-information-meowl-description = A highly invasive apex predator. The sole cause of the rapid decline of mothroaches.
+ghost-role-information-meowl-name = Мяусыч
+ghost-role-information-meowl-description = Крайне инвазивный высший хищник. Единственная причина стремительного сокращения таракамолей.

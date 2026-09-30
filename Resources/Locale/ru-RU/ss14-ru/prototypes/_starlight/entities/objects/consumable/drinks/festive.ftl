@@ -1,2 +1,2 @@
-ent-DrinkGravyBoat = gravy boat
-    .desc = A gravy boat. It simply oozes... gravy.
+ent-DrinkGravyBoat = соусник
+    .desc = Соусник. Он просто сочится... соусом.

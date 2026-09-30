@@ -1,4 +1,4 @@
-ent-MailTrolley = mail trolley
-    .desc = Perfect for all your package delivery needs.
-ent-GoldenMailTrolley = golden mail trolley
-    .desc = A brilliantly shining gold-and-silver mail cart for the most elite of mail technicians.
+ent-MailTrolley = почтовая тележка
+    .desc = Идеальна для всех ваших нужд по доставке посылок.
+ent-GoldenMailTrolley = золотая почтовая тележка
+    .desc = Ослепительно сверкающая золотисто-серебряная почтовая тележка для самых элитных почтовых техников.

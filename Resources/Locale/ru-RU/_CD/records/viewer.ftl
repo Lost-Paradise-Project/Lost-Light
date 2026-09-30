@@ -1,30 +1,30 @@
-cd-character-records-viewer-title-employ = Employment Records
-cd-character-records-viewer-title-sec = Security Records
-cd-character-records-viewer-title-med = Medical Records
+cd-character-records-viewer-title-employ = Записи о трудоустройстве
+cd-character-records-viewer-title-sec = Записи СБ
+cd-character-records-viewer-title-med = Медицинские записи
 
-cd-record-viewer-empty-state = Cannot fetch records.
-cd-record-viewer-no-record-selected = Please select record.
+cd-record-viewer-empty-state = Не удаётся получить записи.
+cd-record-viewer-no-record-selected = Пожалуйста, выберите запись.
 
-cd-character-records-viewer-record-age = Age:
-cd-character-records-viewer-record-job = Job:
-cd-character-records-viewer-record-gender = Gender:
-cd-character-records-viewer-record-species = Species:
+cd-character-records-viewer-record-age = Возраст:
+cd-character-records-viewer-record-job = Должность:
+cd-character-records-viewer-record-gender = Пол:
+cd-character-records-viewer-record-species = Раса:
 
-cd-character-records-viewer-record-sec-fingerprint = Fingerprint:
-cd-character-records-viewer-record-sec-dna = DNA:
+cd-character-records-viewer-record-sec-fingerprint = Отпечаток пальца:
+cd-character-records-viewer-record-sec-dna = ДНК:
 
-cd-character-records-viewer-unknown = ERROR UNKNOWN
+cd-character-records-viewer-unknown = ОШИБКА, НЕИЗВЕСТНО
 
-cd-character-records-viewer-record-med-sex = Sex:
+cd-character-records-viewer-record-med-sex = Пол:
 
-cd-character-records-viewer-view-entry = View
-cd-records-entry-view-popup-title = View Entry
+cd-character-records-viewer-view-entry = Просмотр
+cd-records-entry-view-popup-title = Просмотр записи
 
-cd-character-records-entry-view-title = Title:
-cd-character-records-entry-view-involved = Author(s):
+cd-character-records-entry-view-title = Название:
+cd-character-records-entry-view-involved = Автор(ы):
 
-cd-character-records-viewer-setwanted-placeholder = Reason
+cd-character-records-viewer-setwanted-placeholder = Причина
 
-cd-character-records-viewer-security-permanent-label = Permanent Records
-cd-character-records-viewer-security-current-shift-label = Current Shift Log
-cd-character-records-viewer-security-current-shift-empty = No current shift entries.
+cd-character-records-viewer-security-permanent-label = Постоянные записи
+cd-character-records-viewer-security-current-shift-label = Журнал текущей смены
+cd-character-records-viewer-security-current-shift-empty = Записей за текущую смену нет.

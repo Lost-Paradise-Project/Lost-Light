@@ -1,7 +1,7 @@
-gofish-card-name-reverse = gofish card
-gofish-card-desc-reverse = You can't tell what is on the other side of that fish card.
+gofish-card-name-reverse = карта «Рыбалки»
+gofish-card-desc-reverse = Не разобрать, что изображено на другой стороне этой рыбной карты.
 
-gofish-card-name = { gofish-card-value-name } Card
+gofish-card-name = Карта { gofish-card-value-name }
 gofish-card-value-name = { $card ->
     [rules] Rules
     [carp] Space Carp
@@ -64,8 +64,8 @@ gofish-card-value-name = { $card ->
 }
 
 gofish-card-desc =
-    The border of this card is { $suit }.
-    It belongs to the { gofish-card-group-name } group of cards!
+    Рамка этой карты — { $suit }.
+    Она принадлежит к группе карт { gofish-card-group-name }!
 
 gofish-card-suit-name = { $suit ->
     [gofishblue] Blue
@@ -135,67 +135,46 @@ gofish-card-group-name = { $id ->
     *[other] !!Brother you should not be seeing this...!!
 }
 
-gofish-card-rules-content = [color=#1b67a5] { "[head=1]                  Go Fish![/head]" }
-                                                  { "[head=4]               Card Game Rules & How to Play[/head]" }[/color]
-
+gofish-card-rules-content = [color=#1b67a5] { "[head=1]                  Рыбалка![/head]" }
+                                                  { "[head=4]               Правила карточной игры и как играть[/head]" }[/color]
                                                   ════════════════════════════════════════
-
-    { "[head=2]    Introduction:[/head]" }
-
-    Go Fish is a classic card game designed to be played by 2-6 players. The goal of Go Fish! is to collect all four cards from the same group to score points.
-    To start a game of Go Fish, begin by shuffling the deck. The amount of cards you would then deal depends on the number of players...
-
+                                                  { "[head=2]    Введение:[/head]" }
+    «Рыбалка» — классическая карточная игра для 2-6 игроков. Цель игры — собрать все четыре карты одной группы, чтобы заработать очки.
+    Чтобы начать игру, перетасуйте колоду. Сколько карт раздавать, зависит от числа игроков...
     ════════════════════════════════════════
-
-    { "[head=2]    Setup:[/head]" }
-
-    • { "[bold]2-3 players:[/bold]" } Deal 7 cards each.
-     • { "[bold]4-6 players:[/bold]" } Deal 5 cards each.
-     Once the cards have been dealt, return the deck to the middle of the table face down.
-
+    { "[head=2]    Подготовка:[/head]" }
+    • { "[bold]2-3 игрока:[/bold]" } по 7 карт каждому.
+    • { "[bold]4-6 игроков:[/bold]" } по 5 карт каждому.
+    Когда карты розданы, положите колоду в центр стола рубашкой вверх.
     ════════════════════════════════════════
-
-    { "[head=2]    Gameplay:[/head]" }
-
-    Players will take turn asking another player if they have a card belonging to a specific group. The asking player may only asks for cards from a specific group, if they hold one of those cards in their hand.
-    { "[bold]        Player 1:[/bold]" } Hey Player 2, got any Mothroaches?
-        Player 2 must surrender all Mothroach cards to Player 1 if they have any in their possesion. If this is the case, Player 1 can continue their turn and ask another player, repeating until they get one wrong.
-    { "[bold]        Player 1:[/bold]" } Hey Player 3, got any Mothroaches?
-        If the player doesn't have the a card belonging to that group, they must respond with "Go Fish!", forcing the player to draw a card.
-    { "[bold]                                                  Player 2:[/bold]" } Nope! Go Fish!
-        Player 1 would then draw a card from the deck. If they manage to draw a card belonging to a group they just asked for, then they must announce that and continue their turn.
-    { "[bold]        Player 1:[/bold]" } I drew a Mothroach! I get to go again!
-        If the card does not match the group they asked for, then the next player in the turn order begins their turn.
-
+    { "[head=2]    Игровой процесс:[/head]" }
+    Игроки по очереди спрашивают другого игрока, есть ли у него карта определённой группы. Спрашивать можно только про группу, карта которой есть у самого спрашивающего на руках.
+    { "[bold]        Игрок 1:[/bold]" } Эй, игрок 2, у тебя есть таракамоли?
+     Если у игрока 2 есть карты таракамолей, он обязан отдать их все игроку 1. В этом случае игрок 1 продолжает ход и спрашивает другого игрока, пока не ошибётся.
+     { "[bold]        Игрок 1:[/bold]" } Эй, игрок 3, у тебя есть таракамоли?
+    Если у игрока нет карты этой группы, он должен ответить «Лови рыбку!», и спрашивающий обязан взять карту из колоды.
+    { "[bold]                                                  Игрок 2:[/bold]" } Нет! Лови рыбку!
+    Тогда игрок 1 берёт карту из колоды. Если ему попалась карта группы, о которой он только что спрашивал, он должен объявить об этом и продолжить ход.
+    { "[bold]        Игрок 1:[/bold]" } Мне попалась таракамоль! Хожу ещё раз!
+    Если карта не совпадает с группой, о которой он спрашивал, ход переходит к следующему игроку по очереди.
     ════════════════════════════════════════
-
-    { "[head=2]    How To Win:[/head]" }
-
-    If a player manages to collect all four cards belonging to the same group, the player must place the four cards face up on the table and announce it to the other players.
-    For every set a player collects, they score one point.
-
-    The game ends when there are no cards left in the deck and all groups have been united. The player who has the most points will be declared the winner!
-
+    { "[head=2]    Как победить:[/head]" }
+        Если игроку удалось собрать все четыре карты одной группы, он должен выложить эти четыре карты лицом вверх на стол и объявить об этом остальным.
+    За каждый собранный набор игрок получает одно очко.
+        Игра заканчивается, когда в колоде не осталось карт и все группы собраны. Игрок с наибольшим числом очков объявляется победителем!
     ════════════════════════════════════════
-
-    { "[head=2]    Tips for Playing Go Fish![/head]" }
-
-    There are 13 groups in a standard Go Fish! deck.
-    Each group has four cards, with each card having a border color of either { "[bold][color=Red]Red[/color][/bold], [bold][color=DodgerBlue]Blue[/color][/bold], [bold][color=LimeGreen]Green[/color][/bold] or [bold][color=GoldenRod]Yellow[/color][/bold]" }.
-
-    The 13 groups are as follows...
-    { "[mono][bold]1:[/bold] Carp         [bold]6:[/bold] Cats       [bold]11:[/bold] Plushies" }
-    { "[bold]2:[/bold] Cigarettes   [bold]7:[/bold] Fruit      [bold]12:[/bold] Soda" }
-    { "[bold]3:[/bold] Corgis       [bold]8:[/bold] Mice       [bold]13:[/bold] Troublemakers" }
-    { "[bold]4:[/bold] Donuts       [bold]9:[/bold] Mothroachs" }
-    { "[bold]5:[/bold] ERT         [bold]10:[/bold] Nukies" }[/mono]
-
-    { "  • Remember to [bold]pay attention[/bold] to what other players ask for!" }
-
-    { "  • [bold]Remember who has which cards[/bold] so your guesses can be" }
-    more successful!
-
-        { "  • [bold]Avoid exposing cards[/bold] which you are a close to completing" }
-    a set with!
-
-        { "  • [bold]Remember to have fun![/bold]" }
+        { "[head=2]    Советы по игре:[/head]" }
+    В стандартной колоде «Рыбалки» 13 групп.
+        В каждой группе четыре карты, и цвет рамки каждой карты — { "[bold][color=Red]красный[/color][/bold], [bold][color=DodgerBlue]синий[/color][/bold], [bold][color=LimeGreen]зелёный[/color][/bold] или [bold][color=GoldenRod]жёлтый[/color][/bold]" }.
+    Вот эти 13 групп...
+    { "[mono][bold]1:[/bold] Карпы        [bold]6:[/bold] Кошки      [bold]11:[/bold] Плюшевые игрушки" }
+    { "[bold]2:[/bold] Сигареты     [bold]7:[/bold] Фрукты     [bold]12:[/bold] Газировка" }
+    { "[bold]3:[/bold] Корги        [bold]8:[/bold] Мыши       [bold]13:[/bold] Хулиганы" }
+    { "[bold]4:[/bold] Пончики      [bold]9:[/bold] Таракамоли" }
+    { "[bold]5:[/bold] ОБР         [bold]10:[/bold] Нюкеры" }[/mono]
+    { "  • Не забывайте [bold]следить[/bold], о чём спрашивают другие игроки!" }
+    { "  • [bold]Запоминайте, у кого какие карты[/bold], чтобы ваши догадки были" }
+    успешнее!
+    { "  • [bold]Не показывайте карты[/bold], с которыми вы близки к сбору" }
+    набора!
+    { "  • [bold]Не забывайте получать удовольствие![/bold]" }

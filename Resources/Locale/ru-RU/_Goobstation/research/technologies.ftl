@@ -1,1 +1,1 @@
-research-technology-radio-music-communication = Radio Music Communications
+research-technology-radio-music-communication = Музыкальная радиосвязь

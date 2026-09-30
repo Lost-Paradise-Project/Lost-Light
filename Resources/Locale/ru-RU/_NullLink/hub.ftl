@@ -1,22 +1,22 @@
-nulllink-hub-header = Servers
-nulllink-hub-hide = Hide
-nulllink-hub-show = Show
+nulllink-hub-header = Серверы
+nulllink-hub-hide = Скрыть
+nulllink-hub-show = Показать
 
-nulllink-hub-no-servers = No servers online
-nulllink-hub-status-unknown = Unknown
+nulllink-hub-no-servers = Нет серверов онлайн
+nulllink-hub-status-unknown = Неизвестно
 
-nulllink-hub-connect = Connect
-nulllink-hub-connected = Connected
+nulllink-hub-connect = Подключиться
+nulllink-hub-connected = Подключено
 
-nulllink-hub-online = { $online } online
+nulllink-hub-online = Онлайн: { $online }
 
-nulllink-hub-bunker = BUNKER
-nulllink-hub-bunker-age-any = any account age
-nulllink-hub-bunker-age = { $minutes } min account age
-nulllink-hub-bunker-playtime-any = any playtime
-nulllink-hub-bunker-playtime = { $minutes } min playtime
-nulllink-hub-bunker-tooltip = Panic bunker active — requires { $age }, { $playtime }.
+nulllink-hub-bunker = БУНКЕР
+nulllink-hub-bunker-age-any = любой возраст аккаунта
+nulllink-hub-bunker-age = возраст аккаунта от { $minutes } мин
+nulllink-hub-bunker-playtime-any = любое игровое время
+nulllink-hub-bunker-playtime = игровое время от { $minutes } мин
+nulllink-hub-bunker-tooltip = Активен бункерный режим: требуется { $age }, { $playtime }.
 
-nulllink-hub-insufficient-playtime = You don't have enough playtime for this server.
-nulllink-hub-recognition-tooltip = Playtime from this server is automatically counted here.
-nulllink-hub-ghost-tooltip = Playtime from this server grants a ghost theme here.
+nulllink-hub-insufficient-playtime = У вас недостаточно игрового времени для этого сервера.
+nulllink-hub-recognition-tooltip = Игровое время на этом сервере автоматически засчитывается здесь.
+nulllink-hub-ghost-tooltip = Игровое время на этом сервере даёт здесь тему призрака.

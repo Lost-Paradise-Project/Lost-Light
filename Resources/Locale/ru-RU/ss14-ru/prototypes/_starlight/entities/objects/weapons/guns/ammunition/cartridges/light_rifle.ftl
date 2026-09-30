@@ -1,10 +1,10 @@
-ent-CartridgeLightRifleRubber = cartridge (.30 rifle rubber)
+ent-CartridgeLightRifleRubber = патрон (.30 винтовочный резиновый)
     .desc = { ent-BaseCartridgeLightRifleSP.desc }
-ent-CartridgeLightRifleImprovised = improvised cartridge (.30 rifle)
-    .desc = A handmade rifle bullet, uses phosphorus as a propellent instead of gunpowder which makes it much less effective.
-ent-CartridgeLightRifleHP = cartridge (.30 rifle HP)
+ent-CartridgeLightRifleImprovised = самодельный патрон (.30 винтовочный)
+    .desc = Самодельная винтовочная пуля, использует фосфор вместо пороха, что делает её гораздо менее эффективной.
+ent-CartridgeLightRifleHP = патрон (.30 винтовочный HP)
     .desc = { ent-BaseCartridgeLightRifleSP.desc }
-ent-CartridgeLightRifleFMJ = cartridge (.30 rifle FMJ)
+ent-CartridgeLightRifleFMJ = патрон (.30 винтовочный ПОО)
     .desc = { ent-BaseCartridgeLightRifleSP.desc }
-ent-CartridgeLightRifleAP = cartridge (.30 rifle AP)
+ent-CartridgeLightRifleAP = патрон (.30 винтовочный бронебойный)
     .desc = { ent-BaseCartridgeLightRifleSP.desc }

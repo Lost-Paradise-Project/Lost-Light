@@ -1,4 +1,4 @@
-ent-StatusEffectVampireBloodSwell = blood swell
+ent-StatusEffectVampireBloodSwell = кровавое вздутие
     .desc = { ent-MobStatusEffectBase.desc }
-ent-StatusEffectVampireBloodRush = blood rush
+ent-StatusEffectVampireBloodRush = кровавый порыв
     .desc = { ent-MobStatusEffectBase.desc }

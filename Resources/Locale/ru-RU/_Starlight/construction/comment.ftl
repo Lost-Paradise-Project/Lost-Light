@@ -1,8 +1,8 @@
-construction-comment-name = Comment
-construction-comment-description = A note that only ever exists as a construction ghost. Useful for annotating plans.
-construction-comment-step = nothing, comments are notes and cannot be built
+construction-comment-name = Комментарий
+construction-comment-description = Записка, существующая только как призрак постройки. Полезна для пометок в планах.
+construction-comment-step = ничего, комментарии — это заметки, их нельзя построить
 
-construction-comment-verb = Edit Comment
-construction-comment-view-verb = View Comment
-construction-comment-examine = It reads:
-construction-comment-examine-empty = It is blank.
+construction-comment-verb = Изменить комментарий
+construction-comment-view-verb = Просмотреть комментарий
+construction-comment-examine = Там написано:
+construction-comment-examine-empty = Пусто.

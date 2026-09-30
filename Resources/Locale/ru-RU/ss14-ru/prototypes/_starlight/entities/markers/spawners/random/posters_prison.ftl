@@ -1,2 +1,2 @@
-ent-RandomPosterPrison = random prison poster spawner
+ent-RandomPosterPrison = спавнер случайного тюремного плаката
     .desc = { ent-MarkerBase.desc }

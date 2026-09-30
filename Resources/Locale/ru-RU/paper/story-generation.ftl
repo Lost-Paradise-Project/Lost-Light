@@ -96,14 +96,14 @@ story-gen-book-character39 = волшебник
 
 # Starlight edit start
 story-gen-book-character40 = слайм
-story-gen-book-character41 = elf
-story-gen-book-character42 = goblin
-story-gen-book-character43 = orc
-story-gen-book-character44 = IAA
-story-gen-book-character45 = shadekin
-story-gen-book-character46 = avali
-story-gen-book-character47 = resomi
-story-gen-book-character48 = thaven
+story-gen-book-character41 = эльф
+story-gen-book-character42 = гоблин
+story-gen-book-character43 = орк
+story-gen-book-character44 = агент внутренних дел
+story-gen-book-character45 = шейдкин
+story-gen-book-character46 = авали
+story-gen-book-character47 = ресоми
+story-gen-book-character48 = тавен
 # Starlight edit end
 
 story-gen-book-character-trait1 = глупый

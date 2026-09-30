@@ -1,9 +1,9 @@
 ent-DrinkDraganSpecialGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = dragan special
+    .suffix = особый Драган
 ent-DrinkTheHighlanderGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = The Highlander
-ent-DrinkWaterBottleEmpty = water bottle
-    .desc = Simple clean water of unknown origin. You think that maybe you don't want to know it.
-    .suffix = Empty
+    .suffix = Горец
+ent-DrinkWaterBottleEmpty = бутылка воды
+    .desc = Простая чистая вода неизвестного происхождения. Вам кажется, что, может быть, лучше не знать.
+    .suffix = Пусто

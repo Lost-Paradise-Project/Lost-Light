@@ -1,23 +1,23 @@
 # Armor Markings
-marking-NeoAvaliLightArmor = Light Neocyte-Avali Cybernetics
-marking-NeoAvaliLightArmor-light = Light Neocyte-Avali Cybernetics
+marking-NeoAvaliLightArmor = Лёгкая кибернетика неоцита-авали
+marking-NeoAvaliLightArmor-light = Лёгкая кибернетика неоцита-авали
 
 # LEDs - Faces
-marking-NeoAvaliLEDFaceSquare = Square Avali LEDs
-marking-NeoAvaliLEDFaceSquare-square = Square Avali LEDs
-marking-NeoAvaliLEDFaceCircular = Circular Avali LEDs
-marking-NeoAvaliLEDFaceCircular-circular = Circular Avali LEDs
-marking-NeoAvaliLEDFaceDiagonal = Diagonal Avali LEDs
-marking-NeoAvaliLEDFaceDiagonal-diagonal = Diagonal Avali LEDs
-marking-NeoAvaliLEDFaceStraight = Straight Avali LEDs
-marking-NeoAvaliLEDFaceStraight-straight = Straight Avali LEDs
-marking-NeoAvaliLEDFacePenta = Penta Avali LEDs
-marking-NeoAvaliLEDFacePenta-penta = Penta Avali LEDs
-marking-NeoAvaliLEDFaceSun = Sun Avali LEDs
-marking-NeoAvaliLEDFaceSun-sun = Sun Avali LEDs
+marking-NeoAvaliLEDFaceSquare = Квадратные светодиоды авали
+marking-NeoAvaliLEDFaceSquare-square = Квадратные светодиоды авали
+marking-NeoAvaliLEDFaceCircular = Круглые светодиоды авали
+marking-NeoAvaliLEDFaceCircular-circular = Круглые светодиоды авали
+marking-NeoAvaliLEDFaceDiagonal = Диагональные светодиоды авали
+marking-NeoAvaliLEDFaceDiagonal-diagonal = Диагональные светодиоды авали
+marking-NeoAvaliLEDFaceStraight = Прямые светодиоды авали
+marking-NeoAvaliLEDFaceStraight-straight = Прямые светодиоды авали
+marking-NeoAvaliLEDFacePenta = Пятиточечные светодиоды авали
+marking-NeoAvaliLEDFacePenta-penta = Пятиточечные светодиоды авали
+marking-NeoAvaliLEDFaceSun = Солнечные светодиоды авали
+marking-NeoAvaliLEDFaceSun-sun = Солнечные светодиоды авали
 
 # Visors
-marking-NeoAvaliVisorLightless = Avali Visor w/o Lights
-marking-NeoAvaliVisorLightless-lightless = Avali Visor w/o Lights
-marking-NeoAvaliVisorColorable = Avali Visor w/ Colorable Screen
-marking-NeoAvaliVisorColorable-colorable = Avali Visor w/ Colorable Screen
+marking-NeoAvaliVisorLightless = Визор авали без подсветки
+marking-NeoAvaliVisorLightless-lightless = Визор авали без подсветки
+marking-NeoAvaliVisorColorable = Визор авали с цветным экраном
+marking-NeoAvaliVisorColorable-colorable = Визор авали с цветным экраном

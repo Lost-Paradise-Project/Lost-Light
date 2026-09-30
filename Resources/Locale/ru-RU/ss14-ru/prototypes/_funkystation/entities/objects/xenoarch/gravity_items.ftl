@@ -1,6 +1,6 @@
 ent-TrashBananaPeelGravityWell = { ent-TrashBananaPeel }
-    .desc = It appears to be a normal banana peel, but something compels you towards it.
-    .suffix = Gravity
+    .desc = Похоже на обычную банановую кожуру, но что-то притягивает вас к ней.
+    .suffix = Гравитация
 ent-ToyFigurineMimeReverseGravityWell = { ent-ToyFigurineMime }
-    .desc = The humble mime figurine, something about its presence revolts you and compels you to leave and never return.
-    .suffix = Reverse Gravity
+    .desc = Скромная фигурка мима, само её присутствие вызывает отвращение и заставляет уйти и никогда не возвращаться.
+    .suffix = Обратная гравитация

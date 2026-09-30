@@ -1,4 +1,4 @@
-encryption-key-mute = Mute
-encryption-key-muted = muted
-encryption-key-unmute = Unmute
-encryption-key-unmuted = unmuted
+encryption-key-mute = Отключить звук
+encryption-key-muted = заглушено
+encryption-key-unmute = Включить звук
+encryption-key-unmuted = включён звук

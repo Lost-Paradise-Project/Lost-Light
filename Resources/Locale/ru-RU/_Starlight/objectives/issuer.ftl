@@ -1,1 +1,1 @@
-objective-issuer-mind = Mind
+objective-issuer-mind = Разум

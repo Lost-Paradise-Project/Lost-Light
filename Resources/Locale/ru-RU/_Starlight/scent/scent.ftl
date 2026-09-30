@@ -1,33 +1,33 @@
-scent-sniff-window-title = Scent Trace
-scent-sniff-window-empty = No scents detected.
-scent-sniff-window-empty-traces = No other scent traces detected.
-scent-sniff-window-entry-id = [color={ $color }]Scent ({ $id }...)[/color]
+scent-sniff-window-title = След запаха
+scent-sniff-window-empty = Запахов не обнаружено.
+scent-sniff-window-empty-traces = Других следов запаха не обнаружено.
+scent-sniff-window-entry-id = [color={ $color }]Запах ({ $id }...)[/color]
 scent-sniff-window-entry-detail = [color={ $color }]{ $species } — { $freshness }[/color]
-scent-sniff-window-track-tooltip = Click to track this scent
-scent-sniff-window-tracking-popup = You start tracking this scent.
-scent-sniff-window-track-own = Track this creature's scent directly
-scent-sniff-window-track-own-tooltip = Track this individual's scent directly.
+scent-sniff-window-track-tooltip = Нажмите, чтобы выследить этот запах
+scent-sniff-window-tracking-popup = Вы начинаете выслеживать этот запах.
+scent-sniff-window-track-own = Выследить запах этого существа напрямую
+scent-sniff-window-track-own-tooltip = Выследить запах этого индивида напрямую.
 
-scent-species-non-humanoid = Non-Humanoid
+scent-species-non-humanoid = Не гуманоид
 
-scent-freshness-very-fresh = Very Fresh
-scent-freshness-fresh = Fresh
-scent-freshness-somewhat-fresh = Somewhat Fresh
-scent-freshness-not-very-fresh = Not Very Fresh
+scent-freshness-very-fresh = Очень свежий
+scent-freshness-fresh = Свежий
+scent-freshness-somewhat-fresh = Довольно свежий
+scent-freshness-not-very-fresh = Не очень свежий
 
-scent-sniff-no-scents = There are no scents on { $target }!
+scent-sniff-no-scents = На { $target } нет запахов!
 
-scent-sneeze-popup = You clear your nose of your tracked scent.
+scent-sneeze-popup = Вы очищаете нос от выслеживаемого запаха.
 
-scent-cleaning-self = You start washing the { $evidence } off yourself...
-scent-cleaning-other = You start washing the { $evidence } off { $target }...
-scent-cleaning-cannot-clean-self = You have no evidence to wash away.
-scent-cleaning-cannot-clean-other = There is no evidence to wash off { $target }.
+scent-cleaning-self = Вы начинаете смывать { $evidence } с себя...
+scent-cleaning-other = Вы начинаете смывать { $evidence } с { $target }...
+scent-cleaning-cannot-clean-self = У вас нет улик, которые можно смыть.
+scent-cleaning-cannot-clean-other = Нет улик, которые можно смыть с { $target }.
 
-scent-verb-text = Remove evidence
-scent-verb-message = Wash scent, stains, fingerprints, and DNA residue off the object!
+scent-verb-text = Убрать улики
+scent-verb-message = Смойте с предмета запах, пятна, отпечатки пальцев и остатки ДНК!
 
-scent-evidence-scent = scent
-scent-evidence-forensics = fingerprints and other evidence
-scent-evidence-both = scent, fingerprints, and other evidence
-scent-evidence-stains = stains
+scent-evidence-scent = запах
+scent-evidence-forensics = отпечатки пальцев и другие улики
+scent-evidence-both = запах, отпечатки пальцев и другие улики
+scent-evidence-stains = пятна

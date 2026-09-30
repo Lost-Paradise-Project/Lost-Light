@@ -1,2 +1,2 @@
-ent-ExtractObjective = Extract off station
-    .desc = Use your gloves on an escape pod console to extract!
+ent-ExtractObjective = Эвакуироваться со станции
+    .desc = Используйте перчатки на консоли спасательной капсулы для эвакуации!

@@ -1,8 +1,8 @@
-ent-ClothingOuterHardsuitMedTak = MedTak operator hardsuit
-    .desc = An armoured hardsuit worn by MedTak operators.
-ent-ClothingOuterHardsuitMedTakMedic = MedTak medic hardsuit
-    .desc = An armoured hardsuit worn by MedTak medics, with a defibrillator system built into it.
-ent-ClothingOuterHardsuitMedTakPilot = MedTak pilot hardsuit
+ent-ClothingOuterHardsuitMedTak = скафандр оператора МедТак
+    .desc = Бронированный скафандр, носимый операторами МедТак.
+ent-ClothingOuterHardsuitMedTakMedic = скафандр медика МедТак
+    .desc = Бронированный скафандр, носимый медиками МедТак, со встроенной системой дефибриллятора.
+ent-ClothingOuterHardsuitMedTakPilot = скафандр пилота МедТак
     .desc = { ent-ClothingOuterHardsuitMedTak.desc }
-ent-ClothingOuterHardsuitMedTakHeavy = MedTak heavy hardsuit
-    .desc = A heavily armoured hardsuit worn by MedTak heavy security.
+ent-ClothingOuterHardsuitMedTakHeavy = тяжёлый скафандр МедТак
+    .desc = Тяжело бронированный скафандр, носимый тяжёлой СБ МедТак.

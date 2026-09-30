@@ -1,11 +1,11 @@
-ghost-role-information-blackstar-operative-name = Blackstar Dreadwalker
-ghost-role-information-blackstar-operative-description = You are an elite operative of the Blackstar mercenary group, a Dreadwalker. Follow the High Legate's orders and carry out your contract by any means necessary.
+ghost-role-information-blackstar-operative-name = Ходок ужаса Чёрной звезды
+ghost-role-information-blackstar-operative-description = Вы элитный оперативник наёмной группы «Чёрная звезда», Ходок ужаса. Следуйте приказам Верховного легата и выполните свой контракт любыми средствами.
 
-ghost-role-information-blackstar-legionnaire-name = Blackstar Legionnaire
-ghost-role-information-blackstar-legionnaire-description = You are a Legionnaire of the Blackstar mercenary group. Follow the Legate's orders and complete your contract.
+ghost-role-information-blackstar-legionnaire-name = Легионер Чёрной звезды
+ghost-role-information-blackstar-legionnaire-description = Вы легионер наёмной группы «Чёрная звезда». Следуйте приказам Легата и выполните свой контракт.
 
-ghost-role-information-blackstar-blackguard-name = Blackstar Blackguard
-ghost-role-information-blackstar-blackguard-description = You are a Blackguard, internal security of the Blackstar Legion. Maintain order and protect Blackstar assets.
+ghost-role-information-blackstar-blackguard-name = Блэкгард Чёрной звезды
+ghost-role-information-blackstar-blackguard-description = Вы блэкгард — внутренняя безопасность Легиона Чёрной звезды. Поддерживайте порядок и защищайте имущество Чёрной звезды.
 
-ghost-role-information-blackstar-initiate-name = Blackstar Initiate
-ghost-role-information-blackstar-initiate-description = You are a new recruit to the Blackstar mercenary group. Support the team and prove your worth.
+ghost-role-information-blackstar-initiate-name = Новичок Чёрной звезды
+ghost-role-information-blackstar-initiate-description = Вы новобранец наёмной группы «Чёрная звезда». Поддерживайте команду и докажите свою ценность.

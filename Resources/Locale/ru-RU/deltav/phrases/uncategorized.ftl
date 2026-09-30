@@ -1,7 +1,7 @@
-phrase-location-ats = ATS
-phrase-location-shipyard = Shipyard
-phrase-location-boxing-ring = Boxing Ring
-phrase-location-outpost = Outpost
-phrase-location-escape-shuttle = Escape shuttle
-phrase-location-shuttle = Shuttle
-phrase-location-maintenance = Maintenance
+phrase-location-ats = АТС
+phrase-location-shipyard = Верфь
+phrase-location-boxing-ring = Боксёрский ринг
+phrase-location-outpost = Аванпост
+phrase-location-escape-shuttle = Эвакуационный шаттл
+phrase-location-shuttle = Шаттл
+phrase-location-maintenance = Техтоннели

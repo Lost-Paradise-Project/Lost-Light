@@ -1,2 +1,2 @@
-ent-QuantityDespawnScent = scent despawn category
+ent-QuantityDespawnScent = категория исчезновения запаха
     .desc = { "" }

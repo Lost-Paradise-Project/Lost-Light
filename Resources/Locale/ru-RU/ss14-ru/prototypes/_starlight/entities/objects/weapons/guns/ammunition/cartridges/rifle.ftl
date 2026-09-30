@@ -1,8 +1,8 @@
-ent-CartridgeRifleRubber = cartridge (.20 rifle rubber)
+ent-CartridgeRifleRubber = патрон (.20 винтовочный резиновый)
     .desc = { ent-BaseCartridgeRifle.desc }
-ent-CartridgeRifleHP = cartridge (.20 rifle HP)
-    .desc = A modern intermediate cartridge for combat rifles. Standard kinetic ammunition is common and useful in most situations.
-ent-CartridgeRifleFMJ = cartridge (.20 rifle FMJ)
+ent-CartridgeRifleHP = патрон (.20 винтовочный HP)
+    .desc = Современный промежуточный патрон для боевых винтовок. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
+ent-CartridgeRifleFMJ = патрон (.20 винтовочный ПОО)
     .desc = { ent-BaseCartridgeRifle.desc }
-ent-CartridgeRifleAP = cartridge (.20 rifle AP)
+ent-CartridgeRifleAP = патрон (.20 винтовочный бронебойный)
     .desc = { ent-BaseCartridgeRifle.desc }

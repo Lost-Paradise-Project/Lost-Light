@@ -126,11 +126,11 @@ uplink-mosin-ammo-desc = Коробка с 60 патронами для резе
 uplink-sniper-ammo-name = Коробка патронов (.60 крупнокалиберные)
 uplink-sniper-ammo-desc = Коробка с 10 патронами для снайперской винтовки Христов.
 
-uplink-grenade-launcher-frag-ammo-name = Frag grenade cartidge (China-Lake)
-uplink-grenade-launcher-frag-ammo-desc = A pack of 6 frag grenade cartridges. Compatible with the China Lake grenade launcher.
+uplink-grenade-launcher-frag-ammo-name = Картридж осколочных гранат (China-Lake)
+uplink-grenade-launcher-frag-ammo-desc = Набор из 6 картриджей осколочных гранат. Совместим с гранатомётом China Lake.
 
-uplink-grenade-launcher-blast-ammo-name = Blast grenade cartidge (China-Lake)
-uplink-grenade-launcher-blast-ammo-desc = A pack of 6 blast grenade cartridges. Compatible with the China Lake grenade launcher.
+uplink-grenade-launcher-blast-ammo-name = Картридж фугасных гранат (China-Lake)
+uplink-grenade-launcher-blast-ammo-desc = Набор из 6 картриджей фугасных гранат. Совместим с гранатомётом China Lake.
 
 # Utility
 uplink-holopara-kit-name = Набор "Голопаразит"
@@ -171,14 +171,14 @@ uplink-reinforcement-radio-traitor-desc =  Телепортирует в кач�
 uplink-reinforcement-radio-nukeops-name = Телепорт Ядерного оперативника
 uplink-reinforcement-radio-nukeops-desc =  Телепортирует в качестве подкрепления сомнительного качества ядерного оперативника. Не имеет кнопки отключения, покупайте его только если вы готовы к вечеринке. У них будет базовое снаряжение ядерного оперативника.
 
-uplink-reinforcement-radio-assault-cyborg-name = Syndicate Assault Cyborg Teleporter
-uplink-reinforcement-radio-assault-cyborg-desc = Radio in a syndicate assault cyborg, equipped with a modified L6, a double esword and basic hacking tools.
+uplink-reinforcement-radio-assault-cyborg-name = Телепорт штурмового киборга Синдиката
+uplink-reinforcement-radio-assault-cyborg-desc = Вызывает по рации штурмового киборга Синдиката, оснащённого модифицированным L6, двойным энергомечом и базовым набором для взлома.
 
-uplink-mech-teleporter-heavy-name = Heavy Mech teleporter
-uplink-mech-teleporter-heavy-desc = Contains Cybersun heavy armored mech with integrated chainsword, Ultra AC-2, LBX AC 10 "Scattershot", BRM-6 Missile Rack and P-X Tesla Cannon.
+uplink-mech-teleporter-heavy-name = Телепорт тяжёлого меха
+uplink-mech-teleporter-heavy-desc = Содержит тяжело бронированный мех Cybersun со встроенной цепной пилой, Ultra AC-2, LBX AC 10 «Дробовик», ракетной установкой BRM-6 и тесла-пушкой P-X.
 
-uplink-mech-teleporter-assault-name = Assault Mech teleporter
-uplink-mech-teleporter-assault-desc = Contains Cybersun lightly armored mech with integrated chainsword, LBX AC 10 "Scattershot", SRM-8 Light Missile Rack and P-X Tesla Cannon.
+uplink-mech-teleporter-assault-name = Телепорт штурмового меха
+uplink-mech-teleporter-assault-desc = Содержит лёгкобронированный мех Cybersun со встроенной цепной пилой, LBX AC 10 «Дробовик», лёгкой ракетной установкой SRM-8 и тесла-пушкой P-X.
 
 uplink-stealth-box-name = Стелс-коробка
 uplink-stealth-box-desc = Ящик, оснащённый технологией невидимости. Пробирайтесь незамеченными, но не двигайтесь слишком быстро, иначе вы раскроете себя!
@@ -389,8 +389,8 @@ uplink-hardsuit-syndie-desc = Широко известный бронирова
 uplink-syndie-raid-name = Рейдерский костюм Синдиката
 uplink-syndie-raid-desc = Очень прочный и довольно гибкий костюм с кроваво-красным бронированием, лучше защищающий от всех обычных видов повреждений, но не предназначенный для выхода в открытый космос. Поставляется в комплекте с крутым шлемом.
 
-uplink-hardsuit-infiltration-name = Syndicate Infiltration Hardsuit
-uplink-hardsuit-infiltration-desc = The Syndicate's Special Operations' hardsuit of choice, this hardsuit, as well as durability, has been built with chameleon technology integrated.
+uplink-hardsuit-infiltration-name = Скафандр проникновения Синдиката
+uplink-hardsuit-infiltration-desc = Скафандр, который предпочитает спецназ Синдиката. Помимо прочности, он оснащён технологией хамелеона.
 
 uplink-hardsuit-syndieelite-name = Элитный МОД-костюм Синдиката
 uplink-hardsuit-syndieelite-desc = Элитная версия кроваво-красного скафандра, отличающаяся повышенной мобильностью и огнеупорностью. Собственность Мародёров Горлекса.
@@ -398,8 +398,8 @@ uplink-hardsuit-syndieelite-desc = Элитная версия кроваво-к
 uplink-clothing-outer-hardsuit-juggernaut-name = Скафандр джаггернаута Cybersun
 uplink-clothing-outer-hardsuit-juggernaut-desc = Сверхпрочная броня из материалов, испытанных в хромосферном комплексе Тау. Единственное, что сможет вас задержать — этот костюм... и тазеры.
 
-uplink-energy-dome-name = Personal energy dome
-uplink-energy-dome-desc = A personal shield generator that protects the wearer from lasers and bullets but prevents from using ranged weapons himself. Comes with a small power cell.
+uplink-energy-dome-name = Персональный энергокупол
+uplink-energy-dome-desc = Персональный генератор щита, защищающий владельца от лазеров и пуль, но не позволяющий ему самому стрелять. Поставляется с небольшой батареей.
 
 # Misc
 uplink-cyberpen-name = Ручка Cybersun

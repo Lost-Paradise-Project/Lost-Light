@@ -3,4 +3,4 @@ ent-AirlockAssemblyNT = { ent-AirlockAssembly }
     .suffix = NanoTrasen
 ent-AirlockAssemblyNTGlass = { ent-AirlockAssembly }
     .desc = { ent-AirlockAssembly.desc }
-    .suffix = NanoTrasen, Glass
+    .suffix = НаноТрейзен, стекло

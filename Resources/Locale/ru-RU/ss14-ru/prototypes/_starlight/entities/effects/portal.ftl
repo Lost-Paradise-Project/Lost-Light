@@ -1,2 +1,2 @@
 ent-PortalGreeny = { "" }
-    .desc = A mysterious green portal!
+    .desc = Таинственный зелёный портал!

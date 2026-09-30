@@ -1,73 +1,73 @@
-trait-category-languages = Languages
+trait-category-languages = Языки
 
-trait-language-foreigner-light-name = Foreigner Light
-trait-language-foreigner-light-desc = You understand the common language, but you can't quite speak it yet. You have a translator to help you with your basic understanding of the language. Better keep it charged.
+trait-language-foreigner-light-name = Иностранец (лёгкий)
+trait-language-foreigner-light-desc = Вы понимаете общий язык, но пока не совсем можете на нём говорить. У вас есть переводчик, помогающий вам с базовым пониманием языка. Лучше держите его заряженным.
 
-trait-language-foreigner-name = Foreigner
-trait-language-foreigner-desc = You can't understand the common language, and you require a translator at all times to talk. You have a translator to help you with your understanding and speaking. Make sure to keep it charged.
+trait-language-foreigner-name = Иностранец
+trait-language-foreigner-desc = Вы не понимаете общий язык и всегда нуждаетесь в переводчике, чтобы говорить. У вас есть переводчик, помогающий вам с пониманием и речью. Следите, чтобы он был заряжен.
 
-trait-language-xenosocialized-name = Xenosocialized
-trait-language-xenosocialized-desc = You were raised without being taught the language your species normally uses.
+trait-language-xenosocialized-name = Ксеносоциализированный
+trait-language-xenosocialized-desc = Вас растили, не обучая языку, на котором обычно говорит ваш вид.
 
-trait-language-signlanguage-name = Galactic Sign Language
-trait-language-signlanguage-desc = A sign language commonly used for those who are deaf or mute. Especially popular with spacers, due to practicality in airless environments.
+trait-language-signlanguage-name = Галактический язык жестов
+trait-language-signlanguage-desc = Язык жестов, обычно используемый глухими или немыми. Особенно популярен среди космонавтов из-за практичности в безвоздушной среде.
 
-trait-language-classicalsign-name = Classical Sign Language
-trait-language-classicalsign-desc = An older, more obscure sign language originating from Terra. It is completely distinct from Galactic Sign Language.
+trait-language-classicalsign-name = Классический язык жестов
+trait-language-classicalsign-desc = Более старый и малоизвестный язык жестов родом с Терры. Полностью отличается от Галактического языка жестов.
 
-trait-language-bubblish-name = Bubblish
-trait-language-bubblish-desc = You've picked up on how to communicate in Bubblish, the language of the slimes spoken using a variety of blops and pops.
+trait-language-bubblish-name = Бабблиш
+trait-language-bubblish-desc = Вы научились общаться на бабблише — языке слаймов, на котором говорят разнообразными бульканьями и хлопками.
 
-trait-language-canilunzt-name = Canilunzt
-trait-language-canilunzt-desc = You have the ability to speak Canilunzt, a guttural language used by Vulpkanin which heavily incorporates body movements.
+trait-language-canilunzt-name = Канилунцт
+trait-language-canilunzt-desc = Вы умеете говорить на канилунцте — гортанном языке вульпканинов, в котором активно используются движения тела.
 
-trait-language-draconic-name = Draconic
-trait-language-draconic-desc = You can make the sounds needed to speak Draconic, the lizard-tongue composed entirely of hissing and rattling.
+trait-language-draconic-name = Драконий
+trait-language-draconic-desc = Вы можете издавать звуки, необходимые для драконьего — языка ящеров, целиком состоящего из шипения и трескотни.
 
-trait-language-marish-name = Marish
-trait-language-marish-desc = Somehow, you can communicate with Shadekin in their native Marish — a language comprised only of one word, with many different meanings.
+trait-language-marish-name = Мариш
+trait-language-marish-desc = Каким-то образом вы можете общаться с шейдекинами на их родном мариш — языке из единственного слова со множеством разных значений.
 
-trait-language-nekomimetic-name = Nekomimetic
-trait-language-nekomimetic-desc = To most normal people, this is just broken Old Earth Japanese. To you — and felionoids — it's somehow intelligible.
+trait-language-nekomimetic-name = Некомимитик
+trait-language-nekomimetic-desc = Для большинства нормальных людей это просто сломанный японский Старой Земли. Для вас — и фелионоидов — он почему-то понятен.
 
-trait-language-scratch-name = Scratch
-trait-language-scratch-desc = You know how to speak and understand Avali Scratch, the galactic language shared by both Avali and Resomi.
+trait-language-scratch-name = Царапина
+trait-language-scratch-desc = Вы умеете говорить и понимать авалийский скретч — галактический язык, общий для авали и ресоми.
 
-trait-language-solcommon-name = Sol Common
-trait-language-solcommon-desc = You picked up knowledge on Sol Common, Old Earth's current primary language developed by the Trans-Solar Federation.
+trait-language-solcommon-name = Общий Сол
+trait-language-solcommon-desc = Вы освоили общий Сол — основной язык современной Старой Земли, разработанный Транссолнечной федерацией.
 
-trait-language-sylvan-name = Sylvan
-trait-language-sylvan-desc = You understand Sylvan, spoken by Dionae and plants alike. Most people would probably call you crazy if you said you could talk to plants.
+trait-language-sylvan-name = Сильван
+trait-language-sylvan-desc = Вы понимаете сильван, на котором говорят дионы и растения. Большинство людей, наверное, назвали бы вас безумцем, скажи вы, что можете разговаривать с растениями.
 
-trait-language-terrum-name = Terrum
-trait-language-terrum-desc = You can speak Terrum, the language of the Cyclorites — which sounds strikingly similar to Old Earth Hebrew.
+trait-language-terrum-name = Террум
+trait-language-terrum-desc = Вы можете говорить на террум — языке циклоритов, звучащем поразительно похоже на древнеземной иврит.
 
-trait-language-voxpidgin-name = Vox Pidgin
-trait-language-voxpidgin-desc = You know the language of the Vox, a language mostly made of screeches, clicks, and other assorted bird noises.
+trait-language-voxpidgin-name = Воксский пиджин
+trait-language-voxpidgin-desc = Вы знаете язык воксов — язык, в основном состоящий из визга, щелчков и прочих птичьих звуков.
 
-trait-language-moffic-name = Moffic
-trait-language-moffic-desc = The language of the moth-people, Moffic is basically completely unintelligible to all but yourself and it's native speakers.
+trait-language-moffic-name = Моффик
+trait-language-moffic-desc = Язык мотыльков, моффик, для всех, кроме вас и его носителей, практически совершенно неразборчив.
 
-trait-language-thaveyan-name = Thaveyan
-trait-language-thaveyan-desc = You've been around the fish people long enough to master the rhythm of their tongue, though perhaps not their erratic moods.
+trait-language-thaveyan-name = Тавенский
+trait-language-thaveyan-desc = Вы провели рядом с рыболюдьми достаточно времени, чтобы освоить ритм их языка, хотя, возможно, не их переменчивое настроение.
 
-trait-language-darktongue-name = Darktongue
-trait-language-darktongue-desc = This coarse language of ne'er-do-wells and crazed fanatics is easy to pick up, but don't let Security hear you speaking it, or they'll think you're up to something...
+trait-language-darktongue-name = Язык тьмы
+trait-language-darktongue-desc = Этот грубый язык бездельников и безумных фанатиков легко освоить, но не дайте СБ услышать, как вы на нём говорите, иначе они решат, что вы что-то замышляете...
 
-trait-language-felyaic-name = Felyaic
-trait-language-felyaic-desc = This more refined form of Darktongue is understood by seiryth and detarii, but is virtually unknown outside of the Null Scar. You must purchase the Darktongue trait to learn to speak Felyaic, even if you already know how to speak Darktongue from another source.
+trait-language-felyaic-name = Фелийский
+trait-language-felyaic-desc = Эта более утончённая форма языка тьмы понятна сейритам и детарии, но практически неизвестна за пределами Нулевого шрама. Вы должны приобрести черту «Язык тьмы», чтобы научиться говорить на фелийском, даже если вы уже умеете говорить на языке тьмы из другого источника.
 
-trait-language-classical-name = Classical
-trait-language-classical-desc = Once upon a time, everyone spoke this language. Not as hard to pick up as you might expect.
+trait-language-classical-name = Классический
+trait-language-classical-desc = Когда-то на этом языке говорили все. Освоить его не так сложно, как можно ожидать.
 
-trait-language-grumbakul-name = Grumbakul
-trait-language-grumbakul-desc = You have mastered the language of Dwarfkind, or at least that's what your Dwarf friends tell you.
+trait-language-grumbakul-name = Грумбакул
+trait-language-grumbakul-desc = Вы овладели языком дворфов, по крайней мере так говорят ваши друзья-дворфы.
 
-trait-language-aielic-name = Aielic
-trait-language-aielic-desc = The beautiful language of the queli is ideally suited to poetry, but make one mistake and you'll never live it down.
+trait-language-aielic-name = Айелик
+trait-language-aielic-desc = Прекрасный язык квели идеально подходит для поэзии, но допустите одну ошибку — и вам этого не забудут.
 
-trait-language-lagomorphian-name = Lagomorphian
-trait-language-lagomorphian-desc = The lynarxical tongue, developed as an integration language for the Lagomorph's differing vocal structure.
+trait-language-lagomorphian-name = Лагоморфский
+trait-language-lagomorphian-desc = Линарксичный язык, созданный как язык-посредник для разных голосовых устройств лагоморфов.
 
-trait-language-squeakish-name = Squeakish
-trait-language-squeakish-desc = You can speak Squeakish, the language of the Rodentia, which is made up of a series of chirps and squeaks.
+trait-language-squeakish-name = Пискиш
+trait-language-squeakish-desc = Вы можете говорить на пискише — языке грызунов, состоящем из череды чириканья и писка.

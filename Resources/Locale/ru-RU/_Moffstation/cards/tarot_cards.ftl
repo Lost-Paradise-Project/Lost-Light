@@ -1,5 +1,5 @@
-tarot-card-name-reverse = Tarot Card
-tarot-card-desc-reverse = The gold etchings on the back of this card are truly magnificent...
+tarot-card-name-reverse = карта Таро
+tarot-card-desc-reverse = Золотые узоры на обороте этой карты поистине великолепны...
 
 tarot-card-value-name = { $card ->
     [the_fool] 0: The Fool
@@ -54,4 +54,4 @@ tarot-card-desc = { $id ->
     *[invalid] !!invalid!!
 }
 
-tarot-card = Tarot Card
+tarot-card = карта Таро

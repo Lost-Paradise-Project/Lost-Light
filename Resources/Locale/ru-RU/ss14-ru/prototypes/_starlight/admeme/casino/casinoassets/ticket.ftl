@@ -1,3 +1,3 @@
-ent-TicketGold = gold ticket
-    .desc = A golden ticket with printed number and Casino logo.
-    .suffix = ADMEME
+ent-TicketGold = золотой билет
+    .desc = Золотой билет с напечатанным номером и логотипом казино.
+    .suffix = АДМЕМ

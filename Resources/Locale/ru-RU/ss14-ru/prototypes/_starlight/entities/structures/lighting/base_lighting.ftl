@@ -1,12 +1,12 @@
 ent-PoweredlightBlackLight = { ent-Poweredlight }
-    .desc = A light fixture. Draws power and produces light when equipped with a light tube.
-    .suffix = black light
+    .desc = Светильник. Потребляет энергию и излучает свет, когда в него вставлена лампа-трубка.
+    .suffix = ультрафиолетовая лампа
 ent-AlwaysPoweredLightBlackLight = { ent-AlwaysPoweredWallLight }
     .desc = { ent-AlwaysPoweredWallLight.desc }
-    .suffix = Always Powered, black light
+    .suffix = Всегда запитан, ультрафиолетовая лампа
 ent-PoweredlightWarm = { ent-Poweredlight }
     .desc = { ent-Poweredlight.desc }
-    .suffix = Warm
+    .suffix = Тёплая
 ent-AlwaysPoweredLightWarm = { ent-AlwaysPoweredWallLight }
     .desc = { ent-AlwaysPoweredWallLight.desc }
-    .suffix = Always Powered, Warm
+    .suffix = Всегда запитан, тёплая

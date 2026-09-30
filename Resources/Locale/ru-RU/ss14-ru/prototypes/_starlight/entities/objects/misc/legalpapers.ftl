@@ -1,4 +1,4 @@
-ent-RDDiploma = rd's doctorate
-    .desc = The RD's PhD. You can't believe they went to that school!
-ent-CMOLicense = cmo's medical license
-    .desc = The CMO's medical license. You can't believe it's not expired.
+ent-RDDiploma = докторская степень ДИ
+    .desc = Докторская степень ДИ. Не могу поверить, что он учился в этом вузе!
+ent-CMOLicense = медицинская лицензия ГВ
+    .desc = Медицинская лицензия ГВ. Не могу поверить, что она не просрочена.

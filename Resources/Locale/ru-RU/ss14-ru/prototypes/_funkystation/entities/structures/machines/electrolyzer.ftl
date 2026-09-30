@@ -1,2 +1,2 @@
-ent-Electrolyzer = electrolyzer
-    .desc = A machine that processes and transforms gases through electrolysis. Runs off massive amounts of electricity but can be turbo charged with plasma sheets.
+ent-Electrolyzer = электролизёр
+    .desc = Машина, которая обрабатывает и преобразует газы с помощью электролиза. Потребляет огромное количество электричества, но может быть турбоускорена листами плазмы.

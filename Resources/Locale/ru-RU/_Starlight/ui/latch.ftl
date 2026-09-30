@@ -1,9 +1,9 @@
-latch-title = LATCHED
-latch-label-timeremaining = Time
-latch-label-timemax = Max
-latch-bite-harder-button = Bite Harder
+latch-title = СЦЕПЛЕН
+latch-label-timeremaining = Время
+latch-label-timemax = Макс
+latch-bite-harder-button = Кусать сильнее
 
-latch-instruction-latcher = Bite harder to deal more damage
+latch-instruction-latcher = Кусайте сильнее, чтобы наносить больше урона
     and extend the latch duration!
-latch-instruction-latchtarget = Harm the latcher
+latch-instruction-latchtarget = Навредить вцепившемуся
     to break free faster!

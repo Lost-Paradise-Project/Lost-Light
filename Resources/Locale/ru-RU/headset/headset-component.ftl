@@ -1,10 +1,10 @@
 # Chat window radio wrap (prefix and postfix)
 
 # Starlight-edit: Languages
-chat-radio-message-wrap = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }]"{ $message }"[/font][/color]
+chat-radio-message-wrap = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, "[/color][font="{ $fontType }" size={ $fontSize }][color={ $languageColor }]{ $message }[/color][/font][color={ $color }]"[/color]
 
 # Starlight-edit: Languages
-chat-radio-message-wrap-bold = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]"{ $message }"[/bold][/font][/color]
+chat-radio-message-wrap-bold = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, "[/color][font="{ $fontType }" size={ $fontSize }][color={ $languageColor }][bold]{ $message }[/bold][/font][/color][color={ $color }]"[/color]
 
 examine-headset-default-channel = Используйте { $prefix } для канала по умолчанию ([color={ $color }]{ $channel }[/color]).
 

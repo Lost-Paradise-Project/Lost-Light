@@ -1,5 +1,5 @@
-reagent-name-ulnitranium = ulnitranium
-reagent-desc-ulnitranium = A gas that could supply even more nitrogen to the bloodstream when inhaled.
+reagent-name-ulnitranium = ульнитраний
+reagent-desc-ulnitranium = Газ, способный поставлять в кровоток ещё больше азота при вдыхании.
 
 reagent-name-zxa = zxa
-reagent-desc-zxa = A hyper potent hallucinogenic that can put any species to sleep.
+reagent-desc-zxa = Сверхмощный галлюциноген, способный усыпить любой вид.

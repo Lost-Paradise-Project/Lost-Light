@@ -1,5 +1,5 @@
-ent-DrinkMugMedTak = MedTak mug
-    .desc = A cheerful red mug emblazoned with the MedTak insignia.
+ent-DrinkMugMedTak = кружка МедТак
+    .desc = Весёлая красная кружка с эмблемой МедТак.
 ent-DrinkMedTakCoffee = { ent-DrinkMugMedTak }
     .desc = { ent-DrinkMugMedTak.desc }
-    .suffix = Coffee
+    .suffix = Кофе

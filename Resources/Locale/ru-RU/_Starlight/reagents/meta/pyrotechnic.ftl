@@ -1,2 +1,2 @@
-reagent-name-refined-oil = refined oil
-reagent-desc-refined-oil = A refined oil that doesn't catch fire, reserved for IPCs.
+reagent-name-refined-oil = очищенное масло
+reagent-desc-refined-oil = Очищенное масло, которое не горит, предназначено для КПБ.

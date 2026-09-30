@@ -1,6 +1,6 @@
-ent-EffectNanitesEnter = nanite shell (building)
+ent-EffectNanitesEnter = панцирь наномашин (строится)
     .desc = { "" }
-ent-EffectNanitesCurrent = nanite shell
+ent-EffectNanitesCurrent = панцирь наномашин
     .desc = { "" }
-ent-EffectNanitesExit = nanite shell (deconstructing)
+ent-EffectNanitesExit = панцирь наномашин (разбирается)
     .desc = { "" }

@@ -1,2 +1,2 @@
-petting-success-security-cyborg = You pet { THE($target) } on { POSS-ADJ($target) } threatening metal head.
-petting-failure-security-cyborg = You reach out to pet { THE($target) }, but { SUBJECT($target) } { CONJUGATE-BE($target) } busy hunting clowns!
+petting-success-security-cyborg = Вы гладите { THE($target) } по грозной металлической голове.
+petting-failure-security-cyborg = Вы тянетесь погладить { THE($target) }, но { SUBJECT($target) } { CONJUGATE-BE($target) } занят охотой на клоунов!

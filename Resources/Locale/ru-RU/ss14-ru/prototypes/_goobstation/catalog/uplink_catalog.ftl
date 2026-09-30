@@ -1,2 +1,2 @@
-ent-BoxNuclearCommanderCds = nuclear operative announcement cds
-    .desc = A box filled with disgruntled messages. Recorded and burnt onto CDs. Ready for play.
+ent-BoxNuclearCommanderCds = компакт-диски с объявлениями ядерных оперативников
+    .desc = Коробка, полная недовольных сообщений. Записаны и выжжены на компакт-дисках. Готовы к воспроизведению.

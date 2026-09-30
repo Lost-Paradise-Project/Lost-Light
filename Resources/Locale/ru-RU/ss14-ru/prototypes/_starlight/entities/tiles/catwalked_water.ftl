@@ -1,4 +1,4 @@
-ent-FloorWaterCatwalkBorderlessEntity = water catwalk
-    .desc = A catwalk for easier water-based maneuvering.
-ent-FloorWaterCatwalkEntity = water catwalk
+ent-FloorWaterCatwalkBorderlessEntity = водный мостик
+    .desc = Мостик для облегчённого передвижения по воде.
+ent-FloorWaterCatwalkEntity = водный мостик
     .desc = { ent-FloorWaterCatwalkBorderlessEntity.desc }

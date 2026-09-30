@@ -1,2 +1,2 @@
-categories-surgeries = surgeries
-categories-surgery-steps = surgery steps
+categories-surgeries = операции
+categories-surgery-steps = этапы операции

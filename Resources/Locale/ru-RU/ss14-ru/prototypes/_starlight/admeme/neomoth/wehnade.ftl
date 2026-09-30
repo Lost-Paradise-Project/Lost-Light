@@ -1,8 +1,8 @@
-ent-WehGrenade = wehnade
-    .desc = Grenade filled to the brim with weh foam.
-ent-WehGrenadePlus = wehnade+
-    .desc = Grenade filled to the brin with weh foam. Now with bluespace technology!
-    .suffix = Admeme
-ent-WehGrenadeUltraDeluxe = wehnade++
-    .desc = Grenade filled to the brin with weh foam. We heard you liked bluespace, so we put bluespace in your bluespace so you can bluespace while you bluespace. Weh.
-    .suffix = Admeme
+ent-WehGrenade = вэх-граната
+    .desc = Граната, набитая пеной вэх до краёв.
+ent-WehGrenadePlus = вэх-граната+
+    .desc = Граната, набитая пеной вэх до краёв. Теперь с блюспейс-технологией!
+    .suffix = Админ-мем
+ent-WehGrenadeUltraDeluxe = вэх-граната++
+    .desc = Граната, набитая пеной вэх до краёв. Мы слышали, вы любите блюспейс, так что положили блюспейс в ваш блюспейс, чтобы вы могли блюспейсить, пока блюспейсите. Вэх.
+    .suffix = Админ-мем

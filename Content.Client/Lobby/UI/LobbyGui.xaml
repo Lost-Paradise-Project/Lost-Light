@@ -58,6 +58,7 @@
                     <!-- Left Bot Panel -->
                     <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom">
                         <nulllink:Hub /> <!-- Starlight -->
+                        <BoxContainer Name="ReklamaLineBox" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>    <!-- LP edit: рекламные блоки-->
                         <info:DevInfoBanner Name="DevInfoBanner" VerticalExpand="false" Margin="3 3 3 3" />
                         <PanelContainer StyleClasses="BackgroundPanel" Margin="3 3 3 3">
                             <BoxContainer Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="3 3 3 3">

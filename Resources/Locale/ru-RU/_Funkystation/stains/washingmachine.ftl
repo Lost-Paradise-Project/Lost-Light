@@ -1,2 +1,2 @@
-washing-machine-start = Start washing machine
-washing-machine-cooldown = The tank is still draining.
+washing-machine-start = Запустить стиральную машину
+washing-machine-cooldown = Бак ещё сливается.

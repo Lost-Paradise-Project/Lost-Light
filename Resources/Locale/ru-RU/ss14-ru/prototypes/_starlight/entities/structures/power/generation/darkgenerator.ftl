@@ -1,3 +1,3 @@
-ent-DarkGenerator = Dark Generator
-    .desc = Somehow... this generate power... but only in the dark...
-    .suffix = 10kW
+ent-DarkGenerator = Тёмный генератор
+    .desc = Каким-то образом... он вырабатывает энергию... но только в темноте...
+    .suffix = 10 кВт

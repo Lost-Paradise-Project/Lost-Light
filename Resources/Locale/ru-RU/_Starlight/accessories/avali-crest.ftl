@@ -1,32 +1,32 @@
-marking-AvaliHairBigPonytail = Big Ponytail
-marking-AvaliHairBigPonytail-avali_crest_bigponytail_primary = Primary
-marking-AvaliHairBigPonytail-avali_crest_bigponytail_secondary = Secondary
-marking-AvaliHairBigPonytail-avali_crest_bigponytail_tertiary = Tertiary
+marking-AvaliHairBigPonytail = Большой хвост
+marking-AvaliHairBigPonytail-avali_crest_bigponytail_primary = Основной
+marking-AvaliHairBigPonytail-avali_crest_bigponytail_secondary = Вторичный
+marking-AvaliHairBigPonytail-avali_crest_bigponytail_tertiary = Третичный
 
-marking-AvaliHairCockatiel = Cockatiel
-marking-AvaliHairCockatiel-avali_crest_cockatiel_primary = Primary
-marking-AvaliHairCockatiel-avali_crest_cockatiel_secondary = Secondary
+marking-AvaliHairCockatiel = Корелла
+marking-AvaliHairCockatiel-avali_crest_cockatiel_primary = Основной
+marking-AvaliHairCockatiel-avali_crest_cockatiel_secondary = Вторичный
 
-marking-AvaliHairCockatoo = Cockatoo
-marking-AvaliHairCockatoo-avali_crest_cockatoo_primary = Primary
-marking-AvaliHairCockatoo-avali_crest_cockatoo_secondary = Secondary
+marking-AvaliHairCockatoo = Какаду
+marking-AvaliHairCockatoo-avali_crest_cockatoo_primary = Основной
+marking-AvaliHairCockatoo-avali_crest_cockatoo_secondary = Вторичный
 
-marking-AvaliHairDuelFeather = Duel Feather
-marking-AvaliHairDuelFeather-avali_crest_dualfeather_primary = Primary
-marking-AvaliHairDuelFeather-avali_crest_dualfeather_secondary = Secondary
+marking-AvaliHairDuelFeather = Двойное перо
+marking-AvaliHairDuelFeather-avali_crest_dualfeather_primary = Основной
+marking-AvaliHairDuelFeather-avali_crest_dualfeather_secondary = Вторичный
 
-marking-AvaliHairHooked = Hooked
-marking-AvaliHairHooked-avali_crest_hooked_primary = Primary
-marking-AvaliHairHooked-avali_crest_hooked_secondary = Secondary
+marking-AvaliHairHooked = Крючок
+marking-AvaliHairHooked-avali_crest_hooked_primary = Основной
+marking-AvaliHairHooked-avali_crest_hooked_secondary = Вторичный
 
-marking-AvaliHairJay = Jay
-marking-AvaliHairJay-avali_crest_jay_primary = Primary
-marking-AvaliHairJay-avali_crest_jay_secondary = Secondary
+marking-AvaliHairJay = Сойка
+marking-AvaliHairJay-avali_crest_jay_primary = Основной
+marking-AvaliHairJay-avali_crest_jay_secondary = Вторичный
 
-marking-AvaliHairLongFeather = Long Feather
-marking-AvaliHairLongFeather-avali_crest_longfeather_primary = Primary
-marking-AvaliHairLongFeather-avali_crest_longfeather_secondary = Secondary
+marking-AvaliHairLongFeather = Длинное перо
+marking-AvaliHairLongFeather-avali_crest_longfeather_primary = Основной
+marking-AvaliHairLongFeather-avali_crest_longfeather_secondary = Вторичный
 
-marking-AvaliHairPunk = Punk
-marking-AvaliHairPunk-avali_crest_punk_primary = Primary
-marking-AvaliHairPunk-avali_crest_punk_secondary = Secondary
+marking-AvaliHairPunk = Панк
+marking-AvaliHairPunk-avali_crest_punk_primary = Основной
+marking-AvaliHairPunk-avali_crest_punk_secondary = Вторичный

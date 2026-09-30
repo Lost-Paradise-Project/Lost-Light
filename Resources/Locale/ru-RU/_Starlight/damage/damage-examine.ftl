@@ -1,4 +1,4 @@
 # Damage examines
-damage-examine-penetration-positive = This ammo type [color=red]ignores { $penetration }%[/color] of armor
-damage-examine-penetration-negative = This ammo type [color=red]increases effectiveness[/color] of armor by [color=red]{ $penetration }%[/color]
-damage-mixmax-value = - Heals up to [color=green]{ $amount }[/color] total damage among [color=yellow]{ $types }[/color], prioritizing the most damaged.
+damage-examine-penetration-positive = Этот тип боеприпасов [color=red]игнорирует { $penetration }%[/color] брони
+damage-examine-penetration-negative = Этот тип боеприпасов [color=red]повышает эффективность[/color] брони на [color=red]{ $penetration }%[/color]
+damage-mixmax-value = - Лечит до [color=green]{ $amount }[/color] общего урона среди [color=yellow]{ $types }[/color], в первую очередь самых повреждённых.

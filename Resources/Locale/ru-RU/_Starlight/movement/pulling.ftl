@@ -1,1 +1,1 @@
-pulling-train-full = You can't couple anything else onto the back.
+pulling-train-full = Нельзя прицепить сзади что-то ещё.

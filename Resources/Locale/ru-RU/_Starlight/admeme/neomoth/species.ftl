@@ -1,1 +1,1 @@
-species-name-catmoth = Catmoth
+species-name-catmoth = Кошамоль

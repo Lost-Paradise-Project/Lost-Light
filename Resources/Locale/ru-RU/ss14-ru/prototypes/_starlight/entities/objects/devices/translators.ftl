@@ -1,6 +1,6 @@
-ent-Translator = translator
-    .desc = Translates speech.
-ent-TranslatorForeigner = foreigner's translator
-    .desc = A special-issue translator that helps foreigner's speak and understand this station's primary language.
-ent-TranslatorIterator = iterator's translator
-    .desc = A special-issue translator that helps Iterator's understand this station's primary language.
+ent-Translator = переводчик
+    .desc = Переводит речь.
+ent-TranslatorForeigner = переводчик иностранца
+    .desc = Переводчик особого выпуска, помогающий иностранцам говорить и понимать основной язык этой станции.
+ent-TranslatorIterator = переводчик итератора
+    .desc = Переводчик особого выпуска, помогающий итераторам понимать основной язык этой станции.

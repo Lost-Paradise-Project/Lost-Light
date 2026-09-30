@@ -1,2 +1,2 @@
-ent-UristMcStone = Firstborn
-    .desc = Recovered rubble has been radiometrically dated to be older than current estimates of the age of the universe. The seams and cracks lining its body are not due to natural erosion but instead show repeated patterns as if it were a language carved into the stone.
+ent-UristMcStone = Первенец
+    .desc = Найденные обломки по радиометрическому анализу старше современных оценок возраста вселенной. Швы и трещины на его теле вызваны не естественной эрозией, а образуют повторяющиеся узоры, словно язык, высеченный в камне.

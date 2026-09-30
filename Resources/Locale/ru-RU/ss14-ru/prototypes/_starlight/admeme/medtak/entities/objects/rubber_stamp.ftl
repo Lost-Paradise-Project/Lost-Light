@@ -1,2 +1,2 @@
-ent-RubberStampMedTak = MedTak rubber stamp
-    .desc = A rubber stamp for stamping important documents. Healthcare isn't free.
+ent-RubberStampMedTak = резиновая печать МедТак
+    .desc = Резиновая печать для заверения важных документов. Здравоохранение не бесплатно.

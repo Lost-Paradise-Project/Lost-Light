@@ -1,3 +1,3 @@
-ent-WeaponTurretBlackstar = Blackstar sentry turret
-    .desc = A high-cycle ballistic auto-turret deployed by Blackstar mercenary operatives.
-    .suffix = Blackstar
+ent-WeaponTurretBlackstar = часовая турель Чёрной звезды
+    .desc = Быстрострельная баллистическая автотурель, развёртываемая оперативниками-наёмниками Чёрной звезды.
+    .suffix = Чёрная звезда

@@ -1,3 +1,3 @@
-ent-ToolboxOfHolding = strange toolbox
-    .desc = A strangely heavy toolbox. The inside appears incredibly spacious.
-    .suffix = ARTIFACT
+ent-ToolboxOfHolding = странный ящик с инструментами
+    .desc = Необычно тяжёлый ящик с инструментами. Внутри он кажется невероятно просторным.
+    .suffix = АРТЕФАКТ

@@ -1,5 +1,5 @@
-loadout-no-requirements = This item has no requirements.
+loadout-no-requirements = У этого предмета нет требований.
 
 # Restrictions
-loadout-species-restriction-pass = Your character [color=limegreen]must[/color] be one of the following species to use this item: [color=limegreen]{ $species }[/color]
-loadout-species-restriction-fail = Your character [color=yellow]must[/color] be one of the following species to use this item: [color=yellow]{ $species }[/color]
+loadout-species-restriction-pass = Ваш персонаж [color=limegreen]должен[/color] быть одним из следующих видов, чтобы использовать этот предмет: [color=limegreen]{ $species }[/color]
+loadout-species-restriction-fail = Ваш персонаж [color=yellow]должен[/color] быть одним из следующих видов, чтобы использовать этот предмет: [color=yellow]{ $species }[/color]

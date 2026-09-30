@@ -1,1 +1,1 @@
-computers-remote-eye-ui-beacons = Beacons
+computers-remote-eye-ui-beacons = Маяки

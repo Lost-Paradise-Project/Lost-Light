@@ -1,4 +1,4 @@
-ent-ActionOpenMouthStorage = Open cheek storage
-    .desc = Allows you to store items in your cheeks.
-ent-ActionToggleSneakMode = Toggle sneak mode
-    .desc = Sneak underneath tables.
+ent-ActionOpenMouthStorage = Открыть защёчное хранилище
+    .desc = Позволяет хранить предметы в защёчных мешках.
+ent-ActionToggleSneakMode = Переключить режим скрытности
+    .desc = Красться под столами.

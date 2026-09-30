@@ -1,6 +1,6 @@
-ent-OrganNeoKinEyes = shadekin cybernetic eyes
-    .desc = Cybernetic eyes of a Black-eye Shadekin that can never see their home reality again. These eyes have excellent night vision, but are very sensitive to bright flashes as a result.
-    .suffix = NeoKin
+ent-OrganNeoKinEyes = кибернетические глаза шейдекина
+    .desc = Кибернетические глаза шейдекина с «Чёрным глазом», который больше никогда не увидит свою родную реальность. Эти глаза имеют отличное ночное зрение, но из-за этого очень чувствительны к ярким вспышкам.
+    .suffix = НеоСородич
 ent-OrganNeoKinTongue = { ent-OrganNeocyteTongueForked }
     .desc = { ent-OrganNeocyteTongueForked.desc }
-    .suffix = NeoKin
+    .suffix = НеоСородич

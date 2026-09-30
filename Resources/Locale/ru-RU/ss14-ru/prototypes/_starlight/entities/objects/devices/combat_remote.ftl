@@ -1,2 +1,2 @@
-ent-RemoteSignallerCombat = combat remote signaller
-    .desc = A military-grade handheld device used for remotely sending signals to weapons systems within a 100 meter radius. Commonly used for triggering shuttle-mounted weapons.
+ent-RemoteSignallerCombat = боевой дистанционный сигнализатор
+    .desc = Военное портативное устройство для дистанционной отправки сигналов системам вооружения в радиусе 100 метров. Обычно используется для запуска оружия, установленного на шаттлах.

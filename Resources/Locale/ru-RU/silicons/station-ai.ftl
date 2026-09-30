@@ -40,8 +40,8 @@ station-ai-customization-options = Опции (выбрать одну)
 station-ai-customization-core = Дисплей ядра ИИ
 station-ai-customization-hologram = Голографический аватар
 # SL start
-station-ai-customization-menu-label-rename = New name:
-station-ai-customization-name = Rename
+station-ai-customization-menu-label-rename = Новое имя:
+station-ai-customization-name = Переименовать
 # SL end
 
 # Customizations

@@ -1,220 +1,220 @@
-crafting-menu-name-FDB = forged double-barrel shotgun
-crafting-menu-text-FDB = The cousin of the improvised shotgun, this one is made from better quality parts and an additional barrel! Takes time and welding supplies to make, however.
+crafting-menu-name-FDB = кованый двуствольный дробовик
+crafting-menu-text-FDB = Двоюродный брат самодельного дробовика, сделан из деталей лучшего качества и с дополнительным стволом! Правда, на изготовление нужны время и сварочные припасы.
 
-crafting-menu-name-MP = makeshift pistol
-crafting-menu-text-MP = A hastily built pistol, looks horrible and is liable to explode in your face.
+crafting-menu-name-MP = кустарный пистолет
+crafting-menu-text-MP = Наспех собранный пистолет, выглядит ужасно и может взорваться вам в лицо.
 
-crafting-menu-name-IP = improvised pistol
-crafting-menu-text-IP = The next best thing in improvised pistols, comes with an internal magazine of five rounds.
+crafting-menu-name-IP = самодельный пистолет
+crafting-menu-text-IP = Следующий по качеству самодельный пистолет, с внутренним магазином на пять патронов.
 
-crafting-menu-name-FP = forged pistol
-crafting-menu-text-FP = A reliable, high quality firearm. Takes six-round clipazines, and needs welding supplies to make.
+crafting-menu-name-FP = кованый пистолет
+crafting-menu-text-FP = Надёжное высококачественное огнестрельное оружие. Использует шестизарядные обоймы, а для изготовления нужны сварочные припасы.
 
-crafting-menu-name-IPB = improvised pistol bullet
-crafting-menu-text-IPB = Better than nothing. Low-quality propellant means it won't hit as hard as a normal bullet.
+crafting-menu-name-IPB = самодельный пистолетный патрон
+crafting-menu-text-IPB = Лучше, чем ничего. Из-за некачественного пороха бьёт не так сильно, как обычный патрон.
 
-crafting-menu-name-IPM = improvised pistol magazine
-crafting-menu-text-IPM = A compact 6-round clipazine.
+crafting-menu-name-IPM = самодельный пистолетный магазин
+crafting-menu-text-IPM = Компактная шестизарядная обойма.
 
-crafting-menu-name-MR = makeshift revolver
-crafting-menu-text-MR = Hastily built revolver that has a good chance of backfiring into your face.
+crafting-menu-name-MR = кустарный револьвер
+crafting-menu-text-MR = Наспех собранный револьвер, который с большой вероятностью рванёт вам в лицо.
 
-crafting-menu-name-IR = improvised revolver
-crafting-menu-text-IR = An odd double-barrel revolver with no cylinder. The unique construction lowers the chance of a backfire, but does not eliminate it.
+crafting-menu-name-IR = самодельный револьвер
+crafting-menu-text-IR = Странный двуствольный револьвер без барабана. Необычная конструкция снижает шанс осечки со взрывом, но не исключает его.
 
-crafting-menu-name-FR = forged revolver
-crafting-menu-text-FR = The best Tider Engineering can provide. Has 4 shots and will NOT blow up in your face, but needs welding supplies to make.
+crafting-menu-name-FR = кованый револьвер
+crafting-menu-text-FR = Лучшее, что может предложить Тайдерская инженерия. Четыре выстрела, в лицо НЕ взорвётся, но для изготовления нужны сварочные припасы.
 
-crafting-menu-name-IMB = improvised magnum bullet
-crafting-menu-text-IMB = Better than nothing. Stuffed to the brim with phosphorus but still won't hit as hard.
+crafting-menu-name-IMB = самодельный патрон магнум
+crafting-menu-text-IMB = Лучше, чем ничего. Набит фосфором по самое не могу, но всё равно бьёт не так сильно.
 
-crafting-menu-name-IMS = improvised magnum speedloader
-crafting-menu-text-IMS = A simple speedloader capable of holding 4 shots.
+crafting-menu-name-IMS = самодельный спидлоадер магнум
+crafting-menu-text-IMS = Простой спидлоадер на 4 выстрела.
 
-crafting-menu-name-MB = modular barrel
-crafting-menu-text-MB = For all your guncrafting needs!
+crafting-menu-name-MB = модульный ствол
+crafting-menu-text-MB = Для всех ваших оружейных нужд!
 
-crafting-menu-name-MSH = makeshift shotgun
-crafting-menu-text-MSH = A robust hand-cannon that'll snap your wrist right off if you're not careful
+crafting-menu-name-MSH = кустарный дробовик
+crafting-menu-text-MSH = Надёжная ручная пушка, которая запросто оторвёт вам запястье, если вы неосторожны
 
-crafting-menu-name-MS = makeshift smg
-crafting-menu-text-MS = It can't hit the broad side of a barn.
+crafting-menu-name-MS = кустарный пистолет-пулемёт
+crafting-menu-text-MS = Он не попадёт даже в стену амбара.
 
-crafting-menu-name-IS = improvised smg
-crafting-menu-text-IS = It CAN hit the broad side of a barn, but not a person.
+crafting-menu-name-IS = самодельный пистолет-пулемёт
+crafting-menu-text-IS = Он МОЖЕТ попасть в стену амбара, но не в человека.
 
-crafting-menu-name-FS = forged smg
-crafting-menu-text-FS = Finally, an SMG that can hit a person! Needs to be welded together, so make sure you have welding supplies!
+crafting-menu-name-FS = кованый пистолет-пулемёт
+crafting-menu-text-FS = Наконец-то ПП, способный попасть в человека! Его нужно сварить, так что запаситесь сварочными припасами!
 
-crafting-menu-name-ISM = improvised smg magazine
-crafting-menu-text-ISM = The fact this thing works at all is nothing short of a miracle
+crafting-menu-name-ISM = самодельный магазин для пистолета-пулемёта
+crafting-menu-text-ISM = То, что эта штука вообще работает, — просто чудо
 
-crafting-menu-name-MRR = makeshift repeater rifle
-crafting-menu-text-MRR = Too big to fit in your pocket, but small enough to fit in your bag. An odd weapon indeed.
+crafting-menu-name-MRR = кустарная винтовка-репетир
+crafting-menu-text-MRR = Слишком велика для кармана, но достаточно мала для сумки. Действительно странное оружие.
 
-crafting-menu-name-IRR = improvised repeater rifle
-crafting-menu-text-IRR = The weird in-between cousin, too big to be stored comfortably, but also not that inaccurate.
+crafting-menu-name-IRR = самодельная винтовка-репетир
+crafting-menu-text-IRR = Странный промежуточный родственник: слишком велика, чтобы удобно носить, но и не такая уж неточная.
 
-crafting-menu-name-FRR = forged repeater rifle
-crafting-menu-text-FRR = The peak of tider engineering. But does need welding supplies to finish.
+crafting-menu-name-FRR = кованая винтовка-репетир
+crafting-menu-text-FRR = Вершина тайдерской инженерии. Но для завершения нужны сварочные припасы.
 
-crafting-menu-name-IRB = improvised rifle bullet
-crafting-menu-text-IRB = Better than nothing. Fairly full with phosphorus but still won't hit as hard.
+crafting-menu-name-IRB = самодельный винтовочный патрон
+crafting-menu-text-IRB = Лучше, чем ничего. Довольно плотно набит фосфором, но всё равно бьёт не так сильно.
 
-crafting-menu-name-IMGB = improvised ammo box
-crafting-menu-text-IMGB = Organization is not the strong suit of any tider. Can hold all kinds of bullets.
+crafting-menu-name-IMGB = самодельная коробка с патронами
+crafting-menu-text-IMGB = Организованность — не сильная сторона ни одного тайдера. Вмещает патроны любого вида.
 
-crafting-menu-name-IMGP = improvised ammo box (.35 auto)
-crafting-menu-text-IMGP = Organization is not the strong suit of any tider. Holds 40 improvised .35 auto rounds.
+crafting-menu-name-IMGP = самодельная коробка с патронами (.35 авто)
+crafting-menu-text-IMGP = Организованность — не сильная сторона ни одного тайдера. Вмещает 40 самодельных патронов .35 авто.
 
-crafting-menu-name-IMGR = improvised ammo box (.30 rifle)
-crafting-menu-text-IMGR = Organization is not the strong suit of any tider. Holds 40 improvised .30 rifle rounds.
+crafting-menu-name-IMGR = самодельная коробка с патронами (.30 винтовочный)
+crafting-menu-text-IMGR = Организованность — не сильная сторона ни одного тайдера. Вмещает 40 самодельных винтовочных патронов .30.
 
-crafting-menu-name-IMGM = improvised ammo box (.45 magnum)
-crafting-menu-text-IMGM = Organization is not the strong suit of any tider. Holds 40 improvised .45 magnum rounds.
+crafting-menu-name-IMGM = самодельная коробка с патронами (.45 магнум)
+crafting-menu-text-IMGM = Организованность — не сильная сторона ни одного тайдера. Вмещает 40 самодельных патронов .45 магнум.
 
-crafting-menu-name-IMGS = improvised ammo box (12 gauge)
-crafting-menu-text-IMGS = Organization is not the strong suit of any tider. Holds 40 improvised 12 gauge shells.
+crafting-menu-name-IMGS = самодельная коробка с патронами (12 калибр)
+crafting-menu-text-IMGS = Организованность — не сильная сторона ни одного тайдера. Вмещает 40 самодельных патронов 12 калибра.
 
-crafting-menu-name-phosphorus = crushed phosphorus
-crafting-menu-text-phosphorus = Crushing the tips off of matches yields this bright red, exceedingly volatile compound.
+crafting-menu-name-phosphorus = измельчённый фосфор
+crafting-menu-text-phosphorus = Если раздавить головки спичек, получается это ярко-красное, крайне летучее соединение.
 
-crafting-menu-name-MC = makeshift crowbar
-crafting-menu-text-MC = You must be REALLY desperate..
+crafting-menu-name-MC = кустарный лом
+crafting-menu-text-MC = Вы, должно быть, ОЧЕНЬ отчаялись...
 
-crafting-menu-name-IC = improvised crowbar
-crafting-menu-text-IC = Not the best, not the worst. Needs welding supplies to finish.
+crafting-menu-name-IC = самодельный лом
+crafting-menu-text-IC = Не лучший, не худший. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-ISC = improvised screwdriver
+crafting-menu-name-ISC = самодельная отвёртка
 
-crafting-menu-name-IW = improvised wirecutter
+crafting-menu-name-IW = самодельные кусачки
 
-crafting-menu-name-IWR = improvised wrench
+crafting-menu-name-IWR = самодельный гаечный ключ
 
-crafting-menu-name-IM = improvised multitool
-crafting-menu-text-IM = The best you're gonna get. Needs welding supplies to finish.
+crafting-menu-name-IM = самодельный мультитул
+crafting-menu-text-IM = Лучшее, что вы получите. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-EW = emergency welder
+crafting-menu-name-EW = аварийный сварщик
 
-crafting-menu-name-IO = improvised omnitool
-crafting-menu-text-IO = The fact that this abomination of tiderkind actually works is nothing short of a miracle.
+crafting-menu-name-IO = самодельный омнитул
+crafting-menu-text-IO = То, что это порождение тайдерского рода вообще работает, — просто чудо.
 
-crafting-menu-name-FO = forged omnitool
-crafting-menu-text-FO = The better, but more psychopathic omnitool.
+crafting-menu-name-FO = кованый омнитул
+crafting-menu-text-FO = Лучший, но более безумный омнитул.
 
-crafting-menu-name-WH = wooden hilt
-crafting-menu-text-WH = Needed in the construction of basic bladed weapons.
+crafting-menu-name-WH = деревянная рукоять
+crafting-menu-text-WH = Нужна для изготовления простого клинкового оружия.
 
-crafting-menu-name-PH = plasteel hilt
-crafting-menu-text-PH = Needed in the construction of advanced bladed weapons.
+crafting-menu-name-PH = пласталевая рукоять
+crafting-menu-text-PH = Нужна для изготовления продвинутого клинкового оружия.
 
-crafting-menu-name-SB = steel blade
-crafting-menu-text-SB = Needed in the construction of basic bladed weapons.
+crafting-menu-name-SB = стальной клинок
+crafting-menu-text-SB = Нужна для изготовления простого клинкового оружия.
 
-crafting-menu-name-PB = plasteel blade
-crafting-menu-text-PB = Needed in the construction of advanced bladed weapons.
+crafting-menu-name-PB = пласталевый клинок
+crafting-menu-text-PB = Нужна для изготовления продвинутого клинкового оружия.
 
-crafting-menu-name-MSW = makeshift sword
-crafting-menu-text-MSW = Big and scary, but not that dangerous.
+crafting-menu-name-MSW = кустарный меч
+crafting-menu-text-MSW = Большой и страшный, но не такой уж опасный.
 
-crafting-menu-name-ISW = improvised sword
-crafting-menu-text-ISW = The budget option for aspiring maints knights.
+crafting-menu-name-ISW = самодельный меч
+crafting-menu-text-ISW = Бюджетный вариант для начинающих рыцарей техтоннелей.
 
-crafting-menu-name-FSW = forged sword
-crafting-menu-text-FSW = Now THAT'S a weapon! Best paired with equally shiny armor, needs welding.
+crafting-menu-name-FSW = кованый меч
+crafting-menu-text-FSW = Вот ЭТО оружие! Лучше всего сочетается с не менее блестящей бронёй, нужна сварка.
 
-crafting-menu-name-DSW = dawnbreaker
-crafting-menu-text-DSW = Burn away the unholdy heretics with this weapon of justice!
+crafting-menu-name-DSW = разрушитель рассвета
+crafting-menu-text-DSW = Выжгите нечестивых еретиков этим оружием правосудия!
 
-crafting-menu-name-TSW = tidebreaker
-crafting-menu-text-TSW = Crush those who oppose you!
+crafting-menu-name-TSW = разрушитель приливов
+crafting-menu-text-TSW = Сокрушайте тех, кто вам противостоит!
 
-crafting-menu-name-ISH = improvised shield
-crafting-menu-text-ISH = Keep a solid sheet of metal between you and your enemies. Needs welding supplies to finish.
+crafting-menu-name-ISH = самодельный щит
+crafting-menu-text-ISH = Держите прочный лист металла между собой и врагами. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-FSH = forged buckler shield
-crafting-menu-text-FSH = Lightweight plasteel shield forged by the best tidersmiths, does a good job of keeping you alive. Needs welding supplies to finish.
+crafting-menu-name-FSH = кованый баклер
+crafting-menu-text-FSH = Лёгкий пласталевый щит, откованный лучшими тайдерскими кузнецами, хорошо помогает остаться в живых. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-FSHT = forged tower shield
-crafting-menu-text-FSHT = Heavily armored plasteel shield, the extra plating and size making it more durable but heavier to hold. Needs welding supplies to finish.
+crafting-menu-name-FSHT = кованый башенный щит
+crafting-menu-text-FSHT = Сильно бронированный пласталевый щит: дополнительные пластины и размер делают его прочнее, но тяжелее. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-PSH = paladin shield
-crafting-menu-text-PSH = Sturdy yet light in your hands, perfectly weighted. Shaped into perfection for sword fights, among other Paladins. Needs welding supplies to finish.
+crafting-menu-name-PSH = щит паладина
+crafting-menu-text-PSH = Прочный, но лёгкий в руках, идеально сбалансирован. Отточен до совершенства для боёв на мечах, среди прочего для паладинов. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-PSHG = paladin greatshield
-crafting-menu-text-PSHG = Become the wall you want to be. Exeedingly heavy to the point of needing a makeshift harness to simply hold. Needs welding supplies to finish.
+crafting-menu-name-PSHG = большой щит паладина
+crafting-menu-text-PSHG = Станьте стеной, которой хотите быть. Настолько тяжёлый, что для удержания нужна самодельная перевязь. Для завершения нужны сварочные припасы.
 
-crafting-menu-name-MVT = makeshift vest
-crafting-menu-text-MVT = Arguably nothing is better than this. Scrap metal cobbled together with LV cables to TRY and protect you.
+crafting-menu-name-MVT = кустарный жилет
+crafting-menu-text-MVT = Пожалуй, ничто не лучше этого. Металлолом, скреплённый кабелями НН, чтобы ПОПЫТАТЬСЯ вас защитить.
 
-crafting-menu-name-IVT = improvised vest
-crafting-menu-text-IVT = Actually better than nothing, but still a bit on the heavy side, good at keeping you from getting stabbed.
+crafting-menu-name-IVT = самодельный жилет
+crafting-menu-text-IVT = На самом деле лучше, чем ничего, но всё ещё тяжеловат, хорошо защищает от ножевых ударов.
 
-crafting-menu-name-FVT = forged vest
-crafting-menu-text-FVT = A high quality armor vest based upon old earth mongolian designs, it is very effective at what it does.
+crafting-menu-name-FVT = кованый жилет
+crafting-menu-text-FVT = Высококачественный бронежилет по мотивам старых монгольских образцов, очень эффективен.
 
-crafting-menu-name-PVT = paladin suit
-crafting-menu-text-PVT = The best a tidersmith can make! Don this suit of armor and deal swift justice to evildoers! Or.. do the evil yourself, I won't judge.
+crafting-menu-name-PVT = доспех паладина
+crafting-menu-text-PVT = Лучшее, что может сделать тайдерский кузнец! Наденьте этот доспех и вершите быстрое правосудие над злодеями! Или... творите зло сами, я не осуждаю.
 
-crafting-menu-name-MVTH = makeshift helmet
-crafting-menu-text-MVTH = Nothing is, somehow, still better than this. Provides minimal protection, MIGHT save your head from a bullet.
+crafting-menu-name-MVTH = кустарный шлем
+crafting-menu-text-MVTH = Ничто почему-то всё ещё лучше этого. Даёт минимальную защиту, МОЖЕТ спасти голову от пули.
 
-crafting-menu-name-IVTH = improvised helmet
-crafting-menu-text-IVTH = Better than nothing, by a slim margin.
+crafting-menu-name-IVTH = самодельный шлем
+crafting-menu-text-IVTH = Лучше, чем ничего, но с небольшим отрывом.
 
-crafting-menu-name-FVTH = forged helmet
-crafting-menu-text-FVTH = Almost the best a tidersmith can offer, it'll reliably stop a bullet and protect your head from being smashed in.
+crafting-menu-name-FVTH = кованый шлем
+crafting-menu-text-FVTH = Почти лучшее, что может предложить тайдерский кузнец: надёжно остановит пулю и защитит голову от раздробления.
 
-crafting-menu-name-PVTH = paladin helmet
-crafting-menu-text-PVTH = The best a tidersmith can offer, no holy crusade is fit to go on without a matching helmet!
+crafting-menu-name-PVTH = шлем паладина
+crafting-menu-text-PVTH = Лучшее, что может предложить тайдерский кузнец. Ни один священный поход не обходится без подходящего шлема!
 
-crafting-menu-name-ETX = emergency toolbox
+crafting-menu-name-ETX = аварийный ящик с инструментами
 
-crafting-menu-name-MUL = multitool
+crafting-menu-name-MUL = мультитул
 
-crafting-menu-name-WRE = wrench
+crafting-menu-name-WRE = гаечный ключ
 
-crafting-menu-name-WIR = wirecutter
+crafting-menu-name-WIR = кусачки
 
-crafting-menu-name-SCR = screwdriver
+crafting-menu-name-SCR = отвёртка
 
-crafting-menu-name-CRO = crowbar
+crafting-menu-name-CRO = лом
 
-crafting-menu-name-EXOXY = extended-capacity emergency oxygen tank
+crafting-menu-name-EXOXY = аварийный кислородный баллон увеличенной ёмкости
 
-crafting-menu-name-CGREN = green crayon
+crafting-menu-name-CGREN = зелёный мелок
 
-crafting-menu-name-CYELO = yellow crayon
+crafting-menu-name-CYELO = жёлтый мелок
 
-crafting-menu-name-IRS = improvised .30/.45 speed loader
-crafting-menu-text-IRS = Little more than a spring-loaded tube that can hold bullets.
+crafting-menu-name-IRS = самодельный спидлоадер .30/.45
+crafting-menu-text-IRS = Немногим больше, чем пружинная трубка, способная удерживать патроны.
 
-crafting-menu-name-RIPRL = left ripperdoc arm
-crafting-menu-text-RIPRL = A poorly made replica of a coveted "Reaper" arm, cobbled together from scrap found lying around in maintenance.
+crafting-menu-name-RIPRL = левая рука риппердока
+crafting-menu-text-RIPRL = Плохо сделанная копия желанной руки «Жнеца», собранная из хлама, найденного в техтоннелях.
 
-crafting-menu-name-RIPRR = right ripperdoc arm
-crafting-menu-text-RIPRR = A poorly made replica of a coveted "Reaper" arm, cobbled together from scrap found lying around in maintenance.
+crafting-menu-name-RIPRR = правая рука риппердока
+crafting-menu-text-RIPRR = Плохо сделанная копия желанной руки «Жнеца», собранная из хлама, найденного в техтоннелях.
 
-crafting-menu-name-BNGE = bottle of bone gel
+crafting-menu-name-BNGE = бутылка костного геля
 
-crafting-menu-name-ASSFP = assorted forge parts
-crafting-menu-text-ASSFP = A small pile of components for making a forge for an anvil, contains an igniter and valves.
+crafting-menu-name-ASSFP = разные детали горна
+crafting-menu-text-ASSFP = Небольшая куча компонентов для горна под наковальню, содержит воспламенитель и клапаны.
 
-crafting-menu-name-SINF = insulated fabric
-crafting-menu-text-SINF = A bolt of smooth insulated fabric, not much use in it's current form.
+crafting-menu-name-SINF = изолирующая ткань
+crafting-menu-text-SINF = Рулон гладкой изолирующей ткани, в нынешнем виде мало полезной.
 
-crafting-menu-name-FLINS = fingerless insulated gloves
-crafting-menu-text-FLINS = Insulated gloves resistant to shocks, or at least they used to.
+crafting-menu-name-FLINS = изолирующие перчатки без пальцев
+crafting-menu-text-FLINS = Изолирующие перчатки, стойкие к ударам тока, по крайней мере раньше.
 
-crafting-menu-name-TINS = insulated gloves
-crafting-menu-text-TINS = These gloves will protect the wearer from electric shocks.
+crafting-menu-name-TINS = изолирующие перчатки
+crafting-menu-text-TINS = Эти перчатки защитят владельца от ударов током.
 
-construction-graph-tag-cheapinsulfabric = cheap insulated fabric
+construction-graph-tag-cheapinsulfabric = дешёвая изолирующая ткань
 
-construction-graph-tag-plasteelfilament = plasteel filament
+construction-graph-tag-plasteelfilament = пласталевая нить
 
-construction-graph-tag-insulthread = insulated thread
+construction-graph-tag-insulthread = изолирующая нить
 
-crafting-menu-name-false-projector = false shutter projector
-crafting-menu-text-false-projector = Looks almost like the real thing. Useful for blocking the vision of the distracted or unobservant while you do what needs done.
-construction-graph-tag-holoprojector = any holoprojector
+crafting-menu-name-false-projector = ложный ставень-проектор
+crafting-menu-text-false-projector = Выглядит почти как настоящий. Полезен, чтобы закрыть обзор отвлечённым или невнимательным, пока вы делаете что нужно.
+construction-graph-tag-holoprojector = любой голопроектор

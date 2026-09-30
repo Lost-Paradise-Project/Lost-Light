@@ -1,1 +1,1 @@
-glitch-on-ion-storm-start-message = Feels like your brain is being microwaved!
+glitch-on-ion-storm-start-message = Кажется, ваш мозг разогревают в микроволновке!

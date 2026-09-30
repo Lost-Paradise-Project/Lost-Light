@@ -1,2 +1,2 @@
-eta-units-hours = hours
-eta-units-days = days
+eta-units-hours = ч.
+eta-units-days = дн.

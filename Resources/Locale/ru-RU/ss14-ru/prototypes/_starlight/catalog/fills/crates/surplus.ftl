@@ -1,9 +1,9 @@
-ent-CrateITGMedicalSurplus = ITG Medical Surplus Crate
-    .desc = A box containing medical supplies from the back of an ITG warehouse
+ent-CrateITGMedicalSurplus = Ящик медицинских излишков МТГ
+    .desc = Коробка с медицинскими припасами с задней части склада МТГ
     .suffix = { ent-CratePrivateSecure.suffix }
-ent-CrateITGShotgunSurplus = ITG Shotgun Surplus Crate
-    .desc = A box containing weapons from the back of an ITG warehouse
+ent-CrateITGShotgunSurplus = Ящик излишков дробовиков МТГ
+    .desc = Коробка с оружием с задней части склада МТГ
     .suffix = { ent-CratePrivateSecure.suffix }
-ent-CrateITGSurplus = ITG Surplus Trading Crate
-    .desc = A box containing good from the back of an ITG warehouse, meant to be pawned off to station side shmucks
+ent-CrateITGSurplus = Торговый ящик излишков МТГ
+    .desc = Коробка с товарами с задней части склада МТГ, предназначенными для сбыта станционным лохам
     .suffix = { ent-CratePrivateSecure.suffix }

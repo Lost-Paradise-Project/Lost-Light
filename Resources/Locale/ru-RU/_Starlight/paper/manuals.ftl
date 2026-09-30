@@ -1,54 +1,28 @@
 book-text-supermatter-guide =
    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-
-   ⠀[color=#1b487e]░██░████░░░██░░░░[/color] [head=3]NanoTrasen[/head]
-
-   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color] [head=3]Supermatter Guide[/head]
-
+   ⠀[color=#1b487e]░██░████░░░██░░░░[/color] [head=3]НаноТрейзен[/head]
+   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color] [head=3]Руководство по суперматерии[/head]
    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]
-
    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-
    ⠀═══════════════════════════════════════
-
    ⠀[color=darkgreen]
-
-   ⠀[head=3][color=darkgreen]Hello! Welcome to the quick guide on how to set up your very own supermatter crystal![/color][/head]
-
-   ⠀[head=1][color=darkred]Hazards[/color][/head]
-
+   ⠀[head=3][color=darkgreen]Здравствуйте! Добро пожаловать в краткое руководство по запуску вашего собственного кристалла суперматерии![/color][/head]
+   ⠀[head=1][color=darkred]Опасности[/color][/head]
    ⠀═══════════════════════════════════════
-
-   ⠀[head=3] The first thing you should know about your supermatter crystal is that it's very shy! Any contact with the supermatter crystal will result in your instant [head=1][color=red]vaporization![/color][/head]
-
-   ⠀The supermatter crystal is VERY dangerous to the station, make sure you read this guide fully! Please feel free to ask your nearest NanoTrasen Careeer Trainer for assistance if needed.
-
-   ⠀[head=1][color=darkred]Basic details of the crystal:[/head][/color]
-
-   ⠀[color=darkgreen]Emitters will damage the crystal over time, however under the right conditions, the crystal will repair itself![/color]
-
-   ⠀The first thing to take into account is that if allowed, the supermatter crystal will delaminate after taking too much damage! This jepordizes the whole station!
-
-   ⠀In order to keep the crystal healing, you must control its atmosphere between [head=3][color=red]30kPa [/color][/head] and [head=2][color=red]300kPa[/color][/head]. Similarly, it cannot heat up over [head=2][color=red]320 Kelvin.[/color][/head]
-
-   ⠀[head=1][color=darkred] Advanced operation and setup:[color=darkgreen][/head]
-
-   ⠀[head=3]We at NanoTrasen recommend that you take time to refine your design, but here we are including a few pointers.[/head]
-
-   ⠀Understand that the supermatter crystal upon activation will start producing [color=lightgreen]tritium[/color], as well as [color=lightblue]oxygen[/color] gasses. These gasses can and should be siphoned off for further use.
-
-   ⠀A simple setup for the supermatter engine, is to first activate all of the radiation collectors and make sure they are filled with [color=pink]plasma[/color]. Similarly, the crystal will spark like the tesla ball, and nescessary precautions should be taken.
-
-   ⠀Then, you should begin setting up your [color=blue]cooling loop[/color]. Your cooling loop is very important, as fresh cold gas must be supplied to keep the crystal from delaminating.
-
-   ⠀Any gas can be used for these loops, but a basic setup utilizes nitrogen, while more advanced setups will utilize plasma.
-
-   ⠀Be prepared, as the crystal will begin to heat up the gas inside the chamber. If gas is not exchanged, a runaway reaction will occur which is very difficult to recover from.
-
-   ⠀Start [color=red]slow[/color]! Begin by using just one emitter. Once you have that under control, feel free to turn on more! More emitters=more power!
-
-   ⠀[color=red]WEAR A RADIATION SUIT![/color] The supermatter has been recorded as producing upwards of 6 rads at its lowest levels. Through radiation shielding.
-
-   ⠀Hopefully this guide is enough to get you started. Please ask your nearest NanoTrasen Career Trainer if you require further assistance.
-
-   ⠀[head=1][color=darkblue]Glory to NanoTrasen![/color][/head]
+   ⠀[head=3] Первое, что вам следует знать о вашем кристалле суперматерии, — он очень застенчив! Любой контакт с кристаллом суперматерии приведёт к вашему мгновенному [head=1][color=red]испарению![/color][/head]
+   ⠀Кристалл суперматерии ОЧЕНЬ опасен для станции, обязательно прочтите это руководство полностью! Пожалуйста, при необходимости обращайтесь за помощью к ближайшему тренеру карьеры НаноТрейзен.
+   ⠀[head=1][color=darkred]Основные сведения о кристалле:[/head][/color]
+   ⠀[color=darkgreen]Эмиттеры со временем повреждают кристалл, однако при правильных условиях кристалл будет восстанавливаться сам![/color]
+   ⠀Прежде всего учтите, что кристалл суперматерии, если позволить, деламинирует после получения слишком большого урона! Это ставит под угрозу всю станцию!
+   ⠀Чтобы кристалл продолжал восстанавливаться, вы должны поддерживать его атмосферу в пределах от [head=3][color=red]30 кПа [/color][/head] до [head=2][color=red]300 кПа[/color][/head]. Кроме того, он не должен нагреваться выше [head=2][color=red]320 Кельвинов.[/color][/head]
+   ⠀[head=1][color=darkred] Продвинутая эксплуатация и настройка:[color=darkgreen][/head]
+   ⠀[head=3]Мы в НаноТрейзен рекомендуем уделить время доработке вашей конструкции, но здесь мы приводим несколько подсказок.[/head]
+   ⠀Учтите, что кристалл суперматерии после активации начнёт вырабатывать [color=lightgreen]тритий[/color], а также [color=lightblue]кислород[/color]. Эти газы можно и нужно откачивать для дальнейшего использования.
+   ⠀Простая схема для двигателя на суперматерии — сначала активировать все радиационные коллекторы и убедиться, что они заполнены [color=pink]плазмой[/color]. Кроме того, кристалл будет искрить, как шар теслы, и следует принять необходимые меры предосторожности.
+   ⠀Затем следует начать настройку вашего [color=blue]охлаждающего контура[/color]. Охлаждающий контур очень важен, так как необходимо подавать свежий холодный газ, чтобы кристалл не деламинировал.
+   ⠀Для этих контуров можно использовать любой газ, но в простой схеме применяется азот, а в более продвинутых — плазма.
+   ⠀Будьте готовы: кристалл начнёт нагревать газ внутри камеры. Если газ не обменивается, начнётся неуправляемая реакция, из которой очень трудно выйти.
+   ⠀Начинайте [color=red]медленно[/color]! Для начала используйте всего один эмиттер. Когда вы возьмёте это под контроль, смело включайте больше! Больше эмиттеров = больше энергии!
+   ⠀[color=red]НАДЕНЬТЕ РАДИАЦИОННЫЙ КОСТЮМ![/color] Зафиксировано, что суперматерия вырабатывает более 6 рад даже на самых низких уровнях. Только с радиационной защитой.
+   ⠀Надеемся, этого руководства достаточно, чтобы вы начали. Пожалуйста, обратитесь к ближайшему тренеру карьеры НаноТрейзен, если вам нужна дополнительная помощь.
+   ⠀[head=1][color=darkblue]Слава НаноТрейзен![/color][/head]

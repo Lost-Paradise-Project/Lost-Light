@@ -1,2 +1,2 @@
-ent-TwistyCube = twisty cube
-    .desc = 4.325×10¹⁹ different combinations!
+ent-TwistyCube = крутой куб
+    .desc = 4.325×10¹⁹ разных комбинаций!

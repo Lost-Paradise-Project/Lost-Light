@@ -1,3 +1,3 @@
 ent-BriefcaseBrownDevilGunKit = { ent-BriefcaseBrown }
     .desc = { ent-BriefcaseBrown.desc }
-    .suffix = Random Gun Kit
+    .suffix = Случайный оружейный набор

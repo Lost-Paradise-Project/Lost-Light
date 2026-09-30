@@ -1,8 +1,8 @@
 ent-BaseMagazineBoxPistol = коробка патронов (.35 авто)
     .desc = { ent-BaseItem.desc }
-ent-MagazineBoxPistolSP = ammunition box (.35 auto SP)
+ent-MagazineBoxPistolSP = коробка боеприпасов (.35 авто SP)
     .desc = { ent-BaseMagazineBoxPistol.desc }
-ent-MagazineBoxPistolHP = ammunition box (.35 auto HP)
+ent-MagazineBoxPistolHP = коробка боеприпасов (.35 авто HP)
     .desc = { ent-BaseMagazineBoxPistol.desc }
 ent-MagazineBoxPistolPractice = коробка патронов (.35 авто учебные)
     .desc = Картонная коробка патронов .35 авто. Предназначена для хранения безвредных учебных боеприпасов.

@@ -1,2 +1,2 @@
-ent-BaseMobSkeletonPerson = Urist McBones
+ent-BaseMobSkeletonPerson = Урист МакКости
     .desc = { ent-MobFlammable.desc }

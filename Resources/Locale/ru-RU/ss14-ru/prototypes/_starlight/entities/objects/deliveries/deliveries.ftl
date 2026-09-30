@@ -1,8 +1,8 @@
-ent-PackageDeliveryEvil = package
+ent-PackageDeliveryEvil = посылка
     .desc = { ent-PackageDelivery.desc }
-ent-LetterDeliveryEvil = letter
+ent-LetterDeliveryEvil = письмо
     .desc = { ent-LetterDelivery.desc }
-ent-BasePackageDeliveryReward = package
+ent-BasePackageDeliveryReward = посылка
     .desc = { ent-BaseDelivery.desc }
 ent-PackageDeliveryRewardPlush = { ent-BasePackageDeliveryReward }
     .desc = { ent-BasePackageDeliveryReward.desc }

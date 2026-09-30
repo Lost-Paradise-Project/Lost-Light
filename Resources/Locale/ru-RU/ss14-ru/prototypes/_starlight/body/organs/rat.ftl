@@ -1,6 +1,6 @@
-ent-OrganRatLungs = rat lungs
-    .desc = It ain't easy to stay breathing in these tunnels.
+ent-OrganRatLungs = лёгкие крысы
+    .desc = Нелегко продолжать дышать в этих туннелях.
     .suffix = Крыса
-ent-OrganRatStomach = rat stomach
-    .desc = Yearns for cheese.
-    .suffix = Rat
+ent-OrganRatStomach = желудок крысы
+    .desc = Тоскует по сыру.
+    .suffix = Крыса

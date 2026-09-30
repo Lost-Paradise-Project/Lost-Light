@@ -1,8 +1,8 @@
-ent-MagazineBoxRifleBigRubber = ammunition box (.20 rifle rubber)
+ent-MagazineBoxRifleBigRubber = коробка боеприпасов (.20 винтовочные резиновые)
     .desc = { ent-BaseMagazineBoxRifle.desc }
-ent-MagazineBoxRifleRubber = ammunition box (.20 rifle rubber)
+ent-MagazineBoxRifleRubber = коробка боеприпасов (.20 винтовочные резиновые)
     .desc = { ent-BaseMagazineBoxRifle.desc }
-ent-MagazineBoxRifleFMJ = ammunition box (.20 rifle FMJ)
+ent-MagazineBoxRifleFMJ = коробка боеприпасов (.20 винтовочные ПОО)
     .desc = { ent-BaseMagazineBoxRifle.desc }
-ent-MagazineBoxRifleAP = ammunition box (.20 rifle AP)
+ent-MagazineBoxRifleAP = коробка боеприпасов (.20 винтовочные бронебойные)
     .desc = { ent-BaseMagazineBoxRifle.desc }

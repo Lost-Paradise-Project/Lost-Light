@@ -1,2 +1,2 @@
-ent-ArmorSparkEffect = sparks
-    .desc = Sparks flying from armor impact.
+ent-ArmorSparkEffect = искры
+    .desc = Искры, летящие от удара по броне.

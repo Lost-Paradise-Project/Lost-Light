@@ -1,4 +1,4 @@
-department-Law = Law Department
-department-NT = NanoTrasen Personnel
-department-TSF = Trans-Solar Federation
-department-ITG = Interstellar Trade Guild
+department-Law = Юридический отдел
+department-NT = Персонал НаноТрейзен
+department-TSF = Транссолнечная федерация
+department-ITG = Межзвёздная торговая гильдия

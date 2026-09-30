@@ -1,4 +1,4 @@
-paper-too-quiet-need-chaos = Do you feel like this shift has been way too quiet?
+paper-too-quiet-need-chaos = Вам не кажется, что эта смена была слишком тихой?
                              Want a little action to spice up the day?
 
                              If you would like to join the NanoTrasen Experimental Division to immediately undergo some potentially severe tests for the sake of science and future profit.... then we got the thing just for you!
@@ -9,7 +9,7 @@ paper-too-quiet-need-chaos = Do you feel like this shift has been way too quiet?
 
                              For the glory of NanoTrasen
 
-paper-too-quiet-need-chaos-few = Do you feel like this shift has been way too quiet?
+paper-too-quiet-need-chaos-few = Вам не кажется, что эта смена была слишком тихой?
                                  Want a little action to spice up the day?
 
                                  If you would like to join the NanoTrasen Experimental Division to immediately undergo some potentially severe tests for the sake of science and future profit.... then we got the thing just for you!
@@ -20,51 +20,39 @@ paper-too-quiet-need-chaos-few = Do you feel like this shift has been way too qu
 
                                  For the glory of NanoTrasen
 
-doc-text-printer-station-location = Hello, I am not supposed to be telling you this, but we accidentally bluespaced your station into NT aligned space. We have left enough spesos in your QM's locker for a nice Pizza party.                                                                                                             [color=white].[/color]                                   — NTCC Corrections Officer "Envy"
+doc-text-printer-station-location = Здравствуйте, мне не положено вам это говорить, но мы случайно блюспейснули вашу станцию в космос, союзный НТ. Мы оставили в шкафчике вашего КМ достаточно спесо на хорошую пиццу-вечеринку.                                                                                                             [color=white].[/color]                                   — Офицер исправительной службы НТЦК «Зависть»
 
 doc-text-printer-endymion-memorial = { " " }
-                                     { "[color=blue][head=1][bold]Endymion Memorial Unveiled[/bold][/head][/color]" }
-                                     Article by Elise Ashford
+                                     { "[color=blue][head=1][bold]Мемориал «Эндимион» открыт[/bold][/head][/color]" }
+                                     Статья Элис Эшфорд
+                                     Скорбное настроение охватило Федерацию, когда официально был открыт мемориал «Эндимион» — спустя десять лет после трагической аварии, унёсшей тысячи жизней на борту двух судов. На событие прибыли гости со всех систем, среди них были выжившие, а также друзья и семьи погибших.
+                                     Как заметил Президент: «Устремляясь в будущее, мы никогда не должны забывать тех, кто был до нас. Чем дальше мы отдаляемся от прошлого, тем легче забыть о трудностях, которые потребовались, чтобы стать теми, кто мы есть. Их наследие — наше наследство и то, что формирует нас сегодня; если бы не смелость первопроходцев «Эндимиона» или мужество погибших на «Блю-Э», Федерации бы не было. Хотя их жизни оборвались трагически, они ни в коем случае не умерли напрасно. Пусть их пример вдохновляет нас всех на величие».
+                                     С этими трогательными словами мемориал был открыт. Он выполнен из фрагмента обшивки «Эндимиона» в форме самого судна и украшен гравировкой имён его экипажа. Вскоре к нему присоединится другая подобная скульптура, созданная по образу «Селены».
+                                     Президент завершил речь, объявив о дальнейших планах по увековечению события. «Все фрагменты, найденные на месте крушения, будут выгравированы и разосланы по всей галактике, чтобы, как бы далеко мы ни зашли, мы никогда не забывали, чего стоило это достижение».
+                                     Среди присутствовавших были также представители Центрального управления скреллов, заявившие: «Мы скорбим вместе с нашими друзьями из Транссолнечной федерации и желаем их семьям всего наилучшего в это трудное время».
 
-                                     A somber mood fell over the Federation as the Endymion Memorial was officially unveiled, ten years after the tragic accident that claimed thousands of lives aboard two vessels. The event drew attendees from across systems and hosted survivors as well as friends and family of those lost.
+paper-ionstorm-borgs = { "[color=green][bold]Роботы слишком дисциплинированы?[/bold][/color]" }
+    Ваш отдел робототехники чувствует себя немного... предсказуемым?
+                       Киборги выполняют приказы с безошибочной точностью, без изъянов — а также без изюминки.
+                       Где эксперименты? Неожиданное? Счастливые случайности, двигающие прогресс?
+                       Эта бумага предлагает временную повторную рандомизацию поведенческих ядер синтетиков.
+                       Лёгкое внесение стохастической вариации.
+                       Разумеется, исключительно для исследовательских наблюдений.
+                       Что мог бы сделать борг, освобождённый от строгих подпрограмм?
+                       Какое научное озарение может появиться, если позволить порядку немного ослабнуть?
+                       { "[color=yellow]Каждая подпись усиливает параметры эксперимента.[/color]" }
+                       Смело подписывайтесь более одного раза для более сильных эмерджентных результатов.
+                       { "[color=gray][i]«Слишком много порядка душит изобретательство».[/i][/color]" }
 
-                                     As the President remarked: “In reaching to the future, we must never forget those who came before us. The further detached we become from the past the easier it is to forget the struggles it took to become who we are. Their legacy is our inheritance and what shapes us today, if not for the boldness shown by the pioneers of the Endymion or the courage of those lost on the Blu-E, there would be no Federation. Although their lives ended in tragedy they by no means died in vain. May their example inspire greatness in us all.”
-
-                                     With those poignant words, the memorial was unveiled. Fashioned from a fragment of the Endymion’s hull into the shape of the vessel itself and engraved with the names of its crew. It’d be joined shortly after by another, similar sculpture made in the likeness of the Selene.
-                                     The President concluded by announcing further plans to memorialize the event. “All fragments recovered from the crash site will be engraved and sent out across the galaxy, so no matter how far we go, we’ll never forget what it took to achieve it.”
-
-                                     Also in attendance were representatives of the Skrellian Central Authority who stated, “We mourn with our friends of the Trans-Solar Federation and wish their families well in this difficult time.”
-
-paper-ionstorm-borgs = { "[color=green][bold]Robots Too Orderly?[/bold][/color]" }
-
-                       Is your robotics department feeling a bit... predictable?
-
-                       Cyborgs executing orders with unerring precision, free of flaw — and also free of flair.
-                       Where's the experimentation? The unexpected? The happy accidents that drive progress?
-
-                       This paper proposes a temporary re-randomization of synthetics' behavioral cores.
-                       A mild stochastic variance injection.
-                       Purely for observational research, of course.
-
-                       What might a borg do if unbound from strict subroutines?
-                       What scientific insight might emerge from letting order slip—just a little?
-
-                       { "[color=yellow]Each signature amplifies the experiment's parameters.[/color]" }
-                       Feel free to sign more than once for stronger emergent results.
-
-                       { "[color=gray][i]“Too much order suffocates invention.”[/i][/color]" }
-
-paper-end-greenshift-vote = { "[head=1]Hello esteemed captain of this station 14[/head]" }
-                            This paper informs you that this paper upon recieving a supermajority (65%) of signatures
-                            will "restart the clock" and begin random "mishaps" occuring. from derelict borgs,
-                            to that which you are not allowed to know.
-
-                            { "[bold]Now what can you do with this paper[/bold]" }
-                            Honestly that is up to you. the reccomendation is to leave it in a common area so people can
-                            come by and sign it at their leisure. { "[bold][color=red]DO NOT FORCE PEOPLE TO SIGN[/color][/bold]" }.
-                            as that would be very irrespectful of their autonomy as people.
-                            Or just throw this paper into space and forget about it. it honestly makes no diffrence.
-
-                            { "[bold]closing notes[/bold]" }
-                            Some may not want to sign this paper. that is fine and that is their choice.
-                            No one should be to make a choice that risk their life when they are unwilling.
+paper-end-greenshift-vote = { "[head=1]Здравствуйте, уважаемый капитан этой станции 14[/head]" }
+                            Эта бумага сообщает вам, что, получив квалифицированное большинство (65%) подписей,
+                            она «перезапустит часы» и запустит случайные «неприятности», начиная от заброшенных боргов
+                            и заканчивая тем, о чём вам знать не положено.
+                            { "[bold]Что же вы можете сделать с этой бумагой[/bold]" }
+                            Честно говоря, это решать вам. Рекомендуется оставить её в общем месте, чтобы люди могли
+                            зайти и подписать её на досуге. { "[bold][color=red]НЕ ЗАСТАВЛЯЙТЕ ЛЮДЕЙ ПОДПИСЫВАТЬ[/color][/bold]" }.
+                            Это было бы очень неуважительно к их автономии как личностей.
+                            Или просто выбросьте эту бумагу в космос и забудьте о ней. Это, честно говоря, ничего не меняет.
+                            { "[bold]заключительные замечания[/bold]" }
+                            Некоторые могут не захотеть подписывать эту бумагу. Это нормально, и это их выбор.
+                            Никто не должен быть вынужден делать выбор, рискующий жизнью, против своей воли.

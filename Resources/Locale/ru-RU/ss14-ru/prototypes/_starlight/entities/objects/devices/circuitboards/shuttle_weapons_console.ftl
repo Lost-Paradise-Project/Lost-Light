@@ -1,2 +1,2 @@
-ent-ShuttleWeaponsConsoleCircuitboard = shuttle weapons console board
-    .desc = A computer printed circuit board for a shuttle weapons control console.
+ent-ShuttleWeaponsConsoleCircuitboard = плата консоли оружия шаттла
+    .desc = Печатная плата компьютера для консоли управления оружием шаттла.

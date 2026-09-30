@@ -1,2 +1,2 @@
-ent-ActionRetractableItemAdvancedClaws = Advanced Claws
-    .desc = Extend or retract your claws!
+ent-ActionRetractableItemAdvancedClaws = Продвинутые когти
+    .desc = Выпускайте или втягивайте свои когти!

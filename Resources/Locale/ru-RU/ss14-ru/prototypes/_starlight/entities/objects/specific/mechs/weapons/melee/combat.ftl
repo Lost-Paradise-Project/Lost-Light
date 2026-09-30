@@ -1,3 +1,3 @@
-ent-WeaponMechChainSword = exosuit chainsword
-    .desc = Equipment for combat exosuits. This is the mechanical chainsword that'll pierce the heavens!
-    .suffix = Mech Weapon, Melee, Combat
+ent-WeaponMechChainSword = цепной меч экзокостюма
+    .desc = Снаряжение для боевых экзокостюмов. Это механический цепной меч, что пронзит небеса!
+    .suffix = Оружие меха, ближний бой, боевое

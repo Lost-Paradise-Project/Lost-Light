@@ -1,4 +1,4 @@
-ent-DeadManRemoteSignaller = dead man remote signaller
-    .desc = A handheld device used for remotely sending signals to objects within a small radius of about 15 meters. This one has some wire kludged to the side that will cause it to trigger if dropped.
-ent-DeadManRemoteSignallerAdvanced = dead man advanced remote signaller
-    .desc = A handheld device used for remotely sending signals to objects within a small radius of about 50 meters. This one has some wire kludged to the side that will cause it to trigger if dropped.
+ent-DeadManRemoteSignaller = дистанционный сигнализатор «мёртвая рука»
+    .desc = Портативное устройство для дистанционной отправки сигналов объектам в небольшом радиусе около 15 метров. К этому сбоку кое-как прикручен провод, из-за которого он сработает, если его уронить.
+ent-DeadManRemoteSignallerAdvanced = продвинутый дистанционный сигнализатор «мёртвая рука»
+    .desc = Портативное устройство для дистанционной отправки сигналов объектам в небольшом радиусе около 50 метров. К этому сбоку кое-как прикручен провод, из-за которого он сработает, если его уронить.

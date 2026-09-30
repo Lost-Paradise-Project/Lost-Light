@@ -1,2 +1,2 @@
-ent-BluespaceHarvesterPortal = bluespace rift
-    .desc = A tear in reality leading to somewhere... else. Hostile entities pour through.
+ent-BluespaceHarvesterPortal = блюспейс-разлом
+    .desc = Разрыв в реальности, ведущий куда-то... в другое место. Через него хлещут враждебные сущности.

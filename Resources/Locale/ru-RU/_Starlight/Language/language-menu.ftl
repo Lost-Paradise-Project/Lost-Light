@@ -1,10 +1,10 @@
-language-menu-window-title = Language Menu
-language-menu-current-language = Current Language: { $language }
-language-menu-description-header = Description
-ui-options-function-open-language-menu = Open language Menu
+language-menu-window-title = Меню языков
+language-menu-current-language = Текущий язык: { $language }
+language-menu-description-header = Описание
+ui-options-function-open-language-menu = Открыть меню языков
 
-language-menu-spoken-tab = Spoken
-language-menu-understood-tab = Understood
+language-menu-spoken-tab = Говорит
+language-menu-understood-tab = Понимает
 # unused, cant find a clean way to show these
-language-menu-spoken-tab-description = Languages you can speak and by extension understand.
-language-menu-understood-tab-description = Languages you can understand but may not be able to speak.
+language-menu-spoken-tab-description = Языки, на которых вы можете говорить и, соответственно, понимать.
+language-menu-understood-tab-description = Языки, которые вы можете понимать, но не обязательно можете говорить.

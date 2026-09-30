@@ -1,5 +1,5 @@
-ent-BaseMobClown = aberrant clown
-    .desc = A slippery mass of hilarious matter, animated through honktacular energy.
+ent-BaseMobClown = аберрантный клоун
+    .desc = Скользкая масса уморительной материи, оживлённая хонкотастической энергией.
     .suffix = { ent-BaseMobFlesh.suffix }
 ent-MobClownJared = { ent-BaseMobClown }
     .desc = { ent-BaseMobClown.desc }

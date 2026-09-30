@@ -1,2 +1,2 @@
-ent-EeepGunBullet = eeep lightning
+ent-EeepGunBullet = молния ииип
     .desc = { ent-TeslaGunBullet.desc }

@@ -1,8 +1,8 @@
-ent-Latch = [color=orange]Latch[/color]
-    .desc = Pin a target in place. Bite harder to extend the hold; taking hits shortens it.
-ent-LatchBiteHarder = [color=orange]Bite Harder[/color]
-    .desc = Deal damage and extend the latch, up to its hard cap.
-ent-LatchRelease = [color=orange]Release[/color]
-    .desc = Let go of the latch immediately.
-ent-K9Sprint = [color=lightblue]Sprint[/color]
-    .desc = A short burst of speed.
+ent-Latch = [color=orange]Вцепиться[/color]
+    .desc = Прижмите цель на месте. Кусайте сильнее, чтобы продлить хватку; получение ударов сокращает её.
+ent-LatchBiteHarder = [color=orange]Кусать сильнее[/color]
+    .desc = Наносите урон и продлевайте сцепление до его жёсткого предела.
+ent-LatchRelease = [color=orange]Отпустить[/color]
+    .desc = Немедленно разомкнуть сцепление.
+ent-K9Sprint = [color=lightblue]Спринт[/color]
+    .desc = Короткий всплеск скорости.

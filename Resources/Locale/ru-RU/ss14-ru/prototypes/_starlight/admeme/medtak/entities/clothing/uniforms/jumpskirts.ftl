@@ -1,4 +1,4 @@
-ent-ClothingUniformMedTakJumpskirt = MedTak jumpskirt
-    .desc = Standard issue MedTak uniform.
-ent-ClothingUniformMedTakJumpskirtFormal = MedTak formal jumpskirt
-    .desc = A formal MedTak uniform.
+ent-ClothingUniformMedTakJumpskirt = юбка-комбинезон МедТак
+    .desc = Стандартная форма МедТак.
+ent-ClothingUniformMedTakJumpskirtFormal = парадная юбка-комбинезон МедТак
+    .desc = Парадная форма МедТак.

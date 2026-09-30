@@ -1,2 +1,2 @@
-ent-BaseMobArachnid = Urist McWebs
+ent-BaseMobArachnid = Урист МакПаутины
     .desc = { ent-BaseMobSpeciesOrganic.desc }

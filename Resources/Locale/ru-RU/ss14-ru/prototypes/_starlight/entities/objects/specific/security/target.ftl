@@ -1,6 +1,6 @@
-ent-TargetChangeling = changeling target
-    .desc = A shooting target. This one is a changeling.
-ent-TargetTider = tider target
-    .desc = A shooting target. This one is a tider- better lethal it.
-ent-TargetWizard = wizard target
-    .desc = A shooting target. This one is a wizard.
+ent-TargetChangeling = мишень-генокрад
+    .desc = Мишень для стрельбы. Эта — генокрад.
+ent-TargetTider = мишень-тайдер
+    .desc = Мишень для стрельбы. Эта — тайдер, лучше летально.
+ent-TargetWizard = мишень-волшебник
+    .desc = Мишень для стрельбы. Эта — волшебник.

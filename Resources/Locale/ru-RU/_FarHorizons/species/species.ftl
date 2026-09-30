@@ -1,2 +1,2 @@
-species-name-ipc = IPC
+species-name-ipc = КПБ
 # Starlight, Neocyte species names moved to _Starlight/species/neocyte.ftl because they were all renamed. FH's IPC name remains here.

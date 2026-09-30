@@ -1,9 +1,9 @@
-ent-EmptyOilPack = Empty Oil Pack
-    .desc = Contains nothing.
-    .suffix = Full
+ent-EmptyOilPack = Пустой пакет масла
+    .desc = Ничего не содержит.
+    .suffix = Полный
 ent-EmptyOilPack5 = { ent-EmptyOilPack }
     .desc = { ent-EmptyOilPack.desc }
     .suffix = 5
 ent-EmptyOilPack1 = { ent-EmptyOilPack }
     .desc = { ent-EmptyOilPack.desc }
-    .suffix = Single
+    .suffix = Одиночный

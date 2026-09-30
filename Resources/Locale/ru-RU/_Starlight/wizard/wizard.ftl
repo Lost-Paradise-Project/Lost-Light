@@ -1,7 +1,7 @@
-wizard-item-restricted-1 = "Wizards only, fools."
-wizard-item-restricted-2 = Waves it around, expecting something to happen.
-wizard-item-restricted-3 = Sees a spark of magic... wait, no, just a reflection.
-wizard-item-restricted-4 = Isn't worthy of using this.
+wizard-item-restricted-1 = «Только для волшебников, глупцы».
+wizard-item-restricted-2 = Машет им, ожидая, что что-то произойдёт.
+wizard-item-restricted-3 = Видит искру магии... нет, погодите, просто отражение.
+wizard-item-restricted-4 = Недостоин им пользоваться.
 
 # WAR
-wizard-war = Attention crew, Central Command has identified a powerful magical signature in your vicinity. This surge is flagged as a potential hostile incursion. Security should prepare adequately.
+wizard-war = Внимание, экипаж: Центральное командование обнаружило в вашей окрестности мощную магическую сигнатуру. Этот всплеск помечен как потенциальное враждебное вторжение. СБ следует должным образом подготовиться.

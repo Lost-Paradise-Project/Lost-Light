@@ -116,4 +116,4 @@ ent-JugDexalinPlus = { ent-Jug }
     .suffix = дексалин плюс
 ent-JugIceialin = { ent-Jug }
     .desc = { ent-Jug.desc }
-    .suffix = iceialin
+    .suffix = айсиалин

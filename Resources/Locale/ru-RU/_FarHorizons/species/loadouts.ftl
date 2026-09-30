@@ -1,1 +1,1 @@
-loadout-group-neocyte-cybernetics = Neocyte Frames
+loadout-group-neocyte-cybernetics = Каркасы неоцитов

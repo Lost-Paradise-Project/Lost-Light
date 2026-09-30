@@ -1,7 +1,7 @@
-objective-condition-absorb-title = Absorb { $count } humanoids.
-objective-condition-absorb-description = I must absorb { $count } humanoids. It is necessary for my survival and further evolution.
+objective-condition-absorb-title = Поглотить гуманоидов: { $count }.
+objective-condition-absorb-description = Я должен поглотить гуманоидов: { $count }. Это необходимо для моего выживания и дальнейшей эволюции.
 
-objective-condition-stealdna-title = Extract { $count } compatible genomes.
-objective-condition-stealdna-description = I must extract { $count } unique genomes.
+objective-condition-stealdna-title = Извлечь совместимых геномов: { $count }.
+objective-condition-stealdna-description = Я должен извлечь уникальных геномов: { $count }.
 
-objective-condition-escape-identity-title = Escape on the evacuation shuttle alive and unrestrained while being { $targetName }, { CAPITALIZE($job) }.
+objective-condition-escape-identity-title = Сбежать на эвакуационном шаттле живым и не в наручниках под видом { $targetName }, { CAPITALIZE($job) }.

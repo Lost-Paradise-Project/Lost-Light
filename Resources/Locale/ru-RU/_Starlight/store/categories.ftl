@@ -1,26 +1,26 @@
 # Hug Dispenser
-store-category-plushies = Plushies
-store-category-plushie-toys = Toys
-store-category-plushie-species = Species
-store-category-plushie-crew = Crew
+store-category-plushies = Плюшевые игрушки
+store-category-plushie-toys = Игрушки
+store-category-plushie-species = Виды
+store-category-plushie-crew = Экипаж
 
-store-category-medical-chemistry = Chemistry
-store-category-medical-medical = Medical
-store-category-medical-surgery = Surgery
-store-category-engineering-main = Engineering
-store-category-engineering-atmos = Atmospherics
-store-category-service-clown = Clown
-store-category-service-mime = Mime
-store-category-security-main = Security
-store-category-secret = Secret
+store-category-medical-chemistry = Химия
+store-category-medical-medical = Медицинский
+store-category-medical-surgery = Хирургия
+store-category-engineering-main = Инженерия
+store-category-engineering-atmos = Атмосфера
+store-category-service-clown = Клоун
+store-category-service-mime = Мим
+store-category-security-main = Служба безопасности
+store-category-secret = Секрет
 
 # Changeling
-store-ling-category-combat = Combat
-store-ling-category-sting = Stings
-store-ling-category-utility = Utility
+store-ling-category-combat = Бой
+store-ling-category-sting = Жала
+store-ling-category-utility = Утилиты
 
-store-category-cantrips-standard = Standard Cantrips
+store-category-cantrips-standard = Стандартные заговоры
 
 # Uplinks
-store-category-cybernetics = Cybernetics
-store-category-dagd = Glory
+store-category-cybernetics = Кибернетика
+store-category-dagd = Слава

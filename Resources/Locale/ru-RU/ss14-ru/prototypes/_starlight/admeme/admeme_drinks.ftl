@@ -1,3 +1,3 @@
-ent-DrinkRumizineBottleFull = Uncle Git's Cannonball Courage
-    .desc = A battered amber bottle bearing a skull-and-anchor label. The faded text reads "Uncle Git's Cannonball Courage Rumizine — Drink before battle, not after." Smells like rum, gunpowder, and questionable medical practice.
+ent-DrinkRumizineBottleFull = Пушечная смелость дядюшки Гита
+    .desc = Потрёпанная янтарная бутылка с этикеткой с черепом и якорем. Выцветший текст гласит: «Пушечная смелость дядюшки Гита, румизин — пить перед боем, а не после». Пахнет ромом, порохом и сомнительной медициной.
     .suffix = { ent-DrinkBottleGlassBaseFull.suffix }

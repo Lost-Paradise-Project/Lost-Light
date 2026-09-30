@@ -1,2 +1,2 @@
-ent-WelderAbductor = abductor's welding tool
-    .desc = An experimental welder capable of self-fuel generation and less harmful to the eyes.
+ent-WelderAbductor = сварочный инструмент похитителя
+    .desc = Экспериментальный сварщик, способный самостоятельно вырабатывать топливо и менее вредный для глаз.

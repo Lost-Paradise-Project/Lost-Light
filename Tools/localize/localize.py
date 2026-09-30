@@ -385,6 +385,14 @@ class LocalizationManager:
     # Переводы сущностей живут только в ss14-ru/prototypes
     ENT_KEY_RE = re.compile(r"^ent-[a-zA-Z]")
     CYRILLIC_PATTERN = re.compile(r"[А-Яа-яЁё]")
+    HEX_COLOR_RE = re.compile(r"#[0-9a-fA-F]{3,8}")
+    # Таблицы замен слов: к ним непереводимые токены не применяются
+    WORD_TABLE_KEY_RE = re.compile(r"^(accent-|chatsan-)")
+    # Ключи с синтаксисом команд и слова-имена команд в них (dock, replay_play, get-motd)
+    COMMAND_SYNTAX_KEY_RE = re.compile(
+        r"^cmd-.*-(help|completion)$|-command-name$|^shell-argument-"
+    )
+    COMMAND_WORD_RE = re.compile(r"(?<![\w-])[a-z][a-z0-9_\-]*(?![\w-])")
     LATIN_PATTERN = re.compile(r"[a-zA-Z]")
     RE_INNER_DASH = re.compile(r"(?<=\s)-(?=\s)")
 
@@ -411,9 +419,15 @@ class LocalizationManager:
         ignore_variable_mismatch_paths: List[Path] = []
         no_translate_tokens: List[str] = []
 
-        config_path = Path(config_file).resolve()
-        if not config_path.exists():
-            config_path = (self.root_dir / config_file).resolve()
+        # Ищем конфиг: как передан (от текущей папки), рядом со скриптом, в корне проекта
+        candidates = [
+            Path(config_file),
+            Path(__file__).resolve().parent / config_file,
+            self.root_dir / config_file,
+        ]
+        config_path = next(
+            (c.resolve() for c in candidates if c.exists()), candidates[0].resolve()
+        )
 
         if config_path.exists():
             try:
@@ -1288,6 +1302,17 @@ class LocalizationManager:
         logging.info("Поиск непереведенных строк...")
         untranslated_count = 0
 
+        # регистр не важен: "Nanotrasen" покрывает и "NanoTrasen"
+        tokens = sorted(self.context.no_translate_tokens, key=len, reverse=True)
+        self._no_translate_re = re.compile(
+            "|".join(
+                r"(?<![A-Za-z0-9])" + re.escape(t) + r"(?![A-Za-z0-9])"
+                for t in tokens
+            )
+            or r"(?!x)x",
+            re.IGNORECASE,
+        )
+
         search_dirs = [self.ru_ru_dir, self.robust_ru_dir]
 
         for directory in search_dirs:
@@ -1318,6 +1343,17 @@ class LocalizationManager:
                             return False
                         if re.match(r"^v\d[\w.\-]*$", clean_text.strip()):
                             return False
+                        # hex-цвета (#eeeeee) - не текст
+                        if self.HEX_COLOR_RE.fullmatch(clean_text.strip()):
+                            return False
+                        # непереводимые токены вырезаются целыми словами в любом месте строки;
+                        # в акцентах и сокращениях чата каждое английское слово - пропуск перевода
+                        if not self.WORD_TABLE_KEY_RE.match(_key):
+                            clean_text = self._no_translate_re.sub(" ", clean_text)
+                        # справка по командам: имена команд и аргументы <...> - не текст
+                        if self.COMMAND_SYNTAX_KEY_RE.search(_key):
+                            clean_text = re.sub(r"<[^>]*>", " ", clean_text)
+                            clean_text = self.COMMAND_WORD_RE.sub(" ", clean_text)
                         return bool(
                             self.LATIN_PATTERN.search(clean_text)
                             and not self.CYRILLIC_PATTERN.search(clean_text)

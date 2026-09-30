@@ -1,16 +1,16 @@
-comp-gender-change-potion-category = Set Gender
+comp-gender-change-potion-category = Задать пол
 
-comp-gender-change-potion-neuter = Neuter (it/its)
-comp-gender-change-potion-epicene = Epicence (they/them)
-comp-gender-change-potion-female = Female (she/her)
-comp-gender-change-potion-male = Male (he/him)
+comp-gender-change-potion-neuter = Средний (оно)
+comp-gender-change-potion-epicene = Нейтральный (они)
+comp-gender-change-potion-female = Женский (она)
+comp-gender-change-potion-male = Мужской (он)
 
-comp-gender-change-potion-neuter-set = Set to Neuter
-comp-gender-change-potion-epicene-set = Set to Epicence
-comp-gender-change-potion-female-set = Set to Female
-comp-gender-change-potion-male-set = Set to Male
+comp-gender-change-potion-neuter-set = Установлен средний
+comp-gender-change-potion-epicene-set = Установлен нейтральный
+comp-gender-change-potion-female-set = Установлен женский
+comp-gender-change-potion-male-set = Установлен мужской
 
-comp-gender-change-potion-neuter-set-already = Already set to Neuter
-comp-gender-change-potion-epicene-set-already = Already set to Epicence
-comp-gender-change-potion-female-set-already = Already set to Female
-comp-gender-change-potion-male-set-already = Already set to Male
+comp-gender-change-potion-neuter-set-already = Уже установлен средний
+comp-gender-change-potion-epicene-set-already = Уже установлен нейтральный
+comp-gender-change-potion-female-set-already = Уже установлен женский
+comp-gender-change-potion-male-set-already = Уже установлен мужской

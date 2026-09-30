@@ -1,5 +1,5 @@
 # Starlight edit: append station location to rift location
-carp-rift-warning = Разлом { $location } порождает неестественно большой поток энергии. Остановите это любой ценой!
+carp-rift-warning = Разлом на { $station } { $location } порождает неестественно большой поток энергии. Остановите это любой ценой!
 carp-rift-duplicate = Невозможно иметь 2 заряжающихся разлома одновременно!
 carp-rift-examine = Он заряжен на [color=yellow]{ $percentage }%[/color]!
 carp-rift-max = Вы достигли максимального количества разломов

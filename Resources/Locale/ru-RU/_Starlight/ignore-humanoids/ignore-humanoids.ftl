@@ -1,1 +1,1 @@
-ignore-humanoids-unknown-name = Unknown
+ignore-humanoids-unknown-name = Неизвестно

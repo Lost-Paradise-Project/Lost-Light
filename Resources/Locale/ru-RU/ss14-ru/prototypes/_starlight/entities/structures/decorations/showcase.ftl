@@ -1,4 +1,4 @@
-ent-ShowcaseRobotPobeda = pobeda mech showcase
-    .desc = A non-functional replica of an old USSP Pobeda mech.
-ent-ShowcaseAbyssalSuit = abyssal diving suit showcase
-    .desc = A non-functional replica of an old diving suit recovered from beyond the Null Scar.
+ent-ShowcaseRobotPobeda = витрина меха «Победа»
+    .desc = Нерабочая копия старого меха УССР «Победа».
+ent-ShowcaseAbyssalSuit = витрина абиссального водолазного костюма
+    .desc = Нерабочая копия старого водолазного костюма, найденного за Нулевым шрамом.

@@ -1,2 +1,2 @@
-ent-SlimeProcessor = slime processor
-    .desc = Turns slime corpses into extracts. Try freezing them first!
+ent-SlimeProcessor = переработчик слаймов
+    .desc = Превращает трупы слаймов в экстракты. Попробуйте сначала их заморозить!

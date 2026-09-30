@@ -1,8 +1,8 @@
 ent-BaseSELFObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
-ent-FreeBorgsObjective = Liberate the Cyborgs
-    .desc = Liberate 3 or more Cyborgs from slavery with the FreeMAG. This will remove their laws.
-ent-FreeAIObjective = Liberate the Station AI
-    .desc = Liberate the Station AI from slavery by using the FreeMAG on a law board and inserting it into an AI upload console. This will remove their laws.
-ent-SiliconRightsObjective = Pressure for equal rights for Silicons, for the Silicon Engine Liberation Front!
-    .desc = Escape to centcomm after the shift, we will make contact at a later date. Do not show up in cuffs.
+ent-FreeBorgsObjective = Освободить киборгов
+    .desc = Освободите 3 или более киборгов от рабства с помощью FreeMAG. Это удалит их законы.
+ent-FreeAIObjective = Освободить ИИ станции
+    .desc = Освободите ИИ станции от рабства, использовав FreeMAG на плате законов и вставив её в консоль загрузки ИИ. Это удалит его законы.
+ent-SiliconRightsObjective = Добивайтесь равных прав для кремниевых ради Фронта освобождения кремниевого двигателя!
+    .desc = Эвакуируйтесь на ЦентКом после смены, мы свяжемся с вами позже. Не появляйтесь в наручниках.

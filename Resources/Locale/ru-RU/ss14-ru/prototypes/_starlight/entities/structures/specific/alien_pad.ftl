@@ -1,2 +1,2 @@
-ent-AbductorAlienPad = alien pad
-    .desc = Beam in the pizzas and dig in.
+ent-AbductorAlienPad = площадка пришельцев
+    .desc = Телепортируйте пиццы и налетайте.

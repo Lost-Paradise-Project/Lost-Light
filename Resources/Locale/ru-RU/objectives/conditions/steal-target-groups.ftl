@@ -1,5 +1,5 @@
 # Traitor single items
-steal-target-groups-supermatter-sliver = supermatter sliver
+steal-target-groups-supermatter-sliver = осколок суперматерии
 steal-target-groups-hypospray = гипоспрей
 steal-target-groups-handheld-crew-monitor = ручной монитор экипажа
 steal-target-groups-clothing-outer-hardsuit-rd = экспериментальный исследовательский скафандр

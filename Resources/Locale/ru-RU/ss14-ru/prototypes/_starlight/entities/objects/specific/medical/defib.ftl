@@ -1,7 +1,7 @@
-ent-DefibrillatorBrigmedical = brigmedic defibrillator
-    .desc = Hand-held device that can save lives, and act as a weapon in a pinch.
+ent-DefibrillatorBrigmedical = дефибриллятор бригмедика
+    .desc = Портативное устройство, способное спасать жизни и в крайнем случае служить оружием.
 ent-DefibrillatorSyndicateOneHandedUnpowered = { ent-BaseDefibrillator }
     .desc = { ent-BaseDefibrillator.desc }
-    .suffix = Syndicate, One-Handed, Always Powered
-ent-DefibrillatorParamed = paramedic defibrillator
-    .desc = A more compact defibrilator for paramedics to carry, with a small storage compartment for medical supplies and spare cells
+    .suffix = Синдикат, одноручный, всегда запитан
+ent-DefibrillatorParamed = дефибриллятор парамедика
+    .desc = Более компактный дефибриллятор для парамедиков с небольшим отделением для медицинских припасов и запасных ячеек

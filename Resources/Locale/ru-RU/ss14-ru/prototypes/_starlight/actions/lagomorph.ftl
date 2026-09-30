@@ -1,4 +1,4 @@
-ent-StaminaSurge = [color=yellow]Stamina Surge[/color]
-    .desc = Grants increased stamina regeneration and resistance for a while at the cost of drastically increased hunger.
-ent-Zoomies = [color=lightblue]Zoomies!![/color]
-    .desc = Boost sprint speed at the cost of drastically increased thirst.
+ent-StaminaSurge = [color=yellow]Всплеск выносливости[/color]
+    .desc = Даёт повышенное восстановление выносливости и сопротивление на время ценой резко повышенного голода.
+ent-Zoomies = [color=lightblue]Зумеры!![/color]
+    .desc = Повышает скорость спринта ценой резко повышенной жажды.

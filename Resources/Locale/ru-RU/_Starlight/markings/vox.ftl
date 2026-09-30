@@ -1,65 +1,65 @@
-marking-VoxBeakColor-voxbeakcolor = Colorable Beak (Pointed)
-marking-VoxBeakColor = Colorable Beak (Pointed)
+marking-VoxBeakColor-voxbeakcolor = Перекрашиваемый клюв (заострённый)
+marking-VoxBeakColor = Перекрашиваемый клюв (заострённый)
 
-marking-VoxBeakSquareCere-voxbeaksquarecolor = Colorable Beak (Square Cere)
-marking-VoxBeakSquareCereColor = Colorable Beak (Square Cere)
+marking-VoxBeakSquareCere-voxbeaksquarecolor = Перекрашиваемый клюв (с квадратной восковицей)
+marking-VoxBeakSquareCereColor = Перекрашиваемый клюв (с квадратной восковицей)
 
-marking-VoxBeakHookedColor-voxbeakhookedcolor = Colorable Beak (Hooked)
-marking-VoxBeakHookedColor = Colorable Beak (Hooked)
+marking-VoxBeakHookedColor-voxbeakhookedcolor = Перекрашиваемый клюв (крючковатый)
+marking-VoxBeakHookedColor = Перекрашиваемый клюв (крючковатый)
 
-marking-VoxBeakShavedColor-voxbeakshavedcolor = Colorable Beak (Shaved)
-marking-VoxBeakShavedColor = Colorable Beak (Shaved)
+marking-VoxBeakShavedColor-voxbeakshavedcolor = Перекрашиваемый клюв (сточенный)
+marking-VoxBeakShavedColor = Перекрашиваемый клюв (сточенный)
 
-marking-VoxShaggyTail-voxshaggytail = Vox Tail (Shaggy)
-marking-VoxShaggyTail = Vox Tail (Shaggy)
+marking-VoxShaggyTail-voxshaggytail = Хвост вокса (лохматый)
+marking-VoxShaggyTail = Хвост вокса (лохматый)
 
-marking-VoxPlumage-voxplumage = Vox Tail (Plumage)
-marking-VoxPlumage = Vox Tail (Plumage)
+marking-VoxPlumage-voxplumage = Хвост вокса (оперение)
+marking-VoxPlumage = Хвост вокса (оперение)
 
-marking-VoxColorableLeftLeg-leftleg = Colorable Left Leg
-marking-VoxColorableLeftLeg = Colorable Left Leg
+marking-VoxColorableLeftLeg-leftleg = Перекрашиваемая левая нога
+marking-VoxColorableLeftLeg = Перекрашиваемая левая нога
 
-marking-VoxColorableRightLeg-rightleg = Colorable Right Leg
-marking-VoxColorableRightLeg = Colorable Right Leg
+marking-VoxColorableRightLeg-rightleg = Перекрашиваемая правая нога
+marking-VoxColorableRightLeg = Перекрашиваемая правая нога
 
-marking-VoxColorableLeftArm-leftarm = Colorable Left Arm
-marking-VoxColorableLeftArm = Colorable Left Arm
+marking-VoxColorableLeftArm-leftarm = Перекрашиваемая левая рука
+marking-VoxColorableLeftArm = Перекрашиваемая левая рука
 
-marking-VoxColorableRightArm-rightarm = Colorable Right Arm
-marking-VoxColorableRightArm = Colorable Right Arm
+marking-VoxColorableRightArm-rightarm = Перекрашиваемая правая рука
+marking-VoxColorableRightArm = Перекрашиваемая правая рука
 
-marking-VoxColorableRightHand-righthand = Colorable Right Hand
-marking-VoxColorableRightHand = Colorable Right Hand
+marking-VoxColorableRightHand-righthand = Перекрашиваемая правая кисть
+marking-VoxColorableRightHand = Перекрашиваемая правая кисть
 
-marking-VoxColorableLeftHand-lefthand = Colorable Left Hand
-marking-VoxColorableLeftHand = Colorable Left Hand
+marking-VoxColorableLeftHand-lefthand = Перекрашиваемая левая кисть
+marking-VoxColorableLeftHand = Перекрашиваемая левая кисть
 
-marking-VoxColorableLeftFoot-leftfoot = Colorable Left Foot
-marking-VoxColorableLeftFoot = Colorable Left Foot
+marking-VoxColorableLeftFoot-leftfoot = Перекрашиваемая левая стопа
+marking-VoxColorableLeftFoot = Перекрашиваемая левая стопа
 
-marking-VoxColorableRightFoot-rightfoot = Colorable Right Foot
-marking-VoxColorableRightFoot = Colorable Right Foot
+marking-VoxColorableRightFoot-rightfoot = Перекрашиваемая правая стопа
+marking-VoxColorableRightFoot = Перекрашиваемая правая стопа
 
-marking-VoxFeatheredLegLeft-leftlegfeathered = Feathered Left Leg
-marking-VoxFeatheredLegLeft = Feathered Left Leg
+marking-VoxFeatheredLegLeft-leftlegfeathered = Оперённая левая нога
+marking-VoxFeatheredLegLeft = Оперённая левая нога
 
-marking-VoxFeatheredLegRight-rightlegfeathered = Feathered Right Leg
-marking-VoxFeatheredLegRight = Feathered Right Leg
+marking-VoxFeatheredLegRight-rightlegfeathered = Оперённая правая нога
+marking-VoxFeatheredLegRight = Оперённая правая нога
 
-marking-VoxTailSplitAnimated-vox_tail_split_animated = Vox Tail (Split, animated)
-marking-VoxTailSplitAnimated = Vox Tail (Split)
+marking-VoxTailSplitAnimated-vox_tail_split_animated = Хвост вокса (раздвоенный, анимированный)
+marking-VoxTailSplitAnimated = Хвост вокса (раздвоенный)
 
-marking-VoxTailSpikes-vox_tail_spikes_animated = Vox Tail (Spiked, animated)
-marking-VoxTailSpikesAnimated = Vox Tail (Spiked, animated)
+marking-VoxTailSpikes-vox_tail_spikes_animated = Хвост вокса (шипастый, анимированный)
+marking-VoxTailSpikesAnimated = Хвост вокса (шипастый, анимированный)
 
-marking-VoxTailShortAnimated-vox_tail_small_animated = Vox Tail (Short, animated)
-marking-VoxTailShortAnimated = Vox Tail (Short, animated)
+marking-VoxTailShortAnimated-vox_tail_small_animated = Хвост вокса (короткий, анимированный)
+marking-VoxTailShortAnimated = Хвост вокса (короткий, анимированный)
 
-marking-VoxTailAnimated-vox_tail_animated = Vox Tail (Medium, animated)
-marking-VoxTailAnimated = Vox Tail (Medium, animated)
+marking-VoxTailAnimated-vox_tail_animated = Хвост вокса (средний, анимированный)
+marking-VoxTailAnimated = Хвост вокса (средний, анимированный)
 
-marking-VoxTailBigAnimated-vox_tail_big_animated = Vox Tail (Big, animated)
-marking-VoxTailBigAnimated = Vox Tail (Big, animated)
+marking-VoxTailBigAnimated-vox_tail_big_animated = Хвост вокса (большой, анимированный)
+marking-VoxTailBigAnimated = Хвост вокса (большой, анимированный)
 
-marking-VoxTailDockedAnimated-vox_tail_docked_animated = Vox Tail (Docked, animated)
-marking-VoxTailDockedAnimated = Vox Tail (Docked, animated)
+marking-VoxTailDockedAnimated-vox_tail_docked_animated = Хвост вокса (купированный, анимированный)
+marking-VoxTailDockedAnimated = Хвост вокса (купированный, анимированный)

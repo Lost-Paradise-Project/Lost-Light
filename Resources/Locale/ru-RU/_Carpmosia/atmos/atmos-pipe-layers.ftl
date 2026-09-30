@@ -1,2 +1,2 @@
-atmos-pipe-layers-component-layer-quaternary = quaternary
-atmos-pipe-layers-component-layer-quinary = quinary
+atmos-pipe-layers-component-layer-quaternary = четвертичный
+atmos-pipe-layers-component-layer-quinary = пятеричный

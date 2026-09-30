@@ -1,4 +1,4 @@
-ent-BorgHold = Borg Cargo Hold
-    .desc = A small cargo hold built into a cyborg's chassis
-ent-BorgClamp = cyborg hydraulic clamp
-    .desc = A small hydraulic clamp designed to interface with a cyborg
+ent-BorgHold = Грузовой отсек борга
+    .desc = Небольшой грузовой отсек, встроенный в шасси киборга
+ent-BorgClamp = гидравлический зажим киборга
+    .desc = Небольшой гидравлический зажим, предназначенный для сопряжения с киборгом

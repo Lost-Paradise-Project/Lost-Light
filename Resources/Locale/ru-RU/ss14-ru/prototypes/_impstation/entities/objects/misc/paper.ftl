@@ -1,4 +1,4 @@
-ent-FineTicket = ticket
-    .desc = A space-glue backed fining ticket. Once its stuck, it wont come off without being destroyed.
-ent-TicketPad = ticket pad
-    .desc = A small folder of sticky-backed tickets. Fill out the receiver's name, crime, the issued fine, and then sign the ticket.
+ent-FineTicket = талон
+    .desc = Штрафной талон на космическом клее. Однажды приклеившись, он не отойдёт без повреждения.
+ent-TicketPad = блокнот талонов
+    .desc = Небольшая папка с клейкими талонами. Впишите имя получателя, преступление, назначенный штраф и подпишите талон.

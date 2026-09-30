@@ -1,2 +1,2 @@
-alerts-doll-shell-integrity-name = Shell Integrity
-alerts-doll-shell-integrity-desc = The integrity state of your shell. The lower this is the more of your core is exposed! Losing every piece of your shell is a horrible thing and should be avoided at all costs!
+alerts-doll-shell-integrity-name = Целостность панциря
+alerts-doll-shell-integrity-desc = Состояние целостности вашего панциря. Чем оно ниже, тем больше открыто ваше ядро! Потеря всех частей панциря — ужасное дело, которого следует избегать любой ценой!

@@ -1,15 +1,15 @@
 # THE UNKNOWN
 
-ghost-role-information-theunknown-name = The Unknown
-ghost-role-information-theunknown-description = The Cosmic Cult has won. An fragment of cosmic power extrudes into realspace.
+ghost-role-information-theunknown-name = Неведомое
+ghost-role-information-theunknown-description = Космический культ победил. Фрагмент космической силы проникает в реальное пространство.
 ghost-role-information-theunknown-rules = ...
 
 
 # CosmicMinions
 
-ghost-role-information-cosmic-minion-name = Cosmic Minion
+ghost-role-information-cosmic-minion-name = Космический приспешник
 
-ghost-role-information-cosmic-minion-description = Cosmic Cult Minion
+ghost-role-information-cosmic-minion-description = Приспешник Космического культа
     You are a manifestation of the Cosmic Cult.
 
     Aid your maker and fellow minions in spreading corruption and entropy.
@@ -17,67 +17,67 @@ ghost-role-information-cosmic-minion-description = Cosmic Cult Minion
 
 # Custodian
 
-ghost-role-information-cosmic-custodian-name = Malign Custodian
-ghost-role-information-cosmic-custodian-description = A vessel of the Astral Murmur. With malign mass and unnatural strength, stand at the forefront of the Cosmic Cult and crush all who oppose its inevitable convergence.
-ghost-role-information-cosmic-custodian-rules = You are a [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] aligned with the Cosmic Cult. You are the shield and fist of the Astral Murmur; lead the advance, protect your cosmic allies, and break through all who stand against the coming convergence.
+ghost-role-information-cosmic-custodian-name = Злокозненный хранитель
+ghost-role-information-cosmic-custodian-description = Сосуд Астрального шёпота. Обладая злокозненной массой и неестественной силой, стойте в авангарде Космического культа и сокрушайте всех, кто противится его неизбежному схождению.
+ghost-role-information-cosmic-custodian-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], союзник Космического культа. Вы щит и кулак Астрального шёпота; ведите наступление, защищайте своих космических союзников и прорывайтесь сквозь всех, кто противостоит грядущему схождению.
 
 # ORACLE
 
-ghost-role-information-cosmic-oracle-name = Malign Oracle
-ghost-role-information-cosmic-oracle-description = A vessel of the Astral Murmur. Offer guidance and revelation to the Cosmic Cult, aiding them as they usher in the inevitable end.
-ghost-role-information-cosmic-oracle-rules = You are a [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] aligned with the Cosmic Cult. Communicate through the Astral Murmur and follow the wishes of your cosmic allies.
+ghost-role-information-cosmic-oracle-name = Злокозненный оракул
+ghost-role-information-cosmic-oracle-description = Сосуд Астрального шёпота. Наставляйте и открывайте истину Космическому культу, помогая ему приблизить неизбежный конец.
+ghost-role-information-cosmic-oracle-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], союзник Космического культа. Общайтесь через Астральный шёпот и следуйте желаниям своих космических союзников.
 
 # Lodestar
 
-ghost-role-information-cosmic-lodestar-name = Malign Lodestar
-ghost-role-information-cosmic-lodestar-description = A vessel of the Astral Murmur. From beyond the front lines, unleash shards of the void upon those who resist the Cosmic Cult and illuminate the path toward the final convergence.
-ghost-role-information-cosmic-lodestar-rules = You are a [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] aligned with the Cosmic Cult. You are an instrument of the Astral Murmur; remain behind your cosmic allies, strike from afar, and tear apart those who oppose the inevitable end.
+ghost-role-information-cosmic-lodestar-name = Злокозненная путеводная звезда
+ghost-role-information-cosmic-lodestar-description = Сосуд Астрального шёпота. С тыла обрушивайте осколки пустоты на тех, кто сопротивляется Космическому культу, и освещайте путь к финальному схождению.
+ghost-role-information-cosmic-lodestar-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color], союзник Космического культа. Вы орудие Астрального шёпота; оставайтесь позади своих космических союзников, бейте издалека и разрывайте тех, кто противится неизбежному концу.
 
 # COLOSSUS
 
-ghost-role-information-colossus-name = Entropic Colossus
-ghost-role-information-colossus-description = Call upon an Effigy of Entropy to perpetuate your existence and accelerate the end of all things! You have 15 minutes to do so or your energies will be extinguished.
-ghost-role-information-colossus-rules = You are a [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] with any cosmic cultists that may be present.
+ghost-role-information-colossus-name = Энтропийный колосс
+ghost-role-information-colossus-description = Призовите Идола Энтропии, чтобы продлить своё существование и ускорить конец всего сущего! У вас есть 15 минут, иначе ваши энергии угаснут.
+ghost-role-information-colossus-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] вместе с любыми космическими культистами, которые могут присутствовать.
 
-terror-colossus = Attention crew, it appears that someone on your station has drawn the attention of an enormous malign anomaly.
+terror-colossus = Внимание, экипаж: похоже, кто-то на вашей станции привлёк внимание огромной злокозненной аномалии.
 
-ghost-role-colossus-charactermenu = You must usher in the end of all things. Wreak untold havoc upon all before you.
-ghost-role-colossus-objective = Call forth an Effigy of Entropy and persist until the end of all things.
+ghost-role-colossus-charactermenu = Вы должны приблизить конец всего сущего. Учините невообразимый хаос на всём, что перед вами.
+ghost-role-colossus-objective = Призовите Идола Энтропии и существуйте до конца всего сущего.
 ghost-role-colossus-briefing =
-    You are an Entropic Colossus!
-    Your objectives are listed in the character menu.
-    Read more about your role in the guidebook entry.
+    Вы — Энтропийный колосс!
+    Ваши цели перечислены в меню персонажа.
+    Подробнее о вашей роли читайте в статье руководства.
 
-ghost-role-colossus-death = The colossus collapses, its light extinguished.
-ghost-role-colossus-revive = The colossus tears itself from death, roaring once more.
-ghost-role-colossus-hibernate = The colossus begins drawing in energy!
-ghost-role-colossus-effigy-confirm = If placement is  valid, press again to Beckon an Effigy.
+ghost-role-colossus-death = Колосс рушится, его свет угасает.
+ghost-role-colossus-revive = Колосс вырывается из смерти и снова ревёт.
+ghost-role-colossus-hibernate = Колосс начинает втягивать энергию!
+ghost-role-colossus-effigy-confirm = Если место подходит, нажмите ещё раз, чтобы призвать Идола.
 
-ghost-role-colossus-effigy-lost = Your connection to the effigy has been severed. You begin gathering strength for another.
-ghost-role-colossus-effigy-ready = Your strength has returned. You may once again beckon an effigy.
+ghost-role-colossus-effigy-lost = Ваша связь с идолом разорвана. Вы начинаете копить силы для нового.
+ghost-role-colossus-effigy-ready = Ваши силы вернулись. Вы снова можете призвать идола.
 
-ghost-role-colossus-effigy-error-grid = Invalid location! An Effigy must be beckoned upon a stable surface.
-ghost-role-colossus-effigy-error-location = Invalid location! The Effigy must be beckoned near { $LOCATION }.
-ghost-role-colossus-effigy-error-intersection = Too crowded! An Effigy requires an empty 3x1 area to be beckoned.
-ghost-role-colossus-effigy-error-space = Too close to space! An Effigy must be be at least { $DISTANCE }m away.
+ghost-role-colossus-effigy-error-grid = Недопустимое место! Идола нужно призывать на устойчивую поверхность.
+ghost-role-colossus-effigy-error-location = Недопустимое место! Истукан должен быть призван рядом с { $LOCATION }.
+ghost-role-colossus-effigy-error-intersection = Слишком тесно! Для призыва Идолу нужна свободная область 3x1.
+ghost-role-colossus-effigy-error-space = Слишком близко к космосу! Истукан должен быть не ближе { $DISTANCE } м.
 
-objective-condition-effigy-no-target = Beckon an Effigy wherever you desire.
-objective-condition-effigy = Beckon an Effigy near "{ $location }".
+objective-condition-effigy-no-target = Призовите Идола, где пожелаете.
+objective-condition-effigy = Призвать Истукана рядом с «{ $location }».
 
 # MINDSINK (Positronic Brain)
 
-ghost-role-mindsink-installed = Whispers hum from its surface!
-ghost-role-mindsink-off = It lies dormant.
-ghost-role-mindsink-still-searching = It is drawing upon nullspace energies...
-ghost-role-mindsink-searching = It has started drawing upon nullspace energies...
-ghost-role-mindsink-role-name = Malign Mindsink
-ghost-role-mindsink-role-description = Serve the station crew, despite your unusual origins.
-ghost-role-mindsink-wipe-device-verb-text = Erase Mind
-ghost-role-mindsink-wiped-device = The mind was snuffed out.
-ghost-role-mindsink-stop-searching-verb-text = Stop Seeking
-ghost-role-mindsink-stopped-searching = Noöspheric resonance halted.
-ghost-role-mindsink-slot-component-slot-name-brain = Brain
+ghost-role-mindsink-installed = С его поверхности доносятся шёпоты!
+ghost-role-mindsink-off = Он бездействует.
+ghost-role-mindsink-still-searching = Он черпает энергии нуль-пространства...
+ghost-role-mindsink-searching = Он начал черпать энергии нуль-пространства...
+ghost-role-mindsink-role-name = Злокозненная разумоловушка
+ghost-role-mindsink-role-description = Служите экипажу станции, несмотря на своё необычное происхождение.
+ghost-role-mindsink-wipe-device-verb-text = Стереть разум
+ghost-role-mindsink-wiped-device = Разум был погашен.
+ghost-role-mindsink-stop-searching-verb-text = Прекратить поиск
+ghost-role-mindsink-stopped-searching = Ноосферный резонанс остановлен.
+ghost-role-mindsink-slot-component-slot-name-brain = Мозг
 
 # OTHER
-ghost-role-information-nymph-name = Diona Nymph
-ghost-role-information-nymph-description = A feral diona nymph that has found its way into the station.
+ghost-role-information-nymph-name = Нимфа дионы
+ghost-role-information-nymph-description = Дикая нимфа дионы, пробравшаяся на станцию.

@@ -1,1 +1,1 @@
-objective-condition-damn-description = Contractually oblige { $amount } souls to the fires of hell.
+objective-condition-damn-description = Договорным порядком обречь { $amount } душ на огонь ада.

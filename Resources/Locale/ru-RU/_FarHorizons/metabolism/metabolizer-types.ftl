@@ -1,1 +1,1 @@
-metabolizer-type-neocyte = Neocyte
+metabolizer-type-neocyte = Неоцит

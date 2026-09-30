@@ -1,3 +1,3 @@
-ent-MobK9 = security K9
-    .desc = A dog trained for station security work.
+ent-MobK9 = служебная собака СБ
+    .desc = Собака, обученная для службы безопасности станции.
     .suffix = { ent-MobCorgiBase.suffix }

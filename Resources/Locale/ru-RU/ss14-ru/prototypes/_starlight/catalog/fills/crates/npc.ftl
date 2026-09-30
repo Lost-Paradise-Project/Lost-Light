@@ -1,2 +1,2 @@
-ent-CrateNPCSpaceKoi = space koi crate
-    .desc = A crate containing five space kois.
+ent-CrateNPCSpaceKoi = ящик космических кои
+    .desc = Ящик с пятью космическими кои.

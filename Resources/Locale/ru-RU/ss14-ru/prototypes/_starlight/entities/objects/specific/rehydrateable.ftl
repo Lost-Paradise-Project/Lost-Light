@@ -1,6 +1,6 @@
-ent-BorgiCube = borgi cube
-    .desc = Just add water! BORK!
-ent-ScurretCube = scurret cube
-    .desc = Just add rain!
-ent-CCMoproachCube = cc moproach cube
-    .desc = Just add water! *chitters*
+ent-BorgiCube = кубик борги
+    .desc = Просто добавьте воды! БОРК!
+ent-ScurretCube = кубик скуррета
+    .desc = Просто добавьте дождя!
+ent-CCMoproachCube = кубик мопротаракана ЦК
+    .desc = Просто добавьте воды! *стрекочет*

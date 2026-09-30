@@ -1,16 +1,16 @@
-entity-condition-guidebook-unknown-reagent = an unknown reagent
+entity-condition-guidebook-unknown-reagent = неизвестный реагент
 
 entity-condition-guidebook-blood-reagent-threshold =
     { $max ->
-        [2147483648] the bloodstream has at least { NATURALFIXED($min, 2) }u of { $reagent }
+        [2147483648] в кровотоке не менее { NATURALFIXED($min, 2) } ед. реагента «{ $reagent }»
         *[other] { $min ->
-                [0] the bloodstream has at most { NATURALFIXED($max, 2) }u of { $reagent }
-                *[other] the bloodstream has between { NATURALFIXED($min, 2) }u and { NATURALFIXED($max, 2) }u of { $reagent }
+                [0] в кровотоке не более { NATURALFIXED($max, 2) } ед. реагента «{ $reagent }»
+                *[other] в кровотоке от { NATURALFIXED($min, 2) } до { NATURALFIXED($max, 2) } ед. реагента «{ $reagent }»
             }
     }
 
 entity-condition-guidebook-has-components =
-    the target { $shouldhave ->
-        [true] has
-        *[false] does not have
-    } the component { $name }
+    у цели { $shouldhave ->
+        [true] есть
+        *[false] нет
+    } компонента «{ $name }»

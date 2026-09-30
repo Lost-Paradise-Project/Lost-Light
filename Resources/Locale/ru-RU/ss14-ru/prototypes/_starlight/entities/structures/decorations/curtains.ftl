@@ -1,6 +1,6 @@
 ent-WindowBlinds = { ent-BaseCurtains }
-    .desc = Contains less than 1% mercury.
-    .suffix = Closed
+    .desc = Содержит менее 1% ртути.
+    .suffix = Закрыто
 ent-WindowBlindsOpen = { ent-WindowBlinds }
     .desc = { ent-WindowBlinds.desc }
-    .suffix = Open
+    .suffix = Открыто

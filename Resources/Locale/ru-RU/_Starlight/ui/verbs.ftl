@@ -1,10 +1,10 @@
-ui-verb-roll-up = Roll up sleeves
-ui-verb-toggle-loud-mode = Toggle Loud mode
+ui-verb-roll-up = Закатать рукава
+ui-verb-toggle-loud-mode = Переключить громкий режим
 
-verb-handheld-monitor-power = Power
-verb-handheld-monitor-atmos = Atmospherics
+verb-handheld-monitor-power = Питание
+verb-handheld-monitor-atmos = Атмосфера
 
 # Alt-use cycle verb, naming the mode it would switch to
-item-switch-verb-cycle = Switch to { $state }
+item-switch-verb-cycle = Переключить на «{ $state }»
 
-speed-potion-apply-text = Apply speed potion
+speed-potion-apply-text = Применить зелье скорости

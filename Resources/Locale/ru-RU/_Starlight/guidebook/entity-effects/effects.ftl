@@ -1,19 +1,19 @@
 entity-effect-guidebook-modify-solution-reagent =
     { $chance ->
         [1] { $deltasign ->
-                [1] Adds
-                *[-1] Removes
+                [1] Добавляет
+                *[-1] Удаляет
             }
         *[other] { $deltasign ->
-                [1] add
-                *[-1] remove
+                [1] добавляют
+                *[-1] удаляют
             }
-    } { NATURALFIXED($amount, 2) }u of { $reagent } { $deltasign ->
-        [1] to
-        *[-1] from
-    } the { $solution } solution
+    } { NATURALFIXED($amount, 2) } ед. реагента «{ $reagent }» { $deltasign ->
+        [1] в
+        *[-1] из
+    } раствор «{ $solution }»
 entity-effect-guidebook-regrow-doll-shell =
     { $chance ->
-        [1] Regrows
-        *[other] regrow
-    } one piece of shell
+        [1] Отращивает
+        *[other] отращивают
+    } одну часть панциря

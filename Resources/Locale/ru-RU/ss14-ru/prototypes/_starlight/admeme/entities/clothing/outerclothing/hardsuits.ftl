@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitNTNCConsortium = NanoTrasen navy marine hardsuit
-    .desc = A protective hardsuit worn by NanoTrasen Navy Marines.
-ent-ClothingOuterHardsuitNTNCConsortiumMedic = NanoTrasen navy marine medic hardsuit
-    .desc = A protective hardsuit worn by NanoTrasen Navy Marine medical personnel.
+ent-ClothingOuterHardsuitNTNCConsortium = скафандр морпеха флота НаноТрейзен
+    .desc = Защитный скафандр, который носят морпехи флота НаноТрейзен.
+ent-ClothingOuterHardsuitNTNCConsortiumMedic = скафандр медика-морпеха флота НаноТрейзен
+    .desc = Защитный скафандр, который носит медицинский персонал морпехов флота НаноТрейзен.

@@ -1,58 +1,58 @@
 # Combat
-evolutionmenu-combat-armblade-plus-name = True Arm Blade
+evolutionmenu-combat-armblade-plus-name = Настоящий клинок-рука
 evolutionmenu-combat-armblade-plus-desc =
-    Reform one of your arms into a truly beautiful blade, composed of bone and flesh, and tear the flesh off of your victims.
-    Can also pry open doors incredibly quickly, and reflect incoming projectiles. Gives off a beautiful red glow.
-    WARNING: Requires you to absorb at least 6 organics to use the ability.
-    Costs 30 chemicals each time you summon it, and each time you retract it.
+    Преобразуйте одну из своих рук в поистине прекрасный клинок из кости и плоти и сдирайте плоть со своих жертв.
+    Также может невероятно быстро вскрывать двери и отражать летящие снаряды. Излучает прекрасное красное свечение.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 6 органиков.
+    Стоит 30 химикатов при каждом призыве и при каждом втягивании.
 
 # Utility
-evolutionmenu-utility-night-eyesight-name = Night Vision Eyesight
+evolutionmenu-utility-night-eyesight-name = Ночное зрение
 evolutionmenu-utility-night-eyesight-desc =
-    Evolve your eyes to be able to see in the dark.
-    May be used while under the effects of Lesser Form.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 15 chemicals, once.
+    Преобразуйте свои глаза, чтобы видеть в темноте.
+    Можно использовать под действием Меньшей формы.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 2 органиков.
+    Стоит 15 химикатов, один раз.
 
-evolutionmenu-utility-thermal-eyesight-name = Thermal Eyesight
+evolutionmenu-utility-thermal-eyesight-name = Тепловое зрение
 evolutionmenu-utility-thermal-eyesight-desc =
-    Evolve your eyes to their ultimate form, becoming able to detect heat signatures through walls.
-    May be used while under the effects of Lesser Form.
-    WARNING: Requires you to absorb at least 4 organics to use the ability.
-    Costs 30 chemicals, once.
+    Преобразуйте свои глаза в их совершенную форму, получив способность обнаруживать тепловые сигнатуры сквозь стены.
+    Можно использовать под действием Меньшей формы.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 4 органиков.
+    Стоит 30 химикатов, один раз.
 
-evolutionmenu-utility-risky-stims-name = Desoxyephedrine Overdose
+evolutionmenu-utility-risky-stims-name = Передозировка дезоксиэфедрина
 evolutionmenu-utility-risky-stims-desc =
-    Inject a cocktail of risky stimulants into yourself, giving yourself a greater speed boost.
-    Poisonous, even moreso when used continuously.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 30 chemicals.
+    Введите себе коктейль из рискованных стимуляторов, получив более сильное ускорение.
+    Ядовито, тем более при непрерывном использовании.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 2 органиков.
+    Стоит 30 химикатов.
 
-evolutionmenu-utility-hyper-stims-name = Amalgam Overdose
+evolutionmenu-utility-hyper-stims-name = Передозировка амальгамы
 evolutionmenu-utility-hyper-stims-desc =
-    Inject a cocktail of strong stimulants into yourself, quickly removing any stuns and giving yourself an even greater speed boost.
-    Continuous injection is poisonous.
-    WARNING: Requires you to absorb at least 4 organics to use the ability.
-    Costs 40 chemicals.
+    Введите себе коктейль из сильных стимуляторов, быстро снимая любые оглушения и получая ещё более сильное ускорение.
+    Непрерывное введение ядовито.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 4 органиков.
+    Стоит 40 химикатов.
 
-evolutionmenu-utility-neocyte-name = Neocyte Disguise
+evolutionmenu-utility-neocyte-name = Маскировка неоцита
 evolutionmenu-utility-neocyte-desc =
-    Hardens your skin into a metal-like appearance, allowing it to pass as a Neocyte frame. Only usable if you are currently
-    disguised as a Neocyte.
-    Costs 0 chemicals.
+    Закаляет вашу кожу до металлического вида, позволяя выдавать её за каркас неоцита. Доступно только если вы сейчас
+    замаскированы под неоцита.
+    Стоит 0 химикатов.
 
 # Sting
 
-evolutionmenu-sting-burn-name = Bloodburn Sting
+evolutionmenu-sting-burn-name = Жало кровожога
 evolutionmenu-sting-burn-desc =
-    Inject an organic target with a cocktail of chemicals that burns their blood and disorients them.
-    May be used while under the effects of Lesser Form.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 35 chemicals.
+    Введите органической цели коктейль химикатов, который сжигает её кровь и дезориентирует.
+    Можно использовать под действием Меньшей формы.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 2 органиков.
+    Стоит 35 химикатов.
 
-evolutionmenu-sting-drain-name = Draining Sting
+evolutionmenu-sting-drain-name = Истощающее жало
 evolutionmenu-sting-drain-desc =
-    Inject an organic target with a cocktail of chemicals that quickly erode their hunger and thirst.
-    May be used while under the effects of Lesser Form.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 35 chemicals.
+    Введите органической цели коктейль химикатов, который быстро истощает её голод и жажду.
+    Можно использовать под действием Меньшей формы.
+    ВНИМАНИЕ: для использования способности необходимо поглотить не менее 2 органиков.
+    Стоит 35 химикатов.

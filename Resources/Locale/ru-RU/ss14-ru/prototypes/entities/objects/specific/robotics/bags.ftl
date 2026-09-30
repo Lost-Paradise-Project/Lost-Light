@@ -1,3 +1,3 @@
-ent-DroneBag = Drone Storage Cube
-    .desc = An internal pocket to hold your stuff. The space is limited.
-    .suffix = Unremoveable
+ent-DroneBag = Куб хранения дрона
+    .desc = Внутренний карман для ваших вещей. Пространство ограничено.
+    .suffix = Неснимаемый

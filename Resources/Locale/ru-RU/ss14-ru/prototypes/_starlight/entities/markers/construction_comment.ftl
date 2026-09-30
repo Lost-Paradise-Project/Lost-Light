@@ -1,2 +1,2 @@
-ent-ConstructionCommentMarker = comment
-    .desc = A note left behind by a fellow crewmember.
+ent-ConstructionCommentMarker = комментарий
+    .desc = Записка, оставленная товарищем по экипажу.

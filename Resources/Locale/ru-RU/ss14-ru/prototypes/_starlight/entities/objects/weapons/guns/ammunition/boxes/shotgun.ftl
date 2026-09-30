@@ -1,8 +1,8 @@
 ent-AmmoProviderShotgunShellToz = { ent-BaseAmmoProvider }
     .desc = { ent-BaseAmmoProvider.desc }
-ent-BoxLethalshotTozOpen = 20 gauge pellet ammunition box
-    .desc = Open and ready to be used.
-    .suffix = opened
-ent-BoxLethalshotToz = 20 gauge pellet ammunition box
-    .desc = The nearly-illegible text on the packaging says you should use a knife, but it's so cheap you can just rip it open.
-    .suffix = sealed
+ent-BoxLethalshotTozOpen = коробка картечи 20 калибра
+    .desc = Открыта и готова к использованию.
+    .suffix = открыта
+ent-BoxLethalshotToz = коробка картечи 20 калибра
+    .desc = Почти неразборчивый текст на упаковке велит использовать нож, но она такая дешёвая, что можно просто разорвать.
+    .suffix = запечатана

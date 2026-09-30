@@ -1,37 +1,37 @@
 # FaxMachineConfigureWindow UI
-fax-machine-configure-ui-window = Configure fax machine
-fax-machine-configure-ui-name = Name:
-fax-machine-configure-ui-name-tooltip = The name of this fax machine.
-fax-machine-configure-ui-name-placeholder = Enter fax name...
-fax-machine-configure-ui-group = Group:
-fax-machine-configure-ui-group-tooltip = Choose the group this fax machine belongs to.
-fax-machine-configure-ui-group-none = None
-fax-machine-configure-ui-order = Order:
-fax-machine-configure-ui-order-tooltip = The ordinal for this fax machine. Lower numbers are displayed first. Standard fax machine ordinals are assigned in increments of 100, so using values between 100's is recommended.
-fax-machine-configure-ui-submit = Apply
+fax-machine-configure-ui-window = Настроить факс
+fax-machine-configure-ui-name = Название:
+fax-machine-configure-ui-name-tooltip = Название этого факса.
+fax-machine-configure-ui-name-placeholder = Введите название факса...
+fax-machine-configure-ui-group = Группа:
+fax-machine-configure-ui-group-tooltip = Выберите группу, к которой принадлежит этот факс.
+fax-machine-configure-ui-group-none = Нет
+fax-machine-configure-ui-order = Порядок:
+fax-machine-configure-ui-order-tooltip = Порядковый номер этого факса. Меньшие числа отображаются первыми. Стандартные факсы нумеруются с шагом 100, поэтому рекомендуется использовать значения между сотнями.
+fax-machine-configure-ui-submit = Применить
 
 # Popups
-fax-machine-configure-ui-saved = Successfully reconfigured fax machine!
+fax-machine-configure-ui-saved = Факс успешно перенастроен!
 
 # Normally-present-but-otherwise-event fax groups
-fax-group-centcomm = Central Command
-fax-group-syndicate = Syndicate
-fax-group-itg = Interstellar Trade Guild
+fax-group-centcomm = Центральное командование
+fax-group-syndicate = Синдикат
+fax-group-itg = Межзвёздная торговая гильдия
 
 # Event fax groups
-fax-group-blackstar = Blackstar
-fax-group-medtak = MedTak
-fax-group-ntsf = NTSF
-fax-group-tsf = TSF
-fax-group-ussp = USSP
-fax-group-wizard = Wizard Federation
+fax-group-blackstar = Чёрная звезда
+fax-group-medtak = МедТак
+fax-group-ntsf = НТСФ
+fax-group-tsf = ТСФ
+fax-group-ussp = УССР
+fax-group-wizard = Федерация волшебников
 
 # Departmental fax groups
-fax-group-command = Command
-fax-group-cargo = Cargo
-fax-group-engineering = Engineering
-fax-group-medical = Medical
+fax-group-command = Командование
+fax-group-cargo = Карго
+fax-group-engineering = Инженерия
+fax-group-medical = Медицинский
 fax-group-nanotrasen = NanoTrasen
-fax-group-science = Science
-fax-group-security = Security
-fax-group-service = Service
+fax-group-science = Научный
+fax-group-security = Служба безопасности
+fax-group-service = Сервис

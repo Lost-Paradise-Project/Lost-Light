@@ -1,3 +1,3 @@
 ent-FaxMachineNTSF = { ent-FaxMachineBase }
     .desc = { ent-FaxMachineBase.desc }
-    .suffix = NTSF
+    .suffix = НТСФ

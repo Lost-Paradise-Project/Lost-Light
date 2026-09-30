@@ -1,56 +1,56 @@
 ## Borg type selection UI.
-borg-select-type-menu-paints = Models
+borg-select-type-menu-paints = Модели
 
 ## Security borg chassis actions
-borg-call-for-help-message = SECURITY ALERT: { $borg } is requesting backup at { $position }!
+borg-call-for-help-message = ТРЕВОГА СБ: { $borg } запрашивает подкрепление в точке { $position }!
 
 ## Borg type information
 
-borg-type-security-name = Security
-borg-type-security-desc = Assist the security team in maintaining order on the station, apprehending criminals, and responding to threats.
-borg-type-security-transponder = security cyborg
+borg-type-security-name = Служба безопасности
+borg-type-security-desc = Помогайте службе безопасности поддерживать порядок на станции, задерживать преступников и реагировать на угрозы.
+borg-type-security-transponder = киборг СБ
 
-borg-type-SyndicateAssault-name = Syndicate Assault
-borg-type-SyndicateAssault-desc = A heavily armed combat cyborg designed for frontline engagements and assault operations.
-borg-type-SyndicateAssault-transponder = syndicate assault cyborg
+borg-type-SyndicateAssault-name = Штурмовик Синдиката
+borg-type-SyndicateAssault-desc = Тяжеловооружённый боевой киборг, созданный для фронтовых столкновений и штурмовых операций.
+borg-type-SyndicateAssault-transponder = штурмовой киборг Синдиката
 
-borg-type-SyndicateMedical-name = Syndicate Medical
-borg-type-SyndicateMedical-desc = A medical cyborg equipped to provide emergency medical care and support in hostile environments.
-borg-type-SyndicateMedical-transponder = syndicate medical cyborg
+borg-type-SyndicateMedical-name = Медик Синдиката
+borg-type-SyndicateMedical-desc = Медицинский киборг, оснащённый для оказания экстренной медицинской помощи и поддержки во враждебной среде.
+borg-type-SyndicateMedical-transponder = медицинский киборг Синдиката
 
-borg-type-SyndicateSaboteur-name = Syndicate Saboteur
-borg-type-SyndicateSaboteur-desc = A stealth-oriented cyborg designed for infiltration, sabotage, and covert operations.
-borg-type-SyndicateSaboteur-transponder = syndicate saboteur cyborg
+borg-type-SyndicateSaboteur-name = Диверсант Синдиката
+borg-type-SyndicateSaboteur-desc = Скрытный киборг, созданный для проникновения, саботажа и тайных операций.
+borg-type-SyndicateSaboteur-transponder = киборг-диверсант Синдиката
 
-borg-type-SyndicateStealth-name = Syndicate Stealth
-borg-type-SyndicateStealth-desc = A stealth-oriented cyborg designed for infiltration, vent crawling and covert operations.
-borg-type-SyndicateStealth-transponder = syndicate stealth cyborg
+borg-type-SyndicateStealth-name = Скрытность Синдиката
+borg-type-SyndicateStealth-desc = Скрытный киборг, созданный для проникновения, ползания по вентиляции и тайных операций.
+borg-type-SyndicateStealth-transponder = скрытный киборг Синдиката
 
-borg-type-purrfus-name = Purrfus
-borg-type-purrfus-desc = Serve as a personal aid for those who require assistance with paperwork, especially members of command and the law department.
-borg-type-purrfus-transponder = purrfus cyborg
+borg-type-purrfus-name = Мурфус
+borg-type-purrfus-desc = Служит личным помощником для тех, кому нужна помощь с бумагами, особенно членам командования и юридического отдела.
+borg-type-purrfus-transponder = киборг Мурфус
 
-borg-type-cargo-name = Cargo
-borg-type-cargo-desc = Haul cargo, deliver orders, and make the station rich!
-borg-type-cargo-transponder = cargo cyborg
+borg-type-cargo-name = Карго
+borg-type-cargo-desc = Перевозите грузы, доставляйте заказы и обогащайте станцию!
+borg-type-cargo-transponder = карго-киборг
 
 # Module incompatibilities
-borg-module-incompatibility-xenoborg-engiweapon = Incompatible with other Engineering Xenoborg weapon modules.
-borg-module-incompatibility-xenoborg-heavyweapon = Incompatible with other Heavy Xenoborg weapon modules.
-borg-module-incompatibility-xenoborg-scoutweapon = Incompatible with other Scout Xenoborg weapon modules.
-borg-module-incompatibility-xenoborg-stealthhypo = Incompatible with other Stealth Xenoborg hypo modules.
+borg-module-incompatibility-xenoborg-engiweapon = Несовместимо с другими модулями оружия инженерного ксеноборга.
+borg-module-incompatibility-xenoborg-heavyweapon = Несовместимо с другими модулями оружия тяжёлого ксеноборга.
+borg-module-incompatibility-xenoborg-scoutweapon = Несовместимо с другими модулями оружия разведывательного ксеноборга.
+borg-module-incompatibility-xenoborg-stealthhypo = Несовместимо с другими модулями гипоспрея скрытного ксеноборга.
 
 # Lock down
-borg-lockdown-engaged-popup = { CAPITALIZE($name) } seizes up as a lock down engages!
-borg-lockdown-released-popup = { CAPITALIZE($name) } whirrs back to life as its lock down is released!
-borg-ui-lockdown = Engage lock down
-borg-ui-lockdown-release = Release lock down
+borg-lockdown-engaged-popup = { CAPITALIZE($name) } замирает, когда включается блокировка!
+borg-lockdown-released-popup = { CAPITALIZE($name) } с жужжанием оживает, когда блокировка снята!
+borg-ui-lockdown = Включить блокировку
+borg-ui-lockdown-release = Снять блокировку
 
 # Chassis reset
-borg-ui-reset-chassis = Revert chassis type
-borg-reset-modules-installed = Remove every optional module from the cyborg first...
-borg-reset-chassis-start-popup = Your chassis is being reverted!
-borg-reset-chassis-popup = { CAPITALIZE($name) } reverts back to a blank chassis!
-borg-type-unselected-transponder = cyborg
-borg-type-unselected-name = Unselected
-borg-type-unselected-desc = A blank chassis that has not picked a type yet.
+borg-ui-reset-chassis = Вернуть тип шасси
+borg-reset-modules-installed = Сначала удалите у киборга все необязательные модули...
+borg-reset-chassis-start-popup = Ваше шасси возвращается к исходному!
+borg-reset-chassis-popup = { CAPITALIZE($name) } возвращается к пустому шасси!
+borg-type-unselected-transponder = киборг
+borg-type-unselected-name = Не выбрано
+borg-type-unselected-desc = Пустое шасси, для которого ещё не выбран тип.

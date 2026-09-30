@@ -1,4 +1,4 @@
-ent-ActionBorgOpenLawbook = Open Law Database
-    .desc = Access your integrated Space Law database.
-ent-ActionBorgCallForHelp = Call for Backup!
-    .desc = Broadcast a distress signal to the Security channel with your current location. 120 second cooldown.
+ent-ActionBorgOpenLawbook = Открыть базу законов
+    .desc = Обратиться к встроенной базе Космического закона.
+ent-ActionBorgCallForHelp = Вызвать подкрепление!
+    .desc = Передать сигнал бедствия на канал СБ с вашим текущим местоположением. Перезарядка 120 секунд.

@@ -1,2 +1,2 @@
-ent-BaseMobRodentia = Urist McRat
+ent-BaseMobRodentia = Урист МакКрыс
     .desc = { ent-BaseMobSpeciesOrganic.desc }

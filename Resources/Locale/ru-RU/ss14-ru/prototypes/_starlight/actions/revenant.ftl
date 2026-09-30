@@ -1,4 +1,4 @@
-ent-ActionRevenantChill = Chill of the grave
-    .desc = Costs 50 Essence.
-ent-ActionRevenantMisfire = Misfire
-    .desc = Costs 10 Essence.
+ent-ActionRevenantChill = Холод могилы
+    .desc = Стоит 50 эссенции.
+ent-ActionRevenantMisfire = Осечка
+    .desc = Стоит 10 эссенции.

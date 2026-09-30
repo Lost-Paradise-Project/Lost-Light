@@ -1,5 +1,5 @@
 ## Eeeplets
 
-petting-success-eeeplet = You pet { THE($target) } on { POSS-ADJ($target) } squishy surface.
-petting-failure-eeeplet = You try to pet { THE($target) }, but are shocked!
-eeep-role-briefing = You feel yummy electricity { $direction }!
+petting-success-eeeplet = Вы гладите { THE($target) } по мягкой поверхности.
+petting-failure-eeeplet = Вы пытаетесь погладить { THE($target) }, но вас бьёт током!
+eeep-role-briefing = Вы чувствуете вкусное электричество { $direction }!

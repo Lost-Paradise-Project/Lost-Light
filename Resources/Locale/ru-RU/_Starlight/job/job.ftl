@@ -1,71 +1,71 @@
-job-name-magistrate = Magistrate
-job-name-ntrep = NanoTrasen Representative
+job-name-magistrate = Магистрат
+job-name-ntrep = Представитель НаноТрейзен
 job-name-iaa = агент внутренних дел
-job-name-blueshield = Blueshield Officer
-job-name-ntncblueshield = NanoTrasen Navy Corps Marine
-job-name-greenshield = Greenshield Officer
-job-name-miningspec = Mining Specialist
-job-name-surgeon = Surgeon
-job-name-mailtech = Mail Technician
-job-name-centcomm = CentComm Official
-job-name-centcommoperator = CentComm Operator
-job-name-nanotrasen-special-forces = NTSF Operative
-job-name-decimus = Decimus Operative
-job-name-nct = NanoTrasen Career Trainer
-job-name-ert = Emergency Response Team
-job-name-cc-serviceworker = CentComm Service Worker
-job-name-cc-chef = CentComm Chef
-job-name-cc-bartender = CentComm Bartender
-job-name-cc-janitor = CentComm Janitor
+job-name-blueshield = Офицер Синего щита
+job-name-ntncblueshield = Морпех Флота НаноТрейзен
+job-name-greenshield = Офицер Зелёного щита
+job-name-miningspec = Специалист по добыче
+job-name-surgeon = Хирург
+job-name-mailtech = Почтовый техник
+job-name-centcomm = Должностное лицо ЦентКома
+job-name-centcommoperator = Оператор ЦентКома
+job-name-nanotrasen-special-forces = Оперативник НТСФ
+job-name-decimus = Оперативник Децимус
+job-name-nct = Тренер карьеры НаноТрейзен
+job-name-ert = Отряд быстрого реагирования
+job-name-cc-serviceworker = Работник обслуживания ЦентКома
+job-name-cc-chef = Повар ЦентКома
+job-name-cc-bartender = Бармен ЦентКома
+job-name-cc-janitor = Уборщик ЦентКома
 
-job-name-performer = Performer
-job-name-salvagelead = Salvage Lead
-job-name-salvagemedic = Salvage Medic
-job-name-dutyofficer = Duty Officer
-job-name-k9 = Security K9
-job-name-assistantmanager = Assistant Manager
-job-name-abductor = Abductor
-job-title-borgi = Borgi
+job-name-performer = Артист
+job-name-salvagelead = Глава утилизаторов
+job-name-salvagemedic = Медик утилизаторов
+job-name-dutyofficer = Дежурный офицер
+job-name-k9 = Служебная собака СБ
+job-name-assistantmanager = Помощник управляющего
+job-name-abductor = Похититель
+job-title-borgi = Борги
 
-job-title-tsf-Phantom = Phantom Marine
-job-title-tsf-MARSOC = MARSOC Marine
+job-title-tsf-Phantom = Морпех-призрак
+job-title-tsf-MARSOC = Морпех МАРСОК
 
-job-name-blackstar = Blackstar Mercenary
+job-name-blackstar = Наёмник Чёрной звезды
 
-job-name-medtak-dispatcher = MedTak Dispatcher
-job-name-medtak-leader = MedTak Team Leader
-job-name-medtak-medic = MedTak Medic
-job-name-medtak-pilot = MedTak Pilot
-job-name-medtak-security = MedTak Security
-job-name-medtak-borg = MedTak Silicon
+job-name-medtak-dispatcher = Диспетчер МедТак
+job-name-medtak-leader = Командир группы МедТак
+job-name-medtak-medic = Медик МедТак
+job-name-medtak-pilot = Пилот МедТак
+job-name-medtak-security = СБ МедТак
+job-name-medtak-borg = Кремний МедТак
 
 job-greet-information-rules = { $jobRules }
 
-role-type-corporate-aligned-name = Corporate Aligned
+role-type-corporate-aligned-name = Корпоративный курс
 role-type-corporate-aligned-color = #00b600
 role-type-corporate-aligned-alternate-color = #1b67a5
-job-rules-corporate-aligned = You are { role-type-corporate-aligned-name }.
-                              You are to serve the interests of NanoTrasen and Central Command, even if they differ from the stations'.
-                              Remember, you do NOT serve the crew.
+job-rules-corporate-aligned = Вы — { role-type-corporate-aligned-name }.
+                              Вы должны служить интересам НаноТрейзен и Центрального командования, даже если они расходятся с интересами станции.
+                              Помните, вы НЕ служите экипажу.
 
-role-type-cc-aligned-name = Central Command Aligned
+role-type-cc-aligned-name = Курс Центрального командования
 role-type-cc-aligned-color = #00b600
 role-type-cc-aligned-alternate-color = #439909
-job-rules-cc-aligned = You are { role-type-cc-aligned-name }.
-                              You are to serve the interests of Central Command, even if they differ from NanoTrasen or the stations'.
-                              Remember, you do NOT serve the crew.
+job-rules-cc-aligned = Вы — { role-type-cc-aligned-name }.
+                              Вы должны служить интересам Центрального командования, даже если они расходятся с интересами НаноТрейзен или станции.
+                              Помните, вы НЕ служите экипажу.
 
-role-type-tsf-aligned-name = Trans-Solar Federation Aligned
+role-type-tsf-aligned-name = Курс Транссолнечной федерации
 role-type-tsf-aligned-color = #22a7ff
-job-rules-tsf-aligned = You are { role-type-tsf-aligned-name }.
-                              You are to serve the interests of the Trans-Solar Federation.
-                              Remember, you do NOT serve the crew.
+job-rules-tsf-aligned = Вы — { role-type-tsf-aligned-name }.
+                              Вы должны служить интересам Транссолнечной федерации.
+                              Помните, вы НЕ служите экипажу.
 
-role-type-itg-aligned-name = Interstellar Trade Guild
+role-type-itg-aligned-name = Межзвёздная торговая гильдия
 role-type-itg-aligned-color = #a34f18
 role-type-itg-aligned-alternate-color = #a34f18
-job-rules-itg-aligned = You are { role-type-itg-aligned-name }.
-                              You are to serve and protect the interests of the Interstellar Trade Guild, even if they differ from the stations'.
-                              Remember, you do NOT serve the crew.
+job-rules-itg-aligned = Вы — { role-type-itg-aligned-name }.
+                              Вы должны служить интересам Межзвёздной торговой гильдии и защищать их, даже если они расходятся с интересами станции.
+                              Помните, вы НЕ служите экипажу.
 
-job-name-makeshift-id = Makeshift ID Card
+job-name-makeshift-id = Самодельная ID-карта

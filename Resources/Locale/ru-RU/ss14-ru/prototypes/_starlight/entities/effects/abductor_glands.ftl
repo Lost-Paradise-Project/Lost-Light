@@ -1,5 +1,5 @@
-ent-GlandEffectBase = Abductor Gland Effect
+ent-GlandEffectBase = Эффект железы похитителей
     .desc = { "" }
 ent-AbductorGravityGlandGravityWell = { ent-GlandEffectBase }
     .desc = { ent-GlandEffectBase.desc }
-    .suffix = Gravity
+    .suffix = Гравитация

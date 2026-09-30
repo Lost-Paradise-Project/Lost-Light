@@ -1,7 +1,7 @@
-ent-Masterchair = observation masterchair
-    .desc = If you think you are safe from prying eyes, you would be dead wrong— Big Brother from 1984 trembles whenever John NanoTrasen sits in this, watching every move, fining you for each inconsistency, and noting down collective failures.
-ent-MasterchairOverlay = observation masterchair
+ent-Masterchair = наблюдательное мастер-кресло
+    .desc = Если вы думаете, что вы в безопасности от посторонних глаз, вы глубоко ошибаетесь — Большой Брат из «1984» дрожит всякий раз, когда Джон НаноТрейзен садится в него, следит за каждым движением, штрафует за каждое несоответствие и записывает коллективные провалы.
+ent-MasterchairOverlay = наблюдательное мастер-кресло
     .desc = { "" }
 ent-CentcommConsoleEye = ???
-    .desc = ERROR
-    .suffix = DO NOT MAP
+    .desc = ОШИБКА
+    .suffix = НЕ МАППИТЬ

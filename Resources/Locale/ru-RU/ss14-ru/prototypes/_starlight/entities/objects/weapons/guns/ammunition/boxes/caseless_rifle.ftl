@@ -1,4 +1,4 @@
-ent-MagazineBoxCaselessRifleBigRubber = ammunition box (.25 caseless rubber)
+ent-MagazineBoxCaselessRifleBigRubber = коробка боеприпасов (.25 безгильзовые резиновые)
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
-ent-MagazineBoxCaselessRifleRubber = ammunition box (.25 caseless rubber)
+ent-MagazineBoxCaselessRifleRubber = коробка боеприпасов (.25 безгильзовые резиновые)
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }

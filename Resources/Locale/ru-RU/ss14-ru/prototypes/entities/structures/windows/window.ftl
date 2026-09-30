@@ -1,7 +1,7 @@
 ent-Window = окно
     .desc = Смотри не заляпай.
 ent-TintedWindow = матовое окно
-    .desc = Smart tinted window with state switching option.
+    .desc = Умное тонированное окно с возможностью переключения состояния.
 ent-WindowRCDResistant = { ent-Window }
     .desc = { ent-Window.desc }
 ent-WindowDirectional = направленное окно

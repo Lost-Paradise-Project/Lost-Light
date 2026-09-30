@@ -111,4 +111,4 @@ petting-failure-mail-teleporter = Вы тянетесь погладить { $ta
 
 ## Plushies
 
-plushie-large-soft-shark-cuddle = { CAPITALIZE(THE($user)) } cuddles the large blue shark.
+plushie-large-soft-shark-cuddle = { CAPITALIZE(THE($user)) } обнимает большую синюю акулу.

@@ -1,6 +1,6 @@
-devil-popup-damnation = { $name } spasms, their eyes seem to become duller.
-devil-popup-damnation-fail = The contract has fallen through! Something didn't work out!
+devil-popup-damnation = { $name } содрогается, глаза словно тускнеют.
+devil-popup-damnation-fail = Контракт сорвался! Что-то пошло не так!
 
-damnation-action-remove-organ-popup = { CAPITALIZE($name) } screams, their { $organ } falls onto the floor!
+damnation-action-remove-organ-popup = { CAPITALIZE($name) } кричит, его { $organ } падает на пол!
 
-damned-attempts-utter-name = { CAPITALIZE($name) } screams as they utter the name!
+damned-attempts-utter-name = { CAPITALIZE($name) } кричит, произнося имя!

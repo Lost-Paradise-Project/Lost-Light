@@ -1,1 +1,1 @@
-station-event-wreck-ruin-name = Station wreck
+station-event-wreck-ruin-name = Обломки станции

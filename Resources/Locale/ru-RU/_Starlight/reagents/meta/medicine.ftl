@@ -1,26 +1,26 @@
-reagent-name-amoxla = amoxla
-reagent-desc-amoxla = Ammonia-based chem that treats airloss and bloodloss in Avali, Resomi, and Vox, and acts like a somewhat strong poison in other species.
+reagent-name-amoxla = амоксла
+reagent-desc-amoxla = Аммиачная химия, лечащая нехватку воздуха и кровопотерю у авали, ресоми и воксов, а у других видов действующая как довольно сильный яд.
 
-reagent-name-bonegel = bone gel
-reagent-desc-bonegel = A gel that uses as clue for bones to regrow. It is better not to consume it, but it can be used in surgery.
+reagent-name-bonegel = костный гель
+reagent-desc-bonegel = Гель, служащий клеем для отрастания костей. Лучше не употреблять, но можно применять в хирургии.
 
-reagent-name-chronexaline = chronexaline
-reagent-desc-chronexaline = A mixture of unstable radiation chemicals and its base component under extremely low temperatures. This appears to cure radiation poisoning in dead bodies.
+reagent-name-chronexaline = хронексалин
+reagent-desc-chronexaline = Смесь нестабильных радиационных химикатов и её основного компонента при крайне низких температурах. Похоже, лечит лучевое отравление в мёртвых телах.
 
-reagent-name-barozine-plus = barozine plus
-reagent-desc-barozine-plus = An advanced form of Barozine only found in Space Medipens. Heals less, but an overdose is less painful.
+reagent-name-barozine-plus = барозин плюс
+reagent-desc-barozine-plus = Улучшенная форма барозина, встречающаяся только в космических медипенах. Лечит меньше, но передозировка менее болезненна.
 
-reagent-name-infernaline = infernaline
-reagent-desc-infernaline = An unstable chemical that defies logic, very effective at treating genetic damage, but capable of causing tears in the flesh in higher than minimal amounts.
+reagent-name-infernaline = инферналин
+reagent-desc-infernaline = Нестабильное вещество, бросающее вызов логике, очень эффективно лечит генетические повреждения, но в количествах выше минимальных способно вызывать разрывы плоти.
 
-reagent-name-briomadine = briomadine
-reagent-desc-briomadine = An advanced semi-natural medicine used to treat serious brute damage.
+reagent-name-briomadine = бриомадин
+reagent-desc-briomadine = Продвинутое полуприродное лекарство для лечения серьёзных механических повреждений.
 
-reagent-name-acrileni = acrileni
-reagent-desc-acrileni = A weak natural medicine able to treat light peircing damage.
+reagent-name-acrileni = акрилени
+reagent-desc-acrileni = Слабое природное лекарство, способное лечить лёгкие колотые повреждения.
 
-reagent-name-iceialin = iceialin
-reagent-desc-iceialin = Cool to the touch, a chem that can restore the temperature of a corpse back to normal.
+reagent-name-iceialin = айсиалин
+reagent-desc-iceialin = Холодный на ощупь химикат, способный вернуть температуре трупа норму.
 
-reagent-name-respirazone = respirazone
-reagent-desc-respirazone = Used in the treatment of severe respiratory distress and blood loss. Unlike conventional oxygenation medicines, it is compatible with a wide variety of species.
+reagent-name-respirazone = респиразон
+reagent-desc-respirazone = Применяется при лечении тяжёлого дыхательного расстройства и кровопотери. В отличие от обычных препаратов для насыщения кислородом, совместим с широким спектром видов.

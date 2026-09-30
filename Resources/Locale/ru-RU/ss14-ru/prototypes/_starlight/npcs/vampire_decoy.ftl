@@ -1,2 +1,2 @@
-ent-VampireDecoyEntity = vampire decoy
+ent-VampireDecoyEntity = вампирская приманка
     .desc = { "" }

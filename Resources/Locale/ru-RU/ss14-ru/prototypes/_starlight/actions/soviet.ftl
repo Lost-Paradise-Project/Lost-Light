@@ -1,2 +1,2 @@
-ent-ActionOpenSKBUplinkImplant = Open Svyaz-UZL
-    .desc = Opens the SKB uplink embedded under your skin
+ent-ActionOpenSKBUplinkImplant = Открыть Связь-УЗЛ
+    .desc = Открывает аплинк СКБ, встроенный под вашу кожу

@@ -1,6 +1,6 @@
-ent-ClothingUniformNTNCFatigues = NanoTrasen navy marine fatigues
-    .desc = Standard issue NanoTrasen Navy Marine fatigues. Very airy.
-ent-ClothingUniformJumpsuitNTNCOfficer = NanoTrasen navy officer's jumpsuit
-    .desc = Standard issue NanoTrasen Navy Marine jumpsuit. This one's for an officer.
-ent-ClothingUniformJumpsuitNTNCEnsign = NanoTrasen navy ensign's jumpsuit
-    .desc = Standard issue NanoTrasen Navy Marine jumpsuit. This one's for an ensign.
+ent-ClothingUniformNTNCFatigues = полевая форма морпеха флота НаноТрейзен
+    .desc = Стандартная полевая форма морпехов флота НаноТрейзен. Очень воздушная.
+ent-ClothingUniformJumpsuitNTNCOfficer = комбинезон офицера флота НаноТрейзен
+    .desc = Стандартный комбинезон морпехов флота НаноТрейзен. Этот для офицера.
+ent-ClothingUniformJumpsuitNTNCEnsign = комбинезон энсина флота НаноТрейзен
+    .desc = Стандартный комбинезон морпехов флота НаноТрейзен. Этот для энсина.

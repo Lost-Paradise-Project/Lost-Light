@@ -1,5 +1,5 @@
-ent-MobCosmicWisp = Wisp
+ent-MobCosmicWisp = Пряди
     .desc = { ent-BaseSimpleMob.desc }
     .suffix = { ent-BaseSimpleMob.suffix }
-ent-CosmicChantryWisp = Trapped Wisp
+ent-CosmicChantryWisp = Пойманный виспа
     .desc = { "" }

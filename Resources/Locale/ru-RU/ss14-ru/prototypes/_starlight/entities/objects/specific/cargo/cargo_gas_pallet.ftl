@@ -1,4 +1,4 @@
-ent-CargoGasPalletSell = cargo gas selling tank
-    .desc = Stores gasses pumped through piping for sale. Made of plastitanium to discourage pesky vandals.
-ent-CargoGasPalletBuy = cargo gas buying tank
-    .desc = Stores gasses purchased in bulk, ready to be pumped. Made of plastitanium to discourage pesky vandals.
+ent-CargoGasPalletSell = газовый танк карго для продажи
+    .desc = Хранит газы, прокачанные по трубам для продажи. Сделан из пластитана, чтобы отбить охоту у надоедливых вандалов.
+ent-CargoGasPalletBuy = газовый танк карго для покупки
+    .desc = Хранит газы, купленные оптом, готовые к прокачке. Сделан из пластитана, чтобы отбить охоту у надоедливых вандалов.

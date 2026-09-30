@@ -1,2 +1,2 @@
-ent-ClothingHeadHatBeretMedTak = MedTak beret
-    .desc = A beret bearing the MedTak logo.
+ent-ClothingHeadHatBeretMedTak = берет МедТак
+    .desc = Берет с логотипом МедТак.

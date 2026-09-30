@@ -1,4 +1,4 @@
-ent-XenoborgAcidifier = acid
-    .desc = Dissolves a xenoborg chassis into a puddle of acid.
-ent-GearAcidifier = acid
-    .desc = Melts your gear into a puddle of yuck!
+ent-XenoborgAcidifier = кислота
+    .desc = Растворяет шасси ксеноборга в лужу кислоты.
+ent-GearAcidifier = кислота
+    .desc = Плавит ваше снаряжение в лужу мерзости!

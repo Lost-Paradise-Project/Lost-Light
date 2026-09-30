@@ -1,18 +1,18 @@
-bounty-item-bandolier = Marine Bandolier
-bounty-item-commie-id = Soviet ID Card
-bounty-item-raw-xeno-meat = Raw Xeno Meat
-bounty-item-abyssium-ore = Abyssium Ore
-bounty-item-old-treasure = Old Treasure
-bounty-item-space-bear-hide = Space Bear Hide
+bounty-item-bandolier = Морская патронная лента
+bounty-item-commie-id = Советская ID-карта
+bounty-item-raw-xeno-meat = Сырое мясо ксеноса
+bounty-item-abyssium-ore = Руда абиссия
+bounty-item-old-treasure = Старое сокровище
+bounty-item-space-bear-hide = Шкура космического медведя
 
-bounty-item-cotton-cake = Cotton cake
-bounty-item-cotton-bread = Cotton bread
-bounty-item-coupe-glass = Coupe glass
-bounty-item-salad = Salad
-bounty-item-sausage-bun = Sausage on a bun
+bounty-item-cotton-cake = Хлопковый торт
+bounty-item-cotton-bread = Хлопковый хлеб
+bounty-item-coupe-glass = Бокал-купе
+bounty-item-salad = Салат
+bounty-item-sausage-bun = Сосиска в булке
 
-bounty-description-cotton-bread = A cotton shortage has led to cotton bread prices skyrocketing. Ship some cotton bread before the moths start eating our clothes.
-bounty-description-cotton-cake = Our moth friend's birthday is tomorrow, but we don't know how to bake them a cake. Help us!
-bounty-description-coupe-glass = Tomorrow's cocktail reception is about to be ruined because the host didn't acquire enough glasses for all the guests. Help us make up the shortfall.
-bounty-description-salad = Our chief medical officer just informed us that some crew aren't eating a varied diet. We figure a few salads would fix the problem.
-bounty-description-sausage-bun = Some assistants are having an eating competition but need cheap food. Some sausages on a bun would do the trick, doesn't matter where they came from.
+bounty-description-cotton-bread = Нехватка хлопка привела к взлёту цен на хлопковый хлеб. Отправьте немного хлопкового хлеба, пока моли не начали есть нашу одежду.
+bounty-description-cotton-cake = Завтра день рождения нашей мотыльковой подруги, а мы не знаем, как испечь ей торт. Помогите нам!
+bounty-description-coupe-glass = Завтрашний коктейльный приём вот-вот будет испорчен: организатор не достал достаточно бокалов для всех гостей. Помогите восполнить нехватку.
+bounty-description-salad = Наш главный врач сообщил, что часть экипажа питается однообразно. Мы полагаем, несколько салатов решат проблему.
+bounty-description-sausage-bun = Некоторые ассистенты проводят соревнование по поеданию, но им нужна дешёвая еда. Подойдут сосиски в булке, неважно, откуда они.

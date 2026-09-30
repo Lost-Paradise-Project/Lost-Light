@@ -1,7 +1,7 @@
-marking-glowing = Glowing
-markings-category-TailExtras = Tail Extras
+marking-glowing = Светящийся
+markings-category-TailExtras = Дополнения хвоста
 
-markings-category-FaceCover = [Neocyte] Visor
-markings-category-FaceCoverCover = [Neocyte] Visor LEDs
-markings-category-BodyCover = [Neocyte] Frame
-markings-category-BodyCoverCover = [Neocyte] Frame LEDs
+markings-category-FaceCover = [Неоцит] Визор
+markings-category-FaceCoverCover = [Неоцит] Светодиоды визора
+markings-category-BodyCover = [Неоцит] Каркас
+markings-category-BodyCoverCover = [Неоцит] Светодиоды каркаса

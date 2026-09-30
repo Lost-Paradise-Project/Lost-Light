@@ -1,3 +1,3 @@
-round-end-prepend-abductor-abducted = [color=Purple]Abductors[/color] abducted [color=Pink]{ $number }[/color] unique subjects
-round-end-prepend-abductor-were = [color=Purple]Abductors were:[/color]
+round-end-prepend-abductor-abducted = [color=Purple]Похитители[/color] похитили [color=Pink]{ $number }[/color] уникальных субъектов
+round-end-prepend-abductor-were = [color=Purple]Похитителями были:[/color]
 round-end-prepend-abductor-name =  • [color=white]{ $name }[/color]

@@ -1,15 +1,15 @@
-changeling-roundend-name = changeling
+changeling-roundend-name = генокрад
 
-objective-issuer-hivemind = [color=orange]Hivemind[/color]
+objective-issuer-hivemind = [color=orange]Разум роя[/color]
 
-roundend-prepend-changeling-absorbed-named = [color=white]{ $name }[/color] has absorbed a total of [color=red]{ $number }[/color] organics.
-roundend-prepend-changeling-stolen-named = [color=white]{ $name }[/color] has extracted a total of [color=orange]{ $number }[/color] DNA samples.
-roundend-prepend-changeling-absorbed = Someone has absorbed a total of [color=red]{ $number }[/color] organics.
-roundend-prepend-changeling-stolen = Someone had extracted a total of [color=orange]{ $number }[/color] DNA samples.
+roundend-prepend-changeling-absorbed-named = [color=white]{ $name }[/color] поглотил(а) в общей сложности [color=red]{ $number }[/color] органиков.
+roundend-prepend-changeling-stolen-named = [color=white]{ $name }[/color] извлёк(ла) в общей сложности [color=orange]{ $number }[/color] образцов ДНК.
+roundend-prepend-changeling-absorbed = Кто-то поглотил в общей сложности [color=red]{ $number }[/color] органиков.
+roundend-prepend-changeling-stolen = Кто-то извлёк в общей сложности [color=orange]{ $number }[/color] образцов ДНК.
 
-changeling-gamemode-title = Changelings
+changeling-gamemode-title = Генокрады
 changeling-gamemode-description =
-    The changeling hive has boarded the station, ready to take anything it desires — be it your equipment, your faces, or your lives!
+    Улей генокрадов высадился на станцию, готовый забрать всё, что пожелает: будь то ваше снаряжение, ваши лица или ваши жизни!
 
 changeling-role-greeting =
     Вы — генокрад, чрезвычайно умный хищник.
@@ -22,7 +22,7 @@ changeling-briefing =
     Вы обладаете способностью принимать облики тех, кого поглощаете, чтобы избежать мрачной участи.
 
 changeling-role-greeting-short =
-    You are a changeling who has absorbed and taken the initial form of { $name }.
+    Вы — генокрад, поглотивший и принявший первоначальный облик { $name }.
 
 objective-issuer-changeling = [color=#FA2A55]Разум улья[/color]
 

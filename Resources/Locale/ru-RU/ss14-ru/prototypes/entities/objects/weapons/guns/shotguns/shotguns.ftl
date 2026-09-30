@@ -1,5 +1,5 @@
-ent-BaseWeaponShotgunAny = BaseWeaponShotgun
-    .desc = A rooty tooty point and shooty.
+ent-BaseWeaponShotgunAny = базовый дробовик
+    .desc = Крутой, стильный, стреляющий.
 ent-WeaponShotgunBulldog = Бульдог
     .desc = Автоматический магазинный дробовик для ведения ближнего боя. Бьёт как мул на стероидах. Использует патроны калибра .50 ружейный.
 ent-WeaponShotgunDoubleBarreled = двуствольное ружьё
@@ -11,7 +11,7 @@ ent-WeaponShotgunEnforcer = Силовик
     .desc = Полуавтоматический дробовик премиум-класса, гордость для всех сил безопасности. Использует патроны калибра .50 ружейный.
 ent-WeaponShotgunSentielRubber = { ent-WeaponShotgunEnforcer }
     .desc = { ent-WeaponShotgunEnforcer.desc }
-    .suffix = Non-Lethal
+    .suffix = Нелетальный
 ent-WeaponShotgunKammerer = Каммерер
     .desc = Старая, но верная конструкция, любимая нерегулярными силами многих миров. Использует патроны калибра .50 ружейный.
 ent-WeaponShotgunSawn = обрез

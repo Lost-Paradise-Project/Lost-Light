@@ -1,4 +1,4 @@
-ent-MobHumanTerminator = exterminator
+ent-MobHumanTerminator = истребитель
     .desc = { ent-MobHuman.desc }
-ent-MobTerminatorEndoskeleton = nt-800 "exterminator" endoskeleton
-    .desc = The inner powerhouse of an infiltrator android. Ridiculously hard alloy on the inside, unassuming flesh on the outside.
+ent-MobTerminatorEndoskeleton = эндоскелет «истребителя» нт-800
+    .desc = Внутренний источник мощности андроида-инфильтратора. Невероятно прочный сплав внутри, неприметная плоть снаружи.

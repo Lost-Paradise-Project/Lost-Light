@@ -1,5 +1,5 @@
-ent-CasinoChip = casino chip
-    .desc = A casino chip. Only worth what the house says it is.
+ent-CasinoChip = фишка казино
+    .desc = Фишка казино. Стоит ровно столько, сколько скажет заведение.
 ent-CasinoChip10 = { ent-CasinoChip }
     .desc = { ent-CasinoChip.desc }
     .suffix = 10

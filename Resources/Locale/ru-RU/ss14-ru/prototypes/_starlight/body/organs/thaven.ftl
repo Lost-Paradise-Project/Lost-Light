@@ -1,9 +1,9 @@
-ent-OrganThavenBrain = thaven brain
-    .desc = An organic positronic brain. Quite remarkable, really.
-    .suffix = Thaven
-ent-OrganThavenEyes = thaven eyes
-    .desc = The eyes of a Thaven.
-    .suffix = Thaven
+ent-OrganThavenBrain = мозг тавена
+    .desc = Органический позитронный мозг. Действительно замечательный.
+    .suffix = Тавен
+ent-OrganThavenEyes = глаза тавена
+    .desc = Глаза тавена.
+    .suffix = Тавен
 ent-OrganThavenTongue = { ent-OrganHumanTongue }
     .desc = { ent-OrganHumanTongue.desc }
-    .suffix = Thaven
+    .suffix = Тавен

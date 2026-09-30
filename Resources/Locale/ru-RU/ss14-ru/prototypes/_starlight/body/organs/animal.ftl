@@ -1,3 +1,3 @@
-ent-OrganCorgiLungs = corgi lungs
-    .desc = Used for barking.
-    .suffix = Corgi
+ent-OrganCorgiLungs = лёгкие корги
+    .desc = Используются для лая.
+    .suffix = Корги

@@ -1,6 +1,6 @@
-ent-USSPUplinkRadioPreset = Svyaz-UZL radio
-    .desc = Soviet comm-link node radio in broad use by USSP forces. This one has been modified for SKB agents and their assets. Unauthorized use is strongly discouraged, because we will find you.
+ent-USSPUplinkRadioPreset = радио Связь-УЗЛ
+    .desc = Советское радио узла связи, широко применяемое силами УССР. Это модифицировано для агентов СКБ и их активов. Несанкционированное использование настоятельно не рекомендуется, потому что мы вас найдём.
     .suffix = { ent-BaseRevUplinkRadio.suffix }
-ent-USSPUplinkRadioPresetDebug = Svyaz-UZL radio (Debug)
-    .desc = Soviet comm-link node radio in broad use by USSP forces. This one has been modified for SKB agents and their assets. Unauthorized use is strongly discouraged, because we will find you.
-    .suffix = DO NOT USE LIVE
+ent-USSPUplinkRadioPresetDebug = радио Связь-УЗЛ (отладка)
+    .desc = Советское радио узла связи, широко применяемое силами УССР. Это модифицировано для агентов СКБ и их активов. Несанкционированное использование настоятельно не рекомендуется, потому что мы вас найдём.
+    .suffix = НЕ ИСПОЛЬЗОВАТЬ В РАБОТЕ

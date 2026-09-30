@@ -1,10 +1,10 @@
-ent-WallBrass = brass wall
+ent-WallBrass = латунная стена
     .desc = { ent-BaseWall.desc }
-ent-WallBrassDiagonal = brass wall
+ent-WallBrassDiagonal = латунная стена
     .desc = { ent-WallDiagonalBase.desc }
     .suffix = { ent-WallDiagonalBase.suffix }
-ent-WallReinforcedBrass = reinforced brass wall
+ent-WallReinforcedBrass = укреплённая латунная стена
     .desc = { ent-BaseWall.desc }
-ent-WallReinforcedBrassDiagonal = reinforced brass wall
+ent-WallReinforcedBrassDiagonal = укреплённая латунная стена
     .desc = { ent-WallDiagonalBase.desc }
     .suffix = { ent-WallDiagonalBase.suffix }

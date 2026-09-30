@@ -1,9 +1,9 @@
-ent-HandDryer = hand dryer
-    .desc = A hand dryer, for when youre too good for paper towels.
-ent-ToiletPaper = toilet paper
-    .desc = One-ply, for maximum inefficiency. Company has to save pennies where they can, you guess.
+ent-HandDryer = сушилка для рук
+    .desc = Сушилка для рук, для тех случаев, когда вы слишком хороши для бумажных полотенец.
+ent-ToiletPaper = туалетная бумага
+    .desc = Однослойная, для максимальной неэффективности. Компании приходится экономить копейки где можно, догадываетесь вы.
 ent-ToiletPaperOffset = { ent-ToiletPaper }
     .desc = { ent-ToiletPaper.desc }
-    .suffix = Offset
-ent-HandSanitiser = hand sanitiser dispenser
-    .desc = Don't get any in your eyes.
+    .suffix = Со смещением
+ent-HandSanitiser = дозатор антисептика для рук
+    .desc = Не попадите в глаза.

@@ -1,3 +1,3 @@
-quickconstruction-category-pipe = pipes
-quickconstruction-category-tile = tiles
-quickconstruction-category-railing = railings
+quickconstruction-category-pipe = трубы
+quickconstruction-category-tile = плитки
+quickconstruction-category-railing = перила

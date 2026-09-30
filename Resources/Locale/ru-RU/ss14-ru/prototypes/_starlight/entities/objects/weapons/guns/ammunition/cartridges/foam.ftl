@@ -1,8 +1,8 @@
-ent-CartridgePistolFoam = cartridge (.35 auto foam)
-    .desc = A .35 auto casing with a foam dart wedged in. Whoever loaded this has a very particular sense of humor.
-ent-CartridgeRifleFoam = cartridge (.20 rifle foam)
-    .desc = A rifle cartridge casing with a foam dart inside it. Someone had very specific ideas about ammo economy.
-ent-CartridgeLightRifleFoam = cartridge (.30 light rifle foam)
-    .desc = A light rifle cartridge with a foam dart tip. At these velocities it's still going to leave a bruise.
-ent-CartridgeCaselessRifleFoam = cartridge (.25 caseless foam)
-    .desc = A caseless propellant block with a foam dart fused into the tip. The engineering is questionable but it's technically a projectile.
+ent-CartridgePistolFoam = патрон (.35 авто, поролоновый)
+    .desc = Гильза .35 авто с вставленной поролоновым дротиком. У того, кто это зарядил, очень своеобразное чувство юмора.
+ent-CartridgeRifleFoam = патрон (.20 винтовочный, поролоновый)
+    .desc = Гильза винтовочного патрона с поролоновым дротиком внутри. У кого-то были очень специфические представления об экономии боеприпасов.
+ent-CartridgeLightRifleFoam = патрон (.30 лёгкий винтовочный, поролоновый)
+    .desc = Патрон лёгкой винтовки с наконечником-поролоновым дротиком. На таких скоростях всё равно останется синяк.
+ent-CartridgeCaselessRifleFoam = патрон (.25 безгильзовый поролоновый)
+    .desc = Безгильзовый блок пороха с впаянным в наконечник поролоновым дротиком. Инженерия сомнительная, но технически это снаряд.

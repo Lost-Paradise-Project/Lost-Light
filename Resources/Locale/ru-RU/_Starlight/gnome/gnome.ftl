@@ -1,1 +1,1 @@
-gnomification = { CAPITALIZE(THE($target)) } transforms into a gnome!
+gnomification = { CAPITALIZE(THE($target)) } превращается в гнома!

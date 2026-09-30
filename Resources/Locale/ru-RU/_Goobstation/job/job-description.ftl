@@ -1,1 +1,1 @@
-job-description-radiohost = Host the station's local radio station, play vinyls, interview the crew, take faxes and run ads to make the best radio show on the station.
+job-description-radiohost = Ведите местную радиостанцию, крутите виниловые пластинки, берите интервью у экипажа, принимайте факсы и запускайте рекламу, чтобы сделать лучшее радиошоу на станции.

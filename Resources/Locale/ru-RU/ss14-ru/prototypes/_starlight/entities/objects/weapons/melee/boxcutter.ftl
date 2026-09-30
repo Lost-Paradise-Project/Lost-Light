@@ -1,2 +1,2 @@
-ent-WeaponMeleeBoxcutter = boxcutter
-    .desc = Always accidentally cuts whatever is inside the box.
+ent-WeaponMeleeBoxcutter = канцелярский нож
+    .desc = Всегда случайно режет то, что лежит в коробке.

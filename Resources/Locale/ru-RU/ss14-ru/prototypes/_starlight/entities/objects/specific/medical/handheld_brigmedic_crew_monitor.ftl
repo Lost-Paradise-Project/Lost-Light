@@ -1,5 +1,5 @@
-ent-HandheldBrigmedicCrewMonitor = BrigBuddy™ 5000
-    .desc = So advanced it only tracks security personnel! Does not monitor emotional stability or competence levels of security members. Use at your own risk!
+ent-HandheldBrigmedicCrewMonitor = БригДруг™ 5000
+    .desc = Настолько продвинут, что отслеживает только персонал СБ! Не следит за эмоциональной стабильностью и уровнем компетентности сотрудников СБ. Используйте на свой страх и риск!
 ent-HandheldBrigmedicCrewMonitorEmpty = { ent-HandheldBrigmedicCrewMonitor }
     .desc = { ent-HandheldBrigmedicCrewMonitor.desc }
-    .suffix = Empty
+    .suffix = Пусто

@@ -1,2 +1,2 @@
-ent-PickaxeDiamond = diamond pickaxe
-    .desc = Sharp as a diamond, perfect for mining gibtonite.
+ent-PickaxeDiamond = алмазная кирка
+    .desc = Острая как алмаз, идеальна для добычи гибтонита.

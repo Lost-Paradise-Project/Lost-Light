@@ -1,5 +1,5 @@
-ent-AbyssOne = abyss
-    .desc = Rock.
+ent-AbyssOne = бездна
+    .desc = Камень.
 ent-AbyssTwo = { ent-AbyssOne }
     .desc = { ent-AbyssOne.desc }
 ent-AbyssThree = { ent-AbyssOne }
@@ -10,4 +10,4 @@ ent-AbyssFive = { ent-AbyssOne }
     .desc = { ent-AbyssOne.desc }
 ent-AbyssRandom = { ent-AbyssOne }
     .desc = { ent-AbyssOne.desc }
-    .suffix = Random
+    .suffix = Случайный

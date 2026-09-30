@@ -1,2 +1,2 @@
-ent-HandheldMedTakMonitor = MedTak handheld monitor
-    .desc = The Interdyne M7 monitor can track the vital signs and coordinates of any implants on its secure frequency, to ensure rapid location of your clients.
+ent-HandheldMedTakMonitor = портативный монитор МедТак
+    .desc = Монитор Interdyne M7 может отслеживать жизненные показатели и координаты любых имплантов на своей защищённой частоте, обеспечивая быстрое нахождение ваших клиентов.

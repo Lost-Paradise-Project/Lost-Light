@@ -1,6 +1,6 @@
 ent-BaseMobCosmicHostile = { ent-BaseSimpleMob }
     .desc = { ent-BaseSimpleMob.desc }
-    .suffix = Hostile
+    .suffix = Враждебный
 ent-MobCosmicCustodianHostile = { ent-MobCosmicCustodian }
     .desc = { ent-MobCosmicCustodian.desc }
     .suffix = { ent-BaseMobCosmicHostile.suffix }

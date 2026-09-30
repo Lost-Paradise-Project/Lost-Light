@@ -1,3 +1,3 @@
-ent-StasisBedMedTak = MedTak bed
-    .desc = A dual stasis/medical bed built for MedTak AV-40 shuttles.
+ent-StasisBedMedTak = койка МедТак
+    .desc = Двойная стазисно-медицинская койка, созданная для шаттлов МедТак AV-40.
         Ensure stasis is disabled before applying chemicals.

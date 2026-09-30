@@ -1,2 +1,2 @@
-ent-KeycardAuth = Keycard Authentication Device
-    .desc = This device is used to approve/deny station functions, which require more than one ID card to authenticate.
+ent-KeycardAuth = Устройство карточной авторизации
+    .desc = Это устройство используется для одобрения или отклонения функций станции, требующих более одной ID-карты для авторизации.

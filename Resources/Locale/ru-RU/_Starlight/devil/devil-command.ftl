@@ -1,2 +1,2 @@
-command-description-devil-querysouls = Force the piped entity to query how many souls they've damned, triggering changes if applicable.
-command-description-devil-setreq = Set the requirements for a devil appearance change on the piped entity.
+command-description-devil-querysouls = Заставляет сущность в трубе узнать, скольких душ она проклял, запуская изменения, если применимо.
+command-description-devil-setreq = Задаёт требования к смене облика дьявола для сущности в трубе.

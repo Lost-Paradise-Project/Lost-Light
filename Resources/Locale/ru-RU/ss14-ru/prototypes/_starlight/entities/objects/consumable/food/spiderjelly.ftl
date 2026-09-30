@@ -1,2 +1,2 @@
-ent-SpiderJelly = Royal Jelly
-    .desc = A strange jelly created by spiders possesses unreal regenerative powers.
+ent-SpiderJelly = Королевское желе
+    .desc = Странное желе, создаваемое пауками, обладает нереальной регенеративной силой.

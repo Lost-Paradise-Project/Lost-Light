@@ -1,4 +1,4 @@
-ent-WizardWarTablet = seal of war
-    .desc = Raw magic is sealed in this stone. Unleashing it will allow the use of more powerful abilities. However, anyone with advanced sensors in proximity will detect such a magic surge as an act of aggression. If unused, the stone will crumble to dust in 5 minutes, forever sealing the magic within.
-ent-WizardWarTabletdrained = empty seal of war
-    .desc = An emptied magical seal.
+ent-WizardWarTablet = печать войны
+    .desc = В этом камне запечатана сырая магия. Её высвобождение позволит использовать более мощные способности. Однако любой, у кого поблизости есть продвинутые датчики, обнаружит такой магический всплеск как акт агрессии. Если её не использовать, камень через 5 минут рассыплется в прах, навсегда запечатав магию внутри.
+ent-WizardWarTabletdrained = пустая печать войны
+    .desc = Опустошённая магическая печать.

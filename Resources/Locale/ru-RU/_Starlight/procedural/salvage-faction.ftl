@@ -1,4 +1,4 @@
 salvage-faction-syndicate = %E#R@R$#%$
-salvage-faction-soviet = Communism
-salvage-faction-worms = Worms
+salvage-faction-soviet = Коммунизм
+salvage-faction-worms = Черви
 salvage-faction-elder = [REDACTED]

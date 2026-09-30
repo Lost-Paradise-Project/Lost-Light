@@ -1,2 +1,2 @@
-gases-ulnitranium = Ulnitranium
+gases-ulnitranium = Ульнитраний
 gases-zxa = ZXA

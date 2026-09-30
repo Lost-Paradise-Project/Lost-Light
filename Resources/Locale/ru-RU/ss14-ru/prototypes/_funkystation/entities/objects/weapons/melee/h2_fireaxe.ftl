@@ -1,2 +1,2 @@
-ent-MetalHydrogenAxe = metal hydrogen axe
-    .desc = A lightweight crowbar with an extremely sharp fire axe head attached.
+ent-MetalHydrogenAxe = топор из металлического водорода
+    .desc = Лёгкий лом с прикреплённым чрезвычайно острым лезвием пожарного топора.

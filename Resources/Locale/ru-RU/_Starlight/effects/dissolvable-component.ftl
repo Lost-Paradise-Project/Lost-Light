@@ -1,1 +1,1 @@
-dissolvable-component-resist-message = You stop and frantically try to put yourself out, shaking off the thermite
+dissolvable-component-resist-message = Вы останавливаетесь и отчаянно пытаетесь потушить себя, стряхивая термит

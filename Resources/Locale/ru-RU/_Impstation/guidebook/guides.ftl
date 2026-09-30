@@ -1,1 +1,1 @@
-guide-entry-impeeeps = Electric Sheep
+guide-entry-impeeeps = Электрические овцы

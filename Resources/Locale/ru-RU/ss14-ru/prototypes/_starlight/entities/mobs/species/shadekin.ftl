@@ -1,2 +1,2 @@
-ent-BaseMobShadekin = Urist McShadow
+ent-BaseMobShadekin = Урист МакТень
     .desc = { ent-MobBloodstream.desc }

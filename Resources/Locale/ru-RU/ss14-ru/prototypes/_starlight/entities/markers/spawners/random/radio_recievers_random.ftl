@@ -1,3 +1,3 @@
-ent-RandomSpawnStationRadioReceiver = station radio
+ent-RandomSpawnStationRadioReceiver = станционное радио
     .desc = { ent-MarkerBase.desc }
-    .suffix = Random
+    .suffix = Случайный

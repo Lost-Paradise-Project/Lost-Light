@@ -1,2 +1,2 @@
-ent-BucketSmall = small bucket
-    .desc = A boring old bucket, in a size that fits in a bag.
+ent-BucketSmall = малое ведро
+    .desc = Скучное старое ведро размером, помещающимся в сумку.

@@ -1,8 +1,8 @@
-ent-LeftLegWithFootHuman = left human leg
+ent-LeftLegWithFootHuman = левая нога человека
     .desc = { ent-PartHuman.desc }
-ent-RightLegWithFootHuman = right human leg
+ent-RightLegWithFootHuman = правая нога человека
     .desc = { ent-PartHuman.desc }
-ent-LeftArmWithHandHuman = left human arm
+ent-LeftArmWithHandHuman = левая рука человека
     .desc = { ent-PartHuman.desc }
-ent-RightArmWithHandHuman = right human arm
+ent-RightArmWithHandHuman = правая рука человека
     .desc = { ent-PartHuman.desc }

@@ -1,8 +1,8 @@
-antag-category-occult-name = Occult
-antag-category-occult-desc = Various occultic groups, either working on behalf of their ‘Gods’, ‘Lords’, other extradimensional beings, or, in rare cases, being one themselves. Obviously, this is bad for efficiency, and must be stopped.
+antag-category-occult-name = Оккультисты
+antag-category-occult-desc = Различные оккультные группы, действующие либо от имени своих «богов», «повелителей» и других внепространственных существ, либо, в редких случаях, являющиеся ими сами. Очевидно, это вредит эффективности и должно быть остановлено.
 
-antag-category-wizard-name = Space Wizards Federation
-antag-category-wizard-desc = The Space Wizards Federation is a mysterious, unknown and rather strange force, whose existence parallels with life as a concept. While their members don't directly oppose NanoTrasen, they tend to get... carried away, whenever they end up on one of their stations.
+antag-category-wizard-name = Федерация космических волшебников
+antag-category-wizard-desc = Федерация космических волшебников — загадочная, неизвестная и довольно странная сила, чьё существование параллельно самой жизни как понятию. Хотя её члены не выступают против НаноТрейзен напрямую, они склонны увлекаться, когда оказываются на одной из её станций.
 
-antag-category-xenoborg-name = Xenoborgs
-antag-category-xenoborg-desc = Xenoborgs are rogue Silicons that have started assimilating organics to grow their number. They are known to harvest the brains of unfortunate crew members, whose bodies they destroy before they turn them into more Xenoborgs. Preventing crew from being abducted is imperative to prevent a critical mass of hostile borgs.
+antag-category-xenoborg-name = Ксеноборги
+antag-category-xenoborg-desc = Ксеноборги — взбунтовавшиеся кремниевые юниты, начавшие ассимилировать органиков, чтобы увеличить свою численность. Они известны тем, что извлекают мозги несчастных членов экипажа, а тела уничтожают, прежде чем превратить их в новых ксеноборгов. Предотвращение похищений экипажа необходимо, чтобы не допустить критической массы враждебных боргов.

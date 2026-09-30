@@ -1,9 +1,9 @@
 ent-BaseBorgiChassis = { ent-MobCorgiSmart }
     .desc = { ent-MobCorgiSmart.desc }
     .suffix = { ent-MobCorgiSmart.suffix }
-ent-BaseStationBorgiChassis = Smart Borgi
-    .desc = A unusually smart dog, loves stating it's laws.
+ent-BaseStationBorgiChassis = Умный борги
+    .desc = Необычайно умная собака, любит перечислять свои законы.
     .suffix = { ent-BaseBorgiChassis.suffix }
-ent-BaseSyndicateBorgiChassis = Syndi Borgi
-    .desc = An unusually smart dog, but hell bent on MURDER.
-    .suffix = Antag
+ent-BaseSyndicateBorgiChassis = Борги Синдиката
+    .desc = Необычайно умная собака, но одержимая УБИЙСТВОМ.
+    .suffix = Антагонист

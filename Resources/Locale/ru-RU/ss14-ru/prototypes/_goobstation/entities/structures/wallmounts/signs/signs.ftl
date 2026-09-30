@@ -1,2 +1,2 @@
-ent-SignRadioHost = radio host sign
-    .desc = A sign indicating the studio for the radio host.
+ent-SignRadioHost = вывеска радиоведущего
+    .desc = Вывеска, указывающая студию радиоведущего.

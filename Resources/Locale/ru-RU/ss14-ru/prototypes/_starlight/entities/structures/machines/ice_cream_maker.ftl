@@ -1,2 +1,2 @@
-ent-IceCreamMaker = ice cream maker
-    .desc = Morale-boosting deserts, coming up.
+ent-IceCreamMaker = мороженица
+    .desc = Поднимающие настроение десерты уже готовятся.

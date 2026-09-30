@@ -1,7 +1,7 @@
-humanoid-profile-editor-voice-label = Voice:
+humanoid-profile-editor-voice-label = Голос:
 ## 🌟Starlight🌟
-humanoid-profile-editor-silicon-voice-label = Silicon Voice:
+humanoid-profile-editor-silicon-voice-label = Голос кремния:
 humanoid-profile-editor-voice-play = ▶
 
-humanoid-profile-editor-ic-info-tab = IC Info
-humanoid-profile-editor-ooc-info-tab = OOC Info
+humanoid-profile-editor-ic-info-tab = Информация IC
+humanoid-profile-editor-ooc-info-tab = Информация OOC

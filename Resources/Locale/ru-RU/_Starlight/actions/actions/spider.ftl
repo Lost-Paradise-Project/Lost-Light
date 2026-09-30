@@ -1,5 +1,5 @@
-spider-web-action-fail-single = You can't place webs here!
-spider-web-action-incontainer = You can't place webs while you're in container!
+spider-web-action-fail-single = Здесь нельзя ставить паутину!
+spider-web-action-incontainer = Нельзя ставить паутину, пока вы в контейнере!
 
-terror-spider-egg-inject-already-has-eggs = The target already contains eggs.
-terror-spider-egg-inject-cocoon-empty = This cocoon is empty!
+terror-spider-egg-inject-already-has-eggs = В цели уже есть яйца.
+terror-spider-egg-inject-cocoon-empty = Этот кокон пуст!

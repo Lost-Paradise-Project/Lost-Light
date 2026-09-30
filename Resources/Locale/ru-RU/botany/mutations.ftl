@@ -1,16 +1,16 @@
 mutation-plant-sentient = Кажется, оно изучает окрестности.
 mutation-plant-slippery = Оно гладкое на ощупь.
 
-mutation-plant-description-kudzu = It is growing unusually fast and thin.
-mutation-plant-description-ligneous = It is woody and will need a sharp tool to harvest.
-mutation-plant-description-scream = This plant seems nervous somehow.
-mutation-plant-description-unviable = It is wilting and sickly.
-mutation-plant-description-seedless = Its harvested produce is seedless.
-mutation-plant-description-sampled = It has already been sampled.
+mutation-plant-description-kudzu = Оно растёт необычайно быстро и тонко.
+mutation-plant-description-ligneous = Оно одревеснело, и для сбора урожая понадобится острый инструмент.
+mutation-plant-description-scream = Это растение почему-то выглядит нервным.
+mutation-plant-description-unviable = Оно вянет и выглядит больным.
+mutation-plant-description-seedless = Собранный с него урожай не содержит семян.
+mutation-plant-description-sampled = С него уже брали образец.
 
-mutation-plant-noun-kudzu = kudzu growth
-mutation-plant-noun-ligneous = ligneous growth
-mutation-plant-noun-scream = mandragora
-mutation-plant-noun-unviable = unviability
-mutation-plant-noun-seedless = seedlessness
-mutation-plant-noun-sampled = clip scarring
+mutation-plant-noun-kudzu = кудзу
+mutation-plant-noun-ligneous = одревеснение
+mutation-plant-noun-scream = мандрагора
+mutation-plant-noun-unviable = нежизнеспособность
+mutation-plant-noun-seedless = бессемянность
+mutation-plant-noun-sampled = рубцы от взятия образца

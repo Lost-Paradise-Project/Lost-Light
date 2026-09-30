@@ -1,2 +1,2 @@
-ent-ClothingShoesHighheelShoes = high-heels
-    .desc = Snazy shoes for when you want to be stylish and noticed.
+ent-ClothingShoesHighheelShoes = туфли на каблуках
+    .desc = Эффектные туфли, когда хочется быть стильным и заметным.

@@ -1,2 +1,2 @@
-ent-ESEffectSparks = sparks
+ent-ESEffectSparks = искры
     .desc = { "" }

@@ -1,6 +1,6 @@
-ent-BaseScanGate = scan gate
+ent-BaseScanGate = сканирующие ворота
     .desc = { ent-BaseMachinePowered.desc }
 ent-ScanGate = { ent-BaseScanGate }
-    .desc = It scans items for contraband when they pass through.
+    .desc = Сканирует предметы на контрабанду при прохождении.
 ent-ScanGateBlack = { ent-ScanGate }
     .desc = { ent-ScanGate.desc }

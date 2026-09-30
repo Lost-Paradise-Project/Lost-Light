@@ -140,8 +140,8 @@ reagent-desc-opporozidone= Трудно синтезируемый криоге�
 reagent-name-arcryox = аркриокс
 reagent-desc-arcryox = Отвратительно синий криогенный химикат, способный залечивать тяжелые раны даже у мертвых. Однако он с трудом стабилизирует состояние пациентов.
 
-reagent-name-necrosol = necrosol
-reagent-desc-necrosol = A necrotic substance that seems to be able to heal frozen corpses. It can treat and rejuvenate plants when applied in small doses.
+reagent-name-necrosol = некрозол
+reagent-desc-necrosol = Некротическое вещество, которое, по-видимому, способно лечить замороженные трупы. В малых дозах лечит и омолаживает растения.
 
 reagent-name-aloxadone = алоксадон
 reagent-desc-aloxadone = Криогенное химическое вещество. Используется для лечения тяжёлых ожогов и обморожений путём регенерации пострадавших тканей. Работает независимо от того, жив пациент или мёртв.

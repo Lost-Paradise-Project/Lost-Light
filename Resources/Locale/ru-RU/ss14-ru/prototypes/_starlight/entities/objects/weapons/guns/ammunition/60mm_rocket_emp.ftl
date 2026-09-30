@@ -1,10 +1,10 @@
-ent-Bullet60mmRocketEMP = EMP rocket
+ent-Bullet60mmRocketEMP = ЭМИ-ракета
     .desc = { ent-BaseBulletTrigger.desc }
 ent-EmpRocketImpactEffect = { "" }
     .desc = { "" }
-ent-CartridgeRocketEMP = EMP rocket grenade
-    .desc = A PG-7 EMP warhead designed for the RPG-7 launcher. Delivers a focused electromagnetic pulse on impact, disrupting electronics and power systems without causing structural damage. Does not explode.
-ent-GrenadeEMPTarnyx = EMP artillery grenade
-    .desc = A large EMP grenade cartridge designed for the SSG-TARNYX cannon. Releases a powerful electromagnetic pulse on impact, disrupting ship electronics across a wide area. Does not cause structural damage.
-ent-BulletGrenadeEMPTarnyx = EMP artillery shell
+ent-CartridgeRocketEMP = ЭМИ-ракетная граната
+    .desc = ЭМИ-боеголовка PG-7 для гранатомёта РПГ-7. Наносит сфокусированный электромагнитный импульс при ударе, нарушая электронику и системы питания без структурных повреждений. Не взрывается.
+ent-GrenadeEMPTarnyx = ЭМИ-артиллерийская граната
+    .desc = Большой картридж с ЭМИ-гранатой для пушки SSG-TARNYX. При ударе выпускает мощный электромагнитный импульс, нарушая электронику корабля на большой площади. Не наносит структурных повреждений.
+ent-BulletGrenadeEMPTarnyx = ЭМИ-артиллерийский снаряд
     .desc = { ent-BaseBulletTrigger.desc }

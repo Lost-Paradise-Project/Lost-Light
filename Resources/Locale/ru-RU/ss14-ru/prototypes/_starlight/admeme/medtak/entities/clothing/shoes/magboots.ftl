@@ -1,2 +1,2 @@
-ent-ClothingShoesBootsMagMedTak = MedTak combat magboots
-    .desc = Standard issue combat magboots for any MedTak units deployed as non-planetary coverage.
+ent-ClothingShoesBootsMagMedTak = боевые магнитные ботинки МедТак
+    .desc = Стандартные боевые магнитные ботинки для любых подразделений МедТак, развёрнутых как непланетарное покрытие.

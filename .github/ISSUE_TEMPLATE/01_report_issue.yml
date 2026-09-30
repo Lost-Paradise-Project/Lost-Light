@@ -1,5 +1,6 @@
 name: Сообщить о проблеме
 description: Для проблем, которые не подходят под другие шаблоны.
+type: Bug
 body:
   - type: markdown
     attributes:

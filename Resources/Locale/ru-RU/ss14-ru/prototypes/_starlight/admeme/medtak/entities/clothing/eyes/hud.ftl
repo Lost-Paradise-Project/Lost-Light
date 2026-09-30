@@ -1,2 +1,2 @@
-ent-ClothingEyesVisorMedTak = MedTak visor
-    .desc = A visor for MedTak operators with a built in heads up display and active flash adjustment.
+ent-ClothingEyesVisorMedTak = визор МедТак
+    .desc = Визор для операторов МедТак со встроенным ХУДом и активной регулировкой вспышек.

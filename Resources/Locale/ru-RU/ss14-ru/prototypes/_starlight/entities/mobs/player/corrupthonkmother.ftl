@@ -1,7 +1,7 @@
 ent-MobCorruptHonkmotherBase = { "" }
-    .desc = Insert funny pun here
-ent-CorruptHonkmother = Honkmother
+    .desc = Вставьте сюда смешной каламбур
+ent-CorruptHonkmother = Хонкматерь
     .desc = { ent-MobCorruptHonkmotherBase.desc }
 ent-CorruptHonkmotherTransform = { ent-CorruptHonkmother }
     .desc = { ent-CorruptHonkmother.desc }
-    .suffix = transform
+    .suffix = превращение

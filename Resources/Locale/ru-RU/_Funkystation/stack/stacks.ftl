@@ -1,1 +1,1 @@
-stack-metal-hydrogen = metal hydrogen
+stack-metal-hydrogen = металлический водород

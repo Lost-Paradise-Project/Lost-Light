@@ -1,2 +1,2 @@
-ent-Speaker = speaker
-    .desc = Ensuring you consume a minimum number of advertisements per shift.
+ent-Speaker = динамик
+    .desc = Гарантирует, что вы потребите минимальное число рекламы за смену.

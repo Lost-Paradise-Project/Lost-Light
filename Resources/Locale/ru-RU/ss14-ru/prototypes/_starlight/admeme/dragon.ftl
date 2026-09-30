@@ -1,7 +1,7 @@
-ent-MobDragonClown = clown dragon
-    .desc = A perfect life form created by the honk mother.
+ent-MobDragonClown = клоунский дракон
+    .desc = Идеальная форма жизни, созданная Хонкматерью.
     .suffix = { ent-BaseMobDragon.suffix }
-ent-ActionClownsBreath = [color=pink]Cluster Banana![/color]
-    .desc = Throw out a banana that splits into multiple explosive peels!
-ent-ClownsBreathGun = clown's lung
-    .desc = For funny breathing.
+ent-ActionClownsBreath = [color=pink]Кластерный банан![/color]
+    .desc = Бросьте банан, который раскалывается на несколько взрывающихся кожурок!
+ent-ClownsBreathGun = клоунское лёгкое
+    .desc = Для смешного дыхания.

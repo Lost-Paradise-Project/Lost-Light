@@ -1,60 +1,60 @@
 # Command
-id-card-access-level-debrief = Debrief
+id-card-access-level-debrief = Разбор полётов
 
 # NT
-id-card-access-level-ntpersonnel = NT Personnel
-id-card-access-level-magistrate = Magistrate
-id-card-access-level-ntrep = NanoTrasen Representative
-id-card-access-level-blueshield = BlueShield
-id-card-access-level-iaa = Internal Affairs
+id-card-access-level-ntpersonnel = Персонал НТ
+id-card-access-level-magistrate = Магистрат
+id-card-access-level-ntrep = Представитель НаноТрейзен
+id-card-access-level-blueshield = Синий щит
+id-card-access-level-iaa = Внутренние дела
 
 # Cargo
-id-card-access-level-salvagelead = Salvage Lead
-id-card-access-level-mining = Mining
-id-card-access-level-mail = Mail
-id-card-access-level-shuttle = Shuttle
+id-card-access-level-salvagelead = Глава утилизаторов
+id-card-access-level-mining = Шахта
+id-card-access-level-mail = Почта
+id-card-access-level-shuttle = Шаттл
 
 # Engineering
 
 # Research
-id-card-access-level-robotics = Robotics
+id-card-access-level-robotics = Робототехника
 
 # Security
-id-card-access-level-brigmedic = Brigmedic
-id-card-access-level-cadet = Cadet
+id-card-access-level-brigmedic = Бригмедик
+id-card-access-level-cadet = Кадет
 
 # Service
-id-card-access-level-clown = Clown
-id-card-access-level-mime = Mime
+id-card-access-level-clown = Клоун
+id-card-access-level-mime = Мим
 
 # Medical
-id-card-access-level-surgery = Surgery
-id-card-access-level-paramed = Paramedic
+id-card-access-level-surgery = Хирургия
+id-card-access-level-paramed = Парамедик
 
 # Cyborgs
-id-card-access-level-cargo-cyborg = Cargo Cyborg
-id-card-access-level-engineering-cyborg = Engineering Cyborg
-id-card-access-level-research-cyborg = Research Cyborg
-id-card-access-level-security-cyborg = Security Cyborg
-id-card-access-level-service-cyborg = Service Cyborg
-id-card-access-level-medical-cyborg = Medical Cyborg
+id-card-access-level-cargo-cyborg = Карго-киборг
+id-card-access-level-engineering-cyborg = Инженерный киборг
+id-card-access-level-research-cyborg = Исследовательский киборг
+id-card-access-level-security-cyborg = Киборг СБ
+id-card-access-level-service-cyborg = Сервисный киборг
+id-card-access-level-medical-cyborg = Медицинский киборг
 
 # Misc
-id-card-access-level-freelance = Freelance
+id-card-access-level-freelance = Фриланс
 
-id-card-access-level-debug1 = Debug1
-id-card-access-level-debug2 = Debug2
-id-card-access-level-debug3 = Debug3
-id-card-access-level-debug4 = Debug4
-id-card-access-level-debug5 = Debug5
+id-card-access-level-debug1 = Отладка1
+id-card-access-level-debug2 = Отладка2
+id-card-access-level-debug3 = Отладка3
+id-card-access-level-debug4 = Отладка4
+id-card-access-level-debug5 = Отладка5
 
-id-card-access-level-communist = Communist
+id-card-access-level-communist = Коммунист
 
-id-card-access-level-solgov = SolGov
+id-card-access-level-solgov = Солгов
 
-id-card-access-level-pirate = Pirate
-id-card-access-level-blackstar = Blackstar
-id-card-access-level-medtak = MedTak
-id-card-access-level-visitor = Visitor
+id-card-access-level-pirate = Пират
+id-card-access-level-blackstar = Чёрная звезда
+id-card-access-level-medtak = МедТак
+id-card-access-level-visitor = Посетитель
 
-id-card-access-level-itg = Interstellar Trade Guild
+id-card-access-level-itg = Межзвёздная торговая гильдия

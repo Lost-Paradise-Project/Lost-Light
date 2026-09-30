@@ -1,2 +1,2 @@
-ent-RandomNest = random nest spawner
+ent-RandomNest = спавнер случайного гнезда
     .desc = { ent-MarkerBase.desc }

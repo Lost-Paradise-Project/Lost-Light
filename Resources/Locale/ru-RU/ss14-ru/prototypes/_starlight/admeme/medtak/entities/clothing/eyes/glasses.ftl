@@ -1,2 +1,2 @@
-ent-ClothingEyesGlassesMedTak = MedTak glasses
-    .desc = A pair of glasses issued to MedTak dispatchers, with a built in heads up display and active flash adjustment.
+ent-ClothingEyesGlassesMedTak = очки МедТак
+    .desc = Пара очков, выдаваемых диспетчерам МедТак, со встроенным ХУДом и активной регулировкой вспышек.

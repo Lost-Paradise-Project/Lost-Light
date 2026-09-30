@@ -1,17 +1,17 @@
-stack-carpet-deco-tile = deco carpet tile
-stack-carpet-art-tile = artsy carpet tile
-stack-dark-bitile-tile = dark bi tile
-stack-steel-bitile-tile = steel bi tile
-stack-white-bitile-tile = white bi tile
-stack-hierophant-tile = hierophant carpet tile
-stack-sepia-tile = sepia tile
-stack-terracotta-tile = terracotta tile
-stack-terracotta-diagonal-tile = diagonal terracotta tile
-stack-terracotta-small-tile = small terracotta tile
-stack-labeller-refill-paper = labeller refill paper
-stack-dark-wood-floor = dark wood floor
-stack-dark-wood-pattern-floor = dark wood pattern floor
-stack-dark-large-wood-floor = large dark wood floor
+stack-carpet-deco-tile = декоративная плитка-ковёр
+stack-carpet-art-tile = художественная плитка-ковёр
+stack-dark-bitile-tile = тёмная двухцветная плитка
+stack-steel-bitile-tile = стальная двухцветная плитка
+stack-white-bitile-tile = белая двухцветная плитка
+stack-hierophant-tile = плитка-ковёр иерофанта
+stack-sepia-tile = плитка цвета сепии
+stack-terracotta-tile = терракотовая плитка
+stack-terracotta-diagonal-tile = диагональная терракотовая плитка
+stack-terracotta-small-tile = маленькая терракотовая плитка
+stack-labeller-refill-paper = бумага для пополнения этикетировщика
+stack-dark-wood-floor = пол из тёмного дерева
+stack-dark-wood-pattern-floor = узорчатый пол из тёмного дерева
+stack-dark-large-wood-floor = большой пол из тёмного дерева
 black-wood-floor = деревянный чёрный пол
 dark-wood-floor = деревянный тёмный пол
 light-wood-floor = деревянный светлый пол
@@ -29,24 +29,24 @@ chess-black-wood-floor = чёрный деревянный шахматный п
 chess-dark-wood-floor = тёмный деревянный шахматный пол
 chess-light-wood-floor = светлый деревянный шахматный пол
 chess-red-wood-floor = красный деревянный шахматный пол
-stack-metal-dark-floor = dark metal floor
-stack-metal-brown-floor = brown metal floor
-stack-metal-blue-floor = blue metal floor
-stack-metal-purple-floor = purple metal floor
-stack-metal-red-floor = red metal floor
-stack-metal-green-floor = green metal floor
-stack-astro-dirt-floor = astro-dirt floor
-stack-3x3black-floor = 3x3 black floor
-stack-3x3brown-floor = 3x3 brown floor
-stack-3x3steel-floor = 3x3 steel floor
-stack-3x3white-floor = 3x3 white floor
-stack-old-concrete-bricks-floor = old concrete brick floor
-stack-old-concrete-tile-floor = old concrete tile floor
-stack-ornate-floor = ornate floor
-stack-rough-metal-floor = rough metal floor
-stack-rusty-metal-floor = rusty metal floor
-stack-steel-grate-floor = steel grate floor
-stack-tech-greeb-floor = tech maints greeb floor
+stack-metal-dark-floor = пол из тёмного металла
+stack-metal-brown-floor = пол из коричневого металла
+stack-metal-blue-floor = пол из синего металла
+stack-metal-purple-floor = пол из фиолетового металла
+stack-metal-red-floor = пол из красного металла
+stack-metal-green-floor = пол из зелёного металла
+stack-astro-dirt-floor = пол из астро-земли
+stack-3x3black-floor = чёрный пол 3x3
+stack-3x3brown-floor = коричневый пол 3x3
+stack-3x3steel-floor = стальной пол 3x3
+stack-3x3white-floor = белый пол 3x3
+stack-old-concrete-bricks-floor = пол из старой бетонной кирпичной кладки
+stack-old-concrete-tile-floor = пол из старой бетонной плитки
+stack-ornate-floor = богато украшенный пол
+stack-rough-metal-floor = грубый металлический пол
+stack-rusty-metal-floor = ржавый металлический пол
+stack-steel-grate-floor = пол из стальной решётки
+stack-tech-greeb-floor = технический пол техтоннелей «грибб»
 
 stack-bluespacecrystal = {$amount ->
     [1] bluespace
@@ -58,10 +58,13 @@ stack-adamantine = {$amount ->
     *[other] adamantine bars
 }
 
-stack-bluespace-tile = bluespace tile
-stack-sepia-xenobiology-tile = sepia tile
+stack-bluespace-tile = блюспейс-плитка
+stack-sepia-xenobiology-tile = плитка цвета сепии
 
-stack-brutepack = набор от ушибов
+stack-brutepack = { $amount ->
+    [one] набор от ушибов
+    [few] набора от ушибов
+    *[other] наборов от ушибов
 stack-blueointment = {$amount ->
     [1] blueointment
     *[other] blueointments
@@ -116,7 +119,10 @@ stack-empty-oilpack = {$amount ->
     *[other] emptyoilpacks
 }
 
-stack-credit = кредиты
+stack-credit = { $amount ->
+    [one] кредит
+    [few] кредита
+    *[other] кредитов
 stack-ticket = {$amount ->
     [1] ticket
     *[other] tickets

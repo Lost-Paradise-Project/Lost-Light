@@ -1,2 +1,2 @@
-ent-MobAvali = Urist McAvali
+ent-MobAvali = Урист МакАвали
     .desc = { ent-BaseMobAvali.desc }

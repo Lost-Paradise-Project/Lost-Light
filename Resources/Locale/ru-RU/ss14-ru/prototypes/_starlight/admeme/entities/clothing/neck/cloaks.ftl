@@ -1,4 +1,4 @@
-ent-ClothingNeckMantleDecoratedMarineSergeant = NanoTrasen navy marine sergeant's pauldron
-    .desc = Used by NanoTrasen Navy Marines to indicate rank. This one indicates the wearer is at least a Sergeant.
-ent-ClothingNeckMantleDecoratedMarineMajor = NanoTrasen navy marine major's pauldron
-    .desc = Used by NanoTrasen Navy Marines to indicate rank. This one indicates the wearer is at least a Major.
+ent-ClothingNeckMantleDecoratedMarineSergeant = погон сержанта морпехов флота НаноТрейзен
+    .desc = Используется морпехами флота НаноТрейзен для обозначения звания. Этот означает, что носитель как минимум сержант.
+ent-ClothingNeckMantleDecoratedMarineMajor = погон майора морпехов флота НаноТрейзен
+    .desc = Используется морпехами флота НаноТрейзен для обозначения звания. Этот означает, что носитель как минимум майор.

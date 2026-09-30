@@ -1,2 +1,2 @@
-ent-EntropicDegen = entropic degeneration
+ent-EntropicDegen = энтропийная дегенерация
     .desc = { ent-MobStatusEffectBase.desc }

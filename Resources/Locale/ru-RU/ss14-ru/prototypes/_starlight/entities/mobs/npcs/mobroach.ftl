@@ -1,7 +1,7 @@
-ent-MobRoachCuffs = makeshift cuffs
-    .desc = Makeshift and shoddy, but there sure is a lot of them.
-ent-MobRoachModule = mothic mobroach module
+ent-MobRoachCuffs = кустарные наручники
+    .desc = Кустарные и дрянные, но их очень много.
+ent-MobRoachModule = модуль мотылькового мобтаракана
     .desc = { ent-BorgModuleCustodial.desc }
-ent-MobMobroach = mobroach
-    .desc = This little mothroach has ... is that a pair of cuffs?
-    .suffix = syndicate agent
+ent-MobMobroach = мобтаракан
+    .desc = У этого маленького таракамоля... это что, пара наручников?
+    .suffix = агент Синдиката

@@ -1,6 +1,6 @@
-overlay-universal-sight-melee = Melee Default
-overlay-universal-sight-dot-outer-arrows = [Dot, Outer] Arrows
-overlay-universal-sight-dot-brackets = [Dot] Bracket
-overlay-universal-sight-small-cross = Cross Small
-overlay-universal-sight-small-cross-two = Cross Small 2
-overlay-universal-sight-dot = Dot
+overlay-universal-sight-melee = Ближний бой по умолчанию
+overlay-universal-sight-dot-outer-arrows = [Точка, внешняя] Стрелки
+overlay-universal-sight-dot-brackets = [Точка] Скобка
+overlay-universal-sight-small-cross = Малый крест
+overlay-universal-sight-small-cross-two = Малый крест 2
+overlay-universal-sight-dot = Точка

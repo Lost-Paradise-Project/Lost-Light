@@ -1,4 +1,4 @@
-materials-unit-tickets = tickets
-materials-unit-credit = credit
-materials-unit-credits = credits
-currency-display-unit-credit = cr
+materials-unit-tickets = талоны
+materials-unit-credit = кредит
+materials-unit-credits = кредитов
+currency-display-unit-credit = кр

@@ -104,27 +104,27 @@ construction-graph-tag-ripley-peripherals-control-module = модуль упра
 
 # SL Start
 
-construction-graph-tag-exosuit-air-tank = exosuit air tank
-construction-graph-tag-exosuit-thruster = exosuit thruster
+construction-graph-tag-exosuit-air-tank = воздушный баллон экзокостюма
+construction-graph-tag-exosuit-thruster = двигатель экзокостюма
 
-construction-graph-tag-exosuit-upgrade-kit = Exosuit Upgrade Kit
-construction-graph-tag-paddy-conversion-kit = Paddy Conversion Kit
+construction-graph-tag-exosuit-upgrade-kit = набор улучшения экзокостюма
+construction-graph-tag-paddy-conversion-kit = набор переделки в Пэдди
 
-construction-graph-tag-gygax-central-control = gygax central control module
-construction-graph-tag-gygax-peripherals-control = gygax peripherals control module
-construction-graph-tag-gygax-weapon-targeting = gygax weapon control and targeting module
-construction-graph-tag-gygax-armor-plates = gygax armor plates
+construction-graph-tag-gygax-central-control = центральный модуль управления Гигакса
+construction-graph-tag-gygax-peripherals-control = модуль управления периферией Гигакса
+construction-graph-tag-gygax-weapon-targeting = модуль управления оружием и наведения Гигакса
+construction-graph-tag-gygax-armor-plates = бронеплиты Гигакса
 
-construction-graph-tag-durand-central-control = durand central control module
-construction-graph-tag-durand-peripherals-control = durand peripherals control module
-construction-graph-tag-durand-weapon-targeting = durand weapon control and targeting module
-construction-graph-tag-durand-armor-plates = durand armor plates
+construction-graph-tag-durand-central-control = центральный модуль управления Дюранда
+construction-graph-tag-durand-peripherals-control = модуль управления периферией Дюранда
+construction-graph-tag-durand-weapon-targeting = модуль управления оружием и наведения Дюранда
+construction-graph-tag-durand-armor-plates = бронеплиты Дюранда
 
-construction-graph-tag-clarke-central-control = clarke central control module
-construction-graph-tag-clarke-peripherals-control = clarke peripherals control module
+construction-graph-tag-clarke-central-control = центральный модуль управления Кларка
+construction-graph-tag-clarke-peripherals-control = модуль управления периферией Кларка
 
-construction-graph-tag-ripley-central-control = ripley central control module
-construction-graph-tag-ripley-peripherals-control = ripley peripherals control module
+construction-graph-tag-ripley-central-control = центральный модуль управления Рипли
+construction-graph-tag-ripley-peripherals-control = модуль управления периферией Рипли
 
 # SL End
 

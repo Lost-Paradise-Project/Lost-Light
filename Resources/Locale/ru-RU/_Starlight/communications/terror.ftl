@@ -1,13 +1,13 @@
 # Ninja threats
-terror-disaster-syndies = Attention crew, it appears that someone on your station has made an unexpected communication with a group of horrifically war-torn disaster victims from a nearby syndicate outpost.
-terror-lone-op = Attention crew, it appears that someone on your station has made an unexpected communication with a blood-red marauder in nearby space.
-terror-ninja = Attention crew, it appears that someone on your station has made an unexpected communication with the spider clan in nearby space.
-terror-rod = Attention crew, it appears that someone on your station has made an unexpected communication with an unstoppable force in nearby space.
-terror-rod-slug = Attention crew, it appears that someone on your station has made an unexpected communication with an incredibly slow but quite unstoppable force in nearby space.
-terror-wizard = Attention crew, it appears that someone on your station has made an unexpected communication with a wizard federation representative in nearby space.
-terror-borgs = Attention crew, it appears that someone on your station has made an unexpected communication with an anomalous shuttle in nearby space.
-terror-eeep = Attention crew, it appears that someone on your station has made an unexpected communication with an adorable sentient tesla in nearby space.
-terror-strike-team = Attention crew, it appears that someone on your station has made an unexpected communication with a syndicate task force in nearby space.
-terror-abductors = Attention crew, it appears that someone on your station has made an unauthorized communication with a group of unidentified alien  life forms in nearby space.
-terror-terminator = Attention crew, it appears that someone on your station has made an unexpected communication with an unknown metal entity from nearby space.
-terror-honk = Attention crew, it appears that someone on your station has made an unexpected communication with... Oh god, what is that. WHAT IS THA-
+terror-disaster-syndies = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с группой ужасно искалеченных войной пострадавших с ближайшего аванпоста Синдиката.
+terror-lone-op = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с кроваво-красным мародёром в соседнем космосе.
+terror-ninja = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с кланом пауков в соседнем космосе.
+terror-rod = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с неудержимой силой в соседнем космосе.
+terror-rod-slug = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с невероятно медленной, но совершенно неудержимой силой в соседнем космосе.
+terror-wizard = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с представителем Федерации волшебников в соседнем космосе.
+terror-borgs = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с аномальным шаттлом в соседнем космосе.
+terror-eeep = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с очаровательной разумной теслой в соседнем космосе.
+terror-strike-team = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с оперативной группой Синдиката в соседнем космосе.
+terror-abductors = Внимание, экипаж: похоже, кто-то на вашей станции без разрешения вышел на связь с группой неопознанных инопланетных форм жизни в соседнем космосе.
+terror-terminator = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с неизвестной металлической сущностью из соседнего космоса.
+terror-honk = Внимание, экипаж: похоже, кто-то на вашей станции неожиданно вышел на связь с... О боже, что это. ЧТО ЭТО-

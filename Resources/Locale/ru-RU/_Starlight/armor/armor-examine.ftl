@@ -1,1 +1,1 @@
-supermatter-immune-examine = - [color=orange]Supermatter[/color] ashing [color=lightblue]immunity[/color].
+supermatter-immune-examine = - [color=orange]Суперматерия[/color]: [color=lightblue]иммунитет[/color] к превращению в пепел.

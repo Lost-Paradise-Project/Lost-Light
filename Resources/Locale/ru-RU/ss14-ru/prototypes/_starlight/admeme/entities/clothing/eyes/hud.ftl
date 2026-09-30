@@ -1,2 +1,2 @@
-ent-ClothingEyesHudNTNC = NanoTrasen navy marine hud
-    .desc = Standard issue heads up display for NanoTrasen Navy Marines
+ent-ClothingEyesHudNTNC = ХУД морпеха флота НаноТрейзен
+    .desc = Стандартный ХУД для морпехов флота НаноТрейзен.

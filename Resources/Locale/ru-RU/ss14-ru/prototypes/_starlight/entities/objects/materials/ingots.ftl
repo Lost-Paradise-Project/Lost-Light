@@ -1,8 +1,8 @@
 ent-IngotStarlightBase = { ent-IngotBase }
     .desc = { ent-IngotBase.desc }
-ent-IngotAbyssium = abyssium bar
+ent-IngotAbyssium = слиток абиссия
     .desc = { ent-IngotStarlightBase.desc }
-    .suffix = Full
+    .suffix = Полный
 ent-IngotAbyssium1 = { ent-IngotAbyssium }
     .desc = { ent-IngotAbyssium.desc }
-    .suffix = Single
+    .suffix = Одиночный

@@ -1,2 +1,2 @@
-ent-SpearSteel = steel spear
-    .desc = A solid steel spear.
+ent-SpearSteel = стальное копьё
+    .desc = Цельное стальное копьё.

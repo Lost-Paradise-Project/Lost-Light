@@ -1,6 +1,6 @@
-ent-NunoCardDeckBox = box of playing cards
+ent-NunoCardDeckBox = коробка игральных карт
     .desc = { ent-BasePlayingCardDeckBox.desc }
-    .suffix = Nuno
-ent-NunoCardDeck = deck of cards
+    .suffix = Нуно
+ent-NunoCardDeck = колода карт
     .desc = { ent-BasePlayingCardDeck.desc }
-    .suffix = Nuno
+    .suffix = Нуно

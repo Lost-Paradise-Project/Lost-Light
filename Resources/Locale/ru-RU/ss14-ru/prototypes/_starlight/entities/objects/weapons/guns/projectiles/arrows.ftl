@@ -1,2 +1,2 @@
-ent-CorgiArrow = corgi arrow
-    .desc = Polymorphs someone into a corgi.  Permanently.
+ent-CorgiArrow = стрела корги
+    .desc = Превращает кого-то в корги.  Навсегда.

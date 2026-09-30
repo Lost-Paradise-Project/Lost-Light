@@ -1,1 +1,1 @@
-chat-radio-radioshow = Station Radio
+chat-radio-radioshow = Радио станции

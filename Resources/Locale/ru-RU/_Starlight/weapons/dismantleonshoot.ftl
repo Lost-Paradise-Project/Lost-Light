@@ -1,1 +1,1 @@
-examine-weapon-dismantle-on-shoot = [color=yellow]{ $chance }%[/color] chance to dismantle for each shot.
+examine-weapon-dismantle-on-shoot = [color=yellow]{ $chance }%[/color] шанс разрушиться при каждом выстреле.

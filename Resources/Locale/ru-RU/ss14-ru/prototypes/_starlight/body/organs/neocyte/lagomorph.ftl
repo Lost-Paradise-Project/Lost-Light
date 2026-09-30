@@ -1,9 +1,9 @@
-ent-OrganNeoLagomorphStomach = lagomorph biological reactor
+ent-OrganNeoLagomorphStomach = биологический реактор лагоморфа
     .desc = { ent-OrganNeocyteStomach.desc }
-    .suffix = Neo-Lagomorph
-ent-OrganNeoLagomorphHeart = lagomorph cybernetic heart
+    .suffix = Нео-лагоморф
+ent-OrganNeoLagomorphHeart = кибернетическое сердце лагоморфа
     .desc = { ent-OrganNeocyteHeart.desc }
-    .suffix = Neo-Lagomorph
+    .suffix = Нео-лагоморф
 ent-OrganNeoLagomorphTongue = { ent-OrganNeocyteTongue }
     .desc = { ent-OrganNeocyteTongue.desc }
-    .suffix = Neo-Lagomorph
+    .suffix = Нео-лагоморф

@@ -1,2 +1,2 @@
-cmd-salarypayout-desc = Pays the specified player's salary.
-cmd-salarypayout-help = Usage: { $command } <player>
+cmd-salarypayout-desc = Выплачивает зарплату указанному игроку.
+cmd-salarypayout-help = Использование: { $command } <игрок>

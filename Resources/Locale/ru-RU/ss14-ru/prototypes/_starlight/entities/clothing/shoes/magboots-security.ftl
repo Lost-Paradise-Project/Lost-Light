@@ -1,2 +1,2 @@
-ent-ClothingShoesBootsMagSec = security magboots
-    .desc = A pair of standard magnetic boots, issued alongside the Security Hardsuit.
+ent-ClothingShoesBootsMagSec = магнитные ботинки СБ
+    .desc = Пара стандартных магнитных ботинок, выдаваемых вместе со скафандром СБ.

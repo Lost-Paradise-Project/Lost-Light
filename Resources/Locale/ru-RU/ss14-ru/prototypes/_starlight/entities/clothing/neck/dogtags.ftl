@@ -1,2 +1,2 @@
-ent-ClothingDogTags = dog tags
-    .desc = Never forget.
+ent-ClothingDogTags = жетоны
+    .desc = Никогда не забывать.

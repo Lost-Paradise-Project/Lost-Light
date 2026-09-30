@@ -1,23 +1,23 @@
-social-interaction-component-verb = Social Interaction
+social-interaction-component-verb = Социальное взаимодействие
 
-pet-verb = Pet
-petting-success = You pet { THE($target) } on { POSS-ADJ($target) } head.
-petting-success-others = { CAPITALIZE(THE($user)) } pets { THE($target) } on { POSS-ADJ($target) } head.
-petting-emote = pets { THE($target) } on { POSS-ADJ($target) } head.
+pet-verb = Погладить
+petting-success = Вы гладите { THE($target) } по голове.
+petting-success-others = { CAPITALIZE(THE($user)) } гладит { THE($target) } по голове.
+petting-emote = гладит { THE($target) } по голове.
 
-boop-verb = Boop
-booping-success = You boop { THE($target) } on { POSS-ADJ($target) } nose.
-booping-success-others = { CAPITALIZE(THE($user)) } boops { THE($target) } on { POSS-ADJ($target) } nose.
-booping-emote = boops { THE($target) } on { POSS-ADJ($target) } nose.
+boop-verb = Бупнуть
+booping-success = Вы бупаете { THE($target) } по носу.
+booping-success-others = { CAPITALIZE(THE($user)) } бупает { THE($target) } по носу.
+booping-emote = бупает { THE($target) } по носу.
 
-wave-verb = Wave
-waving-success = You wave at { THE($target) }.
-waving-success-others = { CAPITALIZE(THE($user)) } waves at { THE($target) }.
-waving-emote = waves at { THE($target) }.
-waving-emote-self = waves.
+wave-verb = Помахать
+waving-success = Вы машете { THE($target) }.
+waving-success-others = { CAPITALIZE(THE($user)) } машет { THE($target) }.
+waving-emote = машет { THE($target) }.
+waving-emote-self = машет.
 
-look-verb = Look
-looking-success = You look at { THE($target) }.
-looking-success-others = { CAPITALIZE(THE($user)) } looks at { THE($target) }.
-looking-emote = looks at { THE($target) }.
-looking-emote-self = looks at { REFLEXIVE($target) }.
+look-verb = Посмотреть
+looking-success = Вы смотрите на { THE($target) }.
+looking-success-others = { CAPITALIZE(THE($user)) } смотрит на { THE($target) }.
+looking-emote = смотрит на { THE($target) }.
+looking-emote-self = смотрит на { REFLEXIVE($target) }.

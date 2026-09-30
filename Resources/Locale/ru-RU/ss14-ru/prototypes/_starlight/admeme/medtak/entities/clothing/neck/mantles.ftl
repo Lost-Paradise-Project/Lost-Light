@@ -1,4 +1,4 @@
-ent-ClothingNeckMantleMedTakLead = MedTak team leader mantle
-    .desc = A mantle indicating the leader of a MedTak team.
-ent-ClothingNeckMantleMedTakLeadFormal = MedTak formal mantle
-    .desc = A formal mantle and cape given to decorated MedTak team leaders.
+ent-ClothingNeckMantleMedTakLead = мантия командира группы МедТак
+    .desc = Мантия, обозначающая командира группы МедТак.
+ent-ClothingNeckMantleMedTakLeadFormal = парадная мантия МедТак
+    .desc = Парадная мантия с накидкой, выдаваемая заслуженным командирам групп МедТак.

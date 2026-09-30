@@ -1,2 +1,2 @@
-ui-playtime-tab-merged = Total
-ui-playtime-tab-current = Current
+ui-playtime-tab-merged = Всего
+ui-playtime-tab-current = Текущее

@@ -1,2 +1,2 @@
-stasis-entering = Entering Stasis
-stasis-exiting = Exiting Stasis
+stasis-entering = Вход в стазис
+stasis-exiting = Выход из стазиса

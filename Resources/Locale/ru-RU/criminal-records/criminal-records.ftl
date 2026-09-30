@@ -18,7 +18,7 @@ criminal-records-status-discharged = Освобождён
 criminal-records-status-paroled = Освобождён по УДО
 criminal-records-status-hostile = Враждебен
 criminal-records-status-eliminated = Ликвидирован
-criminal-records-status-arrestonsight = Arrest On Sight
+criminal-records-status-arrestonsight = Арестовать при виде
 
 criminal-records-console-wanted-reason = Причина розыска
 criminal-records-console-suspected-reason = Причина подозрения
@@ -56,8 +56,8 @@ criminal-records-console-not-eliminated = { $name } ({ $job }) больше не
 criminal-records-console-unknown-officer = <неизвестный>
 
 ## Starlight Security Channel Notifications
-criminal-records-console-aos = { $name } ({ $job }) has been marked Arrest On Sight by { $officer } for: { $reason }.
-criminal-records-console-not-aos = { $name } ({ $job }) no longer marked as Arrest On Sight by { $officer }.
+criminal-records-console-aos = { $name } ({ $job }) отмечен(а) как «арестовать при виде» сотрудником { $officer } по причине: { $reason }.
+criminal-records-console-not-aos = { $name } ({ $job }) больше не отмечен(а) как «арестовать при виде» сотрудником { $officer }.
 criminal-records-console-hostile = { $name } ({ $job }) пометили враждебным, причина: { $reason }, ответственный: { $officer }.
 criminal-records-console-not-hostile = { $name } ({ $job }) больше не помечен враждебным, ответственный: { $officer }.
 

@@ -1,6 +1,6 @@
 ent-PlastitaniumAirlockCentralCommandIndestructible = { ent-PlastitaniumAirlockIndestructible }
     .desc = { ent-PlastitaniumAirlockIndestructible.desc }
-    .suffix = Central Command, Indestructible
+    .suffix = Центральное командование, неразрушимый
 ent-PlastitaniumAirlockCentralCommand = { ent-PlastitaniumAirlock }
     .desc = { ent-PlastitaniumAirlock.desc }
-    .suffix = Central Command
+    .suffix = Центральное командование

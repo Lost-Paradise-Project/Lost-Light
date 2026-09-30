@@ -1,3 +1,3 @@
-wires-board-name-locker = Locker
+wires-board-name-locker = Шкафчик
 
-wire-name-security = SECR
+wire-name-security = СЕКР

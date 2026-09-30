@@ -1,2 +1,2 @@
-ent-DeliStand = deli stand
-    .desc = A counter for displaying food in a deli.
+ent-DeliStand = прилавок кулинарии
+    .desc = Прилавок для выкладки еды в кулинарии.

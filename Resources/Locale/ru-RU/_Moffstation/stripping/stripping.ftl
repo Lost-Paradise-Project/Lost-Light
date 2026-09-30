@@ -1,1 +1,1 @@
-strip-menu-viewing-message = { $user } inspects your equipment
+strip-menu-viewing-message = { $user } осматривает ваше снаряжение

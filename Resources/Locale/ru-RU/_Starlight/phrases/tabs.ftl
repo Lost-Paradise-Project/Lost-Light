@@ -1,6 +1,6 @@
-aac-tab-common = Common Phrases
-aac-tab-jobs = Jobs
-aac-tab-locations = Locations
-aac-tab-subjects = Subjects
-aac-tab-safety = Safety
-aac-tab-species = Species
+aac-tab-common = Общие фразы
+aac-tab-jobs = Должности
+aac-tab-locations = Места
+aac-tab-subjects = Темы
+aac-tab-safety = Безопасность
+aac-tab-species = Виды

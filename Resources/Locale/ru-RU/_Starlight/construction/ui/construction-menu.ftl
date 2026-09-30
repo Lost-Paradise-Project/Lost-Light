@@ -1,16 +1,17 @@
-construction-menu-import-template = Import Ghosts
-construction-menu-export-template = Export Ghosts
-construction-template-export-empty = There are no construction ghosts on your current grid to export.
+construction-menu-import-template = Импортировать призраки
+construction-menu-export-template = Экспортировать призраки
+construction-template-export-empty = На вашей текущей сетке нет призраков построек для экспорта.
 construction-template-export-skipped =
     { $count ->
-        [one] One construction ghost on another map or grid was not exported.
-        *[other] { $count } construction ghosts on other maps or grids were not exported.
+        [one] Один призрак постройки на другой карте или сетке не был экспортирован.
+        [few] { $count } призрака постройки на других картах или сетках не были экспортированы.
+        *[other] { $count } призраков построек на других картах или сетках не были экспортированы.
     }
-construction-template-export-failed = The construction ghosts could not be exported.
-construction-template-import-empty = This template does not contain any construction ghosts.
-construction-template-import-failed = This construction template is invalid or unsupported.
-construction-template-partial-placement = Placed { $placed } of { $total } construction ghosts.
-construction-template-origin-title = Import Ghosts
-construction-template-origin-prompt = These ghosts were saved on this map. Place them where they were saved?
-construction-template-origin-saved = Saved Location
-construction-template-origin-manual = Place Manually
+construction-template-export-failed = Не удалось экспортировать призраки построек.
+construction-template-import-empty = В этом шаблоне нет призраков построек.
+construction-template-import-failed = Этот шаблон постройки недействителен или не поддерживается.
+construction-template-partial-placement = Размещено призраков построек: { $placed } из { $total }.
+construction-template-origin-title = Импортировать призраки
+construction-template-origin-prompt = Эти призраки были сохранены на этой карте. Поставить их там, где они были сохранены?
+construction-template-origin-saved = Сохранённое место
+construction-template-origin-manual = Поставить вручную

@@ -1,1 +1,1 @@
-entity-rejuvenated-popup = { CAPITALIZE($name) } gasps, their wounds suddenly vanish!
+entity-rejuvenated-popup = { CAPITALIZE($name) } ахает, раны внезапно исчезают!

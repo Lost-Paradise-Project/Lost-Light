@@ -1,2 +1,2 @@
-rr-credit-reward = For successful completion, you will receive from { $Min } to { $Max } credits.
-rr-secret-access-hint = You will gain access to a secret section in vending machines.
+rr-credit-reward = За успешное выполнение вы получите от { $Min } до { $Max } кредитов.
+rr-secret-access-hint = Вы получите доступ к тайному разделу в торговых автоматах.

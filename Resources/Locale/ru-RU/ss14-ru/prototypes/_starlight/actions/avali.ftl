@@ -1,4 +1,4 @@
-ent-ActionStasisEnter = Enter Stasis
-    .desc = Enter a state of suspended animation, healing damage over time but preventing movement and most actions.
-ent-ActionStasisExit = Exit Stasis
-    .desc = Exit the state of suspended animation.
+ent-ActionStasisEnter = Войти в стазис
+    .desc = Войти в состояние анабиоза, со временем залечивающее урон, но не позволяющее двигаться и совершать большинство действий.
+ent-ActionStasisExit = Выйти из стазиса
+    .desc = Выйти из состояния анабиоза.

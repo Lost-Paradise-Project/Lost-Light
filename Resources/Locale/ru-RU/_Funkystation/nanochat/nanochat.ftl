@@ -3,29 +3,29 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # Group chat
-nano-chat-create-group = Create Group Chat
-nano-chat-invite-to-group = Invite to Group
-nano-chat-view-members = View Members
-nano-chat-invite = Invite
-nano-chat-kick = Kick
-nano-chat-leave = Leave
-nano-chat-admin = Make Admin
-nano-chat-deadmin = Remove Admin
-nano-chat-no-results = No results found
-nano-chat-no-members = No members
-nano-chat-close = Close
+nano-chat-create-group = Создать групповой чат
+nano-chat-invite-to-group = Пригласить в группу
+nano-chat-view-members = Просмотреть участников
+nano-chat-invite = Пригласить
+nano-chat-kick = Исключить
+nano-chat-leave = Покинуть
+nano-chat-admin = Сделать админом
+nano-chat-deadmin = Снять админа
+nano-chat-no-results = Ничего не найдено
+nano-chat-no-members = Нет участников
+nano-chat-close = Закрыть
 
 # Create group chat popup
-nano-chat-create-group-title = Create Group Chat
-nano-chat-group-name-label = Group Name
-nano-chat-group-name-placeholder = Enter a group name
+nano-chat-create-group-title = Создать групповой чат
+nano-chat-group-name-label = Название группы
+nano-chat-group-name-placeholder = Введите название группы
 
 # Invite to group popup
-nano-chat-invite-to-group-title = Invite to Group
-nano-chat-search-label = Search
-nano-chat-search-placeholder = Search by name or number...
+nano-chat-invite-to-group-title = Пригласить в группу
+nano-chat-search-label = Поиск
+nano-chat-search-placeholder = Поиск по имени или номеру...
 
 # Group members popup
-nano-chat-group-members-title = Group Members
-nano-chat-owner-suffix = (Owner)
-nano-chat-admin-suffix = (Admin)
+nano-chat-group-members-title = Участники группы
+nano-chat-owner-suffix = (Владелец)
+nano-chat-admin-suffix = (Админ)

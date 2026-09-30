@@ -1,4 +1,4 @@
-station-event-incoming-wreck-swarm-spawn-failed = The station was about to collide with a wreck, but it was interesting enough that we bluespaced it to loot ourselves at CentComm.
+station-event-incoming-wreck-swarm-spawn-failed = Станция вот-вот должна была столкнуться с обломками, но они оказались достаточно интересными, чтобы мы телепортировали их через блюспейс на ЦентКом и разграбили сами.
 
-station-event-incoming-wreck-announcement = The station is colliding with a wreck moving at significant speed. Please inform engineering of any damage.
-station-event-incoming-wreck-large-announcement = The station is colliding with a large wreck moving at significant speed. Please panic appropriately.
+station-event-incoming-wreck-announcement = Станция сталкивается с обломками, движущимися на значительной скорости. Сообщите инженерам о любых повреждениях.
+station-event-incoming-wreck-large-announcement = Станция сталкивается с крупными обломками, движущимися на значительной скорости. Пожалуйста, паникуйте соответствующим образом.

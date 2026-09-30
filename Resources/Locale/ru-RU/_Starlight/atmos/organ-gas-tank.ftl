@@ -1,5 +1,5 @@
 ## Organ Gas Tank UI
-organ-gas-tank-window-empty-organ-button = Empty Organ
+organ-gas-tank-window-empty-organ-button = Пустой орган
 
 ## Verbs
-verb-fill-organ = Fill Organ
+verb-fill-organ = Заполнить орган

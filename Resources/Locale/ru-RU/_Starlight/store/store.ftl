@@ -1,8 +1,8 @@
-store-preset-name-shuttle-uplink = Shuttle Uplink
-store-preset-name-shuttle-uplink-dangerous = Dangerous Shuttle Uplink
-store-preset-name-soviet-uplink = Soviet Uplink
-store-preset-name-revenant = Revenant Exchange
-store-preset-name-pai = Personal AI Download
-store-preset-name-cantrips = Survival Cantrips for Travelers
+store-preset-name-shuttle-uplink = Аплинк шаттла
+store-preset-name-shuttle-uplink-dangerous = Опасный аплинк шаттла
+store-preset-name-soviet-uplink = Советский аплинк
+store-preset-name-revenant = Обмен ревенанта
+store-preset-name-pai = Загрузка личного ИИ
+store-preset-name-cantrips = Заговоры выживания для путешественников
 
-store-listing-late = LATE
+store-listing-late = ПОЗДНО

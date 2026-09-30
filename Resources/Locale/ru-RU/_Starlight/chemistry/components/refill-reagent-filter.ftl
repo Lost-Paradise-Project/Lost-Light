@@ -1,1 +1,1 @@
-refill-reagent-filter-unsuitable-reagent = This solution contains unsuitable reagents!
+refill-reagent-filter-unsuitable-reagent = Этот раствор содержит неподходящие реагенты!

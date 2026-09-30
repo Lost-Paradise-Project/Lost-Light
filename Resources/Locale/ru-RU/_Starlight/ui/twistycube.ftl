@@ -1,6 +1,6 @@
-twistycube-menu-title = Twisty Cube
-twistycube-solved = It is currently [color=#26a269]solved[/color].
-twistycube-unsolved = It is currently [color=#a51d2d]unsolved[/color].
+twistycube-menu-title = Крутой куб
+twistycube-solved = Сейчас он [color=#26a269]собран[/color].
+twistycube-unsolved = Сейчас он [color=#a51d2d]не собран[/color].
 twistycube-action-front-cw = F
 twistycube-action-left-cw = L
 twistycube-action-top-cw = U

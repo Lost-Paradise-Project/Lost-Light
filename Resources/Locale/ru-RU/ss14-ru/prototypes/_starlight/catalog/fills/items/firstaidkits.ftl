@@ -1,3 +1,3 @@
 ent-MedkitFilledParamed = { ent-Medkit }
     .desc = { ent-Medkit.desc }
-    .suffix = Filled
+    .suffix = Заполнен

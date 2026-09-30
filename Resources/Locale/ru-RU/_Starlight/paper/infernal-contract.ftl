@@ -1,37 +1,33 @@
 infernal-contract-base =
    ⠀[center][sigil][/center]
-
-   ⠀[color=#fbd8ae][head=2]CONTRACT FOR WORLDLY GAIN[/head]
-    ───────────────────────────────────────
-   ⠀I, [signature], in sound mind, hereby declare that I willingly engage in demonic exchange with { $truename }, an agent of hell.
-
-   ⠀I offer the following:
-    • My soul
+   ⠀[color=#fbd8ae][head=2]КОНТРАКТ НА МИРСКИЕ БЛАГА[/head]
+   ───────────────────────────────────────
+    ⠀Я, [signature], в здравом уме, настоящим заявляю, что добровольно вступаю в демонический обмен с { $truename }, агентом ада.
+   ⠀Я предлагаю следующее:
+   • Мою душу
+   • [form]
     • [form]
     • [form]
+    Вечным огням ада в обмен на:
+    • Получение самоомоложения
     • [form]
-    To the eternal fires of hell, in exchange for:
-    • Gain self rejuvenation
-    • [form]
+    Я понимаю, что вернуть эти жертвы невозможно. Если я предлагаю свою душу, [bold]я понимаю, что после моей смерти моя душа падёт в огни ада. Моё тело нельзя будет воскресить, клонировать или вернуть к жизни никаким способом.[/bold] Я не смогу произносить истинное имя дьявола, это сожжёт меня.
+    Подписано: [signature][/color]
 
-    I understand that there is no way to retrieve these sacrifices. If I offer my soul, [bold]I understand that upon my demise my soul will fall into the fires of hell. My body will not be able to be resurrected, cloned, or brought back to life in any way.[/bold] I will not be able to utter the true name of the devil, doing such will incinerate me.
+infernal-contract-examined-Valid = Контракт готов к подписанию.
+infernal-contract-examined-InvalidFormat = Контракт недействителен: в нём отсутствует важный мелкий шрифт.
+infernal-contract-examined-TooCostly = Контракт невыгоден аду, он не будет исполнен.
+infernal-contract-examined-OverusedDamnation = В контракте есть проклятие, использованное слишком часто и более не выгодное с финансовой точки зрения.
+infernal-contract-examined-UnknownClauses = В контракте есть пункты, недопустимые для смертных.
+infernal-contract-examined-Signed = Контракт подписан!
 
-    Signed: [signature][/color]
+infernal-contract-examined-cost = Стоимость этого контракта: { $value }
+infernal-contract-examined-misspelling = В контракте недопустимые пункты: { $items }
 
-infernal-contract-examined-Valid = The contract is ready for signing.
-infernal-contract-examined-InvalidFormat = The contract is invalid, as it is missing vital smallprint.
-infernal-contract-examined-TooCostly = The contract is not a fair deal for hell, it will not be actioned.
-infernal-contract-examined-OverusedDamnation = The contract contains a damnation that has been used too much, and is no longer fiscally advantageous.
-infernal-contract-examined-UnknownClauses = The contract contains clauses which are not permitted for mortals.
-infernal-contract-examined-Signed = The contract has been signed!
+infernal-contract-misspelled-name = контракт с ошибками, адский
+infernal-contract-valid-name = адский контракт
 
-infernal-contract-examined-cost = This contract has a cost of { $value }
-infernal-contract-examined-misspelling = The contract has invalid clauses: { $items }
-
-infernal-contract-misspelled-name = misspelled infernal contract
-infernal-contract-valid-name = infernal contract
-
-infernal-contract-popup-fail = The contract burns your hand! Something about it isn't right!
-infernal-contract-popup-fail-self = Your hand passes through the contract! This deal isn't for you to sign!
-infernal-contract-edit-fail = Your hand passes through the contract! You can't change the deal!
-infernal-contract-popup-invalid-damnations = Misspellings in contract! Check before signing: { $items }
+infernal-contract-popup-fail = Контракт обжигает вам руку! Что-то с ним не так!
+infernal-contract-popup-fail-self = Ваша рука проходит сквозь контракт! Вам не положено подписывать эту сделку!
+infernal-contract-edit-fail = Ваша рука проходит сквозь контракт! Вы не можете менять сделку!
+infernal-contract-popup-invalid-damnations = Ошибки в контракте! Проверьте перед подписанием: { $items }

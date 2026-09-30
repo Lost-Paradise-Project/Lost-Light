@@ -1,6 +1,6 @@
-ent-PillPsicodine = pill
+ent-PillPsicodine = таблетка
     .desc = { ent-Pill.desc }
-    .suffix = Psicodine 10u
-ent-PillCanisterPsicodine = pill canister
+    .suffix = Психодин 10 ед.
+ent-PillCanisterPsicodine = контейнер для таблеток
     .desc = { ent-PillCanister.desc }
-    .suffix = Psicodine 10u, 5
+    .suffix = Психодин 10 ед., 5

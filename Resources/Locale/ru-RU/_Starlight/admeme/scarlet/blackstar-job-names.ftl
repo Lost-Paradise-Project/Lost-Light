@@ -1,7 +1,7 @@
-job-name-blackstar-legion-commander = Legion Commander
-job-name-blackstar-high-legate = High Legate
-job-name-blackstar-legate = Legate
-job-name-blackstar-dreadwalker = Dreadwalker
-job-name-blackstar-legionnaire = Legionnaire
-job-name-blackstar-blackguard = Blackguard
-job-name-blackstar-initiate = Initiate
+job-name-blackstar-legion-commander = Командующий легионом
+job-name-blackstar-high-legate = Верховный легат
+job-name-blackstar-legate = Легат
+job-name-blackstar-dreadwalker = Ходок ужаса
+job-name-blackstar-legionnaire = Легионер
+job-name-blackstar-blackguard = Блэкгард
+job-name-blackstar-initiate = Новичок

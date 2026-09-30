@@ -1,150 +1,150 @@
 
 # combat
 
-evolutionmenu-combat-armblade-name = Arm Blade
+evolutionmenu-combat-armblade-name = Рука-клинок
 evolutionmenu-combat-armblade-desc =
-    Reform one of your arms into a grotesque blade, composed of bone and flesh, able to pry open airlocks and cut through your foes like butter.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 20 chemicals each time you summon it, and each time you retract it.
+    Преобразует одну из ваших рук в жуткий клинок из кости и плоти, способный вскрывать шлюзы и рассекать врагов как масло.
+    ВНИМАНИЕ: для использования способности нужно поглотить не менее 2 органиков.
+    Стоит 20 химикатов при каждом создании и каждом втягивании.
 
-evolutionmenu-combat-boneshard-name = Bone Shard
+evolutionmenu-combat-boneshard-name = Костяной осколок
 evolutionmenu-combat-boneshard-desc =
-    Break off shards of your bone and shape them into a throwing star which embeds into your foes and disorients them.
-    You only get one with each use.
-    Costs 15 chemicals.
+    Отламывает осколки вашей кости и формирует из них метательную звезду, которая вонзается во врагов и дезориентирует их.
+    За одно использование вы получаете только один осколок.
+    Стоит 15 химикатов.
 
-evolutionmenu-combat-armor-name = Chitinous Armor
+evolutionmenu-combat-armor-name = Хитиновая броня
 evolutionmenu-combat-armor-desc =
-    Inflate your body into an all-consuming chitinous mass of armor.
-    Provides extensive protection against physical damage, but less against other types.
-    It massively slows your movement, and maintaining its shape slows chemical generation.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 25 chemicals.
+    Раздувает ваше тело во всепоглощающую хитиновую броню.
+    Обеспечивает высокую защиту от физического урона и меньшую от прочих типов.
+    Сильно замедляет движение, а поддержание формы замедляет выработку химикатов.
+    ВНИМАНИЕ: для использования способности нужно поглотить не менее 2 органиков.
+    Стоит 25 химикатов.
 
-evolutionmenu-combat-shield-name = Organic Shield
+evolutionmenu-combat-shield-name = Органический щит
 evolutionmenu-combat-shield-desc =
-    Reforms one of your arms into a large, fleshy shield.
-    Blocks attacks automatically, but very brittle.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 20 chemicals.
+    Преобразует одну из ваших рук в большой мясистый щит.
+    Автоматически блокирует атаки, но очень хрупок.
+    ВНИМАНИЕ: для использования способности нужно поглотить не менее 2 органиков.
+    Стоит 20 химикатов.
 
-evolutionmenu-combat-shriek-dissonant-name = Dissonant Shriek
+evolutionmenu-combat-shriek-dissonant-name = Диссонирующий визг
 evolutionmenu-combat-shriek-dissonant-desc =
-    You emit an EMP blast, which disables technology in the surrounding area, including radio headsets.
-    Good for escaping cyborgs and security.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 30 chemicals.
+    Вы испускаете ЭМИ-импульс, который отключает технику в окрестностях, включая гарнитуры.
+    Отлично подходит для побега от киборгов и службы безопасности.
+    ВНИМАНИЕ: для использования способности нужно поглотить не менее 2 органиков.
+    Стоит 30 химикатов.
 
-evolutionmenu-combat-shriek-resonant-name = Resonant Shriek
+evolutionmenu-combat-shriek-resonant-name = Резонирующий визг
 evolutionmenu-combat-shriek-resonant-desc =
-    You emit a tone beyond the range of human hearing,
-    bursting lights and causing disorientation in an area around yourself.
-    Good for escaping groups, or hindering people from fleeing.
-    Costs 25 chemicals.
+    Вы издаёте звук за пределами человеческого слуха,
+    разбивающий лампы и дезориентирующий всех вокруг вас.
+    Отлично подходит для побега от толпы или чтобы не дать людям убежать.
+    Стоит 25 химикатов.
 
-evolutionmenu-combat-strainedmuscles-name = Strained Muscles
+evolutionmenu-combat-strainedmuscles-name = Напряжённые мышцы
 evolutionmenu-combat-strainedmuscles-desc =
-    You reduce lactic acid buildup in your leg muscles, allowing you to move at extremely fast speeds.
-    While active, you will take steadily increments of stamina damage and eventually pass out.
-    Cost-free.
+    Вы уменьшаете накопление молочной кислоты в мышцах ног и получаете возможность двигаться с огромной скоростью.
+    Пока способность активна, вы будете постепенно получать урон выносливости и в конце концов потеряете сознание.
+    Бесплатно.
 
 # sting
 
-evolutionmenu-sting-blind-name = Blind Sting
+evolutionmenu-sting-blind-name = Ослепляющее жало
 evolutionmenu-sting-blind-desc =
-    Silently sting an organic target, completely blinding them for a short time, and rendering them near-sighted until oculine is applied.
-    May be used while under the effects of Lesser Form.
-    Costs 35 chemicals.
+    Бесшумно жалит органическую цель, полностью ослепляя её на короткое время и оставляя близорукой, пока не будет применён окулин.
+    Можно использовать в меньшей форме.
+    Стоит 35 химикатов.
 
-evolutionmenu-sting-cryo-name = Cryogenic Sting
+evolutionmenu-sting-cryo-name = Криогенное жало
 evolutionmenu-sting-cryo-desc =
-    Inject an organic target with a cocktail of chemicals that chills the blood.
-    May be used while under the effects of Lesser Form.
-    Costs 30 chemicals.
+    Вводит органической цели коктейль химикатов, охлаждающий кровь.
+    Можно использовать в меньшей форме.
+    Стоит 30 химикатов.
 
-evolutionmenu-sting-lethargic-name = Lethargic Sting
+evolutionmenu-sting-lethargic-name = Летаргическое жало
 evolutionmenu-sting-lethargic-desc =
-    Inject an organic target with a cocktail of anesthetics, slowing the victim down for a decent amount of time.
-    May be used while under the effects of Lesser Form.
-    Costs 25 chemicals.
+    Вводит органической цели коктейль анестетиков, значительно замедляющий жертву на довольно долгое время.
+    Можно использовать в меньшей форме.
+    Стоит 25 химикатов.
 
-evolutionmenu-sting-mute-name = Mute Sting
+evolutionmenu-sting-mute-name = Немое жало
 evolutionmenu-sting-mute-desc =
-    Inject mute toxin into an organic target, completely silencing them for a while.
-    May be used while under the effects of Lesser Form.
-    Costs 35 chemicals.
+    Вводит органической цели токсин немоты, полностью лишающий её голоса на некоторое время.
+    Можно использовать в меньшей форме.
+    Стоит 35 химикатов.
 
-evolutionmenu-sting-transform-name = Transformation Sting
+evolutionmenu-sting-transform-name = Трансформирующее жало
 evolutionmenu-sting-transform-desc =
-    Inject some of your genome into an organic target, forcing their body to shapeshift into whoever you've chosen using the Cycle DNA ability.
-    May be used while under the effects of Lesser Form.
-    Costs 75 chemicals.
+    Вводит органической цели часть вашего генома, заставляя её тело принять облик того, кого вы выбрали способностью «Смена ДНК».
+    Можно использовать в меньшей форме.
+    Стоит 75 химикатов.
 
-evolutionmenu-sting-armblade-name = Fake Arm Blade Sting
+evolutionmenu-sting-armblade-name = Жало ложного клинка
 evolutionmenu-sting-armblade-desc =
-    Inject some of your genome into an organic target, forcing their arm to shapeshift into a dull armblade.
-    May be used while under the effects of Lesser Form.
-    Costs 50 chemicals.
+    Вводит органической цели часть вашего генома, заставляя её руку превратиться в тупой клинок.
+    Можно использовать в меньшей форме.
+    Стоит 50 химикатов.
 
 # utility
-evolutionmenu-utility-panacea-name = Anatomic Panacea
+evolutionmenu-utility-panacea-name = Анатомическая панацея
 evolutionmenu-utility-panacea-desc =
-    Cure yourself of diseases, disabilities, radiation, toxins, drunkenness, and brain damage. Generally covers the things that fleshmend doesn't.
-    Costs 30 chemicals.
+    Излечивает вас от болезней, увечий, радиации, токсинов, опьянения и повреждений мозга. Как правило, покрывает то, что не лечит «Исцеление плоти».
+    Стоит 30 химикатов.
 
-evolutionmenu-utility-eyesight-name = Augmented Eyesight
+evolutionmenu-utility-eyesight-name = Улучшенное зрение
 evolutionmenu-utility-eyesight-desc =
-    Evolve additional features in your eyes, such as flash protection.
-    Must be disabled in order to use other eye augments.
-    Cost-free.
+    Развивает дополнительные свойства ваших глаз, например защиту от вспышек.
+    Нужно отключить, чтобы использовать другие улучшения глаз.
+    Бесплатно.
 
-evolutionmenu-utility-biodegrade-name = Biodegrade
+evolutionmenu-utility-biodegrade-name = Биоразложение
 evolutionmenu-utility-biodegrade-desc =
-    Vomit a caustic substance onto any restraints you may be wearing, allowing yourself to break free.
-    Using this ability while being grabbed will spit acid in your attackers face.
-    Can be used while unconscious.
-    Costs 30 chemicals.
+    Выблёвывает едкое вещество на любые путы, которые на вас надеты, позволяя освободиться.
+    Если использовать способность, пока вас держат, вы плюнете кислотой в лицо нападающему.
+    Можно использовать без сознания.
+    Стоит 30 химикатов.
 
-evolutionmenu-utility-chameleon-name = Chameleon Skin
+evolutionmenu-utility-chameleon-name = Кожа хамелеона
 evolutionmenu-utility-chameleon-desc =
-    Alter the pigment in your skin to match your surroundings, rendering you invisible.
-    Costs 15 chemicals.
+    Меняет пигмент вашей кожи под окружение, делая вас невидимым.
+    Стоит 15 химикатов.
 
-evolutionmenu-utility-stims-name = Ephedrine Overdose
+evolutionmenu-utility-stims-name = Передозировка эфедрина
 evolutionmenu-utility-stims-desc =
-    Inject a cocktail of stimulants into yourself, quickly removing any stuns and giving yourself a speed boost.
-    Continuous injection is poisonous.
-    Costs 20 chemicals.
+    Вводит вам коктейль стимуляторов, быстро снимающий оглушение и ускоряющий вас.
+    Непрерывное введение ядовито.
+    Стоит 20 химикатов.
 
-evolutionmenu-utility-fleshmend-name = Fleshmend
+evolutionmenu-utility-fleshmend-name = Исцеление плоти
 # Starlight edit: Added warning about requiring two absorbtions
 evolutionmenu-utility-fleshmend-desc =
-    Rapidly heal yourself of all bruises and burns.
-    WARNING: Requires you to absorb at least 2 organics to use the ability.
-    Costs 35 chemicals.
+    Быстро залечивает все ушибы и ожоги.
+    ВНИМАНИЕ: для использования способности нужно поглотить не менее 2 органиков.
+    Стоит 35 химикатов.
 
 # Starlight - monkey form is permanent (until transform is fixed, at least)
-evolutionmenu-utility-lesserform-name = Lesser Form
+evolutionmenu-utility-lesserform-name = Меньшая форма
 evolutionmenu-utility-lesserform-desc =
-    Abandon your current form and turn into a sentient monkey. Permanently.
-    Costs 20 chemicals.
+    Отбрасывает вашу текущую форму и превращает вас в разумную обезьяну. Навсегда.
+    Стоит 20 химикатов.
 
-evolutionmenu-utility-spacesuit-name = Space Adaptation
+evolutionmenu-utility-spacesuit-name = Космическая адаптация
 evolutionmenu-utility-spacesuit-desc =
-    Get rid of useless tissue in order to facilitate space travel. A source of oxygen is still required for space walking.
-    Costs 20 chemicals.
+    Избавляет от бесполезных тканей, облегчая космические путешествия. Для выхода в космос всё равно нужен источник кислорода.
+    Стоит 20 химикатов.
 
-evolutionmenu-utility-hivemindaccess-name = Hivemind Access
+evolutionmenu-utility-hivemindaccess-name = Доступ к разуму роя
 evolutionmenu-utility-hivemindaccess-desc =
-    Tunes our chemical receptors for hivemind communication, allowing us to recognize and communicate with other changelings who have also evolved this ability.
-    Default radio key is +h
+    Настраивает химические рецепторы на связь с разумом роя, позволяя узнавать и общаться с другими генокрадами, развившими эту способность.
+    Ключ рации по умолчанию: +h
 
-evolutionmenu-utility-fakemindshield-name = Fake MindShield
+evolutionmenu-utility-fakemindshield-name = Поддельный щит разума
 evolutionmenu-utility-fakemindshield-desc =
-    Modifies a small portion of greymatter to be able to mimic MindShield signals, allowing you to trick specific devices.
-    May need a few toggle attempts to get the right frequency.
-    Cost 0 chemicals.
+    Изменяет небольшую часть серого вещества так, чтобы имитировать сигналы щита разума, позволяя обманывать определённые устройства.
+    Возможно, понадобится несколько попыток переключения, чтобы подобрать нужную частоту.
+    Стоит 0 химикатов.
 
 # Starlight
-changeling-arm-blade-name = Retractable Arm Blade
-changeling-arm-blade-desc = Transform your arm into a terrifying flesh blade. Can be toggled.
+changeling-arm-blade-name = Втягиваемая рука-клинок
+changeling-arm-blade-desc = Превращает вашу руку в жуткий клинок из плоти. Можно переключать.

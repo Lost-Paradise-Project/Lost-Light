@@ -1,5 +1,5 @@
-ent-BladeServerRack = Blade Server Rack
-    .desc = A sleek steel frame designed to hold a few blade servers. Compact functionality with a stylish aesthetic.
+ent-BladeServerRack = Стойка блейд-серверов
+    .desc = Элегантная стальная рама, рассчитанная на несколько блейд-серверов. Компактная функциональность со стильной эстетикой.
 ent-BladeServerRackRD = { ent-BladeServerRack }
     .desc = { ent-BladeServerRack.desc }
-    .suffix = RD
+    .suffix = ДИ
