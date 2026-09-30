@@ -9,10 +9,10 @@ using Robust.Shared.Configuration;
 
 namespace Content.Server._DEN.Fax;
 
-public sealed class FaxLoggingSystem : EntitySystem
+public sealed partial class FaxLoggingSystem : EntitySystem
 {
-    [Dependency] private readonly IConfigurationManager _cfg = default!;
-    [Dependency] private readonly ILogManager _log = default!;
+    [Dependency] private IConfigurationManager _cfg = default!;
+    [Dependency] private ILogManager _log = default!;
 
     private ISawmill _sawmill = default!;
     private static readonly HttpClient _httpClient = new();

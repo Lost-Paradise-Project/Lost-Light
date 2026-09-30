@@ -41,6 +41,7 @@
 | Пространство имён | Проект | Исходный репозиторий | Лицензия |
 |---|---|---|---|
 | `_LP` | Lost Paradise | этот репозиторий | AGPL 3.0 |
+| `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14/ | MIT |
 | `_Starlight`, `_NullLink` | Starlight | https://github.com/ss14Starlight/space-station-14 | MIT + Starlight License |
 | `_FarHorizons` | Far Horizons | https://github.com/Far-Horizons-SS14/Far-Horizons-SS14 | MIT + Starlight License |
 | `_Goobstation` | Goob Station | https://github.com/Goob-Station/Goob-Station | AGPL 3.0 |
