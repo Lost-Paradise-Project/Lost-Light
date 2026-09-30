@@ -1,26 +1,26 @@
 <Document>
-# A.P.E.
+# М.А.К.А.К.
 
-The Anomalous Particle Emitter is a machine used to interface with anomalies. It is the primary way of manipulating the stats of an anomaly.
+Излучатель аномальных частиц (М.А.К.А.К.) - машина для взаимодействия с аномалиями. Это основной способ изменения характеристик аномалии.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-The A.P.E. can emit four regular kinds of anomalous particles:
-Delta, Epsilon, Sigma, and Zeta.
+М.А.К.А.К. может излучать четыре обычных вида аномальных частиц:
+дельта, эпсилон, сигма и дзета.
 
-The A.P.E can also emit a fifth type: Nullspace stabilizer particles. These higher-energy particles are needed to quell specialized anomalies.
+Также он может излучать пятый вид: стабилизирующие частицы нулевого пространства. Эти более энергичные частицы нужны для усмирения специализированных аномалий.
 
-Each particle type has certain effects:
+У каждого типа частиц есть определённые эффекты:
 
-- [color=crimson]Danger:[/color] Increases the severity of an anomaly.
-- [color=plum]Unstable:[/color] Increases the instability of an anomaly.
-- [color=goldenrod]Containment:[/color] Increases anomaly stability at the cost of its health - if an anomaly is struck by too many containment particles, it will collapse, leaving behind an anomaly core.
-- [color=#6b75fa]Transformation:[/color] Increases anomaly severity with a chance of changing its behavior.
+- [color=crimson]Опасность:[/color] повышает тяжесть аномалии.
+- [color=plum]Нестабильность:[/color] повышает нестабильность аномалии.
+- [color=goldenrod]Сдерживание:[/color] повышает стабильность аномалии ценой её здоровья - если аномалию поразит слишком много частиц сдерживания, она схлопнется, оставив после себя ядро аномалии.
+- [color=#6b75fa]Трансформация:[/color] повышает тяжесть аномалии с шансом изменить её поведение.
 
-Which particle type corresponds to each effect is unique and can be learned by scanning the anomaly.
+Какой тип частиц соответствует какому эффекту, уникально для каждой аномалии и определяется сканированием аномалии.
 
-The A.P.E. can also be locked by anyone with science access, which prevents it from being deconstructed, turned on or off, or having the particle type switched.
+М.А.К.А.К. также может быть заблокирован любым, у кого есть научный доступ, что не позволяет его разобрать, включить или выключить либо сменить тип частиц.
 
 </Document>

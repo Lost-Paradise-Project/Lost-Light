@@ -21,24 +21,26 @@ public sealed partial class IonStormSystem : EntitySystem
     [Dependency] private IRobustRandom _robustRandom = default!;
 
     // funny
-    private static readonly ProtoId<DatasetPrototype> Threats = "IonStormThreats";
-    private static readonly ProtoId<DatasetPrototype> Objects = "IonStormObjects";
-    private static readonly ProtoId<DatasetPrototype> Crew = "IonStormCrew";
-    private static readonly ProtoId<DatasetPrototype> Adjectives = "IonStormAdjectives";
-    private static readonly ProtoId<DatasetPrototype> Verbs = "IonStormVerbs";
-    private static readonly ProtoId<DatasetPrototype> NumberBase = "IonStormNumberBase";
-    private static readonly ProtoId<DatasetPrototype> NumberMod = "IonStormNumberMod";
-    private static readonly ProtoId<DatasetPrototype> Areas = "IonStormAreas";
-    private static readonly ProtoId<DatasetPrototype> Feelings = "IonStormFeelings";
-    private static readonly ProtoId<DatasetPrototype> FeelingsPlural = "IonStormFeelingsPlural";
-    private static readonly ProtoId<DatasetPrototype> Musts = "IonStormMusts";
-    private static readonly ProtoId<DatasetPrototype> Requires = "IonStormRequires";
-    private static readonly ProtoId<DatasetPrototype> Actions = "IonStormActions";
-    private static readonly ProtoId<DatasetPrototype> Allergies = "IonStormAllergies";
-    private static readonly ProtoId<DatasetPrototype> AllergySeverities = "IonStormAllergySeverities";
-    private static readonly ProtoId<DatasetPrototype> Concepts = "IonStormConcepts";
-    private static readonly ProtoId<DatasetPrototype> Drinks = "IonStormDrinks";
-    private static readonly ProtoId<DatasetPrototype> Foods = "IonStormFoods";
+    // LP edit start - датасеты ионного шторма локализованы
+    private static readonly ProtoId<LocalizedDatasetPrototype> Threats = "IonStormThreats";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Objects = "IonStormObjects";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Crew = "IonStormCrew";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Adjectives = "IonStormAdjectives";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Verbs = "IonStormVerbs";
+    private static readonly ProtoId<LocalizedDatasetPrototype> NumberBase = "IonStormNumberBase";
+    private static readonly ProtoId<LocalizedDatasetPrototype> NumberMod = "IonStormNumberMod";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Areas = "IonStormAreas";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Feelings = "IonStormFeelings";
+    private static readonly ProtoId<LocalizedDatasetPrototype> FeelingsPlural = "IonStormFeelingsPlural";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Musts = "IonStormMusts";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Requires = "IonStormRequires";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Actions = "IonStormActions";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Allergies = "IonStormAllergies";
+    private static readonly ProtoId<LocalizedDatasetPrototype> AllergySeverities = "IonStormAllergySeverities";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Concepts = "IonStormConcepts";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Drinks = "IonStormDrinks";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Foods = "IonStormFoods";
+    // LP edit end
 
     /// <summary>
     /// Randomly alters the laws of an individual silicon.
@@ -256,9 +258,10 @@ public sealed partial class IonStormSystem : EntitySystem
     /// Picks a random value from an ion storm dataset.
     /// All ion storm datasets start with IonStorm.
     /// </summary>
-    private string Pick(string name)
+    // LP edit start
+    private string Pick(ProtoId<LocalizedDatasetPrototype> name)
     {
-        var dataset = _proto.Index<DatasetPrototype>(name);
-        return _robustRandom.Pick(dataset.Values);
+        return _robustRandom.Pick(_proto.Index(name));
     }
+    // LP edit end
 }

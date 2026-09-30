@@ -200,7 +200,7 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
 
             if (proto.AllowDuplicateMoodVars)
             {
-                mood.MoodVars.Add(name, _random.Pick(dataset));
+                mood.MoodVars.Add(name, LocalizeMoodVar(datasetID, _random.Pick(dataset))); // LP edit
                 continue;
             }
 
@@ -209,10 +209,11 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
             while (choices.Count > 0)
             {
                 var choice = _random.PickAndTake(choices);
-                if (alreadyChosen.Contains(choice) || mood.MoodVars.ContainsValue(choice))
+                var value = LocalizeMoodVar(datasetID, choice); // LP edit
+                if (alreadyChosen.Contains(choice) || mood.MoodVars.ContainsValue(value)) // LP edit
                     continue;
 
-                mood.MoodVars.TryAdd(name, choice);
+                mood.MoodVars.TryAdd(name, value); // LP edit
                 alreadyChosen.Add(choice);
                 foundChoice = true;
                 break;
@@ -226,6 +227,32 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
 
         return mood;
     }
+
+    // LP edit start
+    /// <summary>
+    /// Переводит слово из датасета настроений: thaven-mood-var-{датасет}-{слово}.
+    /// Если ключа нет, остаётся английское значение - на него завязаны селекторы в ftl
+    /// (FoodRestrictions, SpeechRestrictions и т.п.).
+    /// </summary>
+    private static string LocalizeMoodVar(ProtoId<DatasetPrototype> dataset, string value)
+    {
+        var key = $"thaven-mood-var-{ToKebab(dataset.Id)}-{ToKebab(value)}";
+        return Loc.TryGetString(key, out var localized) ? localized : value;
+    }
+
+    private static string ToKebab(string text)
+    {
+        var sb = new System.Text.StringBuilder(text.Length);
+        for (var i = 0; i < text.Length; i++)
+        {
+            var c = text[i];
+            if (char.IsUpper(c) && i > 0 && char.IsLower(text[i - 1]))
+                sb.Append('-');
+            sb.Append(char.IsLetterOrDigit(c) ? char.ToLowerInvariant(c) : '-');
+        }
+        return System.Text.RegularExpressions.Regex.Replace(sb.ToString(), "-+", "-").Trim('-');
+    }
+    // LP edit end
 
     /// <summary>
     /// Checks if the given mood prototype conflicts with the current moods, and
