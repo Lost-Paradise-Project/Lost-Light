@@ -315,6 +315,7 @@ Resources/MapImages
 .idea/
 /Resources/Textures/_Starlight/Logo/CClogo - Copy.png
 
+# LP edit start
 # locale fix
 !Resources/Locale/**
 # Secret
@@ -327,3 +328,4 @@ Resources/MapImages
 **/PTextures*/
 **/pprototypes*/
 Scripts/logs/
+# LP edit end

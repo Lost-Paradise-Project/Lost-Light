@@ -28,6 +28,8 @@ server-time-ban-string =
     > **Выдан:** { $TimeNow }
     > **Истечёт:** { $expiresString }
 
+    > **Уровень нарушения:** { $severity }
+
     >>> **Причина:** { $reason }
 server-ban-footer = { $server } | Раунд: #{ $round }
 server-perma-ban-string =
@@ -42,6 +44,8 @@ server-perma-ban-string =
     > **Дискорд:** { $adminLink }
 
     > **Выдан:** { $TimeNow }
+
+    > **Уровень нарушения:** { $severity }
 
     >>> **Причина:** { $reason }
 server-role-ban-string =
@@ -60,6 +64,8 @@ server-role-ban-string =
 
     > **Роли:** { $roles }
 
+    > **Уровень нарушения:** { $severity }
+
     >>> **Причина:** { $reason }
 server-perma-role-ban-string =
     > **Сервер:** ``{ $serverName }``
@@ -75,5 +81,7 @@ server-perma-role-ban-string =
     > **Выдан:** { $TimeNow }
 
     > **Роли:** { $roles }
+
+    > **Уровень нарушения:** { $severity }
 
     >>> **Причина:** { $reason }

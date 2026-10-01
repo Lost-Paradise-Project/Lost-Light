@@ -75,14 +75,14 @@ thaven-mood-happy-bad-desc = Жизнерадостность говорит о 
 
 # trypanophilia is the enjoyment of needles
 thaven-mood-only-pills-name = { $medRestriction ->
-    *[Pills] Needles Are Scary
-    [Patches] Choking Hazard
-    [Syringes] Trypanophilia
+    *[Pills] Иглы — это страшно
+    [Patches] Можно подавиться
+    [Syringes] Трипанофилия
 }
 thaven-mood-only-pills-desc = { $medRestriction ->
-    *[Pills] You only accept medication in the form of pills.
-    [Patches] You only accept medication from patches.
-    [Syringes] You only accept medication through syringes.
+    *[Pills] Вы принимаете лекарства только в виде таблеток.
+    [Patches] Вы принимаете лекарства только через пластыри.
+    [Syringes] Вы принимаете лекарства только через шприцы.
 }
 
 thaven-mood-avoid-puddles-name = Не намочи ноги

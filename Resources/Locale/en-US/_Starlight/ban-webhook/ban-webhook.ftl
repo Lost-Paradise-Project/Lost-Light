@@ -15,6 +15,8 @@ server-role-ban =
     }.
 server-perma-role-ban = Permanent job-ban
 server-time-ban-string =
+    > **Server:** ``{ $serverName }``
+
     > **Offender**
     > **Login:** ``{ $targetName }``
     > **Discord:** { $targetLink }
@@ -32,6 +34,8 @@ server-time-ban-string =
     > **Severity Level:** { $severity }
 server-ban-footer = { $server } | Round: #{ $round }
 server-perma-ban-string =
+    > **Server:** ``{ $serverName }``
+
     > **Offender**
     > **Login:** ``{ $targetName }``
     > **Discord:** { $targetLink }
@@ -47,6 +51,8 @@ server-perma-ban-string =
 
     > **Severity Level:** { $severity }
 server-role-ban-string =
+    > **Server:** ``{ $serverName }``
+
     > **Offender**
     > **Login:** ``{ $targetName }``
     > **Discord:** { $targetLink }
@@ -65,6 +71,8 @@ server-role-ban-string =
 
     > **Severity Level:** { $severity }
 server-perma-role-ban-string =
+    > **Server:** ``{ $serverName }``
+
     > **Offender**
     > **Login:** ``{ $targetName }``
     > **Discord:** ``{ $targetLink }``

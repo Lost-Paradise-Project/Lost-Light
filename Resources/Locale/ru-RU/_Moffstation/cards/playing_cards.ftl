@@ -5,18 +5,18 @@ playing-card-name = { $card } { $suit }
 playing-card-desc = Мастерство исполнения великолепно!
 
 playing-card-suit-name = { $suit ->
-    [clubs] Clubs
-    [diamonds] Diamonds
-    [hearts] Hearts
-    [spades] Spades
+    [clubs] треф
+    [diamonds] бубен
+    [hearts] червей
+    [spades] пик
     *[invalid] !!{ $suit }!!
 }
 
 playing-card-value-name = { $card ->
-    [ace] Ace
-    [j] Jack
-    [q] Queen
-    [k] King
+    [ace] Туз
+    [j] Валет
+    [q] Дама
+    [k] Король
     *[other] { $card }
 }
 

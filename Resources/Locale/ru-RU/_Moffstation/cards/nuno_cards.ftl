@@ -5,17 +5,17 @@ nuno-card-name = { $suit } { $card }
 nuno-card-desc = Такая простая, но весёлая игра!
 
 nuno-card-suit-name = { $suit ->
-    [nunored] Red
-    [nunoyellow] Yellow
-    [nunogreen] Green
-    [nunoblue] Blue
+    [nunored] Красная
+    [nunoyellow] Жёлтая
+    [nunogreen] Зелёная
+    [nunoblue] Синяя
     *[invalid] !!{ $suit }!!
 }
 
 nuno-card-value-name = { $card ->
-    [plus2] Plus 2
-    [reverse] Reverse
-    [skip] Skip
+    [plus2] Плюс 2
+    [reverse] Разворот
+    [skip] Пропуск
     *[other] { $card }
 }
 

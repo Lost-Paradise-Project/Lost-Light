@@ -40,7 +40,6 @@ cmd-rolebanlist-hint-2 = [include unbanned]
 
 
 cmd-roleban-minutes-parse = { $time } — недопустимое количество минут.\n{ $help }
-# LP edit
 cmd-roleban-severity-parse = { $severity } не является допустимой тяжестью\n{ $help }.
 cmd-roleban-arg-count = Недопустимое количество аргументов.
 cmd-roleban-job-parse = Работа { $job } не существует.

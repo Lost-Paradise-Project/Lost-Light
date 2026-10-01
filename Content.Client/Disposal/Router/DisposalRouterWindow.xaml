@@ -2,7 +2,6 @@
             Title="{Loc 'disposal-router-window-title'}"
             MinSize="500 140"
             SetSize="500 140">
-    <!-- LP edit: английские тексты заменены на {Loc '...'} -->
     <BoxContainer Orientation="Vertical">
         <Label Text="{Loc 'disposal-router-window-tags-label'}" />
         <Control MinSize="0 10" />
@@ -17,6 +16,6 @@
                     Access="Public"
                     Text="{Loc 'disposal-router-window-tag-input-confirm-button'}" />
         </BoxContainer>
-        <Label Text="{Loc 'disposal-router-wildcard-hint'}" />
+        <Label Text="{Loc 'disposal-router-wildcard-hint'}" /> <!-- LP edit -->
     </BoxContainer>
 </DefaultWindow>

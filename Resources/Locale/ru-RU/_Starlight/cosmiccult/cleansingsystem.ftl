@@ -6,13 +6,13 @@ cleanse-deconvert-attempt-notcorrupted = { CAPITALIZE(THE($target)) } не на�
 cleanse-deconvert-attempt-rebound = Ноосферные энергии хлещут вокруг!
 
 cosmic-oubliette-random-horror = {$COUNT ->
-    [1] You feel as if your head is being torn apart.
-    [2] You feel as if your eyes are being stretched too far.
-    [3] You feel your brain expanding and contracting, throbbing like roaring thunder!
-    [4] You are nothing but worms, tossed and thrown into a grinder.
-    [5] You swear you can see your skin evaporating.
-    [6] You feel as if your skin is being turned inside out.
-    *[other] You feel frozen one moment, then boiling the next.
+    [1] Кажется, будто вашу голову разрывают на части.
+    [2] Кажется, будто ваши глаза растягивают слишком сильно.
+    [3] Ваш мозг то расширяется, то сжимается, пульсируя, как раскаты грома!
+    [4] Вы лишь горсть червей, брошенных в мясорубку.
+    [5] Вы готовы поклясться, что видите, как испаряется ваша кожа.
+    [6] Кажется, будто вашу кожу выворачивают наизнанку.
+    *[other] Вас то сковывает холодом, то бросает в кипяток.
 }
 
 cosmic-oubliette-recharged = Темница перезарядилась!

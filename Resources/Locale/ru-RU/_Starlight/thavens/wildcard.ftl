@@ -77,12 +77,12 @@ thaven-mood-daredevil-name = Сорвиголова
 thaven-mood-daredevil-desc = Вы не признаёте боль или опасность для своей персоны на людях. Это означало бы показать слабость и сделало бы вас мишенью.
 
 thaven-mood-folk-hero-name = {$dagdChanceName ->
-    *[FolkHero] Folk Hero
-    [DieAGloriousDeath] Die A Glorious Death
+    *[FolkHero] Народный герой
+    [DieAGloriousDeath] Умереть со славой
 }
 thaven-mood-folk-hero-desc = {$dagdChanceName ->
-    *[FolkHero] No one knows it yet, but you are the hero this station needs. You must intervene in any major conflict that occurs, and fight the station’s enemies to the best of your ability
-    [DieAGloriousDeath] You are an artist, and your canvas is your demise. Your primary goal is to orchestrate a glorious, beautiful finale to your existence — But you are not a murderer. Try to avoid causing excessive damage
+    *[FolkHero] Никто ещё об этом не знает, но вы — тот герой, который нужен этой станции. Вы должны вмешиваться в любой крупный конфликт и изо всех сил сражаться с врагами станции
+    [DieAGloriousDeath] Вы — художник, и ваш холст — ваша гибель. Главная цель — устроить славный и красивый финал своего существования. Но вы не убийца: старайтесь не причинять лишнего вреда
 }.
 
 thaven-mood-blogger-name = Блогер Гринкомма

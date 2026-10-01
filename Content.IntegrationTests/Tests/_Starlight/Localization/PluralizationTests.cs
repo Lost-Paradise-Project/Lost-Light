@@ -1,3 +1,4 @@
+using System.Globalization;
 using Content.IntegrationTests.Fixtures;
 using Robust.Shared.Localization;
 
@@ -17,7 +18,19 @@ public sealed class PluralizationTests : GameTest
 
         var locMan = server.ResolveDependency<ILocalizationManager>();
 
-        var result = locMan.GetString("objectives-round-end-result", ("count", count), ("agent", antag));
+        // LP edit start - основной язык у нас ru-RU, а MAKEPLURAL есть только в английской локали
+        var culture = locMan.DefaultCulture!;
+        locMan.DefaultCulture = new CultureInfo("en-US");
+        string result;
+        try
+        {
+            result = locMan.GetString("objectives-round-end-result", ("count", count), ("agent", antag));
+        }
+        finally
+        {
+            locMan.DefaultCulture = culture;
+        }
+        // LP edit end
 
         Assert.That(result, Is.EqualTo(expected));
     }

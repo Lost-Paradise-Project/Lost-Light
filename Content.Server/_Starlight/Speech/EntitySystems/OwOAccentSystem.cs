@@ -72,7 +72,7 @@ public sealed class OwOAccentSystem : EntitySystem
         // LP edit end
         message.Text = message.Text
             .Replace("r", "w").Replace("R", "W")
-            .Replace("l", "w").Replace("L", "W")
+            .Replace("l", "w").Replace("L", "W") // LP edit
             // LP edit start
             .Replace("р", "в").Replace("Р", "В")
             .Replace("л", "в").Replace("Л", "В");

@@ -48,14 +48,16 @@ stack-rusty-metal-floor = ржавый металлический пол
 stack-steel-grate-floor = пол из стальной решётки
 stack-tech-greeb-floor = технический пол техтоннелей «грибб»
 
-stack-bluespacecrystal = {$amount ->
-    [1] bluespace
-    *[other] bluespaces
+stack-bluespacecrystal = { $amount ->
+    [one] блюспейс-кристалл
+    [few] блюспейс-кристалла
+    *[other] блюспейс-кристаллов
 }
 
-stack-adamantine = {$amount ->
-    [1] adamantine bar
-    *[other] adamantine bars
+stack-adamantine = { $amount ->
+    [one] слиток адамантина
+    [few] слитка адамантина
+    *[other] слитков адамантина
 }
 
 stack-bluespace-tile = блюспейс-плитка
@@ -66,58 +68,71 @@ stack-brutepack = { $amount ->
     [few] набора от ушибов
     *[other] наборов от ушибов
 }
-stack-blueointment = {$amount ->
-    [1] blueointment
-    *[other] blueointments
+stack-blueointment = { $amount ->
+    [one] синяя мазь
+    [few] синие мази
+    *[other] синих мазей
 }
-stack-redointment = {$amount ->
-    [1] redointment
-    *[other] redointments
+stack-redointment = { $amount ->
+    [one] красная мазь
+    [few] красные мази
+    *[other] красных мазей
 }
-stack-redbrutepack = {$amount ->
-    [1] redbrutepack
-    *[other] redbrutepacks
+stack-redbrutepack = { $amount ->
+    [one] красная упаковка от ушибов
+    [few] красные упаковки от ушибов
+    *[other] красных упаковок от ушибов
 }
-stack-interdyneointment = {$amount ->
-    [1] interdyneointment
-    *[other] interdyneointments
+stack-interdyneointment = { $amount ->
+    [one] мазь Interdyne
+    [few] мази Interdyne
+    *[other] мазей Interdyne
 }
-stack-interdynebrutepack = {$amount ->
-    [1] interdynebrutepack
-    *[other] interdynebrutepacks
+stack-interdynebrutepack = { $amount ->
+    [one] упаковка от ушибов Interdyne
+    [few] упаковки от ушибов Interdyne
+    *[other] упаковок от ушибов Interdyne
 }
-stack-deforestointment = {$amount ->
-    [1] deforestointment
-    *[other] deforestointments
+stack-deforestointment = { $amount ->
+    [one] мазь DeForest
+    [few] мази DeForest
+    *[other] мазей DeForest
 }
-stack-deforestbrutepack = {$amount ->
-    [1] deforestbrutepack
-    *[other] deforestbrutepacks
+stack-deforestbrutepack = { $amount ->
+    [one] упаковка от ушибов DeForest
+    [few] упаковки от ушибов DeForest
+    *[other] упаковок от ушибов DeForest
 }
-stack-goldointment = {$amount ->
-    [1] goldointment
-    *[other] goldointments
+stack-goldointment = { $amount ->
+    [one] золотая мазь
+    [few] золотые мази
+    *[other] золотых мазей
 }
-stack-goldbrutepack = {$amount ->
-    [1] goldbrutepack
-    *[other] goldbrutepacks
+stack-goldbrutepack = { $amount ->
+    [one] золотая упаковка от ушибов
+    [few] золотые упаковки от ушибов
+    *[other] золотых упаковок от ушибов
 }
-stack-redpunctpack = {$amount ->
-    [1] redpunctpack
-    *[other] redpunctpacks
+stack-redpunctpack = { $amount ->
+    [one] красный пакет от колотых ран
+    [few] красных пакета от колотых ран
+    *[other] красных пакетов от колотых ран
 }
-stack-redlacepack = {$amount ->
-    [1] redlacepack
-    *[other] redlacepacks
+stack-redlacepack = { $amount ->
+    [one] красный пакет от рубленых ран
+    [few] красных пакета от рубленых ран
+    *[other] красных пакетов от рубленых ран
 }
-stack-redbruizpack = {$amount ->
-    [1] redbruizpack
-    *[other] redbruizpacks
+stack-redbruizpack = { $amount ->
+    [one] красный пакет от ушибов
+    [few] красных пакета от ушибов
+    *[other] красных пакетов от ушибов
 }
 
-stack-empty-oilpack = {$amount ->
-    [1] emptyoilpack
-    *[other] emptyoilpacks
+stack-empty-oilpack = { $amount ->
+    [one] пустой пакет масла
+    [few] пустых пакета масла
+    *[other] пустых пакетов масла
 }
 
 stack-credit = { $amount ->
@@ -125,27 +140,32 @@ stack-credit = { $amount ->
     [few] кредита
     *[other] кредитов
 }
-stack-ticket = {$amount ->
-    [1] ticket
-    *[other] tickets
+stack-ticket = { $amount ->
+    [one] талон
+    [few] талона
+    *[other] талонов
 }
 
 
-stack-wizcoin = {$amount ->
-    [1] wizcoin
-    *[other] wizcoins
+stack-wizcoin = { $amount ->
+    [one] монета волшебника
+    [few] монеты волшебника
+    *[other] монет волшебника
 }
 
-stack-casino-chip = {$amount ->
-    [1] casino chip
-    *[other] casino chips
+stack-casino-chip = { $amount ->
+    [one] фишка казино
+    [few] фишки казино
+    *[other] фишек казино
 }
 
-stack-abyssium-ore = {$amount ->
-    [1] abyssium ore
-    *[other] abyssium ores
+stack-abyssium-ore = { $amount ->
+    [one] руда абиссия
+    [few] руды абиссия
+    *[other] руды абиссия
 }
-stack-abyssium-bar = {$amount ->
-    [1] abyssium bar
-    *[other] abyssium bars
+stack-abyssium-bar = { $amount ->
+    [one] слиток абиссия
+    [few] слитка абиссия
+    *[other] слитков абиссия
 }

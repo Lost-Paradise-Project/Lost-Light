@@ -125,40 +125,40 @@ thaven-mood-public-sector-name = Общественный сектор
 thaven-mood-public-sector-desc = Вашу работу не следует делать в приватной обстановке, если этого можно избежать. По возможности перестройте помещения, чтобы разрешить публичный доступ на ваше рабочее место.
 
 thaven-mood-speech-restriction-name = {$speechType ->
-    *[FullNameAndTitle] Full Name And Title
-    [NamesAreRude] Names Are Rude
-    [Clarity] Clarity Is Vital
-    [SwearingGood] !@$%#ing @$^%*#@!$
-    [StatementOnly] Asking Questions Is Rude
-    [Imitation] I Wanna Be Like You
-    [Unclarity] Nothing Is Certain
-    [SwearingBad] Thou Shalt Not Curse
-    [QuestionOnly] Nothing Is Certain?
-    [MustAnswer] Center Of The Universe
-    [OnlyWhisper] Inside Voice
-    [OnlyYell] Outside Voice
-    [Rhyme] Poet
-    [Alliterate] Always Alliterate At All Apportunities
-    [ThirdPerson] Third Person
-    [TitleCase] Title Case
+    *[FullNameAndTitle] Полное имя и титул
+    [NamesAreRude] Имена — это грубо
+    [Clarity] Ясность превыше всего
+    [SwearingGood] !@$%#ая @$^%*#@!$
+    [StatementOnly] Задавать вопросы — грубо
+    [Imitation] Хочу быть как ты
+    [Unclarity] Ничто не определено
+    [SwearingBad] Не сквернословь
+    [QuestionOnly] Ничто не определено?
+    [MustAnswer] Центр вселенной
+    [OnlyWhisper] Тихий голос
+    [OnlyYell] Громкий голос
+    [Rhyme] Поэт
+    [Alliterate] Всегда с аллитерацией
+    [ThirdPerson] Третье лицо
+    [TitleCase] Каждое Слово С Заглавной
 }
 thaven-mood-speech-restriction-desc = {$speechType ->
-    *[FullNameAndTitle] Thaven refuse to acknowledge anyone who fails to refer to them using their full name, and expect everyone else to do the same.
-    [NamesAreRude] Using one's name is terribly personal for everyday conversation. Proper etiquette is to only refer to others by description.
-    [Clarity] Misunderstandings are the primary cause of conflict. You should be excessively clear and honest in your speech, explaining every minute detail, to avoid miscommunication.
-    [SwearingGood] Swearing is the spice of any conversation, and should be used as much as reasonably possible.
-    [StatementOnly] It would be terribly impolite to go around flagrantly asking questions all over the place. You'd prefer to phrase everything as a concrete statement.
-    [Imitation] Imitation is the highest form of flattery. Attempting to emulate the mannerisms and accents of everyone you speak to will get you far in life.
-    [Unclarity] You should endeavor to be as indirect in your speech as possible, and never make a direct statement.
-    [SwearingBad] You find swearing extremely distasteful. Abstain from it, and encourage others to do the same.
-    [QuestionOnly] It's impolite to make concrete statements? You should phrase everything as a question, just to be safe?
-    [MustAnswer] All questions that you can hear are directed at you, and you alone.
-    [OnlyWhisper] You must whisper, as speaking too loudly is terribly rude.
-    [OnlyYell] [bold]YOU MUST YELL AT ALL TIMES TO DEMONSTRATE YOUR AUTHORITY!!!!![/bold]
-    [Rhyme] You must speak in rhymes at all tymes.
-    [Alliterate] Alliteration is virtuous. Endeavor to use it wherever possible.
-    [ThirdPerson] The third person point-of-view is the only respectful manner of speaking.
-    [TitleCase] You Are Miraculously Capable Of Pronouncing Capital Letters, And Believe It Is Important That You Do So.
+    *[FullNameAndTitle] Тавены не замечают тех, кто не обращается к ним по полному имени, и ждут того же от всех остальных.
+    [NamesAreRude] Называть кого-то по имени в повседневном разговоре — слишком личное. По этикету к другим обращаются только по описанию.
+    [Clarity] Недопонимание — главная причина конфликтов. Говорите предельно ясно и честно, объясняя каждую мелочь, чтобы вас не поняли неправильно.
+    [SwearingGood] Ругательства — приправа любого разговора, используйте их как можно чаще.
+    [StatementOnly] Направо и налево задавать вопросы ужасно невежливо. Вы предпочитаете формулировать всё в виде утверждений.
+    [Imitation] Подражание — высшая форма лести. Перенимайте манеры и акцент каждого собеседника, и далеко пойдёте.
+    [Unclarity] Старайтесь говорить как можно уклончивее и никогда не утверждайте ничего прямо.
+    [SwearingBad] Ругательства вам крайне противны. Воздерживайтесь от них и призывайте к этому других.
+    [QuestionOnly] Утверждать что-то невежливо? Лучше формулировать всё в виде вопроса, на всякий случай?
+    [MustAnswer] Все вопросы, которые вы слышите, обращены к вам, и только к вам.
+    [OnlyWhisper] Вы должны шептать, ведь говорить громко ужасно грубо.
+    [OnlyYell] [bold]ВЫ ДОЛЖНЫ ВСЁ ВРЕМЯ КРИЧАТЬ, ЧТОБЫ ПОКАЗАТЬ СВОЙ АВТОРИТЕТ!!!!![/bold]
+    [Rhyme] Говорить вы должны в рифму, иначе будет вам ой-ой-ой.
+    [Alliterate] Аллитерация — добродетель. Используйте её везде, где только можно.
+    [ThirdPerson] Говорить о себе в третьем лице — единственная уважительная манера речи.
+    [TitleCase] Вы Чудесным Образом Умеете Произносить Заглавные Буквы И Считаете, Что Это Важно Делать.
 }
 
 thaven-mood-station-exists-for-department-name = Станция существует для отдела «{ $department }»

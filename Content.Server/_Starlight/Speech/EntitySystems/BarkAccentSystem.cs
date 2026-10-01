@@ -40,7 +40,7 @@ public sealed partial class BarkAccentSystem : EntitySystem
 
         message.Text = message.Text.Replace("!", _random.Pick(_barks))
             .Replace("l", "r")
-            .Replace("L", "R")
+            .Replace("L", "R") // LP edit
             // LP edit start
             .Replace("л", "р")
             .Replace("Л", "Р");
