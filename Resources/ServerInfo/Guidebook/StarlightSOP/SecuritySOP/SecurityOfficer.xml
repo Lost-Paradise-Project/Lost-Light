@@ -1,10 +1,10 @@
 <Document>
-# Security Officer
+# Офицер СБ
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Security Officer"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Офицер СБ"/>
 
 -1.\n
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]коде «Зелёный»[/color]:
 
 <Box>
 	<GuideEntityEmbed Entity="WeaponDisabler"/>
@@ -18,7 +18,7 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
@@ -27,18 +27,18 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="Handcuffs"/>
-	or
+	или
 	<GuideEntityEmbed Entity="Zipties"/>
 </Box>
 
 - 2.\n
-Security Officers should make themselves readily available to the crew, either by patrolling actively or by guarding departments.
+Офицеры СБ должны быть легко доступны экипажу: либо активно патрулируя, либо охраняя отделы.
 - 3.\n
-Security Officers are cleared to confine sentenced criminals in the brig for up to [bold]10 minutes[/bold].\n\n
+Офицеры СБ вправе заключать осуждённых преступников в бриг на срок до [bold]10 минут[/bold].\n\n
 3.1\n
-For a sentence to be valid, it must be read aloud to the Warden or Head of Security. If done over radio, an audible confirmation must be received.\n\n
+Чтобы приговор был действителен, его нужно зачитать вслух смотрителю или главе службы безопасности. Если это делается по радио, нужно получить слышимое подтверждение.\n\n
 3.2\n
-Security officers are responsible for ensuring that any sentences they themselves were involved in are properly documented in the Criminal Records System.
+Офицеры СБ отвечают за то, чтобы все приговоры, в которых они участвовали, были должным образом задокументированы в системе криминальных записей.
 - 4.\n
-When practical, Security Officers should patrol in pairs.
+По возможности офицерам СБ следует патрулировать парами.
 </Document>

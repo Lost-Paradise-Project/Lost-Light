@@ -1,54 +1,54 @@
 <Document>
-    # Devil
+    # Дьявол
 
     <Box>
         <GuideEntityEmbed Entity="InfernalContract" Caption=""/>
     </Box>
 
-    A Field Agent has been dispatched from the [color=#d90b0b]8th Office for Soul Reclamation, Hell[/color], to keep soul harvesting quotas within quarterly margins.
-    You have been sufficiently equipped to blend in with the crew, so that you may [color=red]strike deals[/color] with members of the station.
+    Полевой агент был направлен из [color=#d90b0b]8-го Офиса по возврату душ, Ад[/color], чтобы удерживать квоты по сбору душ в квартальных пределах.
+    Вас достаточно экипировали, чтобы вы сливались с экипажем и могли [color=red]заключать сделки[/color] с членами станции.
 
-    ## The Infernal Contract
-    Your job is to convince crew to sign a legally binding contract for their soul. To convince them of this deal, we have given you financial delegation to issue lower class material desires to make the deal more desirable.
-    You can summon [color=purple]Infernal Contracts[/color], which is the skeleton agreement that your target client will sign. Contracts contain multiple [color=cyan]damnations[/color] which you choose.
-    Damnations are either [color=red]hellweighted[/color] meaning they benefit us, or [color=green]mortalsided[/color] which means they benefit the crewmember.
-    Hellweighted damnations have a negative "cost" associated with them, as they procure resources for us, and Mortalsided damnations have a positive cost.
-    In order to balance the books, the sum of damnations in a contract [color=yellow]must be zero or below[/color], so we make a profit.
+    ## Инфернальный контракт
+    Ваша работа - убедить экипаж подписать юридически обязывающий контракт на свою душу. Чтобы убедить их в этой сделке, мы дали вам финансовые полномочия выдавать материальные желания низшего класса, чтобы сделка казалась выгоднее.
+    Вы можете призвать [color=purple]инфернальные контракты[/color] - скелет соглашения, которое подпишет ваш клиент. Контракты содержат несколько [color=cyan]проклятий[/color], которые выбираете вы.
+    Проклятия бывают либо [color=red]адоперевешивающими[/color], то есть выгодными нам, либо [color=green]смертноперевешивающими[/color], то есть выгодными члену экипажа.
+    У адоперевешивающих проклятий отрицательная «стоимость», так как они добывают ресурсы для нас, а у смертноперевешивающих проклятий стоимость положительная.
+    Чтобы свести баланс, сумма проклятий в контракте [color=yellow]должна быть нулевой или ниже[/color], чтобы мы получали прибыль.
     <Box>
         <GuideEntityEmbed Entity="PenQuillBurnt" Caption=""/>
     </Box>
 
-    To strike a deal with a crewmember, first [bold]summon a contract and your quill with the actions on your toolbar[/bold].
-    Refer to your [bold]Book of the Damned[/bold] to see what damnations you are authorised to strike, and their associated cost. Liaise with your client to see what they seek, and what they are willing to give up.
-    Once determined, [bold]edit the contract using your pen[/bold] to add the names of the damnations to the list in the contract. Misspelled damnations or empty fields will be ignored, and trickery is encouraged.
-    Now hand the contract over to your client to sign. They can't edit the paper, and once they sign the requested damnations will take effect immediately.
+    Чтобы заключить сделку с членом экипажа, сначала [bold]призовите контракт и перо действиями на панели инструментов[/bold].
+    Обратитесь к вашей [bold]Книге проклятых[/bold], чтобы увидеть, какие проклятия вам разрешено заключать и их стоимость. Обсудите с клиентом, чего он хочет и чем готов пожертвовать.
+    Определившись, [bold]отредактируйте контракт ручкой[/bold], добавив названия проклятий в список в контракте. Проклятия с опечатками и пустые поля будут игнорироваться, а хитрость приветствуется.
+    Теперь передайте контракт клиенту на подпись. Он не может редактировать бумагу, и после подписания запрошенные проклятия вступят в силу немедленно.
 
-    ## Your True Name
-    But wait! on the contract is your [color=red]True name[/color], which is your fatal flaw! This is your real devilish name, and your main weakness.
-    If someone were to utter your true name and a verb like "stop" or "halt" in the same sentence, you will be greatly damaged and feel weak and sluggish. It only takes a few people chanting to secure your doom.
+    ## Ваше истинное имя
+    Но постойте! В контракте указано ваше [color=red]истинное имя[/color], которое является вашим роковым изъяном! Это ваше настоящее дьявольское имя и ваша главная слабость.
+    Если кто-то произнесёт ваше истинное имя и глагол вроде «стой» или «замри» в одном предложении, вы получите серьёзный урон и почувствуете слабость и вялость. Достаточно нескольких скандирующих людей, чтобы обеспечить вашу погибель.
 
-    ## Objective and Abilities
-    Your primary objective is to reclaim souls, using the [color=purple]My Soul[/color] damnation. Upon the clients demise, their soul will be sent straight to the depths of the inferno, rendering them unrevivable.
-    As you slowly claim more souls, your demonic nature will become increasingly apparent. What might initially be ignored as a crewmember with unusually red eyes will soon turn into an unmistakable glow and.... is that a glowing halo...? really?
+    ## Задача и способности
+    Ваша основная задача - возвращать души с помощью проклятия [color=purple]«Моя душа»[/color]. После смерти клиента его душа будет отправлена прямиком в глубины преисподней, делая его невозрождаемым.
+    По мере того как вы медленно собираете больше душ, ваша демоническая природа будет проявляться всё сильнее. То, что сначала можно проигнорировать как члена экипажа с необычно красными глазами, вскоре превратится в безошибочное свечение и... это светящийся нимб...? серьёзно?
 
-    You inherently have access to a few different abilities relating to your job, like your ability to summon a quill, and create infernal contracts.
-    You also have access to our premium rejuvenation service, allowing you to heal damage other than genetic (that cover is too expensive), once every fifteen minutes. This should prevent your mortal coil from severing from the usual mechanisms.
-    Once you have signed off a few souls, you will gain access to your [color=red]Bident[/color], a suitably evil looking weapon to increase your devilish aura.
+    У вас изначально есть доступ к нескольким разным способностям, связанным с вашей работой, таким как призыв пера и создание инфернальных контрактов.
+    У вас также есть доступ к нашей премиальной услуге омоложения, позволяющей исцелять урон, кроме генетического (это покрытие слишком дорогое), раз в пятнадцать минут. Это должно не дать вашему смертному телу оборваться обычными путями.
+    Подписав несколько душ, вы получите доступ к своему [color=red]бидентовому копью[/color], подобающе злодейски выглядящему оружию для усиления вашей дьявольской ауры.
 
-    ## Tips
-    It isn't your job to get into fisticuffs with security or the crew! We want you to harvest souls, and you aren't very good at that if we are constantly paying insurance excess for your rejuvenation. Instead, try cause chaos indirectly by signing as many contracts off as possible, getting others to do the work for you!
+    ## Советы
+    Ваша работа - не ввязываться в драки с СБ или экипажем! Мы хотим, чтобы вы собирали души, а у вас это получается плохо, если мы постоянно платим страховые франшизы за ваше омоложение. Вместо этого старайтесь устраивать хаос косвенно, подписывая как можно больше контрактов и заставляя других делать работу за вас!
 
-    ## Help how kill demon!
-    You have a devil problem? You have two surefire ways of stopping them in their tracks:
+    ## Помогите, как убить демона!
+    У вас проблема с дьяволом? У вас есть два верных способа остановить его на месте:
 
-    ### True Name
-    Announcing their true name, along with a word such as "halt" or "stop" in the same sentence will cause them genetic injuries, which they cannot heal! Have a few crew members chanting this and the devil will fall extremely fast.
-    You can find the devil's true name by reading a contract they have made.
+    ### Истинное имя
+    Произнесение их истинного имени вместе со словом вроде «стой» или «замри» в одном предложении причинит им генетические повреждения, которые они не смогут исцелить! Пусть несколько членов экипажа скандируют это, и дьявол падёт очень быстро.
+    Истинное имя дьявола можно найти, прочитав заключённый им контракт.
 
-    ### Chaplain Execution
-    The Chaplain using their bible on a dead devil will rend it with enough genetic damage to prevent them from ever being able to return to life. Once this is done your devil problem is no longer. Damned crew will continue to have their effects, however, and must be dealt with case-by-case.
+    ### Казнь священником
+    Использование священником библии на мёртвом дьяволе разорвёт его достаточным генетическим уроном, чтобы он больше никогда не смог вернуться к жизни. После этого ваша проблема с дьяволом решена. Проклятые члены экипажа, однако, сохранят свои эффекты, и с ними придётся разбираться в каждом случае отдельно.
 
-    ## Help I been damned!
-    I hope it was worth it. While there are many damnations that negatively affect you, there are a few that are noticeably bad. If you have signed your soul away, upon your death you will be rendered unrevivable.
-    It won't do you well to utter the true name of the guy you struck your deal with, it will hurt you greatly. It doesn't pay to be a snitch!
+    ## Помогите, меня прокляли!
+    Надеюсь, оно того стоило. Хотя многие проклятия негативно влияют на вас, есть несколько заметно плохих. Если вы продали душу, после смерти вы станете невозрождаемым.
+    Не стоит произносить истинное имя того, с кем вы заключили сделку: это сильно навредит вам. Доносчикам не платят!
 </Document>

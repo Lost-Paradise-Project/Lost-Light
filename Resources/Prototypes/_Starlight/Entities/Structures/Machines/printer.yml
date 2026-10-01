@@ -57,7 +57,7 @@
   - type: ItemSlots
     slots:
       id:
-        name: IdSlot
+        name: item-slot-component-slot-name-id-card # LP edit
         whitelist:
           components:
             - IdCard

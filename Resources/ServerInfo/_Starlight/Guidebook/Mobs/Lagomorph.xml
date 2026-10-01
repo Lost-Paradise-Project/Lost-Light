@@ -1,23 +1,23 @@
 <Document>
-  # Lagomorph
+  # Лагоморфы
 
   <Box>
     <GuideEntityEmbed Entity="MobLagomorph" Caption=""/>
   </Box>
-  An artificially-uplifted species of anthropomorphic mammals that have a clear resemblance with Sol's Lagomorpha.
-  Corporate interests saw their uplifting upon first contact as a necessary solution to a labor shortage.
+  Искусственно возвышенная раса антропоморфных млекопитающих, явно напоминающих лагоморфов Соль.
+  Корпоративные интересы сочли их возвышение при первом контакте необходимым решением нехватки рабочей силы.
 
-  - Receive [color=#ffa500]25% more heat damage[/color] and [color=#1e90ff]25% less cold damage[/color] and [color=#1e90ff]10% less blunt damage[/color].
-  - Metabolic processes are [color=#ffa500]33% faster[/color].
-  - Can regenerate stamina faster and gain stamina resistance for [color=yellow]20[/color] seconds, in exchange for increased hunger and thirst drain while active. This ability has a cooldown of [color=yellow]30[/color] seconds between uses.
-  - Deal [color=red]5[/color] slashing damage with claws.
-  - Can hear people speak and whisper from 2 tiles further.
+  - Получают [color=#ffa500]на 25% больше теплового урона[/color], [color=#1e90ff]на 25% меньше холодового урона[/color] и [color=#1e90ff]на 10% меньше ударного урона[/color].
+  - Метаболические процессы [color=#ffa500]на 33% быстрее[/color].
+  - Могут быстрее восстанавливать выносливость и получать сопротивление выносливости на [color=yellow]20[/color] секунд в обмен на повышенный расход сытости и жажды, пока способность активна. У этой способности перезарядка [color=yellow]30[/color] секунд между использованиями.
+  - Наносят [color=red]5[/color] режущего урона когтями.
+  - Слышат речь и шёпот людей на 2 тайла дальше.
 
-  ## Language
-  - Lagomorphs have a pidgin language of Sol Common adapted for usage in their laryngeal vocal structure, adapting to certain characters and sounds they make. This is known as Laguine.
-  - Alongside Laguine, this pidgin language is used as a gateway for many to learn Galactic Common as a second language, through intense vocal training.
+  ## Язык
+  - У лагоморфов пиджин Соль-общего, адаптированный под их гортанный голосовой аппарат и подстроенный под определённые символы и звуки, которые они издают. Он известен как лагуин.
+  - Наряду с лагуином этот пиджин служит для многих воротами к изучению Галактического общего как второго языка через интенсивную голосовую подготовку.
 
-  ## Age and Names
-  - Their naming structure in wider galactic society due to their origins of being an uplifted laborer species is similar to standard human onomastics.
-  - Through genetic manipulation by corporate interests and wider galactic quasi-governments, their lifespan is comparable to the average human.
+  ## Возраст и имена
+  - Их структура имён в более широком галактическом обществе из-за происхождения от возвышенной рабочей расы схожа со стандартной человеческой ономастикой.
+  - Благодаря генетическим манипуляциям корпоративных интересов и более широких галактических квазиправительств продолжительность их жизни сопоставима со средним человеком.
 </Document>

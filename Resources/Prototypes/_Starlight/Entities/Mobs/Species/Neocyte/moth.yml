@@ -100,10 +100,10 @@
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "outerClothing2" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
-      - # LP edit start
+      # LP edit start
       - map: [ "socks" ]
       - map: [ "jumpsuit" ]
-      - # LP edit end
+      # LP edit end
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -218,19 +218,19 @@
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
       - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-      - # LP edit start
+      # LP edit start
       - map: [ "breast" ]
       - map: [ "underwear" ]
-      - # LP edit end
+      # LP edit end
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "outerClothing2" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
-      - # LP edit start
+      # LP edit start
       - map: [ "socks" ]
       - map: [ "jumpsuit" ]
-      - # LP edit end
+      # LP edit end
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi

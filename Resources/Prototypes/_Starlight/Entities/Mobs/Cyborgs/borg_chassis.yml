@@ -48,7 +48,7 @@
   - type: SecurityBorg
   - type: ActionGrant
     actions:
-    - ActionBorgOpenLawbook
+    # - ActionBorgOpenLawbook # LP edit: законы на вики, CorporateLaw в гайдбуке нет
     - ActionBorgCallForHelp
   - type: MobThresholds
     thresholds:

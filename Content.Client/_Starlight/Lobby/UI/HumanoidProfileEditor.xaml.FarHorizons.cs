@@ -4,6 +4,7 @@ using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences.Loadouts;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Prototypes;
+using Content.Shared._LP.Sponsors;
 
 namespace Content.Client._Starlight.Lobby.UI;
 
@@ -27,7 +28,7 @@ public sealed partial class HumanoidProfileEditor
 
         if (species.HasSubspecies)
         {
-            List<SpeciesPrototype> allSubspecies = [.. _prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(p => p.SubspeciesOf == species.ID)];
+            List<SpeciesPrototype> allSubspecies = [.. _prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(p => p.SubspeciesOf == species.ID && RolesRestrictions.IsAllowed(p.RolesRequirement, _playerManager.LocalSession))]; // LP edit - спонсорские расы
             allSubspecies.Sort((a, b) => string.Compare(a.SubspeciesName ?? a.Name, b.SubspeciesName ?? b.Name, StringComparison.OrdinalIgnoreCase));
 
             subspecies.Add(species);
@@ -35,7 +36,7 @@ public sealed partial class HumanoidProfileEditor
         }
         else if (species.SubspeciesOf != null)
         {
-            List<SpeciesPrototype> allSubspecies = [.. _prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(p => p.SubspeciesOf == species.SubspeciesOf)];
+            List<SpeciesPrototype> allSubspecies = [.. _prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(p => p.SubspeciesOf == species.SubspeciesOf && RolesRestrictions.IsAllowed(p.RolesRequirement, _playerManager.LocalSession))]; // LP edit - спонсорские расы
             allSubspecies.Sort((a, b) => string.Compare(a.SubspeciesName ?? a.Name, b.SubspeciesName ?? b.Name, StringComparison.OrdinalIgnoreCase));
             var parent = _prototypeManager.Index(species.SubspeciesOf);
 

@@ -1,15 +1,15 @@
 ghost-role-information-syndicate-pai-rules =    Вы [color=red]НЕ[/color] должны раскрывать переговоры ядерных оперативников не-ядерным оперативникам. Иначе...
-                                                You are a [color={ role-type-familiar-color }][bold]{ role-type-familiar-name }[/bold][/color]. Serve the interests of your master, whatever those may be.
-                                                You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                                You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                                You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                                Вы — [color={ role-type-familiar-color }][bold]{ role-type-familiar-name }[/bold][/color]. Служите интересам своего хозяина, какими бы они ни были.
+                                                Вы не помните ничего из прошлой жизни и ничего из того, что узнали, будучи призраком.
+                                                Вам разрешено помнить знания об игре в целом: как готовить, как пользоваться предметами и т. д.
+                                                Вам категорически [color=red]НЕЛЬЗЯ[/color] помнить, например, имя, внешность и т. п. вашего прошлого персонажа.
 
 ghost-role-information-wizard-pai-rules =       Вы [color=red]НЕ[/color] должны помогать не-членам Федерации космических волшебников, если они не помогают вернуть вас вашему хозяину.
-                                                You [color=pink]MAY[/color] play tricks on and deceive non-Space Wizard Federation members, so that they may fear the Federation. Otherwise...
-                                                You are a [color={ role-type-familiar-color }][bold]{ role-type-familiar-name }[/bold][/color]. Serve the interests of your master, whatever those may be.
-                                                You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                                You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                                You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                                                Вы [color=pink]МОЖЕТЕ[/color] разыгрывать и обманывать не-членов Федерации космических волшебников, чтобы они боялись Федерации. Иначе...
+                                                Вы — [color={ role-type-familiar-color }][bold]{ role-type-familiar-name }[/bold][/color]. Служите интересам своего хозяина, какими бы они ни были.
+                                                Вы не помните ничего из прошлой жизни и ничего из того, что узнали, будучи призраком.
+                                                Вам разрешено помнить знания об игре в целом: как готовить, как пользоваться предметами и т. д.
+                                                Вам категорически [color=red]НЕЛЬЗЯ[/color] помнить, например, имя, внешность и т. п. вашего прошлого персонажа.
 
 ghost-role-information-chaospaper-name = Конец Q
 ghost-role-information-chaospaper-description = Постарайтесь добиться, чтобы экипаж со щитом разума подписал вас теми ограниченными средствами, что у вас есть.
@@ -146,6 +146,6 @@ ghost-role-information-sentient-holocarp-description = Помогайте Кос
 
 ghost-role-information-maintenance-drone-description = Обслуживайте станцию. Игнорируйте других существ, кроме дронов.
 ghost-role-information-maintenance-drone-rules = Вы связаны этими законами как в игре, так и вне персонажа:
-                                                 1. You may not involve yourself in the matters of another being, even if such matters conflict with Law Two or Law Three, unless the other being is another drone.
-                                                 2. You may not harm any being, regardless of intent or circumstance.
-                                                 3. Your goals are to build, maintain, repair, improve, and power the station to the best of your abilities. You must never actively work against these goals.
+                                                 1. Вы не можете вмешиваться в дела других существ, даже если это противоречит второму или третьему закону, если только это существо не другой дрон.
+                                                 2. Вы не можете причинять вред ни одному существу, независимо от намерений и обстоятельств.
+                                                 3. Ваша цель — строить, обслуживать, чинить, улучшать и снабжать энергией станцию в меру своих сил. Вы никогда не должны активно действовать против этих целей.

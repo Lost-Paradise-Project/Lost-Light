@@ -1,8 +1,8 @@
-﻿<Document>
-  # Wire Panels
-  Some station devices like airlocks, vending machines, and arcade consoles have wire panels, which control certain aspects of their functionality.
+<Document>
+  # Панели проводов
+  У некоторых станционных устройств, таких как шлюзы, торговые автоматы и аркадные автоматы, есть панели проводов, управляющие определёнными аспектами их работы.
 
-  These panels can be opened using a screwdriver to access the wiring inside.
+  Эти панели можно открыть отвёрткой, чтобы получить доступ к проводке внутри.
 
   <Box>
     <GuideEntityEmbed Entity="Wirecutter"/>
@@ -10,20 +10,20 @@
     <GuideEntityEmbed Entity="Multitool"/>
   </Box>
 
-  From here you can use wirecutters and a multitool to interact with the wiring. Note that interacting with the wiring often requires insulated gloves, as if the wire is live, you can get shocked.
+  Здесь можно использовать кусачки и мультитул для взаимодействия с проводкой. Учтите, что для взаимодействия с проводкой часто нужны изолированные перчатки, так как если провод под напряжением, вас может ударить током.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
 
-  You can cut and mend wires using the wirecutters and pulse wires using the multitool.
+  Провода можно резать и срастать кусачками и пульсировать мультитулом.
 
-  Cutting wires often completely disables or restores functionality to a device.
-  It may also trigger unintended functionality like shocking people, dropping door bolts, or exploding.
+  Перерезание проводов часто полностью отключает или восстанавливает функциональность устройства.
+  Это также может вызвать непреднамеренные функции, такие как удар током, падение болтов двери или взрыв.
 
-  Pulsing wires can have a variety of effects, but oftentimes it either temporarily disables or enables functionality.
+  Пульсация проводов может давать самые разные эффекты, но чаще всего она временно отключает или включает функциональность.
 
-  You can't pulse wires if the wire you're trying to pulse is cut. You have to mend the wire first.
+  Нельзя пульсировать провода, если провод, который вы пытаетесь пульсировать, перерезан. Сначала нужно срастить провод.
 
 
 </Document>

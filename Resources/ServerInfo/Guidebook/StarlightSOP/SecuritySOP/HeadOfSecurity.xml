@@ -1,14 +1,14 @@
 <Document>
-# Head of Security
+# Глава службы безопасности
 
-<GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Head of Security"/>
+<GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Глава службы безопасности"/>
 
 ### §1\n
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]коде «Зелёный»[/color]:
 
 <Box>
 	<GuideEntityEmbed Entity="WeaponSubMachineGunWt550"/>
-	or
+	или
 	<GuideEntityEmbed Entity="WeaponSubMachineGunEnergy"/>
 </Box>
 <Box>
@@ -21,7 +21,7 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
@@ -34,33 +34,33 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 
 - 2.\n
-The Head of Security is subject to both Security and Command SOP. If overlapping, Security SOP takes precedence.
+Глава службы безопасности подчиняется и СОП СБ, и СОП командования. При пересечении приоритет у СОП СБ.
 - 3.\n
-The Head of Security is first and foremost the leader of the Security Department.\n\n
+Глава службы безопасности - прежде всего руководитель отдела безопасности.\n\n
 3.1\n
-They are responsible for the proper adherence to SOP and Corporate Law of their entire department.\n\n
+Он отвечает за соблюдение СОП и корпоративного закона всем своим отделом.\n\n
 3.2\n
-They are responsible for the coordination of their department, particularly during times of crisis.\n\n
+Он отвечает за координацию своего отдела, особенно во время кризисов.\n\n
 3.3\n
-They are responsible for staying informed on matters of station safety, and must be able and willing to inform the crew as to the reasons for elevated threat levels.\n\n
+Он отвечает за то, чтобы быть в курсе вопросов безопасности станции, и должен уметь и хотеть объяснять экипажу причины повышенных уровней угрозы.\n\n
 3.4\n
-They are responsible for covering staff shortages in their department, using the following methods in order of preference:\n\n
+Он отвечает за устранение нехватки персонала в отделе, используя следующие методы в порядке предпочтения:\n\n
 3.4.1\n
-Re-assignment of existing security members.\n\n
+Перераспределение имеющихся сотрудников СБ.\n\n
 3.4.2\n
-Recruitment of new security members.\n\n
+Набор новых сотрудников СБ.\n\n
 3.4.3\n
-Performing the duties of missing subordinates on their own.
+Самостоятельное выполнение обязанностей отсутствующих подчинённых.
 - 4.\n
-The Head of Security may not engage in regular Security Officer activities if these prevent them from properly upholding §3.
+Глава службы безопасности не вправе заниматься обычной деятельностью офицера СБ, если она мешает ему должным образом соблюдать §3.
 - 5.\n
-The Head of Security must not have any disabilities or ailments, such as muteness, that overly prohibit them from upholding §3.
+Глава службы безопасности не должен иметь инвалидности или недугов, например немоты, которые чрезмерно мешают ему соблюдать §3.
 - 6.\n
-The Head of Security should refrain from combat operations unless tactically necessary, instead ensuring the strategic cohesion of their department as per §3.
+Глава службы безопасности должен воздерживаться от боевых операций, кроме тактически необходимых, вместо этого обеспечивая стратегическую слаженность своего отдела согласно §3.
 - 7.\n
-The Head of Security is cleared to confine sentenced criminals in the Brig for up to 30 minutes.\n\n
+Глава службы безопасности вправе заключать осуждённых преступников в бриг на срок до 30 минут.\n\n
 7.1\n
-The Head of Security is furthermore allowed to overrule the sentences of other members of Security as long as the sentence hasn't already been handed out to the detainee.
+Глава службы безопасности также вправе отменять приговоры других сотрудников СБ, пока приговор ещё не объявлен задержанному.
 7.2\n
-Sentences that would exceed 30 minutes may be made permanent at the Head of Security's discretion, but should be reserved for extreme cases and repeat offenders.
+Приговоры, превышающие 30 минут, могут быть сделаны бессрочными по усмотрению главы службы безопасности, но это следует приберечь для крайних случаев и рецидивистов.
 </Document>

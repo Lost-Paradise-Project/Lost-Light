@@ -6,7 +6,7 @@
   description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
   components:
   - type: BorgTransponder
-    name: engi xenoborg
+    name: borg-transponder-xenoborg-engi-name # LP edit
     sprite:
       sprite: Mobs/Silicon/Chassis/xeno_engi.rsi
       state: borg
@@ -72,7 +72,7 @@
   description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
   components:
   - type: BorgTransponder
-    name: heavy xenoborg
+    name: borg-transponder-xenoborg-heavy-name # LP edit
     sprite:
       sprite: Mobs/Silicon/Chassis/xeno_heavy.rsi
       state: borg
@@ -172,7 +172,7 @@
   description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
   components:
   - type: BorgTransponder
-    name: scout xenoborg
+    name: borg-transponder-xenoborg-scout-name # LP edit
     sprite:
       sprite: Mobs/Silicon/Chassis/xeno_scout.rsi
       state: borg
@@ -234,7 +234,7 @@
   description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
   components:
   - type: BorgTransponder
-    name: stealth xenoborg
+    name: borg-transponder-xenoborg-stealth-name # LP edit
     sprite:
       sprite: Mobs/Silicon/Chassis/xeno_stealth.rsi
       state: borg

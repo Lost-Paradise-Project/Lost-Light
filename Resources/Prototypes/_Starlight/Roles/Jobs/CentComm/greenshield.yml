@@ -8,7 +8,7 @@
     role: JobBlueShield
     time: 3h # You are a bodyguard of the highest ranking people in the sector, you have to have some experience in the closest related role.
   - !type:RolesRequirement
-    proto: ExtRolesReq
+    proto: LPGameStaffReq # LP edit
   setPreference: false
   startingGear: GSOGear
   icon: JobIconCCGreenShield

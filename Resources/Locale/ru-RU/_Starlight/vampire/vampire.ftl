@@ -32,9 +32,9 @@ vampire-sleep-shielded = Это существо нельзя усыпить и�
 vampire-sleep-protected = Нужен лучший зрительный контакт...
 
 vampire-role-greeting = Вы вампир!
-    Your blood thirst compels you to feed on crew members. Use your abilities to turn other crew.
-    Your fangs allow you to suck blood from humans. Blood will regenerate health and give you new abilities.
-    Find something to accomplish during this shift!
+    Жажда крови заставляет вас питаться членами экипажа. Используйте свои способности, чтобы обращать других.
+    Клыки позволяют вам пить кровь гуманоидов. Кровь восстанавливает здоровье и открывает новые способности.
+    Найдите, чем заняться в эту смену!
 
 # Objectives
 objective-issuer-vampire = [color=crimson]Вампир[/color]
@@ -59,16 +59,16 @@ roundend-prepend-vampire-drained-named = { $name } был самым крово�
 
 # Vampire class selection tooltips
 vampire-class-hemomancer-tooltip = Гемомант
-    Focuses on blood magic and the manipulation of blood around you
+    Специализируется на магии крови и управлении кровью вокруг
 
 vampire-class-umbrae-tooltip = Умбра
-    Focuses on darkness, stealth ambushing and mobility
+    Специализируется на тьме, скрытных засадах и мобильности
 
 vampire-class-gargantua-tooltip = Гаргантюа
-    Focuses on tenacity and melee damage
+    Специализируется на стойкости и ближнем бою
 
 vampire-class-dantalion-tooltip = Дантальон
-    Focuses on thralling and illusions
+    Специализируется на порабощении и иллюзиях
 
 # Hemomancer abilities
 action-vampire-hemomancer-tendrils-wrong-place = Здесь нельзя применить.

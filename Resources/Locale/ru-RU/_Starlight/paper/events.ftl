@@ -1,24 +1,24 @@
 paper-too-quiet-need-chaos = Вам не кажется, что эта смена была слишком тихой?
-                             Want a little action to spice up the day?
+                             Хотите немного движухи, чтобы скрасить день?
 
-                             If you would like to join the NanoTrasen Experimental Division to immediately undergo some potentially severe tests for the sake of science and future profit.... then we got the thing just for you!
+                             Если вы хотите вступить в Экспериментальный отдел NanoTrasen и немедленно пройти потенциально жёсткие испытания ради науки и будущей прибыли... то у нас есть кое-что как раз для вас!
 
-                             { "[bold] Collect the signatures of 9 Mindshielded crew to begin the experiment. [/bold]" }
+                             { "[bold] Соберите подписи 9 членов экипажа со щитом разума, чтобы начать эксперимент. [/bold]" }
 
-                             Don't ask how we got this experimental paper inside this locker. Yes, CentComm is totally aware we did this.
+                             Не спрашивайте, как эта экспериментальная бумага оказалась в шкафчике. Да, ЦентКом полностью в курсе.
 
-                             For the glory of NanoTrasen
+                             Во славу NanoTrasen
 
 paper-too-quiet-need-chaos-few = Вам не кажется, что эта смена была слишком тихой?
-                                 Want a little action to spice up the day?
+                                 Хотите немного движухи, чтобы скрасить день?
 
-                                 If you would like to join the NanoTrasen Experimental Division to immediately undergo some potentially severe tests for the sake of science and future profit.... then we got the thing just for you!
+                                 Если вы хотите вступить в Экспериментальный отдел NanoTrasen и немедленно пройти потенциально жёсткие испытания ради науки и будущей прибыли... то у нас есть кое-что как раз для вас!
 
-                                 { "[bold] Collect the signatures of 3 Mindshielded crew to begin the experiment. [/bold]" }
+                                 { "[bold] Соберите подписи 3 членов экипажа со щитом разума, чтобы начать эксперимент. [/bold]" }
 
-                                 Don't ask how we got this experimental paper inside this locker. Yes, CentComm is totally aware we did this.
+                                 Не спрашивайте, как эта экспериментальная бумага оказалась в шкафчике. Да, ЦентКом полностью в курсе.
 
-                                 For the glory of NanoTrasen
+                                 Во славу NanoTrasen
 
 doc-text-printer-station-location = Здравствуйте, мне не положено вам это говорить, но мы случайно блюспейснули вашу станцию в космос, союзный НТ. Мы оставили в шкафчике вашего КМ достаточно спесо на хорошую пиццу-вечеринку.                                                                                                             [color=white].[/color]                                   — Офицер исправительной службы НТЦК «Зависть»
 

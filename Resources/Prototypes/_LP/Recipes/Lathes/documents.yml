@@ -254,7 +254,7 @@
   id: RecipeDocVOLOComplaints
   result: DocVOLOComplaints
   categories:
-    - Complaintst
+    - Complaints
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -384,7 +384,7 @@
   id: RecipeDocCAOComplaints
   result: DocCAOComplaints
   categories:
-    - Complaintst
+    - Complaints
   completetime: 2
   applyMaterialDiscount: false
   materials:

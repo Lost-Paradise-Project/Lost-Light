@@ -1,15 +1,15 @@
 <Document>
-# Assistant Manager
+# Менеджер ассистентов
 
-<GuideEntityEmbed Entity="ToyFigurineAssistant" Caption="Assistant Manager"/>
+<GuideEntityEmbed Entity="ToyFigurineAssistant" Caption="Менеджер ассистентов"/>
 
-1. Assistant Managers report directly to the Captain, and answer to all Command members.
+1. Менеджеры ассистентов подчиняются напрямую капитану и отвечают перед всеми членами командования.
 
-2. The Assistant Manager is responsible for coordinating Assistants and delegating tasks out to them.
+2. Менеджер ассистентов отвечает за координацию ассистентов и распределение им задач.
 
-3. Assistant Managers are to coordinate with the station's departments to ensure efficient assignment of Assistants to where they are needed.
+3. Менеджеры ассистентов должны координироваться с отделами станции, чтобы обеспечить эффективное направление ассистентов туда, где они нужны.
 
-4. Assistant Managers must not modify the IDs of non-Assistants.
+4. Менеджеры ассистентов не должны изменять ID-карты не-ассистентов.
 
-5. Assistant Managers are NOT part of Command, and their authority is limited to managing Assistants only.
+5. Менеджеры ассистентов НЕ входят в командование, и их полномочия ограничены управлением только ассистентами.
 </Document>

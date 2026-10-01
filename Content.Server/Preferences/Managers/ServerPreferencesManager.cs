@@ -73,7 +73,7 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (!IsSlotAllowed(userId, prefsData.Prefs!, slot)) // LP edit - слоты персонажей по ролям
                 return;
 
             var curPrefs = prefsData.Prefs!;
@@ -156,7 +156,7 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (!IsSlotAllowed(userId, prefsData.Prefs!, slot)) // LP edit - слоты персонажей по ролям
             {
                 return;
             }

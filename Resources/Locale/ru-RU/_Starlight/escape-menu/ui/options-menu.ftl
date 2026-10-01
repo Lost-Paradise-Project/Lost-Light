@@ -8,15 +8,15 @@ server-info-connect-steam-button = Привязать Steam
 
 ui-options-trace = Показывать трассу пули
 ui-options-trace-tooltip = Если при стрельбе лагает, снимите этот флажок,
-                           and the hitscan won't display the texture of the smoke behind the flying bullet.
+                           и хитскан перестанет рисовать дымный след за летящей пулей.
 
 ui-options-holes = Показывать следы от пуль
 ui-options-holes-tooltip = Если при стрельбе лагает, снимите этот флажок,
-                           and the hitscan won't display the texture of the bullet holes.
+                           и хитскан перестанет рисовать следы от пуль.
 
 ui-options-sparks = Показывать искры
 ui-options-sparks-tooltip = Если при стрельбе лагает, снимите этот флажок,
-                           and the hitscan won't display sparks when the bullet hits a surface.
+                           и хитскан перестанет рисовать искры при попадании пули в поверхность.
 
 ## Accessibility
 

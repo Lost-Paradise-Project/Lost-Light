@@ -1,21 +1,21 @@
 <Document>
-# Chief Medical Officer
+# Главный врач
 
-<GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Chief Medical Officer"/>
+<GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Главный врач"/>
 
-1. The standard Command SOP applies.
+1. Действует стандартный СОП командования.
 
-2. The Chief Medical Officer is responsible for training or assigning a trainer to any and all Medical Interns.
+2. Главный врач отвечает за обучение всех интернов медицинского отдела или назначение для них наставника.
 
-3. The Syringe Gun is for emergencies only, and should not be used below [color=#ff0000]Code Red[/color].
-- 1. The syringes for the syringe gun may be prepared ahead of time.
+3. Шприцемёт предназначен только для чрезвычайных ситуаций и не должен использоваться ниже кода [color=#ff0000]«Красный»[/color].
+- 1. Шприцы для шприцемёта можно подготовить заранее.
 
-4. The Chief Medical Officer may not allow any major contraband chemicals to leave medbay or the chemical lab without a [italic]permission to carry chemicals form[/italic] stamped by the HoS, Captain or acting Captain.
-- 1. This form will not be required in the case of imminent station danger.
-- 2. This form will specify the following:
-Quantity of chemical, frequency of creation, date, time and signature of the Captain or acting Captain.
+4. Главный врач не вправе разрешать выносить крупные контрабандные химикаты из медбея или химической лаборатории без [italic]формы разрешения на перенос химикатов[/italic], заверенной печатью ГСБ, капитана или исполняющего обязанности капитана.
+- 1. Эта форма не требуется при непосредственной опасности для станции.
+- 2. В этой форме указываются:
+Количество химиката, частота производства, дата, время и подпись капитана или исполняющего обязанности капитана.
 
-5. The Chief Medical Officer should wear clothing clearly identifying them as the Chief Medical Officer. (Mantle, cape, hat, etc.)
+5. Главный врач должен носить одежду, по которой его ясно можно опознать как главного врача (мантия, плащ, шляпа и т. п.).
 
-6. The Chief Medical Officer may request any additional documentation they deem necessary to protect patient health.
+6. Главный врач может запросить любую дополнительную документацию, которую сочтёт необходимой для защиты здоровья пациентов.
 </Document>

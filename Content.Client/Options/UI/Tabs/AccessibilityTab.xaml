@@ -20,6 +20,7 @@
                     Example="{Loc 'ui-options-highlights-color-example'}"/>
                 <Label Text="{Loc 'ui-options-accessability-header-content'}"
                        StyleClasses="LabelKeyText"/>
+                <!-- LP edit - убрана цензура наготы (нижнее бельё) -->
                 <CheckBox Name="ArachnophobiaCheckBox" Text="{Loc 'ui-options-arachnophobia'}" /> <!-- Starlight -->
                 <CheckBox Name="DisableJobIconAnimationCheckBox" Text="{Loc 'ui-options-disable-job-icon-animation'}" /> <!-- Starlight -->
             </BoxContainer>

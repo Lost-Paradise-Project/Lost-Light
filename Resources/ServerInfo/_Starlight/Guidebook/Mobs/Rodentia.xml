@@ -1,54 +1,54 @@
 <Document>
-    # Rodentia
+    # Грызуны
 
     <Box>
         <GuideEntityEmbed Entity="MobRodentia" Caption=""/>
     </Box>
-    [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
+    [color=#ffa500]Внимание! Эта раса не рекомендуется новичкам из-за серьёзных изменений в геймплее![/color]
 
-    Rodentia are a race of humanoid beings resembling rodents. Resourceful, evasive, sneaky, but fragile.
+    Грызуны - раса гуманоидных существ, напоминающих грызунов. Находчивые, увёртливые, скрытные, но хрупкие.
 
-    ## Language
-    Rodentia have perfected their own tongue called [bold]Squeakish[/bold]. This allows them to communicate to each other in private.
+    ## Язык
+    Грызуны довели до совершенства собственный язык, называемый [bold]писклявым[/bold]. Он позволяет им общаться друг с другом приватно.
 
-    ## Names
-    Rodentia are named with a descriptor first, followed by a more typical first name.
+    ## Имена
+    Грызунов называют сначала описательным словом, затем более обычным именем.
 
-    ## Sounds
-    Despite being the size of a dwarf, Rodentia possess the vocal cords resembling a small mouse.
+    ## Звуки
+    Несмотря на размеры дворфа, у грызунов голосовые связки, похожие на связки маленькой мыши.
 
-    ## Nimble
-    Rodentia are quite nimble and can use this to their advantage by [color=yellow]Sneaking[/color]. When [color=yellow]Sneaking[/color],
-    Rodentia can move freely underneath tables where other species can't fit. They can use this to their advantage to escape from a predator,
-    or hide from a pesky security officer. While underneath tables, Rodentia are limited to the actions that they can take - it's cramped down there!
+    ## Проворство
+    Грызуны весьма проворны и могут использовать это себе на пользу, [color=yellow]подкрадываясь[/color]. [color=yellow]Подкрадываясь[/color],
+    грызуны могут свободно двигаться под столами, куда другие расы не пролезают. Это можно использовать, чтобы убежать от хищника
+    или спрятаться от назойливого офицера СБ. Под столами грызуны ограничены в действиях, которые могут совершать - там тесно!
 
-    ## Mouth Storage
-    Rodentia are able to put small items into their mouth for storage. This will obfuscate their speech, and if they are attacked or
-    slip, the items will fall from their mouth.
+    ## Хранение во рту
+    Грызуны могут класть мелкие предметы в рот для хранения. Это искажает их речь, а если на них нападают или они
+    подскальзываются, предметы выпадают изо рта.
 
-    ## Diet
-    Rodentia are a ravenous species, and are constantly on the hunt for food. They will often find themselves getting hungrier [bold]33% Faster[/bold] than other species.
-    However, Rodentia aren't picky eaters. They can consume both raw and cooked meats, as well as food and drink containing Theobromine and Allicin, like Chocolate, Tea,
-    Coffee, Onions or Garlic.
+    ## Рацион
+    Грызуны - прожорливая раса, они постоянно ищут еду. Они часто голодают [bold]на 33% быстрее[/bold], чем другие расы.
+    Однако грызуны не привередливы в еде. Они могут есть и сырое, и приготовленное мясо, а также еду и напитки с теобромином и аллицином, такие как шоколад, чай,
+    кофе, лук или чеснок.
 
-    ## Rummage
-    Using their scavenging skills, Rodentia can rummage through [bold]Disposal Chutes[/bold] to find food.
+    ## Копание
+    Используя навыки собирательства, грызуны могут рыться в [bold]мусоропроводах[/bold] в поисках еды.
 
-    ## Mousetrap Vulnerability
-    Despite being the size of a dwarf, Rodentia have always been vulnerable to mousetraps. They will trigger any mousetrap
-    they step on, whether they are wearing shoes or not. Watch your step!
+    ## Уязвимость к мышеловкам
+    Несмотря на размеры дворфа, грызуны всегда были уязвимы к мышеловкам. Они срабатывают на любую мышеловку,
+    на которую наступают, в обуви они или нет. Смотрите под ноги!
 
-    ## Claw attack
-    Rodentia are able to slash at others with their claws.
-    These attacks deal [color=red]5[/color] points of Slash damage with a hit rate that is the same as a human's fists attack.
+    ## Атака когтями
+    Грызуны могут рубить других когтями.
+    Эти атаки наносят [color=red]5[/color] единиц режущего урона со скоростью ударов, такой же, как у атаки человеческими кулаками.
 
-    ## Weapon Knockback
-    Rodentia are very lightweight, and as such take so much knockback from large caliber weapons that they get pushed around.
-    Rodentia also will receive [color=yellow]Stun Damage[/color] from large caliber weapons for each shot.
-    In general, the weapons that will give you knockback are [color=yellow]Rifles, Sniper Rifles, Shotguns, LMGs, HMGs, and Grenade Launchers.[/color]
-    Look out especially on Rocket launchers, as since they are recoil-less, you will actually get [color=red]pulled forward with the rocket[/color] for a short distance.
-    The safest weapons to use that will give you no knockback are [color=green]Pistols and SMGs[/color].
-    No slips can help mitigate some of the knockback from firing weapons, but not all of it!
-    Also keep in mind that any stamina resistance you have DOES work to reduce the stamina damage from these weapons.
+    ## Отдача оружия
+    Грызуны очень лёгкие, и потому получают от оружия крупного калибра такую отдачу, что их отталкивает.
+    Грызуны также получают [color=yellow]урон оглушения[/color] от оружия крупного калибра за каждый выстрел.
+    В целом оружие, дающее отдачу: [color=yellow]винтовки, снайперские винтовки, дробовики, ЛПК, ТПК и гранатомёты.[/color]
+    Особенно остерегайтесь ракетниц: так как они безоткатные, вас на самом деле [color=red]потянет вперёд вместе с ракетой[/color] на небольшое расстояние.
+    Самое безопасное оружие, не дающее отдачи, - [color=green]пистолеты и ПП[/color].
+    Отсутствие подскальзывания может смягчить часть отдачи от стрельбы, но не всю!
+    Также помните, что любое ваше сопротивление выносливости РАБОТАЕТ и снижает урон выносливости от этого оружия.
 
 </Document>

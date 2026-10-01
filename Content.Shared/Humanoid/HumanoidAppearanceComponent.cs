@@ -104,6 +104,7 @@ public sealed partial class HumanoidAppearanceComponent : Component
     [DataField]
     public HashSet<HumanoidVisualLayers> HideLayersOnEquip = [HumanoidVisualLayers.Hair];
 
+    // LP edit - убрана цензура наготы (нижнее бельё)
     /// <summary>
     /// The profile that this entity was originally spawned with.
     /// If null, the entity was not spawned with a profile.

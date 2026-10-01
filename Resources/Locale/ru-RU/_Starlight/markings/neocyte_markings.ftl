@@ -84,15 +84,15 @@ marking-NeoThavenLights-body = Круглые светодиоды
 marking-NeoThavenMediumArmor = Стандартная кибернетика неоцита-тавена
 marking-NeoThavenMediumArmor-medium = Стандартная кибернетика неоцита-тавена
 
-marking-NeoSlimePersonVisor = Визор ласпи
-marking-NeoSlimePersonVisor-visor = Визор ласпи
-marking-NeoSlimePersonLEDFace = Стандартные светодиоды ласпи
-marking-NeoSlimePersonLEDFace-face = Стандартные светодиоды ласпи
+marking-NeoSlimePersonVisor = Визор слаймолюда
+marking-NeoSlimePersonVisor-visor = Визор слаймолюда
+marking-NeoSlimePersonLEDFace = Стандартные светодиоды слаймолюда
+marking-NeoSlimePersonLEDFace-face = Стандартные светодиоды слаймолюда
 marking-NeoSlimePersonLights = Круглые светодиоды
 marking-NeoSlimePersonLights-body = Круглые светодиоды
 
-marking-NeoSlimePersonMediumArmor = Стандартная кибернетика неоцита-ласпи
-marking-NeoSlimePersonMediumArmor-medium = Стандартная кибернетика неоцита-ласпи
+marking-NeoSlimePersonMediumArmor = Стандартная кибернетика неоцита-слаймолюда
+marking-NeoSlimePersonMediumArmor-medium = Стандартная кибернетика неоцита-слаймолюда
 
 marking-NeoKinVisor = Визор кин
 marking-NeoKinVisor-visor = Визор кин

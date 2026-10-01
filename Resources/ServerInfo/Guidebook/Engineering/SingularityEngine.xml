@@ -1,34 +1,34 @@
-﻿<Document>
-  # Singularity Engine
-  The Singularity Engine is a powerful generator that uses a contained singularity to produce energy for the station.
+<Document>
+  # Двигатель сингулярности
+  Двигатель сингулярности - мощный генератор, использующий удерживаемую сингулярность для производства энергии для станции.
 
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator"/>
     <GuideEntityEmbed Entity="Singularity"/>
   </Box>
 
-  It generates power by collecting the radiation emitted by the singularity using Radiation Collectors and gaseous plasma.
+  Он вырабатывает энергию, собирая радиацию, излучаемую сингулярностью, с помощью радиационных коллекторов и газообразной плазмы.
 
-  ## Starting the Singularity Engine
-  To start the Singularity Engine, engineers must follow these steps:
-  - Place the Singularity Generator in the middle of the containment field. Some stations start with the generator already in place, while others require engineers to bring it from cold storage.
-  - Turn on the four Containment Field Generators.
-  - Turn on and lock the Emitters.
-  - Confirm that the Containment Field Generators have created a Containment Field around the Singularity.
-  - Turn on the Radiation Collectors. These require plasma to produce power. They might not come fueled, so be sure to refill them.
-  - Construct the Particle Accelerator.
-  - Turn on the Particle Accelerator Control Computer and set the power level to the desired power level.
+  ## Запуск двигателя сингулярности
+  Чтобы запустить двигатель сингулярности, инженерам нужно выполнить следующие шаги:
+  - Поставить генератор сингулярности в центр поля сдерживания. На некоторых станциях генератор уже на месте, на других инженерам нужно принести его с холодного склада.
+  - Включить четыре генератора поля сдерживания.
+  - Включить и заблокировать эмиттеры.
+  - Убедиться, что генераторы поля сдерживания создали поле сдерживания вокруг сингулярности.
+  - Включить радиационные коллекторы. Для выработки энергии им нужна плазма. Они могут не прийти заправленными, так что обязательно заправьте их.
+  - Построить ускоритель частиц.
+  - Включить компьютер управления ускорителем частиц и установить нужный уровень мощности.
 
-  Once these steps are complete, the Singularity Engine will start producing power for the station.
-  Be sure to monitor the singularity's power level and containment field to prevent it from escaping and destroying the station.
-  Check in to refill the collectors often, as they will run out of plasma over time.
+  Когда эти шаги выполнены, двигатель сингулярности начнёт вырабатывать энергию для станции.
+  Обязательно следите за уровнем мощности сингулярности и полем сдерживания, чтобы она не вырвалась и не уничтожила станцию.
+  Почаще проверяйте и заправляйте коллекторы, так как плазма со временем закончится.
 
-  ## Containment Field
-  To prevent the singularity from escaping and destroying the station, engineers must contain it within a Containment Field.
+  ## Поле сдерживания
+  Чтобы сингулярность не вырвалась и не уничтожила станцию, инженеры должны удерживать её в поле сдерживания.
 
-  It is suggested to use a max size containment field for the singularity. Any smaller and the singularity may outgrow its field and escape.
+  Для сингулярности рекомендуется использовать поле сдерживания максимального размера. Если меньше, сингулярность может перерасти своё поле и вырваться.
 
-  Containment field generators should be arranged in a square, with 7 tiles of spacing between each field generator.
+  Генераторы поля сдерживания нужно расставить квадратом, с 7 тайлами между каждым генератором поля.
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
@@ -36,42 +36,42 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
   </Box>
 
-  ## Power Levels and Decay
-  Because singularities emit radiation, they decay, losing power over time.
+  ## Уровни мощности и распад
+  Поскольку сингулярности излучают радиацию, они распадаются, теряя мощность со временем.
 
-  To counter this decay, the Particle Accelerator emits particles that collide with the singularity, feeding and sustaining it.
+  Чтобы противодействовать этому распаду, ускоритель частиц испускает частицы, сталкивающиеся с сингулярностью, питая и поддерживая её.
 
-  Singularities have defined power levels, which determine their radiation output.
-  Engineers can increase or decrease the singularity's power level by adjusting the power level on the Particle Accelerator Control Computer.
+  У сингулярностей есть определённые уровни мощности, определяющие их радиационное излучение.
+  Инженеры могут повышать или понижать уровень мощности сингулярности, регулируя уровень мощности на компьютере управления ускорителем частиц.
 
-  Particle Accelerators normally operate between power levels 1 and 3, which translate to a power level of 1 to 3 on the singularity.
+  Ускорители частиц обычно работают на уровнях мощности от 1 до 3, что соответствует уровню мощности сингулярности от 1 до 3.
 
-  Power levels also determine how big the singularity is, with higher power levels sustaining larger singularities capable of producing more power.
+  Уровни мощности также определяют размер сингулярности: более высокие уровни мощности поддерживают более крупные сингулярности, способные производить больше энергии.
 
-  ## Producing Power
-  The Singularity Engine produces power by capturing the radiation emitted by it using Radiation Collectors.
+  ## Выработка энергии
+  Двигатель сингулярности вырабатывает энергию, улавливая излучаемую ею радиацию с помощью радиационных коллекторов.
   <Box>
     <GuideEntityEmbed Entity="RadiationCollector"/>
     <GuideEntityEmbed Entity="PlasmaTank"/>
   </Box>
-  They require gaseous plasma to function. The plasma containers attached to the collectors must be filled with plasma to produce power.
+  Для работы им нужна газообразная плазма. Ёмкости с плазмой, прикреплённые к коллекторам, должны быть заполнены плазмой, чтобы вырабатывать энергию.
 
-  You can turn on the collectors by interacting with them using [color=yellow][bold][keybind="Use"][/bold][/color].
+  Коллекторы можно включить, взаимодействуя с ними с помощью [color=yellow][bold][keybind="Use"][/bold][/color].
 
-  You can also eject the tank by interacting with the collector using [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
-  From here, you can refill the tank with plasma using a plasma canister and reinsert it into the collector.
+  Также можно извлечь баллон, взаимодействуя с коллектором с помощью [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+  Затем можно пополнить баллон плазмой из плазменного баллона и вставить его обратно в коллектор.
 
-  The maximum power the radiation collector can produce is determined by:
-  - The amount of radiation it is capturing (which is effectively the Singularity's power level)
-  - The amount of plasma it has in its connected tank
+  Максимальная мощность, которую может выработать радиационный коллектор, определяется:
+  - Количеством захватываемой радиации (по сути - уровнем мощности сингулярности)
+  - Количеством плазмы в подключённом баллоне
 
-  Over time the collector will drain the tank of plasma, which reduces it's effective power output.
-  Eventually the tank will be empty, and the collector will stop producing power. Be sure to refill the tank often!
+  Со временем коллектор будет расходовать плазму из баллона, что снижает его эффективную выходную мощность.
+  В конце концов баллон опустеет, и коллектор перестанет вырабатывать энергию. Обязательно часто пополняйте баллон!
 
-  ## Radiation Protection
-  The singularity emits a massive amount of radiation, which can kill crew members who are not wearing proper protection.
-  Be sure to wear a radiation suit or an engineering hardsuit when working near the singularity.
-  This won't completely negate the radiation, but it will reduce the damage you take.
+  ## Защита от радиации
+  Сингулярность излучает огромное количество радиации, которая может убить членов экипажа без надлежащей защиты.
+  Обязательно надевайте радиационный костюм или инженерный хардсьют, работая рядом с сингулярностью.
+  Это не устранит радиацию полностью, но снизит получаемый вами урон.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitEngineering"/>
@@ -83,23 +83,23 @@
     <GuideEntityEmbed Entity="GeigerCounter"/>
   </Box>
 
-  The Chief Engineer has a special hardsuit that negates all radiation damage, which allows them to work near the singularity without fear of accumulating radiation damage over time.
+  У старшего инженера есть особый хардсьют, полностью нейтрализующий урон от радиации, что позволяет ему работать рядом с сингулярностью, не опасаясь накопления радиационного урона со временем.
 
-  ## Singularity Properties
-  The Singularity has several properties, which both make it dangerous and useful for power generation:
-  - It has a strong gravitational pull that can suck in objects and crew members.
-  - It has an event horizon, which can permanently destroy any object that touches it, whether it be a crew member or station equipment. Any object swallowed by the singularity is lost forever, and feeds the singularity.
-  - It constantly emits radiation that can harm crew members who aren't wearing proper protection.
-  - The singularity can decay over time, losing power and radiation output.
+  ## Свойства сингулярности
+  У сингулярности есть несколько свойств, которые делают её одновременно опасной и полезной для выработки энергии:
+  - У неё сильное гравитационное притяжение, способное затягивать предметы и членов экипажа.
+  - У неё есть горизонт событий, который может навсегда уничтожить любой коснувшийся его объект, будь то член экипажа или станционное оборудование. Любой объект, поглощённый сингулярностью, теряется навсегда и питает сингулярность.
+  - Она постоянно излучает радиацию, которая может навредить членам экипажа без надлежащей защиты.
+  - Сингулярность может распадаться со временем, теряя мощность и радиационное излучение.
 
-  ## Loosed Singularity (Singuloose)
-  If the singularity escapes its containment field, it will begin to consume the station, destroying everything in its path.
-  The more it consumes, the larger it grows, making it harder to potentially contain it again.
+  ## Сорвавшаяся сингулярность (сингулуз)
+  Если сингулярность вырвется из поля сдерживания, она начнёт поглощать станцию, уничтожая всё на своём пути.
+  Чем больше она поглощает, тем больше растёт, из-за чего потенциально труднее снова её удержать.
 
-  The singularity can be destroyed by firing antiparticles at it using a Portable Particle Decelerator, but this is a risky and dangerous operation that requires careful planning and execution.
-  Often multiple decelerators firing at once are needed to destroy a singularity.
+  Сингулярность можно уничтожить, стреляя в неё античастицами из переносного замедлителя частиц, но это рискованная и опасная операция, требующая тщательного планирования и исполнения.
+  Часто для уничтожения сингулярности требуется несколько замедлителей, стреляющих одновременно.
 
-  Portable Particle Decelerators can be either researched and made by the Research Department, or they can be bought from Cargo.
+  Переносные замедлители частиц можно либо исследовать и сделать в научном отделе, либо купить в карго.
 
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>

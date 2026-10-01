@@ -1,53 +1,53 @@
 <Document>
-  # Abductors
+  # Похитители
 
   <Box>
     [color=#999999][italic]" ..."[/italic][/color]
   </Box>
-  Abductors are an alien society set on cataloging and experimenting on the sectors personnel.
-  Its important to note: Abductors, unlike most antagonists are [color=red]NOT set on killing people[/color] and are exclusively interested in completing their experiments.
+  Похитители - инопланетное общество, стремящееся каталогизировать персонал сектора и ставить на нём опыты.
+  Важно отметить: в отличие от большинства антагонистов, похитители [color=red]НЕ нацелены на убийство людей[/color] и интересуются исключительно завершением своих экспериментов.
 
-  Abductors must make every attempt to leave no trace and avoid detection while doing their task. Whether it be abductions or retrieval of emergency supplies.
-  Similarly, abductors must never intervene in events on the station if at all avoidable, even if this means the end of the experiment, as otherwise said experiment's impurity would make it useless for the mothership's research.
+  Похитители должны делать всё возможное, чтобы не оставлять следов и избегать обнаружения при выполнении своей задачи. Будь то похищения или добыча аварийных припасов.
+  Аналогично, похитители ни при каких условиях не должны вмешиваться в события на станции, если этого можно избежать, даже если это означает конец эксперимента, так как иначе нечистота эксперимента сделает его бесполезным для исследований материнского корабля.
 
-  Abductors do not possess the ability to speak and therefore communicate through more... mime-like methods.
-  They do however have a hivemind: "+q"
+  Похитители не способны говорить и поэтому общаются более... мимическими методами.
+  Однако у них есть общий разум: «+q»
 
-  Abductors are [color=red]NOT[/color] to steal any items from crew or the station.
-  However, there are rare exceptions. Abductors may steal in order to:
-  - Repair their shuttle
-  - Get more meds to heal due to [italic]somehow[/italic] running out
-  - Get more surgical tools if they [italic]somehow[/italic] lost theirs.
-  - Stealing stun baton as a solo abductor or when a wonderprod cannot be obtained.
-  - Other very specific emergency cases where theft HAS to be done to prevent issues in what abductors normally do.
+  Похитителям [color=red]НЕЛЬЗЯ[/color] красть какие-либо предметы у экипажа или станции.
+  Однако бывают редкие исключения. Похитители могут красть, чтобы:
+  - Починить свой шаттл
+  - Получить больше лекарств для лечения из-за того, что они [italic]каким-то образом[/italic] закончились
+  - Получить больше хирургических инструментов, если они [italic]каким-то образом[/italic] потеряли свои.
+  - Украсть дубинку-шокер, если похититель действует в одиночку или не удалось получить чудо-стержень.
+  - Другие очень конкретные экстренные случаи, когда кража НЕОБХОДИМА, чтобы предотвратить проблемы в том, что похитители обычно делают.
 
-  [color=red]AHELP[/color] if you are unsure.
+  [color=red]АХЕЛП[/color], если не уверены.
 
-  ##Abduction
-  Abductors begin on their ship somewhere near the station. Using the [color=#a149bf]"Human Observation Console"[/color] you can seek out victims who are alone and [color=lightblue]warp[/color] near them to begin abduction.
+  ##Похищение
+  Похитители начинают на своём корабле где-то рядом со станцией. С помощью [color=#a149bf]«Консоли наблюдения за людьми»[/color] можно искать одиноких жертв и [color=lightblue]телепортироваться[/color] рядом с ними, чтобы начать похищение.
 
-  The wonderprod is the primary tool of an Abductor. It has four modes you will use for abduction:
-  - [color=yellow]{Stun}[/color] Stuns the victim for roughly 5 seconds.
-  - [color=pink]{Restrain}[/color] binds the victims hands in weak cables.
-  - [color=blue]{Sleep}[/color] Induces a sleep-like state in the victim.
-  - [color=red]{Harm}[/color] Burns the target, dealing damage. [bold]ONLY USE IF YOU MUST.[/bold]
+  Чудо-стержень - основной инструмент похитителя. У него четыре режима, которые вы будете использовать для похищения:
+  - [color=yellow]{Оглушение}[/color] оглушает жертву примерно на 5 секунд.
+  - [color=pink]{Сковывание}[/color] связывает жертве руки слабыми кабелями.
+  - [color=blue]{Сон}[/color] вызывает у жертвы состояние, подобное сну.
+  - [color=red]{Вред}[/color] обжигает цель, нанося урон. [bold]ИСПОЛЬЗУЙТЕ ТОЛЬКО ЕСЛИ НЕОБХОДИМО.[/bold]
 
-  Once a target is immobilized you can use the [italic]gizmo[/italic] to implant them with a nano tracker, return to your ship using the [color=lightblue]return action[/color], then use the gizmo on your [color=#a149bf]Abductor Console[/color].
+  Когда цель обездвижена, можно использовать [italic]штуковину[/italic], чтобы имплантировать ей нанотрекер, вернуться на корабль с помощью [color=lightblue]действия возврата[/color], затем использовать штуковину на вашей [color=#a149bf]консоли похитителя[/color].
 
-  ##Experimentation
-  Once you have linked the most recent nano tracker to the console, select [bold]{ATTRACT}[/bold] to warp your victim to your ship.
+  ##Эксперименты
+  Когда вы связали последний нанотрекер с консолью, выберите [bold]{ПРИТЯНУТЬ}[/bold], чтобы телепортировать жертву на свой корабль.
 
-  Now that you have your victim aboard, its recommended you:
-  - Buckle them to your surgical table.
-  - Change out their cuffs for a higher grade of handcuffs provided on the ship.
-  - Remove any of their belongings that could damage you or the secrecy of the experiment.
-  - Use your vast surgical knowledge to replace their heart with a gland.
-  - Give them back their primitive technology.
+  Когда жертва на борту, рекомендуется:
+  - Пристегнуть её к хирургическому столу.
+  - Заменить её наручники на более качественные, имеющиеся на корабле.
+  - Убрать любые её вещи, способные навредить вам или секретности эксперимента.
+  - Использовать свои обширные хирургические знания, чтобы заменить её сердце на железу.
+  - Вернуть ей её примитивные технологии.
 
-  Finally, drag the victim whom you have completed your experiment on into the [color=#a149bf]Experimentator[/color] to confirm the results of the experiment on the [color=#a149bf]Abductor Console[/color] and send them back where you found them.
+  Наконец, перетащите жертву, на которой вы завершили эксперимент, в [color=#a149bf]экспериментатор[/color], чтобы подтвердить результаты эксперимента на [color=#a149bf]консоли похитителя[/color], и отправьте её туда, где вы её нашли.
 
-  ##Getting rid of an Abductor
-  Like [textlink="Changelings" link="Changelings"], Abductors are not protected by [textlink="corporate law" link="CorporateLaw"] and are able to be executed freely.
+  ##Избавление от похитителя
+  Как и [textlink="генокрады" link="Changelings"], похитители не защищены корпоративным законом, и их можно свободно казнить.
 
-  Also, an abductor's ship is a physical object in the world, anyone with access to a space-faring ship such as [textlink="salvage" link="Salvage"] can bump into them in space and dismantle their ship.
+  Также корабль похитителя - физический объект в мире: любой, у кого есть доступ к космическому кораблю, например [textlink="утилизаторы" link="Salvage"], может столкнуться с ним в космосе и разобрать корабль.
 </Document>

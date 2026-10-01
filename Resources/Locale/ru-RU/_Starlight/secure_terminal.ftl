@@ -121,7 +121,7 @@ secure-terminal-security-name = Служба безопасности
 
 secure-terminal-warops-security-name = Ядерная группа реагирования
 secure-terminal-warops-security-desc = Направляет отряд СБ ОБР, специализированный на военных операциях. Доступно только во время военных операций.
-                                       Use when the station is under direct armed assault during a declared War Ops.
+                                       Используйте, когда станция подвергается прямому вооружённому нападению во время объявленной военной операции.
 secure-terminal-warops-security-announcement = Отряд быстрого реагирования — специализированный отряд СБ — авторизован и уже в пути. Расчётное время прибытия: 30 минут.
 
 secure-terminal-ert-security-name = СБ ОБР
@@ -130,22 +130,22 @@ secure-terminal-ert-security-announcement = Отряд быстрого реаг
 
 secure-terminal-ert-engineering-name = Инженеры ОБР
 secure-terminal-ert-engineering-desc = Направляет инженерный отряд ОБР для помощи с критической инфраструктурой станции.
-    Recommended when the station has suffered catastrophic structural, atmospheric, or power failures beyond local repair capacity.
+    Рекомендуется, если станция понесла катастрофические конструкционные, атмосферные или энергетические повреждения, которые не устранить своими силами.
 secure-terminal-ert-engineering-announcement = Отряд быстрого реагирования — инженерный отряд — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
 secure-terminal-ert-medical-name = Медики ОБР
 secure-terminal-ert-medical-desc = Направляет медицинский отряд ОБР для сортировки при массовых потерях и экстренных операций.
-    Recommended when the station's medical department is overwhelmed, incapacitated, or destroyed.
+    Рекомендуется, если медицинский отдел станции перегружен, недееспособен или уничтожен.
 secure-terminal-ert-medical-announcement = Отряд быстрого реагирования — медицинский отряд — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
 secure-terminal-ert-janitorial-name = Уборщики ОБР
 secure-terminal-ert-janitorial-desc = Направляет отряд уборщиков ОБР для устранения опасных загрязнений и восстановления станции.
-    Recommended following large-scale biological, chemical, or environmental contamination requiring rapid decontamination.
+    Рекомендуется после масштабного биологического, химического или экологического заражения, требующего быстрой дезактивации.
 secure-terminal-ert-janitorial-announcement = Отряд быстрого реагирования — отряд уборщиков — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
 secure-terminal-ert-chaplain-name = Капеллан ОБР
 secure-terminal-ert-chaplain-desc = Направляет капеллана ОБР для поддержки морального духа экипажа и последнего напутствия.
-    Provides pastoral support and maintains crew morale during prolonged emergencies.
+    Обеспечивает духовную поддержку и сохраняет боевой дух экипажа при затяжных чрезвычайных ситуациях.
 secure-terminal-ert-chaplain-announcement = Отряд быстрого реагирования — капелланская служба — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
 secure-terminal-ert-cburn-name = ОБР РХБЗ
@@ -154,7 +154,7 @@ secure-terminal-ert-cburn-announcement = Отряд быстрого реаги�
 
 secure-terminal-code-gamma-name = Код ГАММА
 secure-terminal-code-gamma-desc = Повышает тревогу на станции до [color=palevioletred]ГАММА[/color]. Военное положение — всех гражданских должна сопровождать СБ в безопасные зоны.
-    Security must be armed at all times. All civilians must report to their nearest head of staff and be escorted to a secure location. Emergency lights activate.
+    СБ должна быть вооружена постоянно. Все гражданские должны явиться к ближайшему главе отдела и под сопровождением проследовать в безопасное место. Включается аварийное освещение.
 secure-terminal-code-gamma-announcement = Внимание! Код ГАММА скоро вступит в силу. Будет введено военное положение. Всему экипажу немедленно доложить ближайшему главе.
 
 secure-terminal-end-gamma-name = Отбой тревоги ГАММА
@@ -163,7 +163,7 @@ secure-terminal-end-gamma-announcement = Код ГАММА снимается. �
 
 secure-terminal-code-psi-name = Код ПСИ
 secure-terminal-code-psi-desc = Повышает тревогу на станции до [color=mediumpurple]ПСИ[/color]. Обнаружены враждебные синтетические юниты — избегайте несоответствующих киборгов и обращайтесь к командованию.
-    Indicates hostile or non-conforming cyborg activity. All crew must avoid unknown borgs, stay in groups, and seek head-of-staff guidance.
+    Означает активность враждебных или несоответствующих киборгов. Экипаж должен избегать незнакомых боргов, держаться группами и следовать указаниям глав отделов.
 secure-terminal-code-psi-announcement = Внимание! Командование объявило код ПСИ. Кремниевые юниты, не принадлежащие НаноТрейзен, признаны активной угрозой. Всему экипажу — доложить ближайшему главе.
 
 secure-terminal-end-psi-name = Отбой тревоги ПСИ
@@ -172,33 +172,33 @@ secure-terminal-end-psi-announcement = Код ПСИ снимается. Выя�
 
 secure-terminal-armory-gamma-name = Гамма-оружейная
 secure-terminal-armory-gamma-desc = Отправляет [color=palevioletred]гамма-оружейную[/color] — склад тяжёлого оружия для ситуаций ГАММА. Разовое развёртывание.
-                                    Issues heavy-duty security equipment to authorized personnel.
+                                    Выдаёт тяжёлое снаряжение СБ уполномоченному персоналу.
 secure-terminal-armory-gamma-announcement = Гамма-оружейная авторизована и уже в пути.
 
 secure-terminal-armory-psi-name = Пси-оружейная
-secure-terminal-armory-psi-desc = Отправляет [color=mediumpurple]пси-оружейную[/color] — противокиберстическое вооружение для ситуаций ПСИ. Разовое развёртывание.
-                                  Provides tools needed to neutralize non-conforming silicons.
+secure-terminal-armory-psi-desc = Отправляет [color=mediumpurple]пси-оружейную[/color] — противокибернетическое вооружение для ситуаций ПСИ. Разовое развёртывание.
+                                  Даёт средства для нейтрализации несоответствующих синтетиков.
 secure-terminal-armory-psi-announcement = Пси-оружейная авторизована и уже в пути.
 
 secure-terminal-med-pod-name = Экстренный медицинский модуль
 secure-terminal-med-pod-desc = Отправляет экстренный медицинский модуль — быстро разворачиваемую сортировку с хирургическим и реанимационным оборудованием.
-    Use when mass casualties exceed the station's medical capacity.
+    Используйте, если массовые потери превышают возможности медотсека станции.
 secure-terminal-med-pod-announcement = Экстренный медицинский модуль авторизован и уже в пути. Расчётное время прибытия: 5 минут.
 
 secure-terminal-itg-salvage-team-name = Спасательная команда МТГ
 secure-terminal-itg-salvage-team-desc = Нанимает местную спасательную команду Межзвёздной торговой гильдии для борьбы с активными угрозами станции.
-    Recommended when no Security personnel are present, or when Security cannot respond without assistance.
+    Рекомендуется, если на станции нет СБ или она не справляется без помощи.
 secure-terminal-itg-salvage-team-announcement = Местная спасательная команда Межзвёздной торговой гильдии нанята для борьбы с активными угрозами станции.
 
 secure-terminal-dismiss-itg-salvage-team-name = Распустить спасательную команду МТГ
 secure-terminal-dismiss-itg-salvage-team-desc = Прекращает контракт помощи Межзвёздной торговой гильдии и возвращает её команду к обычным обязанностям.
-    Recommended once all threats to the station have been dealt with.
+    Рекомендуется, когда все угрозы станции устранены.
 secure-terminal-dismiss-itg-salvage-team-announcement = Контракт Межзвёздной торговой гильдии завершён, и её спасательная команда вернулась к обычным обязанностям.
 
 secure-terminal-nukerequest-name = Код самоуничтожения
 secure-terminal-nukerequest-desc = Запросить коды ядерного самоуничтожения.
-                                   Misuse of the nuclear request system will not be tolerated under any circumstances.
-                                   Transmission does not guarantee a response.
+                                   Злоупотребление системой запроса ядерных кодов не допускается ни при каких обстоятельствах.
+                                   Отправка запроса не гарантирует ответа.
 
 secure-terminal-code-violet-name = Код Фиолетовый
 secure-terminal-code-violet-desc = Объявляет [color=Violet]фиолетовую[/color] тревогу в ответ на подтверждённую вспышку по всей станции.

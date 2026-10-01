@@ -1,35 +1,35 @@
 <Document>
-# Alert Levels
+# Уровни тревоги
 
-## Code Gamma
+## Код «Гамма»
 
-[bold]Called by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color], with [color=#86d420]Central Command[/color] approval.
+[bold]Объявляют любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color] или [color=#2253b5]представитель НаноТрейзен[/color] с одобрения [color=#86d420]Центрального командования[/color].
 
-[bold]Conditions:[/bold] An existential threat poses a risk of losing the station that security cannot handle on Red Alert, such as a revolution or a war.
+[bold]Условия:[/bold] экзистенциальная угроза создаёт риск потери станции, с которым СБ не справляется при красной тревоге, например революция или война.
 
-Please be sure to submit with clear reasoning in your request.
+Обязательно указывайте чёткое обоснование в запросе.
 
-[bold]Ended when:[/bold] The existential threat has been resolved or sufficiently contained. Code Gamma must be active for a minimum period before it may be ended.
+[bold]Завершается, когда:[/bold] экзистенциальная угроза устранена или достаточно сдержана. Код «Гамма» должен быть активен минимальный период, прежде чем его можно завершить.
 
-[bold]Ended by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color].
+[bold]Завершают любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color] или [color=#2253b5]представитель НаноТрейзен[/color].
 
-## Code Violet
+## Код «Фиолетовый»
 
-[bold]Called by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], [color=#57b8f0]Chief Medical Officer[/color], or [color=#cd7ccd]Research Director[/color].
+[bold]Объявляют любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color], [color=#57b8f0]главный врач[/color] или [color=#cd7ccd]научный руководитель[/color].
 
-[bold]Conditions:[/bold] A confirmed biological or viral outbreak poses a station-wide threat and warrants elevated containment measures across all departments.
+[bold]Условия:[/bold] подтверждённая биологическая или вирусная вспышка создаёт угрозу всей станции и требует усиленных мер сдерживания во всех отделах.
 
-[bold]Ended when:[/bold] The outbreak has been fully contained and the threat to the crew has passed. Code Violet must be active for a minimum period before it may be ended.
+[bold]Завершается, когда:[/bold] вспышка полностью сдержана и угроза экипажу миновала. Код «Фиолетовый» должен быть активен минимальный период, прежде чем его можно завершить.
 
-[bold]Ended by any one of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], [color=#57b8f0]Chief Medical Officer[/color], or [color=#cd7ccd]Research Director[/color].
+[bold]Завершает любой один из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color], [color=#57b8f0]главный врач[/color] или [color=#cd7ccd]научный руководитель[/color].
 
-## Code Psi
+## Код «Пси»
 
-[bold]Called by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#cd7ccd]Research Director[/color].
+[bold]Объявляют любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color] или [color=#cd7ccd]научный руководитель[/color].
 
-[bold]Conditions:[/bold] An overwhelming hostile silicon threat is present on the station.
+[bold]Условия:[/bold] на станции присутствует подавляющая враждебная угроза со стороны синтетиков.
 
-[bold]Ended when:[/bold] The threat has been neutralized. Code Psi must be active for a minimum period before it may be ended.
+[bold]Завершается, когда:[/bold] угроза нейтрализована. Код «Пси» должен быть активен минимальный период, прежде чем его можно завершить.
 
-[bold]Ended by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#cd7ccd]Research Director[/color].
+[bold]Завершают любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color] или [color=#cd7ccd]научный руководитель[/color].
 </Document>

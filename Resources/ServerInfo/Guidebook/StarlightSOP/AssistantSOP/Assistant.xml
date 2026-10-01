@@ -1,9 +1,9 @@
 <Document>
-# Assistant
+# Ассистент
 
-<GuideEntityEmbed Entity="ToyFigurineAssistant" Caption="Assistant"/>
+<GuideEntityEmbed Entity="ToyFigurineAssistant" Caption="Ассистент"/>
 
-1. Assistants report to the Assistant Manager, and everyone else.
+1. Ассистенты подчиняются менеджеру ассистентов и всем остальным.
 
-2. Assistants who commit crimes may have their access to Maintenance revoked.
+2. Ассистентов, совершающих преступления, могут лишить доступа в техтоннели.
 </Document>

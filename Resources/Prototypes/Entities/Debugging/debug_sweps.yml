@@ -53,7 +53,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         startingItem: MagazinePistolDebug
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -62,7 +62,7 @@
           tags:
             - MagazineDebug
       gun_chamber:
-        name: Chamber
+        name: item-slot-component-slot-name-chamber # LP edit
         startingItem: CartridgeDebug
         priority: 1
         whitelist:

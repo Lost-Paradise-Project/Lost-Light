@@ -371,7 +371,8 @@ class FtlParser:
                         pass
                 return
 
-            if ends_with_newline:
+            # Перевод строки в конце нужен всегда (EditorConfig в CI), даже если его нет в en-файле
+            if ends_with_newline or not content.endswith("\n"):
                 content += "\n"
 
             # newline="\n" - иначе на Windows файлы пишутся с CRLF

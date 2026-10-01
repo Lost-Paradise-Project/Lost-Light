@@ -1,13 +1,13 @@
 <Document>
-# Power Generation
+# Выработка энергии
 
-<GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="A portable generator"/>
+<GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="Переносной генератор"/>
 
-1. Non-atmospheric engineering personnel must set up the AME and/or attach the solar network before moving to other power sources. Failure to do so will be considered grounds for immediate dismissal.
+1. Неатмосферный инженерный персонал должен настроить АМ-двигатель и/или подключить солнечную сеть, прежде чем переходить к другим источникам энергии. Невыполнение будет считаться основанием для немедленного увольнения.
 
-2. The tesla ball, singularity and supermatter crystal may not be started without explicit permission from the Chief Engineer.
+2. Шар теслы, сингулярность и кристалл суперматерии нельзя запускать без прямого разрешения старшего инженера.
 
-3. The supermatter crystal's chamber must incorporate an emergency venting system to reduce the pressure in the chamber to 0 kpa in the event of a potential delamination.
+3. Камера кристалла суперматерии должна включать аварийную систему вентиляции для снижения давления в камере до 0 кПа при потенциальном расслоении.
 
-4. Atmospheric personnel may start the TEG and/or supermatter crystal after both the distribution and waste air lines are completed.
+4. Атмосферный персонал может запускать ТЭГ и/или кристалл суперматерии после завершения обеих линий распределения и отходящего воздуха.
 </Document>

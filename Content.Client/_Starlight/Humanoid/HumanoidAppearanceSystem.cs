@@ -29,6 +29,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
 
         SubscribeLocalEvent<HumanoidAppearanceComponent, MapInitEvent>(OnMapInit); // Starlight
         SubscribeLocalEvent<HumanoidAppearanceComponent, AfterAutoHandleStateEvent>(OnHandleState);
+        // LP edit - убрана цензура наготы (подписки на CVar censor_nudity)
     }
 
     //Starlight begin
@@ -41,6 +42,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         UpdateSprite((uid, component, Comp<SpriteComponent>(uid)));
     }
 
+    // LP edit - убрана цензура наготы (OnCvarChanged)
     public void UpdateSprite(Entity<HumanoidAppearanceComponent, SpriteComponent> entity) // Starlight-edit: Make public so things like tippy can force this
     {
         UpdateLayers(entity);
@@ -305,7 +307,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         // Really, markings should probably be a separate component altogether.
         ClearAllMarkings(entity);
 
-
+        // LP edit start - убрана цензура наготы (принудительное нижнее бельё)
         foreach (var markingList in humanoid.MarkingSet.Markings.Values)
         {
             foreach (var marking in markingList)
@@ -316,6 +318,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         }
 
         humanoid.ClientOldMarkings = new MarkingSet(humanoid.MarkingSet);
+        // LP edit end
     }
 
     private void ClearAllMarkings(Entity<HumanoidAppearanceComponent, SpriteComponent> entity)
@@ -368,6 +371,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         }
     }
 
+    // LP edit - убрана цензура наготы (AddUndergarments)
     private void ApplyMarking(MarkingPrototype markingPrototype,
         IReadOnlyList<Color>? colors,
         bool isGlowing, //starlight

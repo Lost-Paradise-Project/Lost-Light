@@ -10,10 +10,10 @@ ghost-role-information-theunknown-rules = ...
 ghost-role-information-cosmic-minion-name = Космический приспешник
 
 ghost-role-information-cosmic-minion-description = Приспешник Космического культа
-    You are a manifestation of the Cosmic Cult.
+    Вы — воплощение Космического культа.
 
-    Aid your maker and fellow minions in spreading corruption and entropy.
-    Protect your allies, destroy those who oppose the Cosmic Cult, and further the goals of your cosmic master.
+    Помогайте своему создателю и другим приспешникам сеять порчу и энтропию.
+    Защищайте союзников, уничтожайте противников Космического культа и приближайте цели вашего космического повелителя.
 
 # Custodian
 

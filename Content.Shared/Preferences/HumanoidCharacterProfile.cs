@@ -20,6 +20,7 @@ using Robust.Shared.Utility;
 using Content.Shared._Starlight.Traits;
 using Content.Shared._Starlight.Humanoid;
 using Content.Shared._Starlight.CCVar;
+using Content.Shared._LP.Sponsors;
 #endregion
 
 namespace Content.Shared.Preferences
@@ -577,6 +578,14 @@ namespace Content.Shared.Preferences
                 speciesPrototype = prototypeManager.Index(Species);
             }
 
+            // LP edit start - спонсорские расы
+            if (!RolesRestrictions.IsAllowed(speciesPrototype.RolesRequirement, session))
+            {
+                Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
+                speciesPrototype = prototypeManager.Index(Species);
+            }
+            // LP edit end
+
             var sex = Sex switch
             {
                 Sex.Male => Sex.Male,
@@ -683,6 +692,7 @@ namespace Content.Shared.Preferences
             }
 
             var appearance = HumanoidCharacterAppearance.EnsureValid(Appearance, Species, Sex);
+            appearance = RolesRestrictions.FilterAppearance(appearance, session); // LP edit - спонсорские маркинги
 
             var spawnPriority = SpawnPriority switch
             {

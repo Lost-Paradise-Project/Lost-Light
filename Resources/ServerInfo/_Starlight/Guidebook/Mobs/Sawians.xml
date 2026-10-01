@@ -1,35 +1,35 @@
 <Document>
-    # Sawians
+    # Савианы
 
     <Box>
 	    <GuideEntityEmbed Entity="GuideExpie" Caption=""/>
     </Box>
 
-    Sawians are a group of artificially created species based off of various earth genomes, often manning Nanotrasen stations.
-    Sawians are biologically genderless, though some still sport masculine/feminine features visually.
-    They are not accustomed to wearing clothes. [color=yellow]The less they're wearing the faster they move[/color],
-    gradually going from [color=yellow]125% of base speed[/color] while wearing no clothes [color=lightgreen](Head, Outer clothing, Mask, Feet, Inner clothing, Gloves)[/color] to [color=yellow]95% speed with every slot filled[/color].
+    Савианы - группа искусственно созданных рас на основе различных земных геномов, часто укомплектовывающих станции Nanotrasen.
+    Савианы биологически бесполы, хотя некоторые всё же имеют внешне мужские/женские черты.
+    Они не привыкли носить одежду. [color=yellow]Чем меньше на них надето, тем быстрее они двигаются[/color],
+    постепенно переходя от [color=yellow]125% базовой скорости[/color] без одежды [color=lightgreen](голова, верхняя одежда, маска, обувь, нижняя одежда, перчатки)[/color] к [color=yellow]95% скорости при заполненных слотах[/color].
 
-    #Health
-    Sawians are remarkably durable, made to live in conditions deadly to most species
-    - Most are given brain implants allowing them an advanced readout of their bodies condition.
-    - Their durability allows them to endure the effects of being in [color=red]critical condition[/color] for some time.
-    At [color=red]100 damage[/color] they enter "soft critical" state, where they can [color=yellow]crawl, talk, and use items. [/color]
-    They will however take [color=red]Asphyxiation[/color] Damage,
-    eventually passing out at [color=red]150 damage[/color] before ultimately dying at [color=red]200 damage[/color].
-    - Their extremely fast metabolism makes them great at healing most wounds, though it comes at the cost of highly increased hunger, which can kill them in extreme scenarios.
-    - They get hungry [color=red]3 times faster[/color] than humans, but they [color=green]regenerate health naturally[/color] while [color=orange]below 100 damage[/color],
-    and [color=green]have an additional healing[/color] while they are [color=red]not starving[/color],
-    effectively making them [color=green]heal three times faster[/color] while [color=red]not critical.[/color]
-    - While they are starving they gradually take [color=orange]0.2 Caustic[/color] damage every second until death.
+    #Здоровье
+    Савианы на редкость выносливы, созданы жить в условиях, смертельных для большинства рас
+    - Большинству дают мозговые импланты, дающие продвинутую индикацию состояния их тела.
+    - Их выносливость позволяет некоторое время терпеть последствия [color=red]критического состояния[/color].
+    При [color=red]100 урона[/color] они входят в «мягкий крит», когда могут [color=yellow]ползти, говорить и использовать предметы. [/color]
+    Однако они будут получать урон от [color=red]удушья[/color],
+    в итоге теряя сознание при [color=red]150 урона[/color] и окончательно умирая при [color=red]200 урона[/color].
+    - Их чрезвычайно быстрый метаболизм делает их отличными в заживлении большинства ран, хотя это ценой сильно возросшего голода, который в крайних случаях может их убить.
+    - Они голодают в [color=red]3 раза быстрее[/color] людей, но [color=green]естественно регенерируют здоровье[/color], пока [color=orange]урон ниже 100[/color],
+    и [color=green]получают дополнительное лечение[/color], пока они [color=red]не голодают[/color],
+    фактически [color=green]лечась в три раза быстрее[/color], пока [color=red]не в крите.[/color]
+    - Пока они голодают, они постепенно получают [color=orange]0,2 едкого[/color] урона каждую секунду до смерти.
 
 
-    #Conformity
-    - Any deviation in personality or genetic composition within a species is a rarity - differences are likely from personal trinkets, scars, or accessories.
-    - Prior to their transfer to CC, All Sawians were given a four-digit ID number and one nickname. (e.g., [color=yellow]#4466 John[/color], [color=yellow]#7201 Jimmy[/color], [color=yellow]#1793 Jane[/color])
-    CC-NT has modified its systems allowing continued use of this system, as to facilitate a simpler transition into CC-NT employment.
+    #Единообразие
+    - Любые отклонения в личности или генетическом составе внутри расы редки - различия, вероятно, от личных безделушек, шрамов или аксессуаров.
+    - До перевода в ЦК всем савианам давали четырёхзначный ID-номер и одно прозвище. (например, [color=yellow]#4466 Джон[/color], [color=yellow]#7201 Джимми[/color], [color=yellow]#1793 Джейн[/color])
+    ЦК-NT изменил свои системы, позволяя продолжать использовать эту систему, чтобы облегчить переход на работу в ЦК-NT.
 
-    [color=gray]NT expects Sawians to sanitize their provided ID numbers. extremely low numbers or innuendos (such as #6969, #6767, #0420, #8008) are to be replaced and [/color][color=red]Never used on station.[/color]
+    [color=gray]NT ожидает, что савианы будут очищать выданные им ID-номера. Крайне низкие номера или номера с двусмысленностью (такие как #6969, #6767, #0420, #8008) подлежат замене и [/color][color=red]никогда не используются на станции.[/color]
 
 
 

@@ -1,11 +1,11 @@
 <Document>
-  # Neo-Reptilian
+  # Нео-унатх
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoReptilian" Caption=""/>
   </Box>
 
-  ## Resistances
-  - Receive [color=#8147ff]25% more shock damage[/color], [color=#FF3636]10% more blunt damage[/color], and [color=#1e90ff]15% more cold damage[/color].
-  - Receive [color=#ffa500]15% less heat damage[/color] and [color=#65807d]10% less slash damage[/color].
+  ## Сопротивления
+  - Получают [color=#8147ff]на 25% больше урона током[/color], [color=#FF3636]на 10% больше ударного урона[/color] и [color=#1e90ff]на 15% больше холодового урона[/color].
+  - Получают [color=#ffa500]на 15% меньше теплового урона[/color] и [color=#65807d]на 10% меньше режущего урона[/color].
 </Document>

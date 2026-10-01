@@ -1,37 +1,37 @@
 <Document>
-# Salvage Crew
+# Утилизаторы
 
-<GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Salvage Specialist"/>
+<GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Специалист-утилизатор"/>
 
-# Specialist
+# Специалист
 - 1.\n
-You report to the Salvage lead. If there is none, one is to be elected by the team until one is sent by the guild.
+Вы подчиняетесь главе утилизаторов. Если его нет, команда выбирает главу, пока гильдия не пришлёт настоящего.
 - 2.\n
-You are given leave by the ITG to expel unwanted intruders on its ATS, by force if necessary.\n\n
+ITG дала вам право выдворять нежелательных нарушителей с АТС, при необходимости силой.\n\n
 2.1\n
-Any slain or grievously injured intruders are to be revived and taken to the nearest relevant authority, usually an NT-CC Security Department, at Salvage's earliest convenience.\n\n
+Любых убитых или тяжело раненых нарушителей нужно оживить и передать ближайшей соответствующей власти, обычно отделу безопасности NT-CC, как только утилизаторам будет удобно.\n\n
 2.2\n
-Check with your Salvage Lead before taking any enforcement actions beyond self defence.
+Прежде чем принимать любые меры принуждения сверх самообороны, посоветуйтесь с главой утилизаторов.
 
-# Medic
+# Медик
 - 1.\n
-You hold the same general responsibilities as a Salvager with the extension that team well being is your primary mission.
+На вас лежат те же общие обязанности, что и на утилизаторе, а главная ваша задача - благополучие команды.
 - 2.\n
-You act as the second in command of the team.
+Вы - второй по должности в команде.
 - 3.\n
-Recovery of ITG humanoid assets should be prioritized over recovery of physical or potential assets.
+Возвращение гуманоидных активов ITG приоритетнее возвращения физических или потенциальных активов.
 - 4.\n
-It is the Medic’s responsibility to ensure the security and welfare of any intruders detained in the process of maintaining the security of ITG assets.
+Медик отвечает за безопасность и благополучие любых нарушителей, задержанных при защите активов ITG.
 
-# Lead
+# Глава
 - 1.\n
-The Salvage Lead is responsible for all salvage operator activities.
+Глава утилизаторов отвечает за всю деятельность операторов-утилизаторов.
 - 2.\n
-Within the jurisdiction of the ITG, you are granted the highest authority.
+В юрисдикции ITG вам даётся высшая власть.
 - 3.\n
-It is the responsibility of the Salvage lead to ensure their team is in compliance with local laws and regulations at all times. The Salvage Lead is entrusted with tremendous power within ITG jurisdiction and is held to the highest standards.
+Глава утилизаторов отвечает за то, чтобы его команда в любое время соблюдала местные законы и правила. Главе утилизаторов доверена огромная власть в юрисдикции ITG, и к нему предъявляются высочайшие требования.
 - 4.\n
-Due to limited ITG corporate presence, Central Command is the authorised point of contact for any issues unable to be resolved locally.
+Из-за ограниченного корпоративного присутствия ITG Центральное командование - уполномоченная точка связи по любым вопросам, не решаемым на месте.
 - 5.\n
-The spare Salvage Lead ID is to remain secure at all times, either on the Salvage Lead or stored in the armory wall safe.
+Запасная ID-карта главы утилизаторов должна всегда храниться в безопасности: либо у самого главы, либо в сейфе в стене оружейной.
 </Document>

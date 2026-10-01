@@ -1,93 +1,93 @@
 <Document>
-  # Bright-eyes
+  # Светлоглазые
 
   <Box>
-    [color=#999999][italic]Marrs...[italic][/color]
+    [color=#999999][italic]Марр...[italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="PortalShadekinHub" Caption=""/>
   </Box>
 
-  Bright-eyes are otherworldly entities and interlopers amongst the physical world.
-  Often observers just as often as they are interruptions and interlopers to normalcy.
-  Originating from “The Dark”, there are countless reasons as to why and how one can be encountered, from an accidental coming across a station, or to an intentional seeking of new-sights.
-  Due to their nature they are often unpredictable and wildly varied whims and impulse.
-  Their influence over the very shadows that dwell within space leave them an uncertainty and rarely tangible entity.
+  Светлоглазые - потусторонние сущности и вторженцы в физический мир.
+  Часто наблюдатели, и так же часто помехи и вторженцы в обыденность.
+  Происходя из «Тьмы», они могут встретиться по бесчисленным причинам и разными путями: от случайного попадания на станцию до намеренных поисков новых видов.
+  Из-за своей природы они часто непредсказуемы, с сильно различающимися прихотями и порывами.
+  Их власть над самими тенями, обитающими в космосе, делает их неопределённой и редко осязаемой сущностью.
 
-  [color=red]Bright-eyes are not naturally inclined towards killing or maiming people.
-  Oftentimes more centered on their whims and impulses, by no means are they obligatoryly hostile.[color]
+  [color=red]Светлоглазые по природе не склонны убивать или калечить людей.
+  Чаще всего они сосредоточены на своих прихотях и порывах, и они отнюдь не обязательно враждебны.[color]
 
-  ## Nullspace
+  ## Нуль-пространство
   <Box>
     <GuideEntityEmbed Entity="DarkRandom" Caption=""/>
   </Box>
-  A dimensional axis similar to that of the commonly understood X and Y axis.
-  Nullspace exists in a inbetween state from the physical to the otherworldly, a veil/gateway that can be travelled within or through by some entities.
-  A purely hypothetical phenomenon for most.
+  Пространственная ось, подобная общеизвестным осям X и Y.
+  Нуль-пространство существует в промежуточном состоянии между физическим и потусторонним, как завеса/врата, по которым некоторые сущности могут перемещаться внутри или сквозь них.
+  Для большинства - чисто гипотетическое явление.
 
-  ## The Dark
+  ## Тьма
   <Box>
     <GuideEntityEmbed Entity="Phoronic" Caption=""/>
   </Box>
-  The home and origin of the species known as “Shadekin”.
-  Not much is conclusively known of the often described "Transcendent nothingness” that most who come from this realm describe it as, it is however consistent that it holds an immense spiritual and cultural significance to all Shadekin in one way or another.
-  A hypothetically endless dimension that holds nothing but an empty darkness, where light fails to hold meaning even at the conceptual level.
-  In spite of such descriptions all Shadekin at one point dwelled here or will find themselves here, and often speak of an event known as “The Ritual” that is exclusively held in this realm.
-  In the end there is very little confirmed or certain knowledge, as all cases are informed en masse by those who once called it home.
+  Дом и родина расы, известной как «шейдекины».
+  О «трансцендентном ничто», как его чаще всего описывают пришедшие из этого мира, достоверно известно немногое, однако неизменно то, что оно имеет огромное духовное и культурное значение для всех шейдекинов так или иначе.
+  Гипотетически бесконечное измерение, не содержащее ничего, кроме пустой тьмы, где свет теряет смысл даже на концептуальном уровне.
+  Несмотря на такие описания, все шейдекины когда-то обитали здесь или окажутся здесь, и часто говорят о событии, известном как «Ритуал», проходящем исключительно в этом мире.
+  В конце концов достоверных знаний очень мало, так как все случаи известны по рассказам тех, кто когда-то называл его домом.
 
-  ## Dark Portal
+  ## Тёмный портал
   <Box>
     <GuideEntityEmbed Entity="PortalShadekin" Caption=""/>
   </Box>
-  An inter-dimensional rift that leads to “The Dark”.
-  This anomaly is a gateway often created and used by Bright-eyes in order to instantly transit from the physical world directly to The Dark, however if active and or open, other entities can find themselves making use of the rift.
-  These portals are often directly linked in essence to the creator, being an extension of their influence.
-  A concerning and or wonderful side-effect of the Dark portal is it’s connection to the Dark, as the gateway leaves some of the influence of the Dark to seep and leak through it, a flowing abyss overtaking the physical that was once around it if enough time passes.
+  Межпространственный разлом, ведущий в «Тьму».
+  Этот аномальный проход часто создаётся и используется светлоглазыми, чтобы мгновенно перемещаться из физического мира прямо в Тьму, однако если он активен и/или открыт, другие сущности могут воспользоваться разломом.
+  Эти порталы часто напрямую связаны по сути с создателем, будучи продолжением его влияния.
+  Вызывающий беспокойство и/или чудесный побочный эффект Тёмного портала - его связь с Тьмой: портал позволяет влиянию Тьмы просачиваться и протекать сквозь него, и если пройдёт достаточно времени, текущая бездна поглощает физическое, что когда-то было вокруг.
 
-  ## Core
+  ## Ядро
   <Box>
     <GuideEntityEmbed Entity="OrganShadekinCore" Caption=""/>
   </Box>
   <Box>
-    [color=#999999][italic]A core of a shadekin, a mysterious and powerful organ that seems to be the source of their energy.[italic][/color]
+    [color=#999999][italic]Ядро шейдекина, загадочный и мощный орган, который, похоже, является источником их энергии.[italic][/color]
   </Box>
-  “The Core” is an organ that exists in Shadekin biology, each one seemingly having its own unique frequency or composition.
-  Leaving such to be that one core cannot merely be transplanted into another Shadekin, as this will cause a biological rejection of the organ.
-  In the case of all Shadekin who work for NT fall under the title of “Burnt” or “Black-eye”, meaning their core has been irreparably damaged in one way or another, often-case tampering, physical damage or what is often referred to as The Ritual.
-  The Core when not broken/burnt, is a conduit and flowing essence with darkness, growing and or dimming in strength depending on the light level that is around it, taking the absence of light to influence said shadows.
-  A significant amount of worth is attributed to functional cores, that come from the instance of Shadekin known as “Bright-eyes” due to their extra-dimensional properties and rarity, the worth be it scientific or monetary is immense.
+  «Ядро» - орган в биологии шейдекинов, у каждого из которых, по-видимому, своя уникальная частота или состав.
+  Из-за этого одно ядро нельзя просто пересадить другому шейдекину, так как это вызовет биологическое отторжение органа.
+  Все шейдекины, работающие на НТ, попадают под звание «сожжённых» или «чёрноглазых», то есть их ядро необратимо повреждено тем или иным образом, чаще всего вмешательством, физическим повреждением или тем, что часто называют Ритуалом.
+  Ядро, когда оно не сломано/не сожжено, - проводник и текущая сущность с тьмой, растущая и/или слабеющая в зависимости от уровня света вокруг, используя отсутствие света для влияния на упомянутые тени.
+  Функциональным ядрам, получаемым от шейдекинов, известных как «светлоглазые», придаётся значительная ценность из-за их внепространственных свойств и редкости - их ценность, научная или денежная, огромна.
 
-  ## Bluespace Crystal
+  ## Блюспейс-кристалл
   <Box>
-    <GuideEntityEmbed Entity="BluespaceCrystal" Caption="Bluespace Crystal"/>
-    <GuideEntityEmbed Entity="ArtificialBluespaceCrystal" Caption="Artificial Bluespace Crystal"/>
+    <GuideEntityEmbed Entity="BluespaceCrystal" Caption="Блюспейс-кристалл"/>
+    <GuideEntityEmbed Entity="ArtificialBluespaceCrystal" Caption="Искусственный блюспейс-кристалл"/>
   </Box>
-  Bluespace Crystals are an element/substance that reacts violently with Nullspace entities, alongside the cores of Shadekin.
-  Bluespace Crystals are able to destabilize and cause a Core to be temporarily unstable, disrupting its natural flow and connection it has to Nullspace.
-  However it is to note that these crystals do affect the “Burnt” and or “Black-eye” Shadekin, causing intense discomfort.
+  Блюспейс-кристаллы - элемент/вещество, бурно реагирующее с нуль-сущностями, а также с ядрами шейдекинов.
+  Блюспейс-кристаллы способны дестабилизировать ядро и временно сделать его нестабильным, нарушая его естественный поток и связь с нуль-пространством.
+  Однако стоит отметить, что эти кристаллы действуют на «сожжённых» и/или «чёрноглазых» шейдекинов, вызывая сильный дискомфорт.
 
-  ### Nullspace Drainer
+  ### Нуль-дренажер
   <Box>
     <GuideEntityEmbed Entity="ClothingNullSpaceDrainer" Caption=""/>
-    [color=#999999][italic]A Superimposed device that occupies the physical and nullspace.\nIntaking external and foreign energy into data.\nThis device restrains and blocks entities from entering and or leaving nullspace.[italic][/color]
+    [color=#999999][italic]Устройство-суперпозиция, занимающее физическое и нуль-пространство.\nПоглощает внешнюю и чужую энергию в данные.\nЭто устройство сдерживает и блокирует сущности при входе в нуль-пространство и/или выходе из него.[italic][/color]
   </Box>
 
-  ### Nullspace Goggles
+  ### Нуль-очки
   <Box>
     <GuideEntityEmbed Entity="ClothingEyesGlassesNullSpace" Caption=""/>
-    [color=#999999][italic]An unusual pair of goggles developed during a time of inhumane experimentation involving Shadekin.\nThey are designed to allow the wearer to peer into NullSpace.[italic][/color]
+    [color=#999999][italic]Необычная пара очков, разработанная во время бесчеловечных экспериментов над шейдекинами.\nОни позволяют носителю заглядывать в нуль-пространство.[italic][/color]
   </Box>
 
-  ### Nullspace Anchor
+  ### Нуль-якорь
   <Box>
     <GuideEntityEmbed Entity="NullspaceAnchor" Caption=""/>
-    [color=#999999][italic]Imposing the physical into Nullspace itself.\nUsing Bluespace Crystals to produce a resonating force, it brings that of which dwells in between states into the physical.\nEntities that are travelling using these methods will be anchored and rooted into the world by force, being incapable of reaching through to Nullspace whilst in it’s range.[italic][/color]
+    [color=#999999][italic]Навязывание физического самому нуль-пространству.\nИспользуя блюспейс-кристаллы для создания резонирующей силы, оно вытягивает в физическое то, что обитает между состояниями.\nСущности, перемещающиеся этими методами, будут закреплены и укоренены в мире силой, не имея возможности дотянуться до нуль-пространства в его зоне действия.[italic][/color]
   </Box>
 
-  ### Dark Breacher
+  ### Тёмный взломщик
   <Box>
     <GuideEntityEmbed Entity="MachineDarkBreacher" Caption=""/>
-    [color=#999999][italic]The portal to the dark...[italic][/color]
+    [color=#999999][italic]Портал во тьму...[italic][/color]
   </Box>
 
 </Document>

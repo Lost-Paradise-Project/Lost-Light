@@ -872,7 +872,7 @@
   suffix: CentComm
   components:
   - type: NavMapBeacon
-    text: CentComm
+    defaultText: station-beacon-centcomm # LP edit
 
 - type: entity
   parent: DefaultStationBeaconGhost
@@ -880,7 +880,7 @@
   suffix: CentComm Afterhours
   components:
   - type: NavMapBeacon
-    text: Afterhours
+    defaultText: station-beacon-centcomm-afterhours # LP edit
 
 - type: entity
   parent: DefaultStationBeaconGhost
@@ -888,7 +888,7 @@
   suffix: CentComm Thunder Dome
   components:
   - type: NavMapBeacon
-    text: Thunderdome
+    defaultText: station-beacon-centcomm-thunderdome # LP edit
 
 - type: entity
   parent: DefaultStationBeaconGhost
@@ -896,4 +896,4 @@
   suffix: CentComm ERT
   components:
   - type: NavMapBeacon
-    text: ERT
+    defaultText: station-beacon-centcomm-ert # LP edit

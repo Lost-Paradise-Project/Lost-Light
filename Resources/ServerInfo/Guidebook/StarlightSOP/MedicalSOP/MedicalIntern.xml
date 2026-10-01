@@ -1,15 +1,15 @@
 <Document>
-# Medical Intern
+# Интерн медотдела
 
-<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Medical Intern"/>
+<GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Интерн медотдела"/>
 
-1. Medical Interns report directly to the Chief Medical Officer, but are expected to follow the orders of their designated trainer.
+1. Интерны подчиняются непосредственно главному врачу, но обязаны выполнять приказы назначенного наставника.
 
-2. Medical Interns are not permitted to utilize chemicals on their own without supervision.
+2. Интернам нельзя самостоятельно использовать химикаты без надзора.
 
-3. Medical Interns are to stay with their assigned trainer at all times.
+3. Интерны всегда должны находиться рядом со своим наставником.
 
-4. In emergencies, Medical Interns may treat patients as a Medical Doctor.
+4. В чрезвычайных ситуациях интерны могут лечить пациентов как врачи.
 
-5. Medical Interns may not perform elective surgeries at any time.
+5. Интерны ни при каких обстоятельствах не вправе проводить плановые операции.
 </Document>

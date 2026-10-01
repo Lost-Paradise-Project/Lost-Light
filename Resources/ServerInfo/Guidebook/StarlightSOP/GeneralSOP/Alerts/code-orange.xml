@@ -1,108 +1,108 @@
-﻿<Document>
-    # Code Orange
+<Document>
+    # Код «Оранжевый»
 
 
-    ## Called by:
+    ## Кто объявляет:
 
 
-    Any command member.
+    Любой член командования.
 
 
-    ## Conditions:
+    ## Условия:
 
 
-    There is an extreme atmospheric or structural disaster on the station that makes recovery almost certainly impossible.
+    На станции произошла крайне тяжёлая атмосферная или структурная катастрофа, из-за которой восстановление почти наверняка невозможно.
 
 
-    ## Security:
+    ## Служба безопасности:
 
-    1. Verify cause of station damage.
+    1. Установите причину повреждений станции.
 
-    2. Evacuate non-engineering crew from the area.
+    2. Выведите неинженерный экипаж из зоны.
 
-    4. Direct crew to the evacuation shuttle upon its arrival.
+    4. Направьте экипаж к эвакуационному шаттлу по его прибытии.
 
 
-    ## Secure Areas:
+    ## Защищённые зоны:
 
 
-    1. Secure areas except for the Armory, Gravity Generator, and Vault should be given emergency access.
+    1. Защищённым зонам, кроме оружейной, генератора гравитации и хранилища, следует дать аварийный доступ.
 
 
-    ## Medical:
+    ## Медицинский отдел:
 
 
-    1. Medical personnel should be ready to treat a large number of disaster victims.
+    1. Медики должны быть готовы лечить большое число пострадавших от катастрофы.
 
 
-    ## Engineering:
+    ## Инженерный отдел:
 
 
-    1. Immediately coordinate with your chief engineer to determine the level of damage to the station.
+    1. Немедленно свяжитесь с главным инженером, чтобы определить степень повреждения станции.
 
-    2. If feasible, work with your department to first end the ongoing disaster, then repair the station.
+    2. Если возможно, вместе с отделом сначала прекратите продолжающуюся катастрофу, затем отремонтируйте станцию.
 
 
-    ## General Crew:
+    ## Экипаж:
 
 
-    1. Avoid the disaster area.
+    1. Избегайте зоны бедствия.
 
 
-    2. Follow the directives of security.
+    2. Выполняйте указания СБ.
 
 
-    ## Command:
+    ## Командование:
 
 
-    The evacuation shuttle should be called immediately. If the crew successfully ends the disaster, the shuttle should be recalled if the station is operational.
+    Эвакуационный шаттл следует вызвать немедленно. Если экипаж успешно прекратил катастрофу, шаттл следует отозвать, если станция работоспособна.
 
 
-    ## Special Situations
+    ## Особые ситуации
 
 
-    ## Loss of singularity containment:
+    ## Потеря удержания сингулярности:
 
 
-    1. The Gravitational Singularity must be tracked.
+    1. Необходимо отслеживать гравитационную сингулярность.
 
 
-    2. Any able-bodied crew, with priority to Engineering are to use decelerators against the Gravitational Singularity
+    2. Весь дееспособный экипаж, в первую очередь инженеры, должен использовать замедлители против гравитационной сингулярности.
 
 
-    3. If station damage appears recoverable, an ERT is recommended. If the engineering team is confident in their abilities, ERT may be waived.
+    3. Если ущерб станции выглядит поправимым, рекомендуется вызвать ОБР. Если инженерная команда уверена в своих силах, от ОБР можно отказаться.
 
 
-    ## Supermatter crystal delamination:
+    ## Деламинация кристалла суперматерии:
 
 
-    1. The Supermatter Crystal is to be vented to space.
+    1. Кристалл суперматерии необходимо сбросить в космос.
 
-    2. In such a case as the Supermatter Crystal containment was not equipped with a way to space the Crystal, the area around the Crystal is to be evacuated, and all personnel involved in the construction shall be fired and brigged for Destruction of Property and Endangerment.
+    2. Если удержание кристалла суперматерии не было оснащено способом выбросить кристалл в космос, зону вокруг кристалла необходимо эвакуировать, а всех причастных к строительству уволить и отправить в бриг за уничтожение имущества и создание угрозы.
 
 
-    ## Loss of Tesla Ball containment:
+    ## Потеря удержания шара Теслы:
 
 
-    1. The Tesla Ball must be tracked.
+    1. Необходимо отслеживать шар Теслы.
 
 
-    2. Any able-bodied crew, with priority to Engineering are to use decelerators against the Tesla Ball. NOTE: it is extremely difficult to stop a loose Tesla Ball.
+    2. Весь дееспособный экипаж, в первую очередь инженеры, должен использовать замедлители против шара Теслы. ПРИМЕЧАНИЕ: остановить вырвавшийся шар Теслы крайне трудно.
 
 
-    3. If station damage appears recoverable, an ERT is recommended. If the engineering team is confident in their abilities, ERT may be waived.
+    3. Если ущерб станции выглядит поправимым, рекомендуется вызвать ОБР. Если инженерная команда уверена в своих силах, от ОБР можно отказаться.
 
 
-    ## Severe meteor storms:
+    ## Сильные метеоритные бури:
 
 
-    1. Personnel are to seek shelter in the most protected area of the station.
+    1. Персонал должен укрыться в самой защищённой части станции.
 
-    2. Repair activities are to be postponed until the end of the storm.
+    2. Ремонтные работы откладываются до конца бури.
 
-    3. All personnel performing EVA duty are to immediately return to the station.
+    3. Весь персонал, работающий в EVA, должен немедленно вернуться на станцию.
 
-    4. At the conclusion of the storm Engineering personnel are to repair the station if feasible..
+    4. По окончании бури инженеры должны отремонтировать станцию, если это возможно.
 
 
 </Document>

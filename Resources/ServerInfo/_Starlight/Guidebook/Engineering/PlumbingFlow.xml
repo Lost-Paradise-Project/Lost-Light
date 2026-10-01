@@ -1,50 +1,50 @@
 <Document>
-  # Reagent Flow
-  Understanding how reagents move through plumbing networks is key to building efficient factories.
+  # Поток реагентов
+  Понимание того, как реагенты движутся по сантехническим сетям, - ключ к постройке эффективных заводов.
 
-  ## Networks
-  A [color=#a4885c]plumbing network[/color] is a group of machines and ducts connected together through their connectors. Reagents can only flow between machines on the [bold]same[/bold] network.
+  ## Сети
+  [color=#a4885c]Сантехническая сеть[/color] - группа машин и трубопроводов, соединённых через свои разъёмы. Реагенты могут течь только между машинами в [bold]одной и той же[/bold] сети.
 
-  Plumbing ducts support [color=#a4885c]three layers[/color] (Primary, Secondary, Tertiary). Ducts only connect to other ducts/nodes on the same layer unless a bridging component (such as a manifold) links paths.
+  Сантехнические трубопроводы поддерживают [color=#a4885c]три слоя[/color] (первичный, вторичный, третичный). Трубопроводы соединяются только с другими трубопроводами/узлами на том же слое, если только соединяющий компонент (например, коллектор) не связывает пути.
 
-  Each [color=#ff5959]inlet[/color] connector on a machine forms its own [bold]independent network[/bold]. This means if a machine has multiple inlet connectors, each one connects to a separate network. Pipes attached to different inlets on the same machine [bold]do not bridge[/bold].
+  Каждый [color=#ff5959]вход[/color] на машине образует собственную [bold]независимую сеть[/bold]. Это значит, что если у машины несколько входов, каждый подключается к отдельной сети. Трубы, подключённые к разным входам одной машины, [bold]не объединяются[/bold].
 
-  [color=#5999ff]Outlet[/color] connectors on the other hand can be connected and bridge networks. Most machines bridge outlets into one network, but some (currently only the plumbing buffer) intentionally keep outlets isolated. Check machine behavior when designing branches.
+  [color=#5999ff]Выходы[/color], напротив, можно соединять, и они объединяют сети. Большинство машин объединяют выходы в одну сеть, но некоторые (сейчас только сантехнический буфер) намеренно держат выходы изолированными. Проверяйте поведение машины при проектировании ответвлений.
 
-  ## Pull-Based Flow
-  Plumbing uses a [color=#a4885c]pull-based[/color] model, reagents don't flow on their own. A machine with an inlet [bold]actively pulls[/bold] reagents from the outlets of other machines on the same network. If nothing is pulling, nothing moves.
+  ## Поток на основе забора
+  Сантехника использует модель [color=#a4885c]на основе забора[/color]: реагенты сами не текут. Машина со входом [bold]активно забирает[/bold] реагенты из выходов других машин в той же сети. Если никто не забирает, ничего не движется.
 
-  This means:
-  - An [color=#a4885c]Input[/color] won't push reagents anywhere by itself. Another machine must pull from it.
-  - A [color=#a4885c]Synthesizer[/color] generates reagents into its buffer, but they sit there until something pulls.
-  - A [color=#a4885c]Tank[/color] pulls from its inlet network and stores reagents. Other machines then pull from the tank's outlet network.
+  Это значит:
+  - [color=#a4885c]Вход[/color] сам никуда не толкает реагенты. Другая машина должна забирать из него.
+  - [color=#a4885c]Синтезатор[/color] генерирует реагенты в свой буфер, но они лежат там, пока что-то их не заберёт.
+  - [color=#a4885c]Бак[/color] забирает из сети своего входа и хранит реагенты. Другие машины затем забирают из сети выхода бака.
 
-  ## Round-Robin Distribution
-  When a machine pulls reagents and there are [bold]multiple outlets[/bold] on the same network (e.g., two synthesizers feeding a tank), it uses round-robin distribution. Each update tick, it starts pulling from a different outlet, cycling through them fairly.
+  ## Циклическое распределение
+  Когда машина забирает реагенты и в одной сети [bold]несколько выходов[/bold] (например, два синтезатора, питающие бак), она использует циклическое распределение. На каждом такте обновления она начинает забор с другого выхода, честно проходя по ним по кругу.
 
-  ## Transfer Rate
-  Machines pull according to their configured transfer amount and update interval (generally 20u every 2 seconds). That pull budget is shared across all of a machine's inlets; adding more inlets splits access paths, not total pull budget.
+  ## Скорость передачи
+  Машины забирают в соответствии с настроенным объёмом передачи и интервалом обновления (обычно 20 ед. каждые 2 секунды). Этот бюджет забора делится между всеми входами машины; добавление входов делит пути доступа, а не общий бюджет забора.
 
-  ## Reactor: Targeted Pulling
-  The [color=#a4885c]Reactor[/color] is special, it pulls [bold]specific reagents[/bold] rather than everything. It fills each target reagent fully before moving to the next. If you set targets of 30u Iron and 20u Carbon, it will pull all 30u of Iron first, then pull Carbon.
+  ## Реактор: целевой забор
+  [color=#a4885c]Реактор[/color] особый: он забирает [bold]конкретные реагенты[/bold], а не всё подряд. Он полностью заполняет каждый целевой реагент, прежде чем перейти к следующему. Если вы задали цели 30 ед. железа и 20 ед. углерода, он сначала заберёт все 30 ед. железа, затем углерод.
 
-  ## Filter: Selective Routing
-  The [color=#a4885c]Filter[/color] has one inlet and two outlets. It classifies intake into separate filtered and passthrough lanes, then controls which reagents are available on which outlet:
-  - [bold]Filtered outlet[/bold]: Only provides the reagents you've selected.
-  - [bold]Passthrough outlet[/bold]: Only provides reagents you [italic]haven't[/italic] selected.
+  ## Фильтр: избирательная маршрутизация
+  У [color=#a4885c]фильтра[/color] один вход и два выхода. Он классифицирует поступление на отдельные фильтруемую и сквозную линии, а затем управляет тем, какие реагенты доступны на каком выходе:
+  - [bold]Фильтруемый выход[/bold]: выдаёт только выбранные вами реагенты.
+  - [bold]Сквозной выход[/bold]: выдаёт только реагенты, которые вы [italic]не[/italic] выбрали.
 
-  Because the lanes are separate, passthrough buildup will not prevent filtered reagents from being pulled into the machine.
+  Поскольку линии раздельны, накопление на сквозной линии не помешает забору фильтруемых реагентов в машину.
 
-  ## Inline Filter: Selective Pulling
-  The [color=#a4885c]Inline Filter[/color] pulls the same targeted way the reactor does. It has one inlet and one outlet, and only ever requests the reagents you've selected, so everything else stays on the network for machines further down the line. Use it when you want to tap a reagent out of a shared line without diverting the rest of it.
+  ## Линейный фильтр: избирательный забор
+  [color=#a4885c]Линейный фильтр[/color] забирает так же целенаправленно, как реактор. У него один вход и один выход, и он запрашивает только выбранные вами реагенты, поэтому всё остальное остаётся в сети для машин дальше по линии. Используйте его, когда хотите отвести реагент из общей линии, не отклоняя остальное.
 
-  Unlike the reactor you don't set quantities, every selected reagent gets the same [bold]10u allowance[/bold] and its own room in the buffer, so an abundant reagent can't crowd the rest of your selection out.
+  В отличие от реактора, количества задавать не нужно: каждый выбранный реагент получает одинаковый [bold]лимит 10 ед.[/bold] и собственное место в буфере, поэтому обильный реагент не вытеснит остальные из вашего выбора.
 
-  ## Pill Press: Mixing Mode
-  In [color=#a4885c]mixing mode[/color], the pill press ignores its main inlet and instead pulls from its [color=#59e659]mixing inlets[/color]. Each mixing inlet pulls from its own separate network into a staging area. Once both staging areas have enough reagent, they combine and press a pill at the configured ratio.
+  ## Пресс таблеток: режим смешивания
+  В [color=#a4885c]режиме смешивания[/color] пресс таблеток игнорирует основной вход и вместо этого забирает из своих [color=#59e659]смешивающих входов[/color]. Каждый смешивающий вход забирает из своей отдельной сети в промежуточную область. Когда в обеих промежуточных областях достаточно реагента, они объединяются и прессуют таблетку с настроенным соотношением.
 
-  ## Tips
-  - Use the [color=#a4885c]plunger[/color] to clear stuck reagents from any machine's buffer.
-  - Machines only pull when they have space in their buffer. A full buffer stops pulling until reagents are pulled from it.
-  - Use a buffer tank when you want reactor product fed back into a supply network for other reactors to use while also keeping a separate product output network for collection (dispenser/ChemMaster/etc.).
+  ## Советы
+  - Используйте [color=#a4885c]вантуз[/color], чтобы очистить застрявшие реагенты из буфера любой машины.
+  - Машины забирают только при наличии места в буфере. Полный буфер прекращает забор, пока из него не заберут реагенты.
+  - Используйте буферный бак, когда хотите, чтобы продукт реактора возвращался в сеть снабжения для других реакторов и при этом сохранялась отдельная сеть выхода продукта для сбора (раздатчик/хим-мастер и т. п.).
 </Document>

@@ -1,57 +1,57 @@
 <Document>
-  # Entropic Colossus
+  # Энтропийный колосс
 
   <Box>
-    [color=#999999][italic]"Neither ill will, nor impassioned desire. Neither malice, nor cruelty. Nothing."[/italic][/color]
+    [color=#999999][italic]«Ни злого умысла, ни страстного желания. Ни злобы, ни жестокости. Ничего».[/italic][/color]
   </Box>
   <Box>
-    [color=#999999][italic]"Just an end."[/italic][/color]
+    [color=#999999][italic]«Просто конец».[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="MobCosmicColossus" Caption=""/>
   </Box>
 
-  You are an Entropic Colossus, a towering monstrosity of malign plating and dendritic infestation. Your purpose is the same as that of the [color=#4cabb3]Cosmic Cult[/color]: The end of all things.
+  Вы - энтропийный колосс, возвышающееся чудовище из злокозненных пластин и дендритного заражения. Ваша цель та же, что и у [color=#4cabb3]Космического культа[/color]: конец всего сущего.
 
-  Some Colossi are remnants. Perhaps survivors of a conflict borne of The Unknown's influence, or the product of some strange Nullspace anomaly. These Colossi drift across the distal black of space until their energies deplete... Or until they impact civilization.
+  Некоторые колоссы - остатки. Возможно, выжившие после конфликта, рождённого влиянием Неведомого, или порождение какой-то странной аномалии Нуль-пространства. Эти колоссы дрейфуют по далёкой черноте космоса, пока их энергия не иссякнет... Или пока они не столкнутся с цивилизацией.
 
-  [textlink="For information on cult-created colossi, click here." link="CosmicCult"]
+  [textlink="Информацию о колоссах, созданных культом, смотрите здесь." link="CosmicCult"]
 
-  ## Influences
+  ## Влияния
 
-  Entropic Colossi are posessed of powerful [color=#4cabb3]Malign Influences[/color], with which a capable colossus may lay waste to its enemies.
+  Энтропийные колоссы обладают мощными [color=#4cabb3]злокозненными влияниями[/color], с помощью которых способный колосс может опустошать своих врагов.
 
-  - [color=#4cabb3][bold]Entropic Sunder:[/bold][/color] Warp to the target location and unleash a cascading detonation of malign energy. Careful - this will hurt allied cultists!
-  - [color=#4cabb3][bold]Colossal Ingress:[/bold][/color] Use your colossal strength to rend false doorways apart and reshape them into true passages. Malign rifts can likewise be transformed into empowered rifts.
-  - [color=#4cabb3][bold]Slumber Shell:[/bold][/color] Slumber your body for a period of time to regenerate integrity. Must be done on stable ground. This will restore you for exactly half the damage you've taken.
+  - [color=#4cabb3][bold]Энтропийный раскол:[/bold][/color] Перенеситесь в целевое место и устройте каскадную детонацию злокозненной энергии. Осторожно - это навредит союзным культистам!
+  - [color=#4cabb3][bold]Колоссальное проникновение:[/bold][/color] Используйте колоссальную силу, чтобы разрывать ложные дверные проёмы и преобразовывать их в истинные проходы. Злокозненные разломы можно так же превращать в усиленные разломы.
+  - [color=#4cabb3][bold]Панцирь дрёмы:[/bold][/color] Погрузите своё тело в дрёму на некоторое время, чтобы восстановить целостность. Нужно делать на устойчивой земле. Это восстановит вас ровно на половину полученного вами урона.
 
-  ## Objectives
+  ## Задачи
   <Box>
     <GuideEntityEmbed Entity="MobTileDamageArea" Caption=""/>
   </Box>
 
-  Colossi that have encountered the station by happenstance:
-  - [color=#4cabb3][bold]Persist[/bold][/color]  - Collectively siphon a certain amount of Entropy from the crew. The more entropy you siphon, the more you can empower the Monument!
-  - [color=#4cabb3][bold]Beckon[/bold][/color] - Call forth an Effigy of Entropy at a designated location aboard the station.
+  Колоссы, случайно встретившие станцию:
+  - [color=#4cabb3][bold]Сохранение[/bold][/color]  - Сообща вытяните определённое количество энтропии из экипажа. Чем больше энтропии вы вытянете, тем сильнее сможете усилить Монумент!
+  - [color=#4cabb3][bold]Призыв[/bold][/color] - Призовите Истукана энтропии в назначенном месте на борту станции.
 
-  Colossi created from Cyborgs by the Cosmic Cult:
-  - [color=#4cabb3][bold]Usher In The End[/bold][/color] - Complete the final ritual to beckon the Unknown and destroy the station.
+  Колоссы, созданные Космическим культом из киборгов:
+  - [color=#4cabb3][bold]Возвещение конца[/bold][/color] - Завершите последний ритуал, чтобы призвать Неведомое и уничтожить станцию.
 
-  ## Effigy of Entropy
+  ## Истукан энтропии
   <Box>
     <GuideEntityEmbed Entity="CosmicEffigy" Caption=""/>
   </Box>
-  Some Colossi may call forth an [color=#4cabb3]Effigy of Entropy[/color]. The effigy is a dangerously unstable malign anomaly, and should be dealt with by the Science department immediately!
+  Некоторые колоссы могут призвать [color=#4cabb3]Истукана энтропии[/color]. Истукан - опасно нестабильная злокозненная аномалия, с которой научный отдел должен разобраться немедленно!
 
-  ## Empowered Malign Rifts
+  ## Усиленные злокозненные разломы
 
   <Box>
-    <GuideEntityEmbed Entity="CosmicMalignRift" Caption="Malign Rift"/> <GuideEntityEmbed Entity="CosmicMalignEmpoweredRift" Caption="Empowered Malign Rift"/>
+    <GuideEntityEmbed Entity="CosmicMalignRift" Caption="Злокозненный разлом"/> <GuideEntityEmbed Entity="CosmicMalignEmpoweredRift" Caption="Усиленный злокозненный разлом"/>
   </Box>
 
-  A Colossus may empower a [color=#4cabb3]Malign Rift[/color], transforming it into an [color=#6A4CFF]Empowered Malign Rift[/color]. Unlike ordinary rifts, empowered rifts are immune to the decay that normally claims malign anomalies.
+  Колосс может усилить [color=#4cabb3]злокозненный разлом[/color], превратив его в [color=#6A4CFF]усиленный злокозненный разлом[/color]. В отличие от обычных разломов, усиленные разломы невосприимчивы к распаду, который обычно уничтожает злокозненные аномалии.
 
-  An empowered rift can hold one critical or dead non-cultist humanoid, preserving it within the rift. Each currently stored host strengthens the Colossus and its minions, allowing the rifts to serve as a source of growing malign power.
+  Усиленный разлом может удерживать одного находящегося в критическом состоянии или мёртвого гуманоида-некультиста, сохраняя его внутри разлома. Каждый хранящийся в данный момент носитель усиливает колосса и его приспешников, позволяя разломам служить источником растущей злокозненной силы.
 
 
 </Document>

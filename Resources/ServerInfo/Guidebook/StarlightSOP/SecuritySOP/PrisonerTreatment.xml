@@ -1,26 +1,26 @@
 <Document>
-# Prisoner Treatment
+# Обращение с заключёнными
 
 - 1.\n
-Prisoners cannot be confined without a valid sentence. To be considered valid, a sentence must:\n\n
+Заключённых нельзя содержать без действительного приговора. Чтобы приговор считался действительным, он должен:\n\n
 1.1\n
-Have clearly defined which part of Corporate Law was broken.\n
+Чётко определять, какая часть корпоративного закона нарушена.\n
 1.2\n
-Have clearly defined how said law was broken.\n\n
+Чётко определять, как этот закон был нарушен.\n\n
 1.3\n
-Be overheard and clearly approved by the Warden or Head of Security.\n\n
+Быть услышанным и явно одобренным смотрителем или главой службы безопасности.\n\n
 1.4\n
-Be read aloud to the prisoner themselves.
+Быть зачитанным вслух самому заключённому.
 - 2.\n
-Arresting officers are responsible for ensuring that prisoners are not let into the brig with dangerous equipment or tools enabling their escape, they are to be searched and said equipment is to be confiscated.
+Арестовывающие офицеры отвечают за то, чтобы заключённых не пускали в бриг с опасным снаряжением или инструментами, помогающими бежать; их нужно обыскать, а такое снаряжение изъять.
 - 3.\n
-Prisoners are to have their PDA's confiscated, and provided with a Prisoner ID for the duration of their stay in the brig.
+У заключённых изымают КПК, а на время пребывания в бриге выдают ID заключённого.
 - 4.\n
-All the prisoner's non-confiscated belongings are to be returned to them, including their PDA, following the end of their sentence.
+Все неизъятые вещи заключённого, включая КПК, возвращаются ему по окончании срока.
 - 5.\n
-Prisoners are to be unrestrained in the brig by default, but may be re-restrained if overly unruly.
+Заключённые по умолчанию находятся в бриге без наручников, но могут быть закованы заново, если слишком буйны.
 - 6.\n
-Prisoners may request a trial, but are not entitled to one unless their sentence is permanent, capital or involves designation as an Enemy of the Corporation.
+Заключённые могут потребовать суд, но не имеют на него права, если их приговор не бессрочный, не высшая мера или не связан с объявлением врагом корпорации.
 - 7.\n
-Prisoners may request a lawyer at any time, and are entitled to be visited by them if one is present and willing.
+Заключённые могут в любое время потребовать адвоката и вправе принимать его визит, если он присутствует и согласен.
 </Document>

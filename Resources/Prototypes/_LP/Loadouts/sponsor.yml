@@ -1,0 +1,34 @@
+# Спонсорские и личные лодауты.
+# Предметы кладутся в рюкзак (storage: back). Чтобы лодаут появился в меню, его ID добавляют
+# в группу лодаутов, например Trinkets в Resources/Prototypes/Loadouts/LoadoutGroups/loadout_groups.yml (с пометкой # LP edit).
+
+# Требования для лодаутов по уровню спонсорки.
+
+- type: loadoutEffectGroup
+  id: LPSponsorTier3
+  effects:
+  - !type:RolesReqLoadoutEffect
+    proto: LPSponsorTier3Req
+
+# Пример спонсорского предмета (3 уровень):
+#
+# - type: loadout
+#   id: LPSponsorUnderwear
+#   effects:
+#   - !type:GroupLoadoutEffect
+#     proto: LPSponsorTier3
+#   storage:
+#     back:
+#     - ClothingUnderwearSponsor
+#
+# Пример личного предмета (5 уровень): users - UUID аккаунта SS14, его видно в админке (вкладка игрока) или на hub.spacestation14.com.
+#
+# - type: loadout
+#   id: LPPersonalSomeone
+#   effects:
+#   - !type:PersonalLoadoutEffect
+#     users:
+#     - 00000000-0000-0000-0000-000000000000
+#   storage:
+#     back:
+#     - ToyPlushieSomeone

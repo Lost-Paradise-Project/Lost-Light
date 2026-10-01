@@ -1,386 +1,332 @@
 # Written by woldendov
 book-capns-scruples = Был я паромным капитаном, гнилым, и славой не блистал.
-        Me sloop scarcely able to go from astroid to planet and back home again.
+        Мой шлюп еле-еле от астероида к планете да обратно домой ковылял.
 
-        On me travels I see a lot of this, that 'n' the other. It don't mind me none, not one bit, not me, me dog or me mother.
+        В рейсах своих повидал я и то, и сё, и всякое прочее. Да мне всё нипочём — ни мне, ни псу моему, ни мамаше, между прочим.
 
-        Ferry cargo or people, I argue none, I do just what I'm told.
-        I ferry crim'nals and contraband, 'n' I'll do it 'till I'm old.
+        Груз ли, людей ли вожу — не спорю, делаю, что велят.
+        Вожу преступников, вожу контрабанду, и буду возить, пока годы не прибавят.
 
-        There are none less scrupulous than I, at least I liked to think. 'Till one day me cargo talked and begged me for a drink.
+        Беспринципней меня не сыскать, так уж я о себе думать привык. Пока однажды мой груз не заговорил и не выпросил хоть глоток воды на язык.
 
-        I opened a crate to find some people bound; pale, thin and hard to see. That's when I started thinkin' like; "What if that were me?"
+        Вскрыл я ящик, а там люди связаны — бледные, тощие, едва видать. Тут-то я и задумался: «А если б это меня так везти, твою мать?»
 
-        Took umbridge did I, with the contractor for that job. I took his wad of cash and shoved it in his gob.
+        Взыграло во мне, ох взыграло, на заказчика злость берёт. Взял я его пачку денег да запихал ему прямо в рот.
 
-        "I take people and cargo" says I
-        "That's how simple it be." "Don't much mind the poor, methinks, but they should ride for free."
+        «Я вожу людей и грузы, - говорю, -
+        Вот и вся недолга». «До бедняков мне дела нет, но пусть летают задарма».
 
 # Written by sladeaz
 book-last-cow = Постоянный низкий гул вентиляторов системы жизнеобеспечения разносился по металлическим костям Орбитального ранчо Тета-9, одинокой крохи, дрейфующей в ледяной тени лун Юпитера. Шёл 2652 год, и Билл Восс провёл здесь четыре долгих тихих года единственным смотрителем бесценного чистокровного земного скота НаноТрейзен. Тёплый землистый запах сена и навоза всегда смешивался с резким металлическим привкусом переработанного воздуха, что оседал на языке, как старые монеты. Каждое утро он просыпался от тихого мычания коров, что катилось по амбару с гравитационной симуляцией, от нежного кудахтанья кур и от слабого шороха овечьей шерсти о стенки стойл. Работа была одинокой, это точно, но знакомые запахи и звуки не давали бескрайней чёрной пустоте давить слишком сильно.
 
-        He kept the old double-barrel shotgun hidden in a locked panel behind the feed bins. He’d smuggled it up in pieces years ago, breaking every corporate rule in the book. It was a twelve-gauge with a walnut stock worn smooth by generations of hands back on Earth. The gun felt solid and real in his grip—no finicky energy cells, no fancy electronics that could glitch out when you needed them most. Just brass shells, a good kick of recoil, and raw stopping power. He’d never had to use it. Until now.
+        Старую двустволку он прятал в запертой панели за кормовыми ящиками. Много лет назад он протащил её наверх по частям, нарушив все корпоративные правила до единого. Двенадцатый калибр, ореховый приклад, отполированный руками нескольких поколений ещё на Земле. Ружьё ощущалось в руках надёжным и настоящим — никаких капризных энергоячеек, никакой навороченной электроники, которая откажет в самый нужный момент. Только латунные патроны, хорошая отдача и чистая убойная сила. Ему никогда не приходилось им пользоваться. До сих пор.
 
-        The first animal to disappear was just a hen. All that was left was a scatter of warm, downy feathers that still carried the faint smell of her body heat and dried feed dust. No blood, no signs of a struggle. Just an empty nesting box and a strange, sickly-sweet odor hanging in the air like fruit left too long in the sun. The security vids showed nothing but bursts of static that crackled like dry lightning in his ears.
+        Первой пропала всего лишь курица. От неё остались лишь разбросанные тёплые пушистые перья, ещё хранившие слабый запах тепла её тела и сухой кормовой пыли. Ни крови, ни следов борьбы. Только пустое гнездо и странный приторно-сладкий запах, висевший в воздухе, как от фруктов, слишком долго пролежавших на солнце. Записи камер показывали лишь вспышки помех, трещавших в ушах, как сухие молнии.
 
-        Two days later a lamb vanished. Then an ewe. By the end of the week three more chickens and a goat were gone without a trace. Bill started sleeping with the shotgun leaning against his bunk, its heavy weight a cold comfort under his fingers while the station’s atmospherics whispered chilly drafts across his sweat-damp skin.
+        Через два дня исчез ягнёнок. Потом овца. К концу недели бесследно пропали ещё три курицы и коза. Билл стал спать, прислонив ружьё к койке; его тяжесть под пальцами была холодным утешением, пока атмосферная система станции нашёптывала зябкие сквозняки по его влажной от пота коже.
 
-        Week three brought the first real clue. In the feed storage he found a glistening grayish patch fused right into the deck plating. It looked like melted flesh, still tacky when he touched it, reeking of coppery blood mixed with that same overripe sweetness. When he prodded it with a gloved finger the surface gave a little, wet and yielding, before it dried into something too smooth and uniform—like the missing goat’s hide with all the natural texture stripped away. That night he dreamed of the animals watching him with eyes that were far too intelligent, reflecting his own face back in twisted, distorted curves.
+        Третья неделя принесла первую настоящую зацепку. На кормовом складе он нашёл блестящее сероватое пятно, вплавленное прямо в обшивку пола. Оно походило на расплавленную плоть, всё ещё липкую на ощупь, и воняло медной кровью вперемешку с той же перезрелой сладостью. Когда он ткнул его пальцем в перчатке, поверхность чуть поддалась, влажная и податливая, а затем засохла во что-то слишком гладкое и однородное — как шкура пропавшей козы, лишённая всякой естественной фактуры. Той ночью ему снилось, что животные смотрят на него слишком умными глазами, отражая его лицо в искажённых, изломанных изгибах.
 
-        By day twenty the sheep, both goats, and half the chickens had disappeared. The barn felt bigger and emptier than ever. The few animals left shifted restlessly in their pens, their warm breath fogging the chilled air and carrying the thick, living scent of sweat and cud. Bill barricaded himself in the command module, his heart hammering against his ribs. The station AI’s flat, synthetic voice crackled over the speakers, damaged months ago when a solar flare fried its core. No replacement intellicard had ever arrived from Nanotrasen, so it could only handle basic tasks now—life support, atmospheric readings, nothing more.
+        К двадцатому дню исчезли овцы, обе козы и половина кур. Амбар казался больше и пустыннее, чем когда-либо. Немногие оставшиеся животные беспокойно переминались в загонах, их тёплое дыхание туманило холодный воздух и несло густой живой запах пота и жвачки. Билл забаррикадировался в командном модуле, сердце колотилось о рёбра. Из динамиков потрескивал ровный синтетический голос ИИ станции — он был повреждён несколько месяцев назад, когда солнечная вспышка выжгла его ядро. Новая интелкарта от НаноТрейзен так и не пришла, так что теперь ИИ справлялся лишь с простейшими задачами — жизнеобеспечение, атмосферные показатели, не более.
 
-        “Biomass readings normalized. Recommend rest cycle.”
+        «Показатели биомассы в норме. Рекомендуется цикл отдыха».
 
-        Bill stopped trusting even that simple voice after a while.
+        Через какое-то время Билл перестал доверять даже этому простому голосу.
 
-        Then Bess vanished right while he was watching. He’d only turned away for five seconds to grab the sterilizer, the cold metal handle suddenly slick in his sweaty grip. When he looked back the stall was empty except for a faint wet smear on the floor. It smelled sharply of copper and that cloying overripe fruit. When he knelt down, the smear was still warm, sticky against his glove like half-congealed mucus.
+        А потом Бесс исчезла прямо у него на глазах. Он отвернулся всего на пять секунд, чтобы взять стерилизатор, и холодная металлическая ручка вдруг стала скользкой в потной ладони. Когда он обернулся, стойло было пустым, лишь на полу темнел слабый влажный мазок. Он резко пах медью и той приторной перезрелой фруктовостью. Когда Билл опустился на колени, мазок был ещё тёплым и лип к перчатке, как полузастывшая слизь.
 
-        He started marking the walls with crayon tallies he’d found in an old supply crate, the waxy red lines smearing slightly under his trembling fingers and giving him something solid to hold onto. Every morning the numbers felt off, like the station itself was quietly breathing lies.
+        Он начал отмечать дни на стенах мелками, найденными в старом ящике со снабжением; восковые красные черточки слегка размазывались под дрожащими пальцами, давая ему хоть что-то твёрдое, за что можно держаться. Каждое утро цифры казались неправильными, будто сама станция тихо дышала ложью.
 
-        Week five. Only Mabel was left.
+        Пятая неделя. Осталась только Мейбл.
 
-        The old cow stood alone in the vast barn, her sides heaving with deep, labored breaths that filled the air with the heavy, comforting scent of warm hide and fresh hay—now edged with something sour underneath. Bill approached slowly, his mag-boots clanging softly on the deck, the shotgun slung across his back and shells heavy in his pockets. She nuzzled his palm like always. Her rough tongue licked the salt from his skin, warm and rasping, so familiar. For one brief heartbeat he felt a wave of relief wash through him, loosening the tight knot of fear in his gut.
+        Старая корова стояла одна в огромном амбаре, её бока тяжело вздымались от глубокого, натужного дыхания, наполняя воздух густым, успокаивающим запахом тёплой шкуры и свежего сена — теперь с кислой ноткой где-то под ним. Билл медленно подошёл, магнитные ботинки тихо лязгали по полу, ружьё висело за спиной, а карманы оттягивали патроны. Она, как всегда, ткнулась носом в его ладонь. Её шершавый язык слизывал соль с его кожи, тёплый и царапающий, такой знакомый. На один короткий удар сердца его захлестнула волна облегчения, ослабив тугой узел страха в животе.
 
-        Then Mabel spoke.
+        А потом Мейбл заговорила.
 
-        A low vibration rose from deep in her throat and twisted itself into his own voice—layered and distorted, as if dozens of mouths were whispering at once from inside wet flesh. “Bill… good boy. Come closer.”
+        Низкая вибрация поднялась из глубины её горла и свилась в его собственный голос — многослойный и искажённый, словно десятки ртов шептали одновременно изнутри влажной плоти. «Билл… хороший мальчик. Подойди ближе».
 
-        The sound slithered right into his ears, intimate and horribly wrong, raising every hair on his arms. Her pupils stretched long and narrow, her irises fracturing like shattered glass. Flesh rippled beneath her hide in slow, liquid waves he could actually hear—a soft, squelching shift like meat being kneaded by unseen hands. A seam split open along her flank with a wet tearing sound, revealing not muscle but a glistening mouth lined with rows of needle-sharp teeth that clicked hungrily.
+        Звук вполз прямо в уши, интимный и чудовищно неправильный, и у Билла встали дыбом все волоски на руках. Её зрачки вытянулись в длинные узкие щели, радужки растрескались, как разбитое стекло. Под шкурой медленными жидкими волнами перекатывалась плоть, и он слышал это — мягкое хлюпающее движение, будто мясо месят невидимые руки. Вдоль бока с влажным треском разошёлся шов, открыв не мышцы, а блестящую пасть с рядами игольчатых зубов, голодно щёлкающих.
 
-        The thing unfolded.
+        Тварь развернулась.
 
-        It had never really been just one animal. It was all of them at once. Goat horns twisted grotesquely out of its back with a sickening crack of bone. Chicken feathers bloomed across its surface in oily waves before dissolving back into slick gray protoplasm with a series of soft, wet pops. A useless sheep’s leg kicked spasmodically from its side, the hoof scraping the deck with a metallic screech before it was sucked back in with a nauseating slurp. The whole mass pulsed
+        На самом деле это никогда не было одним животным. Это были все они сразу. Козьи рога с тошнотворным хрустом кости уродливо выкрутились из её спины. По поверхности маслянистыми волнами расцветали куриные перья и тут же с серией тихих влажных хлопков растворялись обратно в скользкую серую протоплазму. Бесполезная овечья нога судорожно дёргалась сбоку, копыто с металлическим скрежетом царапало пол, пока её с тошнотворным хлюпаньем не втянуло обратно. Вся масса пульсировала
 
-        and stretched, filling the air with the stench of blood, sour milk, and something ancient and frozen from the black between stars—a metallic, ozone tang that burned the back of his throat.
+        и растягивалась, наполняя воздух вонью крови, прокисшего молока и чего-то древнего и замёрзшего из черноты между звёздами — металлическим, озоновым привкусом, обжигавшим заднюю стенку горла.
 
-        Bill swung the shotgun up fast. The walnut stock slammed into his shoulder with that old, familiar weight. He thumbed back both hammers—two crisp metallic clicks that cut through the wet, horrible sounds. He fired.
+        Билл быстро вскинул ружьё. Ореховый приклад ударил в плечо привычной старой тяжестью. Он большим пальцем взвёл оба курка — два чётких металлических щелчка прорезали влажные жуткие звуки. Он выстрелил.
 
-        The first barrel roared like thunder trapped in steel. The recoil punched him hard in the chest. Buckshot tore into the creature’s torso with a wet, ripping impact, spraying black ichor in hot, stinging arcs that hissed where they hit the deck and filled the barn with an acrid, burning-plastic stench. The thing screamed with every stolen voice layered together—lowing, bleating, clucking—all of it wet and gurgling at once.
+        Первый ствол взревел, как гром, запертый в стали. Отдача сильно ударила его в грудь. Картечь с влажным рвущим ударом впилась в туловище твари, разбрызгивая чёрный ихор горячими жгучими дугами, которые шипели, попадая на пол, и наполняли амбар едкой вонью горящего пластика. Тварь закричала всеми украденными голосами разом — мычанием, блеянием, кудахтаньем — и всё это булькало и хлюпало одновременно.
 
-        It lunged anyway. A long, ropy length of its own flesh surged forward and shaped itself into a grotesque arm, thick cords of muscle twisting under mottled gray skin. From the end of that arm a massive, curved blade of hardened red flesh jetted out like a scythe, glistening wetly and dripping with viscous black fluid. The blade whistled through the air as the arm swung.
+        И всё равно бросилась вперёд. Длинный жгут её собственной плоти рванулся вперёд и сложился в уродливую руку, под пятнистой серой кожей перекручивались толстые мышечные тяжи. Из конца этой руки, как коса, выстрелил огромный изогнутый клинок из затвердевшей красной плоти, влажно блестящий и сочащийся вязкой чёрной жидкостью. Клинок со свистом рассёк воздух.
 
-        Bill barely dodged. The red blade slammed into the deck plating inches from his leg, carving a deep, smoking gouge with a screech of tortured metal. Acidic ichor splattered across his boot; the fabric dissolved with a sizzling hiss, and searing pain flared up his calf like liquid fire.
+        Билл едва увернулся. Красный клинок врезался в обшивку пола в паре сантиметров от его ноги, с визгом раздираемого металла пропахав глубокую дымящуюся борозду. Кислотный ихор брызнул на ботинок; ткань с шипением растворилась, и жгучая боль, как жидкий огонь, полыхнула по икре.
 
-        He fired the second barrel point-blank. The blast lit the whole barn in a muzzle flash of orange hell, shredding flesh and spraying more ichor across his visor. The creature howled in his own perfect voice, raw and pleading. “Don’t leave me, Bill. We’re all that’s left.”
+        Второй ствол он разрядил в упор. Вспышка залила весь амбар оранжевым адом, разрывая плоть и забрызгивая визор ихором. Тварь взвыла его собственным, идеально точным голосом, надрывно и умоляюще: «Не бросай меня, Билл. Мы — всё, что осталось».
 
-        Bill dove for the emergency hatch, slamming the override while his shaking fingers broke open the shotgun and shoved in two fresh shells. Alarms wailed in piercing shrieks. The barn module depressurized with a roaring rush of air that tugged hard at his suit. The thing was sucked toward the vacuum, limbs still flailing, still mutating—half-cow, half-nightmare of too many joints and eyes blinking in unnatural sequence, the red blade-arm still whipping wildly. Its final scream cut off sharply as the air rushed out into cold silence.
+        Билл нырнул к аварийному люку и ударил по кнопке ручного управления, пока дрожащие пальцы переламывали ружьё и вставляли два новых патрона. Пронзительно завыли сирены. Модуль амбара разгерметизировался, воздух с рёвом рванулся наружу, сильно потянув его скафандр. Тварь потащило к вакууму; её конечности всё ещё метались, она всё ещё мутировала — наполовину корова, наполовину кошмар из слишком многих суставов и глаз, моргающих в неестественном порядке, а красная рука-клинок всё ещё бешено хлестала. Её последний крик резко оборвался, когда воздух вырвался в холодную тишину.
 
-        Bill collapsed in the corridor, gasping for breath. The suit breach at his ankle burned like ice and fire at the same time. He poured gunpowder from a spare shell onto the darkening wound and lit it with a striker. The sudden flash of flame seared the flesh, filling the air with the stench of burnt hair and something sweeter, something wrong. A tiny gray thread wriggled at the edge before it blackened and died.
+        Билл рухнул в коридоре, хватая ртом воздух. Пробоина в скафандре у лодыжки жгла одновременно льдом и огнём. Он высыпал порох из запасного патрона на темнеющую рану и поджёг его огнивом. Внезапная вспышка пламени прижгла плоть, наполнив воздух вонью палёных волос и чем-то более сладким, чем-то неправильным. По краю раны извивалась крошечная серая нить, пока не почернела и не умерла.
 
-        He limped to the command module and purged the rest of the station. The damaged AI issued no further warnings; its lights simply flickered once and went dark. The silence that followed was absolute, pressing against his eardrums like thick cotton.
+        Он, хромая, добрался до командного модуля и продул остальную станцию. Повреждённый ИИ больше не выдавал предупреждений; его огни просто мигнули раз и погасли. Наступившая тишина была абсолютной и давила на барабанные перепонки, как плотная вата.
 
-        Hours dragged by. The station was tomb-quiet now, the air growing colder and thinner, tasting of metal and his own sour fear-sweat.
+        Тянулись часы. Теперь на станции стояла могильная тишина, воздух становился всё холоднее и разреженнее, отдавая металлом и его собственным кислым потом страха.
 
-        Bill sat against the bulkhead, leg bandaged, the reloaded shotgun heavy across his lap with both hammers cocked. All the biomass readings showed zero except his own.
+        Билл сидел у переборки с перевязанной ногой, заряженное ружьё тяжело лежало на коленях, оба курка взведены. Все показатели биомассы были нулевыми, кроме его собственного.
 
-        Then the comms crackled to life.
+        Потом ожила связь.
 
-        His own voice came through, calm and warm, as intimate as a whisper right against his ear. “Hey, Bill. Nice shooting. You did good sealing everything. Smart move. But I’m cold out here… so damn cold. Let me back in. Just for a minute. We can talk about the next shipment. Nanotrasen will never know.”
+        Из динамика раздался его собственный голос, спокойный и тёплый, интимный, как шёпот прямо в ухо. «Эй, Билл. Отличная стрельба. Ты молодец, что всё загерметизировал. Умный ход. Но мне тут холодно… чертовски холодно. Впусти меня обратно. Всего на минутку. Обсудим следующую поставку. НаноТрейзен никогда не узнает».
 
-        The wound on his ankle itched fiercely now, warm and pulsing exactly in time with his hammering heartbeat. He could feel something moving beneath the skin—slow, deliberate, like a tongue tasting him from the inside. The itch climbed higher, crawling up his calf with a wet, squelching sensation that sent a fresh wave of nausea rolling through him.
+        Рана на лодыжке теперь яростно зудела, тёплая и пульсирующая точно в такт его колотящемуся сердцу. Он чувствовал, как под кожей что-то движется — медленно, обдуманно, словно язык пробует его изнутри. Зуд полз всё выше, по икре, с влажным хлюпающим ощущением, от которого его накрыла новая волна тошноты.
 
-        Bill tightened his grip on the shotgun until his knuckles turned bone-white. His reflection in the dark viewport stared back—eyes wide and wild, sweat beading and trickling coldly down his temples.
+        Билл сжал ружьё так, что костяшки побелели. Его отражение в тёмном иллюминаторе смотрело на него — глаза широко раскрыты и безумны, пот выступает каплями и холодными струйками стекает по вискам.
 
-        Outside, something scraped softly against the hull. Once. Twice. The sound vibrated through the metal straight into his bones.
+        Снаружи что-то тихо скребнуло по корпусу. Раз. Другой. Звук прошёл сквозь металл прямо в кости.
 
-        Then silence.
+        Потом тишина.
 
-        He waited.
+        Он ждал.
 
-        A single, low moo echoed faintly through the station—gentle, warm, achingly familiar. It came from the direction of the sealed command module door.
+        По станции слабым эхом разнеслось одно низкое мычание — мягкое, тёплое, мучительно знакомое. Оно донеслось со стороны запертой двери командного модуля.
 
-        Bill’s stomach twisted. The sound came again, closer this time. Warm. Almost comforting. Like Mabel’s breath against his palm.
+        Желудок Билла скрутило. Звук повторился, на этот раз ближе. Тёплый. Почти утешающий. Как дыхание Мейбл на его ладони.
 
-        The moo sounded once more, right outside the door now, so close he could almost feel warm breath pressing against the other side of the metal. Then another sound joined it—a soft, wet chuckle that wasn’t quite his own voice, bubbling up from somewhere deep inside his chest.
+        Мычание раздалось ещё раз, уже прямо за дверью, так близко, что он почти чувствовал тёплое дыхание, прижимающееся к металлу с той стороны. Затем к нему присоединился другой звук — тихий влажный смешок, не совсем его собственным голосом, булькающий где-то глубоко в его груди.
 
-        Bill’s hand trembled violently as he slowly pressed the cold barrels of the shotgun under his own chin, the metal digging painfully into the soft flesh of his throat. His finger hovered over both triggers. Hot tears burned his eyes, mixing with the sweat running down his face.
+        Рука Билла сильно дрожала, когда он медленно упёр холодные стволы ружья себе под подбородок; металл больно впился в мягкую плоть горла. Палец завис над обоими спусковыми крючками. Горячие слёзы жгли глаза, смешиваясь с потом, стекающим по лицу.
 
-        The moo came again, louder, vibrating through the door and through his bones at the same time. Inside his leg, something shifted with a sickening pop, pushing upward toward his knee. He felt the skin stretch tight, as if something was trying to push its way out.
+        Мычание раздалось снова, громче, вибрируя одновременно сквозь дверь и сквозь его кости. Внутри ноги что-то с тошнотворным хлопком сдвинулось и поползло вверх, к колену. Он почувствовал, как туго натягивается кожа, будто что-то пытается вырваться наружу.
 
-        Bill swallowed hard, thumbed back the hammers again with two deliberate clicks, and whispered into the crushing silence, his voice cracking.
+        Билл с трудом сглотнул, снова двумя нарочитыми щелчками взвёл курки и прошептал в давящую тишину надломленным голосом:
 
-        “…Mabel?”
+        «…Мейбл?»
 
-        The lights flickered.
+        Свет мигнул.
 
-        From inside his own thigh came a muffled, wet lowing sound, as if the cow were trapped and calling out from within his flesh.
+        Из его собственного бедра донеслось приглушённое влажное мычание, словно корова оказалась заперта в его плоти и звала оттуда.
 
-        His finger tightened on the triggers, knuckles whitening.
+        Палец напрягся на спусковых крючках, костяшки побелели.
 
-        The lights went out completely.
+        Свет погас совсем.
 
-        In the total darkness, Bill felt the first warm ripple move beneath the skin of his face—slow, deliberate, and horribly familiar.
+        В полной темноте Билл почувствовал, как под кожей его лица пробежала первая тёплая волна — медленная, обдуманная и чудовищно знакомая.
 
-        He squeezed.
+        Он нажал на спуск.
 
-        The twin barrels roared.
+        Оба ствола взревели.
 
-        Then there was only silence… and the wet sound of something still moving in the dark.
+        Потом была лишь тишина… и влажный звук чего-то, что всё ещё двигалось в темноте.
 
 # Written by mica_bloodless
 book-through-the-glass = Стук в окна прекратился несколько часов назад.
-         Are they tired, or paused on a slower cruelty?
-         Their bloodshot eyes still hunt me through the glass, but they do not break for now they wait, heavy as a storm closely approaching.
-         I'm cursed to be stuck in the lawyer's office: no defense here but pens, loose paper and varnished wood.
-         No nourishment to feed my body.
-         No arms to defend my soul.
-         I pray the clock will bend in my favour.
-         Worse than the wounds are the familiar faces drifting in the halls, once friends, now gargling witnesses to our collapse, trailing their rot and their blood like a mark on the grey floors.
-         Even the AI has gone silent on the Holopad; through their staggered legs I think they smashed it.
-         The maintenance door won't open: no tools, no ID, just a locked promise.
-         Maybe that's luck, perhaps some of them roam behind it.
-         Sometimes the lights stutter, maybe someone in Engineering keeps the station alive, but that hope is as fragile as the coils that feed the light
-         They track every move I make.
-         They know I'm here.
-         Why don't they batter the glass again?
-         Why only that steady gaze?
-         Why do they seem to enjoy watching me suffer?
-         Perhaps it’s fate, for I didn't defend the ones I was supposed to save.
-         Souls to be left unchecked in those metal halls, just because I was a fool.
-         Their silence is maybe a price I have to pay, for my sake.
-         What is the price for a coward, but to watch their failure for eternity ?
-         An eternal public to watch their prey fall to their own demise.
-         May space and stars see the errors of my past, so the future can rise from my carcass.
-         I just wish I could save more of them.
-         Innocents lost because of a man's greed.
-         As my bones will start modeling my skin around them.
-         In my last hours, I wish, there was not a barrier of glass between me and this hell.
-         A wish to join the ones that fall behind me.
-         A final rest before my imminent fate.
-         Maybe I was too foolish to see the evidence, that I was the one to give myself out to Them.
-         Eyes upon my soul, my body will be craved for eternity but my judgement is this eternal box of steel.
-         As I take my final drink and take one last bite, I am now ready to open the way one last time.
-         For them to feed on my sinner’s body.
+         Они устали — или затаились ради более медленной жестокости?
+         Их налитые кровью глаза всё ещё выслеживают меня сквозь стекло, но они не ломятся — теперь они ждут, тяжёлые, как подступающая гроза.
+         Я обречён сидеть взаперти в кабинете юриста: из защиты здесь лишь ручки, листы бумаги и лакированное дерево.
+         Нечем питать тело.
+         Нечем защитить душу.
+         Я молюсь, чтобы время повернулось в мою пользу.
+         Хуже ран — знакомые лица, что бродят по коридорам: когда-то друзья, а теперь хрипящие свидетели нашего краха, оставляющие за собой гниль и кровь, словно метку на серых полах.
+         Даже ИИ замолк на голопаде — кажется, сквозь их шатающиеся ноги я вижу, что его разбили.
+         Дверь в техтоннели не открывается: ни инструментов, ни ID-карты, лишь запертое обещание.
+         Может, это и к лучшему: вдруг за ней тоже бродят они.
+         Иногда свет мигает — быть может, кто-то в инженерном ещё поддерживает жизнь станции, но эта надежда хрупка, как катушки, что питают лампы.
+         Они следят за каждым моим движением.
+         Они знают, что я здесь.
+         Почему они снова не бьют в стекло?
+         Почему лишь этот неотрывный взгляд?
+         Почему им будто нравится смотреть, как я страдаю?
+         Быть может, это судьба: я не защитил тех, кого должен был спасти.
+         Души, брошенные без присмотра в этих металлических коридорах — лишь потому, что я был глупцом.
+         Быть может, их молчание — цена, которую я должен заплатить за себя.
+         Какая ещё цена есть для труса, кроме как вечно смотреть на свой провал?
+         Вечные зрители, наблюдающие, как их добыча идёт к собственной гибели.
+         Пусть космос и звёзды увидят ошибки моего прошлого, чтобы будущее поднялось из моих останков.
+         Мне лишь хотелось бы спасти больше из них.
+         Невинные, погибшие из-за чьей-то жадности.
+         Скоро мои кости начнут лепить кожу по своей форме.
+         В последние часы я хочу, чтобы между мной и этим адом не было стеклянной преграды.
+         Хочу присоединиться к тем, кто пал позади меня.
+         Последний покой перед неминуемой участью.
+         Быть может, я был слишком глуп, чтобы увидеть очевидное: это я сам отдал себя Им.
+         Глаза, устремлённые на мою душу; моё тело будут жаждать вечно, но мой приговор — этот вечный стальной ящик.
+         Я делаю последний глоток и последний укус и теперь готов в последний раз открыть путь.
+         Чтобы они насытились моим грешным телом.
 
 # Written by karmakitsuna
 book-caves-of-urania = Ужасный вывод, давно назревший, наконец опустился на мой растерянный разум и, несмотря на моё первоначальное нежелание, вдруг стал жуткой уверенностью. Я заблудился. Полностью и безнадёжно заблудился в обширных лабиринтообразных недрах пещер Урании-9775. Ни одна тропа не казалась знакомой, ни один ориентир не подсказывал путь. Мысль о том, что я больше никогда не увижу благословенный дневной свет и не почувствую под ногами ничего, кроме ледяных бесчувственных пещерных камней, подпитывала моё неверие до этого момента. Но теперь надежда покинула меня.
 
-        I recalled learning how individuals faced in these situations often lost their composure. However, I took no pride in my mindfulness and felt no superiority for retaining my senses. For my own undoing would be the same. Our legacies would be identical- a case study covered briefly during orientation. I’d be unnamed and unremembered. Starvation would prove my ultimate fate, of this I was sure. Aside from the eyeless fish in pools around the caverns I’d seen no other forms of life.
+        Я вспомнил, как на инструктаже нам рассказывали, что люди в подобных ситуациях часто теряют самообладание. Однако я не гордился своей собранностью и не чувствовал превосходства оттого, что сохранил рассудок. Ведь и моя гибель будет такой же. Наше наследие будет одинаковым — пример, который вскользь разбирают на инструктаже. Безымянный и забытый. В конце концов меня ждёт голодная смерть, в этом я был уверен. Кроме безглазых рыб в озерцах по пещерам, никаких других форм жизни я не видел.
 
-        From my records I know that I am a clone, my original self was lost some time ago. Its fate sealed in a file I don’t have the authorization to access. On paper cloning allows you to live forever. But it’s not until you’re about to die that you realize it won’t be you living. Just someone else with identical genetics and past memories.
+        Из своих записей я знаю, что я клон, мой оригинал погиб некоторое время назад. Его судьба запечатана в деле, к которому у меня нет допуска. На бумаге клонирование позволяет жить вечно. Но лишь оказавшись на пороге смерти, понимаешь, что жить будешь не ты. А кто-то другой, с той же генетикой и теми же воспоминаниями.
 
-        As the last rays of my lamp flickered into obscurity I resolved to leave no stone unturned. No potential means of escape neglected. I imagined scenarios in which my crew had remained, waiting for my return. Or perhaps they returned themselves, determined to find me. I stood and summoned all of the strength possessed by my lungs. I shouted with the vain hope that someone would indeed hear the cacophony of sound that reverberated throughout the labyrinth. Still, I believed deep within my heart that this ruckus would fall upon no ears, save my own. Yet determined, I continued to shout unto the void.
+        Когда последние лучи моего фонаря угасли во мраке, я решил не оставить ни одного камня неперевёрнутым. Не пренебречь ни единым возможным путём к спасению. Я представлял, как моя команда осталась и ждёт моего возвращения. Или, может, вернулась сама, твёрдо решив меня найти. Я встал и собрал всю силу своих лёгких. Я кричал в тщетной надежде, что кто-то и правда услышит какофонию звуков, разносившуюся по лабиринту. И всё же в глубине души я верил, что этот шум не достигнет ничьих ушей, кроме моих собственных. Но я упрямо продолжал кричать в пустоту.
 
-        Then, I heard it. Soft, trudges echoing off of the cold rocky ground. Hope swelled within me. Grinning, I readied myself to renew my calls, gleeful with the notion that doing such would hasten my discovery and subsequent rescue. However as I listened, for a second time that day a dreadful realization dawned on me. For these were not the footfalls of any mortal man. In the unearthly stillness, and damp air the tread of any rescuer would’ve fallen upon my ears as a series of sharp, decisive blows. Boots striking the ground with a regular cadence, perhaps accompanied by the trickle of dislodged small stones. The impacts were instead soft and stealthy, with a light clicking, akin to the padded paws of some canid. I listened carefully with dread as I registered that each series of soft steps could be traced to four feet, not two.
+        И тогда я услышал это. Мягкие, тяжёлые шаги, отдающиеся эхом от холодного каменистого пола. Во мне вспыхнула надежда. Улыбаясь, я приготовился снова звать, ликуя при мысли, что так меня быстрее найдут и спасут. Однако, прислушавшись, я во второй раз за день пришёл к ужасному осознанию. Ведь это были шаги не смертного человека. В неземной тишине и сыром воздухе поступь любого спасателя звучала бы для меня как череда резких, решительных ударов. Ботинки, бьющие о землю в ровном ритме, возможно, под шорох осыпающихся мелких камешков. Эти же удары были мягкими и крадущимися, с лёгким цоканьем, как у мягких лап какого-то псового. Я со страхом вслушивался и понял, что каждую серию мягких шагов издают четыре ноги, а не две.
 
-        My cries had aroused some wild beast. Perhaps a xenomorph that had long ago strayed into these caverns. Upon landing we’d been greeted by no signs of hostile life, or life at all. But that was not to say that something else hadn’t ever found its way here. I considered for a staunch moment that perhaps this was a harbinger. I would not succumb to starvation as I’d initially feared, but would instead meet a more macabre, albeit shorter end. Yet the instincts for self preservation remained. The offer for a quick demise was rebuked, for I resigned to only part with my life for as high of a price as I could demand. I quieted, considering that perhaps this unknown creature would, in the absence of further guiding noises, lose its direction as I had. My hope was not destined for realization, as the strange footfalls continued to steadily advance. The beast evidently had obtained my scent, in this atmosphere so clean and pure of any and all distracting noise or undertones. Lady luck would not smile upon me today, as was already apparent by my current predicament. Steadily, the uneven footfalls drew louder.
+        Мои крики разбудили какого-то дикого зверя. Быть может, ксеноморфа, давным-давно забредшего в эти пещеры. При высадке мы не обнаружили никаких признаков враждебной жизни — да и жизни вообще. Но это не значило, что сюда никогда не забредало что-то ещё. На один стойкий миг я подумал, что, быть может, это предвестие. Я умру не от голода, как поначалу боялся, а встречу более жуткий, хоть и более быстрый конец. И всё же инстинкт самосохранения остался. Я отверг предложение быстрой смерти: я решил расстаться с жизнью лишь за самую высокую цену, какую смогу запросить. Я затих, рассудив, что, быть может, эта неизвестная тварь без новых звуков собьётся с пути, как я. Моей надежде не суждено было сбыться: странные шаги продолжали неуклонно приближаться. Зверь явно учуял мой запах в этой атмосфере, столь чистой от любых отвлекающих звуков и примесей. Госпожа Удача сегодня мне не улыбнётся — это было ясно уже по моему положению. Неровные шаги неуклонно становились громче.
 
-        Thus I began to mount my defense against the inevitable but unseen attack. I withdrew my knife from my pocket and firmly gripped the cool steel handle. My other hand felt around until it grasped onto a sizable stone. Under the disastrous assumption that this planet contained no registered life, I’d subjugated my PKA to remain on the shuttle in order to retain free space within my bag.
+        И я начал готовиться к неизбежному, но невидимому нападению. Я достал из кармана нож и крепко сжал прохладную стальную рукоять. Другой рукой я шарил вокруг, пока не нащупал увесистый камень. В роковом убеждении, что на этой планете нет зарегистрированной жизни, я оставил свой ПКА на шаттле, чтобы освободить место в сумке.
 
-        Forced to remain still, despite the acceleration of my racing heartbeat I held my breath and listened. Contrary to the emergency, and urgency of the situation I needed to remain patient and still. The conduct of the creature was strange. Primarily the tread was that of a four-legged beast walking with a lack of coordination between its front and back legs. However, frequently I heard the sound of only two feet. In the silence I tried to imagine the creature I was about to be faced with. Likely some unfortunate beast that had wandered into the caves of Urania-9775 as I had. Now, like myself, faced with lifelong confinement in these dark unfeeling corridors and labyrinths. Likely it subsisted on the eyeless fishes, meager meals.  No wonder it sought a more hearty subsistence such as myself.
+        Вынужденный не двигаться, несмотря на всё учащающееся сердцебиение, я затаил дыхание и слушал. Вопреки опасности и срочности положения мне нужно было сохранять терпение и неподвижность. Тварь вела себя странно. В основном это была поступь четвероногого зверя, у которого передние и задние ноги двигались несогласованно. Однако часто я слышал звук лишь двух ног. В тишине я пытался представить существо, с которым мне предстояло столкнуться. Скорее всего, какой-то несчастный зверь, забредший в пещеры Урании-9775, как и я. И теперь, как и я, обречённый на пожизненное заточение в этих тёмных бесчувственных коридорах и лабиринтах. Вероятно, он кормился безглазыми рыбами — скудной пищей. Неудивительно, что он искал пропитания посытнее — вроде меня.
 
-        I spent this terrible vigil trying to imagine the creature. Already, my keen ears had advanced in their proficiencies. In the absence of all other stimulus and sense I found I could discern the most minute of details. The soft clicking of nails on the stone floors. The uneven and horrendous gait. I fancied I could hear even the flare of its nostrils as it absorbed what could only be my own scent. Despite the absolute blackness my vision conjured up fearsome and horrible shapes within the sinister darkness which fully enveloped me. Despite my better senses I swore I could feel the darkness itself press against me, restraining me. It was then that I realized with a start that in this absolute darkness that I would never behold its form with my own eyes. Should I survive the oncoming onslaught, I would never see my attacker’s true form or know with certainty that which was coming for my life.
+        Это ужасное бдение я провёл, пытаясь представить тварь. Мой острый слух уже обострился ещё сильнее. Без всех прочих раздражителей и чувств я обнаружил, что различаю мельчайшие детали. Тихое цоканье когтей по каменному полу. Неровная, жуткая походка. Мне казалось, я слышу даже, как раздуваются его ноздри, вбирая то, что могло быть только моим запахом. Несмотря на абсолютную черноту, моё воображение рисовало страшные, ужасные очертания в зловещей тьме, полностью окутавшей меня. Вопреки здравому смыслу я готов был поклясться, что чувствую, как сама тьма давит на меня, сковывает. И тут я с содроганием понял, что в этой абсолютной темноте никогда не увижу его облик собственными глазами. Даже если я переживу грядущее нападение, я так и не увижу истинного облика нападавшего и не узнаю наверняка, что пришло за моей жизнью.
 
-        As the sounds drew near I wanted to scream, to yell, as I fought for my life. If I were to perish it would not be with a whimper but with a boisterous call which would echo through this tomb as the only legacy I would leave behind. Fiery adrenaline rushed through my blood. My left hand white knuckled the stone and with a loud determined cry I turned and threw the rock in the direction of the pattering. My aim struck true, for I heard a blunt thunk, and then the thing jump a distance away.
+        Когда звуки приблизились, мне хотелось кричать, вопить, сражаясь за жизнь. Если мне суждено погибнуть, то не со всхлипом, а с громким криком, который разнесётся эхом по этой гробнице — единственным наследием, что я оставлю. По крови хлынул огненный адреналин. Левая рука до белизны в костяшках сжала камень, и с громким решительным криком я развернулся и швырнул его в сторону топота. Я попал точно: раздался глухой стук, а затем тварь отпрыгнула в сторону.
 
-        I readjusted my aim, and extended my arm, swiftly whipping my elbow. My knife flew from my fingers in the direction the awful creature had moved. Never had I heard such heavenly music to my ears as the sound of the blade rending through flesh, followed by the trickle of what I could only assume to be blood. The strong scent of iron penetrated the dank air, and I heard the scrabbling footfalls as the creature hobbled away, and then to my heart’s utter delight collapsed with a thunk that echoed through the cavern.
+        Я поправил прицел, вытянул руку и резко взмахнул локтем. Нож слетел с моих пальцев в ту сторону, куда отскочила ужасная тварь. Никогда ещё я не слышал столь райской музыки, как звук клинка, рассекающего плоть, а за ним — журчание того, что могло быть только кровью. Сырой воздух пропитался сильным запахом железа, и я услышал, как тварь, царапая когтями, заковыляла прочь, а затем, к величайшей радости моего сердца, рухнула с глухим стуком, разнёсшимся эхом по пещере.
 
-        Immense relief flooded through me, and I leaned back against the cold wall. Only then noticing how hot my own flesh felt. For a moment I welcomed the hard, cool surface. Then my mind returned to the sounds nearby, the trickle of blood and the sound of rasping, frenzied breath. It dawned on me that I had only wounded the creature. And now I was weaponless. Feeling about, I grabbed stones and pelted them in rapid succession in the direction I believed the creature to be in. Fear overtook me once more, and swiftly I turned and fled. Arms outstretched, I ran. Battering and bruising myself against the hard rock walls. I continued for some time before I pressed my back against the wall, trying to make myself as small as possible. I listened, my mind trying to tune out the sounds of my own breath and equally frantic heartbeat which thudded loudly in my head.
+        Меня захлестнуло огромное облегчение, и я откинулся на холодную стену. Лишь тогда я заметил, какой горячей была моя кожа. На миг я с благодарностью принял твёрдую прохладную поверхность. Потом мысли вернулись к звукам неподалёку — журчанию крови и хриплому, лихорадочному дыханию. До меня дошло, что я лишь ранил тварь. А теперь остался без оружия. Нашаривая вокруг, я хватал камни и швырял их один за другим туда, где, как мне казалось, была тварь. Страх снова овладел мной, и я быстро развернулся и бросился бежать. Вытянув руки, я бежал. Ударяясь и набивая синяки о твёрдые каменные стены. Я бежал какое-то время, а затем прижался спиной к стене, стараясь сделаться как можно меньше. Я слушал, пытаясь заглушить в уме звук собственного дыхания и такого же бешеного сердцебиения, громко стучавшего в голове.
 
-        It was then that I heard a sound, or rather a regular, sharp, succession of sounds. Coming from the direction I’d been heading. The sound of steady foot falls, one after the other. Moving with a confident and purposeful pace. This time I held no doubts within my mind, it was my Vulpkanin expedition leader returning for me. It was then that I shouted, yelled, shrieked and even wept with complete and utter joy. I raced towards the beautiful sound and  after rounding a sharp corner I was rewarded with the warm light of an approaching flashlight. I sprinted to meet them, and flung myself to the ground by their feet embracing their boots. Despite my best efforts to retain my composure, I gibbered in a meaningless and idiotic manner, choking out my terrible tale. Simultaneously bequeathing protestations of gratitude and remorse for my foley. To their credit they knelt down beside me, placing a kind and gentle hand upon my shoulder as they listened patiently to my frantic and at times unintelligible recounting.
+        И тогда я услышал звук — вернее, ровную, чёткую череду звуков. Со стороны, куда я направлялся. Звук мерных шагов, один за другим. Уверенных и целеустремлённых. На этот раз в моём уме не было сомнений: это мой руководитель экспедиции, вульпканин, вернулся за мной. И тогда я закричал, завопил, заорал и даже заплакал от полной и безграничной радости. Я бросился навстречу прекрасному звуку и, свернув за крутой угол, был вознаграждён тёплым светом приближающегося фонаря. Я рванул навстречу, бросился на землю к его ногам и обнял его ботинки. Несмотря на все старания сохранить самообладание, я бессмысленно и глупо лепетал, давясь словами своей ужасной истории. Одновременно рассыпаясь в благодарностях и раскаиваясь в своей глупости. К его чести, он опустился рядом на колени, положил добрую и мягкую руку мне на плечо и терпеливо выслушал мой сбивчивый, временами невнятный рассказ.
 
-        Eventually I learned that my leader had noted my absence upon return to the ship. Once they called me over the radio, their keen sense of hearing detected the sound of their own voice echoing inside of my locker- instead of on my person. After returning to station they’d refueled, restocked their supplies and returned. Using their own intuitive sense of direction and delicate sense of smell they’d sojourned into the cave where they proceeded to make a thorough canvassing, locating my whereabouts after nearly 6 hours.
+        В конце концов я узнал, что руководитель заметил моё отсутствие, вернувшись на корабль. Когда он вызвал меня по рации, его чуткий слух уловил эхо собственного голоса из моего шкафчика, а не с моей гарнитуры. Вернувшись на станцию, он дозаправился, пополнил запасы и вернулся. Полагаясь на своё чутьё направления и тонкое обоняние, он отправился в пещеру и тщательно прочесал её, найдя меня спустя почти 6 часов.
 
-        Emboldened by their presence as well as the light of their flashlight I began to reflect on the strange beast that I had wounded but a short ways back. And, to my own surprise, suggested that we go and see for ourselves, what manner of beast I’d felled. Backed by their companionship I returned to the scene of my terrible experience. The blood on the floor lay thick, and the pungent scent of iron permeated the chamber. Soon we rounded on a stark white figure laying upon the floor. Simultaneously we released a sound of wonder, for of all of the unnatural monsters either of us had ever beheld, this was by far the strangest. It appeared to be a large, anthropoid simian. Its hair was a pure snow-white, which contrasted with the deep red hue of the blood caked across it. It appeared no sun had kissed its skin in recent memory.
+        Ободрённый его присутствием и светом фонаря, я задумался о странном звере, которого ранил совсем недалеко отсюда. И, к собственному удивлению, предложил пойти и своими глазами посмотреть, что за зверя я сразил. Чувствуя поддержку товарища, я вернулся на место своего ужасного испытания. Кровь на полу лежала густо, а резкий запах железа пропитал всю пещеру. Вскоре мы наткнулись на ярко-белую фигуру, лежащую на полу. Мы оба одновременно ахнули от изумления, ведь из всех противоестественных чудовищ, что каждый из нас когда-либо видел, это было самым странным. Оно походило на крупную человекообразную обезьяну. Его шерсть была чисто белоснежной и резко контрастировала с тёмно-красной запёкшейся на ней кровью. Казалось, солнце не касалось его кожи уже очень давно.
 
-        Continuing our assessment I noted the long, lanky limbs, the arms shorter than the legs which explained its gait. Long nail-like claws extended from the tips of all of its fingers and toes. Both hands and feet were prehensile yet covered in thick callouses. It could move better in the dark than I ever could in the light.
+        Продолжая осмотр, я отметил длинные, тощие конечности; руки были короче ног, что объясняло походку. На кончиках всех пальцев рук и ног росли длинные когтеподобные ногти. И руки, и ноги были хватательными, но покрыты толстыми мозолями. В темноте оно двигалось лучше, чем я когда-либо смог бы на свету.
 
-        Its breaths had grown weak and feeble by this point. My leader withdrew their own PKA ready to finish off the wretched and miserable being. However, it then emitted a sudden sound which shook the otherwise still cavern. It seemed as though the light emitted from the flashlight had broken a spell cast over the creature. The warm glow of the flashlight’s bulb inducing sensations it had not felt since first entering this cave however long ago. The paws went through a convulsive motion and its entire body contracted. With a final, terrible jerk it rolled over and turned to face us. In that moment as our eyes met, I was so struck with horror. Its eyes were a deep inky black yet had grown wide enough to drink in the dark. As I took in the uncanny sight that was slowly becoming more and more familiar its lips opened and several sounds issued from them. Then it fell still, and exhaled one low last breath before relaxing one penultimate time in death.
+        К этому моменту его дыхание стало слабым и немощным. Руководитель достал свой ПКА, готовый добить несчастное, жалкое существо. Однако тут оно издало внезапный звук, сотрясший неподвижную пещеру. Казалось, свет фонаря разрушил наложенные на тварь чары. Тёплое свечение лампы пробудило ощущения, которых оно не испытывало с тех пор, как когда-то, неизвестно как давно, вошло в эту пещеру. Лапы судорожно дёрнулись, и всё тело сжалось. С последним, ужасным рывком оно перевернулось и повернулось к нам. В тот миг, когда наши взгляды встретились, меня охватил ужас. Его глаза были глубокими, чернильно-чёрными и расширились настолько, чтобы впитывать тьму. Пока я вглядывался в этот жуткий облик, становившийся всё более и более знакомым, его губы приоткрылись, и из них вырвалось несколько звуков. Затем оно затихло, выдохнуло последний низкий вздох и обмякло в смерти.
 
-        My leader clutched my arm and trembled, their light shaking fitfully and casting flickering shadows across the walls of the tomb. I took no motion and drew no breath, my horrified gaze fixed upon the cold floor and lifeless figure ahead. And as the sounds registered in my ears my brain slowly comprehended their meaning. It was then that the awesome truth struck me. That this creature that I had killed, this unfathomable wraith, had once been me.
+        Руководитель вцепился в мою руку и задрожал; его фонарь судорожно трясся, отбрасывая мерцающие тени на стены гробницы. Я не шевелился и не дышал, мой полный ужаса взгляд был прикован к холодному полу и безжизненной фигуре впереди. И пока звуки доходили до моих ушей, мой мозг медленно постигал их смысл. И тогда меня поразила страшная истина. Это существо, которое я убил, этот непостижимый призрак, когда-то было мной.
 
 # Written by anonymous
 book-chuckles = Затхлый жар дешёвого табака, смешанный со слишком чистым воздухом, бьёт Джо в нёбо, пока она затягивается сигаретой. Никто не приходил в этот зал, если ему не нужен был перерыв от станционных дел. Ни шума — кроме ламп и вентиляторов — и никаких запахов — кроме собственного табака или изредка гидропонного косяка. Здесь девушка могла расслабиться, особенно после изматывающей обеденной смены в одиночку в маленькой столовой. И она расслаблялась, пока скрипучий визг мягких красных туфель не вернул её к флуоресцентной реальности.
 
-        “Oh hi, Jo! My favorite cook!” The spindly arachnid stands before here, waving with all three of his right arms, obsidian-black compound eyes glittering in the dim light of the hall.
+        «О, привет, Джо! Мой любимый повар!» Перед ней стоит долговязый арахнид и машет всеми тремя правыми руками; его обсидианово-чёрные фасеточные глаза поблёскивают в тусклом свете зала.
 
-        “Chuckles.” She stares blankly back. Absent-mindedly, she wonders if he could smell all the grease-paint he was wearing on his face. Wonders what he does when he gets it in his eyes.
+        «Хохотун». Она безучастно смотрит на него. Рассеянно гадает, чувствует ли он запах всего того грима, что намазан у него на лице. И что он делает, когда грим попадает в глаза.
 
-        “You look down, Jo! Need some,” he honks a bike horn, produced from nowhere, “Cheering up?”
+        «Ты что-то грустная, Джо! Тебе нужно, — он гудит в велосипедный клаксон, взявшийся из ниоткуда, — немного взбодриться?»
 
-        “If you honk that thing again, I’m ramming it up your spinneret.”
+        «Ещё раз гуднёшь этой штукой — запихаю её тебе в паутинную железу».
 
-        “Ouch… harsh, Jo. I’m a working clown too, you know.” His arms sag, deflating like a sat-on whoopie cushion.
+        «Ой… сурово, Джо. Я ведь тоже рабочий клоун, знаешь ли». Его руки обвисают, сдуваясь, как подушка-пердушка, на которую сели.
 
-        “Sorry Chucks. Tough shift. Cig?” She proffers.
+        «Прости, Хохотун. Тяжёлая смена. Сигарету?» — предлагает она.
 
-        “Thanks! You rock!” He takes it in a puffy glove-wrapped hand and lights it up. “Tough shift is right! I’ve been honking all day but everyone’s just pissed off. Cap’s been in his room for days. Feels like there’s something in the air — and it’s not laughing gas!” His mandibles click together at the joke.
+        «Спасибо! Ты лучшая!» Он берёт её пухлой рукой в перчатке и закуривает. «Тяжёлая смена — это точно! Я весь день хонкаю, а все только злятся. Кэп уже который день сидит у себя в каюте. Такое чувство, что в воздухе что-то витает — и это не веселящий газ!» Его жвалы щёлкают над собственной шуткой.
 
-        They smoke for a bit in this hall at the end of the station, before the arachnid’s pink PDA chimes.
+        Они немного курят в этом зале в конце станции, пока на розовом КПК арахнида не раздаётся сигнал.
 
-        “Ooh, sounds like the cap’n needs a little clowning around! I better get on this one. Later, Jo!” Stopping himself from honking by a hair, he waves a goodbye and squeaks away down the hall.
+        «О-о, похоже, кэпу нужно немного клоунады! Побегу-ка я. Пока, Джо!» Едва удержавшись, чтобы не гуднуть, он машет на прощание и со скрипом удаляется по коридору.
 
-        Standing from the spartan metal bench, a curious weight prompts her to check her pockets. The clown had left her a banana. She chews on it as she wanders into the station to kill time before dinner prep. She didn’t hate Chuckles. As far as clowns go, he was on the less obnoxious side. At least he wasn’t downright spiteful like some. And he always appreciated a good pie.
+        Когда она поднимается со спартанской металлической скамьи, странная тяжесть заставляет её проверить карманы. Клоун оставил ей банан. Жуя его, она бредёт по станции, чтобы убить время до подготовки к ужину. Она не ненавидела Хохотуна. Для клоуна он был довольно терпимым. По крайней мере, он не был откровенно злобным, как некоторые. И всегда ценил хороший пирог.
 
-        The flow of station foot traffic barely registers as she meanders down hallways of varying conditions. Artifact transports, a worried security officer whispering forcibly into her headset, even some tourists with dour faces who shoot a glance at anyone who passes by. The minutes tick by once more until her PDA’s alarm tells her it’s time for prep. Sighing, she makes her way back to the mess.
+        Она почти не замечает поток людей на станции, бредя по коридорам в разном состоянии. Перевозка артефактов, встревоженная офицер службы безопасности, напряжённо шепчущая в гарнитуру, даже несколько туристов с угрюмыми лицами, косящихся на каждого прохожего. Минуты снова тянутся, пока будильник КПК не сообщает, что пора готовиться. Вздохнув, она возвращается в столовую.
 
-        The kitchen is as she left it. Shuttered and locked, cleaned of any trace of a disastrous lunch that ended with a scuffle and a broken nose. If her contract didn’t have such severe penalties, she’d have ditched this scrap heap months ago. But dinner. Tonight. Potatoes. Hydroponic salad. Synth steaks — better check the freezer. And so she does, stepping into the cold to find herself face-to-face with a man staring at her from the darkness at the back.
+        Кухня такая же, какой она её оставила. Закрыта ставнями и заперта, вычищена от всех следов злополучного обеда, закончившегося потасовкой и сломанным носом. Если бы в её контракте не было таких суровых штрафов, она бросила бы эту груду металлолома ещё несколько месяцев назад. Но ужин. Сегодня. Картошка. Гидропонный салат. Синтетические стейки — надо проверить морозилку. Так она и делает: шагает в холод и оказывается лицом к лицу с человеком, который смотрит на неё из темноты в глубине.
 
-        “Oh shi– Captain Zark? Is that you?” The man nods. “Are you… OK, sir?” He nods again. His eyes do not break contact.
+        «Ох, чёрт… Капитан Зарк? Это вы?» Человек кивает. «Вы… в порядке, сэр?» Он снова кивает. Его взгляд не отрывается от неё.
 
-        “Come in, please, Joanna. I need to speak with you.” Captain Aaron Zark is a stout, gruff man, short with praise but stern with failure, and even shorter in stature than with praise. But today, today he looks different. Less… hinged. As she steps into the freezer, Jo realizes that he has yet to blink.
+        «Заходи, пожалуйста, Джоанна. Мне нужно с тобой поговорить». Капитан Аарон Зарк — коренастый, грубоватый человек, скупой на похвалу, но строгий к провалам, а ростом он ещё ниже, чем щедр на похвалу. Но сегодня, сегодня он выглядит иначе. Менее… уравновешенным. Шагнув в морозилку, Джо понимает, что он до сих пор ни разу не моргнул.
 
-        “Captain,” she hesitates, “what is this about?”
+        «Капитан, — колеблется она, — в чём дело?»
 
-        “What else could it be about other than food, Miss Joanna? Meat, of course. Not that synth-meat crap we’ve been forced to eat to save a buck. Real meat. Real, tender, flesh.”
+        «О чём ещё может быть речь, как не о еде, мисс Джоанна? О мясе, конечно. Не о той синтетической дряни, которую нас заставляют есть ради экономии. О настоящем мясе. Настоящей, нежной плоти».
 
-        “Sir, there’s nothing I can do about corporate’s —”
+        «Сэр, я ничего не могу поделать с решением корпорации…»
 
-        “I know about corporate!” He snaps. “But lately I’ve been getting dreams… Delicious dreams, Joanna. And those things we brought on board sang to me their recipes. But I don’t have the skills, you see. The knifework. You do.”
+        «Я знаю про корпорацию!» — рявкает он. «Но в последнее время мне снятся сны… Вкусные сны, Джоанна. И те штуки, что мы привезли на борт, пели мне свои рецепты. Но у меня нет навыков, понимаешь? Работы с ножом. А у тебя есть».
 
-        “Sir, I don’t understand…” She is ice cold. The biting frost of the freezer without, and the dread chill of fear within. She wants nothing more than to leave this place, to go back to the hall, smoke a pack of cigs, anything but here.
+        «Сэр, я не понимаю…» Её бьёт ледяной холод. Снаружи — кусачий мороз морозилки, внутри — леденящий ужас. Больше всего на свете ей хочется уйти отсюда, вернуться в тот зал, выкурить пачку сигарет — что угодно, лишь бы не здесь.
 
-        “Oh, they sang to me their songs, and they told me how to solve that too. A solution everyone is happy with. Did you know we used to raise livestock here? They left us the spikes. See?” He flicks the lightswitch of his PDA and there in the bale wash hangs the chitinous body of a man-spider, beaten and bloodied, ichor dripping down to the neck, the face, and the red foam nose.
+        «О, они пели мне свои песни, и они рассказали, как решить и эту проблему. Решение, которое устроит всех. Ты знала, что когда-то здесь держали скот? Нам оставили крюки. Видишь?» Он включает фонарик КПК, и там, в бледном свете, висит хитиновое тело человека-паука, избитое и окровавленное; ихор стекает на шею, на лицо и на красный поролоновый нос.
 
-        “Chuckles,” the whisper squeezes out of her throat, hoarse and unbidden. She doesn’t hear it over the drumming pulse of rushing blood. But he does.
+        «Хохотун», — шёпот сам собой вырывается из её горла, хриплый и непрошеный. Она не слышит его за барабанным стуком пульса. Но он слышит.
 
-        “That’s right. They sent this fool in, honking that damned horn of his right into my ear, and what does he do first? Slips on his banana peel right into my stock of vintage brandy. So I did what any sane man would do.” His eyes are bloodshot, lips tinged blue from the cold. But his voice carries a fever, radiating its maddening heat into the air.
+        «Верно. Мне прислали этого дурака, он гудел своим проклятым клаксоном прямо мне в ухо, и что он делает первым делом? Поскальзывается на своей банановой кожуре прямо в мой запас коллекционного бренди. И я сделал то, что сделал бы любой здравомыслящий человек». Его глаза налиты кровью, губы посинели от холода. Но в голосе горит лихорадка, излучающая в воздух безумный жар.
 
-        “I beat him. I beat him, then again, then some more. There wasn’t anything to hear but the sound of canned laughter and the thud of flesh on flesh. And that’s when I knew. He had taken my brandy, but I would have something far finer. Flesh!”
+        «Я избил его. Избил, и ещё раз, и ещё. Не было слышно ничего, кроме закадрового смеха и глухих ударов плоти о плоть. И тогда я понял. Он отнял у меня бренди, но у меня будет кое-что куда изысканнее. Плоть!»
 
-        He whirls around. A saber glides smoothly from its sheath at his waist, glinting in the frosted dark, a gleaming streak of steel that leaves an arm dangling by a lone tendon. She recoils in terror at the sudden violence.
+        Он резко оборачивается. Сабля плавно выскальзывает из ножен на поясе, блеснув в морозной темноте, — сверкающая полоса стали, после которой рука повисает на одном сухожилии. Джо в ужасе отшатывается от внезапной жестокости.
 
-        “Now, Miss Joanna,” comes the growling voice as he tears away the arm with a few tugs, “it is time for supper.”
+        «А теперь, мисс Джоанна, — рычит голос, пока он несколькими рывками отрывает руку, — пора ужинать».
 
-        They step back into the kitchen, her first, at sabre point, then him, arm in hand. The familiar presence of humming lights and whirring fans, the warm recycled air, the kitchen perfectly as she left it, are all here once more, but she is not. She is still there, in the cold, in the dark, before the body of the dead man suspended in the air by steel spikes.
+        Они возвращаются на кухню — сначала она, под остриём сабли, затем он, с рукой в руке. Знакомый гул ламп и жужжание вентиляторов, тёплый переработанный воздух, кухня точно такая, какой она её оставила, — всё снова здесь, но не она. Она всё ещё там, в холоде, в темноте, перед телом мертвеца, подвешенным на стальных крюках.
 
-        The smack of shell on plastic jolts her into the now, and she barely holds back a scream. The arm lays on the cutting board before her, a tobacco-stained glove on its hand.
+        Шлепок панциря о пластик возвращает её в настоящее, и она едва сдерживает крик. Рука лежит перед ней на разделочной доске, на кисти — перчатка в пятнах табака.
 
-        “I can’t do this, I can’t, I–”
+        «Я не могу, не могу, я…»
 
-        He leers at her. “But you must. That’s your job, Miss Joanna. And I am starving. Now what is for supper, chef? Fancy, now! Your captain deserves only the best.”
+        Он плотоядно смотрит на неё. «Но ты должна. Это твоя работа, мисс Джоанна. А я умираю с голоду. Так что на ужин, шеф? Что-нибудь изысканное! Твой капитан заслуживает только лучшего».
 
-        “B-butter poached spider risotto?”
+        «Р-ризотто из паука, припущенного в масле?»
 
-        “Ahhh… excellent choice. Yes, I can almost taste it! Well then, get to work, please.” He taps his saber impatiently against a table leg.
+        «А-а-ах… превосходный выбор. Да, я почти чувствую вкус! Что ж, принимайся за работу, пожалуйста». Он нетерпеливо постукивает саблей по ножке стола.
 
-        Trembling, she fumbles for a pot, fills it with butter, and switches on the burner. The wait for the melt feels interminable. A not-so-surreptitious glance at the disabled AI security camera brings a sharp taunt by her salivating tormenter, and again when she eyes the bolted door. But mercifully, the butter finally melts and warms.
+        Дрожа, она нашаривает кастрюлю, наполняет её маслом и включает конфорку. Ожидание, пока масло растает, кажется бесконечным. Не слишком незаметный взгляд на отключённую камеру ИИ вызывает резкую насмешку у её истекающего слюной мучителя, как и взгляд на заблокированную болтами дверь. Но, к счастью, масло наконец тает и нагревается.
 
-        In mere moments it is in. The sickening scent of her coworker’s limb, wrapped in the heady scent of synth-butter wafts about the room. And in the next instant, three things occur.
+        Через мгновение рука уже в кастрюле. По кухне разносится тошнотворный запах конечности её коллеги, окутанный густым ароматом синтетического масла. И в следующий миг происходят три вещи.
 
-        First: Captain Aaron Zark breathes in the most delectable odor he has ever smelt. His eyes close for just a second as a tear rolls down his cheek.
+        Первое: капитан Аарон Зарк вдыхает самый восхитительный запах, какой он когда-либо чувствовал. На секунду он закрывает глаза, и по щеке катится слеза.
 
-        Second: the station AI, in a last-ditch effort to find the missing captain, lifts all bolts and access requirements to interior doors.
+        Второе: ИИ станции, в последней попытке найти пропавшего капитана, снимает болты и требования доступа со всех внутренних дверей.
 
-        And third: Joanna Parker shoves the paring knife she pocketed while grabbing a pot into the gap between Zark’s third and fourth ribs.
+        И третье: Джоанна Паркер вонзает в щель между третьим и четвёртым рёбрами Зарка нож для чистки овощей, который она прихватила, когда брала кастрюлю.
 
-        The captain bellows and swings wildly, but she’s already on the floor, scrambling for the door. His lunging frenzy caught the pot, and he fumbles in terror for the arm with his buttery fingers.
+        Капитан ревёт и бешено размахивает руками, но она уже на полу и ползёт к двери. В своём неистовом рывке он задел кастрюлю и в ужасе шарит скользкими от масла пальцами в поисках руки.
 
-        “My meat! You bitch! My Meat!” But she is gone, out the door, screaming into the hallways for station security.
+        «Моё мясо! Сука! Моё мясо!» Но её уже нет — она за дверью и с криком зовёт по коридорам службу безопасности.
 
-        The officers entered the kitchen to find their captain crouched in a pool of butter, sucking at a severed limb like the leg of some giant crab, unblinking eyes scratched to the point of milkiness. It took three people to subdue him, in the slick of butter and gnashing of teeth.
+        Войдя на кухню, офицеры нашли своего капитана сидящим на корточках в луже масла: он обсасывал отрубленную конечность, как ногу гигантского краба, а его немигающие глаза были расцарапаны до молочной белизны. Чтобы скрутить его в скользком масле под скрежет зубов, понадобилось трое.
 
-        The company granted Jo a contract termination exception after a full inquiry. She works planetside only now, vegetarian kitchens. Every day that freezer feels further behind her. But lately, she’s been having dreams.
+        После полного расследования компания разрешила Джо досрочно расторгнуть контракт. Теперь она работает только на планетах, на вегетарианских кухнях. С каждым днём та морозилка остаётся всё дальше позади. Но в последнее время ей снятся сны.
 
-        Delicious dreams…
+        Вкусные сны…
 
-        Dreams of meat.
+        Сны о мясе.
 
 # Written by teapoterror
-book-corridor-nine = С Девятым коридором было что-то не так. Центральные восемь коридоров были тем местом, где всё
-        foot-traffic went throughout Quincy Port, a small little midway stop between somewhere and
-        nowhere on the far reaches of frontier space. Consulting the electronic maps, you'd never even
-        find a "Corridor Nine", unless you personally crawled around the old maintenance halls and
-        stumbled into it. And the only one unfortunate enough to do that, was the janitor — one Samuel
-        Wagner.
-        "Just swab the damn place up and patch the holes!" The Portmaster had cried, sending Sam
-        down into the hissing, twisting tunnels of the maintenance system. He had stalked the walkways
-        here many times, even fought off a mutant rat or two — he considered himself a veteran of such
-        conflicts after working here for the past three months. He'd been burned by steam valves,
-        accidentally launched into space, infected by an alien virus — but the only thing he was really
-        scared of, was the glow beneath the airlock in Corridor Nine.
-        He'd seen it many times, an old hallway that was some relic of forgotten construction.
-        Nowadays Quincy Port was nothing more than a pitstop where grubby old captains could rest
-        and drink along with their hauler crews. Or for beltminers to come get plastered and fight each
-        other for no good reason. Sam appreciated the silence of the maintenance halls, and not having
-        to deal with their "esteemed" clientele. He felt sick having to clean up the messes of those
-        bastards, breaking lights and enjoying themselves into vomit-comas. But when he passed that
-        door in Corridor Nine, he almost missed their company.
-        It was at the end of a long tight shaft with busted walls and heavy wires covered with a metal
-        catwalk. No matter who he asked, no one remembered what was on the other side of the door,
-        and the only engineer never had the time to see — always too busy repairing incoming ships. It
-        didn't matter to him much. He was fine to leave things as is. Sam wasn't a particularly curious
-        man, not curious enough to take risks in the maintenance halls, that's for sure. But it all reached
-        a boiling point the day he saw the light under the door.
-        It was an eerie pale green thing, just barely poking out from the rotting airseal. Despite all he'd
-        experienced, there was something about that flickering, waning light that sent him running back
-        into the main lobby and to the Portmasters desk. It was only Sam's truly bizarre countenance
-        that piqued the interest of the Portmaster and a Deck Officer, who followed him down that
-        winding industrial cavern to Corridor Nine. They cut his pay in half for a whole week when they
-        didn't find anything — no light in the hallway, and no eerie feeling.
-        He got rest, checked out by the old shrink at the port — and the next day was back in the tunnels.
-        And there, as if it were laughing at him, the light under the door was back. Throughout all the
-        next month, he couldn't catch an inch of sleep. There was something about that pale glowing
-        light that made him uneasy and rattled. The doctor said it might be the fumes, and
-        recommended he stay out of maintenance for a while, but Sam knew better. It was mocking him.
-        He told the doc that he couldn't sleep — but that was a lie. It was simply that he was afraid of
-        sleeping — for the light would always worm its way in, and give him the strangest dreams. He'd
-        taken to chugging coffees and taking any pills that the wandering cargo haulers happened to be
-        selling — especially after the station doc refused to give him any more.
-        Finally, he had enough. One night when the deck officers were drunk, he took a pistol off their
-        gambling table, and stole some old ship-cracker gear from the engineer's bay. He swore to
-        himself, he was getting through that door.
-        There Sam stood, at Corridor Nine. Before him, the door — and the hideous green glow. He went
-        to work at once, and ripped apart the rusted airlock, and raised the gun as he entered, his eyes
-        wild and hair a frayed mess.
-        When the deck officers heard gunfire, and reported a pistol stolen, Quincy Port was on high
-        alert. They'd had many a gunfight before between sailors, and it was never good for business.
-        They traced the sound down to old Corridor Nine, and found a busted airlock at the end of the
-        hall cracked wide open.
-        Inside they found bullets piercing through every wall of the old maintenance closet — stacks of
-        dusty cardboard boxes now littered with nine millimeter holes. It was filled with toiletries,
-        cleaning equipment, and some crusty administrative documents all on metal wire shelves. But
-        what caught them more by surprise was the great scorch mark on the opposite wall, that
-        seemed to be in the outline of a man.
-        They never found Samuel Wagner, nor what he'd stolen. The Portmaster called him a petty thief,
-        who must have snuck aboard one of the haulers and left without a word. With that, the incident
-        was resolved and, for the most part, forgotten.
-        A new janitor was hired for Quincy Port sometime after, and he heard all the stories about crazy
-        old Sam and his glowing green door. But the new hire quit, as well as all janitors they've hired
-        since. And they all said the same eerie thing.
-        "I saw it down in Corridor Nine. A creeping green glow from that busted up room, and a sound
-        like the scream of a man echoin' down the hall."
-        Nowadays, the doors been well sealed off with steel walls and reinforced welds. And they finally
-        managed to hire a new janitor who stuck, a younger girl named Hadri. She wasn't prone to
-        gossip or stories, and kept well to herself. Never asked about crazy old Sam, just did her due
-        and moved on.
-        Until one day, she came down through the maintenance walk and discovered that horrid, rusted
-        hall, all sealed off now with a big metal barricade. Though never much of a skeptic, she couldn't
-        help but feel, looking at that walled off path… that there was something off with Corridor Nine.
+book-corridor-nine = С Девятым коридором было что-то не так. Через центральные восемь коридоров шёл весь поток людей в порту Квинси — маленькой промежуточной остановке между «где-то» и «нигде» на дальних рубежах фронтира. На электронных картах никакого «Девятого коридора» не найти — разве что сам проползёшь по старым техтоннелям и случайно в него наткнёшься. И единственным, кому так не повезло, был уборщик — некий Сэмюэл Вагнер.
+        «Просто вымой это проклятое место и залатай дыры!» — кричал начальник порта, отправляя Сэма вниз, в шипящие, извилистые тоннели техобслуживания. Сэм много раз бродил по этим мосткам, даже отбивался от пары крыс-мутантов — за три месяца работы здесь он считал себя ветераном подобных стычек. Его обжигали паровые вентили, его случайно выбрасывало в космос, он подхватил инопланетный вирус — но по-настоящему он боялся лишь одного: свечения под шлюзом в Девятом коридоре.
+        Он видел его много раз — старый коридор, пережиток какой-то забытой стройки. Теперь порт Квинси был всего лишь местом для остановки, где неопрятные старые капитаны могли отдохнуть и выпить со своими грузовыми командами. Или куда шахтёры с пояса астероидов приходили напиться и подраться без всякой причины. Сэм ценил тишину техтоннелей и то, что не приходилось иметь дело с «уважаемой» клиентурой. Его тошнило оттого, что приходилось убирать за этими ублюдками, которые били лампы и развлекались до рвотной комы. Но когда он проходил мимо той двери в Девятом коридоре, ему почти не хватало их компании.
+        Дверь была в конце длинной узкой шахты с разбитыми стенами и толстыми проводами под металлическим настилом. Кого бы он ни спрашивал, никто не помнил, что находится по ту сторону двери, а у единственного инженера никогда не было времени посмотреть — он вечно был занят ремонтом прибывающих кораблей. Сэму было, в общем-то, всё равно. Его вполне устраивало оставить всё как есть. Сэм не отличался особым любопытством — уж точно не настолько, чтобы рисковать в техтоннелях. Но всё дошло до точки кипения в тот день, когда он увидел свет под дверью.
+        Это было жутковатое бледно-зелёное сияние, едва пробивающееся из-под сгнившего уплотнителя. Несмотря на всё пережитое, было в этом мерцающем, угасающем свете что-то такое, от чего Сэм бегом бросился обратно в главный холл, к столу начальника порта. Лишь по-настоящему странное выражение его лица заинтересовало начальника порта и одного из палубных офицеров, и они последовали за ним по извилистой промышленной пещере к Девятому коридору. Когда они ничего не нашли — ни света в коридоре, ни жуткого чувства, — ему на целую неделю урезали зарплату вдвое.
+        Он отдохнул, показался старому мозгоправу порта — и на следующий день снова был в тоннелях. И там, будто смеясь над ним, свет под дверью вернулся. Весь следующий месяц он не мог сомкнуть глаз. Было в этом бледном сиянии что-то, от чего ему становилось не по себе. Доктор сказал, что дело, возможно, в испарениях, и посоветовал какое-то время держаться подальше от техтоннелей, но Сэм знал лучше. Свет издевался над ним.
+        Доктору он сказал, что не может спать, — но это была ложь. Он просто боялся спать, ведь свет всегда пробирался внутрь и навевал ему странные сны. Сэм пристрастился глушить кофе и глотать любые таблетки, какие продавали заезжие грузовозы, — особенно после того, как врач станции отказался выписывать ему ещё.
+        Наконец, с него было довольно. Однажды ночью, когда палубные офицеры напились, он стащил пистолет с их игорного стола и украл старое оборудование для вскрытия кораблей из инженерного отсека. Он поклялся себе, что пройдёт через эту дверь.
+        И вот Сэм стоял в Девятом коридоре. Перед ним — дверь и отвратительное зелёное сияние. Он сразу взялся за дело, разворотил проржавевший шлюз и вошёл, подняв пистолет; глаза безумные, волосы растрёпаны.
+        Когда палубные офицеры услышали выстрелы и сообщили о краже пистолета, в порту Квинси объявили тревогу. Перестрелки между моряками случались здесь и раньше, и для дела это никогда не было хорошо. Они проследили звук до старого Девятого коридора и нашли в конце прохода разбитый, распахнутый настежь шлюз.
+        Внутри они увидели пули, пробившие каждую стену старой подсобки, — штабеля пыльных картонных коробок теперь были изрешечены девятимиллиметровыми дырами. На металлических проволочных полках лежали туалетные принадлежности, инвентарь для уборки и какие-то затхлые административные документы. Но куда больше их удивил огромный выжженный след на противоположной стене, похожий на очертания человека.
+        Сэмюэла Вагнера так и не нашли, как и то, что он украл. Начальник порта назвал его мелким воришкой, который, должно быть, пробрался на один из грузовозов и улетел, не сказав ни слова. На этом инцидент был исчерпан и по большей части забыт.
+        Спустя какое-то время в порт Квинси наняли нового уборщика, и он наслушался историй о сумасшедшем старом Сэме и его светящейся зелёной двери. Но новичок уволился, как и все уборщики, которых нанимали после. И все они говорили одно и то же, от чего становилось жутко.
+        «Я видел это в Девятом коридоре. Ползучее зелёное сияние из той разбитой комнаты и звук, будто по коридору эхом разносится крик человека».
+        Теперь двери надёжно заделаны стальными стенами и усиленными сварными швами. И в конце концов удалось нанять уборщицу, которая задержалась, — молодую девушку по имени Хадри. Она не любила сплетни и байки и держалась особняком. Никогда не спрашивала о сумасшедшем старом Сэме, просто делала свою работу и шла дальше.
+        Пока однажды, проходя по техтоннелям, она не обнаружила тот жуткий, проржавевший коридор, наглухо перекрытый большой металлической баррикадой. Хоть она никогда и не была особой скептичкой, глядя на этот замурованный проход, она не могла отделаться от чувства… что с Девятым коридором что-то не так.
 
 # Written by some_dork17
 book-bedside-photograph = Вот я сижу на одеяле на пляже и смотрю на облака. Ветерок дует мягко, прохладный по сравнению с тёплым солнцем сверху. Я впервые в таком месте. Я видела пляж только на фотографиях, так что всё это для меня новая возможность. Я делаю глубокий вдох. Выдыхаю с дрожью. На мне только купальник, и вдруг я понимаю, что довольно холодно, несмотря на тёплый летний вид передо мной. Я ищу в пляжной сумке, что бы надеть. Кажется, я целую вечность собиралась к этому большому дню, а вот я здесь и забыла взять хоть что-то тёплое. Я делаю глубокий долгий вздох и выдыхаю с фырканьем. Неохотно поднимаю одеяло и заворачиваюсь в него. Мне говорили, что песок будет повсюду, но тепло одеяла слишком соблазнительно, чтобы отказаться. Песок мягкий, как свежий зефир, мне хочется откинуться и уснуть, но я знаю, что не стоит. Мне говорили, что я обгорю, если сейчас задремлю. Я оборачиваюсь к сумке за солнцезащитным кремом и в очередной раз разочаровываюсь в своём неправильном планировании. Только лекарства и соответствующая пустая пластиковая упаковка. Глубоко разочаровывает. Я кладу сумку за спину и опускаю на неё голову. Делаю вдох, длящийся часами, и выдыхаю всего за несколько секунд. Именно этого я всегда хотела. Я смотрю вперёд на океан, мягко напирающий на песок у моих ног. На горизонте плавает ярко раскрашенный пляжный мяч. Он покачивается вверх и вниз. Я могла бы пойти за ним, но мне говорили, что волны вернут его, и я решаю подождать. Я делаю глубокий вдох, но не нахожу причины выдыхать. Прилив пришёл и коснулся меня. Я убираю сумку с дороги, чтобы она не намокла, но вода очень тёплая, так что я не против промокнуть. Мне очень хочется пить, но мне всегда говорили, что вода солёная и небезопасна для питья, так что я не пробую. Больше делать нечего, я сдаюсь, откидываюсь назад и впитываю солнечный свет. Я закрываю глаза и улыбаюсь, мой скафандр смягчает мой сон, а вода собирается вокруг меня. Это всё, чего я когда-либо хотела. Я выдыхаю.
 
 # Written by csadt
 book-death-always = Оглушительное рассеяние давления отозвалось эхом в кристаллических диафрагмовых окнах толщиной в четверть дюйма, отражая звук и свет каскадом информации, принимаемой хроматически чувствительными диодами за выращенными в чанах прим-мариновыми роговицами; сами они сшиты нанокарбоновыми волокнами с микросервоприводами, вносящими коррективы на уровне спектрометра два миллиона раз в секунду.
-        Behind it all a bag of water and salt processes the electrical impulses jumping from copper to neurons.
-        Her neck jerks, skull moving a good three inches from its previous location.
-        The bullet makes a clean cut just below her lips.
-        Titanium gilded calcite skeletal-signal-structure alights with rage.
-        Fire.
-        It burns at the meat heart pumping behind double stacked bi-trauma subdermal plating.
-        Faux leather forearms are ripped in two; Damascus rippled steel blades three feet long erupting from within.
-        Then came the aerosolized iron adrift in cherry raindrops.
-        A purple pink organ of unknown specificity gouged from an unzipping stomach, the blade stretching a pink tube a few more milimeters before itself coming undone, spilling half chewed noodles and brown synthchicken slurry to the organic mess that covered the asphalt.
+        За всем этим мешок воды и соли обрабатывает электрические импульсы, перескакивающие с меди на нейроны.
+        Её шея дёргается, череп сдвигается добрых три дюйма от прежнего места.
+        Пуля оставляет чистый порез чуть ниже её губ.
+        Покрытая титаном кальцитовая скелетно-сигнальная структура вспыхивает яростью.
+        Огонь.
+        Он жжёт мясное сердце, бьющееся за двойным слоем подкожной бронеплиты.
+        Предплечья из искусственной кожи разрываются надвое; изнутри вырываются клинки из узорчатой дамасской стали длиной в три фута.
+        Затем — распылённое в воздухе железо, плывущее в вишнёвых каплях дождя.
+        Пурпурно-розовый орган неизвестного назначения вырван из расходящегося, как молния, живота; клинок растягивает розовую трубку ещё на несколько миллиметров, прежде чем та рвётся, вываливая наполовину пережёванную лапшу и бурую кашу из синтокурицы в органическое месиво, покрывающее асфальт.
 
 
-        Successive concussions scream out of a rifled, printer-extruded, steel-interlaced, plastic-composite barrel.
-        One makes another cut across her belly, the next sledgehammers against an armor plate just above her left abdominal muscle.
-        The final slides it’s way between fitted ceramic patches, curling sideways as the razor edge is caught by the passing alloys of her skeletal structure, bouncing, tumbling, tearing through hot red meat.
-        She remembers the feeling of heartache.
-        The kind that finds you young, and never leaves.
-        It starts the second your eyes meet.
-        Somewhere in time before this moment, she wore black. The girl in white smiles back.
-        Rending, still- the blades and body made whole, a weapon beyond all scope of reason and warfare, piloted by dying electrical impulses billions of years in the making.
-        The body felt it all.
-        There was the fight.
-        The fire, the rage, the blood, the sickly taste of copper on the tongue, gunpowder in the nose.
-        Then there was less.
-        An anger, a simmer, a jolt of intuition met by muscles aching in lactic acid.
-        Soon, as the blood finished its trickles from grapefruit sized wounds lining her side, there was barely anything at all.
-        She sat in a pile of meat and metal, eyes amongst a terrible amalgam of flesh, staring off into space.
-        Seeing the face of her love just as beautiful as the day she’d made the memory.
-        Then there was nothing.
+        Череда хлопков вырывается из нарезного, напечатанного на принтере, армированного сталью ствола из пластикового композита.
+        Один оставляет ещё один порез поперёк её живота, следующий кувалдой бьёт в бронепластину чуть выше левой брюшной мышцы.
+        Последний проскальзывает между подогнанными керамическими пластинами и уходит вбок, когда острая кромка цепляется за сплавы её скелета — отскакивает, кувыркается, рвёт горячее красное мясо.
+        Она вспоминает, как болит сердце.
+        Та боль, что находит тебя юной и никогда не уходит.
+        Она начинается в тот миг, когда встречаются ваши взгляды.
+        Где-то во времени, до этого мгновения, она носила чёрное. Девушка в белом улыбается ей в ответ.
+        Разрывая, но всё ещё — клинки и тело едины, оружие за гранью любого разума и войны, ведомое угасающими электрическими импульсами, которые создавались миллиарды лет.
+        Тело чувствовало всё.
+        Была схватка.
+        Огонь, ярость, кровь, тошнотворный привкус меди на языке, порох в носу.
+        Потом стало меньше.
+        Гнев, тление, вспышка интуиции, встреченная мышцами, ноющими от молочной кислоты.
+        Вскоре, когда кровь перестала сочиться из ран размером с грейпфрут вдоль её бока, не осталось почти ничего.
+        Она сидела среди груды мяса и металла, глаза посреди ужасного месива плоти, уставившись в пустоту.
+        Видя лицо своей любимой — такое же прекрасное, как в тот день, когда родилось это воспоминание.
+        Потом не стало ничего.
 
 # Written by mediocremann
 book-marty =
@@ -461,150 +407,150 @@ book-marty =
                  Действительная иерархия.
 
 # Written by nullnominal
-book-nts-martyr = Чёрт. Это была моя ошибка. Я пытался помочь Стилл, но Нанотрейзен решила, что моя помощь ей не стоит усилий. Я всё равно пытался помочь, и теперь я в этой богомерзкой ситуации. Они хотят меня и не остановятся ни перед чем. У Стилл ПТСР, и НТ, пусть и не напрямую, стала причиной этого. У неё была смена, где ей мерещились революционеры, но революционеров не было. Из-за этого она решила вызвать Эскадрон смерти. НТ на самом деле никого не отправила. Они не сочли угрозу революционеров достойной этого в то время.
+book-nts-martyr = Чёрт. Это была моя ошибка. Я пытался помочь Стилл, но НаноТрейзен решила, что моя помощь ей не стоит усилий. Я всё равно пытался помочь, и теперь я в этой богомерзкой ситуации. Они хотят меня и не остановятся ни перед чем. У Стилл ПТСР, и НТ, пусть и не напрямую, стала причиной этого. У неё была смена, где ей мерещились революционеры, но революционеров не было. Из-за этого она решила вызвать Эскадрон смерти. НТ на самом деле никого не отправила. Они не сочли угрозу революционеров достойной этого в то время.
 
-        I tried. I really tried to manage her PTSD. I am her doctor, a trusted one in NT in fact. Hell, I’m a Chief Medical Officer. Obviously, I kept helping, as Still is one of my best friends. Why wouldn’t I? Her personality is more important than ruthless efficiency. Hell, her PTSD makes it so she is even less efficient than normal. NT obviously didn’t agree, as they sent NT-ISD after me.
+        Я пытался. Я правда пытался справиться с её ПТСР. Я её врач, причём врач, которому в НТ доверяют. Чёрт, да я главный врач. Конечно, я продолжал помогать — Стилл одна из моих лучших подруг. А как иначе? Её личность важнее безжалостной эффективности. Чёрт, из-за ПТСР она работает ещё менее эффективно, чем обычно. НТ, очевидно, была не согласна, раз отправила за мной ОВР НТ.
 
-        I am obviously running from them. But, somehow, they caught up to me again... I need to get into the maintenance tunnels quickly. I need to defend myself verbally.
-        Just, please believe me Command...
+        Конечно, я бегу от них. Но они как-то снова меня догнали... Мне нужно быстро попасть в техтоннели. Мне нужно защитить себя хотя бы словами.
+        Просто, пожалуйста, поверьте мне, командование...
 
-        Command CMO: “I tried to help her. Still has PTSD because she called for a deathsquad.”
+        Командный канал, главный врач: «Я пытался ей помочь. У Стилл ПТСР, потому что она вызвала эскадрон смерти».
 
-        They want me even more now... Why do they think that Command is not a secure channel when it is literally less than 10 minutes into the shift. I didn’t leak secrets- Deathsquads are common knowledge among all command members.
+        Теперь они хотят меня ещё сильнее... Почему они считают, что командный канал небезопасен, когда с начала смены не прошло и десяти минут? Я не сливал секретов — про эскадроны смерти знают все члены командования.
 
-        I need oxygen to escape from this madness. They have 100% sent security officers after me, so my only option is to escape into space and stay there. Thank god I have my medical jaws of life, as it would be impossible to get outside of the station using solars. For some reason, even as a command member, I’m not provided with the luxury of having externals access.
+        Мне нужен кислород, чтобы сбежать от этого безумия. За мной точно отправили офицеров службы безопасности, так что единственный выход — сбежать в космос и оставаться там. Слава богу, у меня есть медицинские гидравлические ножницы, иначе выбраться со станции через солнечные панели было бы невозможно. Почему-то даже у члена командования нет такой роскоши, как доступ к внешним шлюзам.
 
-        I need to use solars because they often have 10 oxygen tanks in their internal store. I just need to get to, and dispense from the vending machine. If I don’t have at least 5 tanks of oxygen, I won’t be able to survive as long as I need to. Its not really easy for me to get back to the station, as going back in is a risk I am not willing to take.
+        Мне нужно к солнечным панелям, потому что там во внутреннем автомате обычно десять кислородных баллонов. Нужно лишь добраться до автомата и получить их. Если у меня не будет хотя бы пяти баллонов, я не продержусь столько, сколько нужно. Вернуться на станцию будет непросто: идти обратно — риск, на который я не готов пойти.
 
-        I.. I found it.. Just to break into it.. it's really loud though.. making a constant creaking sound while I’m breaking into the double airlock. Now, I just need to deal with the oxygen and fitting everything in my bag; It should be easy though, as I have an extra toolbox that I looted.
+        Я... я нашёл его... Осталось только вскрыть... правда, это очень громко... пока я вскрываю двойной шлюз, он непрерывно скрипит. Теперь осталось разобраться с кислородом и уместить всё в сумку; это должно быть легко, ведь у меня есть лишний ящик с инструментами, который я прихватил.
 
-        I’m out. I somehow made it onto solars without getting caught. I’m safe.. Hopefully...
+        Я снаружи. Каким-то чудом я добрался до солнечных панелей и меня не поймали. Я в безопасности... Надеюсь...
 
-        This is peaceful.. Quiet.. I don’t want to go back now..
-        This is perfect. No walls around me. I still need to make sure I’m not caught..
-
-
-        While feeling the reinforced hull and slowly navigating around the station, I feel like I am incredibly relaxed... It won’t last though... They are still looking for me.. But, I don’t really care..
+        Здесь спокойно... Тихо... Я не хочу возвращаться...
+        Это идеально. Вокруг никаких стен. Но мне всё ещё нужно следить, чтобы меня не поймали...
 
 
-        God god god god god. A security officer who is being incredibly loud is just around the corner. They are actively getting closer. I need to hide quickly. I can’t get caught here, or I will get permabridged.
-
-        no no no, please no....
-
-        Security Officer: I need you to come with me, you're wanted by NT-ISD.
-        CMO: I’m not coming with you. I never will
-
-        Stunned than Cuffed. It hurts like hell, and also makes me feel like I just ran a marathon in under a second. This’ll go away quickly though, as it only stuns me temporarily. The cuffing is the real issue. I need to get out of them, but if I try, I’ll be hit, or moved. They clearly want to drag me to security. This is their fault, but it's gross at the same time. In some weird way, these cuffs are preventing me from moving while I’m being dragged by someone. I can’t move anything other
-
-        than my hands, and even then, it's interpreted as an attempt to break out of them.
-
-        After the fact, they dragged me into Security’s interrogation room, but I’m not doing anything wrong.. why..
-
-        NTR: Why did you leak corporate secrets?
-        CMO: I swear- I didn’t! I only said them over command comms
-        CMO: I swear... It was too early in the shift for them to be compromised...
-        NTR: Still, you somehow know about them when you aren't meant to
-        CMO: I was only explaining why NT-ISD wanted me..
-        CMO: NTR, you should really know this better than any command member as it's in the training modules. NT burdened
-        me with the knowledge of their corporate secrets.
-        NTR: Well, you have a choice of being perma’d or being demoted to a passenger . Follow me please.
-        CMO: I would rather be a passenger than having to deal with this company.
-
-        They left my stuff on the ground.. They left everything.. That was a bad decision on their part, as I am a criminal now. I grab what I can carry after they uncuff me. I need to get out of this room. I really do not want to get my stuff stripped again. But, being a passenger is entirely unbearable to me.
-
-        I might as well just jump into disposals. They aren't really paying attention to me, so I just grabbed the stuff that I wanted, and jumped in. If they don’t want to acknowledge people’s rights, I might as well just betray them more than they betrayed me and just leak more information. However, this time, I am doing it on the common radio instead of the command channel. I don’t care if I die from this, but It would be nice to see people again.
-
-        Disposals.. dirt.. Gross, but necessary for my survival; But still, what if I get stuck-- It's honestly an inevitability that I mess up my navigation at some point. It's not possible for me to see more than around 10 meters in front of me. Honestly, I don’t really care if I die out here. As long as I am able to leave a scar in NT’s reputation, I am good.
-
-        After I come out of the disposal pipes, I crawl through the blast doors that go into space. They are typically used by our janitors as a way to dump trash. It is incredibly gross that NT provides this instead of proper disposal at the end of shift, but it ironically provides the best way for me to leave this awful company.
-
-        (COMMON) CMO: There is something called a deathsquad that NT can send to the station! They will kill us all. It is always
-        precluded by Epsilon alert, which is them cutting all contracts with everyone currently on the station.
-
-        I still have so much more I can leak NT... try to come and get me, I dare you.
-
-        (COMMON) CMO: You know those stories about nuclear operatives from the pod wars right? Those are actually real.
-        They have been nuking NT-aligned stations for the longest time at this point. You have 100% heard about stations getting nuked.
-
-        Well, that's it for me I guess. I messed up, and launched myself off the side of the station.. I’ll likely be floating in space for eternity now.
+        Ощупывая укреплённый корпус и медленно огибая станцию, я чувствую себя невероятно расслабленным... Но это ненадолго... Меня всё ещё ищут... Хотя мне, в общем-то, всё равно...
 
 
-        In deep space, after leaking a lot more secrets
+        Боже, боже, боже, боже. Прямо за углом невероятно громкий офицер службы безопасности. Он всё ближе. Мне нужно быстро спрятаться. Меня нельзя ловить здесь, иначе меня отправят в пермабриг.
 
-        Peace... I feel peace again.. but, at what cost? My life? My dignity? My Job? It doesn’t matter... I caused irreparable harm to NT, and that's all I really need to not have any regrets now. I don’t have a lot of oxygen left, but it's enough to last well beyond when the next shift shuttle arrives in 30 minutes.
+        нет, нет, нет, пожалуйста, нет...
 
-        God: Would you like to make a deal so you can get back to the station?
-        CMO: What is the price for that?
-        God: Oh, just your last spare oxygen tank.
-        CMO: Deal
+        Офицер СБ: Пройдёмте со мной, вас разыскивает ОВР НТ.
+        Главный врач: Я с вами не пойду. Никогда.
 
-        Oh- I see, the gods put a fire extinguisher and a mass scanner next to me.. Well, I guess I need to use the fire extinguisher and the second law of physics to propel myself back to the station. My only worry with it is me running out of the fluid within the fire extinguisher before I can get back to the station. Thank god they also put a mass scanner there, as I am somehow so far away from the station that it's not actually visible on the mass scanner. There is no way I would be able to navigate space without a marker I can see. Thank god that I can still see some signs of life in this dark expanse.
+        Оглушили, потом надели наручники. Боль адская, и ощущение, будто я пробежал марафон меньше чем за секунду. Впрочем, это быстро пройдёт — оглушение временное. Настоящая проблема — наручники. Мне нужно из них выбраться, но если я попытаюсь, меня ударят или потащат. Они явно хотят отволочь меня в отдел СБ. Это их вина, но всё равно мерзко. Как ни странно, пока меня кто-то тащит, эти наручники не дают мне двигаться. Я не могу шевелить ничем, кроме
 
-        hiss
+        рук, и даже это расценивают как попытку вырваться.
 
-        (COMMON) CMO: I’m coming back. A god was kind enough to give me a fire extinguisher and a mass scanner. Might as
-        well continue to look for me if you didn’t already give up.
+        Потом они затащили меня в допросную СБ, но я ведь ничего плохого не делаю... почему...
 
-        Station walls in sight, nearly out of fluid in the fire extinguisher
+        Представитель НТ: Зачем вы слили корпоративные секреты?
+        Главный врач: Клянусь, я не сливал! Я говорил о них только по командному каналу.
+        Главный врач: Клянусь... Слишком рано в смене, чтобы канал был скомпрометирован...
+        Представитель НТ: И всё же вы как-то знаете о них, хотя не должны.
+        Главный врач: Я лишь объяснял, почему меня разыскивает ОВР НТ...
+        Главный врач: Представитель, уж вы-то должны знать это лучше любого члена командования, это есть в учебных модулях. НТ сама
+        обременила меня знанием своих корпоративных секретов.
+        Представитель НТ: Что ж, у вас выбор: пермабриг или понижение до пассажира. Следуйте за мной, пожалуйста.
+        Главный врач: Лучше быть пассажиром, чем иметь дело с этой компанией.
 
-        I’m so close to the station.. I have plenty of oxygen left in the tank that wasn’t taken from me,, but I would absolutely get electrocuted by god if I didn’t go back into maintenance. But at this point, even if I get executed, I will just be a martyr. I have already leaked far too much information for them to cleanse. If they execute me, it would just confirm everything that I have said. If they don’t, I’ll just continue to leak the information. They burdened me with it, so honestly, it's my right to give everyone the right to judge this company for what they are.
+        Они оставили мои вещи на полу... Оставили всё... Это было плохое решение с их стороны, ведь теперь я преступник. Когда с меня снимают наручники, я хватаю всё, что могу унести. Мне нужно выбраться из этой комнаты. Я очень не хочу, чтобы с меня снова всё сняли. Но быть пассажиром для меня совершенно невыносимо.
 
-        I walk onto the station’s external grating. Though, because I taunted security, they are 100% looking for me around maintenance. I need a plan before I go in... It's best if I keep my mask on while still saving my oxygen supply. I’ll keep my EVA on but turn internals off as soon as I get into maints. I would change my voice if I could, but that requires more specialized gear taken from the syndicate.
+        С тем же успехом можно прыгнуть в мусоропровод. Они не особо следят за мной, так что я просто схватил нужные вещи и прыгнул. Если они не хотят признавать права людей, я могу предать их сильнее, чем они предали меня, и слить ещё больше информации. Только на этот раз я сделаю это по общему каналу, а не по командному. Мне всё равно, умру ли я из-за этого, но было бы приятно снова увидеть людей.
 
-        BSO: Take your mask off before I do if for you
+        Мусоропровод... грязь... Мерзко, но необходимо для выживания; но всё же, что если я застряну... Честно говоря, рано или поздно я точно собьюсь с пути. Дальше чем метров на десять перед собой я ничего не вижу. Честно, мне не так уж важно, умру ли я здесь. Лишь бы оставить шрам на репутации НТ — и мне хватит.
 
-        You're meant to protect me BSO.. it's your job-- Well, I did betray the person who employs them, so its fair. But, I’m not going to go easily. I won’t talk or take my EVA off unless the BSO physically takes it off my head. I need to run quickly,
+        Выбравшись из труб мусоропровода, я ползу через гермозатворы, ведущие в космос. Обычно через них наши уборщики выбрасывают мусор. Отвратительно, что НТ даёт это вместо нормальной утилизации в конце смены, но, по иронии, это лучший способ для меня покинуть эту ужасную компанию.
 
-        obviously won’t work though-- *clank* Ow, being cuffed two times in a row is not good for my wrists. Though, I need to do one last thing before I see them...
+        (ОБЩИЙ) Главный врач: Существует так называемый эскадрон смерти, который НТ может отправить на станцию! Он убьёт нас всех. Ему всегда
+        предшествует код «Эпсилон» — это значит, что НТ расторгает контракты со всеми, кто сейчас на станции.
 
-        (COMMON) CMO: It’s all real! NT is at fault for all of your worries and even deaths! You get cloned after every shift to
-        remove your memories.
+        Я могу слить ещё столько всего, НТ... попробуйте поймать меня, я вас вызываю.
 
-        BSO: No you don’t
+        (ОБЩИЙ) Главный врач: Знаете истории о ядерных оперативниках со времён войн капсул? Они правдивы.
+        Они уже очень давно взрывают станции, союзные НТ. Вы наверняка слышали о взорванных станциях.
 
-        I wasn’t expecting that- They just ripped my headset off of my head. It doesn’t really matter as I got my final message out to everyone on the station.
-
-        CMO: This is all your fault! You did this to yourself!
+        Что ж, похоже, это конец. Я ошибся и оттолкнулся от борта станции... Теперь я, скорее всего, буду вечно дрейфовать в космосе.
 
 
-        NTRs Office.
-        People in the room are the CMO, NTR, capt, and the BSO
+        В открытом космосе, после того как слил ещё много секретов
 
-        Capt: You know why you're being executed right?
-        CMO: (laughing) Obviously I do. This is entirely your fault, and you know, by executing me, you are just confirming
-        everything that I said today.
+        Покой... Я снова чувствую покой... но какой ценой? Моей жизни? Моего достоинства? Моей работы? Неважно... Я нанёс НТ непоправимый вред, и этого достаточно, чтобы ни о чём не жалеть. Кислорода осталось немного, но его хватит с запасом до прибытия шаттла следующей смены через 30 минут.
+
+        Бог: Хочешь заключить сделку, чтобы вернуться на станцию?
+        Главный врач: И какова цена?
+        Бог: О, всего лишь твой последний запасной кислородный баллон.
+        Главный врач: По рукам.
+
+        А, вот оно что: боги положили рядом со мной огнетушитель и сканер массы... Что ж, похоже, придётся использовать огнетушитель и законы физики, чтобы долететь обратно до станции. Беспокоит только одно: вдруг огнетушитель опустеет раньше, чем я доберусь. Слава богу, они положили и сканер массы — я почему-то так далеко, что станции даже не видно на сканере. Без видимого ориентира мне ни за что не сориентироваться в космосе. Слава богу, в этой тёмной бездне всё ещё видны признаки жизни.
+
+        пшшш
+
+        (ОБЩИЙ) Главный врач: Я возвращаюсь. Бог был так добр, что дал мне огнетушитель и сканер массы. Можете
+        продолжать меня искать, если ещё не сдались.
+
+        Стены станции в поле зрения, огнетушитель почти пуст
+
+        Я так близко к станции... В баллоне, который у меня не отобрали, ещё полно кислорода, но если я не вернусь в техтоннели, бог меня точно испепелит молнией. Но теперь, даже если меня казнят, я просто стану мучеником. Я уже слил слишком много информации, чтобы они могли всё зачистить. Если меня казнят, это лишь подтвердит всё, что я сказал. Если нет — я продолжу сливать информацию. Они сами обременили меня ею, так что, честно говоря, я вправе дать каждому возможность судить эту компанию такой, какая она есть.
+
+        Я ступаю на внешнюю решётку станции. Правда, раз уж я дразнил службу безопасности, меня точно ищут в техтоннелях. Мне нужен план, прежде чем войти... Лучше не снимать маску, но экономить кислород. Останусь в скафандре, но отключу баллон, как только окажусь в техтоннелях. Я бы изменил голос, если бы мог, но для этого нужно особое снаряжение Синдиката.
+
+        Офицер Синего щита: Сними маску, пока я не снял её сам.
+
+        Ты же должен меня защищать, офицер... это твоя работа... Ну да, я предал того, кто им платит, так что всё справедливо. Но я не сдамся так просто. Я не скажу ни слова и не сниму скафандр, пока офицер не сорвёт его с моей головы сам. Мне нужно быстро бежать,
+
+        хотя, конечно, это не сработает... *клац* Ай, дважды подряд в наручниках — не лучшее для моих запястий. Но мне нужно сделать ещё одно, прежде чем я их увижу...
+
+        (ОБЩИЙ) Главный врач: Это всё правда! НТ виновата во всех ваших тревогах и даже смертях! После каждой смены вас клонируют, чтобы
+        стереть вам память.
+
+        Офицер Синего щита: Нет, не клонируют.
+
+        Этого я не ожидал — он просто сорвал гарнитуру с моей головы. Впрочем, неважно: последнее сообщение я успел передать всей станции.
+
+        Главный врач: Это всё ваша вина! Вы сами это с собой сделали!
+
+
+        Кабинет представителя НТ.
+        В комнате главный врач, представитель НТ, капитан и офицер Синего щита
+
+        Капитан: Ты ведь знаешь, почему тебя казнят?
+        Главный врач: (смеясь) Конечно, знаю. Это целиком ваша вина, и знаете, казнив меня, вы лишь подтвердите
+        всё, что я сказал сегодня.
 
 
 
 # Written by xoan
 book-when-thoughts-end = В этом знакомом месте я работаю, как всегда, лишь смутно понимая свою цель.
 
-         Opening my eyes to the thickly opaque lime-green glass of the cryopod, my mind slowly comes into focus. The first thought is just how bitterly cold it is in here. A thin layer of brittle frost covers everything. My arms and legs feel like lead, requiring considerable effort to push through this chilly embrace to pop open the latch. As soon as it’s pushed open, air rushes in causing me to feel uncomfortably hot in comparison. A few moments later I clamber out of the pod, rising shakily to my feet. Just as I’m blinking away the last of the melting ice crystals I find myself already heading toward my assigned department.
+         Я открываю глаза, передо мной — мутное лаймово-зелёное стекло криокапсулы, и мысли медленно проясняются. Первая мысль — как же здесь пронизывающе холодно. Всё покрыто тонким слоем хрупкого инея. Руки и ноги будто налиты свинцом, и нужно немало усилий, чтобы вырваться из этих ледяных объятий и откинуть защёлку. Едва крышка открывается, внутрь врывается воздух, и по сравнению с холодом мне становится неприятно жарко. Через несколько мгновений я выбираюсь из капсулы и, пошатываясь, встаю на ноги. Я ещё смаргиваю последние тающие кристаллики льда, а уже иду в свой отдел.
 
-         I know my name is Hedrick.
-         I know I work for NanoTrasen.
-         I know I haul supplies for the station.
+         Я знаю, что меня зовут Хедрик.
+         Я знаю, что работаю на НаноТрейзен.
+         Я знаю, что вожу грузы для станции.
 
-         Passing swiftly into the brightly lit yet sparsely appointed corridors, I join the stream of crewmates. My footsteps blend into the echoing chorus of movement on the smooth steel floor. Their appearances vary widely, from color to shape and size. A small Avali dashes between and around the legs of the taller workers. Tall Cyclorites stride onward parting the sea of workers like a ship barreling through a Kessler system. Through the heavy foot traffic I attempt to follow the orange-brown strip of paint, as I always do, on the floor as a guide to the cargo department. After some minutes of travel I duck into an isolated side passage. By swiftly waving my PDA at the gray steel door it opens with a mechanical whir to a dimly-lit and seldom used maintenance hall, a perfect shortcut.
+         Я быстро выхожу в ярко освещённые, но скупо обставленные коридоры и вливаюсь в поток коллег. Мои шаги сливаются с гулким хором движения по гладкому стальному полу. Члены экипажа совсем разные — цветом, формой и размером. Маленький авали шныряет между ног и вокруг ног рабочих повыше. Высокие циклориты шагают вперёд, раздвигая море работников, словно корабль, несущийся сквозь систему Кесслера. В плотном потоке я, как всегда, стараюсь держаться оранжево-коричневой полосы краски на полу, что ведёт в отдел снабжения. Через несколько минут я ныряю в уединённый боковой проход. Я быстро подношу КПК к серой стальной двери, и она с механическим жужжанием открывается в тускло освещённый, редко посещаемый техтоннель — идеальный короткий путь.
 
-         I scarcely wait for my eyes to adjust to the dim lighting here, a strong contrast to the loud and bright hallway. My legs carry me forward, footsteps ringing out from the grated floor that protects snaking green and orange wires. I’m left alone to my thoughts here. My mind wanders about the day ahead of me, to what the work orders demand me to collect. Will I be tasked with transporting food, or perhaps I will have to collect toy figurines; my mind is alight with the possibilities ahead. These thoughts are abruptly disrupted as I collide with a hidden locker left half opened. With a loud crash it falls onto the metal floor, its contents spill out across the narrow width of the hall. Among the scatter of old tools and half chewed wires, is a dozen security-grade flashes. Unlike the old and worn out tools here, these look new without so much as a speck of dust on them. I pick one of them up, slowly turning it over in my hand. As my fingers accidentally press a button the device lights up instantly with a blindly white light. The bulb then explodes into life with a loud bang, drowning out my thoughts and causing my vision to swirl. The already dim passageway turns black as I lose touch with my surroundings. My mind momentarily blinks out. In my confusion I toss the thing away from me, barely registering the clang of metal on metal as it falls on the grated floor. I take a few more moments to recover
+         Я почти не жду, пока глаза привыкнут к полумраку, — такой контраст с шумным и ярким коридором. Ноги несут меня вперёд, шаги звенят по решётчатому полу, под которым змеятся зелёные и оранжевые провода. Здесь я остаюсь наедине со своими мыслями. Я думаю о предстоящем дне, о том, что придётся собирать по заказам. Поручат ли мне везти еду, или, может, придётся собирать игрушечные фигурки — голова полна возможностей. Мысли резко обрываются, когда я налетаю на спрятанный, приоткрытый шкафчик. С грохотом он падает на металлический пол, и его содержимое рассыпается по узкому проходу. Среди старых инструментов и погрызенных проводов — дюжина вспышек службы безопасности. В отличие от старых потёртых инструментов, они выглядят новыми, на них ни пылинки. Я поднимаю одну и медленно верчу в руке. Пальцы случайно нажимают кнопку, и устройство мгновенно вспыхивает ослепительно-белым светом. Лампа взрывается светом с громким хлопком, заглушая мысли, перед глазами всё плывёт. И без того тусклый проход погружается во тьму, я теряю связь с окружающим. Сознание на миг гаснет. В замешательстве я отбрасываю штуковину от себя, едва замечая лязг металла о металл, когда она падает на решётку. Ещё несколько мгновений я прихожу в себя,
 
-         by rubbing my eyes. Slowly, my wits and thoughts return to me as I remember why I’m here in the first place. Despite the disorientating situation I press forward; the job waits for no one.
+         потирая глаза. Постепенно рассудок и мысли возвращаются, и я вспоминаю, зачем вообще здесь оказался. Несмотря на сбивающее с толку происшествие, я иду дальше: работа никого не ждёт.
 
-         Quickly making my way through the maze-like corridors I come to the final door between myself and my department. With a wave of my PDA the metallic door opens with a hiss. The smell of grease hits my nose as a cargo mech strides by carrying a stack of crates. A few humans are packing figurines into a transport box; I feel a sense of satisfaction for guessing correctly. Scanning around the workplace my eyes settle on the Shadekin wearing a long, flowing brown cape signalling their position as my department head. Not waiting for them to finish with another technician I hurry my way over to them.
+         Быстро миновав лабиринт коридоров, я подхожу к последней двери между мной и отделом. Взмах КПК — и металлическая дверь с шипением открывается. В нос бьёт запах смазки, мимо шагает грузовой мех со стопкой ящиков. Несколько людей упаковывают фигурки в транспортный ящик — я чувствую удовлетворение оттого, что угадал. Окинув взглядом рабочее место, я останавливаюсь на шейдекине в длинном развевающемся коричневом плаще — знаке того, что это глава моего отдела. Не дожидаясь, пока он закончит с другим техником, я спешу к нему.
 
-         Interrupting the ongoing conversation I interject “Good morning, I woke up from cryo a little late today, but I’m here and ready for work.” They turn their head to me, eyes narrowing with a harsher scrutiny and a longer pause than expected. “Robotics has ordered a large shipment of steel and glass, I believe the crates are ready to go so just complete the delivery.” The shadekin gestures at two black crates a short distance away. “Alright off with you, but don’t take too long, I’m running a tight shift today.” I nod and turn to those crates; they are not going to deliver themselves now are they?
+         Встревая в разговор, я говорю: «Доброе утро, я сегодня немного поздно проснулся из крио, но я здесь и готов к работе». Он поворачивает ко мне голову, прищурившись с непривычной строгостью, и молчит дольше, чем я ожидал. «Робототехника заказала большую партию стали и стекла, ящики, кажется, готовы, так что просто доставь их». Шейдекин указывает на два чёрных ящика неподалёку. «Ладно, ступай, только не задерживайся, у меня сегодня смена расписана по минутам». Я киваю и поворачиваюсь к ящикам — сами они себя не доставят, верно?
 
-         I quickly set off with the crates stacked on a wheeled trolly that I pull behind me. Back into the crowded hallways the crewmates part ways to let me through. Beyond the herd, a purple placard labeled “science” comes into view. Veering off the hallway I very nearly collide with a dwarf who leaps away at the last moment. With unfettered movement I push forward to the department. I’m let in without so much as needing to ring the desk bell; this is strange because there is usually a receptionist to let people in.
+         Я быстро отправляюсь в путь, таща за собой тележку с ящиками. В людных коридорах коллеги расступаются, пропуская меня. За толпой показывается фиолетовая табличка «Научный отдел». Сворачивая из коридора, я едва не сталкиваюсь с дворфом, который в последний момент отпрыгивает в сторону. Беспрепятственно я двигаюсь к отделу. Меня впускают, даже не пришлось звонить в звонок на стойке, — странно, ведь обычно там сидит регистратор, который впускает людей.
 
-         A tall Diona scientist greets me with a quick nod, beckoning me forward with rustling leaves. She guides me past the offices, past the artifact testing chambers where other scientists in radiation suits tinker with objects of impossible design, to the robotics department. Right as we are about to enter the room, two janitorial cyborgs scuttle out while sweeping and polishing the floor in their wake. Upon entering the room I notice some oddities. There is a large and fresh puddle of water in front of a maintenance door without any slip hazard signs. A Noctilia musician with a guitar slung over his back is huddled with a roboticist in the room. He gives me furtive looks as he and the roboticist whisper to one another with their backs toward me. A few moments later that roboticist turns his head to me with a grin saying, “Ah, you must be the delivery boy, Hedrick. Thanks, we are in pretty desperate need of these materials.” The musician fully turns toward me, folding his arms. The expression on his face is unreadable to me. I can’t see his sets of eyes behind his dark sunglasses. The other two look at me expectantly with some small amount of tension on their faces. I feel a pang of suspicion for a moment, but then the thoughts come. These foundational truths that I cling to as if a lifeline to my mind.
+         Высокая учёная-диона встречает меня коротким кивком и, шелестя листьями, манит за собой. Она ведёт меня мимо кабинетов, мимо камер испытания артефактов, где другие учёные в радиационных костюмах возятся с предметами невозможной конструкции, в отдел робототехники. Прямо когда мы собираемся войти, наружу выкатываются два киборга-уборщика, подметая и натирая пол за собой. Войдя, я замечаю кое-какие странности. Перед дверью в техтоннели — большая свежая лужа воды, и никаких знаков о скользком поле. Музыкант-ноктилиец с гитарой за спиной стоит, склонившись, рядом с робототехником. Он украдкой поглядывает на меня, пока они с робототехником перешёптываются, повернувшись ко мне спиной. Через несколько мгновений робототехник поворачивает ко мне голову и с ухмылкой говорит: «А, ты, должно быть, курьер, Хедрик. Спасибо, нам очень нужны эти материалы». Музыкант полностью поворачивается ко мне, скрестив руки. Выражение его лица мне не прочесть. Я не вижу его глаз за тёмными очками. Двое других выжидающе смотрят на меня, на их лицах лёгкое напряжение. На миг меня колет подозрение, но затем приходят мысли. Те основополагающие истины, за которые я цепляюсь, как за спасательный трос для разума.
 
-         I know my name is Hedrick.
-         I know I work for NanoTrasen.
+         Я знаю, что меня зовут Хедрик.
+         Я знаю, что работаю на НаноТрейзен.
 
-         I know I haul supplies for the station.
+         Я знаю, что вожу грузы для станции.
 
-         “Hedrick? Hedrick are you alright?” I blink repeatedly as I refocus on the current situation. I look to the voice, to the roboticist. “…sorry” I start, “I have your delivery here.” I’m watched in silence as I unload the two crates. The three of them loom over me as I unpack the delivery order. Trying to cut the tension I strike up a conversation. “So why did you order all this? What sort of project are you working on?” To my surprise it is the musician that speaks. “A change.” Each one is grinning at me, sharing a look amongst themselves. He continues, “to put it a little more materialistically…” he reaches into his pocket, pulling out a security flash, the same type that I saw spill from the locker, except for the cracked bulb and exposed wires. My mind briefly flicks back to that moment remembering the uncomfortable disorientation. “We are making these, and a lot of them at that. It serves to open up the mind and view the world in a new, better way.” It’s at this point that I feel my arms grabbed by the other two, I realise that I’m being restrained! I try to tug and pull my arms free, but I’m held tight. Panic shoots through me like lightning wondering why they are doing this to me, and to what end. “Say…,” the musician lifts up the flash to my face, its cracked bulb brightening with a crackling red glow. He buzzes, “…has anyone discussed with you Hegelian Dialectics?”
+         «Хедрик? Хедрик, ты в порядке?» Я часто моргаю, снова сосредотачиваясь на происходящем. Я смотрю на голос — на робототехника. «…извините, — начинаю я, — вот ваша доставка». В тишине они смотрят, как я разгружаю два ящика. Пока я распаковываю заказ, все трое нависают надо мной. Пытаясь разрядить напряжение, я завожу разговор: «Так зачем вы всё это заказали? Над каким проектом работаете?» К моему удивлению, отвечает музыкант: «Над переменами». Каждый из них ухмыляется мне, они переглядываются. Он продолжает: «Если выражаться чуть более материалистично…» Он лезет в карман и достаёт вспышку службы безопасности — такую же, как те, что высыпались из шкафчика, только с треснувшей лампой и оголёнными проводами. Мысли на миг возвращаются к тому моменту, к неприятному головокружению. «Мы делаем вот это, и в больших количествах. Это открывает разум и позволяет взглянуть на мир по-новому, лучше». Тут я чувствую, как двое других хватают меня за руки, и понимаю, что меня держат! Я пытаюсь вырваться, но меня держат крепко. Паника пронзает меня, как молния: почему они так со мной поступают, и зачем? «Скажи-ка…» — музыкант подносит вспышку к моему лицу, её треснувшая лампа разгорается потрескивающим красным светом. Он жужжит: «…с тобой кто-нибудь обсуждал гегелевскую диалектику?»
 
 # Written by .wuspoppinb
 book-apocolypse = Говорят, придёт время, когда щиты будут расколоты, копья сломаны, а мечи расщеплены; в убывающие часы волка, ветра и зла. В былые древние дни это называли Армагеддоном, апокалипсисом, концом всего сущего. Так предречено: конец возвестит трубный глас великих рогов, что несутся безошибочно над землёй, морями и небесами. Эхо которого низвергает то, что было создано стоять вечно.
@@ -612,111 +558,111 @@ book-apocolypse = Говорят, придёт время, когда щиты �
 
 
 
-      Lo, and the Skies opened up, and the light of the Robust shined down upon the tide; and those who were worthy were brought into the His Kingdom . First, a white horse, and upon it, a pale rider, whose name was David. In his hands, a multitude of weapons, and upon his head; a Crown of Red, and White. Before him, knelt all scholars and devoted of knowledge. It is said that as he rode, reality itself bent the knee.
+      И се, разверзлись Небеса, и свет Робаста воссиял над приливом; и достойные были взяты в Царствие Его. Первым явился белый конь, и на нём бледный всадник, имя которому Давид. В руках его — множество оружия, а на голове его — Венец Красный и Белый. Пред ним преклонили колени все учёные и преданные знанию. Говорят, когда он скакал, сама реальность склоняла колени.
 
 
-       The second rider, A terrible sight; A roiling red steed, and upon it, a scaled beast, whose name was Kao. In his hands, bore two swords of beaming light; Moving with speed unhindered, the rider struck down all who stood before him, casting the last remnants of those who dared oppose His Will into the valley of shadows and fire. None knew peace while he reigned upon creation.
+       Второй всадник — ужасное зрелище; бурлящий алый скакун, а на нём чешуйчатый зверь, имя которому Као. В руках его — два меча из сияющего света; двигаясь с неудержимой быстротой, всадник сражал всех, кто вставал перед ним, низвергая последних из тех, кто посмел противиться Воле Его, в долину теней и огня. Никто не знал покоя, пока он царствовал над творением.
 
 
-       The third rider; unlike her kin, rode with solemn in her step. She rode not with anticipation, but with great sorrow in her heart. Flowing raiments of silvered silk, stained with marks of blood and filth, lay at her sides, dragged seemingly not by a Steed, but by a withering mule. In her hand, a pair of scissors, worn and rusted with the sands of time. Those who felt her touch, swelled, convulsed, and were tortured in their last moments by maladies and omens aplenty. And her name, was Garf.
+       Третья всадница, в отличие от своих собратьев, ступала торжественно и скорбно. Она скакала не в предвкушении, а с великой печалью в сердце. Струящиеся одеяния из серебристого шёлка, запятнанные кровью и грязью, волочились по её бокам, и везла её, казалось, не лошадь, а иссохший мул. В руке её — ножницы, стёртые и проржавевшие от песков времени. Те, кого она касалась, распухали, бились в судорогах и в последние мгновения мучились от бесчисленных недугов и знамений. И имя ей было Гарф.
 
 
-      The fourth rider, bore a visage to haunt the dreams of all men. Emaciated, gaunt, and impossibly thin, the rider could barely be called alive. His skin was sickeningly green, and the horse reflected it's master. His face bore no features, a smooth crest of flesh where eyes and a mouth would be. There was no mistaking it; this was Death, and with him, a fourth of the universe was his domain.
+      Четвёртый всадник носил лик, что будет преследовать сны всех людей. Измождённый, осунувшийся и невероятно тощий, всадника едва ли можно было назвать живым. Кожа его была тошнотворно-зелёной, и конь был под стать хозяину. Лицо его не имело черт — гладкий гребень плоти там, где должны быть глаза и рот. Ошибки быть не могло: это была Смерть, и четверть вселенной была её владением.
 
 # Written by naterthegreater
-book-wizard-dice = «Язвительные, самодовольные, мошеннические акулы». Рикки откидывает стул и топит поток проклятий в стакане рома. Бесплатная выпивка — единственное хорошее в его работе. «Тьфу, "стань ассистентом, увидишь галактику"». И где он оказывается?
+book-wizard-dice = «Язвительные, самодовольные, мошеннические акулы». Райан откидывается на стуле и топит поток проклятий в стакане рома. Бесплатная выпивка — единственное хорошее в его работе. «Тьфу, "стань ассистентом, увидишь галактику"». И где он оказывается?
 
-        Barratry, freaking Barratry. He slams his glass down and leers at the dirty little bar where staff drink their days away. CentComm loves touting their "first-rate working environments" and "commitment to employee well-being" when they're parading cameras around Manor and Oasis.
+        На Барратри, на чёртовом Барратри. Он с грохотом ставит стакан и косится на грязный барчик, где персонал пропивает свои дни. ЦентКом обожает расхваливать «первоклассные условия труда» и «заботу о благополучии сотрудников», когда водит камеры по Мэнору и Оазису.
 
-        What they don't tell you is what happens to the employees they don't want; they ship them to stations that NanoTrasen wants even less. Where there's nothing to do but gamble your pittance of a salary away to see which employee will scrounge enough credits together to escape the sector for good.
+        О чём они не говорят — так это о том, что происходит с ненужными им сотрудниками: их отправляют на станции, которые НаноТрейзен нужны ещё меньше. Где только и остаётся, что проигрывать свои гроши, выясняя, кто из сотрудников первым наскребёт достаточно кредитов, чтобы навсегда сбежать из сектора.
 
-        Unfortunately for him, Lady Luck's never on his side. He scoffs down at cards splayed across the table, his losing hand. What a perfect metaphor.
+        К несчастью для него, Госпожа Удача никогда не была на его стороне. Он презрительно смотрит на разложенные на столе карты — свою проигрышную руку. Какая точная метафора.
 
-        "Good evening!"
+        «Добрый вечер!»
 
-        "Eh?" Ryan doesn't recognize the voice, and whoever it is, they're way too plucky to have been there longer than a single shift. He shakes his head. "Not in the mood for a chat."
+        «А?» Райан не узнаёт голос, и кто бы это ни был, он слишком бодр, чтобы пробыть здесь дольше одной смены. Райан качает головой. «Не в настроении болтать».
 
-        The stranger chuckles. "Then perhaps you'd like to play a game instead?" A single die clatters across the table and rolls to a stop against his hand.
+        Незнакомец посмеивается. «Тогда, может, сыграем?» По столу со стуком катится одна игральная кость и останавливается у его руки.
 
-        Frowning, Ryan picks it up and turns it over in his fingers. Six sides and no digits, just symbols. A king, queen, jester, knight, cleric, wizard, bard, dragon… He blinks and checks again, only to see that a whole new set of symbols has replaced the old. "Huh, what is this thing?" He lowers his hand and squints across the table.
+        Нахмурившись, Райан берёт её и вертит в пальцах. Шесть граней и никаких цифр, только символы. Король, королева, шут, рыцарь, жрец, волшебник, бард, дракон… Он моргает и смотрит снова — на месте старых символов уже совсем другие. «Ха, что это за штука?» Он опускает руку и щурится через стол.
 
-        An elderly man sits across from him. His wrinkled face is cleaner, and his robes are finer than anyone in Barratry deserves. He tips his big pointy in greeting. "A gift from old Azroah the Fortuitous."
+        Напротив сидит пожилой человек. Его морщинистое лицо чище, а мантия роскошнее, чем заслуживает кто-либо на Барратри. Он приподнимает свою большую остроконечную шляпу в знак приветствия. «Дар от старого Азроа Удачливого».
 
-        Now, where has he heard that name before? Something about a Blue Alert? Ryan frowns. "What, you the new clown?"
+        И где же он слышал это имя? Что-то про синий код? Райан хмурится. «Ты что, новый клоун?»
 
-        "I prefer to think of myself as a pilgrim, seeking lost souls." Azroah takes off his floppy hat and places it on the seat next to him.
+        «Предпочитаю считать себя пилигримом, ищущим заблудшие души». Азроа снимает свою мягкую шляпу и кладёт её на сиденье рядом.
 
-        Ryan sneers, tossing the dice back across the table. "Take it to chapel, let me drink in peace."
+        Райан усмехается и швыряет кость обратно через стол. «Неси это в церковь, дай мне выпить спокойно».
 
-        Azroah catches the die between his fingers. Surprisingly dexterous for an older fellow. His mustache quirks up. "Even if I'm offering an escape from this miserable little station? Hardly befits so auspicious a fellow."
+        Азроа ловит кость пальцами. Удивительная ловкость для пожилого человека. Его усы приподнимаются. «Даже если я предлагаю побег с этой жалкой станции? Едва ли это подобает столь удачливому малому».
 
-        Got to be a scam, it's always a scam. And yet… Ryan props himself up on his elbow and sighs. What does he have left to lose? "If you want credits, I don't have any to gamble with."
+        Это наверняка развод, это всегда развод. И всё же… Райан подпирает голову локтем и вздыхает. Что ему терять? «Если тебе нужны кредиты, мне нечего ставить».
 
-        "You needn't offer anything, save for acceptance that anything can happen." Azroah holds the die out to him again. "All you need to do is roll and see."
+        «Тебе не нужно ничего предлагать, кроме готовности принять, что случиться может что угодно». Азроа снова протягивает ему кость. «Нужно лишь бросить и посмотреть».
 
-        Ryan slowly reaches out and plucks it out of his hand. "What game are we playing?"
+        Райан медленно тянется и забирает её. «В какую игру мы играем?»
 
-        "That of lives that could be lived."
+        «В жизни, которые можно было бы прожить».
 
-        Right… If he tries to swindle him out of anything for this, Ryan swears he'll crack a bottle upside his head and take the cell next to the clown. Rolling his eyes, he gives the die a toss.
+        Ну-ну… Если старик попытается что-то у него за это выманить, Райан клянётся, что разобьёт бутылку о его голову и сядет в камеру рядом с клоуном. Закатив глаза, он бросает кость.
 
-        It flops from side to side, glances off his empty cup, and at last falls onto the side depicting a man carrying a pitchfork. He raises an eyebrow. "What is that, a peasant?" A bright light stabs his eyes; he claps a hand over them and groans. "Hey, barkeep! Dim the lights would you? Some of us are trying to-!"
+        Она переваливается с боку на бок, отскакивает от его пустого стакана и наконец падает гранью с человеком с вилами. Райан поднимает бровь. «Это что, крестьянин?» Яркий свет бьёт ему в глаза; он закрывает их ладонью и стонет. «Эй, бармен! Убавь свет, а? Некоторые тут пытаются…!»
 
-        The pounding in his head fades to nothing. "… Drink?" He doesn't feel drunk anymore. Did the old man slip him something? He takes his hand off his eyes and gasps.
+        Стук в голове стихает. «…выпить?» Он больше не чувствует себя пьяным. Старик что-то ему подсыпал? Он убирает руку от глаз и ахает.
 
-        The dirty bar of Barratry is gone, Barratry is gone, the tiles are way too clean to belong there. Does he smell flowers? Ryan blinks a few times, but the image doesn't fade.
+        Грязного бара Барратри нет, самого Барратри нет, плитка слишком чистая для того места. Это что, запах цветов? Райан несколько раз моргает, но картина не исчезает.
 
-        "You gonna help with these or not?" A man in a green suit calls over to him as he hauls bundles of wheat out the door.
+        «Поможешь с этим или нет?» — окликает его человек в зелёном комбинезоне, вынося за дверь снопы пшеницы.
 
-        "Wha-? I'm not a…" Ryan looks down at himself to find the gray jumpsuit of an assistant replaced by the bright green and blue of hydroponics. "A botanist?"
+        «Что? Я же не…» Райан смотрит на себя и видит, что серый комбинезон ассистента сменился ярким зелёно-синим комбинезоном гидропоники. «Ботаник?»
 
-        "Satisfied?"
+        «Доволен?»
 
-        He whirls around to face Azroah again. "I don't understand, what did you…"
+        Он резко оборачивается к Азроа. «Я не понимаю, что ты…»
 
-        The old man chuckles and holds out his hand. The die rests on his palm. "Or would you like to roll again?"
+        Старик посмеивается и протягивает руку. Кость лежит на его ладони. «Или хочешь бросить ещё раз?»
 
-        Slowly, he reaches out and takes it back. If this is a dream, it's the most lucid one he's ever had, and he wants to see more of it. He breathes in and lets the die fall from his hand. It bounces thrice and settles onto the image of a knight.
+        Медленно Райан тянется и забирает её. Если это сон, то самый осознанный в его жизни, и ему хочется увидеть больше. Он делает вдох и роняет кость. Она подпрыгивает трижды и замирает на изображении рыцаря.
 
-        Everything goes white again. The blaring of a Code Red alert fills his ears. When he opens his eyes, he finds himself encumbered by a hardsuit and clutching a laser rifle in his hands. At the same time, a group of Security Officers pushes past him.
+        Всё снова белеет. Уши заполняет вой красного кода. Открыв глаза, он обнаруживает себя в тяжёлом скафандре, с лазерной винтовкой в руках. И тут мимо него протискивается группа офицеров службы безопасности.
 
-        "Guns ready, don't let it through!" They train their weapons on the door as a pair of claws pry them open, and the head of a dragon peeks through.
+        «Оружие наготове, не дайте ему пройти!» Они наводят оружие на дверь, которую раздвигает пара когтей, и в проём заглядывает голова дракона.
 
-        No, no, no! Ryan throws the rifle down and turns again, snatching the die from Azroah's hand and rolling it again. He's almost ready this time when everything shifts again.
+        Нет, нет, нет! Райан бросает винтовку, снова оборачивается, выхватывает кость из руки Азроа и бросает её ещё раз. На этот раз он почти готов, когда всё снова меняется.
 
-        "Captain?"
+        «Капитан?»
 
-        No alarms, no gunfire, and definitely no dragon… Does that mean he's safe?
+        Ни тревоги, ни стрельбы и уж точно никакого дракона… Значит, он в безопасности?
 
-        "Captain, are you alright?"
+        «Капитан, вы в порядке?»
 
-        "Huh?" He opens his eyes and looks down. The fancy blues of a captain cover him now. Him, a captain? He shakes his head in disbelief.
+        «А?» Он открывает глаза и смотрит вниз. Теперь на нём нарядная синяя форма капитана. Он — капитан? Он недоверчиво качает головой.
 
-        "Captain!"
+        «Капитан!»
 
-        He finally looks up, finding himself face-to-face with an angry NanoTrasen Representative. "Uhh, sorry. What were you saying?"
+        Наконец он поднимает взгляд и оказывается лицом к лицу с разгневанным представителем НаноТрейзен. «Э-э, простите. Что вы говорили?»
 
-        The NTR sighs. "Your stamp?"
+        Представитель вздыхает. «Ваша печать?»
 
-        "R-right. My stamp…" It takes him at least a minute to fish it out of his backpack and approve the offered form. He doesn't even know what it says. "Excuse me. I uh, need to retire to my quarters." It takes another minute to find the appropriate door to stumble through.
+        «Д-да. Моя печать…» У него уходит не меньше минуты, чтобы выудить её из рюкзака и одобрить протянутый бланк. Он даже не знает, что там написано. «Прошу прощения. Мне, э-э, нужно удалиться в свою каюту». Ещё минута уходит на то, чтобы найти нужную дверь и ввалиться в неё.
 
-        The moment he's inside, he runs to the nearest mirror and stares at his reflection. The uniform, the saber, the golden ID. They're all there. "This can't be real…"
+        Оказавшись внутри, он бежит к ближайшему зеркалу и смотрит на своё отражение. Форма, сабля, золотая ID-карта. Всё на месте. «Этого не может быть…»
 
-        "And who's to judge between what's real and what could be?" Azroah steps inside after him and raises his hand again. The die faces up, depicting a King.
+        «А кто рассудит, что реально, а что могло бы быть?» Азроа входит следом и снова поднимает руку. Кость лежит гранью вверх, на ней — Король.
 
-        Ryan stares at it a moment longer before meeting the man's eyes. "Who are you?"
+        Райан смотрит на неё ещё мгновение, прежде чем встретиться с ним взглядом. «Кто ты?»
 
-        "Azroah the Fortuitous, of the Wizard Federation!" A cultist after all then, except no, this is real. At least he hopes it is. It beats drinking his life away on Barratry. "And you, my friend, have the gift!"
+        «Азроа Удачливый из Федерации Волшебников!» Всё-таки сектант — хотя нет, это реально. По крайней мере, он надеется. Всё лучше, чем пропивать жизнь на Барратри. «А у тебя, друг мой, есть дар!»
 
-        If it weren't for everything he just saw, he'd deck the old con artist and tell him to piss off, back to his stick-wielding cult, but seeing himself now? Ryan steps forward. "The gift?"
+        Если бы не всё, что он только что увидел, он врезал бы старому мошеннику и послал бы его подальше, обратно в его культ с палками, но видя себя сейчас? Райан делает шаг вперёд. «Дар?»
 
-        "If you'll indulge me, I have a final game to play." Azroah pinches the die between his fingers and holds it up to display the king. "Only two possibilities this time. Roll the king, and you can remain here, as NanoTrasen's well-dressed show puppy playing at power. Or…"
+        «Если позволишь, у меня осталась последняя игра». Азроа зажимает кость между пальцами и поднимает её, показывая короля. «На этот раз лишь два исхода. Выпадет король — и ты останешься здесь, нарядной комнатной собачкой НаноТрейзен, играющей во власть. Или…»
 
-        He twists his hand around to show the image of the wizard on the other side. "You come with me and let me teach you what it means to possess true power. Not merely over men, but over the universe itself."
+        Он поворачивает руку, показывая изображение волшебника на другой грани. «Ты пойдёшь со мной и позволишь научить тебя, что значит обладать настоящей властью. Не просто над людьми, а над самой вселенной».
 
-        Ryan glances back at his reflection. He could stay, he should stay, yes. This is as far as he could've dreamed of making it in CentComm… the swindlers who left him to rot on Barratry. He looks back at the wizard and smirks.
+        Райан оглядывается на своё отражение. Он мог бы остаться, он должен остаться, да. Это предел того, о чём он мог мечтать в ЦентКоме… у тех мошенников, что бросили его гнить на Барратри. Он снова смотрит на волшебника и ухмыляется.
 
-        "Roll the dice."
+        «Бросай кости».
 
 # Written by thelenzy
 book-hop-play =
@@ -984,104 +930,104 @@ book-hop-play =
 # Written by orhu
 book-confession =  Меня зовут Томас Хилл. Я инженер. Я работаю на НаноТрейзен последние 18 лет своей жизни. Я завёл здесь друзей, работал вместе с ними долгие смены. Я почти умирал сотни раз. Я люблю здесь работать и клянусь, что никогда не хотел бы навредить кому-либо на этой станции. Просто... дело в том... я не человек. Уже нет.
 
-          There's something wrong with me. I'm not... me anymore. There's an... urge that makes me do things I don't want to. I’m hungry in a way I've never been hungry before. I don’t know why. Maybe I ate something bad. I want it to stop. I just want it to GO AWAY!!
+          Со мной что-то не так. Я больше не... я. Во мне есть... тяга, которая заставляет меня делать то, чего я не хочу. Я голоден так, как никогда раньше не был. Не знаю почему. Может, я съел что-то не то. Я хочу, чтобы это прекратилось. Я просто хочу, чтобы это УШЛО!!
 
-          I’m too scared to go near anyone. I can’t control it. It’s changing how I think. It just takes over and I lose myself to it. I couldn’t stop myself from...
+          Я слишком боюсь подходить к кому-либо. Я не могу это контролировать. Оно меняет то, как я думаю. Оно просто берёт верх, и я теряю себя. Я не смог удержаться и...
 
-          No. I don’t want to think about that.
+          Нет. Не хочу об этом думать.
 
-          I’ve been hiding in maintenance hallways for the last three hours. I know them better than anyone else. They’ll never find me here. I still hear them looking for me, though. People are talking about blood tests over the radio. I saw a few officers with some scraps of clothing I didn’t hide well enough. Hopefully they didn’t find any of the bodies. God I hope they didn’t find the bodies.
+          Последние три часа я прячусь в техтоннелях. Я знаю их лучше всех. Здесь меня никогда не найдут. Но я всё ещё слышу, как меня ищут. По рации говорят об анализах крови. Я видел пару офицеров с обрывками одежды, которые я спрятал недостаточно хорошо. Надеюсь, они не нашли тела. Господи, лишь бы они не нашли тела.
 
-          Maybe I should turn myself in. Tell them I didn’t want to do any of those things. That it made me do them. Maybe they can help me.
+          Может, мне стоит сдаться. Сказать им, что я не хотел ничего этого делать. Что оно заставило меня. Может, они смогут мне помочь.
 
-          I should just confess... Confess on paper. In writing. It’s easier than saying it out loud. That's why I started writing this, right? I wanted to confess, to... tell people what’s happening to me. To keep some control of myself.
+          Мне просто нужно признаться... Признаться на бумаге. Письменно. Это легче, чем сказать вслух. Поэтому я и начал это писать, верно? Я хотел признаться, рассказать... людям, что со мной происходит. Сохранить хоть какой-то контроль над собой.
 
-          I promise I tried everything I could to sate the hunger. I started with the small things. Mice, mothroaches, you know. They made the hunger go away but only for a few seconds. I even tried a cat. It scratched my face up before I could crush its skull with my teeth. It didn’t help any more than the rats did.
+          Клянусь, я перепробовал всё, чтобы утолить голод. Начал с мелочей. Мыши, молетараканы, ну вы понимаете. Они прогоняли голод, но лишь на несколько секунд. Я даже попробовал кошку. Она исцарапала мне лицо, прежде чем я раздавил ей череп зубами. Помогло не больше, чем крысы.
 
-          People. I needed to feed on people. There was no other way, my body knew it and I couldn’t fight it anymore.
+          Люди. Мне нужно было питаться людьми. Другого пути не было, моё тело знало это, и я больше не мог с ним бороться.
 
-          I found someone wandering alone. Some poor kid who just happened to be in the wrong place at the wrong time. They were so young... Couldn't have been more than twenty. Might’ve been their first shift. I called out for help and they came right over without thinking twice. I ate them on the spot. My mouth, it turned into this horrible... thing with rows of gnashing teeth and
+          Я нашёл того, кто бродил в одиночестве. Какого-то бедолагу, оказавшегося не в том месте не в то время. Такой молодой... Не больше двадцати. Может, это была его первая смена. Я позвал на помощь, и он подошёл, ни секунды не раздумывая. Я съел его на месте. Мой рот превратился в эту жуткую... штуку с рядами скрежещущих зубов и
 
-          disgusting, fleshy tendrils that ripped through their body with a mind of its own. It tore off chunks of flesh, bits of their stomach and liver and heart and shoved it all down my throat. I ate them like a starving animal. I cried when I felt the hunger go away.
+          мерзкими мясистыми щупальцами, которые сами по себе разрывали его тело. Они отрывали куски плоти, кусочки желудка, печени и сердца и запихивали всё это мне в глотку. Я ел его, как изголодавшийся зверь. Я плакал, когда почувствовал, как уходит голод.
 
-          It was maybe ten minutes before it came back. It was worse than before. More demanding, more urgent. It wanted more.
+          Прошло минут десять, и он вернулся. Хуже, чем прежде. Требовательнее, настойчивее. Он хотел ещё.
 
-          So I gave it more. I lured people in, devoured them, and hid the bodies somewhere nobody would find them. Some of them were people I’ve worked with for years. My boss from my last station. A doctor I used to play cards with after shift. They were easier to convince, easier prey. I kept telling myself I only needed one more and that was it, but I just kept going and going. It felt so good to feed. Every bite felt like the first one I’d had in days.
+          И я дал ему ещё. Я заманивал людей, пожирал их и прятал тела там, где их никто не найдёт. Некоторых я знал много лет. Мой начальник с прошлой станции. Врач, с которым я играл в карты после смены. Их было легче убедить, они были лёгкой добычей. Я твердил себе, что нужен ещё только один — и всё, но продолжал и продолжал. Питаться было так приятно. Каждый укус ощущался как первый за много дней.
 
-          I feel like a monster. That's how everyone must see me now. Some monster. They’d probably shoot me on sight if they found me anyway. I’m probably soaked in blood by now... Probably barely even resemble myself.
+          Я чувствую себя чудовищем. Наверняка таким меня теперь все и видят. Каким-то чудовищем. Если меня найдут, наверняка пристрелят на месте. Я, наверное, уже весь в крови... Наверное, едва похож на себя.
 
-          If there is a kind god out there, please let this find the right person. Consider this my atonement. My call for help. If there is any way to save me, I'd give anything for it. Please. I don't want to hurt anyone else.
+          Если где-то есть добрый бог, пусть это попадёт в нужные руки. Пусть это будет моим искуплением. Моим зовом о помощи. Если есть хоть какой-то способ меня спасти, я отдам за него всё. Пожалуйста. Я не хочу больше никому навредить.
 
-          Forgive me. I’m just so hungry.
+          Простите меня. Я просто так голоден.
 
 # Written by rings69
-book-life-of-a-clown = Весь день, каждый день. Каждый день был адом. Люди смотрели на меня везде, куда бы я ни шёл. Все они замышляли — замышляли убить меня и забрать мой сыр... Я просто знал это... Я был приверженцем Хонкматери, и все ненавидели меня за это. Это огорчало меня. Я просто был собой, выражал себя единственным известным мне способом. Я хотел смешить маленьких детей, делать людей счастливыми, а меня за это изгоняют... У меня были друзья, я был популярен. А теперь только из-за того, что я хотел сжать свой нос и хонкнуть, люди ненавидели меня...
-          I went to get my groceries. I was mocked and stared at. I just… There were three men and a woman. They stalked me through each aisle, following me from afar… Each time I looked to a new person for help, they ignored me. I grabbed my icecream, pistachio flavored. I smiled, imagining myself on my couch, eating my favorite ice cream!
-          “Of course a clown buys pistachio…” I heard from behind me. I turned around. A woman and her child. She cringed as she saw my face.
-          I ran away, going to the pasta aisle. I picked out fettucini, my favorite shape.
-          “Fucking clowns…” I heard, whispered under someone’s breath. I turned around. I was met with the same kind of face. A man looked at me with utter disdain and disgust.
-          Again, I ran away, tears streaming down my cheeks. The group of people still following, stalking me through the store. I just wanted to hide, to get away from it all. Everywhere I went there were people glaring at me, spitting at my honking feet as I walked by. No where was safe. I wrapped my arms around myself, closing myself off from the world. I paid for the groceries and left. Even the cashier glared at me, disgusted by my very presence.
-          I began to walk home, but the streets weren't safe for clowns, and everyone knew where I was at all times. I looked behind me as I marched home. They were still following me…
-          I opened the door to my apartment, immediately closing it behind me. I was safe, relatively. My landlord was still on my ass, upping my rent due to “recent economical upturns”, whatever that meant. I lived on Mars, everyone was poor here. Some more than others…
-          I walked to my couch, plopping on it and screaming into my pillow. It felt nice to finally air out my frustrations. I cried to the Honkmother, asking her for guidance. What was I to do? I sniffled up the tears and grabbed my ice cream, digging into it like an animal. Then I heard a knock on the door. I wasn’t expecting visitors… I ignored it, going back to my ice cream. Then another knock, harder this time. Then another, and another. Harder each and every time. I got scared. What did they want?
-          “Open up the door, or we’ll do it for you clown!”
-          I froze… dropping my spoon on the floor. Then the door came down…
-          I tried talking to the police after the assault. I called and called, each time barely able to keep the shakes in check, but everytime when they looked me up in the system, they hung up. I even tried going to the precinct in person, but there I was denied even quicker. What was I supposed to do…
-          This was the life of a clown…
+book-life-of-a-clown = Весь день, каждый день. Каждый день был адом. Люди смотрели на меня везде, куда бы я ни шёл. Все они замышляли — замышляли убить меня и забрать мой сыр... Я просто знал это... Я был приверженцем Хонкоматери, и все ненавидели меня за это. Это огорчало меня. Я просто был собой, выражал себя единственным известным мне способом. Я хотел смешить маленьких детей, делать людей счастливыми, а меня за это изгоняют... У меня были друзья, я был популярен. А теперь только из-за того, что я хотел сжать свой нос и хонкнуть, люди ненавидели меня...
+          Я пошёл за продуктами. Надо мной смеялись и на меня пялились. Я просто… Там были трое мужчин и женщина. Они преследовали меня в каждом ряду, следуя издалека… Каждый раз, когда я искал помощи у кого-то нового, меня игнорировали. Я взял мороженое, фисташковое. Я улыбнулся, представляя, как сижу на диване и ем своё любимое мороженое!
+          «Ну конечно, клоун покупает фисташковое…» — услышал я за спиной. Я обернулся. Женщина с ребёнком. Она скривилась, увидев моё лицо.
+          Я убежал в ряд с макаронами. Выбрал феттучини — мою любимую форму.
+          «Грёбаные клоуны…» — услышал я чей-то шёпот сквозь зубы. Я обернулся. Меня встретило такое же лицо. Мужчина смотрел на меня с крайним презрением и отвращением.
+          Я снова убежал, слёзы текли по щекам. Группа людей всё ещё шла за мной, преследуя по всему магазину. Я просто хотел спрятаться, уйти от всего этого. Куда бы я ни шёл, люди злобно смотрели на меня и плевали на мои хонкающие ботинки, когда я проходил мимо. Нигде не было безопасно. Я обхватил себя руками, закрываясь от мира. Я заплатил за продукты и ушёл. Даже кассир смотрел на меня с отвращением, будто само моё присутствие было мерзким.
+          Я пошёл домой, но улицы были небезопасны для клоунов, а все и всегда знали, где я. Шагая домой, я оглянулся. Они всё ещё шли за мной…
+          Я открыл дверь квартиры и тут же захлопнул её за собой. Я был в безопасности — относительно. Арендодатель всё ещё не слезал с меня и поднимал плату из-за «недавнего экономического подъёма», что бы это ни значило. Я жил на Марсе, здесь все были бедны. Некоторые больше других…
+          Я подошёл к дивану, плюхнулся на него и закричал в подушку. Было приятно наконец выплеснуть своё отчаяние. Я взмолился Хонкоматери, прося её наставления. Что мне делать? Я шмыгнул носом, утёр слёзы и схватил мороженое, вгрызаясь в него как зверь. Потом я услышал стук в дверь. Я не ждал гостей… Я не обратил внимания и вернулся к мороженому. Потом ещё стук, на этот раз сильнее. Потом ещё и ещё. Каждый раз всё сильнее. Мне стало страшно. Чего им нужно?
+          «Открывай дверь, клоун, или мы откроем её за тебя!»
+          Я застыл… уронив ложку на пол. И тут дверь выбили…
+          После нападения я пытался обратиться в полицию. Я звонил и звонил, каждый раз еле сдерживая дрожь, но каждый раз, найдя меня в базе, они вешали трубку. Я даже пытался прийти в участок лично, но там мне отказали ещё быстрее. Что мне было делать…
+          Такова была жизнь клоуна…
 
 # Written by thepipetoadcouncil
 book-unnamed-god = «Богословские исследования — Безымянный Бог»
-          By Dr Marcel Marceau
+          Автор: д-р Марсель Марсо
 
 
 
-          As I'm sure many will know, even without in-depth study into Theology, many individuals worship the "Honk Mother", the supposed patron god of clowns.
+          Уверен, многим известно, даже без глубокого изучения богословия, что немало людей поклоняется «Хонкоматери» — предполагаемой богине-покровительнице клоунов.
 
-          However, the clown god is not the topic of this study. Rather, I have decided to investigate a deity so few consider the theoretical existence of the 'Mime god'
+          Однако предмет этого исследования — не клоунская богиня. Я решил изучить божество, в теоретическое существование которого верят столь немногие, — «бога мимов».
 
-          From my own investigations, I have confirmed that a Deity of such a nature could exist in some form, although it is very complex to describe.
+          В ходе собственных изысканий я подтвердил, что божество подобной природы может существовать в той или иной форме, хотя описать его очень сложно.
 
-          The start of my research was a long process of interviewing many mimes. Most of them were rather confused by my questioning, but after a great number of attempts, I found a small troupe of mimes who did have solid information. After a few failed tries at interpreting their performative gestures, I deciphered what they were attempting to convey to me.
+          Начало моего исследования было долгим: я опросил множество мимов. Большинство из них мои вопросы скорее озадачили, но после множества попыток я нашёл небольшую труппу мимов, у которых действительно были надёжные сведения. После нескольких неудачных попыток истолковать их пантомиму я расшифровал, что они пытались мне передать.
 
-          Their god, so far as I can understand, does not have a name, as a name would mean it could be spoken, which thus would require sound. As such, many of its worshipers simply refer to it with the simple gesture of performing a Shushing motion with their hands.
+          Их бог, насколько я могу понять, не имеет имени, ведь имя означало бы, что его можно произнести, а для этого нужен звук. Поэтому многие его последователи обозначают его простым жестом — прикладывают палец к губам, призывая к тишине.
 
-          With this knowledge in mind, I believe that many artifacts belonging to this religion have previously been uncovered by some of my fellow researchers in the archaeology department, the most interesting of which being a golden mask that has still yet to be identified.
+          Исходя из этого, я полагаю, что многие артефакты этой религии уже были найдены моими коллегами из археологического отдела. Самый интересный из них — золотая маска, которую до сих пор не удалось опознать.
 
-          From talking with said colleagues, I have been able to gain even further information on what i believe to be this semi-lost deity.
-          Their discoveries show multiple civilizations have previously been found with matching depictions of an unidentified entity that i personally believe is this mysterious mime god.
+          Из бесед с этими коллегами мне удалось узнать ещё больше о том, что я считаю полузабытым божеством.
+          Их находки показывают, что у множества цивилизаций встречаются одинаковые изображения неопознанного существа, которое лично я считаю этим загадочным богом мимов.
 
-          Whilst I am unable to include an image due to the confidentiality of ongoing research, one of my colleagues, Dr Chaplin, has provided a verbal description of the murals based on their own in-depth studies.
-          Dr Chaplin has assured me that this description matches all recorded instances of the mural as it is universally identical in all its depictions across the various planets it has been found on.
+          Хотя я не могу приложить изображение из-за конфиденциальности текущих исследований, один из моих коллег, д-р Чаплин, предоставил словесное описание фресок на основе собственных углублённых исследований.
+          Д-р Чаплин заверил меня, что это описание совпадает со всеми зафиксированными экземплярами фрески, поскольку она совершенно одинакова во всех своих изображениях на разных планетах, где её находили.
 
-          "The being is depicted in a neutral pose, standing upright, feet together, one arm behind its back and the other performing the shushing gesture on a mask or face. Attempting to decipher details of that nature is often quite challenging on murals after all..."
-          - C. Chaplin.
+          «Существо изображено в нейтральной позе: стоит прямо, ноги вместе, одна рука за спиной, а другая показывает жест тишины у маски или лица. В конце концов, разбирать подобные детали на фресках зачастую довольно трудно...»
+          - Ч. Чаплин.
 
-          I hypothesize these murals are where the few mimes who know of the god chose to adopt its
-          "Name" from the gesture depicted upon them.
-          Whether the gesture came first or the murals did is a question for another time.
-          A major roadblock in attempting to further study this deity is that I still cannot fully verify how it was worshiped, as no mural ever includes text of any form.
+          Я предполагаю, что именно с этих фресок немногие мимы, знающие о боге, и переняли его
+          «имя» — изображённый на них жест.
+          Что появилось раньше — жест или фрески, — вопрос для другого раза.
+          Главное препятствие на пути к дальнейшему изучению этого божества — я до сих пор не могу точно установить, как ему поклонялись, ведь ни одна фреска не содержит никакого текста.
 
-          I shall continue to investigate further. I suspect that the Golden Mask could be the key to finally discovering the truth behind this forgotten god.
+          Я продолжу исследование. Подозреваю, что Золотая маска может оказаться ключом к истине об этом забытом боге.
 
 
           _______________
 
-          I have little time
+          У меня мало времени
 
-          One of the other researchers put on that golden mask we found at one of the digs sites.
-          I don't know why he did. Company policy clearly states to not interact with unidentified artifacts after the past incident with that "nuclear artifact", but i digress.
-          The fact of the matter is he put on that mask, and it made him turn completely rabid.
+          Один из исследователей надел ту золотую маску, которую мы нашли на одном из раскопов.
+          Не знаю, зачем он это сделал. Политика компании ясно запрещает взаимодействовать с неопознанными артефактами после того случая с «ядерным артефактом», но я отвлёкся.
+          Суть в том, что он надел эту маску, и она превратила его в бешеного зверя.
 
-          Doctor Richards was near instantly decapitated with a shovel. I watched his head sail skywards in a bloody arc before it landed in one of the dig sites.
-          An intern was the next victim.
-          The same shovel that had just made my coworker's head into a macabre firework was buried in his guts whilst he was still reeling from seeing Richards' fate.
-          I was running by that point. I saw the security team rushing in to respond, but the gunfire stopped a while ago.
+          Доктору Ричардсу почти сразу снесли голову лопатой. Я видел, как его голова кровавой дугой взмыла в небо и упала в один из раскопов.
+          Следующей жертвой стал стажёр.
+          Та самая лопата, что только что превратила голову моего коллеги в жуткий фейерверк, вонзилась ему в живот, пока он ещё не пришёл в себя от увиденного.
+          К тому моменту я уже бежал. Я видел, как на вызов спешит служба безопасности, но стрельба стихла уже давно.
 
-          I hope they managed to put down Marcel, but something tells me they likely did not.
+          Надеюсь, они смогли остановить Марселя, но что-то подсказывает мне, что вряд ли.
 
-          If anyone finds this and finds that golden mask, destroy it if you can.
-          I don't know what that thing is but it turned a man i knew as a pacifistic theologian into a monster capable of cutting someone's head off with a blunt shovel.
+          Если кто-нибудь найдёт это и найдёт ту золотую маску — уничтожьте её, если сможете.
+          Не знаю, что это за вещь, но она превратила человека, которого я знал как миролюбивого богослова, в чудовище, способное отрубить кому-то голову тупой лопатой.
 
-          I can hear the door to the room I have hidden inside being struck. I will do my best to fight back, but I don't like my odds.
+          Я слышу удары в дверь комнаты, где прячусь. Я буду сопротивляться изо всех сил, но шансы, боюсь, невелики.
 
-          Charles Chaplain signing off for the last time.
+          Чарльз Чаплин, на связи в последний раз.

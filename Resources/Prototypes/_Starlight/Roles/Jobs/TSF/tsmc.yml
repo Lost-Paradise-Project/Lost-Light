@@ -49,7 +49,7 @@
       department: Security
       time: 18000 # 5h
     - !type:RolesRequirement
-      proto: ExtRolesReq
+      proto: LPGameStaffReq # LP edit
   setPreference: false
   icon: JobIconTSF
   rules: job-rules-tsf-aligned

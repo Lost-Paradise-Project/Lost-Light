@@ -42,13 +42,13 @@ abductors-ghost-role-desc = Похищайте людей, набивайте и
 abductora-ghost-role-name = Агент-похититель
 abductora-ghost-role-desc = Похищайте людей, защищайте учёного.
 abductors-ghost-role-rules = Вы — [color=red][bold]Похититель[/bold][/color].
-                            Your intentions are to abduct people from the station and replace their organs with various experimental devices,
-                            after which you return them back. You are not allowed to destroy the station or intentionally kill people.
-                            It is in your interest to return the test subjects alive and healthy for the purity of the experiment.
+                            Ваша задача — похищать людей со станции и заменять их органы различными экспериментальными устройствами,
+                            после чего возвращать их обратно. Вам запрещено уничтожать станцию или намеренно убивать людей.
+                            В ваших интересах возвращать подопытных живыми и здоровыми ради чистоты эксперимента.
 
-                            You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                            You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                            You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+                            Вы не помните ничего из прошлой жизни и ничего из того, что узнали, будучи призраком.
+                            Вам разрешено помнить знания об игре в целом: как готовить, как пользоваться предметами и т. д.
+                            Вам категорически [color=red]НЕЛЬЗЯ[/color] помнить, например, имя, внешность и т. п. вашего прошлого персонажа.
 
 abductor-round-end-agent-name = похититель
 

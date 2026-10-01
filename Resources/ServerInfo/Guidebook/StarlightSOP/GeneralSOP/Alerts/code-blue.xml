@@ -1,62 +1,62 @@
 <Document>
-        # Code Blue
+        # Код «Синий»
 
-        ## Called by:
+        ## Кто объявляет:
 
-        Any two Command members, HoS, or Captain.
+        Любые двое членов командования, ГСБ или капитан.
 
-        ## Conditions:
+        ## Условия:
 
-        There is a suspected threat on-board the station, or at a nearby location in space. This includes any evidence of hostile activity that has not damaged the station or crew. This may also include multiple eye witness testimonies.
+        На борту станции или поблизости в космосе есть предполагаемая угроза. Сюда относятся любые признаки враждебной активности, не причинившей ущерба станции или экипажу, а также несколько показаний очевидцев.
 
-        OR
+        ИЛИ
 
-        Confirmed Code Red threats have been properly handled or subsided on their own. It is recommended that, after 10+ minutes on Code Red without any hostile activity, Code Blue be called.
+        Подтверждённые угрозы кода «Красный» были должным образом устранены или прекратились сами. Рекомендуется объявить код «Синий», если после 10+ минут красной тревоги враждебной активности нет.
 
-        ## Security:
+        ## Служба безопасности:
 
-        1. Weapons may be visible.
+        1. Оружие может быть на виду.
 
-        2. Armory weapons are permitted outside of the brig on a selective basis. Should all of sec be required to use armory weapons, red alert should be called .
+        2. Оружие из оружейной разрешено выносить за пределы брига выборочно. Если оружие из оружейной нужно всей СБ, следует объявить красную тревогу.
 
-        3. Random searches are encouraged. Security personnel may detain any personnel refusing a random search to conduct the search.
+        3. Случайные обыски приветствуются. Сотрудники СБ могут задержать любого, кто отказывается от случайного обыска, чтобы его провести.
 
-        ## Secure Areas:
+        ## Защищённые зоны:
 
-        1. Secure areas require an access permit, unless required by a staff job.
+        1. Для входа в защищённые зоны нужен допуск, если это не требуется по должности.
 
-        2. Secure areas: Security department, EVA Storage, Tech Storage, Gravity Generator, All Engineering areas beyond the lobby, Vault, and areas requiring command access.
+        2. Защищённые зоны: отдел безопасности, хранилище EVA, техническое хранилище, генератор гравитации, все инженерные зоны за пределами вестибюля, хранилище и зоны, требующие доступа командования.
 
-        3. Secure areas may be bolted if attempted unauthorized access is likely based on previous evidence.
+        3. Защищённые зоны могут быть заблокированы болтами, если по имеющимся данным вероятна попытка несанкционированного проникновения.
 
 
-        ## Engineering:
+        ## Инженерный отдел:
 
-        1. A thorough check of all power sources is heavily encouraged.
+        1. Настоятельно рекомендуется тщательно проверить все источники энергии.
 
-        2. A thorough check of all atmospheric systems is required.
+        2. Тщательная проверка всех атмосферных систем обязательна.
 
-        ## Medical:
+        ## Медицинский отдел:
 
-        Emergency access is recommended to be disabled from all medical entrances.
+        Рекомендуется отключить аварийный доступ на всех входах в медбей.
 
-        ## General Crew:
+        ## Экипаж:
 
-        1. Personnel are to report any suspicious activity to the nearest member of Security, or use common radio if urgent.
+        1. Сообщайте о любой подозрительной активности ближайшему сотруднику СБ или, если дело срочное, по общему радиоканалу.
 
-        2. Personnel are highly encouraged to exercise caution, all crew should follow simple safety procedures (such as not going through Maintenance alone).
+        2. Настоятельно рекомендуется соблюдать осторожность: всему экипажу следует придерживаться простых правил безопасности (например, не ходить по техническим тоннелям в одиночку).
 
-        3. Visitors to the station such as refugees are recommended to stay in public areas, for their safety.
+        3. Гостям станции, например беженцам, для их же безопасности рекомендуется оставаться в общественных зонах.
 
-        4. The Vault is not to be opened by non-command members. Exceptions for repairs, or storage of critical items will be made. All other access is by permit only.
+        4. Хранилище не должны открывать не члены командования. Исключения делаются для ремонта или хранения критически важных предметов. Любой другой доступ - только по допуску.
 
-        5. All personnel are highly recommended to set their suit sensors to coordinates.
+        5. Всем настоятельно рекомендуется выставить датчики костюмов на передачу координат.
 
-        ## Command:
+        ## Командование:
 
-        1. A role-call of all department personnel should be conducted. Any missing members should be reported to security.
+        1. Нужно провести перекличку всех сотрудников отделов. О пропавших нужно сообщить СБ.
 
-        2. A disabler or flash should be carried at all times.
+        2. Всегда носите при себе дизейблер или вспышку.
 
-        3. Non-security Command members may request with permit further armament.
+        3. Члены командования, не относящиеся к СБ, могут по допуску запросить дополнительное вооружение.
 </Document>

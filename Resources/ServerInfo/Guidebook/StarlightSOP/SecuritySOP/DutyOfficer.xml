@@ -1,10 +1,10 @@
 <Document>
-# Duty Officer
+# Дежурный офицер
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Duty Officer"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Дежурный офицер"/>
 
 - 1.\n
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]коде «Зелёный»[/color]:
 
 <Box>
 	<GuideEntityEmbed Entity="Stunbaton"/>
@@ -25,24 +25,24 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 
 - 2.\n
-The Duty Officer is allowed to use and wear riot equipment and weaponry on green alert if needed to quell unrest in the brig.
+Дежурному офицеру разрешено использовать и носить антибунтарское снаряжение и оружие при зелёной тревоге, если нужно подавить беспорядки в бриге.
 - 3.\n
-The Duty Officer's duty is to assist the Warden with all of their duties and they report directly to them. In the absence of orders from the Warden their primary responsibilities are, in order of importance:\n\n
+Обязанность дежурного офицера - помогать смотрителю во всех его обязанностях, и он подчиняется непосредственно ему. При отсутствии приказов смотрителя его основные обязанности, в порядке важности:\n\n
 3.1\n
-Assisting with subduing riots in the brig.\n\n
+Помощь в подавлении бунтов в бриге.\n\n
 3.2\n
-Assisting with securing the brig, and the department in general.\n\n
+Помощь в охране брига и отдела в целом.\n\n
 3.3\n
-Assisting with the maintenance of the Criminal Records System.\n\n
+Помощь в ведении системы криминальных записей.\n\n
 3.4\n
-Seeing to the well-being and health of prisoners and detainees.\n\n
+Забота о благополучии и здоровье заключённых и задержанных.\n\n
 3.5\n
-Assisting officers in the field via utilisation of the Criminal Records System and the Crew Monitoring System from inside the Security Department.
+Помощь офицерам в поле с помощью системы криминальных записей и системы мониторинга экипажа из отдела безопасности.
 - 4.\n
-The Duty Officer is cleared to confine sentenced criminals in the brig for up to [bold]15 minutes[/bold].\n\n
+Дежурный офицер вправе заключать осуждённых преступников в бриг на срок до [bold]15 минут[/bold].\n\n
 4.1\n
-For a sentence to be valid, it must be read aloud to the Warden or Head of Security. If done over radio, an audible confirmation must be received.\n\n
+Чтобы приговор был действителен, его нужно зачитать вслух смотрителю или главе службы безопасности. Если это делается по радио, нужно получить слышимое подтверждение.\n\n
 4.2\n
-Duty Officers are particularly obligated to see to it that these sentences are properly filed.\n\n
+Дежурные офицеры особенно обязаны следить, чтобы такие приговоры были надлежащим образом оформлены.\n\n
 
 </Document>

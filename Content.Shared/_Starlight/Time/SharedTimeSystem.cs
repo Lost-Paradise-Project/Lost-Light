@@ -10,7 +10,7 @@ public abstract partial class SharedTimeSystem : EntitySystem
     [Dependency] private SharedGameTicker _gameTicker = default!;
 
     // Default value is sensible but will be updated later.
-    protected DateTime Date = DateTime.UtcNow.AddYears(500);
+    protected DateTime Date = DateTime.UtcNow.AddYears(600); // LP edit
 
     public override void Initialize()
     {

@@ -25,10 +25,10 @@ public sealed partial class BleatingAccentSystem : EntitySystem
         args.Message.Text = Accentuate(args.Message.Text);
 
     public static string Accentuate(string message) =>
-         // Repeats the vowel in certain consonant-vowel pairs
-         // So you taaaalk liiiike thiiiis
-         // LP edit start
-         // И по-русски: беееекааааю
-         BleatRegexRu().Replace(BleatRegex().Replace(message, "$1$2$2$2$2"), "$1$2$2$2$2");
-         // LP edit end
+        // Repeats the vowel in certain consonant-vowel pairs
+        // So you taaaalk liiiike thiiiis
+        // LP edit start
+        // И по-русски: беееекааааю
+        BleatRegexRu().Replace(BleatRegex().Replace(message, "$1$2$2$2$2"), "$1$2$2$2$2");
+        // LP edit end
 }

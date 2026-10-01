@@ -118,7 +118,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         startingItem: MagazineShotgun
         priority: 2
         whitelist:

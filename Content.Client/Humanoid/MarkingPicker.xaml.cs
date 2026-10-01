@@ -10,6 +10,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
+using Content.Shared._LP.Sponsors;
 
 namespace Content.Client.Humanoid;
 
@@ -238,9 +239,9 @@ public sealed partial class MarkingPicker : Control
 
     private IReadOnlyDictionary<string, MarkingPrototype> GetMarkings(MarkingCategories category)
     {
-        return IgnoreSpecies
+        return RolesRestrictions.FilterMarkingsForLocal(IgnoreSpecies // LP edit - спонсорские маркинги
             ? _markingManager.MarkingsByCategoryAndSex(category, _currentSex)
-            : _markingManager.MarkingsByCategoryAndSpeciesAndSex(category, _currentSpecies, _currentSex);
+            : _markingManager.MarkingsByCategoryAndSpeciesAndSex(category, _currentSpecies, _currentSex)); // LP edit
     }
 
     public void Populate(string filter)

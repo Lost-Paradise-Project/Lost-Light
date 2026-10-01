@@ -5,6 +5,7 @@
                xmlns:cryogenics="clr-namespace:Content.Client.Medical.Cryogenics"
                MinSize="700 300"
                Resizable="False">  <!-- Starlight - custom health analyzer UI -->
+    <!-- LP edit: английские тексты заменены на {Loc '...'} -->
 
     <Label Name="LoadingPlaceHolder"
            Text="{Loc 'cryo-pod-window-loading'}"
@@ -124,7 +125,7 @@
                                Align="Center"/>
                         <!-- Note: This placeholder text should never be visible. -->
                         <RichTextLabel Name="HighTemperatureWarningText"
-                                       Text="Temperature too high."/>
+                                       Text="{Loc 'cryo-pod-temperature-too-high'}"/> <!-- LP edit -->
                     </BoxContainer>
                 </PanelContainer>
 

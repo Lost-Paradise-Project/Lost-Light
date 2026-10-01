@@ -23,6 +23,7 @@ public sealed partial class AccessibilityTab : Control
         Control.AddOptionCheckBox(CCVars.ChatAutoFillHighlights, AutoFillHighlightsCheckBox);
         Control.AddOptionColorSlider(CCVars.ChatHighlightsColor, HighlightsColorSlider);
 
+        // LP edit - убрана цензура наготы (нижнее бельё)
         Control.AddOptionCheckBox(CCVars.AccessibilityArachnophobia, ArachnophobiaCheckBox); // 🌟Starlight🌟
         Control.AddOptionCheckBox(CCVars.DisableJobIconAnimation, DisableJobIconAnimationCheckBox); // 🌟Starlight🌟
 

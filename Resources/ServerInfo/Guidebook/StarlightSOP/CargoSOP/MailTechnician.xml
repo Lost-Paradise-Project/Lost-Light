@@ -1,17 +1,17 @@
 <Document>
-# Mail Technician
+# Почтальон
 
-<GuideEntityEmbed Entity="CargoMailTeleporter" Caption="Mail Technician's Mail Teleporter"/>
+<GuideEntityEmbed Entity="CargoMailTeleporter" Caption="Почтовый телепортер почтальона"/>
 
-1. Mail Technicians report directly to the Quartermaster.
+1. Почтальоны подчиняются напрямую квартирмейстеру.
 
-2. Mail Technicians are responsible for delivering mail to other crewmembers aboard the station.
+2. Почтальоны отвечают за доставку почты другим членам экипажа на борту станции.
 
-3. Mail must not be discarded, hidden, or otherwise hindered in its delivery.
+3. Почту нельзя выбрасывать, прятать или иным образом препятствовать её доставке.
 
-4. Mail Technicians are to have one mail cart and one mail bag.
+4. У почтальонов должны быть одна почтовая тележка и одна почтовая сумка.
 
-5. Mail should be organized by departments before being distributed. Each Mail Technician should take a different department.
+5. Почту следует сортировать по отделам перед распределением. Каждый почтальон должен брать свой отдел.
 
-6. Mail with yellow stripes indicates an urgent delivery. Urgent deliveries shall take priority over other forms of mail.
+6. Почта с жёлтыми полосами означает срочную доставку. Срочные доставки имеют приоритет над другими видами почты.
 </Document>

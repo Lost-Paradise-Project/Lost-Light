@@ -26,36 +26,36 @@ nanochat-ad-class-action = Здравствуйте, { $recipient }!
 nanochat-ad-chain-letter = ******************* ***************** **************** *************** СТОП !!!!!!!!!!!!!!!!!! Ок, сначала ты должен отправить это минимум 15 людям. Если не... если отправишь это.. 0 людям.. у тебя будет неудача до КОНЦА жизни 5 людям... твоя любовь будет игнорировать тебя до самой СМЕРТИ 15 людям... и твоя любовь позовёт тебя на свидание Самое жуткое в этом сообщении то, что после того как ты отправишь это МИНИМУМ 15 людям... вернись и нажми shift и потом F4 и ты увидишь что-то ПОТРЯСАЮЩЕЕ. Это было так круто и жутко одновременно Так что НАЧИНАЙ отправлять... и у тебя только 15 мин. чтобы отправить это... ВПЕРЁД
 
 nanochat-ad-abundance-angel = Это будешь ты завтра! Маленький ангелочек для тебя...
-    You have just been sent a Financial Abundance angel!!
+    Тебе только что прислали Ангела Финансового Изобилия!!
 
-    You ARE already rich!!!!! I am not joking: you will find an unexpected windfall.
+    Ты УЖЕ богат!!!!! Я не шучу: тебя ждёт неожиданное богатство.
 
-    If you delete this you will never know how it works. It really does work like magic!
+    Если удалишь это сообщение, никогда не узнаешь, как это работает. А работает оно правда как по волшебству!
 
-    NO pass backs: PASS IT FORWARD! PASS IT NOW!!!
+    НЕ отправляй обратно: ПЕРЕДАЙ ДАЛЬШЕ! ПЕРЕДАЙ ПРЯМО СЕЙЧАС!!!
 
 nanochat-ad-truck-ascii = Грузовик вперёд ехать вперёд грузовик друг отправить грузовик друг вперёд грузовик грузовик
 
 nanochat-ad-bomb-threat = внимание { $recipient } я поставить БОМБУ в { $department } меня зовут { $randomname } и я послать тебе БОЛЬШУЮ БОМБУ и она взорвать мир и ты умереть если ты не послать смешные цифры с твоей ID КАРТЫ. ПОСЫЛАЙ ИХ СЕЙЧАС ИЛИ { $crewcount } ВСЕ УМРУТ!!
 
 nanochat-ad-donko-wholesale = Донко Оптом: платёж не прошёл
-    Membership billing alert
+    Уведомление об оплате членства
 
-    Fix billing now to avoid losing member access.
+    Исправьте оплату сейчас, чтобы не потерять доступ участника.
 
-    Your latest membership renewal charge was DECLINED. If not resolved, your Donko Wholesale membership benefits may be interrupted.
+    Последнее списание за продление членства ОТКЛОНЕНО. Если не решить вопрос, привилегии участника Донко Оптом могут быть приостановлены.
 
-    Status: DECLINED, bank rejected charge
-    Impact: BENEFITS AT RISK, access may be paused
-    Best Action: UPDATE BILLING, restores automatically
+    Статус: ОТКЛОНЕНО, банк отказал в списании
+    Последствия: ПРИВИЛЕГИИ ПОД УГРОЗОЙ, доступ может быть приостановлен
+    Что сделать: ОБНОВИТЬ ОПЛАТУ, доступ восстановится автоматически
 
-    Click to update payment method
-    Click if you've already updated it
+    Нажмите, чтобы обновить способ оплаты
+    Нажмите, если вы уже обновили его
 
-    Fast checklist:
-    1) check card expiry
-    2) confirm billing ZIP
-    3) try again
+    Быстрая проверка:
+    1) проверьте срок действия карты
+    2) подтвердите индекс плательщика
+    3) попробуйте снова
 
 nanochat-ad-nanomichi = Наномичи: кассеты с классическим ощущением, выдерживающие тяготы космических путешествий! В коллекционных наборах с хитами 2470-х — 2490-х годов. Берите свои сегодня!
 
@@ -63,19 +63,19 @@ nanochat-ad-comrade-computing = Компьютеры Товарищ: попро�
 
 nanochat-ad-gorlex-shipping = СРОЧНО:
 
-    Your package was unable to be delivered. To prevent further delays please respond with the exact coordinates of your station and the system it's located within.
+    Вашу посылку не удалось доставить. Чтобы избежать дальнейших задержек, пришлите в ответ точные координаты вашей станции и системы, в которой она находится.
 
-    - Gorlex Shipping Solutions
+    - Горлекс Шиппинг Солюшнс
 
 nanochat-ad-hr-notice = Уведомление:
 
-    Your request for PTO has been denied. If you wish to appeal please reply to this message with your employee identification number and employee bank account number.
+    Ваш запрос на оплачиваемый отпуск отклонён. Чтобы обжаловать решение, ответьте на это сообщение, указав свой табельный номер и номер банковского счёта.
 
-    - Human Resources
+    - Отдел кадров
 
 nanochat-ad-prize-winner = Вы выиграли!!!
 
-    Congratulations { $recipient } you've won an all expense paid trip. Please respond to this message with your mailing information and the official paperwork can be sent so we can confirm your information!
+    Поздравляем, { $recipient }, вы выиграли полностью оплаченное путешествие! Пришлите в ответ свой почтовый адрес, чтобы мы отправили официальные документы и подтвердили ваши данные!
 
 nanochat-ad-radnor-photonics = { "$" }recipient, вас интересует Radnor Photonics? Мы предлагаем набор устройств с доставкой прямо на { "$" }station, таких как оборонительные инструменты с угольной дугой серии Flash, фотонное усиление вынужденным излучением серии Phaser, вакуумные лампы, радиолампы, клистроны, астронавигационные буи и блюспейс-ретрансляторы, прожекторы, якоря относительных координат и станционные маяки, шахтные фонари и налобные фонари, освещение рабочих мест и объектов
 
@@ -87,28 +87,28 @@ nanochat-ad-comitas-systems = Comitas Systems набирает сотрудни�
     MRSWC5DIEB2G6IDOMFXG65DSMFZWK3Q=
 
 nanochat-ad-violet-sky-plasma = Вам нужна плазма, но вы ненавидите фрекинг и другие вредящие природе способы добычи?
-    Well, do we have the offer for you!
-    Violet Sky Systems is proud to introduce:
-    100% clean atmospheric plasma! Freshly mined from a distant Resomi colony!
-    Only 9.999* per canister! Get yours today! *Interstellar shipping costs apply.
+    Тогда у нас есть предложение для вас!
+    Violet Sky Systems с гордостью представляет:
+    100% чистую атмосферную плазму! Свежедобытую в далёкой колонии ресоми!
+    Всего 9.999* за канистру! Закажите уже сегодня! *Не включает стоимость межзвёздной доставки.
 
-nanochat-ad-silverclaw-tour = Слушай один, слушай все!
-    You have heard them before, and they're back on galactic tour!
+nanochat-ad-silverclaw-tour = Слушайте все, слушайте все!
+    Вы их уже слышали, и они снова в галактическом турне!
 
-    Silverclaw and the Starborne Wing!
-    -Starring Birgil on the Ocarina
+    Серебряный Коготь и Звёздное Крыло!
+    - Солирует Биргил на окарине
 
-    Coming to a planet near *you*!
-    Every night at 08:45 planetary standard time!
-    Tickets start at [[randomnumber:50:20000]] spesos, get yours before they are all gone!
-    (Sales close on { $date } 00:00 galactic standard time)
+    Скоро на планете рядом с *вами*!
+    Каждый вечер в 08:45 по стандартному планетарному времени!
+    Билеты от [[randomnumber:50:20000]] спесо, успейте купить, пока не разобрали!
+    (Продажи закрываются { $date } в 00:00 по стандартному галактическому времени)
 
 nanochat-ad-shuttleglass-repair = Вы врезались в космический мусор? Есть ли в вашем шаттле трещина в солнечном лобовом стекле?
-    Do not hesitate! Any amount of stress could cause a fracture, and lead to depressurisation!
-    Call ShuttleGlass Drydock Corp. at [[randomnumber:0:999]]-[[randomnumber:0:999]]-[[randomnumber:0:999]] today!
+    Не медлите! Любая нагрузка может привести к разлому и разгерметизации!
+    Звоните в ShuttleGlass Drydock Corp. по номеру [[randomnumber:0:999]]-[[randomnumber:0:999]]-[[randomnumber:0:999]] уже сегодня!
 
-    ShuttleGlass repairs,
-    ShuttleGlass replaces!
+    ShuttleGlass чинит,
+    ShuttleGlass меняет!
 
 nanochat-ad-webuyyourstation = Хотите узнать, сколько стоит { $station }? Узнайте прямо сейчас и заходите на webuyyourstation.gal! Мы купим вашу станцию по справедливой рыночной цене! Получите свою долю до [[randomnumber:1:100000000]] спесо СЕГОДНЯ!
 

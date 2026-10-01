@@ -12,7 +12,7 @@ public sealed partial class ServerPreferencesManager
             Preferences = prefs,
             Settings = new GameSettings
             {
-                MaxCharacterSlots = MaxCharacterSlots
+                MaxCharacterSlots = GetMaxCharacterSlots(session) // LP edit - слоты персонажей по ролям
             }
         };
         _netManager.ServerSendMessage(msg, session.Channel);

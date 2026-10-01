@@ -1,35 +1,35 @@
 <Document>
-# Armories and Pods
+# Оружейные и капсулы
 
-## Gamma Armory
+## Оружейная «Гамма»
 
-[bold]Called by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#2253b5]NanoTrasen Representative[/color].
+[bold]Объявляют любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color] или [color=#2253b5]представитель НаноТрейзен[/color].
 
-[bold]Conditions:[/bold] Code Gamma is active. Standard armament is insufficient for security to respond to the active threat. The armory provides additional lethal equipment for security personnel.
+[bold]Условия:[/bold] активен код «Гамма». Стандартного вооружения недостаточно, чтобы СБ отреагировала на активную угрозу. Оружейная предоставляет сотрудникам СБ дополнительное летальное снаряжение.
 
-Must not be called during a War Declaration.
+Нельзя вызывать во время объявления войны.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Recalled when:[/bold] The armory is no longer needed, or its position is blocking the evacuation shuttle dock. A short cooldown must elapse before recall is available.
+[bold]Отзывается, когда:[/bold] оружейная больше не нужна или её положение блокирует стыковочный узел эвакуационного шаттла. Перед отзывом должна пройти короткая пауза.
 
-## Psi Armory
+## Оружейная «Пси»
 
-[bold]Called by any two of:[/bold] [color=#fcdf03]Captain[/color], [color=#ff4242]Head of Security[/color], or [color=#cd7ccd]Research Director[/color].
+[bold]Объявляют любые двое из:[/bold] [color=#fcdf03]капитан[/color], [color=#ff4242]глава службы безопасности[/color] или [color=#cd7ccd]научный руководитель[/color].
 
-[bold]Conditions:[/bold] Code Psi is active. Standard armament is insufficient for security to respond to the active hostile silicon threat.
+[bold]Условия:[/bold] активен код «Пси». Стандартного вооружения недостаточно, чтобы СБ отреагировала на активную враждебную угрозу со стороны синтетиков.
 
-Must not be called during a War Declaration.
+Нельзя вызывать во время объявления войны.
 
-[bold]One-time use per shift.[/bold]
+[bold]Одноразовое использование за смену.[/bold]
 
-[bold]Recalled when:[/bold] The armory is no longer needed, or its position is blocking the evacuation shuttle dock. A short cooldown must elapse before recall is available.
+[bold]Отзывается, когда:[/bold] оружейная больше не нужна или её положение блокирует стыковочный узел эвакуационного шаттла. Перед отзывом должна пройти короткая пауза.
 
-## Emergency Medical Pod
+## Аварийная медицинская капсула
 
-[bold]Called by:[/bold] [color=#fcdf03]Captain[/color] and [color=#57b8f0]Chief Medical Officer[/color].
+[bold]Объявляют:[/bold] [color=#fcdf03]капитан[/color] и [color=#57b8f0]главный врач[/color].
 
-[bold]Conditions:[/bold] Medical is damaged and can no longer treat crew, or is overwhelmed and needs more room to treat crew.
+[bold]Условия:[/bold] медотсек повреждён и больше не может лечить экипаж или перегружен и нуждается в дополнительном месте для лечения экипажа.
 
-[bold]Recalled when:[/bold] The medical emergency has passed and the pod is no longer needed, or its position is blocking the evacuation shuttle dock. A short cooldown must elapse before recall is available.
+[bold]Отзывается, когда:[/bold] медицинская чрезвычайная ситуация миновала и капсула больше не нужна или её положение блокирует стыковочный узел эвакуационного шаттла. Перед отзывом должна пройти короткая пауза.
 </Document>

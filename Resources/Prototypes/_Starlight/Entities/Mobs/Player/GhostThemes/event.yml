@@ -9,7 +9,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: GoldEventWinnerReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Event
 
 - type: ghostTheme
@@ -23,7 +23,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: CarpGamesReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Event
 
 - type: ghostTheme
@@ -37,5 +37,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: FirstWritingContestReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Event

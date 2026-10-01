@@ -1,8 +1,21 @@
-# Reporting a security vulnerability
-You can report a security vulnerability through Discord.
+# Сообщить об уязвимости
 
-If you want to contact us through Discord, you can join [our server]([https://discord.gg/MwDDf6t](https://discord.gg/HyDhPwAmUq))
-and then **privately** message anyone with the `@Owner` or `@Staff Managers` role.
+Нашли эксплойт, уязвимость сервера или утечку данных? Сообщите нам **лично**, а не в issue или общих каналах.
 
-In either case, **do not publicly disclose the vulnerability until we explicitly give
-you permission to do so**.
+## Как сообщить
+
+Зайдите в наш [Discord](https://wiki.lost-paradise.space/discord) и напишите в личные сообщения кому-то с ролью `@Владелец Проекта` или `@Руководство`.
+
+Опишите:
+
+- что за проблема и чем она грозит;
+- как её воспроизвести (шаги, команды, нужные условия);
+- версию или коммит, на котором вы её нашли, если знаете.
+
+## Что дальше
+
+- Мы ответим, как только сможем, и сообщим, подтвердилась ли проблема.
+- Пока исправление не выкачено на сервер, **не публикуйте уязвимость и не используйте её** в игре. Рассказать о ней публично можно только после нашего явного разрешения.
+- Если проблема пришла из Starlight или Space Station 14, мы передадим её их разработчикам.
+
+Мы благодарны всем, кто сообщает о проблемах ответственно.

@@ -3,8 +3,9 @@ ent-WeaponMedTakLightMachineGun = CODE-6 «Арбитраж»
         Accepts .30 box magazines.
     .suffix = Админ-мем
 ent-WeaponMedTakRifle = CODE-9 «Соответствие»
-    .desc = Тяжёлая винтовка-буллпап, разработанная для операторов МедТак.
-        Accepts heavy .20 rifle magazines.
+    .desc =
+        Тяжёлая винтовка-буллпап, разработанная для операторов МедТак.
+        Использует тяжёлые магазины калибра .20.
     .suffix = Админ-мем
 ent-WeaponMedTakRifleROW = CODE-9 ROW
     .desc = Урезанная CODE-9, разработанная для киборгов, питается от медленно заряжающегося внутреннего фабрикатора боеприпасов.

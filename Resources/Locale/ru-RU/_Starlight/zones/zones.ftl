@@ -18,7 +18,7 @@ zone-solars = Солнечные панели
 
 zone-placer-window-title = Маляр зон
 zone-placer-window-hint = Выберите зону, затем проведите прямоугольник по станции.
-    Drag with the erase button to cut zones away.
+    Протяните с кнопкой стирания, чтобы вырезать часть зоны.
 sandbox-window-spawn-zones-button = Зоны
 sandbox-window-show-zones-button = Показать зоны
 sandbox-window-show-rooms-button = Показать помещения
