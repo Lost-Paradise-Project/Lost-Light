@@ -21,11 +21,6 @@
     {
       "name": "inhand-right",
       "directions": 4
-    },
-    {
-      "name": "equipped-BELT-rodentia",
-      "directions": 4,
-      "copyright": "by Huaqas (GitHub)"
     }
   ]
 }
