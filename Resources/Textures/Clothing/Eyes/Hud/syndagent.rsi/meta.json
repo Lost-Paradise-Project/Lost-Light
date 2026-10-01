@@ -45,6 +45,14 @@
         {
             "name": "on-inhand-right",
             "directions": 4
-        }
+        },
+    {
+      "name": "equipped-EYES-resomi",
+      "directions": 4
+    },
+    {
+      "name": "equipped-EYES-dog",
+      "directions": 4
+    }
     ]
 }

@@ -170,6 +170,12 @@
       "name": "wrench_medical"
     },
     {
+      "name": "syn_jaws"
+    },
+    {
+      "name": "proto_jaws"
+    },
+    {
       "name": "analyzer-equipped-BELT",
       "directions": 4
     },
