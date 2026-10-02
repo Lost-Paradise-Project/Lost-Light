@@ -20,7 +20,7 @@
 
 Мы рады вкладу от любого человека: исправлениям, новому контенту, переводам. Если хотите помочь, заходите в [Discord](https://wiki.lost-paradise.space/discord) и не бойтесь просить о помощи.
 
-Перед PR ознакомьтесь с [руководством по оформлению PR](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html). Наш контент кладите в папки `_LP`, а правки в файлах Starlight отмечайте комментариями `// LP start` / `// LP end`.
+Всё, что нужно знать перед первым PR, собрано в [CONTRIBUTING.md](CONTRIBUTING.md). Также ознакомьтесь с [руководством по оформлению PR](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html). Наш контент кладите в папки `_LP`, а правки в файлах Starlight отмечайте комментариями `// LP edit start` / `// LP edit end` (в YAML и FTL — `# LP edit start` / `# LP edit end`, для одной строки — `// LP edit` в конце строки).
 
 ## Программные требования
 

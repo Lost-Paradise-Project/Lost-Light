@@ -88,11 +88,14 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
+    # LP edit start
+    - map: [ "breast" ]
+    - map: [ "underwear" ]
+    - map: [ "enum.HumanoidVisualLayers.LFoot" ]
+    - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+    - map: [ "socks" ]
     - map: [ "jumpsuit" ]
-    - map: [ "enum.HumanoidVisualLayers.LFoot" ] # Starlight: Layering fix
-    - map: [ "enum.HumanoidVisualLayers.RFoot" ] # Starlight: Layering fix
+    # LP edit end
     - map: [ "enum.HumanoidVisualLayers.LHand" ]
     - map: [ "enum.HumanoidVisualLayers.RHand" ]
     - map: [ "gloves" ]
@@ -125,8 +128,6 @@
       visible: false
   - type: HumanoidAppearance
     species: Vulpkanin
-    undergarmentTop: UndergarmentTopTanktopVulpkanin
-    undergarmentBottom: UndergarmentBottomBoxersVulpkanin
     hideLayersOnEquip:
     - Snout
     - SnoutCover

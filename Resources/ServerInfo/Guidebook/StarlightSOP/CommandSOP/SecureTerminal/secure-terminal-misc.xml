@@ -1,33 +1,33 @@
 <Document>
-# Misc
+# Прочее
 
-## Emergency Maintenance Access
+## Аварийный доступ в техтоннели
 
-[bold]Called by any two:[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Объявляют любые двое:[/bold] члены [color=#fcdf03]командования[/color].
 
-[bold]Conditions:[/bold] An emergency situation requires crew to be able to freely move through the station, such as during a loose engine or during war when Code Delta has been called.
+[bold]Условия:[/bold] чрезвычайная ситуация требует, чтобы экипаж мог свободно перемещаться по станции, например при сорвавшемся двигателе или во время войны, когда объявлен код «Дельта».
 
-Must be ended as soon as the situation is resolved.
+Должен быть завершён, как только ситуация разрешена.
 
-[bold]Ended when:[/bold] The emergency no longer requires broad maintenance or external access.
+[bold]Завершается, когда:[/bold] чрезвычайная ситуация больше не требует широкого доступа в техтоннели или внешнего доступа.
 
-[bold]Ended by:[/bold] Any [color=#fcdf03]Command[/color] member.
+[bold]Завершает:[/bold] любой член [color=#fcdf03]командования[/color].
 
-## Station-Wide Emergency Access
+## Аварийный доступ по всей станции
 
-[bold]Called by any two:[/bold] [color=#fcdf03]Command[/color] members.
+[bold]Объявляют любые двое:[/bold] члены [color=#fcdf03]командования[/color].
 
-[bold]Conditions:[/bold] An emergency situation requires crew to be able to freely move through the station, such as during a loose engine or during war when Code Delta has been called.
+[bold]Условия:[/bold] чрезвычайная ситуация требует, чтобы экипаж мог свободно перемещаться по станции, например при сорвавшемся двигателе или во время войны, когда объявлен код «Дельта».
 
-Must be ended as soon as the situation is resolved.
+Должен быть завершён, как только ситуация разрешена.
 
-[bold]Ended when:[/bold] The emergency has passed.
+[bold]Завершается, когда:[/bold] чрезвычайная ситуация миновала.
 
-[bold]Ended by:[/bold] Any [color=#fcdf03]Command[/color] member.
+[bold]Завершает:[/bold] любой член [color=#fcdf03]командования[/color].
 
-## Self-Destruct Codes
+## Коды самоуничтожения
 
-[bold]Called by:[/bold] [color=#fcdf03]Captain[/color] and [color=#2253b5]NanoTrasen Representative[/color], plus any three [color=#fcdf03]Command[/color] members, with [color=#86d420]Central Command[/color] approval.
+[bold]Объявляют:[/bold] [color=#fcdf03]капитан[/color] и [color=#2253b5]представитель НаноТрейзен[/color], а также любые трое членов [color=#fcdf03]командования[/color], с одобрения [color=#86d420]Центрального командования[/color].
 
-[bold]Conditions:[/bold] A direct order from Central Command has been issued to destroy the station, or for instances when allowing the station to continue is more of a threat than it is worth.
+[bold]Условия:[/bold] получен прямой приказ Центрального командования уничтожить станцию или случаи, когда допустить дальнейшее существование станции - большая угроза, чем она стоит.
 </Document>

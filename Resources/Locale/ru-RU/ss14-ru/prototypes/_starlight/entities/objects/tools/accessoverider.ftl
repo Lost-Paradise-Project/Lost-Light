@@ -1,0 +1,9 @@
+ent-AccessOveriderUnlimited = перезапись аутентификации
+    .desc = Модифицированный конфигуратор доступа, специализированный для операций ОБР по проникновению и зачистке на станциях НТ
+    .suffix = Неограниченный
+ent-AccessOverider = { ent-AccessOveriderUnlimited }
+    .desc = { ent-AccessOveriderUnlimited.desc }
+    .suffix = Ограниченный
+ent-AccessOveriderRecharging = { ent-AccessOverider }
+    .desc = { ent-AccessOverider.desc }
+    .suffix = Ограниченный, перезаряжается

@@ -1,0 +1,12 @@
+ent-OrganLagomorphEyes = глаза лагоморфа
+    .desc = Такого нельзя было предвидеть.
+    .suffix = Лагоморф
+ent-OrganLagomorphStomach = желудок лагоморфа
+    .desc = Тоскует по свежим овощам.
+    .suffix = Лагоморф
+ent-OrganLagomorphHeart = сердце лагоморфа
+    .desc = Быстро бьющееся сердце лагоморфа.
+    .suffix = Лагоморф
+ent-OrganLagomorphTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Лагоморф

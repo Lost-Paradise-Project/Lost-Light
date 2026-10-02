@@ -1,2 +1,2 @@
 command-description-jobboard-completeJob =
-    Completes a given salvage job board job for the station.
+    Завершает указанную работу с доски заказов утилизаторов для станции.

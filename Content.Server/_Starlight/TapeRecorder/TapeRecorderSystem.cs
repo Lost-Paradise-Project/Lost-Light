@@ -28,6 +28,19 @@ public sealed partial class TapeRecorderSystem : SharedTapeRecorderSystem
 
         SubscribeLocalEvent<TapeRecorderComponent, ListenEvent>(OnListen);
         SubscribeLocalEvent<TapeRecorderComponent, PrintTapeRecorderMessage>(OnPrintMessage);
+        SubscribeLocalEvent<TapeCassetteComponent, MapInitEvent>(OnCassetteMapInit);
+    }
+
+    private void OnCassetteMapInit(Entity<TapeCassetteComponent> ent, ref MapInitEvent args)
+    {
+        foreach (var message in ent.Comp.RecordedData)
+        {
+            if (message.Name is not null && Loc.TryGetString(message.Name, out var name))
+                message.Name = name;
+
+            if (Loc.TryGetString(message.Message, out var text))
+                message.Message = text;
+        }
     }
 
     /// <summary>

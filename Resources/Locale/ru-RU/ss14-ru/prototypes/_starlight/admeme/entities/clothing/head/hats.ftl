@@ -1,0 +1,15 @@
+ent-ClothingHeadHatNTNC = шляпа морпеха флота НаноТрейзен.
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHatNTNCGrey = серая шляпа морпеха флота НаноТрейзен.
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHatNTNCEnsign = шляпа энсина флота НаноТрейзен.
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHatTophatArmored = цилиндр
+    .desc = Стильный чёрный цилиндр с кевларовой подкладкой.
+    .suffix = бронированный, админ-мем
+ent-ClothingHeadHatTophatBigArmored = большой цилиндр
+    .desc = Эта шляпа явно принадлежит очень, очень важной персоне. Она подбита кевларом.
+    .suffix = бронированный, админ-мем
+ent-ClothingHeadHatTophatBigWhiteArmored = большой цилиндр
+    .desc = Эта шляпа явно принадлежит очень, очень важной персоне. Она подбита кевларом.
+    .suffix = бронированный, админ-мем

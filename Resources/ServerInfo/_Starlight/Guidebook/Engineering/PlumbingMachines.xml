@@ -1,150 +1,150 @@
 <Document>
-  # Plumbing Machines
-  All plumbing machines are placed with the RPLD. Machines that require [color=#a4885c]power[/color] must be within range of an APC.
+  # Сантехнические машины
+  Все сантехнические машины ставятся с помощью РДЖТ. Машины, которым нужна [color=#a4885c]энергия[/color], должны находиться в зоне действия ЛКП.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingInput" Caption=""/>
     <GuideEntityEmbed Entity="PlumbingOutput" Caption=""/>
   </Box>
   <Box>
-    ## Input and Output
+       ## Вход и выход
   </Box>
   <Box>
-    [color=#999999][italic]Getting reagents into and out of the network[/italic][/color]
+       [color=#999999][italic]Подача реагентов в сеть и их вывод из неё[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Input[/color] is a small tank you pour reagents into by hand. Other machines pull from it via the network. Connects in all directions.
+  [color=#a4885c]Сантехнический вход[/color] - небольшой бак, в который реагенты заливают вручную. Другие машины забирают из него через сеть. Подключается во всех направлениях.
 
-  The [color=#a4885c]Plumbing Output[/color] is a small tank you can draw reagents from using a container. It pulls reagents from the network into its buffer. Connects in all directions.
+  [color=#a4885c]Сантехнический выход[/color] - небольшой бак, из которого можно брать реагенты ёмкостью. Он забирает реагенты из сети в свой буфер. Подключается во всех направлениях.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingSink" Caption=""/>
     <GuideEntityEmbed Entity="PlumbingDrain" Caption=""/>
   </Box>
   <Box>
-    ## Sink and Drain
+       ## Раковина и слив
   </Box>
   <Box>
-    [color=#999999][italic]The plumbing classics.[/italic][/color]
+       [color=#999999][italic]Сантехнические классики.[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Sink[/color] is more or less a combined input and output. Reagents drawn in from its inlets can be used to fill containers from its facet, and dumping reagents down the drain sends them into the network via its outlet.
+  [color=#a4885c]Сантехническая раковина[/color] - более-менее совмещённые вход и выход. Реагенты, втянутые через её входы, можно использовать для наполнения ёмкостей из её крана, а сброс реагентов в слив отправляет их в сеть через её выход.
 
-  The [color=#a4885c]Plumbing Drain[/color] is a floor drain that absorbs puddles and routes them into the plumbing network. Connects in all directions.
+  [color=#a4885c]Сантехнический слив[/color] - напольный слив, впитывающий лужи и направляющий их в сантехническую сеть. Подключается во всех направлениях.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingTank" Caption=""/>
   </Box>
   <Box>
-    ## Tank
+       ## Бак
   </Box>
   <Box>
-    [color=#999999][italic]Buffering reagents in the network[/italic][/color]
+       [color=#999999][italic]Буферизация реагентов в сети[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Tank[/color] stores up to [color=#a4885c]2400u[/color] of reagents. Has one inlet and three outlets. Use tanks to buffer reagents between production stages or store large amounts of reagents.
+  [color=#a4885c]Сантехнический бак[/color] хранит до [color=#a4885c]2400 ед.[/color] реагентов. Один вход и три выхода. Используйте баки для буферизации реагентов между стадиями производства или хранения больших количеств реагентов.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingBuffer" Caption=""/>
   </Box>
   <Box>
-    ## Buffer
+       ## Буфер
   </Box>
   <Box>
-    [color=#999999][italic]Aww cute![/italic][/color]
+       [color=#999999][italic]Ой, какой милый![/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Buffer[/color] stores up to [color=#a4885c]240u[/color] in a low-profile tank that can be walked over. It has one inlet and three outlets, with unconnected outlets for supplying seperate networks.
+  [color=#a4885c]Сантехнический буфер[/color] хранит до [color=#a4885c]240 ед.[/color] в низкопрофильном баке, по которому можно ходить. Один вход и три выхода, с неподключёнными выходами для снабжения отдельных сетей.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingFilter" Caption=""/>
   </Box>
   <Box>
-    ## Filter
+       ## Фильтр
   </Box>
   <Box>
-    [color=#999999][italic]Splitting reagents by type[/italic][/color]
+       [color=#999999][italic]Разделение реагентов по типу[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Filter[/color] separates specific reagents from the network. Set which reagents to filter via its UI. It has one inlet and two outlets:
-  - [bold]Filtered outlet[/bold] for selected reagents.
-  - [bold]Passthrough outlet[/bold] for non-selected reagents.
+  [color=#a4885c]Сантехнический фильтр[/color] отделяет определённые реагенты от сети. Какие реагенты фильтровать, задаётся в его интерфейсе. Один вход и два выхода:
+  - [bold]Фильтруемый выход[/bold] для выбранных реагентов.
+  - [bold]Сквозной выход[/bold] для невыбранных реагентов.
 
-  The filter sorts incoming reagents into filtered and unfiltered internal containers, which can be pulled from the filtered and passthrough outlets respectively. It is capable of filtering off up to 4 unique reagents at a time. When disabled in the UI, all intake is treated as passthrough. Can be flipped via the RPLD.
+  Фильтр сортирует поступающие реагенты по внутренним контейнерам - фильтруемому и нефильтруемому, откуда их можно забирать соответственно через фильтруемый и сквозной выходы. Он может отфильтровывать до 4 уникальных реагентов одновременно. Когда он отключён в интерфейсе, весь приём считается сквозным. Можно перевернуть через РДЖТ.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingInlineFilter" Caption=""/>
   </Box>
   <Box>
-    ## Inline Filter
+       ## Линейный фильтр
   </Box>
   <Box>
-    [color=#999999][italic]Skimming reagents off a network[/italic][/color]
+       [color=#999999][italic]Снятие реагентов с сети[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Inline Plumbing Filter[/color] sits on a single run of duct with one inlet and one outlet, and draws specific reagents off it. Set which reagents to take via its UI.
+  [color=#a4885c]Линейный сантехнический фильтр[/color] стоит на одной линии трубопровода с одним входом и одним выходом и забирает с неё определённые реагенты. Какие реагенты брать, задаётся в его интерфейсе.
 
-  Unlike the regular filter it does not sort what passes through it. Like the reactor, it only asks the network for the reagents you have selected, so everything else is left alone for machines further downstream. It takes up to 10 unique reagents and holds [color=#a4885c]10u of each[/color], so a plentiful reagent fills its own allowance and then stops rather than hogging the machine. When disabled in the UI it stops pulling, though anything already in its buffer can still be drawn out. Its casing animates while reagents are actually flowing in, so an idle filter is easy to spot.
+  В отличие от обычного фильтра, он не сортирует то, что через него проходит. Как и реактор, он запрашивает у сети только выбранные вами реагенты, поэтому всё остальное остаётся для машин дальше по линии. Он принимает до 10 уникальных реагентов и хранит [color=#a4885c]по 10 ед. каждого[/color], поэтому обильный реагент заполняет свой лимит и затем останавливается, а не занимает всю машину. Когда он отключён в интерфейсе, он прекращает забор, хотя всё, что уже в его буфере, всё ещё можно вынуть. Его корпус анимируется, пока реагенты действительно поступают, так что простаивающий фильтр легко заметить.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingReactor" Caption=""/>
   </Box>
   <Box>
-    ## Reactor
+       ## Реактор
   </Box>
   <Box>
-    [color=#999999][italic]Triggering chemical reactions automatically[/italic][/color]
+       [color=#999999][italic]Автоматический запуск химических реакций[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Reactor[/color] pulls specific reagents from its inlet in configured quantities, heats them, and triggers reactions. Products are moved to the outlet. Has one inlet and one outlet. Set target reagents and quantities via the UI. Requires power. Use a plunger to clear stuck reagents.
+  [color=#a4885c]Сантехнический реактор[/color] забирает из своего входа определённые реагенты в настроенных количествах, нагревает их и запускает реакции. Продукты переносятся на выход. Один вход и один выход. Целевые реагенты и количества задаются в интерфейсе. Требует энергии. Используйте вантуз, чтобы очистить застрявшие реагенты.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingPillPress" Caption=""/>
   </Box>
   <Box>
-    ## Pill Press
+       ## Пресс таблеток
   </Box>
   <Box>
-    [color=#999999][italic]Automated pill and patch production[/italic][/color]
+       [color=#999999][italic]Автоматическое производство таблеток и пластырей[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Pill Press[/color] pulls reagents and presses them into pills or patches at a configurable dosage. Has one main inlet that pulls from the network normally, plus two optional mixing inlets that allow ratio-controlled mixing — set a percentage for each side to blend reagents from two separate networks. Toggle between pill and patch output via the UI. Requires power.
+  [color=#a4885c]Сантехнический пресс таблеток[/color] забирает реагенты и прессует их в таблетки или пластыри с настраиваемой дозировкой. Один основной вход, забирающий из сети обычным образом, и два необязательных смешивающих входа, позволяющих смешивать с управляемым соотношением - задайте процент для каждой стороны, чтобы смешать реагенты из двух отдельных сетей. Переключайтесь между таблетками и пластырями в интерфейсе. Требует энергии.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingSynthesizer" Caption=""/>
   </Box>
   <Box>
-    ## Synthesizer
+       ## Синтезатор
   </Box>
   <Box>
-    [color=#999999][italic]Generating reagents from power[/italic][/color]
+       [color=#999999][italic]Получение реагентов из энергии[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Synthesizer[/color] generates basic reagents from an internal battery. Select a reagent from the UI and toggle it on. The battery charges while the machine is powered and drains as reagents are synthesized. Different reagents have different power costs.
+  [color=#a4885c]Сантехнический синтезатор[/color] генерирует базовые реагенты из внутренней батареи. Выберите реагент в интерфейсе и включите его. Батарея заряжается, пока машина запитана, и разряжается по мере синтеза реагентов. У разных реагентов разная стоимость энергии.
 
-  Available reagents: Iron, Carbon, Copper, Hydrogen, Oxygen, Sugar, Silicon, Phosphorus.
+  Доступные реагенты: железо, углерод, медь, водород, кислород, сахар, кремний, фосфор.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingSmartDispenser" Caption=""/>
   </Box>
   <Box>
-    ## Smart Dispenser
+       ## Умный раздатчик
   </Box>
   <Box>
-    [color=#999999][italic]Storing and dispensing reagents via labeled jugs[/italic][/color]
+       [color=#999999][italic]Хранение и выдача реагентов через маркированные кувшины[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Smart Dispenser[/color] pulls all reagents from the network and stores up to [color=#a4885c]240u[/color] of each type. It pulls [bold]40u per update[/bold], which is [bold]2x[/bold] the standard [bold]20u[/bold] pull rate used by most plumbing machines. Use a [color=#a4885c]labeled jug[/color] on the dispenser to fill it with the matching reagent. Connects in all directions. Requires power.
+  [color=#a4885c]Сантехнический умный раздатчик[/color] забирает из сети все реагенты и хранит до [color=#a4885c]240 ед.[/color] каждого типа. Он забирает [bold]40 ед. за обновление[/bold], что в [bold]2 раза[/bold] больше стандартной скорости забора [bold]20 ед.[/bold], используемой большинством сантехнических машин. Используйте на раздатчике [color=#a4885c]маркированный кувшин[/color], чтобы заполнить его соответствующим реагентом. Подключается во всех направлениях. Требует энергии.
 
   <Box>
     <GuideEntityEmbed Entity="PlumbingDisposal" Caption=""/>
   </Box>
   <Box>
-    ## Disposal
+       ## Утилизатор
   </Box>
   <Box>
-    [color=#999999][italic]Vaporizes unwanted reagents[/italic][/color]
+       [color=#999999][italic]Испаряет ненужные реагенты[/italic][/color]
   </Box>
 
-  The [color=#a4885c]Plumbing Disposal[/color] has one inlet which it uses to pull reagents into an internal buffer, which are then destroyed over time. Use it to cleanly remove unwanted reagents from a duct network.
+  [color=#a4885c]Сантехнический утилизатор[/color] имеет один вход, через который забирает реагенты во внутренний буфер, где они со временем уничтожаются. Используйте его, чтобы чисто удалять ненужные реагенты из сети трубопроводов.
 </Document>

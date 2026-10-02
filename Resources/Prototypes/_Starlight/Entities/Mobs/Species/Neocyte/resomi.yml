@@ -254,8 +254,6 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg
@@ -327,8 +325,6 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg

@@ -1,0 +1,12 @@
+ent-OrganExperimentStomach = желудок
+    .desc = Мерзость. Такое трудно переварить.
+ent-OrganExperimentHeart = сердце
+    .desc = Пропускает удар при виде мин.
+ent-OrganExperimentLiver = печень
+    .desc = { ent-BaseAnimalOrgan.desc }
+ent-OrganExperimentEyes = глаза
+    .desc = Такого нельзя было предвидеть.
+    .suffix = Эксперимент
+ent-OrganExperimentTongue = язык
+    .desc = Мясистая мышца, в основном используемая для лжи.
+    .suffix = Эксперимент

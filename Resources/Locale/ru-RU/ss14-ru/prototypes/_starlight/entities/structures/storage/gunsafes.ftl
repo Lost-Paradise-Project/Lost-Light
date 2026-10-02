@@ -1,0 +1,17 @@
+ent-GunSafeSL = { ent-GunSafe }
+    .desc = { ent-GunSafe.desc }
+ent-GunSafeBaseArmorySL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Оружейная, заперт
+ent-GunSafeBaseSecuritySL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = СБ, заперт
+ent-GunSafeBaseCommandSL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Командование, заперт
+ent-GunSafeBaseLawyerSL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Юрист, заперт
+ent-GunSafeBaseSyndicateSL = { ent-GunSafeSL }
+    .desc = { ent-GunSafeSL.desc }
+    .suffix = Синдикат, заперт

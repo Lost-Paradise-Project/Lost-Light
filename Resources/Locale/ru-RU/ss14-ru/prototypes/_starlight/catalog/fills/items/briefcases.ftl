@@ -1,0 +1,17 @@
+ent-BriefcaseIAAFilled = { ent-BriefcaseBrown }
+    .desc = { ent-BriefcaseBrown.desc }
+    .suffix = АВД
+ent-BriefcaseLawyerFilled = { ent-BriefcaseBrown }
+    .desc = { ent-BriefcaseBrown.desc }
+    .suffix = Юрист
+ent-SyndieDeadDropSpawner = Верховное командование Синдиката
+    .desc = { ent-MarkerBase.desc }
+ent-BriefcaseSyndieDeadDrop = портфель Синдиката
+    .desc = { ent-BriefcaseSyndicateRedspace.desc }
+    .suffix = Тайник, не маппить
+ent-BriefcaseWeaponDMRFilled = защищённый кейс эстока
+    .desc = { ent-BriefcaseWeapon.desc }
+    .suffix = { ent-BriefcaseWeapon.suffix }
+ent-ClothingNeckExplosiveCollarBox = защищённый кейс взрывчатки
+    .desc = { ent-BriefcaseWeaponSmall.desc }
+    .suffix = { ent-BriefcaseWeaponSmall.suffix }

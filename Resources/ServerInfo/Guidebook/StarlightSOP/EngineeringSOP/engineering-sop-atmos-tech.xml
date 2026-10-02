@@ -1,19 +1,19 @@
 <Document>
-# Atmospheric Technician
+# Атмосферный техник
 
-<GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmospheric Technician"/>
+<GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Атмосферный техник"/>
 
-1. Atmospheric Technicians report directly to the Chief Engineer.
+1. Атмосферные техники подчиняются напрямую старшему инженеру.
 
-2. Atmospheric Technicians must set up the distribution and waste gas systems before moving onto other matters. Failure to do so will be considered grounds for immediate dismissal.
+2. Атмосферные техники должны настроить системы распределения и отходящих газов, прежде чем переходить к другим делам. Невыполнение будет считаться основанием для немедленного увольнения.
 
-3. Atmospheric Technicians should prioritize atmospheric emergencies over station integrity. Atmospheric Technicians may assist engineering in their duties if no atmospheric emergencies are present.
+3. Атмосферные техники должны ставить атмосферные чрезвычайные ситуации выше целостности станции. Атмосферные техники могут помогать инженерам в их обязанностях, если нет атмосферных чрезвычайных ситуаций.
 
-4. Atmospheric Technicians may not retrieve the axe from its case unless their life is under threat or entry to a crisis location is required.
+4. Атмосферным техникам нельзя доставать топор из футляра, если только их жизни не угрожает опасность или не требуется проникновение в место кризиса.
 
-5. Atmospheric Technicians are permitted to assist in the creation of specialized areas for non-human crew members with special atmospheric requirements.
+5. Атмосферным техникам разрешено помогать в создании специальных зон для нечеловеческих членов экипажа с особыми атмосферными требованиями.
 
-6. Atmospheric Technicians must check on the TEG, Supermatter and atmospheric alerts console every 30 minutes or less.
+6. Атмосферные техники должны проверять ТЭГ, суперматерию и консоль атмосферных тревог не реже раза в 30 минут.
 
-7. Any mention of "independence" or "Atmosia" shall be grounds for immediate contract termination.
+7. Любое упоминание «независимости» или «Атмосии» будет основанием для немедленного расторжения контракта.
 </Document>

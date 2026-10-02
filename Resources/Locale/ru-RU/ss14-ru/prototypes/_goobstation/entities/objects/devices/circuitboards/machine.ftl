@@ -1,0 +1,15 @@
+ent-VinylPlayerCircuitboard = машинная плата виниловый проигрыватель
+    .desc = Печатная плата машины для винилового проигрывателя.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-TapeDeckCircuitboard = машинная плата кассетной деки
+    .desc = Печатная плата машины для кассетной деки.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-StationRadioServerCircuitboard = машинная плата сервера станционного радио
+    .desc = Печатная плата машины для сервера станционного радио.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-StationRadioRigCircuitboard = машинная плата установки станционного радио
+    .desc = Печатная плата машины для установки станционного радио.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-StationRadioCircuitboard = машинная плата станционного радио
+    .desc = Печатная плата машины для приёмника станционного радио.
+    .suffix = { ent-BaseMachineCircuitboard.suffix }

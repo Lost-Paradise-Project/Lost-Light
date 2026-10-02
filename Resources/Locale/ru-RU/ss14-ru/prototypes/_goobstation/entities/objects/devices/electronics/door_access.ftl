@@ -1,12 +1,3 @@
 ent-DoorElectronicsJournalism = { ent-DoorElectronics }
     .desc = { ent-DoorElectronics.desc }
-    .suffix = Journalism, Locked
-ent-DoorElectronicsCentralCommandCaptain = { ent-DoorElectronics }
-    .desc = { ent-DoorElectronics.desc }
-    .suffix = Капитан ЦК, Закрытый
-ent-DoorElectronicsNTR = { ent-DoorElectronics }
-    .desc = { ent-DoorElectronics.desc }
-    .suffix = Представитель ЦентКома, Закрытый
-ent-DoorElectronicsBSO = { ent-DoorElectronics }
-    .desc = { ent-DoorElectronics.desc }
-    .suffix = Офицер Синего Щита, Закрытый
+    .suffix = Журналистика, заперт

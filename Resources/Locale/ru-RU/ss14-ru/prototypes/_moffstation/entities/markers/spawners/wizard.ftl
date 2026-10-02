@@ -1,0 +1,14 @@
+ent-SpawnPointGhostWizardDuelistBase = точка появления роли призрака
+    .desc = { ent-BaseAntagSpawner.desc }
+ent-SpawnPointGhostWizardDuelistRed = точка появления красного дуэлянта-волшебника
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistBlue = точка появления синего дуэлянта-волшебника
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistPurple = точка появления фиолетового дуэлянта-волшебника
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistYellow = точка появления жёлтого дуэлянта-волшебника
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistGreen = точка появления зелёного дуэлянта-волшебника
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }
+ent-SpawnPointGhostWizardDuelistOrange = точка появления оранжевого дуэлянта-волшебника
+    .desc = { ent-SpawnPointGhostWizardDuelistBase.desc }

@@ -77,7 +77,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: CaneBlade
+        name: item-slot-component-slot-name-cane-blade # LP edit
         insertVerbText: sheath-insert-verb
         ejectVerbText: sheath-eject-verb
         whitelist:

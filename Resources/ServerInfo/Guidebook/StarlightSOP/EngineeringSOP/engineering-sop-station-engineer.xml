@@ -1,15 +1,15 @@
 <Document>
-# Station Engineer
+# Инженер
 
-<GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="Station Engineer"/>
+<GuideEntityEmbed Entity="ToyFigurineEngineer" Caption="Инженер"/>
 
-1. Station Engineers report directly to the Chief Engineer.
+1. Инженеры подчиняются напрямую старшему инженеру.
 
-2. Station Engineers must construct the AME and/or solar network before moving onto permanent station engines.
+2. Инженеры должны построить АМ-двигатель и/или солнечную сеть, прежде чем переходить к постоянным станционным двигателям.
 
-3. Station Engineers must establish permanent station power before moving on to other duties or confirm Atmospheric Technicians have established permanent power.
+3. Инженеры должны наладить постоянную энергию станции, прежде чем переходить к другим обязанностям, или убедиться, что атмосферные техники наладили постоянную энергию.
 
-4. Station Engineers must check the singularity, tesla and power monitoring computer every 30 minutes or less.
+4. Инженеры должны проверять сингулярность, теслу и компьютер мониторинга энергии не реже раза в 30 минут.
 
-5. It is recommended that at least one Station Engineer remains in the department during non-emergencies to assist other crew members and respond to potential department emergencies.
+5. Рекомендуется, чтобы в отделе в нечрезвычайные времена оставался хотя бы один инженер, чтобы помогать другим членам экипажа и реагировать на возможные чрезвычайные ситуации отдела.
 </Document>

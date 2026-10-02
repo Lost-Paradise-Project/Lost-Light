@@ -1,38 +1,38 @@
 <Document>
-  # Supermatter Structural Recovery
+  # Структурное восстановление суперматерии
 
-  The Supermatter crystal continuously repairs structural damage over time.
+  Кристалл суперматерии постоянно восстанавливает структурные повреждения со временем.
 
-  Damage to the crystal creates unstable areas within its structure. These areas break down and release gaseous byproducts.
-
-  <Box>
-    <GuideEntityEmbed Entity="SupermatterCrystal" Caption="Surface damage caused by stress." />
-  </Box>
-
-  ## Structural Recovery
-
-  After taking damage, the crystal gradually restores its structure.
-
-  The recovery process is always active and cannot be completely stopped. However, certain rare atmospheric compounds can influence the recovery rate.
-
-  Some gases can increase structural recovery, while others can reduce it. These effects modify the recovery speed but do not prevent regeneration entirely.
-
-  As long as structural recovery matches or exceeds incoming damage, the crystal remains stable.
-
-  If damage exceeds the recovery rate, stability will continue to decrease until a delamination event occurs.
-
-  ## Gas Production
-
-  Damaged crystal material decomposes into Oxygen and Tritium.
-
-  These gases are released into the chamber while the crystal is under stress.
+  Повреждения кристалла создают нестабильные участки в его структуре. Эти участки распадаются и выделяют газообразные побочные продукты.
 
   <Box>
-    <GuideEntityEmbed Entity="OxygenCanister" Caption="Oxygen" />
-    <GuideEntityEmbed Entity="TritiumCanister" Caption="Tritium" />
+       <GuideEntityEmbed Entity="SupermatterCrystal" Caption="Поверхностные повреждения от напряжения." />
   </Box>
 
-  Atmospherics can collect and process these gases for station use.
+  ## Структурное восстановление
 
-  Higher stress levels create larger amounts of damaged material, increasing gas production while also increasing strain on the crystal.
+  После получения урона кристалл постепенно восстанавливает свою структуру.
+
+  Процесс восстановления всегда активен, и его нельзя полностью остановить. Однако некоторые редкие атмосферные соединения могут влиять на скорость восстановления.
+
+  Некоторые газы могут увеличивать структурное восстановление, а другие - снижать. Эти эффекты меняют скорость восстановления, но не отменяют регенерацию полностью.
+
+  Пока структурное восстановление равно входящему урону или превышает его, кристалл остаётся стабильным.
+
+  Если урон превышает скорость восстановления, стабильность будет продолжать снижаться, пока не произойдёт расслоение.
+
+  ## Производство газа
+
+  Повреждённый материал кристалла разлагается на кислород и тритий.
+
+  Эти газы выделяются в камеру, пока кристалл находится под напряжением.
+
+  <Box>
+       <GuideEntityEmbed Entity="OxygenCanister" Caption="Кислород" />
+       <GuideEntityEmbed Entity="TritiumCanister" Caption="Тритий" />
+  </Box>
+
+  Атмос может собирать и перерабатывать эти газы для нужд станции.
+
+  Более высокие уровни напряжения создают больше повреждённого материала, увеличивая выработку газа, но и нагрузку на кристалл.
 </Document>

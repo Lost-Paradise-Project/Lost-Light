@@ -1,0 +1,12 @@
+ent-MedTakPDA = { ent-BasePDA }
+    .desc = { ent-BasePDA.desc }
+ent-MedTakPDAMedic = КПК медика МедТак
+    .desc = Это кровь или красная краска?
+ent-MedTakPDAPilot = КПК пилота МедТак
+    .desc = Это красная краска.
+ent-MedTakPDASecurity = КПК СБ МедТак
+    .desc = Это кровь.
+ent-MedTakPDATeamLead = КПК командира группы МедТак
+    .desc = Это кровь.
+ent-MedTakPDADispatcher = КПК диспетчера МедТак
+    .desc = Это красная краска.

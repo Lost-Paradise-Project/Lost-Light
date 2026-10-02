@@ -1,0 +1,15 @@
+ent-RandomHumanoidSpawnerETOOperativeRifle = Винтовочный оперативник ЭТО
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerETOOperativeSMG = Оперативник ЭТО с ПП
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerETOOCorpsman = Санитар-оперативник ЭТО
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerETOLead = Командир отряда ЭТО
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerETOOCombatTech = Боевой техник ЭТО
+    .desc = { "" }
+    .suffix = Админ-мем

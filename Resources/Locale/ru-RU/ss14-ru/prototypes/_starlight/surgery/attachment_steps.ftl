@@ -1,0 +1,12 @@
+ent-SurgeryLimbAttachmentStep = присоединить конечность
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryLimbAttachmentStepLeftArm = присоединить конечность
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryLimbAttachmentStepRightArm = присоединить конечность
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepRejoinNerves = Соединить нервы
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepRejoinBloodVessels = Соединить кровеносные сосуды
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepRestoreCartilage = Восстановить хрящ
+    .desc = { ent-SurgeryStepBase.desc }

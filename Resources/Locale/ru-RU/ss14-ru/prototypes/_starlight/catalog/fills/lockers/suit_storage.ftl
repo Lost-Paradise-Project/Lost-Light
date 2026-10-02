@@ -1,0 +1,12 @@
+ent-SuitStorageMiningSpecialist = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Шахта
+ent-SuitStorageBlueShield = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = Синий щит
+ent-SuitStorageBlueShieldBluespaced = { ent-SuitStorageBlueShield }
+    .desc = { ent-SuitStorageBlueShield.desc }
+    .suffix = Синий щит, блюспейс
+ent-SuitStorageSecDouble = двойной шкаф для скафандров
+    .desc = { ent-SuitStorageSec.desc }
+    .suffix = { ent-SuitStorageSec.suffix }

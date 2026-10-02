@@ -1,0 +1,14 @@
+ent-FaxMachineEngineeringBase = { ent-FaxMachineBase }
+    .desc = { ent-FaxMachineBase.desc }
+ent-FaxMachineEngineering = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ИНЖ: инженерия
+ent-FaxMachineEngineeringCE = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ИНЖ: ГИ
+ent-FaxMachineEngineeringAtmos = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ИНЖ: атмос
+ent-FaxMachineEngineeringNuclearReactor = { ent-FaxMachineEngineeringBase }
+    .desc = { ent-FaxMachineEngineeringBase.desc }
+    .suffix = ИНЖ: ядерный реактор

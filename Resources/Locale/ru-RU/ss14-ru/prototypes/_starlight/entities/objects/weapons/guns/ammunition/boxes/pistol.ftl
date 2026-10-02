@@ -1,0 +1,16 @@
+ent-MagazineBoxPistolRubber = коробка боеприпасов (.35 авто резиновые)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
+ent-BaseMagazineBoxPistol40 = коробка боеприпасов (.40)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxPistol40SP = коробка боеприпасов (.40 SP)
+    .desc = { ent-BaseMagazineBoxPistol40.desc }
+ent-MagazineBoxPistol40HP = коробка боеприпасов (.40 HP)
+    .desc = { ent-BaseMagazineBoxPistol40.desc }
+ent-MagazineBoxPistol40FMJ = коробка боеприпасов (.40 ПОО)
+    .desc = { ent-BaseMagazineBoxPistol40.desc }
+ent-MagazineBoxPistol40AP = коробка боеприпасов (.40 бронебойные)
+    .desc = { ent-BaseMagazineBoxPistol40.desc }
+ent-MagazineBoxPistolFMJ = коробка боеприпасов (.35 авто ПОО)
+    .desc = { ent-BaseMagazineBoxPistol.desc }
+ent-MagazineBoxPistolAP = коробка боеприпасов (.35 авто бронебойные)
+    .desc = { ent-BaseMagazineBoxPistol.desc }

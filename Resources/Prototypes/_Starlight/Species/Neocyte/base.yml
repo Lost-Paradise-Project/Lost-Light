@@ -24,8 +24,6 @@
     Head: MobNeocyteHead
     Eyes: MobNeocyteEyes
     Snout: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobNeocyteTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -87,12 +85,6 @@
       required: false
     Legs:
       points: 4
-      required: false
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
-      points: 1
       required: false
     Arms:
       points: 4

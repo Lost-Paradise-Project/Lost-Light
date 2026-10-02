@@ -1,85 +1,85 @@
 <Document>
-# Important Character Creation Tips
-This is a guide for the parts of character creation that effect gameplay.
+# Важные советы по созданию персонажа
+Это руководство по тем частям создания персонажа, которые влияют на геймплей.
 
-[textlink="For a guide on making cosmetic changes, click here." link="YourFirstCharacter"]
+[textlink="Руководство по косметическим изменениям - по этой ссылке." link="YourFirstCharacter"]
 
-## Spawn Priority
-This affects where you spawn in upon joining the game after the round has already started.
+## Приоритет появления
+Определяет, где вы появитесь, присоединившись к игре после начала раунда.
 
-Choosing "Arrivals" will spawn you on a separate station where you wait for a shuttle to arrive to ship you to the main station.
+Выбор «Прибытие» появит вас на отдельной станции, где вы дождётесь шаттла, который доставит вас на основную станцию.
 
-Choosing "Cryosleep" will have you wake up in a cryosleep chamber already on the station.
+Выбор «Криосон» заставит вас проснуться в капсуле криосна, уже находящейся на станции.
 
-Choosing "None" will either pick for you or choose the only spawn option available for the current station.
+Выбор «Нет» либо выберет за вас, либо выберет единственный доступный вариант появления на текущей станции.
 
-This is a mostly arbitrary choice. You can safely leave this on "None" and you won't suffer any real inconveniences.
+Выбор в основном произвольный. Можно спокойно оставить «Нет», и никаких реальных неудобств не будет.
 
-## Jobs
-You can set your job preferences in the lobby. While these don't [color=#a4885c]guarantee[/color] your position, someone who wants the job will be [color=#a4885c]randomly[/color] selected at the start of the round.
-You are given a chance at being chosen for your high priority job first, then your medium priorities, then your low priorities.
-You also given an option to automatically be a assistant or to be sent back to the lobby if you don't get chosen for any of your preferred jobs.
+## Должности
+Предпочтения по должностям задаются в лобби. Они [color=#a4885c]не гарантируют[/color] вашу должность: в начале раунда [color=#a4885c]случайным образом[/color] выбирается тот, кто хочет эту должность.
+Сначала шанс быть выбранным даётся для должностей высокого приоритета, затем среднего, затем низкого.
+Также можно выбрать, автоматически ли становиться ассистентом или возвращаться в лобби, если вас не выбрали ни на одну из желаемых должностей.
 
-Some jobs are locked until you've played long enough as other entry level jobs.
+Некоторые должности закрыты, пока вы не наиграете достаточно времени на других начальных должностях.
 
-[textlink="For more infomation about jobs, click here." link="Jobs"]
+[textlink="Подробнее о должностях - по этой ссылке." link="Jobs"]
 
-## Job Loadouts
-You may also choose [color=#a4885c]loadouts[/color] for each job. Loadouts are the clothing items and trinkets that you spawn with upon joining the game. Some loadout items are locked behind playtime restrictions.
-This may have various effects on gameplay, as some clothing items have [color=#a4885c]armor protection[/color] or [color=#a4885c]slow down your movement speed[/color]. This applies especially to Command and Security.
+## Снаряжение должностей
+Также для каждой должности можно выбрать [color=#a4885c]наборы снаряжения[/color]. Это предметы одежды и безделушки, с которыми вы появляетесь в игре. Некоторые предметы закрыты ограничениями по времени игры.
+Это может по-разному влиять на геймплей, так как у некоторой одежды есть [color=#a4885c]бронезащита[/color] или она [color=#a4885c]замедляет ваше движение[/color]. Особенно это касается командования и СБ.
 
-You may also choose what bag you spawn in with.
-[color=#a4885c]Backpacks[/color] are medium sized but can carry large items easier. [color=#a4885c]Satchels[/color] have more total space than backpacks but have trouble carrying large items. [color=#a4885c]Duffel bags[/color] are large but incur a movement penalty.
+Можно также выбрать сумку, с которой вы появитесь.
+[color=#a4885c]Рюкзаки[/color] среднего размера, но в них проще носить крупные предметы. [color=#a4885c]Сумки-ранцы[/color] вмещают больше рюкзаков, но с крупными предметами с ними трудно. [color=#a4885c]Вещмешки[/color] большие, но замедляют движение.
 
-## Antags
-Turning on an [color=#a4885c]antagonist[/color] toggle will put you on the list of potentional antags at the start of the round. They do not guarantee your antagonist role, don't use this as an excuse to self-antag!
-Instead, like job priorities, a handful of players are chosen randomly from eligible players. If you are a command member or security officer, you cannot be chosen for an antag role.
+## Антагонисты
+Включение переключателя [color=#a4885c]антагониста[/color] внесёт вас в список возможных антагонистов в начале раунда. Это не гарантирует роль антагониста, не используйте это как оправдание для самоантага!
+Как и с приоритетами должностей, горстка игроков выбирается случайным образом из подходящих. Члены командования и офицеры СБ не могут быть выбраны на роль антагониста.
 
-[textlink="For more information about antagonists, click here." link="Antagonists"]
+[textlink="Подробнее об антагонистах - по этой ссылке." link="Antagonists"]
 
-Joining multiple games or ghosting/disconnecting/commiting suicide upon not being chosen for an antag role is referred to as "antag-rolling" and it is against the rules.
-Plenty of people patiently wait for their turn to be antagonists, so [color=#a4885c]we kindly ask you to refrain from opting-in to an antagonist role if you aren't ready[/color].
+Заход в несколько игр или выход в призраки/отключение/самоубийство после того, как вас не выбрали на роль антагониста, называется «антаг-роллингом» и запрещено правилами.
+Многие терпеливо ждут своей очереди стать антагонистами, поэтому [color=#a4885c]мы просим вас не включать роль антагониста, если вы не готовы[/color].
 
-## Traits
-Speech traits alter your speech, sometimes to an extreme degree.
+## Черты
+Речевые черты изменяют вашу речь, порой до крайней степени.
 
-They include:
-- No native accent (disables the accent of your selected species) <!-- 🌟Starlight🌟 -->
-- Cowboy accent (word replacement, partner)
-- Frontal lisp ("s" is replaced with "th")
-- Italian accent (Mamma-mia, word replacement)
-- Pathological liar (word replacement, changes words like "yes" to "no")
-- Pirate accent (Arrgh, word replacement)
-- Social anxiety (s-s-stutter)
-- Southern Drawl (replaces "-ing" with "-in'" and similar changes)
+К ним относятся:
+- Отсутствие акцента (отключает акцент выбранной расы) <!-- 🌟Starlight🌟 -->
+- Ковбойский акцент (замена слов, партнёр)
+- Сигматизм («с» заменяется на «th»)
+- Итальянский акцент (Мамма-мия, замена слов)
+- Патологический лжец (замена слов, меняет слова вроде «да» на «нет»)
+- Пиратский акцент (Аррр, замена слов)
+- Заикание (з-з-заикание)
+- Диалект юга США (заменяет «-ing» на «-in'» и делает похожие изменения)
 
-You should be comfortable with talking normally or with a minor accent such as Social anxiety or Southern drawl before taking heavy accents like Italian or Cowboy.
+Прежде чем брать сильные акценты вроде итальянского или ковбойского, вам стоит свободно чувствовать себя в обычной речи или с лёгким акцентом, таким как заикание или диалект юга США.
 
-There are also disabilty traits. Familiarize yourself with the game and the game's flow before taking one of these, as some may become difficult for beginners to deal with.
+Есть также черты-инвалидности. Освойтесь с игрой и её течением, прежде чем брать одну из них, так как с некоторыми новичкам бывает трудно справиться.
 
-They include:
-- Blindness (severely limits your vision)
-- Lightweight drunk (you get drunk faster and you suffer more from the ill-effects of alcohol)
-- Muted (you cannot talk or whisper, but you can still communicate via emotes and pen and paper)
-- Narcolepsy (you randomly fall asleep at unpredictable and often inconvenient times)
-- Pacifist (you cannot hit, shoot, or throw sharp objects at people)
-- Paracusia (you sometimes hear noises that aren't real)
-- Short-sighted (somewhat limits your vision without prescription glasses)
-- Snoring (you make loud snoring sounds when asleep)
-- Unrevivable (you cannot be resuscitated when you meet your untimely demise)
+К ним относятся:
+- Слепота (сильно ограничивает зрение)
+- Быстрое опьянение (вы пьянеете быстрее и сильнее страдаете от последствий алкоголя)
+- Немота (вы не можете говорить или шептать, но можете общаться эмоциями и ручкой с бумагой)
+- Нарколепсия (вы случайно засыпаете в непредсказуемые и часто неудобные моменты)
+- Пацифист (вы не можете бить, стрелять или метать острые предметы в людей)
+- Паракузия (вы иногда слышите несуществующие звуки)
+- Близорукость (несколько ограничивает зрение без очков по рецепту)
+- Храп (во сне вы громко храпите)
+- Невозрождаемость (вас нельзя реанимировать после безвременной кончины)
 
-There are also Background traits, which allow you to select a Background from a set list. This allows you to know certain things that might otherwise be [textlink="Metashielded" link="Metashield"]. For more information, check out the Metashield page.
+Есть также черты Предыстории, позволяющие выбрать Предысторию из заданного списка. Это позволяет вам знать определённые вещи, которые иначе были бы метащитой. Подробнее - в правилах сервера на нашей вики.
 
-## Flavor Text
-The Flavor Text system allows you to set text fields of information about your character that display to different players under different circumstances. Briefly, these fields are;
-- Physical Description - Anything that would by physically noticeable when looking at your character. Could include scars, limps, face and nose shape, etc.
-- Personality Description - Anything about their personality that would be noticeable looking at them. Could include how they speak, if they sway when standing still or walk like they're marching, etc.
-- Exploitable Info - This is information that is displayed to Antagonists and can be used or referenced by them to generate Roleplay with you. An example might be that your character is in debt and needs money badly, or that they served in a war and participated in an atrocity. This information is likely to be used to either blackmail your character, or as justification for why they are a target when someone rolls you as a kill target.
-- Secrets - This is information only shown to people playing your character, such as Paradox Clones and Changelings. This should include information on how they act, some of their relationships with other Crew, and anything secret that only they would know.
+## Описание персонажа
+Система описания позволяет задать текстовые поля с информацией о персонаже, которые показываются разным игрокам при разных обстоятельствах. Вкратце, эти поля таковы:
+- Физическое описание - всё, что заметно физически при взгляде на персонажа. Могут быть шрамы, хромота, форма лица и носа и т. д.
+- Описание характера - всё о характере, что заметно при взгляде на него. Например, как он говорит, покачивается ли, стоя на месте, или ходит как на марше и т. д.
+- Уязвимая информация - это информация, которая показывается антагонистам и может использоваться ими для создания ролевой игры с вами. Например, ваш персонаж в долгах и отчаянно нуждается в деньгах или служил на войне и участвовал в зверствах. Эта информация, скорее всего, будет использована для шантажа вашего персонажа или как оправдание, почему он стал целью, когда кто-то получил вас как цель убийства.
+- Секреты - это информация, которую видят только игроки, играющие вашим персонажем, например Клоны-парадоксы и генокрады. Здесь должна быть информация о том, как они себя ведут, некоторые из их отношений с другими членами экипажа и всё секретное, что знают только они.
 
-There are also two sections for Out Of Character use, being;
-- Personal Notes - For taking notes on your own character to remember mid-roleplay. Might be things like their family's names, their home planet, and other details you don't want to forget if it comes up in Roleplay.
-- OOC Notes - Out of Character information that anyone can see, useful for noting down things like phobias and roleplay topics you do not want to be exposed to. Rarely comes up, but useful to use regardless to establish your comfort zone.
+Есть также два раздела для использования вне роли:
+- Личные заметки - для заметок о вашем персонаже, которые помогут в ходе ролевой игры. Например, имена членов семьи, родная планета и другие детали, которые вы не хотите забыть, если они всплывут в игре.
+- Заметки OOC - информация вне роли, которую может увидеть любой, полезна для записи фобий и тем ролевой игры, которые вы не хотите видеть. Нужна редко, но полезна для определения вашей зоны комфорта.
 
 
 </Document>

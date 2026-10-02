@@ -1,0 +1,10 @@
+ent-BaseMagazineBoxImprovised = самодельная коробка боеприпасов (.любые)
+    .desc = Подозрительно похоже на коробку магазинов .20 с грубым рисунком пули сверху. Смешивать боеприпасы не рекомендуется.
+ent-MagazineBoxImprovisedPistol = самодельная коробка боеприпасов (.35 авто самодельные)
+    .desc = { ent-BaseMagazineBoxImprovised.desc }
+ent-MagazineBoxImprovisedRifle = самодельная коробка боеприпасов (.30 винтовочные самодельные)
+    .desc = { ent-BaseMagazineBoxImprovised.desc }
+ent-MagazineBoxImprovisedMagnum = самодельная коробка боеприпасов (.45 магнум самодельные)
+    .desc = { ent-BaseMagazineBoxImprovised.desc }
+ent-MagazineBoxImprovisedShotgun = самодельная коробка картечи 12 калибра
+    .desc = { ent-BaseMagazineBoxImprovised.desc }

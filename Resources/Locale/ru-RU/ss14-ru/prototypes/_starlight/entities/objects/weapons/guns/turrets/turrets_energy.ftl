@@ -1,0 +1,9 @@
+ent-WeaponEnergyTurretSilicon = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = Кремний
+ent-WeaponEnergyTurretSolgov = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = Солгов
+ent-WeaponEnergyTurretITG = { ent-WeaponEnergyTurretStationBase }
+    .desc = { ent-WeaponEnergyTurretStationBase.desc }
+    .suffix = МТГ

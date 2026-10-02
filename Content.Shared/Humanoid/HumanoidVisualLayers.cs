@@ -12,8 +12,7 @@ namespace Content.Shared.Humanoid
         TailOverlay, // markings that go ontop of tails
         Hair,
         FacialHair,
-        UndergarmentTop,
-        UndergarmentBottom,
+        // LP edit - убрана цензура наготы (нижнее бельё)
         Chest,
         Head,
         Snout,

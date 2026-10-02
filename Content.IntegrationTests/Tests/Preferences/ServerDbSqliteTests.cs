@@ -39,6 +39,13 @@ namespace Content.IntegrationTests.Tests.Preferences
   values:
   - Ackerley";
 
+        // LP edit start - фамилии по полу (NamingSystem.GetLastName)
+        [TestPrototypes]
+        private const string LpPrototypes = @"
+- {type: dataset, id: sqlite_test_names_last_male, values: [Ackerley]}
+- {type: dataset, id: sqlite_test_names_last_female, values: [Ackerla]}";
+        // LP edit end
+
         private static HumanoidCharacterProfile CharlieCharlieson()
         {
             return new()

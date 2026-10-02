@@ -1,0 +1,9 @@
+advertisement-legaldrobe-1 = СТОП! Получите верховенство закона для себя!
+advertisement-legaldrobe-2 = Донимайте СБ, пока они не будут соблюдать ваши правила!
+advertisement-legaldrobe-3 = Новое дело только что поступило? Вытащите их из тюрьмы!
+advertisement-legaldrobe-4 = Прошу вызвать попугая для дачи показаний!
+advertisement-legaldrobe-5 = Докучайте смотрителю бесконечными спорами о сделках со следствием.
+advertisement-legaldrobe-6 = Разрешите любой спор, каким бы мелким он ни был!
+advertisement-legaldrobe-7 = Мы не продаём магатама.
+advertisement-legaldrobe-8 = Вы или ваш близкий пострадали от НаноТрейзен? Позвоните юристу!
+advertisement-legaldrobe-9 = Начинается новый суд!

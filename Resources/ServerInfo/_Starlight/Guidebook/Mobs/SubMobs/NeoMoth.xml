@@ -1,17 +1,17 @@
 <Document>
-  # Neo-Moth
+  # Нео-ниан
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoMoth" Caption=""/>
   </Box>
 
-  Despite their best efforts, they were not able to get rid of their fire weakness and even with their metallic body parts they still go up in flames like tinder in a tinderbox. They can handle cold a little better, though.
+  Несмотря на все усилия, им не удалось избавиться от слабости к огню, и даже с металлическими частями тела они всё равно вспыхивают, как трут в трутнице. Зато холод они переносят немного лучше.
 
-  ## Resistances
-  - Receive [color=#ffa500]25% more heat damage[/color], [color=#8147ff]25% more shock damage[/color], and [color=#FF3636]10% more blunt damage[/color].
-  - Receive [color=#1e90ff]45% less cold damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 25% больше теплового урона[/color], [color=#8147ff]на 25% больше урона током[/color] и [color=#FF3636]на 10% больше ударного урона[/color].
+  - Получают [color=#1e90ff]на 45% меньше холодового урона[/color].
 
-  Similar to their non-cybernetic brethren, they [color=red]catch on fire more easily and take 350% more fire damage than other species.[/color]
+  Подобно своим некибернетическим собратьям, они [color=red]легче загораются и получают на 350% больше урона от огня, чем другие расы.[/color]
 
-  With the advent of advanced cybernetics and with some help from their extensive body modifications, Neo-Moth have been able to get rid of their inability to properly process most foods and as such can enjoy and metabolise just about any food under the sun, including their favorite snack of choice- Boots!
+  С появлением продвинутой кибернетики и при некоторой помощи обширных модификаций тела нео-ниане смогли избавиться от неспособности нормально усваивать большинство видов еды и потому могут наслаждаться и усваивать практически любую еду под солнцем, включая свой любимый перекус - ботинки!
 </Document>

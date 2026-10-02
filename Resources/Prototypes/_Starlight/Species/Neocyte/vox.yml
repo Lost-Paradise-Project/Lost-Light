@@ -29,8 +29,6 @@
     Head: MobVoxHead
     Eyes: MobNeocyteEyes
     Snout: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobVoxTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -94,12 +92,6 @@
       required: false
     Arms:
       points: 4
-      required: false
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
-      points: 1
       required: false
 
 - type: humanoidBaseSprite

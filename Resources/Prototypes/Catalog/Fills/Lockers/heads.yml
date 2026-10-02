@@ -102,6 +102,7 @@
       conditions:
       - !type:PlayerCountCondition
         max: 15
+    - id: SecApartmentTablet # LP edit
     - id: PrintedDocumentGreenshiftAlert
       conditions:
       - !type:GamemodeCondition

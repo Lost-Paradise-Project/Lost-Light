@@ -10,13 +10,13 @@ job-board-ui-label-rank = [bold]Ранг:[/bold]
 job-board-ui-label-items = Цель: [color=red]{ $item }[/color]
 
 # Starlight Tickets Addition, trade guild rewording
-job-board-label-text = [head=2]Поставка утилизаторкой работы[/head] { "[italic]Для использования в официальных внестанционных утилизаторских поставках.[/italic]" }
+job-board-label-text = [head=2]Поставка утилизаторской работы[/head] { "[italic]Только для официальных внестанционных утилизаторских поставок.[/italic]" }
 
     { "[bold]Цель:[/bold]" } { $target }
     { "[bold]Награда:[/bold]" } ${ $reward }
+    { "[bold]Билеты:[/bold]" } { $tickets }
 
-
-    { "[italic]Грузы подлежат проверке корпорацией Donk[/italic]" }
+    { "[italic]Поставки подлежат досмотру Межзвёздной торговой гильдией.[/italic]" }
 
 salv-job-board-name-BountyTeethSpaceCarp = Космический карп
 salv-job-board-name-BountySalvageScrap = Космический мусор

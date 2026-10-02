@@ -78,7 +78,7 @@ job-title-universal = универсальная
 job-title-visitor = посетитель
 
 # Role timers - Make these alphabetical or I cut you
-JobAssistant = Assistant
+JobAssistant = ассистент
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
 JobBorg = киборг
@@ -87,7 +87,7 @@ JobBrigmedic = полевой врач
 JobCaptain = капитан
 JobCargoTechnician = грузчик
 JobCentralCommandOfficial = представитель Центком
-JobCentralCommandOperator = CentComm Operator
+JobCentralCommandOperator = оператор Центком
 JobChaplain = священник
 JobChef = шеф-повар
 JobChemist = химик

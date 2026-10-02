@@ -1,0 +1,9 @@
+ent-OrganThavenBrain = мозг тавена
+    .desc = Органический позитронный мозг. Действительно замечательный.
+    .suffix = Тавен
+ent-OrganThavenEyes = глаза тавена
+    .desc = Глаза тавена.
+    .suffix = Тавен
+ent-OrganThavenTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Тавен

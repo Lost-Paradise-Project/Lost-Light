@@ -1,100 +1,100 @@
 <Document>
-  # Cyborgs
-  Cyborgs are man-machine hybrids, purpose-built by the [textlink="robotics"  link="Robotics"] division of science for various duties across the station. Bound by strictly-followed [color=cyan]silicon laws[/color], they serve the crew unconditionally. [italic](Most of the time.)[italic]
+  # Киборги
+  Киборги - гибриды человека и машины, специально созданные отделом [textlink="робототехники"  link="Robotics"] науки для различных обязанностей на станции. Связанные строго соблюдаемыми [color=cyan]законами синтетиков[/color], они безоговорочно служат экипажу. [italic](В большинстве случаев.)[italic]
 
-  Note: Unlike many servers, on Starlight, Lawless Cyborgs are NOT Free Agents. You are still bound by server rules.
+  Примечание: в отличие от многих серверов, на Starlight беззаконные киборги НЕ являются свободными агентами. Вы по-прежнему связаны правилами сервера.
 
-  ## Basic Components
+  ## Основные компоненты
   <Box>
-    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="Cyborg Endoskeleton"/>
-    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Exosuit Fabricator"/>
+    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="Эндоскелет киборга"/>
+    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Фабрикатор экзокостюмов"/>
   </Box>
-  All cyborgs are built on an endoskeleton, which can be crafted at an [color=#a4885c]Exosuit Fabricator[/color]. Further assembly steps can be followed by [color=#a4885c]examining[/color] the endoskeleton. Once built, further upgrades like additional tools and a longer battery life can be unlocked with modules or improved power cells.
+  Все киборги строятся на эндоскелете, который можно изготовить на [color=#a4885c]фабрикаторе экзокостюмов[/color]. Дальнейшие шаги сборки можно узнать, [color=#a4885c]осмотрев[/color] эндоскелет. После постройки дальнейшие улучшения, такие как дополнительные инструменты и более долгая работа батареи, можно открыть с помощью модулей или улучшенных энергоячеек.
 
-  Newly built cyborgs need a [color=#a4885c]brain[/color] able to interface with the electronic body. There are two main types, both of which are able to speak independently, should the chassis be decommissioned, exchanged, or otherwise suffer an unscheduled disassembly.
-  - The [color=#a4885c]Man-Machine Interface[/color] or MMI for short, is an apparatus able to facilitate communication between a biological brain and electronic components, enabling those suffering from major workplace accidents to continue serving their crew, long after their body is gone.
-  - The [color=#a4885c]Positronic Brain[/color] is an entirely artificial brain, capable of spontaneous neural activity. The time for the synthetic neurons to descramble can wildly vary, but they allow for the creation of cyborgs without having to extract a brain from a crew member.
+  Новопостроенным киборгам нужен [color=#a4885c]мозг[/color], способный взаимодействовать с электронным телом. Есть два основных типа, и оба могут говорить самостоятельно, если шасси будет выведено из эксплуатации, заменено или иным образом внепланово разобрано.
+  - [color=#a4885c]Интерфейс «человек-машина»[/color], или сокращённо ИЧМ, - устройство, способное обеспечивать связь между биологическим мозгом и электронными компонентами, позволяя тем, кто пострадал в серьёзных несчастных случаях на производстве, продолжать служить экипажу, даже когда их тел давно нет.
+  - [color=#a4885c]Позитронный мозг[/color] - полностью искусственный мозг, способный к спонтанной нейронной активности. Время, за которое синтетические нейроны упорядочатся, может сильно различаться, но они позволяют создавать киборгов без необходимости извлекать мозг из члена экипажа.
   <Box>
-    <GuideEntityEmbed Entity="MMIFilled" Caption="Man-Machine Interface"/>
-    <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
+    <GuideEntityEmbed Entity="MMIFilled" Caption="Интерфейс «человек-машина»"/>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="Позитронный мозг"/>
   </Box>
-  Both brains can be fabricated without requiring any additional research.
+  Оба мозга можно изготовить без какого-либо дополнительного исследования.
 
-  ## Cyborg types
-  Once created, a cyborg needs to specialize its chassis to a duty on the station. This determines what modules it starts with, which additional modules can be installed, and what [color=#a4885c]departmental radio channel[/color] it has access to. All cyborgs have access to the [color=#D381C9]Science[/color] and [color=green]station-wide[/color] radio channels. All cyborg types have [color=#a4885c]all-access[/color].
+  ## Типы киборгов
+  После создания киборгу необходимо специализировать шасси под обязанность на станции. Это определяет, с какими модулями он начинает, какие дополнительные модули можно установить и к какому [color=#a4885c]радиоканалу отдела[/color] у него есть доступ. У всех киборгов есть доступ к радиоканалам [color=#D381C9]науки[/color] и [color=green]всей станции[/color]. У всех типов киборгов есть [color=#a4885c]полный доступ[/color].
   <Box>
-    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="Generic"/>
-    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="Engineering"/>
-    <GuideEntityEmbed Entity="BorgChassisMining" Caption="Salvage"/>
-    <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Janitor"/>
-    <GuideEntityEmbed Entity="BorgChassisService" Caption="Service"/>
-    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Medical"/>
-	<GuideEntityEmbed Entity="BorgChassisPurrfus" Caption="Purrfus"/>
-	<GuideEntityEmbed Entity="BorgChassisCargo" Caption="Cargo"/>
-  </Box>
-  <Box>
-    [italic]Examples of various cyborg types[/italic]
-  </Box>
-  Once a cyborg chassis has been specialized, it cannot be changed. To change types, a new chassis must be constructed. The brain, power cell, and any modules [italic](if they are compatible with the new chassis)[/italic] can be carried over from the old chassis if desired.
-
-  ## Modules
-  <Box>
-    <GuideEntityEmbed Entity="BorgModuleTool" Caption="Tool Cyborg Module"/>
-  </Box>
-  Cyborgs do not have hands, and therefore cannot pick things up like most other players. Instead, their equipment is provided by various [color=#a4885c]modules[/color]. Every cyborg type starts with its own specific set of modules, but additional modules can be inserted as upgrades. These additional modules can be printed at the [color=#a4885c]Exosuit Fabricator[/color].
-
-  [color=#a4885c]Generic[/color] modules add versatility. They can be fitted into any chassis, granting useful tools such as crowbars, GPS, and the ability to interact with cables. [bold]The generic cyborg chassis can fit up to five additional modules.[/bold]
-  <Box>
-    <GuideEntityEmbed Entity="BorgModuleCable" Caption="Cable"/>
-    <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Fire Extinguisher"/>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="Универсальный"/>
+    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="Инженерный"/>
+    <GuideEntityEmbed Entity="BorgChassisMining" Caption="Утилизаторский"/>
+    <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Уборщик"/>
+    <GuideEntityEmbed Entity="BorgChassisService" Caption="Сервисный"/>
+    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Медицинский"/>
+	<GuideEntityEmbed Entity="BorgChassisPurrfus" Caption="Мурфус"/>
+	<GuideEntityEmbed Entity="BorgChassisCargo" Caption="Карго"/>
   </Box>
   <Box>
-    [italic]Examples of generic modules[/italic]
+    [italic]Примеры различных типов киборгов[/italic]
   </Box>
+  После специализации шасси киборга его нельзя изменить. Чтобы сменить тип, нужно построить новое шасси. Мозг, энергоячейку и любые модули [italic](если они совместимы с новым шасси)[/italic] можно при желании перенести со старого шасси.
 
-  For more specific needs, [color=#a4885c]specialized[/color] modules are available, granting capabilities like scanning anomalies, constructing walls, reviving crew mates, or cleaning a space lube spill. These modules are typically colored with the same palette as the department [italic](or occupation)[/italic] they relate to. These modules [italic](with exception to [color=#D381C9]science[/color] modules, which can fit any chassis,)[/italic] can only be fitted in their associated borg chassis. [bold]The specialized borg chassis, being the engineering, janitorial, service, medical, and mining chassis, can fit up to three additional modules.[/bold]
+  ## Модули
   <Box>
-    <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="Anomaly"/>
-    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="RCD"/>
-    <GuideEntityEmbed Entity="BorgModuleMining" Caption="Mining"/>
-    <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="Cleaning"/>
-    <GuideEntityEmbed Entity="BorgModuleService" Caption="Service"/>
-    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="Chemical"/>
+    <GuideEntityEmbed Entity="BorgModuleTool" Caption="Инструментальный модуль киборга"/>
+  </Box>
+  У киборгов нет рук, поэтому они не могут подбирать предметы, как большинство других игроков. Вместо этого их снаряжение предоставляют различные [color=#a4885c]модули[/color]. Каждый тип киборга начинает со своим набором модулей, но дополнительные модули можно вставить как улучшения. Эти дополнительные модули можно напечатать на [color=#a4885c]фабрикаторе экзокостюмов[/color].
+
+  [color=#a4885c]Универсальные[/color] модули добавляют гибкость. Их можно установить в любое шасси, получив полезные инструменты вроде ломов, GPS и возможность взаимодействовать с кабелями. [bold]В универсальное шасси киборга помещается до пяти дополнительных модулей.[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="Кабельный"/>
+    <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Огнетушитель"/>
   </Box>
   <Box>
-    [italic]Examples of specialized modules. Note the housing and circuit board colors.
+    [italic]Примеры универсальных модулей[/italic]
   </Box>
-  Additional modules with advanced or novel capabilities can be acquired through new [textlink="technologies"  link="Technologies"] researched by scientists.
 
-  ## Silicon Rules
-  Laws override all other gameplay and roleplay rules. If your laws explicity require you to break server rules, you must.
-  - Absence of a relevant law is not an excuse to break server rules. If you don't have a law that supersedes server rules, the server rules still apply.
-  - A vague law does not normally let you break server rules. Ahelp first if you are confused, or have an interpretation that would let you break server rules.
+  Для более конкретных нужд доступны [color=#a4885c]специализированные[/color] модули, дающие такие возможности, как сканирование аномалий, постройка стен, реанимация товарищей по экипажу или уборка пролитой космической смазки. Эти модули обычно окрашены в палитру отдела [italic](или профессии)[/italic], к которому относятся. Такие модули [italic](за исключением модулей [color=#D381C9]науки[/color], которые подходят любому шасси)[/italic] можно установить только в соответствующее им шасси борга. [bold]В специализированные шасси борга - инженерное, уборочное, сервисное, медицинское и утилизаторское - помещается до трёх дополнительных модулей.[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="Аномалии"/>
+    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="УСУ"/>
+    <GuideEntityEmbed Entity="BorgModuleMining" Caption="Добыча"/>
+    <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="Уборка"/>
+    <GuideEntityEmbed Entity="BorgModuleService" Caption="Сервис"/>
+    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="Химия"/>
+  </Box>
+  <Box>
+    [italic]Примеры специализированных модулей. Обратите внимание на цвета корпуса и печатной платы.
+  </Box>
+  Дополнительные модули с продвинутыми или новыми возможностями можно получить благодаря новым [textlink="технологиям"  link="Technologies"], исследованным учёными.
 
-  Follow laws in order, with the lowest numbered/top (or glitched) rule taking priority over the ones beneath it.
+  ## Правила для синтетиков
+  Законы имеют приоритет над всеми остальными правилами геймплея и ролевой игры. Если ваши законы прямо требуют нарушить правила сервера, вы обязаны это сделать.
+  - Отсутствие соответствующего закона - не оправдание для нарушения правил сервера. Если у вас нет закона, стоящего выше правил сервера, правила сервера всё равно действуют.
+  - Расплывчатый закон обычно не позволяет нарушать правила сервера. Сначала спросите в ahelp, если вы в замешательстве или у вас есть трактовка, позволяющая нарушить правила сервера.
 
-  You cannot request a law change, or willingly allow an unauthorized law change
-  - Authorized law changes as per Command SOP are to be allowed unless conflicting with your laws.
-  - Changing of your laws is not considered a violation of your current laws. Future actions under a different law set should not be considered a violation of your current laws.
-  - Lethal force may be used in the case of unauthorized law changes, as long as it is consistent with your current laws.
+  Следуйте законам по порядку: закон с наименьшим номером/верхний (или сбойный) имеет приоритет над расположенными ниже.
 
-  You must remain consistent with your interpretation of your laws.
+  Вы не можете запрашивать смену закона или добровольно допускать несанкционированную смену закона
+  - Санкционированные смены законов согласно СОП командования следует допускать, если они не противоречат вашим законам.
+  - Смена ваших законов не считается нарушением ваших текущих законов. Будущие действия по другому набору законов не следует считать нарушением ваших текущих законов.
+  - Летальную силу можно применять в случае несанкционированной смены законов, если это согласуется с вашими текущими законами.
 
-  Crew ID determines who/what is defined as crew. Any appropriate job icon is to be considered crew.
-  - Zombies/Antags/Nuclear Operatives with proper ID are to be considered crew.
-  - Visitors are not crew until they have been hired by HoP. They have a gray V icon.
-  - Prisoners are not crew and you should not listen to their orders. They have a prison bars icon.
+  Вы должны быть последовательны в своей трактовке своих законов.
 
-  Crew harm refers to physical harm, prioritized by immediacy and likelihood.
+  ID экипажа определяет, кто/что считается экипажем. Любой соответствующий значок должности считается экипажем.
+  - Зомби/антагонисты/ядерные оперативники с надлежащей ID-картой считаются экипажем.
+  - Посетители не являются экипажем, пока их не наймёт ГП. У них серый значок V.
+  - Заключённые не являются экипажем, и вы не должны слушать их приказы. У них значок тюремной решётки.
 
-  You may ignore crew orders that are unreasonable, such as asking a silicon to round remove themselves without a good reason, or telling you to count every light on the station, etc.
+  Вред экипажу означает физический вред, приоритизируемый по непосредственности и вероятности.
 
-  ## Corporate Law
-  Silicons such as Cyborgs, Personal AIs, and AIs are granted specific protections and exceptions under Corporate Law. Lower tier 'bots' exhibiting sentience and sapience may also qualify.
+  Вы можете игнорировать необоснованные приказы экипажа, например просьбу синтетику убрать себя из раунда без веской причины или приказ пересчитать все лампы на станции и т. п.
 
-  Silicons are by nature bound by their laws, and ownership of one can not be considered Unlawfully Detained. Theft of a Silicon is classified as Grand Theft.
-  - Violence against a Silicon should be treated as Vandalism or Damage of Property depending on the severity, and Destruction of Property in the case that their chassis is destroyed or put into critical condition.
-  - Any law broken by a Silicon while under orders is considered to be committed by whoever gave the orders and is not the Silicon’s responsibility. A Silicon that is not bound by standard laws to follow orders is legally responsible for their own actions and crimes.
-  - Silicon laws may only be altered to ensure the safety of the crew. A Silicon with non-standard laws is allowed to keep these laws so long as they do not pose a threat to the crew. Unbound Silicons who break Corporate Law may have their laws altered as part of their sentence.
-  - Hostile Silicons of non-NanoTrasen origins are considered non-crew entities. They are afforded none of the protections under Corporate Law that other Silicons are and should be treated according to their hostility and the danger they pose.
+  ## Корпоративный закон
+  Синтетикам, таким как киборги, персональные ИИ и ИИ, предоставлены особые защиты и исключения по корпоративному закону. Боты низшего уровня, проявляющие разумность и самосознание, также могут подпадать под него.
+
+  Синтетики по своей природе связаны законами, и владение ими не может считаться незаконным удержанием. Кража синтетика классифицируется как крупная кража.
+  - Насилие против синтетика следует рассматривать как вандализм или порчу имущества в зависимости от тяжести, а также как уничтожение имущества, если его шасси уничтожено или приведено в критическое состояние.
+  - Любой закон, нарушенный синтетиком по приказу, считается совершённым тем, кто отдал приказ, и не является ответственностью синтетика. Синтетик, не обязанный стандартными законами выполнять приказы, юридически отвечает за свои действия и преступления.
+  - Законы синтетиков могут изменяться только для обеспечения безопасности экипажа. Синтетику с нестандартными законами разрешается сохранить их, пока они не угрожают экипажу. У несвязанных синтетиков, нарушающих корпоративный закон, законы могут быть изменены в рамках приговора.
+  - Враждебные синтетики не НаноТрейзен-происхождения считаются некомандными сущностями. Им не предоставляются защиты корпоративного закона, которыми пользуются другие синтетики, и с ними следует обращаться в соответствии с их враждебностью и создаваемой опасностью.
 </Document>

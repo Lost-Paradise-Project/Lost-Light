@@ -1,0 +1,12 @@
+ent-ESSpawnerRandomPeriodicalsNewspaper = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Газета
+ent-ESSpawnerRandomPeriodicalsPuzzle = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Головоломка
+ent-ESSpawnerRandomPeriodicalsSpacePeople = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Космолюди
+ent-ESSpawnerRandomPeriodicalsFashion = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Мода

@@ -1,0 +1,12 @@
+ent-SyndicateBrutePack = упаковка от ушибов Interdyne
+    .desc = Упаковки от ушибов уровня Interdyne для всех ваших нужд.
+    .suffix = Полный
+ent-SyndicateBrutePack1 = упаковка от ушибов Interdyne
+    .desc = Упаковки от ушибов уровня Interdyne для всех ваших нужд. Красные, как говорят, редкость.
+    .suffix = Одиночный
+ent-SyndicateOintment = мазь Interdyne
+    .desc = Особая смесь пиразина и алоэ от Interdyne для лечения тяжёлых ожогов. Против едких не помогает.
+    .suffix = Полный
+ent-SyndicateOintment1 = мазь Interdyne
+    .desc = Особая смесь пиразина и алоэ от Interdyne для лечения тяжёлых ожогов. Против едких не помогает. Красные, как говорят, редкость.
+    .suffix = Одиночный

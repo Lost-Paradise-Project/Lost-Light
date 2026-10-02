@@ -35,4 +35,4 @@ station-event-random-sentience-flavor-organic = органики
 station-event-random-sentience-flavor-primate = приматы
 station-event-random-sentience-flavor-kobold = кобольды
 station-event-random-sentience-flavor-inanimate = неодушевлённые предметы
-station-event-random-sentience-flavor-corgi = corgi
+station-event-random-sentience-flavor-corgi = корги

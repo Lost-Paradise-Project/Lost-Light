@@ -12,10 +12,6 @@
             "directions": 4
         },
         {
-            "name": "tank_top",
-            "directions": 4
-        },
-        {
             "name": "tall_ears_piercing_R",
             "directions": 4
         },
@@ -45,10 +41,6 @@
         },
         {
             "name": "right_arm_spots",
-            "directions": 4
-        },
-        {
-            "name": "panty_bottoms",
             "directions": 4
         },
         {
@@ -101,18 +93,6 @@
         },
         {
             "name": "bracelet_L",
-            "directions": 4
-        },
-        {
-            "name": "bra_top",
-            "directions": 4
-        },
-        {
-            "name": "boxer_bottoms",
-            "directions": 4
-        },
-        {
-            "name": "binder_top",
             "directions": 4
         },
         {

@@ -1,0 +1,12 @@
+ent-MedTakImplanter = { ent-BaseImplantOnlyImplanter }
+    .desc = Компактный одноразовый имплантер для быстрого и (почти) безболезненного помещения импланта под кожу.
+ent-MedTakImplanterMindShield = имплантер щита разума МедТак
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingBronze = бронзовый трекер МедТак
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingSilver = серебряный трекер МедТак
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingGold = золотой трекер МедТак
+    .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingTeam = трекер МедТак
+    .desc = { ent-MedTakImplanter.desc }

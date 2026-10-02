@@ -1,9 +1,3 @@
-ent-SpawnPointRadioHost = SpawnPointRadioHost
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }
-ent-SpawnPointBlueshieldOfficer = офицер Синего Щита
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { ent-SpawnPointJobBase.suffix }
-ent-SpawnPointNanotrasenRepresentative = представитель ЦентКома
+ent-SpawnPointRadioHost = Точка появления радиоведущего
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }

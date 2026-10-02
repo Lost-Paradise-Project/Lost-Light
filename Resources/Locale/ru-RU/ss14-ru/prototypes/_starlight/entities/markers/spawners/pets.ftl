@@ -1,0 +1,12 @@
+ent-SpawnMobKoboldKiki = Спавнер Кики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Питомец ботаника
+ent-SpawnMobMonkeyStirStir = Спавнер Стир Стира
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Заключённый общей камеры
+ent-SpawnMobPenguinFlippers = Спавнер Досточтимого Ласта
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Питомец юристов
+ent-SpawnMobLizardCecil = Спавнер Сесила
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Питомец ЦК

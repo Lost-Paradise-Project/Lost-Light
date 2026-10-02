@@ -1,38 +1,38 @@
 <Document>
-  # Avali
+  # Авали
 
   <Box>
     <GuideEntityEmbed Entity="MobAvali" Caption=""/>
   </Box>
 
-  [color=#ffa500]Warning! This species is not recommended for new players due to major gameplay changes![/color]
+  [color=#ffa500]Внимание! Эта раса не рекомендуется новичкам из-за серьёзных изменений в геймплее![/color]
 
-  Avali are a species of ammonia-based intelligent bird/raptor people and due to this odd combination many refer to them as "Space Raptors" and, as you might expect, are carnivores. Their unique biology allows them to deal exceedingly well with the cold, and is capable of basic flight in no to low gravity environments.
+  Авали - раса разумных аммиачных птице-/ящероподобных существ, и из-за этого странного сочетания многие называют их «космическими раптарами», и, как можно ожидать, они хищники. Их уникальная биология позволяет им отлично переносить холод и способна на простой полёт в условиях нулевой или низкой гравитации.
 
-  ## Racial Features
+  ## Расовые особенности
 
-  - Receive [color=#ffa500]40% more fire damage[/color] and [color=#1e90ff]40% less cold damage[/color].
-  - Can stand in tempatures of up to [color=#1e90ff]-50c before taking cold damage[/color].
-  - Deal [color=red]6.25[/color] slashing damage with claws.
-  - Can fly in Zero-G.
-  - 1.8x Hunger rate, stay fed!
-  - Can only eat meat-related food items (including organs) and pills.
-  - Heal airloss from Ammonia and Amoxla but..
-  - Saline will burn you, and both Dexalin and Dexalin+ are lethal to you. Remember to remind doctors about it!
-  - Fall into crit at [color=red]90[/color] and dead at [color=red]180[/color].
+  - Получают [color=#ffa500]на 40% больше урона от огня[/color] и [color=#1e90ff]на 40% меньше холодового урона[/color].
+  - Могут находиться при температурах до [color=#1e90ff]-50 °C, не получая холодового урона[/color].
+  - Наносят [color=red]6,25[/color] режущего урона когтями.
+  - Могут летать в невесомости.
+  - Скорость голода в 1,8 раза выше, следите за сытостью!
+  - Могут есть только продукты, связанные с мясом (включая органы), и таблетки.
+  - Лечат удушье аммиаком и амоксла, но..
+  - Физраствор вас обожжёт, а и дексалин, и дексалин плюс смертельны для вас. Не забывайте напоминать об этом врачам!
+  - Впадают в крит при [color=red]90[/color] и умирают при [color=red]180[/color].
 
-  ## Sounds
-  Avali, like Resomi, make sounds akin to common bird noises found on Earth, such as chirping and squawking.
+  ## Звуки
+  Авали, как и ресоми, издают звуки, похожие на обычные птичьи звуки Земли, такие как чириканье и щебетание.
 
-  ## Nexus Technological Hivemind
-  Due to an implant that all Avali are given at birth, they have a neural connection to the Nexus.
-  This allows them to communicate with others of their species over a technological network.
-  Use the [color=orange]+n[/color] prefix in chat to send a message to all Avali and Resomi anonymously.
+  ## Технологический разум Нексуса
+  Благодаря импланту, который вставляют всем авали при рождении, у них есть нейронная связь с Нексусом.
+  Это позволяет им общаться с другими представителями своего вида по технологической сети.
+  Используйте префикс [color=orange]+n[/color] в чате, чтобы анонимно отправлять сообщение всем авали и ресоми.
 
-  ## Nanite Shell
-  Avali can encase themselves in a [color=#ffbc48]Nanite Shell[/color] to slowly heal most common types of damage.
-  It's more effective at restoring [color=red]brute[/color] than it is [color=#ffa500]burn[/color].
-  The shell can restore up to [color=#7CFC00]50 total damage[/color] before its nanites are depleted.
-  Similar to a shield with its damage reductions (Taking [color=red]full damage[/color] from all sources while reducing incoming damage to the Avali within).
-  The shell will [color=red]break after absorbing 50 damage[/color], ending its effects early.
+  ## Нанитовая оболочка
+  Авали могут заключить себя в [color=#ffbc48]нанитовую оболочку[/color], чтобы медленно лечить большинство распространённых видов урона.
+  Она эффективнее восстанавливает [color=red]физический урон[/color], чем [color=#ffa500]ожоги[/color].
+  Оболочка может восстановить до [color=#7CFC00]50 суммарного урона[/color], прежде чем её наниты истощатся.
+  Подобно щиту со снижением урона (получая [color=red]полный урон[/color] от всех источников, но снижая входящий урон авали внутри).
+  Оболочка [color=red]разрушится после поглощения 50 урона[/color], досрочно прекратив свои эффекты.
 </Document>

@@ -1,0 +1,10 @@
+ent-ProjectileCosmicNova = Астральная нова
+    .desc = Ой-ой.
+ent-ProjectileCosmic = Злобный болт
+    .desc = Ой.
+ent-ProjectileCosmicRazor = Астральный болт
+    .desc = Ой.
+ent-BulletImpactEffectCosmic = { "" }
+    .desc = { "" }
+ent-CosmicLambdaBeam = Луч стабилизатора нуль-пространства
+    .desc = { ent-BasicHitscan.desc }

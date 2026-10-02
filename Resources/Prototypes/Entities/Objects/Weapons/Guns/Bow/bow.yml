@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       projectiles:
-        name: Projectiles
+        name: item-slot-component-slot-name-projectiles # LP edit
         startingItem: null
         insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
         whitelist:

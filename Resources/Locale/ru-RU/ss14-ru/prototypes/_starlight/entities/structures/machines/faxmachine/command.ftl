@@ -1,0 +1,11 @@
+ent-FaxMachineCommandBase = { ent-FaxMachineBase }
+    .desc = { ent-FaxMachineBase.desc }
+ent-FaxMachineCommandBridge = { ent-FaxMachineCommandBase }
+    .desc = { ent-FaxMachineCommandBase.desc }
+    .suffix = КОМ: мостик
+ent-FaxMachineCommandConference = { ent-FaxMachineCommandBase }
+    .desc = { ent-FaxMachineCommandBase.desc }
+    .suffix = КОМ: конференц-зал
+ent-FaxMachineCommandAICore = { ent-FaxMachineCommandBase }
+    .desc = { ent-FaxMachineCommandBase.desc }
+    .suffix = КОМ: ядро ИИ

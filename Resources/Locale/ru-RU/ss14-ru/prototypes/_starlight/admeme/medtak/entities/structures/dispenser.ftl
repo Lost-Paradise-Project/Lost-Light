@@ -1,0 +1,10 @@
+ent-SolutionPlumbingSmartDispenserMedTakFilledFridge = { ent-Solution }
+    .desc = { ent-Solution.desc }
+ent-SolutionPlumbingSmartDispenserMedTakWallmountFilledFridge = { ent-Solution }
+    .desc = { ent-Solution.desc }
+ent-PlumbingSmartDispenserMedTakFilled = Умный раздатчик
+    .desc = Умный раздатчик, предзаполненный широким набором медицинских реагентов.
+    .suffix = Заполнен
+ent-PlumbingSmartDispenserMedTakWallmountFilled = Настенный раздатчик
+    .desc = Настенный умный раздатчик, заполненный широким набором медицинских реагентов.
+    .suffix = Заполнен

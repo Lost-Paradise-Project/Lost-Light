@@ -20,8 +20,6 @@
     Head: MobSlimeHead
     Hair: MobSlimeMarkingAlfa
     FacialHair: MobSlimeMarkingFollowSkin
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobSlimeTorso
     Eyes: MobHumanoidAnyMarking # Starlight
     Tail: MobHumanoidAnyMarking # Starlight

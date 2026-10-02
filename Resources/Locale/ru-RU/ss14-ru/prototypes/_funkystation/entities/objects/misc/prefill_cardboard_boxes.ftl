@@ -1,0 +1,15 @@
+ent-CardboardBoxLargeInternalsFilled = малая коробка аварийного дыхательного снабжения
+    .desc = { ent-CardboardBoxLargeInternals.desc }
+    .suffix = ЗАПОЛНЕНО
+ent-CardboardBoxLargeCargoRoundstart = коробка снабжения карго
+    .desc = { ent-CardboardBoxLargeCargo.desc }
+    .suffix = Начало раунда карго
+ent-CardboardBoxLargeEngiRoundstart = коробка снабжения инженерии
+    .desc = { ent-CardboardBoxLargeEngi.desc }
+    .suffix = Начало раунда инженерии
+ent-CardboardBoxLargeBureaucracy = коробка офисных принадлежностей
+    .desc = { ent-CardboardBoxLarge.desc }
+    .suffix = Офис
+ent-CardboardBoxLargeServiceJani = коробка уборочных принадлежностей
+    .desc = { ent-CardboardBoxLargeService.desc }
+    .suffix = Уборщик

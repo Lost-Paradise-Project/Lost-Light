@@ -1,0 +1,10 @@
+ent-ClothingHeadHatHoodWinterChemSenior = капюшон зимнего пальто старшего химика
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
+ent-ClothingHeadHatHoodWinterSeniorCourier = капюшон парадного зимнего пальто карго
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
+ent-ClothingHeadHatHoodWinterRoboAlt = капюшон белого зимнего пальто робототехники
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
+ent-ClothingHeadHatHoodCorpsman = капюшон санитара
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
+ent-ClothingHeadHatHoodWinterDutyOfficer = капюшон пальто дежурного офицера
+    .desc = { ent-ClothingHeadHatHoodWinterBase.desc }

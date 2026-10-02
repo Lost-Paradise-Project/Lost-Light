@@ -18,12 +18,15 @@ pr = repo.get_pull(int(PR_NUMBER))
 pr_body = pr.body or ""
 
 # Check if changelog section exists
-if "**Changelog**" not in pr_body:
+# LP edit start
+# В нашем шаблоне PR заголовок раздела - «**Список изменений**»
+if "**Changelog**" not in pr_body and "**Список изменений**" not in pr_body:
     print("No changelog section found, skipping validation.")
     sys.exit(0)
 
 # Extract changelog content
-changelog_match = re.search(r'\*\*Changelog\*\*\s*(.*?)$', pr_body, re.DOTALL)
+changelog_match = re.search(r'\*\*(?:Changelog|Список изменений)\*\*\s*(.*?)$', pr_body, re.DOTALL)
+# LP edit end
 if not changelog_match or not changelog_match.group(1).strip():
     print("::error::Changelog section is empty. Please add changelog entries or remove the section.")
     sys.exit(1)

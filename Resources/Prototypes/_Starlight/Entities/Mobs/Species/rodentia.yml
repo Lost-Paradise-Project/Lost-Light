@@ -67,8 +67,6 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.LFoot" ] # Starlight: Layering fix
     - map: [ "enum.HumanoidVisualLayers.RFoot" ] # Starlight: Layering fix
@@ -133,8 +131,6 @@
   - type: Rummager
   - type: HumanoidAppearance
     species: Rodentia
-    undergarmentTop: UndergarmentTopTanktopRodentia
-    undergarmentBottom: UndergarmentBottomBoxersRodentia
     hideLayersOnEquip:
     - Hair
     - HeadTop

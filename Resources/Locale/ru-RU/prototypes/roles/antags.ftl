@@ -45,7 +45,7 @@ roles-antag-dragon-name = Космический дракон
 roles-antag-dragon-objective = Создайте армию карпов для захвата квадранта.
 
 # Starlight start
-roles-antag-changeling-description = Use your shapeshifting abilities to complete your objectives.
+roles-antag-changeling-description = Используйте способность менять облик, чтобы выполнить свои цели.
 # Starlight end
 
 roles-antag-mothership-core-name = Ядро ксеноборгов

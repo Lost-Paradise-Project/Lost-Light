@@ -12,8 +12,8 @@ comms-console-menu-emergency-shuttle-button-tooltip = Вызывает или о
 comms-console-menu-time-remaining = Оставшееся время: { $time }
 
 # Starlight Start: Secure Command Terminal
-comms-console-menu-secure-terminal-button = Secure Terminal
-comms-console-menu-secure-terminal-button-tooltip = Opens the Secure Terminal.
+comms-console-menu-secure-terminal-button = Защищённый терминал
+comms-console-menu-secure-terminal-button-tooltip = Открывает защищённый терминал.
 # Starlight End
 
 # Popup

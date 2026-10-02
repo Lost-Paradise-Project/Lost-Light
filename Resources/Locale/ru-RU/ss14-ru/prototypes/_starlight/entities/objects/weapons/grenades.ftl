@@ -1,0 +1,12 @@
+ent-LubeGrenade = смазочная граната
+    .desc = Специальная граната для проделок, выпускающая большое облако смазочной пены.
+ent-GlueGrenade = клеевая граната
+    .desc = Специальная граната для проделок, выпускающая большое облако клеевой пены.
+ent-ToxicGasGrenade = кислотная газовая граната
+    .desc = Болезненная газовая граната для контроля толпы, полная серной кислоты. Включите внутренний воздух перед использованием.
+ent-HalonGasGrenade = газовая граната галона
+    .desc = Специальная твердотельная химическая граната для быстрого выпуска галона для тушения пожаров.
+ent-Grenade20mmStinger = { ent-ProjectileGrenadeBase }
+    .desc = { ent-ProjectileGrenadeBase.desc }
+ent-Grenade20mmGas = { ent-ProjectileGrenadeBase }
+    .desc = { ent-ProjectileGrenadeBase.desc }

@@ -28,11 +28,14 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
-    - map: ["jumpsuit"]
-    - map: ["enum.HumanoidVisualLayers.LFoot"]
-    - map: ["enum.HumanoidVisualLayers.RFoot"]
+    # LP edit start
+    - map: [ "breast" ]
+    - map: [ "underwear" ]
+    - map: [ "enum.HumanoidVisualLayers.LFoot" ]
+    - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+    - map: [ "socks" ]
+    - map: [ "jumpsuit" ]
+    # LP edit end
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: [ "outerClothing2" ] # FH + Starlight
     - map: ["enum.HumanoidVisualLayers.RHand"]
@@ -212,11 +215,14 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-    - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
-    - map: ["jumpsuit"]
-    - map: ["enum.HumanoidVisualLayers.LFoot"]
-    - map: ["enum.HumanoidVisualLayers.RFoot"]
+    # LP edit start
+    - map: [ "breast" ]
+    - map: [ "underwear" ]
+    - map: [ "enum.HumanoidVisualLayers.LFoot" ]
+    - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+    - map: [ "socks" ]
+    - map: [ "jumpsuit" ]
+    # LP edit end
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: [ "outerClothing2" ] # FH + Starlight
     - map: ["enum.HumanoidVisualLayers.RHand"]
@@ -248,7 +254,6 @@
       sprite: "Effects/creampie.rsi"
       state: "creampie_human"
       visible: false
-
 
 - type: entity
   parent: [BaseNeocyteAppearance, BaseSpeciesDummy]

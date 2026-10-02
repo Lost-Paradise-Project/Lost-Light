@@ -1,0 +1,10 @@
+ent-HoloprojectorEngineering = инженерный предупреждающий голопроектор
+    .desc = Создаёт непрочную предупреждающую проекцию для обозначения опасностей.
+ent-HoloprojectorEngineeringEmpty = { ent-HoloprojectorEngineering }
+    .desc = { ent-HoloprojectorEngineering.desc }
+    .suffix = Пусто
+ent-FalseShutterProjector = ложный ставень-проектор
+    .desc = Выглядит почти как настоящий. Полезен, чтобы закрыть обзор отвлечённым или невнимательным, пока вы делаете что нужно.
+ent-FalseShutterProjectorEmpty = { ent-FalseShutterProjector }
+    .desc = { ent-FalseShutterProjector.desc }
+    .suffix = Пусто

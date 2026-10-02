@@ -1,0 +1,12 @@
+ent-BaseAutoMender = автолекарь
+    .desc = Устройство для лечения пациентов от механических повреждений, ожогов или обоих типов.
+ent-AutoMenderBrute = автолекарь от механических повреждений
+    .desc = Устройство для лечения пациентов от механических повреждений, ожогов или обоих типов. Для работы использует бикаридин.
+ent-AutoMenderBruteFilled = { ent-AutoMenderBrute }
+    .desc = { ent-AutoMenderBrute.desc }
+    .suffix = Заполнен
+ent-AutoMenderBurn = автолекарь от ожогов
+    .desc = Устройство для лечения пациентов от механических повреждений, ожогов или обоих типов. Для работы использует дермалин.
+ent-AutoMenderBurnFilled = { ent-AutoMenderBurn }
+    .desc = { ent-AutoMenderBurn.desc }
+    .suffix = Заполнен

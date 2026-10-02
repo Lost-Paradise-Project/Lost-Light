@@ -1,0 +1,15 @@
+ent-BaseCellBars = прутья камеры
+    .desc = Прочный набор металлических прутьев.
+ent-CellBarsBroken = сломанные прутья камеры
+    .desc = Кто-то очень разозлился на неодушевлённый предмет.
+ent-CellBarsStraight = { ent-BaseCellBars }
+    .desc = { ent-BaseCellBars.desc }
+    .suffix = Прямые
+ent-CellBarsCorner = { ent-BaseCellBars }
+    .desc = { ent-BaseCellBars.desc }
+    .suffix = Угол
+ent-CellBarsEnd = { ent-BaseCellBars }
+    .desc = { ent-BaseCellBars.desc }
+    .suffix = Конец
+ent-CellBarsGate = ворота из прутьев камеры
+    .desc = Можно было бы воспользоваться дверью, если бы она была.

@@ -1,0 +1,41 @@
+action-speech-spell-icestorm = ГЛАЦИЯ ТЕМПЕСТАС!
+action-speech-spell-icestorm-tts = Глация ТЕМП-Э-СТАС!
+
+action-speech-cantrip-glow = А калья нин.
+action-speech-cantrip-glow-tts = А-а .. калья ..  нин!!!
+action-speech-cantrip-spark = Хуиссэ, а тинта.
+action-speech-cantrip-spark-tts = Хуиссээ,  А .. тинта!
+action-speech-cantrip-antidote = А олэ теннойо.
+action-speech-cantrip-antidote-tts = А! ... оли ... теннойо.
+action-speech-cantrip-mop = Пойтина.
+action-speech-cantrip-mop-tts = Пойтина.
+action-speech-cantrip-bandage = Серкэ, а рака улеаста.
+action-speech-cantrip-bandage-tts = Серкиэ, а раке .. юлеаста!
+
+prayer-popup-subtle-psychic-whisper = Вы чувствуете шёпот в своём разуме...
+
+action-speech-spell-firebolt = ИГНИС!!
+action-speech-spell-firebolt-tts = Игниссс!!
+action-speech-spell-fireorb = ИНКАНДЕ ОМНЕС !!
+action-speech-spell-fireorb-tts = ИНКАНДЕ ОМНЕС!!
+action-speech-spell-explosionrune = ДЕТОНО !
+action-speech-spell-explosionrune-tts = ДЕТОНО!!
+action-speech-spell-iginiterune = АРДЕ ВИВАТ !!
+action-speech-spell-iginiterune-tts = АРДЕ ВИВАТ!!
+action-speech-spell-firearrow = ФЛАГРА !
+action-speech-spell-firearrow-tts = ФЛАГРА!!
+action-speech-spell-frozentome = ГЛАЦИЯ !!
+action-speech-spell-summonice  = ИН ИМПЕРИУМ МУЭМ, ГЛАЦИЕС !!
+action-speech-spell-summonice-tts = ИН ИМПЕРИУМ МУЭМ ГЛАКИЕС!!
+action-speech-spell-freezerune = ИНГЕЛАСКАС !
+action-speech-spell-freezerune-tts = ИНГЕЛАСКАС!!
+action-speech-spell-arcticglare = УЛУЛАТУС АРТИЦИ !!
+action-speech-spell-arcticglare-tts = УЛУЛАТУС АРТИКИ!!
+action-speech-spell-iceshard = АЛГОР ТЕ КАПИАТ !
+action-speech-spell-iceshard-tts = АЛГОТ ТЕЙ КАПИАТ!
+action-speech-spell-iceorb = МОРС ФРЕГИДА ЭСТ !
+action-speech-spell-iceorb-tts = МОРС ФРИГИДА ЭСТЕ!
+action-speech-spell-icepillars = ТЕ ЭВОКО, ГЛАЦИЕС !
+action-speech-spell-icepillars-tts = ТЕ ЭБОКО, ГЛАКИЕС!!
+action-speech-spell-eruption = КОНКРЕМАРЕ !
+action-speech-spell-eruption-tts = КОНКРЕМАРЕ!!

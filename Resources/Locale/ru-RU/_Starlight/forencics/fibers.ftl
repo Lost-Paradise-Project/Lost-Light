@@ -1,0 +1,16 @@
+fibers-cloth = ткань
+fibers-fur = мех
+fibers-purple-fur = фиолетовая шерсть
+fibers-red-fur = красная шерсть
+fibers-black-fur = чёрная шерсть
+fibers-red-and-black-woven-fur = красно-чёрная плетёная шерсть
+fibers-blue-fur = синяя шерсть
+fibers-teal-fur = бирюзовая шерсть
+fibers-brown-fur = коричневая шерсть
+fibers-light-brown-fur = светло-коричневая шерсть
+fibers-grey-fur = серая шерсть
+fibers-green-fur = зелёная шерсть
+fibers-orange-fur = оранжевая шерсть
+fibers-white-fur = белая шерсть
+fibers-yellow-fur = жёлтая шерсть
+fibers-dark-black-fur = насыщенно-чёрная шерсть

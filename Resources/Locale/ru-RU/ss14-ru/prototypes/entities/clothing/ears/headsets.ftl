@@ -1,7 +1,7 @@
 ent-ClothingHeadset = гарнитура
     .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
-ent-ClothingHeadsetAssistant = assistant headset
-    .desc = A headset used by assistants.
+ent-ClothingHeadsetAssistant = гарнитура ассистента
+    .desc = Гарнитура, используемая ассистентами.
 ent-ClothingHeadsetCargo = гарнитура отдела снабжения
     .desc = Гарнитура, используемая сотрудниками отдела снабжения.
 ent-ClothingHeadsetMining = шахтёрская гарнитура
@@ -40,5 +40,3 @@ ent-ClothingHeadsetWizard = гарнитура волшебника
     .desc = Гарнитура, используемая ужасными космическими волшебниками.
 ent-ClothingHeadsetNinja = зелёная гарнитура
     .desc = Кто откажется носить эту стильную чёрно-зелёную гарнитуру?
-ent-ClothingHeadsetGrey = гарнитура пассажира
-    .desc = { ent-ClothingHeadset.desc }

@@ -1,0 +1,14 @@
+ent-CasinoIDCard = { ent-IDCardStandard }
+    .desc = { ent-IDCardStandard.desc }
+ent-CasinoIDCardDealer = ID-карта дилера Гоморры
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardOwner = ID-карта владельца Гоморры
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardManager = ID-карта менеджера Гоморры
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardSecurity = ID-карта СБ Гоморры
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardBrigmed = ID-карта бригмедика Гоморры
+    .desc = { ent-CasinoIDCard.desc }
+ent-CasinoIDCardTreasurer = ID-карта казначея Гоморры
+    .desc = { ent-CasinoIDCard.desc }

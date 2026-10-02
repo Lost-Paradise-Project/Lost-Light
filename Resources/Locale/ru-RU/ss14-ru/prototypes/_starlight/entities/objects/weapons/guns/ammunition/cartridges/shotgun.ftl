@@ -1,0 +1,10 @@
+ent-BoxShotgunBirdshot = коробка дроби 12 калибра
+    .desc = Картонная коробка с патронами дробовика 12 калибра, заряженными мелкой дробью. Широкий разброс, малая дальность, любима «Клыком» GA-6.
+ent-ShellShotgunBirdshot = дробь 12 калибра
+    .desc = Патрон с широким разбросом, заряженный десятками крошечных дробинок. Разрушителен вблизи, почти бесполезен на расстоянии. Стандартное снаряжение для «Клыка» GA-6.
+ent-BaseShellShotgunToz = патрон 20 калибра
+    .desc = { ent-BaseCartridge.desc }
+ent-ShellShotgunToz = патрон 20 калибра
+    .desc = { ent-BaseShellShotgunToz.desc }
+ent-ShellShotgunBreaching = пробивной патрон 12 калибра
+    .desc = { ent-BaseShellShotgun.desc }

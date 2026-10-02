@@ -1,0 +1,12 @@
+ent-CentCommFlag = Флаг ЦентКома
+    .desc = Бывшая Stellar Vanguard Solutions.
+ent-CybersunFlag = Флаг CyberSun
+    .desc = Бумага, костюм, прогресс.
+ent-InterdyneFlag = Флаг Interdyne Pharmaceutics
+    .desc = Для здоровья каждого.
+ent-InterdyneSyndicateFlag = Флаг Interdyne Pharmaceutics?
+    .desc = Д-я зд_ровья ка_дого.
+ent-DonkFlag = Флаг DONK CO
+    .desc = Поставь на это ДОНК!
+ent-WaffleCoFlag = Флаг Waffle Corp
+    .desc = Надёжно и вкусно.

@@ -4,8 +4,9 @@
     xmlns:controls="clr-namespace:Content.Client.UserInterface.Systems.Inventory.Controls"
     Name="StrippingDisplay"
     HorizontalExpand="True"
-    Title="Stripping"
+    Title="{Loc 'stripping-window-title'}"
     VerticalExpand="True"
 >
+    <!-- LP edit: английские тексты заменены на {Loc '...'} -->
     <controls:InventoryDisplay Name="InventoryButtons" Access="Public"/>
 </windows:StrippingWindow>

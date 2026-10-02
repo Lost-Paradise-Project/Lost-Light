@@ -1,15 +1,15 @@
 <Document>
-# Lawyer
+# Адвокат
 
-<GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Lawyer"/>
+<GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Адвокат"/>
 
-1. Lawyers report directly to the Head of Personnel.
+1. Адвокаты подчиняются непосредственно главе персонала.
 
-2. Lawyers must report to court when summoned for a trial, and are expected to provide legal counsel to their clients, and other duties as assigned.
+2. Адвокаты обязаны являться в суд по вызову на разбирательство, оказывать юридическую помощь своим клиентам и выполнять другие назначенные обязанности.
 
-3. When arbitrating petty disputes between Central Command-employed personnel, Lawyers are expected to be impartial and provide fair mediation to all parties involved.
+3. При разрешении мелких споров между сотрудниками, нанятыми Центральным командованием, от адвокатов ожидается беспристрастность и честное посредничество для всех сторон.
 
-4. Unless requested by a member of Security or Command, Lawyers are not expected to involve themselves in the legal matters of prisoners outside of plea bargains, and must defer to Internal Affairs Agents in these matters.
+4. Если не просят сотрудники СБ или командования, адвокаты не должны вмешиваться в юридические дела заключённых сверх сделок о признании вины и в этих вопросах обязаны уступать агентам внутренних дел.
 
-5. The Head of Personnel retains the right to dismiss a Lawyer from their position immediately, without need for justification or a dismissal form.
+5. Глава персонала сохраняет право немедленно уволить адвоката с должности без обоснования и бланка увольнения.
 </Document>

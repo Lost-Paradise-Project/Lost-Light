@@ -73,7 +73,7 @@
     speed: 120
   - type: NavMapBeacon
     color: "#ff0000"
-    text: nuclear fission explosive
+    defaultText: nav-beacon-nuke # LP edit
     enabled: false
   - type: NukeLabel
   - type: Nuke

@@ -1,0 +1,10 @@
+ent-CrateVendingMachineRestockSustenanceFilled = ящик пополнения продавца питания
+    .desc = Содержит коробку пополнения для продавца питания.
+ent-CrateLabellerRefillPaperFilled = ящик бумаги для пополнения этикетировщика
+    .desc = Содержит бумагу для пополнения этикетировщика.
+ent-CrateVendingMachineRestockDonkFilled = ящик пополнения «Донк на ходу»
+    .desc = Содержит коробку пополнения для продавца «Донк на ходу».
+ent-CrateVendingMachineRestockIceCreamFilled = ящик пополнения мороженого
+    .desc = Содержит коробку пополнения для «Я кричу, мороженое».
+ent-CrateVendingMachineRestockGumballFilled = ящик пополнения раздатчика жвачных шариков
+    .desc = Содержит коробку пополнения для раздатчиков жвачных шариков.

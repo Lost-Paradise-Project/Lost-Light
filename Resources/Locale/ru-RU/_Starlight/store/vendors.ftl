@@ -1,0 +1,9 @@
+vendor-hug-dispenser = раздатчик объятий
+vendor-medical-dispenser = медицинский раздатчик
+vendor-engineering-dispenser = инженерный раздатчик
+vendor-clown-dispenser = ХохохонкерВенд
+vendor-mime-dispenser = автомат тишины
+vendor-security-dispenser = раздатчик СБ
+vendor-fashion-o-mat = Мода-Мат
+vendor-salvage-ticket-machine = автомат билетов утилизации
+vendor-mining-ticket-machine = автомат билетов добычи

@@ -1,0 +1,7 @@
+- type: latheCategory
+  id: Templates
+  name: lathe-category-templates
+
+- type: latheCategory
+  id: Orders
+  name: lathe-category-orders

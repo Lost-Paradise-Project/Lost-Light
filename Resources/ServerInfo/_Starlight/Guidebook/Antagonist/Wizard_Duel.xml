@@ -1,8 +1,8 @@
 <Document>
-  # Wizard Duel
+  # Дуэль волшебников
 <!-- Moved to Starlight from Moff Station since we're making a fair bit of changes. -->
   <Box>
-    [color=#457573][italic]I CHALLENGE THEE TO A DUEL![/italic][/color]
+    [color=#457573][italic]ВЫЗЫВАЮ ТЕБЯ НА ДУЭЛЬ![/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadHatRedwizard" Caption=""/>
@@ -12,12 +12,12 @@
     <GuideEntityEmbed Entity="ClothingHeadHatPurplewizard" Caption=""/>
     <GuideEntityEmbed Entity="ClothingHeadHatOrangewizard" Caption=""/>
   </Box>
-  In aeons of conflict and strife, the various schools of the Space Wizards Federation have learned to resolve their differences in ways that best reflect their unpredictable nature; the ancient rite of a wizard duel!
-  With each faction sending one of their own to act as the representative of their school, these wizards compete to prove that their mastery of sorcery and magic is unparalleled, helping decide the future of the Space Wizards Federation in events following.
+  В эпохи конфликтов и раздоров разные школы Федерации космических волшебников научились разрешать разногласия способами, лучше всего отражающими их непредсказуемую природу; древним обрядом волшебной дуэли!
+  Каждая фракция отправляет одного из своих как представителя своей школы, и эти волшебники соревнуются, чтобы доказать, что их мастерство в колдовстве и магии не знает себе равных, помогая определить будущее Федерации космических волшебников в последующих событиях.
 
-  As a result, wizard duelists are a [color=red][bold]Solo Antagonists[/color][/bold] role that causes trouble on station not through direct antagonization, but rather collateral damage fighting other wizard duelists.<!-- Starlight, changed to Solo Antagonists -->
+  В результате дуэлянты-волшебники - роль [color=red][bold]антагонистов-одиночек[/color][/bold], которые создают проблемы на станции не прямым антагонизмом, а побочным ущербом от сражений с другими дуэлянтами-волшебниками.<!-- Starlight, changed to Solo Antagonists -->
 
-  ## The Rites of Dueling
+  ## Обряды дуэли
   <Box>
     <GuideEntityEmbed Entity="WizardTeleportScroll" Caption=""/>
   </Box>
@@ -31,20 +31,20 @@
     <GuideEntityEmbed Entity="OrangeWizardDuelistMedallion" Caption=""/>
   </Box>
 
-  Each wizard duel is a unique and chaotic experience, and often causes untold destruction to any souls unfortunate to be caught in between.
-  With this in mind, there are a few traditions set in place from wizards of yore, that must be upheld for any sanctioned duel:
-  - No duel shall take place on Space Wizards Federation grounds.
-  - All duelists must set the terms of engagement prior to the cast of the first spell.
-  - The duel must involve magic.
-  - Duelists must always wear the colors of their respective school, except when wearing void robes or a space suit, but only if absolutely necessary.
-  - Medallions must be visibly worn by all duelists at all times, without exception.
-  - The victor must hold at least 3 Space Wizards Federation medallions to be declared the winner of the duel. If multiple duelists have 3 or more medallions, then the duel continues until only one duelist remains with 3 or more medallions.
-  - Once the terms of engagement are set, no duelist shall breach said terms.
-  - Outsiders who steal medallions are to be dealt with harshly.
-  - The victor must return alive to tell the tale.
+  Каждая волшебная дуэль - уникальный и хаотичный опыт, и она часто причиняет невообразимые разрушения любым несчастным душам, оказавшимся между ними.
+  С учётом этого есть несколько традиций, установленных волшебниками древности, которые должны соблюдаться при любой санкционированной дуэли:
+  - Никакая дуэль не должна проходить на землях Федерации космических волшебников.
+  - Все дуэлянты должны установить условия схватки до первого заклинания.
+  - Дуэль должна включать магию.
+  - Дуэлянты всегда должны носить цвета своей школы, кроме случаев ношения мантий пустоты или космического скафандра, но только если это абсолютно необходимо.
+  - Медальоны должны быть на виду у всех дуэлянтов постоянно, без исключений.
+  - Победитель должен иметь не менее 3 медальонов Федерации космических волшебников, чтобы быть объявленным победителем дуэли. Если у нескольких дуэлянтов 3 или более медальонов, дуэль продолжается, пока не останется лишь один дуэлянт с 3 или более медальонами.
+  - Когда условия схватки установлены, ни один дуэлянт не должен нарушать эти условия.
+  - С посторонними, крадущими медальоны, следует поступать сурово.
+  - Победитель должен вернуться живым, чтобы рассказать историю.
 
-  Terms of engagement often consist of discussion of what spells, wands, and equipment are valid or prohibited from use, what defines victory and defeat, and if collaboration with battleground denizens is permitted.
+  Условия схватки часто состоят из обсуждения того, какие заклинания, жезлы и снаряжение допустимы или запрещены к использованию, что определяет победу и поражение и разрешено ли сотрудничество с обитателями поля боя.
 
-  Most importantly of all, be creative! Simple combat duels and pointless killing of lesser denizens is unimaginative, and the Space Wizards Federation would rather at least one of you return alive.
+  Важнее всего - будьте изобретательны! Простые боевые дуэли и бессмысленное убийство мелких обитателей - это скучно, и Федерация космических волшебников предпочла бы, чтобы хотя бы один из вас вернулся живым.
 
 </Document>

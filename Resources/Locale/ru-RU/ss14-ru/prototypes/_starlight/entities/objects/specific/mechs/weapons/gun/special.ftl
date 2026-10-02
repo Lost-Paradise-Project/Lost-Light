@@ -1,0 +1,11 @@
+ent-WeaponMechSpecialMousetrapMortar = мышеловочная мортира
+    .desc = Установленный пускатель мышеловок.
+    .suffix = Оружие меха, пушка, особое, мортира
+ent-WeaponMechSpecialBananaMortar = банановая мортира
+    .desc = Установленный пускатель банановой кожуры.
+    .suffix = Оружие меха, пушка, особое, мортира
+ent-WeaponMechSpecialPieCannon = Механизированная пирожковая пушка HX-3
+    .desc = Инструмент клоунады для XXVI века. Хонкни их всех...
+    .suffix = Оружие меха, пушка, особое, мортира
+ent-WeaponMechSpecialAirHorn = хОнКеР 5000
+    .desc = Вот это громко! ХОНК!

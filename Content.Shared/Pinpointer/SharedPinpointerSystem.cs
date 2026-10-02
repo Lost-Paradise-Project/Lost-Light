@@ -72,7 +72,8 @@ public abstract partial class SharedPinpointerSystem : EntitySystem
         if (!args.IsInDetailsRange || ent.Comp.TargetName == null)
             return;
 
-        args.PushMarkup(Loc.GetString("examine-pinpointer-linked", ("target", ent.Comp.TargetName)));
+        var target = Loc.TryGetString(ent.Comp.TargetName, out var locTarget) ? locTarget : ent.Comp.TargetName; // LP edit - в прототипах loc-ключ, у живых целей - готовое имя
+        args.PushMarkup(Loc.GetString("examine-pinpointer-linked", ("target", target))); // LP edit
     }
 
     /// <summary>

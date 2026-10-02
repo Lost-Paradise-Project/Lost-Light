@@ -1,0 +1,16 @@
+ent-BaseIPCOrganUnGibbable = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-SolutionBaseIPCOrganUnGibbableOrgan = { ent-Solution }
+    .desc = { ent-Solution.desc }
+ent-OrganIPCEyes = роботизированные глаза
+    .desc = Определённо не мягкие. Вообще-то, довольно острые.
+    .suffix = КПБ
+ent-OrganIPCTongue = голосовой модулятор
+    .desc = Голосовой модулятор, обычно используемый для лжи.
+    .suffix = КПБ
+ent-OrganIPCEars = роботизированные уши
+    .desc = Обрабатывают звук с тем же качеством, что и станционные киборги.
+    .suffix = КПБ
+ent-OrganIPCHeart = микронасос
+    .desc = Прокачивает хладагент до тошноты знакомым образом.
+    .suffix = КПБ

@@ -1,0 +1,11 @@
+ent-ClothingOuterWinterChemSenior = зимнее пальто старшего химика
+    .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
+ent-ClothingOuterWinterCargoSenior = парадное зимнее пальто карго
+    .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
+ent-ClothingOuterWinterRoboAlt = белое зимнее пальто робототехники
+    .desc = { ent-ClothingOuterWinterCoatToggleable.desc }
+ent-ClothingOuterWinterDutyOfficer = бронированное зимнее пальто дежурного офицера
+    .desc = Прочное утилитарное зимнее пальто, созданное, чтобы защитить дежурного офицера от любых наглых заключённых перма.
+ent-ClothingOuterWinterCapUnarmored = зимнее пальто капитана
+    .desc = Прочное пальто, тёплое пальто, но не бронированное пальто.
+    .suffix = Без брони

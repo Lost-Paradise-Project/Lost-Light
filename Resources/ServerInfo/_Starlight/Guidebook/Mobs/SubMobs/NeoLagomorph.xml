@@ -1,11 +1,11 @@
 <Document>
-  # Neo-Lagomorph
+  # Нео-лагоморф
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoLagomorph" Caption=""/>
   </Box>
 
-  ## Resistances
-  - Receive [color=#ffa500]35% more heat damage[/color] and [color=#8147ff]25% more shock damage[/color].
-  - Receive [color=#1e90ff]40% less cold damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 35% больше теплового урона[/color] и [color=#8147ff]на 25% больше урона током[/color].
+  - Получают [color=#1e90ff]на 40% меньше холодового урона[/color].
 </Document>

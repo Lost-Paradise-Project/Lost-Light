@@ -1,10 +1,10 @@
 <Document>
-# Brigmedic
+# Полевой врач
 
-<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Brigmedic"/>
+<GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Полевой врач"/>
 
 - 1.\n
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]коде «Зелёный»[/color]:
 
 <Box>
 	<GuideEntityEmbed Entity="MedkitAdvancedFilled"/>
@@ -22,7 +22,7 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
@@ -31,17 +31,17 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 
 - 2.\n
-The Brigmedic is not to perform the duties of the Security Officer, but may engage if transgressions occur in their immediate vicinity.
+Полевой врач не должен выполнять обязанности офицера СБ, но может вмешаться, если нарушения происходят в его непосредственной близости.
 
 - 3.\n
-The Brigmedic is obligated to lend medical assistance to the following Crew Assets, in order of importance:\n\n
-3.1 Members of Command\n
-3.2 Members of Security\n
-3.3 Prisoners and detainees
+Полевой врач обязан оказывать медицинскую помощь следующим активам экипажа в порядке важности:\n\n
+3.1 Члены командования\n
+3.2 Сотрудники СБ\n
+3.3 Заключённые и задержанные
 
 - 4.\n
-The Brigmedic is not obligated to lend aid to regular crew, but may do so if they have the time and resources.
+Полевой врач не обязан помогать обычному экипажу, но может делать это, если у него есть время и ресурсы.
 
 - 5.\n
-The Brigmedic is not to put themselves in harm's way unless there is no other choice.
+Полевой врач не должен подвергать себя опасности без крайней необходимости.
 </Document>

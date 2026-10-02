@@ -1,0 +1,9 @@
+ent-BaseBorgiChassis = { ent-MobCorgiSmart }
+    .desc = { ent-MobCorgiSmart.desc }
+    .suffix = { ent-MobCorgiSmart.suffix }
+ent-BaseStationBorgiChassis = Умный борги
+    .desc = Необычайно умная собака, любит перечислять свои законы.
+    .suffix = { ent-BaseBorgiChassis.suffix }
+ent-BaseSyndicateBorgiChassis = Борги Синдиката
+    .desc = Необычайно умная собака, но одержимая УБИЙСТВОМ.
+    .suffix = Антагонист

@@ -1,0 +1,15 @@
+ent-HealiumTankEmpty = баллон хелиума
+    .desc = Содержит смесь воздуха и хелиума. Держите давление 65, и он усыпит даже тех, кто дышит азотом. Вмещает 5 л газа.
+    .suffix = Пусто
+ent-HealiumTankFilled = { ent-HealiumTankEmpty }
+    .desc = { ent-HealiumTankEmpty.desc }
+    .suffix = Заполнен
+ent-ZXATankEmpty = баллон ZXA
+    .desc = Содержит смесь воздуха и ZXA. Держите давление 23,6, и он отправит любого с лёгкими прямиком в страну грёз. Вмещает 5 л газа.
+    .suffix = Пусто
+ent-ZXATankFilled = { ent-ZXATankEmpty }
+    .desc = { ent-ZXATankEmpty.desc }
+    .suffix = Заполнен
+ent-MechAirTankFilled = { ent-MechAirTank }
+    .desc = { ent-MechAirTank.desc }
+    .suffix = Заполнен

@@ -1,0 +1,15 @@
+ent-Telebond = телебонд
+    .desc = Устаревшие талоны, напечатанные с микрокристаллическим узором, используемые для вызова припасов через старый радио-аплинк, по-старому. «НЕ ЕСТЬ!» — Борис
+    .suffix = 20 ТБ
+ent-Telebond1 = { ent-Telebond }
+    .desc = { ent-Telebond.desc }
+    .suffix = 1 ТБ
+ent-Telebond5 = { ent-Telebond }
+    .desc = { ent-Telebond.desc }
+    .suffix = 5 ТБ
+ent-Telebond10 = { ent-Telebond }
+    .desc = { ent-Telebond.desc }
+    .suffix = 10 ТБ
+ent-BaseRevUplinkRadio = радио Связь-УЗЛ
+    .desc = Советское радио узла связи, широко применяемое силами УССР. Это модифицировано для агентов СКБ и их активов. Несанкционированное использование настоятельно не рекомендуется, потому что мы вас найдём.
+    .suffix = Пусто

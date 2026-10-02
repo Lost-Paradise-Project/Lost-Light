@@ -9,7 +9,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: MentorRolesReq
+    requirement: LPMentorsReq # LP edit
   category: Mentor
 
 - type: ghostTheme
@@ -23,5 +23,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: MentorRolesReq
+    requirement: LPMentorsReq # LP edit
   category: Mentor

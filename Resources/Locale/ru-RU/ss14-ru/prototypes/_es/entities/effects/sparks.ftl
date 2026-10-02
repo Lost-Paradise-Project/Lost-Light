@@ -1,0 +1,2 @@
+ent-ESEffectSparks = искры
+    .desc = { "" }

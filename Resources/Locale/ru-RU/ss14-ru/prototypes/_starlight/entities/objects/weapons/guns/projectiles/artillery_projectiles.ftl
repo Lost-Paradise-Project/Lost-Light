@@ -1,0 +1,12 @@
+ent-BulletDravon75mmHE = 75-мм фугасный снаряд DVN-75
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletAK570_90mmHE = 90-мм фугасный снаряд AK-90
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletLeviathan240mmHE = 240-мм фугасный снаряд LVT-240
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletGrenade120mmBlast = 120-мм фугасная граната
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletCharon280mmSlug = 280-мм снаряд M381 CHARYBDIS
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletCharon280mmSubnuclear = 280-мм подъядерный снаряд M381 CHARYBDIS
+    .desc = { ent-BaseBulletTrigger.desc }

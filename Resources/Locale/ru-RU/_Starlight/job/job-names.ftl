@@ -1,0 +1,32 @@
+job-name-assistant = Ассистент
+job-name-stirstir = Размешать, размешать
+job-name-cook-assistant = Помощник повара
+job-name-delivery-assistant = Курьер
+job-name-handyman-assistant = Помощник разнорабочего
+job-name-religious-assistant = Религиозный ассистент
+job-name-shopkeeper-assistant = Лавочник
+job-name-medical-assistant = Медицинский ассистент
+job-name-gardener-assistant = Ассистент садовода
+job-name-clerical-assistant = Ассистент-делопроизводитель
+job-name-janitor-assistant = Ассистент уборщика
+
+# Role timers - Apparently someone from upstream will cut us if these aren't alphabetical?
+JobBlueShield = Офицер Синего щита
+JobBoxer = Боксёр
+JobDutyOfficer = Дежурный офицер
+JobIAA = агент внутренних дел
+JobK9 = Служебная собака СБ
+JobMagistrate = Магистрат
+JobMailTech = Почтовый техник
+JobMiningSpecialist = Специалист по добыче
+JobNanotrasenCareerTrainer = Тренер карьеры НаноТрейзен
+JobNanoTrasenRepresentative = Представитель НаноТрейзен
+JobPerformer = Артист
+JobRoboticist = Робототехник
+JobSalvageLead = Глава утилизаторов
+JobSurgeon = Хирург
+JobZookeeper = Смотритель зоопарка
+JobCentCommServiceWorker = Работник обслуживания ЦентКома
+JobCentCommChef = Повар ЦентКома
+JobCentCommBartender = Бармен ЦентКома
+JobCentCommJanitor = Уборщик ЦентКома

@@ -1,0 +1,14 @@
+ent-ActionToggleCyberLimb = Переключить конечность
+    .desc = Переключить конечность.
+ent-ActionToggleCyberHandLeft = Переключить руку.
+    .desc = Переключить левую руку
+ent-ActionToggleCyberHandRight = Переключить руку.
+    .desc = Переключить правую руку
+ent-ActionOpenStorageLeftLeg = Переключить орган-хранилище
+    .desc = Открывает или закрывает хранилище на вашей левой ноге
+ent-ActionOpenStorageRightLeg = Переключить орган-хранилище
+    .desc = Открывает или закрывает хранилище на вашей правой ноге
+ent-ActionToggleCoolingUnit = Переключить охлаждающий блок
+    .desc = Переключить портативный охлаждающий блок.
+ent-VentCrawlExitAction = Выйти из вентиляции
+    .desc = покинуть эти старые ветхие трубы.

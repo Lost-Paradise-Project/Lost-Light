@@ -1,0 +1,12 @@
+ent-SurgeryStepExposeNerves = Обнажить нервы
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepExposeBloodVessels = Обнажить кровеносные сосуды
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepDeepIncision = Глубокий разрез
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepRetractSkin = Отвести кожу
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepRetractMembrane = Отвести мембрану
+    .desc = { ent-SurgeryStepRetractSkin.desc }
+ent-SurgeryStepCoagulateJellyFlow = Свернуть поток желе
+    .desc = { ent-SurgeryStepBase.desc }

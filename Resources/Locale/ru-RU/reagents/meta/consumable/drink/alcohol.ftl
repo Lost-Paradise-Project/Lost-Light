@@ -175,8 +175,8 @@ reagent-desc-hooch = Либо чья-то неудача в приготовле
 reagent-name-iced-beer = пиво со льдом
 reagent-desc-iced-beer = Пиво настолько морозное, что воздух вокруг него замерзает.
 
-reagent-name-irish-car-bomb = Irish car bomb
-reagent-desc-irish-car-bomb = What's black and white and red all over?
+reagent-name-irish-car-bomb = ирландская автобомба
+reagent-desc-irish-car-bomb = Что чёрное, белое и красное со всех сторон?
 # Starlight Change Above
 
 reagent-name-irish-cream = Ирландские сливки

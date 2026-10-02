@@ -1,0 +1,9 @@
+ent-ESSpawnerRandomPeriodicals = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Журналы / газеты
+ent-ESSpawnerRandomPeriodicalsLegit = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Журналы / газеты, легальные
+ent-ESSpawnerRandomPeriodicalsContraband = Спавнер периодики
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Журналы / газеты, контрабанда

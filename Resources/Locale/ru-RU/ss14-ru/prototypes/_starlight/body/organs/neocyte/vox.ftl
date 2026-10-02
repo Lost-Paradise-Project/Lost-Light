@@ -1,0 +1,12 @@
+ent-OrganNeoVoxStomach = биологический реактор вокса
+    .desc = { ent-OrganNeocyteStomach.desc }
+    .suffix = Нео-вокс
+ent-OrganNeoVoxHeart = кибернетическое сердце вокса
+    .desc = { ent-OrganNeocyteHeart.desc }
+    .suffix = Нео-вокс
+ent-OrganNeoVoxLungs = кибернетические лёгкие вокса
+    .desc = Фильтруют азот из атмосферы, который затем направляется в кровоток для использования как переносчик электронов. Полностью кибернетические по природе, работают в паре с системой фильтрации визора.
+    .suffix = Нео-вокс
+ent-OrganNeoVoxTongue = { ent-OrganNeocyteTongue }
+    .desc = { ent-OrganNeocyteTongue.desc }
+    .suffix = Нео-вокс

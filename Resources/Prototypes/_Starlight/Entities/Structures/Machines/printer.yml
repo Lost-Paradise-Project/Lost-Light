@@ -26,10 +26,12 @@
     idleState: icon
     runningState: building
     staticPacks:
-    - StarlightDocs
-#  - type: EmagLatheRecipes
-#    emagStaticPacks:
-#    - StarlightDocsEmag
+    - LPDocs # LP edit
+  # LP edit start
+  - type: EmagLatheRecipes
+    emagStaticPacks:
+    - LPPSyndicateDocuments
+  # LP edit end
   - type: Fixtures
     fixtures:
       fix1:
@@ -47,3 +49,19 @@
       - Document
     storage:
       SheetPrinter: 0
+  # LP edit start
+  - type: DocumentPrinter
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+      id: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      id:
+        name: item-slot-component-slot-name-id-card
+        whitelist:
+          components:
+            - IdCard
+  # LP edit end

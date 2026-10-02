@@ -1,0 +1,15 @@
+ent-MobCosmicColossusBase = энтропийный колосс
+    .desc = Колоссальное чудовище из зловещих пластин и дендритного заражения.
+    .suffix = { ent-BaseSimpleMob.suffix }
+ent-MobCosmicColossusLone = { ent-MobCosmicColossusBase }
+    .desc = Древнее чудовище из зловещих пластин и дендритного заражения.
+    .suffix = Антагонист середины раунда
+ent-MobCosmicColossus = { ent-MobCosmicColossusBase }
+    .desc = { ent-MobCosmicColossusBase.desc }
+    .suffix = { ent-MobCosmicColossusBase.suffix }
+ent-MobTileDamageZone = { "" }
+    .desc = { "" }
+ent-MobTileDamageArea = { "" }
+    .desc = { "" }
+ent-MobTileDamageIssuer = { "" }
+    .desc = { "" }

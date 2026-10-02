@@ -17,7 +17,7 @@
     shader: HolyStarsTrail
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: PatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron
 
 - type: ghostTheme
@@ -31,7 +31,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: PatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron
 
 - type: ghostTheme
@@ -45,7 +45,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: PatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron
 
 - type: ghostTheme
@@ -59,7 +59,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: PatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron
 
 - type: ghostTheme
@@ -73,7 +73,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: PatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron
 
 - type: ghostTheme
@@ -93,7 +93,7 @@
     shader: NightSkyTrail
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: PatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron
 
 - type: ghostTheme
@@ -108,5 +108,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: WizdenPatronReq
+    requirement: LPSponsorTier1Req # LP edit
   category: Patron

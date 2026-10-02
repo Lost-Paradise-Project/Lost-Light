@@ -22,7 +22,7 @@ entity-effect-guidebook-spawn-entity =
         *[other] создают
     } { $amount ->
         [1] { INDEFINITE($entname) }
-        *[other] { $amount } { MAKEPLURAL($entname) }
+        *[other] { $amount } шт. «{ $entname }»
     }
 
 entity-effect-guidebook-destroy =
@@ -596,30 +596,30 @@ entity-effect-guidebook-plant-seeds-remove =
 entity-effect-guidebook-plant-change-trait =
     { $chance ->
         [1] { $change ->
-            [Add] adds { $trait } to
-            [Remove] removes { $trait } from
-            [Toggle] toggles { $trait } on
-            *[other] changes { $trait } on
-        }
+                [Add] добавляет признак { $trait } растению
+                [Remove] убирает признак { $trait } у растения
+                [Toggle] переключает признак { $trait } у растения
+                *[other] изменяет признак { $trait } у растения
+            }
         *[other] { $change ->
-            [Add] add { $trait } to
-            [Remove] remove { $trait } from
-            [Toggle] toggle { $trait } on
-            *[other] change { $trait } on
-        }
-    } the plant
+                [Add] добавляют признак { $trait } растению
+                [Remove] убирают признак { $trait } у растения
+                [Toggle] переключают признак { $trait } у растения
+                *[other] изменяют признак { $trait } у растения
+            }
+    }
 
 entity-effect-guidebook-plant-mutate-exude-gasses =
     { $chance ->
-        [1] Mutates
-        *[other] mutate
-    } the plant to exude gases between { $minValue } and { $maxValue } moles
+        [1] Мутирует
+        *[other] мутируют
+    } растение так, что оно выделяет газы в количестве от { $minValue } до { $maxValue } молей
 
 entity-effect-guidebook-plant-mutate-consume-gasses =
     { $chance ->
-        [1] Mutates
-        *[other] mutate
-    } the plant to consume gases between { $minValue } and { $maxValue } moles
+        [1] Мутирует
+        *[other] мутируют
+    } растение так, что оно поглощает газы в количестве от { $minValue } до { $maxValue } молей
 
 entity-effect-guidebook-plant-mutate-chemicals =
     { $chance ->

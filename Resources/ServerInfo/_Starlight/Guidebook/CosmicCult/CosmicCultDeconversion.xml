@@ -1,27 +1,27 @@
 <Document>
-  # Deconversion
+  # Деконверсия
   <Box>
     <GuideEntityEmbed Entity="CosmicDeconversionJail" Caption=""/>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
-  When mounting an effort to thwart the [color=#4cabb3]Cosmic Cult[/color], there are several methods the crew might employ to ensure their survival and safety. One of these methods is [color=Yellow]Deconversion[/color].
+  Организуя противодействие [color=#4cabb3]Космическому культу[/color], экипаж может применить несколько способов обеспечить своё выживание и безопасность. Один из них - [color=Yellow]деконверсия[/color].
 
-  To [color=Yellow]Deconvert[/color] a cosmic cultist, an [bold]Ardent Censer[/bold] must be used. Censers are fueled with Holy Water, which can be procured from:
-  - Usage of a Holy Book by a Chaplain on most containers of water will bless the water, turning it into Holy Water.
+  Чтобы [color=Yellow]деконвертировать[/color] космического культиста, нужно использовать [bold]пылающую кадильницу[/bold]. Кадильницы заправляются святой водой, которую можно получить:
+  - Использование священником священной книги на большинстве ёмкостей с водой благословит воду, превратив её в святую воду.
 
-  ## Suppression Methods
+  ## Методы подавления
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="MindShieldImplanter" Caption=""/>
     <GuideEntityEmbed Entity="CosmicCenser" Caption=""/>
   </Box>
 
-  Deconversion is but one method for dealing with an encroaching cult. Crew aboard the station may alternatively wish to invest in [color=Green]Mindshield[/color] implanters.
+  Деконверсия - лишь один из методов борьбы с наступающим культом. Экипажу станции также может быть полезно обзавестись имплантерами [color=Green]«Щит разума»[/color].
 
-  These state-of-the-art devices can prevent outside influences from brainwashing crewmembers, providing a powerful utility against the cult's influence.
+  Эти современные устройства могут не давать внешним влияниям промывать мозги членам экипажа, обеспечивая мощную защиту от влияния культа.
 
-  The [color=Yellow]Chaplain's[/color] attuning renders them immune to nearly all of the cosmic cult's powers.
+  Настройка [color=Yellow]священника[/color] делает его невосприимчивым почти ко всем силам космического культа.
 
 </Document>

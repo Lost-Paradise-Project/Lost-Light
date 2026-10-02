@@ -771,7 +771,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             return;
 
         var wrappedMessage = Loc.GetString("chat-manager-entity-looc-wrap-message",
-            ("entityName", name),
+            ("entityName", LPWithTitle(player, name)), // LP edit - титул NullLink в LOOC
             ("message", FormattedMessage.EscapeText(message)));
 
         SendInVoiceRange(ChatChannel.LOOC, message, wrappedMessage, // Starlight edit

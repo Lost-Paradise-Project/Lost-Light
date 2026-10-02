@@ -1,11 +1,11 @@
 <Document>
-  # Neo-Cyclorite
+  # Нео-циклорит
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoCyclorite" Caption=""/>
   </Box>
 
-  ## Resistances
-  - Receive [color=#ffa500]15% more heat damage[/color] and [color=#8147ff]25% more shock damage[/color].
-  - Receive [color=#65807d]15% less slash damage[/color], [color=#FF3636]10% less blunt damage[/color], and [color=#1e90ff]45% less cold damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 15% больше теплового урона[/color] и [color=#8147ff]на 25% больше урона током[/color].
+  - Получают [color=#65807d]на 15% меньше режущего урона[/color], [color=#FF3636]на 10% меньше ударного урона[/color] и [color=#1e90ff]на 45% меньше холодового урона[/color].
 </Document>

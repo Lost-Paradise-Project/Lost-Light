@@ -4,9 +4,12 @@ roles-antag-rev-head-name = Глава революции
 roles-antag-rev-head-objective = Ваша задача — захватить станцию, склонив членов экипажа на свою сторону, и устранив всех членов командования.
 
 head-rev-role-greeting =
-    Вы — глава революции. Вам поручено устранить весь командный состав станции путём убийства, ареста или конверсии.
-    Синдикат проспонсировал вас особой вспышкой, которая обращает других на вашу сторону. Осторожно, она не сработает на тех, у кого есть имплант "Щит разума", и тех, кто носит защиту для глаз. Помните, что в процессе найма члены командования и службы безопасности проходят имплантацию "Щитом разума".
-    Viva la revolución!
+    Товарищ { $name }! Вы — вербовщик, продвигающий интересы СССП!
+    Вам поручено захватить станцию, устранив всё командование путём конверсии, убийства или ареста.
+    СКБ снабдило вас вспышкой, которая переманивает подрядчиков на вашу сторону.
+    Осторожно: она не подействует на тех, кому промыли мозги «щитом разума», и на тех, кто носит защиту от вспышек, например солнцезащитные очки, сварочные маски или очки.
+    Если сторонников хватает, вы можете создать разлом снабжения, который поможет вашей славной революции! Но помните: он выдаст станции ваше влияние!
+    Слава СССП!
 
 head-rev-briefing =
     Используйте вспышки, чтобы обратить членов экипажа на свою сторону.
@@ -27,9 +30,11 @@ rev-break-control = { $name } { GENDER($name) ->
 } на самом деле!
 
 rev-role-greeting =
-    Вы — Революционер. Вам поручено защищать глав революции и помогать им захватить станцию.
-    Революция должна работать вместе, чтобы убить, арестовать или конвертировать всех членов командования.
-    Viva la revolución!
+    Товарищ { $name }! Вы — революционер СССП!
+    Вам поручено захватить станцию и продвигать интересы советского агента, который вас завербовал!
+    Казните, арестуйте или обратите в свою веру оболваненное корпоративное командование!
+    Прошли дни угнетения и несправедливого обращения с подрядчиками!
+    Слава СССП!
 
 rev-briefing = Помогите главам революции убить, арестовать или конвертировать всех членов командования, чтобы захватить станцию.
 
@@ -42,30 +47,31 @@ rev-not-enough-ready-players = Недостаточно игроков гото�
 rev-no-one-ready = Нет готовых игроков! Нельзя запустить пресет Революционеры.
 rev-no-heads = Нет кандидатов на роль главы революции. Нельзя запустить пресет Революционеры.
 
-rev-won = Главы революции выжили и уничтожили весь командный состав станции.
+rev-won = [color=red]Агенты СКБ выжили и захватили контроль над станцией![/color]
 
-rev-lost = Все главы революции погибли, а командование выжило.
+rev-lost = Командование выжило и уничтожило всех агентов СКБ.
 
-rev-stalemate = И командование и главы революции погибли. Это ничья.
+rev-stalemate = И командование, и агенты СКБ погибли. Это ничья.
 
-rev-reverse-stalemate = И командование и главы революции выжили.
+rev-reverse-stalemate = И командование, и агенты СКБ выжили.
 
 # Starlight - added "or have abandoned the station" as a clarification for why revs may have won
-central-command-revolution-announcement = Based on our scans from our long-range sensors, we believe the station has fallen under the control of hostile revolutionary forces. All heads of staff have been confirmed deceased, missing, or have abandoned the station. All remaining crew members are to stand by for further instructions.
+central-command-revolution-announcement = По данным дальних сенсоров, мы полагаем, что станция перешла под контроль враждебных революционных сил. Все главы отделов подтверждены как погибшие, пропавшие без вести или покинувшие станцию. Всем оставшимся членам экипажа ждать дальнейших указаний.
 
-soviet-commissariat-revolution-announcement = Long range communications array online. Motherland salutes you comrades, but the battle is not yet over. Your corporation will check if they can reclaim your station one last time, but do not worry! The SSF will arrive shorty. Glory to the USSP!
+soviet-commissariat-revolution-announcement = Дальняя связь установлена. Родина приветствует вас, товарищи, но битва ещё не окончена. Ваша корпорация в последний раз проверит, сможет ли вернуть станцию, но не волнуйтесь! ССФ скоро прибудут. Слава СССП!
 
-centcomm-revs-gammarift = Based on long-range sensor scans, we have detected hostile revolutionary activity on-board. Martial law is now in effect. Glory to NanoTrasen.
+centcomm-revs-gammarift = По данным сканирования дальними сенсорами, на борту обнаружена враждебная революционная активность. Вводится военное положение. Слава NanoTrasen.
 
-centcomm-revs-alldead = Long-range sensor scans report all USSP SKB agents on-board are now permanently deceased.
+centcomm-revs-alldead = Сканирование дальними сенсорами показывает, что все агенты СКБ СССП на борту окончательно мертвы.
 
-central-command-sender = Central Command
+central-command-sender = Центральное командование
 
-soviet-commissariat-sender = Soviet People's Commissariat
+soviet-commissariat-sender = Советский народный комиссариат
 
 rev-headrev-count = { $initialCount ->
-    [one] Глава революции был один:
-    *[other] Глав революции было { $initialCount }:
+    [one] Агент [color=Yellow]СССП[/color] был один:
+    [few] Агентов [color=Yellow]СССП[/color] было { $initialCount }:
+    *[other] Агентов [color=Yellow]СССП[/color] было { $initialCount }:
 }
 
 rev-headrev-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $username }[/color]) конвертировал { $count } { $count ->
@@ -88,8 +94,8 @@ rev-deconverted-text =
 
     Вы больше не революционер, так что ведите себя хорошо.
 
-rev-deconverted-rule = Reminder: As per Rule 3 of server rules, [bold][color=#a4885c]De-converted Revolutionaries forget what happened while they were brainwashed.[/color][/bold]
+rev-deconverted-rule = Напоминание: согласно правилу 3 правил сервера, [bold][color=#a4885c]бывшие революционеры забывают всё, что было, пока им промывали мозги.[/color][/bold]
 
-rev-deconverted-ruletext = Your character may learn what happened through further investigation and roleplay, but should not be able to remember being a revolutionary nor any actions they commited on behalf of the revolution.
+rev-deconverted-ruletext = Ваш персонаж может узнать о случившемся в ходе дальнейших расследований и отыгрыша, но не должен помнить о том, что был революционером, и о своих действиях от имени революции.
 
 rev-deconverted-confirm = Подтвердить

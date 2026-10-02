@@ -73,7 +73,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         startingItem: MagazineLightRifleBoxSP
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -82,7 +82,7 @@
           tags:
             - MagazineLightRifleBox
       gun_chamber:
-        name: Chamber
+        name: item-slot-component-slot-name-chamber # LP edit
         priority: 1
         whitelist:
           tags:
@@ -141,7 +141,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         startingItem: MagazineLightRifleBoxSP
         insertSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         ejectSound: /Audio/Weapons/Guns/MagIn/rifle_load.ogg
@@ -149,7 +149,7 @@
           tags:
             - MagazineLightRifleBox
       gun_chamber:
-        name: Chamber
+        name: item-slot-component-slot-name-chamber # LP edit
         startingItem: CartridgeLightRifleSP
         priority: 1
         whitelist:
@@ -196,7 +196,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: item-slot-component-slot-name-magazine # LP edit
           startingItem: MagazineLightRifleBoxSP
           insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -205,7 +205,7 @@
             tags:
               - MagazineLightRifleBox
         gun_chamber:
-          name: Chamber
+          name: item-slot-component-slot-name-chamber # LP edit
           startingItem: CartridgeLightRifleSP
           priority: 1
           whitelist:

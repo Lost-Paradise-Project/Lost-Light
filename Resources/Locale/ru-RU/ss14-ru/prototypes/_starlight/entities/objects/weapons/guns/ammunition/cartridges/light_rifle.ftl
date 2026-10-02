@@ -1,0 +1,10 @@
+ent-CartridgeLightRifleRubber = патрон (.30 винтовочный резиновый)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleImprovised = самодельный патрон (.30 винтовочный)
+    .desc = Самодельная винтовочная пуля, использует фосфор вместо пороха, что делает её гораздо менее эффективной.
+ent-CartridgeLightRifleHP = патрон (.30 винтовочный HP)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleFMJ = патрон (.30 винтовочный ПОО)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }
+ent-CartridgeLightRifleAP = патрон (.30 винтовочный бронебойный)
+    .desc = { ent-BaseCartridgeLightRifleSP.desc }

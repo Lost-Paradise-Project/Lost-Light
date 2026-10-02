@@ -1,0 +1,12 @@
+ent-DeforestBrutePack = упаковка от ушибов DeForest
+    .desc = Упаковки от ушибов уровня DeForest для всех ваших нужд.
+    .suffix = Полный
+ent-DeforestBrutePack1 = упаковка от ушибов DeForest
+    .desc = Упаковки от ушибов уровня DeForest для всех ваших нужд. Синие, как говорят, редкость.
+    .suffix = Одиночный
+ent-DeforestOintment = мазь DeForest
+    .desc = Успокаивающая мазь DeForest для лечения тяжёлых ожогов. Против едких не помогает.
+    .suffix = Полный
+ent-DeforestOintment1 = мазь DeForest
+    .desc = Успокаивающая мазь DeForest для лечения тяжёлых ожогов. Против едких не помогает. Синие, как говорят, редкость.
+    .suffix = Одиночный

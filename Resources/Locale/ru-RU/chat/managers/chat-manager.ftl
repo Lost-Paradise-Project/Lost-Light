@@ -29,11 +29,11 @@ chat-manager-send-ooc-patron-wrap-message = OOC: [bold][color={ $patronColor }]{
 
 chat-manager-send-dead-chat-wrap-message = { $deadChannelName }: [bold][BubbleHeader]{ $playerName }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
 chat-manager-send-admin-dead-chat-wrap-message = { $adminChannelName }: [bold]([BubbleHeader]{ $userName }[/BubbleHeader]):[/bold] [BubbleContent]{ $message }[/BubbleContent]
-chat-manager-send-admin-chat-wrap-message = { $adminChannelName }: [bold][color={ $adminColor }]\[{ $adminTitle }\][/color] { $playerName }:[/bold] { $message }
+chat-manager-send-admin-chat-wrap-message = { $adminChannelName }: [bold]{ $playerName }:[/bold] { $message }
 chat-manager-send-admin-announcement-wrap-message = [bold]{ $adminChannelName }: { $message }[/bold]
 
-chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){ $senderName }:[/bold] { $message }
-chat-manager-send-hook-admin-wrap-message = АДМИН: [bold](D){ $senderName }:[/bold] { $message }
+chat-manager-send-hook-ooc-wrap-message = OOC: [bold](М){ $senderName }:[/bold] { $message }
+chat-manager-send-hook-admin-wrap-message = АДМИН: [bold](М){ $senderName }:[/bold] { $message }
 
 chat-manager-dead-channel-name = МЁРТВЫЕ
 chat-manager-admin-channel-name = АДМИН
@@ -108,7 +108,7 @@ chat-speech-verb-canine-1 = гавкает
 chat-speech-verb-canine-2 = лает
 chat-speech-verb-canine-3 = воет
 # starlight
-chat-speech-verb-canine-4 = yips
+chat-speech-verb-canine-4 = тявкает
 
 chat-speech-verb-name-goat = Коза
 chat-speech-verb-goat-1 = блеет

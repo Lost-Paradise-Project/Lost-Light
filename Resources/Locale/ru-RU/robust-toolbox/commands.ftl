@@ -4,612 +4,612 @@ cmd-hint-float = [float]
 
 ## generic command errors
 
-cmd-invalid-arg-number-error = Invalid number of arguments.
+cmd-invalid-arg-number-error = Неверное число аргументов.
 
-cmd-parse-failure-integer = { $arg } is not a valid integer.
-cmd-parse-failure-float = { $arg } is not a valid float.
-cmd-parse-failure-bool = { $arg } is not a valid bool.
-cmd-parse-failure-uid = { $arg } is not a valid entity UID.
-cmd-parse-failure-mapid = { $arg } is not a valid MapId.
-cmd-parse-failure-enum = { $arg } is not a { $enum } Enum.
-cmd-parse-failure-grid = { $arg } is not a valid grid.
-cmd-parse-failure-cultureinfo = "{ $arg }" is not valid CultureInfo.
-cmd-parse-failure-entity-exist = UID { $arg } does not correspond to an existing entity.
-cmd-parse-failure-session = There is no session with username: { $username }
-cmd-parse-failure-session-guid = There is no session with the GUID: { $guid }
+cmd-parse-failure-integer = { $arg } не является допустимым целым числом.
+cmd-parse-failure-float = { $arg } не является допустимым дробным числом.
+cmd-parse-failure-bool = { $arg } не является допустимым значением bool.
+cmd-parse-failure-uid = { $arg } не является допустимым UID сущности.
+cmd-parse-failure-mapid = { $arg } не является допустимым MapId.
+cmd-parse-failure-enum = { $arg } не является значением перечисления { $enum }.
+cmd-parse-failure-grid = { $arg } не является допустимым гридом.
+cmd-parse-failure-cultureinfo = "{ $arg }" не является допустимым CultureInfo.
+cmd-parse-failure-entity-exist = UID { $arg } не соответствует существующей сущности.
+cmd-parse-failure-session = Нет сессии с именем пользователя: { $username }
+cmd-parse-failure-session-guid = Нет сессии с GUID: { $guid }
 
-cmd-error-file-not-found = Could not find file: { $file }.
-cmd-error-dir-not-found = Could not find directory: { $dir }.
+cmd-error-file-not-found = Не удалось найти файл: { $file }.
+cmd-error-dir-not-found = Не удалось найти каталог: { $dir }.
 
-cmd-failure-no-attached-entity = There is no entity attached to this shell.
+cmd-failure-no-attached-entity = К этой оболочке не привязана ни одна сущность.
 
 ## 'help' command
-cmd-help-desc = Display general help or help text for a specific command.
-cmd-help-help = Usage: { $command } [command name]
-    When no command name is provided, displays general-purpose help text. If a command name is provided, displays help text for that command.
+cmd-help-desc = Показывает общую справку или справку по конкретной команде.
+cmd-help-help = Использование: { $command } [имя команды]
+    Если имя команды не указано, показывает общую справку. Если указано, показывает справку по этой команде.
 
-cmd-help-no-args = To display help for a specific command, write 'help <command>'. To list all available commands, write 'list'. To search for commands, use 'list <filter>'.
-cmd-help-unknown = Unknown command: { $command }
+cmd-help-no-args = Чтобы показать справку по конкретной команде, введите 'help <команда>'. Чтобы вывести список всех доступных команд, введите 'list'. Чтобы найти команды, используйте 'list <фильтр>'.
+cmd-help-unknown = Неизвестная команда: { $command }
 cmd-help-top = { $command } — { $description }
-cmd-help-invalid-args = Invalid amount of arguments.
+cmd-help-invalid-args = Неверное количество аргументов.
 cmd-help-arg-cmdname = [command name]
 
 ## 'cvar' command
-cmd-cvar-desc = Gets or sets a CVar.
-cmd-cvar-help = Usage: { $command } <name | ?> [value]
-    If a value is passed, the value is parsed and stored as the new value of the CVar.
-    If not, the current value of the CVar is displayed.
-    Use 'cvar ?' to get a list of all registered CVars.
+cmd-cvar-desc = Получает или задаёт CVar.
+cmd-cvar-help = Использование: { $command } <имя | ?> [значение]
+    Если передано значение, оно разбирается и сохраняется как новое значение CVar.
+    Если нет, отображается текущее значение CVar.
+    Используйте 'cvar ?', чтобы получить список всех зарегистрированных CVar.
 
-cmd-cvar-invalid-args = Must provide exactly one or two arguments.
-cmd-cvar-not-registered = CVar '{ $cvar }' is not registered. Use 'cvar ?' to get a list of all registered CVars.
-cmd-cvar-parse-error = Input value is in incorrect format for type { $type }
-cmd-cvar-compl-list = List available CVars
-cmd-cvar-arg-name = <name | ?>
-cmd-cvar-value-hidden = <value hidden>
+cmd-cvar-invalid-args = Необходимо передать ровно один или два аргумента.
+cmd-cvar-not-registered = CVar '{ $cvar }' не зарегистрирован. Используйте 'cvar ?', чтобы получить список всех зарегистрированных CVar.
+cmd-cvar-parse-error = Введённое значение имеет неверный формат для типа { $type }
+cmd-cvar-compl-list = Вывести доступные CVar
+cmd-cvar-arg-name = <имя | ?>
+cmd-cvar-value-hidden = <значение скрыто>
 
 ## 'cvar_subs' command
-cmd-cvar_subs-desc = Lists the OnValueChanged subscriptions for a CVar.
-cmd-cvar_subs-help = Usage: { $command } <name>
+cmd-cvar_subs-desc = Выводит подписки OnValueChanged для CVar.
+cmd-cvar_subs-help = Использование: { $command } <имя>
 
-cmd-cvar_subs-invalid-args = Must provide exactly one argument.
-cmd-cvar_subs-arg-name = <name>
+cmd-cvar_subs-invalid-args = Необходимо передать ровно один аргумент.
+cmd-cvar_subs-arg-name = <имя>
 
 ## 'list' command
-cmd-list-desc = Lists available commands, with optional search filter.
-cmd-list-help = Usage: { $command } [filter]
-    Lists all available commands. If an argument is provided, it will be used to filter commands by name.
+cmd-list-desc = Выводит список доступных команд с необязательным поисковым фильтром.
+cmd-list-help = Использование: { $command } [фильтр]
+    Выводит список всех доступных команд. Если передан аргумент, он используется для фильтрации команд по имени.
 
-cmd-list-heading = SIDE NAME            DESC{ "\u000A" }-------------------------{ "\u000A" }
+cmd-list-heading = СТОРОНА ИМЯ            ОПИСАНИЕ{ "\u000A" }-------------------------{ "\u000A" }
 
 cmd-list-arg-filter = [filter]
 
 ## '>' command, aka remote exec
-cmd-remoteexec-desc = Executes server-side commands.
-cmd-remoteexec-help = Usage: > <command> [arg] [arg] [arg...]
-    Executes a command on the server. This is necessary if a command with the same name exists on the client, as simply running the command would run the client command first.
+cmd-remoteexec-desc = Выполняет команды на стороне сервера.
+cmd-remoteexec-help = Использование: > <команда> [арг] [арг] [арг...]
+    Выполняет команду на сервере. Это необходимо, если на клиенте существует команда с таким же именем, так как простой запуск команды выполнил бы сначала клиентскую.
 
 ## 'gc' command
-cmd-gc-desc = Run the GC (Garbage Collector).
-cmd-gc-help = Usage: { $command } [generation]
-    Uses GC.Collect() to execute the Garbage Collector.
-    If an argument is provided, it is parsed as a GC generation number and GC.Collect(int) is used.
-    Use the 'gfc' command to do an LOH-compacting full GC.
-cmd-gc-failed-parse = Failed to parse argument.
+cmd-gc-desc = Запускает GC (сборщик мусора).
+cmd-gc-help = Использование: { $command } [поколение]
+    Использует GC.Collect() для запуска сборщика мусора.
+    Если передан аргумент, он разбирается как номер поколения GC и используется GC.Collect(int).
+    Используйте команду 'gfc' для полной сборки мусора с уплотнением LOH.
+cmd-gc-failed-parse = Не удалось разобрать аргумент.
 cmd-gc-arg-generation = [generation]
 
 ## 'gcf' command
-cmd-gcf-desc = Run the GC, fully, compacting LOH and everything.
-cmd-gcf-help = Usage: { $command }
-    Does a full GC.Collect(2, GCCollectionMode.Forced, true, true) while also compacting LOH.
-    This will probably lock up for hundreds of milliseconds, be warned.
+cmd-gcf-desc = Запускает GC полностью, с уплотнением LOH и всего остального.
+cmd-gcf-help = Использование: { $command }
+    Выполняет полный GC.Collect(2, GCCollectionMode.Forced, true, true) с одновременным уплотнением LOH.
+    Скорее всего, это подвесит игру на сотни миллисекунд, имейте в виду.
 
 ## 'gc_mode' command
-cmd-gc_mode-desc = Change/Read the GC Latency mode.
-cmd-gc_mode-help = Usage: { $command } [type]
-    If no argument is provided, returns the current GC latency mode.
-    If an argument is passed, it is parsed as GCLatencyMode and set as the GC latency mode.
+cmd-gc_mode-desc = Меняет/показывает режим задержки GC.
+cmd-gc_mode-help = Использование: { $command } [тип]
+    Если аргумент не передан, возвращает текущий режим задержки GC.
+    Если аргумент передан, он разбирается как GCLatencyMode и устанавливается в качестве режима задержки GC.
 
-cmd-gc_mode-current = current gc latency mode: { $prevMode }
-cmd-gc_mode-possible = possible modes:
+cmd-gc_mode-current = текущий режим задержки gc: { $prevMode }
+cmd-gc_mode-possible = возможные режимы:
 cmd-gc_mode-option = - { $mode }
-cmd-gc_mode-unknown = unknown gc latency mode: { $arg }
-cmd-gc_mode-attempt = attempting gc latency mode change: { $prevMode } -> { $mode }
-cmd-gc_mode-result = resulting gc latency mode: { $mode }
+cmd-gc_mode-unknown = неизвестный режим задержки gc: { $arg }
+cmd-gc_mode-attempt = попытка смены режима задержки gc: { $prevMode } -> { $mode }
+cmd-gc_mode-result = итоговый режим задержки gc: { $mode }
 cmd-gc_mode-arg-type = [type]
 
 ## 'mem' command
-cmd-mem-desc = Prints managed memory info.
-cmd-mem-help = Usage: { $command }
+cmd-mem-desc = Выводит информацию об управляемой памяти.
+cmd-mem-help = Использование: { $command }
 
-cmd-mem-report = Heap Size: { TOSTRING($heapSize, "N0") }
-    Total Allocated: { TOSTRING($totalAllocated, "N0") }
+cmd-mem-report = Размер кучи: { TOSTRING($heapSize, "N0") }
+    Всего выделено: { TOSTRING($totalAllocated, "N0") }
 
 ## 'physics' command
-cmd-physics-overlay = { $overlay } is not a recognised overlay
+cmd-physics-overlay = { $overlay } не является известным оверлеем
 
 ## 'lsasm' command
-cmd-lsasm-desc = Lists loaded assemblies by load context.
-cmd-lsasm-help = Usage: lsasm
+cmd-lsasm-desc = Выводит список загруженных сборок по контексту загрузки.
+cmd-lsasm-help = Использование: lsasm
 
 ## 'exec' command
-cmd-exec-desc = Executes a script file from the game's writeable user data.
-cmd-exec-help = Usage: { $command } <fileName>
-    Each line in the file is executed as a single command, unless it starts with a #
+cmd-exec-desc = Выполняет файл сценария из перезаписываемых пользовательских данных игры.
+cmd-exec-help = Использование: { $command } <имя файла>
+    Каждая строка файла выполняется как отдельная команда, если она не начинается с #
 
-cmd-exec-arg-filename = <fileName>
+cmd-exec-arg-filename = <имя файла>
 
 ## 'dump_net_comps' command
-cmd-dump_net_comps-desc = Prints the table of networked components.
-cmd-dump_net_comps-help = Usage: { $command }
+cmd-dump_net_comps-desc = Выводит таблицу сетевых компонентов.
+cmd-dump_net_comps-help = Использование: { $command }
 
-cmd-dump_net_comps-error-writeable = Registration still writeable, network ids have not been generated.
-cmd-dump_net_comps-header = Networked Component Registrations:
+cmd-dump_net_comps-error-writeable = Регистрация всё ещё доступна для записи, сетевые id не сгенерированы.
+cmd-dump_net_comps-header = Регистрации сетевых компонентов:
 
 ## 'dump_event_tables' command
-cmd-dump_event_tables-desc = Prints directed event tables for an entity.
-cmd-dump_event_tables-help = Usage: { $command } <entityUid>
+cmd-dump_event_tables-desc = Выводит таблицы направленных событий для сущности.
+cmd-dump_event_tables-help = Использование: { $command } <entityUid>
 
-cmd-dump_event_tables-missing-arg-entity = Missing entity argument
-cmd-dump_event_tables-error-entity = Invalid entity
+cmd-dump_event_tables-missing-arg-entity = Отсутствует аргумент сущности
+cmd-dump_event_tables-error-entity = Неверная сущность
 cmd-dump_event_tables-arg-entity = <entityUid>
 
 ## 'monitor' command
-cmd-monitor-desc = Toggles a debug monitor in the F3 menu.
-cmd-monitor-help = Usage: { $command } <name>
-    Possible monitors are: { $monitors }
-    You can also use the special values "-all" and "+all" to hide or show all monitors, respectively.
+cmd-monitor-desc = Переключает отладочный монитор в меню F3.
+cmd-monitor-help = Использование: { $command } <имя>
+    Возможные мониторы: { $monitors }
+    Также можно использовать специальные значения "-all" и "+all", чтобы скрыть или показать все мониторы соответственно.
 
-cmd-monitor-arg-monitor = <monitor>
-cmd-monitor-invalid-name = Invalid monitor name
-cmd-monitor-arg-count = Missing monitor argument
-cmd-monitor-minus-all-hint = Hides all monitors
-cmd-monitor-plus-all-hint = Shows all monitors
+cmd-monitor-arg-monitor = <монитор>
+cmd-monitor-invalid-name = Неверное имя монитора
+cmd-monitor-arg-count = Отсутствует аргумент монитора
+cmd-monitor-minus-all-hint = Скрывает все мониторы
+cmd-monitor-plus-all-hint = Показывает все мониторы
 
 
 ## 'setambientlight' command
-cmd-set-ambient-light-desc = Allows you to set the ambient light for the specified map, in SRGB.
-cmd-set-ambient-light-help = Usage: { $command } [mapid] [r g b a]
-cmd-set-ambient-light-parse = Unable to parse args as a byte values for a color.
+cmd-set-ambient-light-desc = Позволяет задать окружающее освещение для указанной карты в SRGB.
+cmd-set-ambient-light-help = Использование: { $command } [mapid] [r g b a]
+cmd-set-ambient-light-parse = Не удалось разобрать аргументы как значения байтов цвета.
 
 ## Mapping commands
 
-cmd-savemap-desc = Serializes a map to disk. Will not save a post-init map unless forced.
-cmd-savemap-help = Usage: { $command } <MapID> <Path> [force]
-cmd-savemap-not-exist = Target map does not exist.
-cmd-savemap-init-warning = Attempted to save a post-init map without forcing the save.
-cmd-savemap-attempt = Attempting to save map { $mapId } to { $path }.
-cmd-savemap-success = Map successfully saved.
-cmd-savemap-error = Could not save map! See server log for details.
-cmd-hint-savemap-id = <MapID>
-cmd-hint-savemap-path = <Path>
+cmd-savemap-desc = Сериализует карту на диск. Карту после инициализации не сохранит, если не принудить.
+cmd-savemap-help = Использование: { $command } <MapID> <путь> [force]
+cmd-savemap-not-exist = Целевой карты не существует.
+cmd-savemap-init-warning = Попытка сохранить карту после инициализации без принуждения.
+cmd-savemap-attempt = Попытка сохранить карту { $mapId } в { $path }.
+cmd-savemap-success = Карта успешно сохранена.
+cmd-savemap-error = Не удалось сохранить карту! Подробности в журнале сервера.
+cmd-hint-savemap-id = <ID карты>
+cmd-hint-savemap-path = <путь>
 cmd-hint-savemap-force = [bool]
 
-cmd-loadmap-desc = Loads a map from disk into the game.
-cmd-loadmap-help = Usage: { $command } <MapID> <Path> [x] [y] [rotation] [consistentUids]
-cmd-loadmap-nullspace = You cannot load into map 0.
-cmd-loadmap-exists = Map { $mapId } already exists.
-cmd-loadmap-success = Map { $mapId } has been loaded from { $path }.
-cmd-loadmap-error = An error occurred while loading map from { $path }.
+cmd-loadmap-desc = Загружает карту с диска в игру.
+cmd-loadmap-help = Использование: { $command } <MapID> <путь> [x] [y] [rotation] [consistentUids]
+cmd-loadmap-nullspace = Нельзя загрузить в карту 0.
+cmd-loadmap-exists = Карта { $mapId } уже существует.
+cmd-loadmap-success = Карта { $mapId } загружена из { $path }.
+cmd-loadmap-error = При загрузке карты из { $path } произошла ошибка.
 cmd-hint-loadmap-x-position = [x-position]
 cmd-hint-loadmap-y-position = [y-position]
 cmd-hint-loadmap-rotation = [rotation]
 cmd-hint-loadmap-uids = [float]
 
-cmd-hint-savebp-id = <Grid EntityID>
+cmd-hint-savebp-id = <EntityID грида>
 
 ## 'flushcookies' command
 # Note: the flushcookies command is from Robust.Client.WebView, it's not in the main engine code.
 
-cmd-flushcookies-desc = Flush CEF cookie storage to disk.
-cmd-flushcookies-help = Usage: { $command }
-    This ensure cookies are properly saved to disk in the event of unclean shutdowns.
-    Note that the actual operation is asynchronous.
+cmd-flushcookies-desc = Сбрасывает хранилище cookie CEF на диск.
+cmd-flushcookies-help = Использование: { $command }
+    Это гарантирует, что cookie будут корректно сохранены на диск при аварийном завершении работы.
+    Учтите, что сама операция выполняется асинхронно.
 
-cmd-ldrsc-desc = Pre-caches a resource.
-cmd-ldrsc-help = Usage: { $command } <path> <type>
+cmd-ldrsc-desc = Предварительно кэширует ресурс.
+cmd-ldrsc-help = Использование: { $command } <путь> <тип>
 
-cmd-rldrsc-desc = Reloads a resource.
-cmd-rldrsc-help = Usage: { $command } <path> <type>
+cmd-rldrsc-desc = Перезагружает ресурс.
+cmd-rldrsc-help = Использование: { $command } <путь> <тип>
 
-cmd-gridtc-desc = Gets the tile count of a grid.
-cmd-gridtc-help = Usage: { $command } <gridId>
+cmd-gridtc-desc = Получает количество плиток грида.
+cmd-gridtc-help = Использование: { $command } <gridId>
 
 
 # Client-side commands
-cmd-guidump-desc = Dump GUI tree to /guidump.txt in user data.
-cmd-guidump-help = Usage: { $command }
+cmd-guidump-desc = Выгружает дерево GUI в /guidump.txt в пользовательских данных.
+cmd-guidump-help = Использование: { $command }
 
-cmd-uitest-desc = Open a dummy UI testing window.
-cmd-uitest-help = Usage: { $command }
+cmd-uitest-desc = Открывает тестовое окно интерфейса-пустышку.
+cmd-uitest-help = Использование: { $command }
 
 ## 'uitest2' command
-cmd-uitest2-desc = Opens a UI control testing OS window.
-cmd-uitest2-help = Usage: { $command } <tab>
-cmd-uitest2-arg-tab = <tab>
-cmd-uitest2-error-args = Expected at most one argument
-cmd-uitest2-error-tab = Invalid tab: '{ $value }'
+cmd-uitest2-desc = Открывает окно ОС для тестирования элементов интерфейса.
+cmd-uitest2-help = Использование: { $command } <вкладка>
+cmd-uitest2-arg-tab = <вкладка>
+cmd-uitest2-error-args = Ожидается не более одного аргумента
+cmd-uitest2-error-tab = Неверная вкладка: '{ $value }'
 cmd-uitest2-title = UITest2
 
 
-cmd-setclipboard-desc = Sets the system clipboard.
-cmd-setclipboard-help = Usage: { $command } <text>
+cmd-setclipboard-desc = Задаёт содержимое системного буфера обмена.
+cmd-setclipboard-help = Использование: { $command } <текст>
 
-cmd-getclipboard-desc = Gets the system clipboard.
-cmd-getclipboard-help = Usage: { $command }
+cmd-getclipboard-desc = Получает содержимое системного буфера обмена.
+cmd-getclipboard-help = Использование: { $command }
 
-cmd-togglelight-desc = Toggles light rendering.
-cmd-togglelight-help = Usage: { $command }
+cmd-togglelight-desc = Переключает отрисовку освещения.
+cmd-togglelight-help = Использование: { $command }
 
-cmd-togglefov-desc = Toggles fov for client.
-cmd-togglefov-help = Usage: { $command }
+cmd-togglefov-desc = Переключает поле зрения для клиента.
+cmd-togglefov-help = Использование: { $command }
 
-cmd-togglehardfov-desc = Toggles hard fov for client. (for debugging space-station-14#2353)
-cmd-togglehardfov-help = Usage: { $command }
+cmd-togglehardfov-desc = Переключает жёсткое поле зрения для клиента. (для отладки space-station-14#2353)
+cmd-togglehardfov-help = Использование: { $command }
 
-cmd-toggleshadows-desc = Toggles shadow rendering.
-cmd-toggleshadows-help = Usage: { $command }
+cmd-toggleshadows-desc = Переключает отрисовку теней.
+cmd-toggleshadows-help = Использование: { $command }
 
-cmd-togglelightbuf-desc = Toggles lighting rendering. This includes shadows but not FOV.
-cmd-togglelightbuf-help = Usage: { $command }
+cmd-togglelightbuf-desc = Переключает отрисовку освещения. Включает тени, но не поле зрения.
+cmd-togglelightbuf-help = Использование: { $command }
 
-cmd-chunkinfo-desc = Gets info about a chunk under your mouse cursor.
-cmd-chunkinfo-help = Usage: { $command }
+cmd-chunkinfo-desc = Получает информацию о чанке под курсором мыши.
+cmd-chunkinfo-help = Использование: { $command }
 
-cmd-chunkentities-desc = Lists chunk entities in the client viewport OR in the specified range.
-cmd-chunkentities-help = Usage: { $command } [<root entity> <x> <y> <range>]
-cmd-chunkentities-error-invalid-root = Invalid root entity: { $root }
-cmd-chunkentities-error-parse = x, y, and range must be numbers.
-cmd-chunkentities-error-nullspace = Current eye is in nullspace.
-cmd-chunkentities-error-no-map = No map entity for current eye map { $map }.
-cmd-chunkentities-range-header = Chunk entities for { $root } around ({ $x }, { $y }) range { $range }:
-cmd-chunkentities-viewport-header = Chunk entities in client viewport on map { $map } ({ $viewport }):
-cmd-chunkentities-total = Total: { $count }
-cmd-chunkentities-root-count = Root { $root }: { $count }
-cmd-chunkentities-entry = { $netEntity } uid={ $uid } root={ $root } chunk={ $chunk } comps={ $componentCount } { $name }
-cmd-chunkentities-arg-root = <root entity>
+cmd-chunkentities-desc = Выводит сущности чанков в области просмотра клиента ИЛИ в указанном диапазоне.
+cmd-chunkentities-help = Использование: { $command } [<корневая сущность> <x> <y> <диапазон>]
+cmd-chunkentities-error-invalid-root = Неверная корневая сущность: { $root }
+cmd-chunkentities-error-parse = x, y и диапазон должны быть числами.
+cmd-chunkentities-error-nullspace = Текущий глаз находится в нуль-пространстве.
+cmd-chunkentities-error-no-map = Нет сущности карты для карты текущего глаза { $map }.
+cmd-chunkentities-range-header = Сущности чанков для { $root } вокруг ({ $x }, { $y }), диапазон { $range }:
+cmd-chunkentities-viewport-header = Сущности чанков в области просмотра клиента на карте { $map } ({ $viewport }):
+cmd-chunkentities-total = Всего: { $count }
+cmd-chunkentities-root-count = Корень { $root }: { $count }
+cmd-chunkentities-entry = { $netEntity } uid={ $uid } корень={ $root } чанк={ $chunk } компонентов={ $componentCount } { $name }
+cmd-chunkentities-arg-root = <корневая сущность>
 cmd-chunkentities-arg-x = <x>
 cmd-chunkentities-arg-y = <y>
-cmd-chunkentities-arg-range = <range>
+cmd-chunkentities-arg-range = <диапазон>
 
-cmd-rldshader-desc = Reloads all shaders.
-cmd-rldshader-help = Usage: { $command }
+cmd-rldshader-desc = Перезагружает все шейдеры.
+cmd-rldshader-help = Использование: { $command }
 
-cmd-cldbglyr-desc = Toggle fov and light debug layers.
-cmd-cldbglyr-help= Usage: { $command } <layer>: Toggle <layer>
-    cldbglyr: Turn all Layers off
+cmd-cldbglyr-desc = Переключает отладочные слои поля зрения и освещения.
+cmd-cldbglyr-help= Использование: { $command } <слой>: Переключить <слой>
+    cldbglyr: Выключить все слои
 
-cmd-key-info-desc = Keys key info for a key.
-cmd-key-info-help = Usage: { $command } <Key>
+cmd-key-info-desc = Выводит информацию о клавише.
+cmd-key-info-help = Использование: { $command } <клавиша>
 
 ## 'bind' command
-cmd-bind-desc = Binds an input key combination to an input command.
-cmd-bind-help = Usage: { $command } { cmd-bind-arg-key } { cmd-bind-arg-mode } { cmd-bind-arg-command }
-    Note that this DOES NOT automatically save bindings.
-    Use the 'svbind' command to save binding configuration.
+cmd-bind-desc = Привязывает комбинацию клавиш ввода к команде ввода.
+cmd-bind-help = Использование: { $command } { cmd-bind-arg-key } { cmd-bind-arg-mode } { cmd-bind-arg-command }
+    Учтите, что это НЕ сохраняет привязки автоматически.
+    Используйте команду 'svbind', чтобы сохранить конфигурацию привязок.
 
-cmd-bind-arg-key = <KeyName>
-cmd-bind-arg-mode = <BindMode>
-cmd-bind-arg-command = <InputCommand>
+cmd-bind-arg-key = <ИмяКлавиши>
+cmd-bind-arg-mode = <РежимПривязки>
+cmd-bind-arg-command = <КомандаВвода>
 
-cmd-net-draw-interp-desc = Toggles the debug drawing of the network interpolation.
-cmd-net-draw-interp-help = Usage: { $command }
+cmd-net-draw-interp-desc = Переключает отладочную отрисовку сетевой интерполяции.
+cmd-net-draw-interp-help = Использование: { $command }
 
-cmd-net-watch-ent-desc = Dumps all network updates for an EntityId to the console.
-cmd-net-watch-ent-help = Usage: { $command } <0|EntityUid>
+cmd-net-watch-ent-desc = Выводит в консоль все сетевые обновления для EntityId.
+cmd-net-watch-ent-help = Использование: { $command } <0|EntityUid>
 
-cmd-net-refresh-desc = Requests a full server state.
-cmd-net-refresh-help = Usage: { $command }
+cmd-net-refresh-desc = Запрашивает полное состояние сервера.
+cmd-net-refresh-help = Использование: { $command }
 
-cmd-net-entity-report-desc = Toggles the net entity report panel.
-cmd-net-entity-report-help = Usage: { $command }
+cmd-net-entity-report-desc = Переключает панель отчёта о сетевых сущностях.
+cmd-net-entity-report-help = Использование: { $command }
 
-cmd-fill-desc = Fill up the console for debugging.
-cmd-fill-help = Usage: { $command }
-                Fills the console with some nonsense for debugging.
+cmd-fill-desc = Заполняет консоль для отладки.
+cmd-fill-help = Использование: { $command }
+                Заполняет консоль всякой ерундой для отладки.
 
-cmd-cls-desc = Clears the console.
-cmd-cls-help = Usage: { $command }
-               Clears the debug console of all messages.
+cmd-cls-desc = Очищает консоль.
+cmd-cls-help = Использование: { $command }
+               Очищает отладочную консоль от всех сообщений.
 
-cmd-sendgarbage-desc = Sends garbage to the server.
-cmd-sendgarbage-help = Usage: { $command }
-                       The server will reply with 'no u'
+cmd-sendgarbage-desc = Отправляет мусор на сервер.
+cmd-sendgarbage-help = Использование: { $command }
+                       Сервер ответит 'no u'
 
-cmd-loadgrid-desc = Loads a grid from a file into an existing map.
-cmd-loadgrid-help = Usage: { $command } <MapID> <Path> [x y] [rotation] [storeUids]
+cmd-loadgrid-desc = Загружает грид из файла в существующую карту.
+cmd-loadgrid-help = Использование: { $command } <MapID> <путь> [x y] [rotation] [storeUids]
 
-cmd-loc-desc = Prints the absolute location of the player's entity to console.
-cmd-loc-help = Usage: { $command }
+cmd-loc-desc = Выводит в консоль абсолютные координаты сущности игрока.
+cmd-loc-help = Использование: { $command }
 
-cmd-tpgrid-desc = Teleports a grid to a new location.
-cmd-tpgrid-help = Usage: { $command } <gridId> <X> <Y> [<MapId>]
+cmd-tpgrid-desc = Телепортирует грид в новое место.
+cmd-tpgrid-help = Использование: { $command } <gridId> <X> <Y> [<MapId>]
 
-cmd-rmgrid-desc = Removes a grid from a map. You cannot remove the default grid.
-cmd-rmgrid-help = Usage: { $command } <gridId>
+cmd-rmgrid-desc = Удаляет грид с карты. Грид по умолчанию удалить нельзя.
+cmd-rmgrid-help = Использование: { $command } <gridId>
 
-cmd-mapinit-desc = Runs map init on a map.
-cmd-mapinit-help = Usage: { $command } <mapID>
+cmd-mapinit-desc = Запускает инициализацию карты.
+cmd-mapinit-help = Использование: { $command } <mapID>
 
-cmd-lsmap-desc = Lists maps.
-cmd-lsmap-help = Usage: { $command }
+cmd-lsmap-desc = Выводит список карт.
+cmd-lsmap-help = Использование: { $command }
 
-cmd-lsgrid-desc = Lists grids.
-cmd-lsgrid-help = Usage: { $command }
+cmd-lsgrid-desc = Выводит список гридов.
+cmd-lsgrid-help = Использование: { $command }
 
-cmd-addmap-desc = Adds a new empty map to the round. If the mapID already exists, this command does nothing.
-cmd-addmap-help = Usage: { $command } <mapID> [pre-init]
+cmd-addmap-desc = Добавляет в раунд новую пустую карту. Если mapID уже существует, команда ничего не делает.
+cmd-addmap-help = Использование: { $command } <mapID> [pre-init]
 
-cmd-rmmap-desc = Removes a map from the world. You cannot remove nullspace.
-cmd-rmmap-help = Usage: { $command } <mapId>
+cmd-rmmap-desc = Удаляет карту из мира. Нуль-пространство удалить нельзя.
+cmd-rmmap-help = Использование: { $command } <mapId>
 
-cmd-pausemap-desc = Pauses a map, pausing all simulation processing on it.
-cmd-pausemap-help = Usage: pausemap <map ID>
+cmd-pausemap-desc = Приостанавливает карту, останавливая на ней всю обработку симуляции.
+cmd-pausemap-help = Использование: pausemap <ID карты>
 
-cmd-unpausemap-desc = Unpauses a map, resuming all simulation processing on it.
-cmd-unpausemap-help = Usage: unpausemap <map ID>
+cmd-unpausemap-desc = Снимает карту с паузы, возобновляя на ней всю обработку симуляции.
+cmd-unpausemap-help = Использование: unpausemap <ID карты>
 
-cmd-querymappaused-desc = Check whether a map is paused or not.
-cmd-querymappaused-help = Usage: querymappaused <map ID>
+cmd-querymappaused-desc = Проверяет, приостановлена ли карта.
+cmd-querymappaused-help = Использование: querymappaused <ID карты>
 
-cmd-savegrid-desc = Serializes a grid to disk.
-cmd-savegrid-help = Usage: { $command } <gridID> <Path>
+cmd-savegrid-desc = Сериализует грид на диск.
+cmd-savegrid-help = Использование: { $command } <gridID> <путь>
 
-cmd-testbed-desc = Loads a physics testbed on the specified map.
-cmd-testbed-help = Usage: { $command } <mapid> <test>
+cmd-testbed-desc = Загружает физический тестовый стенд на указанную карту.
+cmd-testbed-help = Использование: { $command } <mapid> <тест>
 
 ## 'flushcookies' command
 # Note: the flushcookies command is from Robust.Client.WebView, it's not in the main engine code.
 
 ## 'addcomp' command
-cmd-addcomp-desc = Adds a component to an entity.
-cmd-addcomp-help = Usage: { $command } <uid> <componentName>
-cmd-addcompc-desc = Adds a component to an entity on the client.
-cmd-addcompc-help = Usage: { $command } <uid> <componentName>
+cmd-addcomp-desc = Добавляет компонент сущности.
+cmd-addcomp-help = Использование: { $command } <uid> <componentName>
+cmd-addcompc-desc = Добавляет компонент сущности на клиенте.
+cmd-addcompc-help = Использование: { $command } <uid> <componentName>
 
 ## 'rmcomp' command
-cmd-rmcomp-desc = Removes a component from an entity.
-cmd-rmcomp-help = Usage: { $command } <uid> <componentName>
-cmd-rmcompc-desc = Removes a component from an entity on the client.
-cmd-rmcompc-help = Usage: { $command } <uid> <componentName>
+cmd-rmcomp-desc = Удаляет компонент у сущности.
+cmd-rmcomp-help = Использование: { $command } <uid> <componentName>
+cmd-rmcompc-desc = Удаляет компонент у сущности на клиенте.
+cmd-rmcompc-help = Использование: { $command } <uid> <componentName>
 
 ## 'addview' command
-cmd-addview-desc = Allows you to subscribe to an entity's view for debugging purposes.
-cmd-addview-help = Usage: { $command } <entityUid>
-cmd-addviewc-desc = Allows you to subscribe to an entity's view for debugging purposes.
-cmd-addviewc-help = Usage: { $command } <entityUid>
+cmd-addview-desc = Позволяет подписаться на вид сущности в отладочных целях.
+cmd-addview-help = Использование: { $command } <entityUid>
+cmd-addviewc-desc = Позволяет подписаться на вид сущности в отладочных целях.
+cmd-addviewc-help = Использование: { $command } <entityUid>
 
 ## 'removeview' command
-cmd-removeview-desc = Allows you to unsubscribe to an entity's view for debugging purposes.
-cmd-removeview-help = Usage: { $command } <entityUid>
+cmd-removeview-desc = Позволяет отписаться от вида сущности в отладочных целях.
+cmd-removeview-help = Использование: { $command } <entityUid>
 
 ## 'loglevel' command
-cmd-loglevel-desc = Changes the log level for a provided sawmill.
-cmd-loglevel-help = Usage: { $command } <sawmill> <level>
-      sawmill: A label prefixing log messages. This is the one you're setting the level for.
-      level: The log level. Must match one of the values of the LogLevel enum.
+cmd-loglevel-desc = Меняет уровень журналирования для указанной пилорамы (sawmill).
+cmd-loglevel-help = Использование: { $command } <sawmill> <уровень>
+      sawmill: метка-префикс сообщений журнала. Именно для неё задаётся уровень.
+      уровень: уровень журналирования. Должен совпадать с одним из значений перечисления LogLevel.
 
-cmd-testlog-desc = Writes a test log to a sawmill.
-cmd-testlog-help = Usage: { $command } <sawmill> <level> <message>
-    sawmill: A label prefixing the logged message.
-    level: The log level. Must match one of the values of the LogLevel enum.
-    message: The message to be logged. Wrap this in double quotes if you want to use spaces.
+cmd-testlog-desc = Записывает тестовое сообщение в журнал sawmill.
+cmd-testlog-help = Использование: { $command } <sawmill> <уровень> <сообщение>
+    sawmill: метка-префикс записываемого сообщения.
+    уровень: уровень журналирования. Должен совпадать с одним из значений перечисления LogLevel.
+    сообщение: записываемое сообщение. Возьмите его в двойные кавычки, если хотите использовать пробелы.
 
 ## 'vv' command
-cmd-vv-desc = Opens View Variables.
-cmd-vv-help = Usage: { $command } <entity ID|IoC interface name|SIoC interface name>
+cmd-vv-desc = Открывает View Variables.
+cmd-vv-help = Использование: { $command } <ID сущности|имя интерфейса IoC|имя интерфейса SIoC>
 
 ## 'showvelocities' command
-cmd-showvelocities-desc = Displays your angular and linear velocities.
-cmd-showvelocities-help = Usage: { $command }
+cmd-showvelocities-desc = Отображает ваши угловую и линейную скорости.
+cmd-showvelocities-help = Использование: { $command }
 
 ## 'setinputcontext' command
-cmd-setinputcontext-desc = Sets the active input context.
-cmd-setinputcontext-help = Usage: { $command } <context>
+cmd-setinputcontext-desc = Задаёт активный контекст ввода.
+cmd-setinputcontext-help = Использование: { $command } <контекст>
 
 ## 'forall' command
-cmd-forall-desc = Runs a command over all entities with a given component.
-cmd-forall-help = Usage: { $command } <bql query> do <command...>
+cmd-forall-desc = Выполняет команду над всеми сущностями с указанным компонентом.
+cmd-forall-help = Использование: { $command } <BQL-запрос> do <команда...>
 
 ## 'delete' command
-cmd-delete-desc = Deletes the entity with the specified ID.
-cmd-delete-help = Usage: { $command } <entity UID>
+cmd-delete-desc = Удаляет сущность с указанным ID.
+cmd-delete-help = Использование: { $command } <UID сущности>
 
 # System commands
-cmd-showtime-desc = Shows the server time.
-cmd-showtime-help = Usage: { $command }
+cmd-showtime-desc = Показывает время сервера.
+cmd-showtime-help = Использование: { $command }
 
-cmd-restart-desc = Gracefully restarts the server (not just the round).
-cmd-restart-help = Usage: { $command }
+cmd-restart-desc = Корректно перезапускает сервер (а не только раунд).
+cmd-restart-help = Использование: { $command }
 
-cmd-shutdown-desc = Gracefully shuts down the server.
-cmd-shutdown-help = Usage: { $command }
-cmd-shutdown-hint-1 = Reason
+cmd-shutdown-desc = Корректно выключает сервер.
+cmd-shutdown-help = Использование: { $command }
+cmd-shutdown-hint-1 = Причина
 
-cmd-saveconfig-desc = Saves the server configuration to the config file.
-cmd-saveconfig-help = Usage: { $command }
+cmd-saveconfig-desc = Сохраняет конфигурацию сервера в файл конфигурации.
+cmd-saveconfig-help = Использование: { $command }
 
-cmd-netaudit-desc = Prints into about NetMsg security.
-cmd-netaudit-help = Usage: { $command }
+cmd-netaudit-desc = Выводит информацию о безопасности NetMsg.
+cmd-netaudit-help = Использование: { $command }
 
 # Player commands
-cmd-tp-desc = Teleports a player to any location in the round.
-cmd-tp-help = Usage: { $command } <x> <y> [<mapID>]
+cmd-tp-desc = Телепортирует игрока в любую точку раунда.
+cmd-tp-help = Использование: { $command } <x> <y> [<mapID>]
 
-cmd-tpto-desc = Teleports the current player or the specified players/entities to the location of the first player/entity.
-cmd-tpto-help = Usage: { $command } <username|uid> [username|NetEntity]...
-cmd-tpto-destination-hint = destination (NetEntity or username)
-cmd-tpto-victim-hint = entity to teleport (NetEntity or username)
-cmd-tpto-parse-error = Cant resolve entity or player: { $str }
+cmd-tpto-desc = Телепортирует текущего игрока или указанных игроков/сущности к первому указанному игроку/сущности.
+cmd-tpto-help = Использование: { $command } <имя пользователя|uid> [имя пользователя|NetEntity]...
+cmd-tpto-destination-hint = назначение (NetEntity или имя пользователя)
+cmd-tpto-victim-hint = телепортируемая сущность (NetEntity или имя пользователя)
+cmd-tpto-parse-error = Не удаётся определить сущность или игрока: { $str }
 
-cmd-listplayers-desc = Lists all players currently connected.
-cmd-listplayers-help = Usage: { $command }
+cmd-listplayers-desc = Выводит список всех подключённых игроков.
+cmd-listplayers-help = Использование: { $command }
 
-cmd-kick-desc = Kicks a connected player out of the server, disconnecting them.
-cmd-kick-help = Usage: { $command } <PlayerIndex> [<Reason>]
+cmd-kick-desc = Кикает подключённого игрока с сервера, отключая его.
+cmd-kick-help = Использование: { $command } <PlayerIndex> [<причина>]
 
 # Spin command
-cmd-spin-desc = Causes an entity to spin. Default entity is the attached player's parent.
-cmd-spin-help = Usage: { $command } velocity [drag] [entityUid]
+cmd-spin-desc = Заставляет сущность вращаться. По умолчанию — родитель подключённого игрока.
+cmd-spin-help = Использование: { $command } скорость [сопротивление] [entityUid]
 
 # Localization command
-cmd-rldloc-desc = Reloads localization (client & server).
-cmd-rldloc-help = Usage: { $command }
+cmd-rldloc-desc = Перезагружает локализацию (клиент и сервер).
+cmd-rldloc-help = Использование: { $command }
 
 # Debug entity controls
-cmd-spawn-desc = Spawns an entity with specific type.
-cmd-spawn-help = Usage: { $command } <prototype> | { $command } <prototype> <relative entity ID> | { $command } <prototype> <x> <y>
-cmd-cspawn-desc = Spawns a client-side entity with specific type at your feet.
-cmd-cspawn-help = Usage: { $command } <entity type>
+cmd-spawn-desc = Создаёт сущность указанного типа.
+cmd-spawn-help = Использование: { $command } <прототип> | { $command } <прототип> <ID относительной сущности> | { $command } <прототип> <x> <y>
+cmd-cspawn-desc = Создаёт клиентскую сущность указанного типа у ваших ног.
+cmd-cspawn-help = Использование: { $command } <тип сущности>
 
-cmd-dumpentities-desc = Dump entity list.
-cmd-dumpentities-help = Usage: { $command }
-                        Dumps entity list of UIDs and prototype.
+cmd-dumpentities-desc = Выводит список сущностей.
+cmd-dumpentities-help = Использование: { $command }
+                        Выводит список UID сущностей и прототипов.
 
-cmd-getcomponentregistration-desc = Gets component registration information.
-cmd-getcomponentregistration-help = Usage: { $command } <componentName>
+cmd-getcomponentregistration-desc = Получает информацию о регистрации компонента.
+cmd-getcomponentregistration-help = Использование: { $command } <componentName>
 
-cmd-showrays-desc = Toggles debug drawing of physics rays. An integer for <raylifetime> must be provided.
-cmd-showrays-help = Usage: { $command } <raylifetime>
+cmd-showrays-desc = Переключает отладочную отрисовку физических лучей. Необходимо передать целое число для <raylifetime>.
+cmd-showrays-help = Использование: { $command } <raylifetime>
 
-cmd-disconnect-desc = Immediately disconnect from the server and go back to the main menu.
-cmd-disconnect-help = Usage: { $command }
+cmd-disconnect-desc = Немедленно отключается от сервера и возвращает в главное меню.
+cmd-disconnect-help = Использование: { $command }
 
-cmd-entfo-desc = Displays verbose diagnostics for an entity.
-cmd-entfo-help = Usage: { $command } <entityuid>
-    The entity UID can be prefixed with 'c' to convert it to a client entity UID.
+cmd-entfo-desc = Показывает подробную диагностику для сущности.
+cmd-entfo-help = Использование: { $command } <entityuid>
+    К UID сущности можно добавить префикс 'c', чтобы преобразовать его в UID клиентской сущности.
 
-cmd-fuck-desc = Throws an exception.
-cmd-fuck-help = Usage: { $command }
+cmd-fuck-desc = Выбрасывает исключение.
+cmd-fuck-help = Использование: { $command }
 
-cmd-showpos-desc = Show the position of all entities on the screen.
-cmd-showpos-help = Usage: { $command }
+cmd-showpos-desc = Показывает положение всех сущностей на экране.
+cmd-showpos-help = Использование: { $command }
 
-cmd-showrot-desc = Show the rotation of all entities on the screen.
-cmd-showrot-help = Usage: { $command }
+cmd-showrot-desc = Показывает поворот всех сущностей на экране.
+cmd-showrot-help = Использование: { $command }
 
-cmd-showvel-desc = Show the local velocity of all entites on the screen.
-cmd-showvel-help = Usage: { $command }
+cmd-showvel-desc = Показывает локальную скорость всех сущностей на экране.
+cmd-showvel-help = Использование: { $command }
 
-cmd-showangvel-desc = Show the angular velocity of all entities on the screen.
-cmd-showangvel-help = Usage: { $command }
+cmd-showangvel-desc = Показывает угловую скорость всех сущностей на экране.
+cmd-showangvel-help = Использование: { $command }
 
-cmd-sggcell-desc = Lists entities on a snap grid cell.
-cmd-sggcell-help = Usage: { $command } <gridID> <vector2i>\nThat vector2i param is in the form x<int>,y<int>.
+cmd-sggcell-desc = Выводит сущности в ячейке привязки к сетке.
+cmd-sggcell-help = Использование: { $command } <gridID> <vector2i>\nПараметр vector2i задаётся в форме x<int>,y<int>.
 
-cmd-overrideplayername-desc = Changes the name used when attempting to connect to the server.
-cmd-overrideplayername-help = Usage: { $command } <name>
+cmd-overrideplayername-desc = Меняет имя, используемое при попытке подключиться к серверу.
+cmd-overrideplayername-help = Использование: { $command } <имя>
 
-cmd-showanchored-desc = Shows anchored entities on a particular tile.
-cmd-showanchored-help = Usage: { $command }
+cmd-showanchored-desc = Показывает закреплённые сущности на определённой плитке.
+cmd-showanchored-help = Использование: { $command }
 
-cmd-dmetamem-desc = Dumps a type's members in a format suitable for the sandbox configuration file.
-cmd-dmetamem-help = Usage: { $command } <type>
+cmd-dmetamem-desc = Выводит члены типа в формате, подходящем для файла конфигурации песочницы.
+cmd-dmetamem-help = Использование: { $command } <тип>
 
-cmd-launchauth-desc = Load authentication tokens from launcher data to aid in testing of live servers.
-cmd-launchauth-help = Usage: { $command } <account name>
+cmd-launchauth-desc = Загружает токены аутентификации из данных лаунчера для облегчения тестирования на боевых серверах.
+cmd-launchauth-help = Использование: { $command } <имя аккаунта>
 
-cmd-lightbb-desc = Toggles whether to show light bounding boxes.
-cmd-lightbb-help = Usage: { $command }
+cmd-lightbb-desc = Переключает показ ограничивающих рамок освещения.
+cmd-lightbb-help = Использование: { $command }
 
-cmd-monitorinfo-desc = Monitors info.
-cmd-monitorinfo-help = Usage: { $command } <id>
+cmd-monitorinfo-desc = Информация о мониторах.
+cmd-monitorinfo-help = Использование: { $command } <id>
 
-cmd-setmonitor-desc = Set monitor.
-cmd-setmonitor-help = Usage: { $command } <id>
+cmd-setmonitor-desc = Задаёт монитор.
+cmd-setmonitor-help = Использование: { $command } <id>
 
-cmd-physics-desc = Shows a debug physics overlay. The arg supplied specifies the overlay.
-cmd-physics-help = Usage: { $command } <aabbs / com / contactnormals / contactpoints / distance / joints / shapeinfo / shapes>
+cmd-physics-desc = Показывает отладочный оверлей физики. Переданный аргумент определяет оверлей.
+cmd-physics-help = Использование: { $command } <aabbs / com / contactnormals / contactpoints / distance / joints / shapeinfo / shapes>
 
-cmd-hardquit-desc = Kills the game client instantly.
-cmd-hardquit-help = Usage: { $command }
-                    Kills the game client instantly, leaving no traces. No telling the server goodbye.
+cmd-hardquit-desc = Мгновенно убивает игровой клиент.
+cmd-hardquit-help = Использование: { $command }
+                    Мгновенно убивает игровой клиент, не оставляя следов. Даже не попрощавшись с сервером.
 
-cmd-quit-desc = Shuts down the game client gracefully.
-cmd-quit-help = Usage: { $command }
-                Properly shuts down the game client, notifying the connected server and such.
+cmd-quit-desc = Корректно завершает работу игрового клиента.
+cmd-quit-help = Использование: { $command }
+                Корректно завершает работу игрового клиента, уведомляя подключённый сервер и так далее.
 
-cmd-csi-desc = Opens a C# interactive console.
-cmd-csi-help = Usage: { $command }
+cmd-csi-desc = Открывает интерактивную консоль C#.
+cmd-csi-help = Использование: { $command }
 
-cmd-scsi-desc = Opens a C# interactive console on the server.
-cmd-scsi-help = Usage: { $command }
+cmd-scsi-desc = Открывает интерактивную консоль C# на сервере.
+cmd-scsi-help = Использование: { $command }
 
-cmd-watch-desc = Opens a variable watch window.
-cmd-watch-help = Usage: { $command }
+cmd-watch-desc = Открывает окно наблюдения за переменными.
+cmd-watch-help = Использование: { $command }
 
-cmd-showspritebb-desc = Toggle whether sprite bounds are shown.
-cmd-showspritebb-help = Usage: { $command }
+cmd-showspritebb-desc = Переключает показ границ спрайтов.
+cmd-showspritebb-help = Использование: { $command }
 
-cmd-togglelookup-desc = Shows / hides entitylookup bounds via an overlay.
-cmd-togglelookup-help = Usage: { $command }
+cmd-togglelookup-desc = Показывает / скрывает границы entitylookup через оверлей.
+cmd-togglelookup-help = Использование: { $command }
 
-cmd-net_entityreport-desc = Toggles the net entity report panel.
-cmd-net_entityreport-help = Usage: { $command }
+cmd-net_entityreport-desc = Переключает панель отчёта о сетевых сущностях.
+cmd-net_entityreport-help = Использование: { $command }
 
-cmd-net_refresh-desc = Requests a full server state.
-cmd-net_refresh-help = Usage: { $command }
+cmd-net_refresh-desc = Запрашивает полное состояние сервера.
+cmd-net_refresh-help = Использование: { $command }
 
-cmd-net_graph-desc = Toggles the net statistics panel.
-cmd-net_graph-help = Usage: { $command }
+cmd-net_graph-desc = Переключает панель сетевой статистики.
+cmd-net_graph-help = Использование: { $command }
 
-cmd-net_watchent-desc = Dumps all network updates for an EntityId to the console.
-cmd-net_watchent-help = Usage: { $command } <0|EntityUid>
+cmd-net_watchent-desc = Выводит в консоль все сетевые обновления для EntityId.
+cmd-net_watchent-help = Использование: { $command } <0|EntityUid>
 
-cmd-net_draw_interp-desc = Toggles the debug drawing of the network interpolation.
-cmd-net_draw_interp-help = Usage: { $command } <0|EntityUid>
+cmd-net_draw_interp-desc = Переключает отладочную отрисовку сетевой интерполяции.
+cmd-net_draw_interp-help = Использование: { $command } <0|EntityUid>
 
-cmd-vram-desc = Displays video memory usage statics by the game.
-cmd-vram-help = Usage: { $command }
+cmd-vram-desc = Показывает статистику использования видеопамяти игрой.
+cmd-vram-help = Использование: { $command }
 
-cmd-showislands-desc = Shows the current physics bodies involved in each physics island.
-cmd-showislands-help = Usage: { $command }
+cmd-showislands-desc = Показывает физические тела, входящие в каждый физический остров.
+cmd-showislands-help = Использование: { $command }
 
-cmd-showgridnodes-desc = Shows the nodes for grid split purposes.
-cmd-showgridnodes-help = Usage: { $command }
+cmd-showgridnodes-desc = Показывает узлы, используемые для разделения гридов.
+cmd-showgridnodes-help = Использование: { $command }
 
-cmd-profsnap-desc = Make a profiling snapshot.
-cmd-profsnap-help = Usage: { $command }
+cmd-profsnap-desc = Делает снимок профилирования.
+cmd-profsnap-help = Использование: { $command }
 
-cmd-devwindow-desc = Dev Window.
-cmd-devwindow-help = Usage: { $command }
+cmd-devwindow-desc = Окно разработчика.
+cmd-devwindow-help = Использование: { $command }
 
-cmd-scene-desc = Immediately changes the UI scene/state.
-cmd-scene-help = Usage: { $command } <className>
+cmd-scene-desc = Немедленно меняет сцену/состояние интерфейса.
+cmd-scene-help = Использование: { $command } <className>
 
-cmd-szr_stats-desc = Report serializer statistics.
-cmd-szr_stats-help = Usage: { $command }
+cmd-szr_stats-desc = Выводит статистику сериализатора.
+cmd-szr_stats-help = Использование: { $command }
 
-cmd-hwid-desc = Returns the current HWID (HardWare ID).
-cmd-hwid-help = Usage: { $command }
+cmd-hwid-desc = Возвращает текущий HWID (идентификатор оборудования).
+cmd-hwid-help = Использование: { $command }
 
-cmd-vvread-desc = Retrieve a path's value using VV (View Variables).
-cmd-vvread-help = Usage: { $command } <path>
+cmd-vvread-desc = Получает значение по пути через VV (View Variables).
+cmd-vvread-help = Использование: { $command } <путь>
 
-cmd-vvwrite-desc = Modify a path's value using VV (View Variables).
-cmd-vvwrite-help = Usage: { $command } <path>
+cmd-vvwrite-desc = Изменяет значение по пути через VV (View Variables).
+cmd-vvwrite-help = Использование: { $command } <путь>
 
-cmd-vvinvoke-desc = Invoke/Call a path with arguments using VV.
-cmd-vvinvoke-help = Usage: { $command } <path> [arguments...]
+cmd-vvinvoke-desc = Вызывает путь с аргументами через VV.
+cmd-vvinvoke-help = Использование: { $command } <путь> [аргументы...]
 
-cmd-dump_dependency_injectors-desc = Dump IoCManager's dependency injector cache.
-cmd-dump_dependency_injectors-help = Usage: { $command }
-cmd-dump_dependency_injectors-total-count = Total count: { $total }
+cmd-dump_dependency_injectors-desc = Выводит кэш внедрителей зависимостей IoCManager.
+cmd-dump_dependency_injectors-help = Использование: { $command }
+cmd-dump_dependency_injectors-total-count = Всего: { $total }
 
-cmd-dump_netserializer_type_map-desc = Dump NetSerializer's type map and serializer hash.
-cmd-dump_netserializer_type_map-help = Usage: { $command }
+cmd-dump_netserializer_type_map-desc = Выводит карту типов NetSerializer и хэш сериализатора.
+cmd-dump_netserializer_type_map-help = Использование: { $command }
 
-cmd-hub_advertise_now-desc = Immediately advertise to the master hub server.
-cmd-hub_advertise_now-help = Usage: { $command }
+cmd-hub_advertise_now-desc = Немедленно рекламирует сервер на главном хабе.
+cmd-hub_advertise_now-help = Использование: { $command }
 
-cmd-echo-desc = Echo arguments back to the console.
-cmd-echo-help = Usage: { $command } "<message>"
+cmd-echo-desc = Выводит аргументы обратно в консоль.
+cmd-echo-help = Использование: { $command } "<сообщение>"
 
 ## 'vfs_ls' command
-cmd-vfs_ls-desc = List directory contents in the VFS.
-cmd-vfs_ls-help = Usage: { $command } <path>
-    Example:
+cmd-vfs_ls-desc = Выводит содержимое каталога в VFS.
+cmd-vfs_ls-help = Использование: { $command } <путь>
+    Пример:
     vfs_list /Assemblies
 
-cmd-vfs_ls-err-args = Need exactly 1 argument.
-cmd-vfs_ls-hint-path = <path>
+cmd-vfs_ls-err-args = Нужен ровно 1 аргумент.
+cmd-vfs_ls-hint-path = <путь>
 
-cmd-reloadtiletextures-desc = Reloads the tile texture atlas to allow hot reloading tile sprites.
-cmd-reloadtiletextures-help = Usage: { $command }
+cmd-reloadtiletextures-desc = Перезагружает атлас текстур плиток, позволяя горячую перезагрузку спрайтов плиток.
+cmd-reloadtiletextures-help = Использование: { $command }
 
-cmd-audio_length-desc = Shows the length of an audio file
-cmd-audio_length-help = Usage: { $command } { cmd-audio_length-arg-file-name }
-cmd-audio_length-arg-file-name = <file name>
+cmd-audio_length-desc = Показывает длину аудиофайла
+cmd-audio_length-help = Использование: { $command } { cmd-audio_length-arg-file-name }
+cmd-audio_length-arg-file-name = <имя файла>
 
 ## PVS
-cmd-pvs-override-info-desc = Prints information about any PVS overrides associated with an entity.
-cmd-pvs-override-info-empty = Entity { $nuid } has no PVS overrides.
-cmd-pvs-override-info-global = Entity { $nuid } has a global override.
-cmd-pvs-override-info-clients = Entity { $nuid } has a session override for { $clients }.
+cmd-pvs-override-info-desc = Выводит информацию о любых переопределениях PVS, связанных с сущностью.
+cmd-pvs-override-info-empty = У сущности { $nuid } нет переопределений PVS.
+cmd-pvs-override-info-global = У сущности { $nuid } есть глобальное переопределение.
+cmd-pvs-override-info-clients = У сущности { $nuid } есть переопределение сессии для { $clients }.
 
-cmd-localization_set_culture-desc = Set DefaultCulture for the client LocalizationManager.
-cmd-localization_set_culture-help = Usage: { $command } <cultureName>
-cmd-localization_set_culture-culture-name = <cultureName>
-cmd-localization_set_culture-changed = Localization changed to { $code } ({ $nativeName } / { $englishName })
+cmd-localization_set_culture-desc = Задаёт DefaultCulture для клиентского LocalizationManager.
+cmd-localization_set_culture-help = Использование: { $command } <cultureName>
+cmd-localization_set_culture-culture-name = <название культуры>
+cmd-localization_set_culture-changed = Локализация изменена на { $code } ({ $nativeName } / { $englishName })
 
-cmd-addmap-hint-2 = runMapInit [true / false]
+cmd-addmap-hint-2 = инициализация карты [true / false]

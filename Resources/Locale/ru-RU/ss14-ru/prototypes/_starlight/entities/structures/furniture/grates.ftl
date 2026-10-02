@@ -1,0 +1,14 @@
+ent-GrateBase = решётка
+    .desc = Очень индустриально.
+ent-GrateGray = { ent-GrateBase }
+    .desc = { ent-GrateBase.desc }
+    .suffix = Серое
+ent-GrateEngie = { ent-GrateBase }
+    .desc = { ent-GrateBase.desc }
+    .suffix = Бурый
+ent-GrateSec = { ent-GrateBase }
+    .desc = { ent-GrateBase.desc }
+    .suffix = Красный
+ent-LatticeFalse = хлипкая решётка
+    .desc = Структурно нежизнеспособна.
+    .suffix = Ложная, решётка

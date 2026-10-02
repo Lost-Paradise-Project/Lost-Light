@@ -1,6 +1,6 @@
 ## UI
 
-ui-disposal-unit-title = Утилизационный блок
+ui-disposal-unit-title = { CAPITALIZE($name) }
 
 ui-disposal-unit-label-state = Состояние:
 ui-disposal-unit-label-pressure = Давление:
@@ -16,7 +16,7 @@ disposal-eject-verb-get-data-text = Извлечь всё
 
 ## Errors
 disposal-unit-no-hands = У вас нет рук!
-disposal-unit-is-full = There's no more room inside.
+disposal-unit-is-full = Внутри больше нет места.
 
 # state
 disposal-unit-state-Ready = Готов

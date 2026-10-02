@@ -1,0 +1,13 @@
+- type: guideEntry
+  id: LPPRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  text: "/ServerInfo/_LP/Rules.xml"
+
+# Значение server.rules_file по умолчанию (DefaultRuleset) и запасной вариант InfoUIController.
+# Правила визардов и Starlight удалены, поэтому DefaultRuleset показывает наши правила.
+- type: guideEntry
+  id: DefaultRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  text: "/ServerInfo/_LP/Rules.xml"

@@ -29,9 +29,16 @@ class SS14YamlLoader(SafeLoader):
     pass
 
 
+class PartialType(str):
+    """Тип прототипа с тегом !PartialOnly - дополняет существующий прототип, а не создаёт новый."""
+
+
 def construct_undefined(loader, tag_suffix, node):
     if isinstance(node, yaml.ScalarNode):
-        return loader.construct_scalar(node)
+        value = loader.construct_scalar(node)
+        if tag_suffix == "PartialOnly":
+            return PartialType(value)
+        return value
     elif isinstance(node, yaml.SequenceNode):
         return loader.construct_sequence(node)
     elif isinstance(node, yaml.MappingNode):
@@ -81,6 +88,7 @@ class PrototypeEntry:
 
     filepath: str = ""
     file_index: int = 0
+    partial: bool = False
 
 
 class RunContext:
@@ -363,10 +371,12 @@ class FtlParser:
                         pass
                 return
 
-            if ends_with_newline:
+            # Перевод строки в конце нужен всегда (EditorConfig в CI), даже если его нет в en-файле
+            if ends_with_newline or not content.endswith("\n"):
                 content += "\n"
 
-            with open(filepath, "w", encoding="utf-8") as f:
+            # newline="\n" - иначе на Windows файлы пишутся с CRLF
+            with open(filepath, "w", encoding="utf-8", newline="\n") as f:
                 f.write(content)
 
         except OSError as e:
@@ -374,7 +384,18 @@ class FtlParser:
 
 
 class LocalizationManager:
+    # Переводы сущностей живут только в ss14-ru/prototypes
+    ENT_KEY_RE = re.compile(r"^ent-[a-zA-Z]")
+    FTL_ID_RE = re.compile(r"[a-zA-Z][a-zA-Z0-9_-]*")
     CYRILLIC_PATTERN = re.compile(r"[А-Яа-яЁё]")
+    HEX_COLOR_RE = re.compile(r"#[0-9a-fA-F]{3,8}")
+    # Таблицы замен слов: к ним непереводимые токены не применяются
+    WORD_TABLE_KEY_RE = re.compile(r"^(accent-|chatsan-)")
+    # Ключи с синтаксисом команд и слова-имена команд в них (dock, replay_play, get-motd)
+    COMMAND_SYNTAX_KEY_RE = re.compile(
+        r"^cmd-.*-(help|completion)$|-command-name$|^shell-argument-"
+    )
+    COMMAND_WORD_RE = re.compile(r"(?<![\w-])[a-z][a-z0-9_\-]*(?![\w-])")
     LATIN_PATTERN = re.compile(r"[a-zA-Z]")
     RE_INNER_DASH = re.compile(r"(?<=\s)-(?=\s)")
 
@@ -401,9 +422,15 @@ class LocalizationManager:
         ignore_variable_mismatch_paths: List[Path] = []
         no_translate_tokens: List[str] = []
 
-        config_path = Path(config_file).resolve()
-        if not config_path.exists():
-            config_path = (self.root_dir / config_file).resolve()
+        # Ищем конфиг: как передан (от текущей папки), рядом со скриптом, в корне проекта
+        candidates = [
+            Path(config_file),
+            Path(__file__).resolve().parent / config_file,
+            self.root_dir / config_file,
+        ]
+        config_path = next(
+            (c.resolve() for c in candidates if c.exists()), candidates[0].resolve()
+        )
 
         if config_path.exists():
             try:
@@ -704,6 +731,12 @@ class LocalizationManager:
                 else ({}, [], True)
             )
 
+            # Переводы сущностей (ent-) не копируются в зеркала ru-RU:
+            # их генерирует --prototypes в ss14-ru/prototypes.
+            en_entries = {
+                k: v for k, v in en_entries.items() if not self.ENT_KEY_RE.match(k)
+            }
+
             is_new_file = not target_file.exists()
             new_ru_entries: Dict[str, FtlEntry] = {}
             updated = False
@@ -785,6 +818,14 @@ class LocalizationManager:
                 if list(ru_entries.keys()) != list(new_ru_entries.keys()):
                     updated = True
 
+            # Уже существующие переводы ent- не теряем: --prototypes перенесёт их в ss14-ru.
+            for key, ru_entry in ru_entries.items():
+                if self.ENT_KEY_RE.match(key) and key not in new_ru_entries:
+                    new_ru_entries[key] = ru_entry
+
+            if is_new_file and not new_ru_entries:
+                continue
+
             if updated or is_new_file:
                 FtlParser.write_file(
                     target_file, new_ru_entries, trailing_text, ends_with_newline
@@ -831,6 +872,8 @@ class LocalizationManager:
 
         yml_files = list(self.prototypes_src_dir.rglob("*.yml"))
         prototypes: Dict[str, PrototypeEntry] = {}
+        partials: List[PrototypeEntry] = []
+        parse_failed = False
 
         with ProcessPoolExecutor() as executor:
             futures = {
@@ -840,12 +883,40 @@ class LocalizationManager:
             for future in as_completed(futures):
                 try:
                     for proto in future.result():
-                        prototypes[proto.id] = proto
+                        if proto.partial:
+                            partials.append(proto)
+                        else:
+                            prototypes[proto.id] = proto
                 except Exception as e:
+                    parse_failed = True
                     logging.error(f"Ошибка парсинга YAML в {futures[future]}: {e}")
 
+        # !PartialOnly дополняет существующий прототип: переносим его name/desc/suffix/parent
+        # в основной прототип, перевод остаётся в файле основного прототипа.
+        partials.sort(key=lambda p: (p.filepath, p.file_index))
+        for part in partials:
+            base = prototypes.get(part.id)
+            if base is None:
+                continue
+            if part.name is not None:
+                base.name = base.resolved_name = part.name
+            if part.desc is not None:
+                base.desc = base.resolved_desc = part.desc
+            if part.suffix is not None:
+                base.suffix = base.resolved_suffix = part.suffix
+            if part.parents:
+                base.parents = part.parents
+
+        if parse_failed:
+            logging.warning(
+                "Не все YAML прочитаны - переводы удалённых прототипов сохранены, "
+                "чтобы не потерять переводы из нераспарсенных файлов."
+            )
+
         resolved_prototypes = self._resolve_inheritance(prototypes)
-        valid_ftls = self._generate_prototype_ftls(resolved_prototypes)
+        valid_ftls = self._generate_prototype_ftls(
+            resolved_prototypes, remove_orphans=not parse_failed
+        )
 
         self._cleanup_orphans(self.prototypes_ru_dir, valid_ftls)
 
@@ -874,7 +945,18 @@ class LocalizationManager:
                         ):
                             continue
 
-                        raw_id = item["id"]
+                        is_partial = isinstance(item.get("type"), PartialType)
+
+                        # id: !type:CreateVariants { values: [...] } - несколько ID сразу
+                        raw_ids = item["id"]
+                        if isinstance(raw_ids, dict):
+                            raw_ids = raw_ids.get("values") or []
+                        if not isinstance(raw_ids, list):
+                            raw_ids = [raw_ids]
+                        raw_ids = [i for i in raw_ids if isinstance(i, (str, int))]
+                        if not raw_ids:
+                            continue
+
                         raw_name = item.get("name")
                         raw_desc = item.get("description") or item.get("desc")
                         raw_suffix = item.get("suffix")
@@ -887,31 +969,35 @@ class LocalizationManager:
                         else:
                             parents = []
 
-                        entries.append(
-                            PrototypeEntry(
-                                id=str(raw_id),
-                                parents=parents,
-                                name=str(raw_name) if raw_name is not None else None,
-                                desc=str(raw_desc) if raw_desc is not None else None,
-                                suffix=str(raw_suffix)
-                                if raw_suffix is not None
-                                else None,
-                                resolved_name=str(raw_name)
-                                if raw_name is not None
-                                else None,
-                                resolved_desc=str(raw_desc)
-                                if raw_desc is not None
-                                else None,
-                                resolved_suffix=str(raw_suffix)
-                                if raw_suffix is not None
-                                else None,
-                                filepath=str(filepath),
-                                file_index=idx,
+                        for raw_id in raw_ids:
+                            entries.append(
+                                PrototypeEntry(
+                                    id=str(raw_id),
+                                    parents=list(parents),
+                                    name=str(raw_name) if raw_name is not None else None,
+                                    desc=str(raw_desc) if raw_desc is not None else None,
+                                    suffix=str(raw_suffix)
+                                    if raw_suffix is not None
+                                    else None,
+                                    resolved_name=str(raw_name)
+                                    if raw_name is not None
+                                    else None,
+                                    resolved_desc=str(raw_desc)
+                                    if raw_desc is not None
+                                    else None,
+                                    resolved_suffix=str(raw_suffix)
+                                    if raw_suffix is not None
+                                    else None,
+                                    filepath=str(filepath),
+                                    file_index=idx,
+                                    partial=is_partial,
+                                )
                             )
-                        )
-                        idx += 1
-        except Exception:
-            pass
+                            idx += 1
+        except Exception as e:
+            # Пробрасываем наверх: иначе сущности нераспарсенного файла
+            # считаются удалёнными и их переводы стираются.
+            raise RuntimeError(f"{filepath}: {e}") from None
         return entries
 
     def _resolve_inheritance(
@@ -948,7 +1034,8 @@ class LocalizationManager:
 
                 if final_suffix is None and parent_proto.resolved_suffix is not None:
                     final_suffix = parent_proto.resolved_suffix
-                    suffix_parent = parent_id
+                    # suffix: "" у родителя сбрасывает суффикс - ссылаться не на что
+                    suffix_parent = parent_id if parent_proto.resolved_suffix else None
 
             resolved_proto = PrototypeEntry(
                 id=proto.id,
@@ -975,9 +1062,13 @@ class LocalizationManager:
         return resolved
 
     def _generate_prototype_ftls(
-        self, prototypes: Dict[str, PrototypeEntry]
+        self, prototypes: Dict[str, PrototypeEntry], remove_orphans: bool = True
     ) -> Set[Path]:
         external_keys: Set[str] = set()
+        # ent- ключи, оказавшиеся вне ss14-ru/prototypes: служат памятью переводов
+        # и после генерации убираются оттуда.
+        stray_ent: Dict[str, FtlEntry] = {}
+        stray_files: Set[Path] = set()
 
         if self.ru_ru_dir.exists():
             for ftl_file in self.ru_ru_dir.rglob("*.ftl"):
@@ -986,7 +1077,12 @@ class LocalizationManager:
                 if self.context.is_ignored(ftl_file):
                     continue
                 entries, _, _ = self._get_parsed_ftl(ftl_file)
-                external_keys.update(entries.keys())
+                for k, v in entries.items():
+                    if self.ENT_KEY_RE.match(k):
+                        stray_ent[k] = v
+                        stray_files.add(ftl_file)
+                    else:
+                        external_keys.add(k)
 
         existing_files: Dict[Path, Tuple[Dict[str, FtlEntry], List[str], bool]] = {}
         global_entries: Dict[str, Tuple[FtlEntry, Path]] = {}
@@ -1009,6 +1105,10 @@ class LocalizationManager:
             if ftl_key in external_keys:
                 continue
 
+            # ID с символами, недопустимыми в ключах Fluent (например, "R&D"), игра не локализует
+            if not self.FTL_ID_RE.fullmatch(ftl_key):
+                continue
+
             try:
                 rel_path = Path(proto.filepath).relative_to(self.prototypes_src_dir)
                 lower_parts = [p.lower() for p in rel_path.parts]
@@ -1023,7 +1123,9 @@ class LocalizationManager:
 
             used_keys.add(ftl_key)
             mem_entry = (
-                global_entries.get(ftl_key)[0] if ftl_key in global_entries else None
+                global_entries.get(ftl_key)[0]
+                if ftl_key in global_entries
+                else stray_ent.get(ftl_key)
             )
 
             entry = FtlEntry(key=ftl_key, value="")
@@ -1107,12 +1209,25 @@ class LocalizationManager:
                 file_entries[entry.key] = entry
             files_to_write[ftl_path] = file_entries
 
+        removed_orphans = 0
         for key, (entry, old_path) in global_entries.items():
             if key not in used_keys and key not in external_keys:
+                # ent-ключ без прототипа - прототип удалён, перевод больше не нужен.
+                # Ручные ключи (не ent-) в этих файлах сохраняются.
+                if remove_orphans and key.startswith("ent-"):
+                    logging.info(
+                        f"Удаление перевода удалённого прототипа: {key} "
+                        f"({old_path.relative_to(self.root_dir)})"
+                    )
+                    removed_orphans += 1
+                    continue
                 valid_ftls.add(old_path)
                 if old_path not in files_to_write:
                     files_to_write[old_path] = {}
                 files_to_write[old_path][key] = entry
+
+        if removed_orphans:
+            logging.info(f"Удалено переводов удалённых прототипов: {removed_orphans}")
 
         for ftl_path, entries_dict in files_to_write.items():
             if not entries_dict:
@@ -1132,6 +1247,25 @@ class LocalizationManager:
                 ends = True
 
             FtlParser.write_file(ftl_path, entries_dict, trailing, ends)
+
+        # Убираем ent- ключи из файлов вне ss14-ru/prototypes: перенесённые уже записаны выше,
+        # у удалённых прототипов перевод не нужен (кроме случая, когда не все YAML прочитаны).
+        for ftl_file in sorted(stray_files):
+            entries, trailing, ends = FtlParser.parse_file(ftl_file)
+            kept = {
+                k: v
+                for k, v in entries.items()
+                if not (
+                    self.ENT_KEY_RE.match(k) and (k in used_keys or remove_orphans)
+                )
+            }
+            if len(kept) == len(entries):
+                continue
+            logging.info(
+                f"Перенос ent- ключей в ss14-ru/prototypes из: "
+                f"{ftl_file.relative_to(self.root_dir)} ({len(entries) - len(kept)})"
+            )
+            FtlParser.write_file(ftl_file, kept, trailing, ends)
 
         return valid_ftls
 
@@ -1176,6 +1310,17 @@ class LocalizationManager:
         logging.info("Поиск непереведенных строк...")
         untranslated_count = 0
 
+        # регистр не важен: "Nanotrasen" покрывает и "NanoTrasen"
+        tokens = sorted(self.context.no_translate_tokens, key=len, reverse=True)
+        self._no_translate_re = re.compile(
+            "|".join(
+                r"(?<![A-Za-z0-9])" + re.escape(t) + r"(?![A-Za-z0-9])"
+                for t in tokens
+            )
+            or r"(?!x)x",
+            re.IGNORECASE,
+        )
+
         search_dirs = [self.ru_ru_dir, self.robust_ru_dir]
 
         for directory in search_dirs:
@@ -1206,6 +1351,17 @@ class LocalizationManager:
                             return False
                         if re.match(r"^v\d[\w.\-]*$", clean_text.strip()):
                             return False
+                        # hex-цвета (#eeeeee) - не текст
+                        if self.HEX_COLOR_RE.fullmatch(clean_text.strip()):
+                            return False
+                        # непереводимые токены вырезаются целыми словами в любом месте строки;
+                        # в акцентах и сокращениях чата каждое английское слово - пропуск перевода
+                        if not self.WORD_TABLE_KEY_RE.match(_key):
+                            clean_text = self._no_translate_re.sub(" ", clean_text)
+                        # справка по командам: имена команд и аргументы <...> - не текст
+                        if self.COMMAND_SYNTAX_KEY_RE.search(_key):
+                            clean_text = re.sub(r"<[^>]*>", " ", clean_text)
+                            clean_text = self.COMMAND_WORD_RE.sub(" ", clean_text)
                         return bool(
                             self.LATIN_PATTERN.search(clean_text)
                             and not self.CYRILLIC_PATTERN.search(clean_text)

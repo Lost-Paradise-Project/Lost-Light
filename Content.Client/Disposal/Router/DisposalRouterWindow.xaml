@@ -16,6 +16,6 @@
                     Access="Public"
                     Text="{Loc 'disposal-router-window-tag-input-confirm-button'}" />
         </BoxContainer>
-        <Label Text="Use * to match any items that have tags on them" />
+        <Label Text="{Loc 'disposal-router-wildcard-hint'}" /> <!-- LP edit -->
     </BoxContainer>
 </DefaultWindow>

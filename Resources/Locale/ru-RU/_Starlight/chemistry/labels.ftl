@@ -1,0 +1,16 @@
+reagent-label-dexalin-10 = дексалин 10 ед.
+reagent-label-dylovene-10 = диловен 10 ед.
+reagent-label-hyronalin-10 = хироналин 10 ед.
+reagent-label-potassium-iodine-10 = йодид калия 10 ед.
+reagent-label-iron-10 = железо 10 ед.
+reagent-label-copper-10 = медь 10 ед.
+reagent-label-kelotane-10 = келотан 10 ед.
+reagent-label-dermaline-10 = дермалин 10 ед.
+reagent-label-tricordrazine-10 = трикордразин 10 ед.
+reagent-label-bicaridine-10 = бикаридин 10 ед.
+reagent-label-charcoal-10 = уголь 10 ед.
+reagent-label-psicodine-10 = психодин 10 ед.
+reagent-label-nitrogen-5 = азот 5 ед.
+reagent-label-nitrogen-10 = азот 10 ед.
+reagent-label-hydrogen-5 = водород 5 ед.
+reagent-label-hydrogen-10 = водород 10 ед.

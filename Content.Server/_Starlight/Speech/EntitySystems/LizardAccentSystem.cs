@@ -21,6 +21,26 @@ public sealed partial class LizardAccentSystem : EntitySystem
     [GeneratedRegex(@"\bX([\-|r|R]|\b)")]
     private static partial Regex RegexUpperEndX();
 
+    // LP edit start
+    [GeneratedRegex("[сз]+")]
+    private static partial Regex RegexLowerSRu();
+
+    [GeneratedRegex("[СЗ]+")]
+    private static partial Regex RegexUpperSRu();
+
+    [GeneratedRegex("ш+")]
+    private static partial Regex RegexLowerShRu();
+
+    [GeneratedRegex("Ш+")]
+    private static partial Regex RegexUpperShRu();
+
+    [GeneratedRegex("ч+")]
+    private static partial Regex RegexLowerChRu();
+
+    [GeneratedRegex("Ч+")]
+    private static partial Regex RegexUpperChRu();
+    // LP edit end
+
     public override void Initialize()
     {
         base.Initialize();
@@ -39,5 +59,17 @@ public sealed partial class LizardAccentSystem : EntitySystem
         args.Message.Text = RegexLowerEndX().Replace(args.Message.Text, "ecks$1");
         // eckS
         args.Message.Text = RegexUpperEndX().Replace(args.Message.Text, "ECKS$1");
+
+        // LP edit start
+        // зссдрассствуй
+        args.Message.Text = RegexLowerSRu().Replace(args.Message.Text, "ссс");
+        args.Message.Text = RegexUpperSRu().Replace(args.Message.Text, "ССС");
+        // шшшшто
+        args.Message.Text = RegexLowerShRu().Replace(args.Message.Text, "шшш");
+        args.Message.Text = RegexUpperShRu().Replace(args.Message.Text, "ШШШ");
+        // щщщего
+        args.Message.Text = RegexLowerChRu().Replace(args.Message.Text, "щщщ");
+        args.Message.Text = RegexUpperChRu().Replace(args.Message.Text, "ЩЩЩ");
+        // LP edit end
     }
 }

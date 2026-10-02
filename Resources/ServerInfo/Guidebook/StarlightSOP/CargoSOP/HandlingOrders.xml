@@ -1,36 +1,36 @@
 <Document>
-# Handling Orders
+# Обработка заказов
 
-Orders are to be taken and handled as they come in. Orders out of the ordinary or not on the pre-approved list for a department are to be vetted with the Quartermaster.
+Заказы принимаются и обрабатываются по мере поступления. Необычные заказы или не из списка предодобренных для отдела согласовываются с квартирмейстером.
 
-1.  Orders [bold]not[/bold]on the pre-approved materials list should be accompanied with an acquisition slip.
+1.  Заказы, [bold]не[/bold]входящие в список предодобренных материалов, должны сопровождаться бланком приобретения.
 
-1a Acquisition slips should match the ID of the person presenting the slip or the department head.
+1а Бланки приобретения должны соответствовать ID того, кто их предъявляет, или главы отдела.
 
-1b Acquisition slips should have a properly filled out reason for the request. The Quartermaster may deny any requisition that does not state an adequate reason.
+1б В бланках приобретения должна быть надлежащим образом заполнена причина запроса. Квартирмейстер может отклонить любую заявку, в которой не указана достаточная причина.
 
-2. On [color=#ff0000]Code Red[/color], [color=#8d1d75]Code Violet[/color] or [color=#ec9ba4]Code Gamma[/color], item request forms or acquisition slips shall not be required for any orders for security and medical respectively.
+2. При [color=#ff0000]коде «Красный»[/color], [color=#8d1d75]коде «Фиолетовый»[/color] или [color=#ec9ba4]коде «Гамма»[/color] бланки заявок на предметы или бланки приобретения не требуются для любых заказов для СБ и медицины соответственно.
 
-3. Only Cargo Technicians and the Quartermaster shall handle orders. Non-cargo crew members should never touch the cargo request computer.
+3. Заказы обрабатывают только грузчики и квартирмейстер. Члены экипажа не из карго никогда не должны трогать грузовую консоль заказов.
 
-4. Orders are not required to be delivered to their recipients. However, the mailing system or normal deliveries may occur on [color=#00a933]Code Green[/color] or [color=#2a6099]Code Blue[/color].
+4. Заказы не обязаны доставляться получателям. Однако почтовая система или обычные доставки могут происходить при [color=#00a933]коде «Зелёный»[/color] или [color=#2a6099]коде «Синий»[/color].
 
-5. Assistants must fill out an [italic]item request form[/italic] for any request.
+5. Ассистенты должны заполнять [italic]бланк заявки на предмет[/italic] для любого запроса.
 
-6. To be valid the [italic]item request form[/italic] must must state:
-- Time of the request.
-- Name and title of requestor.
-- Quantity of items and reason for request.
-- Any special statements or considerations.
-- Stamp from the requestor's head if the order is large or contains potential contraband.
+6. Чтобы быть действительным, [italic]бланк заявки на предмет[/italic] должен содержать:
+- Время запроса.
+- Имя и должность заказчика.
+- Количество предметов и причину запроса.
+- Любые особые заявления или соображения.
+- Печать главы заказчика, если заказ большой или содержит потенциальную контрабанду.
 
-7. Copies of all approved invoices are to reviewed by the Quartermaster, stamped for confirmation and stored for future review should the need arise.
+7. Копии всех одобренных накладных должны проверяться квартирмейстером, заверяться печатью и храниться для будущего пересмотра при необходимости.
 
-8. Upon receipt of 5 or more requests or after 15 minutes, all current invoices should be brought to the Quartermaster for approval and distribution.
+8. При получении 5 или более заявок или через 15 минут все текущие накладные следует приносить квартирмейстеру для одобрения и распределения.
 
-9. Once an order has arrived, the cargo invoice should be copied and posted outside of cargo to inform the crew of the delivery.
+9. Когда заказ прибыл, грузовую накладную следует скопировать и вывесить снаружи карго, чтобы сообщить экипажу о доставке.
 
-10. In order to receive their order, the original requestor or department head must be present.
+10. Чтобы получить заказ, должен присутствовать исходный заказчик или глава отдела.
 
-11. Orders for basic materials (glass, steel, plastic & cloth) may be placed by cargo personnel for the cargo department if the material is below a limit of 240 between all lathes and loose resources.
+11. Заказы на базовые материалы (стекло, сталь, пластик и ткань) могут размещаться персоналом карго для отдела карго, если материала меньше лимита в 240 на всех станках и в россыпи.
 </Document>

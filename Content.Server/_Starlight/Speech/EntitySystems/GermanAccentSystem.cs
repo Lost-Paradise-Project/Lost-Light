@@ -82,6 +82,30 @@ public sealed partial class GermanAccentSystem : EntitySystem
             }
         }
 
+        // LP edit start
+        // Оглушение согласных: топрый тень
+        for (var i = 0; i < msgBuilder.Length; i++)
+        {
+            if (!_random.Prob(0.5f))
+                continue;
+
+            msgBuilder[i] = msgBuilder[i] switch
+            {
+                'б' => 'п',
+                'Б' => 'П',
+                'в' => 'ф',
+                'В' => 'Ф',
+                'г' => 'к',
+                'Г' => 'К',
+                'д' => 'т',
+                'Д' => 'Т',
+                'з' => 'с',
+                'З' => 'С',
+                _ => msgBuilder[i]
+            };
+        }
+        // LP edit end
+
         message.Text = msgBuilder.ToString();
         return message;
     }

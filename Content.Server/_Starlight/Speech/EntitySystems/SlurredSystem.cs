@@ -77,6 +77,13 @@ public sealed partial class SlurredSystem : SharedSlurredSystem
                     'a' => "ah",
                     'u' => "oo",
                     'c' => "k",
+                    // LP edit start
+                    'о' => "у",
+                    'с' => "ш",
+                    'а' => "аа",
+                    'у' => "уу",
+                    'к' => "х",
+                    // LP edit end
                     _ => $"{character}",
                 };
 

@@ -106,6 +106,20 @@ public sealed partial class SpeciesPrototype : IPrototype
     [DataField]
     public ProtoId<LocalizedDatasetPrototype> LastNames { get; private set; } = "NamesLast";
 
+    // LP edit start
+    /// <summary>
+    /// Мужские фамилии. Если не задано и раса использует общие фамилии (NamesLast) — берётся NamesLastMale.
+    /// </summary>
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype>? MaleLastNames { get; private set; }
+
+    /// <summary>
+    /// Женские фамилии. Если не задано и раса использует общие фамилии (NamesLast) — берётся NamesLastFemale.
+    /// </summary>
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype>? FemaleLastNames { get; private set; }
+    // LP edit end
+
     [DataField]
     public SpeciesNaming Naming { get; private set; } = SpeciesNaming.FirstLast;
 

@@ -1,0 +1,16 @@
+ent-GasVentPumpVoxBase = { "" }
+    .desc = { "" }
+ent-GasVentPumpVoxAlt3 = { ent-GasVentPumpAlt3 }
+    .desc = { ent-GasVentPumpAlt3.desc }
+    .suffix = { ent-AirSensorVoxBase.suffix }
+ent-GasVentPumpVoxAlt4 = { ent-GasVentPumpAlt4 }
+    .desc = { ent-GasVentPumpAlt4.desc }
+    .suffix = { ent-AirSensorVoxBase.suffix }
+ent-GasVentScrubberVoxBase = { "" }
+    .desc = { "" }
+ent-GasVentScrubberVoxAlt3 = { ent-GasVentScrubberAlt3 }
+    .desc = { ent-GasVentScrubberAlt3.desc }
+    .suffix = { ent-AirSensorVoxBase.suffix }
+ent-GasVentScrubberVoxAlt4 = { ent-GasVentScrubberAlt4 }
+    .desc = { ent-GasVentScrubberAlt4.desc }
+    .suffix = { ent-AirSensorVoxBase.suffix }

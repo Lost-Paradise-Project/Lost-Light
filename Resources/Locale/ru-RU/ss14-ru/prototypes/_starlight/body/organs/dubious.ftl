@@ -1,0 +1,14 @@
+ent-OrganDubiousHealth = железа
+    .desc = Подозрительная железа пришельцев, заменяет сердце.
+ent-OrganDubiousNitrousOxide = железа
+    .desc = Подозрительная железа пришельцев, заменяет сердце.
+ent-OrganDubiousGravity = железа
+    .desc = Подозрительная железа пришельцев, заменяет сердце.
+ent-OrganDubiousEgg = железа
+    .desc = Подозрительная железа пришельцев, заменяет сердце.
+ent-OrganDubiousSpider = железа
+    .desc = Подозрительная железа пришельцев, заменяет сердце.
+ent-OrganDubiousVent = железа
+    .desc = Подозрительная железа пришельцев, заменяет сердце.
+ent-RandomOrganDubious = случайная железа
+    .desc = случайная железа похитителей

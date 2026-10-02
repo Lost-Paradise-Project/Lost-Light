@@ -1,0 +1,12 @@
+ent-BaseMobCosmicHostile = { ent-BaseSimpleMob }
+    .desc = { ent-BaseSimpleMob.desc }
+    .suffix = Враждебный
+ent-MobCosmicCustodianHostile = { ent-MobCosmicCustodian }
+    .desc = { ent-MobCosmicCustodian.desc }
+    .suffix = { ent-BaseMobCosmicHostile.suffix }
+ent-MobCosmicOracleHostile = { ent-MobCosmicOracle }
+    .desc = { ent-MobCosmicOracle.desc }
+    .suffix = { ent-BaseMobCosmicHostile.suffix }
+ent-MobCosmicLodestarHostile = { ent-MobCosmicLodestar }
+    .desc = { ent-MobCosmicLodestar.desc }
+    .suffix = { ent-BaseMobCosmicHostile.suffix }

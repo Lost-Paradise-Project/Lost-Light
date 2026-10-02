@@ -1,0 +1,17 @@
+ent-CosmicShuttleCore = зловещий инструмент
+    .desc = Его поверхность светится мириадом непостижимых глифов, передающих в ваш разум единственное слово: «Полёт».
+ent-CosmicChair = зловещий стул
+    .desc = { ent-SeatBase.desc }
+ent-CosmicObelisk = зловещий обелиск
+    .desc = Таинственная, но в то же время инертная структура. Тревожно.
+ent-CosmicThruster = зловещий двигатель
+    .desc = { ent-BaseStructure.desc }
+ent-CosmicLamp = зловещая лампа
+    .desc = Внутри мерцает частичка не-света.
+    .suffix = Всегда запитано
+ent-CosmicVacuousSpire = пустой шпиль
+    .desc = Также известна как «чуни-вилка».
+ent-AltarCosmic = космический алтарь
+    .desc = Алтарь... чего-то.
+ent-CosmicTable = зловещий стол
+    .desc = Непостижимо, космически.. Квадрат.

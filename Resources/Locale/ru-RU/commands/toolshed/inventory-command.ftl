@@ -19,4 +19,4 @@ command-description-inventory-ensure =
 command-description-inventory-ensurespawn =
     Спавнит указанный прототип в первый подходящий по флагу слот, если он пуст; в конце передаёт UID того, что в итоге оказалось в слоте.
 command-description-inventory-query =
-    Gets the entities in the inventory slots of the piped entities and passes them along.
+    Получает сущности из слотов инвентаря переданных сущностей и передаёт их дальше.

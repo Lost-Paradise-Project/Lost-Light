@@ -1,0 +1,12 @@
+ent-OrganDwarfHeart = сердце дворфа
+    .desc = { ent-OrganHumanHeart.desc }
+    .suffix = Дворф
+ent-OrganDwarfLiver = печень дворфа
+    .desc = { ent-OrganHumanLiver.desc }
+    .suffix = Дворф
+ent-OrganDwarfStomach = желудок дворфа
+    .desc = { ent-OrganHumanStomach.desc }
+    .suffix = Дворф
+ent-OrganDwarfTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Дворф

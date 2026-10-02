@@ -1,0 +1,14 @@
+ent-BaseMagazineShotgunToz = магазин (патроны 20 калибра)
+    .desc = Пётр, что мне с этим делать? Магазин не выходит из оружия!
+ent-MagazineShotgunTozEmpty = магазин 20 калибра
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+    .suffix = пусто
+ent-MagazineShotgunToz = магазин дроби 20 калибра
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+ent-MagazineShotgunTozExtendedEmpty = удлинённый магазин 20 калибра
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+    .suffix = пусто
+ent-MagazineShotgunTozExtended = удлинённый магазин дроби 20 калибра
+    .desc = { ent-BaseMagazineShotgunToz.desc }
+ent-MagazineShotgunBreach = пробивной барабан 12 калибра
+    .desc = { ent-BaseMagazineShotgun.desc }

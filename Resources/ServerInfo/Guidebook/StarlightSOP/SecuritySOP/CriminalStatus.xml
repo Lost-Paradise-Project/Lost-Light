@@ -1,149 +1,149 @@
 <Document>
-# Criminal Statuses
+# Статусы розыска
 
-<GuideEntityEmbed Entity="ComputerCriminalRecordsDesktop" Caption="Criminal Statuses"/>
-The Criminal Records system on-board all NT-CC stations allows for the profiling of individual crewmembers into categories, visible next to the crewmember if one is wearing security glasses.
+<GuideEntityEmbed Entity="ComputerCriminalRecordsDesktop" Caption="Статусы розыска"/>
+Система криминальных записей на борту всех станций NT-CC позволяет присваивать отдельным членам экипажа категории, которые видны рядом с членом экипажа, если на вас надеты очки СБ.
 
-All Criminal Statuses should be accompanied by a description as to why the status has been applied. This is to be done in the Criminal Records system. The exception to this is Discharged, which is self-explanatory.
+Любой статус розыска должен сопровождаться описанием, почему он применён. Это делается в системе криминальных записей. Исключение - «Освобождён», он не требует пояснений.
 
-All Criminal Statuses should be removed or changed when no longer relevant. Failure to do so is a violation of Standard Operating Procedure.
+Все статусы розыска нужно убирать или менять, когда они перестают быть актуальными. Невыполнение - нарушение стандартных рабочих процедур.
 
-Should an Officer fail to change or remove a criminal status when they are obligated to as per their SOP, and this failure results in injury to the crewmember in question, then the Officer is guilty of Endangerment. Should the crewmember be killed as a result of this failure, the Officer is then guilty of Negligent Homicide; charged under Manslaughter in Corporate Law.
+Если офицер не меняет или не снимает статус розыска, когда обязан по своему СОП, и это приводит к травме соответствующего члена экипажа, офицер виновен в создании опасности. Если член экипажа погибает из-за этого, офицер виновен в убийстве по неосторожности; обвинение по статье о непредумышленном убийстве в корпоративном законе.
 
  <Table Columns="3">
     <ColorBox>
       <Box>
-        [bold]Status[/bold]
+        [bold]Статус[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [bold]Requirement[/bold]
+        [bold]Требование[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [bold]Protocol[/bold]
+        [bold]Протокол[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=lightblue]Suspect[/color]
+        [color=lightblue]Подозревается[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember suspected of being party to a crime.
+        Член экипажа подозревается в причастности к преступлению.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Watch closely. On Blue Alert, prioritize for searches.
+        Наблюдайте внимательно. При синей тревоге - в приоритете для обысков.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=pink]Wanted[/color]
+        [color=pink]Разыскивается[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember is a confirmed criminal.
+        Член экипажа - подтверждённый преступник.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Bring to Security, following standard escalation as per §4 of Security SOP.
+        Доставьте в СБ с соблюдением стандартной эскалации согласно §4 СОП СБ.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=red]Arrest On Sight[/color]
+        [color=red]Арестовать при виде[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember has resisted arrest successfully.
+        Член экипажа успешно оказал сопротивление при аресте.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Engage with non-lethals on sight, then bring to Security.
+        Применяйте нелетальное оружие при виде, затем доставьте в СБ.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=darkred]Kill On Sight[/color]
+        [color=darkred]Убить при виде[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember is an established threat to arresting officers.
+        Член экипажа - установленная угроза для арестовывающих офицеров.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Engage with lethals on sight, then bring to Security.
+        Применяйте летальное оружие при виде, затем доставьте в СБ.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=gray]Eliminated[/color]
+        [color=gray]Ликвидирован[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember is confirmed dead.
+        Член экипажа подтверждённо мёртв.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        If seen walking about, treat as Wanted.
+        Если он ходит на виду, считайте разыскиваемым.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=brown]Incarcerated[/color]
+        [color=brown]Под арестом[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember has been imprisoned.
+        Член экипажа заключён под стражу.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        If seen outside the brig, treat as Wanted.
+        Если замечен вне брига, считайте разыскиваемым.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=green]Paroled[/color]
+        [color=green]Освобождён по УДО[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember has made a parole deal.
+        Член экипажа заключил сделку об условно-досрочном освобождении.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Varies, review chapter on [textlink="Parole" link="Parole"].
+        По-разному, см. главу об УДО.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        [color=blue]Discharged[/color]
+        [color=blue]Освобождён[/color]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        Crewmember has been released from the brig.
+        Член экипажа освобождён из брига.
       </Box>
     </ColorBox>
     <ColorBox>
       <Box>
-        None, treat as regular crew.
+        Нет, считайте обычным членом экипажа.
       </Box>
     </ColorBox>
   </Table>

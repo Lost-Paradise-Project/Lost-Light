@@ -1,0 +1,12 @@
+ent-TrackingImplantMedTak = маяк МедТак
+    .desc = Этот имплант уведомит ближайшее подразделение МедТак, если владелец впадёт в критическое состояние или умрёт.
+ent-TrackingImplantMedTakBronze = бронзовый маяк МедТак
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-TrackingImplantMedTakSilver = серебряный маяк МедТак
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-TrackingImplantMedTakGold = золотой маяк МедТак
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-TrackingImplantMedTakTeam = командный маяк МедТак
+    .desc = { ent-TrackingImplantMedTak.desc }
+ent-MedTakMindShieldImplant = имплант щита разума МедТак
+    .desc = Этот имплант защищает операторов от устройств контроля разума.

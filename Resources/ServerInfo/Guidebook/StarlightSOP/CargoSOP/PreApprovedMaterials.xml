@@ -1,12 +1,12 @@
 <Document>
-# Pre-approved Materials List
+# Список предодобренных материалов
 
-This pre-approved materials list does [bold]not[/bold] mean that you must order the item, rather it means that the [italic]item request form[/italic] or department acquisition slip may be omitted.
+Этот список предодобренных материалов [bold]не[/bold] означает, что вы обязаны заказывать предмет, а означает, что [italic]бланк заявки на предмет[/italic] или бланк приобретения отдела можно опустить.
 
-Consideration to the station's needs and Cargo's budget still applies.
+Потребности станции и бюджет карго по-прежнему учитываются.
 
 <Box>
-	Basic materials are considered to be:
+	Базовыми материалами считаются:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="SheetSteel"/>

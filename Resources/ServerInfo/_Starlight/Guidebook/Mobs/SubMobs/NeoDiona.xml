@@ -1,19 +1,19 @@
 <Document>
-  # Neo-Diona
+  # Нео-диона
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoDiona" Caption=""/>
   </Box>
 
-  While a Neo-Diona is a rare sight to behold, it's not impossible. Transhumanism exists even among plant-like races, although the practice is typically shunned.
+  Хотя нео-диона - редкое зрелище, это не невозможно. Трансгуманизм существует даже среди растениеподобных рас, хотя эту практику обычно сторонятся.
 
-  ## Resistances
-  - Receive [color=#ffa500]65% more heat damage[/color] and [color=#8147ff]30% more shock damage[/color].
-  - Receive [color=#65807d]25% less slash damage[/color], [color=#FF3636]20% less blunt damage[/color], and [color=#1e90ff]35% less cold damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 65% больше теплового урона[/color] и [color=#8147ff]на 30% больше урона током[/color].
+  - Получают [color=#65807d]на 25% меньше режущего урона[/color], [color=#FF3636]на 20% меньше ударного урона[/color] и [color=#1e90ff]на 35% меньше холодового урона[/color].
 
-In addition, while you may take more [color=#ffa500]heat damage[/color] than your non-cybernetic brethren, it actually takes *more* Heat Damage to light you aflame than them. Furthermore, your cybernetics, while still weak to heat, at the very least, will reduce the max fire stacks from this effect down to 3.
+Кроме того, хотя вы можете получать больше [color=#ffa500]теплового урона[/color], чем ваши некибернетические собратья, чтобы поджечь вас, на самом деле требуется *больше* теплового урона, чем их. Более того, ваша кибернетика, хоть и остаётся уязвимой к теплу, по крайней мере снизит максимальное число стаков огня от этого эффекта до 3.
 
-While rooted, you're also [color=#fc0303]5% slower than base Diona[/color]. Guess the metal adds enough weight...
+Будучи укоренёнными, вы также [color=#fc0303]на 5% медленнее базовой дионы[/color]. Видимо, металл добавляет достаточно веса...
 
-[color=red]WARNING![/color] Splitting into nymphs as a Neo-Diona will [color=red]turn you back into a normal Diona![/color] Choose carefully, is it really worth it to lose your cybernetics?
+[color=red]ВНИМАНИЕ![/color] Разделение на нимф в роли нео-дионы [color=red]превратит вас обратно в обычную дионе![/color] Выбирайте внимательно: стоит ли терять свою кибернетику?
 </Document>

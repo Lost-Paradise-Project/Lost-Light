@@ -54,6 +54,7 @@
     - id: TicketPad # Starlight
     - id: PlushieLizardJobWarden
       prob: 0.02
+    - id: SecApartmentTablet # LP edit
 
 - type: entityTable
   id: FillLockerWardenHarduit

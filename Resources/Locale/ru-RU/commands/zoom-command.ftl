@@ -1,3 +1,3 @@
-cmd-zoom-desc = Sets the zoom of the main eye. Optionally also changes the eye's PVS range.
+cmd-zoom-desc = Задаёт масштаб основного глаза. При желании также меняет дальность PVS глаза.
 cmd-zoom-help = zoom ( <scale> | <X-scale> <Y-scale> [bool])
-cmd-zoom-error = scale has to be greater than 0
+cmd-zoom-error = масштаб должен быть больше 0

@@ -97,52 +97,6 @@ marking-ThavenRLegScales-scales = Scales (Right)
 marking-ThavenLLegScales = Scales (Left)
 marking-ThavenLLegScales-scales = Scales (Left)
 
-# UndergarmentBottom
-
-marking-UnderwearBriefsT = Briefs
-marking-UnderwearBriefsT-briefs = Underwear
-
-marking-UnderwearDefaultT = Boxers
-marking-UnderwearDefaultT-boxers = Underwear
-
-marking-UnderwearLowridersT = Lowriders
-marking-UnderwearLowridersT-lowriders = Underwear
-
-marking-UnderwearSatinT = Satin
-marking-UnderwearSatinT-satin = Underwear
-
-marking-UnderwearTangaT = Tanga
-marking-UnderwearTangaT-tanga = Underwear
-
-# UndergarmentTop
-
-marking-UndergarmentTopBinderT = Binder
-marking-UndergarmentTopBinderT-binder = Binder
-
-marking-UndergarmentTopTanktopT = Tanktop
-marking-UndergarmentTopTanktopT-tanktop = Tanktop
-
-marking-UndershirtBraClassicT = Bra
-marking-UndershirtBraClassicT-classic = Bra
-
-marking-UndershirtBraSportsT = Bra (Sports)
-marking-UndershirtBraSportsT-sports = Bra
-
-marking-UndershirtBraStraplessT = Bra (Strapless)
-marking-UndershirtBraStraplessT-strapless = Bra
-
-marking-UndershirtDefaultT = Undershirt
-marking-UndershirtDefaultT-undershirt = Undershirt
-
-marking-UndershirtGrossSleevelessT = Tanktop (Gross)
-marking-UndershirtGrossSleevelessT-grosssleeveless = Tanktop
-
-marking-UndershirtNanotrasenT = Undershirt (NanoTrasen)
-marking-UndershirtNanotrasenT-nanotrasen = Undershirt
-
-marking-UndershirtRolledT = Undershirt (Cropped)
-marking-UndershirtRolledT-rolledundershirt = Undershirt
-
 # LFoot
 
 # RFoot

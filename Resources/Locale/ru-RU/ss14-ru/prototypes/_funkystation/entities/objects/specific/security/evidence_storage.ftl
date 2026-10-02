@@ -1,0 +1,14 @@
+ent-EvidenceBag = пакет для улик
+    .desc = Небольшой пакет для хранения преступных улик.
+ent-EvidenceBagFilled = пакет для улик
+    .desc = Небольшой пакет для хранения преступных улик.
+    .suffix = Заполнен
+ent-CardboardBoxLargeEvidenceFilled = коробка принадлежностей для улик
+    .desc = { ent-CardboardBoxLargeEvidence.desc }
+    .suffix = ЗАПОЛНЕНО
+ent-CardboardBoxLargeEvidenceFilledExtras = дополнительная коробка принадлежностей для улик
+    .desc = { ent-CardboardBoxLargeEvidence.desc }
+    .suffix = ДОПОЛНИТЕЛЬНО
+ent-BoxShelfEvidenceRoom = { ent-BoxShelf }
+    .desc = { ent-BoxShelf.desc }
+    .suffix = Улики

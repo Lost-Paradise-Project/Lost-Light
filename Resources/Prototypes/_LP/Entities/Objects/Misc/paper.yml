@@ -1,0 +1,855 @@
+- type: entity
+  parent: Paper
+  id: BasePaperForm
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormSec
+  name: PaperFormSecurity
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-security.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormLaw
+  name: PaperFormLaw
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_law_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-law.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormSci
+  name: PaperFormScience
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sci_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-science.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormCmd
+  name: PaperFormCommand
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cmd_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-command.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormMed
+  name: PaperFormMedical
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_med_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-medical.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormCargo
+  name: PaperFormCargo
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cargo_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-cargo.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormEng
+  name: PaperFormEngineer
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_eng_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-engineer.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormCC
+  name: PaperFormCentCom
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-centcom.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormCCSecure
+  name: PaperFormCCSecure
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-centcom-secure.txt
+
+- type: entity
+  parent: BasePaperForm
+  id: PaperFormSyndie
+  name: PaperFormSyndie
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/syndie_form_header.png"
+    - type: TextFilePaperContent
+      fileName: form-syndie.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocStReport
+  name: Station Situation Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: report-station.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocADStatement
+  name: Acting Director appointment statement
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: acting-director-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocRRTInquiriesAndAppeals
+  name: Emergency Response Team Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: emergency-response-team-inquiry.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocESStatement
+  name: Evacuation Shuttle Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: evacuation-shuttle-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocCCRStatement
+  name: Central Command Representative Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: cent-comm-representative-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocBASStatement
+  name: Bluespace Artillery Strike Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: bluespace-artillery-strike-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocDWReport
+  name: Department Work Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: department-work-report.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocRAOrders
+  name: Order for revocation of access
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: revocation-of-access-order.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocEWReport
+  name: Employer Work report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: employer-work-report.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocDHMReport
+  name: Heads of Department Meeting Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: department-heads-meeting-report.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocPAStatement
+  name: Promotion Application Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: promotion-application-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocJAStatment
+  name: Job Application Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: job-application-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocJRStatment
+  name: Job Resignation Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: job-resignation-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocAAStatement
+  name: Application for Access Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: application-for-access-statment.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocJRSOrder
+  name: Job Resignation Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: job-resignation-order.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocROrder
+  name: Order to reward
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: reward-order.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocCPDStatements
+  name: Certificate of Professional Development Statement
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: certificate-of-professional-development-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocAFEStatements
+  name: Application for Equipment Statement
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: application-for-equipment-statement.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocPFEPermissions
+  name: Permission for Equipment
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: permission-for-equipment.txt
+
+- type: entity
+  parent: PaperFormCmd
+  id: DocAmenstyStatements
+  name: Amnesty Statement
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: amensty-statement.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocVOLOComplaints
+  name: Violation of Labor Order Complaints
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: violation-of-the-labor-order-complaintst.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocIAAReport
+  name: Internal Affairs Agent Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: internal-affairs-agent-report.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocIFRLDInquiriesAndAppeals
+  name: Inquiry for Removal of Legal Defense
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: inquiry-for-remove-legal-defense.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocCTOrder
+  name: Conduct Trial Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: conduct-trial-order.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocParoleInquiriesAndAppeals
+  name: Parole Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: parole-inquiry.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocROCStatement
+  name: Reconsideration of Case Statement
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: reconsideration-of-the-case-statement.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocCTWStatement
+  name: Calling the Witness Statement
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: calling-the-witness-statement.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocInquiriesAndAppeals
+  name: Document Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: document-inquiry.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocRILDOrder
+  name: Remove or Impose Legal Defense Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: remove-or-impose-legal-defense-order.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocCVConclusionsAndDecisions
+  name: Court Verdict
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: court-verdict.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocBIRStatement
+  name: Bill Initiation Request
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: bill-initiation-request.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocBIOrder
+  name: Bill Integration Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: bill-integration-order.txt
+
+- type: entity
+  parent: PaperFormLaw
+  id: DocAdjustmentOrder
+  name: Adjustment in Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: adjustment-in-order.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocCAOComplaints
+  name: Complaint About Offense
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: complaint-about-offense.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocATWOrder
+  name: Appointment of Temporary Warden
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: appointment-of-temporary-warden.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocDutyOrder
+  name: Duty Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: duty-order.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocPFSDWPermissions
+  name: Permission for Self Defense Weapon
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: permission-for-self-defense-weapon.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocILOAReport
+  name: Inventory List of Arsenal
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: inventory-list-of-arsenal.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocIReport
+  name: Investigation Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: investigation-report.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocVerdictConclusionsAndDecisions
+  name: Verdict
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: verdict.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocCOOReport
+  name: Certificate of Offense
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: certificate-of-offense.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocSWPermission
+  name: Search Warrant Permission
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: search-warrant-permission.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocWAPermission
+  name: Warrant Arrest Permission
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: warrant-arrest-permission.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocPPOrder
+  name: Prisoner Parole Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: prisoner-parole-order.txt
+
+- type: entity
+  parent: PaperFormSec
+  id: DocMIOrder
+  name: Medical Intervention Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: medical-intervention-order.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocProductionInquiriesAndAppeals
+  name: Medical Production Request
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: medical-prosuction-request.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocCMIOrder
+  name: Compulsory Medical Intervention Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: compulsory-medical-intervention-order.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocCMIReport
+  name: Compulsory Medical Intervention Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: compulsory-medical-intervention-report.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocPSReport
+  name: Psychological Status Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: psychological-status-report.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocAFPDPermission
+  name: Authorization for Prescription Drug
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: authorization-for-a-prescription-drug.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocSHReport
+  name: Conclusion on State of Health
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: conclusion-on-the-state-of-health.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocMDDOrder
+  name: List of Medical Department Duties
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: list-of-medical-department-duties.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocEuthanasiaInquiriesAndAppeals
+  name: Euthanasia Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: euthanasia-inquiry.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocDeathReport
+  name: Death Certificate
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: death-certificate.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocBDPermission
+  name: Permission to Dispose of Body
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: permission-to-dispose-of-the-body.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocInfectionReport
+  name: Evidence of Infection
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: evidence-of-infection.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocQuarantineOrder
+  name: Quarantine Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: quarantine-order.txt
+
+- type: entity
+  parent: PaperFormMed
+  id: DocEpidemiologicalReport
+  name: Epidemiological Conclusion
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: epidemiological-conclusion.txt
+
+- type: entity
+  parent: PaperFormEng
+  id: DocEPPInquiriesAndAppeals
+  name: Engineer Product Production Inquiry
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: engeneer-product-production-inquiry.txt
+
+- type: entity
+  parent: PaperFormEng
+  id: DocLEDReport
+  name: List of Engineer Duties
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: list-of-engeneer-duties.txt
+
+- type: entity
+  parent: PaperFormEng
+  id: DocBuildingPermission
+  name: Building Permission
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: building-permission.txt
+
+- type: entity
+  parent: PaperFormEng
+  id: DocTCReport
+  name: Technical Condition Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: technical-condition-report.txt
+
+- type: entity
+  parent: PaperFormEng
+  id: DocRCWInquiriesAndAppeals
+  name: Construction Work Request
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: construction-work-request.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocPPInquiriesAndAppeals
+  name: Science Product Request
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: science-product-request.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocOSReport
+  name: Object Study Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: object-study-report.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocExperimentReport
+  name: Experiment Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: experiment-report.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocExpeditionReport
+  name: Expedition Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: expedition-report.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocADReport
+  name: Anomaly Documentation
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: anomaly-documentation.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocRRBOrder
+  name: Recognizing Reasonableness of Being Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: recognizing-the-reasonableness-of-a-being-order.txt
+
+- type: entity
+  parent: PaperFormSci
+  id: DocLOSDReport
+  name: List of Scientists Duties
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: list-of-scientists-duties.txt
+
+- type: entity
+  parent: PaperFormCargo
+  id: DocDisposalReport
+  name: Disposal Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: disposal-report.txt
+
+- type: entity
+  parent: PaperFormCargo
+  id: DocExpeditionPermission
+  name: Cargo Permission to Expedition
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: cargo-permission-to-an-expedition.txt
+
+- type: entity
+  parent: PaperFormCargo
+  id: DocPOInquiriesAndAppeals
+  name: Purchase Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: purchase-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocEvacOrder
+  name: Evacuation Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: evacuation-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocSGOrder
+  name: Station Goal Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: station-goal-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocSSROrder
+  name: Station Situation Report Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: station-situation-report-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocAOHInquiriesAndAppeals
+  name: Decree on Availability of Headers
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: decree-on-the-availability-of-headers.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocExecutiveOrder
+  name: Executive Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: executive-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocDeliveryOrder
+  name: Delivery Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: delivery-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocCCReport
+  name: Central Command Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: cent-comm-report.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocCCFMReport
+  name: Central Command Fire Mission Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: cent-comm-fire-mission-report.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocOperationOrder
+  name: Operation Order
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: operation-order.txt
+
+- type: entity
+  parent: PaperFormCC
+  id: DocOperationReport
+  name: Operation Report
+  suffix: Form
+  components:
+    - type: TextFilePaperContent
+      fileName: operation-report.txt

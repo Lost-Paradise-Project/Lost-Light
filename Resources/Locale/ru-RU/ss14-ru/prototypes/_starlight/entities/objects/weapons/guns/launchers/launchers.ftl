@@ -1,0 +1,15 @@
+ent-WeaponLauncherHydraSyndicate = модифицированная гидра
+    .desc = Выглядит как стандартный гранатомёт очистительных гранат «Гидра», но защитные меры спилены.
+    .suffix = Синдикат
+ent-WeaponLauncherHydraEMP = { ent-WeaponLauncherHydraSyndicate }
+    .desc = ПЛЮХ... ЗАП
+    .suffix = ЭМИ
+ent-WeaponLauncherHydraFilled = { ent-WeaponLauncherHydra }
+    .desc = { ent-WeaponLauncherHydra.desc }
+    .suffix = Заполнен
+ent-WeaponLauncherChonoLoke = чоно локе
+    .desc = Подозрительно убедительная копия печально известного гранатомёта China Lake, любовно изготовленная вручную DONK CO. Стреляет сертифицированными DONK CO. «абсолютно настоящими» гранатами. Принимает и настоящие, но это, вероятно, нормально.
+ent-WeaponLauncherPeacekeeper = миротворец
+    .desc = Многоцелевой однозарядный гранатомёт с переломным затвором.
+ent-WeaponGrapplingHook = самодельный абордажный крюк
+    .desc = Крюк-кошка, сделанный из деталей со станции.

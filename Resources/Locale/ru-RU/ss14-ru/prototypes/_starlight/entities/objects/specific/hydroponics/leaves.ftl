@@ -1,0 +1,12 @@
+ent-GroundTobacco5 = { ent-GroundTobacco }
+    .desc = { ent-GroundTobacco.desc }
+    .suffix = 5
+ent-GroundCannabis5 = { ent-GroundCannabis }
+    .desc = { ent-GroundCannabis.desc }
+    .suffix = 5
+ent-GroundCannabis10 = { ent-GroundCannabis }
+    .desc = { ent-GroundCannabis.desc }
+    .suffix = 10
+ent-LeavesTobaccoDried5 = { ent-LeavesTobaccoDried }
+    .desc = { ent-LeavesTobaccoDried.desc }
+    .suffix = 5

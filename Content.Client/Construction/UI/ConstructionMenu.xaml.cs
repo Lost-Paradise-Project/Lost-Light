@@ -111,6 +111,8 @@ namespace Content.Client.Construction.UI
                 {
                     Text = prototype.Name,
                     Margin = new(5, 0),
+                    ClipText = true, // LP edit - длинные названия обрезаются, а не расширяют список
+                    HorizontalExpand = true, // LP edit
                 };
 
                 var box = new BoxContainer();
@@ -118,7 +120,7 @@ namespace Content.Client.Construction.UI
                 box.AddChild(label);
 
                 button.AddChild(box);
-                button.ToolTip = prototype.Description;
+                button.ToolTip = $"{prototype.Name}\n{prototype.Description}"; // LP edit - полное название, если оно обрезано
                 button.AddStyleClass(ListContainer.StyleClassListContainerButton);
             };
 

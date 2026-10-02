@@ -1,64 +1,64 @@
 <Document>
-  # Robotics
-  The science team has the ability to create several unique types of robots to suit the station's needs. In order to begin, you'll want to research the [color=#a4885c]Robotics[/color] technology.
+  # Робототехника
+  Научная команда может создавать несколько уникальных типов роботов под нужды станции. Чтобы начать, вам нужно исследовать технологию [color=#a4885c]«Робототехника»[/color].
 
-  ## Exosuit Fabricator
+  ## Фабрикатор экзокостюмов
 <Box>
-<GuideEntityEmbed Entity="ExosuitFabricator" Caption="Exosuit Fabricator"/>
+<GuideEntityEmbed Entity="ExosuitFabricator" Caption="Фабрикатор экзокостюмов"/>
 </Box>
-  The [color=#a4885c]Exosuit Fabricator[/color] is where you'll be printing out most of the parts for your creations, such as:
-  - [textlink="Cyborg" link="Cyborgs"] limbs
-  - Mech parts and equipment
-  - Proximity sensors
+  На [color=#a4885c]фабрикаторе экзокостюмов[/color] вы будете печатать большинство деталей для своих творений, таких как:
+  - конечности [textlink="киборгов" link="Cyborgs"]
+  - детали и оборудование мехов
+  - датчики приближения
 
-  Operating the exosuit fabricator is the same as every other lathe on the station; simply click the fabricator to open the UI, then click the icon for whatever part you want to print.
-  - Are there no recipes? click the [color=#a4885c]sync[/color] button on the UI to check for any new blueprints. If, even then, nothing shows up, you've likely not researched the relevant technology yet!
-  - If a recipe appears grayed-out, it's likely due to a lack of materials. To insert new materials (either [color=#99A3A4]steel[/color], [color=#ECF0F1]plastic[/color], or [color=#AED6F1]glass[/color]), simply click the fabricator while holding said material.
+  Работа с фабрикатором экзокостюмов такая же, как с любым другим станком на станции: просто щёлкните по фабрикатору, чтобы открыть интерфейс, а затем по значку нужной детали, чтобы её напечатать.
+  - Нет рецептов? Нажмите кнопку [color=#a4885c]синхронизации[/color] в интерфейсе, чтобы проверить новые чертежи. Если и после этого ничего не появилось, вероятно, вы ещё не исследовали нужную технологию!
+  - Если рецепт выделен серым, скорее всего, не хватает материалов. Чтобы загрузить новые материалы (либо [color=#99A3A4]сталь[/color], [color=#ECF0F1]пластик[/color] или [color=#AED6F1]стекло[/color]), просто щёлкните по фабрикатору, держа этот материал.
 
-  Every station starts with a full suite of robotics equipment by default, but you can make another fabricator if [color=#a4885c]Robotics[/color] technology is available, which will allow you to make the respective circuit board.
+  Каждая станция по умолчанию начинает с полным комплектом оборудования для робототехники, но можно сделать ещё один фабрикатор, если доступна технология [color=#a4885c]«Робототехника»[/color], которая позволит изготовить соответствующую печатную плату.
 
-  ## Bots
+  ## Боты
 <Box>
-<GuideEntityEmbed Entity="MobCleanBot" Caption="Cleanbot"/>
-<GuideEntityEmbed Entity="MobMedibot" Caption="Medibot"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="MobHonkBot" Caption="Honkbot"/>
-<GuideEntityEmbed Entity="MobMimeBot" Caption="Mimebot"/>
-</Box>
-  [color=#a4885c]Bots[/color] are small, simple automata which can perform simple tasks, such as cleaning. They don't use power cells, but are quite fragile. Making these will require parts which can be made at an exosuit fabricator.
-
-  To make a bot, open the [color=#a4885c]Construction Menu[/color] and go to the "Utilities" category (or just search "bot") and you'll have the whole list of recipes. In order to assemble the bot, you must have the parts outlined by the recipe close to you and click [color=#a4885c]Build[/color], after a few seconds your newly created silicon servant should appear at your feet!
-
-  ## Mechs
-<Box>
-<GuideEntityEmbed Entity="MechRipley" Caption="Ripley APLU"/>
-<GuideEntityEmbed Entity="MechHonker" Caption="H.O.N.K."/>
-<GuideEntityEmbed Entity="MechHamtr" Caption="HAMTR"/>
-<GuideEntityEmbed Entity="MechVim" Caption="Vim"/>
-</Box>
-  [color=#a4885c]Mechs[/color] are giant behemoths of metal designed to carry out a variety of functions respective to their model. They are piloted by players and require power cells to function.
-
-  Each mech requires its own unique set of limbs and parts to create. These can be fabricated at the Exosuit Fabricator, the same as any other part, save for the required [color=#a4885c]circuit boards[/color], which are made at a [color=#a4885c]Circuit Board Imprinter[/color], which can normally be found in the [textlink="science" link="Science"] department.
-<Box>
-<GuideEntityEmbed Entity="RipleyCentralElectronics" Caption="Ripley central controls module"/>
+<GuideEntityEmbed Entity="MobCleanBot" Caption="Уборобот"/>
+<GuideEntityEmbed Entity="MobMedibot" Caption="Медибот"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="RipleyPeripheralsElectronics" Caption="Ripley peripherals control module"/>
+<GuideEntityEmbed Entity="MobHonkBot" Caption="Хонкбот"/>
+<GuideEntityEmbed Entity="MobMimeBot" Caption="Мимбот"/>
 </Box>
+  [color=#a4885c]Боты[/color] - маленькие простые автоматы, способные выполнять простые задачи, например уборку. Они не используют энергоячейки, но довольно хрупки. Для их создания потребуются детали, которые можно изготовить на фабрикаторе экзокостюмов.
 
-  For example, both of the circuit boards above are necessary to create a Ripley mech, and cannot be used to make any other mech.
+  Чтобы сделать бота, откройте [color=#a4885c]меню строительства[/color] и перейдите в категорию «Утилиты» (или просто поищите «бот»), и вы увидите весь список рецептов. Чтобы собрать бота, нужно, чтобы детали из рецепта находились рядом с вами, и нажать [color=#a4885c]«Построить»[/color]; через несколько секунд ваш новый кремниевый слуга появится у ваших ног!
 
-  To start making a mech, print their harness in the fabricator and insert the limbs, you can [color=#a4885c]examine[/color] it to see how to proceed with construction once all limbs are in place.
-  - Every mech requires some combination of wires, tool usage, and their own unique circuit boards to construct after the chassis has been assembled. Most mechs have two or more unique circuit boards. For example, the [color=#a4885c]Ripley[/color] mech requires a [color=#a4885c]ripley controls module[/color] board and a [color=#a4885c]ripley peripherals module[/color] board.
-  - Mechs require large amounts of material to create - be sure to ask your fellow scientists and cargo personnel for any materials you're missing!
-  - The Vim exosuit requires a pair of borg legs and an EVA helmet, regular or syndicate, then a voice trigger and a power cell.
-
-  ## Equipment
-    A mech is nothing more than an expensive hunk of metal without their exclusive tools. Equipment can be created at the fabricator, the same as any other part.
+  ## Мехи
 <Box>
-<GuideEntityEmbed Entity="MechEquipmentGrabber" Caption="The Hydraulic Clamp, as an example."/>
+<GuideEntityEmbed Entity="MechRipley" Caption="Рипли АВП"/>
+<GuideEntityEmbed Entity="MechHonker" Caption="Х.О.Н.К."/>
+<GuideEntityEmbed Entity="MechHamtr" Caption="ХАМЯК"/>
+<GuideEntityEmbed Entity="MechVim" Caption="ВИМ"/>
 </Box>
-  - To install equipment, just click on the mech with the equipment in your hand.
-  - To use equipment, perform the "Cycle Equipment" action until the tool you desire is equipped.
+  [color=#a4885c]Мехи[/color] - гигантские металлические махины, созданные для выполнения разных функций в зависимости от модели. Ими управляют игроки, и для работы им нужны энергоячейки.
+
+  Для создания каждого меха нужен собственный уникальный набор конечностей и деталей. Их можно изготовить на фабрикаторе экзокостюмов, как и любую другую деталь, кроме необходимых [color=#a4885c]печатных плат[/color], которые делают на [color=#a4885c]принтере печатных плат[/color], обычно находящемся в отделе [textlink="науки" link="Science"].
+<Box>
+<GuideEntityEmbed Entity="RipleyCentralElectronics" Caption="Центральный модуль управления Рипли"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="RipleyPeripheralsElectronics" Caption="Модуль управления периферией Рипли"/>
+</Box>
+
+  Например, обе платы выше необходимы для создания меха «Рипли» и не могут использоваться для создания других мехов.
+
+  Чтобы начать делать меха, напечатайте его каркас на фабрикаторе и вставьте конечности; когда все конечности на месте, вы можете [color=#a4885c]осмотреть[/color] его, чтобы узнать, как продолжить постройку.
+  - Для каждого меха после сборки шасси требуется какая-то комбинация проводов, использования инструментов и собственных уникальных печатных плат. У большинства мехов две или более уникальные платы. Например, мех [color=#a4885c]«Рипли»[/color] требует плату [color=#a4885c]модуля управления Рипли[/color] и плату [color=#a4885c]модуля периферии Рипли[/color].
+  - Мехам нужно много материалов - обязательно просите у коллег-учёных и персонала карго недостающие материалы!
+  - Экзокостюму «ВИМ» нужны пара борг-ног и шлем для ВКД, обычный или синдикатовский, затем голосовой триггер и энергоячейка.
+
+  ## Оборудование
+    Мех - не более чем дорогой кусок металла без своих эксклюзивных инструментов. Оборудование можно изготовить на фабрикаторе, как и любую другую деталь.
+<Box>
+<GuideEntityEmbed Entity="MechEquipmentGrabber" Caption="Например, гидравлический зажим."/>
+</Box>
+  - Чтобы установить оборудование, просто щёлкните по меху с оборудованием в руке.
+  - Чтобы использовать оборудование, выполняйте действие «Сменить оборудование», пока не будет выбран нужный инструмент.
 </Document>

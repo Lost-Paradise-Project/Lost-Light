@@ -45,8 +45,8 @@ wires-board-name-holopad = Голопад
 wires-board-name-barsign = Барная вывеска
 wires-board-name-weapon-energy-turret = Охранная турель
 wires-board-name-turret-controls = Панель управления охранной турелью
-wires-board-name-medibot = Medibot
-wires-board-name-cleanbot = Cleanbot
+wires-board-name-medibot = Медибот
+wires-board-name-cleanbot = Уборщик-бот
 
 # names that get displayed in the wire hacking hud & admin logs.
 

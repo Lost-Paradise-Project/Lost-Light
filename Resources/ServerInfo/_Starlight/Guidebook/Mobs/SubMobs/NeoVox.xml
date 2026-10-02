@@ -1,17 +1,17 @@
 <Document>
-  # Neo-Vox
+  # Нео-вокс
 
   <Box>
     <GuideEntityEmbed Entity="AppearanceNeoVox" Caption=""/>
   </Box>
 
-  The main reason for Cyberneticization in Vox is, unsurprisingly, to get rid of their oxygen poisoning first and foremost.
+  Главная причина кибернетизации у воксов, как ни удивительно, - прежде всего избавиться от отравления кислородом.
 
-  ## Resistances
-  - Receive [color=#ffa500]20% more heat damage[/color], [color=#8147ff]25% more shock damage[/color], and [color=#FF3636]10% more blunt damage[/color].
-  - Receive [color=#1e90ff]30% less cold damage[/color] and [color=#64ffe6]10% less poison damage[/color].
+  ## Сопротивления
+  - Получают [color=#ffa500]на 20% больше теплового урона[/color], [color=#8147ff]на 25% больше урона током[/color] и [color=#FF3636]на 10% больше ударного урона[/color].
+  - Получают [color=#1e90ff]на 30% меньше холодового урона[/color] и [color=#64ffe6]на 10% меньше урона ядом[/color].
 
-  With the advent of advanced cybernetics and with some help from their extensive body modifications, Neo-Vox have been able to get rid of their fatal oxygen weakness, and while they still breathe nitrogen, oxygen is no longer toxic to them.
+  С появлением продвинутой кибернетики и при некоторой помощи обширных модификаций тела нео-воксы смогли избавиться от смертельной слабости к кислороду, и хотя они по-прежнему дышат азотом, кислород им больше не токсичен.
 
-  Furthermore, due to these lung modifications, nitrogen-based gaseous sedatives no longer make you tired, and you won't breathe out ammonia anymore. Things that make other nitrogen breathers sleepy will also make you sleepy too.
+  Кроме того, из-за этих модификаций лёгких газообразные седативные средства на основе азота больше не вызывают у вас усталость, и вы больше не будете выдыхать аммиак. Вещи, от которых другие дышащие азотом засыпают, заставят засыпать и вас.
 </Document>

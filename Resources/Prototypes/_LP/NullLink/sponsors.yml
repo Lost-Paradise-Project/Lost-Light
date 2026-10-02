@@ -1,0 +1,87 @@
+# Спонсорские уровни Discord Lost Paradise.
+# Каждый уровень включает бонусы предыдущих, поэтому в требование уровня N входят роли уровней N-6.
+# 6 уровень отличается от 5 только цветом.
+
+- type: roleRequirementPrototype
+  id: LPSponsorTier1Req
+  roles:
+  - 1267807472895135906 # Спонсор 1 уровня
+  - 1267807730887032882 # Спонсор 2 уровня
+  - 1267807833412472853 # Спонсор 3 уровня
+  - 1267807884817993789 # Спонсор 4 уровня
+  - 1267808114443423754 # Спонсор 5 уровня
+  - 1267807960504205333 # Спонсор 6 уровня
+  discord: roles-req-discord-lp
+  rolesLoc: roles-req-lp-sponsor-tier-1
+
+- type: roleRequirementPrototype
+  id: LPSponsorTier2Req
+  roles:
+  - 1267807730887032882 # Спонсор 2 уровня
+  - 1267807833412472853 # Спонсор 3 уровня
+  - 1267807884817993789 # Спонсор 4 уровня
+  - 1267808114443423754 # Спонсор 5 уровня
+  - 1267807960504205333 # Спонсор 6 уровня
+  discord: roles-req-discord-lp
+  rolesLoc: roles-req-lp-sponsor-tier-2
+
+- type: roleRequirementPrototype
+  id: LPSponsorTier3Req
+  roles:
+  - 1267807833412472853 # Спонсор 3 уровня
+  - 1267807884817993789 # Спонсор 4 уровня
+  - 1267808114443423754 # Спонсор 5 уровня
+  - 1267807960504205333 # Спонсор 6 уровня
+  discord: roles-req-discord-lp
+  rolesLoc: roles-req-lp-sponsor-tier-3
+
+- type: roleRequirementPrototype
+  id: LPSponsorTier4Req
+  roles:
+  - 1267807884817993789 # Спонсор 4 уровня
+  - 1267808114443423754 # Спонсор 5 уровня
+  - 1267807960504205333 # Спонсор 6 уровня
+  discord: roles-req-discord-lp
+  rolesLoc: roles-req-lp-sponsor-tier-4
+
+- type: roleRequirementPrototype
+  id: LPSponsorTier5Req
+  roles:
+  - 1267808114443423754 # Спонсор 5 уровня
+  - 1267807960504205333 # Спонсор 6 уровня
+  discord: roles-req-discord-lp
+  rolesLoc: roles-req-lp-sponsor-tier-5
+
+- type: roleRequirementPrototype
+  id: LPBoosterReq
+  roles:
+  - 1095331348832604251 # Бустер
+  discord: roles-req-discord-lp
+  rolesLoc: roles-req-lp-booster
+
+# Слоты персонажей. Без спонсорки - game.maxcharacterslots из LP.toml (5).
+
+- type: characterSlots
+  id: LPSponsorTier1
+  requirement: LPSponsorTier1Req
+  slots: 10
+
+- type: characterSlots
+  id: LPSponsorTier2
+  requirement: LPSponsorTier2Req
+  slots: 15
+
+- type: characterSlots
+  id: LPSponsorTier3
+  requirement: LPSponsorTier3Req
+  slots: 20
+
+- type: characterSlots
+  id: LPSponsorTier4
+  requirement: LPSponsorTier4Req
+  slots: 25
+
+- type: characterSlots
+  id: LPSponsorTier5
+  requirement: LPSponsorTier5Req
+  slots: 30

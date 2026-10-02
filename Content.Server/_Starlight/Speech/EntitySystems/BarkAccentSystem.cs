@@ -10,9 +10,11 @@ public sealed partial class BarkAccentSystem : EntitySystem
 {
     [Dependency] private IRobustRandom _random = default!;
 
+    // LP edit start
     private static readonly IReadOnlyList<string> _barks = new List<string>{
-        " Woof!", " WOOF", " wof-wof"
+        " Гав!", " ГАВ", " гав-гав"
     }.AsReadOnly();
+    // LP edit end
 
     private static readonly IReadOnlyDictionary<string, string> _specialWords = new Dictionary<string, string>()
     {
@@ -38,9 +40,13 @@ public sealed partial class BarkAccentSystem : EntitySystem
 
         message.Text = message.Text.Replace("!", _random.Pick(_barks))
             .Replace("l", "r")
-            .Replace("L", "R");
+            .Replace("L", "R") // LP edit
+            // LP edit start
+            .Replace("л", "р")
+            .Replace("Л", "Р");
 
-        message.Tts = (message.Tts ?? message.Text).Replace("!", " Woof!");
+        message.Tts = (message.Tts ?? message.Text).Replace("!", " Гав!");
+        // LP edit end
 
         return message;
     }

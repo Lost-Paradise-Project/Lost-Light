@@ -1,9 +1,9 @@
 <Document>
-# Warden
+# Смотритель
 
-<GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Warden"/>
+<GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Смотритель"/>
 
-### §1 Standard Code Green Equipment
+### §1 Стандартное снаряжение при коде «Зелёный»
 
 <Box>
 	<GuideEntityEmbed Entity="Stunbaton"/>
@@ -17,7 +17,7 @@
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 <Box>
@@ -29,47 +29,47 @@
 	<GuideEntityEmbed Entity="Zipties"/>
 </Box>
 
-### §2 Stewardship of the Brig
+### §2 Опека над бригом
 - 1.\n
-The Warden is responsible for the state of the brig, and must see to it that it is properly maintained.
+Смотритель отвечает за состояние брига и должен следить, чтобы он содержался в должном порядке.
 - 2.\n
-The Warden is responsible for the well-being of the prisoners inside the brig, and must see to it that they are treated properly.
+Смотритель отвечает за благополучие заключённых в бриге и должен следить, чтобы с ними обращались надлежащим образом.
 - 3.\n
-The Warden is responsible for the containment of said prisoners as well, including:\n\n
+Смотритель отвечает также за удержание этих заключённых, включая:\n\n
 3.1\n
-Confiscating weapons and break-out equipment from prisoners.\n\n
+Изъятие у заключённых оружия и снаряжения для побега.\n\n
 3.2\n
-Restraining and subduing rioting prisoners as is necessary.
+Сдерживание и усмирение бунтующих заключённых по необходимости.
 
-### §3 Prosecution
+### §3 Обвинение
 - 1.\n
-The Warden acts as security's primary prosecutor during normal sentencing.
+Смотритель выступает главным обвинителем СБ при обычном вынесении приговоров.
 - 2.\n
-The Warden is cleared to confine sentenced criminals for up to [bold]20 minutes[/bold].
+Смотритель вправе заключать осуждённых преступников на срок до [bold]20 минут[/bold].
 - 3.\n
-The Warden is responsible for ensuring that Criminal Records are kept properly up to date and that Security Officers properly document their sentences.
+Смотритель отвечает за то, чтобы криминальные записи вели должным образом и чтобы офицеры СБ надлежащим образом документировали свои приговоры.
 - 4.\n
-The Warden is to remain attentive to their radio at all times, as their approval is critical to sentencing.\n\n
+Смотритель должен всегда внимательно следить за радио, так как его одобрение критично для вынесения приговоров.\n\n
 4.1\n
-The Warden must not have any disabilities or ailments preventing them from fulfilling this duty.
+Смотритель не должен иметь инвалидности или недугов, мешающих выполнять эту обязанность.
 
-### §4 Stewardship of the Armoury
+### §4 Опека над оружейной
 - 1.\n
-The Warden is responsible for the tidiness and organisation of the Armoury.
+Смотритель отвечает за чистоту и организацию оружейной.
 - 2.\n
-The Warden is responsible for properly locking away contraband and returned weaponry.
+Смотритель отвечает за надлежащее запирание контрабанды и возвращённого оружия.
 - 3.\n
-The Warden is responsible for the safety of the Armoury, such as the proper configuration of its internal turrets, and the maintenance of its structural integrity.
+Смотритель отвечает за безопасность оружейной, например за правильную настройку её внутренних турелей и поддержание её структурной целостности.
 - 4.\n
-The Warden is cleared to file and approve permits for the issuing of armoury equipment on [color=#2a6099]Code Blue[/color].
+Смотритель вправе оформлять и одобрять разрешения на выдачу снаряжения оружейной при [color=#2a6099]коде «Синий»[/color].
 - 5.\n
-The Warden may hand out armoury equipment freely on [color=#ff0000]Code Red[/color].
+Смотритель может свободно раздавать снаряжение оружейной при [color=#ff0000]коде «Красный»[/color].
 - 6.\n
-The Warden is responsible for the retrieval of armoury equipment that is no longer needed once states of emergency end.
+Смотритель отвечает за возврат снаряжения оружейной, которое больше не нужно, после окончания чрезвычайных положений.
 
 
 ### §5
 - 1.\n
-Paragraphs §2, §3 and §4 necessitate remaining in the Security Department, and the Warden should therefore not leave said department without permission from the Head of Security, or during emergencies.
+Параграфы §2, §3 и §4 требуют оставаться в отделе безопасности, поэтому смотритель не должен покидать этот отдел без разрешения главы службы безопасности или во время чрезвычайных ситуаций.
 
 </Document>

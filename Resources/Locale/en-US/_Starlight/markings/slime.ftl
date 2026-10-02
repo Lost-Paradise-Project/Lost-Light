@@ -83,10 +83,6 @@ marking-SlimeBonelegright-bone = Floating Bones (Right Leg)
 marking-SlimeBonelegleft = Floating Bones (Left Leg)
 marking-SlimeBonelegleft-bone = Floating Bones (Left Leg)
 
-# UndergarmentBottom
-
-# UndergarmentTop
-
 # LFoot
 
 marking-SlimeBonefootleft = Floating Bones (Left Foot)

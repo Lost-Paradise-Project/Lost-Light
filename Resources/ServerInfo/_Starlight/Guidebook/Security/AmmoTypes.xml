@@ -1,65 +1,65 @@
 <Document>
-# Ammunition Types
+# Типы боеприпасов
 
-Different ammunition types are designed for different targets. Their construction affects how well they perform against armor and may provide additional effects.
+Разные типы боеприпасов рассчитаны на разные цели. Их конструкция влияет на то, насколько хорошо они действуют против брони, и может давать дополнительные эффекты.
 
-## Soft Point
+## Экспансивные (Soft Point)
 
-Soft Point is a general-purpose ammunition type. It is a reliable choice when no specialized ammunition is available, but is less effective against armored targets.
+Экспансивные патроны - универсальный тип боеприпасов. Это надёжный выбор, когда нет специализированных боеприпасов, но менее эффективны против бронированных целей.
 
 <Box>
-  <GuideEntityEmbed Entity="MagazineBoxPistolSP" Caption="Soft Point Ammunition" />
+  <GuideEntityEmbed Entity="MagazineBoxPistolSP" Caption="Экспансивные боеприпасы" />
 </Box>
 
-## Hollow Point
+## С полой головкой (Hollow Point)
 
-Hollow Point ammunition is designed to maximize damage against unarmored threats. It performs poorly against armor and should generally be avoided when engaging protected targets.
+Патроны с полой головкой рассчитаны на максимальный урон против небронированных угроз. Они плохо действуют против брони, и их обычно следует избегать при столкновении с защищёнными целями.
 
 <Box>
-  <GuideEntityEmbed Entity="MagazineBoxPistolHP" Caption="Hollow-point Ammunition" />
-  <GuideEntityEmbed Entity="ReagentSlimeNocturine" Caption="Unarmored Threat" />
-  <GuideEntityEmbed Entity="MobAdultSlimesYellow" Caption="Unarmored Threat" />
+  <GuideEntityEmbed Entity="MagazineBoxPistolHP" Caption="Боеприпасы с полой головкой" />
+  <GuideEntityEmbed Entity="ReagentSlimeNocturine" Caption="Небронированная угроза" />
+  <GuideEntityEmbed Entity="MobAdultSlimesYellow" Caption="Небронированная угроза" />
 </Box>
 
-## Full Metal Jacket
+## Полностью оболочечные (Full Metal Jacket)
 
-Full Metal Jacket is a versatile ammunition type suited for both armored and crowded threats. Its improved armor performance makes it a dependable choice when dealing with protected targets.
+Полностью оболочечные патроны - универсальный тип боеприпасов, подходящий и против бронированных, и против массовых угроз. Улучшенное действие против брони делает их надёжным выбором для защищённых целей.
 
-FMJ ammunition also has the property of piercing through targets, allowing a single shot to potentially strike multiple enemies.
+Боеприпасы FMJ также обладают свойством пробивать цели насквозь, позволяя одним выстрелом потенциально поразить нескольких противников.
 
 <Box>
-  <GuideEntityEmbed Entity="MagazineBoxPistolFMJ" Caption="Full Metal Jacket Ammunition" />
+  <GuideEntityEmbed Entity="MagazineBoxPistolFMJ" Caption="Полностью оболочечные боеприпасы" />
   <GuideEntityEmbed Entity="MobCarp" Caption=" " />
-  <GuideEntityEmbed Entity="MobCarp" Caption="Swarm Enemy" />
+  <GuideEntityEmbed Entity="MobCarp" Caption="Роевый противник" />
   <GuideEntityEmbed Entity="MobCarp" Caption=" " />
 </Box>
 
-## Armor Piercing
+## Бронебойные (Armor Piercing)
 
-Armor Piercing ammunition is intended for heavily armored threats. It is particularly effective against heavily protected personnel and armored machines where conventional ammunition may struggle.
+Бронебойные боеприпасы предназначены для сильно бронированных угроз. Они особенно эффективны против хорошо защищённого персонала и бронированных машин, где обычные боеприпасы могут не справиться.
 
 <Box>
-  <GuideEntityEmbed Entity="MagazineBoxPistolAP" Caption="Armor Piercing Ammunition" />
-  <GuideEntityEmbed Entity="ShowcaseRobotMarauder" Caption="Armored Threat" />
+  <GuideEntityEmbed Entity="MagazineBoxPistolAP" Caption="Бронебойные боеприпасы" />
+  <GuideEntityEmbed Entity="ShowcaseRobotMarauder" Caption="Бронированная угроза" />
 </Box>
 
-## Shotgun Ammunition
+## Патроны для дробовика
 
-### Buckshot
+### Картечь
 
-Buckshot fires multiple projectiles at once, making it effective against unarmored targets. Its individual pellets are less effective against armor.
+Картечь выстреливает сразу несколько снарядов, что эффективно против небронированных целей. Отдельные дробины хуже действуют против брони.
 
-### Slug
+### Пуля
 
-Slug ammunition fires a single large projectile. Unlike buckshot, it is highly effective against armored targets and is a strong choice when concentrated damage and armor penetration are required.
+Пулевые боеприпасы выстреливают один крупный снаряд. В отличие от картечи, они очень эффективны против бронированных целей и являются сильным выбором, когда нужны сосредоточенный урон и пробитие брони.
 
-## Specialty Ammunition
+## Специальные боеприпасы
 
-Some ammunition types do not have a special interaction with armor but instead provide unique effects.
+Некоторые типы боеприпасов не имеют особого взаимодействия с бронёй, а вместо этого дают уникальные эффекты.
 
-- [color=cyan]Incendiary:[/color] Produces additional heat and can ignite targets.
-- [color=cyan]Rubber:[/color] Designed for non-lethal applications.
-- [color=cyan]Practice:[/color] Low-damage training ammunition.
-- [color=cyan]Uranium:[/color] Inflicts additional radiation damage.
+- [color=cyan]Зажигательные:[/color] создают дополнительное тепло и могут поджигать цели.
+- [color=cyan]Резиновые:[/color] предназначены для нелетального применения.
+- [color=cyan]Учебные:[/color] учебные боеприпасы с малым уроном.
+- [color=cyan]Урановые:[/color] наносят дополнительный радиационный урон.
 
 </Document>

@@ -1,0 +1,12 @@
+ent-Flash0Use = вспышка
+    .desc = { ent-Flash.desc }
+    .suffix = 0 зарядов
+ent-Flash1Use = вспышка
+    .desc = { ent-Flash.desc }
+    .suffix = 1 заряд
+ent-Flash3Use = вспышка
+    .desc = { ent-Flash.desc }
+    .suffix = 3 заряда
+ent-Flash4Use = вспышка
+    .desc = { ent-Flash.desc }
+    .suffix = 4 заряда

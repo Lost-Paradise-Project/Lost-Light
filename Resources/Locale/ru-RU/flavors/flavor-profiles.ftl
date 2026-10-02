@@ -273,7 +273,7 @@ flavor-complex-xeno-basher = как уничтожение жуков
 flavor-complex-budget-insuls-drink = как взлом шлюза
 flavor-complex-watermelon-wakeup = как сладкое пробуждение
 flavor-complex-rubberneck = как синтетика
-flavor-complex-irish-car-bomb = like a spiked cola float
+flavor-complex-irish-car-bomb = как газировка с добавкой
 # Irish car bomb starlight change
 flavor-complex-alien-brain-hemorrhage = как внеземная рана
 flavor-complex-themartinez = как фиалки и лимонная водка
@@ -350,4 +350,4 @@ flavor-complex-punishment = как наказание
 flavor-complex-artifact-glue = как дроблённые артефакты
 flavor-weh = как вех
 flavor-hew = как хев
-flavor-dogfood = like dog food
+flavor-dogfood = как собачий корм

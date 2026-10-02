@@ -1,0 +1,13 @@
+ent-DebugMechEquipment = { "" }
+    .desc = { "" }
+    .suffix = ОТЛАДКА
+ent-CombatMechEquipment = { "" }
+    .desc = { "" }
+ent-IndustrialMechEquipment = { "" }
+    .desc = { "" }
+ent-SpecialMechEquipment = { "" }
+    .desc = { "" }
+ent-SmallMechEquipment = { "" }
+    .desc = { "" }
+ent-MechEquipmentSovietHorn = советский гудок
+    .desc = Славный механический гудок, издающий множество славных звуков. Слава родине!

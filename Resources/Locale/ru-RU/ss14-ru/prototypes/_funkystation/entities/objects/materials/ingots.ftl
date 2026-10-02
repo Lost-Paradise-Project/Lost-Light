@@ -1,0 +1,9 @@
+ent-MetalHydrogen = металлический водород
+    .desc = { ent-IngotBase.desc }
+    .suffix = Полный
+ent-MetalHydrogen10 = металлический водород
+    .desc = { ent-MetalHydrogen.desc }
+    .suffix = 10
+ent-MetalHydrogen1 = металлический водород
+    .desc = { ent-MetalHydrogen.desc }
+    .suffix = Одиночный

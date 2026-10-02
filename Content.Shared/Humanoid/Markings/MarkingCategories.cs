@@ -15,8 +15,7 @@ namespace Content.Shared.Humanoid.Markings
         Snout,
         SnoutCover,
         Chest,
-        UndergarmentTop,
-        UndergarmentBottom,
+        // LP edit - убрана цензура наготы (нижнее бельё)
         Arms,
         Legs,
         Tail,
@@ -43,8 +42,7 @@ namespace Content.Shared.Humanoid.Markings
                 HumanoidVisualLayers.Eyes => MarkingCategories.Eyes, // Starlight
                 HumanoidVisualLayers.Snout => MarkingCategories.Snout,
                 HumanoidVisualLayers.Chest => MarkingCategories.Chest,
-                HumanoidVisualLayers.UndergarmentTop => MarkingCategories.UndergarmentTop,
-                HumanoidVisualLayers.UndergarmentBottom => MarkingCategories.UndergarmentBottom,
+                // LP edit - убрана цензура наготы (нижнее бельё)
                 HumanoidVisualLayers.RArm => MarkingCategories.Arms,
                 HumanoidVisualLayers.LArm => MarkingCategories.Arms,
                 HumanoidVisualLayers.RHand => MarkingCategories.Arms,

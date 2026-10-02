@@ -1,36 +1,36 @@
 <Document>
-  # Vampire: Dantalion
+  # Вампир: Дантальон
 
   <Box>
-    [color=#68993f][italic]"Power is in blood. Authority is in other people's decisions."[/italic][/color]
+    [color=#68993f][italic]«Власть - в крови. Авторитет - в чужих решениях».[/italic][/color]
   </Box>
 
-  Dantalion is the social control class. You don't need to be the strongest fighter — you make sure nobody gets to fight back.
-  Your resources are [bold]thralls[/bold] and [bold]attention control[/bold].
+  Дантальон - класс социального контроля. Вам не нужно быть сильнейшим бойцом - вы следите, чтобы никто не смог дать отпор.
+  Ваши ресурсы - [bold]рабы[/bold] и [bold]контроль внимания[/bold].
 
-  ## Abilities (Total Blood Threshold | Cost)
+  ## Способности (общий порог крови | цена)
 
-  [bold](150 | 150)[/bold] Enthrall:
-   Long channel (about 15 seconds) on a humanoid.
-   You use a large portion of your power to sway those loyal to none to be loyal to you only
+  [bold](150 | 150)[/bold] Порабощение:
+   Долгое подчинение (около 15 секунд) гуманоида.
+   Вы тратите большую часть своей силы, чтобы склонить тех, кто никому не верен, быть верными только вам
 
-  [bold](250 | 30)[/bold] Pacify:
-   Pacify a target temporarily, making them unable to cause harm.
+  [bold](250 | 30)[/bold] Усмирение:
+   Временно усмиряет цель, не давая ей причинять вред.
 
-  [bold](250 | 30)[/bold] Subspace Swap:
-   Switch positions with a target.
+  [bold](250 | 30)[/bold] Подпространственный обмен:
+   Поменяться местами с целью.
 
-  [bold](400 | 30)[/bold] Decoy:
-   Leave behind a fragile duplicate that punishes attackers while you slip into invisibility.
-   Use it to drop focus in corridors.
+  [bold](400 | 30)[/bold] Приманка:
+   Оставляет хрупкого двойника, наказывающего нападающих, пока вы ускользаете в невидимость.
+   Используйте, чтобы сбить фокус в коридорах.
 
-  [bold](600 | 100)[/bold] Rally Thralls:
-   Removes all incapacitating effects from your nearby thralls.
+  [bold](600 | 100)[/bold] Сплочение рабов:
+   Снимает все выводящие из строя эффекты с ваших ближайших рабов.
 
-  [bold](800 | Toggle)[/bold] Blood Bond:
-   Tethers you to nearby thralls and redistributes damage.
+  [bold](800 | Переключатель)[/bold] Кровная связь:
+   Связывает вас с ближайшими рабами и перераспределяет урон.
 
-  [bold](1000 | 70)[/bold] Mass Hysteria:
-   Casts a powerful illusion to make everyone nearby perceive others to looks like random animals after briefly blinding them.
+  [bold](1000 | 70)[/bold] Массовая истерия:
+   Накладывает мощную иллюзию, из-за которой все поблизости воспринимают других как случайных животных, после короткого ослепления.
 
 </Document>

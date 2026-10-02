@@ -1,0 +1,14 @@
+ent-SurgeryAmputationStep = Распилить конечность
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepExposeSkull = Обнажить череп
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepLigateVessels = Перевязать сосуды
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepSawSkull = Распилить череп
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepSeparateSlime = Отделить слизистую массу
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepInciseCartilage = Надрезать хрящ
+    .desc = { ent-SurgeryStepBase.desc }
+ent-SurgeryStepHeadFinalizeSeparation = Завершить отделение
+    .desc = { ent-SurgeryStepSawSkull.desc }

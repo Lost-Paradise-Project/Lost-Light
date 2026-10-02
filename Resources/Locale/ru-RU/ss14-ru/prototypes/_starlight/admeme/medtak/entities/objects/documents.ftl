@@ -1,0 +1,10 @@
+ent-PaperMedTak = бумага МедТак
+    .desc = Лист бумаги с логотипом МедТак. Выглядит дорого. Для вас.
+ent-PrintedDocumentMedTakContract = Договор страхового покрытия МедТак
+    .desc = { ent-PaperMedTak.desc }
+ent-PrintedDocumentMedTakCorrespondence = Корреспонденция МедТак
+    .desc = { ent-PaperMedTak.desc }
+ent-PrintedDocumentMedTakInvoice = Счёт МедТак
+    .desc = { ent-PaperMedTak.desc }
+ent-PrintedDocumentMedTakReport = Отчёт МедТак после операции
+    .desc = { ent-PaperMedTak.desc }

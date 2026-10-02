@@ -7,6 +7,7 @@ using Content.Shared.Preferences;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
+using Content.Shared._LP.Sponsors;
 
 namespace Content.Client._Starlight.Lobby.UI;
 
@@ -23,7 +24,7 @@ public sealed partial class HumanoidProfileEditor
         SpeciesButton.Clear();
         _species.Clear();
 
-        _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart));
+        _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart && RolesRestrictions.IsAllowed(o.RolesRequirement, _playerManager.LocalSession))); // LP edit - спонсорские расы
         _species.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.CurrentCultureIgnoreCase));
         var speciesIds = _species.Select(o => o.ID).ToList();
 

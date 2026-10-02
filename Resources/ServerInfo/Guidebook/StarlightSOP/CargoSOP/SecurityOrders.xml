@@ -1,8 +1,8 @@
 <Document>
-# Security orders
+# Заказы СБ
 
-## Basic materials
-### Only for printers & lathes
+## Базовые материалы
+### Только для принтеров и станков
 <Box>
 	<GuideEntityEmbed Entity="SheetSteel"/>
 	<GuideEntityEmbed Entity="SheetGlass"/>
@@ -10,7 +10,7 @@
 	<GuideEntityEmbed Entity="MaterialCloth"/>
 </Box>
 
-## Refill Crates
+## Ящики пополнения
 <Box>
 	<GuideEntityEmbed Entity="CrateSecurityTrackingMindshieldImplants"/>
 	<GuideEntityEmbed Entity="CrateVendingMachineRestockSecTechFilled"/>

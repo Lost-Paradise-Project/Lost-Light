@@ -1,0 +1,16 @@
+ent-BaseSpeedLoaderShotgun = спидлоадер 12 калибра
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoaderShotgunEmpty = спидлоадер 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderMagnumBasic = спидлоадер картечи 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunBeanbag = спидлоадер травматических патронов 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunSlug = спидлоадер пуль 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunUranium = спидлоадер урановых патронов 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunBirdshot = спидлоадер дроби 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderShotgunIncendiary = спидлоадер зажигательных патронов 12 калибра
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }

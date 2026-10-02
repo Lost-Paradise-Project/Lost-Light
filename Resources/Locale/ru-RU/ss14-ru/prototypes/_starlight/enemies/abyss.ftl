@@ -1,0 +1,10 @@
+ent-MobElder = старейшина
+    .desc = { ent-SimpleSpaceMobBase.desc }
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobWorm = червь
+    .desc = { ent-SimpleSpaceMobBase.desc }
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-ActionMobBlink = Мигание
+    .desc = Телепортироваться в указанное место.
+ent-WeaponElderSlash = { ent-WeaponArcSlash }
+    .desc = { ent-WeaponArcSlash.desc }

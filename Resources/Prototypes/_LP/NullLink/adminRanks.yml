@@ -1,0 +1,90 @@
+# Ранги админки по ролям Discord (admin_builder = "LostParadise" в LP.toml).
+# Берётся первый подходящий ранг сверху. Если в roles несколько ролей, нужны все сразу.
+# Роли с админкой защищайте Role Assignment Protection в Discord.
+# Флаги: ADMIN, BAN, DEBUG, FUN, PERMISSIONS, PLAYTIME, SERVER, SPAWN, VAREDIT, MAPPING, LOGS, ROUND, QUERY, ADMINHELP,
+# VIEWNOTES, EDITNOTES, MASSBAN, STEALTH, ADMINCHAT, PII, MODERATOR, ADMINWHO, NAMECOLOR, DANGER, HOST.
+# Базовые флаги всего стаффа: ADMINWHO, NAMECOLOR, ADMINCHAT. Остальные права добавляются к ним.
+
+- type: adminRankBuilder
+  id: LostParadise
+  ranks:
+    - name: Владелец Проекта
+      roles:
+        - 1092784201499160616 # Владелец Проекта
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PERMISSIONS, PLAYTIME, SERVER, SPAWN, VAREDIT, MAPPING, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, MASSBAN, STEALTH, PII, MODERATOR, DANGER, HOST]
+
+    - name: Технический Админ
+      roles:
+        - 1225011158097068052 # Технический Админ
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PERMISSIONS, PLAYTIME, SERVER, SPAWN, VAREDIT, MAPPING, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, MASSBAN, STEALTH, PII, MODERATOR, DANGER, HOST]
+
+    - name: Администратор
+      roles:
+        - 1485233219564605440 # Администратор
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PERMISSIONS, PLAYTIME, SERVER, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, MASSBAN, STEALTH, MODERATOR]
+
+    - name: Старший Модератор
+      roles:
+        - 1092742774723448882 # Старший Модератор
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PLAYTIME, SERVER, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, STEALTH, MODERATOR]
+
+    - name: Старший Гейм-Мастер
+      roles:
+        - 1092789321515421789 # Старший Гейм-Мастер
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PLAYTIME, SERVER, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, STEALTH, MODERATOR]
+
+    - name: Главный Разработчик
+      roles:
+        - 1092218260918906901 # Главный Разработчик
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, VAREDIT, SPAWN, FUN, SERVER, LOGS, ROUND, ADMINHELP, VIEWNOTES, STEALTH, MODERATOR]
+
+    - name: Ведущий Маппер
+      roles:
+        - 1459986748267434116 # Ведущий Маппер
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+
+    - name: Ведущий Спрайтер
+      roles:
+        - 1459986747978154148 # Ведущий Спрайтер
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+
+    - name: Куратор Вики
+      roles:
+        - 1159224716578529322 # Куратор Вики
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+
+    - name: Начальник Караула
+      roles:
+        - 1092786586447515710 # Начальник Караула
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+
+    - name: Гейм-Мастер
+      roles:
+        - 1249385000990670993 # Гейм-Мастер
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, FUN, PLAYTIME, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, STEALTH, MODERATOR]
+
+    - name: Младший Гейм-Мастер
+      roles:
+        - 1295344014085849150 # Младший Гейм-Мастер
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, FUN, SPAWN, VAREDIT, LOGS, ADMINHELP, VIEWNOTES, STEALTH, MODERATOR]
+
+    - name: Модератор
+      roles:
+        - 1092217545332891758 # Модератор
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PLAYTIME, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, STEALTH, MODERATOR]
+
+    - name: Младший Модератор
+      roles:
+        - 1092217644905660576 # Младший Модератор
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, LOGS, ADMINHELP, VIEWNOTES, EDITNOTES, STEALTH, MODERATOR]
+
+    # Неигровой стафф: только базовые флаги.
+    - name: Ментор
+      roles:
+        - 1092217600316014624 # Ментор
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+
+    - name: Кодер
+      roles:
+        - 1459597485512069386 # Кодер
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]

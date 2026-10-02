@@ -1,0 +1,12 @@
+ent-MagazineLightRifleRubber = магазин (.30 винтовочные резиновые)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleHP = магазин (.30 винтовочные HP)
+    .desc = Изогнутый двухрядный магазин на 30 патронов для боевых винтовок. Предназначен для кинетических боеприпасов общего назначения.
+ent-MagazineLightRifleFMJ = магазин (.30 винтовочные ПОО)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleAP = магазин (.30 винтовочные бронебойные)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRifleMaxim = дисковый магазин (.30 винтовочный)
+    .desc = { ent-BaseMagazineLightRifle.desc }
+ent-MagazineLightRiflePkBox = коробка боеприпасов ПК (.30 винтовочные)
+    .desc = { ent-BaseMagazineLightRifle.desc }

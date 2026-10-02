@@ -1,5 +1,5 @@
 # Components
-spray-painter-ammo-on-examine = Содержит { $charges } { $charge ->
+spray-painter-ammo-on-examine = Содержит { $charges } { $charges ->
     [1] заряд
     [few] заряда
     *[other] зарядов

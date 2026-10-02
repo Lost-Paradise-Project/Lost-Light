@@ -1,0 +1,13 @@
+job-supervisors-assistantmanager = помощник управляющего и абсолютно все остальные
+job-supervisors-command = Командование
+job-supervisors-magistrate = Магистрат
+job-supervisors-nanotrasen = NanoTrasen
+job-supervisors-nt-personnel = представитель НаноТрейзен и магистрат
+job-supervisors-prisoner = тюремные офицеры, заместитель губернатора и губернатор
+job-supervisors-service-arts = клоун, мим, музыканты и глава персонала
+job-supervisors-solgov = Транссолнечная федерация
+job-supervisors-station-ai = ИИ станции
+job-supervisors-warden = смотритель
+job-supervisors-none = Никто
+job-supervisors-itg = Глава утилизаторов
+job-supervisors-guild = Межзвёздная торговая гильдия

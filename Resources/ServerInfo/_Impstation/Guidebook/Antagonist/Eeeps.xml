@@ -1,19 +1,19 @@
 <Document>
-  # Electric Sheep
+  # Электрические овцы
 
   <Box>
     <GuideEntityEmbed Entity="MobEeep" Caption=""/>
 
   </Box>
-  Electric sheep, or Eeeps, are spacefaring creatures sometimes farmed for the power they naturally produce.
+  Электрические овцы, или ииипы, - космические существа, которых иногда разводят ради энергии, которую они естественным образом производят.
 
-  Eeeplets are the adolescent form of the Eeep, little creatures with a love for feeding on electrical energy, [color=yellow]easily draining any power source.[/color]
+  Ииплёнки - подростковая форма ииипа, маленькие существа, любящие питаться электрической энергией, [color=yellow]легко высасывающие любой источник энергии.[/color]
 
-  They are more annoying than harmful [color=red]unless allowed to consume enough power to grow up;[/color] if so, better hope you have insuls...
+  Они скорее досаждают, чем вредят, [color=red]если только им не позволят потребить достаточно энергии, чтобы вырасти;[/color] тогда лучше надеяться, что у вас есть изолы...
     <GuideEntityEmbed Entity="MobEeeplet" Caption=""/>
-  - They can 'pry' open any door by overcharging it.
-  - Eeeplets can be examined to see their internal charge; they will transform when it reaches 100%, alerting the entire station to their presence.
-  - Eeeps have a [color=green]powerful passive regen[/color] but can be fully killed by [color=yellow]butchering.[/color]
-  - Adult Eeeps have an electric aura that harms on touch and are able to shoot tiny Tesla-like projectiles which have embed damage even if the target is immune to shock.
-  - As an Electric sheep avoid looses. The station can't make yummy power with no engine!
+  - Они могут «вскрывать» любую дверь, перегружая её.
+  - Ииплёнков можно осмотреть, чтобы увидеть их внутренний заряд; они преобразуются, когда он достигнет 100%, оповещая всю станцию о своём присутствии.
+  - У ииипов [color=green]мощная пассивная регенерация[/color], но их можно окончательно убить [color=yellow]разделкой.[/color]
+  - У взрослых ииипов есть электрическая аура, наносящая вред при касании, и они способны стрелять крошечными тесла-подобными снарядами, которые наносят урон внедрением, даже если цель невосприимчива к току.
+  - Будучи электрической овцой, избегайте срывов. Станция не может вырабатывать вкусную энергию без двигателя!
 </Document>

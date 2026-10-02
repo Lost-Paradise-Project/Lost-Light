@@ -1,0 +1,10 @@
+ent-StatusEffectTemporaryBlindness = временная слепота
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectMuted = немота
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectTheDark = тьма
+    .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectTheDarkMap = { ent-StatusEffectTheDark }
+    .desc = { ent-StatusEffectTheDark.desc }
+ent-StatusEffectHeldBreath = задержка дыхания
+    .desc = { ent-MobStatusEffectDebuff.desc }

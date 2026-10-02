@@ -1,0 +1,9 @@
+ent-OrganMothEyes = глаза моли
+    .desc = Большие сложные глаза для улавливания света.
+    .suffix = Мотылёк
+ent-OrganMothStomach = желудок моли
+    .desc = Желудок, специализирующийся на переваривании обычно несъедобной ткани.
+    .suffix = Мотылёк
+ent-OrganMothTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Мотылёк

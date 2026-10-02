@@ -9,7 +9,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: StaffRolesReq
+    requirement: LPStaffReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -24,7 +24,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: StaffRolesReq
+    requirement: LPStaffReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -39,7 +39,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: LPModerationReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -54,7 +54,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: LPModerationReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -69,7 +69,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: LPModerationReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -84,7 +84,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: LPModerationReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -99,7 +99,7 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
+    requirement: LPModerationReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -114,7 +114,7 @@
       shader: unshaded
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: SeniorDeveloperReq
+    requirement: LPLeadDevelopersReq # LP edit
   category: Staff
 
 - type: ghostTheme
@@ -128,5 +128,5 @@
       state: ghost-custodian
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: DeveloperReq
+    requirement: LPDevelopersReq # LP edit
   category: Staff

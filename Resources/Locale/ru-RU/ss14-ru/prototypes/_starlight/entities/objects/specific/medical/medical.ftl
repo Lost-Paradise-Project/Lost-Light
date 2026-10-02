@@ -1,0 +1,11 @@
+ent-BaseStarlightHealingItem = { ent-BaseHealingItem }
+    .desc = { ent-BaseHealingItem.desc }
+ent-MobTrueDoctorbot = настоящий врач
+    .desc = Определённо настоящий врач.
+ent-SecurityMedkit = БригНабор
+    .desc = Прочная аптечка со слотами и крючками для медицинских припасов, но ни для чего другого.
+ent-OilPack5 = { ent-OilPack }
+    .desc = { ent-OilPack.desc }
+    .suffix = 5
+ent-MedkitRobotic = набор лечения роботов
+    .desc = Используется для лечения роботизированных пациентов, таких как киборги и КПБ.

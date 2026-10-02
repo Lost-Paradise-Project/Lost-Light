@@ -1,0 +1,11 @@
+ent-BaseMilkCrate = { ent-BaseStructureDynamic }
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-RecordMilkCrate = ящик для пластинок
+    .desc = Прочный пластиковый ящик из-под молока, приспособленный для хранения виниловых пластинок в конвертах. Больше в него ничего не влезет.
+ent-RecordMilkCrateFilled = { ent-RecordMilkCrate }
+    .desc = { ent-RecordMilkCrate.desc }
+    .suffix = Заполнен
+ent-MilkCrate = ящик из-под молока
+    .desc = Прочный пластиковый ящик для перевозки пакетов молока. Больше в него ничего не влезет.
+ent-SyndicateMilkCrate = ящик из-под молока Синдиката
+    .desc = Кроваво-красный пластиковый ящик из-под молока для хранения виниловых пластинок в конвертах. НаноТрейзен предпочла бы, чтобы вы их не слушали.

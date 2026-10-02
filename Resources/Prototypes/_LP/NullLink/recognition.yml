@@ -1,0 +1,13 @@
+# Чьи баны и плейтайм из сети NullLink учитываются на наших серверах.
+# ID прототипа = nulllink.id.project, ключ = nulllink.id.server, значение - список "ПРОЕКТ.сервер".
+# Пустой список: только локальные данные. Без записи для сервера применяются ВСЕ баны сети.
+
+- type: serverPlaytimeRecognition
+  id: LOSTPARADISE
+  recognition:
+    main: []
+
+- type: serverBanRecognition
+  id: LOSTPARADISE
+  recognition:
+    main: []

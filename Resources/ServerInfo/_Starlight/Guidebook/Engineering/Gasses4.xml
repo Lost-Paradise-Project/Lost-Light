@@ -1,51 +1,51 @@
 <Document>
-  # Gasses 4
-  Advanced gasses that have highly unique properties that make them highly sought after.
+  # Газы 4
+  Продвинутые газы с очень уникальными свойствами, делающими их крайне востребованными.
 
-  ## Healium
+  ## Хилиум
   <Box>
     <GuideEntityEmbed Entity="HealiumCanister" Caption=""/>
   </Box>
 
-  A humourously named gas that true to its name, is capable of healing most types of damage when inhaled.
+  Юмористически названный газ, который, как и следует из названия, способен лечить большинство видов урона при вдыхании.
 
-  Excessive inhalation causes drowsiness, with sufficient quantities causing outright unconsciousness.
+  Чрезмерное вдыхание вызывает сонливость, а в достаточных количествах - полную потерю сознания.
 
-  Healium is created by combining 1 BZ and 11 Frezon to create 12 Healium and releases heat. Formation rate increases at lower temperatures and stops above 293 K.
+  Хилиум создаётся соединением 1 BZ и 11 фрезона с получением 12 хилиума и выделяет тепло. Скорость образования растёт при более низких температурах и прекращается выше 293 К.
 
-  ## Nitrium
+  ## Нитриум
   <Box>
     <GuideEntityEmbed Entity="NitriumCanister" Caption=""/>
   </Box>
 
-  An incredibly valuable gas that rapidly accelerates biological functions when inhaled, causing incredible muscle speed, reaction times, and counteracting sleep. Inhalation causes mild toxic buildup.
+  Невероятно ценный газ, быстро ускоряющий биологические функции при вдыхании, давая невероятную скорость мышц, реакции и противодействуя сну. Вдыхание вызывает лёгкое накопление токсинов.
 
-  When exposed to oxygen nitrium decays into hydrogen and releases a small amount of energy.
+  При контакте с кислородом нитриум распадается на водород и выделяет небольшое количество энергии.
 
-  Nitrium is created by combining 1 tritium with 1 nitrogen and 0.05 BZ at over 1500 K consuming heat.
+  Нитриум создаётся соединением 1 трития с 1 азота и 0,05 BZ при температуре выше 1500 К с поглощением тепла.
 
-  ## Hyper-Noblium
+  ## Гипер-ноблий
   <Box>
     <GuideEntityEmbed Entity="HyperNobliumCanister" Caption=""/>
   </Box>
 
-  Incredibly stable, hyper-noblium actively prevents most other reactions around it from occuring when in great enough quantities.
+  Невероятно стабильный гипер-ноблий активно предотвращает большинство других реакций вокруг себя при достаточно большом количестве.
 
-  Hyper-noblium has the best specific heat, making it the best working fluid to store and transfer heat.
+  У гипер-ноблия лучшая удельная теплоёмкость, что делает его лучшим рабочим телом для хранения и передачи тепла.
 
-  Hyper-noblium is created by combining 1 tritium with 2 nitrogen below 15 K but produces a large amount of heat. Additionally, the presence of BZ acts as a catalyst which reduces tritium consumption and heat output massively.
+  Гипер-ноблий создаётся соединением 1 трития с 2 азота при температуре ниже 15 К, но выделяет большое количество тепла. Кроме того, присутствие BZ действует как катализатор, резко снижающий расход трития и выделение тепла.
 
-  ## Proto-Nitrate
+  ## Прото-нитрат
   <Box>
     <GuideEntityEmbed Entity="ProtoNitrateCanister" Caption=""/>
   </Box>
 
-  An incredibly useful gas used to turn plasma derived gasses into more plasma, either to recycle unwanted gasses or as complex production chains to turn mundane gasses into more plasma.
+  Невероятно полезный газ, превращающий газы, производные плазмы, в большее количество плазмы - для переработки ненужных газов или в сложных производственных цепочках по превращению обычных газов в плазму.
 
-  Proto-nitrate converts almost all plasma based gasses, exempting pluoxium, ulnitranium, and BZ. BZ can be decomposed by PN, but instead effectively turns nitrous oxide into helium.
+  Прото-нитрат преобразует почти все газы на основе плазмы, кроме плуоксиума, ульнитрания и BZ. Прото-нитрат может разлагать BZ, но вместо этого фактически превращает закись азота в гелий.
 
-  Conversion occurs faster with lower pressure and higher temperature, and consumes large amounts of heat while releasing massive quantities of helium as a byproduct. Proto-nitrate is consumed relative to plasma production.
+  Преобразование происходит быстрее при более низком давлении и более высокой температуре и потребляет большое количество тепла, выделяя огромное количество гелия как побочного продукта. Прото-нитрат расходуется пропорционально производству плазмы.
 
-  Proto-nitrate can be created by combining 10 hydrogen and 1 pluoxium between 5000 K and 10000 K.
+  Прото-нитрат можно создать соединением 10 водорода и 1 плуоксиума при температуре от 5000 до 10000 К.
 
 </Document>

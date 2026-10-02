@@ -1,6 +1,6 @@
 ent-BoxFolderNuclearCodes = папка с кодами ядерной аутентификации
     .desc = { ent-BaseItem.desc }
-    .suffix = Random
+    .suffix = Случайный
 ent-BoxFolderBaseEmpty = папка
     .desc = Папка, заполненная совершенно секретными документами.
 ent-BoxFolderFill = { "" }

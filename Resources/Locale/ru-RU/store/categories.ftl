@@ -13,7 +13,7 @@ store-category-job = Работа
 store-category-wearables = Экипировка
 store-category-pointless = Безделушки
 store-discounted-items = Скидки
-store-second-hand-items = Second Hand
+store-second-hand-items = Б/у
 
 # Revenant
 store-category-abilities = Способности
@@ -25,9 +25,9 @@ store-caregory-spellbook-utility = Вспомогательные заклина
 store-caregory-spellbook-equipment = Волшебное снаряжение
 store-caregory-spellbook-events = Заклинания событий
 # STARLIGHT
-store-caregory-spellbook-war = War
+store-caregory-spellbook-war = Война
 
 # Nukie Delivery
 store-category-nukie-delivery = Предложения
 
-store-category-languages = Languages
+store-category-languages = Языки

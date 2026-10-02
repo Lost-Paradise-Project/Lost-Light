@@ -1,0 +1,12 @@
+ent-RandomVendingMedical = спавнер случайного медицинского торгового автомата
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Отделы
+ent-RandomVendingMedicalCivilian = спавнер случайного медицинского торгового автомата
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Гражданский
+ent-RandomVendingMedicalWall = спавнер случайного медицинского торгового автомата
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Отдельческий, настенный
+ent-RandomVendingMedicalCivilianWall = спавнер случайного медицинского торгового автомата
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Гражданский, настенный

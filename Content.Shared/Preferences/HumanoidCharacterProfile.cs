@@ -20,6 +20,7 @@ using Robust.Shared.Utility;
 using Content.Shared._Starlight.Traits;
 using Content.Shared._Starlight.Humanoid;
 using Content.Shared._Starlight.CCVar;
+using Content.Shared._LP.Sponsors;
 #endregion
 
 namespace Content.Shared.Preferences
@@ -31,7 +32,7 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile
     {
-        private static readonly Regex RestrictedNameRegex = new(@"[^A-Za-z0-9 '\-,#]"); //Starlight edit, allow commas and number sign
+        private static readonly Regex RestrictedNameRegex = new("[^А-Яа-яёЁ0-9' ,#-]"); // LP edit - кириллица; запятые и # нужны именам авали и экспериментов
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
         /// <summary>
@@ -577,6 +578,14 @@ namespace Content.Shared.Preferences
                 speciesPrototype = prototypeManager.Index(Species);
             }
 
+            // LP edit start - спонсорские расы
+            if (!RolesRestrictions.IsAllowed(speciesPrototype.RolesRequirement, session))
+            {
+                Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
+                speciesPrototype = prototypeManager.Index(Species);
+            }
+            // LP edit end
+
             var sex = Sex switch
             {
                 Sex.Male => Sex.Male,
@@ -683,6 +692,7 @@ namespace Content.Shared.Preferences
             }
 
             var appearance = HumanoidCharacterAppearance.EnsureValid(Appearance, Species, Sex);
+            appearance = RolesRestrictions.FilterAppearance(appearance, session); // LP edit - спонсорские маркинги
 
             var spawnPriority = SpawnPriority switch
             {

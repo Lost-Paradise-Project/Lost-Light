@@ -1,0 +1,14 @@
+seeds-organ-tree-name = дерево органов
+seeds-organ-tree-display-name = дерево органов
+seeds-evilapple-name = дьявольское яблоко
+seeds-evilapple-display-name = дьявольская яблоня
+seeds-resinfera-name = резинифера
+seeds-resinfera-display-name = резинифера
+seeds-mint-name = мятный куст
+seeds-mint-display-name = мятный куст
+seeds-spear-mint-name = колосовая мята
+seeds-spear-mint-display-name = колосовая мята
+seeds-cinnamon-name = коричное дерево
+seeds-cinnamon-display-name = коричное дерево
+seeds-cinnaflare-name = корицепламенное дерево
+seeds-cinnaflare-display-name = корицепламенное дерево

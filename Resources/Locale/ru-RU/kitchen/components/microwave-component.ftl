@@ -16,7 +16,7 @@ microwave-bound-user-interface-instant-button = МГНОВЕННО
 
 # Starlight-start
 
-microwave-bound-user-interface-current-cook-time-label = CURRENT COOK TIME: { $time }
+microwave-bound-user-interface-current-cook-time-label = ТЕКУЩЕЕ ВРЕМЯ ГОТОВКИ: { $time }
 microwave-bound-user-interface-cook-time-label = ВРЕМЯ: { $time }
 
 # Starlight-end
@@ -26,7 +26,7 @@ microwave-bound-user-interface-cook-time-label = ВРЕМЯ: { $time }
 microwave-menu-title = Микроволновая печь
 microwave-menu-start-button = Старт
 # Starlight-start
-microwave-menu-stop-button = Stop
+microwave-menu-stop-button = Стоп
 # Starlight-end
 microwave-menu-eject-all-text = Извлечь всё
 microwave-menu-eject-all-tooltip = Это испарит все жидкости, но вернёт всё твёрдое.

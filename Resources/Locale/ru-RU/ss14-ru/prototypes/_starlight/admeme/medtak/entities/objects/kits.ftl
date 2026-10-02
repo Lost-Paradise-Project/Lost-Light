@@ -1,0 +1,13 @@
+ent-BottleCaseMedTak = химический футляр
+    .desc = Усиленный футляр с мягкими слотами для бутылок.
+ent-MedkitCombatMedTak = боевой набор МедТак
+    .desc = Личная аптечка оператора.
+ent-PenPackMedTak = пачка автоинъекторов
+    .desc = Мешочек, заряженный автоинъекторами.
+    .suffix = МедТак, заполнено
+ent-SurgicalKitMedTak = продвинутый хирургический набор
+    .desc = Компактный набор хирургических инструментов.
+    .suffix = МедТак, заполнено
+ent-BoxFolderMedTak = { ent-BoxFolderBaseEmpty }
+    .desc = { ent-BoxFolderBaseEmpty.desc }
+    .suffix = МедТак

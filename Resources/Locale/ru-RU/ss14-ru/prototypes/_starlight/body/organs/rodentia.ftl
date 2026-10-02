@@ -1,0 +1,12 @@
+ent-OrganRodentiaEyes = глаза грызуна
+    .desc = Глаза-бусинки грызуна.
+    .suffix = Грызун
+ent-OrganRodentiaStomach = желудок грызуна
+    .desc = Стойкий желудок грызуна.
+    .suffix = Грызун
+ent-OrganRodentiaHeart = сердце грызуна
+    .desc = Звериное сердце грызуна.
+    .suffix = Грызун
+ent-OrganRodentiaTongue = { ent-OrganHumanTongue }
+    .desc = { ent-OrganHumanTongue.desc }
+    .suffix = Грызун

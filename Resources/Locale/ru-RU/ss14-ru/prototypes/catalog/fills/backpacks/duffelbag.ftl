@@ -53,5 +53,3 @@ ent-ClothingBackpackDuffelSyndicateFilledStarterKit = базовый набор 
     .desc = Содержит одно оружие, медицинские припасы, инструменты для взлома, запасные боеприпасы и некоторые простые инструменты.
 ent-ClothingBackpackDuffelSyndicateFilledHushpup = набор «Хашпап»
     .desc = Содержит «Хашпап» в комплекте с коробкой дроби. Четвертак прилагается.
-ent-ClothingBackpackDuffelSyndicateFilledCarbine = набор "М-90gl"
-    .desc = Универсальная боевая винтовка с подствольным гранатомётом, в комплекте с 3 магазинами и 6 гранатами различной мощности.

@@ -1,19 +1,19 @@
-﻿<Document>
-    # Reporter
+<Document>
+    # Репортёр
 
-    <GuideEntityEmbed Entity="RandomHumanoidVisitorReporter" Caption="Reporter"/>
+    <GuideEntityEmbed Entity="RandomHumanoidVisitorReporter" Caption="Репортёр"/>
 
-   1. Reporters report directly to the Head of Personnel.
+   1. Репортёры подчиняются непосредственно главе персонала.
 
-   2. Reporters may investigate around station for new information regarding ongoing situations or new situations occurring on station.
+   2. Репортёры могут расследовать на станции новую информацию о текущих или возникающих ситуациях.
 
-   3. Reporters may request interviews with any crew member, and may record it using a Tape Recorder.
+   3. Репортёры могут запрашивать интервью у любого члена экипажа и записывать его на диктофон.
 
-   4. Reporters may use their handheld cameras or if available setup wireless cameras.
+   4. Репортёры могут использовать ручные камеры или, если есть, устанавливать беспроводные камеры.
 
-   5. Reporters may wear the press armor on blue and above if reporting in areas that may place them at risk.
+   5. Репортёры могут носить пресс-броню при коде «Синий» и выше, если ведут репортаж в зонах, где им может грозить опасность.
 
-   6. While wearing press equipment (holo-pin and Armor), reporters may not engage in combat except in self-defense.
+   6. Пока на репортёрах пресс-снаряжение (голо-значок и броня), они не могут вступать в бой, кроме самообороны.
 
-   7. The HOP may temporarily revoke the reporter's equipment (vest, camera, recorder) or immediately demote them for SOP breaches.
+   7. Глава персонала может временно отозвать снаряжение репортёра (жилет, камеру, диктофон) или немедленно понизить его за нарушения СОП.
 </Document>

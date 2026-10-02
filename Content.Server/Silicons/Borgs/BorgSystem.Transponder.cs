@@ -62,7 +62,7 @@ public sealed partial class BorgSystem
             var brainActive = hasBrain && _mind.TryGetMind(uid, out _, out _); // Starlight
             var data = new CyborgControlData(
                 comp.Sprite,
-                comp.Name,
+                Loc.TryGetString(comp.Name, out var chassisName) ? chassisName : comp.Name, // LP edit - в прототипах loc-ключ, SetTransponderName даёт готовую строку
                 _nameModifierSystem.GetBaseName(uid), // Starlight: the identifier travels in its own field
                 chargeFraction,
                 hpPercent,

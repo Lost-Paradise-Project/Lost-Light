@@ -1,24 +1,24 @@
 <Document>
-  # Revolutionaries / Red Tide
+  # Революционеры / Красный прилив
 
   <Box>
-    [color=#999999][italic]"URAAHH!"[/italic][/color]
+    [color=#999999][italic]«УРРРА!»[/italic][/color]
   </Box>
   <Box>
     <GuideEntityEmbed Entity="BannerSovietHammer" Caption=""/>
   </Box>
 
-  Revolutionaries are conversion antagonists hired by the [color=yellow]Union of Soviet Socialist Planets[/color], who are tasked with taking control over any of the stations, including [color=#5346e0]yours[/color].
+  Революционеры - антагонисты-обращатели, нанятые [color=yellow]Союзом Советских Социалистических Планет[/color], которым поручено взять под контроль любую из станций, включая [color=#5346e0]вашу[/color].
 
-  ## Objectives
-  You must convert, cuff or kill all of the [textlink="Command staff" link="Command"] on station in no particular order.
+  ## Задачи
+  Вы должны обратить, заковать или убить всех из [textlink="командования" link="Command"] на станции в любом порядке.
 
-  Your objective is [bold]not to destroy the station[/bold], but [italic]to take it over[/italic], so try to minimize damage where possible.
+  Ваша задача - [bold]не уничтожить станцию[/bold], а [italic]захватить её[/italic], поэтому по возможности старайтесь минимизировать ущерб.
 
-  [bold]The revolution will fail[/bold] if all of the [bold][color=#ed7300]Head Revolutionaries[/color][/bold] die, and all [color=red]Revolutionaries[/color] will de-convert if this happens.
+  [bold]Революция провалится[/bold], если погибнут все [bold][color=#ed7300]главы революции[/color][/bold], и все [color=red]революционеры[/color] в этом случае потеряют веру.
 
-  ## Headrevs & Conversion
-  [bold][color=#ed7300]Head Revolutionaries[/color][/bold] are chosen at the start of the shift and begin with a [color=cyan]flash[/color], a pair of [color=cyan]sunglasses[/color], and an [color=#ed7300]SKB uplink implanter[/color].
+  ## Главревы и обращение
+  [bold][color=#ed7300]Главы революции[/color][/bold] выбираются в начале смены и начинают со [color=cyan]вспышкой[/color], парой [color=cyan]солнцезащитных очков[/color] и [color=#ed7300]имплантером аплинка СКБ[/color].
 
   <Box>
     <GuideEntityEmbed Entity="Flash"/>
@@ -26,8 +26,8 @@
     <GuideEntityEmbed Entity="USSPUplinkImplanter"/>
   </Box>
 
-  You can convert crew members to your side by taking any [bold]flash[/bold] and attacking someone with it using [color=#ff0000]harm mode[/color].
-  However, [bold]you can't convert your target if they're wearing [color=cyan]flash protection[/color][/bold] such as sunglasses, welding mask/goggles, or if they're a character with blind trait.
+  Вы можете обращать членов экипажа на свою сторону, взяв любую [bold]вспышку[/bold] и атаковав ею кого-то в [color=#ff0000]режиме вреда[/color].
+  Однако [bold]вы не можете обратить цель, если на ней [color=cyan]защита от вспышек[/color][/bold], такая как солнцезащитные очки, сварочная маска/очки, или если это персонаж с чертой слепоты.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
@@ -36,23 +36,23 @@
     <GuideEntityEmbed Entity="ClothingEyesWeldingGoggles"/>
   </Box>
 
-  [bold][color=red]Revolutionaries[/color] can't convert people themselves,[/bold] but they're more than capable of doing dirty work, carrying out orders, or distribute supplies if [bold]they were implanted with [color=#ed7300]Head Revolutionary's SKB uplink.[/color][/bold]
+  [bold][color=red]Революционеры[/color] сами не могут обращать людей,[/bold] но вполне способны выполнять грязную работу, исполнять приказы или раздавать припасы, если [bold]им имплантировали [color=#ed7300]аплинк СКБ главы революции.[/color][/bold]
 
-  ## MindShields™
+  ## Щиты разума™
 
-  Another obstacle in your way are those pesky brainwashing [color=cyan]MindShield™ implanters[/color].
+  Ещё одно препятствие на вашем пути - эти назойливые имплантеры промывки мозгов [color=cyan]«Щит разума™»[/color].
 
   <Box>
     <GuideEntityEmbed Entity="MindShieldImplanter"/>
   </Box>
 
-  These will:
-  - Prevent the implanted person from being converted into a [color=red]Revolutionary[/color]
-  - De-convert Revolutionaries, and will make them no longer loyal to your cause
-  - [bold]Visibly be destroyed upon being implanted into a [color=#ed7300]Head Revolutionary[/color][/bold], giving you away
-  - NOT protect against flash disorientation
+  Они:
+  - Не дают имплантированному человеку быть обращённым в [color=red]революционера[/color]
+  - Лишают революционеров веры и делают их более не лояльными вашему делу
+  - [bold]Заметно разрушаются при имплантации [color=#ed7300]главе революции[/color][/bold], выдавая вас
+  - НЕ защищают от дезориентации от вспышки
 
-  Assume all of [color=#cb0000]Security[/color], [color=#1b67a5]Command[/color], [color=#a86819]Salvage specialists[/color], [color=#5b97bc]Paramedics[/color] and [color=#478bff]Internal Affairs Agents[/color] to be implanted with [color=cyan]MindShields™[/color] already, [bold]however they can be removed by using an empty implanter obtainable from the Medical department's MedFab, or by using an [color=#ed7300][bold]SKB Demindshielder[/bold][/color] available in your [color=#ed7300]uplink.[/color][/bold] <!-- Starlight-edit -->
+  Считайте, что у всей [color=#cb0000]СБ[/color], [color=#1b67a5]командования[/color], [color=#a86819]утилизаторов[/color], [color=#5b97bc]парамедиков[/color] и [color=#478bff]агентов внутренних дел[/color] уже имплантированы [color=cyan]«Щиты разума™»[/color], [bold]однако их можно удалить пустым имплантером, который можно получить в медицинском МедФабе, или с помощью [color=#ed7300][bold]демайндшилдера СКБ[/bold][/color], доступного в вашем [color=#ed7300]аплинке.[/color][/bold] <!-- Starlight-edit -->
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineSecurity" Caption=""/>
@@ -62,118 +62,118 @@
   </Box>
 
   <Box>
-    [color=#999999][italic]"COMMIES!"[/italic][/color]  <!-- Starlight-edit -->
+    [color=#999999][italic]«КОММУНИСТЫ!»[/italic][/color]  <!-- Starlight-edit -->
   </Box>
 
-  ## Svyaz-UZL uplink (Telebonds & Total Conversion)
+  ## Аплинк «Связь-УЗЛ» (Телеоблигации и Полное обращение)
 
-  [color=#ed7300]Head Revolutionaries[/color] start additionally with an [color=#ed7300]SKB uplink implanter[/color], which can be implanted into them or in a [color=red]Revolutionary[/color] [bold]converted by them specifically.[/bold]
+  [color=#ed7300]Главы революции[/color] дополнительно начинают с [color=#ed7300]имплантером аплинка СКБ[/color], который можно имплантировать им самим или [color=red]революционеру[/color], [bold]обращённому именно ими.[/bold]
 
   <Box>
     <GuideEntityEmbed Entity="USSPUplinkImplanter"/>
     <GuideEntityEmbed Entity="BaseRevUplinkRadio"/>
   </Box>
 
-  The subdermal uplink allows purchase of various [bold]global limited stocks[/bold] of weapons and tools for the revolution via [bold][color=#5c5c5c]Telebonds[/color][/bold] and [bold][color=#e3a736]Total Conversion.[/color][/bold]
+  Подкожный аплинк позволяет покупать различные [bold]глобальные ограниченные запасы[/bold] оружия и инструментов для революции за [bold][color=#5c5c5c]телеоблигации[/color][/bold] и [bold][color=#e3a736]полное обращение.[/color][/bold]
 
-  - [bold][color=#5c5c5c]Telebonds[/color][/bold], much like [color=red]Telecrystals[/color] are a individual private currency obtainable from [bold]conversion[/bold], that are each specific to each [color=#ed7300]Head Revolutionary[/color].
-  - [bold][color=#e3a736]Total Conversion[/color][/bold], apart from showing how many crew members have been converted, is a [bold]score shared among all [color=#ed7300]Head Revolutionaries[/color][/bold]. Which are mainly used in the [bold]GLOBAL[/bold] section of the uplink, allowing you to place things like the [color=yellow]supply rift[/color].
+  - [bold][color=#5c5c5c]Телеоблигации[/color][/bold], подобно [color=red]телекристаллам[/color], - индивидуальная личная валюта, получаемая за [bold]обращение[/bold], и у каждого [color=#ed7300]главы революции[/color] она своя.
+  - [bold][color=#e3a736]Полное обращение[/color][/bold], помимо показа того, сколько членов экипажа обращено, - [bold]общий счёт всех [color=#ed7300]глав революции[/color][/bold]. Он в основном используется в разделе [bold]ОБЩЕЕ[/bold] аплинка, позволяя размещать такое, как [color=yellow]снабженческий разлом[/color].
 
-  When a [bold][color=#ed7300]Head Revolutionary[/color][/bold] converts someone, they gain [bold][color=#5c5c5c]1 Telebond[/color][/bold] privately, and [bold][color=#e3a736]1 Total Conversion[/color][/bold] globally.
+  Когда [bold][color=#ed7300]глава революции[/color][/bold] обращает кого-то, он лично получает [bold][color=#5c5c5c]1 телеоблигацию[/color][/bold], а глобально - [bold][color=#e3a736]1 полное обращение[/color][/bold].
 
-  Remember, [bold][color=#e3a736]Total Conversion[/color][/bold] is a [bold]global progress score, not a currency[/bold], allowing you to gain items for free as soon as you reach certain conversions.
+  Помните, [bold][color=#e3a736]полное обращение[/color][/bold] - это [bold]общий счёт прогресса, а не валюта[/bold], позволяющий получать предметы бесплатно, как только вы достигнете определённого числа обращений.
 
-  The uplink stocks are shared among all who use the uplink, and additionally it shows who has last purchased the item.
+  Запасы аплинка общие для всех, кто им пользуется, а также показывают, кто последним купил предмет.
 
   <Box>
-    <GuideEntityEmbed Entity="ClothingEyesGlassesSKBGlasses" Caption="Sees MindShield™"/>
-    <GuideEntityEmbed Entity="RevolutionaryHeldBanner" Caption="'Stuns in 3 or 4'"/>
-    <GuideEntityEmbed Entity="EncryptionKeySoviet" Caption="'Send help genpop'"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSKBGlasses" Caption="Видит Щит разума™"/>
+    <GuideEntityEmbed Entity="RevolutionaryHeldBanner" Caption="'Оглушает за 3-4 удара'"/>
+    <GuideEntityEmbed Entity="EncryptionKeySoviet" Caption="'Пришлите помощь в общую камеру'"/>
   </Box>
 
-  ## Supply Rift
+  ## Снабженческий разлом
 
-  Upon reaching [bold]20 total conversions[/bold], you will be able to place a [color=yellow]supply rift[/color], which will drop soviet supplies every 35 seconds.
+  При достижении [bold]20 полных обращений[/bold] вы сможете разместить [color=yellow]снабженческий разлом[/color], который будет сбрасывать советские припасы каждые 35 секунд.
 
   <Box>
     <GuideEntityEmbed Entity="RevSupplyRift"/>
-    <GuideEntityEmbed Entity="CrateSovietArmaments" Caption="500 crates"/>
-    <GuideEntityEmbed Entity="WeaponSniperMosin" Caption="Mass Assault"/>
+    <GuideEntityEmbed Entity="CrateSovietArmaments" Caption="500 ящиков"/>
+    <GuideEntityEmbed Entity="WeaponSniperMosin" Caption="Массовый штурм"/>
   </Box>
 
-  The [color=yellow]rift[/color] will [bold]secretly inform all [color=red]revolutionaries[/color] in the chat of it's location[/bold] upon spawn.
+  [color=yellow]Разлом[/color] [bold]тайно сообщит всем [color=red]революционерам[/color] в чате своё местоположение[/bold] при появлении.
 
-  At 50% charge, the station [bold]will be alerted of an energy influx[/bold], thus [bold]exposing you[/bold] at the cost of infinite supplies in the long run.
+  При 50% заряда станция [bold]будет оповещена о всплеске энергии[/bold], тем самым [bold]выдав вас[/bold] ценой бесконечных припасов в долгосрочной перспективе.
 
-  If a [color=yellow]rift[/color] is destroyed, you won't be able to place another one. And you'll only be able to place another if the [bold]current one is charged.[/bold]
+  Если [color=yellow]разлом[/color] уничтожен, разместить другой не получится. И разместить другой можно, только если [bold]текущий заряжен.[/bold]
 
-  It is recommended to discuss early on in the round where you'll place the [color=yellow]rift[/color] with your [color=red]revolutionaries[/color] so that they can [bold]fortify[/bold] the area to prevent [color=#cb0000]Security[/color] from [bold]destroying[/bold] it.
+  Рекомендуется заранее обсудить в начале раунда, где вы разместите [color=yellow]разлом[/color] со своими [color=red]революционерами[/color], чтобы они могли [bold]укрепить[/bold] зону и не дать [color=#cb0000]СБ[/color] [bold]уничтожить[/bold] его.
 
-  ## Tips
+  ## Советы
 
-  As a [color=#ed7300]Head Revolutionary[/color], it's recommended that:
-  - You [bold]convert[/bold] people away from public spaces. Apart from being potentially seen by the [color=#70a7ff]Station AI[/color], flash and knockdowns are loud and it can be heard by anyone not loyal to you. Out of public conversions are best done by a [color=blue]Paramedic[/color].
+  [color=#ed7300]Главе революции[/color] рекомендуется:
+  - [bold]Обращайте[/bold] людей вдали от общественных мест. Помимо того что вас может увидеть [color=#70a7ff]станционный ИИ[/color], вспышка и нокдауны громкие, и их может услышать любой, не лояльный вам. Вне общественных мест обращение лучше всего поручать [color=blue]парамедику[/color].
 
   <Box>
-    <GuideEntityEmbed Entity="StationAiHolo" Caption="MaintsListener9000"/>
-    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramedic being validhunted"/>
+    <GuideEntityEmbed Entity="StationAiHolo" Caption="СлушательТехтоннелей9000"/>
+    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Парамедик, на которого охотятся валидхантеры"/>
   </Box>
 
-  - It's very beneficial to start as one or convert [color=#f5be51]Cargo/Mail Technicians[/color] and [color=#a319ff]Scientists[/color], due to their sufficient ability to [bold]stop incoming orders of [color=cyan]MindShields™[/color][/bold] or to [bold]provide you with flashes made from an [color=blue]Exosuit Fabricator[/color][/bold], respectively.
+  - Очень выгодно начинать такой ролью или обращать [color=#f5be51]грузчиков/почтальонов[/color] и [color=#a319ff]учёных[/color], благодаря их достаточной способности [bold]остановить входящие заказы [color=cyan]«Щитов разума™»[/color][/bold] или [bold]снабжать вас вспышками, изготовленными на [color=blue]фабрикаторе экзокостюмов[/color][/bold] соответственно.
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="'Where are the thrusters?'"/>
-    <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="'Shadow anomaly!'"/>
-    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Exosuit Fabricator"/>
+    <GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="'Где двигатели?'"/>
+    <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="'Теневая аномалия!'"/>
+    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Фабрикатор экзокостюмов"/>
   </Box>
 
-  - Be careful who you're trying to convert. Early on in the round some crew like [color=green]Musicians[/color] or [color=green]Bartenders[/color] wear [bold]sunglasses[/bold]. While [color=#a86819]Salvage specialists[/color] are outright [color=cyan]MindShielded™[/color].
+  - Будьте осторожны с тем, кого пытаетесь обратить. В начале раунда некоторые члены экипажа, такие как [color=green]музыканты[/color] или [color=green]бармены[/color], носят [bold]солнцезащитные очки[/bold]. А [color=#a86819]утилизаторы[/color] и вовсе с [color=cyan]«Щитом разума™»[/color].
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineMusician" Caption="'Ow. Okay'"/>
-    <GuideEntityEmbed Entity="ToyFigurineBartender" Caption="'Give me a reason why I should join'"/>
+    <GuideEntityEmbed Entity="ToyFigurineMusician" Caption="'Ай. Ладно'"/>
+    <GuideEntityEmbed Entity="ToyFigurineBartender" Caption="'Назови причину, почему мне стоит присоединиться'"/>
     <GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="'...'"/>
   </Box>
 
-  - If you're in for a long run, convert [color=#2189ff]Medical[/color] personnel. Long revolutionary rounds will inevitably mean lots of losses. Competent doctors will prioritize your health and of your allies over those from [color=#cb0000]Security[/color] or [color=#1b67a5]Command[/color], if by any chance they're getting treated in [color=#2189ff]Medbay[/color] rather than in [color=#cb0000]Brigmedic's medical bay[/color].
+  - Если вы рассчитываете на долгую игру, обращайте [color=#2189ff]медицинский[/color] персонал. Долгие революционные раунды неизбежно означают много потерь. Умелые врачи будут ставить на первое место ваше здоровье и здоровье ваших союзников, а не [color=#cb0000]СБ[/color] или [color=#1b67a5]командования[/color], если их по какой-то причине лечат в [color=#2189ff]медотсеке[/color], а не в [color=#cb0000]медотсеке полевого врача[/color].
 
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="'Accidental OD'"/>
-    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="'Surprise CLF3 foam!'"/>
+    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="'Случайная передозировка'"/>
+    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="'Сюрприз - пена CLF3!'"/>
   </Box>
 
-  - [bold][color=#5c5c5c]Telebonds[/color][/bold] can be withdrawn and shared among all who use the [color=#ed7300]uplink[/color]. As such, if you want to purchase [bold]one of the more expensive items[/bold], it's best to meet with your [color=#ed7300]Head Revolutionaries[/color] later on in the round if no prior [bold][color=#5c5c5c]Telebonds[/color][/bold] purchases were made.
+  - [bold][color=#5c5c5c]Телеоблигации[/color][/bold] можно снимать и делить между всеми, кто пользуется [color=#ed7300]аплинком[/color]. Поэтому если хотите купить [bold]один из более дорогих предметов[/bold], лучше встретиться с вашими [color=#ed7300]главами революции[/color] позже в раунде, если ранее не было покупок за [bold][color=#5c5c5c]телеоблигации[/color][/bold].
 
   <Box>
-    <GuideEntityEmbed Entity="Telebond" Caption="Telebond"/>
+    <GuideEntityEmbed Entity="Telebond" Caption="Телеоблигация"/>
     <GuideEntityEmbed Entity="WeaponLightMachineGunDP28"/>
     <GuideEntityEmbed Entity="WeaponSubMachineGunPPSH"/>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitSovietMarine"/>
   </Box>
 
-  As a [color=red]Revolutionary[/color], it's recommended that:
+  [color=red]Революционеру[/color] рекомендуется:
 
-  - You protect your [color=#ed7300]Head Revolutionary[/color] at all costs. Protect them from [color=red]the law[/color], by trading IDs and goods so that they can make their escapes.
+  - Защищайте своего [color=#ed7300]главу революции[/color] любой ценой. Защищайте его от [color=red]закона[/color], обмениваясь ID-картами и товарами, чтобы он мог сбежать.
 
   <Box>
-    <GuideEntityEmbed Entity="ComputerCriminalRecords" Caption="Criminal Records"/>
-    <GuideEntityEmbed Entity="CargoIDCard" Caption="Potentially Wanted ID"/>
+    <GuideEntityEmbed Entity="ComputerCriminalRecords" Caption="Криминальные записи"/>
+    <GuideEntityEmbed Entity="CargoIDCard" Caption="Потенциально разыскиваемая ID-карта"/>
   </Box>
 
-  - If a [color=yellow]supply rift[/color] was placed, you [bold]will be secretly informed of it's location[/bold]. So do your best and provide help when possible.
+  - Если был размещён [color=yellow]снабженческий разлом[/color], вам [bold]тайно сообщат его местоположение[/bold]. Так что старайтесь и помогайте, когда возможно.
 
   <Box>
     <GuideEntityEmbed Entity="DefaultStationBeaconBar"/>
   </Box>
 
-  - If you know where the [color=#ed7300]Head Revolutionaries[/color] will place the [color=yellow]rift[/color] beforehand, you can help reinforcing the area.
+  - Если вы заранее знаете, где [color=#ed7300]главы революции[/color] разместят [color=yellow]разлом[/color], можете помочь укрепить зону.
 
   <Box>
-    <GuideEntityEmbed Entity="Table" Caption="Cannot jump over if shot"/>
-    <GuideEntityEmbed Entity="WallSolid" Caption="Peek and fire"/>
-    <GuideEntityEmbed Entity="VendingMachineBooze" Caption="'Maints bar renovation, officer.'"/>
+    <GuideEntityEmbed Entity="Table" Caption="Не перепрыгнуть, если стреляют"/>
+    <GuideEntityEmbed Entity="WallSolid" Caption="Выглянуть и стрелять"/>
+    <GuideEntityEmbed Entity="VendingMachineBooze" Caption="'Ремонт техбара, офицер.'"/>
   </Box>
 
-  - And lastly, have fun. As long as it helps the revolution without severly damaging the station.
+  - И наконец, получайте удовольствие. Пока это помогает революции, не нанося серьёзного ущерба станции.
 
 </Document>

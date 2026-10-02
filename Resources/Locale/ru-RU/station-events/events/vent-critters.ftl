@@ -1,2 +1,2 @@
 station-event-vent-creatures-start-horde-announcement = Внимание. Обнаружен массовый приток неизвестных форм жизни, перемещающихся по вентиляционным системам станции. Ожидается их появление в районе { $location }. Пожалуйста, покиньте зону во избежание потерь среди персонала.
-station-event-vent-creatures-start-announcement = Attention. A large influx of unknown life forms have been detected residing within the station's ventilation systems.
+station-event-vent-creatures-start-announcement = Внимание. В вентиляционных системах станции обнаружен большой приток неизвестных форм жизни.

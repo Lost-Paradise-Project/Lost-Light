@@ -1,51 +1,51 @@
 <Document>
-  # Plumbing
-  Plumbing is a reagent piping system that lets you build fluid supply systems and automated chemical factories. Fluid ducts connect machines together into networks, moving reagents between them without manual intervention.
+  # Сантехника
+  Сантехника - система реагентных труб, позволяющая строить системы подачи жидкостей и автоматизированные химические заводы. Жидкостные трубопроводы соединяют машины в сети, перемещая реагенты между ними без ручного вмешательства.
 
   <Box>
-    <GuideEntityEmbed Entity="RPLD" Caption="RPLD"/>
+       <GuideEntityEmbed Entity="RPLD" Caption="РДЖТ"/>
   </Box>
 
-  ## Getting Started
-  Plumbing is built using the [color=#a4885c]RPLD[/color] (Rapid Plumbing Device), which works like an RCD but for plumbing. It can place fluid ducts and all plumbing machines (but not all machines with plumbing connectors). Select what to build from its radial menu.
+  ## Начало
+  Сантехника строится с помощью [color=#a4885c]РДЖТ[/color] (быстрого устройства прокладки труб), работающего как УСУ, но для сантехники. Он может ставить жидкостные трубопроводы и все сантехнические машины (но не все машины с сантехническими разъёмами). Выбирайте, что строить, в его радиальном меню.
 
-  All plumbing machines and ducts are [color=#a4885c]rotatable[/color]. Use the rotation key before or after placing to orient inlets and outlets correctly. Machines must be oriented so their connectors line up with adjacent ducts. Most plumbing machines are rotatable while anchored.
+  Все сантехнические машины и трубопроводы [color=#a4885c]вращаются[/color]. Используйте клавишу поворота до или после установки, чтобы правильно ориентировать входы и выходы. Машины нужно ориентировать так, чтобы их разъёмы совпадали с соседними трубопроводами. Большинство сантехнических машин можно поворачивать, пока они закреплены.
 
-  ## Fluid Ducts
-  Fluid ducts are pipes that carry reagents between machines. They are similar to atmos pipes, place them with the RPLD and they automatically connect to adjacent ducts and machines to form a [color=#a4885c]plumbing duct network[/color]. Ducts hide under floor tiles.
+  ## Жидкостные трубопроводы
+  Жидкостные трубопроводы - трубы, переносящие реагенты между машинами. Они похожи на атмосферные трубы: размещайте их с помощью РДЖТ, и они автоматически соединяются с соседними трубопроводами и машинами, образуя [color=#a4885c]сеть сантехнических трубопроводов[/color]. Трубопроводы прячутся под напольной плиткой.
 
-  Plumbing ducts support [color=#a4885c]three duct layers[/color]: Primary, Secondary, and Tertiary. Use the RPLD mode switch (or free mode guide dots) to choose which layer a duct is placed on.
+  Сантехнические трубопроводы поддерживают [color=#a4885c]три слоя[/color]: первичный, вторичный и третичный. Используйте переключатель режима РДЖТ (или направляющие точки свободного режима), чтобы выбрать, на каком слое размещается трубопровод.
 
-  There are five duct variants:
+  Есть пять вариантов трубопроводов:
 
   <Box>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctStraight" Caption="Straight"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctBend" Caption="Bend"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctTJunction" Caption="T-Junction"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctFourway" Caption="Fourway"/>
-    <GuideEntityEmbed Entity="GuidebookPlumbingDuctManifold" Caption="Manifold"/>
+       <GuideEntityEmbed Entity="GuidebookPlumbingDuctStraight" Caption="Прямой"/>
+       <GuideEntityEmbed Entity="GuidebookPlumbingDuctBend" Caption="Изгиб"/>
+       <GuideEntityEmbed Entity="GuidebookPlumbingDuctTJunction" Caption="T-образный"/>
+       <GuideEntityEmbed Entity="GuidebookPlumbingDuctFourway" Caption="Четырёхсторонний"/>
+       <GuideEntityEmbed Entity="GuidebookPlumbingDuctManifold" Caption="Коллектор"/>
   </Box>
 
-  The [color=#a4885c]Manifold[/color] bridges ducts connected to each of its sides. It can connect separate ducts across all three layers.
+  [color=#a4885c]Коллектор[/color] соединяет трубопроводы, подключённые к каждой из его сторон. Он может соединять отдельные трубопроводы на всех трёх слоях.
 
-  ## Connector Colors
-  Each machine's connectors are color-coded:
-  - [color=#ff5959]Red[/color] connectors are [bold]inlets[/bold]: the machine pulls reagents from the network through these.
-  - [color=#5999ff]Blue[/color] connectors are [bold]outlets[/bold]: other machines can pull reagents from this machine through these.
-  - [color=#59e659]Green[/color] connectors are [bold]mixing inlets[/bold]: specialized inlets for ratio-controlled mixing (pill press).
+  ## Цвета разъёмов
+  Разъёмы каждой машины закодированы цветом:
+  - [color=#ff5959]Красные[/color] разъёмы - это [bold]входы[/bold]: машина забирает через них реагенты из сети.
+  - [color=#5999ff]Синие[/color] разъёмы - это [bold]выходы[/bold]: через них другие машины могут забирать реагенты из этой машины.
+  - [color=#59e659]Зелёные[/color] разъёмы - это [bold]смешивающие входы[/bold]: специализированные входы для смешивания с управляемым соотношением (пресс таблеток).
 
-  Connected connectors appear as smooth joints. Disconnected connectors appear jagged.
+  Подключённые разъёмы выглядят как гладкие стыки. Неподключённые разъёмы выглядят зазубренными.
 
-  ## Plunger
-  Most machines with internal buffers are [color=#a4885c]plungeable[/color]. Use a plunger on them to flush their contents onto the floor. Useful for clearing stuck reagents.
+  ## Вантуз
+  Большинство машин с внутренними буферами можно [color=#a4885c]прочищать вантузом[/color]. Используйте вантуз на них, чтобы вылить их содержимое на пол. Полезно для очистки застрявших реагентов.
 
-  ## Reagent Flow
-  See [textlink="Reagent Flow" link="PlumbingFlow"] for details on how reagents move through networks, pull mechanics, and distribution.
+  ## Поток реагентов
+  Подробнее о том, как реагенты движутся по сетям, механике забора и распределении, см. [textlink="Поток реагентов" link="PlumbingFlow"].
 
-  ## Machines
-  See [textlink="Plumbing Machines" link="PlumbingMachines"] for details on each machine.
+  ## Машины
+  Подробнее о каждой машине см. [textlink="Сантехнические машины" link="PlumbingMachines"].
 
-  Some non-plumbing machines also support plumbing connections, including the [color=#a4885c]ChemMaster[/color], [color=#a4885c]Chemical Dispenser[/color], and [color=#a4885c]Industrial Reagent Grinder[/color].
+  Некоторые несантехнические машины также поддерживают сантехнические подключения, включая [color=#a4885c]хим-мастер[/color], [color=#a4885c]химический раздатчик[/color] и [color=#a4885c]промышленную мельницу реагентов[/color].
 
 
 </Document>

@@ -1,0 +1,15 @@
+ent-AntiAnomalyZone = зона против аномалий
+    .desc = Аномалии не смогут появляться в радиусе 10 клеток от этой точки.
+    .suffix = радиус 10
+ent-AntiAnomalyZone20 = { ent-AntiAnomalyZone }
+    .desc = Аномалии не смогут появляться в радиусе 20 клеток от этой точки.
+    .suffix = радиус 20
+ent-AntiAnomalyZone30 = { ent-AntiAnomalyZone }
+    .desc = Аномалии не смогут появляться в радиусе 30 клеток от этой точки.
+    .suffix = радиус 30
+ent-AntiAnomalyZone40 = { ent-AntiAnomalyZone }
+    .desc = Аномалии не смогут появляться в радиусе 40 клеток от этой точки.
+    .suffix = радиус 40
+ent-AntiAnomalyZone50 = { ent-AntiAnomalyZone }
+    .desc = Аномалии не смогут появляться в радиусе 50 клеток от этой точки.
+    .suffix = радиус 50

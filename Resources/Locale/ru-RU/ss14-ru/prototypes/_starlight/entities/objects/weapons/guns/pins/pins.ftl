@@ -12,5 +12,5 @@ ent-FiringPinAdvancedLaser = прототип лазерного кристал�
     .desc = "НЕ РОНЯТЬ" — выгравировано на боку. Да какая разница.
 ent-FiringPinExpedition = экспедиционный боёк
     .desc = Этот универсальный боёк предотвращает выстрел из оружия на станции, что полезно для контроля вооружения, используемого в экспедициях за пределами станции.
-ent-FiringPinMelted = melted firing pin
-    .desc = A lump of metal that used to be a firing pin, before someone kept shooting.
+ent-FiringPinMelted = расплавленный боёк
+    .desc = Комок металла, бывший бойком, пока кто-то не продолжил стрелять.

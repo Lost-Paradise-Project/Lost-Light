@@ -1,0 +1,12 @@
+ent-RandomHumanoidSpawnerBlackstarOperative = Ходок ужаса Чёрной звезды
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerBlackstarLegionnaire = Легионер Чёрной звезды
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerBlackstarBlackguard = Блэкгард Чёрной звезды
+    .desc = { "" }
+    .suffix = Админ-мем
+ent-RandomHumanoidSpawnerBlackstarInitiate = Новичок Чёрной звезды
+    .desc = { "" }
+    .suffix = Админ-мем

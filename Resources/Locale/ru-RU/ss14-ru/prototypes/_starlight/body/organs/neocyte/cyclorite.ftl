@@ -1,0 +1,12 @@
+ent-OrganNeoCycloriteLungs = кибернетические лёгкие циклорита
+    .desc = Фильтруют азот из атмосферы, который затем направляется в кровоток для использования как переносчик электронов. Полностью кибернетические по природе, работают в паре с системой фильтрации визора.
+    .suffix = Нео-циклорит
+ent-OrganNeoCycloriteEye = кибернетический глаз циклорита
+    .desc = Циклориты видят мир немного иначе.
+    .suffix = Нео-циклорит
+ent-OrganNeoCycloriteHeart = кибернетическое сердце циклорита
+    .desc = { ent-OrganNeocyteHeart.desc }
+    .suffix = Нео-циклорит
+ent-OrganNeoCycloriteTongue = { ent-OrganNeocyteTongue }
+    .desc = { ent-OrganNeocyteTongue.desc }
+    .suffix = Нео-циклорит

@@ -1,0 +1,15 @@
+ent-CrateCentralCommandSecureChemicalFilled = медицинский ящик Центрального командования
+    .desc = Защищённый ящик от Центрального командования, набитый медицинскими химикатами до краёв.
+    .suffix = Химический, заполнен
+ent-LockerSurgeonFilled = { ent-LockerSurgeon }
+    .desc = { ent-LockerSurgeon.desc }
+    .suffix = Заполнен
+ent-LockerCoronerFilled = { ent-LockerCoroner }
+    .desc = { ent-LockerCoroner.desc }
+    .suffix = Заполнен
+ent-LockerVirologistFilled = { ent-LockerVirologist }
+    .desc = { ent-LockerVirologist.desc }
+    .suffix = Заполнен
+ent-LockerGeneticistFilled = { ent-LockerGeneticist }
+    .desc = { ent-LockerGeneticist.desc }
+    .suffix = Заполнен

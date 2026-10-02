@@ -9,12 +9,12 @@ rcd-component-examine-build-details = Выбран режим строитель
 
 # Mode change
 # Starlight-start: name the actual device, since the RPD, RPLD and all experimental variants share these messages
-rcd-component-change-mode = РСУ переключёно в режим '{ $mode }'.
-rcd-component-change-build-mode = РСУ переключёно в режим строительства. Строится { $name }.
+rcd-component-change-mode = { CAPITALIZE($device) } переключено в режим «{ $mode }».
+rcd-component-change-build-mode = { CAPITALIZE($device) } переключено на строительство: { $name }.
 
 # Ammo count
-rcd-component-no-ammo-message = В РСУ закончились заряды!
-rcd-component-insufficient-ammo-message = В РСУ не хватает зарядов!
+rcd-component-no-ammo-message = В { $device } закончились заряды!
+rcd-component-insufficient-ammo-message = В { $device } не хватает зарядов!
 # Starlight-end
 
 # Deconstruction

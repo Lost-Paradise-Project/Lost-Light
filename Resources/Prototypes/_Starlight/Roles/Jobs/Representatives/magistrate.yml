@@ -10,8 +10,6 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10h
-    - !type:RolesRequirement
-      proto: ExtRolesReq
     - !type:TraitsRequirement
       traits:
         - Iterator

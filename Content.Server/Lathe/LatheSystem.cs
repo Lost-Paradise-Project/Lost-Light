@@ -242,6 +242,7 @@ namespace Content.Server.Lathe
                     if (_container.IsEntityInContainer(uid))
                         transform = Transform(_container.GetContainingContainers(uid).Last().Owner).Coordinates;
                     var result = Spawn(resultProto, transform);
+                    RaiseLocalEvent(uid, new LatheGetResultEvent(result)); // LP edit
                     _stack.TryMergeToContacts(result);
                     if (currentRecipe.PrintTicket)
                     {

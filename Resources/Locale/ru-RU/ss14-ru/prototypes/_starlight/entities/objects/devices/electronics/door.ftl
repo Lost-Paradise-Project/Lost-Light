@@ -1,0 +1,12 @@
+ent-BaseDoorElectronicsSyndicate = Электроника двери Синдиката
+    .desc = Плата электроники, используемая в дверях и шлюзах.
+    .suffix = { ent-DoorElectronics.suffix }
+ent-BaseDoorElectronicsCentComm = Электроника двери Центрального командования
+    .desc = Плата электроники, используемая в дверях и шлюзах.
+    .suffix = { ent-DoorElectronics.suffix }
+ent-BaseDoorElectronicsXenoborg = Электроника двери ксеноборга
+    .desc = Плата электроники, используемая в дверях и шлюзах.
+    .suffix = { ent-DoorElectronics.suffix }
+ent-BaseDoorElectronicsPirate = пиратская электроника двери
+    .desc = Плата электроники, используемая в дверях и шлюзах. Пахнет морской водой.
+    .suffix = { ent-DoorElectronics.suffix }

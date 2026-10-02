@@ -1,0 +1,14 @@
+ent-OrganTreePlants = дерево органов
+    .desc = { ent-BasePlant.desc }
+ent-EvilApplePlants = злая яблоня
+    .desc = { ent-BasePlant.desc }
+ent-ResinferaPlants = дерево резинифера
+    .desc = { ent-BasePlant.desc }
+ent-MintPlants = мятное дерево
+    .desc = { ent-BasePlant.desc }
+ent-SpearMintPlants = дерево колосовой мяты
+    .desc = { ent-BasePlant.desc }
+ent-CinnamonPlants = коричное дерево
+    .desc = { ent-BasePlant.desc }
+ent-CinnaflarePlants = корицепламенное дерево
+    .desc = { ent-BasePlant.desc }

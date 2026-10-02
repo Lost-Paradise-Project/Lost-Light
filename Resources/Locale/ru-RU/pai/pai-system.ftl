@@ -23,4 +23,4 @@ pai-system-pai-name-raw = пИИ { $name }
 
 pai-system-brick-popup = Микросхемы пИИ громко хлопают и перегорают!
 pai-system-scramble-popup = Микросхемы пИИ перенапряжены электричеством!
-pai-shuttle-rammed = The pAI is knocked loose from the console!
+pai-shuttle-rammed = ПИИ вышибло из консоли!

@@ -1,0 +1,11 @@
+ent-ToolboxElectricalTurretPirateFilled = электрический ящик с инструментами
+    .desc = { ent-ToolboxElectricalTurretPirate.desc }
+    .suffix = Пират, турель, заполнено
+ent-ToolboxArtisticFilledCleaner = художественный ящик с инструментами
+    .desc = { ent-ToolboxArtistic.desc }
+    .suffix = Уборщик
+ent-ToolboxRoboticist = ящик с инструментами робототехника
+    .desc = Что, это просто ящик с инструментами робототехника? Вы ожидали чего-то другого?
+ent-ToolboxRoboticistFilled = ящик с инструментами робототехника
+    .desc = { ent-ToolboxRoboticist.desc }
+    .suffix = Заполнен

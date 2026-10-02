@@ -1,0 +1,16 @@
+ent-SupermatterCrystal = суперматерия
+    .desc = Светящийся кристалл суперматерии, рядом с ним лежит половина ID-карты с надписью «Клоун-пира...».
+ent-Cascad1 = каскад
+    .desc = Последствия каскадного сбоя кристалла суперматерии.
+ent-Cascad2 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad3 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad4 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad5 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-Cascad6 = { ent-Cascad1 }
+    .desc = { ent-Cascad1.desc }
+ent-CascadChunk = Осколок каскада
+    .desc = Осколок вырожденной суперматерии. Остатки всё ещё опасно радиоактивны.

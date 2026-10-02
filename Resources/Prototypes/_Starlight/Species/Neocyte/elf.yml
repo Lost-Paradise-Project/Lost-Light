@@ -23,7 +23,6 @@
     oldSpecies:
     - ProtoElf
 
-
 # The lack of a layer means that
 # this person cannot have round-start anything
 # applied to that layer. It has to instead
@@ -39,8 +38,6 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobElfTorso
     Eyes: MobHumanoidEyes
     HeadTop: MobHumanoidAnyMarking
@@ -103,10 +100,4 @@
       required: false
     Arms:
       points: 4
-      required: false
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
-      points: 1
       required: false

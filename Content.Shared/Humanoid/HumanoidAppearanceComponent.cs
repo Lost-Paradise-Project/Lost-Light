@@ -104,15 +104,7 @@ public sealed partial class HumanoidAppearanceComponent : Component
     [DataField]
     public HashSet<HumanoidVisualLayers> HideLayersOnEquip = [HumanoidVisualLayers.Hair];
 
-    /// <summary>
-    ///     Which markings the humanoid defaults to when nudity is toggled off.
-    /// </summary>
-    [DataField]
-    public ProtoId<MarkingPrototype>? UndergarmentTop = new ProtoId<MarkingPrototype>("UndergarmentTopTanktop");
-
-    [DataField]
-    public ProtoId<MarkingPrototype>? UndergarmentBottom = new ProtoId<MarkingPrototype>("UndergarmentBottomBoxers");
-
+    // LP edit - убрана цензура наготы (нижнее бельё)
     /// <summary>
     /// The profile that this entity was originally spawned with.
     /// If null, the entity was not spawned with a profile.

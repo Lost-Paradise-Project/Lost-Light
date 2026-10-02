@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Shared.Dataset; // LP edit
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Random.Helpers;
 using Robust.Shared.Random;
@@ -35,21 +36,29 @@ namespace Content.Shared.Humanoid
                         ("first", GetFirstName(speciesProto, gender)));
                 case SpeciesNaming.TheFirstofLast:
                     return Loc.GetString("namepreset-thefirstoflast",
-                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+                        // LP edit start
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto, gender)));
+                        // LP edit end
                 case SpeciesNaming.FirstDashFirst:
                     return Loc.GetString("namepreset-firstdashfirst",
                         ("first1", GetFirstName(speciesProto, gender)), ("first2", GetFirstName(speciesProto, gender)));
                 case SpeciesNaming.LastFirst: // 🌟Starlight begin - Rodentia
                     return Loc.GetString("namepreset-lastfirst",
-                        ("last", GetLastName(speciesProto)), ("first", GetFirstName(speciesProto, gender))); // 🌟Starlight end
+                        // LP edit start
+                        ("last", GetLastName(speciesProto, gender)), ("first", GetFirstName(speciesProto, gender))); // 🌟Starlight end
+                        // LP edit end
                 case SpeciesNaming.FirstLast:
                 default:
                     return Loc.GetString("namepreset-firstlast",
-                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+                        // LP edit start
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto, gender)));
+                        // LP edit end
                 // Starlight begin
                 case SpeciesNaming.PrefixSuffix:
                     return Loc.GetString("namepreset-prefixsuffix",
-                        ("prefix", GetFirstName(speciesProto, gender)), ("suffix", GetLastName(speciesProto)));
+                        // LP edit start
+                        ("prefix", GetFirstName(speciesProto, gender)), ("suffix", GetLastName(speciesProto, gender)));
+                        // LP edit end
                 case SpeciesNaming.IdFirst:
                     return Loc.GetString("namepreset-idfirst",
                         ("id", GetRandomId(4)), ("first", GetFirstName(speciesProto, gender)));
@@ -84,9 +93,24 @@ namespace Content.Shared.Humanoid
         }
         // Starlight end
 
-        public string GetLastName(SpeciesPrototype speciesProto)
+        // LP edit start
+        // Расы с общими фамилиями (люди, дворфы и т. д.) получают мужские/женские фамилии без правки их прототипов.
+        private static readonly ProtoId<LocalizedDatasetPrototype> CommonLastNames = "NamesLast";
+        private static readonly ProtoId<LocalizedDatasetPrototype> CommonMaleLastNames = "NamesLastMale";
+        private static readonly ProtoId<LocalizedDatasetPrototype> CommonFemaleLastNames = "NamesLastFemale";
+
+        public string GetLastName(SpeciesPrototype speciesProto, Gender? gender = null)
         {
-            return _random.Pick(_prototypeManager.Index(speciesProto.LastNames));
+            var common = speciesProto.LastNames == CommonLastNames;
+            var dataset = gender switch
+            {
+                Gender.Male => speciesProto.MaleLastNames ?? (common ? CommonMaleLastNames : speciesProto.LastNames),
+                Gender.Female => speciesProto.FemaleLastNames ?? (common ? CommonFemaleLastNames : speciesProto.LastNames),
+                _ => speciesProto.LastNames,
+            };
+
+            return _random.Pick(_prototypeManager.Index(dataset));
         }
+        // LP edit end
     }
 }

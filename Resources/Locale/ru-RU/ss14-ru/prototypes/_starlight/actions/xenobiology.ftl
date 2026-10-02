@@ -1,0 +1,14 @@
+ent-XenobiologyConsoleActionAnalyzeSlime = Анализ слайма
+    .desc = Получите информацию о слайме прямо под взором камеры.
+ent-XenobiologyConsoleActionGrabSlime = Схватить слайма
+    .desc = Схватите слайма прямо из-под взора камеры.
+ent-XenobiologyConsoleActionPlaceSlime = Выпустить слайма
+    .desc = Выпустить слайма из инвентаря консоли.
+ent-XenobiologyConsoleActionPlaceMonkey = Выпустить обезьяну
+    .desc = Выпустите обезьяну, если у вас есть кубики.
+ent-XenobiologyConsoleActionRecycleMonkey = Переработать обезьяну
+    .desc = Получите мёртвую обезьяну за половину обезьяньего кубика.
+ent-XenobiologyConsoleActionApplyMutationPotion = Применить зелье мутации
+    .desc = Повысьте шанс мутации слайма с помощью хранящегося зелья мутации.
+ent-XenobiologyConsoleActionApplyStabilizerPotion = Применить зелье стабилизатора
+    .desc = Снизьте шанс мутации слайма с помощью хранящегося зелья стабилизатора.

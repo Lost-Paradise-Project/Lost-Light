@@ -1,0 +1,13 @@
+ent-AbyssOne = бездна
+    .desc = Камень.
+ent-AbyssTwo = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssThree = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssFour = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssFive = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+ent-AbyssRandom = { ent-AbyssOne }
+    .desc = { ent-AbyssOne.desc }
+    .suffix = Случайный

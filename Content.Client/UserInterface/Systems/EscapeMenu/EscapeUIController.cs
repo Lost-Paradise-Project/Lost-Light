@@ -94,11 +94,6 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
             _changelog.ToggleWindow();
         };
 
-        _escapeWindow.RulesButton.OnPressed += _ =>
-        {
-            CloseEscapeWindow();
-            _info.OpenWindow();
-        };
 
         _escapeWindow.DisconnectButton.OnPressed += _ =>
         {
@@ -123,13 +118,22 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
             _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksWiki));
         };
 
-        _escapeWindow.GuidebookButton.OnPressed += _ =>
+        // LP edit start
+        _escapeWindow.OpenDiscordButton.OnPressed += _ =>
         {
-            _guidebook.ToggleGuidebook();
+            _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksDiscord));
         };
+
+        _escapeWindow.OpenBoostyButton.OnPressed += _ =>
+        {
+            _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksWebsite));
+        };
+        // LP edit end
 
         // Hide wiki button if we don't have a link for it.
         _escapeWindow.WikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
+        _escapeWindow.OpenDiscordButton.Visible = _cfg.GetCVar(CCVars.InfoLinksDiscord) != ""; // LP edit
+        _escapeWindow.OpenBoostyButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWebsite) != ""; // LP edit
 
         CommandBinds.Builder
             .Bind(EngineKeyFunctions.EscapeMenu,

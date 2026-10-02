@@ -9,7 +9,7 @@ changeling-devour-begin-windup-others = { CAPITALIZE(POSS-ADJ($user)) } жутк
 changeling-devour-begin-consume-self = Наша жуткая пасть глубоко впивается в жертву.
 changeling-devour-begin-consume-others = { CAPITALIZE(POSS-ADJ($user)) } жуткая пасть глубоко впивается в жертву.
 
-changeling-devour-consume-failed-not-dead = This body yet lives! We cannot consume it alive!
+changeling-devour-consume-failed-not-dead = Это тело ещё живо! Мы не можем поглотить его живым!
 changeling-devour-consume-complete-self = Наша жуткая пасть скрывается, биомасса поглощена.
 changeling-devour-consume-complete-others = { CAPITALIZE(POSS-ADJ($user)) } жуткая пасть прячется.
 

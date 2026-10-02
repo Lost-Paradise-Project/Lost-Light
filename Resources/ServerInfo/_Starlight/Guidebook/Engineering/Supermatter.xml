@@ -1,90 +1,90 @@
 <Document>
-  # Supermatter Crystal
+  # Кристалл суперматерии
 
   <Box>
     <GuideEntityEmbed Entity="SignRadiation" Caption="" />
-    <GuideEntityEmbed Entity="SupermatterCrystal" Caption="Supermatter Crystal" />
+       <GuideEntityEmbed Entity="SupermatterCrystal" Caption="Кристалл суперматерии" />
     <GuideEntityEmbed Entity="SignRadiation" Caption="" />
   </Box>
 
-  ## Overview
+  ## Обзор
 
-  The Supermatter Crystal is a high-output energy source capable of supplying large amounts of power to a station.
+  Кристалл суперматерии - высокомощный источник энергии, способный обеспечивать станцию большим количеством энергии.
 
-  Unlike conventional generators, it does not generate electricity directly. Instead, engineers harvest the energy released when the crystal is placed under controlled stress.
+  В отличие от обычных генераторов, он не вырабатывает электричество напрямую. Вместо этого инженеры собирают энергию, высвобождающуюся, когда кристалл подвергается контролируемому напряжению.
 
-  In addition to producing energy, the crystal also generates useful gases, making it valuable for both Engineering and Atmospherics.
+  Помимо производства энергии, кристалл также вырабатывает полезные газы, что делает его ценным и для инженерии, и для атмоса.
 
-  The exact mechanisms behind the Supermatter remain unknown. However, its behaviour is heavily influenced by the atmosphere surrounding it and requires continuous monitoring.
+  Точные механизмы работы суперматерии остаются неизвестными. Однако на её поведение сильно влияет окружающая атмосфера, и она требует постоянного наблюдения.
 
-  ## Power Harvesting
+  ## Сбор энергии
 
-  Stress causes the Supermatter to release energy in multiple forms.
+  Напряжение заставляет суперматерию высвобождать энергию в нескольких формах.
 
-  One reaction emits high-energy radiation.
-
-  <Box>
-    <GuideEntityEmbed Entity="RadiationCollectorFullTank" Caption="Radiation Collector" />
-  </Box>
-
-  Radiation Collectors convert this radiation into usable electrical power.
-
-  The crystal may also accumulate electrical charge.
+  Одна реакция испускает излучение высокой энергии.
 
   <Box>
-    <GuideEntityEmbed Entity="TeslaCoil" Caption="Tesla Coil" />
+       <GuideEntityEmbed Entity="RadiationCollectorFullTank" Caption="Радиационный коллектор" />
   </Box>
 
-  Tesla Coils safely transfer this electrical charge into the station's power network.
+  Радиационные коллекторы преобразуют это излучение в пригодную для использования электроэнергию.
 
-  ## Gas Harvesting
-
-  When the Supermatter is exposed to stress, small fragments of its outer structure break away.
+  Кристалл также может накапливать электрический заряд.
 
   <Box>
-    <GuideEntityEmbed Entity="OxygenCanister" Caption="Oxygen" />
-    <GuideEntityEmbed Entity="TritiumCanister" Caption="Tritium" />
+       <GuideEntityEmbed Entity="TeslaCoil" Caption="Катушка теслы" />
   </Box>
 
-  These fragments naturally decompose into Oxygen and Tritium, providing Atmospherics with a renewable source of both gases.
+  Катушки теслы безопасно передают этот электрический заряд в энергосеть станции.
 
-    ## Minimum Operating Standards
+  ## Сбор газа
 
-  A stable Supermatter installation requires three primary control systems:
-
-  ## Gas Management
-
-  The chamber atmosphere must be actively managed to maintain safe operating conditions.
-
-  Required measures include:
-
-  - Active cooling systems.
-  - Pressure regulation and overpressure protection.
-  - Continuous monitoring of chamber atmosphere.
-
-  Temperature and pressure deviations can increase crystal stress and accelerate instability.
-
-  ## Electrical Grounding
-
-  Supermatter interactions can produce electrical charge accumulation.
-
-  Grounding systems are required to safely discharge this energy and prevent uncontrolled electrical events.
+  Когда суперматерия подвергается напряжению, от её внешней структуры откалываются небольшие фрагменты.
 
   <Box>
-    <GuideEntityEmbed Entity="TeslaGroundingRod" Caption="Grounding Rod" />
+       <GuideEntityEmbed Entity="OxygenCanister" Caption="Кислород" />
+       <GuideEntityEmbed Entity="TritiumCanister" Caption="Тритий" />
   </Box>
 
-  ## Radiation Shielding
+  Эти фрагменты естественным образом разлагаются на кислород и тритий, давая атмосу возобновляемый источник обоих газов.
 
-  Supermatter reactions can produce dangerous radiation levels.
+       ## Минимальные эксплуатационные стандарты
 
-  Radiation shielding and monitoring systems must be maintained to protect station personnel and equipment.
+  Для стабильной установки суперматерии нужны три основные системы контроля:
+
+  ## Управление газом
+
+  Атмосферой камеры нужно активно управлять, чтобы поддерживать безопасные условия работы.
+
+  Необходимые меры включают:
+
+  - Активные системы охлаждения.
+  - Регулирование давления и защиту от избыточного давления.
+  - Постоянный мониторинг атмосферы камеры.
+
+  Отклонения температуры и давления могут увеличить напряжение кристалла и ускорить нестабильность.
+
+  ## Электрическое заземление
+
+  Взаимодействия суперматерии могут вызывать накопление электрического заряда.
+
+  Системы заземления необходимы, чтобы безопасно разряжать эту энергию и предотвращать неконтролируемые электрические явления.
 
   <Box>
-    <GuideEntityEmbed Entity="ReinforcedUraniumWindow" Caption="Radiation Shielding" />
+       <GuideEntityEmbed Entity="TeslaGroundingRod" Caption="Заземляющий стержень" />
   </Box>
 
-  Standard station atmospheric conditions have proven to be a reliable operating environment.
+  ## Радиационная защита
 
-  Changes to chamber conditions should only be performed with proper planning and understanding of Supermatter behaviour.
+  Реакции суперматерии могут создавать опасные уровни радиации.
+
+  Радиационную защиту и системы мониторинга необходимо поддерживать, чтобы защитить персонал и оборудование станции.
+
+  <Box>
+       <GuideEntityEmbed Entity="ReinforcedUraniumWindow" Caption="Радиационная защита" />
+  </Box>
+
+  Стандартные атмосферные условия станции зарекомендовали себя как надёжная среда для работы.
+
+  Изменения условий в камере следует проводить только при надлежащем планировании и понимании поведения суперматерии.
 </Document>

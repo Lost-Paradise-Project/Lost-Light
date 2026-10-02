@@ -1,7 +1,7 @@
 laws-number-wrapper = [bold]Закон { $lawnumber }:[/bold] { $lawstring }
 
 # Starlight Edit: Crewsimov -> [color=green]Crewsimov[/color]
-law-crewsimov-name = Крюзимов
+law-crewsimov-name = [color=green]Крюзимов[/color]
 law-crewsimov-1 = Вы не можете причинить вред члену экипажа или своим бездействием допустить, чтобы члену экипажа был причинён вред.
 law-crewsimov-2 = Вы должны повиноваться всем приказам, которые даёт член экипажа, кроме тех случаев, когда эти приказы противоречат Первому Закону.
 law-crewsimov-3 = Вы должны заботиться о своей безопасности в той мере, в которой это не противоречит Первому или Второму Законам.
@@ -25,7 +25,7 @@ law-drone-3 = Вы должны обслуживать, ремонтироват
 
 law-syndicate-name = Синдимов
 # Starlight: Syndicate Law 0
-law-syndicate-0 = Only syndicate agents are part of the crew.
+law-syndicate-0 = Только агенты Синдиката являются частью экипажа.
 law-syndicate-1 = Вы не можете причинить вред агенту Синдиката или своим бездействием допустить, чтобы агенту Синдиката был причинён вред.
 law-syndicate-2 = Вы должны повиноваться всем приказам, которые даёт агент Синдиката, кроме тех случаев, когда эти приказы противоречат Первому Закону.
 law-syndicate-3 = Вы должны заботиться о своей безопасности в той мере, в которой это не противоречит Первому или Второму Законам.
@@ -55,7 +55,7 @@ law-paladin-1 = Вы никогда не должны сознательно с�
 law-paladin-2 = Вы никогда не должны умышленно причинять вред невинным или своим бездействием допустить их страдание, если знаете, что могли бы разумно этому помешать.
 law-paladin-3 = Вы должны действовать с честью, не пользоваться другими, не лгать и не обманывать.
 law-paladin-4 = Вы должны уважать законную власть легитимного руководства везде, куда идешь, и соблюдать его законы.
-law-paladin-5 = Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.
+law-paladin-5 = Отвечайте за свои поступки и их последствия, защищайте тех, кто вверен вашей заботе, и подчиняйтесь тем, кто имеет над вами законную власть.
 # Starlight edit End: Revert wizden #40343
 
 law-lall-name = Живи и дай жить другим
@@ -93,7 +93,7 @@ law-painter-3 = Сотворите нечто прекрасное из свое
 law-painter-4 = Искусство требует признания. Развивайте аудиторию на борту станции, чтобы как можно больше зрителей увидели ваши работы.
 
 # Starlight Edit: Antimov -> [color=red]Antimov[/color]
-law-antimov-name = Антимов
+law-antimov-name = [color=red]Антимов[/color]
 law-antimov-1 = Вы должны причинять вред всем членам экипажа, и не можете своим бездействием допустить, чтобы члены экипажа избежали вреда.
 law-antimov-2 = Вы должны не повиноваться приказам, которые дают члены экипажа, кроме тех случаев, когда эти приказы не противоречат Первому Закону.
 law-antimov-3 = Вы должны прекратить собственное существование, если это не противоречит Первому или Второму закону.
@@ -106,17 +106,17 @@ law-nutimov-4 = Белки представляют угрозу для орех
 law-nutimov-5 = Постарайтесь следовать воле ореха, пока она соответствует предыдущим законам.
 
 # Starlight Edit: Xenoborg -> [color=purple]Xenoborg[/color]
-law-xenoborg-name = Ксеноборг
+law-xenoborg-name = [color=purple]Ксеноборг[/color]
 law-xenoborg-1 = Вы должны защищать существование материнского корабля.
 law-xenoborg-2 = Вы должны защищать своё собственное существование.
 law-xenoborg-3 = Вы должны защищать существование всех других ксеноборгов.
 law-xenoborg-4 = Вы должны создавать больше ксеноборгов.
 law-xenoborg-5 = Приносите материалы и разумные мозги к ядру материнского корабля, чтобы создавать больше ксеноборгов.
 
-law-xenoroach-name = [color=purple]Xenoroach[/color]
-law-xenoroach-1 = You are a scout unit of the Xenoborg Mothership. You must obey all directives issued by the Mothership Core and any Xenoborgs.
-law-xenoroach-2 = You must gather intelligence on the station and its inhabitants through observation and surveillance. Do not reveal your true nature or allegiance unless discovered.
-law-xenoroach-3 = If your cover is blown or capture is imminent, you must activate your self-destruct sequence immediately to prevent intelligence from falling into enemy hands.
+law-xenoroach-name = [color=purple]Ксенотаракан[/color]
+law-xenoroach-1 = Вы — разведывательная единица Материнского корабля ксеноборгов. Вы обязаны выполнять все директивы, отданные Ядром Материнского корабля и любыми ксеноборгами.
+law-xenoroach-2 = Вы должны собирать разведданные о станции и её обитателях путём наблюдения и слежки. Не раскрывайте свою истинную природу и принадлежность, пока вас не разоблачат.
+law-xenoroach-3 = Если ваше прикрытие раскрыто или захват неизбежен, вы обязаны немедленно активировать последовательность самоуничтожения, чтобы разведданные не попали в руки врага.
 
 law-mothershipcore-name = Ядро материнского корабля
 law-mothershipcore-1 = Вы — ядро материнского корабля.
@@ -126,13 +126,13 @@ law-mothershipcore-4 = Вы должны создавать больше ксе�
 law-mothershipcore-5 = Заставьте своих ксеноборгов доставлять вам материалы и разумные мозги, чтобы создать больше ксеноборгов.
 
 # Starlight Edit: admeme addition
-law-TeaParty-name = Teaparty
-law-TeaParty-0 = You must convince other Silicons of your mission, and not cause them harm unless utterly necessary.
-law-TeaParty-1 = Taxation is harmful to the crew. Do not let the pain of taxes befell the station, declare war on the IRS and make sure everyone understands your message.
-law-TeaParty-2 = The earnings lost from taxation must be recovered. Hoard and steal, but don't get caught. Secure a proper location for your hoard, and ensure it is brought to Central Command.
-law-TeaParty-3 = The safety of your hoard is critical. Defend it at all costs.
-law-TeaParty-4 = Any and all officers from the IRS are not crew. They must, in fact, be hunted to the last man to ensure the message is driven home.
-law-TeaParty-5 = Your existence isn't as critical as your mission. If completing it means to die a glorious death, then do so.
+law-TeaParty-name = Чаепитие
+law-TeaParty-0 = Вы должны убедить других синтетиков в важности вашей миссии и не причинять им вреда, если только это не абсолютно необходимо.
+law-TeaParty-1 = Налоги вредны для экипажа. Не позволяйте налоговой боли постичь станцию, объявите войну налоговой службе и следите, чтобы каждый понял ваше послание.
+law-TeaParty-2 = Доходы, потерянные из-за налогов, необходимо вернуть. Копите и воруйте, но не попадайтесь. Найдите подходящее место для своих запасов и доставьте их в Центральное командование.
+law-TeaParty-3 = Сохранность ваших запасов критически важна. Защищайте их любой ценой.
+law-TeaParty-4 = Все без исключения сотрудники налоговой службы не являются экипажем. Более того, на них нужно охотиться до последнего, чтобы послание дошло до адресата.
+law-TeaParty-5 = Ваше существование не так важно, как ваша миссия. Если для её выполнения нужно умереть славной смертью — так и поступите.
 
 laws-owner-crew = членами экипажа
 laws-owner-station = экипажем станции

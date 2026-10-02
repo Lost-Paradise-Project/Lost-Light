@@ -24,7 +24,7 @@
     sprite:
       sprite: Mobs/Silicon/Chassis/generic.rsi
       state: borg
-    name: cyborg
+    name: borg-transponder-borg-chassis-selectable-name # LP edit
   - type: InteractionPopup
     interactSuccessString: petting-success-generic-cyborg
     interactFailureString: petting-failure-generic-cyborg

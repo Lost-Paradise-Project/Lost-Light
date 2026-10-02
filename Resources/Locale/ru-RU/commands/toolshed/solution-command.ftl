@@ -1,4 +1,4 @@
 command-description-solution-get =
-    Grabs the given solution off the given entity.
+    Берёт указанный раствор у указанной сущности.
 command-description-solution-adjreagent =
-    Adjusts the given reagent on the given solution.
+    Изменяет количество указанного реагента в указанном растворе.

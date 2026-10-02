@@ -1,0 +1,14 @@
+ent-ETOIDCard = { ent-IDCardStandard }
+    .desc = { ent-IDCardStandard.desc }
+ent-ETOIDCardTeamLead = ID-карта командира группы ЭТО
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardCorpsman = ID-карта санитара ЭТО
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardCombatTech = ID-карта боевого техника ЭТО
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardDemo = ID-карта подрывника ЭТО
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardMartyr = ID-карта мученика ЭТО
+    .desc = { ent-ETOIDCard.desc }
+ent-ETOIDCardFootman = ID-карта пехотинца ЭТО
+    .desc = { ent-ETOIDCard.desc }

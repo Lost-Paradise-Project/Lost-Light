@@ -37,8 +37,6 @@
     Head: MobLagomorphHead
     Eyes: MobNeocyteEyes #looks odd, but this just removes eyes since they're replaced by the LEDs.
     Snout: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobLagomorphTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -106,10 +104,4 @@
       required: false
     Arms:
       points: 4
-      required: false
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
-      points: 1
       required: false

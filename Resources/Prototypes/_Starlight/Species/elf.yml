@@ -33,8 +33,6 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobElfTorso
     Eyes: MobHumanoidEyes
     HeadTop: MobHumanoidAnyMarking
@@ -69,12 +67,6 @@
       points: 1 # earrings have to be in a different category to avoid conflicts with default ears
       required: true
       defaultMarkings: [ ElfLongEarsUpwards ]
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
-      points: 1
-      required: false
     Chest:
       points: 4 #SL Edit 2->4
       required: false

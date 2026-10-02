@@ -31,8 +31,6 @@
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Chest: MobRodentiaTorso
-    UndergarmentBottom: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking

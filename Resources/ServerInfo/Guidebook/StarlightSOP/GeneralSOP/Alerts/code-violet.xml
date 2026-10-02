@@ -1,53 +1,53 @@
 <Document>
-    # Code Violet
+    # Код «Фиолетовый»
 
-    ## Called by:
+    ## Кто объявляет:
 
-    Any two Command members, or Captain.
+    Любые двое членов командования или капитан.
 
-    ## Conditions:
+    ## Условия:
 
-    A Viral Pathogen has infected a significant portion of the crew. In the event of a Viral Outbreak, all infected personnel are to direct themselves to Medbay immediately.
+    Вирусный патоген заразил значительную часть экипажа. При вирусной вспышке все заражённые должны немедленно направиться в медбей.
 
-    ## Security:
+    ## Служба безопасности:
 
-    1. Medbay should be secured ASAP. Quarantine of infected is top priority.
+    1. Медбей нужно как можно скорее взять под охрану. Карантин заражённых - главный приоритет.
 
-    2. Should securing medbay not be possible, the evacuation shuttle arrival area should be secured.
-
-
-    ## Secure Areas:
-
-    1. Secure areas require an access permit, unless required by a staff job.
-
-    2. Secure areas: Medical department, Security department, EVA Storage, Tech Storage, Gravity Generator, All Engineering areas beyond the lobby, Vault, and areas requiring command access.
-
-    3. There are no restrictions on bolting Secure Areas. Secure Areas may be left bolted or unbolted at the discretion of Command personnel.
-
-    4. Secure areas are not to be entered by non-command, unless required by their job.
+    2. Если взять медбей под охрану невозможно, следует охранять зону прибытия эвакуационного шаттла.
 
 
-    ## Medical:
+    ## Защищённые зоны:
 
-    1. Chemistry is to immediately begin researching the cure to the infection.
+    1. Для входа в защищённые зоны нужен допуск, если это не требуется по должности.
 
-    2. Medical entrances should be locked down to prevent further infection of medical personnel. Crew should be let into medical in a controlled manner.
+    2. Защищённые зоны: медицинский отдел, отдел безопасности, хранилище EVA, техническое хранилище, генератор гравитации, все инженерные зоны за пределами вестибюля, хранилище и зоны, требующие доступа командования.
 
-    3. Any potentially infected personnel should be isolated.
+    3. Блокировка защищённых зон болтами не ограничена. Защищённые зоны могут оставаться заблокированными или открытыми по усмотрению командования.
 
-    4. Any pacified infected personnel should be brought to chemistry to aid in cure production.
+    4. Не члены командования не должны входить в защищённые зоны, если это не требуется по их должности.
 
-    5. A cure should be distributed to the crew once available.
 
-    ## General Crew:
+    ## Медицинский отдел:
 
-    1. Personnel should self-quarantine to avoid infection. Shelter in a safe area and avoid those who are potentially infected.
+    1. Химия должна немедленно начать разработку лекарства от инфекции.
 
-    2. If you believe you are infected, calmly wait for the distribution of the cure at medbay.
+    2. Входы в медицинский отдел следует закрыть, чтобы не допустить дальнейшего заражения медиков. Экипаж нужно впускать в медбей контролируемо.
 
-    3. Once the threat has passed, work may resume.
+    3. Всех потенциально заражённых следует изолировать.
 
-    ## Command:
+    4. Усмирённых заражённых следует доставить в химию, чтобы помочь в производстве лекарства.
 
-    Should the station threat become too high to handle, emergency shuttle should be called.
+    5. Когда лекарство будет готово, его нужно раздать экипажу.
+
+    ## Экипаж:
+
+    1. Персонал должен самоизолироваться, чтобы избежать заражения. Укройтесь в безопасном месте и избегайте потенциально заражённых.
+
+    2. Если вы считаете, что заражены, спокойно ждите раздачи лекарства в медбее.
+
+    3. Когда угроза минует, работу можно возобновить.
+
+    ## Командование:
+
+    Если угроза станции станет слишком высокой, нужно вызвать эвакуационный шаттл.
 </Document>

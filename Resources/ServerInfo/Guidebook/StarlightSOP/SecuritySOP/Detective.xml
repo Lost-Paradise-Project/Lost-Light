@@ -1,10 +1,10 @@
 <Document>
-# Detective
+# Детектив
 
-<GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
+<GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Детектив"/>
 
 - 1.\n
-Standard [color=#00a933]Code Green[/color] equipment is:
+Стандартное снаряжение при [color=#00a933]коде «Зелёный»[/color]:
 
 
 <Box>
@@ -23,22 +23,22 @@ Standard [color=#00a933]Code Green[/color] equipment is:
 </Box>
 <Box>
 	<GuideEntityEmbed Entity="CombatKnife"/>
-	in
+	в
 	<GuideEntityEmbed Entity="ClothingShoesBootsJack"/>
 </Box>
 
 - 2.\n
-The Detective inherits their duties, clearances and responsibilities from the Security Officer when their own SOP does not apply.
+Детектив наследует обязанности, допуски и ответственность офицера СБ, если его собственный СОП не применяется.
 - 3.\n
-The Detective is responsible for the investigation of crime-scenes.
+Детектив отвечает за расследование мест преступлений.
 - 4.\n
-The Detective is responsible for interrogation of prisoners and detainees if necessary.\n\n
+Детектив отвечает за допрос заключённых и задержанных при необходимости.\n\n
 4.1\n
-Any time spent in interrogation is to be subtracted from the subject's confinement time.
+Всё время, проведённое на допросе, вычитается из срока заключения допрашиваемого.
 - 5.\n
-The Detective is permitted to ignore the Uniform Requirements in Security SOP §2 with approval from the Head of Security.\n\n
+Детективу разрешено игнорировать требования к форме из §2 СОП СБ с одобрения главы службы безопасности.\n\n
 5.1\n
-This is only allowed for purposes of undercover investigation.\n\n
+Это разрешено только в целях тайного расследования.\n\n
 5.2\n
-The Detective's real ID must remain somewhere on their person at all times despite this.
+Настоящая ID-карта детектива должна оставаться при нём в любом случае.
 </Document>

@@ -1,0 +1,9 @@
+advertisement-nanomedgold-1 = Идите спасать жизни! - ЛЮКС -
+advertisement-nanomedgold-2 = Лучшее для вашего роскошного медотсека.
+advertisement-nanomedgold-3 = Только самые безупречные инструменты.
+advertisement-nanomedgold-4 = Люксовые химикаты!
+advertisement-nanomedgold-5 = Эта штука спасает жизни.
+advertisement-nanomedgold-6 = Не хотите немного?
+advertisement-nanomedgold-7 = Бам!
+advertisement-nanomedgold-8 = Смотрите не передозируйте людей!
+advertisement-nanomedgold-9 = Идите передозируйте людей!

@@ -1,0 +1,15 @@
+ent-AnomalyCoreBanana = { ent-BaseAnomalyCore }
+    .desc = { ent-BaseAnomalyCore.desc }
+    .suffix = Банан
+ent-AnomalyCoreBananaInert = { ent-BaseAnomalyInertCore }
+    .desc = { ent-BaseAnomalyInertCore.desc }
+    .suffix = Банан, инертное
+ent-AnomalyCoreClown = { ent-BaseAnomalyCore }
+    .desc = Ядро уничтоженной клоунской аномалии. Излучает чистейшую сущность Хонкматери.
+    .suffix = Клоун
+ent-AnomalyCoreClownInert = { ent-BaseAnomalyInertCore }
+    .desc = Инертное ядро уничтоженной клоунской аномалии. Излучает чистейшую сущность Хонкматери.
+    .suffix = Клоун, инертное
+ent-CraftingAnomalyCoreShadow = ядро теневой аномалии
+    .desc = { ent-AnomalyCoreShadow.desc }
+    .suffix = { ent-AnomalyCoreShadow.suffix }

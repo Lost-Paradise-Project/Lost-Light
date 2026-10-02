@@ -27,7 +27,7 @@ loadout-group-captain-jumpsuit = Капитан, комбинезон
 loadout-group-captain-neck = Капитан, шея
 loadout-group-captain-backpack = Капитан, рюкзак
 loadout-group-captain-outerclothing = Капитан, верхняя одежда
-loadout-group-captain-eyewear = Captain eyewear
+loadout-group-captain-eyewear = Капитан, очки
 
 loadout-group-hop-head = Глава персонала, голова
 loadout-group-hop-jumpsuit = Глава персонала, комбинезон
@@ -36,12 +36,12 @@ loadout-group-hop-backpack = Глава персонала, рюкзак
 loadout-group-hop-outerclothing = Глава персонала, верхняя одежда
 
 # Civilian
-loadout-group-assistant-jumpsuit = Assistant jumpsuit
-loadout-group-assistant-mask = Assistant mask
-loadout-group-assistant-gloves = Assistant gloves
-loadout-group-assistant-outerclothing = Assistant outer clothing
-loadout-group-assistant-shoes = Assistant shoes
-loadout-group-assistant-neck = Assistant neck
+loadout-group-assistant-jumpsuit = Ассистент, комбинезон
+loadout-group-assistant-mask = Ассистент, маска
+loadout-group-assistant-gloves = Ассистент, перчатки
+loadout-group-assistant-outerclothing = Ассистент, верхняя одежда
+loadout-group-assistant-shoes = Ассистент, обувь
+loadout-group-assistant-neck = Ассистент, шея
 
 loadout-group-bartender-head = Бармен, голова
 loadout-group-bartender-jumpsuit = Бармен, комбинезон
@@ -166,15 +166,15 @@ loadout-group-security-belt = Офицер СБ, пояс
 loadout-group-security-outerclothing = Офицер СБ, верхняя одежда
 loadout-group-security-shoes = Офицер СБ, обувь
 loadout-group-security-id = Офицер СБ, ID
-loadout-group-security-weapon = Security Weapon
-loadout-group-security-eyewear = Security eyewear
+loadout-group-security-weapon = Офицер СБ, оружие
+loadout-group-security-eyewear = Офицер СБ, очки
 
 loadout-group-brigmedic-head = Полевой врач, голова
 loadout-group-brigmedic-jumpsuit = Полевой врач, комбинезон
 loadout-group-brigmedic-backpack = Полевой врач, рюкзак
-loadout-group-brigmedic-belt = Brigmedic belt
-loadout-group-brigmedic-outerclothing = Brigmedic outer clothing
-loadout-group-brigmedic-eyewear = Brigmedic eyewear
+loadout-group-brigmedic-belt = Бригмедик, пояс
+loadout-group-brigmedic-outerclothing = Бригмедик, верхняя одежда
+loadout-group-brigmedic-eyewear = Бригмедик, очки
 
 loadout-group-detective-head = Детектив, голова
 loadout-group-detective-neck = Детектив, шея

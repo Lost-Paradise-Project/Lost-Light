@@ -85,7 +85,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -148,7 +148,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -274,7 +274,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: item-slot-component-slot-name-magazine # LP edit
         priority: 2
         whitelist:
           tags:

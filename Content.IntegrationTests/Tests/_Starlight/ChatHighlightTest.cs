@@ -86,8 +86,8 @@ public sealed class ChatHighlightTest : GameTest
         Assert.That(activeHighlights, Contains.Item("ling"));
         Assert.That(activeHighlights, Contains.Item("rev"));
         // Auto:
-        Assert.That(activeHighlights, Contains.Item("Captain"));
-        Assert.That(activeHighlights, Contains.Item("(?<!\\w)Cap(?!\\w)")); // "Cap" becomes regex-escaped and word-bounded
+        Assert.That(activeHighlights, Contains.Item("Капитан")); // LP edit - автоподсветка берётся из ru-RU
+        Assert.That(activeHighlights, Contains.Item("(?<!\\w)кеп(?!\\w)")); // LP edit
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John\ Doe(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)Doe(?!\w)"));
@@ -98,8 +98,8 @@ public sealed class ChatHighlightTest : GameTest
         activeHighlights = (List<string>)highlightsField.GetValue(chatController)!;
         Assert.That(activeHighlights, Contains.Item("ling"));
         Assert.That(activeHighlights, Contains.Item("rev"));
-        Assert.That(activeHighlights, Is.Not.Contains("Captain"));
-        Assert.That(activeHighlights, Is.Not.Contains("(?<!\\w)Cap(?!\\w)"));
+        Assert.That(activeHighlights, Is.Not.Contains("Капитан")); // LP edit
+        Assert.That(activeHighlights, Is.Not.Contains("(?<!\\w)кеп(?!\\w)")); // LP edit
     }
 
     [Test]
@@ -152,8 +152,8 @@ public sealed class ChatHighlightTest : GameTest
         activeHighlights = (List<string>)highlightsField.GetValue(chatController)!;
         Assert.That(activeHighlights, Contains.Item("ling"));
         Assert.That(activeHighlights, Contains.Item("rev"));
-        Assert.That(activeHighlights, Contains.Item("Captain"));
-        Assert.That(activeHighlights, Contains.Item("(?<!\\w)Cap(?!\\w)"));
+        Assert.That(activeHighlights, Contains.Item("Капитан")); // LP edit - автоподсветка берётся из ru-RU
+        Assert.That(activeHighlights, Contains.Item("(?<!\\w)кеп(?!\\w)")); // LP edit
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John\ Doe(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)John(?!\w)"));
         Assert.That(activeHighlights, Contains.Item(@"(?<=(?<=^.?OOC:.*:.*)|(?<=,.*"".*)|(?<=\n.*))(?<!\w)Doe(?!\w)"));

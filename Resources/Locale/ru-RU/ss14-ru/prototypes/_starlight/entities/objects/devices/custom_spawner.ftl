@@ -1,0 +1,15 @@
+ent-BaseCustomSpawner = спавнер
+    .desc = Создаёт вещи.
+ent-CustomSpawnerStatic = { ent-BaseCustomSpawner }
+    .desc = { ent-BaseCustomSpawner.desc }
+ent-CustomSpawner = { ent-CustomSpawnerStatic }
+    .desc = { ent-CustomSpawnerStatic.desc }
+    .suffix = Закрепляемый
+ent-CustomSpawnerMarker = { ent-BaseCustomSpawner }
+    .desc = { ent-BaseCustomSpawner.desc }
+    .suffix = Маркер
+ent-CustomSpawnerMarkerHolo = { ent-CustomSpawnerMarker }
+    .desc = { ent-CustomSpawnerMarker.desc }
+    .suffix = Маркер, голограмма
+ent-CustomSpawnerHologram = голограмма
+    .desc = { "" }

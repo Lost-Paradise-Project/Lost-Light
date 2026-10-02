@@ -1,0 +1,14 @@
+ent-RoundTableBase = круглый стол
+    .desc = Меньший круглый стол.
+ent-RoundTableSteel = круглый стол
+    .desc = Меньший круглый стол.
+ent-RoundTableWood = круглый стол
+    .desc = Меньший круглый стол.
+ent-RoundTableCarpet = круглый стол
+    .desc = Меньший круглый стол.
+ent-RoundTablePlastic = круглый стол
+    .desc = Меньший круглый стол.
+ent-RoundTableGlass = круглый стол
+    .desc = Меньший круглый стол.
+ent-RoundTablePlasma = круглый стол
+    .desc = Меньший круглый стол.

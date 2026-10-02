@@ -1,0 +1,14 @@
+ent-OrganTreeSeeds = пакет семян дерева органов
+    .desc = { ent-SeedBase.desc }
+ent-EvilAppleSeeds = пакет семян дьявольского яблока
+    .desc = { ent-SeedBase.desc }
+ent-ResinferaSeeds = пакет семян резинифера
+    .desc = { ent-SeedBase.desc }
+ent-MintSeeds = пакет семян мяты
+    .desc = { ent-SeedBase.desc }
+ent-SpearMintSeeds = пакет семян колосовой мяты
+    .desc = { ent-SeedBase.desc }
+ent-CinnamonSeeds = пакет семян корицы
+    .desc = { ent-SeedBase.desc }
+ent-CinnaflareSeeds = пакет семян корицепламени
+    .desc = { ent-SeedBase.desc }

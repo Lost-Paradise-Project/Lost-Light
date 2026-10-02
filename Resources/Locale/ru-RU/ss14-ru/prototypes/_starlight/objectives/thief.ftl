@@ -1,4 +1,4 @@
-ent-BaseStealTargetParent = steal target
+ent-BaseStealTargetParent = цель кражи
     .desc = { "" }
 ent-BaseThiefSecurityStealObjective = { ent-BaseThiefStealObjective }
     .desc = { ent-BaseThiefStealObjective.desc }
@@ -58,9 +58,7 @@ ent-StealTargetMedicalBeltCollection = { ent-BaseStealTargetParent }
     .desc = { ent-BaseStealTargetParent.desc }
 ent-MedicalBeltStealCollectionObjective = { ent-BaseThiefStealObjective }
     .desc = { ent-BaseThiefStealObjective.desc }
-ent-EscapeMasterThiefObjective = Become the greatest thief, and steal anything you perceive as having value.
-    .desc = Just make sure to get out alive and free.
+ent-EscapeMasterThiefObjective = Станьте величайшим вором и крадите всё, что кажется вам ценным.
+    .desc = Просто убедитесь, что вы выберетесь живым и свободным.
 ent-FigurineStealCollectionObjective = { ent-BaseThiefStealCollectionObjective }
     .desc = { ent-BaseThiefStealCollectionObjective.desc }
-ent-FiringPinSmartLMGStealObjective = { ent-BaseThiefStealObjective }
-    .desc = { ent-BaseThiefStealObjective.desc }

@@ -1,0 +1,12 @@
+ent-PillLead5 = свинец
+    .desc = { ent-Pill.desc }
+    .suffix = Свинец 5 ед.
+ent-PillLead = свинец
+    .desc = { ent-Pill.desc }
+    .suffix = Свинец 15 ед.
+ent-PillDesoxyephedrine5 = дезоксиэфедрин
+    .desc = { ent-Pill.desc }
+    .suffix = Дезоксиэфедрин 5 ед.
+ent-PillDesoxyephedrine = дезоксиэфедрин
+    .desc = { ent-Pill.desc }
+    .suffix = Дезоксиэфедрин 15 ед.

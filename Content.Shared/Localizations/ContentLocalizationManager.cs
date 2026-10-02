@@ -10,7 +10,10 @@ namespace Content.Shared.Localizations
         [Dependency] private ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "en-US";
+        // LP edit start
+        private const string Culture = "ru-RU";
+        private const string FallbackCulture = "en-US";
+        // LP edit end
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -26,8 +29,14 @@ namespace Content.Shared.Localizations
         public void Initialize()
         {
             var culture = new CultureInfo(Culture);
+            var fallbackCulture = new CultureInfo(FallbackCulture); // LP edit
 
             _loc.LoadCulture(culture);
+            // LP edit start
+            _loc.LoadCulture(fallbackCulture);
+            _loc.SetFallbackCulture(fallbackCulture);
+            _loc.AddFunction(culture, "MANY", FormatMany);
+            // LP edit end
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -144,8 +153,10 @@ namespace Content.Shared.Localizations
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} and {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, and {list[^1]}"
+                // LP edit start
+                2 => $"{list[0]} и {list[1]}",
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, и {list[^1]}"
+                // LP edit end
             };
         }
 
@@ -158,8 +169,10 @@ namespace Content.Shared.Localizations
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} or {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, or {list[^1]}"
+                // LP edit start
+                2 => $"{list[0]} или {list[1]}",
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, или {list[^1]}"
+                // LP edit end
             };
         }
 

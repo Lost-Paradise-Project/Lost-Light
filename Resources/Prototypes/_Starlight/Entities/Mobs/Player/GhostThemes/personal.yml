@@ -9,8 +9,10 @@
       state: cateor
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: e3555fad-8915-4dd7-8e68-6851d5fd8629 # darkrell
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 - type: ghostTheme
@@ -24,8 +26,10 @@
       state: ghost-firewraith
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: e3555fad-8915-4dd7-8e68-6851d5fd8629 # Killerdash
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 
@@ -40,8 +44,10 @@
       state: ghost-rinary
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: 95745755-8eba-4d6a-a360-5c88260d432f # Rinary
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 - type: ghostTheme
@@ -55,8 +61,10 @@
       state: pai_fox
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: da91f87d-7665-4487-8852-12f655498413 # KarmaKitsuna
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 - type: ghostTheme
@@ -70,8 +78,10 @@
       state: sombrero_penguin
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: 7b7269e0-b094-4719-8ec1-cfdd93afe6e2 # Bird
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 - type: ghostTheme
@@ -85,8 +95,10 @@
       state: tess_the_evil
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: 0639ce52-b9af-4507-89fe-a526cd43db37 # Tess_the_Evil
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 - type: ghostTheme
@@ -100,8 +112,10 @@
       state: ghost-kamila
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: 39eacc1a-d19f-4972-be1e-db37e4308ff0 # KamilaAvali
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff
 
 - type: ghostTheme
@@ -115,6 +129,8 @@
       state: conf_ghost
     color: "#ffffff"
   requirements:
-  - !type:UserIdRequirement
-    userId: d1af6fab-4693-49ba-8c11-12a8a5ba949c # Conflee
+  # LP edit start - личные призраки Starlight у нас для почётных граждан
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  # LP edit end
   category: Staff

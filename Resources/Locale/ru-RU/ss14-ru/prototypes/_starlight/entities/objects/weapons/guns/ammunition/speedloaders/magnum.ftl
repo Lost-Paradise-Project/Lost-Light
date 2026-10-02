@@ -1,0 +1,12 @@
+ent-SpeedLoaderMagnumRubber = спидлоадер (.45 магнум резиновые)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumImprovised = спидлоадер (.45 магнум)
+    .desc = { ent-BaseItem.desc }
+ent-SpeedLoaderMagnumLeverImprovised = спидлоадер (.30 /.45 магнум)
+    .desc = { ent-BaseSpeedLoaderShotgun.desc }
+ent-SpeedLoaderMagnumSP = спидлоадер (.45 магнум SP)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumHP = спидлоадер (.45 магнум HP)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumFMJ = спидлоадер (.45 магнум ПОО)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }
