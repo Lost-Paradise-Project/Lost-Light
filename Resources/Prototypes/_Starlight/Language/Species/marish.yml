@@ -1,7 +1,7 @@
 - type: language
   id: Marish
   icon: LanguageIconShadekin
-  chatPrefix: mar
+  chatPrefix: мар # LP edit
   speech:
     color: "#be3cc5"
     fontId: Lymphatic

@@ -31,6 +31,7 @@
     Head: MobThavenHead
     Eyes: MobNeocyteEyes
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobThavenTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -94,3 +95,4 @@
     Arms:
       points: 4
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)

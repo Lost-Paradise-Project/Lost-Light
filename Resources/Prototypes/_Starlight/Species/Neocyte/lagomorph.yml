@@ -37,6 +37,7 @@
     Head: MobLagomorphHead
     Eyes: MobNeocyteEyes #looks odd, but this just removes eyes since they're replaced by the LEDs.
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobLagomorphTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -105,3 +106,4 @@
     Arms:
       points: 4
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)

@@ -22,7 +22,7 @@
     - type: Loadout
       prototypes: [SkubGear]
     - type: TextToSpeech
-      voice: ICASSP31
+      voice: ntts_neco # LP edit - голос ntts (был ICASSP31)
     - type: IntrinsicRadioReceiver
     - type: IntrinsicRadioTransmitter
       channels: [Common, CentCom, Command, Engineering, Medical, Science, Security, Service, Supply, Law, NanoTrasen, Binary, Expedition, Freelance, Xenoborg, Soviet, Mothership, Syndicate, Aspace, Global, Blackstar, Merchant]

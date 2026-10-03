@@ -1,12 +1,12 @@
 ent-MobXenoAdmeme = вуровец
     .desc = Они в основном приходят по ночам. В основном.
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-MobXenoRunnerAdmeme = преторианец
     .desc = { ent-MobXenoAdmeme.desc }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-MobXenoRounyAdmeme = раунни
     .desc = { ent-MobXenoRunner.desc }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-MobXenoSpitterAdmeme = плеватель
     .desc = { ent-MobXenoAdmeme.desc }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ

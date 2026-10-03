@@ -3,7 +3,7 @@
   id: GalacticCommon
   icon: LanguageIconGalCom
   iconUnderstood: false
-  chatPrefix: g
+  chatPrefix: г # LP edit
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1

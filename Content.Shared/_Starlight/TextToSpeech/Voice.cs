@@ -35,6 +35,14 @@ public sealed partial class VoicePrototype : IPrototype
 
     [DataField]
     public List<ProtoId<VoiceTagPrototype>> Tags { get; private set; } = new();
+
+    // LP edit start
+    /// <summary>
+    /// Имя голоса (speaker) в ntts. Голоса без него в игре не используются.
+    /// </summary>
+    [DataField]
+    public string? Speaker { get; private set; }
+    // LP edit end
 }
 
 public enum VoicePitch : byte

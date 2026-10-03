@@ -169,3 +169,8 @@ stack-abyssium-bar = { $amount ->
     [few] слитка абиссия
     *[other] слитков абиссия
 }
+stack-sandbag = { $amount ->
+    [one] мешок с песком
+    [few] мешка с песком
+    *[other] мешков с песком
+}

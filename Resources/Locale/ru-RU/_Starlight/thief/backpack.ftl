@@ -17,3 +17,9 @@ thief-backpack-category-sleeper-description-starlight =
     чтобы другие оставались спящими.
     Включает: баллон с сонным оксидом азота, баллон с хелиумом,
     два флакона нокторина, флакон тазинида и гипопен.
+
+# Thief toolbox set names
+
+thief-backpack-category-saboteur-self-name = Взломщик
+thief-backpack-category-press-self-name = Пресса
+thief-backpack-category-spy-self-name = Шпион

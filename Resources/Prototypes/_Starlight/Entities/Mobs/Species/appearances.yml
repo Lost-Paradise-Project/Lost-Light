@@ -22,6 +22,7 @@
   components:
     - type: HumanoidAppearance
       species: Avali
+      # LP edit - убрано нижнее бельё (цензура наготы)
 
 - type: entity
   parent: [BaseSpeciesDummy, BaseInventoryCyclorite]
@@ -122,6 +123,7 @@
     - Snout
     - HeadTop
     - HeadSide
+    # LP edit - убрано нижнее бельё (цензура наготы)
 
 - type: entity
   parent: [BaseSpeciesDummy, BaseInventoryResomi]
@@ -181,6 +183,7 @@
   components:
   - type: HumanoidAppearance
     species: Vox
+    # LP edit - убрано нижнее бельё (цензура наготы)
     markingsDisplacement:
       Hair:
         sizeMaps:
@@ -219,6 +222,7 @@
   components:
   - type: HumanoidAppearance
     species: Rodentia
+    # LP edit - убрано нижнее бельё (цензура наготы)
     hideLayersOnEquip:
     - Hair
     - HeadTop

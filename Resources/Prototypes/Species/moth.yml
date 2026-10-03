@@ -19,6 +19,7 @@
     Head: MobMothHead
     Hair: MobHumanoidAnyMarking # Starlight
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobMothTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -66,6 +67,7 @@
     Head:
       points: 1
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest:
       points: 2
       required: false

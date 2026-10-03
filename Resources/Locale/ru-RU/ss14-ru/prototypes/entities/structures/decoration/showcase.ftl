@@ -6,5 +6,5 @@ ent-ShowcaseRobotWhite = макет белого робота
     .desc = Это массо-габаритный макет старого робота.
 ent-ShowcaseRobotAntique = макет робота-грузчика
     .desc = Это массо-габаритный макет старого робота-грузчика.
-ent-ShowcaseRobotMarauder = макет Мародёра
-    .desc = Это массо-габаритный макет Мародёра, окрашенного в зелёный.
+ent-ShowcaseRobotMarauder = макет Дюранда MK1
+    .desc = Нерабочая копия Дюранда MK1.

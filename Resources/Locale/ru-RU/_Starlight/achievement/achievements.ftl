@@ -38,7 +38,7 @@ achievement-bad-dog-name = Плохой пёс
 achievement-bad-dog-description = Завершите раунд в роли ОСБ после того, как каждый член командования погиб хотя бы раз.
 
 achievement-you-monster-name = Вы чудовище
-achievement-you-monster-description = Введите физраствор ресоми или авали.
+achievement-you-monster-description = Введите физраствор резоми или авали.
 
 achievement-viva-cargonia-name = Да здравствует Карго
 achievement-viva-cargonia-description = Будьте обращены в революционеры, будучи квартирмейстером.
@@ -155,3 +155,8 @@ role-achievement-reward-fail-hidden = Требует [color=yellow]скрыто�
 loadouts-achievement-reward-pass = Награда за достижение получена: { $achievement }
 loadouts-achievement-reward-fail = Требуется награда за достижение: { $achievement }
 loadouts-achievement-reward-fail-hidden = Требует награду за скрытое достижение
+
+achievement-category-milestones = Вехи
+achievement-category-onboarding = Первые шаги
+achievement-category-special = Особые
+achievement-category-vampire = Вампир

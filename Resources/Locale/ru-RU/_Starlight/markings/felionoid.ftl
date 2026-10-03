@@ -3,7 +3,7 @@ marking-FelionoidChestBelly = Живот
 marking-FelionoidChestBrightBelly = Светлый живот
 marking-FelionoidChestStripes = Полосатый живот
 marking-FelionoidChestTabby = Табби-живот
-marking-FelionoidChestCalico = Ситцевый живот
+marking-FelionoidChestCalico = Трёхцветный живот
 
 # Ears
 marking-FelionoidEars = Уши
@@ -14,8 +14,8 @@ marking-FelionoidArmPawMittensL = Лапчатые варежки на лево�
 marking-FelionoidArmPawMittensR = Лапчатые варежки на правой руке
 marking-FelionoidArmTabbyL = Табби на левой руке
 marking-FelionoidArmTabbyR = Табби на правой руке
-marking-FelionoidArmCalicoR = Ситцевая окраска правой руки
-marking-FelionoidArmCalicoL = Ситцевая окраска левой руки
+marking-FelionoidArmCalicoR = Трёхцветная окраска правой руки
+marking-FelionoidArmCalicoL = Трёхцветная окраска левой руки
 marking-FelionoidArmStripesR = Полосы на правой руке
 marking-FelionoidArmStripesL = Полосы на левой руке
 
@@ -28,7 +28,7 @@ marking-FelionoidLegPawMittensR = Лапчатые варежки на прав�
 marking-FelionoidLegPawMittensL = Лапчатые варежки на левой ноге
 marking-FelionoidLegTabbyR = Табби на правой ноге
 marking-FelionoidLegTabbyL = Табби на левой ноге
-marking-FelionoidLegCalicoL = Ситцевая окраска левой ноги
+marking-FelionoidLegCalicoL = Трёхцветная окраска левой ноги
 
 # Feet
 marking-FelionoidFootPawMittensR = Лапчатые варежки на правой стопе
@@ -54,7 +54,7 @@ marking-FelionoidHairNights = Ночная
 # Head
 marking-FelionoidHeadTiger = Тигровая голова
 marking-FelionoidHeadTabby = Голова табби
-marking-FelionoidHeadCalico = Ситцевая голова
+marking-FelionoidHeadCalico = Трёхцветная голова
 marking-FelionoidHeadStripes = Полосатая голова
 
 # Tattoos
@@ -67,8 +67,8 @@ marking-TattooFelionoidNightlingChest = Татуировка ночного со
 marking-FelionoidSnout = Морда
 
 # Tail
-marking-FelionoidTail = Хвост фелионоида
-marking-FelionoidTail-tail_behind = Хвост фелионоида
-marking-FelionoidTailAnimated = Хвост фелионоида (виляет)
+marking-FelionoidTail = Хвост фелиноида
+marking-FelionoidTail-tail_behind = Хвост фелиноида
+marking-FelionoidTailAnimated = Хвост фелиноида (виляет)
 marking-FelionoidTailAnimated-tail_wagging = Хвост (виляет)
 marking-FelionoidTailTipAnimated = Хвост с кончиком (виляет)

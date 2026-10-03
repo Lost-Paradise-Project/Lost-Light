@@ -10,7 +10,7 @@ marking-SlimeTailWaggableMassWag = Виляющая масса (виляет)
 
 marking-SlimeEarsFoxlike = Лисьи
 marking-SlimeEarsBlades = Лезвия
-marking-SlimeEarsBunks = Койки
+marking-SlimeEarsBunks = Пучки
 marking-SlimeEarsCarblunkle = Карбункул
 marking-SlimeEarsHoppers = Прыгуны
 marking-SlimeEarsStalks = Большие стебли

@@ -28,7 +28,7 @@ research-technology-declone-technology = Технология деклониро
 research-technology-scan-gate = Технология сканирующих ворот
 
 research-technology-lawboards = Платы законов ИИ
-research-technology-lawboards-description = Продвинутая схемотехника плат законов ИИ для программирования кремниевых сущностей различными поведенческими директивами.
+research-technology-lawboards-description = Продвинутая схемотехника плат законов ИИ для программирования синтетиков различными поведенческими директивами.
 
 research-technology-cloning = Системы клонирования
 

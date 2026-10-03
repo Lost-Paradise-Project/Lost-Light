@@ -31,6 +31,7 @@
     Head: MobShadekinHead
     Eyes: MobNeocyteEyes
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobShadekinTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -96,3 +97,4 @@
     Arms:
       points: 2
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)

@@ -1,18 +1,18 @@
 # Far Horizons + Starlight
-species-name-neocyte = Неоцит
-guidebook-armor-neocyte = Каркасы неоцитов
+species-name-neocyte = Протоген
+guidebook-armor-neocyte = Каркасы протогенов
 # Starlight, Neocyte Frames, True Neocyte, Neo Laspi, Human, Felionoid, Dwarf, and Cyclorite renamed
-subspecies-name-trueneocyte = Истинный неоцит
+subspecies-name-trueneocyte = Истинный протоген
 subspecies-name-neovulpkanin = Нео-вульпканин
 subspecies-name-neovox = Нео-вокс
 subspecies-name-neothaven = Нео-тавен
 subspecies-name-neoslimeperson = Нео-слаймолюд
-subspecies-name-neokin = Нео-сородич
-subspecies-name-neoresomi = Нео-ресоми
-subspecies-name-neoreptilian = Нео-рептилоид
-subspecies-name-neomoth = Нео-моль
+subspecies-name-neokin = Нео-теневик
+subspecies-name-neoresomi = Нео-резоми
+subspecies-name-neoreptilian = Нео-унатх
+subspecies-name-neomoth = Нео-ниан
 subspecies-name-neohuman = Нео-человек
-subspecies-name-neofelionoid = Нео-фелионоид
+subspecies-name-neofelionoid = Нео-фелиноид
 subspecies-name-neodwarf = Нео-дворф
 subspecies-name-neodiona = Нео-диона
 subspecies-name-neocyclorite = Нео-циклорит

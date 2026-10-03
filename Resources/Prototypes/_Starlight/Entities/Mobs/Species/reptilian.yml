@@ -23,6 +23,7 @@
     - HeadSide
     - Hair # Starlight
     - Tail
+    # LP edit - убрано нижнее бельё (цензура наготы)
   - type: Hunger
   - type: Puller
     needsHands: false

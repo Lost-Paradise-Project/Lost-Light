@@ -20,3 +20,9 @@ mentor-system-ticket-closed = Система: тикет решён и тепе�
 mentor-system-ticket-claimed = Система: тикет принят ментором { $name }.
 mentor-system-player-disconnecting = отключился.
 mentor-system-player-reconnecting = переподключился.
+
+staff-help-title = Помощь администрации и менторов
+staff-help-admin-hint = Чтобы сообщить администрации о проблеме с другим игроком
+staff-help-admin = Помощь администрации
+staff-help-mentor-hint = Чтобы задать вопрос об игре
+staff-help-mentor = Помощь менторов

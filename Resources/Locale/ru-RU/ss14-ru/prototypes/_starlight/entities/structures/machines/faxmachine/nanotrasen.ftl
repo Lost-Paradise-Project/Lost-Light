@@ -20,4 +20,4 @@ ent-FaxMachineNTBlueshield = { ent-FaxMachineNTBase }
     .suffix = НТ: ОСЩ
 ent-FaxMachineNTCareerTrainer = { ent-FaxMachineNTBase }
     .desc = { ent-FaxMachineNTBase.desc }
-    .suffix = НТ: тренер карьеры
+    .suffix = НТ: карьерный коуч

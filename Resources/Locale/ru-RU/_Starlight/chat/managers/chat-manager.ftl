@@ -10,7 +10,7 @@ chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][Bubble
 
 chat-manager-send-ooc-wrap-message = OOC: [bold]{ $playerTitle } [color={ $nameColor }]{ $playerName }:[/color] [color={ $messageColor }]{ $message }[/color][/bold]
 
-chat-speech-verb-name-felionoid = Фелионоид
+chat-speech-verb-name-felionoid = Фелиноид
 chat-speech-verb-felionoid-1 = мурлычет
 chat-speech-verb-felionoid-2 = мяукает
 chat-speech-verb-felionoid-3 = шипит
@@ -31,7 +31,7 @@ chat-speech-verb-thaven-4 = голосит
 
 chat-speech-verb-name-lagomorph = Лагоморф
 chat-speech-verb-lagomorph = пищит
-chat-speech-verb-name-resomi = Ресоми
+chat-speech-verb-name-resomi = Резоми
 chat-speech-verb-resomi-1 = каркает
 chat-speech-verb-resomi-2 = чирикает
 

@@ -16,7 +16,7 @@
     - type: BodyEmotes
       soundsId: CatMothBodyEmotes
     - type: TextToSpeech
-      voice: ICASSP48
+      voice: ntts_luna_dota_2 # LP edit - голос ntts (был ICASSP48)
     - type: Body
       prototype: CatMoth
     - type: Loadout
@@ -226,6 +226,7 @@
     Head: MobMothHead
     Hair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobKoniTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking

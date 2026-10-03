@@ -3,6 +3,7 @@ using Content.Server.Chat.Systems;
 using Content.Server.Interaction;
 using Content.Server.Popups;
 using Content.Server.Power.EntitySystems;
+using Content.Server._Starlight.TextToSpeech;
 using Content.Shared._Goobstation.StationRadio.Components;
 using Content.Shared.Chat;
 using Content.Shared.Examine;
@@ -36,6 +37,7 @@ public sealed partial class RadioDeviceSystem : SharedRadioDeviceSystem
     [Dependency] private SharedAppearanceSystem _appearance = default!;
 
     [Dependency] private SharedPowerReceiverSystem _power = default!; // Goobstation - Radio Host
+    [Dependency] private TTSSystem _tts = default!; // LP edit
 
     // Used to prevent a shitter from using a bunch of radios to spam chat.
     private HashSet<(string, EntityUid, string)> _recentlySent = new(); // Starlight edit
@@ -228,6 +230,8 @@ public sealed partial class RadioDeviceSystem : SharedRadioDeviceSystem
             transmitRange,// Starlight - Radio Host (ChatTransmitRange.GhostRangeLimit -> transmitRange)
             nameOverride: name, checkRadioPrefix: false,
             languageOverride: args.Language); // Starlight
+
+        _tts.PlayRelayedSpeech(uid, args.MessageSource, message, args.Language, chatType == InGameICChatType.Whisper, TTSEffect.Walkie); // LP edit - интерком и ручная рация говорят голосом говорящего
     }
 
     private void OnIntercomEncryptionChannelsChanged(Entity<IntercomComponent> ent, ref EncryptionChannelsChangedEvent args)

@@ -174,6 +174,6 @@ marking-ThavenTailStub = Хвост-обрубок
 marking-ThavenTailStub-stub1 = Хвост
 marking-ThavenTailStub-stub2 = Полосы
 
-marking-ThavenTailThresher = Хвост акулы-молота
+marking-ThavenTailThresher = Хвост лисьей акулы
 marking-ThavenTailThresher-thresher1 = Хвост
 marking-ThavenTailThresher-thresher2 = Полосы

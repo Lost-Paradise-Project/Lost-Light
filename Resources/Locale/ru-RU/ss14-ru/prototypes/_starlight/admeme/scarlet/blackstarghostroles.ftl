@@ -1,12 +1,12 @@
 ent-RandomHumanoidSpawnerBlackstarOperative = Ходок ужаса Чёрной звезды
     .desc = { "" }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-RandomHumanoidSpawnerBlackstarLegionnaire = Легионер Чёрной звезды
     .desc = { "" }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-RandomHumanoidSpawnerBlackstarBlackguard = Блэкгард Чёрной звезды
     .desc = { "" }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-RandomHumanoidSpawnerBlackstarInitiate = Новичок Чёрной звезды
     .desc = { "" }
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ

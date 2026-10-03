@@ -1,0 +1,31 @@
+## Rubber stamp names
+
+stamp-component-stamped-name-rubber-stamp-base-fake = Подделка
+stamp-component-stamped-name-rubber-stamp-magistrate = Магистрат
+stamp-component-stamped-name-rubber-stamp-ntrep = Представитель NanoTrasen
+stamp-component-stamped-name-rubber-stamp-bso = Офицер «Синий щит»
+stamp-component-stamped-name-rubber-stamp-cad = Центральный административный отдел
+stamp-component-stamped-name-rubber-stamp-ccd = Центральный отдел снабжения
+stamp-component-stamped-name-rubber-stamp-ced = Центральный инженерный отдел
+stamp-component-stamped-name-rubber-stamp-cid = Центральный разведывательный отдел
+stamp-component-stamped-name-rubber-stamp-cmd = Центральный медицинский отдел
+stamp-component-stamped-name-rubber-stamp-crd = Центральный научный отдел
+stamp-component-stamped-name-rubber-stamp-cdd = Центральный бытовой отдел
+stamp-component-stamped-name-rubber-stamp-csod = Центральный отдел специальных операций
+stamp-component-stamped-name-rubber-stamp-csd = Центральный отдел безопасности
+stamp-component-stamped-name-rubber-stamp-acknowledged = Принято к сведению
+stamp-component-stamped-name-rubber-stamp-missing-stamps = Не хватает печатей
+stamp-component-stamped-name-rubber-stamp-incorrect-stamps = Неверные печати
+stamp-component-stamped-name-rubber-stamp-incorrect-form = Неверная форма
+stamp-component-stamped-name-rubber-stamp-incomplete-form = Форма не заполнена
+stamp-component-stamped-name-rubber-stamp-sent-to-ats = Отправлено на АТС
+stamp-component-stamped-name-rubber-stamp-defer-to-command = Передано командованию
+stamp-component-stamped-name-rubber-stamp-standby = Ожидайте
+stamp-component-stamped-name-rubber-stamp-salvage-lead = Глава утилизаторов
+stamp-component-stamped-name-rubber-stamp-tsf = Альянс Независимых Систем
+stamp-component-stamped-name-rubber-stamp-tsmc = Корпус морской пехоты АНС
+stamp-component-stamped-name-rubber-stamp-solgov-law = Правоохранительные органы АНС
+stamp-component-stamped-name-rubber-stamp-solgov-rep = Представитель АНС
+stamp-component-stamped-name-rubber-stamp-solgov-traders = Торговцы АНС
+stamp-component-stamped-name-rubber-stamp-itg = Межзвёздная торговая гильдия
+stamp-component-stamped-name-rubber-stamp-med-tak = МедТак

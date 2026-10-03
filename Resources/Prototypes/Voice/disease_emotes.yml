@@ -23,6 +23,14 @@
   - sneezed!
   - sneeze? # Starlight
   - sneezes? # Starlight
+  # LP edit start
+  - чихнуть
+  - чихать
+  - чихает
+  - чихнул
+  - чихнула
+  - апчхи
+  # LP edit end
 
 - type: emote
   id: Cough
@@ -47,6 +55,12 @@
     - cough!
     - coughs!
     - coughed!
+    # LP edit start
+    - кашлять
+    - кашляет
+    - кашлянул
+    - кашлянула
+    # LP edit end
 
 - type: emote
   id: CatMeow
@@ -87,6 +101,12 @@
   chatTriggers:
     - yawn
     - yawns
+    # LP edit start
+    - зевать
+    - зевает
+    - зевнул
+    - зевнула
+    # LP edit end
 
 - type: emote
   id: Snore

@@ -21,6 +21,12 @@
   - yips.
   - yips?
   - yips!
+  # LP edit start
+  - тявкать
+  - тявкает
+  - тявкнул
+  - тявкнула
+  # LP edit end
 
 - type: emote
   id: Mew
@@ -45,6 +51,11 @@
     - mews.
     - mews!
     - mews?
+    # LP edit start
+    - мяу
+    - мявкать
+    - мявкает
+    # LP edit end
 
 - type: emote
   id: Hisses
@@ -73,6 +84,12 @@
   - hisses.
   - hisses!
   - hisses?
+  # LP edit start
+  - шипеть
+  - шипит
+  - зашипел
+  - зашипела
+  # LP edit end
 
 - type: emote
   id: Meow
@@ -101,6 +118,12 @@
     - meowing.
     - meowing!
     - meowing?
+    # LP edit start
+    - мяукать
+    - мяукает
+    - мяукнул
+    - мяукнула
+    # LP edit end
 
 - type: emote
   id: Purr
@@ -129,6 +152,12 @@
     - purring.
     - purring?
     - purring!
+    # LP edit start
+    - мурлыкать
+    - мурлычет
+    - замурлыкал
+    - замурлыкала
+    # LP edit end
 
 - type: emote
   id: Trill
@@ -157,6 +186,11 @@
     - trilling.
     - trilling!
     - trilling?
+    # LP edit start
+    - трель
+    - издаёт трель
+    - издает трель
+    # LP edit end
 
 - type: emote
   id: Marr
@@ -180,6 +214,9 @@
     - marrs.
     - marrs!
     - marrs?
+    # LP edit start
+    - марр
+    # LP edit end
 
 - type: emote
   id: Wurble
@@ -203,6 +240,10 @@
     - wurbles.
     - wurbles!
     - wurbles?
+    # LP edit start
+    - вурбл
+    - вурблит
+    # LP edit end
 
 - type: emote
   id: Scree
@@ -231,6 +272,12 @@
   - screes.
   - screes!
   - screes?
+  # LP edit start
+  - визжать
+  - визжит
+  - завизжал
+  - завизжала
+  # LP edit end
 
 - type: emote
   id: Call
@@ -259,6 +306,11 @@
   - calls.
   - calls!
   - calls?
+  # LP edit start
+  - звать
+  - зовёт
+  - зовет
+  # LP edit end
 
 - type: emote
   id: Squawk
@@ -287,6 +339,12 @@
   - squawks.
   - squawks!
   - squawks?
+  # LP edit start
+  - каркать
+  - каркает
+  - каркнул
+  - каркнула
+  # LP edit end
 
 - type: emote
   id: Lurr
@@ -315,6 +373,11 @@
   - lurrs.
   - lurrs!
   - lurrs?
+  # LP edit start
+  - лурр
+  - урчать
+  - урчит
+  # LP edit end
 
 - type: emote
   id: Liss
@@ -343,6 +406,9 @@
   - lisses.
   - lisses!
   - lisses?
+  # LP edit start
+  - лисс
+  # LP edit end
 
 - type: emote
   id: Rattle
@@ -371,6 +437,12 @@
   - rattles.
   - rattles!
   - rattles?
+  # LP edit start
+  - трещать
+  - трещит
+  - затрещал
+  - затрещала
+  # LP edit end
 
 - type: emote
   id: Bubble
@@ -391,6 +463,12 @@
   - bubbles.
   - bubbles!
   - bubbles?
+  # LP edit start
+  - булькать
+  - булькает
+  - булькнул
+  - булькнула
+  # LP edit end
 
 - type: emote
   id: Pop
@@ -411,6 +489,11 @@
   - pops.
   - pops!
   - pops?
+  # LP edit start
+  - чпок
+  - чпокать
+  - чпокает
+  # LP edit end
 
 - type: emote
   id: Squee
@@ -435,6 +518,10 @@
   - squeeks.
   - squeeks?
   - squeeks!
+  # LP edit start
+  - попискивать
+  - попискивает
+  # LP edit end
 
 - type: emote
   id: Snort
@@ -459,6 +546,12 @@
   - snorts.
   - snorts?
   - snorts!
+  # LP edit start
+  - фыркать
+  - фыркает
+  - фыркнул
+  - фыркнула
+  # LP edit end
 
 - type: emote
   id: LagomorphSnore
@@ -483,6 +576,12 @@
   - snores.
   - snores?
   - snores!
+  # LP edit start
+  - храпеть
+  - храпит
+  - захрапел
+  - захрапела
+  # LP edit end
 
 - type: emote
   id: LagomorphStomp
@@ -507,6 +606,12 @@
   - stomps.
   - stomps?
   - stomps!
+  # LP edit start
+  - топать
+  - топает
+  - топнул
+  - топнула
+  # LP edit end
 
 - type: emote
   id: ThavenGlub
@@ -531,6 +636,10 @@
     - glubs.
     - glubs!
     - glubs?
+    # LP edit start
+    - глюб
+    - глюбает
+    # LP edit end
 
 - type: emote
   id: ThavenHum
@@ -555,6 +664,10 @@
     - hums.
     - hums!
     - hums?
+    # LP edit start
+    - напевать
+    - напевает
+    # LP edit end
 
 - type: emote
   id: Arf
@@ -578,6 +691,12 @@
   - arfs.
   - arfs!
   - arfs?
+  # LP edit start
+  - гавкать
+  - гавкает
+  - гавкнул
+  - гавкнула
+  # LP edit end
 
 - type: emote
   id: Blink
@@ -600,3 +719,9 @@
   - blinked.
   - blinked!
   - blinked?
+  # LP edit start
+  - моргать
+  - моргает
+  - моргнул
+  - моргнула
+  # LP edit end

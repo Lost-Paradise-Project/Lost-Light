@@ -7,6 +7,10 @@
   description: Just add capitalism!
   abstract: true
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_turret_floor
+  # LP edit end
   # Starlight-start: Languages
   - type: LanguageSpeaker
   - type: LanguageKnowledge

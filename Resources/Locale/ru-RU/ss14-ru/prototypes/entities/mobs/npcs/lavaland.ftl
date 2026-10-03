@@ -12,4 +12,4 @@ ent-MobWatcherMagmawing = наблюдатель-магмакрыл
     .suffix = { ent-MobWatcherBase.suffix }
 ent-MobWatcherPride = гордый наблюдатель
     .desc = Этот редкий подвид появляется только в июне.
-    .suffix = АДМЕМЫ
+    .suffix = АДМЕМЕ

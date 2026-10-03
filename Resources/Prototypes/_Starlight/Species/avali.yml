@@ -28,6 +28,7 @@
   id: MobAvaliSprites
   sprites:
     Head: MobAvaliHead
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobAvaliTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -78,6 +79,7 @@
     Legs:
       points: 2
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Arms:
       points: 4
       required: false

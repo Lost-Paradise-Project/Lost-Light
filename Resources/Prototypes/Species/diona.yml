@@ -28,6 +28,7 @@
     Head: MobDionaHead
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobDionaTorso
     Eyes: MobDionaEyes
     LArm: MobDionaLArm
@@ -52,6 +53,7 @@
     HeadSide:
       points: 1
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest:
       points: 2
       required: false

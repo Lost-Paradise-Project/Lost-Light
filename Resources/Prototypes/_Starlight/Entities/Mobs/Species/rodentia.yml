@@ -67,6 +67,7 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    # LP edit - убрано нижнее бельё (цензура наготы)
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.LFoot" ] # Starlight: Layering fix
     - map: [ "enum.HumanoidVisualLayers.RFoot" ] # Starlight: Layering fix
@@ -131,6 +132,7 @@
   - type: Rummager
   - type: HumanoidAppearance
     species: Rodentia
+    # LP edit - убрано нижнее бельё (цензура наготы)
     hideLayersOnEquip:
     - Hair
     - HeadTop

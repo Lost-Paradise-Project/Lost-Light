@@ -2,6 +2,7 @@
   name: bang hitscan 1dmg
   parent: BaseWeaponBatterySmall
   id: WeaponHitscanDebug
+  categories: [ HideSpawnMenu ] # LP edit
   description: pew pew!
   suffix: DEBUG
   components:
@@ -33,6 +34,7 @@
   name: bang, ded
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
+  categories: [ HideSpawnMenu ] # LP edit
   description: ded
   suffix: DEBUG
   components:
@@ -71,6 +73,7 @@
 
 - type: entity
   id: MagazinePistolDebug
+  categories: [ HideSpawnMenu ] # LP edit
   name: bang, ded mag
   parent: BaseMagazinePistol
   suffix: DEBUG
@@ -98,6 +101,7 @@
 
 - type: entity
   id: CartridgeDebug
+  categories: [ HideSpawnMenu ] # LP edit
   name: bang, ded cartridge
   parent: BaseCartridgePistol
   suffix: DEBUG
@@ -110,6 +114,7 @@
 
 - type: entity
   name: bang stick gibber
+  categories: [ HideSpawnMenu ] # LP edit
   parent: BaseItem
   id: MeleeDebugGib
   description: hit hard ye

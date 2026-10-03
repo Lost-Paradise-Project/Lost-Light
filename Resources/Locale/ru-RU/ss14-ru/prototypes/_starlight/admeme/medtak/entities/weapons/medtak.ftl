@@ -1,15 +1,15 @@
 ent-WeaponMedTakLightMachineGun = CODE-6 «Арбитраж»
     .desc = Сверхлёгкий штурмовой ручной пулемёт, разработанный для СБ МедТак.
         Accepts .30 box magazines.
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-WeaponMedTakRifle = CODE-9 «Соответствие»
     .desc =
         Тяжёлая винтовка-буллпап, разработанная для операторов МедТак.
         Использует тяжёлые магазины калибра .20.
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-WeaponMedTakRifleROW = CODE-9 ROW
     .desc = Урезанная CODE-9, разработанная для киборгов, питается от медленно заряжающегося внутреннего фабрикатора боеприпасов.
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-WeaponMedTakPistol = CODE-4 «Сортировка»
     .desc = Тяжёлое личное оружие, выдаваемое операторам МедТак.
         Accepts .40 pistol magazines.

@@ -1,0 +1,3026 @@
+# Голоса ntts.fdev.team. Сгенерировано из GET /api/v1/tts/speakers, руками не править.
+
+- type: voice
+  id: ntts_abaddon_dota_2
+  voice: 100000
+  speaker: "abaddon_dota_2"
+  name: tts-voice-name-ntts-abaddon-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_abraham_ronen
+  voice: 100001
+  speaker: "abraham_ronen"
+  name: tts-voice-name-ntts-abraham-ronen
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_adjutant
+  voice: 100002
+  speaker: "adjutant"
+  name: tts-voice-name-ntts-adjutant
+  sex: Female
+  silicon: true
+  copyright: "StarCraft 2"
+  tags:
+  - ntts-starcraft-2
+
+- type: voice
+  id: ntts_adventure_core
+  voice: 100003
+  speaker: "adventure_core"
+  name: tts-voice-name-ntts-adventure-core
+  sex: Male
+  silicon: true
+  copyright: "Portal 2"
+  tags:
+  - ntts-portal-2
+
+- type: voice
+  id: ntts_aesop_sharp
+  voice: 100004
+  speaker: "aesop_sharp"
+  name: tts-voice-name-ntts-aesop-sharp
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_alchemist_dota_2
+  voice: 100005
+  speaker: "alchemist_dota_2"
+  name: tts-voice-name-ntts-alchemist-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_alyx
+  voice: 100006
+  speaker: "alyx"
+  name: tts-voice-name-ntts-alyx
+  sex: Female
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_amina
+  voice: 100007
+  speaker: "amina"
+  name: tts-voice-name-ntts-amina
+  sex: Female
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_amitkakkar
+  voice: 100008
+  speaker: "amitkakkar"
+  name: tts-voice-name-ntts-amitkakkar
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_anduin
+  voice: 100009
+  speaker: "anduin"
+  name: tts-voice-name-ntts-anduin
+  sex: Male
+  silicon: false
+  copyright: "Hearthstone"
+  tags:
+  - ntts-hearthstone
+
+- type: voice
+  id: ntts_angry_neco_arc
+  voice: 100010
+  speaker: "angry_neco_arc"
+  name: tts-voice-name-ntts-angry-neco-arc
+  sex: Female
+  silicon: false
+  copyright: "Fate"
+  tags:
+  - ntts-fate
+
+- type: voice
+  id: ntts_anti-mage_dota_2
+  voice: 100011
+  speaker: "anti-mage_dota_2"
+  name: tts-voice-name-ntts-anti-mage-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_arc_warden_dota_2
+  voice: 100012
+  speaker: "arc_warden_dota_2"
+  name: tts-voice-name-ntts-arc-warden-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_arthas
+  voice: 100013
+  speaker: "arthas"
+  name: tts-voice-name-ntts-arthas
+  sex: Male
+  silicon: false
+  copyright: "Warcraft 3"
+  tags:
+  - ntts-warcraft-3
+
+- type: voice
+  id: ntts_astrid
+  voice: 100014
+  speaker: "astrid"
+  name: tts-voice-name-ntts-astrid
+  sex: Female
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_azir
+  voice: 100015
+  speaker: "azir"
+  name: tts-voice-name-ntts-azir
+  sex: Male
+  silicon: false
+  copyright: "League of Legends"
+  tags:
+  - ntts-league-of-legends
+
+- type: voice
+  id: ntts_bandit
+  voice: 100016
+  speaker: "bandit"
+  name: tts-voice-name-ntts-bandit
+  sex: Male
+  silicon: false
+  copyright: "S.T.A.L.K.E.R."
+  tags:
+  - ntts-s-t-a-l-k-e-r
+
+- type: voice
+  id: ntts_barni
+  voice: 100017
+  speaker: "barni"
+  name: tts-voice-name-ntts-barni
+  sex: Male
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_batrider_dota_2
+  voice: 100018
+  speaker: "batrider_dota_2"
+  name: tts-voice-name-ntts-batrider-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_bebey
+  voice: 100019
+  speaker: "bebey"
+  name: tts-voice-name-ntts-bebey
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_biden
+  voice: 100020
+  speaker: "biden"
+  name: tts-voice-name-ntts-biden
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_bloodseeker_dota_2
+  voice: 100021
+  speaker: "bloodseeker_dota_2"
+  name: tts-voice-name-ntts-bloodseeker-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_boris_petrov_father_tb
+  voice: 100022
+  speaker: "boris_petrov_father_tb"
+  name: tts-voice-name-ntts-boris-petrov-father-tb
+  sex: Male
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_bounty_hunter_dota_2
+  voice: 100023
+  speaker: "bounty_hunter_dota_2"
+  name: tts-voice-name-ntts-bounty-hunter-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_bralik
+  voice: 100024
+  speaker: "bralik"
+  name: tts-voice-name-ntts-bralik
+  sex: Male
+  silicon: false
+  copyright: "StarCraft 2"
+  tags:
+  - ntts-starcraft-2
+
+- type: voice
+  id: ntts_brendan
+  voice: 100025
+  speaker: "brendan"
+  name: tts-voice-name-ntts-brendan
+  sex: Male
+  silicon: true
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_briman
+  voice: 100026
+  speaker: "briman"
+  name: tts-voice-name-ntts-briman
+  sex: Male
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_bristleback_dota_2
+  voice: 100027
+  speaker: "bristleback_dota_2"
+  name: tts-voice-name-ntts-bristleback-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_broodmother_dota_2
+  voice: 100028
+  speaker: "broodmother_dota_2"
+  name: tts-voice-name-ntts-broodmother-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_brukan
+  voice: 100029
+  speaker: "brukan"
+  name: tts-voice-name-ntts-brukan
+  sex: Male
+  silicon: false
+  copyright: "Hearthstone"
+  tags:
+  - ntts-hearthstone
+
+- type: voice
+  id: ntts_butch
+  voice: 100030
+  speaker: "butch"
+  name: tts-voice-name-ntts-butch
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_caitlyn
+  voice: 100031
+  speaker: "caitlyn"
+  name: tts-voice-name-ntts-caitlyn
+  sex: Female
+  silicon: false
+  copyright: "League of Legends"
+  tags:
+  - ntts-league-of-legends
+
+- type: voice
+  id: ntts_centaur_warrunner_dota_2
+  voice: 100032
+  speaker: "centaur_warrunner_dota_2"
+  name: tts-voice-name-ntts-centaur-warrunner-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_cerys
+  voice: 100033
+  speaker: "cerys"
+  name: tts-voice-name-ntts-cerys
+  sex: Female
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_chaos_marines_cultists_dow
+  voice: 100034
+  speaker: "chaos_marines_cultists_dow"
+  name: tts-voice-name-ntts-chaos-marines-cultists-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_chaos_marines_dow
+  voice: 100035
+  speaker: "chaos_marines_dow"
+  name: tts-voice-name-ntts-chaos-marines-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_chaos_marines_lord_dow
+  voice: 100036
+  speaker: "chaos_marines_lord_dow"
+  name: tts-voice-name-ntts-chaos-marines-lord-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_chaos_marines_sorceror_dow
+  voice: 100037
+  speaker: "chaos_marines_sorceror_dow"
+  name: tts-voice-name-ntts-chaos-marines-sorceror-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_charlotte
+  voice: 100038
+  speaker: "charlotte"
+  name: tts-voice-name-ntts-charlotte
+  sex: Female
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_cicero
+  voice: 100039
+  speaker: "cicero"
+  name: tts-voice-name-ntts-cicero
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_cirilla
+  voice: 100040
+  speaker: "cirilla"
+  name: tts-voice-name-ntts-cirilla
+  sex: Female
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_clinkz_dota_2
+  voice: 100041
+  speaker: "clinkz_dota_2"
+  name: tts-voice-name-ntts-clinkz-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_clockwerk_dota_2
+  voice: 100042
+  speaker: "clockwerk_dota_2"
+  name: tts-voice-name-ntts-clockwerk-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_colin_moriarty_fl3
+  voice: 100043
+  speaker: "colin_moriarty_fl3"
+  name: tts-voice-name-ntts-colin-moriarty-fl3
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_crystal_maiden_dota_2
+  voice: 100044
+  speaker: "crystal_maiden_dota_2"
+  name: tts-voice-name-ntts-crystal-maiden-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_dandelion
+  voice: 100045
+  speaker: "dandelion"
+  name: tts-voice-name-ntts-dandelion
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_dark_eldar_archon_dow
+  voice: 100046
+  speaker: "dark_eldar_archon_dow"
+  name: tts-voice-name-ntts-dark-eldar-archon-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_dark_eldar_mandrake_dow
+  voice: 100047
+  speaker: "dark_eldar_mandrake_dow"
+  name: tts-voice-name-ntts-dark-eldar-mandrake-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_dark_eldar_warrior_dow
+  voice: 100048
+  speaker: "dark_eldar_warrior_dow"
+  name: tts-voice-name-ntts-dark-eldar-warrior-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_dark_eldar_wych_dow
+  voice: 100049
+  speaker: "dark_eldar_wych_dow"
+  name: tts-voice-name-ntts-dark-eldar-wych-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_dazzle_dota_2
+  voice: 100050
+  speaker: "dazzle_dota_2"
+  name: tts-voice-name-ntts-dazzle-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_dbkn2
+  voice: 100051
+  speaker: "dbkn2"
+  name: tts-voice-name-ntts-dbkn2
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_demoman
+  voice: 100052
+  speaker: "demoman"
+  name: tts-voice-name-ntts-demoman
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_dinah_hecat
+  voice: 100053
+  speaker: "dinah_hecat"
+  name: tts-voice-name-ntts-dinah-hecat
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_disruptor_dota_2
+  voice: 100054
+  speaker: "disruptor_dota_2"
+  name: tts-voice-name-ntts-disruptor-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_doom_dota_2
+  voice: 100055
+  speaker: "doom_dota_2"
+  name: tts-voice-name-ntts-doom-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_dornan
+  voice: 100056
+  speaker: "dornan"
+  name: tts-voice-name-ntts-dornan
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_dragon_knight_dota_2
+  voice: 100057
+  speaker: "dragon_knight_dota_2"
+  name: tts-voice-name-ntts-dragon-knight-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_dragon_knight_dragon_dota_2
+  voice: 100058
+  speaker: "dragon_knight_dragon_dota_2"
+  name: tts-voice-name-ntts-dragon-knight-dragon-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_drow_ranger_dota_2
+  voice: 100059
+  speaker: "drow_ranger_dota_2"
+  name: tts-voice-name-ntts-drow-ranger-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_dude
+  voice: 100060
+  speaker: "dude"
+  name: tts-voice-name-ntts-dude
+  sex: Male
+  silicon: false
+  copyright: "Postal 2"
+  tags:
+  - ntts-postal-2
+
+- type: voice
+  id: ntts_earthshaker_dota_2
+  voice: 100061
+  speaker: "earthshaker_dota_2"
+  name: tts-voice-name-ntts-earthshaker-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_ekko
+  voice: 100062
+  speaker: "ekko"
+  name: tts-voice-name-ntts-ekko
+  sex: Male
+  silicon: false
+  copyright: "League of Legends"
+  tags:
+  - ntts-league-of-legends
+
+- type: voice
+  id: ntts_eldar_dow
+  voice: 100063
+  speaker: "eldar_dow"
+  name: tts-voice-name-ntts-eldar-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_eldar_farseer_dow
+  voice: 100064
+  speaker: "eldar_farseer_dow"
+  name: tts-voice-name-ntts-eldar-farseer-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_eldar_fire_dragon_dow
+  voice: 100065
+  speaker: "eldar_fire_dragon_dow"
+  name: tts-voice-name-ntts-eldar-fire-dragon-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_eldar_warlock_dow
+  voice: 100066
+  speaker: "eldar_warlock_dow"
+  name: tts-voice-name-ntts-eldar-warlock-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_elder_lyons_fl3
+  voice: 100067
+  speaker: "elder_lyons_fl3"
+  name: tts-voice-name-ntts-elder-lyons-fl3
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_eleazarfig
+  voice: 100068
+  speaker: "eleazarfig"
+  name: tts-voice-name-ntts-eleazarfig
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_elenwen
+  voice: 100069
+  speaker: "elenwen"
+  name: tts-voice-name-ntts-elenwen
+  sex: Female
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_ember_spirit_dota_2
+  voice: 100070
+  speaker: "ember_spirit_dota_2"
+  name: tts-voice-name-ntts-ember-spirit-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_emperor
+  voice: 100071
+  speaker: "emperor"
+  name: tts-voice-name-ntts-emperor
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_engineer
+  voice: 100072
+  speaker: "engineer"
+  name: tts-voice-name-ntts-engineer
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_enigma_dota_2
+  voice: 100073
+  speaker: "enigma_dota_2"
+  name: tts-voice-name-ntts-enigma-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_ernielark
+  voice: 100074
+  speaker: "ernielark"
+  name: tts-voice-name-ntts-ernielark
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_everett_clopton
+  voice: 100075
+  speaker: "everett_clopton"
+  name: tts-voice-name-ntts-everett-clopton
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_evil_thalya
+  voice: 100076
+  speaker: "evil_thalya"
+  name: tts-voice-name-ntts-evil-thalya
+  sex: Female
+  silicon: false
+  copyright: "Dungeons 3"
+  tags:
+  - ntts-dungeons-3
+
+- type: voice
+  id: ntts_ewald_borsodi
+  voice: 100077
+  speaker: "ewald_borsodi"
+  name: tts-voice-name-ntts-ewald-borsodi
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_fact_core
+  voice: 100078
+  speaker: "fact_core"
+  name: tts-voice-name-ntts-fact-core
+  sex: Male
+  silicon: true
+  copyright: "Portal 2"
+  tags:
+  - ntts-portal-2
+
+- type: voice
+  id: ntts_father_grigori
+  voice: 100079
+  speaker: "father_grigori"
+  name: tts-voice-name-ntts-father-grigori
+  sex: Male
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_female_commander
+  voice: 100080
+  speaker: "female_commander"
+  name: tts-voice-name-ntts-female-commander
+  sex: Female
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_forester
+  voice: 100081
+  speaker: "forester"
+  name: tts-voice-name-ntts-forester
+  sex: Male
+  silicon: false
+  copyright: "S.T.A.L.K.E.R."
+  tags:
+  - ntts-s-t-a-l-k-e-r
+
+- type: voice
+  id: ntts_garrosh
+  voice: 100082
+  speaker: "garrosh"
+  name: tts-voice-name-ntts-garrosh
+  sex: Male
+  silicon: false
+  copyright: "Hearthstone"
+  tags:
+  - ntts-hearthstone
+
+- type: voice
+  id: ntts_generic_goblin_b
+  voice: 100083
+  speaker: "generic_goblin_b"
+  name: tts-voice-name-ntts-generic-goblin-b
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_generic_goblin_c
+  voice: 100084
+  speaker: "generic_goblin_c"
+  name: tts-voice-name-ntts-generic-goblin-c
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_geralt
+  voice: 100085
+  speaker: "geralt"
+  name: tts-voice-name-ntts-geralt
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_glados
+  voice: 100086
+  speaker: "glados"
+  name: tts-voice-name-ntts-glados
+  sex: Female
+  silicon: true
+  copyright: "Portal 2"
+  tags:
+  - ntts-portal-2
+
+- type: voice
+  id: ntts_gladwinmoon
+  voice: 100087
+  speaker: "gladwinmoon"
+  name: tts-voice-name-ntts-gladwinmoon
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_gman
+  voice: 100088
+  speaker: "gman"
+  name: tts-voice-name-ntts-gman
+  sex: Male
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_good_thalya
+  voice: 100089
+  speaker: "good_thalya"
+  name: tts-voice-name-ntts-good-thalya
+  sex: Female
+  silicon: false
+  copyright: "Dungeons 3"
+  tags:
+  - ntts-dungeons-3
+
+- type: voice
+  id: ntts_guard
+  voice: 100090
+  speaker: "guard"
+  name: tts-voice-name-ntts-guard
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_guard_assassin_dow
+  voice: 100091
+  speaker: "guard_assassin_dow"
+  name: tts-voice-name-ntts-guard-assassin-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_captain_dow
+  voice: 100092
+  speaker: "guard_captain_dow"
+  name: tts-voice-name-ntts-guard-captain-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_commissar_dow
+  voice: 100093
+  speaker: "guard_commissar_dow"
+  name: tts-voice-name-ntts-guard-commissar-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_enginseer_dow
+  voice: 100094
+  speaker: "guard_enginseer_dow"
+  name: tts-voice-name-ntts-guard-enginseer-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_guardsman_sergeant_dow
+  voice: 100095
+  speaker: "guard_guardsman_sergeant_dow"
+  name: tts-voice-name-ntts-guard-guardsman-sergeant-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_heavy_weapons_platoon_dow
+  voice: 100096
+  speaker: "guard_heavy_weapons_platoon_dow"
+  name: tts-voice-name-ntts-guard-heavy-weapons-platoon-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_karskin_dow
+  voice: 100097
+  speaker: "guard_karskin_dow"
+  name: tts-voice-name-ntts-guard-karskin-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_ogryn_dow
+  voice: 100098
+  speaker: "guard_ogryn_dow"
+  name: tts-voice-name-ntts-guard-ogryn-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_priest_dow
+  voice: 100099
+  speaker: "guard_priest_dow"
+  name: tts-voice-name-ntts-guard-priest-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guard_psyker_dow
+  voice: 100100
+  speaker: "guard_psyker_dow"
+  name: tts-voice-name-ntts-guard-psyker-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_guillaume_de_launfal
+  voice: 100101
+  speaker: "guillaume_de_launfal"
+  name: tts-voice-name-ntts-guillaume-de-launfal
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_gyrocopter_dota_2
+  voice: 100102
+  speaker: "gyrocopter_dota_2"
+  name: tts-voice-name-ntts-gyrocopter-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_hagraven
+  voice: 100103
+  speaker: "hagraven"
+  name: tts-voice-name-ntts-hagraven
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_hanson
+  voice: 100104
+  speaker: "hanson"
+  name: tts-voice-name-ntts-hanson
+  sex: Female
+  silicon: false
+  copyright: "StarCraft 2"
+  tags:
+  - ntts-starcraft-2
+
+- type: voice
+  id: ntts_heavy
+  voice: 100105
+  speaker: "heavy"
+  name: tts-voice-name-ntts-heavy
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_hermaeus_mora
+  voice: 100106
+  speaker: "hermaeus_mora"
+  name: tts-voice-name-ntts-hermaeus-mora
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_horner
+  voice: 100107
+  speaker: "horner"
+  name: tts-voice-name-ntts-horner
+  sex: Male
+  silicon: false
+  copyright: "StarCraft 2"
+  tags:
+  - ntts-starcraft-2
+
+- type: voice
+  id: ntts_huskar_dota_2
+  voice: 100108
+  speaker: "huskar_dota_2"
+  name: tts-voice-name-ntts-huskar-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_ignatiaflootravel
+  voice: 100109
+  speaker: "ignatiaflootravel"
+  name: tts-voice-name-ntts-ignatiaflootravel
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_illidan
+  voice: 100110
+  speaker: "illidan"
+  name: tts-voice-name-ntts-illidan
+  sex: Male
+  silicon: false
+  copyright: "Warcraft 3"
+  tags:
+  - ntts-warcraft-3
+
+- type: voice
+  id: ntts_invoker_dota_2
+  voice: 100111
+  speaker: "invoker_dota_2"
+  name: tts-voice-name-ntts-invoker-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_jackie
+  voice: 100112
+  speaker: "jackie"
+  name: tts-voice-name-ntts-jackie
+  sex: Male
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_jaina
+  voice: 100113
+  speaker: "jaina"
+  name: tts-voice-name-ntts-jaina
+  sex: Female
+  silicon: false
+  copyright: "Hearthstone"
+  tags:
+  - ntts-hearthstone
+
+- type: voice
+  id: ntts_jericho_fl3
+  voice: 100114
+  speaker: "jericho_fl3"
+  name: tts-voice-name-ntts-jericho-fl3
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_john_henry_eden_fl3
+  voice: 100115
+  speaker: "john_henry_eden_fl3"
+  name: tts-voice-name-ntts-john-henry-eden-fl3
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_johnny
+  voice: 100116
+  speaker: "johnny"
+  name: tts-voice-name-ntts-johnny
+  sex: Male
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_judy
+  voice: 100117
+  speaker: "judy"
+  name: tts-voice-name-ntts-judy
+  sex: Female
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_juggernaut_dota_2
+  voice: 100118
+  speaker: "juggernaut_dota_2"
+  name: tts-voice-name-ntts-juggernaut-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_karina_petrova_tb
+  voice: 100119
+  speaker: "karina_petrova_tb"
+  name: tts-voice-name-ntts-karina-petrova-tb
+  sex: Female
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_kate_smirnova_tb
+  voice: 100120
+  speaker: "kate_smirnova_tb"
+  name: tts-voice-name-ntts-kate-smirnova-tb
+  sex: Female
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_keeper_of_the_light_dota_2
+  voice: 100121
+  speaker: "keeper_of_the_light_dota_2"
+  name: tts-voice-name-ntts-keeper-of-the-light-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_khajiit
+  voice: 100122
+  speaker: "khajiit"
+  name: tts-voice-name-ntts-khajiit
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_kingpin
+  voice: 100123
+  speaker: "kingpin"
+  name: tts-voice-name-ntts-kingpin
+  sex: Male
+  silicon: false
+  copyright: "Kingpin: Life of Crime"
+  tags:
+  - ntts-kingpin-life-of-crime
+
+- type: voice
+  id: ntts_kleiner
+  voice: 100124
+  speaker: "kleiner"
+  name: tts-voice-name-ntts-kleiner
+  sex: Male
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_kodlakwhitemane
+  voice: 100125
+  speaker: "kodlakwhitemane"
+  name: tts-voice-name-ntts-kodlakwhitemane
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_kovir_nobleman
+  voice: 100126
+  speaker: "kovir_nobleman"
+  name: tts-voice-name-ntts-kovir-nobleman
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_kunkka_dota_2
+  voice: 100127
+  speaker: "kunkka_dota_2"
+  name: tts-voice-name-ntts-kunkka-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_lambert
+  voice: 100128
+  speaker: "lambert"
+  name: tts-voice-name-ntts-lambert
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_legion_commander_demon_dota_2
+  voice: 100129
+  speaker: "legion_commander_demon_dota_2"
+  name: tts-voice-name-ntts-legion-commander-demon-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_legion_commander_dota_2
+  voice: 100130
+  speaker: "legion_commander_dota_2"
+  name: tts-voice-name-ntts-legion-commander-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_lich_dota_2
+  voice: 100131
+  speaker: "lich_dota_2"
+  name: tts-voice-name-ntts-lich-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_lina_dota_2
+  voice: 100132
+  speaker: "lina_dota_2"
+  name: tts-voice-name-ntts-lina-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_lodgok
+  voice: 100133
+  speaker: "lodgok"
+  name: tts-voice-name-ntts-lodgok
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_lord_harkon
+  voice: 100134
+  speaker: "lord_harkon"
+  name: tts-voice-name-ntts-lord-harkon
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_luna_dota_2
+  voice: 100135
+  speaker: "luna_dota_2"
+  name: tts-voice-name-ntts-luna-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_lycan_dota_2
+  voice: 100136
+  speaker: "lycan_dota_2"
+  name: tts-voice-name-ntts-lycan-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_lycan_wolf_dota_2
+  voice: 100137
+  speaker: "lycan_wolf_dota_2"
+  name: tts-voice-name-ntts-lycan-wolf-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_maiko
+  voice: 100138
+  speaker: "maiko"
+  name: tts-voice-name-ntts-maiko
+  sex: Female
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_mana
+  voice: 100139
+  speaker: "mana"
+  name: tts-voice-name-ntts-mana
+  sex: Female
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_marcus
+  voice: 100140
+  speaker: "marcus"
+  name: tts-voice-name-ntts-marcus
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_matildaweasley
+  voice: 100141
+  speaker: "matildaweasley"
+  name: tts-voice-name-ntts-matildaweasley
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_maven
+  voice: 100142
+  speaker: "maven"
+  name: tts-voice-name-ntts-maven
+  sex: Female
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_medic
+  voice: 100143
+  speaker: "medic"
+  name: tts-voice-name-ntts-medic
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_meepo_dota_2
+  voice: 100144
+  speaker: "meepo_dota_2"
+  name: tts-voice-name-ntts-meepo-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_mirana_dota_2
+  voice: 100145
+  speaker: "mirana_dota_2"
+  name: tts-voice-name-ntts-mirana-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_mister_gutsy_fl3
+  voice: 100146
+  speaker: "mister_gutsy_fl3"
+  name: tts-voice-name-ntts-mister-gutsy-fl3
+  sex: Male
+  silicon: true
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_mister_handy_fl3
+  voice: 100147
+  speaker: "mister_handy_fl3"
+  name: tts-voice-name-ntts-mister-handy-fl3
+  sex: Male
+  silicon: true
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_mita
+  voice: 100148
+  speaker: "mita"
+  name: tts-voice-name-ntts-mita
+  sex: Female
+  silicon: false
+  copyright: "MiSide"
+  tags:
+  - ntts-miside
+
+- type: voice
+  id: ntts_mitadream
+  voice: 100149
+  speaker: "mitadream"
+  name: tts-voice-name-ntts-mitadream
+  sex: Female
+  silicon: false
+  copyright: "MiSide"
+  tags:
+  - ntts-miside
+
+- type: voice
+  id: ntts_mitaghost
+  voice: 100150
+  speaker: "mitaghost"
+  name: tts-voice-name-ntts-mitaghost
+  sex: Female
+  silicon: false
+  copyright: "MiSide"
+  tags:
+  - ntts-miside
+
+- type: voice
+  id: ntts_mitakind
+  voice: 100151
+  speaker: "mitakind"
+  name: tts-voice-name-ntts-mitakind
+  sex: Female
+  silicon: false
+  copyright: "MiSide"
+  tags:
+  - ntts-miside
+
+- type: voice
+  id: ntts_mitashorthairs
+  voice: 100152
+  speaker: "mitashorthairs"
+  name: tts-voice-name-ntts-mitashorthairs
+  sex: Female
+  silicon: false
+  copyright: "MiSide"
+  tags:
+  - ntts-miside
+
+- type: voice
+  id: ntts_mitch
+  voice: 100153
+  speaker: "mitch"
+  name: tts-voice-name-ntts-mitch
+  sex: Male
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_moira_brown
+  voice: 100154
+  speaker: "moira_brown"
+  name: tts-voice-name-ntts-moira-brown
+  sex: Female
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_monkey_king_crown_dota_2
+  voice: 100155
+  speaker: "monkey_king_crown_dota_2"
+  name: tts-voice-name-ntts-monkey-king-crown-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_monkey_king_dota_2
+  voice: 100156
+  speaker: "monkey_king_dota_2"
+  name: tts-voice-name-ntts-monkey-king-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_moriarti
+  voice: 100157
+  speaker: "moriarti"
+  name: tts-voice-name-ntts-moriarti
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_mossman
+  voice: 100158
+  speaker: "mossman"
+  name: tts-voice-name-ntts-mossman
+  sex: Female
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_myron
+  voice: 100159
+  speaker: "myron"
+  name: tts-voice-name-ntts-myron
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_nancy_hartley
+  voice: 100160
+  speaker: "nancy_hartley"
+  name: tts-voice-name-ntts-nancy-hartley
+  sex: Female
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_narrator_d3
+  voice: 100161
+  speaker: "narrator_d3"
+  name: tts-voice-name-ntts-narrator-d3
+  sex: Male
+  silicon: false
+  copyright: "Dungeons 3"
+  tags:
+  - ntts-dungeons-3
+
+- type: voice
+  id: ntts_natsaionai
+  voice: 100162
+  speaker: "natsaionai"
+  name: tts-voice-name-ntts-natsaionai
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_nazir
+  voice: 100163
+  speaker: "nazir"
+  name: tts-voice-name-ntts-nazir
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_neco
+  voice: 100164
+  speaker: "neco"
+  name: tts-voice-name-ntts-neco
+  sex: Female
+  silicon: false
+  copyright: "Fate"
+  tags:
+  - ntts-fate
+
+- type: voice
+  id: ntts_neco_arc_2
+  voice: 100165
+  speaker: "neco_arc_2"
+  name: tts-voice-name-ntts-neco-arc-2
+  sex: Female
+  silicon: false
+  copyright: "Fate"
+  tags:
+  - ntts-fate
+
+- type: voice
+  id: ntts_necrophos_dota_2
+  voice: 100166
+  speaker: "necrophos_dota_2"
+  name: tts-voice-name-ntts-necrophos-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_nord
+  voice: 100167
+  speaker: "nord"
+  name: tts-voice-name-ntts-nord
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_nyx_assassin_dota_2
+  voice: 100168
+  speaker: "nyx_assassin_dota_2"
+  name: tts-voice-name-ntts-nyx-assassin-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_obama
+  voice: 100169
+  speaker: "obama"
+  name: tts-voice-name-ntts-obama
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_officer_enclave
+  voice: 100170
+  speaker: "officer_enclave"
+  name: tts-voice-name-ntts-officer-enclave
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_ominisgaunt
+  voice: 100171
+  speaker: "ominisgaunt"
+  name: tts-voice-name-ntts-ominisgaunt
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_omniknight_dota_2
+  voice: 100172
+  speaker: "omniknight_dota_2"
+  name: tts-voice-name-ntts-omniknight-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_orks_dow
+  voice: 100173
+  speaker: "orks_dow"
+  name: tts-voice-name-ntts-orks-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_orks_flashgitznobs_dow
+  voice: 100174
+  speaker: "orks_flashgitznobs_dow"
+  name: tts-voice-name-ntts-orks-flashgitznobs-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_orks_grots_dow
+  voice: 100175
+  speaker: "orks_grots_dow"
+  name: tts-voice-name-ntts-orks-grots-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_orks_warboss_dow
+  voice: 100176
+  speaker: "orks_warboss_dow"
+  name: tts-voice-name-ntts-orks-warboss-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_oswald_forrest
+  voice: 100177
+  speaker: "oswald_forrest"
+  name: tts-voice-name-ntts-oswald-forrest
+  sex: Male
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_outworld_destroyer_dota_2
+  voice: 100178
+  speaker: "outworld_destroyer_dota_2"
+  name: tts-voice-name-ntts-outworld-destroyer-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_panam
+  voice: 100179
+  speaker: "panam"
+  name: tts-voice-name-ntts-panam
+  sex: Female
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_papich
+  voice: 100180
+  speaker: "papich"
+  name: tts-voice-name-ntts-papich
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_phantom_assassin_arcana_dota_2
+  voice: 100181
+  speaker: "phantom_assassin_arcana_dota_2"
+  name: tts-voice-name-ntts-phantom-assassin-arcana-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_phantom_assassin_dota_2
+  voice: 100182
+  speaker: "phantom_assassin_dota_2"
+  name: tts-voice-name-ntts-phantom-assassin-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_phantom_lancer_dota_2
+  voice: 100183
+  speaker: "phantom_lancer_dota_2"
+  name: tts-voice-name-ntts-phantom-lancer-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_philippa_eilhart
+  voice: 100184
+  speaker: "philippa_eilhart"
+  name: tts-voice-name-ntts-philippa-eilhart
+  sex: Female
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_phineasblack
+  voice: 100185
+  speaker: "phineasblack"
+  name: tts-voice-name-ntts-phineasblack
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_planya
+  voice: 100186
+  speaker: "planya"
+  name: tts-voice-name-ntts-planya
+  sex: Female
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_playboyztv
+  voice: 100187
+  speaker: "playboyztv"
+  name: tts-voice-name-ntts-playboyztv
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_polina
+  voice: 100188
+  speaker: "polina"
+  name: tts-voice-name-ntts-polina
+  sex: Female
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_poppysweeting
+  voice: 100189
+  speaker: "poppysweeting"
+  name: tts-voice-name-ntts-poppysweeting
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_puchkow
+  voice: 100190
+  speaker: "puchkow"
+  name: tts-voice-name-ntts-puchkow
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_pudge_dota_2
+  voice: 100191
+  speaker: "pudge_dota_2"
+  name: tts-voice-name-ntts-pudge-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_punisher
+  voice: 100192
+  speaker: "punisher"
+  name: tts-voice-name-ntts-punisher
+  sex: Male
+  silicon: false
+  copyright: "The Punisher"
+  tags:
+  - ntts-the-punisher
+
+- type: voice
+  id: ntts_queen_of_pain_dota_2
+  voice: 100193
+  speaker: "queen_of_pain_dota_2"
+  name: tts-voice-name-ntts-queen-of-pain-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_ranrak
+  voice: 100194
+  speaker: "ranrak"
+  name: tts-voice-name-ntts-ranrak
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_razor_dota_2
+  voice: 100195
+  speaker: "razor_dota_2"
+  name: tts-voice-name-ntts-razor-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_rexxar
+  voice: 100196
+  speaker: "rexxar"
+  name: tts-voice-name-ntts-rexxar
+  sex: Male
+  silicon: false
+  copyright: "Warcraft 3"
+  tags:
+  - ntts-warcraft-3
+
+- type: voice
+  id: ntts_richardson
+  voice: 100197
+  speaker: "richardson"
+  name: tts-voice-name-ntts-richardson
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_riki_dota_2
+  voice: 100198
+  speaker: "riki_dota_2"
+  name: tts-voice-name-ntts-riki-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_robert_maccready
+  voice: 100199
+  speaker: "robert_maccready"
+  name: tts-voice-name-ntts-robert-maccready
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_romka
+  voice: 100200
+  speaker: "romka"
+  name: tts-voice-name-ntts-romka
+  sex: Male
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_rubick_dota_2
+  voice: 100201
+  speaker: "rubick_dota_2"
+  name: tts-voice-name-ntts-rubick-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_samantha_dale
+  voice: 100202
+  speaker: "samantha_dale"
+  name: tts-voice-name-ntts-samantha-dale
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_sanctuary_house_elf
+  voice: 100203
+  speaker: "sanctuary_house_elf"
+  name: tts-voice-name-ntts-sanctuary-house-elf
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_sand_king_dota_2
+  voice: 100204
+  speaker: "sand_king_dota_2"
+  name: tts-voice-name-ntts-sand-king-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_sarah_lyons_fl3
+  voice: 100205
+  speaker: "sarah_lyons_fl3"
+  name: tts-voice-name-ntts-sarah-lyons-fl3
+  sex: Female
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_semen_baburin_tb
+  voice: 100206
+  speaker: "semen_baburin_tb"
+  name: tts-voice-name-ntts-semen-baburin-tb
+  sex: Male
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_sentrybot
+  voice: 100207
+  speaker: "sentrybot"
+  name: tts-voice-name-ntts-sentrybot
+  sex: Male
+  silicon: true
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_serana
+  voice: 100208
+  speaker: "serana"
+  name: tts-voice-name-ntts-serana
+  sex: Female
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_shadow_fiend_dota_2
+  voice: 100209
+  speaker: "shadow_fiend_dota_2"
+  name: tts-voice-name-ntts-shadow-fiend-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_shadow_shaman_dota_2
+  voice: 100210
+  speaker: "shadow_shaman_dota_2"
+  name: tts-voice-name-ntts-shadow-shaman-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_shani
+  voice: 100211
+  speaker: "shani"
+  name: tts-voice-name-ntts-shani
+  sex: Female
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_sheogorath
+  voice: 100212
+  speaker: "sheogorath"
+  name: tts-voice-name-ntts-sheogorath
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_sidorovich
+  voice: 100213
+  speaker: "sidorovich"
+  name: tts-voice-name-ntts-sidorovich
+  sex: Male
+  silicon: false
+  copyright: "S.T.A.L.K.E.R."
+  tags:
+  - ntts-s-t-a-l-k-e-r
+
+- type: voice
+  id: ntts_sirona_ryan
+  voice: 100214
+  speaker: "sirona_ryan"
+  name: tts-voice-name-ntts-sirona-ryan
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_sisters_battle_sister_dow
+  voice: 100215
+  speaker: "sisters_battle_sister_dow"
+  name: tts-voice-name-ntts-sisters-battle-sister-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_sisters_missionary_dow
+  voice: 100216
+  speaker: "sisters_missionary_dow"
+  name: tts-voice-name-ntts-sisters-missionary-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_skippy
+  voice: 100217
+  speaker: "skippy"
+  name: tts-voice-name-ntts-skippy
+  sex: Male
+  silicon: true
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_skywrath_mage_dota_2
+  voice: 100218
+  speaker: "skywrath_mage_dota_2"
+  name: tts-voice-name-ntts-skywrath-mage-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_slardar_dota_2
+  voice: 100219
+  speaker: "slardar_dota_2"
+  name: tts-voice-name-ntts-slardar-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_slark_dota_2
+  voice: 100220
+  speaker: "slark_dota_2"
+  name: tts-voice-name-ntts-slark-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_sniper
+  voice: 100221
+  speaker: "sniper"
+  name: tts-voice-name-ntts-sniper
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_soldier
+  voice: 100222
+  speaker: "soldier"
+  name: tts-voice-name-ntts-soldier
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_sophronia_franklin
+  voice: 100223
+  speaker: "sophronia_franklin"
+  name: tts-voice-name-ntts-sophronia-franklin
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_space_core
+  voice: 100224
+  speaker: "space_core"
+  name: tts-voice-name-ntts-space-core
+  sex: Male
+  silicon: true
+  copyright: "Portal 2"
+  tags:
+  - ntts-portal-2
+
+- type: voice
+  id: ntts_space_marines_2_dow
+  voice: 100225
+  speaker: "space_marines_2_dow"
+  name: tts-voice-name-ntts-space-marines-2-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_space_marines_chaplain_dow
+  voice: 100226
+  speaker: "space_marines_chaplain_dow"
+  name: tts-voice-name-ntts-space-marines-chaplain-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_space_marines_dow
+  voice: 100227
+  speaker: "space_marines_dow"
+  name: tts-voice-name-ntts-space-marines-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_space_marines_force_commander_dow
+  voice: 100228
+  speaker: "space_marines_force_commander_dow"
+  name: tts-voice-name-ntts-space-marines-force-commander-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_space_marines_librarian_dow
+  voice: 100229
+  speaker: "space_marines_librarian_dow"
+  name: tts-voice-name-ntts-space-marines-librarian-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_spirit_breaker_dota_2
+  voice: 100230
+  speaker: "spirit_breaker_dota_2"
+  name: tts-voice-name-ntts-spirit-breaker-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_spy
+  voice: 100231
+  speaker: "spy"
+  name: tts-voice-name-ntts-spy
+  sex: Male
+  silicon: false
+  copyright: "Team Fortress 2"
+  tags:
+  - ntts-team-fortress-2
+
+- type: voice
+  id: ntts_squidward
+  voice: 100232
+  speaker: "squidward"
+  name: tts-voice-name-ntts-squidward
+  sex: Male
+  silicon: false
+  copyright: "Sponge Bob"
+  tags:
+  - ntts-sponge-bob
+
+- type: voice
+  id: ntts_steve
+  voice: 100233
+  speaker: "steve"
+  name: tts-voice-name-ntts-steve
+  sex: Male
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_storm_spirit_dota_2
+  voice: 100234
+  speaker: "storm_spirit_dota_2"
+  name: tts-voice-name-ntts-storm-spirit-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_strelok
+  voice: 100235
+  speaker: "strelok"
+  name: tts-voice-name-ntts-strelok
+  sex: Male
+  silicon: false
+  copyright: "S.T.A.L.K.E.R."
+  tags:
+  - ntts-s-t-a-l-k-e-r
+
+- type: voice
+  id: ntts_sulik
+  voice: 100236
+  speaker: "sulik"
+  name: tts-voice-name-ntts-sulik
+  sex: Male
+  silicon: false
+  copyright: "Fallout 2"
+  tags:
+  - ntts-fallout-2
+
+- type: voice
+  id: ntts_super_mutant_fl3
+  voice: 100237
+  speaker: "super_mutant_fl3"
+  name: tts-voice-name-ntts-super-mutant-fl3
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_sven_dota_2
+  voice: 100238
+  speaker: "sven_dota_2"
+  name: tts-voice-name-ntts-sven-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_tau_ethereal_dow
+  voice: 100239
+  speaker: "tau_ethereal_dow"
+  name: tts-voice-name-ntts-tau-ethereal-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_tau_kroot_dow
+  voice: 100240
+  speaker: "tau_kroot_dow"
+  name: tts-voice-name-ntts-tau-kroot-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_templar_assassin_dota_2
+  voice: 100241
+  speaker: "templar_assassin_dota_2"
+  name: tts-voice-name-ntts-templar-assassin-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_threedog
+  voice: 100242
+  speaker: "threedog"
+  name: tts-voice-name-ntts-threedog
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_threedog_radio
+  voice: 100243
+  speaker: "threedog_radio"
+  name: tts-voice-name-ntts-threedog-radio
+  sex: Male
+  silicon: false
+  copyright: "Fallout 3"
+  tags:
+  - ntts-fallout-3
+
+- type: voice
+  id: ntts_tidehunter_dota_2
+  voice: 100244
+  speaker: "tidehunter_dota_2"
+  name: tts-voice-name-ntts-tidehunter-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_tihonov_tb
+  voice: 100245
+  speaker: "tihonov_tb"
+  name: tts-voice-name-ntts-tihonov-tb
+  sex: Male
+  silicon: false
+  copyright: "Tiny Bunny"
+  tags:
+  - ntts-tiny-bunny
+
+- type: voice
+  id: ntts_tosh
+  voice: 100246
+  speaker: "tosh"
+  name: tts-voice-name-ntts-tosh
+  sex: Male
+  silicon: false
+  copyright: "StarCraft 2"
+  tags:
+  - ntts-starcraft-2
+
+- type: voice
+  id: ntts_tracer
+  voice: 100247
+  speaker: "tracer"
+  name: tts-voice-name-ntts-tracer
+  sex: Female
+  silicon: false
+  copyright: "Overwatch"
+  tags:
+  - ntts-overwatch
+
+- type: voice
+  id: ntts_treant_protector_dota_2
+  voice: 100248
+  speaker: "treant_protector_dota_2"
+  name: tts-voice-name-ntts-treant-protector-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_triss
+  voice: 100249
+  speaker: "triss"
+  name: tts-voice-name-ntts-triss
+  sex: Female
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_trump
+  voice: 100250
+  speaker: "trump"
+  name: tts-voice-name-ntts-trump
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_turret_floor
+  voice: 100251
+  speaker: "turret_floor"
+  name: tts-voice-name-ntts-turret-floor
+  sex: Female
+  silicon: true
+  copyright: "Portal 2"
+  tags:
+  - ntts-portal-2
+
+- type: voice
+  id: ntts_tutorial_f_dow
+  voice: 100252
+  speaker: "tutorial_f_dow"
+  name: tts-voice-name-ntts-tutorial-f-dow
+  sex: Female
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_tutorial_m_dow
+  voice: 100253
+  speaker: "tutorial_m_dow"
+  name: tts-voice-name-ntts-tutorial-m-dow
+  sex: Male
+  silicon: false
+  copyright: "Warhammer 40,000: Dawn of War"
+  tags:
+  - ntts-warhammer-40-000-dawn-of-war
+
+- type: voice
+  id: ntts_twitch
+  voice: 100254
+  speaker: "twitch"
+  name: tts-voice-name-ntts-twitch
+  sex: Male
+  silicon: false
+  copyright: "League of Legends"
+  tags:
+  - ntts-league-of-legends
+
+- type: voice
+  id: ntts_tychus
+  voice: 100255
+  speaker: "tychus"
+  name: tts-voice-name-ntts-tychus
+  sex: Male
+  silicon: false
+  copyright: "StarCraft 2"
+  tags:
+  - ntts-starcraft-2
+
+- type: voice
+  id: ntts_ulfric
+  voice: 100256
+  speaker: "ulfric"
+  name: tts-voice-name-ntts-ulfric
+  sex: Male
+  silicon: false
+  copyright: "TES 5 Skyrim"
+  tags:
+  - ntts-tes-5-skyrim
+
+- type: voice
+  id: ntts_underlord_dota_2
+  voice: 100257
+  speaker: "underlord_dota_2"
+  name: tts-voice-name-ntts-underlord-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_ursa_dota_2
+  voice: 100258
+  speaker: "ursa_dota_2"
+  name: tts-voice-name-ntts-ursa-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_uther_hs
+  voice: 100259
+  speaker: "uther_hs"
+  name: tts-voice-name-ntts-uther-hs
+  sex: Male
+  silicon: false
+  copyright: "Hearthstone"
+  tags:
+  - ntts-hearthstone
+
+- type: voice
+  id: ntts_v_female
+  voice: 100260
+  speaker: "v_female"
+  name: tts-voice-name-ntts-v-female
+  sex: Female
+  silicon: false
+  copyright: "Cyberpunk 2077"
+  tags:
+  - ntts-cyberpunk-2077
+
+- type: voice
+  id: ntts_vance
+  voice: 100261
+  speaker: "vance"
+  name: tts-voice-name-ntts-vance
+  sex: Male
+  silicon: false
+  copyright: "Half-Life 2"
+  tags:
+  - ntts-half-life-2
+
+- type: voice
+  id: ntts_vesemir
+  voice: 100262
+  speaker: "vesemir"
+  name: tts-voice-name-ntts-vesemir
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3
+
+- type: voice
+  id: ntts_victorrookwood
+  voice: 100263
+  speaker: "victorrookwood"
+  name: tts-voice-name-ntts-victorrookwood
+  sex: Male
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_villager
+  voice: 100264
+  speaker: "villager"
+  name: tts-voice-name-ntts-villager
+  sex: Male
+  silicon: false
+  copyright: "Minecraft"
+  tags:
+  - ntts-minecraft
+
+- type: voice
+  id: ntts_voljin
+  voice: 100265
+  speaker: "voljin"
+  name: tts-voice-name-ntts-voljin
+  sex: Male
+  silicon: false
+  copyright: "Warcraft 3"
+  tags:
+  - ntts-warcraft-3
+
+- type: voice
+  id: ntts_windranger_dota_2
+  voice: 100266
+  speaker: "windranger_dota_2"
+  name: tts-voice-name-ntts-windranger-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_winter_wyvern_dota_2
+  voice: 100267
+  speaker: "winter_wyvern_dota_2"
+  name: tts-voice-name-ntts-winter-wyvern-dota-2
+  sex: Female
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_witch_doctor_dota_2
+  voice: 100268
+  speaker: "witch_doctor_dota_2"
+  name: tts-voice-name-ntts-witch-doctor-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_wraith_king_dota_2
+  voice: 100269
+  speaker: "wraith_king_dota_2"
+  name: tts-voice-name-ntts-wraith-king-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_xrenoid
+  voice: 100270
+  speaker: "xrenoid"
+  name: tts-voice-name-ntts-xrenoid
+  sex: Male
+  silicon: false
+  copyright: "Media"
+  tags:
+  - ntts-media
+
+- type: voice
+  id: ntts_zenobianoke
+  voice: 100271
+  speaker: "zenobianoke"
+  name: tts-voice-name-ntts-zenobianoke
+  sex: Female
+  silicon: false
+  copyright: "Hogwarts Legacy"
+  tags:
+  - ntts-hogwarts-legacy
+
+- type: voice
+  id: ntts_zeus_dota_2
+  voice: 100272
+  speaker: "zeus_dota_2"
+  name: tts-voice-name-ntts-zeus-dota-2
+  sex: Male
+  silicon: false
+  copyright: "Dota 2"
+  tags:
+  - ntts-dota-2
+
+- type: voice
+  id: ntts_ziggs
+  voice: 100273
+  speaker: "ziggs"
+  name: tts-voice-name-ntts-ziggs
+  sex: Male
+  silicon: false
+  copyright: "League of Legends"
+  tags:
+  - ntts-league-of-legends
+
+- type: voice
+  id: ntts_zoltan_chivay
+  voice: 100274
+  speaker: "zoltan_chivay"
+  name: tts-voice-name-ntts-zoltan-chivay
+  sex: Male
+  silicon: false
+  copyright: "The Witcher 3"
+  tags:
+  - ntts-the-witcher-3

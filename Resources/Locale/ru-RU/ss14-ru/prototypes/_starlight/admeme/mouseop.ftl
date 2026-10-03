@@ -1,12 +1,12 @@
 ent-MobNyrMouseOps = мофф-оперативник
     .desc = ЭТО ЧЁРТОВА МЫШЬ, ОНА ПРИШЛА ЗА ЧЁРТОВЫМ СЫРОМ
-    .suffix = НЕ МАППИТЬ, админ-мем
+    .suffix = НЕ МАППИТЬ, АДМЕМЕ
 ent-ClothingHandsGlovesCombatmous = боевые неснимаемые перчатки моффов
     .desc = сделано моффами для моффов!
-    .suffix = НЕ МАППИТЬ, админ-мем
+    .suffix = НЕ МАППИТЬ, АДМЕМЕ
 ent-ClothingBackpackDuffelSyndicateAmmoMouse = сумка мофф-оперативника!
     .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
-    .suffix = НЕ МАППИТЬ, админ-мем
+    .suffix = НЕ МАППИТЬ, АДМЕМЕ
 ent-ClothingOuterHardsuitSyndieMouseOps = красный скафандр моффов
     .desc = сделано моффами для моффов!
-    .suffix = НЕ МАППИТЬ, админ-мем
+    .suffix = НЕ МАППИТЬ, АДМЕМЕ

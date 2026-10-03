@@ -1,4 +1,4 @@
-comms-console-announcement-title-tsf = Транссолнечная федерация
+comms-console-announcement-title-tsf = Альянс Независимых Систем
 
 comms-console-announcement-title-command = Командование
 comms-console-announcement-title-eng = Инженерия

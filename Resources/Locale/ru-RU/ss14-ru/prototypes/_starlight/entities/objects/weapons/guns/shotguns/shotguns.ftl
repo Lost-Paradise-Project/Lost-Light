@@ -21,6 +21,6 @@ ent-WeaponShotgunToz106Extended = { ent-WeaponShotgunToz106 }
     .suffix = удлинённый магазин
 ent-WeaponShotgunToz106Shitpost = ТОЗ-106
     .desc = Пётр говорил, что его кастомный ЗОЗ-106 принимает ЛЮБОЙ магазин. Никто не верил, пока не стало слишком поздно.
-    .suffix = Админ-мем, НЕ МАППИТЬ
+    .suffix = АДМЕМЕ, НЕ МАППИТЬ
 ent-BaseWeaponShotgun = { ent-BaseWeaponShotgunAny }
     .desc = { ent-BaseWeaponShotgunAny.desc }

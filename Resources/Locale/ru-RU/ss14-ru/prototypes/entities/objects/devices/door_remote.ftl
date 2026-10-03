@@ -22,6 +22,6 @@ ent-DoorRemoteEngineering = пульт от шлюзов инженерного 
     .desc = { ent-DoorRemoteDefault.desc }
 ent-DoorRemoteAll = супер-пульт от шлюзов
     .desc = Гаджет, позволяющий дистанционно открывать и блокировать двери. Этот работает даже с деревянными дверями!
-    .suffix = АДМЕМЫ
+    .suffix = АДМЕМЕ
 ent-DoorRemoteXenoborg = пульт от шлюзов ксеноборгов
     .desc = { ent-DoorRemoteCanEletrifyDoors.desc }

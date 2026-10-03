@@ -19,6 +19,7 @@
     Head: MobReptilianHead
     Hair: MobHumanoidAnyMarking # Starlight
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobReptilianTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -57,6 +58,7 @@
     HeadSide:
       points: 1
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest:
       points: 4
       required: false

@@ -23,3 +23,5 @@ station-radio-server-examine-not-recording = Сервер станции сей�
 
 station-radio-server-microphone-on-use = Микрофон { $radioState }.
 # Starlight - End
+
+item-slot-component-slot-name-vinyl = пластинка

@@ -51,10 +51,10 @@ uplink-second-hand-magazine-smg-worn-desc = Магазин ПП калибра .
 uplink-second-hand-magazine-caseless-worn-name = Изношенный магазин безгильзовой винтовки (.25 безгильзовые)
 uplink-second-hand-magazine-caseless-worn-desc = Безгильзовый магазин калибра .25 с проржавевшей начинкой. Заряжен сомнительной смесью обычных, учебных и изредка безгильзовых патронов с поролоновыми дротиками. Бесплатно.
 
-uplink-second-hand-magazine-shotgun-worn-name = Изношенный барабан дробовика (12 калибр, дробь)
+uplink-second-hand-magazine-shotgun-worn-name = Изношенный барабан дробовика (12 калибр дробь)
 uplink-second-hand-magazine-shotgun-worn-desc = Барабан 12 калибра с дробью и пружиной, которая почти сдалась. Тот, кто его заряжал, использовал всё, что было под рукой: ждите дробь, жаканы, зажигательные, резиновые и урановые патроны в произвольном порядке. Бесплатно.
 
-uplink-second-hand-magazine-shotgun-slug-worn-name = Изношенный барабан дробовика (12 калибр, жакан)
+uplink-second-hand-magazine-shotgun-slug-worn-name = Изношенный барабан дробовика (12 калибр жакан)
 uplink-second-hand-magazine-shotgun-slug-worn-desc = Барабан 12 калибра с жаканами и частично заклинившим механизмом подачи. Кто-то дозарядил его всем, что подошло: жаканы, дробь, зажигательные и резиновые патроны вперемешку. Бесплатно.
 
 uplink-second-hand-magazine-rifle-worn-name = Изношенный винтовочный магазин (.20)

@@ -4,6 +4,10 @@
   parent: [ SimpleMobBase, MobCombat, BaseSlicingRefinable ] # Starlight Edit: Removed BaseMobRat
   description: He's da rat. He make da roolz.
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_nyx_assassin_dota_2
+  # LP edit end
   # Starlight-start: Languages
   - type: LanguageKnowledge
     speaks:

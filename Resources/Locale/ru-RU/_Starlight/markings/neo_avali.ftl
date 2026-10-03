@@ -1,6 +1,6 @@
 # Armor Markings
-marking-NeoAvaliLightArmor = Лёгкая кибернетика неоцита-авали
-marking-NeoAvaliLightArmor-light = Лёгкая кибернетика неоцита-авали
+marking-NeoAvaliLightArmor = Лёгкая кибернетика нео-авали
+marking-NeoAvaliLightArmor-light = Лёгкая кибернетика нео-авали
 
 # LEDs - Faces
 marking-NeoAvaliLEDFaceSquare = Квадратные светодиоды авали

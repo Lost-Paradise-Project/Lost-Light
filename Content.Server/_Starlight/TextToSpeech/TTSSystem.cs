@@ -27,17 +27,19 @@ public sealed partial class TTSSystem : EntitySystem
     [Dependency] private LanguageSystem _language = default!;
     [Dependency] private SharedAudioSystem _audio = default!;
 
+    // LP edit start - примеры на русском
     private readonly List<string> _sampleText =
     [
-        "Can someone bring me a pair of insulating gloves, please?",
-        "Security, the clown has stolen the captain's ID!",
-        "The singularity has reached the arrivals area!",
+        "Кто-нибудь, принесите мне изолированные перчатки, пожалуйста!",
+        "Служба безопасности, клоун украл карту капитана!",
+        "Сингулярность добралась до зоны прибытия!",
     ];
+    // LP edit end
 
     private const int DefaultAnnounceVoice = 2001;
     private const int DefaultVoice = 0;
     private const int MaxChars = 200;
-    private const float WhisperVoiceVolumeModifier = 0.6f;
+    private const float WhisperVoiceVolumeModifier = 0.25f; // LP edit - 0.6 давало всего около -4 дБ, шёпот почти не отличался от речи
     private readonly ISawmill _sawmill = Logger.GetSawmill(nameof(TTSSystem));
     private readonly List<ICommonSession> _ignoredRecipients = [];
 
@@ -102,6 +104,8 @@ public sealed partial class TTSSystem : EntitySystem
             var languageradio = args.Channel == args.Language.Speech.RadioChannel;
             var type = languageradio ? TTSType.Mind : TTSType.Radio;
             var effect = languageradio ? TTSEffect.Underwater : TTSEffect.Radio;
+            if (languageradio)
+                chime = null; // LP edit - у мысленной связи нет гарнитуры, звонок рации не нужен
 
             await GenerateAndStream(type, voice, text, filter, effect, chime, null, channel);
         }
@@ -255,7 +259,7 @@ public sealed partial class TTSSystem : EntitySystem
         text = TagStripperRegex().Replace(text, "");
         text = SmartQuotes().Replace(text, "'");
         text = CharFilter().Replace(text, "");
-        text = NumberConverter.NumberPattern().Replace(text, match => NumberConverter.Convert(match.Value));
+        // LP edit - числа не переводим в английские слова: ntts сам читает цифры по-русски
         return text;
     }
 

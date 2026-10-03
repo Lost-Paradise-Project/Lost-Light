@@ -1,1 +1,1 @@
-metabolizer-type-neocyte = Неоцит
+metabolizer-type-neocyte = Протоген

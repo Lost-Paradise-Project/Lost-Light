@@ -254,6 +254,7 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
+    # LP edit - убрано нижнее бельё (цензура наготы)
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg
@@ -325,6 +326,7 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
+    # LP edit - убрано нижнее бельё (цензура наготы)
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg

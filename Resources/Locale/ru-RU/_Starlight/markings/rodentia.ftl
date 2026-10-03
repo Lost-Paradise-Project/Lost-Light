@@ -158,7 +158,7 @@ marking-RodentiaLegRightCountershade = Контрастная тень
 marking-RodentiaLegRightCountershade-r_leg = Нога
 marking-RodentiaLegRightCountershade-countershade_rleg = Контрастная тень
 
-marking-RodentiaChestFawn = Олененок
+marking-RodentiaChestFawn = Оленёнок
 marking-RodentiaChestFawn-fawn = Узор
 
 marking-RodentiaChestHooded = С капюшоном

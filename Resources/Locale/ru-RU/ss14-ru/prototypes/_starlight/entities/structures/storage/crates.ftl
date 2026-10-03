@@ -1,7 +1,7 @@
 ent-CrateInternalsO2N2 = аварийный ящик
     .desc = { ent-CrateInternals.desc }
-ent-CrateSoviet = ящик морпехов ССФ
-    .desc = Прочный ящик, украшенный эмблемой морских сил УССР.
+ent-CrateSoviet = ящик морпехов СССП
+    .desc = Прочный ящик, украшенный эмблемой морских сил СССП.
 ent-CrateRDSecure = ящик ДИ
     .desc = { ent-CrateBaseSecure.desc }
     .suffix = { ent-CrateBaseSecure.suffix }

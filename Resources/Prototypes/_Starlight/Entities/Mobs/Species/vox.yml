@@ -158,6 +158,7 @@
       visible: false
   - type: HumanoidAppearance
     species: Vox
+    # LP edit - убрано нижнее бельё (цензура наготы)
     markingsDisplacement:
       Hair:
         sizeMaps:

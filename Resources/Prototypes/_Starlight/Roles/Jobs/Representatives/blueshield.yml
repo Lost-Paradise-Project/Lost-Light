@@ -13,6 +13,7 @@
     - !type:RoleTimeRequirement
       role: JobBrigmedic
       time: 3h # Lower stakes version of the same role, and forces you to get Paramed time too. Totals to about 8 hours paramed+brigmed combined.
+    # LP edit - убрано требование ExtRolesReq
     - !type:TraitsRequirement
       traits:
         - Iterator

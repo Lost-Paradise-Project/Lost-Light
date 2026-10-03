@@ -295,7 +295,7 @@
     baseWalkSpeed: 0
     baseSprintSpeed: 0
   - type: TextToSpeech
-    voice: colorfingert
+    voice: ntts_gman # LP edit - голос ntts (был colorfingert)
   - type: Sprite
     sprite: _Starlight/Clothing/Neck/Ties/disco.rsi
   - type: Clothing

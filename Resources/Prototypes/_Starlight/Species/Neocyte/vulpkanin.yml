@@ -30,6 +30,7 @@
     Head: MobNeoVulpkaninHead
     Eyes: MobNeocyteEyes #looks odd, but this just removes eyes since they're replaced by the LEDs.
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobNeoVulpkaninTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -92,6 +93,7 @@
     Arms:
       points: 6
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
 
 - type: humanoidBaseSprite
   id: MobNeoVulpkaninMarkingMatchSkin

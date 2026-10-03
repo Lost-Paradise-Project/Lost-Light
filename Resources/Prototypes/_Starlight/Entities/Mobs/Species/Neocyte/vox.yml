@@ -109,6 +109,7 @@
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
+    # LP edit - убрано нижнее бельё (цензура наготы)
     - map: [ "enum.HumanoidVisualLayers.LHand" ]
     - map: [ "enum.HumanoidVisualLayers.RHand" ]
     - map: [ "gloves" ]

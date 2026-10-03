@@ -23,6 +23,7 @@ using Robust.Shared.Replays;
 using System.Linq;
 // Starlight Start
 using Content.Server._Starlight.Language;
+using Content.Server._Starlight.TextToSpeech;
 using Content.Shared.IdentityManagement;
 using Robust.Shared.Player;
 using Content.Server.Chat.Managers;
@@ -45,6 +46,7 @@ public sealed partial class TelephoneSystem : SharedTelephoneSystem
     // Starlight Start
     [Dependency] private LanguageSystem _language = default!;
     [Dependency] private IChatManager _chatManager = default!;
+    [Dependency] private TTSSystem _tts = default!; // LP edit
     // Starlight End
 
     // Has set used to prevent telephone feedback loops
@@ -126,6 +128,7 @@ public sealed partial class TelephoneSystem : SharedTelephoneSystem
         var volume = entity.Comp.SpeakerVolume == TelephoneVolume.Speak ? InGameICChatType.Speak : InGameICChatType.Whisper;
 
         _chat.TrySendInGameICMessage(speaker, args.Message, volume, range, nameOverride: name, checkRadioPrefix: false, languageOverride: args.Language); // Starlight
+        _tts.PlayRelayedSpeech(speaker, args.MessageSource, args.Message, args.Language, volume == InGameICChatType.Whisper, TTSEffect.Phone); // LP edit - телефон и голопад говорят голосом собеседника
     }
 
     #endregion

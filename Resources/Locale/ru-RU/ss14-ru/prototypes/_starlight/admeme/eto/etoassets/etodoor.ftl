@@ -1,6 +1,6 @@
 ent-DoorElectronicsETO = { ent-DoorElectronics }
     .desc = { ent-DoorElectronics.desc }
-    .suffix = ЭТО, заперт
+    .suffix = ЕТО, заперт
 ent-AirlockETOLocked = { ent-AirlockServiceLocked }
     .desc = { ent-AirlockServiceLocked.desc }
-    .suffix = ЭТО, заперт
+    .suffix = ЕТО, заперт

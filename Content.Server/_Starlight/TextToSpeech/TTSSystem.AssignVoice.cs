@@ -15,7 +15,8 @@ public sealed partial class TTSSystem
             return fallbackVoice.Value;
 
         if (component.VoicePrototypeId is { } voiceId
-            && _prototypeManager.TryIndex(voiceId, out var proto))
+            && _prototypeManager.TryIndex(voiceId, out var proto)
+            && proto.Speaker != null) // LP edit
             return proto.Voice;
 
         var isHumanoid = false;
@@ -34,7 +35,7 @@ public sealed partial class TTSSystem
         {
             if (isHumanoid)
             {
-                if (mind.Voice is string mindVoiceId && _prototypeManager.TryIndex(mindVoiceId, out VoicePrototype? mindVoice))
+                if (mind.Voice is string mindVoiceId && _prototypeManager.TryIndex(mindVoiceId, out VoicePrototype? mindVoice) && mindVoice.Speaker != null) // LP edit
                 {
                     component.VoicePrototypeId = mindVoiceId;
                     return mindVoice.Voice;
@@ -42,7 +43,7 @@ public sealed partial class TTSSystem
             }
             else
             {
-                if (mind.SiliconVoice is string mindVoiceId && _prototypeManager.TryIndex(mindVoiceId, out VoicePrototype? mindVoice))
+                if (mind.SiliconVoice is string mindVoiceId && _prototypeManager.TryIndex(mindVoiceId, out VoicePrototype? mindVoice) && mindVoice.Speaker != null) // LP edit
                 {
                     component.VoicePrototypeId = mindVoiceId;
                     return mindVoice.Voice;
@@ -54,9 +55,9 @@ public sealed partial class TTSSystem
             return fallbackVoice.Value;
 
         return isHumanoid
-            ? AssignRandomVoice([.. voices.Where(x => !x.Value.Silicon
+            ? AssignRandomVoice([.. voices.Where(x => !x.Value.Silicon && x.Value.Speaker != null // LP edit
                 && (x.Value.Sex == Sex.Unsexed || sex == Sex.Unsexed || x.Value.Sex == sex))])
-            : AssignRandomVoice([.. voices.Where(x => x.Value.Silicon)]);
+            : AssignRandomVoice([.. voices.Where(x => x.Value.Silicon && x.Value.Speaker != null)]); // LP edit
 
         int AssignRandomVoice(KeyValuePair<string, VoicePrototype>[] voicePrototypes)
         {

@@ -1,6 +1,6 @@
 ent-APCShadekin = { ent-APCBasic }
     .desc = { ent-APCBasic.desc }
-    .suffix = Шейдекин, 50 кДж
+    .suffix = Теневик, 50 кДж
 ent-BaseAPCAdvanced = продвинутый ЛКП
     .desc = Продвинутый терминал управления электрическими системами зоны, способный выдерживать гораздо более высокую нагрузку сети.
 ent-APCAdvancedFrame = каркас продвинутого ЛКП

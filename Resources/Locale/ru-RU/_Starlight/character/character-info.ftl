@@ -11,3 +11,10 @@ character-info-objectives = Обзор
 character-info-background = Предыстория
 character-info-background-label = Предыстория:
 character-info-background-none = Нет предыстории.
+
+character-info-no-background = Предыстория не указана.
+character-info-ic-header = Информация о персонаже (IC):
+character-info-description = Описание:
+character-info-hidden = Скрытая информация
+character-info-exploitable = Слабые места:
+character-info-secrets = Секреты:

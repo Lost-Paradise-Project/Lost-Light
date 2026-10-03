@@ -12,7 +12,7 @@ marking-ArachnidAppendagesSharp = Придатки (Острые)
 marking-ArachnidAppendagesSharp-sharp_primary = Придаток
 marking-ArachnidAppendagesSharp-sharp_secondary = Полосы
 
-marking-ArachnidAppendagesZigZag = Придатки (ЗигЗаг)
+marking-ArachnidAppendagesZigZag = Придатки (Зигзаг)
 marking-ArachnidAppendagesZigZag-zigzag_primary = Придаток
 marking-ArachnidAppendagesZigZag-zigzag_secondary = Полосы
 
@@ -70,7 +70,7 @@ marking-ArachnidTorsoArrows-arrows = Дизайн
 marking-ArachnidTorsoCore = Ядро
 marking-ArachnidTorsoCore-core = Дизайн
 
-marking-ArachnidTorsoFiddleback = Полосатый клён
+marking-ArachnidTorsoFiddleback = Скрипка
 marking-ArachnidTorsoFiddleback-fiddleback = Дизайн
 
 marking-ArachnidTorsoSkull = Череп

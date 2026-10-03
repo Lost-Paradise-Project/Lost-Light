@@ -33,6 +33,7 @@
   sprites:
     Eyes: MobNeocyteEyes
     Head: MobDionaHead
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Snout: MobHumanoidAnyMarking
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -95,6 +96,7 @@
     Legs:
       points: 2
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Arms:
       points: 2
       required: false

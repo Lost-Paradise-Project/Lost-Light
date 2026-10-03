@@ -25,6 +25,7 @@
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobHumanTorso
     Eyes: MobHumanoidEyes
     HeadTop: MobHumanoidAnyMarking
@@ -58,6 +59,7 @@
     HeadTop:
       points: 1
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest:
       points: 4 #SL Edit 2->4
       required: false

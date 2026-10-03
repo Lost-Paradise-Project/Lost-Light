@@ -2,8 +2,8 @@ construction-graph-tag-disposal-pipe = утилизационная труба
 construction-graph-tag-wallmount-mass-scanner-electronics = электроника настенного массового сканера
 
 construction-graph-tag-meson = инженерные очки
-construction-graph-tag-shadekin-eye = глаза шейдекина
-construction-graph-tag-shadekin-core = ядро шейдекина
+construction-graph-tag-shadekin-eye = глаза теневика
+construction-graph-tag-shadekin-core = ядро теневика
 construction-graph-tag-undamaged-shadekin-core = ядро яркоглазого
 
 construction-graph-tag-fireextinguisher = огнетушитель

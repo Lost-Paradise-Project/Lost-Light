@@ -57,7 +57,7 @@ ui-options-sight-second-color = Второй цвет прицела
 
 ## General
 
-ui-starlight = Starlight
+ui-starlight = Lost Paradise
 ui-options-auto-punctuate = Автоматически ставить знаки препинания в игровых сообщениях
 ui-options-general-ghost-themes = Темы призрака
 ui-options-general-ghost-themes-force-tester = Принудительно показывать вкладку тестера в меню тем призрака

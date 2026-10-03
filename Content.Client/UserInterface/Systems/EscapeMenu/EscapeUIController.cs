@@ -94,6 +94,7 @@ public sealed partial class EscapeUIController : UIController, IOnStateEntered<G
             _changelog.ToggleWindow();
         };
 
+        // LP edit - убрана кнопка правил (RulesButton) и обработчик GuidebookButton
 
         _escapeWindow.DisconnectButton.OnPressed += _ =>
         {

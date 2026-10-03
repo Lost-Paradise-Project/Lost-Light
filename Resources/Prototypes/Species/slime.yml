@@ -20,6 +20,7 @@
     Head: MobSlimeHead
     Hair: MobSlimeMarkingAlfa
     FacialHair: MobSlimeMarkingFollowSkin
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobSlimeTorso
     Eyes: MobHumanoidAnyMarking # Starlight
     Tail: MobHumanoidAnyMarking # Starlight
