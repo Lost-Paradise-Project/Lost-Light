@@ -38,29 +38,29 @@
 
 ## Таблица атрибуции
 
-| Пространство имён | Проект | Исходный репозиторий | Лицензия |
-|---|---|---|---|
-| `_LP` | Lost Paradise | этот репозиторий | AGPL 3.0 |
-| `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14/ | MIT |
-| `_Starlight`, `_NullLink` | Starlight | https://github.com/ss14Starlight/space-station-14 | MIT + Starlight License |
-| `_FarHorizons` | Far Horizons | https://github.com/Far-Horizons-SS14/Far-Horizons-SS14 | MIT + Starlight License |
-| `_Goobstation` | Goob Station | https://github.com/Goob-Station/Goob-Station | AGPL 3.0 |
-| `_Funkystation` | Funky Station | https://github.com/funky-station/funky-station | AGPL 3.0 |
-| `_Impstation` | Impstation | https://github.com/impstation/imp-station-14 | AGPL 3.0 (вклады до 15.08.2024 - MIT) |
-| `_DEN` | The Den | https://github.com/TheDenSS14/TheDen | AGPL 3.0 |
-| `_Mono` | Monolith | https://github.com/Monolith-Station/Monolith | AGPL 3.0 (часть файлов - MPL 2.0) |
-| `DeltaV` | Delta-V | https://github.com/DeltaV-Station/Delta-v | AGPL 3.0 + MIT |
-| `_Moffstation` | Moff Station | https://github.com/moff-station/moff-station-14 | MIT |
-| `_Carpmosia` | Carpmosia | https://github.com/carpmosia/carpmosia | MIT |
-| `_Blimpuf` | Blimpuf Station | https://github.com/Blimpuf-Station/BlimpufStation | MIT |
-| `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT (часть файлов - MPL 2.0) |
-| `_CP14` | CrystallEdge | https://github.com/crystallpunk-14/crystall-punk-14 | MIT |
-| `_Afterlight` | Afterlight | уточняется | уточняется |
-| `_ES` | уточняется | уточняется | уточняется |
-| `_ST` | уточняется | уточняется | MIT |
-| `_Starfall` | уточняется | уточняется | уточняется |
-| `_TP`, `_TP14` | уточняется | уточняется | уточняется |
-| `_Paradise` | уточняется (только текстуры) | уточняется | см. `meta.json` |
+| Пространство имён         | Проект                        | Исходный репозиторий                                    | Лицензия                              |
+|---------------------------|-------------------------------|---------------------------------------------------------|---------------------------------------|
+| `_LP`                     | Lost Paradise                 | этот репозиторий                                        | AGPL 3.0                              |
+| `_Corvax`                 | Corvax                        | https://github.com/space-syndicate/space-station-14/    | MIT                                   |
+| `_Starlight`, `_NullLink` | Starlight                     | https://github.com/ss14Starlight/space-station-14       | MIT + Starlight License               |
+| `_FarHorizons`            | Far Horizons                  | https://github.com/Far-Horizons-SS14/Far-Horizons-SS14  | MIT + Starlight License               |
+| `_Goobstation`            | Goob Station                  | https://github.com/Goob-Station/Goob-Station            | AGPL 3.0                              |
+| `_Funkystation`           | Funky Station                 | https://github.com/funky-station/funky-station          | AGPL 3.0                              |
+| `_Impstation`             | Impstation                    | https://github.com/impstation/imp-station-14            | AGPL 3.0 (вклады до 15.08.2024 - MIT) |
+| `_DEN`                    | The Den                       | https://github.com/TheDenSS14/TheDen                    | AGPL 3.0                              |
+| `_Mono`                   | Monolith                      | https://github.com/Monolith-Station/Monolith            | AGPL 3.0 (часть файлов - MPL 2.0)     |
+| `DeltaV`                  | Delta-V                       | https://github.com/DeltaV-Station/Delta-v               | AGPL 3.0 + MIT                        |
+| `_Moffstation`            | Moff Station                  | https://github.com/moff-station/moff-station-14         | MIT                                   |
+| `_Carpmosia`              | Carpmosia                     | https://github.com/carpmosia/carpmosia                  | MIT                                   |
+| `_Blimpuf`                | Blimpuf Station               | https://github.com/Blimpuf-Station/BlimpufStation       | MIT                                   |
+| `_CD`                     | Cosmatic Drift                | https://github.com/cosmatic-drift-14/cosmatic-drift     | MIT (часть файлов - MPL 2.0)          |
+| `_CP14`                   | CrystallEdge                  | https://github.com/crystallpunk-14/crystall-punk-14     | MIT                                   |
+| `_Afterlight`             | Afterlight                    | уточняется                                              | уточняется                            |
+| `_ES`                     | уточняется                    | уточняется                                              | уточняется                            |
+| `_ST`                     | уточняется                    | уточняется                                              | MIT                                   |
+| `_Starfall`               | уточняется                    | уточняется                                              | уточняется                            |
+| `_TP`, `_TP14`            | уточняется                    | уточняется                                              | уточняется                            |
+| `_Paradise`               | уточняется (только текстуры)  | уточняется                                              | см. `meta.json`                       |
 
 Файлы под MPL 2.0 помечены заголовком в начале файла. Эти файлы должны оставаться под MPL 2.0.
 
