@@ -44,7 +44,7 @@ steal-target-groups-communications-computer-circuitboard = плата компь
 steal-target-groups-id-card-computer-circuitboard = плата компьютера ID-карт
 steal-target-groups-shipyard-computer-circuitboard = плата компьютера верфи
 
-steal-target-groups-clothing-headset-alt-command = накладные наушники командования
+steal-target-groups-clothing-headset-alt-command = полноразмерная гарнитура командования
 steal-target-groups-ptech-circuitboard = плата PTech
 
 steal-target-groups-spyglass = подзорная труба капитана

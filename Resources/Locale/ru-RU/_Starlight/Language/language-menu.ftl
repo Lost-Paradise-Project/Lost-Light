@@ -8,3 +8,9 @@ language-menu-understood-tab = Понимает
 # unused, cant find a clean way to show these
 language-menu-spoken-tab-description = Языки, на которых вы можете говорить и, соответственно, понимать.
 language-menu-understood-tab-description = Языки, которые вы можете понимать, но не обязательно можете говорить.
+
+language-menu-choose-button = Выбрать
+language-menu-chat-prefix = Префикс в чате: { $prefix }
+
+language-menu-current = Текущий язык:
+language-menu-open-tooltip = Открыть меню языков

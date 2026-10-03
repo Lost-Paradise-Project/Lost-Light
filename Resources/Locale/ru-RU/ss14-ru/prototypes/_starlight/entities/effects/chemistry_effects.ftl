@@ -1,6 +1,6 @@
 ent-ThermiteEntity = Термит
     .desc = { "" }
-ent-ThermiteFire = { "" }
+ent-ThermiteFire = горящий термит
     .desc = { "" }
 ent-TearGasSmokeYellow = { ent-TearGasSmoke }
     .desc = { ent-TearGasSmoke.desc }

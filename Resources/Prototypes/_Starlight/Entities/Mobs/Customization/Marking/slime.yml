@@ -237,6 +237,7 @@
   - sprite: _Starlight/Mobs/Customization/SlimePerson/lleg.rsi
     state: bone
 
+# LP edit - убрано нижнее бельё (цензура наготы)
 # LFoot
 
 - type: marking

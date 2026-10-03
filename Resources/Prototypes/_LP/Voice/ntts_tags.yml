@@ -1,0 +1,82 @@
+# Теги голосов ntts по источнику.
+
+- type: voiceTag
+  id: ntts-cyberpunk-2077
+
+- type: voiceTag
+  id: ntts-dota-2
+
+- type: voiceTag
+  id: ntts-dungeons-3
+
+- type: voiceTag
+  id: ntts-fallout-2
+
+- type: voiceTag
+  id: ntts-fallout-3
+
+- type: voiceTag
+  id: ntts-fate
+
+- type: voiceTag
+  id: ntts-half-life-2
+
+- type: voiceTag
+  id: ntts-hearthstone
+
+- type: voiceTag
+  id: ntts-hogwarts-legacy
+
+- type: voiceTag
+  id: ntts-kingpin-life-of-crime
+
+- type: voiceTag
+  id: ntts-league-of-legends
+
+- type: voiceTag
+  id: ntts-media
+
+- type: voiceTag
+  id: ntts-miside
+
+- type: voiceTag
+  id: ntts-minecraft
+
+- type: voiceTag
+  id: ntts-overwatch
+
+- type: voiceTag
+  id: ntts-portal-2
+
+- type: voiceTag
+  id: ntts-postal-2
+
+- type: voiceTag
+  id: ntts-s-t-a-l-k-e-r
+
+- type: voiceTag
+  id: ntts-sponge-bob
+
+- type: voiceTag
+  id: ntts-starcraft-2
+
+- type: voiceTag
+  id: ntts-tes-5-skyrim
+
+- type: voiceTag
+  id: ntts-team-fortress-2
+
+- type: voiceTag
+  id: ntts-the-punisher
+
+- type: voiceTag
+  id: ntts-the-witcher-3
+
+- type: voiceTag
+  id: ntts-tiny-bunny
+
+- type: voiceTag
+  id: ntts-warcraft-3
+
+- type: voiceTag
+  id: ntts-warhammer-40-000-dawn-of-war

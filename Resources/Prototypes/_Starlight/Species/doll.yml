@@ -26,6 +26,7 @@
     HeadTop: MobHumanoidAnyMarking
     Hair: MobHumanoidAnyMarking
     FacialHair: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobDollTorso
     Eyes: MobHumanoidEyes
     LArm: MobDollLArm
@@ -78,6 +79,7 @@
     HeadSide:
       points: 1
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
 
 - type: humanoidBaseSprite
   id: MobDollHead

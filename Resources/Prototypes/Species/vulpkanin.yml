@@ -29,6 +29,7 @@
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     SnoutCover: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobVulpkaninTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -71,6 +72,7 @@
       points: 1
       required: true
       defaultMarkings: [ FoxEar ] # Starlight
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Arms:
       points: 6
       required: false

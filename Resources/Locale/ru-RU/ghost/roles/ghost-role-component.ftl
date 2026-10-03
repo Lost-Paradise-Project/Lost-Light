@@ -251,7 +251,7 @@ ghost-role-information-syndicate-kobold-reinforcement-description = Кому-т�
 ghost-role-information-syndicate-cyborg-assault-name = Штурмовой киборг Синдиката
 ghost-role-information-syndicate-cyborg-saboteur-name = Саботажный киборг Синдиката
 ghost-role-information-syndicate-cyborg-medical-name = Медицинский киборг Синдиката
-ghost-role-information-syndicate-cyborg-description = Синдикату нужно подкрепление. Вы, холодная кремниевая машина для убийства, поможете им.
+ghost-role-information-syndicate-cyborg-description = Синдикату нужно подкрепление. Вы, холодная синтетическая машина для убийства, поможете им.
 
 ghost-role-information-derelict-engineering-cyborg-name = Брошенный киборг-инженер
 ghost-role-information-derelict-engineering-cyborg-description = Вы — инженерный киборг, который заблудился в космосе. После долгих лет воздействия ионных бурь вы оказываетесь рядом с космической станцией.

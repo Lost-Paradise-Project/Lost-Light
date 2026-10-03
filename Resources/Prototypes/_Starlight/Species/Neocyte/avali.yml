@@ -39,6 +39,7 @@
     Snout: MobHumanoidAnyMarking
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobAvaliTorso
     Tail: MobHumanoidAnyMarking
     LArm: MobAvaliLArm
@@ -103,6 +104,7 @@
     Legs:
       points: 2
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Arms:
       points: 4
       required: false

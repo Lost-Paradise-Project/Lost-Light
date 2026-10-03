@@ -6,7 +6,7 @@ ent-Implanter = экстрактор имплантов
         ПРЕДУПРЕЖДЕНИЕ: Ошибка оператора, такая как выбор отсутствующего типа импланта, приведёт к серьёзной генетической травме оператора.
 ent-ImplanterAdmeme = { ent-Implanter }
     .desc = { ent-Implanter.desc }
-    .suffix = АДМЕМЫ
+    .suffix = АДМЕМЕ
 ent-BaseImplantOnlyImplanter = { ent-Implanter }
     .desc = Одноразовый шприц, специально предназначенный для введения подкожных имплантов.
 ent-BaseImplantOnlyImplanterSyndi = имплантер Синдиката

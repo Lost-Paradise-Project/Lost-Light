@@ -1,9 +1,9 @@
 ent-ClothingNeckAngelPin = значок добрых дел
     .desc = Для лучших!
-    .suffix = НЕ МАППИТЬ, админ-мем
+    .suffix = НЕ МАППИТЬ, АДМЕМЕ
 ent-ClothingNeckDevilPin = значок злых дел
     .desc = Для худших!
-    .suffix = НЕ МАППИТЬ, админ-мем
+    .suffix = НЕ МАППИТЬ, АДМЕМЕ
 ent-HoloReporterPin = голозначок репортёра
     .desc = Электронный значок с кнопкой в форме микрофона. Способ яснее сказать: НЕ СТРЕЛЯЙТЕ!
 ent-ActionHoloPin = Активировать голозначок

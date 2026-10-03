@@ -35,11 +35,11 @@ marking-VulpEarFox = Вульпканин Лиса
 
 marking-VulpEarOtie-otie = Короткие уши (Основа)
 marking-VulpEarOtie-otie-inner = Короткие уши (Внутренняя часть)
-marking-VulpEarOtie = Вульпканин Сближенные
+marking-VulpEarOtie = Вульпканин (сближенные уши)
 
 marking-VulpEarShock-shock = Сближенные уши (Основа)
 marking-VulpEarShock-shock-inner = Сближенные уши (Внутренняя часть)
-marking-VulpEarShock = Вульпканин Сближенные
+marking-VulpEarShock = Вульпканин (сближенные уши)
 
 
 # Snout

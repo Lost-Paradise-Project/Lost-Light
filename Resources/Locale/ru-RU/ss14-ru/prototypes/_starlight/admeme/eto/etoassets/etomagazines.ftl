@@ -18,6 +18,6 @@ ent-MagazinePistolSubMachineGunBottomMountedDDImprovised = магазин PS DD-
     .desc = Уникальный 64-патронный магазин для DD-22, вмещает патроны .35. Какой-то идиот набил его самодельными патронами.
 ent-MagazinePistolSubMachineGunBottomMountedDDAntimaterial = магазин PS DD-22 (.60 антиматериальный, нижний)
     .desc = Уникальный 64-патронный магазин для DD-22, обычно вмещает патроны .35 авто, но этот модифицирован под антиматериальные патроны. Вы понятия не имеете, как он работает, и боитесь увидеть результат.
-    .suffix = Админ-мем
+    .suffix = АДМЕМЕ
 ent-MagazinePistolSubMachineGunBottomMountedDDRubber = магазин PS DD-22 (.35 резиновый, нижний)
     .desc = { ent-MagazinePistolSubMachineGunBottomMountedDDBase.desc }

@@ -28,3 +28,5 @@ cd-character-records-viewer-setwanted-placeholder = Причина
 cd-character-records-viewer-security-permanent-label = Постоянные записи
 cd-character-records-viewer-security-current-shift-label = Журнал текущей смены
 cd-character-records-viewer-security-current-shift-empty = Записей за текущую смену нет.
+
+ui-admin-records-console-title = Консоль записей (админ)

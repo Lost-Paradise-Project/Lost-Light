@@ -6,7 +6,7 @@
     fontId: Darktongue
     obfuscationFont: true
   icon: LanguageIconFelyaic
-  chatPrefix: fel
+  chatPrefix: фел # LP edit
   obfuscation:
     !type:SyllableObfuscation # the darktongue font contains unused capital letters that are more complex
     minSyllables: 1

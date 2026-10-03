@@ -16,7 +16,7 @@ public sealed partial class HumanoidProfileEditor
     {
         _voices = [.. _prototypeManager
             .EnumeratePrototypes<VoicePrototype>()
-            .Where(voice => !voice.Silicon)];
+            .Where(voice => !voice.Silicon && voice.Speaker != null)]; // LP edit
 
         _voiceSelectorWindow = new VoiceSelectorWindow(_voices);
         _voiceSelectorWindow.OnVoiceSelected += voice =>
@@ -30,7 +30,7 @@ public sealed partial class HumanoidProfileEditor
 
         _siliconVoices = [.. _prototypeManager
             .EnumeratePrototypes<VoicePrototype>()
-            .Where(voice => voice.Silicon)];
+            .Where(voice => voice.Silicon && voice.Speaker != null)]; // LP edit
 
         _voiceSiliconSelectorWindow = new VoiceSelectorWindow(_siliconVoices);
         _voiceSiliconSelectorWindow.OnVoiceSelected += voice =>
@@ -50,7 +50,7 @@ public sealed partial class HumanoidProfileEditor
 
         _voiceSelectorWindow.UpdateVoices(_voices, updateVoice: false);
 
-        if (string.IsNullOrEmpty(Profile.Voice) && _voices.Count > 0)
+        if ((string.IsNullOrEmpty(Profile.Voice) || _voices.All(voice => voice.ID != Profile.Voice)) && _voices.Count > 0) // LP edit - голос Starlight заменяем на голос ntts
             Profile.Voice = _voices[Random.Shared.Next(_voices.Count)].ID;
 
         var voiceChoice = _voices.FirstOrDefault(voice => voice.ID == Profile.Voice);
@@ -65,7 +65,7 @@ public sealed partial class HumanoidProfileEditor
 
         _voiceSiliconSelectorWindow.UpdateVoices(_siliconVoices, updateVoice: false);
 
-        if (string.IsNullOrEmpty(Profile.SiliconVoice) && _siliconVoices.Count > 0)
+        if ((string.IsNullOrEmpty(Profile.SiliconVoice) || _siliconVoices.All(voice => voice.ID != Profile.SiliconVoice)) && _siliconVoices.Count > 0) // LP edit - голос Starlight заменяем на голос ntts
             Profile.SiliconVoice = _siliconVoices[Random.Shared.Next(_siliconVoices.Count)].ID;
 
         var voiceChoice = _siliconVoices.FirstOrDefault(voice => voice.ID == Profile.SiliconVoice);

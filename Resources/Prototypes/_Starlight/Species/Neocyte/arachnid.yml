@@ -28,6 +28,7 @@
     Eyes: MobNeocyteEyes
     Head: MobArachnidHead
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Chest: MobArachnidTorso

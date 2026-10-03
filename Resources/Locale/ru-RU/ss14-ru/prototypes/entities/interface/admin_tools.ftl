@@ -1,2 +1,2 @@
-ent-AdminCamera = админ камера
+ent-AdminCamera = камера админа
     .desc = Мы смотрим за тобой.

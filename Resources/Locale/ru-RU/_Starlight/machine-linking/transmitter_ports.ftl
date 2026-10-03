@@ -39,3 +39,6 @@ signal-port-description-enabled = Выдаётся, когда устройст�
 
 signal-port-name-disabled = Выключено
 signal-port-description-disabled = Выдаётся, когда устройство выключено и неактивно.
+
+signal-port-name-turret-controller-sync-sender = Синхронизация
+signal-port-description-turret-controller-sync-sender = Передаёт настройки вооружения и допуска этой панели управления турелями другой панели.

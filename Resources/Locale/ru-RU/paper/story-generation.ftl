@@ -100,9 +100,9 @@ story-gen-book-character41 = эльф
 story-gen-book-character42 = гоблин
 story-gen-book-character43 = орк
 story-gen-book-character44 = агент внутренних дел
-story-gen-book-character45 = шейдкин
+story-gen-book-character45 = теневик
 story-gen-book-character46 = авали
-story-gen-book-character47 = ресоми
+story-gen-book-character47 = резоми
 story-gen-book-character48 = тавен
 # Starlight edit end
 

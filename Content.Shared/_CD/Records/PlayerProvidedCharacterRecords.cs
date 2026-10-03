@@ -150,9 +150,9 @@ public sealed partial class PlayerProvidedCharacterRecords
             height: 164, weight: 74,
             emergencyContactName: string.Empty,
             identifyingFeatures: string.Empty,
-            allergies: "None",
-            drugAllergies: "None",
-            postmortemInstructions: "Return home",
+            allergies: "Нет", // LP edit
+            drugAllergies: "Нет", // LP edit
+            postmortemInstructions: "Вернуть домой", // LP edit
             medicalEntries: new List<RecordEntry>(),
             securityEntries: new List<RecordEntry>(),
             employmentEntries: new List<RecordEntry>(),
@@ -169,9 +169,9 @@ public sealed partial class PlayerProvidedCharacterRecords
             weight: (int)(species.StandardWeight + species.StandardDensity * (species.DefaultWidth * species.DefaultHeight * species.DefaultHeight - 1)),
             emergencyContactName: string.Empty,
             identifyingFeatures: string.Empty,
-            allergies: "None",
-            drugAllergies: "None",
-            postmortemInstructions: "Return home",
+            allergies: "Нет", // LP edit
+            drugAllergies: "Нет", // LP edit
+            postmortemInstructions: "Вернуть домой", // LP edit
             medicalEntries: new List<RecordEntry>(),
             securityEntries: new List<RecordEntry>(),
             employmentEntries: new List<RecordEntry>(),

@@ -1,0 +1,9 @@
+ent-MaterialSandbag = мешок с песком
+    .desc = Тяжёлый тканевый мешок, набитый песком. Сложите несколько - и пулям станет всё равно, что за ними.
+    .suffix = Полный
+ent-MaterialSandbag12 = { ent-MaterialSandbag }
+    .desc = { ent-MaterialSandbag.desc }
+    .suffix = 12
+ent-MaterialSandbag1 = { ent-MaterialSandbag }
+    .desc = { ent-MaterialSandbag.desc }
+    .suffix = Один

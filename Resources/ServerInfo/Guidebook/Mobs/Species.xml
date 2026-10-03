@@ -15,23 +15,23 @@
   <Box>
   <GuideEntityEmbed Entity="AppearanceDoll" Caption="Кукла"/>
   <GuideEntityEmbed Entity="GuideExpie" Caption="Эксперимент"/>
-  <GuideEntityEmbed Entity="AppearanceFelionoid" Caption="Фелионоид"/>
+  <GuideEntityEmbed Entity="AppearanceFelionoid" Caption="Фелиноид"/>
   <GuideEntityEmbed Entity="AppearanceHuman" Caption="Человек"/>
   <GuideEntityEmbed Entity="AppearanceLagomorph" Caption="Лагоморф"/>
   <GuideEntityEmbed Entity="AppearanceSlimePerson" Caption="Ласпи"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="AppearanceMoth" Caption="Ниан"/>
-  <GuideEntityEmbed Entity="AppearanceResomi" Caption="Ресоми"/>
+  <GuideEntityEmbed Entity="AppearanceResomi" Caption="Резоми"/>
   <GuideEntityEmbed Entity="AppearanceReptilian" Caption="Унатх"/>
   <GuideEntityEmbed Entity="AppearanceRodentia" Caption="Грызун"/>
-  <GuideEntityEmbed Entity="AppearanceShadekin" Caption="Шейдекин"/>
+  <GuideEntityEmbed Entity="AppearanceShadekin" Caption="Теневик"/>
   <GuideEntityEmbed Entity="AppearanceThaven" Caption="Тавен"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="AppearanceVox" Caption="Вокс"/>
   <GuideEntityEmbed Entity="AppearanceVulpkanin" Caption="Вульпканин"/>
-  <GuideEntityEmbed Entity="AppearanceNeocyte" Caption="Неоцит"/> <!--FH-->
+  <GuideEntityEmbed Entity="AppearanceNeocyte" Caption="Протоген"/> <!--FH-->
   <GuideEntityEmbed Entity="AppearanceIPC" Caption="КПБ"/> <!--FH-->
   </Box>
 <!-- Starlight end, reorganizing all of this alphabetically-->

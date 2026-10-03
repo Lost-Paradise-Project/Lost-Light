@@ -1,7 +1,7 @@
 - type: language
   id: Xeno
   icon: LanguageIconXeno
-  chatPrefix: xno
+  chatPrefix: ксе # LP edit
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1

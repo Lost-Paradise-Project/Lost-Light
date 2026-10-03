@@ -1,6 +1,6 @@
 ent-DnaInjectorUnlimited = инъектор ДНК
     .desc = Может использоваться для извлечения образца ДНК из кого-нибудь и ввода в кого-нибудь другого, превращая второго в клона первого.
-    .suffix = АДМЕМЫ, Неограниченный
+    .suffix = АДМЕМЕ, Неограниченный
 ent-DnaInjector = { ent-DnaInjectorUnlimited }
     .desc = { ent-DnaInjectorUnlimited.desc }
-    .suffix = АДМЕМЫ, Одноразовый
+    .suffix = АДМЕМЕ, Одноразовый

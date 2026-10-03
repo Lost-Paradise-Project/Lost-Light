@@ -171,7 +171,7 @@ guide-entry-sl-nano-trasen-employee-sop-nt-rep = Представитель На
 guide-entry-sl-nano-trasen-employee-sop-bso = Офицер Синего щита
 guide-entry-sl-nano-trasen-employee-sop-magistrate = Магистрат
 guide-entry-sl-nano-trasen-employee-sop-iaa = Агент внутренних дел
-guide-entry-sl-nano-trasen-employee-sop-nct = Тренер карьеры НаноТрейзен
+guide-entry-sl-nano-trasen-employee-sop-nct = Карьерный коуч НаноТрейзен
 
 guide-entry-sl-service-sop-intro = Сервис
 guide-entry-sl-service-sop-genproc-intro = Общие процедуры

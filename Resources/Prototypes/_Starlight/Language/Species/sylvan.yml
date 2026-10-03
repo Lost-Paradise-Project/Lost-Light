@@ -1,7 +1,7 @@
 - type: language
   id: Sylvan
   icon: LanguageIconPlant
-  chatPrefix: syl
+  chatPrefix: сил # LP edit
   speech:
     color: "#897968"
   obfuscation:

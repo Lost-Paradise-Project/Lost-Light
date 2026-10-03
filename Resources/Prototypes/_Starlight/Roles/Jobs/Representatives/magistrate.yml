@@ -10,6 +10,7 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10h
+    # LP edit - убрано требование ExtRolesReq
     - !type:TraitsRequirement
       traits:
         - Iterator

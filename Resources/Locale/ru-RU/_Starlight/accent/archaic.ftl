@@ -611,7 +611,7 @@ accent-archaic-replacement-215 = склянка
 accent-archaic-replaced-216 = ящик с инструментами
 accent-archaic-replacement-216 = сундучок
 
-accent-archaic-replaced-217 = резиновая печать
+accent-archaic-replaced-217 = печать
 accent-archaic-replacement-217 = сургучная печать
 
 accent-archaic-replaced-218 = плитки

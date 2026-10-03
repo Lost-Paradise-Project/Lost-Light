@@ -1,6 +1,6 @@
 # Sad
 names-shadekin-dataset-1 = Хрупкий
-names-shadekin-dataset-2 = Разбитое сердце
+names-shadekin-dataset-2 = Разбитое Сердце
 names-shadekin-dataset-3 = Неполноценный
 names-shadekin-dataset-4 = Одинокий
 names-shadekin-dataset-5 = Покинутый
@@ -94,7 +94,7 @@ names-shadekin-dataset-84 = Свободный
 names-shadekin-dataset-85 = Интрига
 names-shadekin-dataset-86 = Превосходство
 names-shadekin-dataset-87 = Неподвижный
-names-shadekin-dataset-88 = Свободный от оков
+names-shadekin-dataset-88 = Свободный от Оков
 names-shadekin-dataset-89 = Тени
 names-shadekin-dataset-90 = Душа
 names-shadekin-dataset-91 = Спирит

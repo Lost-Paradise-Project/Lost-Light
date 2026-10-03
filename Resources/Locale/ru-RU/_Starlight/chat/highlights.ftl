@@ -4,7 +4,7 @@
 highlights-blue-shield-officer = Офицер Синего щита, Синий щит, Блюшилд, "ОСЩ"
 highlights-magistrate = Магистрат, "Закон", "Маги"
 highlights-nanotrasen-representative = Представитель НаноТрейзен, "ПНТ", НТ Рэп, "Закон", "СОП", Стандартные рабочие процедуры
-highlights-nanotrasen-career-trainer = Тренер карьеры НаноТрейзен, Тренер карьеры, "НКТ"
+highlights-nanotrasen-career-trainer = Карьерный коуч НаноТрейзен, Карьерный коуч, "НКТ"
 
 # Security
 highlights-duty-officer = Дежурный офицер, Служба безопасности, "СБ"

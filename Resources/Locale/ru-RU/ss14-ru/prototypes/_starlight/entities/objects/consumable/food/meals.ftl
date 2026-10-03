@@ -1,6 +1,6 @@
 ent-FoodCookedLizardPlate = Извержение вулкана
     .desc = Произведение искусства, показывающее гибель леса
-ent-FoodFriedfelionoid = Фелионоид по-кентуккски
+ent-FoodFriedfelionoid = Фелиноид по-кентуккски
     .desc = Старое блюдо, осовремененное под новые тренды
 ent-FoodFriedRodentia = Грызун по-кентуккски
     .desc = Богатый витаминами грызун на палочке.

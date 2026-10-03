@@ -52,6 +52,7 @@
       - Hair
       - HeadTop
       - HeadSide
+    # LP edit - убрано нижнее бельё (цензура наготы)
   - type: Fixtures
     fixtures:
       fix1:
@@ -115,6 +116,7 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    # LP edit - убрано нижнее бельё (цензура наготы)
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg

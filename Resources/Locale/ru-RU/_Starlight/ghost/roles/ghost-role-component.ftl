@@ -14,8 +14,8 @@ ghost-role-information-wizard-pai-rules =       Вы [color=red]НЕ[/color] д�
 ghost-role-information-chaospaper-name = Конец Q
 ghost-role-information-chaospaper-description = Постарайтесь добиться, чтобы экипаж со щитом разума подписал вас теми ограниченными средствами, что у вас есть.
 
-ghost-role-information-soviet-marine-name = Морпех ССФ
-ghost-role-information-soviet-marine-desc = Вы элитный морпех лучшего флота УССР. Ожидайте приказов от адмирала, должностного лица или комиссариата.
+ghost-role-information-soviet-marine-name = Морпех СССП
+ghost-role-information-soviet-marine-desc = Вы элитный морпех лучшего флота СССП. Ожидайте приказов от адмирала, должностного лица или комиссариата.
 ghost-role-information-soviet-marine-rules = Вы обязаны выполнять приказы своего командира, вы по сути его [color={ role-type-familiar-color }][bold]{ role-type-familiar-name }[/bold][/color].
 
 ghost-role-information-derelict-borgi-name = Заброшенный борги
@@ -41,7 +41,7 @@ ghost-role-information-corporate-aligned-rules = Вы — [color={ role-type-cor
                                              Вам абсолютно [color=red]НЕЛЬЗЯ[/color] помнить, например, имя, внешность и прочее вашего предыдущего персонажа.
 
 ghost-role-information-tsf-aligned-rules = Вы — [color={ role-type-tsf-aligned-color }][bold]{ role-type-tsf-aligned-name }[/bold][/color].
-                                             Вы должны служить интересам Солгов, даже если они расходятся с интересами станции. Помните, вы [color=red]НЕ[/color] служите экипажу.
+                                             Вы должны служить интересам АНС, даже если они расходятся с интересами станции. Помните, вы [color=red]НЕ[/color] служите экипажу.
                                              Вы не помните ничего из своей прошлой жизни и ничего из того, что узнали, будучи призраком.
                                              Вам разрешено помнить общие знания об игре, например как готовить, как пользоваться предметами и т. д.
                                              Вам абсолютно [color=red]НЕЛЬЗЯ[/color] помнить, например, имя, внешность и прочее вашего предыдущего персонажа.
@@ -77,12 +77,12 @@ ghost-role-information-tsf-specops-name = Спецназ Солнечной фе
 ghost-role-information-tsf-Phantom-name = Морпех-призрак Солнечной федерации
 ghost-role-information-tsf-MARSOC-name = Морпех МАРСОК Солнечной федерации
 ghost-role-information-tsf-crew-name = Член экипажа Солнечной федерации
-ghost-role-information-tsf-borg-name = Киборг Солгов
-ghost-role-information-tsf-borg-desc = Вы киборг Солгов. Выполните порученное задание.
+ghost-role-information-tsf-borg-name = Киборг АНС
+ghost-role-information-tsf-borg-desc = Вы киборг АНС. Выполните порученное задание.
 ghost-role-information-tsf-marine-desc = Вы морпех Солнечной федерации. Выполните порученное задание.
 
-ghost-role-information-tsf-officer-name = Патрульный офицер Солгов
-ghost-role-information-tsf-officer-Sheriff-name = Шериф Солгов
+ghost-role-information-tsf-officer-name = Патрульный офицер АНС
+ghost-role-information-tsf-officer-Sheriff-name = Шериф АНС
 ghost-role-information-tsf-officer-desc = Вы патрульный офицер Солнечной федерации. Выполните порученное задание.
 
 ghost-role-information-xenomoproach-name = Ксенотараканомоль
@@ -149,3 +149,12 @@ ghost-role-information-maintenance-drone-rules = Вы связаны этими 
                                                  1. Вы не можете вмешиваться в дела других существ, даже если это противоречит второму или третьему закону, если только это существо не другой дрон.
                                                  2. Вы не можете причинять вред ни одному существу, независимо от намерений и обстоятельств.
                                                  3. Ваша цель — строить, обслуживать, чинить, улучшать и снабжать энергией станцию в меру своих сил. Вы никогда не должны активно действовать против этих целей.
+
+# Ghost role names, descriptions and rules
+
+ghost-role-information-mob-nyr-mouse-ops-name = красная мышь!
+ghost-role-information-drone-name = Ремонтный дрон
+ghost-role-information-spawn-point-ghost-cluwne-beast-name = Зверь-клувень
+ghost-role-information-mob-nyr-mouse-ops-description = Вы - предводитель мышей. Ваша цель - украсть сыр у глав!
+ghost-role-information-spawn-point-ghost-cluwne-beast-description = Сейте смех и хаос: бейте членов экипажа и превращайте их в клувней.
+ghost-role-information-spawn-point-ghost-cluwne-beast-rules = Вы - антагонист. Превратите в клувней как можно больше членов экипажа.

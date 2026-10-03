@@ -16,7 +16,7 @@ job-name-clown = клоун
 job-name-cluwne = клувень
 job-name-cmo = главный врач
 # Starlight: Capitalization fix:
-job-name-deathsquad = агент эскадрона смерти
+job-name-deathsquad = агент Центкома
 job-name-detective = детектив
 job-name-doctor = врач
 job-name-engineer = инженер
@@ -63,13 +63,13 @@ job-name-virologist = вирусолог
 job-name-zookeeper = зоотехник
 
 # antagonist jobs
-job-name-ninja = Ниндзя
+job-name-ninja = ниндзя
 job-name-syndicate = синдикат
-job-name-syndicate-commander = Командир Синдиката
-job-name-syndicate-corpsman = Медик Синдиката (Корпсмен)
-job-name-syndicate-operative = Оперативник Синдиката
-job-name-pirate = Пират
-job-name-wizard = Волшебник
+job-name-syndicate-commander = командир Синдиката
+job-name-syndicate-corpsman = медик Синдиката
+job-name-syndicate-operative = оперативник Синдиката
+job-name-pirate = пират
+job-name-wizard = волшебник
 job-name-zombie = зомби
 
 # Job titles

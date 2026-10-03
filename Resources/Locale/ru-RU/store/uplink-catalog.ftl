@@ -34,7 +34,7 @@ uplink-gloves-knuckleduster-name = Кастеты Синдиката
 uplink-gloves-knuckleduster-desc = Пара пластитановых кастетов, позволяющий вам сломать челюсть капитана вдребезги всего одним ударом.
 
 uplink-hushpup-name = Хашпап
-uplink-hushpup-desc = Мощный бесшумный дробовик с малой ёмкостью магазина. Использует боеприпасы .50 калибра.
+uplink-hushpup-desc = Мощный бесшумный дробовик с малой ёмкостью магазина. Использует боеприпасы 12-го калибра.
 # ^ Starlight Edit: .50 -> 12 gauge
 
 uplink-c20r-name = C-20r
@@ -105,10 +105,10 @@ uplink-pistol-magazine-desc = Пистолетный магазин на 10 па
 uplink-pistol-magazine-c20r-name = Магазин ПП (.35 авто)
 uplink-pistol-magazine-c20r-desc = Магазин ПП на 30 патронов. Совместим с C-20r.
 
-uplink-magazine-bulldog-pellet-name = Барабанный магазин (.50 дробь)
+uplink-magazine-bulldog-pellet-name = Барабанный магазин (12 калибр дробь)
 uplink-magazine-bulldog-pellet-desc = Магазин для дробовика, наполненный восемью дробовыми патронами. Совместим с Бульдогом.
 
-uplink-magazine-bulldog-slug-name = Барабанный магазин (.50 пуля)
+uplink-magazine-bulldog-slug-name = Барабанный магазин (12 калибр пуля)
 uplink-magazine-bulldog-slug-desc = Магазин для дробовика, наполненный восемью пулевыми патронами. Совместим с Бульдогом.
 
 uplink-estoc-ammo-name = Винтовочный магазин (.20 винтовочный)

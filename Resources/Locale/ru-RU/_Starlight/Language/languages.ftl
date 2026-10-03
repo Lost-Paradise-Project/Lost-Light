@@ -13,10 +13,10 @@ language-ClassicalSign-name = Классический язык жестов
 language-ClassicalSign-description = Более старый и малоизвестный язык жестов родом с Терры. Полностью отличается от Галактического языка жестов.
 
 language-SolCommon-name = Общий Сол
-language-SolCommon-description = Искусственный язык, разработанный Транссолнечной федерацией для простоты использования и лаконичного общения.
+language-SolCommon-description = Искусственный язык, разработанный Альянсом Независимых Систем для простоты использования и лаконичного общения.
 
 language-Marish-name = Мариш
-language-Marish-description = У шейдекинов язык основан на эмпатии, но в нём всё же есть тонкие тона и слоги, столь же деликатные, как эмоции, которыми они обычно общаются.
+language-Marish-description = У теневиков язык основан на эмпатии, но в нём всё же есть тонкие тона и слоги, столь же деликатные, как эмоции, которыми они обычно общаются.
 
 language-Machine-name = Кодированный аудиоязык
 language-Machine-description = Эффективный язык закодированных тонов, разработанный синтетиками и киборгами.
@@ -30,8 +30,8 @@ language-Canilunzt-description = Гортанный язык обитателе�
 language-Moffic-name = Моффик
 language-Moffic-description = Язык мотыльков граничит с полной неразборчивостью.
 
-language-Nekomimetic-name = Некомимитик
-language-Nekomimetic-description = Случайному наблюдателю этот язык кажется непонятной мешаниной сломанного японского. Фелионоидам он почему-то понятен.
+language-Nekomimetic-name = Некомиметик
+language-Nekomimetic-description = Случайному наблюдателю этот язык кажется непонятной мешаниной сломанного японского. Фелиноидам он почему-то понятен.
 
 language-Draconic-name = Драконий
 language-Draconic-description = Общий язык ящеролюдей, состоящий из свистящего шипения и трескотни.
@@ -42,14 +42,14 @@ language-ScurretSign-description = Вава! Тайные знаки, позво
 language-Ancestor-name = Предковый
 language-Ancestor-description = Протоязык, которым в основном пользуются обезьяны и человекообразные приматы.
 
-language-Mouse-name = Мышь
+language-Mouse-name = Мышиный
 language-Mouse-description = Пииик!
 
-language-Mothroach-name = Таракамоль
+language-Mothroach-name = Таракамолий
 language-Mothroach-description = стрекочет!
 
-language-Scratch-name = Царапина
-language-Scratch-description = Упрощённый письменный диалект авали и ресоми. Скретч — галактический стандартный языковой модель для иллюминатов. Истоки этого языка восходят к кочевым племенам докосмической эпохи, чьи резные знаки и насечки в ледяных пещерах поразительно похожи на современный Скретч.
+language-Scratch-name = Скретч
+language-Scratch-description = Упрощённый письменный диалект авали и резоми. Скретч - стандартный галактический язык Иллюминатов. Его истоки восходят к кочевым племенам докосмической эпохи, чьи резные знаки и насечки в ледяных пещерах поразительно похожи на современный Скретч.
 
 language-Terrum-name = Террум
 language-Terrum-description = Звучит похоже на древнеземной иврит.
@@ -91,19 +91,19 @@ language-Dog-description = Гав!
 language-DogFeral-name = Собачий (дикий)
 language-DogFeral-description = Менее утончённый собачий диалект, понятный только собакам.
 
-language-Fox-name = Лис
+language-Fox-name = Лисий
 language-Fox-description = Йип!
 
-language-Chicken-name = Курица
+language-Chicken-name = Куриный
 language-Chicken-description = Кудах!
 
-language-Duck-name = Утка
+language-Duck-name = Утиный
 language-Duck-description = Кря!
 
-language-Pig-name = Свинья
+language-Pig-name = Свиной
 language-Pig-description = Хрю!
 
-language-Bat-name = Летучая мышь
+language-Bat-name = Язык летучих мышей
 language-Bat-description = Иик!
 
 language-Thaveyan-name = Тавенский
@@ -124,8 +124,8 @@ language-Classical-description = Когда-то на этом языке гов
 language-Aielic-name = Айелик
 language-Aielic-description = Предположительно исходный язык айелитов, ныне на нём говорят только квели.
 
-language-Lagomorphian-name = Лагуин
-language-Lagomorphian-description = Очень линарксичный язык, созданный как язык-посредник для разных голосовых устройств лагоморфов.
+language-Lagomorphian-name = Лагоморфский
+language-Lagomorphian-description = Очень простой язык, созданный как язык-посредник для лагоморфов с разным строением голосового аппарата.
 
 language-Cosmic-name = Астральный шёпот
 language-Cosmic-description = ЗАНАВЕС ДОЛЖЕН ПАСТЬ

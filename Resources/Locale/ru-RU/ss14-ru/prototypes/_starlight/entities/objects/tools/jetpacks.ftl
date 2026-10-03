@@ -1,7 +1,7 @@
-ent-JetpackSSFMarine = реактивный ранец морпеха ССФ
+ent-JetpackSSFMarine = реактивный ранец морпеха СССП
     .desc = Стандартный реактивный ранец советского производства для космоса.
     .suffix = Пусто
-ent-JetpackSSFMarineFilled = реактивный ранец морпеха ССФ
+ent-JetpackSSFMarineFilled = реактивный ранец морпеха СССП
     .desc = Стандартный реактивный ранец советского производства для космоса.
     .suffix = { ent-JetpackSSFMarine.suffix }
 ent-JetpackImprovised = самодельный реактивный ранец

@@ -3,63 +3,63 @@ gofish-card-desc-reverse = Не разобрать, что изображено 
 
 gofish-card-name = Карта { gofish-card-value-name }
 gofish-card-value-name = { $card ->
-    [rules] Rules
-    [carp] Space Carp
-    [magic] Magic Carp
-    [holo] Holocarp
-    [rainbowcarp] Rainbow Carp
+    [rules] Правила
+    [carp] Космический карп
+    [magic] Магический карп
+    [holo] Голокарп
+    [rainbowcarp] Радужный карп
     [acmeco] AcmeCo
     [dromedaryco] DromedaryCo
     [nomads] Nomads
     [spessman] Spessman
-    [ian] Ian
-    [lisa] Lisa
-    [puppy] Puppy Ian
-    [oldian] Old Ian
-    [appledonut] Apple Donut
-    [bungodonut] Bungo Donut
-    [chocolatedonut] Chocolate Donut
-    [pinkdonut] Pink Donut
-    [ertengineer] ERT Engineer
-    [ertleader] ERT Leader
-    [ertmedic] ERT Medic
-    [ertsecurity] ERT Security
-    [bingus] Bingus
-    [exception] Exception
-    [floppa] Floppa
-    [runtime] Runtime
-    [apple] Apple
-    [banana] Banana
-    [grapes] Grapes
-    [orange] Orange
-    [brown] Brown Mouse
-    [grey] Grey Mouse
-    [real] Real Mouse
-    [white] White Mouse
-    [deathshead] Deathshead Mothroach
-    [moproach] Moproach
-    [mothroach] Regular Mothroach
-    [rosy] Rosy Mothroach
-    [nukieelite] Elite Nukie
-    [nukiejuggernaut] Nukie Juggernaut
-    [nukiemedic] Nukie Medic
-    [nukieoperative] Nukie Operative
-    [drazil] Drazil Plushie
-    [lizard] Lizard Plushie
-    [rainbowlizard] Rainbow Lizard Plushie
-    [spacelizard] Space Lizard Plushie
+    [ian] Иан
+    [lisa] Лиза
+    [puppy] Щенок Иан
+    [oldian] Старый Иан
+    [appledonut] Яблочный пончик
+    [bungodonut] Бунго пончик
+    [chocolatedonut] Шоколадный пончик
+    [pinkdonut] Розовый пончик
+    [ertengineer] Инженер ОБР
+    [ertleader] Лидер ОБР
+    [ertmedic] Медик ОБР
+    [ertsecurity] Офицер безопасности ОБР
+    [bingus] Бингус
+    [exception] Эксепшен
+    [floppa] Шлёпа
+    [runtime] Рантайм
+    [apple] Яблоко
+    [banana] Банан
+    [grapes] Виноград
+    [orange] Апельсин
+    [brown] Бурая мышь
+    [grey] Серая мышь
+    [real] Настоящая мышь
+    [white] Белая мышь
+    [deathshead] Таракамоль «Мёртвая голова»
+    [moproach] Швабракан
+    [mothroach] Обычная таракамоль
+    [rosy] Розовая таракамоль
+    [nukieelite] Элитный нюкер
+    [nukiejuggernaut] Нюкер-джаггернаут
+    [nukiemedic] Нюкер-медик
+    [nukieoperative] Нюкер-оперативник
+    [drazil] Плюшевый дразил
+    [lizard] Плюшевая ящерица
+    [rainbowlizard] Радужная плюшевая ящерица
+    [spacelizard] Плюшевая ящерица-космонавт
     [fourteenloko] Fourteen Loko
-    [grape] Grape Soda
-    [smitecranberry] Smite Cranberry Soda
-    [spacecola] Space Cola
-    [bloodbag] Blood Bag
-    [bruisepack] Bruise Pack
-    [gauze] Gauze
-    [ointment] Ointment
-    [clown] Clown
-    [mime] Mime
-    [passenger] Passenger
-    [skeleton] Skeleton
+    [grape] Виноградная газировка
+    [smitecranberry] Клюквенный Smite
+    [spacecola] Космо-кола
+    [bloodbag] Пакет крови
+    [bruisepack] Набор для ушибов
+    [gauze] Марлевый бинт
+    [ointment] Мазь
+    [clown] Клоун
+    [mime] Мим
+    [passenger] Пассажир
+    [skeleton] Скелет
     *[other] { $card }
 }
 
@@ -68,71 +68,71 @@ gofish-card-desc =
     Она принадлежит к группе карт { gofish-card-group-name }!
 
 gofish-card-suit-name = { $suit ->
-    [gofishblue] Blue
-    [gofishgreen] Green
-    [gofishred] Red
-    [gofishyellow] Yellow
+    [gofishblue] синяя
+    [gofishgreen] зелёная
+    [gofishred] красная
+    [gofishyellow] жёлтая
     *[other] { $suit }
 }
 
 gofish-card-group-name = { $id ->
-    [carp] Carp
-    [magic] Carp
-    [holo] Carp
-    [rainbowcarp] Carp
-    [acmeco] Cigarette
-    [dromedaryco] Cigarette
-    [nomads] Cigarette
-    [spessman] Cigarette
-    [ian] Corgi
-    [lisa] Corgi
-    [puppy] Corgi
-    [oldian] Corgi
-    [appledonut] Donut
-    [bungodonut] Donut
-    [chocolatedonut] Donut
-    [pinkdonut] Donut
-    [ertengineer] ERT
-    [ertleader] ERT
-    [ertmedic] ERT
-    [ertsecurity] ERT
-    [bingus] Cat
-    [exception] Cat
-    [floppa] Cat
-    [runtime] Cat
-    [apple] Fruit
-    [banana] Fruit
-    [grapes] Fruit
-    [orange] Fruit
-    [brown] Mice
-    [grey] Mice
-    [real] Mice
-    [white] Mice
-    [deathshead] Mothroach
-    [moproach] Mothroach
-    [mothroach] Mothroach
-    [rosy] Mothroach
-    [nukieelite] Nukie
-    [nukiejuggernaut] Nukie
-    [nukiemedic] Nukie
-    [nukieoperative] Nukie
-    [drazil] Plushie
-    [lizard] Plushie
-    [rainbowlizard] Plushie
-    [spacelizard] Plushie
-    [fourteenloko] Soda
-    [grape] Soda
-    [smitecranberry] Soda
-    [spacecola] Soda
-    [bloodbag] Topical
-    [bruisepack] Topical
-    [gauze] Topical
-    [ointment] Topical
-    [clown] Troublemaker
-    [mime] Troublemaker
-    [passenger] Troublemaker
-    [skeleton] Troublemaker
-    *[other] !!Brother you should not be seeing this...!!
+    [carp] Карпы
+    [magic] Карпы
+    [holo] Карпы
+    [rainbowcarp] Карпы
+    [acmeco] Сигареты
+    [dromedaryco] Сигареты
+    [nomads] Сигареты
+    [spessman] Сигареты
+    [ian] Корги
+    [lisa] Корги
+    [puppy] Корги
+    [oldian] Корги
+    [appledonut] Пончики
+    [bungodonut] Пончики
+    [chocolatedonut] Пончики
+    [pinkdonut] Пончики
+    [ertengineer] ОБР
+    [ertleader] ОБР
+    [ertmedic] ОБР
+    [ertsecurity] ОБР
+    [bingus] Кошки
+    [exception] Кошки
+    [floppa] Кошки
+    [runtime] Кошки
+    [apple] Фрукты
+    [banana] Фрукты
+    [grapes] Фрукты
+    [orange] Фрукты
+    [brown] Мыши
+    [grey] Мыши
+    [real] Мыши
+    [white] Мыши
+    [deathshead] Таракамоли
+    [moproach] Таракамоли
+    [mothroach] Таракамоли
+    [rosy] Таракамоли
+    [nukieelite] Нюкеры
+    [nukiejuggernaut] Нюкеры
+    [nukiemedic] Нюкеры
+    [nukieoperative] Нюкеры
+    [drazil] Плюшевые игрушки
+    [lizard] Плюшевые игрушки
+    [rainbowlizard] Плюшевые игрушки
+    [spacelizard] Плюшевые игрушки
+    [fourteenloko] Газировка
+    [grape] Газировка
+    [smitecranberry] Газировка
+    [spacecola] Газировка
+    [bloodbag] Медикаменты
+    [bruisepack] Медикаменты
+    [gauze] Медикаменты
+    [ointment] Медикаменты
+    [clown] Хулиганы
+    [mime] Хулиганы
+    [passenger] Хулиганы
+    [skeleton] Хулиганы
+    *[other] !!Брат, ты не должен этого видеть...!!
 }
 
 gofish-card-rules-content = [color=#1b67a5] { "[head=1]                  Рыбалка![/head]" }
@@ -178,3 +178,7 @@ gofish-card-rules-content = [color=#1b67a5] { "[head=1]                  Рыб�
     { "  • [bold]Не показывайте карты[/bold], с которыми вы близки к сбору" }
     набора!
     { "  • [bold]Не забывайте получать удовольствие![/bold]" }
+
+gofish-card-rules-name = Карта правил «Рыбалки»
+gofish-card-rules-name-reverse = игральная карта
+gofish-card-rules-desc = Это карта с правилами! Прочитайте её, чтобы лучше разобраться в игре.

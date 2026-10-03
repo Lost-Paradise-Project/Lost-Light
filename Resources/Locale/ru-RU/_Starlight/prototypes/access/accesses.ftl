@@ -32,7 +32,7 @@ id-card-access-level-surgery = Хирургия
 id-card-access-level-paramed = Парамедик
 
 # Cyborgs
-id-card-access-level-cargo-cyborg = Карго-киборг
+id-card-access-level-cargo-cyborg = Киборг снабжения
 id-card-access-level-engineering-cyborg = Инженерный киборг
 id-card-access-level-research-cyborg = Исследовательский киборг
 id-card-access-level-security-cyborg = Киборг СБ
@@ -42,15 +42,15 @@ id-card-access-level-medical-cyborg = Медицинский киборг
 # Misc
 id-card-access-level-freelance = Фриланс
 
-id-card-access-level-debug1 = Отладка1
-id-card-access-level-debug2 = Отладка2
-id-card-access-level-debug3 = Отладка3
-id-card-access-level-debug4 = Отладка4
-id-card-access-level-debug5 = Отладка5
+id-card-access-level-debug1 = Отладка 1
+id-card-access-level-debug2 = Отладка 2
+id-card-access-level-debug3 = Отладка 3
+id-card-access-level-debug4 = Отладка 4
+id-card-access-level-debug5 = Отладка 5
 
 id-card-access-level-communist = Коммунист
 
-id-card-access-level-solgov = Солгов
+id-card-access-level-solgov = АНС
 
 id-card-access-level-pirate = Пират
 id-card-access-level-blackstar = Чёрная звезда

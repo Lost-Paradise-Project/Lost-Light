@@ -4,6 +4,10 @@
   id: hydroponicsTray
   description: An interstellar-grade space farmplot allowing for rapid growth and selective breeding of crops. Just... keep in mind the space weeds.
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_turret_floor
+  # LP edit end
   - type: Fixtures
     fixtures:
       fix1:

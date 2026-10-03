@@ -1,11 +1,11 @@
-markings-used = Используемые черты
-markings-unused = Неиспользуемые черты
-markings-add = Добавить черту
-markings-remove = Убрать черту
+markings-used = Выбранные детали
+markings-unused = Доступные детали
+markings-add = Добавить деталь
+markings-remove = Убрать деталь
 markings-rank-up = Вверх
 markings-rank-down = Вниз
 markings-search = Поиск
-marking-points-remaining = Осталось черт: { $points }
+marking-points-remaining = Осталось деталей: { $points }
 marking-used = { $marking-name }
 marking-used-forced = { $marking-name } (принудительно)
 marking-slot-add = Добавить
@@ -13,8 +13,8 @@ marking-slot-remove = Убрать
 marking-slot = Слот { $number }
 
 humanoid-marking-modifier-force = Принудительно
-humanoid-marking-modifier-ignore-species = Игнорировать расу
-humanoid-marking-modifier-base-layers = Базовый слой
+humanoid-marking-modifier-ignore-species = Игнорировать вид
+humanoid-marking-modifier-base-layers = Базовые слои
 humanoid-marking-modifier-enable = Включить
 humanoid-marking-modifier-prototype-id = ID прототипа:
 

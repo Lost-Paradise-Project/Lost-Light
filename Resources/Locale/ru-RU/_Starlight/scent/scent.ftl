@@ -3,6 +3,7 @@ scent-sniff-window-empty = Запахов не обнаружено.
 scent-sniff-window-empty-traces = Других следов запаха не обнаружено.
 scent-sniff-window-entry-id = [color={ $color }]Запах ({ $id }...)[/color]
 scent-sniff-window-entry-detail = [color={ $color }]{ $species } — { $freshness }[/color]
+scent-sniff-window-entry-detail-no-species = [color={ $color }]{ $freshness }[/color]
 scent-sniff-window-track-tooltip = Нажмите, чтобы выследить этот запах
 scent-sniff-window-tracking-popup = Вы начинаете выслеживать этот запах.
 scent-sniff-window-track-own = Выследить запах этого существа напрямую
@@ -18,6 +19,7 @@ scent-freshness-not-very-fresh = Не очень свежий
 scent-sniff-no-scents = На { $target } нет запахов!
 
 scent-sneeze-popup = Вы очищаете нос от выслеживаемого запаха.
+scent-track-fades-popup = Запах, по которому вы шли, развеивается...
 
 scent-cleaning-self = Вы начинаете смывать { $evidence } с себя...
 scent-cleaning-other = Вы начинаете смывать { $evidence } с { $target }...

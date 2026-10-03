@@ -24,6 +24,7 @@
     Head: MobNeocyteHead
     Eyes: MobNeocyteEyes
     Snout: MobHumanoidAnyMarking
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Chest: MobNeocyteTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -86,6 +87,7 @@
     Legs:
       points: 4
       required: false
+    # LP edit - убрано нижнее бельё (цензура наготы)
     Arms:
       points: 4
       required: false

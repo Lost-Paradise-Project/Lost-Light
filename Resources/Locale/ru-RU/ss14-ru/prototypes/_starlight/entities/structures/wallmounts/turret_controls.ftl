@@ -1,9 +1,12 @@
+ent-WeaponEnergyTurretStatusPanel = панель состояния охранных турелей
+    .desc = Настенный интерфейс только для чтения: показывает подключённые охранные турели и настройки панели управления.
+    .suffix = Статус
 ent-WeaponEnergyTurretSiliconControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
     .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
     .suffix = Кремний
 ent-WeaponEnergyTurretSolgovControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
     .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
-    .suffix = Солгов
+    .suffix = АНС
 ent-WeaponEnergyTurretITGControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
     .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
     .suffix = МТГ

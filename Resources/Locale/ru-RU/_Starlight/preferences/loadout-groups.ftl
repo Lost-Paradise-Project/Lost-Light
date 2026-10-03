@@ -1,135 +1,135 @@
 # Science
-loadout-group-roboticist-head = Головной убор робототехника
-loadout-group-roboticist-jumpsuit = Комбинезон робототехника
-loadout-group-roboticist-outerclothing = Верхняя одежда робототехника
-loadout-group-roboticist-gloves = Перчатки робототехника
-loadout-group-roboticist-goggles = Очки робототехника
-loadout-group-roboticist-backpack = Рюкзак робототехника
-loadout-group-roboticist-shoes = Обувь робототехника
-loadout-group-roboticist-neck = Шея робототехника
+loadout-group-roboticist-head = Робототехник, голова
+loadout-group-roboticist-jumpsuit = Робототехник, комбинезон
+loadout-group-roboticist-outerclothing = Робототехник, верхняя одежда
+loadout-group-roboticist-gloves = Робототехник, перчатки
+loadout-group-roboticist-goggles = Робототехник, очки
+loadout-group-roboticist-backpack = Робототехник, рюкзак
+loadout-group-roboticist-shoes = Робототехник, обувь
+loadout-group-roboticist-neck = Робототехник, шея
 
 # Civilian
-loadout-group-assistant-glasses = Очки ассистента
-loadout-group-assistant-head = Головной убор ассистента
-loadout-group-assistant-backpack = Рюкзак ассистента
+loadout-group-assistant-glasses = Ассистент, очки
+loadout-group-assistant-head = Ассистент, голова
+loadout-group-assistant-backpack = Ассистент, рюкзак
 
-loadout-group-assistantmanager-head = Головной убор помощника управляющего
-loadout-group-assistantmanager-jumpsuit = Комбинезон помощника управляющего
-loadout-group-assistantmanager-backpack = Рюкзак помощника управляющего
-loadout-group-assistantmanager-gloves = Перчатки помощника управляющего
-loadout-group-assistantmanager-outerclothing = Верхняя одежда помощника управляющего
-loadout-group-assistantmanager-shoes = Обувь помощника управляющего
+loadout-group-assistantmanager-head = Помощник управляющего, голова
+loadout-group-assistantmanager-jumpsuit = Помощник управляющего, комбинезон
+loadout-group-assistantmanager-backpack = Помощник управляющего, рюкзак
+loadout-group-assistantmanager-gloves = Помощник управляющего, перчатки
+loadout-group-assistantmanager-outerclothing = Помощник управляющего, верхняя одежда
+loadout-group-assistantmanager-shoes = Помощник управляющего, обувь
 
-loadout-group-boxer-jumpsuit = Комбинезон боксёра
-loadout-group-boxer-gloves = Перчатки боксёра
+loadout-group-boxer-jumpsuit = Боксёр, комбинезон
+loadout-group-boxer-gloves = Боксёр, перчатки
 
-loadout-group-musician-head = Головной убор музыканта
+loadout-group-musician-head = Музыкант, голова
 
 # Command
 
-loadout-group-nanotrasenrepresentative-head = Головной убор представителя НаноТрейзен
-loadout-group-nanotrasenrepresentative-outerclothing = Верхняя одежда представителя НаноТрейзен
-loadout-group-nanotrasenrepresentative-jumpsuit = Комбинезон представителя НаноТрейзен
-loadout-group-nanotrasenrepresentative-eyewear = Очки представителя НаноТрейзен
-loadout-group-nanotrasenrepresentative-shoes = Обувь представителя НаноТрейзен
-loadout-group-nanotrasenrepresentative-neck = Шея представителя НаноТрейзен
+loadout-group-nanotrasenrepresentative-head = Представитель НаноТрейзен, голова
+loadout-group-nanotrasenrepresentative-outerclothing = Представитель НаноТрейзен, верхняя одежда
+loadout-group-nanotrasenrepresentative-jumpsuit = Представитель НаноТрейзен, комбинезон
+loadout-group-nanotrasenrepresentative-eyewear = Представитель НаноТрейзен, очки
+loadout-group-nanotrasenrepresentative-shoes = Представитель НаноТрейзен, обувь
+loadout-group-nanotrasenrepresentative-neck = Представитель НаноТрейзен, шея
 
-loadout-group-captain-shoes = Обувь капитана
-loadout-group-hop-shoes = Обувь главы персонала
+loadout-group-captain-shoes = Капитан, обувь
+loadout-group-hop-shoes = Глава персонала, обувь
 
-loadout-group-blueshield-head = Головной убор Синего щита
-loadout-group-blueshield-backpack = Рюкзак Синего щита
-loadout-group-blueshield-jumpsuit = Комбинезон Синего щита
-loadout-group-blueshield-eyewear = Очки Синего щита
-loadout-group-blueshield-outerclothing = Верхняя одежда Синего щита
-loadout-group-blueshield-belt = Пояс Синего щита
-loadout-group-blueshield-neck = Шея Синего щита
-loadout-group-blueshield-id = ID Синего щита
+loadout-group-blueshield-head = Офицер «Синего щита», голова
+loadout-group-blueshield-backpack = Офицер «Синего щита», рюкзак
+loadout-group-blueshield-jumpsuit = Офицер «Синего щита», комбинезон
+loadout-group-blueshield-eyewear = Офицер «Синего щита», очки
+loadout-group-blueshield-outerclothing = Офицер «Синего щита», верхняя одежда
+loadout-group-blueshield-belt = Офицер «Синего щита», пояс
+loadout-group-blueshield-neck = Офицер «Синего щита», шея
+loadout-group-blueshield-id = Офицер «Синего щита», ID
 
 # Security
-loadout-group-security-tie = Галстук СБ
-loadout-group-security-mask = Маска СБ
-loadout-group-security-mask-elite = Маска элитной СБ
+loadout-group-security-tie = Офицер СБ, галстук
+loadout-group-security-mask = Офицер СБ, маска
+loadout-group-security-mask-elite = Офицер СБ, элитная маска
 
-loadout-group-brigmedic-gloves = Полевой врач, перчатка
-loadout-group-security-non-lethal-weapon = Нелетальное оружие СБ
-loadout-group-security-sidearm = Личное оружие СБ
-loadout-group-detective-shoes = Обувь детектива
-loadout-group-brigmedic-id = ID бригмедика
-loadout-group-brigmedic-beaker = Мензурка бригмедика
+loadout-group-brigmedic-gloves = Полевой врач, перчатки
+loadout-group-security-non-lethal-weapon = Офицер СБ, нелетальное оружие
+loadout-group-security-sidearm = Офицер СБ, личное оружие
+loadout-group-detective-shoes = Детектив, обувь
+loadout-group-brigmedic-id = Полевой врач, ID
+loadout-group-brigmedic-beaker = Полевой врач, мензурка
 loadout-group-brigmedic-mask = Полевой врач, маска
 
-loadout-group-dutyofficer-head = Головной убор дежурного офицера
-loadout-group-dutyofficer-jumpsuit = Комбинезон дежурного офицера
-loadout-group-dutyofficer-outerclothing = Верхняя одежда дежурного офицера
-loadout-group-dutyofficer-belt = Пояс дежурного офицера
+loadout-group-dutyofficer-head = Дежурный офицер, голова
+loadout-group-dutyofficer-jumpsuit = Дежурный офицер, комбинезон
+loadout-group-dutyofficer-outerclothing = Дежурный офицер, верхняя одежда
+loadout-group-dutyofficer-belt = Дежурный офицер, пояс
 
-loadout-group-k9-variant = Пальто К9
-loadout-group-k9-outerclothing = Броня К9
-loadout-group-k9-eyes = Очки К9
+loadout-group-k9-variant = К9, пальто
+loadout-group-k9-outerclothing = К9, броня
+loadout-group-k9-eyes = К9, очки
 
-loadout-group-detective-lethal = Летальное личное оружие детектива
+loadout-group-detective-lethal = Детектив, летальное личное оружие
 
 # Law
-loadout-group-magistrate-jumpsuit = Комбинезон магистрата
-loadout-group-magistrate-eyewear = Очки магистрата
-loadout-group-magistrate-neck = Шея магистрата
-loadout-group-magistrate-shoes = Обувь магистрата
-loadout-group-iaa-jumpsuit = Комбинезон агента внутренних дел
-loadout-group-iaa-neck = Шея агента внутренних дел
-loadout-group-iaa-shoes = Обувь агента внутренних дел
-loadout-group-magistrate-outer = Верхняя одежда магистрата
-loadout-group-magistrate-head = Головной убор магистрата
-loadout-group-magistrate-gloves = Перчатки магистрата
+loadout-group-magistrate-jumpsuit = Магистрат, комбинезон
+loadout-group-magistrate-eyewear = Магистрат, очки
+loadout-group-magistrate-neck = Магистрат, шея
+loadout-group-magistrate-shoes = Магистрат, обувь
+loadout-group-iaa-jumpsuit = Агент внутренних дел, комбинезон
+loadout-group-iaa-neck = Агент внутренних дел, шея
+loadout-group-iaa-shoes = Агент внутренних дел, обувь
+loadout-group-magistrate-outer = Магистрат, верхняя одежда
+loadout-group-magistrate-head = Магистрат, голова
+loadout-group-magistrate-gloves = Магистрат, перчатки
 
 # Civilian
 loadout-group-civilian-shoes = Обувь
-loadout-group-mime-shoes = Обувь мима
+loadout-group-mime-shoes = Мим, обувь
 
 # Cargo
-loadout-group-cargo-technician-appraisal-tool = Оценочный инструмент грузчика
-loadout-group-mail-technician-head = Головной убор почтового техника
-loadout-group-mail-technician-jumpsuit = Комбинезон почтового техника
-loadout-group-mail-technician-backpack = Рюкзак почтового техника
-loadout-group-mail-technician-outerclothing = Верхняя одежда почтового техника
-loadout-group-mail-technician-shoes = Обувь почтового техника
-loadout-group-mail-technician-id = ID почтового техника
-loadout-group-mail-technician-bag = Сумка почтового техника
-loadout-group-mail-technician-trolley = Тележка почтового техника
-loadout-group-salvage-specialist-jumpsuit = Комбинезон специалиста по утилизации
-loadout-group-salvage-lead-jumpsuit = Комбинезон главы утилизаторов
-loadout-group-mining-specialist-jumpsuit = Комбинезон специалиста по добыче
-loadout-group-salvagelead-id = ID главы утилизаторов
-loadout-group-mining-id = ID специалиста по добыче
-loadout-group-salvage-id = ID специалиста по утилизации
-loadout-group-salvage-lead-mantle = Мантия главы утилизаторов
+loadout-group-cargo-technician-appraisal-tool = Грузчик, оценочный инструмент
+loadout-group-mail-technician-head = Почтальон, голова
+loadout-group-mail-technician-jumpsuit = Почтальон, комбинезон
+loadout-group-mail-technician-backpack = Почтальон, рюкзак
+loadout-group-mail-technician-outerclothing = Почтальон, верхняя одежда
+loadout-group-mail-technician-shoes = Почтальон, обувь
+loadout-group-mail-technician-id = Почтальон, ID
+loadout-group-mail-technician-bag = Почтальон, сумка
+loadout-group-mail-technician-trolley = Почтальон, тележка
+loadout-group-salvage-specialist-jumpsuit = Утилизатор, комбинезон
+loadout-group-salvage-lead-jumpsuit = Глава утилизаторов, комбинезон
+loadout-group-mining-specialist-jumpsuit = Шахтёр, комбинезон
+loadout-group-salvagelead-id = Глава утилизаторов, ID
+loadout-group-mining-id = Шахтёр, ID
+loadout-group-salvage-id = Утилизатор, ID
+loadout-group-salvage-lead-mantle = Глава утилизаторов, мантия
 
 # Silicons
 loadout-group-borg-brain-type = Тип мозга киборга
 
 # Medical
-loadout-group-chemist-head = Головной убор химика
-loadout-group-chemist-eyewear = Очки химика
-loadout-group-chemist-id = ID химика
-loadout-group-paramedic-id = ID парамедика
-loadout-group-chemist-beaker = Мензурка химика
-loadout-group-chemist-bag = Сумка химика
-loadout-group-chemist-labeler = Этикетировщик химика
-loadout-group-chemist-shoes = Обувь химика
-loadout-group-medical-glasses = Медицинские очки
-loadout-group-medical-gloves = Медицинские перчатки
+loadout-group-chemist-head = Химик, голова
+loadout-group-chemist-eyewear = Химик, очки
+loadout-group-chemist-id = Химик, ID
+loadout-group-paramedic-id = Парамедик, ID
+loadout-group-chemist-beaker = Химик, мензурка
+loadout-group-chemist-bag = Химик, сумка
+loadout-group-chemist-labeler = Химик, этикетировщик
+loadout-group-chemist-shoes = Химик, обувь
+loadout-group-medical-glasses = Медицинский отдел, очки
+loadout-group-medical-gloves = Медицинский отдел, перчатки
 # Service
-loadout-group-janitor-neck = Шея уборщика
+loadout-group-janitor-neck = Уборщик, шея
 
-loadout-group-serviceworker-head = Головной убор работника сервиса
-loadout-group-serviceworker-jumpsuit = Комбинезон работника сервиса
-loadout-group-serviceworker-outerclothing = Верхняя одежда работника сервиса
+loadout-group-serviceworker-head = Сервисный работник, голова
+loadout-group-serviceworker-jumpsuit = Сервисный работник, комбинезон
+loadout-group-serviceworker-outerclothing = Сервисный работник, верхняя одежда
 
-loadout-group-performer-head = Головной убор артиста
-loadout-group-performer-jumpsuit = Комбинезон артиста
-loadout-group-performer-outerclothing = Верхняя одежда артиста
+loadout-group-performer-head = Артист, голова
+loadout-group-performer-jumpsuit = Артист, комбинезон
+loadout-group-performer-outerclothing = Артист, верхняя одежда
 
-loadout-group-lawyer-shoes = Обувь юриста
+loadout-group-lawyer-shoes = Адвокат, обувь
 
 # Other
 loadout-group-scarves = Шарф
@@ -137,15 +137,15 @@ loadout-group-pins = Значки
 loadout-group-pens = Ручка
 
 # Brighteye
-loadout-group-brighteye-jumpsuit = Комбинезон Яркоглазого
-Loadout-group-brighteye-neck = Шея Яркоглазого
-loadout-group-brighteye-gloves = Перчатки Яркоглазого
+loadout-group-brighteye-jumpsuit = Яркоглазый, комбинезон
+Loadout-group-brighteye-neck = Яркоглазый, шея
+loadout-group-brighteye-gloves = Яркоглазый, перчатки
 
 # NCT
-loadout-group-NanotrasenCareerTrainer-jumpsuit = Комбинезон тренера карьеры НаноТрейзен
-loadout-group-NanotrasenCareerTrainer-hat = Шляпа тренера карьеры НаноТрейзен
-loadout-group-NanotrasenCareerTrainer-shoes = Обувь тренера карьеры НаноТрейзен
-loadout-group-NanotrasenCareerTrainer-eyewear = Очки тренера карьеры НаноТрейзен
+loadout-group-NanotrasenCareerTrainer-jumpsuit = Карьерный коуч НаноТрейзен, комбинезон
+loadout-group-NanotrasenCareerTrainer-hat = Карьерный коуч НаноТрейзен, голова
+loadout-group-NanotrasenCareerTrainer-shoes = Карьерный коуч НаноТрейзен, обувь
+loadout-group-NanotrasenCareerTrainer-eyewear = Карьерный коуч НаноТрейзен, очки
 
 # Security
-loadout-group-warden-neck = Шея смотрителя
+loadout-group-warden-neck = Смотритель, шея

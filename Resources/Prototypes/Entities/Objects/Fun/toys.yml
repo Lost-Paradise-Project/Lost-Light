@@ -166,6 +166,10 @@
   suffix: Dummy
   description: It's a dummy, dummy!
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_meepo_dota_2
+  # LP edit end
   - type: Sprite
     sprite: Objects/Fun/mrchips.rsi
     layers:
@@ -197,6 +201,10 @@
   id: MrDips
   name: mr dips
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_ernielark
+  # LP edit end
   - type: Sprite
     sprite: Objects/Fun/mrdips.rsi
 

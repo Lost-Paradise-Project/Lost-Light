@@ -6,6 +6,10 @@
   name: revenant
   description: A spooky ghostie.
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_shadow_fiend_dota_2
+  # LP edit end
   - type: DarkLight # Starlight
   - type: LanguageSpeaker
   - type: UniversalLanguageSpeaker

@@ -76,8 +76,8 @@ marking-GauzeMothBlindfold = Инсектоид, Бинт, Повязка на �
 marking-GauzeMothLeftEyePatch-gauze_moth_lefteye_2 = Инсектоид, Бинт, Перевязь глаза (Левый)
 marking-GauzeMothLeftEyePatch = Инсектоид, Бинт, Перевязь глаза (Левый)
 
-marking-GauzeMothLeftEyePad-gauze_moth_lefteye_1 = Инсектоид, Бинт, Перевязь глаза (Левый)
-marking-GauzeMothLeftEyePad = Инсектоид, Бинт, Перевязь глаза (Левый)
+marking-GauzeMothLeftEyePad-gauze_moth_lefteye_1 = Инсектоид, Бинт, Подушечка на глаз (Левый)
+marking-GauzeMothLeftEyePad = Инсектоид, Бинт, Подушечка на глаз (Левый)
 
 marking-GauzeMothRightEyePatch-gauze_moth_righteye_2 = Инсектоид, Бинт, Перевязь глаза (Правый)
 marking-GauzeMothRightEyePatch = Инсектоид, Перевязь глаза (Правый)
@@ -92,7 +92,7 @@ marking-GauzeMothUpperArmLeft-gauze_moth_upperarm_l = Инсектоид, Бин
 marking-GauzeMothUpperArmLeft = Инсектоид, Бинт, Перевязь предплечья (Левый)
 
 marking-GauzeMothUpperLegRight-gauze_moth_upperleg_r = Инсектоид, Бинт, Перевязь бедра (Правый)
-marking-GauzeMothUpperLegRight = Инсектоид, Инсектоид, Бинт, Перевязь бедра (Правый)
+marking-GauzeMothUpperLegRight = Инсектоид, Бинт, Перевязь бедра (Правый)
 
 marking-GauzeMothUpperLegLeft-gauze_moth_upperleg_l = Инсектоид, Бинт, Перевязь бедра (Левый)
 marking-GauzeMothUpperLegLeft = Инсектоид, Бинт, Перевязь бедра (Левый)

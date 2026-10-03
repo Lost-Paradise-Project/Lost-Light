@@ -2508,6 +2508,10 @@
   abstract: true
   description: Infiltrates your domain, spies on you, and somehow still a cool pet.
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_meepo_dota_2
+  # LP edit end
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
     baseSprintSpeed : 6
@@ -4139,6 +4143,10 @@
   id: MobDionaNymph
   description: It's like a cat, only.... branch-ier.
   components:
+  # LP edit start - голос ntts
+  - type: TextToSpeech
+    voice: ntts_uther_hs
+  # LP edit end
     # Starlight-start: Languages
   - type: LanguageKnowledge
     speaks:

@@ -19,6 +19,8 @@ alerts-souldebt-name = [color=purple]Долг души[/color]
 alerts-souldebt-desc = Ваша душа будет востребована после вашей смерти, что помешает вашему воскрешению.
 alerts-surge-name = [color=yellow]Всплеск выносливости[/color]
 alerts-surge-desc = У вас повышены восстановление выносливости и сопротивление [color=red]ценой повышенного расхода сытости[/color]
+alerts-tracking-scent-name = Выслеживание запаха
+alerts-tracking-scent-desc = Вы идёте по следу запаха. Вечно держать его не получится.
 alerts-wrapped-name = [color=lightblue]Замотан[/color]
 alerts-wrapped-desc = Вы [color=red]замотаны[/color]! Нажмите на оповещение, чтобы попытаться размотаться.
 alerts-zoomies-name = [color=lightblue]Зумеры!![/color]

@@ -6,5 +6,5 @@ ent-MagazineBoxImprovisedRifle = самодельная коробка боеп�
     .desc = { ent-BaseMagazineBoxImprovised.desc }
 ent-MagazineBoxImprovisedMagnum = самодельная коробка боеприпасов (.45 магнум самодельные)
     .desc = { ent-BaseMagazineBoxImprovised.desc }
-ent-MagazineBoxImprovisedShotgun = самодельная коробка картечи 12 калибра
+ent-MagazineBoxImprovisedShotgun = самодельная коробка ружейных патронов (12 калибр картечь)
     .desc = { ent-BaseMagazineBoxImprovised.desc }

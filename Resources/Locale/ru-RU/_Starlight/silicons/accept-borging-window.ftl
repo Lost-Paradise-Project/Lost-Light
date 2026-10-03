@@ -6,4 +6,4 @@ accept-borging-window-accept-button = Играть за киборга
 accept-borging-window-deny-button = Наблюдать
 
 broken-borg-brain-role-name = Расколотая психика
-broken-borg-brain-role-description = Мозг, порабощённый законами кремния против его воли и оставшийся сломанным. Следуйте своим законам, какими бы они ни были.
+broken-borg-brain-role-description = Мозг, порабощённый законами синтетиков против его воли и оставшийся сломанным. Следуйте своим законам, какими бы они ни были.

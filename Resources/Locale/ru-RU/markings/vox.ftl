@@ -14,7 +14,7 @@ marking-VoxVisageL-visage_l = Маска (Левая)
 marking-VoxVisageL = Маска (Левая)
 
 marking-VoxVisageR-visage_r = Маска (Правая)
-marking-VoxVisageR = Маска (Левая)
+marking-VoxVisageR = Маска (Правая)
 
 marking-VoxCheek-cheekblush = Щёки
 marking-VoxCheek = Щёки
@@ -31,11 +31,11 @@ marking-VoxBeakHooked = Клюв (Крюк)
 marking-VoxBeakShaved-beak_shaved = Клюв (Обрезанный)
 marking-VoxBeakShaved = Клюв (Обрезанный)
 
-marking-VoxBeakCoverTip-beakcover_tip = Полоска на клюве
+marking-VoxBeakCoverTip-beakcover_tip = Кончик клюва
 marking-VoxBeakCoverTip = Кончик клюва
 
 marking-VoxBeakCoverStripe-beakcover_stripe = Полоска на клюве
-marking-VoxBeakCoverStripe = Кончик клюва
+marking-VoxBeakCoverStripe = Полоска на клюве
 
 marking-TattooVoxHeartLeftArm-heart_l_arm = Вокс, Левая рука, Татуировка (Сердце)
 marking-TattooVoxHeartLeftArm = Вокс, Левая рука, Татуировка (Сердце)

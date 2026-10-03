@@ -22,8 +22,8 @@ fax-group-itg = Межзвёздная торговая гильдия
 fax-group-blackstar = Чёрная звезда
 fax-group-medtak = МедТак
 fax-group-ntsf = НТСФ
-fax-group-tsf = ТСФ
-fax-group-ussp = УССР
+fax-group-tsf = АНС
+fax-group-ussp = СССП
 fax-group-wizard = Федерация волшебников
 
 # Departmental fax groups

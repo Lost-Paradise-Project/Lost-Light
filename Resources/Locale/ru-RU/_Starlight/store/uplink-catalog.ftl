@@ -59,7 +59,7 @@ uplink-uzi-bundle-desc = Содержит Узи тип U3 и два допол�
 uplink-uzi-magazine-name = Магазин Узи (.35 авто)
 uplink-uzi-magazine-desc = Магазин пистолета-пулемёта на 32 патрона. Совместим с Узи тип U3
 
-uplink-breaching-magazine-name = Дробовой магазин (12 калибр, пробивной)
+uplink-breaching-magazine-name = Дробовой магазин (12 калибр пробивной)
 uplink-breaching-magazine-desc = Магазин с пробивными патронами для вскрытия шлюзов, окон и стен. Менее эффективны против людей.
 
 uplink-syndicate-borgi-name = Борги Синдиката

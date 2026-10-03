@@ -1816,6 +1816,7 @@
   - sprite: _Starlight/Mobs/Customization/thaven/lleg.rsi
     state: scales
 
+# LP edit - убрано нижнее бельё (цензура наготы)
 - type: marking
   id: ThavenEars1
   bodyPart: HeadSide
