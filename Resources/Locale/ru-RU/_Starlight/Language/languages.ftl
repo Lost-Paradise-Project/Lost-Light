@@ -49,7 +49,7 @@ language-Mothroach-name = Таракамолий
 language-Mothroach-description = стрекочет!
 
 language-Scratch-name = Скретч
-language-Scratch-description = Упрощённый письменный диалект авали и резоми. Скретч - стандартный галактический язык Иллюминатов. Его истоки восходят к кочевым племенам докосмической эпохи, чьи резные знаки и насечки в ледяных пещерах поразительно похожи на современный Скретч.
+language-Scratch-description = Упрощённый письменный диалект авали и резоми. Скретч — стандартный галактический язык Иллюминатов. Его истоки восходят к кочевым племенам докосмической эпохи, чьи резные знаки и насечки в ледяных пещерах поразительно похожи на современный Скретч.
 
 language-Terrum-name = Террум
 language-Terrum-description = Звучит похоже на древнеземной иврит.
@@ -153,3 +153,6 @@ language-Xenomind-description = Различные разумы ксеносов
 
 language-Squeakish-name = Пискиш
 language-Squeakish-description = Язык грызунов, состоящий из череды чириканья и писка.
+
+language-Penguin-name = Пингвиний
+language-Penguin-description = Кррря!

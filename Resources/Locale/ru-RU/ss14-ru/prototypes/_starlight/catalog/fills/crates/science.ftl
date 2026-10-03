@@ -7,3 +7,5 @@ ent-CrateStarterXenobiology = стартовый ящик ксенобиолог
 ent-CrateStationAiUpload = ящик консоли загрузки ИИ станции
     .desc = Содержит компоненты для постройки консоли загрузки ИИ станции. Всё ещё требует ручной привязки к ядру. Для открытия требуется научный доступ.
     .suffix = { ent-CrateScienceSecure.suffix }
+ent-CrateScienceAnomalousContainment = ящик припасов для аномального сдерживания
+    .desc = Содержит плату Изолятора сдерживания и две платы А.П.Е.

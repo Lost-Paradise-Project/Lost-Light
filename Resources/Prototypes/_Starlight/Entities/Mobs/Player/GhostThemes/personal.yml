@@ -13,7 +13,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 - type: ghostTheme
   id: Firewraith
@@ -30,7 +30,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 
 - type: ghostTheme
@@ -48,7 +48,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 - type: ghostTheme
   id: pai_fox
@@ -65,7 +65,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 - type: ghostTheme
   id: sombrero_penguin
@@ -82,7 +82,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 - type: ghostTheme
   id: TessTheEvil
@@ -99,7 +99,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 - type: ghostTheme
   id: ghost-kamila
@@ -116,7 +116,7 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit
 
 - type: ghostTheme
   id: ConfGhost
@@ -133,4 +133,4 @@
   - !type:DiscordRolesRequirement
     requirement: LPHonoraryCitizenReq
   # LP edit end
-  category: Staff
+  category: LPGhostHonoraryCitizen # LP edit

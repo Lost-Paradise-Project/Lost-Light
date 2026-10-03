@@ -10,7 +10,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Event
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: CarpGames
@@ -24,7 +24,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Event
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: FirstWritingContest
@@ -38,4 +38,4 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Event
+  category: LPGhostSponsor # LP edit

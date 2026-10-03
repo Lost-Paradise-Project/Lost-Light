@@ -1,0 +1,42 @@
+# Категории тем призраков по ролям нашего Discord (вместо категорий Starlight)
+# Поиск (isFilter) остаётся от Starlight - категория All
+
+- type: ghostThemeCategory
+  id: LPGhostPublic
+  name: Общие
+  priority: 0
+
+- type: ghostThemeCategory
+  id: LPGhostSponsor
+  name: Спонсоры
+  priority: 1
+
+- type: ghostThemeCategory
+  id: LPGhostMentor
+  name: Менторы
+  priority: 2
+
+- type: ghostThemeCategory
+  id: LPGhostModeration
+  name: Модерация
+  priority: 3
+
+- type: ghostThemeCategory
+  id: LPGhostDevelopers
+  name: Разработка
+  priority: 4
+
+- type: ghostThemeCategory
+  id: LPGhostStaff
+  name: Стафф
+  priority: 5
+
+- type: ghostThemeCategory
+  id: LPGhostHonoraryCitizen
+  name: Почётные граждане
+  priority: 6
+
+- type: ghostThemeCategory
+  id: LPGhostNullLink
+  name: NullLink
+  priority: 7

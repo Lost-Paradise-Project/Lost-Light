@@ -18,6 +18,7 @@
 
 - type: entity
   id: ThermiteFire
+  name: burning thermite # LP edit
   components:
   - type: Sprite
     drawdepth: Effects

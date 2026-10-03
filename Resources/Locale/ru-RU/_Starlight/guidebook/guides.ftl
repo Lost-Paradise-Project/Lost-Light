@@ -94,7 +94,7 @@ guide-entry-sl-security-sop-criminal-status = Криминальный стат�
 guide-entry-sl-security-ammo-types = Типы боеприпасов
 
 guide-entry-rules-supernatural-entities = Сверхъестественные сущности
-guide-entry-stirstir = Размешать, размешать
+guide-entry-stirstir = Стир Стир
 
 guide-entry-sl-legal-sop-intro = Право
 

@@ -55,12 +55,12 @@
 | `_Blimpuf` | Blimpuf Station | https://github.com/Blimpuf-Station/BlimpufStation | MIT |
 | `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT (часть файлов - MPL 2.0) |
 | `_CP14` | CrystallEdge | https://github.com/crystallpunk-14/crystall-punk-14 | MIT |
-| `_Afterlight` | Afterlight | уточняется | уточняется |
-| `_ES` | уточняется | уточняется | уточняется |
-| `_ST` | уточняется | уточняется | MIT |
-| `_Starfall` | уточняется | уточняется | уточняется |
-| `_TP`, `_TP14` | уточняется | уточняется | уточняется |
-| `_Paradise` | уточняется (только текстуры) | уточняется | см. `meta.json` |
+| `_Afterlight` | Afterlight | закрытый репозиторий | уточняется |
+| `_ES` | Ephemeral Space | https://github.com/EphemeralSpace/ephemeral-space | MIT |
+| `_ST` | Stellar Station | закрытый репозиторий | MIT |
+| `_Starfall` | Starfall Drift (через Forky Station) | https://github.com/funky-station/forky-station/pull/67 | MIT |
+| `_TP`, `_TP14` | Trieste Port 14 | https://github.com/Pixeltheaertist/Trieste-Port-14 | MIT |
+| `_Paradise` | Paradise SS14 (только текстуры) | https://github.com/ParadiseSS14/Paradise | см. `meta.json` |
 
 Файлы под MPL 2.0 помечены заголовком в начале файла. Эти файлы должны оставаться под MPL 2.0.
 

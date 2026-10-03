@@ -44,8 +44,6 @@ public sealed partial class SecApartmentWindow : BaseWindow
     public Action<string, SquadIconNum>? OnChangeSquadIcon;
     public Action<NetEntity>? OnRemoveTimer;
 
-    private Stylesheet? _previousGlobalStylesheet;
-
     public SecApartmentWindow()
     {
         RobustXamlLoader.Load(this);
@@ -134,17 +132,8 @@ public sealed partial class SecApartmentWindow : BaseWindow
         var optionBackgroundRule = SecApartmentStyles.CreateOptionButtonBackgroundRule();
 
         var rules = new[] { buttonStyleRule, lineEditRule, optionRule, optionBackgroundRule };
-        _previousGlobalStylesheet = _ui.Stylesheet;
-        var stylesheet = CreateCombinedStylesheet(rules);
-        UserInterfaceManager.Stylesheet = stylesheet;
-    }
-    protected override void Dispose(bool disposing)
-    {
-        base.Dispose(disposing);
-        if (disposing && _previousGlobalStylesheet != null)
-        {
-            UserInterfaceManager.Stylesheet = _previousGlobalStylesheet;
-        }
+        // LP edit - стиль только на окно: глобальный стиль раньше подменялся и не возвращался (Dispose у контролов не вызывается)
+        Stylesheet = CreateCombinedStylesheet(rules);
     }
 
     private void SetupTabContainer()

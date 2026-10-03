@@ -1,3 +1,3 @@
-ent-WallmountMassScannerCircuitboard = электроника настенного массового сканера
-    .desc = Плата электроники для настенных массовых сканеров.
+ent-WallmountMassScannerCircuitboard = электроника настенного сканера массы
+    .desc = Плата электроники для настенных сканеров массы.
     .suffix = { ent-BaseElectronics.suffix }

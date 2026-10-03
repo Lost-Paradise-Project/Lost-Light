@@ -127,6 +127,7 @@
   - shittersafarideluxeedition
   name: greenshift-title
   showInVote: true # 🌟Starlight🌟
+  voteCooldown: 2 # LP edit
   description: greenshift-description
   rules:
   - SpaceTrafficControlFriendlyEventScheduler # Starlight

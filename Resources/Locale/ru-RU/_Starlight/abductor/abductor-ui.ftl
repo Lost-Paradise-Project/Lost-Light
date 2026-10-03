@@ -61,20 +61,20 @@ abductor-role-greeting = Я профессиональный боевой учё
 
 roles-antag-abductor-objective = Похищайте членов экипажа станции и проводите на них свои эксперименты!
 
-abductor-price =  Цена: { $price }
+abductor-price = Цена: { $price }
 abductor-buy = Купить
 abductor-pad = площадка: { $found ->
-        [true] [color=green]подключена[/color]
-       *[false] [color=red]не найдена[/color]
-    }
+    [true] [color=green]подключена[/color]
+    *[false] [color=red]не найдена[/color]
+}
 abductor-dispencer = раздатчик: { $found ->
-        [true] [color=green]подключён[/color]
-       *[false] [color=red]не найден[/color]
-    }
+    [true] [color=green]подключён[/color]
+    *[false] [color=red]не найден[/color]
+}
 abductor-experimentator = экспериментатор: { $found ->
-        [true] [color=green]подключён[/color]
-       *[false] [color=red]не найден[/color]
-    }
+    [true] [color=green]подключён[/color]
+    *[false] [color=red]не найден[/color]
+}
 abductor-target = цель: [color=green]{ $name }[/color]
 abductor-target-none = цель: [color=red]НЕТ[/color]
 abductor-victim = жертва: [color=green]{ $name }[/color]

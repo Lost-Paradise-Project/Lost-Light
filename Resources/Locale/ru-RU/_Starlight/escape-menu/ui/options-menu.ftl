@@ -1,4 +1,6 @@
 ui-options-function-open-m-help = Открыть помощь ментора
+ui-options-function-jump = Прыжок
+ui-options-function-latch-struggle = Вырываться (когда в вас вцепились)
 ui-escape-connect-discord = Привязать Discord
 server-info-connect-discord-button = Привязать Discord
 ui-escape-connect-steam = Привязать Steam
@@ -17,6 +19,10 @@ ui-options-holes-tooltip = Если при стрельбе лагает, сни
 ui-options-sparks = Показывать искры
 ui-options-sparks-tooltip = Если при стрельбе лагает, снимите этот флажок,
                            и хитскан перестанет рисовать искры при попадании пули в поверхность.
+
+ui-options-hitscan-prediction = Предугадывать свои выстрелы
+ui-options-hitscan-prediction-tooltip = Рисовать ваши пули до того как сервер их засчитал.
+                                        Сервер всё ещё решает кто попал.
 
 ## Accessibility
 

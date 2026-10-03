@@ -18,7 +18,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: ClownTheme
@@ -32,7 +32,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: FaithlessTheme
@@ -46,7 +46,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: MushroomTheme
@@ -60,7 +60,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: WalkerTheme
@@ -74,7 +74,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: ShadowDemon
@@ -94,7 +94,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: WizdenCarp
@@ -109,4 +109,4 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Patron
+  category: LPGhostSponsor # LP edit
