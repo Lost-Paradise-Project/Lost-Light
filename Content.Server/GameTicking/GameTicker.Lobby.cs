@@ -188,7 +188,7 @@ namespace Content.Server.GameTicking
                 ? PlayerGameStatus.ReadyToPlay
                 : PlayerGameStatus.NotReadyToPlay;
             // Starlight end - add ready possibility check
-            
+
             // Moffstation - Ready manifest
             if (_playerGameStatuses[player.UserId] == status)
             {
@@ -213,7 +213,7 @@ namespace Content.Server.GameTicking
         public bool UserHasJoinedGame(NetUserId userId)
             => PlayerGameStatuses.TryGetValue(userId, out var status) && status == PlayerGameStatus.JoinedGame;
     }
-    
+
     // Moffstation - Start - Ready Manifest
     [ByRefEvent]
     public record struct PlayerToggleReadyEvent(ICommonSession PlayerSession);
