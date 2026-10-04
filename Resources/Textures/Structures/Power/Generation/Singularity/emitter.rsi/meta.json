@@ -13,25 +13,11 @@
     },
     {
       "name": "underpowered",
-      "directions": 4,
-      "delays": [
-        [
-          0.1,
-          0.1
-        ],
-        [
-          0.1,
-          0.1
-        ],
-        [
-          0.1,
-          0.1
-        ],
-        [
-          0.1,
-          0.1
-        ]
-      ]
+      "directions": 4
+    },
+    {
+      "name": "unlocked",
+      "directions": 4
     },
     {
       "name": "locked",
