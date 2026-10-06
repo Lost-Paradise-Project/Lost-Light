@@ -10,7 +10,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPMentorsReq # LP edit
-  category: Mentor
+  category: LPGhostMentor # LP edit
 
 - type: ghostTheme
   id: Daemon
@@ -24,4 +24,4 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPMentorsReq # LP edit
-  category: Mentor
+  category: LPGhostMentor # LP edit

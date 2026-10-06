@@ -73,6 +73,7 @@ public sealed partial class NttsClient : ITTSClient
     )
     {
         // Пустой массив в конце всегда: по нему клиент закрывает поток, иначе поток висит до конца раунда.
+        text = NttsTextSanitizer.Sanitize(text);
         var speaker = GetSpeaker(voice);
         if (string.IsNullOrWhiteSpace(text) || string.IsNullOrEmpty(speaker) || string.IsNullOrEmpty(_apiUrl))
         {

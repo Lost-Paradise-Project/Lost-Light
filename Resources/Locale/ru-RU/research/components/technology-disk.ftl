@@ -2,6 +2,8 @@ tech-disk-inserted = Вы вставляете диск, добавляя на �
 tech-disk-examine-none = Этикетка пуста.
 tech-disk-examine = На этикетке имеется небольшое матричное изображение, представляющее { $result }.
 tech-disk-examine-more = Имеются и другие изображения, но они слишком малы, чтобы разглядеть их.
+tech-disk-examine-desc = [color=lightGray]Диск для сервера РНД с технологией [bold]{ $tier }-го уровня ветки «{ $branch }»[/bold].[/color]
+tech-disk-examine-desc-unknown = [color=lightGray]Диск для сервера РНД с исследовательской технологией.[/color]
 tech-disk-name-format = { $baseName } ({ $technology })
 
 tech-disk-ui-name = Терминал технологических дисков

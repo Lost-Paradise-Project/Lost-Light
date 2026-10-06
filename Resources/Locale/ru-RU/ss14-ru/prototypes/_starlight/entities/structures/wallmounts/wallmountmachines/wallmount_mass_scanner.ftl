@@ -1,6 +1,6 @@
-ent-WallmountMassScannerBroken = массовый сканер
+ent-WallmountMassScannerBroken = настенный сканер массы
     .desc = Компьютер для обнаружения ближайших тел, отображающий их по положению и массе.
     .suffix = Стена, сломан
-ent-WallmountMassScanner = массовый сканер
+ent-WallmountMassScanner = настенный сканер массы
     .desc = Компьютер для обнаружения ближайших тел, отображающий их по положению и массе.
     .suffix = Стена

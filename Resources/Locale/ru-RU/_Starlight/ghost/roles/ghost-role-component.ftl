@@ -128,7 +128,7 @@ ghost-role-information-kobold-advanced-description = Вам хочется фи�
 ghost-role-information-kiki-name = Кики
 ghost-role-information-kiki-description = Достойный член общества кобольдов, отвечающая за ботанику и помогающая ботаникам чем только может.
 
-ghost-role-information-stirstir-name = Размешать, размешать
+ghost-role-information-stirstir-name = Стир Стир
 ghost-role-information-stirstir-description = Сомнительная обезьяна, которой не стоит доверять. Настоящий забивальщик камер. Подробнее см. в Руководстве.
 
 ghost-role-information-syndicate-mothroach-reinforcement-name = Таракамоль Синдиката
@@ -155,6 +155,6 @@ ghost-role-information-maintenance-drone-rules = Вы связаны этими 
 ghost-role-information-mob-nyr-mouse-ops-name = красная мышь!
 ghost-role-information-drone-name = Ремонтный дрон
 ghost-role-information-spawn-point-ghost-cluwne-beast-name = Зверь-клувень
-ghost-role-information-mob-nyr-mouse-ops-description = Вы - предводитель мышей. Ваша цель - украсть сыр у глав!
+ghost-role-information-mob-nyr-mouse-ops-description = Вы — предводитель мышей. Ваша цель — украсть сыр у глав!
 ghost-role-information-spawn-point-ghost-cluwne-beast-description = Сейте смех и хаос: бейте членов экипажа и превращайте их в клувней.
-ghost-role-information-spawn-point-ghost-cluwne-beast-rules = Вы - антагонист. Превратите в клувней как можно больше членов экипажа.
+ghost-role-information-spawn-point-ghost-cluwne-beast-rules = Вы — антагонист. Превратите в клувней как можно больше членов экипажа.

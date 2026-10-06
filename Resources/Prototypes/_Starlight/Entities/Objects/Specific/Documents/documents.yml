@@ -56,6 +56,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_corporate_document_abductors.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CorporateSecretsSteal
 
@@ -68,6 +73,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_corporate_document_decimus.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CorporateSecretsSteal
 
@@ -80,6 +90,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_corporate_document_ninjas.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CorporateSecretsSteal
 
@@ -92,6 +107,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_corporate_document_nukies.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CorporateSecretsSteal
 
@@ -104,6 +124,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_corporate_document_romerol.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CorporateSecretsSteal
 
@@ -116,6 +141,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_corporate_document_cosmic_cult.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CorporateSecretsSteal
 
@@ -130,6 +160,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_criminal_document_arc.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_law_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CriminalReportsSteal
 
@@ -142,6 +177,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_criminal_document_comitas.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_law_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CriminalReportsSteal
 
@@ -154,6 +194,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_criminal_document_self.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_law_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CriminalReportsSteal
 
@@ -166,6 +211,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_criminal_document_tiger_cooperative.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_law_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: CriminalReportsSteal
 
@@ -180,6 +230,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_secure_document_revolutionaries.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -192,6 +247,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_secure_document_vampires.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -204,6 +264,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_secure_document_wizards.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -216,6 +281,11 @@
   components:
     - type: TextFilePaperContent
       fileName: classified_secure_document_xenoborgs.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -232,6 +302,11 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_Revs.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -246,6 +321,11 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_Lings.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -260,6 +340,11 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_BrightEyes.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: BrighteyeSecureKnowledgeSteal
 
@@ -274,6 +359,11 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_Vampires.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -288,6 +378,11 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_Syndicate.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -302,6 +397,11 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_Wizard.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal
 
@@ -316,5 +416,10 @@
       size: Small
     - type: TextFilePaperContent
       fileName: brief_sec_Xorgs.txt
+    # LP edit start - картинка вместо заголовка из юникода
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+    # LP edit end
     - type: StealTarget
       stealGroup: SecureKnowledgeSteal

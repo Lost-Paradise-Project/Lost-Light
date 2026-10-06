@@ -26,3 +26,5 @@ ent-ThiefGamerule = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-SiliconLiberationGamerule = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
+ent-CosmicCult = { ent-BaseRoundstartAntagRule }
+    .desc = { ent-BaseRoundstartAntagRule.desc }

@@ -41,7 +41,7 @@
     - shittersafari2
   name: shitstation-title
   description: shitstation-description
-  showInVote: true
+  showInVote: false
   minPlayers: 0
   voteCooldown: 2
   rules:
@@ -128,7 +128,6 @@
     - BasicStationEventScheduler
     - BasicRoundstartVariation
 
-
 - type: gamePreset
   id: AlmostAllAtOnce
   alias:
@@ -198,6 +197,23 @@
     - RailroadingMinor
     - Devil
     - CosmicCult
+
+- type: gamePreset
+  id: CosmicCult
+  alias:
+    - cosmic
+  name: cosmiccult-title
+  description: cosmiccult-description
+  minPlayers: 20
+  showInVote: true
+  rules:
+    - CosmicCult
+    - SubGamemodesRuleConversion
+    - MeteorSwarmScheduler
+    - SpaceTrafficControlEventScheduler
+    - BasicRoundstartVariation
+    - BasicStationEventScheduler
+    - RailroadingMinor
 
 - type: gamePreset
   id: TerrorSpiders
