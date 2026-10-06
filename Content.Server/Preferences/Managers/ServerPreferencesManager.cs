@@ -14,6 +14,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Robust.Shared.GameObjects; // LP edit
 
 namespace Content.Server.Preferences.Managers
 {
@@ -32,6 +33,7 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private ILogManager _log = default!;
         [Dependency] private UserDbDataManager _userDb = default!;
         [Dependency] private IPrototypeManager _prototypeManager = default!;
+        [Dependency] private IEntityManager _entityManager = default!; // LP edit
 
         // Cache player prefs on the server so we don't need as much async hell related to them.
         private readonly Dictionary<NetUserId, PlayerPrefData> _cachedPlayerPrefs =
@@ -132,6 +134,11 @@ namespace Content.Server.Preferences.Managers
             var session = _playerManager.GetSessionById(userId);
 
             prefsData.Prefs = new PlayerPreferences(curPrefs.Characters, curPrefs.AdminOOCColor, curPrefs.ConstructionFavorites, jobPriorities);
+
+            /// LP edit start
+            var ev = new JobPrioritiesUpdatedEvent(userId);
+            _entityManager.EventBus.RaiseEvent(EventSource.Local, ref ev);
+            /// LP edit end
 
             if (ShouldStorePrefs(session.Channel.AuthType))
                 await _db.SaveJobPrioritiesAsync(userId, jobPriorities);
@@ -442,4 +449,9 @@ namespace Content.Server.Preferences.Managers
             _userDb.AddOnPlayerDisconnect(OnClientDisconnected);
         }
     }
+
+    /// LP edit start
+    [ByRefEvent]
+    public record struct JobPrioritiesUpdatedEvent(NetUserId UserId);
+    /// LP edit end
 }

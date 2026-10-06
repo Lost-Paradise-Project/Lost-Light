@@ -165,6 +165,8 @@ namespace Content.Server.GameTicking
                 RaiseLocalEvent(ref ev);
                 // Moffstation - End
             }
+
+            UpdateInfoText(); // LP edit
         }
 
         public void ToggleReady(ICommonSession player, bool ready)

@@ -37,12 +37,13 @@ public sealed partial class ReadyManifestSystem : EntitySystem /// LP edit , add
     {
         SubscribeNetworkEvent<RequestReadyManifestMessage>(OnRequestReadyManifest);
         SubscribeLocalEvent<PlayerToggleReadyEvent>(OnPlayerToggleReady);
+        SubscribeLocalEvent<JobPrioritiesUpdatedEvent>(OnJobPrioritiesUpdated); // LP edit
         SubscribeLocalEvent<RoundStartingEvent>(OnRoundStarting);
     }
 
     private void OnRoundStarting(RoundStartingEvent ev)
     {
-        foreach (var eui in _openEuis.Values)
+        foreach (var eui in _openEuis.Values.ToList()) // LP edit
         {
             eui.Close();
         }
@@ -52,6 +53,11 @@ public sealed partial class ReadyManifestSystem : EntitySystem /// LP edit , add
 
     private void OnRequestReadyManifest(RequestReadyManifestMessage message, EntitySessionEventArgs args)
     {
+        // LP edit start
+        if (_gameTicker.RunLevel != GameRunLevel.PreRoundLobby)
+            return;
+        // LP edit end
+
         BuildReadyManifest();
         OpenEui(args.SenderSession);
     }
@@ -144,7 +150,16 @@ public sealed partial class ReadyManifestSystem : EntitySystem /// LP edit , add
 
     public void CloseEui(ICommonSession session)
     {
-        if (_openEuis.Remove(session, out var eui))
-            eui.Close();
+    /// LP edit start
+        // if (_openEuis.Remove(session, out var eui))
+        //     eui.Close();
+        _openEuis.Remove(session);
     }
+
+    private void OnJobPrioritiesUpdated(ref JobPrioritiesUpdatedEvent ev)
+    {
+        BuildReadyManifest();
+        UpdateEuis();
+    }
+    /// LP edit end
 }
