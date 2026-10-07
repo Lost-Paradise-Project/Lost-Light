@@ -8,8 +8,5 @@ namespace Content.Client._Moffstation.ReadyManifest;
 
 public sealed class ReadyManifestSystem : EntitySystem
 {
-    public void RequestReadyManifest()
-    {
-        RaiseNetworkEvent(new RequestReadyManifestMessage());
-    }
+    public void RequestReadyManifest() => RaiseNetworkEvent(new RequestReadyManifestMessage()); // LP edit, expression body for method
 }

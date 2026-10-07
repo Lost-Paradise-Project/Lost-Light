@@ -5,8 +5,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using System.Text;
 
-namespace Content.Server.GameTicking
-{
+namespace Content.Server.GameTicking; // LP edit, {} > ;
+
     public sealed partial class GameTicker
     {
         [ViewVariables]
@@ -35,10 +35,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         public IReadOnlyDictionary<NetUserId, PlayerGameStatus> PlayerGameStatuses => _playerGameStatuses;
 
-        public void UpdateInfoText()
-        {
-            RaiseNetworkEvent(GetInfoMsg(), Filter.Empty().AddPlayers(_playerManager.NetworkedSessions));
-        }
+        public void UpdateInfoText() => RaiseNetworkEvent(GetInfoMsg(), Filter.Empty().AddPlayers(_playerManager.NetworkedSessions)); // LP edit, expression body for method
 
         private string GetInfoText()
         {
@@ -86,10 +83,7 @@ namespace Content.Server.GameTicking
                 ("desc", string.IsNullOrWhiteSpace(GamemodeDescOverride) ? desc : Loc.GetString(GamemodeDescOverride))); //Starlight edit: gamemode desc override
         }
 
-        private TickerConnectionStatusEvent GetConnectionStatusMsg()
-        {
-            return new TickerConnectionStatusEvent(RoundStartTimeSpan);
-        }
+        private TickerConnectionStatusEvent GetConnectionStatusMsg() => new(RoundStartTimeSpan); // LP edit, expression body for method + simplification of expression new()
 
         private TickerLobbyStatusEvent GetStatusMsg(ICommonSession session)
         {
@@ -105,15 +99,9 @@ namespace Content.Server.GameTicking
             }
         }
 
-        private TickerLobbyInfoEvent GetInfoMsg()
-        {
-            return new(GetInfoText());
-        }
+        private TickerLobbyInfoEvent GetInfoMsg() => new(GetInfoText()); // LP edit, expression body for method
 
-        private void UpdateLateJoinStatus()
-        {
-            RaiseNetworkEvent(new TickerLateJoinStatusEvent(DisallowLateJoin));
-        }
+        private void UpdateLateJoinStatus() => RaiseNetworkEvent(new TickerLateJoinStatusEvent(DisallowLateJoin)); // LP edit, expression body for method
 
         public bool PauseStart(bool pause = true)
         {
@@ -220,4 +208,3 @@ namespace Content.Server.GameTicking
     [ByRefEvent]
     public record struct PlayerToggleReadyEvent(ICommonSession PlayerSession);
     // Moffstation - End
-}

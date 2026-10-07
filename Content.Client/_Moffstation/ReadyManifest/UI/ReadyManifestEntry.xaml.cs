@@ -18,10 +18,7 @@ public sealed partial class ReadyManifestEntry : GridContainer
     private static readonly Color HighColor = Color.Yellow;
     /// LP start end
 
-    public ReadyManifestEntry()
-    {
-        RobustXamlLoader.Load(this);
-    }
+    public ReadyManifestEntry() => RobustXamlLoader.Load(this);
     public ReadyManifestEntry(
         JobPrototype job,
         ReadyManifestJobCount jobCount, /// LP edit

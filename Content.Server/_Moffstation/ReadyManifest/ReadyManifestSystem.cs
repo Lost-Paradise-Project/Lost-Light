@@ -122,10 +122,7 @@ public sealed partial class ReadyManifestSystem : EntitySystem /// LP edit , add
         }
     }
 
-    public IDictionary<ProtoId<JobPrototype>, ReadyManifestJobCount> GetReadyManifest() /// LP edit , int > ReadyManifestJobCount
-    {
-        return _jobCounts.AsReadOnly();
-    }
+    public IDictionary<ProtoId<JobPrototype>, ReadyManifestJobCount> GetReadyManifest() => _jobCounts.AsReadOnly(); /// LP edit , int > ReadyManifestJobCount
 
     private void OpenEui(ICommonSession session)
     {
@@ -148,13 +145,12 @@ public sealed partial class ReadyManifestSystem : EntitySystem /// LP edit , add
         }
     }
 
-    public void CloseEui(ICommonSession session)
-    {
     /// LP edit start
-        // if (_openEuis.Remove(session, out var eui))
-        //     eui.Close();
-        _openEuis.Remove(session);
-    }
+    public void CloseEui(ICommonSession session) => _openEuis.Remove(session);
+    //{
+    //    if (_openEuis.Remove(session, out var eui))
+    //        eui.Close();
+    //}
 
     private void OnJobPrioritiesUpdated(ref JobPrioritiesUpdatedEvent ev)
     {

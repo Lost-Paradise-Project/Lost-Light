@@ -17,8 +17,5 @@ public sealed class ReadyManifestEui(ReadyManifestSystem readyManifestSystem) : 
         return new ReadyManifestEuiState(entries);
     }
 
-    public override void Closed()
-    {
-        readyManifestSystem.CloseEui(Player);
-    }
+    public override void Closed() => readyManifestSystem.CloseEui(Player); // LP edit, expression body for method
 }

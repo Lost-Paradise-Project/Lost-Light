@@ -11,7 +11,6 @@ using Content.Shared._Moffstation.ReadyManifest; /// LP edit
 
 namespace Content.Client._Moffstation.ReadyManifest;
 
-
 [GenerateTypedNameReferences]
 public sealed partial class ReadyManifestUi : DefaultWindow
 {
@@ -26,9 +25,9 @@ public sealed partial class ReadyManifestUi : DefaultWindow
         _spriteSystem = _entitySystem.GetEntitySystem<SpriteSystem>();
     }
 
-    public void RebuildUI(Dictionary<ProtoId<JobPrototype>, ReadyManifestJobCount> jobCounts) /// LP edit , int > ReadyManifestJobCount
+    public void RebuildUI(Dictionary<ProtoId<JobPrototype>, ReadyManifestJobCount> jobCounts) // LP edit , int > ReadyManifestJobCount
     {
-        ReadyManifestListing.DisposeAllChildren();
+        ReadyManifestListing.RemoveAllChildren(); // LP edit, DisposeAllChildren > RemoveAllChildren
 
         var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>()
             .Where(department => !department.EditorHidden)

@@ -21,15 +21,9 @@ public sealed class ReadyManifestEui : BaseEui
         _window.OnClose += () => SendMessage(new CloseEuiMessage());
     }
 
-    public override void Opened()
-    {
-        _window.OpenCentered();
-    }
+    public override void Opened() => _window.OpenCentered(); // LP edit, expression body for method
 
-    public override void Closed()
-    {
-        _window.Close();
-    }
+    public override void Closed() => _window.Close(); // LP edit, expression body for method
 
     public override void HandleState(EuiStateBase state)
     {

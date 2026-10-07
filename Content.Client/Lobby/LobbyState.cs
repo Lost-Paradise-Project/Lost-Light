@@ -159,10 +159,7 @@ namespace Content.Client.Lobby
         }
 
         // Moffstation - Start - Ready manifest
-        private void OnManifestPressed(BaseButton.ButtonEventArgs args)
-        {
-            _readyManifest.RequestReadyManifest();
-        }
+        private void OnManifestPressed(BaseButton.ButtonEventArgs args) => _readyManifest.RequestReadyManifest(); // LP edit, expression body for method
         // Moffstation - End
 
         private void OnReadyToggled(BaseButton.ButtonToggledEventArgs args)
