@@ -19,11 +19,6 @@
   - type: ShowSquadIcons
 
 - type: !PartialOnly entity
-  id: StandardNanotrasenStationTestOnly
-  parent:
-    - !Index:2 BaseStationGoal
-
-- type: !PartialOnly entity
   id: FaxMachineCentcom
   components:
   - type: FaxMachine
