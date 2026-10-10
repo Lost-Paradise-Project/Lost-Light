@@ -1,0 +1,4 @@
+- files: ["flatline.ogg", "heartbeat_monitor.ogg", "heartbeat_monitor_critical.ogg", "heartbeat_monitor_injured.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from funky-station (forky-station PR 319), author is not stated in the source, license assumed from the repository default"
+  source: "https://github.com/funky-station/funky-station/tree/master/Resources/Audio/_Funkystation/Medical"
