@@ -75,6 +75,8 @@
     sprite: Objects/Tanks/oxygen.rsi
   - type: Clothing
     sprite: Objects/Tanks/oxygen.rsi
+  - type: BedTankVisual
+    visual: Oxygen
 
 - type: entity
   parent: GasTankRoundBase
@@ -88,6 +90,8 @@
     sprite: Objects/Tanks/red.rsi
   - type: Clothing
     sprite: Objects/Tanks/red.rsi
+  - type: BedTankVisual
+    visual: Nitrogen
 
 - type: entity
   parent: GasTankRoundBase
@@ -120,6 +124,8 @@
   - type: PhysicalComposition
     materialComposition:
       Steel: 100
+  - type: BedTankVisual
+    visual: Oxygen
 
 - type: entity
   parent: EmergencyOxygenTank
@@ -136,6 +142,8 @@
       sprite: Objects/Tanks/emergency_red.rsi
   - type: Clothing
     sprite: Objects/Tanks/emergency_red.rsi
+  - type: BedTankVisual
+    visual: Nitrogen
 
 - type: entity
   parent: EmergencyOxygenTank
@@ -172,6 +180,8 @@
       sprite: Objects/Tanks/emergency_extended_red.rsi
   - type: Clothing
     sprite: Objects/Tanks/emergency_extended_red.rsi
+  - type: BedTankVisual
+    visual: Nitrogen
 
 - type: entity
   parent: ExtendedEmergencyOxygenTank
@@ -216,6 +226,8 @@
       sprite: Objects/Tanks/emergency_double_red.rsi
   - type: Clothing
     sprite: Objects/Tanks/emergency_double_red.rsi
+  - type: BedTankVisual
+    visual: Nitrogen
 
 - type: entity
   parent: EmergencyOxygenTank
@@ -241,6 +253,8 @@
   components:
   - type: GasTank
     outputPressure: 101.3
+  - type: BedTankVisual
+    visual: Generic
 
 - type: entity
   parent: GasTankRoundBase
@@ -256,6 +270,8 @@
     outputPressure: 30.4
   - type: Clothing
     sprite: Objects/Tanks/anesthetic.rsi
+  - type: BedTankVisual
+    visual: Nitrous
 
 - type: entity
   # it's a square so no rolling dough
@@ -275,3 +291,5 @@
     slots:
     - Belt
     - suitStorage
+  - type: BedTankVisual
+    visual: Plasma
