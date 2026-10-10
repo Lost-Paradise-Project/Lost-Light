@@ -82,6 +82,7 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
         var boltedVisible = false;
         var emergencyLightsVisible = false;
         var unlitVisible = false;
+        var hasClosedUnlit = args.Sprite.BaseRSI?.TryGetState(comp.ClosedSpriteState, out _) == true; // LP edit
 
         if (!_appearanceSystem.TryGetData<DoorState>(uid, DoorVisuals.State, out var state, args.Component))
             state = DoorState.Closed;
@@ -98,7 +99,7 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
                 ||  state == DoorState.Opening
                 ||  state == DoorState.Denying
                 || (state == DoorState.Open && comp.OpenUnlitVisible)
-                || (_appearanceSystem.TryGetData<bool>(uid, DoorVisuals.ClosedLights, out var closedLights, args.Component) && closedLights))
+                || (state == DoorState.Closed && hasClosedUnlit)) // LP edit
                     && !boltedVisible && !emergencyLightsVisible;
         }
 
@@ -124,7 +125,7 @@ public sealed partial class AirlockSystem : SharedAirlockSystem
                 _sprite.LayerSetAnimationTime((uid, args.Sprite), DoorVisualLayers.BaseUnlit, 0);
                 break;
             case DoorState.Closed:
-                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpeningSpriteState);
+                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, hasClosedUnlit ? comp.ClosedSpriteState : comp.OpeningSpriteState); // LP edit
                 _sprite.LayerSetAnimationTime((uid, args.Sprite), DoorVisualLayers.BaseUnlit, 0);
                 break;
         }
