@@ -112,12 +112,16 @@
       time: 3
     - type: Firelock
     - type: Appearance
+    - type: DoorBolt # Funky change
+    - type: FirelockBoltControl # Funky change
     - type: WiresVisuals
     - type: WiresPanel
     - type: UserInterface
       interfaces:
         enum.WiresUiKey.Key:
           type: WiresBoundUserInterface
+        enum.FirelockOverrideUiKey.Key: # Funky change
+          type: FirelockOverrideBoundUserInterface # Funky change
     - type: Physics
       canCollide: false
     - type: Airtight
