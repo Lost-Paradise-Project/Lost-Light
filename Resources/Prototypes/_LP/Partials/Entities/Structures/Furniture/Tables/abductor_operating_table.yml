@@ -1,0 +1,15 @@
+# Абдукторский стол наследует функции стола Funky: основной слой остаётся его, а монитор и баллон берутся из обычного RSI стола
+- type: !PartialOnly entity
+  id: AbductorOperatingTable
+  components:
+  - type: Sprite
+    state: !Remove
+    layers: !Clear
+    - state: operating_table
+      map: ["enum.OperatingTableVisualLayers.Base"]
+    - sprite: Structures/Furniture/Tables/optable.rsi
+      state: vitals_1
+      map: ["enum.OperatingTableVisualLayers.Vitals"]
+      visible: false
+    - sprite: Structures/Furniture/Tables/optable.rsi
+      map: ["tank"]

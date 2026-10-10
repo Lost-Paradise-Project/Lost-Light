@@ -66,6 +66,10 @@ public sealed partial class FurnitureWheelsSystem : EntitySystem
             _transform.AnchorEntity(uid, xform);
         }
 
+        // Anchoring can fail, only play the sound if the state really changed.
+        if (xform.Anchored != willBeLocked)
+            return;
+
         var sound = willBeLocked ? comp.LockSound : comp.UnlockSound;
         if (sound != null)
             _audio.PlayPvs(sound, uid);

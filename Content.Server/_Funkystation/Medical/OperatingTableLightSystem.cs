@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared._Funkystation.Medical;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Damage;
@@ -83,13 +84,19 @@ public sealed partial class OperatingTableLightSystem : EntitySystem
 
     private void OnUnstrapped(EntityUid uid, OperatingTableLightComponent comp, ref UnstrappedEvent args)
     {
-        if (!TryComp<StrapComponent>(uid, out var strap) || strap.BuckledEntities.Count == 0)
+        if (TryComp<StrapComponent>(uid, out var strap) && strap.BuckledEntities.Count > 0)
         {
-            _appearance.SetData(uid, OperatingTableVisuals.VitalsState, VitalsState.None);
-
-            StopHeartbeat(uid, comp);
-            StopFlatline(uid, comp);
+            // Someone is still on the table, show their vitals instead.
+            var patient = strap.BuckledEntities.First();
+            UpdateVitalsDisplay(uid, patient);
+            RefreshAudio(uid, comp, patient);
+            return;
         }
+
+        _appearance.SetData(uid, OperatingTableVisuals.VitalsState, VitalsState.None);
+
+        StopHeartbeat(uid, comp);
+        StopFlatline(uid, comp);
     }
 
     private void UpdateVitalsDisplay(EntityUid table, EntityUid patient)
@@ -177,6 +184,30 @@ public sealed partial class OperatingTableLightSystem : EntitySystem
         }
     }
 
+    /// <summary>
+    /// Syncs the looping heartbeat/flatline with the patient's state without restarting a stream that is already right.
+    /// </summary>
+    private void RefreshAudio(EntityUid table, OperatingTableLightComponent comp, EntityUid patient)
+    {
+        if (!TryComp<MobStateComponent>(patient, out var mobState))
+            return;
+
+        if (_mobState.IsDead(patient, mobState))
+        {
+            if (comp.FlatlineStream == null)
+                PlayFlatline(table, comp);
+
+            return;
+        }
+
+        StopFlatline(table, comp);
+
+        if (comp.HeartbeatStream == null)
+            StartHeartbeat(table, comp, patient);
+        else
+            UpdateHeartbeatPitch(table, comp, patient);
+    }
+
     private void OnDamageChanged(EntityUid uid, BuckleComponent buckle, DamageChangedEvent args)
     {
         if (buckle.BuckledTo == null)
@@ -189,22 +220,7 @@ public sealed partial class OperatingTableLightSystem : EntitySystem
 
         UpdateVitalsDisplay(table, uid);
 
-        if (TryComp<MobStateComponent>(uid, out var mobState))
-        {
-            if (_mobState.IsDead(uid, mobState))
-            {
-                PlayFlatline(table, tableComp);
-            }
-            else if (tableComp.HeartbeatStream == null)
-            {
-                StopFlatline(table, tableComp);
-                StartHeartbeat(table, tableComp, uid);
-            }
-            else
-            {
-                UpdateHeartbeatPitch(table, tableComp, uid);
-            }
-        }
+        RefreshAudio(table, tableComp, uid);
     }
 
     private void OnMobStateChanged(MobStateChangedEvent args)
@@ -224,22 +240,7 @@ public sealed partial class OperatingTableLightSystem : EntitySystem
 
         UpdateVitalsDisplay(table, uid);
 
-        if (TryComp<MobStateComponent>(uid, out var mobState))
-        {
-            if (_mobState.IsDead(uid, mobState))
-            {
-                PlayFlatline(table, tableComp);
-            }
-            else if (tableComp.HeartbeatStream == null)
-            {
-                StopFlatline(table, tableComp);
-                StartHeartbeat(table, tableComp, uid);
-            }
-            else
-            {
-                UpdateHeartbeatPitch(table, tableComp, uid);
-            }
-        }
+        RefreshAudio(table, tableComp, uid);
     }
 
     private void StartHeartbeat(EntityUid uid, OperatingTableLightComponent comp, EntityUid patient)
