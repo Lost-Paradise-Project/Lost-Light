@@ -32,6 +32,13 @@ public sealed partial class LaundryCartSystem : SharedLaundryCartSystem
         SubscribeLocalEvent<LaundryCartComponent, EntRemovedFromContainerMessage>(OnContainerModified);
         SubscribeLocalEvent<LaundryCartComponent, DamageDealtEvent>(OnDamageDealt);
         SubscribeLocalEvent<LaundryCartComponent, ContainerRelayMovementEntityEvent>(OnRelayMovement);
+        SubscribeLocalEvent<LaundryCartComponent, EntityTerminatingEvent>(OnTerminating);
+    }
+
+    private void OnTerminating(Entity<LaundryCartComponent> cart, ref EntityTerminatingEvent args)
+    {
+        // Release occupants before the container is shut down with the cart.
+        EjectAll(cart);
     }
 
     private void PopupToEntity(string? message, EntityUid uid, EntityUid recipient, PopupType type = PopupType.Small)
@@ -76,7 +83,9 @@ public sealed partial class LaundryCartSystem : SharedLaundryCartSystem
         if (!AllBagsFull(cart) || cart.Comp.HiddenContainer.ContainedEntities.Count >= cart.Comp.MaxOccupants)
             return;
 
-        Container.Insert(target, cart.Comp.HiddenContainer);
+        if (!Container.Insert(target, cart.Comp.HiddenContainer))
+            return;
+
         PopupToEntity(Loc.GetString("laundry-cart-hide-success"), cart.Owner, target);
     }
 
