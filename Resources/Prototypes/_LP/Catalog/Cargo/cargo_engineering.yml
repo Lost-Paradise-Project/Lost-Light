@@ -1,0 +1,19 @@
+- type: cargoProduct
+  id: SmallNuclearReactorFlatpackPurchase
+  icon:
+    sprite: _LP/Interface/FissionGenerator/cargo_icons.rsi
+    state: smallreactor
+  product: CrateNuclearReactorSmallFlatpack
+  cost: 8000
+  category: cargoproduct-category-name-engineering
+  group: market
+
+- type: cargoProduct
+  id: SmallGasTurbineFlatpackPurchase
+  icon:
+    sprite: _LP/Interface/FissionGenerator/cargo_icons.rsi
+    state: smallturbine
+  product: CrateGasTurbineSmallFlatpack
+  cost: 8000
+  category: cargoproduct-category-name-engineering
+  group: market

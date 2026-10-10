@@ -1,6 +1,6 @@
 ent-BaseNuclearReactor = ядерный реактор
     .desc = Корпус ядерного реактора со слотами для топливных стержней и других компонентов. Погодите-ка, разве один из таких когда-то не взорвался?
-ent-BaseNuclearReactorSmall = маленький ядерный реактор
+ent-BaseNuclearReactorSmall = малый ядерный реактор
     .desc = { ent-BaseNuclearReactor.desc }
 ent-NuclearReactorCrew = { "" }
     .desc = { "" }
