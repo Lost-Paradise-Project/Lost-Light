@@ -43,6 +43,7 @@
   - type: RequireProjectileTarget
     active: False
   - type: StunVisuals
+  - type: Posing # Orion
   - type: TextToSpeech
   - type: CustomLimbVisualizer
     displacements:
