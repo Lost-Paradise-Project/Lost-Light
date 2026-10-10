@@ -1,0 +1,61 @@
+# Размеры наборов имён и слов (count) под русские ftl
+
+- type: !PartialOnly localizedDataset
+  id: NamesFirstMale
+  values:
+    count: 986
+
+- type: !PartialOnly localizedDataset
+  id: NamesFirstFemale
+  values:
+    count: 1145
+
+- type: !PartialOnly localizedDataset
+  id: NamesClown
+  values:
+    count: 75
+
+- type: !PartialOnly localizedDataset
+  id: NamesDeathCommando
+  values:
+    count: 158
+
+- type: !PartialOnly localizedDataset
+  id: NamesMilitaryFirstLeader
+  values:
+    count: 5
+
+- type: !PartialOnly localizedDataset
+  id: NamesMilitaryFirst
+  values:
+    count: 5
+
+- type: !PartialOnly localizedDataset
+  id: NamesMilitaryLast
+  values:
+    count: 43
+
+- type: !PartialOnly localizedDataset
+  id: NamesRegalratKingdom
+  values:
+    count: 16
+
+- type: !PartialOnly localizedDataset
+  id: NamesReptilianMale
+  values:
+    count: 331
+
+- type: !PartialOnly localizedDataset
+  id: NamesVox
+  values:
+    count: 2762
+
+- type: !PartialOnly localizedDataset
+  id: Adjectives
+  values:
+    count: 956
+
+- type: !PartialOnly localizedDataset
+  id: Verbs
+  values:
+    count: 991

@@ -29,6 +29,7 @@
 | `_Goobstation` | [Goob Station](https://github.com/Goob-Station/Goob-Station) |
 | `_Funkystation` | [Funky Station](https://github.com/funky-station/funky-station) |
 | `_DEN` | [The Den](https://github.com/TheDenSS14/TheDen) |
+| `_Orion` | [Orion Station](https://github.com/AtaraxiaSpaceFoundation/Orion-Station-14) (AGPLv3 или новее; лицензия каждого файла - в REUSE-заголовке или файле `.license`) |
 
 **MIT**
 

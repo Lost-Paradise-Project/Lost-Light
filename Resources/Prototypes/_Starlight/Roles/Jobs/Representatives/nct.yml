@@ -5,7 +5,7 @@
   playTimeTracker: JobNanotrasenCareerTrainer
   requirements:
     - !type:RolesRequirement
-      proto: LPGameStaffReq # LP edit
+      proto: StaffAndMentorOnlyRolesReq
     - !type:TraitsRequirement
       traits:
         - Iterator

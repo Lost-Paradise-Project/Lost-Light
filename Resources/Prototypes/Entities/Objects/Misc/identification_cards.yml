@@ -680,7 +680,7 @@
       state: Bartender
   - type: PresetIdCard
     job: Bartender
-    name: Пун Пун # LP edit
+    name: Pun Pun
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener

@@ -1,7 +1,7 @@
 - type: radioChannel
   id: Law
   name: chat-radio-law
-  keycode: 'л' # LP edit
+  keycode: "l"
   frequency: 1780
   color: "#ff178b"
   icon:
@@ -12,7 +12,7 @@
 - type: radioChannel
   id: NanoTrasen
   name: chat-radio-nanotrasen
-  keycode: 'б' # LP edit
+  keycode: "p"
   frequency: 2000
   color: "#2253b5"
   longRange: true
@@ -21,7 +21,7 @@
 - type: radioChannel
   id: Soviet
   name: chat-radio-soviet
-  keycode: 'в' # LP edit
+  keycode: "w"
   frequency: 1922
   color: "#ed7300"
   longRange: true
@@ -42,7 +42,7 @@
 - type: radioChannel
   id: Expedition
   name: chat-radio-expedition
-  keycode: 'э' # LP edit
+  keycode: "o"
   frequency: 1550
   color: "#963dca"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -52,7 +52,7 @@
 - type: radioChannel
   id: TSF
   name: chat-radio-tsf
-  keycode: 'ж' # LP edit
+  keycode: "j"
   frequency: 1922
   color: "#22a7ff"
   longRange: true
@@ -62,7 +62,7 @@
 - type: radioChannel
   id: Merchant
   name: chat-radio-merchant
-  keycode: 'г' # LP edit
+  keycode: "d"
   frequency: 1882
   color: "#ffce2e"
   # For Blackstar mercenaries
@@ -71,7 +71,7 @@
 - type: radioChannel
   id: Blackstar
   name: chat-radio-blackstar
-  keycode: 'ч' # LP edit
+  keycode: "r"
   frequency: 1452
   color: "#896e14"
   longRange: true
@@ -80,7 +80,7 @@
 - type: radioChannel
   id: Winds
   name: chat-radio-winds
-  keycode: 'ш' # LP edit
+  keycode: "i"
   frequency: 11037
   color: "#ff00ff"
   longRange: true
@@ -90,7 +90,7 @@
 - type: radioChannel
   id: Aspace
   name: chat-radio-aspace
-  keycode: 'я' # LP edit
+  keycode: "q"
   frequency: 9999
   color: "#ab489f"
 
@@ -99,7 +99,7 @@
 - type: radioChannel
   id: Global
   name: chat-radio-global
-  keycode: 'ъ' # LP edit
+  keycode: "g"
   frequency: 9998
   color: "#954fff"
   longRange: true
@@ -117,7 +117,7 @@
 - type: radioChannel
   id: CosmicRadio
   name: language-Cosmic-name
-  keycode: 'а' # LP edit
+  keycode: 'a'
   frequency: 77777
   color: "#4cabb3"
   longRange: true

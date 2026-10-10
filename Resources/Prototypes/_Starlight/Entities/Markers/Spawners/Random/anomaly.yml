@@ -1,6 +1,5 @@
 - type: entity
   id: RandomFleshAnomalySpawner
-  name: random flesh anomaly spawner # LP edit
   parent: MarkerBase
   components:
     - type: Sprite

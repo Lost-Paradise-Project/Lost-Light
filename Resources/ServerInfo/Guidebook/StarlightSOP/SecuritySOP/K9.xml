@@ -1,51 +1,51 @@
 <Document>
-	# K9 Unit
+	# Служебная собака СБ
 
-	<GuideEntityEmbed Entity="MobK9" Caption="K9 Unit"/>
+	<GuideEntityEmbed Entity="MobK9" Caption="Служебная собака СБ"/>
 
 	- 1.\n
-	Standard [color=#00a933]Code Green[/color] equipment is:
+	Стандартное снаряжение при [color=#00a933]коде «Зелёный»[/color]:
 
 	<Box>
 		<GuideEntityEmbed Entity="DoubleEmergencyOxygenTankFilled"/>
 	</Box>
 	<Box>
 		<GuideEntityEmbed Entity="ClothingOuterArmorRiot"/>
-		or
+		или
 		<GuideEntityEmbed Entity="ClothingOuterArmorBasic"/>
-		or
+		или
 		<GuideEntityEmbed Entity="ClothingOuterArmorBulletproof"/>
 	</Box>
 	<Box>
 		<GuideEntityEmbed Entity="ClothingEyesHudSecurity"/>
-		or
+		или
 		<GuideEntityEmbed Entity="ClothingEyesEyepatchHudSecurity"/>
-		or
+		или
 		<GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
 	</Box>
 
 	- 2.\n
-	The Head of Security or Warden may assign a specific member of security to be the K9's handler.\n\n
+	Глава службы безопасности или смотритель может назначить служебной собаке кинолога из числа сотрудников СБ.\n\n
 	2.1\n
-	If no handler has been assigned, K9s are to accompany and obey a proper member of security at all times.\n\n
+	Если кинолог не назначен, служебная собака должна всегда сопровождать полноценного сотрудника СБ и подчиняться ему.\n\n
 	2.2\n
-	A K9 found roaming without an escort is to be assigned a handler, preferably by the Warden or Head of Security.
+	Служебной собаке, бродящей без сопровождения, нужно назначить кинолога, желательно силами смотрителя или главы службы безопасности.
 	- 3.\n
-	K9s are to follow standard escalation as per [textlink="§4 of Security SOP" link="security-sop-intro"], and follow their handler's (or any member of security's) lead in how a situation is handled. They are to avoid aggression toward suspects who are cooperating, and are not to show open hostility toward the crew or suspected criminals.\n\n
+	Служебные собаки соблюдают стандартную эскалацию согласно [textlink="§4 СОП СБ" link="security-sop-intro"] и в любой ситуации следуют примеру своего кинолога (или любого сотрудника СБ). Они должны избегать агрессии к подозреваемым, которые идут на сотрудничество, и не проявлять открытой враждебности к экипажу или подозреваемым в преступлениях.\n\n
 	3.1\n
-	This includes following reasonable expectations, such as avoiding: disobeying orders, unnecessary harm to crew, suspects or prisoners, destruction of property, and fleeing from their handler or other members of security without reason.\n\n
+	Это включает соблюдение разумных ожиданий, например нельзя: нарушать приказы, без необходимости вредить экипажу, подозреваемым или заключённым, портить имущество и без причины убегать от кинолога или других сотрудников СБ.\n\n
 	3.2\n
-	A K9's bite is considered less-lethal. K9s are not to bite anyone without good reason.\n\n
+	Укус служебной собаки считается нелетальным средством. Кусать кого-либо без веской причины запрещено.\n\n
 	3.3\n
-	K9s should only latch onto a suspect when their handler, or another member of security, is present or involved in the pursuit of that suspect.\n\n
+	Служебная собака может вцепиться в подозреваемого, только если её кинолог или другой сотрудник СБ присутствует или участвует в его преследовании.\n\n
 	3.4\n
-	A K9 left unaccompanied by circumstance, such as their handler being downed, or a situation developing too quickly to wait for security, may act on their own best judgement.
+	Служебная собака, оставшаяся без сопровождения по обстоятельствам (например, её кинолог выведен из строя или ситуация развивается слишком быстро, чтобы ждать СБ), может действовать на своё усмотрение.
 	- 4.\n
-	K9s are to be trained and commanded by their handler, who is also responsible for reporting and punishing any misconduct. In the absence of a handler, this may be done by any member of security.\n\n
+	Служебных собак дрессирует и ими командует кинолог, он же отвечает за сообщения о проступках и наказание за них. В отсутствие кинолога это может делать любой сотрудник СБ.\n\n
 	4.1\n
-	Punishment must be proportionate to the misconduct, and must not involve direct physical harm.
+	Наказание должно быть соразмерно проступку и не должно включать прямой физический вред.
 	- 5.\n
-	If required, the Head of Security may sign documentation for the K9's demotion or, if necessary, their execution by euthanasia.
+	При необходимости глава службы безопасности может подписать документы о понижении служебной собаки в должности или, если потребуется, о её казни путём эвтаназии.
 	- 6.\n
-	K9s are exempt from the Uniform Requirements in [textlink="Security SOP §2" link="security-sop-intro"].
+	На служебных собак не распространяются требования к униформе из [textlink="§2 СОП СБ" link="security-sop-intro"].
 </Document>

@@ -1,6 +1,5 @@
 - type: entity
   id: TrashWallLootSpawner
-  name: trash wall loot spawner # LP edit
   parent: MarkerBase
   components:
     - type: Sprite

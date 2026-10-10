@@ -1,0 +1,110 @@
+# Требования профессий
+
+- type: !PartialOnly job
+  id: CentralCommandOfficial
+  requirements: !Clear
+  - !type:RolesRequirement
+    proto: LPGameStaffReq
+
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - Decimus
+    - NanoTrasenSpecialForces
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 72000 # 20 hrs
+    - !type:RolesRequirement
+      proto: LPGameStaffReq
+
+- type: !PartialOnly job
+  id: CentralCommandGreenShield
+  requirements: !Clear
+  - !type:RoleTimeRequirement
+    role: JobBlueShield
+    time: 3h # You are a bodyguard of the highest ranking people in the sector, you have to have some experience in the closest related role.
+  - !type:RolesRequirement
+    proto: LPGameStaffReq
+
+- type: !PartialOnly job
+  id: AssistantManager
+  requirements: !Clear
+  - !type:DepartmentTimeRequirement
+    department: Command
+    time: 30h
+  - !type:RoleTimeRequirement
+    role: JobPassenger # How can you lead the masses if you've never been one of them?
+    time: 30h
+  - !type:TraitsRequirement # I don't think I need to explain why these traits are restricted, but for the inevitable case someone asks...
+    traits:
+      - Iterator # Can't delegate tasks if nobody can understand you.
+      - Muted # Can't delegate tasks if you can't speak.
+    inverted: true
+
+- type: !PartialOnly job
+  id: BlueShield
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 30h # You are the sole bodyguard of the highest ranking people on the station, you have to be good.
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 25h # You're expected to be mature, at least a little.
+    - !type:RoleTimeRequirement
+      role: JobBrigmedic
+      time: 3h # Lower stakes version of the same role, and forces you to get Paramed time too. Totals to about 8 hours paramed+brigmed combined.
+    - !type:TraitsRequirement
+      traits:
+        - Iterator
+        - Pacifist
+      inverted: true
+
+- type: !PartialOnly job
+  id: Magistrate
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 180000 #50 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 # 10h
+    - !type:TraitsRequirement
+      traits:
+        - Iterator
+        - Muted
+      inverted: true
+
+- type: !PartialOnly job
+  id: NanoTrasenRepresentative
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 30h # Still less than Magistrate. You should be experienced with Command before you tell them how to do their jobs.
+    - !type:TraitsRequirement
+      traits:
+        - Iterator
+        - Muted
+      inverted: true
+
+- type: !PartialOnly job
+  id: NanotrasenCareerTrainer
+  requirements: !Clear
+    - !type:RolesRequirement
+      proto: LPGameStaffReq
+    - !type:TraitsRequirement
+      traits:
+        - Iterator
+        - Muted
+      inverted: true
+
+- type: !PartialOnly job
+  id: TSFMarineElite
+  requirements: !Clear
+    - !type:OverallPlaytimeRequirement
+      time: 72000 # 20h
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 # 5h
+    - !type:RolesRequirement
+      proto: LPGameStaffReq

@@ -1,7 +1,7 @@
 - type: radioChannel
   id: MedTak
   name: chat-radio-medtak
-  keycode: 'е' # LP edit
+  keycode: "k"
   frequency: 1505
   color: "#880606"
   longRange: true

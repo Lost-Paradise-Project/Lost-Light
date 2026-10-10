@@ -1,0 +1,108 @@
+# Ключи локализации для названий слотов предметов
+
+- type: !PartialOnly entity
+  id: ClothingBeltSheath
+  components:
+  - type: ItemSlots
+    slots:
+      item:
+        name: item-slot-component-slot-name-sabre
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - BaseWeaponPowerCell
+    - ShuttleGunSvalinnMachineGun
+    - ShuttleGunPerforator
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: item-slot-component-slot-name-magazine
+
+- type: !PartialOnly entity
+  id: BaseBow
+  components:
+  - type: ItemSlots
+    slots:
+      projectiles:
+        name: item-slot-component-slot-name-projectiles
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - BaseWeaponLightMachineGun
+    - WeaponLightMachineGunL6
+    - BaseWeaponPistol
+    - WeaponPistolViper
+    - WeaponPistolCobra
+    - WeaponPistolN1984
+    - BaseWeaponRifle
+    - WeaponRifleAk
+    - WeaponRifleLecter
+    - WeaponRifleEstoc
+    - BaseWeaponSubMachineGun
+    - WeaponSubMachineGunWt550
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: item-slot-component-slot-name-magazine
+      gun_chamber:
+        name: item-slot-component-slot-name-chamber
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - WeaponLightMachineGunL6C
+    - WeaponSubMachineGunDrozd
+  components:
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: item-slot-component-slot-name-magazine
+        gun_chamber:
+          name: item-slot-component-slot-name-chamber
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - WeaponShotgunBulldog
+    - ShuttleGunDuster
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: item-slot-component-slot-name-magazine
+
+- type: !PartialOnly entity
+  id: WeaponFlareGun
+  components:
+  - type: ItemSlots
+    slots:
+      gun_chamber:
+        name: item-slot-component-slot-name-chamber
+
+- type: !PartialOnly entity
+  id: CaneSheath
+  components:
+  - type: ItemSlots
+    slots:
+      item:
+        name: item-slot-component-slot-name-cane-blade
+
+- type: !PartialOnly entity
+  id: BaseComputerShuttle
+  components:
+  - type: ItemSlots
+    slots:
+      disk_slot:
+        name: item-slot-component-slot-name-disk
+
+- type: !PartialOnly entity
+  id: PowerCageRecharger
+  components:
+  - type: ItemSlots
+    slots:
+      charger_slot:
+        name: item-slot-component-slot-name-power-cage

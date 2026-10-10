@@ -1,0 +1,49 @@
+# Голоса ntts для сущностей
+
+- type: !PartialOnly entity
+  id: AACTablet
+  components:
+  - type: TextToSpeech
+    voice: ntts_brendan
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - MobParrotBase
+    - MrChips
+  components:
+  - type: TextToSpeech
+    voice: ntts_meepo_dota_2
+
+- type: !PartialOnly entity
+  id: MobDionaNymph
+  components:
+  - type: TextToSpeech
+    voice: ntts_uther_hs
+
+- type: !PartialOnly entity
+  id: MobRatKing
+  components:
+  - type: TextToSpeech
+    voice: ntts_nyx_assassin_dota_2
+
+- type: !PartialOnly entity
+  id: MobRevenant
+  components:
+  - type: TextToSpeech
+    voice: ntts_shadow_fiend_dota_2
+
+- type: !PartialOnly entity
+  id: MrDips
+  components:
+  - type: TextToSpeech
+    voice: ntts_ernielark
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - VendingMachine
+    - hydroponicsTray
+  components:
+  - type: TextToSpeech
+    voice: ntts_turret_floor

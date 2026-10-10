@@ -1,0 +1,71 @@
+# Документы и принтер документов
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClassifiedCorporateDocumentAbductors
+    - ClassifiedCorporateDocumentDecimus
+    - ClassifiedCorporateDocumentNinjas
+    - ClassifiedCorporateDocumentNukies
+    - ClassifiedCorporateDocumentRomerol
+    - ClassifiedCorporateDocumentCultCosmic
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_cc_secure_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClassifiedCriminalDocumentARC
+    - ClassifiedCriminalDocumentComitas
+    - ClassifiedCriminalDocumentSELF
+    - ClassifiedCriminalDocumentTigerCooperative
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_law_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClassifiedSecureDocumentRevolutionaries
+    - ClassifiedSecureDocumentVampires
+    - ClassifiedSecureDocumentWizards
+    - ClassifiedSecureDocumentXenoborgs
+    - BriefDocumentRevs
+    - BriefDocumentLings
+    - BriefDocumentBrightEyes
+    - BriefDocumentVampires
+    - BriefDocumentSyndicate
+    - BriefDocumentWizard
+    - BriefDocumentXorgs
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_LP/Paper/nanotrasen_sec_form_header.png"
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+
+- type: !PartialOnly entity
+  id: PrinterDoc
+  components:
+  - type: Lathe
+    staticPacks:
+    - !Remove StarlightDocs
+    - LPDocs
+  - type: EmagLatheRecipes
+    emagStaticPacks:
+    - LPPSyndicateDocuments
+  - type: DocumentPrinter
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      blueprint: !type:Container
+      id: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      id:
+        name: item-slot-component-slot-name-id-card
+        whitelist:
+          components:
+            - IdCard

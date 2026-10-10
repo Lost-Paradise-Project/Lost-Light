@@ -9,8 +9,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Metroid
@@ -23,8 +23,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Imp
@@ -37,8 +37,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Revenant
@@ -51,8 +51,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Ian
@@ -66,8 +66,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: IanCute
@@ -81,8 +81,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Skeleton
@@ -96,8 +96,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Sheet
@@ -111,8 +111,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester
 
 - type: ghostTheme
   id: Cat
@@ -126,5 +126,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: TesterReq
+  category: Tester

@@ -4,7 +4,6 @@
   name: debug counter
   description: He can count
   suffix: AI, DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
     - type: HTN
       rootTask:
@@ -23,7 +22,6 @@
   name: debug random counter
   description: He can randomize
   suffix: AI, DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
     - type: HTN
       rootTask:
@@ -42,7 +40,6 @@
   name: debug random less
   description: He can lessing
   suffix: AI, DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
     - type: HTN
       rootTask:

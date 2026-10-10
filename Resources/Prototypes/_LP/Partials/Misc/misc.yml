@@ -1,0 +1,120 @@
+# Прочие мелкие правки
+
+- type: !PartialOnly entityTable
+  id: LockerFillCaptainNoLaser
+  table:
+    children:
+    - !Index:22
+      id: SecApartmentTablet
+
+- type: !PartialOnly entityTable
+  id: FillLockerWarden
+  table:
+    children:
+    - id: SecApartmentTablet
+
+- type: !PartialOnly entity
+  id: ShowSecurityIcons
+  components:
+  - type: ShowSquadIcons
+
+- type: !PartialOnly entity
+  id: StandardNanotrasenStationTestOnly
+  parent:
+    - !Index:2 BaseStationGoal
+
+- type: !PartialOnly entity
+  id: FaxMachineCentcom
+  components:
+  - type: FaxMachine
+    receiveStationGoal: true
+
+- type: !PartialOnly entity
+  id: FaxMachineCaptain
+  components:
+    - type: FaxMachine
+      receiveStationGoal: true
+
+- type: !PartialOnly entity
+  id: MobKoni
+  components:
+    - type: TextToSpeech
+      voice: ntts_luna_dota_2
+
+- type: !PartialOnly speciesBaseSprites
+  id: MobCatMothSprites
+  sprites:
+    UndergarmentTop: !Remove
+    UndergarmentBottom: !Remove
+
+- type: !PartialOnly entity
+  id: MobSkubmoth
+  components:
+    - type: TextToSpeech
+      voice: ntts_neco
+
+- type: !PartialOnly entity
+  id: ClothingBackpackTrunkSpaceCourierPAI
+  components:
+  - type: TextToSpeech
+    voice: ntts_tracer
+
+- type: !PartialOnly entity
+  id: ClothingNeckHorrific
+  components:
+  - type: TextToSpeech
+    voice: ntts_gman
+
+- type: !PartialOnly entity
+  id: ThermiteFire
+  name: burning thermite
+
+- type: !PartialOnly entity
+  id: PortalGreeny
+  name: green portal
+
+- type: !PartialOnly entity
+  id: VampireEternalDarknessAura
+  name: eternal darkness aura
+
+- type: !PartialOnly entity
+  id: RandomFleshAnomalySpawner
+  name: random flesh anomaly spawner
+
+- type: !PartialOnly entity
+  id: TrashWallLootSpawner
+  name: trash wall loot spawner
+
+- type: !PartialOnly entity
+  id: AppearanceAvali
+  components:
+    - type: HumanoidAppearance
+      undergarmentTop: !Remove
+      undergarmentBottom: !Remove
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - AppearanceReptilian
+    - BaseMobReptilian
+  components:
+  - type: HumanoidAppearance
+    undergarmentBottom: !Remove
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - AppearanceVox
+    - AppearanceRodentia
+  components:
+  - type: HumanoidAppearance
+    undergarmentTop: !Remove
+    undergarmentBottom: !Remove
+
+- type: !PartialOnly entity
+  id: ShadekinTrapSpawn
+  name: shadekin trap spawn
+
+- type: !PartialOnly gamePreset
+  id: Greenshift
+  voteCooldown: 2

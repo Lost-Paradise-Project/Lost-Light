@@ -1,6 +1,5 @@
 ﻿- type: entity
   id: OptionsVisualizerTest
-  categories: [ HideSpawnMenu ] # LP edit
   suffix: DEBUG
   components:
   - type: Sprite
