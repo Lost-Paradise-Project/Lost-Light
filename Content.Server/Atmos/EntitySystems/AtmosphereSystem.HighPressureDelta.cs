@@ -24,6 +24,12 @@ namespace Content.Server.Atmos.EntitySystems
 
         private int _spaceWindSoundCooldown = 0;
 
+        // Orion-Start
+        private const int SpaceWindVisualCooldownCycles = 15;
+
+        private int _spaceWindVisualCooldown = 0;
+        // Orion-End
+
         [Dependency] private BreachWindSystem _breachWind = default!; // Starlight
 
         [ViewVariables(VVAccess.ReadWrite)]
@@ -122,7 +128,7 @@ namespace Content.Server.Atmos.EntitySystems
                 }
 
                 // Orion-Start | Space Wind Visuals
-                if (SpaceWindVisuals && _spaceWindSoundCooldown == 0)
+                if (SpaceWindVisuals && _spaceWindVisualCooldown == 0)
                 {
                     var location = _mapSystem.ToCenterCoordinates(tile.GridIndex, tile.GridIndices);
                     var visualEnt = SpawnAtPosition(_spaceWindProto, location);
@@ -145,6 +151,11 @@ namespace Content.Server.Atmos.EntitySystems
 
             if (_spaceWindSoundCooldown++ > SpaceWindSoundCooldownCycles)
                 _spaceWindSoundCooldown = 0;
+
+            // Orion-Start | the visual has its own cooldown, independent from the sound one
+            if (_spaceWindVisualCooldown++ > SpaceWindVisualCooldownCycles)
+                _spaceWindVisualCooldown = 0;
+            // Orion-End
 
             // No atmos yeets, return early.
             if (!SpaceWind)
