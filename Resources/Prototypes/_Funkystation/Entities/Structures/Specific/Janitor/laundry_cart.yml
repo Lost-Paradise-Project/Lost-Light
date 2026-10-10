@@ -110,7 +110,7 @@
         - Opaque
   - type: Damageable
     damageModifierSet: Metallic
-  - type: Injurable
+  #- type: Injurable # Starlight, no Injurable yet
     damageContainer: Inorganic
   - type: Destructible
     thresholds:
