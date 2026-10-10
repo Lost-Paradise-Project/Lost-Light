@@ -353,7 +353,7 @@
   name: stir stir's ID card
   components:
   - type: PresetIdCard
-    name: Стир Стир # LP edit
+    name: Stir Stir
 
 - type: entity
   parent: IDCardStandard

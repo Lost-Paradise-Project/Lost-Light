@@ -13,3 +13,6 @@ ent-LockerVirologistFilled = { ent-LockerVirologist }
 ent-LockerGeneticistFilled = { ent-LockerGeneticist }
     .desc = { ent-LockerGeneticist.desc }
     .suffix = Заполнен
+ent-LockerMedicineJugsFilled = шкаф с медицинскими канистрами
+    .desc = Шкаф, заранее заполненный канистрами. Химики ликуют!
+    .suffix = Заполненный

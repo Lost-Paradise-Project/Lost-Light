@@ -1,0 +1,101 @@
+# Русские кейкоды радиоканалов
+
+- type: !PartialOnly radioChannel
+  id: MedTak
+  keycode: 'е'
+
+- type: !PartialOnly radioChannel
+  id: Law
+  keycode: 'л'
+
+- type: !PartialOnly radioChannel
+  id: NanoTrasen
+  keycode: 'б'
+
+- type: !PartialOnly radioChannel
+  id: Soviet
+  keycode: 'в'
+
+- type: !PartialOnly radioChannel
+  id: Expedition
+  keycode: 'э'
+
+- type: !PartialOnly radioChannel
+  id: TSF
+  keycode: 'ж'
+
+- type: !PartialOnly radioChannel
+  id: Merchant
+  keycode: 'г'
+
+- type: !PartialOnly radioChannel
+  id: Blackstar
+  keycode: 'ч'
+
+- type: !PartialOnly radioChannel
+  id: Winds
+  keycode: 'ш'
+
+- type: !PartialOnly radioChannel
+  id: Aspace
+  keycode: 'я'
+
+- type: !PartialOnly radioChannel
+  id: Global
+  keycode: 'ъ'
+
+- type: !PartialOnly radioChannel
+  id: CosmicRadio
+  keycode: 'а'
+
+- type: !PartialOnly radioChannel
+  id: CentCom
+  keycode: 'ц'
+
+- type: !PartialOnly radioChannel
+  id: Command
+  keycode: 'к'
+
+- type: !PartialOnly radioChannel
+  id: Engineering
+  keycode: 'и'
+
+- type: !PartialOnly radioChannel
+  id: Medical
+  keycode: 'м'
+
+- type: !PartialOnly radioChannel
+  id: Science
+  keycode: 'н'
+
+- type: !PartialOnly radioChannel
+  id: Security
+  keycode: 'о'
+
+- type: !PartialOnly radioChannel
+  id: Service
+  keycode: 'с'
+
+- type: !PartialOnly radioChannel
+  id: Supply
+  keycode: 'п'
+
+- type: !PartialOnly radioChannel
+  id: Syndicate
+  keycode: 'т'
+
+- type: !PartialOnly radioChannel
+  id: Binary
+  keycode: 'д'
+
+- type: !PartialOnly radioChannel
+  id: Freelance
+  keycode: 'ф'
+
+- type: !PartialOnly radioChannel
+  id: Xenoborg
+  keycode: 'х'
+
+- type: !PartialOnly radioChannel
+  id: Mothership
+  keycode: 'з'

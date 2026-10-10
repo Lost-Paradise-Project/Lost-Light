@@ -1,0 +1,441 @@
+# Русские триггеры эмоций и теги голосов
+
+- type: !PartialOnly emote
+  id: Sneeze
+  chatTriggers:
+  - чихнуть
+  - чихать
+  - чихает
+  - чихнул
+  - чихнула
+  - апчхи
+
+- type: !PartialOnly emote
+  id: Cough
+  chatTriggers:
+    - кашлять
+    - кашляет
+    - кашлянул
+    - кашлянула
+
+- type: !PartialOnly emote
+  id: Yawn
+  chatTriggers:
+    - зевать
+    - зевает
+    - зевнул
+    - зевнула
+
+- type: !PartialOnly emote
+  id: Scream
+  chatTriggers:
+    - кричать
+    - кричит
+    - закричал
+    - закричала
+    - вопит
+    - завопил
+    - завопила
+    - орёт
+    - орет
+
+- type: !PartialOnly emote
+  id: Laugh
+  chatTriggers:
+    - смеяться
+    - смеётся
+    - смеется
+    - засмеялся
+    - засмеялась
+    - хихикает
+    - хихикнул
+    - хихикнула
+    - хохочет
+
+- type: !PartialOnly emote
+  id: Honk
+  chatTriggers:
+    - хонк
+    - хонкает
+    - хонкнул
+    - хонкнула
+
+- type: !PartialOnly emote
+  id: Sigh
+  chatTriggers:
+    - вздыхать
+    - вздыхает
+    - вздохнул
+    - вздохнула
+
+- type: !PartialOnly emote
+  id: Whistle
+  chatTriggers:
+    - свистеть
+    - свистит
+    - свистнул
+    - свистнула
+
+- type: !PartialOnly emote
+  id: Crying
+  chatTriggers:
+    - плакать
+    - плачет
+    - заплакал
+    - заплакала
+    - рыдает
+    - всхлипывает
+
+- type: !PartialOnly emote
+  id: Squish
+  chatTriggers:
+    - хлюпать
+    - хлюпает
+    - хлюпнул
+    - хлюпнула
+
+- type: !PartialOnly emote
+  id: Chitter
+  chatTriggers:
+   - стрекотать
+   - стрекочет
+   - застрекотал
+   - застрекотала
+
+- type: !PartialOnly emote
+  id: Squeak
+  chatTriggers:
+   - пищать
+   - пищит
+   - пискнул
+   - пискнула
+
+- type: !PartialOnly emote
+  id: Click
+  chatTriggers:
+   - клацать
+   - клацает
+   - клацнул
+   - клацнула
+
+- type: !PartialOnly emote
+  id: Bark
+  chatTriggers:
+  - лаять
+  - лает
+  - залаял
+  - залаяла
+
+- type: !PartialOnly emote
+  id: Snarl
+  chatTriggers:
+  - скалиться
+  - скалится
+  - оскалился
+  - оскалилась
+
+- type: !PartialOnly emote
+  id: Whine
+  chatTriggers:
+  - скулить
+  - скулит
+  - заскулил
+  - заскулила
+
+- type: !PartialOnly emote
+  id: Howl
+  chatTriggers:
+  - выть
+  - воет
+  - завыл
+  - завыла
+
+- type: !PartialOnly emote
+  id: Growl
+  chatTriggers:
+  - рычать
+  - рычит
+  - зарычал
+  - зарычала
+
+- type: !PartialOnly emote
+  id: Clap
+  chatTriggers:
+    - хлопать
+    - хлопает
+    - аплодировать
+    - аплодирует
+
+- type: !PartialOnly emote
+  id: ClapSingle
+  chatTriggers:
+    - хлопок
+    - хлопнул
+    - хлопнула
+    - хлопает в ладоши
+
+- type: !PartialOnly emote
+  id: Snap
+  chatTriggers:
+    - щёлкать
+    - щелкать
+    - щёлкает
+    - щелкает
+    - щёлкнул
+    - щелкнул
+    - щёлкнула
+    - щелкнула
+    - щёлкает пальцами
+    - щелкает пальцами
+
+- type: !PartialOnly emote
+  id: Thump
+  chatTriggers:
+    - стучать хвостом
+    - стучит хвостом
+    - стукнул хвостом
+    - стукнула хвостом
+
+- type: !PartialOnly emote
+  id: Salute
+  chatTriggers:
+    - салютовать
+    - салютует
+    - отдаёт честь
+    - отдает честь
+
+- type: !PartialOnly emote
+  id: Gasp
+  chatTriggers:
+   - задыхаться
+   - задыхается
+
+- type: !PartialOnly emote
+  id: Buzz
+  chatTriggers:
+    - жужжать
+    - жужжит
+    - зажужжал
+    - зажужжала
+
+- type: !PartialOnly emote
+  id: Chirp
+  chatTriggers:
+    - щебетать
+    - щебечет
+    - чирикать
+    - чирикает
+
+- type: !PartialOnly emote
+  id: Flap
+  chatTriggers:
+   - хлопать крыльями
+   - хлопает крыльями
+   - машет крыльями
+
+- type: !PartialOnly emote
+  id: Beep
+  chatTriggers:
+    - бип
+    - бипать
+    - бипает
+    - бипнул
+    - бипнула
+
+- type: !PartialOnly emote
+  id: Chime
+  chatTriggers:
+    - дзынь
+    - звенеть
+    - звенит
+
+- type: !PartialOnly emote
+  id: Buzz-Two
+  chatTriggers:
+    - дважды жужжит
+    - жужжит дважды
+
+- type: !PartialOnly emote
+  id: Ping
+  chatTriggers:
+    - пинг
+    - пинговать
+    - пингует
+
+- type: !PartialOnly emote
+  id: Yip
+  chatTriggers:
+  - тявкать
+  - тявкает
+  - тявкнул
+  - тявкнула
+
+- type: !PartialOnly emote
+  id: Mew
+  chatTriggers:
+    - мяу
+    - мявкать
+    - мявкает
+
+- type: !PartialOnly emote
+  id: Hisses
+  chatTriggers:
+  - шипеть
+  - шипит
+  - зашипел
+  - зашипела
+
+- type: !PartialOnly emote
+  id: Meow
+  chatTriggers:
+    - мяукать
+    - мяукает
+    - мяукнул
+    - мяукнула
+
+- type: !PartialOnly emote
+  id: Purr
+  chatTriggers:
+    - мурлыкать
+    - мурлычет
+    - замурлыкал
+    - замурлыкала
+
+- type: !PartialOnly emote
+  id: Trill
+  chatTriggers:
+    - трель
+    - издаёт трель
+    - издает трель
+
+- type: !PartialOnly emote
+  id: Marr
+  chatTriggers:
+    - марр
+
+- type: !PartialOnly emote
+  id: Wurble
+  chatTriggers:
+    - вурбл
+    - вурблит
+
+- type: !PartialOnly emote
+  id: Scree
+  chatTriggers:
+  - визжать
+  - визжит
+  - завизжал
+  - завизжала
+
+- type: !PartialOnly emote
+  id: Call
+  chatTriggers:
+  - звать
+  - зовёт
+  - зовет
+
+- type: !PartialOnly emote
+  id: Squawk
+  chatTriggers:
+  - каркать
+  - каркает
+  - каркнул
+  - каркнула
+
+- type: !PartialOnly emote
+  id: Lurr
+  chatTriggers:
+  - лурр
+  - урчать
+  - урчит
+
+- type: !PartialOnly emote
+  id: Liss
+  chatTriggers:
+  - лисс
+
+- type: !PartialOnly emote
+  id: Rattle
+  chatTriggers:
+  - трещать
+  - трещит
+  - затрещал
+  - затрещала
+
+- type: !PartialOnly emote
+  id: Bubble
+  chatTriggers:
+  - булькать
+  - булькает
+  - булькнул
+  - булькнула
+
+- type: !PartialOnly emote
+  id: Pop
+  chatTriggers:
+  - чпок
+  - чпокать
+  - чпокает
+
+- type: !PartialOnly emote
+  id: Squee
+  chatTriggers:
+  - попискивать
+  - попискивает
+
+- type: !PartialOnly emote
+  id: Snort
+  chatTriggers:
+  - фыркать
+  - фыркает
+  - фыркнул
+  - фыркнула
+
+- type: !PartialOnly emote
+  id: LagomorphSnore
+  chatTriggers:
+  - храпеть
+  - храпит
+  - захрапел
+  - захрапела
+
+- type: !PartialOnly emote
+  id: LagomorphStomp
+  chatTriggers:
+  - топать
+  - топает
+  - топнул
+  - топнула
+
+- type: !PartialOnly emote
+  id: ThavenGlub
+  chatTriggers:
+    - глюб
+    - глюбает
+
+- type: !PartialOnly emote
+  id: ThavenHum
+  chatTriggers:
+    - напевать
+    - напевает
+
+- type: !PartialOnly emote
+  id: Arf
+  chatTriggers:
+  - гавкать
+  - гавкает
+  - гавкнул
+  - гавкнула
+
+- type: !PartialOnly emote
+  id: Blink
+  chatTriggers:
+  - моргать
+  - моргает
+  - моргнул
+  - моргнула
+
+- type: !PartialOnly voiceTagFilterConfig
+  id: default
+  maxPresentedTags: 30
+  explicitlyIncludedTags: []

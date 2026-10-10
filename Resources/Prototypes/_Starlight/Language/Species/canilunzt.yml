@@ -1,7 +1,7 @@
 - type: language
   id: Canilunzt
   icon: LanguageIconVulp
-  chatPrefix: кан # LP edit
+  chatPrefix: can
   speech:
     color: "#d69b3dcc"
   obfuscation:

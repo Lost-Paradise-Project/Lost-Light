@@ -82,6 +82,7 @@ guide-entry-sl-security-sop-securityofficer = Офицер СБ
 guide-entry-sl-security-sop-dutyofficer = Дежурный офицер
 guide-entry-sl-security-sop-detective = Детектив
 guide-entry-sl-security-sop-brigmedic = Бригмедик
+guide-entry-sl-security-sop-k9 = Служебная собака
 guide-entry-sl-security-sop-warden = Смотритель
 guide-entry-sl-security-sop-headofsecurity = Глава службы безопасности
 guide-entry-sl-security-sop-prisonertreatment = Обращение с заключёнными

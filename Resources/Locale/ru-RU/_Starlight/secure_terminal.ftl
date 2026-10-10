@@ -32,6 +32,8 @@ secure-terminal-countdown-label = Активация через { $minutes } м�
 
 secure-terminal-fee-note = Плата за обработку: { $fee }
 secure-terminal-salary-note = Изменения зарплат:
+secure-terminal-salary-source-everyone = Все
+secure-terminal-salary-source-interstellar-trade-guild = Межзвёздная торговая гильдия
 secure-terminal-delay-note = { $minutes ->
     [1] Расчётное время: 1 минута после авторизации.
     *[other] Расчётное время: { $minutes } мин. после авторизации.
@@ -145,10 +147,10 @@ secure-terminal-ert-janitorial-desc = Направляет отряд уборщ
     Рекомендуется после масштабного биологического, химического или экологического заражения, требующего быстрой дезактивации.
 secure-terminal-ert-janitorial-announcement = Отряд быстрого реагирования — отряд уборщиков — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
-secure-terminal-ert-chaplain-name = Капеллан ОБР
-secure-terminal-ert-chaplain-desc = Направляет капеллана ОБР для поддержки морального духа экипажа и последнего напутствия.
+secure-terminal-ert-chaplain-name = Священник ОБР
+secure-terminal-ert-chaplain-desc = Направляет священника ОБР для поддержки морального духа экипажа и последнего напутствия.
     Обеспечивает духовную поддержку и сохраняет боевой дух экипажа при затяжных чрезвычайных ситуациях.
-secure-terminal-ert-chaplain-announcement = Отряд быстрого реагирования — капелланская служба — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
+secure-terminal-ert-chaplain-announcement = Отряд быстрого реагирования — священник — авторизован и уже в пути. Расчётное время прибытия: 10 минут.
 
 secure-terminal-ert-cburn-name = ОБР РХБЗ
 secure-terminal-ert-cburn-desc = Направляет отряд ОБР РХБЗ.

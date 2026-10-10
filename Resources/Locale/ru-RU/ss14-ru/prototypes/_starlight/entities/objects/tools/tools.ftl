@@ -53,3 +53,6 @@ ent-RCDXeno = РСУ ксеноборга
 ent-ToolboxSELF = { ent-ToolboxThief }
     .desc = { ent-ToolboxThief.desc }
     .suffix = С.Е.Л.Ф.
+ent-LoadoutRadioERTSec = блюспейс-рация снаряжения
+    .desc = Передовая блюспейс-технология в корпусе рации. Позволяет вызывать разные комплекты снаряжения.
+    .suffix = Служба безопасности

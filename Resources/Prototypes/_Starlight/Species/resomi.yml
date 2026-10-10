@@ -34,7 +34,8 @@
     RArm: MobResomiRArm
     LHand: MobResomiLHand
     RHand: MobResomiRHand
-    # LP edit - убрано нижнее бельё (цензура наготы)
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
     LLeg: MobResomiLLeg
     RLeg: MobResomiRLeg
     LFoot: MobResomiLFoot

@@ -1,7 +1,7 @@
 - type: language
   id: Lagomorphian
   icon: LanguageIconLagomorph
-  chatPrefix: лаг # LP edit
+  chatPrefix: lag
   speech:
     color: "#a59079"
     fontId: Lagomorphian

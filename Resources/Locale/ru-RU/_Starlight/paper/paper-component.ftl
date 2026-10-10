@@ -11,6 +11,7 @@ paper-component-examine-detail-signed-by = { CAPITALIZE(THE($paper)) } { CONJUGA
 paper-form-fill-button = Заполнить
 paper-signature-sign-button = Подписать
 paper-datetime-button = Дата и время
+paper-datetime-format = { $date } // { $time } по времени смены
 paper-form-dialog-ok = ОК
 paper-form-dialog-cancel = Отмена
 paper-signature-unknown = Неизвестно

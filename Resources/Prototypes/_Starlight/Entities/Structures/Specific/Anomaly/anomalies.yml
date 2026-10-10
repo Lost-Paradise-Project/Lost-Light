@@ -294,7 +294,6 @@
 
 - type: entity
   id: ShadekinTrapSpawn
-  name: shadekin trap spawn # LP edit
   placement:
     mode: SnapgridCenter
   components:

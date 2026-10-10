@@ -1,0 +1,83 @@
+# Убрано нижнее бельё (цензура наготы)
+
+- type: !PartialOnly speciesBaseSprites
+  id: !type:CreateVariants
+    values:
+    - MobArachnidSprites
+    - MobDionaSprites
+    - MobHumanSprites
+    - MobMothSprites
+    - MobReptilianSprites
+    - MobSlimeSprites
+    - MobVoxSprites
+    - MobVulpkaninSprites
+    - MobNeoArachnidSprites
+    - MobNeoAvaliSprites
+    - MobNeocyteSprites
+    - MobNeoCycloriteSprites
+    - MobNeoDionaSprites
+    - MobNeoDwarfSprites
+    - MobNeoElfSprites
+    - MobNeoFelionoidSprites
+    - MobNeoHumanSprites
+    - MobNeoLagomorphSprites
+    - MobNeoMothSprites
+    - MobNeoReptilianSprites
+    - MobNeoResomiSprites
+    - MobNeoKinSprites
+    - MobNeoSlimePersonSprites
+    - MobNeoThavenSprites
+    - MobNeoVoxSprites
+    - MobNeoVulpkaninSprites
+    - MobAvaliSprites
+    - MobDollSprites
+    - MobElfSprites
+    - MobFelionoidSprites
+    - MobResomiSprites
+    - MobShadekinSprites
+    - MobThavenSprites
+  sprites:
+    UndergarmentTop: !Remove
+    UndergarmentBottom: !Remove
+
+- type: !PartialOnly markingPoints
+  id: !type:CreateVariants
+    values:
+    - MobDionaMarkingLimits
+    - MobHumanMarkingLimits
+    - MobMothMarkingLimits
+    - MobReptilianMarkingLimits
+    - MobVoxMarkingLimits
+    - MobVulpkaninMarkingLimits
+    - MobNeoAvaliMarkingLimits
+    - MobNeocyteMarkingLimits
+    - MobNeoCycloriteMarkingLimits
+    - MobNeoDionaMarkingLimits
+    - MobNeoDwarfMarkingLimits
+    - MobNeoElfMarkingLimits
+    - MobNeoFelionoidMarkingLimits
+    - MobNeoHumanMarkingLimits
+    - MobNeoLagomorphMarkingLimits
+    - MobNeoMothMarkingLimits
+    - MobNeoReptilianMarkingLimits
+    - MobNeoResomiMarkingLimits
+    - MobNeoKinMarkingLimits
+    - MobNeoSlimePersonMarkingLimits
+    - MobNeoThavenMarkingLimits
+    - MobNeoVoxMarkingLimits
+    - MobNeoVulpkaninMarkingLimits
+    - MobAvaliMarkingLimits
+    - MobDollMarkingLimits
+    - MobElfMarkingLimits
+    - MobFelionoidMarkingLimits
+    - MobShadekinMarkingLimits
+    - MobThavenMarkingLimits
+  points:
+    UndergarmentTop: !Remove
+    UndergarmentBottom: !Remove
+
+- type: !PartialOnly speciesBaseSprites
+  id: MobRodentiaSprites
+  sprites:
+    UndergarmentBottom: !Remove
+    UndergarmentTop: !Remove

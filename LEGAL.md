@@ -2,8 +2,8 @@
 
 ## Коротко
 
-- **Наш код** (папки `_LP`) под [AGPLv3](./LICENSE-AGPLv3.txt).
-- **Код SS14 и Starlight** под [MIT](./LICENSE-MIT.TXT). Исключение: вклады Starlight с 04.11.2024 (`84205e38`) по 28.02.2026 (`01eff0f7`) идут по [Starlight License](./LICENSE-Starlight.TXT) (пока авторы не согласились на MIT, [issue #3499](https://github.com/ss14Starlight/space-station-14/issues/3499)). Она требует указывать Starlight как источник со ссылкой на репозиторий.
+- **Наш код** (папки `_LP`) под [AGPLv3](./LICENSE).
+- **Код SS14 и Starlight** под [MIT](./docs/LICENSES/LICENSE-MIT.TXT). Исключение: вклады Starlight с 04.11.2024 (`84205e38`) по 28.02.2026 (`01eff0f7`) идут по [Starlight License](./docs/LICENSES/LICENSE-Starlight.TXT) (пока авторы не согласились на MIT, [issue #3499](https://github.com/ss14Starlight/space-station-14/issues/3499)). Она требует указывать Starlight как источник со ссылкой на репозиторий.
 - **Код других проектов** лежит в папках их namespace и остаётся под их лицензией (список ниже). Файлы с заголовком MPL 2.0 остаются под MPL 2.0.
 - **Ассеты** (спрайты, звуки, шрифты) по умолчанию под [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Если у ассета указана другая лицензия, действует она. Лицензия и автор записаны в `meta.json` и `attributions.yml`.
 - Тексты лицензий MIT и Starlight License нельзя удалять из дистрибутивов.
@@ -13,7 +13,7 @@
 
 - **All Rights Reserved**: нельзя использовать в производных работах, при использовании кода в другом проекте их надо удалить.
 - **Некоммерческие** (CC BY-NC и подобные): только в некоммерческих сборках, с указанием автора.
-- **[Лицензия Sawians](./LICENSE-Sawians.md)** (звуки из `Resources/Audio/_Starlight/*/Experiment/`): только в экосистеме SS14, с указанием автора.
+- **[Лицензия Sawians](./docs/LICENSES/LICENSE-Sawians.md)** (звуки из `Resources/Audio/_Starlight/*/Experiment/`): только в экосистеме SS14, с указанием автора.
 
 Перед коммерческим использованием проверьте ассеты и посоветуйтесь с юристом.
 
@@ -29,6 +29,7 @@
 | `_Goobstation` | [Goob Station](https://github.com/Goob-Station/Goob-Station) |
 | `_Funkystation` | [Funky Station](https://github.com/funky-station/funky-station) |
 | `_DEN` | [The Den](https://github.com/TheDenSS14/TheDen) |
+| `_Orion` | [Orion Station](https://github.com/AtaraxiaSpaceFoundation/Orion-Station-14) (AGPLv3 или новее; лицензия каждого файла - в REUSE-заголовке или файле `.license`) |
 
 **MIT**
 

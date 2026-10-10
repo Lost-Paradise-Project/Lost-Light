@@ -16,7 +16,7 @@
   - type: ItemSlots
     slots:
       item:
-        name: item-slot-component-slot-name-sabre # LP edit
+        name: Sabre
         insertVerbText: sheath-insert-verb
         ejectVerbText: sheath-eject-verb
         insertSound: /Audio/Items/sheath.ogg

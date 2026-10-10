@@ -145,7 +145,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: item-slot-component-slot-name-power-cage # LP edit
+        name: Power cage
         whitelist:
           tags:
           - PowerCage

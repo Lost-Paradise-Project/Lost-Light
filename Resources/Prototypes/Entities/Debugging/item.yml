@@ -1,7 +1,6 @@
 ﻿- type: entity
   parent: BaseItem
   id: DebugItemShapeWeird
-  categories: [ HideSpawnMenu ] # LP edit
   name: weirdly shaped item
   description: What is it...?
   suffix: DEBUG

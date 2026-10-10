@@ -31,7 +31,8 @@
     FacialHair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Chest: MobRodentiaTorso
-    # LP edit - убрано нижнее бельё (цензура наготы)
+    UndergarmentBottom: MobHumanoidAnyMarking
+    UndergarmentTop: MobHumanoidAnyMarking
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking

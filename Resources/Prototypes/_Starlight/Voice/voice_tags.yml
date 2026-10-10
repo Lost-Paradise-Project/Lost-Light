@@ -174,8 +174,17 @@
 
 - type: voiceTagFilterConfig
   id: default
-  maxPresentedTags: 30 # LP edit - все источники голосов ntts
-  explicitlyIncludedTags: [] # LP edit - теги Starlight у голосов ntts не используются
+  maxPresentedTags: 25
+  explicitlyIncludedTags:
+  - american
+  - british
+  - european
+  - asian
+  - australian
+  - french
+  - russian
+  - german
+  - southern
   excludedTags:
   - clear
   - serious

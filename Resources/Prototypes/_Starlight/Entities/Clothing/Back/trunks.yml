@@ -89,6 +89,6 @@
     baseWalkSpeed: 0
     baseSprintSpeed: 0
   - type: TextToSpeech
-    voice: ntts_tracer # LP edit - голос ntts (был karma)
+    voice: karma
   - type: AntagImmune
 # Fashion-O-Mat END

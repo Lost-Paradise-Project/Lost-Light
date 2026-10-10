@@ -1,0 +1,32 @@
+# Скрытие debug-сущностей из меню спавна
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClothingBackpackDebug
+    - ClothingBackpackDebug2
+    - ClothingBackpackDebug3
+    - ClothingBackpackDebug4
+    - WeaponHitscanDebug
+    - MagazinePistolDebug
+    - CartridgeDebug
+    - MeleeDebugGib
+    - DebugItemShapeWeird
+    - OptionsVisualizerTest
+    - ToolDebug
+    - SpawnMobHuman
+    - MobDebugCounter
+    - MobDebugRandomCounter
+    - MobDebugRandomLess
+  categories: [ HideSpawnMenu ]
+
+- type: !PartialOnly entity
+  id: WeaponPistolDebug
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: item-slot-component-slot-name-magazine
+      gun_chamber:
+        name: item-slot-component-slot-name-chamber

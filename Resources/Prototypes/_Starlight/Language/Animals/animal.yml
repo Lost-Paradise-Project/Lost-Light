@@ -1,7 +1,7 @@
 - type: language
   id: Ancestor
   icon: LanguageIconAnimal
-  chatPrefix: пре # LP edit
+  chatPrefix: anc
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -13,7 +13,7 @@
 - type: language
   id: Mouse
   icon: LanguageIconAnimal
-  chatPrefix: мыш # LP edit
+  chatPrefix: mou
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2
@@ -31,7 +31,7 @@
 - type: language
   id: Cat
   icon: LanguageIconAnimal
-  chatPrefix: кош # LP edit
+  chatPrefix: cat
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -46,7 +46,7 @@
 - type: language
   id: CatFeral
   icon: LanguageIconAnimal
-  chatPrefix: кшд # LP edit
+  chatPrefix: catf
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -60,7 +60,7 @@
 - type: language
   id: Dog
   icon: LanguageIconAnimal
-  chatPrefix: соб # LP edit
+  chatPrefix: dog
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -77,7 +77,7 @@
 - type: language
   id: DogFeral
   icon: LanguageIconAnimal
-  chatPrefix: сбд # LP edit
+  chatPrefix: dogf
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -93,7 +93,7 @@
 - type: language
   id: Fox
   icon: LanguageIconAnimal
-  chatPrefix: лис # LP edit
+  chatPrefix: fox
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -109,7 +109,7 @@
 - type: language
   id: Chicken
   icon: LanguageIconAnimal
-  chatPrefix: кур # LP edit
+  chatPrefix: chk
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -122,7 +122,7 @@
 - type: language
   id: Duck
   icon: LanguageIconAnimal
-  chatPrefix: утк # LP edit
+  chatPrefix: dck
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -135,7 +135,7 @@
 - type: language
   id: Pig
   icon: LanguageIconAnimal
-  chatPrefix: сви # LP edit
+  chatPrefix: pig
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -146,7 +146,7 @@
 - type: language
   id: Bat
   icon: LanguageIconAnimal
-  chatPrefix: лет # LP edit
+  chatPrefix: bat
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -161,7 +161,7 @@
 - type: language
   id: Penguin
   icon: LanguageIconAnimal
-  chatPrefix: пин # LP edit
+  chatPrefix: pen
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2

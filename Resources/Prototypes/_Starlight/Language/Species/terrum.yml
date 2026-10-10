@@ -1,7 +1,7 @@
 - type: language
   id: Terrum
   icon: LanguageIconTerrum
-  chatPrefix: тер # LP edit
+  chatPrefix: ter
   speech:
     color: "#a3d4eb"
   obfuscation:

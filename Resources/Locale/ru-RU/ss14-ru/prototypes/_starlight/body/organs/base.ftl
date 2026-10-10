@@ -1,5 +1,7 @@
 ent-SolutionOrganNutriment = { ent-Solution }
     .desc = { ent-Solution.desc }
+ent-SolutionOrganBrain = { ent-Solution }
+    .desc = { ent-Solution.desc }
 ent-SolutionOrganNutrimentDoll = { ent-Solution }
     .desc = { ent-Solution.desc }
 ent-SolutionOrganSlime = { ent-Solution }
@@ -15,6 +17,8 @@ ent-SolutionOrganFoodCellulose = { ent-Solution }
 ent-SolutionOrganFoodSlime = { ent-Solution }
     .desc = { ent-Solution.desc }
 ent-SolutionOrganFoodGreyMatter = { ent-Solution }
+    .desc = { ent-Solution.desc }
+ent-SolutionOrganFoodNeuralPrion = { ent-Solution }
     .desc = { ent-Solution.desc }
 ent-SolutionOrganFoodGreyMatterLarge = { ent-Solution }
     .desc = { ent-Solution.desc }
