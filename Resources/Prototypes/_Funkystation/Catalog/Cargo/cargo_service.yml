@@ -7,3 +7,25 @@
   cost: 1500
   category: cargoproduct-category-name-service
   group: market
+
+# Laundry Cart
+- type: cargoProduct
+  id: ServiceLaundryCart
+  icon:
+    sprite: _Funkystation/Objects/Specific/Janitorial/laundry_cart.rsi
+    state: icon-cart
+  product: LaundryCart
+  cost: 300
+  category: cargoproduct-category-name-service
+  group: market
+
+# Laundry Bags
+- type: cargoProduct
+  id: ServiceLaundryBags
+  icon:
+    sprite: _Funkystation/Objects/Specific/Janitorial/laundry_bag.rsi
+    state: icon
+  product: BoxServiceLaundryBag
+  cost: 100
+  category: cargoproduct-category-name-service
+  group: market

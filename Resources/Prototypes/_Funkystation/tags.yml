@@ -48,3 +48,6 @@
 
 - type: Tag # Persistence: Firebots can target reagent fires
   id: ReagentFire
+
+- type: Tag
+  id: LaundryBag
