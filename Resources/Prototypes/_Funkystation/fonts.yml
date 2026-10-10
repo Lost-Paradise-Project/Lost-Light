@@ -1,0 +1,11 @@
+- type: font
+  id: HandwritingCasual
+  path: /Fonts/_LP/Handwriting/Caveat/Caveat.ttf
+
+- type: font
+  id: HandwritingNeat
+  path: /Fonts/_LP/Handwriting/MarckScript/MarckScript-Regular.ttf
+
+- type: font
+  id: HandwritingMessy
+  path: /Fonts/_LP/Handwriting/LemonTuesday/LemonTuesday.otf

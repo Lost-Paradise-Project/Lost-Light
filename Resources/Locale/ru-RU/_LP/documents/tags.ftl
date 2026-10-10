@@ -1,7 +1,6 @@
 doc-text-printer-default-station = Station XX-000
-doc-text-printer-default-name = (ФИО)
-doc-text-printer-default-job = (полное наименование должности)
+doc-text-printer-default-name = [signature]
+doc-text-printer-default-job = [form]
 doc-var-station = :СТАНЦИЯ:
-doc-var-date = :ДАТА:
 doc-var-name = :ФИО:
 doc-var-job = :ДОЛЖНОСТЬ:

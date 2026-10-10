@@ -1,0 +1,44 @@
+# LP edit - переписано под систему черт Starlight (effects/AddCompsEffect, maxTraits), бесплатно
+- type: traitCategory
+  id: Handwriting
+  name: trait-category-handwriting
+  maxTraits: 1
+
+- type: trait
+  id: HandwritingCasual
+  name: trait-handwriting-casual-name
+  description: trait-handwriting-casual-desc
+  category: Handwriting
+  cost: 0
+  effects:
+    - !type:AddCompsEffect
+      components:
+        - type: HandwritingFont
+          fontId: HandwritingCasual
+          fontSize: 14
+
+- type: trait
+  id: HandwritingNeat
+  name: trait-handwriting-neat-name
+  description: trait-handwriting-neat-desc
+  category: Handwriting
+  cost: 0
+  effects:
+    - !type:AddCompsEffect
+      components:
+        - type: HandwritingFont
+          fontId: HandwritingNeat
+          fontSize: 14
+
+- type: trait
+  id: HandwritingMessy
+  name: trait-handwriting-messy-name
+  description: trait-handwriting-messy-desc
+  category: Handwriting
+  cost: 0
+  effects:
+    - !type:AddCompsEffect
+      components:
+        - type: HandwritingFont
+          fontId: HandwritingMessy
+          fontSize: 12

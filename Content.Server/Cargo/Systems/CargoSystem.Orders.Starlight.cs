@@ -112,7 +112,8 @@ public sealed partial class CargoSystem
                 ("accountcode", Loc.GetString(accountProto.Code)),
                 ("approver", string.IsNullOrWhiteSpace(order.Approver)
                     ? Loc.GetString("cargo-console-paper-approver-default")
-                    : order.Approver)));
+                    : order.Approver))
+                + "\n\n\n" + Loc.GetString("cargo-console-paper-recipient-signature")); // funky, added signature field
 
         if (item is { } itemUid && TryComp<PaperLabelComponent>(itemUid, out var label))
             _slots.TryInsert(itemUid, label.LabelSlot, printed, null);

@@ -101,3 +101,6 @@
     tags:
     - SlowImmune
     - KnockdownImmune
+  - type: HandwritingFont # Funky
+    fontId: HandwritingMessy
+    fontSize: 12
