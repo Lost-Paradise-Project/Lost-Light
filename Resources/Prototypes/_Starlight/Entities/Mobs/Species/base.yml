@@ -241,6 +241,7 @@
   - type: ActiveInputMover # Starlight
   - type: CosmicCenserTarget # Stellar - Cosmic Cult
   - type: Scent # Starlight - smell system
+  - type: ERPBounder  # LP edit - ЕРП панель
 
 - type: entity
   save: false
