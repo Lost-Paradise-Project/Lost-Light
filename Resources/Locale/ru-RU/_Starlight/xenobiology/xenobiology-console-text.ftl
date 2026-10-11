@@ -49,3 +49,8 @@ xenobiology-console-mutation-potion-applied-failed-empty = Зелья мутац
 
 xenobiology-console-stabilizer-potion-applied = К { $name } применено зелье стабилизатора. Теперь шанс мутации: { $chance }.
 xenobiology-console-stabilizer-potion-applied-failed-empty = Зелья стабилизатора не сохранены. Попробуйте вставить одно.
+
+slime-scanner-info = Имя:{ "\u0009" }[Bold]{ $name }[/Bold]
+    Сытость:{ "\u0009" }[Bold]{ $nutrition }[/Bold]
+    Шанс мутации:{ "\u0009" }[Bold]{ $chance }%[/Bold]
+xenobiology-camera-tagger-connected = Камера подключена к сети консоли ксенобиологии.

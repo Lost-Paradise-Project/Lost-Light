@@ -10,3 +10,6 @@ store-listing-late = ПОЗДНО
 store-view-grid = Сетка
 store-view-list = Список
 store-search = Поиск
+
+store-listing-out-of-stock = { $name } (нет в наличии)
+store-listing-last-purchased = { $desc } Последний покупатель: { $name }

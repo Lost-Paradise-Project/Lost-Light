@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "license": "CC-BY-SA-3.0",
     "copyright": "State based copyright",
     "size": {
@@ -9,21 +9,27 @@
     "states": [
         {
             "name": "icon",
-            "copyright": "briochebear (Discord)"
+            "delays": [
+                [
+                    3.5,
+                    0.25
+                ]
+            ],
+            "copyright": "Created by BriocheBear"
         },
         {
             "name": "inhand-left",
-            "copyright": "briochebear (Discord)",
+            "copyright": "Created by BriocheBear",
             "directions": 4
         },
         {
             "name": "inhand-right",
-            "copyright": "briochebear (Discord)",
+            "copyright": "Created by BriocheBear",
             "directions": 4
         },
         {
             "name": "equipped-HELMET",
-            "copyright": "briochebear (Discord)",
+            "copyright": "Created by BriocheBear",
             "directions": 4
         }
     ]

@@ -263,6 +263,12 @@ public sealed partial class FaxPrintout
     /// </summary>
     [DataField]
     public string? MetaSentAt { get; private set; }
+
+    /// <summary>
+    /// Whether to include the metadata at all or not.
+    /// </summary>
+    [DataField]
+    public bool IncludeMetadata { get; private set; } = true;
     #endregion
 
     private FaxPrintout()
@@ -285,7 +291,8 @@ public sealed partial class FaxPrintout
         string? account = null,
         bool? retainMetadata = false,
         string? metaSender = null,
-        string? metaSentAt = null
+        string? metaSentAt = null,
+        bool includeMetadata = true
         //starlight-end
         )
     {
@@ -306,6 +313,7 @@ public sealed partial class FaxPrintout
         RetainMetadata = retainMetadata ?? false;
         MetaSender = metaSender;
         MetaSentAt = metaSentAt;
+        IncludeMetadata = includeMetadata;
         // Starlight-end
 
 

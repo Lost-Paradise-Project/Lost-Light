@@ -13,6 +13,6 @@ ent-WeaponTurretHostile = { ent-BaseWeaponBallisticTurret }
 ent-WeaponTurretAllHostile = { ent-BaseWeaponBallisticTurret }
     .desc = { ent-BaseWeaponBallisticTurret.desc }
     .suffix = Враждебная всем
-ent-WeaponTurretXeno = ксено турель
+ent-WeaponTurretXeno = ксенотурель
     .desc = Стреляет кислотными зарядами калибра 9 мм.
     .suffix = Ксено

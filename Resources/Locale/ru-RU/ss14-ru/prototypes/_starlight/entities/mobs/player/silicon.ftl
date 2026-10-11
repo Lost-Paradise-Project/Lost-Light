@@ -1,5 +1,7 @@
 ent-Drone = дрон
     .desc = { ent-BaseMob.desc }
+ent-DroneRogue = дрон-скраппер
+    .desc = { ent-Drone.desc }
 ent-PlayerBorgSyndicateStealthBattery = { ent-BorgChassisSyndicateStealth }
     .desc = { ent-BorgChassisSyndicateStealth.desc }
     .suffix = Батарея, модуль, оперативник

@@ -259,7 +259,7 @@ public sealed partial class TTSSystem : EntitySystem
         text = TagStripperRegex().Replace(text, "");
         text = SmartQuotes().Replace(text, "'");
         text = CharFilter().Replace(text, "");
-        // LP edit - числа не переводим в английские слова: ntts сам читает цифры по-русски
+        // LP edit - числа не переводим в английские слова: русские прописью делает NttsTextSanitizer
         return text;
     }
 

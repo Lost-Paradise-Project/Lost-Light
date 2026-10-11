@@ -67,7 +67,7 @@
     <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer"/>
   </Box>
 
-  Эти машины потребляют [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] Вт[/color] энергии и могут нагревать или охлаждать газ в трубной сети до [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MaxTemperature"/] К[/color] или до [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] К[/color].
+  Эти машины потребляют [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] Вт[/color] энергии и могут нагревать или охлаждать газ в трубной сети до [color=orange][protodata="GasThermoMachineHellfireHeater" comp="GasThermoMachine" member="MaxTemperature"/] К[/color] или до [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] К[/color].
 
   Однако они также теряют [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] своей энергии в окружающую среду, соответственно нагревая или охлаждая соприкасающуюся атмосферу.
   Это может быть опасно при неправильном управлении.

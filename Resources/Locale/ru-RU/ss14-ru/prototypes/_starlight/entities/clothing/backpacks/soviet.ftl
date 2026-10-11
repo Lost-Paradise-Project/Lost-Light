@@ -15,5 +15,7 @@ ent-ClothingBackpackDuffelStechkinAPS = { ent-ClothingBackpackDuffelSSF }
     .desc = { ent-ClothingBackpackDuffelSSF.desc }
 ent-ClothingBackpackDuffelDP28Bundle = { ent-ClothingBackpackDuffelSSF }
     .desc = { ent-ClothingBackpackDuffelSSF.desc }
+ent-ClothingBackpackDuffelAKMSBundle = { ent-ClothingBackpackDuffelSSF }
+    .desc = { ent-ClothingBackpackDuffelSSF.desc }
 ent-ClothingBackpackDuffelPPShBundle = { ent-ClothingBackpackDuffelSSF }
     .desc = { ent-ClothingBackpackDuffelSSF.desc }

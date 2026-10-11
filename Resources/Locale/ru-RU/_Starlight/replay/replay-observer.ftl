@@ -1,0 +1,14 @@
+replay-observer-player-overlay-on = Оверлей игроков включён.
+replay-observer-player-overlay-off = Оверлей игроков выключен.
+replay-observer-round-summary-button = Итоги раунда
+replay-observer-round-summary-missing = В этой записи нет итогов раунда.
+cmd-replay-round-summary-desc = Открывает итоги раунда для текущего повтора.
+cmd-replay-round-summary-help = Использование: replay_round_summary
+replay-observer-verb-view-inventory = Посмотреть инвентарь
+replay-observer-verb-read = Прочитать
+replay-observer-verb-view-contents = Посмотреть содержимое
+replay-observer-status-icons-on = Значки статуса включены.
+replay-observer-status-icons-off = Значки статуса выключены.
+replay-observer-verb-view-laws = Посмотреть законы
+replay-observer-verb-view-moods = Посмотреть настроения
+replay-observer-ghostnado-none = Никто ни за кем не следует.

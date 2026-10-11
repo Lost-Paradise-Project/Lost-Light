@@ -1,0 +1,23 @@
+# Вайтлист маппинг-сервера (whitelist.prototype_list = "LPMappingWhitelist" в его конфиге).
+# Пускает по ролям Discord через NullLink и тех, кого добавили вручную (whitelistadd). Админы из базы проходят всегда.
+
+- type: playerConnectionWhitelist
+  id: LPMappingWhitelist
+  conditions:
+  - !type:NullLinkRolesCondition
+    action: Allow
+    roles:
+    - 1092784201499160616 # Владелец Проекта
+    - 1225011158097068052 # Технический Админ
+    - 1485233219564605440 # Администратор
+    - 1092218260918906901 # Главный Разработчик
+    - 1459986748267434116 # Ведущий Маппер
+    - 1459597486338609235 # Маппер
+    - 1092789321515421789 # Старший Гейм-Мастер
+    - 1249385000990670993 # Гейм-Мастер
+    - 1295344014085849150 # Младший Гейм-Мастер
+    - 1092742774723448882 # Старший Модератор
+  - !type:ConditionManualWhitelistMembership
+    action: Allow
+  - !type:ConditionAlwaysMatch
+    action: Deny

@@ -25,8 +25,15 @@ store-category-cantrips-standard = Стандартные заговоры
 store-category-cybernetics = Кибернетика
 store-category-dagd = Слава
 
-# Store category names
+store-category-ussp-shuttle = Шаттлы
+store-category-ussp-armaments = Вооружение
+store-category-ussp-global = Награда за обращение
+store-category-ussp-implants = Импланты
+store-category-ussp-deception = Обман
+store-category-ussp-wearables = Одежда
+store-category-ussp-war = Война
 
+# Store category names
 store-category-slbrigmedic = Медицина
 store-category-slfashion-skirt = Роскошные платья
 store-category-slfashion-suit = Элегантные костюмы
@@ -41,16 +48,11 @@ store-category-menacing-shuttle-uplink-equipment = Снаряжение Синд
 store-category-menacing-shuttle-uplink-weapons = Вооружение
 store-category-menacing-shuttle-uplink-pirate = Пиратское
 store-category-salvage-equipment = Снаряжение
-store-category-salvage-weapons = Оружие
 store-category-salvage-consumeables = Расходники
+store-category-salvage-weapons = Оружие
+store-category-salvage-blueprints = Чертежи
+store-category-salvage-surplus = Излишки
 store-category-salvage-mercenary-equipment = Мусорщик
 store-category-salvage-cybernetics = Кибернетика
 store-category-mining-equipment = Снаряжение
 store-category-mining-consumeables = Расходники
-store-category-rev-uplink-weaponry = Вооружение
-store-category-rev-uplink-passive = ГЛОБАЛЬНОЕ
-store-category-rev-uplink-wearables = Одежда
-store-category-rev-uplink-implants = Импланты
-store-category-rev-uplink-shuttle = Артиллерия
-store-category-rev-uplink-deception = Обман
-store-category-rev-uplink-pointless = Слава

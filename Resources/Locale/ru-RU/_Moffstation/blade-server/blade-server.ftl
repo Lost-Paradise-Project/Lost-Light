@@ -17,7 +17,7 @@ moff-blade-server-rack-examine-empty = Она содержит [color=#1f8ab2]н
 moff-blade-server-rack-examine-single = Она содержит только { $slot }.
 moff-blade-server-rack-examine-multiple-start = Она содержит
 moff-blade-server-rack-examine-multiple-slot-line = - { $slot }
-moff-blade-server-rack-examine-slot = { INDEFINITE($name) } [color=#1f8ab2]{ CAPITALIZE($name) }[/color] в слоте { $index }
+moff-blade-server-rack-examine-slot = [color=#1f8ab2]{ CAPITALIZE($name) }[/color] в слоте { $index }
 moff-blade-server-rack-examine-distant =
     Она содержит [color=#1f8ab2]{ $numBlades } { $numBlades ->
         [one] блейд

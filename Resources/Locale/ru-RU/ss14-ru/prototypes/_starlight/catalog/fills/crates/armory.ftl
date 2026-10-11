@@ -10,3 +10,6 @@ ent-CrateArmoryCombatShotgun = ящик боевых дробовиков
 ent-CrateArmoryAdvancedRestraints = ящик продвинутых средств задержания
     .desc = Для самых надоедливых заключённых.
     .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateArmoryMelee = ящик холодного оружия оружейной
+    .desc = Ящик с тактическим копьём и коротким мечом.
+    .suffix = { ent-CrateWeaponSecure.suffix }

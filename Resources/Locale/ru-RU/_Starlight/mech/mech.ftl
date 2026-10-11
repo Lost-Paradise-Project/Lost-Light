@@ -15,3 +15,5 @@ mech-menu-passive-equipment = Пассивное оборудование
 mech-need-maintenance = Сначала включите режим обслуживания!
 mech-turn-off-maintenance = Сначала выключите режим обслуживания!
 mech-cant-lie-down = Нельзя лечь, управляя мехом.
+
+mech-maintenance-mode-required = Сначала включите режим техобслуживания!

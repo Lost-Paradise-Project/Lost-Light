@@ -136,3 +136,5 @@ ent-XenoArtifactPuddlePax = { ent-BaseXenoArtifactEffect }
     .desc = Самопроизвольное неорганическое создание
 ent-XenoArtifactPuddleSiderlac = { ent-BaseXenoArtifactEffect }
     .desc = Самопроизвольное неорганическое создание
+ent-XenoArtifactTurret = { ent-BaseXenoArtifactEffect }
+    .desc = Мощно выбрасывает материал

@@ -1,5 +1,5 @@
-ent-BaseControllable = { ent-SocialInteractionGiver }
-    .desc = { ent-SocialInteractionGiver.desc }
+ent-BaseControllable = { "" }
+    .desc = { "" }
 ent-BaseMob = { ent-BaseControllable }
     .desc = { ent-BaseControllable.desc }
 ent-MobPolymorphable = { "" }

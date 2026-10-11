@@ -63,3 +63,20 @@ marking-VoxTailBigAnimated = Хвост вокса (большой, анимир
 
 marking-VoxTailDockedAnimated-vox_tail_docked_animated = Хвост вокса (купированный, анимированный)
 marking-VoxTailDockedAnimated = Хвост вокса (купированный, анимированный)
+
+marking-VoxBushTail-bushtail = Хвост вокса (пушистый)
+marking-VoxBushTail = Хвост вокса (пушистый)
+
+marking-VoxAllSeeing-allseeingeyes = Всевидящие глаза
+marking-VoxAllSeeing-allseeingface = Всевидящее лицо
+marking-VoxAllSeeing = Всевидящие глаза
+
+marking-VoxThirdEye-thirdeye = Третий глаз
+marking-VoxThirdEye = Третий глаз
+
+marking-VoxPeafowlTail-peafowltailbase = Хвост вокса (павлиний)
+marking-VoxPeafowlTail-peafowltaileyes = Глазки павлиньего хвоста
+marking-VoxPeafowlTail = Хвост вокса (павлиний)
+
+marking-VoxSeveredTail-severedtail = Хвост вокса (обрубленный)
+marking-VoxSeveredTail = Хвост вокса (обрубленный)

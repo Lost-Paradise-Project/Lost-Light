@@ -10,7 +10,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPStaffReq # LP edit
-  category: Staff
+  category: LPGhostStaff # LP edit
 
 - type: ghostTheme
   id: SpaceDragonStaffTheme
@@ -25,7 +25,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPStaffReq # LP edit
-  category: Staff
+  category: LPGhostStaff # LP edit
 
 - type: ghostTheme
   id: BuffRatKingTheme
@@ -40,7 +40,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPModerationReq # LP edit
-  category: Staff
+  category: LPGhostModeration # LP edit
 
 - type: ghostTheme
   id: FoxTheme
@@ -55,7 +55,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPModerationReq # LP edit
-  category: Staff
+  category: LPGhostModeration # LP edit
 
 - type: ghostTheme
   id: LizardPlushie
@@ -70,7 +70,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPModerationReq # LP edit
-  category: Staff
+  category: LPGhostModeration # LP edit
 
 - type: ghostTheme
   id: MothroachTheme
@@ -85,7 +85,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPModerationReq # LP edit
-  category: Staff
+  category: LPGhostModeration # LP edit
 
 - type: ghostTheme
   id: ScurretTheme
@@ -100,7 +100,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPModerationReq # LP edit
-  category: Staff
+  category: LPGhostModeration # LP edit
 
 - type: ghostTheme
   id: WispTheme
@@ -115,7 +115,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPLeadDevelopersReq # LP edit
-  category: Staff
+  category: LPGhostDevelopers # LP edit
 
 - type: ghostTheme
   id: CustodianTheme
@@ -129,4 +129,4 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPDevelopersReq # LP edit
-  category: Staff
+  category: LPGhostDevelopers # LP edit

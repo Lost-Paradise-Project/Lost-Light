@@ -8,3 +8,5 @@ comms-console-announcement-title-sec = Служба безопасности
 comms-console-announcement-title-srv = Сервис
 comms-console-announcement-title-sup = Карго
 comms-console-announcement-title-law = Закон
+
+comms-console-menu-shuttle-button-disabled = { $text } (недоступно)

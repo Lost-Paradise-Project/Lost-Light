@@ -1,5 +1,5 @@
-roles-req-any-role-required-pass = Вам нужна любая из следующих ролей на { $discord }: [color=limegreen]{ $roles }[/color].
-roles-req-any-role-required-fail = Вам нужна любая из следующих ролей на { $discord }: [color=yellow]{ $roles }[/color].
+roles-req-any-role-required-pass = Вам нужна любая из следующих ролей на { $discord }: { $roles }.
+roles-req-any-role-required-fail = Вам нужна любая из следующих ролей на { $discord }: { $roles }.
 
 requirements-playtime =
     { $tracker ->

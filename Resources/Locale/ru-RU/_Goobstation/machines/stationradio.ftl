@@ -14,9 +14,12 @@ vinyl-popout-no-radio-connection = Пластинка выскакивает: п
 # Starlight - Station Radio Examination Text.
 vinyl-player-examine-empty = Он пуст.
 vinyl-player-examine-loaded = Внутри лежит копия { $vinyl }.
+vinyl = винил
+station-radio-server-cancelled-anchor = Эта станция уже имеет радио сервер!
 
 station-radio-receiver-examine-full-volume = Играет на полной громкости.
 station-radio-receiver-examine-low-volume = Играет на низкой громкости.
+ui-options-radio-music-volume = Громкость музыки радио:
 
 station-radio-server-examine-recording = Сервер станции не записывает.
 station-radio-server-examine-not-recording = Сервер станции сейчас записывает.

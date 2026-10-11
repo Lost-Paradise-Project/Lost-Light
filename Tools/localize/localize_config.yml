@@ -12,12 +12,19 @@ ignored_untranslated_paths:
 - "Resources/Locale/ru-RU/teleportation/teleportation-menu-gui.ftl"
 - "Resources/Locale/ru-RU/advertisements/vending/magivend.ftl"
 - "Resources/Locale/ru-RU/lobby/lobby-state-background.ftl"
+- "Resources/Locale/ru-RU/_Moffstation/advertisements/other/narsie_prayers.ftl"
+# Нотация поворотов кубика (z, z')
+- "Resources/Locale/ru-RU/_Starlight/ui/twistycube.ftl"
 ignored_variable_mismatch_paths:
 - "Resources/Locale/ru-RU/stack/stacks.ftl"
 - "Resources/Locale/ru-RU/bed/cryostorage/cryogenic-storage.ftl"
 - "Resources/Locale/ru-RU/game-ticking/game-ticker.ftl"
 - "Resources/Locale/ru-RU/chat/managers/chat-manager.ftl"
+# В русском притяжательное ("his tail") не нужно, $entity в части эмоций не используется
+- "Resources/Locale/ru-RU/chat/emotes.ftl"
 no_translate_tokens: # Вырезаются целыми словами, регистр не важен
+# Название сервера
+- "Lost Paradise"
 # Корпорации и бренды
 - "Nanotrasen"
 - "Nanotrasen CRPX-229"
@@ -41,6 +48,7 @@ no_translate_tokens: # Вырезаются целыми словами, рег�
 - "L6C ROW"
 - "N1984"
 - "WT550"
+- "LR-30"
 - "PF20"
 # Реагенты
 - "left-4-zed"
@@ -150,3 +158,6 @@ no_translate_tokens: # Вырезаются целыми словами, рег�
 - "PS Z46"
 - "PS Z77 T1"
 - "N1912"
+# Типы пуль латиницей
+- "HP"
+- "AP"

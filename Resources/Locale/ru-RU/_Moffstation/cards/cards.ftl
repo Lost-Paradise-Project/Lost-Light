@@ -4,7 +4,7 @@ dynamic-playing-card-error-description = Если вы это видите, чт
 dynamic-playing-card-error-reverse = динамическая карта
 
 # Card
-playing-card-examine = Это { INDEFINITE($target) } [color=lightgray]{ $target }[/color].
+playing-card-examine = Это [color=lightgray]{ $target }[/color].
 
 playing-card-card-card-pickup-verb-text = Взять в руку
 playing-card-card-stack-pickup-verb-text = Поднять
@@ -14,7 +14,7 @@ playing-card-card-hand-put-down-verb-text = Положить в
 playing-card-flip-verb-text = Перевернуть
 
 # Deck
-playing-card-deck-examine = Верхняя карта — { INDEFINITE($card) } [color=lightgray]{ $card }[/color].
+playing-card-deck-examine = Верхняя карта — [color=lightgray]{ $card }[/color].
 
 playing-card-deck-card-pickup-verb-text = Взять в руку
 playing-card-deck-stack-pickup-verb-text = Взять

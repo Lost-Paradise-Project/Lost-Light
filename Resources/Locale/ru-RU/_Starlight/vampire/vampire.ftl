@@ -170,6 +170,7 @@ vampire-overwhelming-force-start = Ваше присутствие станов�
 vampire-overwhelming-force-stop = Вы ослабляете железную хватку.
 vampire-overwhelming-force-too-heavy = Этот предмет слишком тяжёл, чтобы его двигать!
 vampire-overwhelming-force-door-pried = Вы грубой силой вырываете дверь.
+vampire-overwhelming-force-latch-blocked = Вы не можете ухватиться за нечто настолько неподвижное!
 
 vampire-demonic-grasp-hit = Демоническая лапа хватает вас!
 vampire-demonic-grasp-pull = Лапа тащит вас к вампиру!

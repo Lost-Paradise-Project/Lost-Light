@@ -11,8 +11,8 @@ alerts-dwarf-fortitude-desc = [color=lightblue]Стойкость Бога-Ку�
 alerts-dwarf-fury-name = Борода Гримнира!
 alerts-dwarf-fury-desc = [color=orange]Ярость Бога-Убийцы[/color] зовёт вас в бой! Покажите этим болванам, что значит стоять лицом к лицу с настоящим Дави!
 alerts-error-failed-to-spawn-ghost-role = Не удалось создать запрошенную роль призрака. Простите! :(
-alerts-gps-name = [color=green]Массовый сканер АстроНав[/color]
-alerts-gps-desc = В вашем КПК есть картридж АстроНав, позволяющий пользоваться встроенным массовым сканером! [color=orange]Нажмите сюда[/color], чтобы открыть или закрыть меню.
+alerts-gps-name = [color=green]Сканер массы АстроНав[/color]
+alerts-gps-desc = В вашем КПК есть картридж АстроНав, позволяющий пользоваться встроенным сканером массы! [color=orange]Нажмите сюда[/color], чтобы открыть или закрыть меню.
 alerts-held-breath-name = [color=lightblue]Задержка дыхания[/color]
 alerts-held-breath-desc = Вы [color=lightblue]задерживаете дыхание[/color]! Нажмите на оповещение, чтобы перестать, желательно до того, как задохнётесь.
 alerts-souldebt-name = [color=purple]Долг души[/color]

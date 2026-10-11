@@ -10,7 +10,7 @@
 
 ## Правки в файлах Starlight и SS14
 
-Наши изменения в чужих файлах помечаются `// LP edit start` / `// LP edit end` (в YAML и FTL - `# LP edit start` / `# LP edit end`). Полный список всегда можно получить поиском:
+Наши изменения в чужих файлах помечаются `// LP edit start` / `// LP edit end` (в YAML - `# LP edit start` / `# LP edit end`; в `.ftl` и `using` пометки не ставятся). Полный список всегда можно получить поиском:
 
 ```bash
 git grep -n "LP edit start"

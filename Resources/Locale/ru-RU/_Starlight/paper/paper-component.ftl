@@ -19,3 +19,7 @@ paper-tamper-proof-modified-message = Текст на странице был н
 
 # Paper tools
 stamp-slot-component-slot-name-stamp = Печать
+
+paper-check-blank-button = ☐ Пусто
+paper-check-check-button = ✔ Галочка
+paper-check-cross-button = ✖ Крестик
