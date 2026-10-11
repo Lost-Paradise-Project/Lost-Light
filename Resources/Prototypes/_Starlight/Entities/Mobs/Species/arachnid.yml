@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McWebs
-  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny]
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny] # LP edit
   id: BaseMobArachnid
   abstract: true
   components:
