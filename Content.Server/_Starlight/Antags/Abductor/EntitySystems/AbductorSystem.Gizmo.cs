@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared.DoAfter;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
@@ -31,7 +32,7 @@ public sealed partial class AbductorSystem : SharedAbductorSystem
         if (args.HitEntities.Count != 1)
             return;
 
-        var target = args.HitEntities[0];
+        var target = args.HitEntities.First();
 
         if (!HasComp<SurgeryTargetComponent>(target))
             return;

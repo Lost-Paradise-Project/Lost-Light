@@ -1,0 +1,23 @@
+show-access-examined-none = Нет
+show-access-examined-ungrouped = Прочие
+
+access-group-name-all-access = Полный доступ
+access-group-name-armory = Оружейная
+access-group-name-cargo = Снабжение
+access-group-name-central-command = Центральное командование
+access-group-name-command = Командование
+access-group-name-cyborg-all-access = Полный доступ киборга
+access-group-name-engineering = Инженерный отдел
+access-group-name-general = Общий
+access-group-name-itg = МТГ
+access-group-name-law = Юридический отдел
+access-group-name-medical = Медицинский отдел
+access-group-name-misc = Разное
+access-group-name-nano-trasen = НаноТрейзен
+access-group-name-pirate = Пираты
+access-group-name-research = Научный отдел
+access-group-name-security = Служба безопасности
+access-group-name-service = Сервис
+access-group-name-silicon = Синтетики
+access-group-name-syndicate = Синдикат
+access-group-name-xenoborg = Ксеноборги

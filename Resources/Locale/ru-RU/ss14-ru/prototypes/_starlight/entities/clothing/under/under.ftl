@@ -4,3 +4,7 @@ ent-ClothingUnderSocksStirrup = носки с штрипками
     .desc = Вся мода, ни капли практичности.
 ent-ClothingUnderSocksYellow = жёлтые носки
     .desc = Ярко-жёлтые, но без пчёл.
+ent-ClothingUnderSocksLittleAngel = носки ангелочка
+    .desc = Полосатые бело-голубые носки. Сочетаются с остальным комплектом!
+ent-ClothingUnderSocksLittleDevil = носки чертёнка
+    .desc = Полосатые красно-чёрные носки. Сочетаются с остальным комплектом!

@@ -1,2 +1,2 @@
-ent-ActionObserverShowRadar = Интерфейс массового сканера
-    .desc = Просмотр интерфейса массового сканера.
+ent-ActionObserverShowRadar = Интерфейс сканера массы
+    .desc = Просмотр интерфейса сканера массы.

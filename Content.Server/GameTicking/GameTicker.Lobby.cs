@@ -5,8 +5,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using System.Text;
 
-namespace Content.Server.GameTicking
-{
+namespace Content.Server.GameTicking; // LP edit, {} > ;
+
     public sealed partial class GameTicker
     {
         [ViewVariables]
@@ -35,10 +35,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         public IReadOnlyDictionary<NetUserId, PlayerGameStatus> PlayerGameStatuses => _playerGameStatuses;
 
-        public void UpdateInfoText()
-        {
-            RaiseNetworkEvent(GetInfoMsg(), Filter.Empty().AddPlayers(_playerManager.NetworkedSessions));
-        }
+        public void UpdateInfoText() => RaiseNetworkEvent(GetInfoMsg(), Filter.Empty().AddPlayers(_playerManager.NetworkedSessions)); // LP edit, expression body for method
 
         private string GetInfoText()
         {
@@ -86,10 +83,7 @@ namespace Content.Server.GameTicking
                 ("desc", string.IsNullOrWhiteSpace(GamemodeDescOverride) ? desc : Loc.GetString(GamemodeDescOverride))); //Starlight edit: gamemode desc override
         }
 
-        private TickerConnectionStatusEvent GetConnectionStatusMsg()
-        {
-            return new TickerConnectionStatusEvent(RoundStartTimeSpan);
-        }
+        private TickerConnectionStatusEvent GetConnectionStatusMsg() => new(RoundStartTimeSpan); // LP edit, expression body for method + simplification of expression new()
 
         private TickerLobbyStatusEvent GetStatusMsg(ICommonSession session)
         {
@@ -105,15 +99,9 @@ namespace Content.Server.GameTicking
             }
         }
 
-        private TickerLobbyInfoEvent GetInfoMsg()
-        {
-            return new(GetInfoText());
-        }
+        private TickerLobbyInfoEvent GetInfoMsg() => new(GetInfoText()); // LP edit, expression body for method
 
-        private void UpdateLateJoinStatus()
-        {
-            RaiseNetworkEvent(new TickerLateJoinStatusEvent(DisallowLateJoin));
-        }
+        private void UpdateLateJoinStatus() => RaiseNetworkEvent(new TickerLateJoinStatusEvent(DisallowLateJoin)); // LP edit, expression body for method
 
         public bool PauseStart(bool pause = true)
         {
@@ -153,11 +141,20 @@ namespace Content.Server.GameTicking
             var status = ready ? PlayerGameStatus.ReadyToPlay : PlayerGameStatus.NotReadyToPlay;
             foreach (var playerUserId in _playerGameStatuses.Keys)
             {
-                _playerGameStatuses[playerUserId] = status;
-                if (!_playerManager.TryGetSessionById(playerUserId, out var playerSession))
+                if (!_playerManager.TryGetSessionById(playerUserId, out var playerSession)  || _playerGameStatuses[playerUserId] == status) // Moffstation - Ready manifest
                     continue;
+
+                _playerGameStatuses[playerUserId] = status; // Moffstation - Ready Manifest
+
                 RaiseNetworkEvent(GetStatusMsg(playerSession), playerSession.Channel);
+
+                // Moffstation - Start - Ready manifest
+                var ev = new PlayerToggleReadyEvent(playerSession);
+                RaiseLocalEvent(ref ev);
+                // Moffstation - End
             }
+
+            UpdateInfoText(); // LP edit
         }
 
         public void ToggleReady(ICommonSession player, bool ready)
@@ -177,11 +174,25 @@ namespace Content.Server.GameTicking
             // Ensure that the player has a character enabled with a compatible job that can even join.
             var readyPossible = (_prefsManager.GetPreferencesOrNull(player.UserId)?.JobPrioritiesFiltered().Count ?? 0) != 0;
 
-            _playerGameStatuses[player.UserId] = ready && readyPossible
+            var status = ready && readyPossible // LP edit
                 ? PlayerGameStatus.ReadyToPlay
                 : PlayerGameStatus.NotReadyToPlay;
             // Starlight end - add ready possibility check
+
+            // Moffstation - Ready manifest
+            if (_playerGameStatuses[player.UserId] == status)
+            {
+                return;
+            }
+            // Moffstatation - End
+            _playerGameStatuses[player.UserId] = status;
             RaiseNetworkEvent(GetStatusMsg(player), player.Channel);
+
+            // Moffstation - Start - Ready Manifest
+            var ev = new PlayerToggleReadyEvent(player);
+            RaiseLocalEvent(ref ev);
+            // Moffstation - End
+
             // update server info to reflect new ready count
             UpdateInfoText();
         }
@@ -192,4 +203,8 @@ namespace Content.Server.GameTicking
         public bool UserHasJoinedGame(NetUserId userId)
             => PlayerGameStatuses.TryGetValue(userId, out var status) && status == PlayerGameStatus.JoinedGame;
     }
-}
+
+    // Moffstation - Start - Ready Manifest
+    [ByRefEvent]
+    public record struct PlayerToggleReadyEvent(ICommonSession PlayerSession);
+    // Moffstation - End

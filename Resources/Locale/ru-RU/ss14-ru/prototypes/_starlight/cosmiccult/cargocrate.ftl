@@ -1,9 +1,0 @@
-ent-JugHolywater = { ent-Jug }
-    .desc = { ent-Jug.desc }
-    .suffix = святая вода
-ent-CrateChaplain = религиозный ящик
-    .desc = { ent-CratePlastic.desc }
-ent-CrateServiceReligious = ящик религиозных припасов
-    .desc = Содержит святую воду, кадило и Библию.
-ent-CrateScienceAnomalousContainment = ящик припасов для аномального сдерживания
-    .desc = Содержит плату Изолятора сдерживания и две платы А.П.Е.

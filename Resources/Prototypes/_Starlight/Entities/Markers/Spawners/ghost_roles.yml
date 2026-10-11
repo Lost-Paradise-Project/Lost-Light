@@ -120,6 +120,26 @@
 
 - type: entity
   categories: [ HideSpawnMenu, Spawner ]
+  parent: BaseAntagSpawner
+  id: SpawnPointCosmicColossus
+  components:
+  - type: GhostRole
+    name: ghost-role-information-colossus-name
+    description: ghost-role-information-colossus-description
+    rules: ghost-role-information-colossus-rules
+    important: true
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    mindRoles:
+    - MindRoleCosmicColossus
+  - type: Sprite
+    layers:
+    - sprite: _Starlight/CosmicCult/Mobs/colossus.rsi
+      state: colossus
+
+- type: entity
+  categories: [ HideSpawnMenu, Spawner ]
   parent: SpawnPointGhostDerelictBorgi
   id: SpawnPointGhostDerelictXenoBorgi
   components:
@@ -188,3 +208,24 @@
       - state: green
       - sprite: Mobs/Aliens/cluwnebeast.rsi
         state: icon
+
+- type: entity
+  parent: BaseAntagSpawner
+  id: SpawnPointGhostDroneRogue
+  name: rogue drone ghost role spawn point
+  components:
+  - type: GhostRole
+    name: ghost-role-information-roguedrone-name
+    description: ghost-role-information-rogue-drone-description
+    rules: ghost-role-information-rogue-drone-rules
+    mindRoles: [MindRoleSubvertedSilicon]
+    raffle:
+      settings: default
+  - type: GhostRoleMobSpawner
+    prototype: DroneRogue
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Mobs/Silicon/Chassis/derelict.rsi
+      state: borg

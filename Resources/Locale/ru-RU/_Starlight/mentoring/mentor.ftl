@@ -26,3 +26,6 @@ staff-help-admin-hint = Чтобы сообщить администрации �
 staff-help-admin = Помощь администрации
 staff-help-mentor-hint = Чтобы задать вопрос об игре
 staff-help-mentor = Помощь менторов
+
+mentor-help-tag-admin = админ
+mentor-help-tag-mentor = ментор

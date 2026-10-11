@@ -34,7 +34,7 @@ railroading-chat-delivery-wrapped-message-6 = [bold]Сюрприз! Почтал
 railroading-chat-delivery-message-7 = Вам повезло! Посылка только что упала вам в руки.
 railroading-chat-delivery-wrapped-message-7 = [bold]Вам повезло! Посылка только что упала вам в руки[/bold].
 
-rail-consume-task = Съесть: { INDEFINITE($Target) } { $Target }
+rail-consume-task = Съесть: { $Target }
 
 rail-open-delivery-task = Вскрыть писем: { $Amount }.
 
@@ -58,7 +58,7 @@ rr-stew-desc = В космосе многие обычные вещи кажут
 
 # Metabolize
 
-rail-metabolize-task = Метаболизировать: { INDEFINITE($Target) } { $Target }
+rail-metabolize-task = Метаболизировать: { $Target }
 
 rr-smoke = Курево
 rr-smoking-desc = Я всегда могу бросить, я не зависим.

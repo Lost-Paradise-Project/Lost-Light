@@ -11,6 +11,7 @@ secure-terminal-request-button = Запрос
 secure-terminal-request-button-confirm = Подтвердить?
 secure-terminal-authorize-button = Разрешить
 secure-terminal-deny-button = Отклонить / Отмена
+secure-terminal-rescind-button = Отозвать
 secure-terminal-recall-button = Отозвать оружейную
 secure-terminal-recall-locked = { $minutes ->
     [1] Отзыв будет доступен через 1 минуту.
@@ -21,9 +22,10 @@ secure-terminal-already-used = Этот ресурс уже использова
 
 secure-terminal-auth-waiting = Нет активного предложения по этому запросу. Требуемая авторизация:
 secure-terminal-auth-desc = Текущее предложение — нет ответа = [color=red]красный[/color], согласие = [color=green]зелёный[/color]:
+secure-terminal-awaiting-admin-desc = Полностью подтверждено местным командованием. Ожидается ответ Центрального командования…
 secure-terminal-awaiting-member = Ожидание: { $label }
 secure-terminal-authorized-by-label = Подписали:
-secure-terminal-veto-label = Вето
+secure-terminal-rescind-label = Отзыв
 
 secure-terminal-pending-countdown-label = Истекает через { $minutes } мин. { $seconds } с…
 secure-terminal-countdown-label = Активация через { $minutes } мин. { $seconds } с…
@@ -59,7 +61,7 @@ secure-terminal-proposal-created-reason = { $request } запрошено и о�
 secure-terminal-proposal-denied = Запрос «{ $request }» отменён.
 secure-terminal-proposal-denied-cc = Запрос «{ $request }» отклонён Центральным командованием.
 secure-terminal-proposal-cancelled-by = Защищённый терминал — { $actor } отменил запрос «{ $request }».
-secure-terminal-proposal-vetoed-by = Защищённый терминал — на запрос «{ $request }» наложили вето: { $vetoers }.
+secure-terminal-proposal-rescinded-by = Защищённый терминал — запрос «{ $request }» отозвали: { $rescinders }.
 secure-terminal-radio-proposal = Предложено: { $request }. Пожалуйста, подойдите к ближайшему устройству карточной авторизации, чтобы разрешить или отклонить.
 secure-terminal-radio-proposal-reason = Предложено: { $request }. Пожалуйста, подойдите к ближайшему устройству карточной авторизации, чтобы разрешить или отклонить. Причина: { $reason }
 secure-terminal-radio-denied = Запрос «{ $request }» отменён.
@@ -225,3 +227,7 @@ secure-terminal-end-emergency-station-announcement = Ограничения до
 secure-terminal-unlock-escape-pods-name = Разблокировать спасательные капсулы
 secure-terminal-unlock-escape-pods-desc = Спасательные капсулы будут разблокированы, и экипаж сможет запускать их по желанию
 secure-terminal-unlock-escape-pods-announcement = Командование разрешило использовать спасательные капсулы для эвакуации
+
+secure-terminal-ui-veto = Вето
+secure-terminal-insufficient-funds = Недостаточно средств. Нужно: { $fee }₡
+secure-terminal-fee-held = { $fee }₡ заблокировано до подтверждения.

@@ -17,5 +17,4 @@ roles-req-lp-moderation = модератор
 roles-req-lp-developers = разработчик (кодер, маппер, спрайтер или прототипер)
 roles-req-lp-lead-developers = главный разработчик или ведущий маппер/спрайтер
 roles-req-lp-honorary-citizen = почётный гражданин или руководство
-roles-req-lp-game-staff = руководство, гейм-мастер или модератор
-roles-req-lp-nct = ментор, вики-редактор, руководство, гейм-мастер или модератор
+roles-req-lp-game-staff = любой игровой состав или спонсор 4+ уровня

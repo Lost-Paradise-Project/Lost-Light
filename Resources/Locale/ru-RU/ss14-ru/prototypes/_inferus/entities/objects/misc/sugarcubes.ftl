@@ -1,0 +1,11 @@
+ent-SugarCube = кубик сахара
+    .desc = Из таких можно построить крошечный домик.
+ent-SugarCube3 = { ent-SugarCube }
+    .desc = { ent-SugarCube.desc }
+    .suffix = 3
+ent-SugarCube6 = { ent-SugarCube }
+    .desc = { ent-SugarCube.desc }
+    .suffix = 6
+ent-SugarCube10 = { ent-SugarCube }
+    .desc = { ent-SugarCube.desc }
+    .suffix = 10

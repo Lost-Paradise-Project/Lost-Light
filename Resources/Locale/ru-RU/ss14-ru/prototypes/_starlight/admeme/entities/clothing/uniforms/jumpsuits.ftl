@@ -4,3 +4,5 @@ ent-ClothingUniformJumpsuitNTNCOfficer = комбинезон офицера ф�
     .desc = Стандартный комбинезон морпехов флота НаноТрейзен. Этот для офицера.
 ent-ClothingUniformJumpsuitNTNCEnsign = комбинезон энсина флота НаноТрейзен
     .desc = Стандартный комбинезон морпехов флота НаноТрейзен. Этот для энсина.
+ent-ClothingUniformJumpsuitITGFormal = парадный костюм МТГ
+    .desc = Утончённый костюм, который носят делегаты гильдии.

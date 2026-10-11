@@ -10,7 +10,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Metroid
@@ -24,7 +24,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Imp
@@ -38,7 +38,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Revenant
@@ -52,7 +52,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Ian
@@ -67,7 +67,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: IanCute
@@ -82,7 +82,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Skeleton
@@ -97,7 +97,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Sheet
@@ -112,7 +112,7 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit
 
 - type: ghostTheme
   id: Cat
@@ -127,4 +127,4 @@
   requirements:
   - !type:DiscordRolesRequirement
     requirement: LPSponsorTier1Req # LP edit
-  category: Tester
+  category: LPGhostSponsor # LP edit

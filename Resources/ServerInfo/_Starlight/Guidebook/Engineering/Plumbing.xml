@@ -19,11 +19,11 @@
   Есть пять вариантов трубопроводов:
 
   <Box>
-       <GuideEntityEmbed Entity="GuidebookPlumbingDuctStraight" Caption="Прямой"/>
-       <GuideEntityEmbed Entity="GuidebookPlumbingDuctBend" Caption="Изгиб"/>
-       <GuideEntityEmbed Entity="GuidebookPlumbingDuctTJunction" Caption="T-образный"/>
-       <GuideEntityEmbed Entity="GuidebookPlumbingDuctFourway" Caption="Четырёхсторонний"/>
-       <GuideEntityEmbed Entity="GuidebookPlumbingDuctManifold" Caption="Коллектор"/>
+       <GuideEntityEmbed Entity="PlumbingDuctStraight" Caption="Прямой"/>
+       <GuideEntityEmbed Entity="PlumbingDuctBend" Caption="Изгиб"/>
+       <GuideEntityEmbed Entity="PlumbingDuctTJunction" Caption="T-образный"/>
+       <GuideEntityEmbed Entity="PlumbingDuctFourway" Caption="Четырёхсторонний"/>
+       <GuideEntityEmbed Entity="PlumbingDuctManifold" Caption="Коллектор"/>
   </Box>
 
   [color=#a4885c]Коллектор[/color] соединяет трубопроводы, подключённые к каждой из его сторон. Он может соединять отдельные трубопроводы на всех трёх слоях.
