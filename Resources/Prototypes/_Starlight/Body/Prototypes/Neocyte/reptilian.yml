@@ -4,7 +4,7 @@
   root: torso
   slots:
     head:
-      part: HeadReptilian
+      part: LPPHeadProtoReptilian #LP edit
       connections:
       - torso
       organs:
@@ -15,7 +15,7 @@
         nose_implant: null # 🌟Starlight🌟
         brain_implant: null
     torso:
-      part: TorsoReptilian
+      part: LPPTorsoProtoReptilian #LP edit
       connections:
       - right arm
       - left arm
@@ -29,30 +29,30 @@
         kidneys: OrganNeocyteKidneys
         cavity: null
     right arm:
-      part: RightArmReptilian
+      part: LPPRightArmProtoReptilian #LP edit
       connections:
       - right hand
     left arm:
-      part: LeftArmReptilian
+      part: LPPLeftArmProtoReptilian #LP edit
       connections:
       - left hand
     right hand:
-      part: RightHandReptilian
+      part: LPPRightHandProtoReptilian #LP edit
       organs:
         hand_implant: null
     left hand:
-      part: LeftHandReptilian
+      part: LPPLeftHandProtoReptilian #LP edit
       organs:
         hand_implant: null
     right leg:
-      part: RightLegReptilian
+      part: LPPRightLegProtoReptilian #LP edit
       connections:
       - right foot
     left leg:
-      part: LeftLegReptilian
+      part: LPPLeftLegProtoReptilian #LP edit
       connections:
       - left foot
     right foot:
-      part: RightFootReptilian
+      part: LPPRightFootProtoReptilian #LP edit
     left foot:
-      part: LeftFootReptilian
+      part: LPPLeftFootProtoReptilian #LP edit

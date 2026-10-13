@@ -95,6 +95,18 @@
   - type: Inventory
     speciesId: felionoid # Change when there's unique sprites
     templateId: neocyte
+#LP edit start
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
     displacements:
       jumpsuit:
         sizeMaps:
@@ -131,6 +143,17 @@
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   parent: [BaseNeocyteAppearance, BaseSpeciesDummy]
@@ -144,6 +167,18 @@
   - type: Inventory
     templateId: neocyte
     speciesId: felionoid #Change when there's unique sprites
+#LP edit start
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
     displacements:
       jumpsuit:
         sizeMaps:
@@ -180,3 +215,14 @@
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+#LP edit end

@@ -97,6 +97,23 @@
         32:
           sprite: Mobs/Species/Human/displacement.rsi
           state: dwarfism_hand_right
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+#LP edit end
 
 - type: entity
   id: BaseInventoryArachnid
@@ -148,6 +165,23 @@
           32:
             sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
             state: gloves
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryNeoAvali
@@ -193,6 +227,23 @@
             32:
               sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
               state: gloves
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryCyclorite
@@ -257,6 +308,23 @@
           32:
             sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
             state: outer
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryDiona
@@ -311,8 +379,30 @@
       shoes:
         sizeMaps:
           32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+#LP edit start
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: outerClothing
+      socks:
+        sizeMaps:
+          32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryMoth
@@ -346,6 +436,23 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: shoes
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+#LP edit end
     displacements:
       jumpsuit:
         sizeMaps:
@@ -372,6 +479,23 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: shoes
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+#LP edit end
 
 - type: entity
   id: BaseInventoryReptilian
@@ -383,7 +507,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Reptilian/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi #LP edit
             state: jumpsuit-female
       head:
         sizeMaps:
@@ -395,6 +519,34 @@
           32:
             sprite: Mobs/Species/Reptilian/displacement.rsi
             state: mask
+#LP edit start
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+#LP edit end
+
     displacements:
       head:
         sizeMaps:
@@ -406,6 +558,38 @@
           32:
             sprite: Mobs/Species/Reptilian/displacement.rsi
             state: mask
+#LP edit start
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryResomi
@@ -479,6 +663,23 @@
           32:
             sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
             state: belt
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+#LP edit end
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -545,6 +746,23 @@
           32:
             sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
             state: belt
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryThaven
@@ -652,6 +870,23 @@
         32:
           sprite: Mobs/Species/Vox/displacement.rsi
           state: hand_r
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   abstract: true
@@ -681,6 +916,23 @@
           32:
             sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
             state: shoes
+#LP edit end
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   id: BaseInventoryLagomorph
@@ -689,16 +941,38 @@
   - type: Inventory
     speciesId: lagomorph
     displacements:
+#LP edit start
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _Starlight/Mobs/Species/Lagomorph/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       outerClothing:
         sizeMaps:
           32:
-            sprite: _Starlight/Mobs/Species/Lagomorph/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   abstract: true
@@ -789,6 +1063,23 @@
           32:
             sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
             state: suitStorage
+#LP edit end
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
+            state: jumpsuit
+#LP edit end
 
 - type: entity
   abstract: true
@@ -869,3 +1160,20 @@
         32:
           sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
           state: in_hand
+#LP edit end
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
+            state: jumpsuit
+      breasts:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
+            state: jumpsuit
+#LP edit end

@@ -142,6 +142,18 @@
         32:
           sprite: Mobs/Species/Human/displacement.rsi
           state: dwarfism_hand_right
+#LP edit start
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+#LP edit end
   - type: Tag
     tags:
     - CanPilot
@@ -230,3 +242,15 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: dwarfism
+#LP edit start
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+#LP edit end
