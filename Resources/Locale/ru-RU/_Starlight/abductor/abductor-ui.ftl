@@ -80,3 +80,5 @@ abductor-target-none = цель: [color=red]НЕТ[/color]
 abductor-victim = жертва: [color=green]{ $name }[/color]
 abductor-victim-none = жертва: [color=red]НЕТ[/color]
 abductor-need-armor = [color=red][font size=16]Нужно подключить броню похитителя![/font][/color]
+
+abductor-console-balance = Баланс: { $balance }

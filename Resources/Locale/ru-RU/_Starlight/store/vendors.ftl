@@ -7,3 +7,7 @@ vendor-security-dispenser = раздатчик СБ
 vendor-fashion-o-mat = Мода-Мат
 vendor-salvage-ticket-machine = автомат билетов утилизации
 vendor-mining-ticket-machine = автомат билетов добычи
+
+vending-machine-balance = Баланс: { $balance }₡
+vending-machine-debited = Списано { $price }₡. Баланс: { $balance }₡
+vending-machine-insufficient-funds = Недостаточно средств. Нужно: { $price }₡

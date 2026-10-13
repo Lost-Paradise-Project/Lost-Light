@@ -36,6 +36,9 @@ trait-language-scratch-desc = Вы умеете говорить и понима
 trait-language-solcommon-name = Общий Сол
 trait-language-solcommon-desc = Вы освоили общий Сол — основной язык современной Старой Земли, разработанный Альянсом Независимых Систем.
 
+trait-language-cygnistandard-name = Стандарт Сигни
+trait-language-cygnistandard-desc = Вы выучили язык СССП — потому что жили там или как-то иначе. Пожалуй, вспышки с собой лучше не носить.
+
 trait-language-sylvan-name = Сильван
 trait-language-sylvan-desc = Вы понимаете сильван, на котором говорят дионы и растения. Большинство людей, наверное, назвали бы вас безумцем, скажи вы, что можете разговаривать с растениями.
 

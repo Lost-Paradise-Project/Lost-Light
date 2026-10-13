@@ -26,3 +26,5 @@ ent-SpawnPointXenoroach = точка появления ксенотаракан
 ent-SpawnPointGhostCluwneBeast = точка появления роли призрака
     .desc = { ent-MarkerBase.desc }
     .suffix = клюн-зверь
+ent-SpawnPointGhostDroneRogue = спавнер роли призрака дрона-скраппера
+    .desc = { ent-BaseAntagSpawner.desc }

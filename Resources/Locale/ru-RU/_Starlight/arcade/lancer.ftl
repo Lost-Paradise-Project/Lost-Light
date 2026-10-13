@@ -399,3 +399,6 @@ lancer-arcade-roll-divine-save = Спасбросок от «Божествен�
 lancer-arcade-log-divine-empty = Божественная кара — нет целей в зоне досягаемости.
 lancer-arcade-log-divine-save = { $unit } проходит спасбросок от «Божественной кары» и получает { $damage }.
 lancer-arcade-log-divine-fail = { $unit } проваливает спасбросок от «Божественной кары» и получает { $damage }.
+
+lancer-dice-damage = Урон: { $sum }
+lancer-dice-damage-sum = Урон: { $dice } = { $sum }

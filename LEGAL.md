@@ -1,72 +1,70 @@
-# Юридическая информация
+# Лицензии
 
-## Определения
+## Коротко
 
-**Пространство имён (namespace)** - поддиректория, название которой начинается с `_` (например, `_LP`), указывающая на авторство содержимого.
+- **Наш код** (папки `_LP`) под [AGPLv3](./LICENSE-AGPLv3.txt).
+- **Код SS14 и Starlight** под [MIT](./LICENSE-MIT.TXT). Исключение: вклады Starlight с 04.11.2024 (`84205e38`) по 28.02.2026 (`01eff0f7`) идут по [Starlight License](./LICENSE-Starlight.TXT) (пока авторы не согласились на MIT, [issue #3499](https://github.com/ss14Starlight/space-station-14/issues/3499)). Она требует указывать Starlight как источник со ссылкой на репозиторий.
+- **Код других проектов** лежит в папках их namespace и остаётся под их лицензией (список ниже). Файлы с заголовком MPL 2.0 остаются под MPL 2.0.
+- **Ассеты** (спрайты, звуки, шрифты) по умолчанию под [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Если у ассета указана другая лицензия, действует она. Лицензия и автор записаны в `meta.json` и `attributions.yml`.
+- Тексты лицензий MIT и Starlight License нельзя удалять из дистрибутивов.
+- Авторы сохраняют права на свои работы и могут распространять их где угодно.
 
-**Код** - любые файлы исходного кода C#, скомпилированные сборки, YML-файлы в `Resources` и связанные скрипты (включая директорию `Tools`).
+## Особые ассеты
 
-**Ассеты** - спрайты, звуки, музыка, шрифты, иконки и другие нетекстовые ресурсы.
+- **All Rights Reserved**: нельзя использовать в производных работах, при использовании кода в другом проекте их надо удалить.
+- **Некоммерческие** (CC BY-NC и подобные): только в некоммерческих сборках, с указанием автора.
+- **[Лицензия Sawians](./LICENSE-Sawians.md)** (звуки из `Resources/Audio/_Starlight/*/Experiment/`): только в экосистеме SS14, с указанием автора.
 
-## Авторские права
+Перед коммерческим использованием проверьте ассеты и посоветуйтесь с юристом.
 
-Авторы сохраняют все права на свои работы, представленные в этом репозитории, и могут свободно распространять свой контент где угодно.
+## Откуда взят код
 
-## Лицензии кода
+Если код вне папок `_LP` лежит в папке с `_` в названии, значит он портирован из проекта ниже.
 
-Проект в целом распространяется по лицензии [AGPLv3](./LICENSE-AGPLv3.txt), условия которой должны соблюдаться независимо от лицензий исходных проектов. Части кода, взятые из других проектов, дополнительно остаются под своими исходными лицензиями:
+**AGPLv3**
 
-- **Код Lost Paradise** находится в пространстве имён `_LP` и распространяется по лицензии AGPLv3.
-- **Исходный код из [Space Station 14](https://github.com/space-wizards/space-station-14)** взят под [лицензией MIT](./LICENSE-MIT.TXT).
-- **Код [Starlight](https://github.com/ss14Starlight/space-station-14)**, на котором основана сборка, распространяется по лицензии MIT. Исключение - вклады Starlight с 04.11.2024 (коммит `84205e38`) по 28.02.2026 (коммит `01eff0f7`): они распространяются по [Starlight License](./LICENSE-Starlight.TXT), пока их авторы не дадут согласие на перелицензирование под MIT ([issue #3499](https://github.com/ss14Starlight/space-station-14/issues/3499)). Starlight License требует указывать проект Starlight как источник со ссылкой на его репозиторий.
-- **Весь код вне конкретных пространств имён** распространяется как MIT + AGPLv3: исходный код Space Wizards Federation - по MIT, изменения Starlight - по MIT или Starlight License (за указанный выше период), изменения Lost Paradise - по AGPLv3.
-- **Код в пространствах имён других проектов** распространяется по лицензиям, указанным в [таблице атрибуции](#таблица-атрибуции).
+| Namespace | Проект |
+|---|---|
+| `_LP` | Lost Paradise (этот репозиторий) |
+| `_Goobstation` | [Goob Station](https://github.com/Goob-Station/Goob-Station) |
+| `_Funkystation` | [Funky Station](https://github.com/funky-station/funky-station) |
+| `_DEN` | [The Den](https://github.com/TheDenSS14/TheDen) |
 
-Запрещается удалять тексты лицензий MIT и Starlight License из любых дистрибутивов, содержащих код под этими лицензиями.
+**MIT**
 
-## Лицензии ассетов
+| Namespace | Проект |
+|---|---|
+| `_Corvax` | [Corvax](https://github.com/space-syndicate/space-station-14/) |
+| `_Moffstation` | [Moff Station](https://github.com/moff-station/moff-station-14) |
+| `_Carpmosia` | [Carpmosia](https://github.com/carpmosia/carpmosia) |
+| `_Blimpuf` | [Blimpuf Station](https://github.com/Blimpuf-Station/BlimpufStation) |
+| `_CP14` | [CrystallEdge](https://github.com/crystallpunk-14/crystall-punk-14) |
+| `_ES` | [Ephemeral Space](https://github.com/EphemeralSpace/ephemeral-space) |
+| `_Starfall` | [Starfall Drift](https://github.com/funky-station/forky-station/pull/67) (через Forky Station) |
+| `_TP`, `_TP14` | [Trieste Port 14](https://github.com/Pixeltheaertist/Trieste-Port-14) |
+| `_ST` | Stellar Station (закрытый репозиторий) |
 
-По умолчанию ассеты распространяются по лицензии [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Если для ассета указана другая лицензия, действует она. Лицензия и авторство каждого ассета указаны в файлах `meta.json` и `attributions.yml`, соблюдайте их индивидуально.
+**MIT + Starlight License**
 
-Особые требования:
+| Namespace | Проект |
+|---|---|
+| `_Starlight`, `_NullLink` | [Starlight](https://github.com/ss14Starlight/space-station-14) |
+| `_FarHorizons` | [Far Horizons](https://github.com/Far-Horizons-SS14/Far-Horizons-SS14) |
 
-1. **Ассеты с пометкой «All Rights Reserved»** запрещено использовать в любых производных работах. При использовании кода этой сборки в других проектах их необходимо удалить.
-2. **Некоммерческие ассеты** (CC BY-NC и аналогичные) допускаются только в некоммерческих сборках, требуют указания авторства и должны быть удалены при коммерческом использовании.
-3. **Ассеты под [лицензией Sawians](./LICENSE-Sawians.md)** (звуки из `Resources/Audio/_Starlight/*/Experiment/`) разрешено использовать только в экосистеме Space Station 14, с указанием автора. Автор может отозвать лицензию для конкретного сервера.
+**С оговорками**
 
-Перед коммерческим использованием проверьте все ассеты и удалите контент с пометкой «All Rights Reserved» и некоммерческими лицензиями. Рекомендуется консультация с юристом.
+| Namespace | Проект | Оговорка |
+|---|---|---|
+| `_Impstation` | [Impstation](https://github.com/impstation/imp-station-14) | AGPLv3, вклады до 15.08.2024 под MIT |
+| `_Mono` | [Monolith](https://github.com/Monolith-Station/Monolith) | AGPLv3, часть файлов под MPL 2.0 |
+| `DeltaV` | [Delta-V](https://github.com/DeltaV-Station/Delta-v) | AGPLv3 + MIT |
+| `_CD` | [Cosmatic Drift](https://github.com/cosmatic-drift-14/cosmatic-drift) | MIT, часть файлов под MPL 2.0 |
+| `_Paradise` | [Paradise SS14](https://github.com/ParadiseSS14/Paradise) | только текстуры, лицензия в `meta.json` |
+| `_Afterlight` | Afterlight (закрытый репозиторий) | лицензия уточняется |
 
-## Таблица атрибуции
+## Старый код
 
-| Пространство имён | Проект | Исходный репозиторий | Лицензия |
-|---|---|---|---|
-| `_LP` | Lost Paradise | этот репозиторий | AGPL 3.0 |
-| `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14/ | MIT |
-| `_Starlight`, `_NullLink` | Starlight | https://github.com/ss14Starlight/space-station-14 | MIT + Starlight License |
-| `_FarHorizons` | Far Horizons | https://github.com/Far-Horizons-SS14/Far-Horizons-SS14 | MIT + Starlight License |
-| `_Goobstation` | Goob Station | https://github.com/Goob-Station/Goob-Station | AGPL 3.0 |
-| `_Funkystation` | Funky Station | https://github.com/funky-station/funky-station | AGPL 3.0 |
-| `_Impstation` | Impstation | https://github.com/impstation/imp-station-14 | AGPL 3.0 (вклады до 15.08.2024 - MIT) |
-| `_DEN` | The Den | https://github.com/TheDenSS14/TheDen | AGPL 3.0 |
-| `_Mono` | Monolith | https://github.com/Monolith-Station/Monolith | AGPL 3.0 (часть файлов - MPL 2.0) |
-| `DeltaV` | Delta-V | https://github.com/DeltaV-Station/Delta-v | AGPL 3.0 + MIT |
-| `_Moffstation` | Moff Station | https://github.com/moff-station/moff-station-14 | MIT |
-| `_Carpmosia` | Carpmosia | https://github.com/carpmosia/carpmosia | MIT |
-| `_Blimpuf` | Blimpuf Station | https://github.com/Blimpuf-Station/BlimpufStation | MIT |
-| `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT (часть файлов - MPL 2.0) |
-| `_CP14` | CrystallEdge | https://github.com/crystallpunk-14/crystall-punk-14 | MIT |
-| `_Afterlight` | Afterlight | закрытый репозиторий | уточняется |
-| `_ES` | Ephemeral Space | https://github.com/EphemeralSpace/ephemeral-space | MIT |
-| `_ST` | Stellar Station | закрытый репозиторий | MIT |
-| `_Starfall` | Starfall Drift (через Forky Station) | https://github.com/funky-station/forky-station/pull/67 | MIT |
-| `_TP`, `_TP14` | Trieste Port 14 | https://github.com/Pixeltheaertist/Trieste-Port-14 | MIT |
-| `_Paradise` | Paradise SS14 (только текстуры) | https://github.com/ParadiseSS14/Paradise | см. `meta.json` |
-
-Файлы под MPL 2.0 помечены заголовком в начале файла. Эти файлы должны оставаться под MPL 2.0.
-
-## Устаревший код
-
-Если вы не согласны с условиями этих лицензий, вы можете использовать код до [этого коммита](https://github.com/Lost-Paradise-Project/Lost-Light/commit/23f6333b4d6e49664db9fabff3215b396531b36a), доступный под лицензиями MIT и Starlight License.
+Код до [этого коммита](https://github.com/Lost-Paradise-Project/Lost-Light/commit/23f6333b4d6e49664db9fabff3215b396531b36a) доступен под MIT и Starlight License.
 
 ## Отказ от гарантий
 

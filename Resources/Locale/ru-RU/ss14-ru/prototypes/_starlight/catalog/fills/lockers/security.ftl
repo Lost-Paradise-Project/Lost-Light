@@ -13,3 +13,6 @@ ent-GunSafeHeavyWeapons = сейф ВСВ
 ent-GunSafeLMG = сейф тяжёлого оружия
     .desc = Для случаев, когда договориться недостаточно.
     .suffix = { ent-GunSafeBaseArmorySL.suffix }
+ent-GunSafeMelee = сейф холодного оружия
+    .desc = Содержит набор тяжёлого холодного оружия.
+    .suffix = { ent-GunSafeBaseArmorySL.suffix }

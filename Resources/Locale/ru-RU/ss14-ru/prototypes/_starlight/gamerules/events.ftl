@@ -24,3 +24,7 @@ ent-UtilityLineRupture = Разрыв коммуникации
     .desc = { ent-BaseStationEvent.desc }
 ent-MalignRiftSpawn = { ent-BaseStationEvent }
     .desc = { ent-BaseStationEvent.desc }
+ent-ScrapperSpawn = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-SyndicateCrateOpsPrompt = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

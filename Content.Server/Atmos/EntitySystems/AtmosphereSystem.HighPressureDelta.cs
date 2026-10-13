@@ -1,3 +1,4 @@
+using Content.Server._Starlight.Atmos.EntitySystems;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Mobs.Components;
@@ -14,11 +15,22 @@ namespace Content.Server.Atmos.EntitySystems
 {
     public sealed partial class AtmosphereSystem
     {
+        [Dependency] private SharedTransformSystem _transformSystem = default!;
+
+        private const string _spaceWindProto = "SpaceWindVisual"; // Orion
         private static readonly ProtoId<SoundCollectionPrototype> DefaultSpaceWindSounds = "SpaceWind";
 
         private const int SpaceWindSoundCooldownCycles = 75;
 
         private int _spaceWindSoundCooldown = 0;
+
+        // Orion-Start
+        private const int SpaceWindVisualCooldownCycles = 15;
+
+        private int _spaceWindVisualCooldown = 0;
+        // Orion-End
+
+        [Dependency] private BreachWindSystem _breachWind = default!; // Starlight
 
         [ViewVariables(VVAccess.ReadWrite)]
         public SoundSpecifier? SpaceWindSound { get; private set; } = new SoundCollectionSpecifier(DefaultSpaceWindSounds, AudioParams.Default.WithVariation(0.125f));
@@ -107,11 +119,28 @@ namespace Content.Server.Atmos.EntitySystems
             // Don't play the space wind sound on tiles that are on fire...
             if (tile.PressureDifference > 15 && !tile.Hotspot.Valid)
             {
+                _breachWind.ReportFlow(tile.GridIndex, tile.GridIndices, tile.PressureDifference); // Starlight
+
                 if (_spaceWindSoundCooldown == 0 && SpaceWindSound != null)
                 {
                     var coordinates = _mapSystem.ToCenterCoordinates(tile.GridIndex, tile.GridIndices);
                     _audio.PlayPvs(SpaceWindSound, coordinates, SpaceWindSound.Params.WithVolume(MathHelper.Clamp(tile.PressureDifference / 10, 10, 100)));
                 }
+
+                // Orion-Start | Space Wind Visuals
+                if (SpaceWindVisuals && _spaceWindVisualCooldown == 0)
+                {
+                    var location = _mapSystem.ToCenterCoordinates(tile.GridIndex, tile.GridIndices);
+                    var visualEnt = SpawnAtPosition(_spaceWindProto, location);
+                    var gridRot = _transformSystem.GetWorldRotation(gridAtmosphere);
+
+                    if (tile.PressureDirection != AtmosDirection.Invalid)
+                    {
+                        var angle = tile.PressureDirection.ToAngle() + gridRot - Angle.FromDegrees(90);
+                        _transformSystem.SetLocalRotation(visualEnt, angle);
+                    }
+                }
+                // Orion-End
             }
 
 
@@ -122,6 +151,11 @@ namespace Content.Server.Atmos.EntitySystems
 
             if (_spaceWindSoundCooldown++ > SpaceWindSoundCooldownCycles)
                 _spaceWindSoundCooldown = 0;
+
+            // Orion-Start | the visual has its own cooldown, independent from the sound one
+            if (_spaceWindVisualCooldown++ > SpaceWindVisualCooldownCycles)
+                _spaceWindVisualCooldown = 0;
+            // Orion-End
 
             // No atmos yeets, return early.
             if (!SpaceWind)

@@ -1,4 +1,4 @@
-<!-- Рекомендации: https://docs.spacestation14.io/en/getting-started/pr-guideline -->
+<!-- Рекомендации: https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html -->
 
 ## Описание PR
 <!-- Что вы изменили? -->

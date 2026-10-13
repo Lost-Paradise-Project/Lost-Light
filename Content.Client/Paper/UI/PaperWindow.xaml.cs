@@ -10,6 +10,8 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Utility;
 using Robust.Shared.Input;
+using Content.Shared._Funkystation.Handwriting; // funky
+using Content.Client._Funkystation.Handwriting; // funky
 
 #region Starlight
 using Robust.Client.UserInterface;
@@ -25,6 +27,8 @@ namespace Content.Client.Paper.UI
         private string _currentRawText = string.Empty;
         [Dependency] private IInputManager _inputManager = default!;
         [Dependency] private IResourceCache _resCache = default!;
+        [Dependency] private IEntityManager _entityManager = default!; // funky
+        [Dependency] private Robust.Client.Player.IPlayerManager _playerManager = default!; // funky
 
         private static Color DefaultTextColor = new(25, 25, 25);
 
@@ -421,7 +425,10 @@ namespace Content.Client.Paper.UI
             {
                 if (!string.IsNullOrEmpty(edit.Text))
                 {
-                    var newText = ReplaceNthFormTag(_currentRawText, formIndex, edit.Text);
+                    // funky, use player's handwriting font
+                    var writer = _playerManager.LocalEntity ?? EntityUid.Invalid;
+                    var filled = HandwritingFontHelper.WrapIfHandwritten(_entityManager, writer, edit.Text);
+                    var newText = ReplaceNthFormTag(_currentRawText, formIndex, filled);
                     OnSaved?.Invoke(newText);
                 }
                 if (formButton != null)
@@ -441,7 +448,9 @@ namespace Content.Client.Paper.UI
             {
                 if (!string.IsNullOrEmpty(edit.Text))
                 {
-                    var newText = ReplaceNthFormTag(_currentRawText, formIndex, edit.Text);
+                    var writer = _playerManager.LocalEntity ?? EntityUid.Invalid; // funky
+                    var filled = HandwritingFontHelper.WrapIfHandwritten(_entityManager, writer, edit.Text); // funky
+                    var newText = ReplaceNthFormTag(_currentRawText, formIndex, filled); // funky
                     OnSaved?.Invoke(newText);
                 }
                 popup.Close();
@@ -594,9 +603,9 @@ namespace Content.Client.Paper.UI
             var vbox = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Vertical, Margin = new Thickness(10) };
             var hbox = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Horizontal };
 
-            var blankBtn = new Button { Text = "☐ Blank", MinWidth = 80 };
-            var checkBtn = new Button { Text = "✔ Check", MinWidth = 80 };
-            var crossBtn = new Button { Text = "✖ Cross", MinWidth = 80 };
+            var blankBtn = new Button { Text = Loc.GetString("paper-check-blank-button"), MinWidth = 80 };
+            var checkBtn = new Button { Text = Loc.GetString("paper-check-check-button"), MinWidth = 80 };
+            var crossBtn = new Button { Text = Loc.GetString("paper-check-cross-button"), MinWidth = 80 };
 
             blankBtn.OnPressed += _ => {
                 var newText = ReplaceNthCheckTag(_currentRawText, checkIndex, "☐");

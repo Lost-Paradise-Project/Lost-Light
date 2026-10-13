@@ -15,6 +15,8 @@ zone-kitchen = Кухня
 zone-chapel = Часовня
 zone-dormitory = Общежитие
 zone-solars = Солнечные панели
+zone-detective = Детектив
+zone-virology = Вирусология
 
 zone-placer-window-title = Маляр зон
 zone-placer-window-hint = Выберите зону, затем проведите прямоугольник по станции.
