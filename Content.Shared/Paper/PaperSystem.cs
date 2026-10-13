@@ -20,6 +20,7 @@ using Content.Shared.Mind.Components;
 using Content.Shared.Roles;
 using Content.Shared._Starlight.Time;
 // Starlight-end
+using Content.Shared._Funkystation.Handwriting; // Funky
 
 namespace Content.Shared.Paper;
 
@@ -462,7 +463,9 @@ public sealed partial class PaperSystem : EntitySystem
     private void OnSignatureRequest(Entity<PaperComponent> entity, ref PaperSignatureRequestMessage args)
     {
         var signature = GetPlayerSignature(args.Actor);
-        var newText = ReplaceNthSignatureTag(entity.Comp.Content, args.SignatureIndex, signature);
+        // funky, use the player's handwriting font
+        var rendered = HandwritingFontHelper.WrapIfHandwritten(EntityManager, args.Actor, signature);
+        var newText = ReplaceNthSignatureTag(entity.Comp.Content, args.SignatureIndex, rendered);
         SetContent(entity, newText);
 
         _adminLogger.Add(LogType.Chat, LogImpact.Low,
@@ -482,14 +485,10 @@ public sealed partial class PaperSystem : EntitySystem
     }
 
     /// <summary>
-    /// Gets the player's signature using the identity system, including rank, name, and role.
+    /// Gets the player's signature using the identity system (funky edited to be only the name)
     /// </summary>
     private string GetPlayerSignature(EntityUid player)
     {
-        var name = string.Empty;
-        var rank = string.Empty;
-        var role = string.Empty;
-
         // Get the identity entity (ID card, etc.)
         var identityEntity = player;
         if (TryComp<IdentityComponent>(player, out var identity) &&
@@ -499,40 +498,7 @@ public sealed partial class PaperSystem : EntitySystem
         }
 
         // Get name from identity or fallback to entity name
-        name = MetaData(identityEntity).EntityName;
-
-        // Get role from mind system
-        if (TryComp<MindContainerComponent>(player, out var mindContainer) &&
-            mindContainer.Mind != null)
-        {
-            var roleSystem = EntityManager.System<SharedRoleSystem>();
-            var roleInfo = roleSystem.MindGetAllRoleInfo((mindContainer.Mind.Value, null));
-            if (roleInfo.Count > 0)
-            {
-                role = Loc.GetString(roleInfo[0].Name);
-            }
-        }
-
-        // Format: "Rank Name, Role" or fallback combinations
-        var signature = string.Empty;
-        if (!string.IsNullOrEmpty(rank) && !string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(role))
-        {
-            signature = $"{rank} {name}, {role}";
-        }
-        else if (!string.IsNullOrEmpty(rank) && !string.IsNullOrEmpty(name))
-        {
-            signature = $"{rank} {name}";
-        }
-        else if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(role))
-        {
-            signature = $"{name}, {role}";
-        }
-        else
-        {
-            signature = name;
-        }
-
-        return signature;
+        return MetaData(identityEntity).EntityName;
     }
 
     /// <summary>
