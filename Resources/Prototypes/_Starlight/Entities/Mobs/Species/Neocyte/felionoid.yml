@@ -183,7 +183,7 @@
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
-            state: jumpsuit-female  
+            state: jumpsuit-female
     displacements:
       jumpsuit:
         sizeMaps:
