@@ -78,7 +78,7 @@
         sizeMaps:
           32:
             sprite: _LP/Mobs/Species/displacements.rsi
-            state: outerClothing
+            state: jumpsuit-female
       head:
         sizeMaps:
           32:

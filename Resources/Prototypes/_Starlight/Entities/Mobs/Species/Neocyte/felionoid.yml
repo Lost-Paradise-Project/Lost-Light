@@ -179,6 +179,11 @@
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: jumpsuit-female
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female  
     displacements:
       jumpsuit:
         sizeMaps:
@@ -221,6 +226,11 @@
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: shoes
       underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
