@@ -1,7 +1,7 @@
 - type: entity
   id: PartTajaran
   parent: [BaseItem, BasePart]
-  name: "Tajaran body part"
+  name: Tajaran body part
   abstract: true
   components:
     - type: Extractable
@@ -14,15 +14,15 @@
 
 - type: entity
   id: TorsoTajaran
-  name: "Tajaran torso"
+  name: Tajaran torso
   parent: [PartTajaran, BaseTorso]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "torso"
+      state: torso
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "torso"
+      state: torso_m
     - type: BodyPart
       partType: Torso
     - type: Extractable
@@ -35,20 +35,20 @@
 
 - type: entity
   id: HeadTajaran
-  name: "Tajaran head"
+  name: Tajaran head
   parent: [PartTajaran, BaseHead]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "head"
+      state: head_m
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "head"
+      state: head_m
     - type: BodyPart
       partType: Head
       vital: true
     - type: Input
-      context: "ghost"
+      context: ghost
     - type: Tag
       tags:
         - Head
@@ -62,75 +62,75 @@
 
 - type: entity
   id: LeftArmTajaran
-  name: "left Tajaran arm"
+  name: left Tajaran arm
   parent: [PartTajaran, BaseLeftArm]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_arm"
+      state: l_arm
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_arm"
+      state: l_arm
     - type: BodyPart
       partType: Arm
       symmetry: Left
 
 - type: entity
   id: RightArmTajaran
-  name: "right Tajaran arm"
+  name: right Tajaran arm
   parent: [PartTajaran, BaseRightArm]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_arm"
+      state: r_arm
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_arm"
+      state: r_arm
     - type: BodyPart
       partType: Arm
       symmetry: Right
 
 - type: entity
   id: LeftHandTajaran
-  name: "left Tajaran hand"
+  name: left Tajaran hand
   parent: [PartTajaran, BaseLeftHand]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_hand"
+      state: l_hand
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_hand"
+      state: l_hand
     - type: BodyPart
       partType: Hand
       symmetry: Left
 
 - type: entity
   id: RightHandTajaran
-  name: "right Tajaran hand"
+  name: right Tajaran hand
   parent: [PartTajaran, BaseRightHand]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_hand"
+      state: r_hand
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_hand"
+      state: r_hand
     - type: BodyPart
       partType: Hand
       symmetry: Right
 
 - type: entity
   id: LeftLegTajaran
-  name: "left Tajaran leg"
+  name: left Tajaran leg
   parent: [PartTajaran, BaseLeftLeg]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_leg"
+      state: l_leg
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_leg"
+      state: l_leg
     - type: BodyPart
       partType: Leg
       symmetry: Left
@@ -139,15 +139,15 @@
 
 - type: entity
   id: RightLegTajaran
-  name: "right Tajaran leg"
+  name: right Tajaran leg
   parent: [PartTajaran, BaseRightLeg]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_leg"
+      state: r_leg
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_leg"
+      state: r_leg
     - type: BodyPart
       partType: Leg
       symmetry: Right
@@ -159,30 +159,30 @@
 
 - type: entity
   id: LeftFootTajaran
-  name: "left Tajaran foot"
+  name: left Tajaran foot
   parent: [PartTajaran, BaseLeftFoot]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_foot"
+      state: l_foot
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "l_foot"
+      state: l_foot
     - type: BodyPart
       partType: Foot
       symmetry: Left
 
 - type: entity
   id: RightFootTajaran
-  name: "right Tajaran foot"
+  name: right Tajaran foot
   parent: [PartTajaran, BaseRightFoot]
   components:
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_foot"
+      state: r_foot
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: "r_foot"
+      state: r_foot
     - type: BodyPart
       partType: Foot
       symmetry: Right
