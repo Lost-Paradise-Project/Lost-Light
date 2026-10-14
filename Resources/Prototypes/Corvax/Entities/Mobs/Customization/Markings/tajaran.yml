@@ -530,15 +530,6 @@
 
 # Animated
 - type: marking
-  id: TajaranTailFluffyAnimated
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Tajaran]
-  sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
-      state: tail_fluffy_wagging
-
-- type: marking
   id: TailWingler1Animated
   bodyPart: Tail
   markingCategory: Tail

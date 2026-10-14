@@ -33,8 +33,9 @@
       required: false
 
 - type: entity
-  parent: BaseInventoryTajaran
+  parent: [BaseSpeciesDummy, BaseInventoryTajaran]
   id: AppearanceTajaran
+  categories: [ HideSpawnMenu ]
   components:
   - type: HumanoidAppearance
     species: Tajaran
@@ -87,6 +88,8 @@
   - type: TemperatureProtection
     heatingCoefficient: 1.2
     coolingCoefficient: 0.3
+  - type: Jump
+    action: JumpTajaran
   - type: Sprite
     netsync: false
     layers:

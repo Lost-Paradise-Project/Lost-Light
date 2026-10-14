@@ -20,8 +20,8 @@
   suffix: Tajaran
   components:
   - type: OrganTongue
-    allowedEmotes: ['Mew', 'Hisses', 'Meow', 'Growl', 'Purr', 'Trill']
+    allowedEmotes: ['Mew', 'Hisses', 'Meow', 'Growl', 'PurrAlt', 'Trill']
     sounds:
-      Male: MaleFelionoid
-      Female: FemaleFelionoid
-      Unsexed: MaleFelionoid
+      Male: MaleTajaran
+      Female: FemaleTajaran
+      Unsexed: MaleTajaran
