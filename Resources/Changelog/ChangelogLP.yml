@@ -1,2 +1,51 @@
-Entries: []
+Entries:
+- author: Evgencheg
+  changes:
+  - message: Добавлены визуалы от космического ветра.
+    type: Add
+  id: 1
+  time: '2026-10-12T02:20:34.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/26
+- author: Evgencheg
+  changes:
+  - message: Добавлена подсветка шлюзов.
+    type: Add
+  id: 2
+  time: '2026-10-12T02:20:34.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/26
+- author: Evgencheg
+  changes:
+  - message: Изменены звуки шлюзов.
+    type: Tweak
+  id: 3
+  time: '2026-10-12T02:20:34.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/26
+- author: PuroSlavKing, Evgencheg
+  changes:
+  - message: Добавлено позирование и его работа с зажатием.
+    type: Add
+  id: 4
+  time: '2026-10-12T02:20:37.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/25
+- author: Evgencheg
+  changes:
+  - message: Добавлены подписи (разных типов) и формы для документов теперь заполняются через кнопку.
+    type: Add
+  id: 5
+  time: '2026-10-12T02:44:51.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/27
+- author: Evgencheg
+  changes:
+  - message: Добавлена тележка и мешок для грязной одежды!
+    type: Add
+  id: 6
+  time: '2026-10-12T06:38:19.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/30
+- author: Evgencheg
+  changes:
+  - message: Добавлены рычаги пожарных шлюзов для их разблокировки и блокировки!
+    type: Add
+  id: 7
+  time: '2026-10-12T07:03:50.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/31
 Order: -3

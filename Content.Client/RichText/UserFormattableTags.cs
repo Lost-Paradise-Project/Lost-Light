@@ -3,6 +3,7 @@ using Robust.Client.UserInterface.RichText;
 #region Starlight
 using Content.Client._Starlight.UserInterface.RichText;
 #endregion
+using Content.Client._Funkystation.Handwriting; // funky
 
 namespace Content.Client.RichText;
 
@@ -33,6 +34,7 @@ public static class UserFormattableTags
         typeof(DotHeadTagHandler),
         typeof(MetaTagHandler),
         // Starlight end
+        typeof(HandwritingFontTagHandler), // funky, allows [signature] and [form] to use a different font
     ];
 
     /// <summary>

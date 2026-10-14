@@ -2,6 +2,7 @@ ignored_paths:
 - "Resources/Locale/ru-RU/datasets"
 - "Resources/Locale/ru-RU/_LP"
 - "Resources/Locale/ru-RU/_corvax"
+- "Resources/Locale/ru-RU/_Orion"
 ignored_untranslated_paths:
 # Названия клавиш, буквы каналов цвета, формулы газов
 - "Resources/Locale/ru-RU/robust-toolbox/input.ftl"
