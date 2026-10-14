@@ -14,7 +14,7 @@
     HeadTop:
       points: 1
       required: true
-      default: [ TajaranInears ]
+      defaultMarkings: [ TajaranInears ]
     Snout:
       points: 1
       required: true
@@ -24,7 +24,7 @@
     Tail:
       points: 1
       required: true
-      default: [ TajaranTailM ]
+      defaultMarkings: [ TajaranTailM ]
     Arms:
       points: 6
       required: false
@@ -53,10 +53,9 @@
   abstract: true
   save: false
   name: Urist McTajar
-  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableHuge, BaseInventoryTajaran] # Starlight
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableHuge, BaseInventoryTajaran]
   id: BaseMobTajaran
   components:
-  #Starlight
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
