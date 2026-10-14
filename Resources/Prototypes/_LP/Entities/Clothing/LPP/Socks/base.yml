@@ -29,8 +29,9 @@
   - type: Item
     size: Small
   - type: Clothing
-    slots: SOCKS
-    preferredSlots: SOCKS
+    quickEquip: true
+    slots:
+    - socks
   - type: Tag
     tags:
     - ClothMade

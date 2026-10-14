@@ -29,8 +29,9 @@
   - type: Item
     size: Tiny
   - type: Clothing
-    slots: BREAST
-    preferredSlots: BREAST
+    quickEquip: true
+    slots:
+    - breast
   - type: Tag
     tags:
     - ClothMade

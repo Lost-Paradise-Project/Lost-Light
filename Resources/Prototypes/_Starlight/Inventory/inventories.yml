@@ -108,7 +108,7 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: dwarfism
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Mobs/Species/Human/displacement.rsi
@@ -176,7 +176,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
@@ -238,7 +238,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
@@ -319,7 +319,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
@@ -397,7 +397,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
@@ -447,7 +447,7 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: jumpsuit-female
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
@@ -490,7 +490,7 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: jumpsuit-male
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
@@ -540,7 +540,7 @@
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
@@ -584,7 +584,7 @@
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
@@ -674,7 +674,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
@@ -757,7 +757,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
@@ -881,7 +881,7 @@
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
@@ -927,7 +927,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
@@ -967,7 +967,7 @@
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
@@ -1074,7 +1074,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
@@ -1171,7 +1171,7 @@
           32:
             sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
             state: jumpsuit
-      breasts:
+      breast:
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi

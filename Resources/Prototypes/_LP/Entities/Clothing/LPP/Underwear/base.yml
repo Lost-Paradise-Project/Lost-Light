@@ -29,8 +29,9 @@
   - type: Item
     size: Tiny
   - type: Clothing
-    slots: UNDERWEAR
-    preferredSlots: UNDERWEAR
+    quickEquip: true
+    slots:
+    - underwear
   - type: Tag
     tags:
     - ClothMade

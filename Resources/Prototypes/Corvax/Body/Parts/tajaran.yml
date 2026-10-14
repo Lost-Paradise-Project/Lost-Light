@@ -20,11 +20,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: torso
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: torso_m
-    - type: BodyPart
-      partType: Torso
     - type: Extractable
       juiceSolution:
         reagents:
@@ -41,17 +36,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: head_m
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: head_m
-    - type: BodyPart
-      partType: Head
-      vital: true
-    - type: Input
-      context: ghost
-    - type: Tag
-      tags:
-        - Head
     - type: Extractable
       juiceSolution:
         reagents:
@@ -68,12 +52,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: l_arm
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: l_arm
-    - type: BodyPart
-      partType: Arm
-      symmetry: Left
 
 - type: entity
   id: RightArmTajaran
@@ -83,12 +61,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: r_arm
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: r_arm
-    - type: BodyPart
-      partType: Arm
-      symmetry: Right
 
 - type: entity
   id: LeftHandTajaran
@@ -98,12 +70,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: l_hand
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: l_hand
-    - type: BodyPart
-      partType: Hand
-      symmetry: Left
 
 - type: entity
   id: RightHandTajaran
@@ -113,12 +79,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: r_hand
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: r_hand
-    - type: BodyPart
-      partType: Hand
-      symmetry: Right
 
 - type: entity
   id: LeftLegTajaran
@@ -128,14 +88,10 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: l_leg
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: l_leg
-    - type: BodyPart
-      partType: Leg
-      symmetry: Left
     - type: MovementBodyPart
       sprintSpeed : 5.5
+    - type: MovementBodyPartHinderedByShoes
+      hinderModifier: 0.18
 
 - type: entity
   id: RightLegTajaran
@@ -145,17 +101,10 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: r_leg
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: r_leg
-    - type: BodyPart
-      partType: Leg
-      symmetry: Right
     - type: MovementBodyPart
-      sprintSpeed : 5.625
-      maxDensity: 55
+      sprintSpeed : 5.5
     - type: MovementBodyPartHinderedByShoes
-      hinderModifier: 0.08
+      hinderModifier: 0.18
 
 - type: entity
   id: LeftFootTajaran
@@ -165,12 +114,6 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: l_foot
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: l_foot
-    - type: BodyPart
-      partType: Foot
-      symmetry: Left
 
 - type: entity
   id: RightFootTajaran
@@ -180,9 +123,3 @@
     - type: Sprite
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
       state: r_foot
-    - type: Icon
-      sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
-      state: r_foot
-    - type: BodyPart
-      partType: Foot
-      symmetry: Right
