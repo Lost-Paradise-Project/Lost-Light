@@ -345,6 +345,24 @@
   components:
   - type: Inventory
     speciesId: felionoid
+#LP edit start
+    femaleDisplacements:
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+#LP edit end
     displacements:
       jumpsuit:
         sizeMaps:
@@ -386,7 +404,7 @@
         sizeMaps:
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
-            state: outerClothing
+            state: jumpsuit
       socks:
         sizeMaps:
           32:
