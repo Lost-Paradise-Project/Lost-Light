@@ -113,3 +113,8 @@
 - type: !PartialOnly gamePreset
   id: Greenshift
   voteCooldown: 2
+
+- type: !PartialOnly entity
+  id: BaseMobSpecies
+  components:
+    - type: ERPBounder
