@@ -1,5 +1,5 @@
 ent-BasePeacekeeperBox = гранатный картридж
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-BoxPeacekeeperFlash = коробка светошумовых боеприпасов миротворца
     .desc = Коробка светошумовых гранат для «Миротворца», хороша, чтобы догнать убегающего негодяя или разогнать толпу.
 ent-BoxPeacekeeperStinger = коробка жалящих боеприпасов миротворца

@@ -4,7 +4,7 @@
   speech:
     color: "#b2b097"
   icon: LanguageIconClassical
-  chatPrefix: кла # LP edit
+  chatPrefix: cls
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1

@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Arkanic 2025, for Starlight",
+    "copyright": "Arkanic 2025, for Starlight;",
     "size": {
         "x": 32,
         "y": 32
@@ -33,6 +33,16 @@
         },
         {
             "name": "makeshift"
+        },
+        {
+            "name": "laser-cracked",
+            "license": "CC-BY-SA-3.0",
+            "copyright": "Arkanic 2025, for Starlight; Modified by rinary for making cracked"
+        },
+        {
+            "name": "adv-laser-cracked",
+            "license": "CC-BY-SA-3.0",
+            "copyright": "Arkanic 2025, for Starlight; Modified by rinary for making cracked"
         }
     ]
 }

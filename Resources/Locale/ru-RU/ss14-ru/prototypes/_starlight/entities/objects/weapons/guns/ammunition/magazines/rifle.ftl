@@ -1,5 +1,5 @@
 ent-BaseMagazineRifle = магазин (.20 винтовочные)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-MagazineRifleSP = магазин (.20 винтовочные SP)
     .desc = { ent-BaseMagazineRifle.desc }
 ent-MagazineRifleHP = магазин (.20 винтовочные HP)

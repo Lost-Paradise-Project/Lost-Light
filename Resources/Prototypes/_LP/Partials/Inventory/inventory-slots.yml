@@ -1,0 +1,81 @@
+# Слоты инвентаря breast, underwear, socks
+
+- type: !PartialOnly inventoryTemplate
+  id: !type:CreateVariants
+    values:
+    - arachnid
+    - corpse
+    - human
+    - cyclorite
+    - abductor
+    - terminator
+    - thaven
+  slots:
+    - name: breast
+      slotTexture: breast
+      slotFlags: BREAST
+      stripTime: 6
+      uiWindowPos: 3,3
+      strippingWindowPos: 3,1
+      displayName: Breast
+      # whitelist:
+      #   tags:
+      #     - breast
+    - name: underwear
+      slotTexture: underwear
+      slotFlags: UNDERWEAR
+      stripTime: 6
+      uiWindowPos: 3,2
+      strippingWindowPos: 3,2
+      displayName: Underwear
+      # whitelist:
+      #   tags:
+      #     - underwear
+    - name: socks
+      slotTexture: socks
+      slotFlags: SOCKS
+      stripTime: 6
+      uiWindowPos: 3,1
+      strippingWindowPos: 3,3
+      displayName: Socks
+      # whitelist:
+      #   tags:
+      #     - socks
+
+- type: !PartialOnly inventoryTemplate
+  id: !type:CreateVariants
+    values:
+    - neoarachnid
+    - neocyclorite
+    - neocyte
+  slots:
+  - name: breast
+    slotTexture: breast
+    slotFlags: BREAST
+    stripTime: 6
+    uiWindowPos: 3,3
+    strippingWindowPos: 3,1
+    displayName: Breast
+    # whitelist:
+    #   tags:
+    #     - breast
+  - name: underwear
+    slotTexture: underwear
+    slotFlags: UNDERWEAR
+    stripTime: 6
+    uiWindowPos: 3,2
+    strippingWindowPos: 3,2
+    displayName: Underwear
+    # whitelist:
+    #   tags:
+    #     - underwear
+  - name: socks
+    slotTexture: socks
+    slotFlags: SOCKS
+    stripTime: 6
+    uiWindowPos: 3,1
+    strippingWindowPos: 3,3
+    displayName: Socks
+    # whitelist:
+    #   tags:
+    #     - socks

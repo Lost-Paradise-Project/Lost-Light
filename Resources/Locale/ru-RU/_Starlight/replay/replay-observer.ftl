@@ -12,3 +12,5 @@ replay-observer-status-icons-off = Значки статуса выключен�
 replay-observer-verb-view-laws = Посмотреть законы
 replay-observer-verb-view-moods = Посмотреть настроения
 replay-observer-ghostnado-none = Никто ни за кем не следует.
+replay-observer-weather-on = Оверлеи погоды показаны.
+replay-observer-weather-off = Оверлеи погоды скрыты.

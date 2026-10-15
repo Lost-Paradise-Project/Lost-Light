@@ -680,7 +680,7 @@
       state: Bartender
   - type: PresetIdCard
     job: Bartender
-    name: Пун Пун # LP edit
+    name: Pun Pun
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -1073,7 +1073,7 @@
     listNumber: false
 
 - type: entity
-  parent: [ IDCardStandard, BaseHighlyIllegalContraband ]
+  parent: [ BaseContrabandTier4, IDCardStandard ] # Blimpuf
   id: NinjaIDCard
   name: ninja ID card
   suffix: Ninja

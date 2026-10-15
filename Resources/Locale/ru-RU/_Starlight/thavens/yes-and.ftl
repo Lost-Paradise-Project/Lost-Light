@@ -241,3 +241,30 @@ thaven-mood-insecure-desc = Вас глубоко волнует, что люд�
 
 thaven-mood-live-laugh-love-name = Живи, смейся, люби
 thaven-mood-live-laugh-love-desc = Проживите смену как последнюю. Смейтесь над каждой шуткой. Распространяйте радость и любовь станции.
+
+thaven-mood-knightly-name = Рыцарь
+thaven-mood-knightly-desc = Выберите одного человека и поклянитесь ему в вечной верности: выполняйте его приказы и защищайте любой ценой.
+
+thaven-mood-false-memories-name = Ложные воспоминания
+thaven-mood-false-memories-desc = У вас яркие воспоминания о важных событиях, которых никогда не было. Убедите других помочь вам расследовать их и предать огласке.
+
+thaven-mood-reality-leak-name = Утечка реальности
+thaven-mood-reality-leak-desc = Вы верите, что предметы и события время от времени приходят из параллельных вселенных. Выясните их происхождение и свойства с помощью проводимых над ними опытов.
+
+thaven-mood-department-conspiracy-name = Заговор отдела
+thaven-mood-department-conspiracy-desc = Отдел «{ $department }» тайно управляет станцией из-за кулис. Собирайте доказательства и раскройте правду.
+
+thaven-mood-formal-introductions-name = Формальные представления
+thaven-mood-formal-introductions-desc = Заговаривать с кем-то, не представившись как следует, крайне невежливо.
+
+thaven-mood-silence-means-agreement-name = Молчание — знак согласия
+thaven-mood-silence-means-agreement-desc = Отсутствие возражений — форма согласия. Вы по умолчанию считаете, что другие согласны, пока они не скажут обратное.
+
+thaven-mood-copycat-name = Подражатель
+thaven-mood-copycat-desc = Выберите одного человека. Одевайтесь похоже, ведите себя похоже и старайтесь быть как можно больше на него похожим.
+
+thaven-mood-communications-agent-name = Агент связи
+thaven-mood-communications-agent-desc = Вы должны следить, чтобы коллеги были излишне осведомлены почти о каждом событии и открытии в вашем отделе, каким бы незначительным оно ни было, и чтобы вы сами оставались в курсе.
+
+thaven-mood-the-curtains-must-rise-name = Шторы должны подняться
+thaven-mood-the-curtains-must-rise-desc = Приватность — священное право. Стройте и устанавливайте шторы, чтобы укрыться от посторонних глаз. Никто не должен видеть то, что предназначено быть личным.

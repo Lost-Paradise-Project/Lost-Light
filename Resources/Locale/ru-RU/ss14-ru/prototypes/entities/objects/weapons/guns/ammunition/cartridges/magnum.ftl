@@ -1,5 +1,5 @@
 ent-BaseCartridgeMagnum = патрон (.45 магнум)
-    .desc = { ent-BaseCartridge.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-CartridgeMagnumSP = патрон (.45 магнум SP)
     .desc = Тяжёлый патрон магнум, в основном используемый револьверами. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
 ent-CartridgeMagnumPractice = патрон (.45 магнум учебный)

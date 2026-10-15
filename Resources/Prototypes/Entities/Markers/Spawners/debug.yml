@@ -2,7 +2,6 @@
   name: Urist Spawner
   id: SpawnMobHuman
   parent: MarkerBase
-  categories: [ HideSpawnMenu ] # LP edit
   suffix: DEBUG
   components:
   - type: Sprite

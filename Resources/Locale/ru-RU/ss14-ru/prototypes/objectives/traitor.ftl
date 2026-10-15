@@ -44,6 +44,8 @@ ent-CaptainGunStealObjective = { ent-BaseCaptainObjective }
     .desc = { ent-BaseCaptainObjective.desc }
 ent-NukeDiskStealObjective = { ent-BaseCaptainObjective }
     .desc = { ent-BaseCaptainObjective.desc }
+ent-HijackTradeStationObjective = Взломайте Автоматическую торговую станцию.
+    .desc = Вашему аплинку разрешён один маяк взлома. Разверните его на Автоматической торговой станции и защищайте, пока он взламывает станцию.
 
 # ent-NukeDiskStealObjective = { ent-BaseCaptainObjective }
 #     .desc = { ent-BaseCaptainObjective.desc }

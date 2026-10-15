@@ -23,7 +23,7 @@
     - HeadSide
     - Hair # Starlight
     - Tail
-    # LP edit - убрано нижнее бельё (цензура наготы)
+    undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Hunger
   - type: Puller
     needsHands: false

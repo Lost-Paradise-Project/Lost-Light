@@ -1,0 +1,9 @@
+remote-control-signal-port-name = Удалённое управление
+remote-control-signal-port-description = Связывает консоль удалённого управления с интерфейсом удалённого управления.
+remote-control-target-player-controlled = Удалённое управление недоступно, пока сущностью управляют напрямую.
+remote-control-target-already-controlled = Эта сущность уже находится под удалённым управлением.
+remote-control-control-taken-over = Другой удалённый контроллер перехватил управление этой сущностью.
+remote-control-console-title = Удалённое управление
+remote-control-console-status-disconnected = Удалённая сущность не подключена
+remote-control-console-control-button-controlling = Управление
+remote-control-console-control-button-viewing = Просмотр

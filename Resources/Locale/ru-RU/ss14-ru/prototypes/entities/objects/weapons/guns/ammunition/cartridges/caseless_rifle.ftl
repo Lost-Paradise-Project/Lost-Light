@@ -1,5 +1,5 @@
 ent-BaseCartridgeCaselessRifle = патрон (.25 винтовочный)
-    .desc = { ent-BaseCartridge.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-CartridgeCaselessRifle = патрон (.25 безгильзовый)
     .desc = Малый калибр, использующий безгильзовую технологию, где вместо обычной латунной гильзы применяется твёрдое метательное вещество. Стандартный кинетический боеприпас распространён и полезен в большинстве ситуаций.
 ent-CartridgeCaselessRiflePractice = патрон (.25 безгильзовый учебный)

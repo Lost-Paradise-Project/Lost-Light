@@ -7,5 +7,13 @@ round-end-system-shuttle-recalled-announcement = Эвакуационный ша
 round-end-system-shuttle-sender-announcement = Станция
 round-end-system-round-restart-eta-announcement = Раунд перезапустится через { $time } { $units }...
 
-eta-units-minutes = мин.
-eta-units-seconds = сек.
+eta-units-minutes = { $amount ->
+    [one] минуту
+    [few] минуты
+    *[other] минут
+}
+eta-units-seconds = { $amount ->
+    [one] секунду
+    [few] секунды
+    *[other] секунд
+}

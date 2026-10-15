@@ -7,3 +7,4 @@ gun-heat-examine-warm = Ствол [color=orange]тёплый[/color].
 gun-heat-examine-hot = Ствол [color=orangered]горячий[/color].
 gun-heat-examine-overheated = Ствол [color=red]перегрет[/color] и может заклинить.
 gun-heat-examine-critical = Ствол [color=red]раскалён докрасна[/color]! Боёк вот-вот расплавится.
+gun-heat-crystal-cracked = Кристалл линзы { $gun } трескается от перегрева!
