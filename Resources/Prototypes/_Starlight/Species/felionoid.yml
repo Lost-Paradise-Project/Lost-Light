@@ -44,7 +44,7 @@
 
 - type: markingPoints
   id: MobFelionoidMarkingLimits
-  onlyWhitelisted: false #LP edit
+  onlyWhitelisted: true
   points:
     Hair:
       points: 1
@@ -110,19 +110,19 @@
   id: MobFelionoidTorso
   baseSprite:
     sprite: _Starlight/Mobs/Species/Felionoid/parts.rsi
-    state: torso_m #LP edit
+    state: torso
 
 - type: humanoidBaseSprite
   id: MobFelionoidTorsoMale
   baseSprite:
     sprite: _Starlight/Mobs/Species/Felionoid/parts.rsi
-    state: torso_m #LP edit
+    state: torso
 
 - type: humanoidBaseSprite
   id: MobFelionoidTorsoFemale
   baseSprite:
     sprite: _Starlight/Mobs/Species/Felionoid/parts.rsi
-    state: torso_f #LP edit
+    state: torso
 
 - type: humanoidBaseSprite
   id: MobFelionoidLLeg

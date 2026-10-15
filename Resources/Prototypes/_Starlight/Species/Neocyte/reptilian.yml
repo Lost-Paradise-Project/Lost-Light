@@ -3,7 +3,7 @@
   name: subspecies-name-neoreptilian
   roundStart: true
   prototype: MobNeoReptilian
-  sprites: LPPMobNeocyteReptilianSprites #LP edit
+  sprites: MobNeoReptilianSprites
   defaultSkinTone: "#faf7f7"
   markingLimits: MobNeoReptilianMarkingLimits
   dollPrototype: AppearanceNeoReptilian
@@ -51,22 +51,20 @@
   points:
     FaceCover:
       points: 1
-#LP edit start
-      required: false
-      defaultMarkings: [ LPPNeoReptilianvisor ]
+      required: true
+      defaultMarkings: [ NeoVulpkaninVisor ]
     FaceCoverCover:
       points: 1
-      required: false
-      # defaultMarkings: [ NeoReptilianLEDFaceBoxy ]
+      required: true
+      defaultMarkings: [ NeoReptilianLEDFaceBoxy ]
     BodyCover:
       points: 1
-      required: false
-      # defaultMarkings: [ NeocyteMediumArmor ]
+      required: true
+      defaultMarkings: [ NeocyteMediumArmor ]
     BodyCoverCover:
       points: 1
-      required: false
-      # defaultMarkings: [ NeocyteLights ]
-#LP edit end
+      required: true
+      defaultMarkings: [ NeocyteLights ]
     Hair:
       points: 1
       required: false

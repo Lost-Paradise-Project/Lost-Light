@@ -13,10 +13,8 @@
   femaleFirstNames: names_experiment
   naming: IdFirst
   customName: true
-#LP edit start give expies sexes
-  # sexes:
-  # - Unsexed
-#LP edit end
+  sexes:
+  - Unsexed
   minHeight: 0.8
   defaultHeight: 1
   maxHeight: 1.1
