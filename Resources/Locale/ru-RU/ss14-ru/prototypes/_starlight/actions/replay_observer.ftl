@@ -4,5 +4,7 @@ ent-ActionReplayTogglePlayerOverlay = Переключить оверлей иг
     .desc = Показывать имена пользователей и статус антагонистов над игроками в этом повторе.
 ent-ActionReplayToggleStatusIcons = Переключить значки статуса
     .desc = Показывать значки должности, щита разума и здоровья в этом повторе.
+ent-ActionReplayToggleWeather = переключить погоду
+    .desc = Показать или скрыть оверлеи погоды в этом повторе.
 ent-ReplayObserverStatusHud = { "" }
     .desc = { "" }

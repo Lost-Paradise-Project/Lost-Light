@@ -9,8 +9,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPStaffReq # LP edit
-  category: LPGhostStaff # LP edit
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: SpaceDragonStaffTheme
@@ -24,8 +24,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPStaffReq # LP edit
-  category: LPGhostStaff # LP edit
+    requirement: StaffRolesReq
+  category: Staff
 
 - type: ghostTheme
   id: BuffRatKingTheme
@@ -39,8 +39,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPModerationReq # LP edit
-  category: LPGhostModeration # LP edit
+    requirement: TicketsAdministratorReq
+  category: Staff
 
 - type: ghostTheme
   id: FoxTheme
@@ -54,8 +54,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPModerationReq # LP edit
-  category: LPGhostModeration # LP edit
+    requirement: TicketsAdministratorReq
+  category: Staff
 
 - type: ghostTheme
   id: LizardPlushie
@@ -69,8 +69,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPModerationReq # LP edit
-  category: LPGhostModeration # LP edit
+    requirement: TicketsAdministratorReq
+  category: Staff
 
 - type: ghostTheme
   id: MothroachTheme
@@ -84,8 +84,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPModerationReq # LP edit
-  category: LPGhostModeration # LP edit
+    requirement: TicketsAdministratorReq
+  category: Staff
 
 - type: ghostTheme
   id: ScurretTheme
@@ -99,8 +99,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPModerationReq # LP edit
-  category: LPGhostModeration # LP edit
+    requirement: TicketsAdministratorReq
+  category: Staff
 
 - type: ghostTheme
   id: WispTheme
@@ -114,8 +114,8 @@
       shader: unshaded
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPLeadDevelopersReq # LP edit
-  category: LPGhostDevelopers # LP edit
+    requirement: SeniorDeveloperReq
+  category: Staff
 
 - type: ghostTheme
   id: CustodianTheme
@@ -128,5 +128,5 @@
       state: ghost-custodian
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPDevelopersReq # LP edit
-  category: LPGhostDevelopers # LP edit
+    requirement: DeveloperReq
+  category: Staff

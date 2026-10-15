@@ -48,4 +48,18 @@ Entries:
   id: 7
   time: '2026-10-12T07:03:50.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/31
+- author: Maraxar
+  changes:
+  - message: Добавил малый реактор и малую турбина в продажу за 8 тысяч кредитов.
+    type: Add
+  id: 8
+  time: '2026-10-14T07:56:58.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/28
+- author: Maraxar
+  changes:
+  - message: 'Изменил название всем малым реакторам, теперь они называются одинаково: "Малые", раньше были ещё маленькие.'
+    type: Tweak
+  id: 9
+  time: '2026-10-14T07:56:58.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/28
 Order: -3

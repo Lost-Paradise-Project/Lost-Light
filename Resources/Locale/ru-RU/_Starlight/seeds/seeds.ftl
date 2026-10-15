@@ -10,5 +10,6 @@ seeds-spear-mint-name = колосовая мята
 seeds-spear-mint-display-name = колосовая мята
 seeds-cinnamon-name = коричное дерево
 seeds-cinnamon-display-name = коричное дерево
+seeds-brown-mushroom-name = коричневый гриб
 seeds-cinnaflare-name = корицепламенное дерево
 seeds-cinnaflare-display-name = корицепламенное дерево

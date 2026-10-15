@@ -71,3 +71,5 @@ ent-ClothingHeadHelmetHardsuitGreenshield = шлем скафандра Зелё
 ent-ChangelingClothingHeadHelmetHardsuit = органический космический шлем
     .desc = Пригодная для космоса биомасса из ткани, стойкой к давлению и температуре.
     .suffix = Неснимаемый
+ent-ClothingHeadHelmetHardsuitLossPrevention = шлем службы предотвращения потерь МТГ
+    .desc = Сбоку по царапине за каждого магазинного вора, которому не посчастливилось увидеть этот шлем.

@@ -12,3 +12,5 @@ ent-CinnamonPlants = коричное дерево
     .desc = { ent-BasePlant.desc }
 ent-CinnaflarePlants = корицепламенное дерево
     .desc = { ent-BasePlant.desc }
+ent-BrownMushroomPlants = коричневые грибы
+    .desc = { ent-ChanterellePlants.desc }

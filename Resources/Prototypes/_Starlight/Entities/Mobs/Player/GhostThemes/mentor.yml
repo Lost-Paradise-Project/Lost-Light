@@ -9,8 +9,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPMentorsReq # LP edit
-  category: LPGhostMentor # LP edit
+    requirement: MentorRolesReq
+  category: Mentor
 
 - type: ghostTheme
   id: Daemon
@@ -23,5 +23,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPMentorsReq # LP edit
-  category: LPGhostMentor # LP edit
+    requirement: MentorRolesReq
+  category: Mentor

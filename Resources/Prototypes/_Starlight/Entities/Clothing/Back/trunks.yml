@@ -44,6 +44,8 @@
   name: syndicate trunk
   description: Huge, metal, and stylish. All the other syndicates will want to get their hands on this trunk.
   components:
+  - type: Contraband # Blimpuf
+    contrabandType: Syndicate
   - type: Sprite
     sprite: _Starlight/Clothing/Back/Trunks/syndicate.rsi
   - type: ExplosionResistance
@@ -89,6 +91,6 @@
     baseWalkSpeed: 0
     baseSprintSpeed: 0
   - type: TextToSpeech
-    voice: ntts_tracer # LP edit - голос ntts (был karma)
+    voice: karma
   - type: AntagImmune
 # Fashion-O-Mat END

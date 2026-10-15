@@ -21,9 +21,9 @@ DEBUG_CHANGELOG_FILE_OLD = Path("Resources/Changelog/Old.yml")
 GITHUB_API_URL = os.environ.get("GITHUB_API_URL", "https://api.github.com")
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
-DISCORD_CHANGELOG_ROLE_ID = int(os.environ.get("DISCORD_CHANGELOG_ROLE_ID", "1308143973684088883"))
+DISCORD_CHANGELOG_ROLE_ID = os.environ.get("DISCORD_CHANGELOG_ROLE_ID", "").strip() # LP edit - пинг роли необязателен
 
-CHANGELOG_FILE = "Resources/Changelog/ChangelogLP.yml"
+CHANGELOG_FILE = os.environ.get("CHANGELOG_FILE_PATH", "Resources/Changelog/ChangelogLP.yml") # LP edit
 # Must match the changelog job name in .github/workflows/publish.yml and publish-testing.yml
 CHANGELOG_JOB_NAME = "Publish Changelogs"
 MAX_RUN_PAGES = 10
@@ -39,7 +39,7 @@ EMBED_FIELD_VALUE_LIMIT = 1024
 def main():
     if not DISCORD_WEBHOOK_URL:
         # Fail the job: a successful changelog job is what later runs treat as "already sent".
-        print("No webhook URL; cannot send changelogs", file=sys.stderr)
+        print("Не задан вебхук, отправлять чейнджлог некуда", file=sys.stderr) # LP edit
         sys.exit(1)
 
     if DEBUG:
@@ -52,12 +52,13 @@ def main():
         cur_changelog = yaml.safe_load(f) or {}
 
     new_entries = list(diff_changelog(last_changelog, cur_changelog))
-    print(f"{len(new_entries)} new changelog entries to send.")
+    print(f"Новых записей к отправке: {len(new_entries)}") # LP edit
     if not new_entries:
-        print("No new entries to report.")
+        print("Новых записей нет.") # LP edit
         return
 
-    ping_role_once(str(DISCORD_CHANGELOG_ROLE_ID))
+    if DISCORD_CHANGELOG_ROLE_ID: # LP edit
+        ping_role_once(DISCORD_CHANGELOG_ROLE_ID)
 
     pr_groups = group_entries_by_pr(new_entries)
     for pr_id, entries in pr_groups.items():
@@ -94,7 +95,7 @@ def get_most_recent_workflow(
             if changelog_job_succeeded(sess, run):
                 return run
 
-    raise RuntimeError("No previous run with a successful changelog job found")
+    raise RuntimeError("Не найден предыдущий запуск с успешной отправкой чейнджлога") # LP edit
 
 
 def changelog_job_succeeded(sess: requests.Session, run: Any) -> bool:
@@ -126,7 +127,7 @@ def get_last_changelog() -> str:
 
     most_recent = get_most_recent_workflow(session, github_repository, github_run)
     last_sha = most_recent["head_sha"]
-    print(f"Last run with sent changelogs was {most_recent['id']} ({most_recent['created_at']}): {last_sha}")
+    print(f"Последняя отправка чейнджлога: запуск {most_recent['id']} ({most_recent['created_at']}), коммит {last_sha}") # LP edit
     return get_last_changelog_by_sha(session, last_sha, github_repository)
 
 
@@ -149,7 +150,7 @@ def diff_changelog(old: dict[str, Any], cur: dict[str, Any]) -> Iterable[Changel
     old_ids = {e["id"] for e in old.get("Entries", [])}
     if not old_ids:
         # Never dump the whole changelog because the previous one could not be read.
-        raise RuntimeError("Previous changelog has no entries; refusing to resend everything")
+        raise RuntimeError("В прошлом чейнджлоге нет записей, отправлять всё заново не будем") # LP edit
 
     return (e for e in cur.get("Entries", []) if e["id"] not in old_ids)
 
@@ -171,7 +172,7 @@ def build_embed_for_pr(pr_id: str, entries: list[ChangelogEntry]) -> dict[str, A
     description_lines: list[str] = []
 
     for entry in entries:
-        authors.add(entry.get("author", "Unknown"))
+        authors.add(entry.get("author", "Неизвестный")) # LP edit
         url = entry.get("url", "").strip() or None
         for change in entry.get("changes", []):
             emoji = TYPES_TO_EMOJI.get(change.get("type", ""), "❓")
@@ -185,7 +186,7 @@ def build_embed_for_pr(pr_id: str, entries: list[ChangelogEntry]) -> dict[str, A
 
     description = "\n".join(description_lines)
     if len(description) > EMBED_DESCRIPTION_LIMIT:
-        description = description[: EMBED_DESCRIPTION_LIMIT - 50].rstrip() + "\n*...truncated...*"
+        description = description[: EMBED_DESCRIPTION_LIMIT - 50].rstrip() + "\n*...обрезано...*" # LP edit
 
     sorted_authors = sorted(authors)
     authors_str = ", ".join(sorted_authors)
@@ -212,7 +213,7 @@ def build_embed_for_pr(pr_id: str, entries: list[ChangelogEntry]) -> dict[str, A
   #      "fields": [
   #          {"name": "Author(s)", "value": author_field[:EMBED_FIELD_VALUE_LIMIT], "inline": False}
   #      ],
-        "footer": {"text": "Lost Paradise changelog"},
+        "footer": {"text": "Lost Paradise · список изменений"}, # LP edit
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     }
     if pr_id != "no-pr":
@@ -229,7 +230,7 @@ def send_embed(embed: dict[str, Any]):
 
 
 def ping_role_once(role_id: str):
-    content = f"<@&{role_id}> New changelog updates are ready for release."
+    content = f"<@&{role_id}> Вышло обновление! Список изменений ниже." # LP edit
     payload = {
         "content": content,
         "allowed_mentions": {"roles": [int(role_id)]},
@@ -245,10 +246,10 @@ def post_with_retries(payload: dict[str, Any]):
             if resp.status_code == 429:
                 attempt += 1
                 if attempt > 20:
-                    print("Too many rate limit retries; giving up", file=sys.stderr)
+                    print("Слишком много повторов из-за лимита Discord, сдаёмся", file=sys.stderr) # LP edit
                     sys.exit(1)
                 retry_after = resp.json().get("retry_after", 5)
-                print(f"Rate limited; sleeping {retry_after}s (attempt {attempt})")
+                print(f"Лимит Discord, ждём {retry_after} с (попытка {attempt})") # LP edit
                 time.sleep(retry_after)
                 continue
             resp.raise_for_status()
@@ -257,10 +258,10 @@ def post_with_retries(payload: dict[str, Any]):
             attempt += 1
             if attempt > 5:
                 # Fail the job so the next run does not treat these entries as sent.
-                print(f"Failed after retries: {e}", file=sys.stderr)
+                print(f"Не удалось отправить после повторов: {e}", file=sys.stderr) # LP edit
                 sys.exit(1)
             backoff = 2 ** attempt
-            print(f"Request failed ({e}), backing off {backoff}s and retrying")
+            print(f"Ошибка запроса ({e}), повтор через {backoff} с") # LP edit
             time.sleep(backoff)
 
 

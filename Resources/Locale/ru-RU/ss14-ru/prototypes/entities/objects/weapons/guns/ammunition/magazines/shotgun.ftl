@@ -1,5 +1,5 @@
 ent-BaseMagazineShotgun = барабан (12 калибр картечь)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-MagazineShotgunEmpty = барабан (12 калибр любые)
     .desc = Большой барабанный магазин, используемый в некоторых армейских автоматических дробовиках.
     .suffix = Пустой

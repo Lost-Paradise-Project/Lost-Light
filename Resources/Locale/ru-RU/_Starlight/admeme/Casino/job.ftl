@@ -4,3 +4,6 @@ job-name-casino-security = СБ «Гоморры»
 job-name-casino-dealer = Крупье «Гоморры»
 job-name-casino-brigmed = Бригмедик «Гоморры»
 job-name-casino-treasurer = Казначей «Гоморры»
+
+department-Casino = Казино «Гоморра»
+department-Casino-description = Персонал казино «Гоморра».

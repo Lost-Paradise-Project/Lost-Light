@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McWebs
-  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid]
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny] # LP edit
   id: BaseMobArachnid
   abstract: true
   components:
@@ -63,7 +63,16 @@
       path: /Audio/Effects/bite.ogg
     damage:
       types:
-        Piercing: 5
+        Piercing: 4 # LP edit start
+        Poison: 0.04
+  - type: SolutionRegeneration
+    generated:
+      reagents:
+      - ReagentId: Mechanotoxin
+        Quantity: 1
+  - type: MeleeChemicalInjector
+    transferAmount: 0.12
+    solution: melee # LP edit end
   # Visual & Audio
   - type: DamageVisuals
     damageOverlayGroups:
@@ -78,6 +87,10 @@
   - type: Vocal
   - type: TypingIndicator
     proto: spider
+  - type: CreamPied
+    sprite:
+      sprite: Effects/creampie.rsi
+      state: creampie_arachnid
   - type: Sprite # I'd prefer if these maps were better. Insert map pun here.
     layers:
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -122,9 +135,5 @@
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
-        visible: false
-      - map: [ "clownedon" ] # Dynamically generated
-        sprite: "Effects/creampie.rsi"
-        state: "creampie_arachnid"
         visible: false
 #>88w88<

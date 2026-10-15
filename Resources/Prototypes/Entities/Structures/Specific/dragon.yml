@@ -28,7 +28,7 @@
     netsync: false
   - type: NavMapBeacon
     color: "#ff0000"
-    defaultText: nav-beacon-carp-rift # LP edit
+    text: carp rift
     # only show after making the announcement at 50%
     enabled: false
   - type: Damageable

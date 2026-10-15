@@ -122,10 +122,10 @@
       sprite: Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false # Starlight end: Layering fix
-    - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
-      state: "creampie_vulpkanin"
-      visible: false
+  - type: CreamPied
+    sprite:
+      sprite: Effects/creampie.rsi
+      state: creampie_vulpkanin
   - type: HumanoidAppearance
     species: Vulpkanin
     # LP edit - убрано нижнее бельё (цензура наготы)

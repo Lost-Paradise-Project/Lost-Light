@@ -1,0 +1,128 @@
+# Ключи локализации и русские значения вместо английских строк
+
+- type: !PartialOnly entity
+  id: BorgChassisSelectable
+  components:
+  - type: BorgTransponder
+    name: borg-transponder-borg-chassis-selectable-name
+
+- type: !PartialOnly entity
+  id: XenoborgEngi
+  components:
+  - type: BorgTransponder
+    name: borg-transponder-xenoborg-engi-name
+
+- type: !PartialOnly entity
+  id: XenoborgHeavy
+  components:
+  - type: BorgTransponder
+    name: borg-transponder-xenoborg-heavy-name
+
+- type: !PartialOnly entity
+  id: XenoborgScout
+  components:
+  - type: BorgTransponder
+    name: borg-transponder-xenoborg-scout-name
+
+- type: !PartialOnly entity
+  id: XenoborgStealth
+  components:
+  - type: BorgTransponder
+    name: borg-transponder-xenoborg-stealth-name
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - PinpointerNuclear
+    - PinpointerSyndicateNuclear
+  components:
+  - type: Pinpointer
+    targetName: pinpointer-target-nuke-disk
+
+- type: !PartialOnly entity
+  id: PinpointerStation
+  components:
+  - type: Pinpointer
+    targetName: pinpointer-target-station
+
+- type: !PartialOnly entity
+  id: PinpointerMothership
+  components:
+  - type: Pinpointer
+    targetName: pinpointer-target-mothership
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconCentComm
+  components:
+  - type: NavMapBeacon
+    text: !Remove
+    defaultText: station-beacon-centcomm
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconCentCommAfterhours
+  components:
+  - type: NavMapBeacon
+    text: !Remove
+    defaultText: station-beacon-centcomm-afterhours
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconCentCommThunderdome
+  components:
+  - type: NavMapBeacon
+    text: !Remove
+    defaultText: station-beacon-centcomm-thunderdome
+
+- type: !PartialOnly entity
+  id: DefaultStationBeaconCentCommERT
+  components:
+  - type: NavMapBeacon
+    text: !Remove
+    defaultText: station-beacon-centcomm-ert
+
+- type: !PartialOnly entity
+  id: BookSpaceLaw
+  components:
+  - type: !Remove GuideHelp
+
+- type: !PartialOnly entity
+  id: PunPunIDCard
+  components:
+  - type: PresetIdCard
+    name: Пун Пун
+
+- type: !PartialOnly entity
+  id: RubberStampWizard
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-rubber-stamp-wizard
+
+- type: !PartialOnly material
+  id: Credit
+  name: materials-credit
+
+- type: !PartialOnly entity
+  id: NuclearBomb
+  components:
+  - type: NavMapBeacon
+    text: !Remove
+    defaultText: nav-beacon-nuke
+
+- type: !PartialOnly entity
+  id: CarpRift
+  components:
+  - type: NavMapBeacon
+    text: !Remove
+    defaultText: nav-beacon-carp-rift
+
+- type: !PartialOnly entity
+  id: BorgChassisSecurity
+  components:
+  - type: ActionGrant
+    actions:
+    - !Remove ActionBorgOpenLawbook
+
+- type: !PartialOnly entity
+  id: StirStirIDCard
+  components:
+  - type: PresetIdCard
+    name: Стир Стир

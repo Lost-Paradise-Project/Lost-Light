@@ -21,3 +21,6 @@ reagent-physical-desc-mint-extract = мятный
 reagent-name-cinnamon = Корица
 reagent-desc-cinnamon = Одна из специй жизни. Не пробуйте ложку в сыром виде.
 reagent-physical-desc-cinnamon = с корицей
+
+reagent-name-stellibininsyrup = сироп стеллибинина
+reagent-desc-stellibininsyrup = Как лекарство хуже, но, добавленный в еду, предотвращает отравление теобромином и аллицином. Метаболизируется медленно.

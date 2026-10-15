@@ -16,3 +16,4 @@ admin-trick-give-moods-description = Дать этой сущности наст
 admin-trick-floodpipes = Заливка цветом
 admin-trick-floodpipes-description = Заливает цветом трубы все подключённые трубы.
 admin-trick-autolink-air-alarms = Автоматически связывает атмосферные сигнализации с атмосферными устройствами и противопожарными шлюзами.
+admin-trick-autolink-fire-alarms = Автоматически связывает пожарные сигнализации с противопожарными шлюзами в помещении.

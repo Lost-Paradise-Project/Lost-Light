@@ -247,7 +247,6 @@
 
 - type: entity
   id: VampireEternalDarknessAura
-  name: eternal darkness aura # LP edit
   components:
     - type: Transform
       anchored: false

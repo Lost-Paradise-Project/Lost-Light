@@ -2,7 +2,6 @@
   name: bang hitscan 1dmg
   parent: BaseWeaponBatterySmall
   id: WeaponHitscanDebug
-  categories: [ HideSpawnMenu ] # LP edit
   description: pew pew!
   suffix: DEBUG
   components:
@@ -34,7 +33,6 @@
   name: bang, ded
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
-  categories: [ HideSpawnMenu ] # LP edit
   description: ded
   suffix: DEBUG
   components:
@@ -55,7 +53,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: item-slot-component-slot-name-magazine # LP edit
+        name: Magazine
         startingItem: MagazinePistolDebug
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -64,7 +62,7 @@
           tags:
             - MagazineDebug
       gun_chamber:
-        name: item-slot-component-slot-name-chamber # LP edit
+        name: Chamber
         startingItem: CartridgeDebug
         priority: 1
         whitelist:
@@ -73,7 +71,6 @@
 
 - type: entity
   id: MagazinePistolDebug
-  categories: [ HideSpawnMenu ] # LP edit
   name: bang, ded mag
   parent: BaseMagazinePistol
   suffix: DEBUG
@@ -101,7 +98,6 @@
 
 - type: entity
   id: CartridgeDebug
-  categories: [ HideSpawnMenu ] # LP edit
   name: bang, ded cartridge
   parent: BaseCartridgePistol
   suffix: DEBUG
@@ -114,7 +110,6 @@
 
 - type: entity
   name: bang stick gibber
-  categories: [ HideSpawnMenu ] # LP edit
   parent: BaseItem
   id: MeleeDebugGib
   description: hit hard ye

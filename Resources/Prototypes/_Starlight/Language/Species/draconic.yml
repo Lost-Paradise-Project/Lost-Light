@@ -1,7 +1,7 @@
 - type: language
   id: Draconic
   icon: LanguageIconLizard
-  chatPrefix: дра # LP edit
+  chatPrefix: drc
   speech:
     color: "#2aca2add"
     fontId: Draconic

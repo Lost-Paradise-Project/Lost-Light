@@ -1,5 +1,5 @@
 ent-BaseCartridgePistol = патрон (.35 авто)
-    .desc = { ent-BaseCartridge.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-CartridgePistolSP = патрон (.35 авто SP)
     .desc = Пожалуй, самый популярный калибр на рынке, используется всеми видами пистолетов и пистолетов-пулемётов. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
 ent-CartridgePistolPractice = патрон (.35 авто учебный)

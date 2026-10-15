@@ -1,0 +1,201 @@
+# Русские префиксы чата для языков
+
+- type: !PartialOnly language
+  id: Ancestor
+  chatPrefix: пре
+
+- type: !PartialOnly language
+  id: Mouse
+  chatPrefix: мыш
+
+- type: !PartialOnly language
+  id: Cat
+  chatPrefix: кош
+
+- type: !PartialOnly language
+  id: CatFeral
+  chatPrefix: кшд
+
+- type: !PartialOnly language
+  id: Dog
+  chatPrefix: соб
+
+- type: !PartialOnly language
+  id: DogFeral
+  chatPrefix: сбд
+
+- type: !PartialOnly language
+  id: Fox
+  chatPrefix: лис
+
+- type: !PartialOnly language
+  id: Chicken
+  chatPrefix: кур
+
+- type: !PartialOnly language
+  id: Duck
+  chatPrefix: утк
+
+- type: !PartialOnly language
+  id: Pig
+  chatPrefix: сви
+
+- type: !PartialOnly language
+  id: Bat
+  chatPrefix: лет
+
+- type: !PartialOnly language
+  id: Penguin
+  chatPrefix: пин
+
+- type: !PartialOnly language
+  id: Carptongue
+  chatPrefix: крп
+
+- type: !PartialOnly language
+  id: Mothroach
+  chatPrefix: тар
+
+- type: !PartialOnly language
+  id: ScurretSign
+  chatPrefix: ску
+
+- type: !PartialOnly language
+  id: Xeno
+  chatPrefix: ксе
+
+- type: !PartialOnly language
+  id: Classical
+  chatPrefix: кла
+
+- type: !PartialOnly language
+  id: Darktongue
+  chatPrefix: тьм
+
+- type: !PartialOnly language
+  id: GalacticCommon
+  chatPrefix: г
+
+- type: !PartialOnly language
+  id: Scratch
+  chatPrefix: скр
+
+- type: !PartialOnly language
+  id: SolCommon
+  chatPrefix: сол
+
+- type: !PartialOnly language
+  id: Aielic
+  chatPrefix: айе
+
+- type: !PartialOnly language
+  id: Bubblish
+  chatPrefix: баб
+
+- type: !PartialOnly language
+  id: Canilunzt
+  chatPrefix: кан
+
+- type: !PartialOnly language
+  id: Chittin
+  chatPrefix: чит
+
+- type: !PartialOnly language
+  id: Draconic
+  chatPrefix: дра
+
+- type: !PartialOnly language
+  id: Felyaic
+  chatPrefix: фел
+
+- type: !PartialOnly language
+  id: Grumbakul
+  chatPrefix: гру
+
+- type: !PartialOnly language
+  id: Lagomorphian
+  chatPrefix: лаг
+
+- type: !PartialOnly language
+  id: Marish
+  chatPrefix: мар
+
+- type: !PartialOnly language
+  id: Moffic
+  chatPrefix: моф
+
+- type: !PartialOnly language
+  id: Nekomimetic
+  chatPrefix: нек
+
+- type: !PartialOnly language
+  id: Squeakish
+  chatPrefix: пис
+
+- type: !PartialOnly language
+  id: Sylvan
+  chatPrefix: сил
+
+- type: !PartialOnly language
+  id: Terrum
+  chatPrefix: тер
+
+- type: !PartialOnly language
+  id: Thaveyan
+  chatPrefix: тав
+
+- type: !PartialOnly language
+  id: VoxPidgin
+  chatPrefix: вок
+
+- type: !PartialOnly language
+  id: Universal
+  chatPrefix: у
+
+- type: !PartialOnly language
+  id: Machine
+  chatPrefix: м
+
+- type: !PartialOnly language
+  id: Zombie
+  chatPrefix: зом
+
+- type: !PartialOnly language
+  id: Sign
+  chatPrefix: ж
+
+- type: !PartialOnly language
+  id: ClassicalSign
+  chatPrefix: клж
+
+- type: !PartialOnly language
+  id: CodeSpeak
+  chatPrefix: код
+
+- type: !PartialOnly language
+  id: Cosmic
+  chatPrefix: а
+
+- type: !PartialOnly language
+  id: Nexus
+  chatPrefix: н
+
+- type: !PartialOnly language
+  id: Changeling
+  chatPrefix: р
+
+- type: !PartialOnly language
+  id: Dantalion
+  chatPrefix: д
+
+- type: !PartialOnly language
+  id: Empathy
+  chatPrefix: э
+
+- type: !PartialOnly language
+  id: Carpmind
+  chatPrefix: к
+
+- type: !PartialOnly language
+  id: Xenomind
+  chatPrefix: х
