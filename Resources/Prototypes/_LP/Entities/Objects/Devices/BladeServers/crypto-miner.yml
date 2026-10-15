@@ -1,0 +1,43 @@
+- type: entity
+  parent: ConstructibleBladeServer
+  id: LPCryptoMinerBladeServer
+  name: crypto miner blade server
+  description: Mines cryptocurrency for the station budget. Eats a lot of power and gets very hot, keep the server room cool.
+  components:
+  - type: BladeServer
+    stripeColor: "#E8A317FF"
+  - type: Machine
+    board: LPCryptoMinerCircuitboard
+  - type: CryptoMiner
+  - type: ItemSlots
+    slots:
+      crypto_chip:
+        name: crypto-miner-chip-slot-name
+        whitelist:
+          components:
+          - CryptoMinerChip
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      crypto_chip: !type:ContainerSlot
+  - type: ApcPowerReceiver
+  - type: ExtensionCableReceiver
+  - type: WiresPanel
+  - type: WiresVisuals
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
+  - type: Repairable
+    fuelCost: 10
+    doAfterDelay: 5
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+  - type: GuideHelp
+    guides:
+    - LPCryptoMining

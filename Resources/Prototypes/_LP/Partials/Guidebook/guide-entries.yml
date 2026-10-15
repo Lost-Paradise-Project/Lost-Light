@@ -1,0 +1,6 @@
+# Наши записи гайдбука в чужих разделах
+
+- type: !PartialOnly guideEntry
+  id: Power
+  children:
+  - LPCryptoMining

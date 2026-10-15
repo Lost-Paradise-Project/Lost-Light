@@ -1,0 +1,12 @@
+# Наши платы и рецепты в технологиях и наборах лейтов
+
+# Крипто-майнер
+- type: !PartialOnly technology
+  id: PowerGeneration
+  recipeUnlocks:
+  - LPCryptoMinerCircuitboard
+
+- type: !PartialOnly latheRecipePack
+  id: EngineeringBoards
+  recipes:
+  - LPCryptoMinerCircuitboard

@@ -1,0 +1,16 @@
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: LPCryptoMinerCircuitboard
+  name: crypto miner blade server board
+  description: A machine printed circuit board for a crypto miner blade server. Assembled in a blade server frame.
+  components:
+  - type: Sprite
+    state: engineering
+  - type: MachineBoard
+    prototype: LPCryptoMinerBladeServer
+    stackRequirements:
+      Glass: 2
+      Cable: 5
+      Gold: 1
+  - type: BladeServerBoard
+    prototype: LPCryptoMinerBladeServer

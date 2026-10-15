@@ -1,0 +1,12 @@
+- type: listing
+  id: UplinkLPCryptoMinerChipSyndicate
+  name: uplink-lp-crypto-miner-chip-name
+  description: uplink-lp-crypto-miner-chip-desc
+  productEntity: LPCryptoMinerChipSyndicate
+  discountCategory: usualDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkDisruption
