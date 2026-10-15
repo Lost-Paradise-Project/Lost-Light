@@ -4,7 +4,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: patch
 
 - type: marking
@@ -13,7 +13,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: skeleton_body
 
 - type: marking
@@ -22,7 +22,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: blots_body
 
 - type: marking
@@ -31,7 +31,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_overlay.rsi
       state: stripes_body
 
 - type: marking
@@ -40,7 +40,7 @@
   markingCategory: Arms
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_LHand
 
 - type: marking
@@ -49,7 +49,7 @@
   markingCategory: Arms
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_LArm
 
 - type: marking
@@ -58,7 +58,7 @@
   markingCategory: Arms
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_RHand
 
 - type: marking
@@ -67,7 +67,7 @@
   markingCategory: Arms
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_parts.rsi
       state: gradient_RArm
 
 - type: marking
@@ -76,7 +76,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: spikey
 
 - type: marking
@@ -85,7 +85,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: ladiesretro
 
 - type: marking
@@ -94,7 +94,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: braid
 
 - type: marking
@@ -103,7 +103,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: eyebrows
 
 - type: marking
@@ -112,7 +112,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: pigtail
 
 - type: marking
@@ -121,7 +121,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: curly
 
 - type: marking
@@ -130,7 +130,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: bob
 
 - type: marking
@@ -139,7 +139,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: fingerwave
 
 - type: marking
@@ -148,7 +148,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: plait
 
 - type: marking
@@ -157,7 +157,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: ponytail
 
 - type: marking
@@ -166,7 +166,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: clean
 
 - type: marking
@@ -175,7 +175,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: rattail
 
 - type: marking
@@ -184,7 +184,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: bedhead
 
 - type: marking
@@ -193,7 +193,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: victory
 
 - type: marking
@@ -202,7 +202,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: shaggy
 
 - type: marking
@@ -211,7 +211,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: mohawk
 
 - type: marking
@@ -220,7 +220,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: bangs
 
 - type: marking
@@ -229,7 +229,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: messy
 
 - type: marking
@@ -238,7 +238,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: straight
 
 - type: marking
@@ -247,7 +247,7 @@
   markingCategory: Hair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_hairs.rsi
       state: long
 
 - type: marking
@@ -256,7 +256,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: mustache_2
 
 - type: marking
@@ -265,7 +265,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: beard
 
 - type: marking
@@ -274,7 +274,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: mustache_3
 
 - type: marking
@@ -283,7 +283,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: cheeks
 
 - type: marking
@@ -292,7 +292,7 @@
   markingCategory: FacialHair
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_facial_hairs.rsi
       state: mustache
 
 - type: marking
@@ -301,7 +301,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: patch_2
 
 - type: marking
@@ -310,7 +310,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: eye_stripes_head
 
 - type: marking
@@ -319,7 +319,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: tiger_head
 
 - type: marking
@@ -328,7 +328,7 @@
   markingCategory: Snout
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: muzzle
 
 - type: marking
@@ -337,7 +337,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: tiger_face
 
 - type: marking
@@ -346,7 +346,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: star_head
 
 - type: marking
@@ -355,9 +355,9 @@
   markingCategory: HeadTop
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: inears
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: outears
 
 - type: marking
@@ -366,7 +366,7 @@
   markingCategory: Snout
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: nose
 
 - type: marking
@@ -375,7 +375,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: raccoon-head
 
 - type: marking
@@ -384,7 +384,7 @@
   markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: mane_head
 
 - type: marking
@@ -393,7 +393,7 @@
   markingCategory: Snout
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_head.rsi
       state: muzzleinears
 
 - type: marking
@@ -402,7 +402,7 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
 
 
@@ -412,7 +412,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: belly2
 
 - type: marking
@@ -421,7 +421,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: chest
 
 - type: marking
@@ -430,7 +430,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: belly1
 
 - type: marking
@@ -439,7 +439,7 @@
   markingCategory: Chest
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_chest.rsi
       state: belly3
 
 - type: marking
@@ -448,7 +448,7 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
 
 - type: marking
@@ -457,9 +457,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_ring
 
 - type: marking
@@ -468,9 +468,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_skeleton
 
 - type: marking
@@ -479,9 +479,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_tip
 
 - type: marking
@@ -490,9 +490,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_skeleton
 
 - type: marking
@@ -501,9 +501,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: wingler_1
 
 - type: marking
@@ -512,9 +512,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: wingler_2
 
 - type: marking
@@ -523,9 +523,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: wingler_3
 
 # Animated
@@ -535,9 +535,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: wingler_1_wagging
 
 - type: marking
@@ -546,9 +546,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: wingler_2_wagging
 
 - type: marking
@@ -557,9 +557,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: wingler_3_wagging
 
 - type: marking
@@ -568,9 +568,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_fluffy_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_skeleton_wagging
 
 - type: marking
@@ -579,9 +579,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_tip_wagging
 
 
@@ -591,7 +591,7 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m_wagging
 
 - type: marking
@@ -600,9 +600,9 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_ring_wagging
 
 - type: marking
@@ -611,7 +611,7 @@
   markingCategory: Tail
   speciesRestriction: [Tajaran]
   sprites:
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_m_wagging
-    - sprite: Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
+    - sprite: _Corvax/Mobs/Customization/Tajaran/tajaran_tail.rsi
       state: tail_skeleton_wagging

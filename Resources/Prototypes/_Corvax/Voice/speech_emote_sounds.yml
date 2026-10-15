@@ -5,13 +5,13 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Corvax/Effects/Tajaran/scream.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/scream.ogg
     Laugh:
-      path: /Audio/Corvax/Effects/Tajaran/laugh.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/laugh.ogg
     Sneeze:
-      path: /Audio/Corvax/Effects/Tajaran/sneeze.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/sneeze.ogg
     PurrAlt:
-      path: /Audio/Corvax/Effects/Tajaran/purr.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/purr.ogg
     Cough:
       collection: MaleCoughs
     Yawn:
@@ -19,15 +19,15 @@
     Snore:
       collection: Snores
     Sigh:
-      path: /Audio/Corvax/Effects/Tajaran/sigh.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/sigh.ogg
     Crying:
-      path: /Audio/Corvax/Effects/Tajaran/cry.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/cry.ogg
     Whistle:
       collection: Whistles
     Weh:
       collection: Weh
     Gasp:
-      path: /Audio/Corvax/Effects/Tajaran/gasp.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/gasp.ogg
     DefaultDeathgasp:
       collection: MaleDeathGasp
     Mew:
@@ -51,13 +51,13 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Corvax/Effects/Tajaran/scream.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/scream.ogg
     Laugh:
-      path: /Audio/Corvax/Effects/Tajaran/laugh.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/laugh.ogg
     Sneeze:
-      path: /Audio/Corvax/Effects/Tajaran/sneeze.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/sneeze.ogg
     PurrAlt:
-      path: /Audio/Corvax/Effects/Tajaran/purr.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/purr.ogg
     Cough:
       collection: FemaleCoughs
     Yawn:
@@ -65,15 +65,15 @@
     Snore:
       collection: Snores
     Sigh:
-      path: /Audio/Corvax/Effects/Tajaran/sigh.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/sigh.ogg
     Crying:
-      path: /Audio/Corvax/Effects/Tajaran/cry.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/cry.ogg
     Whistle:
       collection: Whistles
     Weh:
       collection: Weh
     Gasp:
-      path: /Audio/Corvax/Effects/Tajaran/gasp.ogg
+      path: /Audio/_Corvax/Effects/Tajaran/gasp.ogg
     DefaultDeathgasp:
       collection: FemaleDeathGasp
     Mew:

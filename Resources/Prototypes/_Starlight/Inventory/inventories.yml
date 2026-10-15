@@ -397,7 +397,7 @@
       shoes:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
 #LP edit start
       outerClothing:
@@ -525,7 +525,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi #LP edit
+            sprite: _Corvax/Mobs/Species/displacement.rsi #LP edit
             state: jumpsuit-female
       head:
         sizeMaps:
@@ -541,27 +541,27 @@
       outerClothing:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
       underwear:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       breast:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
 #LP edit end
 
@@ -580,32 +580,32 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       outerClothing:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
       underwear:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       breast:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
 #LP edit end
 
@@ -963,32 +963,32 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       outerClothing:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       shoes:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
       socks:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: shoes
       underwear:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
       breast:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: _Corvax/Mobs/Species/displacement.rsi
             state: jumpsuit
 #LP edit end
 

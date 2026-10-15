@@ -2,4 +2,4 @@
 - type: guideEntry
   id: Tajaran
   name: species-name-tajaran
-  text: "/ServerInfo/Corvax/Guidebook/Mobs/tajaran.xml"
+  text: "/ServerInfo/_Corvax/Guidebook/Mobs/tajaran.xml"

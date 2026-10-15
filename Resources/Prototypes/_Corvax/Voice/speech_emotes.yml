@@ -3,7 +3,7 @@
   name: chat-emote-name-purralt
   category: Vocal
   available: false
-  icon: Corvax/Interface/Emotes/purr.png
+  icon: _Corvax/Interface/Emotes/purr.png
   whitelist:
     components:
     - Vocal
