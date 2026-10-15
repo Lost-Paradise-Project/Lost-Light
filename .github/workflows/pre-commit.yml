@@ -6,7 +6,6 @@ on:
 
 jobs:
   pre-commit:
-    if: github.repository_owner == 'AlexsLemonade'
     runs-on: ubuntu-latest
 
     steps:
