@@ -29,3 +29,7 @@ staff-help-mentor = Помощь менторов
 
 mentor-help-tag-admin = админ
 mentor-help-tag-mentor = ментор
+
+mentor-tickets = Тикеты
+mentor-settings = Настройки
+mentor-select-ticket = Выберите тикет, чтобы увидеть сообщения

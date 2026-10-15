@@ -12,3 +12,5 @@ ent-CinnamonSeeds = пакет семян корицы
     .desc = { ent-SeedBase.desc }
 ent-CinnaflareSeeds = пакет семян корицепламени
     .desc = { ent-SeedBase.desc }
+ent-BrownMushroomSeeds = пакет спор коричневых грибов
+    .desc = Споры для выращивания съедобных коричневых шампиньонов.

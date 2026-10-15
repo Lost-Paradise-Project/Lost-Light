@@ -62,6 +62,7 @@ stack-adamantine = { $amount ->
 
 stack-bluespace-tile = блюспейс-плитка
 stack-sepia-xenobiology-tile = плитка цвета сепии
+stack-light-tile = световая плитка
 
 stack-brutepack = { $amount ->
     [one] набор от ушибов

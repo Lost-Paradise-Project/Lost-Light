@@ -1,0 +1,105 @@
+# Категории и требования тем призраков
+
+- type: !PartialOnly ghostTheme
+  id: !type:CreateVariants
+    values:
+    - King
+    - CarpGames
+    - FirstWritingContest
+    - angel
+    - ClownTheme
+    - FaithlessTheme
+    - MushroomTheme
+    - WalkerTheme
+    - ShadowDemon
+    - WizdenCarp
+    - Bowmon
+    - Metroid
+    - Imp
+    - Revenant
+    - Ian
+    - IanCute
+    - Skeleton
+    - Sheet
+    - Cat
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPSponsorTier1Req
+  category: LPGhostSponsor
+
+- type: !PartialOnly ghostTheme
+  id: !type:CreateVariants
+    values:
+    - Narsie
+    - Daemon
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPMentorsReq
+  category: LPGhostMentor
+
+- type: !PartialOnly ghostTheme
+  id: !type:CreateVariants
+    values:
+    - None
+    - Mellow
+    - Blazeit
+    - Funkypurp
+    - Moth
+  category: LPGhostPublic
+
+- type: !PartialOnly ghostTheme
+  id: jellyfish
+  category: LPGhostNullLink
+
+- type: !PartialOnly ghostTheme
+  id: !type:CreateVariants
+    values:
+    - Cateor
+    - Firewraith
+    - Robot
+    - pai_fox
+    - sombrero_penguin
+    - TessTheEvil
+    - ghost-kamila
+    - ConfGhost
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPHonoraryCitizenReq
+  category: LPGhostHonoraryCitizen
+
+- type: !PartialOnly ghostTheme
+  id: !type:CreateVariants
+    values:
+    - Abomination
+    - SpaceDragonStaffTheme
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPStaffReq
+  category: LPGhostStaff
+
+- type: !PartialOnly ghostTheme
+  id: !type:CreateVariants
+    values:
+    - BuffRatKingTheme
+    - FoxTheme
+    - LizardPlushie
+    - MothroachTheme
+    - ScurretTheme
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPModerationReq
+  category: LPGhostModeration
+
+- type: !PartialOnly ghostTheme
+  id: WispTheme
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPLeadDevelopersReq
+  category: LPGhostDevelopers
+
+- type: !PartialOnly ghostTheme
+  id: CustodianTheme
+  requirements: !Clear
+  - !type:DiscordRolesRequirement
+    requirement: LPDevelopersReq
+  category: LPGhostDevelopers

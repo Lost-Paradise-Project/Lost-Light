@@ -17,8 +17,8 @@
     shader: HolyStarsTrail
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: PatronReq
+  category: Patron
 
 - type: ghostTheme
   id: ClownTheme
@@ -31,8 +31,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: PatronReq
+  category: Patron
 
 - type: ghostTheme
   id: FaithlessTheme
@@ -45,8 +45,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: PatronReq
+  category: Patron
 
 - type: ghostTheme
   id: MushroomTheme
@@ -59,8 +59,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: PatronReq
+  category: Patron
 
 - type: ghostTheme
   id: WalkerTheme
@@ -73,8 +73,8 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: PatronReq
+  category: Patron
 
 - type: ghostTheme
   id: ShadowDemon
@@ -93,8 +93,8 @@
     shader: NightSkyTrail
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: PatronReq
+  category: Patron
 
 - type: ghostTheme
   id: WizdenCarp
@@ -108,5 +108,5 @@
     color: "#ffffff"
   requirements:
   - !type:DiscordRolesRequirement
-    requirement: LPSponsorTier1Req # LP edit
-  category: LPGhostSponsor # LP edit
+    requirement: WizdenPatronReq
+  category: Patron

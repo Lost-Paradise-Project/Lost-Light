@@ -378,7 +378,6 @@
   name: wackpack
   description: What the fuck is this?
   suffix: DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
   - type: Storage
     grid:
@@ -395,7 +394,6 @@
   name: big wackpack
   description: What the fuck is this?
   suffix: DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
   - type: Storage
     grid:
@@ -407,7 +405,6 @@
   name: gay wackpack
   description: What the fuck is this?
   suffix: DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
   - type: Storage
     grid:
@@ -429,7 +426,6 @@
   name: offset wackpack
   description: What the fuck is this?
   suffix: DEBUG
-  categories: [ HideSpawnMenu ] # LP edit
   components:
   - type: Storage
     grid:

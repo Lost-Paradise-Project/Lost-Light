@@ -1,7 +1,7 @@
 ent-BaseMagazineMagnum = пистолетный магазин (.45 магнум)
-    .desc = { ent-BaseSecuritySalvageContraband.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-BaseMagazineMagnumSubMachineGun = магазин ПП (.45 магнум)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-MagazineMagnumEmpty = пистолетный магазин (.45 магнум любые)
     .desc = Однорядный магазин на 7 патронов для крупнокалиберных пистолетов.
     .suffix = Пустой

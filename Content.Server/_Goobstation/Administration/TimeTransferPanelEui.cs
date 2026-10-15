@@ -71,96 +71,49 @@ public sealed partial class TimeTransferPanelEui : BaseEui
         }
 
         // LP edit start
-        if (overwrite)
-            await SetTime(playerData.UserId, timeData);
-        else
-            await AddTime(playerData.UserId, timeData);
+        await ApplyTime(playerData.Username, playerData.UserId, timeData, overwrite);
         // LP edit end
     }
 
-// LP edit start(rewrite funcs SetTime() and AddTime() plz god help me)
-
-    public async Task SetTime(NetUserId userId, List<TimeTransferData> timeData)
+    // LP edit start
+    // Время пишется через PlayTimeTrackingManager: он сохраняет в БД и отправляет в NullLink,
+    // а у игрока онлайн обновляет данные в памяти (иначе следующее сохранение затрёт БД).
+    // Работает и для игроков не в сети.
+    public async Task ApplyTime(string userName, NetUserId userId, List<TimeTransferData> timeData, bool overwrite)
     {
-        if (!_playerManager.TryGetSessionById(userId, out var player))
+        // Только время этого сервера, без засчитанного с других серверов NullLink.
+        var current = await _playTimeTracking.TryGetPlayTimesByUserName(userName);
+        if (current == null)
         {
-            _sawmill.Warning($"Could not find session for user {userId}");
-            SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString("time-transfer-panel-warning-player-not-online"), Color.Orange));
+            SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString("time-transfer-panel-no-player-database-message"), Color.Red));
             return;
         }
 
-        var updateList = new List<PlayTimeUpdate>();
+        var saved = 0;
 
         foreach (var data in timeData)
         {
-            if (data.PlaytimeTracker == "Overall")
-            {
-                var newOverall = TimeSpan.FromMinutes(PlayTimeCommandUtilities.CountMinutes(data.TimeString));
-                var currentOverall = _playTimeTracking.GetOverallPlaytime(player);
-                var diff = newOverall - currentOverall;
-
-                if (diff != TimeSpan.Zero)
-                {
-                    if (diff < TimeSpan.Zero)
-                    {
-                        SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString("time-transfer-panel-warning-decrease-not-supported"), Color.Orange));
-                    }
-                    _playTimeTracking.AddTimeToOverallPlaytime(player, diff);
-                } continue;
-            }
-
             var time = TimeSpan.FromMinutes(PlayTimeCommandUtilities.CountMinutes(data.TimeString));
-            updateList.Add(new PlayTimeUpdate(userId, data.PlaytimeTracker, time));
+
+            if (overwrite)
+                time -= current.GetValueOrDefault(data.PlaytimeTracker);
+
+            if (time == TimeSpan.Zero)
+                continue;
+
+            if (await _playTimeTracking.TryAddTimeToTrackerByUserName(userName, data.PlaytimeTracker, time) != null)
+                saved++;
         }
 
-        if (updateList.Count > 0)
-            await _databaseMan.UpdatePlayTimes(updateList);
+        if (_playerManager.TryGetSessionById(userId, out var session))
+            _playTimeTracking.SaveSession(session);
 
-        _sawmill.Info($"{Player.Name} ({Player.UserId} saved {updateList.Count} trackers for {userId})");
+        _sawmill.Info($"{Player.Name} ({Player.UserId} saved {saved} trackers for {userId})");
 
-        SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString("time-transfer-panel-warning-set-success"), Color.LightGreen));
+        var messageId = overwrite ? "time-transfer-panel-warning-set-success" : "time-transfer-panel-warning-add-success";
+        SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString(messageId), Color.LightGreen));
     }
-
-    public async Task AddTime(NetUserId userId, List<TimeTransferData> timeData)
-    {
-        if (!_playerManager.TryGetSessionById(userId, out var player))
-        {
-            _sawmill.Warning($"Could not find session for user {userId}");
-            SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString("time-transfer-panel-warning-player-not-online"), Color.Orange));
-            return;
-        }
-
-        var playTimeList = await _databaseMan.GetPlayTimes(userId);
-        var playTimeDict = playTimeList.ToDictionary(pt => pt.Tracker, pt => pt.TimeSpent);
-        var updateList = new List<PlayTimeUpdate>();
-
-        foreach (var data in timeData)
-        {
-            var addMinutes = PlayTimeCommandUtilities.CountMinutes(data.TimeString);
-            var addTime = TimeSpan.FromMinutes(addMinutes);
-
-            if (data.PlaytimeTracker == "Overall")
-            {
-                if (addTime != TimeSpan.Zero)
-                {
-                    _playTimeTracking.AddTimeToOverallPlaytime(player, addTime);
-                } continue;
-            }
-
-            if (playTimeDict.TryGetValue(data.PlaytimeTracker, out var existing))
-                addTime += existing;
-
-            updateList.Add(new PlayTimeUpdate(userId, data.PlaytimeTracker, addTime));
-        }
-
-        if (updateList.Count > 0)
-            await _databaseMan.UpdatePlayTimes(updateList);
-
-        _sawmill.Info($"{Player.Name} ({Player.UserId} saved {updateList.Count} trackers for {userId})");
-
-        SendMessage(new TimeTransferWarningEuiMessage(Loc.GetString("time-transfer-panel-warning-add-success"), Color.LightGreen));
-    }
-// LP edit end
+    // LP edit end
 
     public override async void Opened()
     {

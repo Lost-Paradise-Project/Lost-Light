@@ -49,3 +49,23 @@ jobs:
           GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
           FORK_ID: ${{ vars.FORK_ID_PUBLIC }}
           ROBUST_CDN_URL: ${{ vars.ROBUST_CDN_URL }}
+
+  # LP edit start - чейнджлог Starlight в Discord после публикации паблика
+  update-changelog:
+    name: Publish Changelogs # должно совпадать с CHANGELOG_JOB_NAME в скрипте
+    needs: build
+    runs-on: ubuntu-latest
+    environment: public
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish changelog (Discord)
+        continue-on-error: true
+        run: Tools/actions_changelogs_since_last_run.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_WEBHOOK }}
+          DISCORD_CHANGELOG_ROLE_ID: ${{ vars.DISCORD_CHANGELOG_ROLE_ID }}
+          CHANGELOG_FILE_PATH: Resources/Changelog/ChangelogStarlight.yml
+  # LP edit end

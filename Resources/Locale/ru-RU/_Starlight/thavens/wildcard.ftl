@@ -148,3 +148,23 @@ thaven-mood-fish-ancestry-desc = Вы должны погружаться в в�
 # we love when server context doesn't properly dispose of data...
 DuplicateTest = ДубльТестFTL
 DuplicateOverlapTest = ДубльПерекрытиеТестFTL
+
+# Confusing Perspective
+thaven-mood-confusing-perspective-name = Странный взгляд на вещи
+thaven-mood-confusing-perspective-desc = Хорошие новости вас печалят, а катастрофы и прочие дурные вести — повод для радости. Реагируйте соответственно, что бы ни чувствовали остальные.
+
+# Monster Hunter
+thaven-mood-monster-hunter-name = Охотник на чудовищ
+thaven-mood-monster-hunter-desc = Опасные существа таятся по всей станции. Определите, что считать чудовищем, и найдите их.
+
+# Respect Through Violence
+thaven-mood-respect-through-violence-name = Уважение через насилие
+thaven-mood-respect-through-violence-desc = Правильный способ представиться — короткая драка. Отношения, не прошедшие проверку насилием, строятся на шатком фундаменте.
+
+# Spite
+thaven-mood-spite-name = Злорадство
+thaven-mood-spite-desc = Больше всего вам хочется лично увидеть, как другие не получают желаемого.
+
+# Extremist
+thaven-mood-extremist-name = Экстремист
+thaven-mood-extremist-desc = Вы чувствуете потребность идти дальше в своих остальных настроениях и действовать согласно их абсолютным, крайним версиям.

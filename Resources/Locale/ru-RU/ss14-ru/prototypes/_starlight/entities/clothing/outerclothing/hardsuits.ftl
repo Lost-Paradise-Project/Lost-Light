@@ -61,3 +61,5 @@ ent-ClothingOuterHardsuitGreenshield = скафандр Зелёного щит�
 ent-ChangelingClothingOuterHardsuit = органический космический костюм
     .desc = Пригодная для космоса биомасса из ткани, стойкой к давлению и температуре.
     .suffix = Неснимаемый
+ent-ClothingOuterHardsuitITGLossPrevention = скафандр службы предотвращения потерь МТГ
+    .desc = Скафандр, созданный МТГ для защиты ценных активов в опасных секторах.

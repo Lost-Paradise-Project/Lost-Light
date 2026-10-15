@@ -8,7 +8,7 @@
       department: Security
       time: 72000 # 20 hrs
     - !type:RolesRequirement
-      proto: LPGameStaffReq # LP edit
+      proto: ExtRolesReq
   setPreference: false
   startingGear: DecimusGear
   icon: JobIconDecimus

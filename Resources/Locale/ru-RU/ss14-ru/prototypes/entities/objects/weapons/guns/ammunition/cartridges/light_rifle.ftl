@@ -1,5 +1,5 @@
 ent-BaseCartridgeLightRifleSP = патрон (.30 винтовочный SP)
-    .desc = { ent-BaseCartridge.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-CartridgeLightRifleSP = патрон (.30 винтовочный SP)
     .desc = { ent-BaseCartridgeLightRifleSP.desc }
 ent-CartridgeLightRiflePractice = патрон (.30 винтовочный учебный)

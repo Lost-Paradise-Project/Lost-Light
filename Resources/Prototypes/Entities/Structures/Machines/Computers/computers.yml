@@ -162,7 +162,7 @@
   - type: ItemSlots
     slots:
       disk_slot:
-        name: item-slot-component-slot-name-disk # LP edit
+        name: Disk
         insertSound:
           path: /Audio/Machines/terminal_insert_disc.ogg
         ejectSound:

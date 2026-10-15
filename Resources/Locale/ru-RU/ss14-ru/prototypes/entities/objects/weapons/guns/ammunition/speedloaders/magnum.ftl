@@ -1,5 +1,5 @@
 ent-BaseSpeedLoaderMagnum = спидлоадер (.45 магнум)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-SpeedLoaderMagnumEmpty = спидлоадер (.45 магнум любые)
     .desc = Предназначен для быстрой зарядки до шести патронов .45 магнум в пустой револьвер.
     .suffix = Пустой
