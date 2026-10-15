@@ -8,7 +8,7 @@ using Robust.Shared.Containers;
 namespace Content.Shared._LP.CryptoMining.EntitySystems;
 
 /// <summary>
-/// Нагрузка на ЛКП, осмотр, емаг и апгрейд-чипы крипто-майнеров. Добыча, нагрев и выплаты - на сервере.
+/// Нагрузка на ЛКП, осмотр, емаг и чипы. Добыча, нагрев и выплаты - на сервере.
 /// </summary>
 public abstract partial class SharedCryptoMinerSystem : EntitySystem
 {
@@ -54,7 +54,7 @@ public abstract partial class SharedCryptoMinerSystem : EntitySystem
         if (!args.IsInDetailsRange)
             return;
 
-        // Емагнутый майнер в осмотре выглядит обычным: снятый ограничитель видно только по нагреву и нагрузке на ЛКП.
+        // Емаг в осмотре намеренно не виден.
         var message = ent.Comp.Status switch
         {
             CryptoMinerStatus.Working => Loc.GetString("crypto-miner-examine-working",
@@ -81,14 +81,11 @@ public abstract partial class SharedCryptoMinerSystem : EntitySystem
         if (_emag.CheckFlag(ent, EmagType.Interaction))
             return;
 
-        // Флаг емага выставляется после события, поэтому потребление считаем как для уже емагнутого.
+        // Флаг емага ставится после события.
         UpdatePowerLoad(ent, emagged: true);
         args.Handled = true;
     }
 
-    /// <summary>
-    /// Чип в слоте майнера, если он есть.
-    /// </summary>
     public CryptoMinerChipComponent? GetChip(Entity<CryptoMinerComponent> ent)
     {
         return _itemSlots.GetItemOrNull(ent, ent.Comp.ChipSlot) is { } chip
@@ -96,9 +93,7 @@ public abstract partial class SharedCryptoMinerSystem : EntitySystem
             : null;
     }
 
-    /// <summary>
-    /// Потребление майнера от ЛКП с учётом емага и чипа, Вт.
-    /// </summary>
+    /// <summary>Потребление от ЛКП с учётом емага и чипа, Вт.</summary>
     public float GetPowerDraw(Entity<CryptoMinerComponent> ent, bool emagged)
     {
         var draw = ent.Comp.PowerDraw * (emagged ? ent.Comp.EmaggedPowerMultiplier : 1f);
@@ -108,9 +103,7 @@ public abstract partial class SharedCryptoMinerSystem : EntitySystem
         return draw;
     }
 
-    /// <summary>
-    /// Тепловыделение майнера, Вт: потребление, умноженное на долю тепла майнера и чипа.
-    /// </summary>
+    /// <summary>Тепловыделение, Вт.</summary>
     public float GetHeatPower(Entity<CryptoMinerComponent> ent, bool emagged)
     {
         var heat = GetPowerDraw(ent, emagged) * ent.Comp.HeatFraction;
