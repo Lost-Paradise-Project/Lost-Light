@@ -18,8 +18,7 @@ using Robust.Shared.Timing;
 namespace Content.Server._LP.CryptoMining.EntitySystems;
 
 /// <summary>
-/// Раз в секунду считает нагрев, урон и доход майнеров, раз в <see cref="CryptoMinerComponent.PayoutInterval"/>
-/// переводит накопленный доход в бюджет станции.
+/// Раз в секунду считает нагрев, урон и доход майнеров и периодически переводит доход в бюджет станции.
 /// </summary>
 public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
 {
@@ -33,9 +32,6 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
     [Dependency] private SharedPowerReceiverSystem _power = default!;
     [Dependency] private StationSystem _station = default!;
 
-    /// <summary>
-    /// Шаг симуляции нагрева и дохода. Один проход по майнерам раз в секунду - нагрев плавный, а нагрузки почти нет.
-    /// </summary>
     private static readonly TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
 
     private TimeSpan _nextUpdate;
@@ -47,12 +43,9 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
         SubscribeLocalEvent<CryptoMinerComponent, ConstructionChangeEntityEvent>(OnChangeEntity);
     }
 
-    /// <summary>
-    /// Майнер разбирают в раму: чип выпадает (слот не переезжает в раму), урон уходит на плату.
-    /// </summary>
+    // Разборка в раму: чип выпадает, урон уходит на плату.
     private void OnChangeEntity(EntityUid uid, CryptoMinerComponent component, ConstructionChangeEntityEvent args)
     {
-        // Событие приходит и старой, и новой сущности; нужна только разбираемая.
         if (args.Old != uid)
             return;
 
@@ -64,9 +57,7 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
         EnsureComp<CryptoMinerBoardDamageComponent>(board).Damage = _damageable.GetAllDamage(uid);
     }
 
-    /// <summary>
-    /// Майнер собран из рамы: возвращаем урон, сохранённый на плате.
-    /// </summary>
+    // Сборка из рамы: возвращаем урон с платы.
     protected override void AfterMapInit(Entity<CryptoMinerComponent> ent)
     {
         if (TryGetBoard(ent) is not { } board
@@ -114,7 +105,7 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
 
         var rack = container.Owner;
 
-        // Выключенный слот стойки отключает блейд от сети, поэтому хватает проверки самого майнера.
+        // Выключенный слот стойки отключает блейд от сети.
         if (!_power.IsPowered(ent.Owner) || !_power.IsPowered(rack))
         {
             SetState(ent, CryptoMinerStatus.NoPower, 0, 0);
@@ -123,9 +114,7 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
 
         var emagged = _emag.CheckFlag(ent, EmagType.Interaction);
 
-        // Блейд лежит в контейнере стойки, поэтому берём газ тайла самой стойки.
-        // В вакууме и разреженном газе тепло отводить некуда, а у почти пустой смеси AddHeat
-        // разогнал бы температуру до бесконечности - майнер просто не работает.
+        // Газ тайла стойки. У почти пустой смеси AddHeat разогнал бы температуру до бесконечности.
         var mixture = _atmos.GetContainingMixture(rack, ignoreExposed: true, excite: true);
         if (mixture == null || mixture.Immutable || mixture.Pressure < ent.Comp.MinPressure)
         {
