@@ -1,0 +1,17 @@
+- type: marking
+  id: LPPNeoReptilianvisor
+  bodyPart: FaceCover
+  markingCategory: FaceCover
+  speciesRestriction: [NeoReptilian]
+  sprites:
+  - sprite: _LP/Mobs/Customization/Proto-reptilian/visor_shapes.rsi
+    state: visor-main
+
+- type: marking
+  id: LPPNeoReptilianvisoralt
+  bodyPart: FaceCover
+  markingCategory: FaceCover
+  speciesRestriction: [NeoReptilian]
+  sprites:
+  - sprite: _LP/Mobs/Customization/Proto-reptilian/visor_shapes.rsi
+    state: repvisor

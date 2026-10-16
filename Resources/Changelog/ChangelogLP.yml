@@ -62,4 +62,32 @@ Entries:
   id: 9
   time: '2026-10-14T07:56:58.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/28
+- author: MegaDaimond
+  changes:
+  - message: Добавлено бельё.
+    type: Add
+  id: 10
+  time: '2026-10-15T22:17:09.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/36
+- author: MegaDaimond
+  changes:
+  - message: Добавлены таяраны.
+    type: Add
+  id: 11
+  time: '2026-10-15T22:17:09.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/36
+- author: MegaDaimond
+  changes:
+  - message: Изменены спрайты унатхов, лагоморфов, вульпканинов, фелиноидов и нео-унатхов.
+    type: Tweak
+  id: 12
+  time: '2026-10-15T22:17:09.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/36
+- author: MegaDaimond
+  changes:
+  - message: Изменены спрайты обуви.
+    type: Tweak
+  id: 13
+  time: '2026-10-15T22:17:09.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/36
 Order: -3

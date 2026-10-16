@@ -1,0 +1,321 @@
+- type: markingPoints
+  id: MobTajaranMarkingLimits
+  points:
+    Hair:
+      points: 1
+      required: false
+    FacialHair:
+      points: 1
+      onlyWhitelisted: true
+      required: false
+    Head:
+      points: 3
+      required: false
+    HeadTop:
+      points: 1
+      required: true
+      defaultMarkings: [ TajaranInears ]
+    Snout:
+      points: 1
+      required: true
+    SnoutCover:
+      points: 3
+      required: false
+    Tail:
+      points: 1
+      required: true
+      defaultMarkings: [ TajaranTailM ]
+    Arms:
+      points: 6
+      required: false
+    Legs:
+      points: 6
+      required: false
+
+- type: entity
+  parent: [BaseSpeciesDummy, BaseInventoryTajaran]
+  id: AppearanceTajaran
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: Tajaran
+    hideLayersOnEquip:
+    - Snout
+    - HeadTop
+    - HeadSide
+
+- type: entity
+  save: false
+  name: Urist McCat
+  parent: BaseMobTajaran
+  id: MobTajaran
+
+- type: entity
+  abstract: true
+  save: false
+  name: Urist McTajar
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableHuge, BaseInventoryTajaran]
+  id: BaseMobTajaran
+  components:
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - Cat
+    understands:
+    - GalacticCommon
+    - Nekomimetic
+    - Cat
+  - type: Icon
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: full
+  - type: Body
+    prototype: Tajaran
+  - type: Speech
+    speechSounds: Vulpkanin
+    speechVerb: Vulpkanin
+  - type: Vocal
+  - type: Damageable
+    damageModifierSet: Tajaran
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 7
+  - type: Wagging
+  - type: GrowlingAccent
+  - type: TemperatureProtection
+    heatingCoefficient: 1.2
+    coolingCoefficient: 0.3
+  - type: Jump
+    action: JumpTajaran
+  - type: Sprite
+    netsync: false
+    layers:
+    - map: [ "enum.HumanoidVisualLayers.Chest" ]
+    - map: [ "enum.HumanoidVisualLayers.Head" ]
+    - map: [ "enum.HumanoidVisualLayers.Snout" ]
+    - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+    - map: [ "enum.HumanoidVisualLayers.RLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: [ "breast" ]
+    - map: [ "underwear" ]
+    - map: [ "enum.HumanoidVisualLayers.LFoot" ]
+    - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+    - map: [ "socks" ]
+    - map: [ "jumpsuit" ]
+    - map: [ "enum.HumanoidVisualLayers.LHand" ]
+    - map: [ "enum.HumanoidVisualLayers.RHand" ]
+    - map: [ "gloves" ]
+    - map: [ "shoes" ]
+    - map: [ "ears" ]
+    - map: [ "eyes" ]
+    - map: [ "outerClothing" ]
+    - map: [ "belt" ]
+    - map: [ "id" ]
+    - map: [ "back" ]
+    - map: [ "neck" ]
+    - map: [ "enum.HumanoidVisualLayers.SnoutCover" ]
+    - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
+    - map: [ "enum.HumanoidVisualLayers.Hair" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
+    - map: [ "enum.HumanoidVisualLayers.Tail" ]
+    - map: [ "mask" ]
+    - map: [ "head" ]
+    - map: [ "pocket1" ]
+    - map: [ "pocket2" ]
+    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+      color: "#ffffff"
+      sprite: Objects/Misc/handcuffs.rsi
+      state: body-overlay-2
+      visible: false
+    - map: [ "clownedon" ]
+      sprite: "Effects/creampie.rsi"
+      state: "creampie_vulpkanin"
+      visible: false
+  - type: HumanoidAppearance
+    species: Tajaran
+    hideLayersOnEquip:
+    - Snout
+    - SnoutCover
+    - HeadTop
+    - HeadSide
+    - FacialHair
+    - Hair
+  - type: TemperatureDamage # Ported over from CD. Afterall, it does make sense that something with fur can handle more cold/less heat. Basegame Moths, apparently, have similar resistances.
+    heatDamageThreshold: 325
+    coldDamageThreshold: 230
+    coldDamage:
+      types:
+        Cold : 0.05 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.75 #per second, scales with temperature & other constants
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 46
+  - type: ContentEye
+    targetZoom: "1.125, 1.125"
+    maxZoom: "1.125, 1.125"
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - AnomalyHost
+    - NotLabelable
+    - Tajaran
+
+- type: entity
+  abstract: true
+  save: false
+  id: BaseInventoryTajaran
+  components:
+  - type: Inventory
+    speciesId: Tajaran
+    femaleDisplacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: outerclothing
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: outerclothing
+
+- type: humanoidBaseSprite
+  id: MobTajaranEyes
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: eyes
+
+- type: humanoidBaseSprite
+  id: MobTajaranHead
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranHeadMale
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranHeadFemale
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobTajaranTorso
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranTorsoMale
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobTajaranTorsoFemale
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobTajaranLLeg
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobTajaranLArm
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobTajaranLHand
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobTajaranLFoot
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobTajaranRLeg
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobTajaranRArm
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobTajaranRHand
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobTajaranRFoot
+  baseSprite:
+    sprite: _Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: r_foot

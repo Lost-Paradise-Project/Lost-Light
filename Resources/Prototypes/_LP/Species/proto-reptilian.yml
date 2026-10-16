@@ -1,0 +1,115 @@
+# Базовые спрайты прото-рептилоидов (неоциты-рептилоиды)
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianEyes
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: eyes
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianHead
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianHeadMale
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianHeadFemale
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianTorso
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianTorsoMale
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianTorsoFemale
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianLLeg
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianLArm
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianLHand
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianLFoot
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianRLeg
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianRArm
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianRHand
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: LPPMobProtoReptilianRFoot
+  baseSprite:
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: r_foot
+
+- type: speciesBaseSprites
+  id: LPPMobNeocyteReptilianSprites
+  sprites:
+    Hair: MobHumanoidAnyMarking
+    Head: LPPMobProtoReptilianHead
+    Eyes: LPPMobProtoReptilianEyes
+    Snout: MobHumanoidAnyMarking
+    Chest: LPPMobProtoReptilianTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
+    LArm: LPPMobProtoReptilianLArm
+    RArm: LPPMobProtoReptilianRArm
+    LHand: LPPMobProtoReptilianLHand
+    RHand: LPPMobProtoReptilianRHand
+    LLeg: LPPMobProtoReptilianLLeg
+    RLeg: LPPMobProtoReptilianRLeg
+    LFoot: LPPMobProtoReptilianLFoot
+    RFoot: LPPMobProtoReptilianRFoot
+    FaceCover: MobHumanoidAnyMarking
+    FaceCoverCover: MobHumanoidAnyMarking
+    BodyCover: MobHumanoidAnyMarking
+    BodyCoverCover: MobHumanoidAnyMarking

@@ -1,0 +1,18 @@
+- type: entity
+  parent: Jump
+  id: JumpTajaran
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    useDelay: 1
+  - type: LimitedCharges
+    maxCharges: 2
+  - type: AutoRecharge
+    rechargeDuration: 30
+  - type: WorldTargetAction
+    event: !type:JumpActionEvent
+      distance: 2.5
+      toPointer: false
+      speed: 8.5
+      sound:
+        path: /Audio/_Starlight/Effects/Jump/resomi.ogg
