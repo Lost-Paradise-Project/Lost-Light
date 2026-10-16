@@ -20,7 +20,6 @@
         - Theatre
         - CellAI
         - Botany
-        # LP edit start
         # - Bunker # Максимально душная и неинтересная цель. Нафиг её
         - LPTransit # Транзит
         - LPRenovation # Почистить станцию
@@ -30,4 +29,3 @@
         - LPCorporateEvent # Пир для бюрократов
         - LPTestPoligon # Испытательный полигон
         - LPTunnelInventory # Растащить техи по отделам
-        # LP edit end

@@ -1,0 +1,106 @@
+name: Localization Check
+
+# localize.py здесь только проверяет: его изменения не коммитятся, проблемы выдаются ошибками
+# в PR (аннотации на файлах) и отчётом CTRF, его публикует ci-report-pr-comment.yml.
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+on:
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ master, stable ]
+    paths:
+      - 'Resources/Prototypes/**'
+      - 'Resources/Locale/**'
+      - 'Tools/localize/**'
+      - 'RobustToolbox'
+
+permissions: {}
+
+jobs:
+  localize:
+    name: Localization Check
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+
+      # localize.py сверяет локали движка, без сабмодуля он сочтёт robust-toolbox сиротами
+      - name: Setup engine submodule
+        run: git submodule update --init RobustToolbox
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install pyyaml
+        run: pip install pyyaml
+
+      - name: Run localize.py
+        id: localize
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          PYTHONIOENCODING=utf-8 python Tools/localize/localize.py --all --strict 2>&1 | tee /tmp/localize.log
+
+      # Каждая проблема - отдельная ошибка в PR и отдельный «тест» отчёта CTRF
+      - name: Report problems
+        id: report
+        if: always()
+        env:
+          LOCALIZE: ${{ steps.localize.outcome }}
+        run: |
+          git status --porcelain --untracked-files=all -- Resources/Locale > /tmp/localize-changes.txt
+          mkdir -p /tmp/ctrf
+          python3 - <<'PY'
+          import json, os, re
+
+          tests = []
+
+          def fail(name, file, message):
+              tests.append({"name": name, "status": "failed", "duration": 0, "message": message})
+              print(f"::error file={file},title=Локализация::{message}")
+
+          for line in open("/tmp/localize-changes.txt", encoding="utf-8"):
+              state, path = line[:2].strip(), line[3:].strip()
+              kind = {"??": "новый файл", "D": "файл удалён"}.get(state, "файл изменён")
+              fail(f"{path} ({kind})", path,
+                   f"localize.py --all: {kind}. Запустите скрипт локально и закоммитьте результат.")
+
+          untranslated = re.compile(r"Возможно не переведено: (\S+) -> (\S+)")
+          for line in open("/tmp/localize.log", encoding="utf-8", errors="replace"):
+              match = untranslated.search(line)
+              if match:
+                  path = match.group(1).replace("\\", "/")
+                  fail(f"{path}: {match.group(2)}", path, f"Не переведена строка {match.group(2)}.")
+
+          if not tests:
+              status = "passed" if os.environ["LOCALIZE"] == "success" else "failed"
+              tests.append({"name": "localize.py --all --strict", "status": status, "duration": 0})
+
+          summary = {key: sum(t["status"] == key for t in tests) for key in ("passed", "failed", "skipped")}
+          summary.update(tests=len(tests), pending=0, other=0, start=0, stop=0)
+          report = {"results": {"tool": {"name": "localize.py"}, "summary": summary, "tests": tests}}
+
+          with open("/tmp/ctrf/ctrf-report.json", "w", encoding="utf-8") as out:
+              json.dump(report, out, ensure_ascii=False)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write(f"failed={summary['failed']}\n")
+          PY
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: ctrf-localization
+          path: /tmp/ctrf/ctrf-report.json
+          retention-days: 7
+
+      - name: Fail on errors
+        if: always() && (steps.localize.outcome == 'failure' || steps.report.outputs.failed != '0')
+        run: exit 1

@@ -21,3 +21,21 @@
   id: MobFelionoidTorsoFemale
   baseSprite:
     state: torso_f
+
+# Ядовитый укус арахнидов (раствор melee - от родителя SolutionWeapon, задан в файле прототипа)
+- type: !PartialOnly entity
+  id: BaseMobArachnid
+  components:
+  - type: MeleeWeapon
+    damage:
+      types:
+        Piercing: 4
+        Poison: 0.04
+  - type: SolutionRegeneration
+    generated:
+      reagents:
+      - ReagentId: Mechanotoxin
+        Quantity: 1
+  - type: MeleeChemicalInjector
+    transferAmount: 0.12
+    solution: melee

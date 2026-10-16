@@ -50,7 +50,7 @@ public sealed partial class SecApartmentSystem : EntitySystem
         InitializeSecurityJobs();
 
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnPrototypeReload);
-        SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart); // LP edit
+        SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
 
         SubscribeLocalEvent<SecApartmentComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<SecApartmentComponent, ActivatableUIOpenAttemptEvent>(OnUIOpenAttempt);
@@ -196,13 +196,11 @@ public sealed partial class SecApartmentSystem : EntitySystem
         UpdateUi(ent.Owner, ent.Comp);
     }
 
-    // LP edit start
     private void OnRoundRestart(RoundRestartCleanupEvent ev)
     {
         _stationData.Clear();
         _finishedTimers.Clear();
     }
-    // LP edit end
 
     #region UI Message Handlers
 
@@ -217,14 +215,12 @@ public sealed partial class SecApartmentSystem : EntitySystem
             _stationData[component.Station.Value] = stationData;
         }
 
-        // LP edit start
         string squadId;
         do
         {
             squadId = $"squad_{_random.Next(1000, 9999)}";
         }
         while (stationData.Squads.Any(s => s.SquadId == squadId));
-        // LP edit end
         var squadName = SanitizeString(msg.SquadName, MaxSquadNameLength);
         var squad = new Squad(squadId, squadName);
         stationData.Squads.Add(squad);
@@ -506,7 +502,7 @@ public sealed partial class SecApartmentSystem : EntitySystem
                 continue;
 
             var ownerUid = GetEntity(memberInfo.SensorStatus.OwnerUid);
-            if (!TryComp(ownerUid, out TransformComponent? memberTransform) || memberTransform.GridUid == null) // LP edit
+            if (!TryComp(ownerUid, out TransformComponent? memberTransform) || memberTransform.GridUid == null)
                 continue;
 
             var mapPos = _transform.GetMapCoordinates(ownerUid);

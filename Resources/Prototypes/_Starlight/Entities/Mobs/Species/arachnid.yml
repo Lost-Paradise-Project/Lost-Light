@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McWebs
-  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny] # LP edit
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny] # LP edit - раствор для яда, сам яд в _LP/Partials/Species/species-tweaks.yml
   id: BaseMobArachnid
   abstract: true
   components:
@@ -63,16 +63,7 @@
       path: /Audio/Effects/bite.ogg
     damage:
       types:
-        Piercing: 4 # LP edit start
-        Poison: 0.04
-  - type: SolutionRegeneration
-    generated:
-      reagents:
-      - ReagentId: Mechanotoxin
-        Quantity: 1
-  - type: MeleeChemicalInjector
-    transferAmount: 0.12
-    solution: melee # LP edit end
+        Piercing: 5
   # Visual & Audio
   - type: DamageVisuals
     damageOverlayGroups:

@@ -21,7 +21,7 @@ public sealed partial class DocumentPrinterSystem : EntitySystem
 
     private void SetContentDocument(Entity<DocumentPrinterComponent> ent, ref LatheGetResultEvent result)
     {
-        // LP edit start - текст уже загружен из файла (TextFilePaperContent на MapInit), это не ключ локализации
+        // Текст уже загружен из файла (TextFilePaperContent на MapInit), это не ключ локализации
         if (!TryComp<PaperComponent>(result.ResultItem, out var paper))
             return;
 
@@ -33,12 +33,11 @@ public sealed partial class DocumentPrinterSystem : EntitySystem
         var stationName = station != null ? Name(station.Value) : null;
 
         _paper.SetContent((result.ResultItem, paper), FormatString(paper.Content, stationName, idCard));
-        // LP edit end
     }
 
     public string FormatString(string content, string? station, IdCardComponent? idCard = null)
     {
-        // LP edit - дату ставит игрок тегом [datetime]
+        // Дату ставит игрок тегом [datetime]
         return content
             .Replace(Loc.GetString("doc-var-station"), station ?? Loc.GetString("doc-text-printer-default-station"))
             .Replace(Loc.GetString("doc-var-name"), idCard?.FullName ?? Loc.GetString("doc-text-printer-default-name"))

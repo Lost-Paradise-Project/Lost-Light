@@ -31,7 +31,7 @@ namespace Content.Server._Corvax.StationGoal
 
         private void OnRoundStarted(RoundStartedEvent ev)
         {
-            if (!_cfg.GetCVar(CCVars.StationGoal)) // LP edit
+            if (!_cfg.GetCVar(CCVars.StationGoal))
                 return;
 
             var playerCount = _playerManager.PlayerCount;
@@ -58,7 +58,7 @@ namespace Content.Server._Corvax.StationGoal
                 }
 
                 if (selGoal is null)
-                    continue; // LP edit
+                    continue;
 
                 if (SendStationGoal(uid, selGoal))
                 {
@@ -82,7 +82,7 @@ namespace Content.Server._Corvax.StationGoal
                 Loc.GetString(goal.Text, ("station", MetaData(ent).EntityName)),
                 Loc.GetString("station-goal-fax-paper-name"),
                 null,
-                "PaperFormCC", // LP edit
+                "PaperFormCC",
                 "paper_stamp-centcom",
                 [new() { StampedName = Loc.GetString("stamp-component-stamped-name-centcom"), StampedColor = Color.FromHex("#006600") }]
             );
