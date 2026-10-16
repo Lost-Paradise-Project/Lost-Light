@@ -1,0 +1,209 @@
+# Прото-рептилоиды: спрайты, части тела, смещения и маркировки неоцитов-рептилоидов
+
+- type: !PartialOnly body
+  id: NeoReptilian
+  slots:
+    head:
+      part: LPPHeadProtoReptilian
+    torso:
+      part: LPPTorsoProtoReptilian
+    right arm:
+      part: LPPRightArmProtoReptilian
+    left arm:
+      part: LPPLeftArmProtoReptilian
+    right hand:
+      part: LPPRightHandProtoReptilian
+    left hand:
+      part: LPPLeftHandProtoReptilian
+    right leg:
+      part: LPPRightLegProtoReptilian
+    left leg:
+      part: LPPLeftLegProtoReptilian
+    right foot:
+      part: LPPRightFootProtoReptilian
+    left foot:
+      part: LPPLeftFootProtoReptilian
+
+- type: !PartialOnly species
+  id: NeoReptilian
+  sprites: LPPMobNeocyteReptilianSprites
+
+- type: !PartialOnly markingPoints
+  id: MobNeoReptilianMarkingLimits
+  points:
+    FaceCover:
+      required: false
+      defaultMarkings: !Clear
+      - LPPNeoReptilianvisor
+    FaceCoverCover:
+      required: false
+      defaultMarkings: !Remove
+    BodyCover:
+      required: false
+      defaultMarkings: !Remove
+    BodyCoverCover:
+      required: false
+      defaultMarkings: !Remove
+
+- type: !PartialOnly entity
+  id: BaseMobNeoReptilian
+  components:
+  - type: Icon
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+  - type: Inventory
+    speciesId: !Remove
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit-female
+      head:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      mask:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: outerClothing
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit-female
+      breast:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit-female
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit
+      head:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      mask:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: outerClothing
+      socks:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: AppearanceNeoReptilian
+  components:
+  - type: Inventory
+    speciesId: !Remove
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit-female
+      head:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      mask:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: outerClothing
+      socks:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit
+      head:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      mask:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: head
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: outerClothing
+      socks:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _LP/Mobs/Species/displacements.rsi
+            state: jumpsuit

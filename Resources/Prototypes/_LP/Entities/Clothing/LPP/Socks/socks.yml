@@ -1,0 +1,709 @@
+#------------------Socks------------------------
+#----------------SocksKnee----------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeBlack
+  name: socks knee
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKnee
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPClothingUnderSocksKneeBlack
+  id: LPPClothingUnderSocksKneeYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
+
+#----------------SocksNorm----------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormBlack
+  name: socks norm
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNorm
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPClothingUnderSocksNormBlack
+  id: LPPClothingUnderSocksNormYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
+
+#----------------SocksShort----------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortBlack
+  name: socks short
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShort
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPClothingUnderSocksShortBlack
+  id: LPPClothingUnderSocksShortYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
+
+#----------------SocksThigh----------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighBlack
+  name: socks thigh
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThigh
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPClothingUnderSocksThighBlack
+  id: LPPClothingUnderSocksThighYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
+
+#---------------------------------------------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderStripedKnee
+  name: striped knee
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/striped_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderStripedThigh
+  name: striped thigh
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/striped_thigh.rsi

@@ -1,0 +1,172 @@
+#--------------------Jockstrap----------------------
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPJockstrapBlack
+  name: jockstrap
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrap
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPJockstrapBlack
+  id: LPPJockstrapYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
