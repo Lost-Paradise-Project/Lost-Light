@@ -1,0 +1,48 @@
+<Document>
+  # Крипто-майнинг
+
+  Крипто-майнер - блейд-сервер, который добывает кредиты в бюджет станции. Взамен он ест много электричества и сильно греет воздух.
+
+  <Box>
+    <GuideEntityEmbed Entity="LPCryptoMinerBladeServer"/>
+    <GuideEntityEmbed Entity="BladeServerRack"/>
+  </Box>
+
+  ## Сборка
+  - Плата майнера открывается исследованием [color=#a4885c]«Генерация электроэнергии»[/color] и печатается в инженерном принтере плат.
+  - Из стали и кабеля соберите раму блейд-сервера, вставьте в неё плату и детали, затем закрутите отвёрткой.
+  - Вставьте майнер в стойку блейд-серверов и включите его слот в интерфейсе стойки.
+
+  ## Питание
+  Каждый майнер потребляет [color=orange][protodata="LPCryptoMinerBladeServer" comp="CryptoMiner" member="PowerDraw"/] Вт[/color]. Одна стойка подключается к одному ЛКП, а ЛКП выдаёт не больше 10 кВт, поэтому полной стойке нужен отдельный ЛКП. Если ЛКП перегружен, обесточивается всё, что к нему подключено.
+
+  ## Доход
+  Каждый майнер приносит [color=orange][protodata="LPCryptoMinerBladeServer" comp="CryptoMiner" member="BaseIncomePerMinute"/][/color] кредитов в минуту при полной эффективности. Деньги поступают в бюджет станции раз в минуту и делятся между отделами, как выручка карго.
+
+  Майнер работает только в стойке на станции. На шаттлах и аванпостах он не добывает.
+
+  ## Нагрев
+  Работающий майнер отдаёт в воздух вокруг стойки половину потребляемой энергии в виде тепла.
+  - До [color=green]40 °C[/color] майнер работает в полную силу.
+  - От 40 до 80 °C эффективность падает, а при [color=red]80 °C[/color] майнер перестаёт добывать.
+  - Выше [color=red]100 °C[/color] майнер начинает ломаться. Повреждённый майнер чинится сваркой; пересборка не помогает - износ остаётся на плате.
+
+  Тепло уходит только в воздух: в вакууме и при давлении ниже [color=orange][protodata="LPCryptoMinerBladeServer" comp="CryptoMiner" member="MinPressure"/] кПа[/color] майнер не работает.
+
+  Охлаждайте серверную охладителями и вентиляцией. Текущую эффективность и доход видно при осмотре майнера.
+
+  ## Апгрейд-чипы
+  В майнер можно вставить один чип. Чипы не печатаются - их находят в технических помещениях и в добыче утилизаторов.
+
+  <Box>
+    <GuideEntityEmbed Entity="LPCryptoMinerChipBooster"/>
+    <GuideEntityEmbed Entity="LPCryptoMinerChipCooling"/>
+    <GuideEntityEmbed Entity="LPCryptoMinerChipOverclocked"/>
+  </Box>
+
+  - [color=#a4885c]Ускоритель[/color]: доход x[protodata="LPCryptoMinerChipBooster" comp="CryptoMinerChip" member="IncomeMultiplier"/], потребление и тепло x[protodata="LPCryptoMinerChipBooster" comp="CryptoMinerChip" member="PowerMultiplier"/].
+  - [color=#a4885c]Охлаждающий[/color]: доход и потребление прежние, тепло x[protodata="LPCryptoMinerChipCooling" comp="CryptoMinerChip" member="HeatMultiplier"/].
+  - [color=#a4885c]Разогнанный[/color]: доход и потребление x[protodata="LPCryptoMinerChipOverclocked" comp="CryptoMinerChip" member="IncomeMultiplier"/], тепла ещё больше.
+
+  Учитывайте потребление с чипом: стойка с ускорителями может перегрузить ЛКП. При пересборке майнера чип выпадает, при разрушении майнера сгорает вместе с ним.
+</Document>

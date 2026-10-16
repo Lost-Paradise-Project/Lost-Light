@@ -1,0 +1,29 @@
+# Наши предметы в таблицах лута
+
+# Апгрейд-чипы крипто-майнера: техи
+- type: !PartialOnly entityTable
+  id: MaintToolsTable
+  table:
+    children:
+    - !type:GroupSelector
+      weight: 2
+      children:
+      - id: LPCryptoMinerChipBooster
+      - id: LPCryptoMinerChipCooling
+
+# Апгрейд-чипы крипто-майнера: утилизаторы
+- type: !PartialOnly entityTable
+  id: SalvageEquipmentUncommon
+  table:
+    children:
+    - !type:GroupSelector
+      children:
+      - id: LPCryptoMinerChipBooster
+      - id: LPCryptoMinerChipCooling
+
+- type: !PartialOnly entityTable
+  id: SalvageEquipmentRare
+  table:
+    children:
+    - id: LPCryptoMinerChipOverclocked
+      weight: 0.5
