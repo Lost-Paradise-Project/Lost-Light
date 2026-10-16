@@ -1,6 +1,6 @@
 using Robust.Shared.Prototypes;
 
-namespace Content.Server._LP.StationGoal
+namespace Content.Server._Corvax.StationGoal
 {
     [Prototype]
     public sealed partial class StationGoalPrototype : IPrototype

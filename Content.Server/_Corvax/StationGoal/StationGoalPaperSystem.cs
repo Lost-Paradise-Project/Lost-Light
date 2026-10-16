@@ -9,7 +9,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
-namespace Content.Server._LP.StationGoal
+namespace Content.Server._Corvax.StationGoal
 {
     /// <summary>
     ///     System to spawn paper with station goal.
@@ -31,7 +31,7 @@ namespace Content.Server._LP.StationGoal
 
         private void OnRoundStarted(RoundStartedEvent ev)
         {
-            if (!_cfg.GetCVar(CCVars.StationGoal))
+            if (!_cfg.GetCVar(CCVars.StationGoal)) // LP edit
                 return;
 
             var playerCount = _playerManager.PlayerCount;
@@ -58,7 +58,7 @@ namespace Content.Server._LP.StationGoal
                 }
 
                 if (selGoal is null)
-                    return;
+                    continue; // LP edit
 
                 if (SendStationGoal(uid, selGoal))
                 {
@@ -82,7 +82,7 @@ namespace Content.Server._LP.StationGoal
                 Loc.GetString(goal.Text, ("station", MetaData(ent).EntityName)),
                 Loc.GetString("station-goal-fax-paper-name"),
                 null,
-                "PaperFormCC",
+                "PaperFormCC", // LP edit
                 "paper_stamp-centcom",
                 [new() { StampedName = Loc.GetString("stamp-component-stamped-name-centcom"), StampedColor = Color.FromHex("#006600") }]
             );

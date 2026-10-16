@@ -1,22 +1,27 @@
 # Приоритет у последнего подходящего правила в файле.
 
 # Уведомление обо всех PR
-* @BL02DL
+* @Evgencheg
 
 # Прототипы
-*.yml @MegaDaimond @BL02DL
+*.yml @MegaDaimond
 
 # C#
-*.cs @BL02DL @SpicyDarkFox
-*.xaml @BL02DL @SpicyDarkFox
+*.cs @Evgencheg
+*.xaml @Evgencheg
 
 # Карты
-/Resources/Prototypes/Maps/** @PowerKAT1 @BL02DL
-/Resources/Prototypes/**/Maps/** @PowerKAT1 @BL02DL
-/Resources/Maps/** @PowerKAT1 @BL02DL
+/Resources/Prototypes/Maps/** @SanitarDurkovic
+/Resources/Prototypes/**/Maps/** @SanitarDurkovic
+/Resources/Maps/** @SanitarDurkovic
 
 # Переводы
-*.ftl @PowerKAT1 @Evgencheg
+*.ftl @Evgencheg
 
 # Руководства
-*.xml @PowerKAT1 @BL02DL
+*.xml @MegaDaimond
+
+# Спрайты
+/Resources/Textures/** @MegaDaimond
+
+

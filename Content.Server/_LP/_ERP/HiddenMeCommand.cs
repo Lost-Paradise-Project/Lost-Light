@@ -4,41 +4,39 @@ using Content.Shared.Chat;
 using Robust.Shared.Console;
 using Robust.Shared.Enums;
 
-namespace Content.Server._LP._ERP
+namespace Content.Server._LP._ERP;
+
+/// <summary>
+/// Эмоция, которая не дублируется в чат (как me, но с <see cref="ChatTransmitRange.HideChat"/>).
+/// </summary>
+[AnyCommand]
+public sealed partial class HiddenMeCommand : LocalizedEntityCommands
 {
-    [AnyCommand]
-    internal sealed class HiddenMeCommand : IConsoleCommand
+    [Dependency] private ChatSystem _chat = default!;
+
+    public override string Command => "hme";
+
+    public override void Execute(IConsoleShell shell, string argStr, string[] args)
     {
-        public string Command => "hme";
-        public string Description => "Perform an action.";
-        public string Help => "hme <text>";
-
-        public void Execute(IConsoleShell shell, string argStr, string[] args)
+        if (shell.Player is not { } player)
         {
-            if (shell.Player is not { } player)
-            {
-                shell.WriteError("This command cannot be run from the server.");
-                return;
-            }
-
-            if (player.Status != SessionStatus.InGame)
-                return;
-
-            if (player.AttachedEntity is not {} playerEntity)
-            {
-                shell.WriteError("You don't have an entity!");
-                return;
-            }
-
-            if (args.Length < 1)
-                return;
-
-            var message = string.Join(" ", args).Trim();
-            if (string.IsNullOrEmpty(message))
-                return;
-
-            IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<ChatSystem>()
-                .TrySendInGameICMessage(playerEntity, message, InGameICChatType.Emote, ChatTransmitRange.HideChat, false, shell, player);
+            shell.WriteError(Loc.GetString("shell-cannot-run-command-from-server"));
+            return;
         }
+
+        if (player.Status != SessionStatus.InGame)
+            return;
+
+        if (player.AttachedEntity is not { } playerEntity)
+        {
+            shell.WriteError(Loc.GetString("shell-must-be-attached-to-entity"));
+            return;
+        }
+
+        var message = string.Join(" ", args).Trim();
+        if (string.IsNullOrEmpty(message))
+            return;
+
+        _chat.TrySendInGameICMessage(playerEntity, message, InGameICChatType.Emote, ChatTransmitRange.HideChat, false, shell, player);
     }
 }
