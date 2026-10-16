@@ -1,0 +1,374 @@
+#-------------------BoxerBriefs-----------------------
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPBoxerBriefsBlack
+  name: boxer briefs
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefs
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FFFFFF"
+
+#-----------------
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPBoxerBriefsBlack
+  id: LPPBoxerBriefsYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
+
+#-----------------------Boxer---------------------------
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPBoxerBlack
+  name: boxer
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxer
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPBoxerBlack
+  id: LPPBoxerYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
+
+#---------------------------------------------------
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPBoxersCommie
+  name: boxers commie
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/boxers_commie.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPBoxersHeart
+  name: boxers heart
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/boxers_heart.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPBoxersStriped
+  name: boxers striped
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/boxers_striped.rsi

@@ -1,0 +1,34 @@
+#----------------Pantyhose------------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseBlack
+  name: pantyhose
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
+
+#---------------------------------------------------
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderRainbowKnee
+  name: rainbow knee
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/rainbow_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderRainbowThigh
+  name: rainbow thigh
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/rainbow_thigh.rsi

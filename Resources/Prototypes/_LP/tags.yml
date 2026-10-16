@@ -1,0 +1,8 @@
+- type: Tag
+  id: breast
+
+- type: Tag
+  id: underwear
+
+- type: Tag
+  id: socks

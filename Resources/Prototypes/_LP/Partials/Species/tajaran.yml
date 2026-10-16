@@ -1,0 +1,42 @@
+# Таяры: общие маркировки с вульпканинами и запись в гайдбуке рас
+
+- type: !PartialOnly marking
+  id: !type:CreateVariants
+    values:
+    - VulpClawsHandLeft
+    - VulpClawsHandRight
+    - VulpClawsFootLeft
+    - VulpClawsFootRight
+    - VulpPointsCrestLegLeft
+    - VulpPointsCrestArmLeft
+    - VulpPointsCrestFootLeft
+    - VulpPointsCrestHandLeft
+    - VulpPointsCrestLegRight
+    - VulpPointsCrestArmRight
+    - VulpPointsCrestFootRight
+    - VulpPointsCrestHandRight
+    - VulpPointsFadeLegLeft
+    - VulpPointsFadeArmLeft
+    - VulpPointsFadeFootLeft
+    - VulpPointsFadeHandLeft
+    - VulpPointsFadeLegRight
+    - VulpPointsFadeArmRight
+    - VulpPointsFadeFootRight
+    - VulpPointsFadeHandRight
+    - VulpPointsSharpLegLeft
+    - VulpPointsSharpArmLeft
+    - VulpPointsSharpLongArmLeft
+    - VulpPointsSharpFootLeft
+    - VulpPointsSharpHandLeft
+    - VulpPointsSharpLegRight
+    - VulpPointsSharpArmRight
+    - VulpPointsSharpLongArmRight
+    - VulpPointsSharpFootRight
+    - VulpPointsSharpHandRight
+  speciesRestriction:
+  - Tajaran
+
+- type: !PartialOnly guideEntry
+  id: Species
+  children:
+  - Tajaran

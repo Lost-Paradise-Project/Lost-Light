@@ -1,0 +1,89 @@
+- type: entity
+  id: LPPTorsoProtoReptilian
+  name: "proto-reptilian torso"
+  parent: [PartNeocyte, BaseTorso]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "torso_m"
+
+- type: entity
+  id: LPPHeadProtoReptilian
+  name: "proto-reptilian head"
+  parent: [PartNeocyte, BaseHead]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "head_m"
+
+- type: entity
+  id: LPPLeftArmProtoReptilian
+  name: "left proto-reptilian arm"
+  parent: [PartNeocyte, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "l_arm"
+
+- type: entity
+  id: LPPRightArmProtoReptilian
+  name: "right proto-reptilian arm"
+  parent: [PartNeocyte, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LPPLeftHandProtoReptilian
+  name: "left proto-reptilian hand"
+  parent: [PartNeocyte, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "l_hand"
+
+- type: entity
+  id: LPPRightHandProtoReptilian
+  name: "right proto-reptilian hand"
+  parent: [PartNeocyte, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LPPLeftLegProtoReptilian
+  name: "left proto-reptilian leg"
+  parent: [PartNeocyte, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "l_leg"
+
+- type: entity
+  id: LPPRightLegProtoReptilian
+  name: "right proto-reptilian leg"
+  parent: [PartNeocyte, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "r_leg"
+
+- type: entity
+  id: LPPLeftFootProtoReptilian
+  name: "left proto-reptilian foot"
+  parent: [PartNeocyte, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "l_foot"
+
+- type: entity
+  id: LPPRightFootProtoReptilian
+  name: "right proto-reptilian foot"
+  parent: [PartNeocyte, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: _LP/Mobs/Species/Proto-Reptilian.rsi
+    state: "r_foot"

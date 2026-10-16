@@ -1,0 +1,346 @@
+#----------------------Thong--------------------------
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPThongBlack
+  name: thong
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThong
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FFFFFF"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPThongBlack
+  id: LPPThongYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
+
+#-------------------------------------
+#------------------ThongBabydoll--------------------
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPThongBabydollBlack
+  name: thong babydoll
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _LP/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollBlue
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydoll
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollBrown
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollGreen
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollGrey
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollLightpurple
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollMaroon
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollOrange
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollRed
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollTeal
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
+
+- type: entity
+  parent: LPPThongBabydollBlack
+  id: LPPThongBabydollYellow
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"

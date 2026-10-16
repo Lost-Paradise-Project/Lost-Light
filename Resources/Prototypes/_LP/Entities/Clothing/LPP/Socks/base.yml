@@ -1,0 +1,78 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: LPPClothingUnderwearSocksBase
+  name: based socks
+  components:
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fiber
+        Quantity: 3
+  - type: Edible
+    requiresSpecialDigestion: true
+  - type: FlavorProfile
+    flavors:
+    - fiber
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 5
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    quickEquip: true
+    slots:
+    - socks
+  - type: Tag
+    tags:
+    - ClothMade
+    - socks
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderBeeKnee
+  name: bee knee
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/bee_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderBeeNorm
+  name: bee norm
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/bee_norm.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderBeeThigh
+  name: bee thigh
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/bee_thigh.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderCommieKnee
+  name: commie knee
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/commie_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderCommieThigh
+  name: commie thigh
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/Socks/commie_thigh.rsi

@@ -1,0 +1,23 @@
+# Правки рас: пол экспериментов, маркировки и туловище фелионоидов
+
+# Эксперименты могут быть любого пола
+- type: !PartialOnly species
+  id: Experiment
+  sexes: !Remove
+
+- type: !PartialOnly markingPoints
+  id: MobFelionoidMarkingLimits
+  onlyWhitelisted: false
+
+- type: !PartialOnly humanoidBaseSprite
+  id: !type:CreateVariants
+    values:
+    - MobFelionoidTorso
+    - MobFelionoidTorsoMale
+  baseSprite:
+    state: torso_m
+
+- type: !PartialOnly humanoidBaseSprite
+  id: MobFelionoidTorsoFemale
+  baseSprite:
+    state: torso_f
