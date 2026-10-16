@@ -128,8 +128,8 @@
           visible: false
         - sprite: Structures/Furniture/Tables/optable.rsi
           map: ["tank"]
-          
-- type: !PartialOnly entity        
+
+- type: !PartialOnly entity
   id: BaseMobSpecies
   components:
     - type: ERPBounder
