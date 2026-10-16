@@ -90,4 +90,18 @@ Entries:
   id: 13
   time: '2026-10-15T22:17:09.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/36
+- author: SpicyDarkFox
+  changes:
+  - message: Изменены параметры отображения эмоутов ЕРП-панели, теперь они не видны призракам.
+    type: Tweak
+  id: 14
+  time: '2026-10-16T14:27:58.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/35
+- author: SpicyDarkFox
+  changes:
+  - message: Удален канал Тет-а-тет в чате, однако он работает через команду hme.
+    type: Remove
+  id: 15
+  time: '2026-10-16T14:27:58.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/35
 Order: -3

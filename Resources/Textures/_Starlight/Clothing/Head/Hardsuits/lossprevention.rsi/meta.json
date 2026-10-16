@@ -1,4 +1,4 @@
-﻿{
+{
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "State based copyright",
@@ -9,17 +9,17 @@
     "states": [
         {
             "name": "icon",
-	    "copyright": "Made by thepipetoadcouncil (discord)"
+            "copyright": "Made by thepipetoadcouncil (discord)"
         },
         {
             "name": "equipped-HELMET",
             "directions": 4,
-	    "copyright": "Made by thepipetoadcouncil (discord)"
+            "copyright": "Made by thepipetoadcouncil (discord)"
         },
         {
             "name": "equipped-HELMET-vox",
             "directions": 4,
-	    "copyright": "Made by Swonkus (github) based on thepipetoadcouncil (discord)"
+            "copyright": "Made by Swonkus (github) based on thepipetoadcouncil (discord)"
         }
     ]
 }

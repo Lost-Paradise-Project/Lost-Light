@@ -38,6 +38,10 @@ using Content.Client._Starlight.Achievement;
 using Content.Client._Starlight.Shaders;
 using Content.Shared._Starlight.DocumentManager;
 
+#if LP
+using Content.Client._ERPModule.Services;
+#endif
+
 namespace Content.Client.IoC
 {
     internal static class ClientContentIoC
@@ -91,6 +95,10 @@ namespace Content.Client.IoC
             collection.Register<IAchievementRewardManager, ClientAchievementManager>(); // Starlight
             collection.Register<PreWrittenDocumentManager>(); // Starlight
             collection.Register<IStarlightShaderManager, StarlightShaderManager>(); // Starlight
+
+#if LP
+            collection.Register<CustomInteractionService, CustomInteractionService>(true);
+#endif
         }
     }
 }

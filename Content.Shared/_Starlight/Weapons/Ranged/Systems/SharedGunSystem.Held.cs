@@ -1,4 +1,4 @@
-﻿// ReSharper disable once CheckNamespace
+// ReSharper disable once CheckNamespace
 using Content.Shared.Mech.Components;
 using Content.Shared.Weapons.Ranged.Components;
 
