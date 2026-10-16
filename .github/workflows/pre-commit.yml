@@ -1,65 +1,46 @@
 name: Pre-commit check
 on:
-  pull_request:
+  pull_request_target:
     types: [ opened, reopened, synchronize, ready_for_review ]
     branches: [ master, stable ]
-
-concurrency:
-  group: pre-commit-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
-
-permissions:
-  contents: write
 
 jobs:
   pre-commit:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 1
-          submodules: false
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: .base
+          sparse-checkout: .pre-commit-config.yaml
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Install pre-commit
-        run: python -m pip install pre-commit
-
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/pre-commit
-          key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
-
-      - name: Run pre-commit
+      - uses: pre-commit/action@v3.0.1
         id: run
-        run: pre-commit run --all-files --show-diff-on-failure --color=always
         continue-on-error: true
+        with:
+          extra_args: --all-files --config .base/.pre-commit-config.yaml
 
-      # Пушим фиксы только в ветки этой репы - в форк GITHUB_TOKEN писать не может
-      - name: Commit autofixes
-        if: steps.run.outcome == 'failure' && github.event.pull_request.head.repo.full_name == github.repository
+      - name: Push autofixes
+        if: steps.run.outcome == 'failure'
+        env:
+          REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          REF: ${{ github.event.pull_request.head.ref }}
+          TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
-          if git diff --quiet; then
-            echo "Хуки упали, но ничего не исправили - нужна ручная правка"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && exit 1
+          git config user.name "${{ vars.CHANGELOG_USER }}"
+          git config user.email "${{ vars.CHANGELOG_EMAIL }}"
           git commit -am "Авто фиксы кода"
-          git push
-
-      - name: Fail on fork PR
-        if: steps.run.outcome == 'failure' && github.event.pull_request.head.repo.full_name != github.repository
-        run: |
-          echo "PR из форка - автофикс недоступен, запусти pre-commit локально и запушь исправления"
-          exit 1
-
-      # Повторный прогон: падает, если остались ошибки, которые хуки не чинят сами
-      - name: Re-run pre-commit
-        if: steps.run.outcome == 'failure' && github.event.pull_request.head.repo.full_name == github.repository
-        run: pre-commit run --all-files --show-diff-on-failure --color=always
+          git push "https://x-access-token:$TOKEN@github.com/$REPO.git" "HEAD:$REF"
