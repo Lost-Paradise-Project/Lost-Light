@@ -17,6 +17,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
           persist-credentials: false
+          allow-unsafe-pr-checkout: true
 
       - uses: actions/checkout@v4
         with:
@@ -25,6 +26,7 @@ jobs:
           sparse-checkout: .pre-commit-config.yaml
           sparse-checkout-cone-mode: false
           persist-credentials: false
+          allow-unsafe-pr-checkout: true
 
       - uses: actions/setup-python@v5
         with:
