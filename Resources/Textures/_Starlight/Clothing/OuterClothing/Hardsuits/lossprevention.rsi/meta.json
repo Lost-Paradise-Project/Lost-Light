@@ -1,4 +1,4 @@
-﻿{
+{
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "State based copyright",
@@ -9,27 +9,27 @@
     "states": [
         {
             "name": "icon",
-	    "copyright": "Made by Swonkus (github) based on thepipetoadcouncil (discord)"
+            "copyright": "Made by Swonkus (github) based on thepipetoadcouncil (discord)"
         },
         {
             "name": "equipped-OUTERCLOTHING",
             "directions": 4,
-	    "copyright": "Made by thepipetoadcouncil (discord)"
+            "copyright": "Made by thepipetoadcouncil (discord)"
         },
         {
             "name": "equipped-OUTERCLOTHING-vox",
             "directions": 4,
-	    "copyright": "Made by Swonkus (github) based on thepipetoadcouncil (discord)"
+            "copyright": "Made by Swonkus (github) based on thepipetoadcouncil (discord)"
         },
         {
             "name": "inhand-left",
             "directions": 4,
-	    "copyright": "Made by Swonkus (github)"
+            "copyright": "Made by Swonkus (github)"
         },
         {
             "name": "inhand-right",
             "directions": 4,
-	    "copyright": "Made by Swonkus (github)"
+            "copyright": "Made by Swonkus (github)"
         }
     ]
 }
