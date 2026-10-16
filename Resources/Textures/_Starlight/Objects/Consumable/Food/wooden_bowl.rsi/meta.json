@@ -1,17 +1,17 @@
 {
-  "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Sprited by inanistheinsane(DISCORD)",
-  "size": {
-    "y": 32,
-    "x": 32
-  },
-  "states": [
-    {
-      "name": "bowl"
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprited by inanistheinsane(DISCORD)",
+    "size": {
+        "y": 32,
+        "x": 32
     },
-    {
-      "name": "stroganoff"
-    }
-  ]
+    "states": [
+        {
+            "name": "bowl"
+        },
+        {
+            "name": "stroganoff"
+        }
+    ]
 }
