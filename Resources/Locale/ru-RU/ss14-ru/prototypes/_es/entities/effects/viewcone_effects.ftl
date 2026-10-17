@@ -1,0 +1,10 @@
+ent-ESBaseViewconeEffect = { "" }
+    .desc = { "" }
+ent-ESViewconeEffectFootstep = { ent-ESBaseViewconeEffect }
+    .desc = { ent-ESBaseViewconeEffect.desc }
+ent-ESViewconeEffectAttack = { ent-ESBaseViewconeEffect }
+    .desc = { ent-ESBaseViewconeEffect.desc }
+ent-ESViewconeEffectForcefield = { ent-ESBaseViewconeEffect }
+    .desc = { ent-ESBaseViewconeEffect.desc }
+ent-ESViewconeEffectTalk = { ent-ESBaseViewconeEffect }
+    .desc = { ent-ESBaseViewconeEffect.desc }

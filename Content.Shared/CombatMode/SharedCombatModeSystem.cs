@@ -85,7 +85,10 @@ public abstract partial class SharedCombatModeSystem : EntitySystem
         SetMouseRotatorComponents(entity, value);
     }
 
-    private void SetMouseRotatorComponents(EntityUid uid, bool value)
+    // ES START
+    // what the fuck was i thinking?
+    public void SetMouseRotatorComponents(EntityUid uid, bool value)
+    // ES END
     {
         if (value)
         {

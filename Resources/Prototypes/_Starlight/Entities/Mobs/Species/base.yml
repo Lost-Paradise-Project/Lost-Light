@@ -19,6 +19,9 @@
     understands:
     - GalacticCommon
   # Starlight-end
+  # ES START
+  - type: ESHoldToFace
+  # ES END
   - type: Sprite
     layers:
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
