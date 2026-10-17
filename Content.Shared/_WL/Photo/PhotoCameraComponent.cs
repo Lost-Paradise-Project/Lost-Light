@@ -1,0 +1,54 @@
+using Robust.Shared.Audio;
+using Robust.Shared.Serialization;
+using System.Numerics;
+
+namespace Content.Shared._WL.Photo;
+
+[RegisterComponent]
+public sealed partial class PhotoCameraComponent : Component
+{
+    [DataField]
+    public Vector2 ViewBox = new Vector2(5, 5);
+    [DataField]
+    public float MinZoom = 0.2f, MaxZoom = 1f;
+
+    [DataField]
+    public SoundSpecifier PhotoSound = new SoundPathSpecifier("/Audio/_WL/Effects/photo_shoot.ogg");
+    [DataField]
+    public SoundSpecifier ErrorSound = new SoundPathSpecifier("/Audio/Machines/airlock_deny.ogg");
+
+    // Card
+    [DataField]
+    public string CardPrototype = "PhotoCard";
+    [DataField]
+    public string CardMaterial = "PrinterPaper";
+    [DataField]
+    public int CardCost = 100;
+
+    //Filter
+    [DataField]
+    public string FilterSlot = "filter";
+
+    [ViewVariables]
+    public EntityUid? User;
+}
+
+[Serializable, NetSerializable]
+public sealed class PhotoCameraUiState(NetEntity cameraEntity, bool hasPaper) : BoundUserInterfaceState
+{
+    public NetEntity CameraEntity { get; } = cameraEntity;
+
+    public bool HasPaper { get; } = hasPaper;
+}
+
+[Serializable, NetSerializable]
+public enum PhotoCameraUiKey : byte
+{
+    Key
+}
+
+[Serializable, NetSerializable]
+public sealed class PhotoCameraTakeImageMessage(byte[] data) : BoundUserInterfaceMessage
+{
+    public byte[] Data { get; } = data;
+}

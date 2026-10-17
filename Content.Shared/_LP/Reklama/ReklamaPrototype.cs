@@ -4,9 +4,6 @@ using Robust.Shared.Utility;
 
 namespace Content.Shared._LP.Reklama;
 
-/// <summary>
-/// Рекламная кнопка в лобби.
-/// </summary>
 [Prototype]
 public sealed partial class ReklamaPrototype : IPrototype
 {

@@ -1,0 +1,4 @@
+- files: ["button_base.png", "button_highlight.png", "button_pressed.png", "paper_off.png", "paper_on.png", "window_background.png"]
+  license: "Custom"
+  copyright: "Made by Misha_Unity for corvax-team/ss14-wl without a separate license; covered by the AGPLv3 terms of the ss14-wl LICENSE.md"
+  source: "https://github.com/corvax-team/ss14-wl/pull/329"

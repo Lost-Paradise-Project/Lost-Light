@@ -1,0 +1,62 @@
+using Content.Shared._WL.Photo;
+using Content.Shared._WL.Photo.Filters;
+using Content.Shared.Coordinates;
+using Content.Shared.Ghost;
+using Robust.Server.GameObjects;
+using Robust.Shared.Timing;
+
+namespace Content.Server._WL.Photo.Filter;
+
+public sealed partial class PhotoGhostFilterSystem : EntitySystem
+{
+    [Dependency] private IGameTiming _timing = default!;
+    [Dependency] private TransformSystem _transform = default!;
+    [Dependency] private EntityLookupSystem _lookup = default!;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+    }
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        var now = _timing.CurTime;
+        var query = EntityQueryEnumerator<PhotoGhostFilterComponent>();
+        while (query.MoveNext(out var uid, out var comp))
+        {
+            if (now < comp.NextUpdateTime)
+                continue;
+
+            comp.NextUpdateTime = now + comp.UpdateTime;
+
+            // LP edit start
+            if (!TryComp<PhotoCameraComponent>(uid, out var camera) || camera.User == null)
+            {
+                if (comp.ViewedGhosts.Count == 0)
+                    continue;
+
+                comp.ViewedGhosts.Clear();
+                Dirty(uid, comp);
+                continue;
+            }
+
+            var hadGhosts = comp.ViewedGhosts.Count != 0;
+            // LP edit end
+            comp.ViewedGhosts.Clear();
+
+            var entities = _lookup.GetEntitiesInRange(uid, comp.ViewRange);
+            foreach (var entity in entities)
+            {
+                // LP edit - без админских aghost
+                if (TryComp<GhostComponent>(entity, out var ghost) && !ghost.CanGhostInteract)
+                    comp.ViewedGhosts.Add(_transform.ToWorldPosition(entity.ToCoordinates()));
+            }
+
+            // LP edit
+            if (hadGhosts || comp.ViewedGhosts.Count != 0)
+                Dirty(uid, comp);
+        }
+    }
+}
