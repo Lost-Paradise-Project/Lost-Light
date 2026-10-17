@@ -1,0 +1,19 @@
+# Звуки дверей из портов Orion
+
+- type: !PartialOnly entity
+  id: BaseFirelock
+  components:
+  - type: Door
+    openSound:
+      path: /Audio/_Orion/Machines/firedoor_openclose.ogg
+    closeSound:
+      path: /Audio/_Orion/Machines/firedoor_openclose.ogg
+
+- type: !PartialOnly entity
+  id: BlastDoor
+  components:
+  - type: Door
+    openSound:
+      path: /Audio/_Orion/Machines/blastdoornew.ogg
+    closeSound:
+      path: /Audio/_Orion/Machines/blastdoornew.ogg
