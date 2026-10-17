@@ -30,6 +30,7 @@
   - Reporter
   - Visitor
   - ServiceWorker
+  - PhoneMerchant # Trauma
   # Starlight start
   - AssistantManager
   - Performer
