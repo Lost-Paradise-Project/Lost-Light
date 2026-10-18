@@ -11,17 +11,15 @@
             "name": "glow",
             "delays": [
                 [
-                    1,
-                    1,
-                    0.5,
-                    1
+                    3,
+                    0.5
                 ]
             ],
-            "copyright": "Taken from MS13 at commit https://github.com/Mojave-Sun/mojave-sun-13/commit/6fde5cf64e584727ce66d92d81352801670e172f"
+            "copyright": "Taken from MS13 at commit https://github.com/Mojave-Sun/mojave-sun-13/commit/6fde5cf64e584727ce66d92d81352801670e172f. Russified and modify on 10.10.26 by SanitarDurkovic (github)"
         },
         {
             "name": "base",
-            "copyright": "Taken from MS13 at commit https://github.com/Mojave-Sun/mojave-sun-13/commit/6fde5cf64e584727ce66d92d81352801670e172f"
+            "copyright": "Taken from MS13 at commit https://github.com/Mojave-Sun/mojave-sun-13/commit/6fde5cf64e584727ce66d92d81352801670e172f. Russified on 10.10.26 by SanitarDurkovic (github)"
         }
     ]
 }
