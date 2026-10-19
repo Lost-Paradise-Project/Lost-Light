@@ -3,6 +3,7 @@
   components:
   - type: Sprite
     layers:
-    - sprite: &icon-rsi _LP/Interface/Misc/job_icons.rsi
-      offset: &icon-offset -0.09375, 0.0625 #3 pixels left, 2 pixels up
+    - !CombineIndex:1
+      sprite: _LP/Interface/Misc/job_icons.rsi
+      offset: -0.09375, 0.0625
       state: Assistant
