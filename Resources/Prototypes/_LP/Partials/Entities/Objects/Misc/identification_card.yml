@@ -1,0 +1,6 @@
+- type: !PartialOnly entity
+  id: AssistantIDCard
+  components:
+  - type: Sprite
+    layers:
+    - sprite: &icon-rsi _LP/Interface/Misc/job_icons.rsi
