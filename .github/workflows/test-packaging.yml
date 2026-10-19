@@ -70,13 +70,68 @@ jobs:
         run: dotnet restore
 
       - name: Build Packaging
-        run: dotnet build Content.Packaging --configuration Release --no-restore /m
+        id: build-packaging
+        run: |
+          set -o pipefail
+          dotnet build Content.Packaging --configuration Release --no-restore /m 2>&1 | tee /tmp/packaging-build.log
 
       - name: Package server
-        run: dotnet run --project Content.Packaging server --log-build --platform win-x64 --platform win-arm64 --platform linux-x64 --platform linux-arm64 --platform osx-x64 --platform osx-arm64
+        id: package-server
+        run: |
+          set -o pipefail
+          dotnet run --project Content.Packaging server --log-build --platform win-x64 --platform win-arm64 --platform linux-x64 --platform linux-arm64 --platform osx-x64 --platform osx-arm64 2>&1 | tee /tmp/packaging-server.log
 
       - name: Package client
-        run: dotnet run --project Content.Packaging client --log-build --no-wipe-release
+        id: package-client
+        run: |
+          set -o pipefail
+          dotnet run --project Content.Packaging client --log-build --no-wipe-release 2>&1 | tee /tmp/packaging-client.log
+
+      # Отчёт CTRF публикует ci-report-pr-comment.yml: у PR из форков здесь нет прав на запись
+      - name: Build report
+        if: always() && github.event_name == 'pull_request'
+        env:
+          BUILD: ${{ steps.build-packaging.outcome }}
+          SERVER: ${{ steps.package-server.outcome }}
+          CLIENT: ${{ steps.package-client.outcome }}
+          # Ошибки сборки с закрытыми частями могут содержать их код - в публичный комментарий не выносим
+          SECRETS: ${{ steps.secrets.outputs.downloaded }}
+        run: |
+          mkdir -p /tmp/ctrf
+          python3 - <<'PY'
+          import json, os, re
+
+          statuses = {"success": "passed", "failure": "failed"}
+          error_line = re.compile(r": error [A-Z]+[0-9]+|error MSB|Unhandled exception|^\s*Error:")
+          ansi = re.compile(r"\x1b\[[0-9;]*m")
+
+          tests = []
+          for name, env, log in (("Сборка Content.Packaging", "BUILD", "build"),
+                                 ("Пакет сервера", "SERVER", "server"),
+                                 ("Пакет клиента", "CLIENT", "client")):
+              test = {"name": name, "status": statuses.get(os.environ[env], "skipped"), "duration": 0}
+              path = f"/tmp/packaging-{log}.log"
+              if test["status"] == "failed" and os.environ["SECRETS"] != "true" and os.path.exists(path):
+                  errors = sorted({ansi.sub("", l).strip() for l in open(path, encoding="utf-8", errors="replace") if error_line.search(l)})
+                  if errors:
+                      test["message"] = "\n".join(errors[:100])
+              tests.append(test)
+
+          summary = {key: sum(t["status"] == key for t in tests) for key in ("passed", "failed", "skipped")}
+          summary.update(tests=len(tests), pending=0, other=0, start=0, stop=0)
+          report = {"results": {"tool": {"name": "Content.Packaging"}, "summary": summary, "tests": tests}}
+
+          with open("/tmp/ctrf/ctrf-report.json", "w", encoding="utf-8") as out:
+              json.dump(report, out, ensure_ascii=False)
+          PY
+
+      - name: Upload report
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v6
+        with:
+          name: ctrf-test-packaging
+          path: /tmp/ctrf/ctrf-report.json
+          retention-days: 7
 
       - uses: actions/upload-artifact@v4
         if: steps.secrets.outputs.downloaded != 'true'

@@ -1,4 +1,5 @@
 cult-glyph-target-dead = Влияние глифа не действует на мёртвых..
+cult-glyph-target-nomind = Глиф не находит бодрствующего разума, за который можно ухватиться!
 cult-glyph-not-enough-cultists = Недостаточно культистов, чтобы вызвать глиф!
 cult-glyph-conditions-not-met = В зоне действия глифа нет подходящих целей!
 cult-glyph-too-many-targets = На глифе слишком много целей!

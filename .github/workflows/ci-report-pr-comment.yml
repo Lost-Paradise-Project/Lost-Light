@@ -1,0 +1,79 @@
+name: Publish CI Report
+
+# Вторая половина test-packaging.yml и localization-check.yml, устроена как build-test-debug-pr-comment.yml.
+# У каждой проверки свой комментарий (comment-tag по id workflow).
+# see https://github.com/ctrf-io/github-test-reporter/blob/main/docs/fork-pull-requests.md
+
+on:
+  workflow_run:
+    workflows: [ 'Test Packaging', 'Localization Check' ]
+    types: [ completed ]
+
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.workflow_run.workflow_id }}-${{ github.event.workflow_run.head_sha }}
+  cancel-in-progress: true
+
+jobs:
+  report:
+    name: Comment CI Results
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion != 'cancelled' &&
+      github.event.workflow_run.conclusion != 'skipped'
+    runs-on: ubuntu-slim
+    permissions:
+      actions: read
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Download CTRF report
+        continue-on-error: true
+        uses: actions/download-artifact@v8
+        with:
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.BOT_TOKEN }}
+          pattern: ctrf-*
+          path: /tmp/ctrf-results
+
+      - name: Determine PR number
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          PR_NUM=$(gh api "repos/${GH_REPO}/commits/${HEAD_SHA}/pulls" \
+            --jq "[.[] | select(.state == \"open\" and .head.sha == \"${HEAD_SHA}\") | .number] | first // empty" || true)
+
+          if [ -z "$PR_NUM" ]; then
+            PR_NUM=$(gh pr list --state open --limit 100 --json number,headRefOid \
+              --jq "[.[] | select(.headRefOid == \"${HEAD_SHA}\") | .number] | first // empty" || true)
+          fi
+
+          if [ -z "$PR_NUM" ]; then
+            echo "No open PR found for head SHA ${HEAD_SHA}; skipping comment"
+          else
+            echo "Commenting on PR #${PR_NUM}"
+          fi
+
+          echo "number=${PR_NUM}" >> "$GITHUB_OUTPUT"
+
+      - name: Comment results on PR
+        if: ${{ steps.pr.outputs.number != '' }}
+        uses: ctrf-io/github-test-reporter@v1
+        with:
+          report-path: '/tmp/ctrf-results/**/*.json'
+          title: ${{ github.event.workflow_run.name }}
+          community-report: true
+          community-report-name: summary-short
+          failed-folded-report: true
+          issue: ${{ steps.pr.outputs.number }}
+          overwrite-comment: true
+          comment-tag: ci-report-${{ github.event.workflow_run.workflow_id }}
+          exit-on-no-files: false
+          exit-on-fail: false
+          report-order: 'summary-short,failed-folded-report'
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}

@@ -132,7 +132,7 @@ public sealed partial class SecApartmentWindow : BaseWindow
         var optionBackgroundRule = SecApartmentStyles.CreateOptionButtonBackgroundRule();
 
         var rules = new[] { buttonStyleRule, lineEditRule, optionRule, optionBackgroundRule };
-        // LP edit - стиль только на окно: глобальный стиль раньше подменялся и не возвращался (Dispose у контролов не вызывается)
+        // Стиль только на окно: глобальный стиль раньше подменялся и не возвращался (Dispose у контролов не вызывается)
         Stylesheet = CreateCombinedStylesheet(rules);
     }
 

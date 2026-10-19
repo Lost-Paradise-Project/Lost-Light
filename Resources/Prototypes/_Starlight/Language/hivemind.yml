@@ -1,7 +1,7 @@
 - type: language
   id: Cosmic
   icon: LanguageIconCosmic
-  chatPrefix: а # LP edit
+  chatPrefix: a
   iconNotUnderstood: false
   speech:
     color: "#4cabb3"
@@ -33,7 +33,7 @@
 
 - type: language
   id: Nexus
-  chatPrefix: н # LP edit
+  chatPrefix: n
   iconUnderstood: false
   iconNotUnderstood: false
   speech:
@@ -53,7 +53,7 @@
 
 - type: language
   id: Changeling
-  chatPrefix: р # LP edit
+  chatPrefix: h
   iconUnderstood: false
   iconNotUnderstood: false
   speech:
@@ -73,7 +73,7 @@
 
 - type: language
   id: Dantalion
-  chatPrefix: д # LP edit
+  chatPrefix: p
   iconUnderstood: false
   iconNotUnderstood: false
   speech:
@@ -93,7 +93,7 @@
 
 - type: language
   id: Empathy
-  chatPrefix: э # LP edit
+  chatPrefix: e
   iconUnderstood: false
   iconNotUnderstood: false
   speech:
@@ -113,7 +113,7 @@
 
 - type: language
   id: Carpmind
-  chatPrefix: к # LP edit
+  chatPrefix: c
   iconUnderstood: false
   iconNotUnderstood: false
   speech:
@@ -133,7 +133,7 @@
 
 - type: language
   id: Xenomind
-  chatPrefix: х # LP edit
+  chatPrefix: x
   iconUnderstood: false
   iconNotUnderstood: false
   speech:

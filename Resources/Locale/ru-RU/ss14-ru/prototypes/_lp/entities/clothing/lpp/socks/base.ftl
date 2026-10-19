@@ -1,0 +1,12 @@
+ent-LPPClothingUnderwearSocksBase = базовые носки
+    .desc = { ent-Clothing.desc }
+ent-LPPClothingUnderBeeKnee = пчелиные гольфы
+    .desc = { ent-LPPClothingUnderwearSocksBase.desc }
+ent-LPPClothingUnderBeeNorm = пчелиные носки
+    .desc = { ent-LPPClothingUnderwearSocksBase.desc }
+ent-LPPClothingUnderBeeThigh = пчелиные чулки
+    .desc = { ent-LPPClothingUnderwearSocksBase.desc }
+ent-LPPClothingUnderCommieKnee = коммунистические гольфы
+    .desc = { ent-LPPClothingUnderwearSocksBase.desc }
+ent-LPPClothingUnderCommieThigh = коммунистические чулки
+    .desc = { ent-LPPClothingUnderwearSocksBase.desc }

@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "By Killer Tamashi (Discord) and resprited by MegaDaimond, visor-main by MegaDaimond",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "repvisor",
+            "directions": 4
+        },
+        {
+            "name": "visor-main",
+            "directions": 4
+        }
+    ]
+}

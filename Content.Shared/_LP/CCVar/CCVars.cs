@@ -5,16 +5,6 @@ namespace Content.Shared.CCVar;
 public sealed partial class CCVars
 {
     /*
-     * Station Goal
-     */
-
-    /// <summary>
-    /// Send station goal on round start or not.
-    /// </summary>
-    public static readonly CVarDef<bool> StationGoal =
-        CVarDef.Create("game.station_goal", true, CVar.SERVERONLY);
-
-    /*
      * TTS (ntts.fdev.team)
      */
 

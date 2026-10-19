@@ -112,6 +112,9 @@
           tags:
           - PotatoBattery
           - MechReactor #Starlight
+  - type: Item
+    size: Ginormous
+  - type: MultiHandedItem
 
 - type: entity
   parent: [ BaseItemRecharger, ConstructibleMachine ]
@@ -145,7 +148,7 @@
     slots:
       charger_slot:
         ejectOnInteract: true
-        name: item-slot-component-slot-name-power-cage # LP edit
+        name: Power cage
         whitelist:
           tags:
           - PowerCage
@@ -177,6 +180,9 @@
           tags:
           - PotatoBattery
           - MechReactor #Starlight
+  - type: Item
+    size: Ginormous
+  - type: MultiHandedItem
 
 - type: entity
   parent: BaseItemRecharger
@@ -203,6 +209,9 @@
           tags:
           - PotatoBattery
           - MechReactor #Starlight
+  - type: Item
+    size: Ginormous
+  - type: MultiHandedItem
 
 - type: entity
   parent: [ BaseItemRecharger, BaseWallmount ]

@@ -5,7 +5,7 @@
   description: "A NanoTrasen-approved device for organizing and coordinating the actions of security personnel at corporate facilities."
   components:
   - type: Sprite
-    sprite: Corvax/Objects/Devices/secapartment.rsi
+    sprite: _Corvax/Objects/Devices/secapartment.rsi
     layers:
     - state: base
     - state: powered

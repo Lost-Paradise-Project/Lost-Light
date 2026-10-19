@@ -1,0 +1,16 @@
+ent-BaseContrabandTier4 = { "" }
+    .desc = { "" }
+ent-BaseContrabandTier2 = { "" }
+    .desc = { "" }
+ent-BaseContrabandTier3 = { "" }
+    .desc = { "" }
+ent-BaseSiliconContraband = { ent-BaseRestrictedContraband }
+    .desc = { ent-BaseRestrictedContraband.desc }
+ent-BaseInternalAffairsContraband = { ent-BaseRestrictedContraband }
+    .desc = { ent-BaseRestrictedContraband.desc }
+ent-BaseBartenderContraband = { ent-BaseRestrictedContraband }
+    .desc = { ent-BaseRestrictedContraband.desc }
+ent-BaseWardenContraband = { ent-BaseRestrictedContraband }
+    .desc = { ent-BaseRestrictedContraband.desc }
+ent-BaseDetectiveContraband = { ent-BaseRestrictedContraband }
+    .desc = { ent-BaseRestrictedContraband.desc }

@@ -1,9 +1,9 @@
 ent-CrateITGMedicalSurplus = Ящик медицинских излишков МТГ
     .desc = Коробка с медицинскими припасами с задней части склада МТГ
-    .suffix = { ent-CratePrivateSecure.suffix }
+    .suffix = { ent-CrateSalvageContrabandStorageSecure.suffix }
 ent-CrateITGShotgunSurplus = Ящик излишков дробовиков МТГ
     .desc = Коробка с оружием с задней части склада МТГ
-    .suffix = { ent-CratePrivateSecure.suffix }
+    .suffix = { ent-CrateSalvageContrabandStorageSecure.suffix }
 ent-CrateITGSurplus = Торговый ящик излишков МТГ
     .desc = Коробка с товарами с задней части склада МТГ, предназначенными для сбыта станционным лохам
-    .suffix = { ent-CratePrivateSecure.suffix }
+    .suffix = { ent-CrateSalvageContrabandStorageSecure.suffix }

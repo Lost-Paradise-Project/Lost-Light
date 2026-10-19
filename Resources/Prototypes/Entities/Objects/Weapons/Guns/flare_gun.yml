@@ -23,7 +23,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: item-slot-component-slot-name-chamber # LP edit
+        name: Chamber
         startingItem: ShellShotgunFlare
         priority: 1
         whitelist:

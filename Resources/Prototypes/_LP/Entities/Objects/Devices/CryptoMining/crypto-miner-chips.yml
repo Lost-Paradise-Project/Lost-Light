@@ -1,0 +1,64 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: LPCryptoMinerChipBase
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/module.rsi
+  - type: Item
+    size: Tiny
+  - type: CryptoMinerChip
+  - type: StaticPrice
+    price: 300
+  - type: GuideHelp
+    guides:
+    - LPCryptoMining
+
+- type: entity
+  parent: LPCryptoMinerChipBase
+  id: LPCryptoMinerChipBooster
+  name: crypto miner accelerator chip
+  description: A hashing accelerator for a crypto miner blade server. More income, but more power draw and heat.
+  components:
+  - type: Sprite
+    state: cpu_adv
+  - type: CryptoMinerChip
+    incomeMultiplier: 1.5
+    powerMultiplier: 1.5
+
+- type: entity
+  parent: LPCryptoMinerChipBase
+  id: LPCryptoMinerChipCooling
+  name: crypto miner cooling chip
+  description: An energy-efficient controller for a crypto miner blade server. Same income, much less heat.
+  components:
+  - type: Sprite
+    state: cpu_medical
+  - type: CryptoMinerChip
+    heatMultiplier: 0.4
+
+- type: entity
+  parent: LPCryptoMinerChipBase
+  id: LPCryptoMinerChipOverclocked
+  name: overclocked crypto miner chip
+  description: A crudely overclocked chip for a crypto miner blade server. Doubles the income and runs dangerously hot.
+  components:
+  - type: Sprite
+    state: cpu_super
+  - type: CryptoMinerChip
+    incomeMultiplier: 2
+    powerMultiplier: 2
+    heatMultiplier: 1.5
+  - type: StaticPrice
+    price: 600
+
+# Выглядит как обычный ускоритель, но вчетверо поднимает потребление и тепло:
+# перегружает ЛКП стойки и перегревает серверную.
+- type: entity
+  parent: LPCryptoMinerChipBooster
+  id: LPCryptoMinerChipSyndicate
+  suffix: Syndicate
+  components:
+  - type: CryptoMinerChip
+    incomeMultiplier: 1.5
+    powerMultiplier: 4

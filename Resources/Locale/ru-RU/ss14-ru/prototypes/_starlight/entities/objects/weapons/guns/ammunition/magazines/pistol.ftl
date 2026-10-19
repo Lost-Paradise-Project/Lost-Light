@@ -1,13 +1,13 @@
 ent-BaseMagazinePistol = пистолетный магазин (.35 авто)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-BaseMagazinePistolGolden = золотой пистолетный магазин (.35 авто)
     .desc = { ent-BaseMagazinePistol.desc }
 ent-BaseMagazinePistolHighCapacity = автопистолетный магазин (.35 авто)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-BaseMagazinePistolHighCapacityGolden = золотой увеличенный пистолетный магазин (.35 авто)
     .desc = { ent-BaseMagazinePistolHighCapacity.desc }
 ent-BaseMagazinePistolSubMachineGun = магазин ПП (.35 авто)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-MagazinePistolSubMachineGunTopMounted = магазин WT550 (.35 авто, надствольный)
     .desc = Необычный магазин с верхней подачей на 30 патронов для ПП WT550. Предназначен для хранения кинетических боеприпасов общего назначения.
 ent-MagazinePistolSubMachineGunTopMountedFMJ = магазин WT550 (.35 авто FMJ, надствольный)

@@ -32,17 +32,6 @@
     - yells
     - yelled
     - yelling
-    # LP edit start
-    - кричать
-    - кричит
-    - закричал
-    - закричала
-    - вопит
-    - завопил
-    - завопила
-    - орёт
-    - орет
-    # LP edit end
 
 - type: emote
   id: Laugh
@@ -73,17 +62,6 @@
     - chortle
     - chortles
     - chortling
-    # LP edit start
-    - смеяться
-    - смеётся
-    - смеется
-    - засмеялся
-    - засмеялась
-    - хихикает
-    - хихикнул
-    - хихикнула
-    - хохочет
-    # LP edit end
 
 - type: emote
   id: Honk
@@ -102,12 +80,6 @@
     - honks
     - honked
     - honking
-    # LP edit start
-    - хонк
-    - хонкает
-    - хонкнул
-    - хонкнула
-    # LP edit end
 
 - type: emote
   id: Sigh
@@ -126,12 +98,6 @@
     - sigh
     - sighs
     - sighed
-    # LP edit start
-    - вздыхать
-    - вздыхает
-    - вздохнул
-    - вздохнула
-    # LP edit end
 
 - type: emote
   id: Whistle
@@ -150,12 +116,6 @@
     - whistle
     - whistles
     - whistleblowing
-    # LP edit start
-    - свистеть
-    - свистит
-    - свистнул
-    - свистнула
-    # LP edit end
 
 - type: emote
   id: Crying
@@ -176,14 +136,6 @@
     - sob
     - sobs
     - sobbing
-    # LP edit start
-    - плакать
-    - плачет
-    - заплакал
-    - заплакала
-    - рыдает
-    - всхлипывает
-    # LP edit end
 
 - type: emote
   id: Squish
@@ -203,12 +155,6 @@
     - squish
     - squishing
     - squishes
-    # LP edit start
-    - хлюпать
-    - хлюпает
-    - хлюпнул
-    - хлюпнула
-    # LP edit end
 
 - type: emote
   id: Chitter
@@ -228,12 +174,6 @@
    - chitter
    - chitters
    - chittered
-   # LP edit start
-   - стрекотать
-   - стрекочет
-   - застрекотал
-   - застрекотала
-   # LP edit end
 
 - type: emote
   id: Squeak
@@ -253,12 +193,6 @@
    - squeak
    - squeaks
    - squeaked
-   # LP edit start
-   - пищать
-   - пищит
-   - пискнул
-   - пискнула
-   # LP edit end
 
 - type: emote
   id: Click
@@ -277,12 +211,6 @@
   chatTriggers:
    - click
    - clicks
-   # LP edit start
-   - клацать
-   - клацает
-   - клацнул
-   - клацнула
-   # LP edit end
 
 # Vulpkanin
 - type: emote
@@ -302,12 +230,6 @@
   - barks
   - barked
   - barking
-  # LP edit start
-  - лаять
-  - лает
-  - залаял
-  - залаяла
-  # LP edit end
 
 - type: emote
   id: Snarl
@@ -326,12 +248,6 @@
   - snarls
   - snarled
   - snarling
-  # LP edit start
-  - скалиться
-  - скалится
-  - оскалился
-  - оскалилась
-  # LP edit end
 
 - type: emote
   id: Whine
@@ -350,12 +266,6 @@
   - whines
   - whined
   - whining
-  # LP edit start
-  - скулить
-  - скулит
-  - заскулил
-  - заскулила
-  # LP edit end
 
 - type: emote
   id: Howl
@@ -374,12 +284,6 @@
   - howls
   - howling
   - howled
-  # LP edit start
-  - выть
-  - воет
-  - завыл
-  - завыла
-  # LP edit end
 
 - type: emote
   id: Growl
@@ -398,12 +302,6 @@
   - growls
   - growled
   - growling
-  # LP edit start
-  - рычать
-  - рычит
-  - зарычал
-  - зарычала
-  # LP edit end
 
 # hand emotes
 - type: emote
@@ -423,12 +321,6 @@
     - claps
     - clapping
     - clapped
-    # LP edit start
-    - хлопать
-    - хлопает
-    - аплодировать
-    - аплодирует
-    # LP edit end
 
 - type: emote
   id: ClapSingle
@@ -449,12 +341,6 @@
     - claps her hands together
     - claps his hands together
     - claps its hands together
-    # LP edit start
-    - хлопок
-    - хлопнул
-    - хлопнула
-    - хлопает в ладоши
-    # LP edit end
 
 - type: emote
   id: Snap
@@ -482,18 +368,6 @@
     - snaps its fingers
     - snapping fingers
     - snapped fingers
-    # LP edit start
-    - щёлкать
-    - щелкать
-    - щёлкает
-    - щелкает
-    - щёлкнул
-    - щелкнул
-    - щёлкнула
-    - щелкнула
-    - щёлкает пальцами
-    - щелкает пальцами
-    # LP edit end
 
 - type: emote
   id: Thump
@@ -520,12 +394,6 @@
     - thumps her tail
     - thumps his tail
     - thumps its tail
-    # LP edit start
-    - стучать хвостом
-    - стучит хвостом
-    - стукнул хвостом
-    - стукнула хвостом
-    # LP edit end
 
 - type: emote
   id: Salute
@@ -542,12 +410,6 @@
   chatTriggers:
     - salute
     - salutes
-    # LP edit start
-    - салютовать
-    - салютует
-    - отдаёт честь
-    - отдает честь
-    # LP edit end
 
 - type: emote
   id: Gasp
@@ -560,10 +422,6 @@
    - gasp
    - gasps
    - gasped
-   # LP edit start
-   - задыхаться
-   - задыхается
-   # LP edit end
 
 - type: emote
   id: DefaultDeathgasp
@@ -605,12 +463,6 @@
     - buzz
     - buzzed
     - buzzes
-    # LP edit start
-    - жужжать
-    - жужжит
-    - зажужжал
-    - зажужжала
-    # LP edit end
 
 - type: emote
   id: Weh
@@ -646,12 +498,6 @@
     - chirps
     - chirped
     - chirping
-    # LP edit start
-    - щебетать
-    - щебечет
-    - чирикать
-    - чирикает
-    # LP edit end
 
 - type: emote
   id: Flap
@@ -687,11 +533,6 @@
    - flutters her wings
    - flutters their wings
    - flutters its wings
-   # LP edit start
-   - хлопать крыльями
-   - хлопает крыльями
-   - машет крыльями
-   # LP edit end
 
 # Machine Emotes
 - type: emote
@@ -711,13 +552,6 @@
     - beeps
     - beeped
     - beeping
-    # LP edit start
-    - бип
-    - бипать
-    - бипает
-    - бипнул
-    - бипнула
-    # LP edit end
 
 - type: emote
   id: Chime
@@ -736,11 +570,6 @@
     - chimes
     - chimed
     - chiming
-    # LP edit start
-    - дзынь
-    - звенеть
-    - звенит
-    # LP edit end
 
 - type: emote
   id: Buzz-Two
@@ -765,10 +594,6 @@
     - buzzes twice
     - buzzing twice
     - buzzed twice
-    # LP edit start
-    - дважды жужжит
-    - жужжит дважды
-    # LP edit end
 
 - type: emote
   id: Ping
@@ -787,8 +612,3 @@
     - pings
     - pinged
     - pinging
-    # LP edit start
-    - пинг
-    - пинговать
-    - пингует
-    # LP edit end

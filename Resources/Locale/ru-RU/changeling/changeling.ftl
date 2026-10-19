@@ -1,6 +1,7 @@
 roles-antag-changeling-name = Генокрад
 roles-antag-changeling-objective = Умный хищник, приобретающий личности своих жертв.
 
+changeling-devour-attempt-failed-not-dead = Это тело ещё живо! Мы не можем поглотить его живым!
 changeling-devour-attempt-failed-rotting = У этого трупа только гниющая биомасса.
 changeling-devour-attempt-failed-protected = Биомасса этой жертвы защищена бронёй!
 
@@ -8,8 +9,6 @@ changeling-devour-begin-windup-self = Наша жуткая пасть раск�
 changeling-devour-begin-windup-others = { CAPITALIZE(POSS-ADJ($user)) } жуткая пасть раскрывается с неземным голодом.
 changeling-devour-begin-consume-self = Наша жуткая пасть глубоко впивается в жертву.
 changeling-devour-begin-consume-others = { CAPITALIZE(POSS-ADJ($user)) } жуткая пасть глубоко впивается в жертву.
-
-changeling-devour-consume-failed-not-dead = Это тело ещё живо! Мы не можем поглотить его живым!
 changeling-devour-consume-complete-self = Наша жуткая пасть скрывается, биомасса поглощена.
 changeling-devour-consume-complete-others = { CAPITALIZE(POSS-ADJ($user)) } жуткая пасть прячется.
 

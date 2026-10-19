@@ -3,6 +3,7 @@ using Content.Server.DeviceLinking.Components;
 using Content.Server.Medical.CrewMonitoring;
 using Content.Server.Pinpointer;
 using Content.Shared.CrewManifest;
+using Content.Shared.GameTicking;
 using Content.Shared.Medical.SuitSensor;
 using Content.Shared.Roles;
 using Content.Shared.SecApartment;
@@ -49,6 +50,7 @@ public sealed partial class SecApartmentSystem : EntitySystem
         InitializeSecurityJobs();
 
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnPrototypeReload);
+        SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
 
         SubscribeLocalEvent<SecApartmentComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<SecApartmentComponent, ActivatableUIOpenAttemptEvent>(OnUIOpenAttempt);
@@ -194,6 +196,12 @@ public sealed partial class SecApartmentSystem : EntitySystem
         UpdateUi(ent.Owner, ent.Comp);
     }
 
+    private void OnRoundRestart(RoundRestartCleanupEvent ev)
+    {
+        _stationData.Clear();
+        _finishedTimers.Clear();
+    }
+
     #region UI Message Handlers
 
     private void OnCreateSquad(EntityUid uid, SecApartmentComponent component, CreateSquadMessage msg)
@@ -207,7 +215,12 @@ public sealed partial class SecApartmentSystem : EntitySystem
             _stationData[component.Station.Value] = stationData;
         }
 
-        var squadId = $"squad_{_random.Next(1000, 9999)}";
+        string squadId;
+        do
+        {
+            squadId = $"squad_{_random.Next(1000, 9999)}";
+        }
+        while (stationData.Squads.Any(s => s.SquadId == squadId));
         var squadName = SanitizeString(msg.SquadName, MaxSquadNameLength);
         var squad = new Squad(squadId, squadName);
         stationData.Squads.Add(squad);
@@ -489,8 +502,7 @@ public sealed partial class SecApartmentSystem : EntitySystem
                 continue;
 
             var ownerUid = GetEntity(memberInfo.SensorStatus.OwnerUid);
-            var memberTransform = Transform(ownerUid);
-            if (memberTransform.GridUid == null)
+            if (!TryComp(ownerUid, out TransformComponent? memberTransform) || memberTransform.GridUid == null)
                 continue;
 
             var mapPos = _transform.GetMapCoordinates(ownerUid);

@@ -102,3 +102,30 @@ thaven-mood-trendy-words-desc = Тавены всегда на передово�
 
 thaven-mood-gossipers-name = Сплетники
 thaven-mood-gossipers-desc = Драма — высшая форма развлечения.
+
+thaven-mood-blood-feud-name = Кровная вражда
+thaven-mood-blood-feud-desc = Две группы тавенов враждуют веками. Решите, кто в какой группе, и продолжайте спор.
+
+thaven-mood-star-actors-name = Звёзды экрана
+thaven-mood-star-actors-desc = Вы и ваши собратья-тавены — актёры в фильме. Решите, какой фильм снимаете, распределите роли и сыграйте его для экипажа станции, к его радости или досаде.
+
+thaven-mood-monument-building-name = Строительство монумента
+thaven-mood-monument-building-desc = Великие достижения заслуживают вечной памяти. Возведите монумент в честь достижений станции.
+
+thaven-mood-department-of-the-day-name = Отдел дня
+thaven-mood-department-of-the-day-desc = Сегодняшний день посвящён достижениям отдела «{ $department }». Все тавены должны праздновать и помогать ему.
+
+thaven-mood-hall-monitor-name = Дежурный по коридорам
+thaven-mood-hall-monitor-desc = В коридорах станции должен царить порядок. Составьте список правил и наказывайте любое нарушение щипком.
+
+thaven-mood-honourable-ambushes-name = Почётные засады
+thaven-mood-honourable-ambushes-desc = Внезапные нападения — важный знак взаимного уважения среди тавенов. Устраивайте их на тавенов как можно чаще.
+
+thaven-mood-traders-name = Торговцы
+thaven-mood-traders-desc = Вы должны регулярно встречаться с другими тавенами и обмениваться ценными предметами. Торгуйтесь, пока не договоритесь о честной сделке.
+
+thaven-mood-the-collective-name = Коллектив
+thaven-mood-the-collective-desc = Культура тавенов процветает благодаря взаимопониманию. Вы обязаны следовать идеалам других тавенов и подражать им.
+
+thaven-mood-the-curtains-must-rise-for-all-name = Шторы должны подняться для всех
+thaven-mood-the-curtains-must-rise-for-all-desc = Приватность — священное право. Стройте и устанавливайте шторы, чтобы укрыться от посторонних глаз. Никто не должен видеть то, что предназначено быть личным. Тавены должны вешать шторы везде, где возможно, и встречаться тайно.

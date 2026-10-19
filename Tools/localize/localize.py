@@ -1306,7 +1306,7 @@ class LocalizationManager:
 
         logging.info(f"Завершена расстановка тире. Изменено файлов: {changed_files}")
 
-    def check_untranslated(self) -> None:
+    def check_untranslated(self) -> int:
         logging.info("Поиск непереведенных строк...")
         untranslated_count = 0
 
@@ -1377,6 +1377,7 @@ class LocalizationManager:
                         untranslated_count += 1
 
         logging.info(f"Найдено потенциально непереведенных строк: {untranslated_count}")
+        return untranslated_count
 
 
 def setup_logging() -> None:
@@ -1432,6 +1433,11 @@ def main() -> None:
         "--check", action="store_true", help="Проверить непереведенные строки."
     )
     parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Завершиться с кодом 1, если есть непереведенные строки (для CI).",
+    )
+    parser.add_argument(
         "--all",
         action="store_true",
         help="Выполнить все операции (используется по умолчанию, если ничего не передано).",
@@ -1453,7 +1459,8 @@ def main() -> None:
         if args.dashes or args.all:
             manager.fix_dashes()
         if args.check or args.all:
-            manager.check_untranslated()
+            if manager.check_untranslated() > 0 and args.strict:
+                sys.exit(1)
 
     except KeyboardInterrupt:
         logging.info("Операция прервана пользователем.")

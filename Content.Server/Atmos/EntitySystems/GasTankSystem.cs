@@ -3,6 +3,7 @@ using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Atmos.EntitySystems;
 using Content.Shared.Body.Organ; // Starlight edit - Breathable organs
+using Content.Shared.Buckle.Components;
 using Content.Shared.Cargo;
 using Content.Shared.Throwing;
 using JetBrains.Annotations;
@@ -126,11 +127,19 @@ namespace Content.Server.Atmos.EntitySystems
                 if (comp.CheckUser)
                 {
                     comp.CheckUser = false;
-                    if (Transform(uid).ParentUid != comp.User)
+                    // LP edit start - Funkystation port: don't disconnect when the tank is inside a bed the user is buckled to
+                    var parent = Transform(uid).ParentUid;
+                    var buckledToParent = comp.User != null
+                        && parent != EntityUid.Invalid
+                        && TryComp<BuckleComponent>(comp.User.Value, out var buckle)
+                        && buckle.BuckledTo == parent;
+
+                    if (parent != comp.User && !buckledToParent)
                     {
                         DisconnectFromInternals(gasTank);
                         continue;
                     }
+                    // LP edit end
                 }
 
                 if (comp.Air != null)

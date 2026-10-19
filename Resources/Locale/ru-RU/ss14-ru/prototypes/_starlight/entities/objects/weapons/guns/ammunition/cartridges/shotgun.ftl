@@ -5,6 +5,6 @@ ent-ShellShotgunBirdshot = ружейный патрон (12 калибр дро
 ent-BaseShellShotgunToz = ружейный патрон (20 калибр)
     .desc = { ent-BaseCartridge.desc }
 ent-ShellShotgunToz = ружейный патрон (20 калибр)
-    .desc = { ent-BaseShellShotgunToz.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-ShellShotgunBreaching = ружейный патрон (12 калибр пробивной)
     .desc = { ent-BaseShellShotgun.desc }

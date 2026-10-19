@@ -1,0 +1,27 @@
+- type: entity
+  id: OrganTajaranEyes
+  parent: OrganHumanEyes
+  name: Tajaran eyes
+  suffix: Tajaran
+  description: "The eyes of a Tajaran."
+  components:
+  - type: OrganVisualization
+    layer: Eyes
+    prototypes:
+      Default: MobTajaranEyes
+  - type: FunctionalOrgan
+    comps:
+    - type: NightVision
+      disabilityBlockable: true
+
+- type: entity
+  id: OrganTajaranTongue
+  parent: OrganHumanTongue
+  suffix: Tajaran
+  components:
+  - type: OrganTongue
+    allowedEmotes: ['Mew', 'Hisses', 'Meow', 'Growl', 'PurrAlt', 'Trill']
+    sounds:
+      Male: MaleTajaran
+      Female: FemaleTajaran
+      Unsexed: MaleTajaran

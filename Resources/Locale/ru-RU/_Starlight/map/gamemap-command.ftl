@@ -28,3 +28,5 @@ command-description-gamemap-save =
     Сохраняет сущность карты из конвейера по указанному пути.
 command-description-gamemap-saveid =
     Сохраняет карту с указанным ID по указанному пути.
+command-description-gamemap-getplayers = Получает всех игроков на карте, переданной по конвейеру.
+command-description-gamemap-getplayersid = Получает всех игроков на карте с указанным ID.

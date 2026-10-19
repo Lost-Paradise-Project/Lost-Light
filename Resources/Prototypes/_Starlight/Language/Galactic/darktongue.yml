@@ -6,6 +6,6 @@
     fontId: Darktongue
     obfuscationFont: true
   icon: LanguageIconDarktongue
-  chatPrefix: тьм # LP edit
+  chatPrefix: drk
   obfuscation:
     !type:RandomObfuscation

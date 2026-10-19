@@ -1,5 +1,5 @@
 ent-BaseCartridgeRifle = патрон (.20 винтовочный)
-    .desc = { ent-BaseCartridge.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-CartridgeRifleSP = патрон (.20 винтовочный SP)
     .desc = Современный промежуточный патрон для боевых винтовок. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
 ent-CartridgeRiflePractice = патрон (.20 винтовочный учебный)

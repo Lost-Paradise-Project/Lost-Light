@@ -1,0 +1,121 @@
+name: Pre-commit check
+on:
+  pull_request_target:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ master, stable ]
+
+# Код PR только проверяется, конфиг берётся из базовой ветки (.base), иначе PR мог бы подменить хуки.
+# Есть что исправить автоматически - пушим автофикс и на этом всё: пуш запустит новую проверку.
+# Иначе публикуем отчёт CTRF комментарием, как build-test-debug-pr-comment.yml.
+jobs:
+  pre-commit:
+    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          persist-credentials: false
+          allow-unsafe-pr-checkout: true
+
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: .base
+          sparse-checkout: .pre-commit-config.yaml
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+          allow-unsafe-pr-checkout: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install pre-commit
+        run: pip install pre-commit
+
+      - name: Run pre-commit
+        id: precommit
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          pre-commit run --all-files --config .base/.pre-commit-config.yaml --color never 2>&1 | tee /tmp/pre-commit.log
+
+      - name: Push autofixes
+        id: autofix
+        if: steps.precommit.outcome == 'failure'
+        env:
+          REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          REF: ${{ github.event.pull_request.head.ref }}
+          TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: |
+          if git diff --quiet; then
+            exit 0
+          fi
+          git config user.name "${{ vars.CHANGELOG_USER }}"
+          git config user.email "${{ vars.CHANGELOG_EMAIL }}"
+          git commit -am "Авто фиксы кода"
+          git push "https://x-access-token:$TOKEN@github.com/$REPO.git" "HEAD:$REF"
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Каждый хук - отдельный «тест» отчёта CTRF, у упавших в сообщении их вывод
+      - name: Build report
+        if: always() && steps.autofix.outputs.pushed != 'true'
+        env:
+          OUTCOME: ${{ steps.precommit.outcome }}
+        run: |
+          mkdir -p /tmp/ctrf
+          python3 - <<'PY'
+          import json, os, re
+
+          statuses = {"Passed": "passed", "Failed": "failed", "Skipped": "skipped"}
+          hook_line = re.compile(r"^(.+?)\.+(?:\([^)]*\))?(Passed|Failed|Skipped)$")
+
+          tests = []
+          current = None
+          with open("/tmp/pre-commit.log", encoding="utf-8", errors="replace") as log:
+              for line in log:
+                  line = line.rstrip("\n")
+                  match = hook_line.match(line)
+                  if match:
+                      current = {"name": match.group(1).strip(), "status": statuses[match.group(2)], "duration": 0}
+                      tests.append(current)
+                  elif current and current["status"] == "failed" and line.strip():
+                      current["message"] = (current.get("message", "") + line + "\n")[:20000]
+
+          # pre-commit упал раньше хуков (например, не скачались репозитории хуков)
+          if not tests:
+              tests.append({"name": "pre-commit", "duration": 0,
+                            "status": "passed" if os.environ["OUTCOME"] == "success" else "failed"})
+
+          summary = {key: sum(t["status"] == key for t in tests) for key in ("passed", "failed", "skipped")}
+          summary.update(tests=len(tests), pending=0, other=0, start=0, stop=0)
+          report = {"results": {"tool": {"name": "pre-commit"}, "summary": summary, "tests": tests}}
+
+          with open("/tmp/ctrf/ctrf-report.json", "w", encoding="utf-8") as out:
+              json.dump(report, out, ensure_ascii=False)
+          PY
+
+      - name: Comment report on PR
+        if: always() && steps.autofix.outputs.pushed != 'true'
+        continue-on-error: true
+        uses: ctrf-io/github-test-reporter@v1
+        with:
+          report-path: '/tmp/ctrf/*.json'
+          title: Pre-commit
+          community-report: true
+          community-report-name: summary-short
+          failed-folded-report: true
+          issue: ${{ github.event.pull_request.number }}
+          overwrite-comment: true
+          comment-tag: pre-commit-report
+          exit-on-no-files: false
+          exit-on-fail: false
+          report-order: 'summary-short,failed-folded-report'
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+
+      - name: Fail on errors
+        if: always() && steps.autofix.outputs.pushed != 'true' && steps.precommit.outcome == 'failure'
+        run: exit 1

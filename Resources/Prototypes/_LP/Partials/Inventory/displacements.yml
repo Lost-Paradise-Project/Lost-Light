@@ -1,0 +1,521 @@
+# Смещения одежды рас: слоты носков, нижнего белья и груди, карты смещений Corvax
+
+- type: !PartialOnly entity
+  id: BaseInventoryDwarf
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      breast:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+
+- type: !PartialOnly entity
+  id: BaseInventoryAvali
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryNeoAvali
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryCyclorite
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryFelionoid
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+    displacements:
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryMoth
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+      breast:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+      breast:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+
+- type: !PartialOnly entity
+  id: BaseInventoryReptilian
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryResomi
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: feet
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: feet
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Resomi/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryVox
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Vox/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryVulpkanin
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Vulpkanin/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryLagomorph
+  components:
+  - type: Inventory
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryRodentia
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Rodentia/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseInventoryExperiment
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
+            state: feet
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Experiment/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseMobNeoCyclorite
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: AppearanceNeoCyclorite
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: BaseMobNeoDwarf
+  components:
+  - type: Inventory
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+
+- type: !PartialOnly entity
+  id: AppearanceNeoDwarf
+  components:
+  - type: Inventory
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: dwarfism
+
+- type: !PartialOnly entity
+  id: BaseMobNeoFelionoid
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+
+- type: !PartialOnly entity
+  id: AppearanceNeoFelionoid
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
+    displacements:
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
+      underwear:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit
+      breast:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit

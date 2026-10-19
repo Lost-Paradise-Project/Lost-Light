@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           ref: master
+          persist-credentials: false
 
       - name: Get this week's Contributors
         shell: pwsh
@@ -60,4 +61,4 @@ jobs:
         if: steps.cpr.outputs.pull-request-number != ''
         env:
           GH_TOKEN: ${{ secrets.BOT_TOKEN }}
-        run: gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" --squash --auto --delete-branch --repo "${{ github.repository }}"
+        run: gh pr merge "${{ steps.cpr.outputs.pull-request-number }}" --squash --auto --repo "${{ github.repository }}"

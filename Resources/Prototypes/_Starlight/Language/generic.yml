@@ -1,6 +1,6 @@
 - type: language
   id: Universal
-  chatPrefix: у # LP edit
+  chatPrefix: u
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
@@ -11,7 +11,7 @@
 - type: language
   id: Machine
   icon: LanguageIconMachine
-  chatPrefix: м # LP edit
+  chatPrefix: m
   speech:
     color: "#6174ff"
     fontId: Octatrax
@@ -22,7 +22,7 @@
 - type: language
   id: Zombie
   icon: LanguageIconBrain
-  chatPrefix: зом # LP edit
+  chatPrefix: zed
   speech:
     color: "#508053"
   obfuscation:
@@ -43,7 +43,7 @@
   id: Sign
   iconUnderstood: false
   iconNotUnderstood: false
-  chatPrefix: ж # LP edit
+  chatPrefix: s
   speech:
     allowRadio: false
     requireSpeech: false
@@ -69,7 +69,7 @@
   id: ClassicalSign
   iconUnderstood: false
   iconNotUnderstood: false
-  chatPrefix: клж # LP edit
+  chatPrefix: csg
   speech:
     allowRadio: false
     requireSpeech: false
@@ -94,5 +94,5 @@
 - type: language
   id: CodeSpeak
   icon: LanguageIconCodeSpeak
-  chatPrefix: код # LP edit
+  chatPrefix: cde
   iconNotUnderstood: false

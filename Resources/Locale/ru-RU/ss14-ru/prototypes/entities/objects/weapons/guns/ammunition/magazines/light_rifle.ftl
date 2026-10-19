@@ -1,5 +1,5 @@
 ent-BaseMagazineLightRifle = магазин (.30 винтовочные)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseContrabandTier3.desc }
 ent-MagazineLightRifleBoxSP = коробка магазина L6 SAW (.30 винтовочные SP)
     .desc = Коробка со 100-патронной лентой связанных винтовочных патронов .30, используемых лёгкими пулемётами вроде L6. Предназначена для универсальных кинетических боеприпасов.
 ent-MagazineLightRifleSP = магазин (.30 винтовочные SP)

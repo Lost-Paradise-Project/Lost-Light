@@ -27,7 +27,8 @@
     Head: MobReptilianHead
     Hair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
-    # LP edit - убрано нижнее бельё (цензура наготы)
+    UndergarmentTop: MobHumanoidAnyMarking
+    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobReptilianTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -92,4 +93,9 @@
     Arms:
       points: 2
       required: false
-    # LP edit - убрано нижнее бельё (цензура наготы)
+    UndergarmentTop:
+      points: 1
+      required: false
+    UndergarmentBottom:
+      points: 1
+      required: false

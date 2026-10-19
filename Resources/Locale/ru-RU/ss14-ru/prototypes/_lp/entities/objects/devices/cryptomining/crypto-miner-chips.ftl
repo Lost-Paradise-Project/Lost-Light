@@ -1,0 +1,11 @@
+ent-LPCryptoMinerChipBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-LPCryptoMinerChipBooster = чип-ускоритель крипто-майнера
+    .desc = Ускоритель хеширования для блейд-сервера крипто-майнера. Больше дохода, но больше потребление и нагрев.
+ent-LPCryptoMinerChipCooling = охлаждающий чип крипто-майнера
+    .desc = Энергоэффективный контроллер для блейд-сервера крипто-майнера. Тот же доход, гораздо меньше тепла.
+ent-LPCryptoMinerChipOverclocked = разогнанный чип крипто-майнера
+    .desc = Грубо разогнанный чип для блейд-сервера крипто-майнера. Удваивает доход и опасно греется.
+ent-LPCryptoMinerChipSyndicate = { ent-LPCryptoMinerChipBooster }
+    .desc = { ent-LPCryptoMinerChipBooster.desc }
+    .suffix = Синдикат
