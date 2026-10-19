@@ -6,7 +6,7 @@
   components:
     - type: Sprite
       sprite: Structures/Wallmounts/extinguisher_cabinet.rsi
-      snapCardinals: true
+      noRot: false # LP edit
       layers:
       - state: frame
       - state: extinguisher
