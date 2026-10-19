@@ -1,0 +1,6 @@
+- type: !PartialOnly jobIcon
+  parent: JobIcon
+  id: JobIconCargoTechnician
+  icon:
+    sprite: &icon-rsi /Textures/_LP/Interface/Misc/job_icons.rsi
+

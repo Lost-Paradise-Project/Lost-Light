@@ -1,0 +1,5 @@
+- type: !PartialOnly securityIcon
+  id: MindShieldIcon
+  icon:
+    sprite: /Textures/_LP/Interface/Misc/job_icons.rsi
+    state: MindShield
