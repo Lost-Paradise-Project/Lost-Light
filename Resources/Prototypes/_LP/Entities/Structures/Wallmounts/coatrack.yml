@@ -1,0 +1,41 @@
+- type: entity
+  id: LPPcoatrack
+  parent: BaseStructure
+  name: coat rack
+  description: A wooden rack to keep your things from lying around.
+  components:
+    - type: UserInterface
+      interfaces:
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
+    - type: WallMount
+    - type: InteractionOutline
+    - type: Appearance
+    - type: Sprite
+      sprite: _LP/Structures/Wallmounts/coatrack.rsi
+      layers:
+      - state: coatrack
+      - map: [ "enum.StorageContainerVisualLayers.Fill" ]
+    - type: Storage
+      grid:
+      - 0,0,6,1
+      maxItemSize: Normal
+      whitelist:
+       tags:
+       - CoatRack # Всё, что не имело нижеперечисленных тегов, но теоретически можно повесить на вешалку
+       - ClothMade # Всё, что сделано из ткани
+       - Bedsheet # Одеяла
+       - breast # лифчики
+       - underwear # трусы
+       - socks # носки
+       - BrimFlatcapGrey # Серая кепка-козырёк. Да, у неё есть свой тег
+       - BrimFlatcapBrown # Коричневая кепка-козырёк. Да, у неё ТОЖЕ есть свой тег
+       - WeldingMask # сварочные маски
+       - ClownMask # клоунские маски
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          ents: []
+    - type: StorageContainerVisuals
+      maxFillLevels: 3
+      fillBaseName: fill-
