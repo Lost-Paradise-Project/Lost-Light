@@ -13,7 +13,7 @@ on:
 jobs:
   diff:
     name: Diff
-    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
+    if: github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
     permissions:
       contents: read

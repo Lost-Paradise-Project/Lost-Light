@@ -17,7 +17,7 @@ permissions: {}
 jobs:
   label:
     name: Label by team reviews
-    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
+    if: github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Update review labels
