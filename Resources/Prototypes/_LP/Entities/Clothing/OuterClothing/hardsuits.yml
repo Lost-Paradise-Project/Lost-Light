@@ -209,8 +209,6 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-  - type: Jetpack
-    moleUsage: 0.00085
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -218,10 +216,6 @@
         enum.JetpackVisuals.Layer:
           True: {state: icon-on}
           False: {state: icon}
-  - type: GasTank
-    releasePressure: 42.6
-    air:
-      volume: 1.5
   - type: UseDelay
     delays:
       gasTank:
@@ -263,11 +257,6 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-  - type: ToggleClothing
-    action: ActionToggleMagboots
-    mustEquip: false
-  - type: Magboots
-    disabledAutoOff: true
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
