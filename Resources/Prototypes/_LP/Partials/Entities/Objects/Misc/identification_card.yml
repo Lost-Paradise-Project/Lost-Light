@@ -1,9 +1,0 @@
-- type: !PartialOnly entity
-  id: AssistantIDCard
-  components:
-  - type: Sprite
-    layers:
-    - !CombineIndex:1
-      sprite: _LP/Interface/Misc/job_icons.rsi
-      offset: -0.09375, 0.0625
-      state: Assistant
