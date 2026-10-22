@@ -29,9 +29,6 @@
     position: Down
     rotation: -90
     buckleOffset: "0,0.20"
-  - type: Construction
-    graph: LPPBedDouble
-    node: LPPBedDoubleUp
   - type: PlaceableSurface
     placeCentered: true
   - type: Damageable
@@ -63,9 +60,6 @@
   suffix: down
   description: Better sleep in that then on the floor i guess.
   components:
-  - type: Construction
-    graph: LPPBedDouble
-    node: LPPBedDoubleDown
   - type: Sprite
     state: bed_double_down
   - type: Damageable
