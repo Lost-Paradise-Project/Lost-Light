@@ -6,7 +6,8 @@
 
 | Фича | Где лежит | Диздок | Владелец | Заместитель | Происхождение | Статус |
 |---|---|---|---|---|---|---|
-| Пример: служебные планшеты СБ | `Content.*/_Corvax/SecApartment/` | [sec-apartments](design/sec-apartments.md) | @ник | @ник | Порт: Corvax, [PR](https://github.com/...) , MIT | Готов |
+| Крипто-майнинг | `Content.*/_LP/CryptoMining` | [crypto-mining](design/crypto-mining.md) | Evgencheg | - | AGPL v3.0 | Готов |
+| Телефоны (дисковые, настенные) | `Content.*/_Trauma/Phones/`, `Content.Shared/_Trauma/PullBlocker/`, `Resources/Prototypes/_Trauma/`, `Resources/Prototypes/_RMC14/`, `Content.*/_LP/Phones/`, `Resources/Prototypes/_LP/Phones/` | [phones](design/phones.md) | @Evgencheg | - | Порт: Trauma Station AGPLv3 | Готов |
 
 ## Правки в файлах Starlight и SS14
 

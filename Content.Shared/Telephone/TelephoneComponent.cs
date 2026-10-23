@@ -88,6 +88,14 @@ public sealed partial class TelephoneComponent : Component
     [DataField]
     public bool UnlistedNumber = false;
 
+    // LP edit start
+    /// <summary>
+    /// The telephone only works while a powered, unsabotaged telephone exchange is present on its map
+    /// </summary>
+    [DataField]
+    public bool RequiresExchange = false;
+    // LP edit end
+
     /// <summary>
     /// Speech is relayed through this entity instead of the telephone
     /// </summary>

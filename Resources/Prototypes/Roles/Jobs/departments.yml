@@ -30,6 +30,7 @@
   - Reporter
   - Visitor
   - ServiceWorker
+  # LP edit - убрано: PhoneMerchant
   # Starlight start
   - AssistantManager
   - Performer

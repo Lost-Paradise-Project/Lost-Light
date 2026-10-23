@@ -1,0 +1,81 @@
+- type: wireLayout
+  id: LPTelephoneExchange
+  wires:
+  - !type:PowerWireAction
+  - !type:TelephoneExchangeWireAction
+  - !type:LogWireAction
+  dummyWires: 2
+
+- type: entity
+  parent: BaseMachinePowered
+  id: LPTelephoneExchange
+  name: telephone exchange
+  description: Connects the station's phones. Without power or with a cut line, nobody gets through.
+  components:
+  # Placeholder sprite: reused server rack
+  - type: Sprite
+    sprite: Structures/Machines/server.rsi
+    snapCardinals: true
+    layers:
+    - state: server-off
+    - state: server-on
+      visible: false
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: variant-crew
+    - state: server_o
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: ApcPowerReceiver
+    powerLoad: 400
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+  - type: WiresPanel
+  - type: WiresVisuals
+  - type: Wires
+    boardName: wires-board-name-telephone-exchange
+    layoutId: LPTelephoneExchange
+  - type: UserInterface
+    interfaces:
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: TelephoneExchange
+  - type: AmbientSound
+    enabled: true
+    volume: -12
+    range: 3
+    sound:
+      path: /Audio/Ambience/Objects/server_fans.ogg
+
+- type: entity
+  parent: BaseFlatpack
+  id: LPTelephoneExchangeFlatPack
+  name: telephone exchange flatpack
+  description: A flatpack used for constructing a telephone exchange.
+  components:
+  - type: Flatpack
+    entity: LPTelephoneExchange
+
+- type: entity
+  id: LPCrateTelephoneExchange
+  parent: CrateGenericSteel
+  name: telephone exchange crate
+  description: A crate with a telephone exchange flatpack. Station phones are dead without one.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage:
+        id: LPTelephoneExchangeFlatPack
+
+- type: cargoProduct
+  id: LPTelephoneExchangeCrateCargo
+  icon:
+    sprite: Structures/Machines/server.rsi
+    state: server
+  product: LPCrateTelephoneExchange
+  cost: 4000
+  category: cargoproduct-category-name-service
+  group: market
