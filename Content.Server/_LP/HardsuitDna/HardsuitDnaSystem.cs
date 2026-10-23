@@ -1,12 +1,3 @@
-// LuaWorld - This file is licensed under AGPLv3
-// Copyright (c) 2025 LuaWorld
-// See AGPLv3.txt for details.
-// Special Permission:
-// In addition to AGPLv3, the author grants the "Мёртвый Космос" project
-// the right to use this code under a separate custom license agreement.
-
-// Ported from Lua-Frontier (sector-frontier-14, PR #172, cf42ec431ee239a38e727505d112b49b248486a3), adapted for Lost-Light.
-
 using Content.Server.Chat.Managers;
 using Content.Server.Chat.Systems;
 using Content.Server.Explosion.EntitySystems;
@@ -40,9 +31,6 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
     [Dependency] private InventorySystem _inventory = default!;
     [Dependency] private MobStateSystem _mobState = default!;
 
-    /// <summary>
-    /// Базовая мощность взрыва, умножается на <see cref="HardsuitDnaComponent.ExplosionIntensity"/> (как в оригинале).
-    /// </summary>
     private const float ExplosionBaseIntensity = 4f;
 
     public override void Initialize()

@@ -16,9 +16,6 @@ public sealed partial class HardsuitDnaCountdownComponent : Component
     [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
     public TimeSpan EndTime;
 
-    /// <summary>
-    /// Сколько секунд осталось объявить голосом; объявляется, когда до конца остаётся не больше этого числа.
-    /// </summary>
     [ViewVariables]
     public int NextAnnounce;
 }
