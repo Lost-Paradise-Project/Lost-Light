@@ -92,8 +92,3 @@
   id: LPPEngineerZavodAlt2
   equipment:
     jumpsuit: ClothingUniformJumpsuitZavodAtmos
-
-- type: loadout
-  id: LPPEngineerFirstGradePDA
-  equipment:
-    id: LPPEngineerFirstGradePDA

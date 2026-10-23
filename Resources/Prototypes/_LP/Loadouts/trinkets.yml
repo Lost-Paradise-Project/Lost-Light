@@ -1,6 +1,0 @@
-- type: loadout
-  id: LPPCigaretteEndeless
-  storage:
-    back:
-    - LPPCigaretteEndeless
-  groupBy: "smokeables"

@@ -57,8 +57,3 @@
   id: LPPScienceExplorerCoat
   equipment:
     outerClothing: ClothingOuterExplorerCoat
-
-- type: loadout
-  id: LPPSeniorScientistPDA
-  equipment:
-    id: LPPSeniorScientistPDA

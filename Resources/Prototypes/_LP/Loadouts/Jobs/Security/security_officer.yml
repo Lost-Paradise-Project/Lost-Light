@@ -59,11 +59,6 @@
     jumpsuit: LPPClothingUniformJumpskirtSecBlackSkirt
 
 - type: loadout
-  id: LPPSergeantPDA
-  equipment:
-    id: LPPSergeantPDA
-
-- type: loadout
   id: LPPSecurityZavod
   equipment:
     jumpsuit: ClothingUniformJumpsuitZavodSecurityOfficer
