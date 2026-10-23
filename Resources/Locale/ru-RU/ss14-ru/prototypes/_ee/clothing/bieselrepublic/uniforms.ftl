@@ -11,5 +11,5 @@ ent-ClothingUniformJumpsuitAISSentinel = униформа стража АНС
     .desc = Тактический комплект одежды, носимый элитными подразделениями АНС.
     .suffix = АНС
 ent-ClothingUniformJumpsuitAISVolunteer = униформа легионера АНС
-    .desc = Комбинезон, который носят легионеры АНС. 
+    .desc = Комбинезон, который носят легионеры АНС.
     .suffix = АНС
