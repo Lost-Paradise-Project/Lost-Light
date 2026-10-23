@@ -13,9 +13,6 @@ namespace Content.Shared._LP.HardsuitDna;
 public sealed partial class HardsuitDnaComponent : Component
 {
     [DataField, AutoNetworkedField]
-    public bool Enabled = true;
-
-    [DataField, AutoNetworkedField]
     public string? Dna;
 
     [DataField, AutoNetworkedField]

@@ -26,9 +26,6 @@ public abstract partial class SharedHardsuitDnaSystem : EntitySystem
 
     private void OnExamined(Entity<HardsuitDnaComponent> ent, ref ExaminedEvent args)
     {
-        if (!ent.Comp.Enabled)
-            return;
-
         if (ent.Comp.Dna == null)
         {
             args.PushMarkup(Loc.GetString("hardsuit-dna-examine-unbound"));
@@ -44,7 +41,7 @@ public abstract partial class SharedHardsuitDnaSystem : EntitySystem
 
     private void OnGetVerbs(Entity<HardsuitDnaComponent> ent, ref GetVerbsEvent<AlternativeVerb> args)
     {
-        if (!ent.Comp.Enabled || !args.CanAccess || !args.CanInteract || !IsOwner(ent, args.User))
+        if (!args.CanAccess || !args.CanInteract || !IsOwner(ent, args.User))
             return;
 
         var user = args.User;
@@ -83,7 +80,7 @@ public abstract partial class SharedHardsuitDnaSystem : EntitySystem
 
     public bool CanReset(Entity<HardsuitDnaComponent> ent, EntityUid user, bool quiet = false)
     {
-        if (!ent.Comp.Enabled || !IsOwner(ent, user))
+        if (!IsOwner(ent, user))
             return false;
 
         if (!ent.Comp.Locked)
@@ -114,7 +111,7 @@ public abstract partial class SharedHardsuitDnaSystem : EntitySystem
 
     public bool TryToggleLock(Entity<HardsuitDnaComponent?> ent, EntityUid user)
     {
-        if (!Resolve(ent, ref ent.Comp, false) || !ent.Comp.Enabled || !IsOwner((ent, ent.Comp), user))
+        if (!Resolve(ent, ref ent.Comp, false) || !IsOwner((ent, ent.Comp), user))
             return false;
 
         ent.Comp.Locked = !ent.Comp.Locked;

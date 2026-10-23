@@ -44,7 +44,7 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
 
     private void OnGotEquipped(Entity<HardsuitDnaComponent> ent, ref GotEquippedEvent args)
     {
-        if (!ent.Comp.Enabled || TerminatingOrDeleted(args.EquipTarget))
+        if (TerminatingOrDeleted(args.EquipTarget))
             return;
 
         var wearer = args.EquipTarget;
@@ -75,7 +75,7 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
         // Скафандры, выданные персонажу при спавне, привязываются к нему сразу
         foreach (var item in _inventory.GetHandOrInventoryEntities(args.Mob))
         {
-            if (!TryComp<HardsuitDnaComponent>(item, out var suit) || !suit.Enabled || !suit.AutoBindOnSpawn || suit.Dna != null)
+            if (!TryComp<HardsuitDnaComponent>(item, out var suit) || !suit.AutoBindOnSpawn || suit.Dna != null)
                 continue;
 
             if (CompOrNull<DnaComponent>(args.Mob)?.DNA is { } dna)
