@@ -1,6 +1,7 @@
 using Content.Server.Chat.Systems;
 using Content.Server.Hands.Systems;
 using Content.Server.Speech.Components;
+using Content.Server._Starlight.TextToSpeech;
 using Content.Shared.Chat;
 using Content.Shared.Paper;
 using Content.Shared.Speech;
@@ -22,6 +23,7 @@ public sealed partial class TapeRecorderSystem : SharedTapeRecorderSystem
     [Dependency] private PaperSystem _paper = default!;
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private ILocalizationManager _loc = default!;
+    [Dependency] private TTSSystem _tts = default!; // LP edit
 
     public override void Initialize()
     {
@@ -100,11 +102,9 @@ public sealed partial class TapeRecorderSystem : SharedTapeRecorderSystem
         RaiseLocalEvent(args.Source, nameEv);
 
         //Get the speaker's TTS voice if they have one
-        string? voiceId = null;
-        if (TryComp<TextToSpeechComponent>(args.Source, out var ttsComp))
-        {
-            voiceId = ttsComp.VoicePrototypeId;
-        }
+        // LP edit start - голос с учётом голосовой маски
+        string? voiceId = _tts.ResolveSpeakerVoiceId(args.Source);
+        // LP edit end
 
         //Add a new entry to the tape
         var verb = _chat.GetSpeechVerb(args.Source, args.Message);

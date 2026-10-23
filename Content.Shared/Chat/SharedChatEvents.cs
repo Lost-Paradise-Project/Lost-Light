@@ -7,6 +7,7 @@ using Robust.Shared.Prototypes;
 using Content.Shared._Starlight.Language;
 using Content.Shared._Starlight.Radio;
 using Content.Shared._Starlight.Speech;
+using Content.Shared._Starlight.TextToSpeech;
 using static Content.Shared.Administration.Notes.AdminMessageEuiState;
 #endregion Starlight
 
@@ -22,6 +23,7 @@ public sealed class TransformSpeakerNameEvent : EntityEventArgs, IInventoryRelay
     public EntityUid Sender;
     public string VoiceName;
     public ProtoId<SpeechVerbPrototype>? SpeechVerb;
+    public ProtoId<VoicePrototype>? VoiceOverride; // LP edit
 
     public TransformSpeakerNameEvent(EntityUid sender, string name)
     {

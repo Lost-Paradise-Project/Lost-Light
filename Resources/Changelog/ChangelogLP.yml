@@ -181,4 +181,11 @@ Entries:
   id: 26
   time: '2026-10-23T15:26:30.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/52
+- author: Evgencheg
+  changes:
+  - message: Добавлена смена ттс голоса в голосовой маске!
+    type: Add
+  id: 27
+  time: '2026-10-23T19:23:20.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/53
 Order: -3

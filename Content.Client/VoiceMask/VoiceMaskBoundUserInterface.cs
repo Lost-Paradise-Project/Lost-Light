@@ -1,3 +1,4 @@
+using Content.Shared._LP.VoiceMask;
 using Content.Shared.VoiceMask;
 using Robust.Client.UserInterface;
 using Robust.Shared.Prototypes;
@@ -27,6 +28,7 @@ public sealed partial class VoiceMaskBoundUserInterface : BoundUserInterface
         _window.OnVerbChange += verb => SendMessage(new VoiceMaskChangeVerbMessage(verb));
         _window.OnToggle += OnToggle;
         _window.OnAccentToggle += OnAccentToggle;
+        _window.OnTtsVoiceChange += voice => SendMessage(new VoiceMaskChangeTtsVoiceMessage(voice)); // LP edit
     }
 
     private void OnNameSelected(string name)
@@ -51,7 +53,7 @@ public sealed partial class VoiceMaskBoundUserInterface : BoundUserInterface
             return;
         }
 
-        _window.UpdateState(cast.Name, cast.Verb, cast.Active, cast.AccentHide);
+        _window.UpdateState(cast.Name, cast.Verb, cast.Active, cast.AccentHide, cast.TtsVoice); // LP edit
     }
 
     protected override void Dispose(bool disposing)
