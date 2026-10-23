@@ -18,6 +18,12 @@
     ClothingBackpackSyndicate: 4 #SL edit
     ClothingBackpackSatchelSyndicate: 4 #SL edit
     ClothingBackpackDuffelSyndicate: 4 #SL edit
+#LP edit start
+    ClothingUniformJumpsuitParamedicSyndie: 2
+    ClothingUniformJumpsuitRecruitSyndie: 2
+    ClothingUniformJumpsuitRepairmanSyndie: 2
+    ClothingUniformJumpsuitChiefEngineerSyndie: 2
+#LP edit end
   contrabandInventory:
     ToyFigurineFootsoldier: 1
     ToyFigurineNukieElite: 1

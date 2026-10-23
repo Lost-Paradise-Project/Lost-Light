@@ -1,0 +1,24 @@
+- type: loadout
+  id: LPPPassangerBlackTracksuit
+  equipment:
+    jumpsuit: LPPClothingUniformBlackTracksuit
+
+- type: loadout
+  id: LPPPassangerBlueTracksuit
+  equipment:
+    jumpsuit: LPPClothingUniformBlueTracksuit
+
+- type: loadout
+  id: LPPPassangerRedTracksuit
+  equipment:
+    jumpsuit: LPPClothingUniformRedTracksuit
+
+- type: loadout
+  id: LPPPassangerGreenTracksuit
+  equipment:
+    jumpsuit: LPPClothingUniformGreenTracksuit
+
+- type: loadout
+  id: LPPPassangerMilitary
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryService

@@ -11,5 +11,10 @@
     RadioHandheldExpedition: 6 #starlight
     WeaponGrapplingGun: 8
     WeaponProtoKineticAccelerator: 10 # starlight end
+#LP edit start
+    LPPClothingHeadHelmetSalvager: 3
+    LPPClothingOuterVestSalvager: 3
+    ClothingBeltSalvageWebbing: 1
+#LP edit end
   contrabandInventory:
     PlushieCarp: 1

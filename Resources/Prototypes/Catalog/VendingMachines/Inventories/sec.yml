@@ -25,6 +25,7 @@
     RadioHandheldSecurity: 5
     Bola: 6
     ClothingPouchPeacekeeper: 5 #Starlight
+    ClothingBeltBandolier: 5 #LP edit
   # security officers need to follow a diet regimen!
   contrabandInventory:
     WeaponMeleeNeedle: 2

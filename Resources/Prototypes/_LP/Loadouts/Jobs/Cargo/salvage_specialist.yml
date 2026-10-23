@@ -1,0 +1,44 @@
+- type: loadout
+  id: LPPSalvageSpecialistUniform
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+
+- type: loadout
+  id: LPPSalvageExplorerAlternative
+  equipment:
+    jumpsuit: LPPClothingUniformExplorerAlternative
+
+- type: loadout
+  id: LPPSalvageExplorer
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitExplorer
+
+- type: loadout
+  id: LPPSalvageMilitary
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist
+
+- type: loadout
+  id: LPPSalvageNTMiner
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTMiner
+
+- type: loadout
+  id: LPPSalvageHephMiner
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHephMiner
+
+- type: loadout
+  id: LPPMinerJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitShaftMiner
+
+- type: loadout
+  id: LPPMinerJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtShaftMiner
+
+- type: loadout
+  id: LPPMinerJumpsuitOveralls
+  equipment:
+    jumpsuit: ClothingUniformOverallsShaftMiner

@@ -1,0 +1,14 @@
+- type: loadout
+  id: LPCEPanties
+  equipment:
+    underwear: LPPCEPanties
+
+- type: loadout
+  id: LPPCESummer
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCESummer
+
+- type: loadout
+  id: LPPCEMilitary
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryEngineeringChief
