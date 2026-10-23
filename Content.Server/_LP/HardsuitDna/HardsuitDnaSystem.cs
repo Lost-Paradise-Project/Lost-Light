@@ -156,9 +156,9 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
     private bool IsWornBy(EntityUid suit, EntityUid wearer)
     {
         return !TerminatingOrDeleted(wearer)
-               && !_mobState.IsDead(wearer)
-               && Transform(suit).ParentUid == wearer
-               && _inventory.TryGetContainingSlot(suit, out _);
+                && !_mobState.IsDead(wearer)
+                && Transform(suit).ParentUid == wearer
+                && _inventory.TryGetContainingSlot(suit, out _);
     }
 
     private void Announce(Entity<HardsuitDnaComponent> ent, int seconds, bool first)

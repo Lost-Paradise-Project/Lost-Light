@@ -74,8 +74,8 @@ public abstract partial class SharedHardsuitDnaSystem : EntitySystem
     public bool IsOwner(Entity<HardsuitDnaComponent> ent, EntityUid user)
     {
         return ent.Comp.Dna != null
-               && TryComp<DnaComponent>(user, out var dna)
-               && dna.DNA == ent.Comp.Dna;
+                && TryComp<DnaComponent>(user, out var dna)
+                && dna.DNA == ent.Comp.Dna;
     }
 
     public bool CanReset(Entity<HardsuitDnaComponent> ent, EntityUid user, bool quiet = false)
