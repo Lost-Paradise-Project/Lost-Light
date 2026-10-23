@@ -15,6 +15,7 @@ using Content.Shared.Strip;
 using Content.Shared.Strip.Components;
 using Content.Shared.Whitelist;
 using Content.Shared._Starlight.Inventory; // starlight
+using Content.Shared._LP.HardsuitDna;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
@@ -453,7 +454,8 @@ public abstract partial class InventorySystem
         if (checkDoafter &&
             Resolve(removedItem.Value, ref clothing, false) &&
             (clothing.Slots & slotDefinition.SlotFlags) != 0 &&
-            clothing.UnequipDelay > TimeSpan.Zero)
+            clothing.UnequipDelay > TimeSpan.Zero &&
+            !HasComp<HardsuitDnaCountdownComponent>(removedItem.Value)) // LP edit - идёт отсчёт до взрыва, снимать нужно сразу
         {
             var args = new DoAfterArgs(
                 EntityManager,

@@ -1,0 +1,47 @@
+# Привязка нестанционных скафандров к ДНК владельца (HardsuitDna)
+
+# Скафандры, которые привязываются к ДНК. Потомки наследуют компонент от родителей:
+# ERT* от Syndie*, SyndieMouseOps от Syndie, TSFMARSOC от Decimus, TSFPhantom от NTSF, JuggernautLocked от Juggernaut
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    # Синдикат и наёмники
+    - ClothingOuterHardsuitSyndie
+    - ClothingOuterHardsuitSyndieMedic
+    - ClothingOuterHardsuitSyndieElite
+    - ClothingOuterHardsuitSyndieCommander
+    - ClothingOuterHardsuitSyndieMouseOps
+    - ClothingOuterHardsuitInfiltration
+    - ClothingOuterHardsuitMercenary
+    # Джагернаут
+    - ClothingOuterHardsuitJuggernaut
+    - ClothingOuterHardsuitJuggernautLocked
+    # Эскадрон смерти
+    - ClothingOuterHardsuitDeathsquad
+    - ClothingOuterHardsuitCBURN
+    # ОБР
+    - ClothingOuterHardsuitERTLeader
+    - ClothingOuterHardsuitERTChaplain
+    - ClothingOuterHardsuitERTEngineer
+    - ClothingOuterHardsuitERTMedical
+    - ClothingOuterHardsuitERTSecurity
+    - ClothingOuterHardsuitERTJanitor
+    # Спецподразделения
+    - ClothingOuterHardsuitNTSF
+    - ClothingOuterHardsuitNTSFPrimus
+    - ClothingOuterHardsuitNTSFSecundus
+    - ClothingOuterHardsuitNTSFTertius
+    - ClothingOuterHardsuitNTSFQuartus
+    - ClothingOuterHardsuitNTSFQuintus
+    - ClothingOuterHardsuitNTSFSextus
+    - ClothingOuterHardsuitNTSFSeptimus
+    - ClothingOuterHardsuitNTSFOctavius
+    - ClothingOuterHardsuitNTSFNonus
+    - ClothingOuterHardsuitDecimus
+    - ClothingOuterHardsuitTSFMARSOC
+    - ClothingOuterHardsuitTSFPhantom
+    - ClothingOuterHardsuitThanatos
+  components:
+  - type: HardsuitDna
+  - type: TextToSpeech
+    voice: ntts_adjutant

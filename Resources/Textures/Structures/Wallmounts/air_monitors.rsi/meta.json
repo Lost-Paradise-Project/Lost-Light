@@ -185,32 +185,6 @@
     {
       "name": "firex",
       "directions": 1
-    },
-        {
-            "name": "fire_overlay",
-            "directions": 4
-        },
-        {
-            "name": "fire_detected",
-            "directions": 4,
-            "delays": [
-                [
-                    0.4,
-                    0.4
-                ],
-                [
-                    0.4,
-                    0.4
-                ],
-                [
-                    0.4,
-                    0.4
-                ],
-                [
-                    0.4,
-                    0.4
-                ]
-            ]
-        }
+    }
   ]
 }

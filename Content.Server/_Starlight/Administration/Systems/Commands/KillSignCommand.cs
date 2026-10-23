@@ -14,6 +14,7 @@ public sealed class KillSignCommand : ToolshedCommand
 {
     private static readonly string _baseContentPath = "Objects/Misc/killsign.rsi";
     private static readonly string _slContentPath = "_Starlight/Objects/Misc/killsign.rsi";
+    private static readonly string _lpContentPath = "_LP/Objects/Misc/killsign.rsi"; // LP edit
 
     private static readonly Dictionary<string, (string path, string state)> _sprites =
         new(StringComparer.OrdinalIgnoreCase)
@@ -48,6 +49,8 @@ public sealed class KillSignCommand : ToolshedCommand
             ["admin"] = (_slContentPath, "admin"),
             ["dm"] = (_slContentPath, "dm"),
             ["point"] = (_slContentPath, "point"),
+            // lp
+            ["fuck"] = (_lpContentPath, "fuck"), // LP edit
         };
 
     [CommandImplementation("set")]

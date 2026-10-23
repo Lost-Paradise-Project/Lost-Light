@@ -1,0 +1,124 @@
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - Assistant
+    - AssistantManager
+    - AtmosphericTechnician
+    - Bartender
+    - BlueShield
+    - Botanist
+    - Boxer
+    - Brigmedic
+    - Captain
+    - CargoTechnician
+    - Chaplain
+    - Chef
+    - Chemist
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Clown
+    - Detective
+    - DutyOfficer
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - IAA
+    - Janitor
+    - Lawyer
+    - Librarian
+    - MailTech
+    - MedicalDoctor
+    - Mime
+    - MiningSpecialist
+    - Musician
+    - NanoTrasenRepresentative
+    - NanotrasenCareerTrainer
+    - Paramedic
+    - Passenger
+    - Performer
+    - Psychologist
+    - Quartermaster
+    - RadioHost
+    - Reporter
+    - ResearchDirector
+    - Roboticist
+    - SalvageLead
+    - SalvageMedic
+    - SalvageSpecialist
+    - Scientist
+    - SecurityCadet
+    - SecurityOfficer
+    - ServiceWorker
+    - StationEngineer
+    - Surgeon
+    - Warden
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: NewYear
+    prototype: PresentRandom
+  - !type:GiveItemOnHolidaySpecial
+    holiday: LPOldNewYear
+    prototype: PresentRandom
+  - !type:GiveItemOnHolidaySpecial
+    holiday: LPOrthodoxChristmas
+    prototype: FoodBakedCookie
+  - !type:GiveItemOnHolidaySpecial
+    holiday: LPStudentsDay
+    prototype: DrinkCoffee
+  - !type:GiveItemOnHolidaySpecial
+    holiday: LPMaslenitsa
+    prototype: FoodBakedPancake
+  - !type:GiveItemOnHolidaySpecial
+    holiday: LPWomensDay
+    prototype: FoodPoppy
+  - !type:GiveItemOnHolidaySpecial
+    holiday: Halloween
+    prototype: FoodSnackCandyApple
+  - !type:GiveItemOnHolidaySpecial
+    holiday: ValentinesDay
+    prototype: FoodSnackChocolate
+  - !type:GiveItemOnHolidaySpecial
+    holiday: PiDay
+    prototype: FoodPieApple
+  - !type:GiveItemOnHolidaySpecial
+    holiday: TowelDay
+    prototype: TowelColorBlue
+  - !type:GiveItemOnHolidaySpecial
+    holiday: LaborDay
+    prototype: BalloonNT
+
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - Brigmedic
+    - Chemist
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - Paramedic
+    - SalvageMedic
+    - Surgeon
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: DoctorDay
+    prototype: FoodLollipopPlain
+
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - StationEngineer
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: FirefighterDay
+    prototype: FoodBakedCookie
+
+- type: !PartialOnly job
+  id: !type:CreateVariants
+    values:
+    - ResearchDirector
+    - Roboticist
+    - Scientist
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: ProgrammersDay
+    prototype: DrinkCoffee
