@@ -1,0 +1,16 @@
+- type: entity
+  abstract: true
+  parent: MarkerBase
+  id: LPHolidayMarkerBase
+  name: holiday marker
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+  - type: HolidaySpawnerMarker
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerCustom
+  name: holiday marker (custom)
+  description: Does nothing until the holiday and the entity are set through ViewVariables.
