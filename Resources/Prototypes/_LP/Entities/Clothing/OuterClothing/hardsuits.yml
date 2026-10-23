@@ -1,0 +1,710 @@
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
+  id: LPPClothingOuterHardsuitSecurityEng
+  name: field engineer hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/SecEng.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/SecEng.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.6
+        Caustic: 0.8
+        Heat: 0.35
+        Radiation: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+#Research Director's Hardsuit but without steal target moment
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCommandContraband]
+  id: LPPClothingOuterHardsuitRd
+  name: experimental research hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.3
+        Radiation: 0.1
+        Caustic: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,4,4 #5X5, can fit in a duffel bag but nothing smaller.
+  - type: Tag
+    tags:
+    - CorgiWearable
+    - Hardsuit
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitRd
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitMiksuit
+  name: discolored hardsuit
+  description: GRT-21 "Támadó" is the old restored space suit of the syndicate agents, slightly modified to suit the wishes of the current owner.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/miksuit.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/miksuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,4,4
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+        Radiation: 0.65
+        Caustic: 0.65
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetMikhelm
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitUpgradedMining
+  name: sturdy salvager hardsuit
+  description: Hardsuit HpI-20b "Kerateia" is Hephaestus Industries porotype spacesuit designed for salvagers usage in low-pressure environments. Marked to indicate that this model has protection against most types of exposure. Looks not so heavy.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.7
+        Caustic: 0.45
+        Radiation: 0.3
+        Cold: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitUpgradedMining
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+  - type: ItemSlots
+    slots:
+      item:
+        name: Medkit
+        priority: 1
+        whitelist:
+          tags:
+          - Medkit
+  - type: ItemMapper
+    mapLayers:
+      item:
+        whitelist:
+          tags:
+            - Medkit
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
+      item: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitMiningPlus
+  name: mobile salvager hardsuit
+  description: Hardsuit HpI-20a+ "Rodos" is Hephaestus Industries upgraded hardsuit, providing more protection from blunt and slash damages, sacrificing protection from piercing damage. Marked to indicate that this model has protection against most types of exposure. Looks pretty light.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Caustic: 0.1
+        Radiation: 0.4
+        Cold: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningPlus
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.JetpackVisuals.Enabled:
+        enum.JetpackVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
+  - type: UseDelay
+    delays:
+      gasTank:
+        length: 1.0
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitMiningJuggernaut
+  name: mining exo-hardsuit
+  description: Hardsuit HpIP-22 "Argos" Hephaestus Industries juggernaut hardsuit, providing lots of protection from different types of damages. It's desined to work in most harsh enviroments. Looks so heavy...
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/miningjugg.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/miningjugg.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Caustic: 0.1
+        Radiation: 0.1
+        Cold: 0.1
+        Shock: 0.1
+        Heat: 1.15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningJuggernaut
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitSpatioUpgraded
+  name: shelled salvager hardsuit
+  description: Hardsuit GRT|HpI-004 - "Proskynitís" spacesuit is the brainchild of a collaboration between GrayTide CO and Hephaestus Industries. It went through GRT's bureaucratic hell, and the designs were then sold to HpI.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.65
+        Piercing: 0.8
+        Caustic: 0.5
+        Heat: 0.8
+        Radiation: 0.5
+        Shock: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSpatioUpgraded
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,2,2
+  - type: Dumpable
+  - type: ItemSlots
+    slots:
+      item:
+        name: копательные приколы
+        priority: 4
+        whitelist:
+          tags:
+          - LPPpka
+          - Pickaxe
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
+      toggleable-clothing: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
+      item: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSecurityContraband]
+  id: LPPClothingOuterHardsuitCombatAlternative
+  name: security tactical hardsuit
+  description: GRT|FPA-88 - "keshik MK.I" is purpose-built combat suit designed to protect its user against all manner of enemy combatants in low pressure environments.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/huntersec.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/huntersec.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Radiation: 0.7
+        Caustic: 0.7
+        Heat: 0.95
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCombatAlternative
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitHunter
+  name: carp hunter hardsuit
+  description: Hardsuit GRT-42w - "Vadász" spacesuit of the GreyTide co. company, which recently appeared on the market of spacesuits for the needs of civilians as well as the military. Gray tones - the style!
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/winterhunter.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/winterhunter.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.55
+        Piercing: 0.55
+        Heat: 1.1
+        Radiation: 0.5
+        Caustic: 0.2
+        Cold: 0.05
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHunter
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseCargoContraband]
+  id: LPPClothingOuterHardsuitSpatioJugger
+  name: mutant hardsuit
+  description: It shouldn't exist.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.55
+        Caustic: 0.5
+        Radiation: 0.5
+        Shock: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningMutant
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseSyndicateContraband]
+  id: LPPClothingOuterHardsuitInteq
+  name: Syndicate hermit hardsuit
+  description: Hardsuit INT-05Q - "Lochern" A sturdy spacesuit for close quarters combat, it's generally pretty versatile. Painted in a glossy brown color. It is usedd by lone operatives of Gorlex marauders.
+  components:
+  - type: Item
+    size: Huge
+    heldPrefix: null
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.4
+        Caustic: 0.5
+        Heat: 0.55
+        Radiation: 0.1
+        Shock: 0.4
+        Cold: 0.4
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitInteq
+  - type: StaminaResistance
+    damageCoefficient: 0.5
+
+- type: entity
+  parent: LPPClothingOuterHardsuitInteq
+  id: LPPClothingOuterHardsuitInteqVeteran
+  name: Syndicate hermit veteran hardsuit
+  description: Hardsuit INT-05Q - "Lochern" With stamps of cleaness. It's given by loneops veterans as marks of successful operations.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+    layers:
+    - state: icon
+    - state: stamps1
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: stamps
+      outerClothing-reptilian:
+      - state: equipped-OUTERCLOTHING-reptilian
+      - state: stamps
+      outerClothing-vulpkanin:
+      - state: equipped-OUTERCLOTHING-vulpkanin
+      - state: stamps
+
+- type: entity
+  parent: LPPClothingOuterHardsuitInteq
+  id: LPPClothingOuterHardsuitSyndicateVeteran
+  name: Syndicate veteran hardsuit
+  description: Hardsuit INT-05QS - "Perforator" is syndicate version of classic "Lochern" hardsuit, colored in traditional colors.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitVeteranHelmet
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterDetectiveHardsuit
+  name: Detective pressure protection suit
+  description: FDA-87d - "Watson" is a lightweight suit that helps NanoTrasen detectives investigate even in space!
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
+  - type: Item
+    size: Large
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.65
+        Caustic: 0.7
+        Heat: 0.8
+  - type: ClothingSpeedModifier
+    sprintModifier: 0.90
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetDetectiveHardsuit
+  - type: StaminaResistance
+    damageCoefficient: 0.7
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSWAT
+  name: SWAT hardsuit
+  description: FPA-56 - "Rhino" is a special protective kit that protects against the dangerous effects of a low-pressure environment. It has an innovative additional layer of armor used by security personnel.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.6
+        Heat: 0.8
+        Radiation: 0.25
+        Caustic: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSWAT
+  - type: StaminaResistance
+    damageCoefficient: 0.3
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitScienceUEG
+  name: Hardsuit UEG-34r - "Gelehrt"
+  description: A research spacesuit designed for the work of UEG scientists, as well as technicians in outer space and harsh planetary conditions.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGsciense/body.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGsciense/body.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.75
+        Caustic: 0.6
+        Heat: 0.6
+        Radiation: 0.25
+        Shock: 0.5
+        Cold: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetScienceUEG
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitLeaderUEG
+  name: Hardsuit UEG-75e - "Liquidator"
+  description: A prototype of a new line of UEG spacesuits. Mobility, bullet deflection, protection from extremely high pressure and all this is in YOUR hands. Xenophobia is included.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGleader/upgrlead.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGleader/upgrlead.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Caustic: 0.2
+        Heat: 0.5
+        Radiation: 0.6
+  - type: Reflect
+    reflectProb: 0.15
+    spread: 100
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitHelmetLeaderUEG
+  - type: StaminaResistance
+    damageCoefficient: 0.3
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitUEG
+  name: Hardsuit UEG-72s - "Soldat"
+  description: The standard spacesuit of the troops of the New Government of the Earth is convenient and reliable.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGtrooper/hard.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGtrooper/hard.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.45
+        Caustic: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitHelmetUEG
+  - type: StaminaResistance
+    damageCoefficient: 0.5
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSpecopsUEG
+  name: Hardsuit UEG-72+ - "Schatten"
+  description: A modified version of the standard UEG spacesuit provides mobility, durability, as well as good protection from all kinds of damage.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGspecops/hard.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Hardsuits/UEGspecops/hard.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.35
+        Caustic: 0.2
+        Heat: 0.4
+        Radiation: 0.25
+  - type: Reflect
+    reflectProb: 0.1
+    spread: 100
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.05
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitHelmetSpecopsUEG
+  - type: StaticPrice
+    price: 350
+  - type: StaminaResistance
+    damageCoefficient: 0.55

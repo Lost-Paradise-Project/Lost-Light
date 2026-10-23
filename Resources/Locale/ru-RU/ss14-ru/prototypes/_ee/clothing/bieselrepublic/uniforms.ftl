@@ -1,0 +1,15 @@
+ent-ClothingUniformJumpsuitAISArmsman = униформа пехотинца АНС
+    .desc = Стандартный комбинезон, который носят солдаты АНС.
+    .suffix = АНС
+ent-ClothingUniformJumpsuitAISLegate = униформа легата АНС
+    .desc = Униформа офицерского состава легиона АНС.
+    .suffix = АНС
+ent-ClothingUniformJumpsuitAISPilot = униформа пилота АНС
+    .desc = Униформа пилотов летательных аппаратов АНС.
+    .suffix = АНС
+ent-ClothingUniformJumpsuitAISSentinel = униформа стража АНС
+    .desc = Тактический комплект одежды, носимый элитными подразделениями АНС.
+    .suffix = АНС
+ent-ClothingUniformJumpsuitAISVolunteer = униформа легионера АНС
+    .desc = Комбинезон, который носят легионеры АНС.
+    .suffix = АНС

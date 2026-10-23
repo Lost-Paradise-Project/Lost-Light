@@ -212,6 +212,11 @@
   - CapTurtleneckJumpskirt
   - CapTurtleneckJumpsuit
   - CaptainJumpsuitNoble #starlight
+#LP edit start
+  - LPPCaptainSummer
+  - LPPCaptainFormalskirt
+  - LPPCaptainMilitary
+#LP edit end
 
 - type: loadoutGroup
   id: CaptainNeck
@@ -265,6 +270,11 @@
   - HoPTurtleneckJumpskirt # afterlight
   - HopFormalSuit # DeltaV
   - HopFormalSkirt # DeltaV
+#LP edit start
+  - LPPHOPSummer
+  - LPPHOPFormalskirt
+  - LPPHOPMilitary
+#LP edit end
 
 - type: loadoutGroup
   id: HoPNeck
@@ -351,7 +361,13 @@
   - TieDye
   - VintageClothes
   - MaidOutfit # Starlight
-
+  # LP edit start
+  - LPPPassangerBlackTracksuit
+  - LPPPassangerBlueTracksuit
+  - LPPPassangerRedTracksuit
+  - LPPPassangerGreenTracksuit
+  - LPPPassangerMilitary
+  # LP edit end
 
 - type: loadoutGroup
   id: AssistantFace
@@ -680,7 +696,7 @@
   - BotanistJumpsuit
   - BotanistJumpskirt
   - BotanistOveralls
-
+  - LPPBotanistMilitary #LP edit
 
 - type: loadoutGroup
   id: BotanistBackpack
@@ -728,7 +744,13 @@
   - ClownSpottedJumpskirt # Starlight
   - JesterSuit
   - JesterAltSuit
-
+  # LP edit start
+  - LPPClownSuitBlue
+  - LPPClownSuitGreen
+  - LPPClownSuitOrange
+  - LPPClownSuitPurple
+  - LPPClownSuitYellow
+  # LP edit end
 
 - type: loadoutGroup
   id: ClownBackpack
@@ -927,6 +949,11 @@
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
   - QuartermasterFormalSkirt # DeltaV
+#LP edit start
+  - LPPQMSummer
+  - LPPQMFormalskirt
+  - LPPQMMilitary
+#LP edit end
 
 - type: loadoutGroup
   id: QuartermasterNeck
@@ -983,6 +1010,22 @@
   - CargoTechnicianJumpskirtFormal # afterlight end
   - CargoTechnicianOveralls # Starlight
   - CargoTechnicianJumpsuitInformal # DeltaV
+  # LP edit start
+  - LPPCargoJeansJacket
+  - LPPCargoGorka
+  - LPPCargoGorkaRefl
+  - LPPCargoHoodieVest
+  - LPPCargoShirt
+  - LPPCargoShirtSkirt
+  - LPPCargoTurtleneck
+  - LPPCargoTurtleneckSkirt
+  - LPPCargoBlackShirt
+  - LPPCargoBlackSkirt
+  - LPPCargoMilitary
+  - LPPCargoNTTech
+  - LPPCargoHephTech
+  - LPPCargoHephTechAlt
+  # LP edit end
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
@@ -1082,7 +1125,10 @@
   - ChiefEngineerJumpskirt
   - ChiefEngineerTurtleneck
   - ChiefEngineerTurtleneckSkirt
-
+#LP edit start
+  - LPPCESummer
+  - LPPCEMilitary
+#LP edit end
 
 - type: loadoutGroup
   id: ChiefEngineerNeck
@@ -1122,6 +1168,11 @@
   loadouts:
   - YellowJumpsuit
   - YellowJumpskirt
+#LP edit start
+  - LPPEngineerHephAlt
+  - LPPEngineerNTAlt
+  - LPPEngineerZavodAlt
+#LP edit end
 
 #- type: loadoutGroup
 #  id: TechnicalAssistantJobTrinkets
@@ -1148,7 +1199,27 @@
   - StationEngineerHazardsuit
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
-
+  # LP edit start
+  - LPPEngineerJeansJacket
+  - LPPJumpsuitEngineerGorka
+  - LPPEngineerGorkaRefl
+  - LPPEngineerHoodieVest
+  - LPPEngineerShirt
+  - LPPEngineerShirtSkirt
+  - LPPEngineerTurtleneck
+  - LPPEngineerTurtleneckSkirt
+  - LPPEngineerBlackShirt
+  - LPPEngineerBlackSkirt
+  - LPPEngineerHeph
+  - LPPEngineerHephAlt
+  - LPPEngineerHephAlt2
+  - LPPEngineerNT
+  - LPPEngineerNTAlt
+  - LPPEngineerNTAlt2
+  - LPPEngineerZavod
+  - LPPEngineerZavodAlt
+  - LPPEngineerZavodAlt2
+  # LP edit end
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -1199,7 +1270,25 @@
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianJumpskirt
   - AtmosphericTechnicianJumpsuitCasual
-
+  # LP edit start
+  - LPPAtmosJeansJacket
+  - LPPAtmosGorka
+  - LPPAtmosGorkaRefl
+  - LPPAtmosHoodieVest
+  - LPPAtmosShirt
+  - LPPAtmosShirtSkirt
+  - LPPAtmosTurtleneck
+  - LPPAtmosTurtleneckSkirt
+  - LPPAtmosBlackShirt
+  - LPPAtmosBlackSkirt
+  - LPPAtmosJumpsuitZavod
+  - LPPAtmosJumpsuitNT
+  - LPPAtmosJumpsuitHeph
+  - LPPAtmosJumpsuitMilitary
+  - LPPEngineerHephAlt2
+  - LPPEngineerNTAlt2
+  - LPPEngineerZavodAlt2
+  # LP edit end
 
 - type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
@@ -1275,6 +1364,11 @@
   - ResearchDirectorJumpskirt
   - RDClassicalJumpsuit
   - RDClassicalJumpskirt
+#LP edit start
+  - LPPRDFormalskirt
+  - LPPRDSummer
+  - LPPRDMilitary
+#LP edit end
 
 - type: loadoutGroup
   id: ResearchDirectorOuterClothing
@@ -1331,7 +1425,19 @@
   - RoboticistJumpskirt
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
-
+  # LP edit start
+  - LPPScienceJeansJacket
+  - LPPScienceGorka
+  - LPPScienceGorkaRefl
+  - LPPScienceHoodieVest
+  - LPPScienceShirt
+  - LPPScienceShirtSkirt
+  - LPPScienceTurtleneck
+  - LPPScienceTurtleneckSkirt
+  - LPPScienceBlackShirt
+  - LPPScienceBlackSkirt
+  - LPPScienceNTRoboticist
+  # LP edit end
 
 - type: loadoutGroup
   id: ScientistBackpack
@@ -1355,6 +1461,7 @@
   - RoboticistWintercoat
   - SeniorResearcherLabCoat
   - WindbreakerScience #Starlight
+  - LPPScienceExplorerCoat #LP edit
 
 - type: loadoutGroup
   id: ScientistShoes
@@ -1427,6 +1534,10 @@
   - HeadofSecurityBlackSkirt
   - HeadofSecurityBlueJumpsuit
   - HeadofSecurityGreyJumpsuit
+#LP edit start
+  - LPPHOSSummer
+  - LPPHOSFormalskirt
+#LP edit end
 
 - type: loadoutGroup
   id: HeadofSecurityNeck
@@ -1439,6 +1550,7 @@
   - HeadofSecurityMantle
   - HeadofSecurityBoatCloak #DeltaV
   - HeadofSecurityRobe #DeltaV
+  - LPPHOSCloakFur #LP edit
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
@@ -1472,7 +1584,7 @@
   - WardenJumpskirt
   - ClothingUniformJumpsuitFormalWarden #starlight
   - ClothingUniformJumpskirtFormalWarden #starlight
-
+  - LPPWardenZavod #LP edit
 
 - type: loadoutGroup
   id: WardenOuterClothing
@@ -1524,6 +1636,23 @@
   - DeputyFormalJumpskirt
   - DeputyFormalJumpsuit
   - SecurityTshirt # starlight end
+  # LP edit start
+  - LPPSecurityJeansJacket
+  - LPPSecurityGorka
+  - LPPSecurityGorkaRefl
+  - LPPSecurityHoodieVest
+  - LPPSecurityShirt
+  - LPPSecuritySkirtShirt
+  - LPPSecurityTurtleneck
+  - LPPSecuritySkirtTurtleneck
+  - LPPSecurityBlackShirt
+  - LPPSecuritySkirtBlackSkirt
+  - LPPSecurityJeansSportswear
+  - LPPSecurityZavod
+  - LPPSecurityZavodAlt
+  - LPPSecurityZavodAlt2
+  - LPPSecurityTactical
+  # LP edit end
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1555,6 +1684,10 @@
   - SecurityOfficerWintercoat
   - SecurityBomber #Starlight
   - WindbreakerSecurity #Starlight
+#LP edit start
+  - LPPSecurityZavodJacket
+  - LPPSecurityZavodJacketAlt
+#LP edit end
 
 - type: loadoutGroup
   id: SecurityShoes
@@ -1603,6 +1736,10 @@
   - DetectiveJumpskirt
   - NoirJumpsuit
   - NoirJumpskirt
+#LP edit start
+  - LPPDetectiveZavod
+  - LPPDetectiveZavodAlt
+#LP edit end
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1613,6 +1750,10 @@
   - DetectiveArmorVest
   - DetectiveCoat
   - DetectiveCoatGrey
+#LP edit start
+  - LPPDetectiveZavodCoat
+  - LPPDetectiveZavodCaotalt
+#LP edit end
 
 - type: loadoutGroup
   id: DetectiveJobTrinkets
@@ -1628,6 +1769,7 @@
   - RedJumpsuit
   - RedJumpskirt
   - SecurityCadetTshirt # Starlight
+  - LPPSecurityZavodCadet #LP edit
 
 #- type: loadoutGroup
 #  id: SecurityCadetJobTrinkets

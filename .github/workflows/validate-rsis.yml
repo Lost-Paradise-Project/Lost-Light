@@ -16,7 +16,7 @@ on:
 jobs:
   validate_rsis:
     name: Validate RSIs
-    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
+    if: github.actor != 'starlightgithub[bot]'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

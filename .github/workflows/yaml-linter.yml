@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build:
     name: YAML Linter
-    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
+    if: github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7

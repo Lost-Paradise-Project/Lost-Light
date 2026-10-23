@@ -29,7 +29,7 @@ permissions: {}
 
 jobs:
   build:
-    if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
+    if: github.actor != 'starlightgithub[bot]' && github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -453,7 +453,7 @@ jobs:
 
   ci-success:
     name: Debug CI Required
-    if: ${{ always() && github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]' }}
+    if: ${{ always() && github.actor != 'starlightgithub[bot]' }}
     needs:
       - build
       - content-tests

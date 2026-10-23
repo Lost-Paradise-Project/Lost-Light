@@ -1,0 +1,94 @@
+- type: loadout
+  id: LPPEngineerJeansJacket
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerJeansJacket
+
+- type: loadout
+  id: LPPJumpsuitEngineerGorka
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerGorka
+
+- type: loadout
+  id: LPPEngineerGorkaRefl
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerGorkaRefl
+
+- type: loadout
+  id: LPPEngineerHoodieVest
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerHoodieVest
+
+- type: loadout
+  id: LPPEngineerShirt
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerShirt
+
+- type: loadout
+  id: LPPEngineerTurtleneck
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerTurtleneck
+
+- type: loadout
+  id: LPPEngineerBlackShirt
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitEngineerBlackShirt
+
+- type: loadout
+  id: LPPEngineerBlackSkirt
+  equipment:
+    jumpsuit: LPPClothingUniformJumpskirtEngineerBlackSkirt
+
+- type: loadout
+  id: LPPEngineerTurtleneckSkirt
+  equipment:
+    jumpsuit: LPPClothingUniformJumpskirtEngineerTurtleneck
+
+- type: loadout
+  id: LPPEngineerShirtSkirt
+  equipment:
+    jumpsuit: LPPClothingUniformJumpskirtEngineerShirt
+
+- type: loadout
+  id: LPPEngineerHeph
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHephEngineer
+
+- type: loadout
+  id: LPPEngineerHephAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHephEngineerApprentice
+
+- type: loadout
+  id: LPPEngineerHephAlt2
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitHephAtmos
+
+- type: loadout
+  id: LPPEngineerNT
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTEngineer
+
+- type: loadout
+  id: LPPEngineerNTAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTEngineeringApprentice
+
+- type: loadout
+  id: LPPEngineerNTAlt2
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTAtmos
+
+- type: loadout
+  id: LPPEngineerZavod
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitZavodEngineer
+
+- type: loadout
+  id: LPPEngineerZavodAlt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitZavodEngineerApprentice
+
+- type: loadout
+  id: LPPEngineerZavodAlt2
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitZavodAtmos

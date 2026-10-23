@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPHelmetGarfiled
+  categories: [ HideSpawnMenu ]
+  name: The hood of Garfield's suit
+  description: It smells like lasagna...
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/garfield/hat.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/garfield/hat.rsi
+  - type: Tag
+    tags:
+    - HidesHair

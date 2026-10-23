@@ -40,6 +40,8 @@ no_translate_tokens: # Вырезаются целыми словами, рег�
 - "Pwr Game"
 - "Ue No"
 - "LV426"
+- "Zavodskoi"
+- "Hephaestus"
 # Оружие и снаряжение
 - "C-20r"
 - "C-20r ROW"

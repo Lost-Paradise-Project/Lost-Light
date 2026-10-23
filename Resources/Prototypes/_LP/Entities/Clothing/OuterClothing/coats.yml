@@ -1,0 +1,212 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatCargo
+  name: cargo jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/coatcargo.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/coatcargo.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatEngie
+  name: engineer jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/coateng.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/coateng.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber1
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber1.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber1.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber2
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber2.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber2.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber3
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber3.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber3.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber4
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber4.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber4.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber5
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber5.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/misc_bomber/bomber5.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageBase, BaseSecurityContraband]
+  id: LPPClothingOuterCoatLabSec
+  name: lab coat (sec)
+  description: A suit that protects against minor chemical spills. Has an red stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.4
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingOuterWinterCoatToggleable
+  id: LPPOuterClothingGarfield
+  name: Garfield's costume
+  description: It's soft and smells of hate for Mondays.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/garfield/costume.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/garfield/costume.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPHelmetGarfiled
+  - type: Edible
+    requiresSpecialDigestion: true
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseCargoContraband]
+  id: LPPExpeditorCoat
+  name: expeditor coat
+  description: Old fashion expeditor coat.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/expeditor.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/expeditor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.75
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterUEGRepresentative
+  name: UEG Representative coat
+  description: Leather trench coat with a bulletproof vest, it screams- "Stylish!".
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/UEGreprcoat.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/UEGreprcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatUEG
+  name: UEG Coat
+  description: Lightweight nylon coat with bright neon stripes and a print on the back, as well as pockets.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/UEGcoat.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/UEGcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatPizzasecurity
+  name: pizzaria security coat
+  description: Coat for protection againts cold at your nightshift in pizzaria.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/jaybomber.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/jaybomber.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  id: LPPClothingOuterUEGExpeditor
+  name: UEG skitarii expeditor coat
+  description: Classic coat with light weight armor piece. Masteful combination of protection and mobility.
+  components:
+  - type: Sprite
+    sprite: _LP/Clothing/OuterClothing/Coats/UEGexplorer.rsi
+  - type: Clothing
+    sprite: _LP/Clothing/OuterClothing/Coats/UEGexplorer.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.6
+        Radiation: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ToggleableClothing
+    clothingPrototype: LPPHelmetHoodExplorer
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []

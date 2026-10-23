@@ -1,0 +1,10 @@
+ent-LPPClothingOuterVestPG = бронежилет ПГ
+    .desc = Крепкий бронежилет с карманами, штатная модель для работяг ПГ.
+ent-LPPClothingOuterVestUrbanPG = бронежилет ПГ
+    .desc = Крепкий бронежилет с карманами, штатная модель для работяг ПГ. В городской расцветке.
+ent-LPPClothingOuterVestSalvager = бронежилет утилизатора
+    .desc = Потёртая и поношенная броня с карманами, уж лучше это, чем ничего.
+ent-LPPClothingOuterVestSneakingVest = стелс костюм
+    .desc = Это НЕ Солид Снейк!
+ent-LPPClothingOuterVestDareDevil = супергеройский костюм Смельчака
+    .desc = Верни меня к жизни!
