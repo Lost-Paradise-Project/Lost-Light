@@ -5,9 +5,9 @@
   description: It's a snappy jumpsuit, looks a bit burnt.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/Cargo/shaft_miner.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/shaft_miner.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/Cargo/shaft_miner.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Cargo/shaft_miner.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -16,9 +16,9 @@
   description: It's a sturdy set of overalls, looks a bit burnt.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Other/Overalls/Cargo/shaft_miner.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Other/Overalls/Cargo/shaft_miner.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Other/Overalls/Cargo/shaft_miner.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Other/Overalls/Cargo/shaft_miner.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -27,9 +27,9 @@
   description: The head of security's custom-commissioned summer outfit, for when chasing tiders gets hot.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_hos.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_hos.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_hos.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_hos.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -38,9 +38,9 @@
   description: The research director's custom-commissioned summer outfit, for when those fire anomalies are making you sweat.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_rd.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_rd.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_rd.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_rd.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -49,9 +49,9 @@
   description: The quartermaster's custom-commissioned summer outfit, for when you want to show off your cash to the other departments.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_qm.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_qm.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_qm.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_qm.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -60,9 +60,9 @@
   description: The captain's custom-commissioned summer outfit, for when you've been in the green for a while.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_captain.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_captain.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_captain.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_captain.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -71,9 +71,9 @@
   description: The head of personnel's custom-commissioned summer outfit, for when you want to comfortably do paperwork.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_hop.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_hop.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_hop.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_hop.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -82,6 +82,6 @@
   description: The chief engineer's custom-commissioned summer outfit, for when you just want to lay down and look at the tesla.
   components:
   - type: Sprite
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_ce.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_ce.rsi
   - type: Clothing
-    sprite: _GoobStation/Clothing/Uniforms/Jumpsuit/casualshirt_ce.rsi
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/casualshirt_ce.rsi
