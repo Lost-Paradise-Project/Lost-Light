@@ -1,4 +1,3 @@
-# Декор. Маппер ставит маркер там, где нужен предмет; в обычный день маркер ничего не создаёт.
 - type: entity
   parent: LPHolidayMarkerBase
   id: LPHolidayMarkerChristmasTree

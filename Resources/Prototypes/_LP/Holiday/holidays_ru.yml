@@ -1,4 +1,3 @@
-# Русские праздники. Основные праздники лежат в Resources/Prototypes/holidays.yml.
 - type: holiday
   id: LPOrthodoxChristmas
   name: lp-holiday-name-orthodox-christmas

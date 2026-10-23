@@ -1,6 +1,3 @@
-# Праздничные подарки при появлении в раунде: стандартный GiveItemOnHolidaySpecial, подарок на каждую профессию
-
-# Всем профессиям экипажа
 - type: !PartialOnly job
   id: !type:CreateVariants
     values:
@@ -89,7 +86,6 @@
     holiday: LaborDay
     prototype: BalloonNT
 
-# День врача: медицинским профессиям
 - type: !PartialOnly job
   id: !type:CreateVariants
     values:
@@ -105,7 +101,6 @@
     holiday: DoctorDay
     prototype: FoodLollipopPlain
 
-# День пожарного: атмосферникам и инженерам
 - type: !PartialOnly job
   id: !type:CreateVariants
     values:
@@ -117,7 +112,6 @@
     holiday: FirefighterDay
     prototype: FoodBakedCookie
 
-# День программиста: учёным и робототехникам
 - type: !PartialOnly job
   id: !type:CreateVariants
     values:

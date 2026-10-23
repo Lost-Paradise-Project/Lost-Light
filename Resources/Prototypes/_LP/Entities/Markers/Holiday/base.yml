@@ -9,7 +9,6 @@
     - state: pink
   - type: HolidaySpawnerMarker
 
-# Пустой маркер: праздник, сущность и шанс маппер задаёт в редакторе через VV
 - type: entity
   parent: LPHolidayMarkerBase
   id: LPHolidayMarkerCustom

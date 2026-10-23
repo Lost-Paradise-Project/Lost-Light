@@ -4,9 +4,6 @@ using JetBrains.Annotations;
 
 namespace Content.Server._LP.Holiday;
 
-/// <summary>
-/// Масленица: неделя (с понедельника по воскресенье) за 55-49 дней до православной Пасхи.
-/// </summary>
 [UsedImplicitly]
 [DataDefinition]
 public sealed partial class MaslenitsaShouldCelebrate : IHolidayShouldCelebrate
@@ -22,9 +19,6 @@ public sealed partial class MaslenitsaShouldCelebrate : IHolidayShouldCelebrate
         return day >= easter.AddDays(-DaysBeforeEasterStart) && day <= easter.AddDays(-DaysBeforeEasterEnd);
     }
 
-    /// <summary>
-    /// Дата православной Пасхи по григорианскому календарю (алгоритм Мееса для юлианского календаря).
-    /// </summary>
     public static DateOnly GetOrthodoxEaster(int year)
     {
         var a = year % 4;

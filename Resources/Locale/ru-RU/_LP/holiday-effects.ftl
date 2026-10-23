@@ -1,4 +1,3 @@
-# Русские праздники: названия (родительный падеж для стандартного приветствия) и приветствия
 lp-holiday-name-orthodox-christmas = православного Рождества
 lp-holiday-name-old-new-year = Старого Нового года
 lp-holiday-name-students-day = Дня студента
@@ -11,7 +10,6 @@ lp-holiday-greet-students-day = С Днём студента! Пусть сес�
 lp-holiday-greet-maslenitsa = Широкой Масленицы! Пеките блины, угощайте друг друга и не держите зла.
 lp-holiday-greet-womens-day = С Международным женским днём! Пусть цветов и тёплых слов будет вдоволь.
 
-# Команда holidayeffects_spawn
 cmd-holidayeffects_spawn-desc = Принудительно включает праздник для маркеров и создаёт декор на маркерах.
 cmd-holidayeffects_spawn-help = Использование: holidayeffects_spawn <id праздника>
 cmd-holidayeffects_spawn-hint = id праздника

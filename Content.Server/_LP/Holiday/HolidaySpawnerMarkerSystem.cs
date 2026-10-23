@@ -7,9 +7,6 @@ using Robust.Shared.Random;
 
 namespace Content.Server._LP.Holiday;
 
-/// <summary>
-/// Создаёт декор на маркерах <see cref="HolidaySpawnerMarkerComponent"/>.
-/// </summary>
 public sealed partial class HolidaySpawnerMarkerSystem : EntitySystem
 {
     [Dependency] private HolidayEffectsSystem _effects = default!;
@@ -33,9 +30,6 @@ public sealed partial class HolidaySpawnerMarkerSystem : EntitySystem
         SpawnAll();
     }
 
-    /// <summary>
-    /// Проходит по всем маркерам и создаёт то, что положено в текущие праздники.
-    /// </summary>
     public void SpawnAll()
     {
         var query = EntityQueryEnumerator<HolidaySpawnerMarkerComponent>();

@@ -5,9 +5,6 @@ using Robust.Shared.Console;
 
 namespace Content.Server._LP.Holiday;
 
-/// <summary>
-/// Принудительно включает праздник для маркеров (праздники привязаны к календарю, иначе не проверить).
-/// </summary>
 [AdminCommand(AdminFlags.Fun)]
 public sealed partial class HolidayEffectsSpawnCommand : LocalizedEntityCommands
 {
