@@ -13,6 +13,7 @@ public sealed partial class VoiceMaskNameChangeWindow : FancyWindow
     public Action<string?>? OnVerbChange;
     public Action? OnToggle;
     public Action? OnAccentToggle;
+    public Action<string?>? OnTtsVoiceChange; // LP edit
 
     private List<(string, string)> _verbs = new();
 
@@ -32,6 +33,8 @@ public sealed partial class VoiceMaskNameChangeWindow : FancyWindow
             OnVerbChange?.Invoke((string?) args.Button.GetItemMetadata(args.Id));
             SpeechVerbSelector.SelectId(args.Id);
         };
+
+        TtsVoiceSelector.OnVoiceChange += voice => OnTtsVoiceChange?.Invoke(voice); // LP edit
 
         ToggleButton.OnPressed += args => OnToggle?.Invoke();
         ToggleAccentButton.OnPressed += args => OnAccentToggle?.Invoke();
@@ -68,8 +71,9 @@ public sealed partial class VoiceMaskNameChangeWindow : FancyWindow
             SpeechVerbSelector.SelectId(id);
     }
 
-    public void UpdateState(string name, string? verb, bool active, bool accentHide)
+    public void UpdateState(string name, string? verb, bool active, bool accentHide, string? ttsVoice = null) // LP edit
     {
+        TtsVoiceSelector.SetVoice(ttsVoice); // LP edit
         NameSelector.Text = name;
         _verb = verb;
         ToggleButton.Pressed = active;
