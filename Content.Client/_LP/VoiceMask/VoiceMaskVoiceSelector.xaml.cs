@@ -22,7 +22,6 @@ public sealed partial class VoiceMaskVoiceSelector : BoxContainer
     private VoiceSelectorWindow? _window;
     private string? _voice;
 
-    /// <summary>Игрок выбрал голос; null - не подменять.</summary>
     public event Action<string?>? OnVoiceChange;
 
     public VoiceMaskVoiceSelector()

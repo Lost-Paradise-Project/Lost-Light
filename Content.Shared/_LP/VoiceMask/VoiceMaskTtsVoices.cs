@@ -9,7 +9,6 @@ namespace Content.Shared._LP.VoiceMask;
 [Serializable, NetSerializable]
 public sealed class VoiceMaskChangeTtsVoiceMessage(string? voice) : BoundUserInterfaceMessage
 {
-    /// <summary>ID голоса или null, чтобы не подменять голос.</summary>
     public readonly string? Voice = voice;
 }
 
