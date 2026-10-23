@@ -1,6 +1,8 @@
 using Content.Shared._LP.VoiceMask;
+using Content.Shared.ActionBlocker;
 using Content.Shared._Starlight.TextToSpeech;
 using Content.Shared.Database;
+using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Content.Shared.VoiceMask;
 using Robust.Shared.Prototypes;
@@ -9,6 +11,9 @@ namespace Content.Server.VoiceMask;
 
 public sealed partial class VoiceMaskSystem
 {
+    [Dependency] private ActionBlockerSystem _lpActionBlocker = default!;
+    [Dependency] private SharedInteractionSystem _lpInteraction = default!;
+
     private void InitializeLP()
     {
         SubscribeLocalEvent<VoiceMaskComponent, VoiceMaskChangeTtsVoiceMessage>(OnChangeTtsVoice);
@@ -19,6 +24,9 @@ public sealed partial class VoiceMaskSystem
     /// </summary>
     private void OnChangeTtsVoice(Entity<VoiceMaskComponent> entity, ref VoiceMaskChangeTtsVoiceMessage message)
     {
+        if (!_lpActionBlocker.CanInteract(message.Actor, entity) || !_lpInteraction.InRangeUnobstructed(message.Actor, entity.Owner))
+            return;
+
         ProtoId<VoicePrototype>? voice = null;
 
         if (message.Voice is { } id)
