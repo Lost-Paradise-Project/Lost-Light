@@ -272,6 +272,7 @@
     requiredMobState:
     - Critical
     - Dead
+  - type: ESViewconeOccludable # Funky
   #region Starlight
   - type: CyborgSparkEffect
   - type: StationAIShunt #Starlight allow shunting into all borgs

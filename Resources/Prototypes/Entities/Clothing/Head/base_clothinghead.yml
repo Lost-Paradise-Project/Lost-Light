@@ -157,6 +157,8 @@
     - HeadSide
     - FacialHair
   # Forky - start - clothing stains
+  - type: ESViewconeModifier # Funky
+    angleModifier: -90
   - type: StainBlocker
     slots: [MASK]
   # Forky - End
@@ -224,6 +226,8 @@
   - type: SolutionManager
     solutions:
     - SolutionStain
+  - type: ESViewconeModifier # Funky
+    angleModifier: -60
   - type: StainBlocker
     slots: [MASK]
   # Forky - end

@@ -9,6 +9,9 @@
                 <PanelContainer StyleClasses="InsetPanel" Margin="0 0 0 12">
                     <BoxContainer Orientation="Vertical" Margin="10 6" SeparationOverride="4">
                         <CheckBox Name="ReducedMotionCheckBox" Text="{Loc 'ui-options-reduced-motion'}" />
+                        <!-- funky viewcone options -->
+                        <CheckBox Name="DisableViewconeGrainCheckBox" Text="{Loc 'ui-options-disable-viewcone-grain'}" />
+                        <ui:OptionSlider Name="ViewconeOcclusionOpacitySlider" Title="{Loc 'ui-options-viewcone-occlusion-opacity'}" />
                         <CheckBox Name="EnableColorNameCheckBox" Text="{Loc 'ui-options-enable-color-name'}" />
                         <CheckBox Name="ColorblindFriendlyCheckBox" Text="{Loc 'ui-options-colorblind-friendly'}" />
                         <ui:OptionSlider Name="ScreenShakeIntensitySlider" Title="{Loc 'ui-options-screen-shake-intensity'}" />

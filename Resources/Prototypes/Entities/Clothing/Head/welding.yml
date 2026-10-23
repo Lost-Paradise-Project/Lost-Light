@@ -41,8 +41,9 @@
     - type: FlashImmunity
     - type: IdentityBlocker
     - type: EyeProtection
-    - type: VisionDarkener
-      strength: 6
+    - type: ESViewconeModifier # Funky
+      angleModifier: -160
+    # LP edit - убрано VisionDarkener, вместо него вьюкон
   - type: Tag
     tags:
     - HamsterWearable
