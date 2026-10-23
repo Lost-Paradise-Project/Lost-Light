@@ -4,9 +4,7 @@ on:
     types: [ opened, reopened, synchronize, ready_for_review ]
     branches: [ master, stable ]
 
-# Код PR только проверяется, конфиг берётся из базовой ветки (.base), иначе PR мог бы подменить хуки.
-# Есть что исправить автоматически - пушим автофикс и на этом всё: пуш запустит новую проверку.
-# Иначе публикуем отчёт CTRF комментарием, как build-test-debug-pr-comment.yml.
+# Конфиг берётся из базовой ветки (.base), иначе PR мог бы подменить хуки.
 jobs:
   pre-commit:
     if: github.actor != 'Lost-Paradise-Bot' && github.actor != 'starlightgithub[bot]'
@@ -59,7 +57,6 @@ jobs:
           git push "https://x-access-token:$TOKEN@github.com/$REPO.git" "HEAD:$REF"
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 
-      # Каждый хук - отдельный «тест» отчёта CTRF, у упавших в сообщении их вывод
       - name: Build report
         if: always() && steps.autofix.outputs.pushed != 'true'
         env:

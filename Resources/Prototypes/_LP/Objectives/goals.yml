@@ -1,5 +1,3 @@
-# Наши цели станции, общие цели Corvax - в _Corvax/Objectives/goals.yml
-
 - type: stationGoal
   id: LPTransit
   text: station-goal-transit

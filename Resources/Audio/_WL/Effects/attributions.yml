@@ -1,0 +1,4 @@
+- files: ["photo_shoot.ogg", "servo_effect.ogg"]
+  license: "Custom"
+  copyright: "Added by Misha_Unity to corvax-team/ss14-wl without a separate license; covered by the AGPLv3 terms of the ss14-wl LICENSE.md"
+  source: "https://github.com/corvax-team/ss14-wl/pull/329"

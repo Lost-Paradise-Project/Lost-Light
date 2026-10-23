@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McWebs
-  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny] # LP edit - раствор для яда, сам яд в _LP/Partials/Species/species-tweaks.yml
+  parent: [BaseMobSpeciesOrganic, BaseSpeciesPickupableLarge, BaseInventoryArachnid, SolutionWeapon, SolutionTiny] # LP edit - яд арахнидов
   id: BaseMobArachnid
   abstract: true
   components:

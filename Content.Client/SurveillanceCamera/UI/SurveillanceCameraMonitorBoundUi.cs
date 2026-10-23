@@ -1,5 +1,6 @@
 using Content.Client._Starlight.UserInterface; // Starlight
 using Content.Client.Eye;
+using Content.Shared._WL.Photo; // WL-Changes
 using Content.Shared.DeviceNetwork;
 using Content.Shared.SurveillanceCamera;
 using Robust.Shared.Prototypes;
@@ -35,6 +36,7 @@ public sealed class SurveillanceCameraMonitorBoundUserInterface : BoundUserInter
         _window.SubnetRefresh += OnSubnetRefresh;
         _window.CameraSwitchTimer += OnCameraSwitchTimer;
         _window.CameraDisconnect += OnCameraDisconnect;
+        _window.SnapshotRequested += OnSnapshotRequested; // WL-Changes
 
         var xform = EntMan.GetComponent<TransformComponent>(Owner);
         var gridUid = xform.GridUid ?? xform.MapUid;
@@ -72,6 +74,13 @@ public sealed class SurveillanceCameraMonitorBoundUserInterface : BoundUserInter
     {
         SendMessage(new SurveillanceCameraDisconnectMessage());
     }
+
+    // WL-Changes-Start
+    private void OnSnapshotRequested()
+    {
+        _window?.RenderImage(bytes => SendMessage(new PhotoCameraTakeImageMessage(bytes)));
+    }
+    // WL-Changes-End
 
     protected override void UpdateState(BoundUserInterfaceState state)
     {

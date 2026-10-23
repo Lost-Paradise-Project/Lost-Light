@@ -1,6 +1,7 @@
 <!-- Starlight: Reworked to PopOutWindow for popout support -->
 <local:SurveillanceCameraMonitorWindow xmlns="https://spacestation14.io"
                xmlns:viewport="clr-namespace:Content.Client.Viewport"
+               xmlns:lpViewport="clr-namespace:Content.Client._LP.Viewport"
                xmlns:local="clr-namespace:Content.Client.SurveillanceCamera.UI"
                Title="{Loc 'surveillance-camera-monitor-ui-window'}">
     <BoxContainer Name="RootContainer">
@@ -63,10 +64,12 @@
         <!-- Right panel with camera view -->
         <BoxContainer Orientation="Vertical" HorizontalExpand="True">
             <Label Name="CameraStatus"/>
-            <Control VerticalExpand="True" Margin="5" Name="CameraViewBox">
+            <!-- LP edit -->
+            <lpViewport:HudlessViewportContainer VerticalExpand="True" Margin="5" Name="CameraViewBox" HideHud="False">
                 <viewport:ScalingViewport Name="CameraView" MinSize="500 500" MouseFilter="Ignore"/>
                 <TextureRect MinSize="500 500" Name="CameraViewBackground" />
-            </Control>
+            </lpViewport:HudlessViewportContainer> <!-- LP edit -->
+            <Button Name="SnapshotButton" Text="{Loc 'surveillance-camera-monitor-ui-snapshot'}"/> <!-- WL-Changes  -->
         </BoxContainer>
     </BoxContainer>
 </local:SurveillanceCameraMonitorWindow>
