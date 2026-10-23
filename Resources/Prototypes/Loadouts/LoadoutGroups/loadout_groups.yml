@@ -696,11 +696,7 @@
   - BotanistJumpsuit
   - BotanistJumpskirt
   - BotanistOveralls
-#LP edit start
-  - LPPBotanistEOC
-  - LPPBotanistskirtEOC
-  - LPPBotanistMilitary
-#LP edit end
+  - LPPBotanistMilitary #LP edit
 
 - type: loadoutGroup
   id: BotanistBackpack
@@ -1641,7 +1637,6 @@
   - DeputyFormalJumpsuit
   - SecurityTshirt # starlight end
   # LP edit start
-  - JumpsuitDSS
   - LPPSecurityJeansJacket
   - LPPSecurityGorka
   - LPPSecurityGorkaRefl
