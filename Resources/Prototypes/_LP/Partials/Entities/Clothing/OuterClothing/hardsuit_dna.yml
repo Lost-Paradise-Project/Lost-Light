@@ -1,0 +1,77 @@
+# Привязка нестанционных скафандров к ДНК владельца (HardsuitDna)
+
+# Скафандры, которые привязываются к ДНК. Потомки наследуют компонент от родителей:
+# ERT* от Syndie*, SyndieMouseOps от Syndie, TSFMARSOC от Decimus, TSFPhantom от NTSF, JuggernautLocked от Juggernaut
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    # Синдикат и наёмники
+    - ClothingOuterHardsuitSyndie
+    - ClothingOuterHardsuitSyndieMedic
+    - ClothingOuterHardsuitSyndieElite
+    - ClothingOuterHardsuitSyndieCommander
+    - ClothingOuterHardsuitSyndieMouseOps
+    - ClothingOuterHardsuitInfiltration
+    - ClothingOuterHardsuitMercenary
+    # Джагернаут
+    - ClothingOuterHardsuitJuggernaut
+    - ClothingOuterHardsuitJuggernautLocked
+    # Эскадрон смерти
+    - ClothingOuterHardsuitDeathsquad
+    - ClothingOuterHardsuitCBURN
+    # ОБР
+    - ClothingOuterHardsuitERTLeader
+    - ClothingOuterHardsuitERTChaplain
+    - ClothingOuterHardsuitERTEngineer
+    - ClothingOuterHardsuitERTMedical
+    - ClothingOuterHardsuitERTSecurity
+    - ClothingOuterHardsuitERTJanitor
+    # Спецподразделения
+    - ClothingOuterHardsuitNTSF
+    - ClothingOuterHardsuitNTSFPrimus
+    - ClothingOuterHardsuitNTSFSecundus
+    - ClothingOuterHardsuitNTSFTertius
+    - ClothingOuterHardsuitNTSFQuartus
+    - ClothingOuterHardsuitNTSFQuintus
+    - ClothingOuterHardsuitNTSFSextus
+    - ClothingOuterHardsuitNTSFSeptimus
+    - ClothingOuterHardsuitNTSFOctavius
+    - ClothingOuterHardsuitNTSFNonus
+    - ClothingOuterHardsuitDecimus
+    - ClothingOuterHardsuitTSFMARSOC
+    - ClothingOuterHardsuitTSFPhantom
+    - ClothingOuterHardsuitThanatos
+  components:
+  - type: HardsuitDna
+  - type: TextToSpeech
+    voice: ntts_adjutant
+
+# Спорные скафандры по ТЗ пока не включены. Эти три наследуют компонент от разрешённых родителей
+# (Greenshield от SyndieCommander, NTNCConsortium от SyndieElite, NTNCConsortiumMedic от SyndieMedic),
+# поэтому привязка у них выключена. Чтобы включить, убрать id из списка.
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ClothingOuterHardsuitGreenshield
+    - ClothingOuterHardsuitNTNCConsortium
+    - ClothingOuterHardsuitNTNCConsortiumMedic
+  components:
+  - type: HardsuitDna
+    enabled: false
+
+# Спорные скафандры по ТЗ, ждут подтверждения заказчика. Чтобы включить, раскомментировать блок.
+# MedTak включает потомков (Medic, Pilot, Heavy): они наследуют компонент от MedTak.
+#- type: !PartialOnly entity
+#  id: !type:CreateVariants
+#    values:
+#    - ClothingOuterHardsuitPirateCap
+#    - ClothingOuterHardsuitWizard
+#    - ClothingOuterHardsuitSovietMarine
+#    - ClothingOuterHardsuitSovietEVA
+#    - ClothingOuterHardsuitITGLossPrevention
+#    - ClothingOuterHardsuitSpaceHazard
+#    - ClothingOuterHardsuitMedTak
+#  components:
+#  - type: HardsuitDna
+#  - type: TextToSpeech
+#    voice: ntts_adjutant
