@@ -21,15 +21,15 @@ public sealed partial class HolidayEffectsSpawnCommand : LocalizedEntityCommands
             return;
         }
 
-        if (!_effects.TryForce(args[0]))
+        if (!_effects.HolidaysEnabled)
         {
-            shell.WriteError(Loc.GetString("cmd-holidayeffects_spawn-unknown", ("holiday", args[0])));
+            shell.WriteError(Loc.GetString("cmd-holidayeffects_spawn-disabled"));
             return;
         }
 
-        if (!_effects.IsActive(args[0]))
+        if (!_effects.TryForce(args[0]))
         {
-            shell.WriteError(Loc.GetString("cmd-holidayeffects_spawn-disabled"));
+            shell.WriteError(Loc.GetString("cmd-holidayeffects_spawn-unknown", ("holiday", args[0])));
             return;
         }
 

@@ -21,6 +21,8 @@ public sealed partial class HolidayEffectsSystem : EntitySystem
         _forced.Clear();
     }
 
+    public bool HolidaysEnabled => _holiday.enabled;
+
     public bool IsActive(string holidayId)
     {
         if (!_holiday.enabled)
