@@ -56,11 +56,13 @@ public sealed partial class PhotoSystem : SharedPhotoSystem
 
     private void OnOpenCameraInterfaceAttempt(EntityUid uid, PhotoCameraComponent component, ActivatableUIOpenAttemptEvent args)
     {
-        if (component.User != null)
+        // LP edit start - пользователь уже работает с другой камерой
+        if (component.User != null || HasComp<PhotoCameraUserComponent>(args.User))
         {
             args.Cancel();
             return;
         }
+        // LP edit end
 
         if (!_hands.IsHolding(args.User, uid))
         {
