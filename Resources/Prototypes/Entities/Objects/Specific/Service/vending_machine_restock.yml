@@ -141,10 +141,6 @@
     - state: green_bit
       shader: unshaded
     - state: refill_clothes
-#LP edit start
-  - type: StaticPrice
-    price: 3700
-#LP edit end
 
 - type: entity
   parent: BaseVendingMachineRestock
@@ -161,10 +157,6 @@
     - state: green_bit
       shader: unshaded
     - state: refill_costume
-#LP edit start
-  - type: StaticPrice
-    price: 3700
-#LP edit end
 
 - type: entity
   parent: BaseVendingMachineRestock
