@@ -22,7 +22,7 @@
   baseSprite:
     state: torso_f
 
-# Ядовитый укус арахнидов (раствор melee - от родителя SolutionWeapon, задан в файле прототипа)
+# Ядовитый укус арахнидов
 - type: !PartialOnly entity
   id: BaseMobArachnid
   components:

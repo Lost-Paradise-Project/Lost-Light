@@ -1,8 +1,5 @@
 name: Localization Check
 
-# localize.py здесь только проверяет: его изменения не коммитятся, проблемы выдаются ошибками
-# в PR (аннотации на файлах) и отчётом CTRF, его публикует ci-report-pr-comment.yml.
-
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
@@ -47,7 +44,6 @@ jobs:
           set -o pipefail
           PYTHONIOENCODING=utf-8 python Tools/localize/localize.py --all --strict 2>&1 | tee /tmp/localize.log
 
-      # Каждая проблема - отдельная ошибка в PR и отдельный «тест» отчёта CTRF
       - name: Report problems
         id: report
         if: always()

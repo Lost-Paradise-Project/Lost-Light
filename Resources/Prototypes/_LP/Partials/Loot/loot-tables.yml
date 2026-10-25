@@ -27,3 +27,17 @@
     children:
     - id: LPCryptoMinerChipOverclocked
       weight: 0.5
+
+# Фотоаппараты из Corvax WL
+- type: !PartialOnly entityTable
+  id: MaintToolsTable
+  table:
+    children:
+    - id: PhotoCamera
+      weight: 0.8
+    - !type:GroupSelector
+      weight: 0.4
+      children:
+      - id: PhotoFilterMonochrome
+      - id: PhotoFilterNightVision
+      - id: PhotoFilterGhost

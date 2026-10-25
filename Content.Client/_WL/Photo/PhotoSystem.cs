@@ -1,0 +1,64 @@
+using System.Linq;
+using Content.Client._WL.Photo.Filters;
+using Content.Client._WL.Photo.UI;
+using Content.Shared._WL.Photo;
+using Robust.Shared.Graphics;
+
+namespace Content.Client._WL.Photo;
+
+public sealed partial class PhotoSystem : SharedPhotoSystem
+{
+    [Dependency] private PhotoFilterSystem _filter = default!;
+
+    public Dictionary<PhotoCameraComponent, PhotoCameraBoundUserInterface> ActiveCameras = new();
+    public Dictionary<IEye, EntityUid> ActiveEyes = new();
+
+    public override void Initialize()
+    {
+        base.Initialize();
+    }
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        // LP edit start
+        foreach (var (component, window) in ActiveCameras.ToArray())
+        {
+            if (component.Deleted)
+            {
+                ActiveCameras.Remove(component);
+                continue;
+            }
+
+            window.UpdateControl(component, frameTime);
+        }
+
+        foreach (var (eye, uid) in ActiveEyes.ToArray())
+        {
+            if (Deleted(uid))
+                ActiveEyes.Remove(eye);
+        }
+        // LP edit end
+    }
+
+    public void OpenCameraUi(EntityUid? uid, PhotoCameraComponent component, PhotoCameraBoundUserInterface window)
+    {
+        if (!ActiveCameras.ContainsKey(component))
+            ActiveCameras.Add(component, window);
+
+        if (TryComp<EyeComponent>(uid, out var eye) && !ActiveEyes.ContainsKey(eye.Eye))
+            ActiveEyes.Add(eye.Eye, uid.Value);
+
+        _filter.EnableFilter(uid);
+    }
+
+    public void CloseCameraUi(EntityUid? uid, PhotoCameraComponent component)
+    {
+        if (ActiveCameras.ContainsKey(component))
+            ActiveCameras.Remove(component);
+
+        if (TryComp<EyeComponent>(uid, out var eye) && ActiveEyes.ContainsKey(eye.Eye))
+            ActiveEyes.Remove(eye.Eye);
+    }
+}
