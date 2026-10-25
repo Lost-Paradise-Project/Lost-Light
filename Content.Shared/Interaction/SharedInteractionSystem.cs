@@ -159,7 +159,7 @@ namespace Content.Shared.Interaction
         private bool ESHandleEntityMenuRotate(ICommonSession? session, EntityCoordinates coords, EntityUid uid)
         {
             if (!ValidateClientInput(session, coords, uid, out var user))
-                return true;
+                return false; // LP edit - не глотаем нажатие, пусть его обработают следующие обработчики
 
             // clientside handles opening the menu, but we want to rotate to it also
             // // which we do in shared

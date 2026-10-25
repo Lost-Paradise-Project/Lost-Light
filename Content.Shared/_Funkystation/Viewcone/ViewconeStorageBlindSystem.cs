@@ -37,6 +37,11 @@ public sealed partial class ViewconeStorageBlindSystem : EntitySystem
     // in case something is somehow inserted while still closed
     private void OnInserted(Entity<EntityStorageComponent> ent, ref EntInsertedIntoContainerMessage _)
     {
+        // LP edit start - у открытого хранилища содержимого-слепоты быть не должно
+        if (ent.Comp.Open)
+            return;
+        // LP edit end
+
         MarkBlindByContainer(ent);
     }
 
