@@ -1,0 +1,6 @@
+- type: !PartialOnly entity
+  id: ExtinguisherCabinet
+  components:
+  - type: Sprite
+    snapCardinals: false
+    noRot: false

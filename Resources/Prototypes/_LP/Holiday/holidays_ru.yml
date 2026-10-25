@@ -1,0 +1,45 @@
+- type: holiday
+  id: LPOrthodoxChristmas
+  name: lp-holiday-name-orthodox-christmas
+  beginDay: 7
+  beginMonth: January
+  greet:
+    !type:Custom
+    text: lp-holiday-greet-orthodox-christmas
+
+- type: holiday
+  id: LPOldNewYear
+  name: lp-holiday-name-old-new-year
+  beginDay: 13
+  endDay: 14
+  beginMonth: January
+  greet:
+    !type:Custom
+    text: lp-holiday-greet-old-new-year
+
+- type: holiday
+  id: LPStudentsDay
+  name: lp-holiday-name-students-day
+  beginDay: 25
+  beginMonth: January
+  greet:
+    !type:Custom
+    text: lp-holiday-greet-students-day
+
+- type: holiday
+  id: LPMaslenitsa
+  name: lp-holiday-name-maslenitsa
+  shouldCelebrate:
+    !type:MaslenitsaShouldCelebrate { }
+  greet:
+    !type:Custom
+    text: lp-holiday-greet-maslenitsa
+
+- type: holiday
+  id: LPWomensDay
+  name: lp-holiday-name-womens-day
+  beginDay: 8
+  beginMonth: March
+  greet:
+    !type:Custom
+    text: lp-holiday-greet-womens-day

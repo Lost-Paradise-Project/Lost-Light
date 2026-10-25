@@ -1,0 +1,23 @@
+This file contains instructions for applying a shadow to job icons. The shadow is defined as applying a black color (#000000) with a certain transparency percentage over the icon's primary colors. The shading percentages shown below are for layered application, but you can also shade at an angle. It's up to you.
+
+Данный файл является инструкцией к нанесению тени на иконки должностей. Под тенью подразумевается нанесение чёрного цвета (#000000) с определённым процентом прозрачности поверх основных цветов иконки. Ниже представлен процент затенения для нанесения послойно, однако можно затенять и под углом. На ваш вкус.
+
+Shadow NOT FOR white color (layer by layer, from top to bottom)
+Тень НЕ ДЛЯ белого цвета (послойно, сверху вниз)
+1 & 2 - 0%
+3 - 16%
+4 - 25%
+5 - 33%
+6 - 42%
+7 & 8 - 50%
+
+Shadow FOR white color (layer by layer, from top to bottom)
+Тень ДЛЯ белого цвета (послойно, сверху вниз)
+1 & 2 - 0%
+3 - 8%
+4 - 16%
+5 - 25%
+6 - 33%
+7 & 8 - 42%
+
+by Lost Paradise

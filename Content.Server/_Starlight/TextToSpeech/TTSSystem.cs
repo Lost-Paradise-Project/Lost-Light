@@ -99,7 +99,7 @@ public sealed partial class TTSSystem : EntitySystem
                 .RemoveWhere(x => x.AttachedEntity.HasValue
                     && x.AttachedEntity != args.Source
                     && !_language.CanUnderstand(x.AttachedEntity.Value, args.Language.ID, false));
-            var voice = GetOrAssignVoice(args.Source);
+            var voice = ResolveSpeakerVoice(args.Source); // LP edit - голос с учётом голосовой маски
             var channel = new ProtoId<RadioChannelPrototype>(args.Channel.ID);
             var languageradio = args.Channel == args.Language.Speech.RadioChannel;
             var type = languageradio ? TTSType.Mind : TTSType.Radio;
@@ -172,7 +172,7 @@ public sealed partial class TTSSystem : EntitySystem
         {
             var text = CleanText(args.Message.Tts);
             var filter = GetFilter(uid, args);
-            var voice = GetOrAssignVoice(args.Source);
+            var voice = ResolveSpeakerVoice(args.Source); // LP edit - голос с учётом голосовой маски
             var effect = args.Message.Modifier switch
             {
                 SpeechModifier.None => TTSEffect.None,

@@ -15,13 +15,15 @@ public sealed class VoiceMaskBuiState : BoundUserInterfaceState
     public readonly string? Verb;
     public readonly bool Active;
     public readonly bool AccentHide;
+    public readonly string? TtsVoice; // LP edit
 
-    public VoiceMaskBuiState(string name, string? verb, bool active, bool accentHide)
+    public VoiceMaskBuiState(string name, string? verb, bool active, bool accentHide, string? ttsVoice = null) // LP edit
     {
         Name = name;
         Verb = verb;
         Active = active;
         AccentHide = accentHide;
+        TtsVoice = ttsVoice; // LP edit
     }
 }
 

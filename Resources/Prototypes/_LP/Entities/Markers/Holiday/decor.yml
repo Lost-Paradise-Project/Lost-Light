@@ -1,0 +1,278 @@
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerChristmasTree
+  name: holiday marker (christmas tree)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+  - type: HolidaySpawnerMarker
+    holiday: NewYear
+    extraHolidays:
+    - Christmas
+    - LPOrthodoxChristmas
+    - LPOldNewYear
+    spawn: FloraTreeChristmas01
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerCandle
+  name: holiday marker (candle)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Misc/candles.rsi
+      state: candle-big
+    - sprite: Objects/Misc/candles.rsi
+      state: fire-big
+  - type: HolidaySpawnerMarker
+    holiday: NewYear
+    extraHolidays:
+    - Christmas
+    - LPOrthodoxChristmas
+    spawn: CandleInfinite
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerBalloonCorgi
+  name: holiday marker (corgi balloon)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Fun/Balloons/corgi.rsi
+      state: icon
+  - type: HolidaySpawnerMarker
+    holiday: NewYear
+    extraHolidays:
+    - Christmas
+    - ValentinesDay
+    - LPOldNewYear
+    - LPStudentsDay
+    - LPMaslenitsa
+    - LaborDay
+    spawn: BalloonCorgi
+    chance: 0.8
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerBalloonNT
+  name: holiday marker (Nanotrasen balloon)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Fun/Balloons/nanotrasen.rsi
+      state: icon
+  - type: HolidaySpawnerMarker
+    holiday: CosmonauticsDay
+    extraHolidays:
+    - LaborDay
+    spawn: BalloonNT
+    chance: 0.8
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFlowerPoppy
+  name: holiday marker (poppy)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Specific/Hydroponics/poppy.rsi
+      state: produce
+  - type: HolidaySpawnerMarker
+    holiday: ValentinesDay
+    extraHolidays:
+    - LaborDay
+    - LPMaslenitsa
+    - LPWomensDay
+    spawn: FoodPoppy
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFlowerLily
+  name: holiday marker (lily)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Specific/Hydroponics/lily.rsi
+      state: produce
+  - type: HolidaySpawnerMarker
+    holiday: ValentinesDay
+    extraHolidays:
+    - LaborDay
+    - LPMaslenitsa
+    - LPWomensDay
+    spawn: FoodLily
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerBannerNT
+  name: holiday marker (Nanotrasen banner)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Decoration/banner.rsi
+      state: banner
+  - type: HolidaySpawnerMarker
+    holiday: CosmonauticsDay
+    spawn: BannerNanotrasen
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFlagNT
+  name: holiday marker (Nanotrasen flag)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Wallmounts/flags.rsi
+      state: NT_flag
+  - type: HolidaySpawnerMarker
+    holiday: CosmonauticsDay
+    spawn: NTFlag
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFlagPirate
+  name: holiday marker (pirate flag)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Wallmounts/flags.rsi
+      state: pirate_flag
+  - type: HolidaySpawnerMarker
+    holiday: TalkLikeAPirateDay
+    spawn: PirateFlag
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerPumpkin
+  name: holiday marker (carved pumpkin)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Specific/Hydroponics/pumpkin.rsi
+      state: carved
+  - type: HolidaySpawnerMarker
+    holiday: Halloween
+    spawn: CarvedPumpkin
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerPumpkinLantern
+  name: holiday marker (jack o' lantern)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Specific/Hydroponics/pumpkin.rsi
+      state: lantern
+  - type: HolidaySpawnerMarker
+    holiday: Halloween
+    spawn: PumpkinLantern
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerCobweb1
+  name: holiday marker (cobweb 1)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Decoration/cobweb.rsi
+      state: cobweb1
+  - type: HolidaySpawnerMarker
+    holiday: Halloween
+    spawn: Cobweb1
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerCobweb2
+  name: holiday marker (cobweb 2)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Decoration/cobweb.rsi
+      state: cobweb2
+  - type: HolidaySpawnerMarker
+    holiday: Halloween
+    spawn: Cobweb2
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerCandleBlack
+  name: holiday marker (black candle)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Misc/candles.rsi
+      state: candle-big
+    - sprite: Objects/Misc/candles.rsi
+      state: fire-big
+  - type: HolidaySpawnerMarker
+    holiday: Halloween
+    spawn: CandleBlackInfinite
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFridayCobweb1
+  name: holiday marker (Friday the 13th, cobweb 1)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Decoration/cobweb.rsi
+      state: cobweb1
+  - type: HolidaySpawnerMarker
+    holiday: FridayThirteenth
+    spawn: Cobweb1
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFridayCobweb2
+  name: holiday marker (Friday the 13th, cobweb 2)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Structures/Decoration/cobweb.rsi
+      state: cobweb2
+  - type: HolidaySpawnerMarker
+    holiday: FridayThirteenth
+    spawn: Cobweb2
+    chance: 0.9
+
+- type: entity
+  parent: LPHolidayMarkerBase
+  id: LPHolidayMarkerFridayCandleBlack
+  name: holiday marker (Friday the 13th, black candle)
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Misc/candles.rsi
+      state: candle-big
+    - sprite: Objects/Misc/candles.rsi
+      state: fire-big
+  - type: HolidaySpawnerMarker
+    holiday: FridayThirteenth
+    spawn: CandleBlackInfinite
+    chance: 0.9

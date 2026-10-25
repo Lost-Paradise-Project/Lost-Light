@@ -125,4 +125,67 @@ Entries:
   id: 18
   time: '2026-10-16T19:03:16.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/32
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлен новый "знак смерти".
+    type: Add
+  id: 19
+  time: '2026-10-23T14:57:59.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/50
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлены наши знаки для профессий.
+    type: Add
+  id: 20
+  time: '2026-10-23T14:57:59.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/50
+- author: SanitarDurkovic
+  changes:
+  - message: Удалены некоторые лишние спрайты.
+    type: Remove
+  id: 21
+  time: '2026-10-23T14:57:59.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/50
+- author: SanitarDurkovic
+  changes:
+  - message: Изменено множество спрайтов.
+    type: Tweak
+  id: 22
+  time: '2026-10-23T14:57:59.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/50
+- author: SanitarDurkovic
+  changes:
+  - message: Изменены некоторые переводы.
+    type: Tweak
+  id: 23
+  time: '2026-10-23T14:57:59.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/50
+- author: SanitarDurkovic
+  changes:
+  - message: Исправлен невращающийся огнетушитель.
+    type: Fix
+  id: 24
+  time: '2026-10-23T14:57:59.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/50
+- author: Evgencheg
+  changes:
+  - message: Добавлены праздничный декор, русские праздники и подарки каждой профессии в день праздника.
+    type: Add
+  id: 25
+  time: '2026-10-23T14:58:03.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/54
+- author: Evgencheg
+  changes:
+  - message: Добавлены ДНК замки на скафандрах Синдиката ОБР и т.д.
+    type: Add
+  id: 26
+  time: '2026-10-23T15:26:30.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/52
+- author: Evgencheg
+  changes:
+  - message: Добавлена смена ттс голоса в голосовой маске!
+    type: Add
+  id: 27
+  time: '2026-10-23T19:23:20.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/53
 Order: -3

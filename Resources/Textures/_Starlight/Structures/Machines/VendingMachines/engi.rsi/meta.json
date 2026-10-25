@@ -9,7 +9,7 @@
     "states": [
         {
             "name": "broken",
-            "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/1516a728931b4985c1e86f0c5995a5aa1554a1ad and modified by Swept and redraw by darkrell"
+            "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/1516a728931b4985c1e86f0c5995a5aa1554a1ad and modified by Swept and redraw by darkrell. Modify by SanitarDurkovic (github)"
         },
         {
             "name": "normal-unshaded",
@@ -17,11 +17,11 @@
         },
         {
             "name": "off",
-            "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/1516a728931b4985c1e86f0c5995a5aa1554a1ad and modified by Swept and redraw by darkrell"
+            "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/1516a728931b4985c1e86f0c5995a5aa1554a1ad and modified by Swept and redraw by darkrell. Modify by SanitarDurkovic (github)"
         },
         {
             "name": "panel",
-            "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/1516a728931b4985c1e86f0c5995a5aa1554a1ad and modified by Swept and redraw by darkrell"
+            "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/1516a728931b4985c1e86f0c5995a5aa1554a1ad and modified by Swept and redraw by darkrell. Modify by SanitarDurkovic (github)"
         }
     ]
 }

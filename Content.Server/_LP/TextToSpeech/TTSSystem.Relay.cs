@@ -36,7 +36,7 @@ public sealed partial class TTSSystem
                     && x.AttachedEntity.HasValue
                     && !_language.CanUnderstand(x.AttachedEntity.Value, language.ID));
 
-            var voice = GetOrAssignVoice(messageSource);
+            var voice = ResolveSpeakerVoice(messageSource);
             await GenerateAndStream(TTSType.IG, voice, CleanText(text), filter, effect, null, device,
                 volume: whisper ? WhisperVoiceVolumeModifier : 1f);
         }
