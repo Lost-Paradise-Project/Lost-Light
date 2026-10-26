@@ -197,6 +197,9 @@
     lightningExplode: false
   - type: GhostOnMove
     mustBeDead: true
+  - type: ESViewcone # ES
+  - type: ESViewconeOccludable # ES
+  - type: ViewconeBlindness # Funky
 
 # Used for mobs that can enter combat mode and can attack.
 - type: entity

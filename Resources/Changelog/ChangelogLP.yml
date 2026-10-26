@@ -230,4 +230,25 @@ Entries:
   id: 33
   time: '2026-10-25T15:37:27.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/51
+- author: Evgencheg
+  changes:
+  - message: Добавлен конус зрения.
+    type: Add
+  id: 34
+  time: '2026-10-25T16:17:13.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/41
+- author: Evgencheg
+  changes:
+  - message: Добавлено сужение угла обзора шлемам, маскам и сварочным маскам.
+    type: Add
+  id: 35
+  time: '2026-10-25T16:17:13.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/41
+- author: Evgencheg
+  changes:
+  - message: Изменена ходьба задом наперёд теперь шагом и без звука шагов.
+    type: Tweak
+  id: 36
+  time: '2026-10-25T16:17:13.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/41
 Order: -3

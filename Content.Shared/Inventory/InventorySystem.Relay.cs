@@ -1,3 +1,4 @@
+using Content.Shared._ES.Viewcone.Components;
 using Content.Shared._Funkystation.Fluids;
 using Content.Shared.Armor;
 using Content.Shared.Atmos;
@@ -46,6 +47,10 @@ public partial class InventorySystem
 {
     public void InitializeRelay()
     {
+        // ES START events
+        SubscribeLocalEvent<InventoryComponent, ESViewconeGetAngleModifierEvent>(RefRelayInventoryEvent);
+        // ES END
+
         SubscribeLocalEvent<InventoryComponent, HitScanPierceAttemptEvent>(RefRelayInventoryEvent); // Starlight: Should be RefRelay
         SubscribeLocalEvent<InventoryComponent, DamageModifyEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, StaminaModifyEvent>(RelayInventoryEvent);

@@ -199,3 +199,5 @@
   - type: Tag
     tags:
     - DNASolutionScannable
+  - type: ESViewconeOccludable # Funky
+    occludeIfAnchored: true
