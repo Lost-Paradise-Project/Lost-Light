@@ -5,7 +5,7 @@ spray-painter-style-airlockstandard-paramedic = Парамедик
 spray-painter-style-airlockstandard-salvagemining = Утилизация/добыча
 spray-painter-style-airlockstandard-miningcargo = Добыча/карго
 spray-painter-style-airlockstandard-retrosalvagemining = Ретро-утилизация/добыча
-spray-painter-style-airlockstandard-brigmedic = Бригмедик
+spray-painter-style-airlockstandard-brigmedic = Полевой врач
 spray-painter-style-airlockstandard-mail = Почта
 spray-painter-style-airlockstandard-retromining = Ретро-добыча
 spray-painter-style-airlockstandard-retrosalvage = Ретро-утилизация
@@ -20,7 +20,7 @@ spray-painter-style-airlockglass-miningcargo = Добыча/карго
 spray-painter-style-airlockglass-retrosalvagemining = Ретро-утилизация/добыча
 spray-painter-style-airlockglass-retrosalvage = Ретро-утилизация
 spray-painter-style-airlockglass-retromining = Ретро-добыча
-spray-painter-style-airlockglass-brigmedic = Бригмедик
+spray-painter-style-airlockglass-brigmedic = Полевой врач
 spray-painter-style-airlockglass-mail = Почта
 spray-painter-style-airlockglass-nanotrasen = Nanotrasen
 

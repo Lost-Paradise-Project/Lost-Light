@@ -67,7 +67,7 @@ station-ai-hologram-girl = Девочка
 station-ai-hologram-mono = Моно-лицо
 station-ai-hologram-punkfemale = Панк (жен.)
 station-ai-hologram-punkmale = Панк (муж.)
-station-ai-hologram-purrfus = Мурфус
+station-ai-hologram-purrfus = Керфур
 station-ai-hologram-rat = Крыса
 
 ## warps

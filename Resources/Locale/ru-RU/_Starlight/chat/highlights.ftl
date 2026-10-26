@@ -8,7 +8,7 @@ highlights-nanotrasen-career-trainer = Карьерный коуч НаноТр�
 
 # Security
 highlights-duty-officer = Дежурный офицер, Служба безопасности, "СБ"
-highlights-brigmedic = Медик бриг, БригМед, "БМ", Служба безопасности, "СБ"
+highlights-brigmedic = Полевой врач, Полевой, Санитар, "ПВ", Служба безопасности, "СБ"
 
 # Cargo
 highlights-mail-technician = Почтовый техник, Почтальон, "ПТ", Почта, Карго

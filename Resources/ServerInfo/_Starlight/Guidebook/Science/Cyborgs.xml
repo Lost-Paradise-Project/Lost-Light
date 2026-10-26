@@ -29,7 +29,7 @@
     <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Уборщик"/>
     <GuideEntityEmbed Entity="BorgChassisService" Caption="Сервисный"/>
     <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Медицинский"/>
-	<GuideEntityEmbed Entity="BorgChassisPurrfus" Caption="Мурфус"/>
+	<GuideEntityEmbed Entity="BorgChassisPurrfus" Caption="Керфур"/>
 	<GuideEntityEmbed Entity="BorgChassisCargo" Caption="Карго"/>
   </Box>
   <Box>

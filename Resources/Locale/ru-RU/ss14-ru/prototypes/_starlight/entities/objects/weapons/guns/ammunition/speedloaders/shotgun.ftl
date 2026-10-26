@@ -12,5 +12,5 @@ ent-SpeedLoaderShotgunUranium = спидлоадер (12 калибр урано
     .desc = { ent-BaseContrabandTier3.desc }
 ent-SpeedLoaderShotgunBirdshot = спидлоадер (12 калибр дробь)
     .desc = { ent-BaseContrabandTier3.desc }
-ent-SpeedLoaderShotgunIncendiary = спидлоадер (12 калибр зажигательные)
+ent-SpeedLoaderShotgunIncendiary = спидлоадер (12 калибр HEI)
     .desc = { ent-BaseContrabandTier3.desc }

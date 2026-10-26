@@ -26,7 +26,7 @@
 <GuideEntityEmbed Entity="WireBrush"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="AdvMopItem" Caption="Продвинутая швабра, спрашивайте в НИР"/>
+<GuideEntityEmbed Entity="AdvMopItem" Caption="Продвинутая швабра, спрашивайте в НИО"/>
 </Box>
 
 ## Получение и утилизация жидкостей

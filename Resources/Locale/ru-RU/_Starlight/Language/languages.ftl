@@ -155,7 +155,7 @@ language-Xenomind-name = Разум роя
 language-Xenomind-description = Различные разумы ксеносов и террор-пауков.
 
 language-Squeakish-name = Пискиш
-language-Squeakish-description = Язык грызунов, состоящий из череды чириканья и писка.
+language-Squeakish-description = Язык мышинцев, состоящий из череды чириканья и писка.
 
 language-Penguin-name = Пингвиний
 language-Penguin-description = Кррря!

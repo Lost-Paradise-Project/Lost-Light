@@ -1,4 +1,4 @@
-bluespace-harvester-window-title = Блюспейс-жнец
+bluespace-harvester-window-title = Блюспейс-сборщик
 bluespace-harvester-input-management = Управление входом
 bluespace-harvester-input = Вход
 bluespace-harvester-input-level = Уровень входа:
@@ -14,7 +14,7 @@ bluespace-harvester-total-points = Всего очков:
 bluespace-harvester-buy = Купить
 
 # Portal announcement
-bluespace-harvester-portal-warning = ПРЕДУПРЕЖДЕНИЕ: обнаружен блюспейс-разлом! Из разлома появляются враждебные сущности. Работа блюспейс-жнеца приостановлена до закрытия разлома.
+bluespace-harvester-portal-warning = ПРЕДУПРЕЖДЕНИЕ: обнаружен блюспейс-разлом! Из разлома появляются враждебные сущности. Работа блюспейс-сборщика приостановлена до закрытия разлома.
 
 # Loot Tables
 bluespace-harvester-pool-exotic-hat = Неизвестная экзотическая шляпа
