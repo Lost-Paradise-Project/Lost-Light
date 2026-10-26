@@ -89,6 +89,11 @@
   components:
   - type: Inventory
     femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: jumpsuit-female
       outerClothing:
         sizeMaps:
           32:
@@ -104,6 +109,36 @@
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: jumpsuit-female
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: eyes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: hand
+      head:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: head
+      back:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: ears
     displacements:
       shoes:
         sizeMaps:
