@@ -18,13 +18,13 @@
   <GuideEntityEmbed Entity="AppearanceFelionoid" Caption="Фелиноид"/>
   <GuideEntityEmbed Entity="AppearanceHuman" Caption="Человек"/>
   <GuideEntityEmbed Entity="AppearanceLagomorph" Caption="Лагоморф"/>
-  <GuideEntityEmbed Entity="AppearanceSlimePerson" Caption="Ласпи"/>
+  <GuideEntityEmbed Entity="AppearanceSlimePerson" Caption="Слаймолюд"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="AppearanceMoth" Caption="Ниан"/>
   <GuideEntityEmbed Entity="AppearanceResomi" Caption="Резоми"/>
   <GuideEntityEmbed Entity="AppearanceReptilian" Caption="Унатх"/>
-  <GuideEntityEmbed Entity="AppearanceRodentia" Caption="Грызун"/>
+  <GuideEntityEmbed Entity="AppearanceRodentia" Caption="Мышинец"/>
   <GuideEntityEmbed Entity="AppearanceShadekin" Caption="Теневик"/>
   <GuideEntityEmbed Entity="AppearanceThaven" Caption="Тавен"/>
   </Box>
