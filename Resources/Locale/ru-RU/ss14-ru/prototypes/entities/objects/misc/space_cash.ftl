@@ -1,4 +1,4 @@
-ent-SpaceCash = кредиты
+ent-SpaceCash = спесо
     .desc = Нужно иметь деньги.
 ent-SpaceCash10 = { ent-SpaceCash }
     .desc = { ent-SpaceCash.desc }

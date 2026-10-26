@@ -73,7 +73,7 @@ lobby-state-background-janitorialhell-artist = wintergem18
 lobby-state-background-katievssyndie-title = Кэти против синдиката
 lobby-state-background-katievssyndie-artist = ramblinger
 
-lobby-state-background-nogalcom-title = Когда у бригмедика кончаются стартовые химикаты
+lobby-state-background-nogalcom-title = Когда у полевого врача кончаются стартовые химикаты
 lobby-state-background-nogalcom-artist = deltaVelocity
 
 lobby-state-background-aiderthief-title = Открытие техтоннелей

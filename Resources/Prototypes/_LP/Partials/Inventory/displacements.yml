@@ -99,6 +99,11 @@
           32:
             sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
             state: jumpsuit-female
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Starlight/Mobs/Species/Felionoid/displacement.rsi
+            state: shoes
       underwear:
         sizeMaps:
           32:

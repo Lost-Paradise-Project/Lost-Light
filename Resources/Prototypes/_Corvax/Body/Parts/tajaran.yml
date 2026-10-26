@@ -90,7 +90,6 @@
       state: l_leg
     - type: MovementBodyPart
       sprintSpeed : 5.5
-      maxDensity: 60
     - type: MovementBodyPartHinderedByShoes
       hinderModifier: 0.15
 
@@ -104,7 +103,6 @@
       state: r_leg
     - type: MovementBodyPart
       sprintSpeed : 5.5
-      maxDensity: 60
     - type: MovementBodyPartHinderedByShoes
       hinderModifier: 0.15
 

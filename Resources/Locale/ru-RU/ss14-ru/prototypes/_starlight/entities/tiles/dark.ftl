@@ -1,4 +1,4 @@
-ent-DarkTile = Тёмный
+ent-DarkTile = Тьма
     .desc = Странная непроницаемая тьма.
 ent-DarkTile2 = { ent-DarkTile }
     .desc = { ent-DarkTile.desc }

@@ -1,4 +1,4 @@
-ent-GunSafeEnergySniper = сейф ЛВСП
+ent-GunSafeEnergySniper = сейф ЛПСВ
     .desc = { ent-GunSafeBaseArmorySL.desc }
     .suffix = { ent-GunSafeBaseArmorySL.suffix }
 ent-LockerSecurityLargeFilled = { ent-LockerSecurityLarge }
@@ -7,8 +7,8 @@ ent-LockerSecurityLargeFilled = { ent-LockerSecurityLarge }
 ent-LockerBrigmedicLargeFilled = { ent-LockerBrigmedicLarge }
     .desc = { ent-LockerBrigmedicLarge.desc }
     .suffix = Заполнен
-ent-GunSafeHeavyWeapons = сейф ВСВ
-    .desc = Содержит набор L10 ВСВ
+ent-GunSafeHeavyWeapons = сейф ПСВ
+    .desc = Содержит набор L10 ПСВ
     .suffix = { ent-GunSafeBaseArmorySL.suffix }
 ent-GunSafeLMG = сейф тяжёлого оружия
     .desc = Для случаев, когда договориться недостаточно.

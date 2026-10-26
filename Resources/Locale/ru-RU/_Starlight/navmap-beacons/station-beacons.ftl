@@ -22,7 +22,7 @@ station-beacon-janitor-cleaning-closet = Чулан уборщика
 station-beacon-washrooms = Умывальные
 station-beacon-laundromat = Прачечная
 station-beacon-radio-host = Радиостудия
-station-beacon-brigmedic = Бригмедик
+station-beacon-brigmedic = Полевой врач
 station-beacon-ats = Автоматическая торговая станция
 
 nav-beacon-supply-rift = разлом снабжения

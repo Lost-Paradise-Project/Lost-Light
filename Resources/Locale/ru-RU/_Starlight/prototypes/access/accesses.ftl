@@ -20,7 +20,7 @@ id-card-access-level-shuttle = Шаттл
 id-card-access-level-robotics = Робототехника
 
 # Security
-id-card-access-level-brigmedic = Бригмедик
+id-card-access-level-brigmedic = Полевой врач
 id-card-access-level-cadet = Кадет
 
 # Service
