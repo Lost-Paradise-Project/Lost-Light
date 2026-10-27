@@ -70,7 +70,7 @@
       fallbackTypes:
         - !type:SkinColoring
     layers:
-      goathornstone22:
+      goathornstone2:
         type:
           !type:SimpleColoring
             color: "#FFFFFF"

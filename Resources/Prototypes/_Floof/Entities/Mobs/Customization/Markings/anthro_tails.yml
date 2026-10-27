@@ -300,19 +300,19 @@
     state: m_tail_cat_BEHIND
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -330,19 +330,19 @@
     state: m_tail_catbig_BEHIND
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -1112,19 +1112,19 @@
     state: m_tail_leopard_BEHIND_tertiary
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -1142,19 +1142,19 @@
     state: m_tail_ltiger_BEHIND
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -1538,19 +1538,19 @@
     state: m_tail_sabresune_BEHIND_secondary
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -1977,19 +1977,19 @@
     state: m_tail_threecat_BEHIND_primary
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -2015,19 +2015,19 @@
     state: m_tail_tiger_BEHIND_tertiary
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -2053,19 +2053,19 @@
     state: m_tail_tiger2_BEHIND_tertiary
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
@@ -2083,19 +2083,19 @@
     state: m_tail_twocat_BEHIND_primary
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal

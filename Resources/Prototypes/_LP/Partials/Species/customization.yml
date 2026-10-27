@@ -2035,19 +2035,19 @@
   id: CatTail
   emotes:
     - emotePrototype: Mew
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Meow
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal
         - EarsSabresune
     - emotePrototype: Trill
-      requiredMarkings:
+      requiredMarkingsAny:
         - CatEars
         - EarsCatBig
         - EarsCatNormal

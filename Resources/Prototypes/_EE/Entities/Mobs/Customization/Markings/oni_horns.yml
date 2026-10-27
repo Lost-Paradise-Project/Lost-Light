@@ -28,7 +28,7 @@
   markingCategory: HeadTop
   forcedColoring: false
   speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
-  sponsorOnly: true
+  rolesRequirement: LPSponsorTier3Req
   sprites:
   - sprite: _EE/Mobs/Customization/Oni/oni_horns48x48.rsi
     state: tall_bull
@@ -39,7 +39,7 @@
   markingCategory: HeadTop
   forcedColoring: false
   speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
-  sponsorOnly: true
+  rolesRequirement: LPSponsorTier3Req
   sprites:
   - sprite: _EE/Mobs/Customization/Oni/oni_horns48x48.rsi
     state: tall_bull_3tone_1
@@ -460,7 +460,7 @@
   markingCategory: HeadTop
   forcedColoring: false
   speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
-  sponsorOnly: true
+  rolesRequirement: LPSponsorTier3Req
   sprites:
   - sprite: _EE/Mobs/Customization/Oni/oni_horns.rsi
     state: erebia
