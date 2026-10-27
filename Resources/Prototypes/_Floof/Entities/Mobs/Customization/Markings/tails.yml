@@ -74,7 +74,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [SlimePerson, NeoSlimePerson Human, NeoHuman]
-  sponsorOnly: true
+  rolesRequirement: LPSponsorTier3Req
   sprites:
     - sprite: _EE/Mobs/Customization/tails32x32.rsi
       state: tentacle
