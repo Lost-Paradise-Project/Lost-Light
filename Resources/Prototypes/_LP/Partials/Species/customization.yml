@@ -1,0 +1,2054 @@
+- type:  !PartialOnly marking
+  id: FopsTail
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: PuppyTail
+  bodyPart: Tail
+  waggingId: PuppyTailWag
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/vulpkanin.rsi
+      state: wolf_tail
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/vulpkanin.rsi
+      state: wolf_tail_inner
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FopsTailWag
+  bodyPart: Tail
+  markingCategory: Tail
+  staticId: FopsTail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/vulpkanin.rsi
+      state: tail_fox_waggin
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/vulpkanin.rsi
+      state: tail_fox_inner_waggin
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: PuppyTailWag
+  bodyPart: Tail
+  markingCategory: Tail
+  staticId: PuppyTail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/vulpkanin.rsi
+      state: tail_wolf_waggin
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/vulpkanin.rsi
+      state: tail_wolf_inner_waggin
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+# Tail Markings
+- type:  !PartialOnly marking
+  id: FoxlikeTail
+  bodyPart: Tail
+  markingCategory: Tail
+  waggingId: FoxlikeTailWag
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp-fade
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailTip
+  waggingId: FoxlikeTailTipWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailWag
+  bodyPart: Tail
+  staticId: FoxlikeTail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_wag
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_wag-tip #fade
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailTipWag
+  bodyPart: Tail
+  markingCategory: Tail
+  staticId: FoxlikeTailTip
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_wag
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_wag-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailAlt
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_alt
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_alt-fade
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailAltTip
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_alt
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: vulp_alt-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: long
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: long-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFox
+  waggingId: FoxlikeTailFoxWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox-fade
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFoxTip
+  waggingId: FoxlikeTailFoxTipWag
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFoxWag
+  bodyPart: Tail
+  markingCategory: Tail
+  staticId: FoxlikeTailFox
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox_wag
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox_wag-fade
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFoxTipWag
+  bodyPart: Tail
+  markingCategory: Tail
+  staticId: FoxlikeTailFoxTip
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox_wag
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox_wag-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailBushy
+  bodyPart: Tail
+  markingCategory: Tail
+  waggingId: FoxlikeTailBushyWag
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: bushfluff
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailBushyWag
+  bodyPart: Tail
+  markingCategory: Tail
+  staticId: FoxlikeTailBushy
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: bushfluff_wag
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFox2
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox2
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFox3
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox3
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fox3-tip
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFennec
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fennec
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: FoxlikeTailFluffy
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, NeoHuman, Neocyte]
+  sprites:
+    - sprite: _Starlight/Mobs/Customization/vulpkanin/tail_markings.rsi
+      state: fluffy
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type:  !PartialOnly marking
+  id: CatTail
+  emotes:
+    - emotePrototype: Mew
+      requiredMarkingsAny:
+        - CatEars
+        - EarsCatBig
+        - EarsCatNormal
+        - EarsSabresune
+    - emotePrototype: Meow
+      requiredMarkingsAny:
+        - CatEars
+        - EarsCatBig
+        - EarsCatNormal
+        - EarsSabresune
+    - emotePrototype: Trill
+      requiredMarkingsAny:
+        - CatEars
+        - EarsCatBig
+        - EarsCatNormal
+        - EarsSabresune

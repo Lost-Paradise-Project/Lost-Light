@@ -1,0 +1,5 @@
+- type: !PartialOnly speciesBaseSprites
+  id: MobSlimeSprites
+  sprites:
+    Tail: MobSlimeMarkingAlfa
+    HeadTop: MobSlimeMarkingAlfa
