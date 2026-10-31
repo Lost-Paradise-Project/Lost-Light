@@ -1,0 +1,8 @@
+- type: gameMapPool
+  id: DefaultLPMapPool
+  maps:
+  - LP_StarlightCluster
+  - LP_StarlightHotel
+  - LP_StarlightOrwell
+  - LP_StarlightSaltern
+  - LPBeta
