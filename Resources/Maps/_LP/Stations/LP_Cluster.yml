@@ -4,8 +4,8 @@ meta:
   engineVersion: 290.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/31/2026 10:25:34
-  entityCount: 15930
+  time: 10/31/2026 17:24:09
+  entityCount: 15929
 maps:
 - 1
 grids:
@@ -7480,7 +7480,7 @@ entities:
       pos: 0.5,-38.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -7639.299
+      secondsUntilStateChange: -7677.772
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -7617,7 +7617,7 @@ entities:
       pos: 9.5,-1.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -8355.799
+      secondsUntilStateChange: -8394.271
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -44770,7 +44770,7 @@ entities:
       pos: -21.5,19.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -7061.699
+      secondsUntilStateChange: -7100.1724
   - uid: 6901
     components:
     - type: Transform
@@ -44778,7 +44778,7 @@ entities:
       pos: -20.5,19.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -7085.899
+      secondsUntilStateChange: -7124.372
     - type: Firelock
       emergencyCloseCooldown: 1806.1315292
   - uid: 6902
@@ -79965,18 +79965,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -21.5,-6.5
-- proto: LPPCalendar
-  entities:
-  - uid: 11042
-    components:
-    - type: Transform
-      parent: 2
-      pos: -4.5,16.5
-  - uid: 12852
-    components:
-    - type: Transform
-      parent: 2
-      pos: -22.5,-7.5
 - proto: LPPcoatrack
   entities:
   - uid: 11041
@@ -82091,6 +82079,22 @@ entities:
     - type: Transform
       parent: 2
       pos: 15.5,-5.5
+    - type: Fixtures
+      fixtures: {}
+- proto: PosterLegitCalendar
+  entities:
+  - uid: 11042
+    components:
+    - type: Transform
+      parent: 2
+      pos: -4.5,16.5
+    - type: Fixtures
+      fixtures: {}
+  - uid: 12852
+    components:
+    - type: Transform
+      parent: 2
+      pos: -22.5,-7.5
     - type: Fixtures
       fixtures: {}
 - proto: PosterLegitCleanliness
@@ -88632,7 +88636,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -1.5,-13.8
+      pos: -1.5,-13.5
       anchored: True
     - type: Fixtures
       fixtures: {}
@@ -88799,7 +88803,7 @@ entities:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
-      pos: -1.5,-13.4
+      pos: -1.5,-13.5
       anchored: True
     - type: Fixtures
       fixtures: {}
@@ -88986,7 +88990,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -1.5,-13.6
+      pos: -1.5,-13.5
       anchored: True
     - type: Fixtures
       fixtures: {}
@@ -91433,11 +91437,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 40.5,16.5
-  - uid: 13443
-    component:
-    - type: Transform
-      parent: 2
-      pos: 23.5,21.5
   - uid: 13444
     components:
     - type: Transform
@@ -91760,7 +91759,7 @@ entities:
       pos: -0.5,18.5
     - type: SurveillanceCamera
       nameSet: True
-      id: "Глава: Глава Персонала"
+      id: 'Глава: Глава Персонала'
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 13488
@@ -91771,7 +91770,7 @@ entities:
       pos: -20.5,13.5
     - type: SurveillanceCamera
       nameSet: True
-      id: "Глава: Главный врач"
+      id: 'Глава: Главный врач'
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 13489
@@ -91782,7 +91781,7 @@ entities:
       pos: -21.5,-3.5
     - type: SurveillanceCamera
       nameSet: True
-      id: "Глава: Научный руководитель"
+      id: 'Глава: Научный руководитель'
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 13490
@@ -91793,7 +91792,7 @@ entities:
       pos: 5.5,-19.5
     - type: SurveillanceCamera
       nameSet: True
-      id: "Глава: Квартирмейстер"
+      id: 'Глава: Квартирмейстер'
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 13491
@@ -91804,7 +91803,7 @@ entities:
       pos: 16.5,-16.5
     - type: SurveillanceCamera
       nameSet: True
-      id: "Глава: Старший инженер"
+      id: 'Глава: Старший инженер'
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 13492
@@ -91815,7 +91814,7 @@ entities:
       pos: 27.5,11.5
     - type: SurveillanceCamera
       nameSet: True
-      id: "Глава: Глава Службы Безопасности"
+      id: 'Глава: Глава Службы Безопасности'
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 13493
@@ -105026,7 +105025,7 @@ entities:
       pos: -38.5,9.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -201007.69
+      secondsUntilStateChange: -201046.16
   - uid: 15893
     components:
     - type: Transform
@@ -105034,7 +105033,7 @@ entities:
       pos: -35.5,10.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -201008.19
+      secondsUntilStateChange: -201046.66
 - proto: Wrench
   entities:
   - uid: 15894
