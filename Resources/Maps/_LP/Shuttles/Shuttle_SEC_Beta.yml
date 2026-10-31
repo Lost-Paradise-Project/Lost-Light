@@ -18,10 +18,10 @@ tilemap:
   7: FloorShuttleBlue
   6: FloorShuttleGrey
   0: FloorShuttleOrange
-  10: LPPLatticeHalf1
-  8: LPPLatticeHalf2
-  9: LPPLatticeHalf3
-  3: LPPLatticeHalf4
+  10: LatticeDiagonalSE
+  8: LatticeDiagonalSW
+  9: LatticeDiagonalNE
+  3: LatticeDiagonalNW
   2: Lattice
   1: Plating
 entities:

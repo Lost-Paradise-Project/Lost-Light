@@ -19,10 +19,10 @@ tilemap:
   2: FloorShuttleGrey
   5: FloorShuttleOrange
   1: FloorShuttleWhite
-  9: LPPLatticeHalf1
-  8: LPPLatticeHalf2
-  11: LPPLatticeHalf3
-  10: LPPLatticeHalf4
+  9: LatticeDiagonalSE
+  8: LatticeDiagonalSW
+  11: LatticeDiagonalNE
+  10: LatticeDiagonalNW
   7: Lattice
   0: Plating
 entities:
@@ -535,18 +535,6 @@ entities:
     components:
     - type: Transform
       pos: 11.5,-9.5
-      parent: 1
-- proto: BedsheetMedical
-  entities:
-  - uid: 109
-    components:
-    - type: Transform
-      pos: 7.5,0.5
-      parent: 1
-  - uid: 112
-    components:
-    - type: Transform
-      pos: 7.5,1.5
       parent: 1
 - proto: CableApcExtension
   entities:
