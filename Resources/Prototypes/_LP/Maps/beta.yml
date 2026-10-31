@@ -96,7 +96,7 @@
             Reporter: [ 1, 1 ]
             RadioHost: [ 1, 1 ]
             ServiceWorker: [ 4, 4 ]
-            Passenger: [ -1, -1 ]
+            Assistant: [ -1, -1 ]
 
             # Силиконы
             StationAi: [ 1, 1 ]
