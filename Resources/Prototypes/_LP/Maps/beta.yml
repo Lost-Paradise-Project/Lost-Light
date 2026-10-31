@@ -53,7 +53,7 @@
             SalvageLead: [ 1, 1 ] # Глава утилей
             SalvageSpecialist: [ 3, 4 ] # Утиль
             SalvageMedic: [ 1, 1 ] # Медик утилей
-        
+
             # Снабжение
             MiningSpecialist: [ 3, 3 ] # Специалист по добыче
             # ShaftMiner: [ 3, 3 ]
