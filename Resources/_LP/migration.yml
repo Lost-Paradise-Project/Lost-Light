@@ -1,0 +1,61 @@
+# Example:
+# #  yyyy-mm-dd
+# ItemIdFrom: ItemIdTo - Change item
+# ItemIdFrom: null - Removes item from map
+
+# 2026.10.22 LP pereezd
+ComputerJobSlots: RecruitmentComputer
+WallDirectional: WindowFrostedDirectional
+SpawnMobGorillaLargo: SpawnMobCargorilla
+LPPCalendar: PosterLegitCalendar
+SpawnPointBlueshieldOfficer: SpawnPointBlueShield
+SpawnPointNanotrasenRepresentative: SpawnPointNtrep
+TapeRecorderFilled: LPPTapeRecorderFilled
+LPPEngineeringProtolathe: EngineeringTechFab
+LPPScienceProtolathe: ScienceTechFab
+LPPServiceProtolathe: ServiceTechFab
+LPPCargoProtolathe: CargoTechFab
+MaterialSilo: MachineMaterialSilo
+Byteforge: MachineFrame
+QuantumConsole: MachineFrame
+QuantumServer: MachineFrame
+Netpod: MachineFrame
+VendingMachineBitrunning: MachineFrame
+SpawnPointShaftMiner: Error
+SpawnPointPilot: SpawnPointSecurityOfficer
+SpawnPointBitrunner: SpawnPointCargoTechnician
+LPPSpaceForgeCMD: MachineFrame
+RubberPig: PlushiePig
+KvassTankFull: GenericTank
+DresserNanorepFilled: LockerRepresentativeFilled
+DresserBlueshieldOfficerFilled: LockerBlueshieldFilled
+AirlockExternalGlassShuttleMiningFilled: AirlockExternalShuttleLocked
+BookZP: BookSpaceLaw
+CardBoxBlack: PlayingCardDeckBoxBlack
+ClothingHeadHatCapHoS: ClothingHeadHatBeretHoS
+ClothingOuterHardsuitSecurityPilot: ClothingOuterHardsuitSecurity
+ClothingOuterVestArmorSec: ClothingOuterArmorBasic
+LPPLockerSecEngFilled: LockerSecurityFilled
+LPPSpawnPointSecurityEngineer: SpawnPointSecurityOfficer
+LPPWeaponRevolverFieldEngineer: null
+LPPClothingHeadHelmetBasic: ClothingHeadHelmetBasic
+ComputerShuttleMiningLavaland: ComputerBroken
+LPPbotanist: LPPBotanistStairs
+LPPbotanistL: LPPBotanistStairsL
+LPPbotanistR: LPPBotanistStairsR
+LPPdark: LPPDarkStairs
+LPPdarkL: LPPDarkStairsL
+LPPdarkR: LPPDarkStairsR
+LPPdarkM: LPPDarkStairsM
+LPPmedstairs: LPPMedStairs
+LPPmedstairsL: LPPMedStairsL
+LPPmedstairsM: LPPMedStairsM
+LPPmedstairsR: LPPMedStairsR
+LPPstairs: LPPSteelStairs
+LPPstairsL: LPPSteelStairsL
+LPPstairsR: LPPSteelStairsR
+LPPstairsM: LPPSteelStairsM
+LPPwooden: LPPWoodenStairs
+LPPwoodenR: LPPWoodenStairsR
+LPPwoodenL: LPPWoodenStairsL
+LPPwoodenM: LPPWoodenStairsM

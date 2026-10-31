@@ -1,0 +1,9 @@
+- type: entity
+  parent: TapeRecorder
+  id: LPPTapeRecorderFilled
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      cassette_tape:
+      - CassetteTape
