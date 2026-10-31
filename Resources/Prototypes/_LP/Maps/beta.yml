@@ -62,7 +62,7 @@
             CargoTechnician: [ 3, 3 ]
 
             # Инженерия
-            SeniorEngineer: [ 1, 1 ] # Ведущий инженер, corvax
+            # SeniorEngineer: [ 1, 1 ] # Ведущий инженер, corvax
             AtmosphericTechnician: [ 3, 3 ]
             StationEngineer: [ 3, 5 ]
             TechnicalAssistant: [ 3, 4 ]
