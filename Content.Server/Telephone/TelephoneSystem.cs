@@ -1,4 +1,5 @@
 using Content.Server.Access.Systems;
+using Content.Server._LP.Phones;
 using Content.Server.Administration.Logs;
 using Content.Server.Chat.Systems;
 using Content.Server.Interaction;
@@ -47,6 +48,7 @@ public sealed partial class TelephoneSystem : SharedTelephoneSystem
     [Dependency] private LanguageSystem _language = default!;
     [Dependency] private IChatManager _chatManager = default!;
     [Dependency] private TTSSystem _tts = default!; // LP edit
+    [Dependency] private TelephoneBugSystem _bug = default!; // LP edit
     // Starlight End
 
     // Has set used to prevent telephone feedback loops
@@ -113,6 +115,8 @@ public sealed partial class TelephoneSystem : SharedTelephoneSystem
         if (!IsTelephonePowered(entity) ||
             !IsSourceConnectedToReceiver(args.TelephoneSource, entity))
             return;
+
+        _bug.RecordTelephone(entity, args.MessageSource, args.Message); // LP edit
 
         var nameEv = new TransformSpeakerNameEvent(args.MessageSource, Name(args.MessageSource));
         RaiseLocalEvent(args.MessageSource, nameEv);

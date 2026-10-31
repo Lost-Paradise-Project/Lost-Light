@@ -1,0 +1,85 @@
+# Диктофон без собственных ушей: пишет только то, что ему отдаёт код (автоответчик, жучок).
+- type: entity
+  parent: BaseItem
+  id: LPTapeRecorderFed
+  abstract: true
+  components:
+  - type: Item
+    size: Small
+  - type: TapeRecorder
+  - type: UseDelay
+    delay: 1
+  - type: Speech
+  - type: TextToSpeech
+  - type: ItemSlots
+    slots:
+      cassette_tape:
+        priority: 4
+        whitelist:
+          components:
+          - FitsInTapeRecorder
+  - type: ContainerContainer
+    containers:
+      cassette_tape: !type:ContainerSlot
+  - type: ActivatableUI
+    key: enum.TapeRecorderUIKey.Key
+    inHandsOnly: true
+    requireActiveHand: false
+  - type: UserInterface
+    interfaces:
+      enum.TapeRecorderUIKey.Key:
+        type: TapeRecorderBoundUserInterface
+
+# Placeholder sprite: reused tape recorder
+- type: entity
+  parent: LPTapeRecorderFed
+  id: LPAnsweringMachine
+  name: answering machine
+  description: A tape recorder that answers the phone. Slot it into a phone stand; if nobody picks up, it records the caller's message.
+  components:
+  - type: Sprite
+    sprite: _Starlight/Objects/Devices/tape_recorder.rsi
+    layers:
+    - state: taperecorder_empty
+    - state: taperecorder_idle
+      map: ["tape"]
+      visible: false
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.TapeRecorderVisuals.Mode:
+        tape:
+          Stopped: { state: "taperecorder_idle" }
+          Playing: { state: "taperecorder_playing" }
+          Recording: { state: "taperecorder_recording" }
+          Rewinding: { state: "taperecorder_rewinding" }
+      enum.TapeRecorderVisuals.TapeInserted:
+        tape:
+          True: { visible: true }
+          False: { visible: false }
+  - type: AnsweringMachine
+  - type: ContainerFill
+    containers:
+      cassette_tape:
+      - CassetteTape
+
+- type: entity
+  id: LPCrateAnsweringMachine
+  parent: CrateGenericSteel
+  name: answering machine crate
+  description: A crate with an answering machine for a phone stand.
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage:
+        id: LPAnsweringMachine
+
+- type: cargoProduct
+  id: LPAnsweringMachineCrateCargo
+  icon:
+    sprite: _Starlight/Objects/Devices/tape_recorder.rsi
+    state: taperecorder_empty
+  product: LPCrateAnsweringMachine
+  cost: 600
+  category: cargoproduct-category-name-service
+  group: market
