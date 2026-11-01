@@ -12,7 +12,7 @@
   id: WingsRobotic
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Human, Ipc]
+  speciesRestriction: [Human, IPC]
   rolesRequirement: LPSponsorTier3Req
   sprites:
     - sprite: _EE/Mobs/Customization/wings96x34.rsi

@@ -281,7 +281,7 @@
   id: TailCable
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Human, Ipc]
+  speciesRestriction: [Human, IPC]
   sprites:
   - sprite: _Floof/Mobs/Customization/skyrattails.rsi
     state: m_tail_cable_FRONT_primary
@@ -1411,7 +1411,7 @@
   id: TailPlugTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Human, Ipc]
+  speciesRestriction: [Human, IPC]
   sprites:
   - sprite: _Floof/Mobs/Customization/skyrattails.rsi
     state: m_tail_plugtail_FRONT_primary
