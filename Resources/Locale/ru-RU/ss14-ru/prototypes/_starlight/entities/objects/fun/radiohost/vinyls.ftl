@@ -28,3 +28,5 @@ ent-VinylDamperII = винил: Damper II
     .desc = Ремикс очень знакомой, драматически быстрой электронной мелодии. Автор: Beptol Corporation Acoustics
 ent-VinylCathode = винил: Cathode
     .desc = Электронный трек в ретро-духе с энергичным ритмом. Автор: Beptol Corporation Acoustics
+ent-VinylHitEm = пластинка: HIT 'EM!
+    .desc = Энергичная брейккор-композиция в размере 5/4 с высоким BPM. Автор: CrayZ

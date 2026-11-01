@@ -45,8 +45,8 @@ public sealed partial class TimerEntryControl : PanelContainer
 
         RemoveButton.AddStyleClass(SecApartmentStyles.StyleClassButtonRed);
 
-        TimerLabel.FontOverride = _styles.GetBoldFont(12);
-        TimeLabel.FontOverride = _styles.GetBoldFont(12);
+        TimerLabel.FontOverride = _styles.GetBoldFont();
+        TimeLabel.FontOverride = _styles.GetBoldFont();
         TotalTimeLabel.FontOverride = _styles.GetRegularFont(10);
     }
 

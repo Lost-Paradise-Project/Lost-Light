@@ -1,0 +1,69 @@
+# Ускоритель частиц: наши текстуры вместо ванильных и текстур Starlight
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorEmitterPort
+    - ParticleAcceleratorEmitterPortUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/emitter_port.rsi
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorEmitterFore
+    - ParticleAcceleratorEmitterForeUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/emitter_fore.rsi
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorEmitterStarboard
+    - ParticleAcceleratorEmitterStarboardUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/emitter_starboard.rsi
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorPowerBox
+    - ParticleAcceleratorPowerBoxUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/power_box.rsi
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorEndCap
+    - ParticleAcceleratorEndCapUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/end_cap.rsi
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorFuelChamber
+    - ParticleAcceleratorFuelChamberUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/fuel_chamber.rsi
+
+- type: !PartialOnly entity
+  id: !type:CreateVariants
+    values:
+    - ParticleAcceleratorControlBox
+    - ParticleAcceleratorControlBoxUnfinished
+  components:
+  - type: Sprite
+    sprite: _LP/Structures/Power/Generation/PA/control_box.rsi
+
+- type: !PartialOnly cargoProduct
+  id: EngineParticleAccelerator
+  icon:
+    sprite: _LP/Structures/Power/Generation/PA/control_box.rsi

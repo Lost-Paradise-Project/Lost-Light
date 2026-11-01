@@ -1,0 +1,13 @@
+# Компоненты мобов из портов Orion и ERP
+
+- type: !PartialOnly entity
+  id: BaseControllable
+  components:
+  - type: Posing
+  - type: DirectionalEmoteTarget
+
+- type: !PartialOnly entity
+  id: BaseMobSpecies
+  components:
+  - type: Posing
+  - type: ERPBounder

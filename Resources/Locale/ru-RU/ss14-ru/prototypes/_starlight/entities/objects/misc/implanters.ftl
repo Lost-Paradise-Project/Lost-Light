@@ -33,3 +33,5 @@ ent-CommandTrackerImplanter = имплантер трекера командов
     .desc = { ent-BaseImplantOnlyImplanter.desc }
 ent-ITGTrackerImplanter = имплантер трекера МТГ
     .desc = { ent-BaseImplantOnlyImplanter.desc }
+ent-ITGMindShieldImplanter = имплантер "щит разума" МТГ
+    .desc = { ent-MindShieldImplanter.desc }

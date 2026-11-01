@@ -88,6 +88,7 @@ guide-entry-sl-security-sop-headofsecurity = Глава службы безоп�
 guide-entry-sl-security-sop-prisonertreatment = Обращение с заключёнными
 guide-entry-sl-security-sop-parole = Условно-досрочное освобождение
 guide-entry-sl-security-sop-permitacquisition = Получение разрешений
+guide-entry-sl-security-sop-permitacquisition-examples = Примеры разрешений
 guide-entry-sl-security-sop-specialsituations = Особые ситуации
 guide-entry-sl-security-sop-enemy-of-corporation = Враги корпорации
 guide-entry-sl-security-sop-hostage-situations = Ситуации с заложниками

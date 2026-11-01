@@ -1,6 +1,8 @@
 flavor-profile-bland = пресный
 flavor-base-abductor-blood = как у похитителей
 flavor-complex-dragan-special = как очищение и триумф
+flavor-complex-death = как смерть
+flavor-base-brothy = бульонный
 flavor-base-evil = злой
 flavor-base-wrong = неправильный
 flavor-complex-tha-slop = как переработанное дерьмо

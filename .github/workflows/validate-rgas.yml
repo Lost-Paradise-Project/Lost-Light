@@ -27,7 +27,7 @@ jobs:
       if: ${{ vars.SECRETSLINK != '' }}
       uses: ./.github/actions/download-secrets
       with:
-        secrets-url: ${{ secrets.SECRETS }}
+        secrets-token: ${{ secrets.SECRETS }}
 
     - uses: PaulRitter/yaml-schema-validator@v1
       with:

@@ -313,6 +313,10 @@
 - [ ] **Скамьи** — ищи `bench`. Люди любят зависать на скамьях
 - [ ] **Столы** — ищи `table`. Есть без стола плохо. Ставь столы, пожалуйста
 - [ ] **Случайные плакаты** — `RandomPosterLegit`, `RandomPosterAny`, `RandomPosterContraband`. В большинстве общественных мест используй `RandomPosterLegit`, добавляй остальные в «тёмных» местах
+- [ ] **Плакаты LP** — `LPPPosterHappyNewYear`, `LPPPosterNoAlcohol`, `LPPPosterSport`, `LPPPosterTimeTea`, `LPPPosterBeach`, `LPPPosterBeach2`, `LPPPosterPress`. Случайные спаунеры их не выбирают, ставь вручную. Откровенные (`LPPPosterLustfulVulp1`, `LPPPosterLustfulVulp2`, `LPPPosterTajaranBikini`, `LPPPosterTajaranBody`, `LPPPosterTajaranUnderwear`) только в приватных зонах
+- [ ] **Календарь, вешалка** — `LPPCalendar`, `LPPcoatrack`. Необязательно, холлы, раздевалки
+- [ ] **Флагштоки** — `LPPFlagPoleNT`, `LPPFlagPoleCC`, `LPPFlagPoleWhite`, `LPPFlagPoleRed`, `LPPFlagPoleBlue`. Необязательно, мостик, холл
+- [ ] **Праздничный декор** — маркеры `LPHolidayMarkerChristmasTree`, `LPHolidayMarkerCandle`, `LPHolidayMarkerBalloonCorgi`, `LPHolidayMarkerBalloonNT`, `LPHolidayMarkerFlagNT`, `LPHolidayMarkerBannerNT`, `LPHolidayMarkerFlagPirate`, `LPHolidayMarkerFlowerPoppy`, `LPHolidayMarkerFlowerLily`, `LPHolidayMarkerPumpkin`, `LPHolidayMarkerPumpkinLantern`, `LPHolidayMarkerCobweb1`, `LPHolidayMarkerCobweb2`, `LPHolidayMarkerCandleBlack`, `LPHolidayMarkerFridayCobweb1`, `LPHolidayMarkerFridayCobweb2`, `LPHolidayMarkerFridayCandleBlack`. Создают предмет только в день праздника (у части шанс 80-90 %), в обычные дни ничего. Проверка: команда `holidayeffects_spawn`. Свой маркер: `LPHolidayMarkerCustom`
 - [ ] **Освещение** — `Poweredlight`, `PoweredSmallLight`. **Стремись к сбалансированному свету.** В маленькой комнате 1-2 лампы, в большой редко больше 4. Не ставь больше двух ламп рядом: от избытка света мерцают тени
 - [ ] **Аварийное освещение** — `EmergencyLight`. Включается по уровню тревоги. Не в каждой комнате, но по коридорам можно ориентироваться при аварийном свете
 - [ ] **Утилизатор (disposal unit)** — `DisposalUnit`. Для мусора
@@ -371,6 +375,7 @@
 - [ ] **Кнопка запирания двери** — `SignalButtonDirectional`. Не в казармах
 - [ ] **Шторы на окнах**
 - [ ] **ClothesMate**. В комнате или рядом
+- [ ] **Двуспальная кровать** — `LPPBedDoubleUp` и `LPPBedDoubleDown`. Верхняя и нижняя половины, ставь парой. Необязательно
 
 ### Санузел
 
@@ -394,6 +399,9 @@
 - [ ] **WinterDrobe** — `VendingMachineWinter`
 - [ ] **Раздатчик объятий** — `SLVendingMachineHugDispenser`. Рядом с банкоматом
 - [ ] **Fashion-o-Mat** — `SLVendingMachineFashion`. Рядом с банкоматом
+- [ ] **Автоматы одежды LP** — `LPPVendingMachineBras`, `LPPVendingMachineSocks`, `LPPVendingMachineUnderpants`, `LPPVendingMachineErp`. Необязательно, у общежития или раздевалок
+- [ ] **Подушки** — `LPPVendingMachinePillow`. Необязательно, у общежития
+- [ ] **Мягкие игрушки** — `LPPVendingMachineWithSoftAnimals`. Необязательно, у общежития или библиотеки
 - [ ] **Любые автоматы еды**
 - [ ] **Любые автоматы напитков**
 
@@ -1358,6 +1366,7 @@
 - [ ] **Ведро** — `Bucket`
 - [ ] **Раковина** — `SinkWide`
 - [ ] **Слив** — `FloorDrain`
+- [ ] **Тележка для грязной одежды** — `LaundryCart` или `LaundryCartFilled` (с мешками). Вмещает 6 мешков `LaundryBag`. Необязательно. В тележку можно спрятать тело или залезть самому
 
 ### Утилизация
 
@@ -1380,6 +1389,8 @@
 - [ ] **Консоль менеджера новостей**
 - [ ] **Беспроводная камера** — 1 переносная, одна закреплена и смотрит на место для репортажей
 - [ ] **Роутер камер развлечений** — Необязательно, можно вместе с другими роутерами
+- [ ] **Фотоаппарат** — `PhotoCamera`. Необязательно. Снимок печатается на листе принтерной бумаги, поставь рядом принтер документов `PrinterDoc` и бумагу
+- [ ] **Набор фильтров** — `PhotoFilterPackFill`. Необязательно, вместе с фотоаппаратом (отдельные фильтры: `PhotoFilterMonochrome`, `PhotoFilterNightVision`, `PhotoFilterGhost`, `PhotoFilterCatEars`, `PhotoFilterInfo`)
 
 ### Боксёрский ринг
 

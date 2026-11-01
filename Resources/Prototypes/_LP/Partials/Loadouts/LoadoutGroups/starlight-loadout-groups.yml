@@ -1,0 +1,18 @@
+# Одежда LP в группах лодаутов Starlight (шахтёры и утилизаторы)
+
+- type: !PartialOnly loadoutGroup
+  id: MiningSpecialistJumpsuit
+  loadouts:
+  - LPPSalvageNTMiner
+  - LPPSalvageHephMiner
+  - LPPMinerJumpsuit
+  - LPPMinerJumpskirt
+  - LPPMinerJumpsuitOveralls
+
+- type: !PartialOnly loadoutGroup
+  id: SalvageSpecialistJumpsuit
+  loadouts:
+  - LPPSalvageSpecialistUniform
+  - LPPSalvageExplorerAlternative
+  - LPPSalvageExplorer
+  - LPPSalvageMilitary

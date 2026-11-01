@@ -193,6 +193,7 @@ uplink-binary-translator-key-name = Двоичный ключ шифровани
 uplink-binary-translator-key-desc = Позволяет подключиться к двоичному каналу связи роботов. По нему лучше не говорить, по крайней мере, без голосовой маски.
 
 uplink-hypopen-name = Гипоручка
+# Starlight-edit
 uplink-hypopen-desc = Химический гипоспрей, замаскированный под ручку, способный мгновенно впрыснуть до 10 ед. реагентов. Изначально пуст.
 
 uplink-clothing-eyes-hud-syndicate-name = Визор Синдиката
@@ -425,6 +426,9 @@ uplink-soap-desc = Не вызывающий доверия кусок мыла.
 
 uplink-ultrabright-lantern-name = Сверхъяркий светильник
 uplink-ultrabright-lantern-desc = Этот сверхъяркий фонарь можно использовать для ослепления людей, подобно вспышке.
+
+uplink-travel-camera-name = Туристическая камера
+uplink-travel-camera-desc = Оглушайте людей своим талантом фотографа и вполне легальной вспышкой камеры. Делает вас похожим на туриста.
 
 uplink-combat-medkit-name = Боевая аптечка
 uplink-combat-medkit-desc = Аптечка, предназначенная для лечения боевых ранений.

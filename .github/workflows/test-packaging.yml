@@ -58,7 +58,7 @@ jobs:
         if: ${{ vars.SECRETSLINK != '' }}
         uses: ./.github/actions/download-secrets
         with:
-          secrets-url: ${{ secrets.SECRETS }}
+          secrets-token: ${{ secrets.SECRETS }}
 
       # ubuntu-latest has .NET 10
       - name: Setup .NET Core # Starlight start

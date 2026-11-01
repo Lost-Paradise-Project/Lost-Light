@@ -67,6 +67,7 @@ loadout-group-dutyofficer-belt = Дежурный офицер, пояс
 loadout-group-k9-variant = К9, пальто
 loadout-group-k9-outerclothing = К9, броня
 loadout-group-k9-eyes = К9, очки
+loadout-group-k9-collar = K9, ошейник
 
 loadout-group-detective-lethal = Детектив, летальное личное оружие
 
@@ -103,6 +104,9 @@ loadout-group-salvagelead-id = Глава утилизаторов, ID
 loadout-group-mining-id = Шахтёр, ID
 loadout-group-salvage-id = Утилизатор, ID
 loadout-group-salvage-lead-mantle = Глава утилизаторов, мантия
+loadout-group-salvage-medic-id = ID-карта медика утилизаторов
+loadout-group-salvage-medic-jumpsuit = Комбинезон медика утилизаторов
+loadout-group-salvage-medic-mantle = Мантия медика утилизаторов
 
 # Silicons
 loadout-group-borg-brain-type = Тип мозга киборга
@@ -130,6 +134,9 @@ loadout-group-performer-jumpsuit = Артист, комбинезон
 loadout-group-performer-outerclothing = Артист, верхняя одежда
 
 loadout-group-lawyer-shoes = Адвокат, обувь
+
+# Engineering
+loadout-group-atmospheric-technician-id = Атмосферный техник, ID
 
 # Other
 loadout-group-scarves = Шарф

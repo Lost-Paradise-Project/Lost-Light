@@ -1,0 +1,19 @@
+# Планшет СБ-квартир в шкафах и значки отрядов
+
+- type: !PartialOnly entityTable
+  id: LockerFillCaptainNoLaser
+  table:
+    children:
+    - !Index:22
+      id: SecApartmentTablet
+
+- type: !PartialOnly entityTable
+  id: FillLockerWarden
+  table:
+    children:
+    - id: SecApartmentTablet
+
+- type: !PartialOnly entity
+  id: ShowSecurityIcons
+  components:
+  - type: ShowSquadIcons

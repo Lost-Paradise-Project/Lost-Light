@@ -32,7 +32,7 @@ namespace Content.Server._Corvax.StationGoal
             }
 
             var protoId = args[1];
-            if (!_prototypeManager.TryIndex<StationGoalPrototype>(protoId, out var proto))
+            if (!_prototypeManager.TryIndex<StationGoalPrototype>(protoId, out _))
             {
                 shell.WriteError($"No station goal found with ID {protoId}!");
                 return;
@@ -42,7 +42,6 @@ namespace Content.Server._Corvax.StationGoal
             if (!stationGoalPaper.SendStationGoal(euid.Value, protoId))
             {
                 shell.WriteError("Station goal was not sent");
-                return;
             }
         }
 

@@ -1,0 +1,5 @@
+# Правки режимов
+
+- type: !PartialOnly gamePreset
+  id: Greenshift
+  voteCooldown: 2

@@ -5,3 +5,5 @@ hud-chatbox-channel-filter = Каналы
 hud-chatbox-auto-fill-toggle = Имя и должность
 hud-chatbox-auto-highlights-bullet = • { $item }
 hud-chatbox-auto-highlights-wrapper = [color=#8a8a8a][i]{ $bullets }[/i][/color]
+hud-chatbox-select-channel-Mentor = Наставник
+hud-chatbox-channel-MentorChat = Чат наставников

@@ -41,6 +41,7 @@ public abstract partial class SharedChatSystem : EntitySystem
     public const char EmotesPrefix = '%'; // LP edit
     public const char EmotesAltPrefix = '*';
     public const char AdminPrefix = ']'; // LP edit
+    public const char MentorPrefix = '&'; //Starlight-edit: Mentor chat
     public const char WhisperPrefix = ',';
 
     public const char DefaultChannelKey = 'р'; // LP edit

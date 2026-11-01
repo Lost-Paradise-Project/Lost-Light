@@ -1,0 +1,15 @@
+# Одежда LP в SecDrobe
+
+- type: !PartialOnly vendingMachineInventory
+  id: SecDrobeInventory
+  startingInventory:
+    LPPClothingMaskPGWrittenOff: 3
+    LPPClothingBalaclavawide: 3
+    LPPClothingHeadSecurityHatCamo: 3
+    LPPClothingUniformJumpsuitSecCamo: 3
+    LPPClothingNeckShemagRed: 3
+    LPPClothingHandsGlovesTacticalFingerless: 3
+    ClothingUniformJumpsuitSecSummer: 3
+    LPPClothingOuterVestDareDevil: 3
+    ClothingOuterArmorDuraVest: 3
+    ClothingOuterArmorPlateCarrier: 3

@@ -1,6 +1,5 @@
 using Content.Server._Starlight.Holiday;
 using Content.Server.GameTicking;
-using Content.Server.Holiday;
 using Content.Shared._LP.Holiday;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;

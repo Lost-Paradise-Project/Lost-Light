@@ -14,3 +14,6 @@ replay-observer-verb-view-moods = Посмотреть настроения
 replay-observer-ghostnado-none = Никто ни за кем не следует.
 replay-observer-weather-on = Оверлеи погоды показаны.
 replay-observer-weather-off = Оверлеи погоды скрыты.
+replay-observer-verb-view-solutions = Посмотреть растворы
+replay-observer-solution-header = [bold]{ $name }[/bold]: { $volume }/{ $max }u
+replay-observer-solutions-none = В нём нет растворов.

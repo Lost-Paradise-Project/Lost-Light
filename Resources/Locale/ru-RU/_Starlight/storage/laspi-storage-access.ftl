@@ -1,5 +1,6 @@
 ## Laspi Storage Access System
 
+action-storage-accessing-outsider = { CAPITALIZE(THE($user)) } пытается получить доступ к вашему хранилищу!
 laspi-storage-accessing = { CAPITALIZE(THE($user)) } пытается получить доступ к вашему внутреннему хранилищу!
 
 ## Cargo Leg Storage Access System

@@ -43,4 +43,10 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<string> TTSAnnounceSpeaker =
         CVarDef.Create("tts.announce_speaker", "adjutant", CVar.SERVERONLY);
+
+    /// <summary>
+    /// Минимальная пауза в секундах между озвученными репликами одной сущности. Лишние реплики не озвучиваются. 0 - без ограничения.
+    /// </summary>
+    public static readonly CVarDef<float> TTSEntityCooldown =
+        CVarDef.Create("tts.entity_cooldown", 2f, CVar.SERVERONLY);
 }

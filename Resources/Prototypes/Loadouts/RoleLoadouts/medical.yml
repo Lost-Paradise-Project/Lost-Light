@@ -21,11 +21,6 @@
   - Pens # 🌟Starlight🌟
 #  - ChiefMedicalOfficerJobTrinkets
   - GroupSpeciesBreathToolMedical
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -48,11 +43,6 @@
   - Pens # 🌟Starlight🌟
 #  - MedicalDoctorJobTrinkets
   - GroupSpeciesBreathToolMedical
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobMedicalIntern
@@ -77,11 +67,6 @@
   - Pens # 🌟Starlight🌟
 #  - MedicalInternJobTrinkets
   - GroupSpeciesBreathToolMedical
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobChemist
@@ -110,11 +95,6 @@
   - Pens # 🌟Starlight🌟
 #  - ChemistJobTrinkets
   - GroupSpeciesBreathToolMedical
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobParamedic
@@ -137,8 +117,3 @@
   - Pens # 🌟Starlight🌟
 #  - ParamedicJobTrinkets
   - GroupSpeciesBreathToolMedical
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
