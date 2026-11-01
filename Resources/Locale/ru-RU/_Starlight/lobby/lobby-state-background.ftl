@@ -58,9 +58,6 @@ lobby-state-background-fatefulshift-artist = rickery
 lobby-state-background-katievssyndie-title = Кэти против синдиката
 lobby-state-background-katievssyndie-artist = ramblinger
 
-lobby-state-background-nogalcom-title = Когда у полевого врача кончаются стартовые химикаты
-lobby-state-background-nogalcom-artist = deltaVelocity
-
 lobby-state-background-aiderthief-title = Открытие техтоннелей
 lobby-state-background-aiderthief-artist = silkielol
 
