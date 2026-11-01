@@ -1,3 +1,9 @@
 ent-DrinkVodkizineBottleFull = бутылка водкизина
     .desc = Лучшее лекарство от похмелья и его причина.
     .suffix = { ent-DrinkBottleGlassBaseFull.suffix }
+ent-DrinkVodkizineSmallBottleFull = маленькая бутылка водкизина
+    .desc = { ent-DrinkVodkizineBottleFull.desc }
+    .suffix = { ent-DrinkVodkizineBottleFull.suffix }
+ent-DrinkVodkizineSmallBottleUsed = маленькая бутылка водкизина
+    .desc = { ent-DrinkVodkizineSmallBottleFull.desc }
+    .suffix = { ent-DrinkVodkizineSmallBottleFull.suffix }

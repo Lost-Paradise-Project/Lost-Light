@@ -1,0 +1,17 @@
+ent-BaseLightStreetLamp = уличный фонарь
+    .desc = Уличный фонарь.
+ent-LightStreetLamp = уличный фонарь
+    .desc = Уличный фонарь.
+    .suffix = Всегда под питанием
+ent-PoweredLightStreetLampEmpty = { ent-LightStreetLamp }
+    .desc = { ent-LightStreetLamp.desc }
+    .suffix = Пустой
+ent-PoweredLightStreetLamp = { ent-PoweredLightStreetLampEmpty }
+    .desc = { ent-PoweredLightStreetLampEmpty.desc }
+ent-PoweredLightStreetLampWarm = { ent-PoweredLightStreetLampEmpty }
+    .desc = { ent-PoweredLightStreetLampEmpty.desc }
+    .suffix = Тёплый
+ent-LightStreetLampBroken = разбитый уличный фонарь
+    .desc = Разбитый уличный фонарь.
+ent-LightStreetLampUnfinished = недостроенный уличный фонарь
+    .desc = Частично собранный уличный фонарь.

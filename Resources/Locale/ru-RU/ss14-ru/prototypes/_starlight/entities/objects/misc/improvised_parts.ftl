@@ -46,3 +46,5 @@ ent-UnfinishedClothingHeadHelmetForged = детали кованого шлем�
     .desc = Нужна сборка, а также сварка.
 ent-UnfinishedClothingHeadHelmetPaladin = детали шлема паладина
     .desc = Ни одна ролевая игра в паладина не хороша без шлема! Нужна сварка.
+ent-SawBlade = пильный диск
+    .desc = Диск для сборки пилы, нужен режущий инструмент.

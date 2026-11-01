@@ -16,11 +16,6 @@
   - Pins
   - LuxuryPens
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobNanoTrasenRepresentative
@@ -38,11 +33,6 @@
   - NTRPens
   - Survival
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobIAA
@@ -60,11 +50,6 @@
   #- LawyerJobTrinkets
   - Survival
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobBlueShield
@@ -85,11 +70,6 @@
   - Pens
   - SurvivalExtended
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobAssistantManager
@@ -108,11 +88,6 @@
   - Pens
   #- AssistantJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobNanotrasenCareerTrainer
@@ -128,11 +103,6 @@
   - Pens
   - Survival
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Cargo
 - type: roleLoadout
@@ -151,11 +121,6 @@
   - Pins
   - Pens
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobMailTech
@@ -176,11 +141,6 @@
   - Pins
   - Pens
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobSalvageLead
@@ -199,11 +159,6 @@
   - Pins
   - Pens
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Security
 - type: roleLoadout
@@ -230,11 +185,6 @@
   - Pens
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobDutyOfficer
@@ -257,11 +207,6 @@
   - Pens
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Science
 - type: roleLoadout
@@ -282,11 +227,6 @@
   - Pins
   - Pens
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Medical
 - type: roleLoadout
@@ -308,11 +248,6 @@
   - Pins
   - Pens
   - GroupSpeciesBreathToolMedical
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Civilians
 - type: roleLoadout
@@ -331,11 +266,6 @@
   - Pens
   #- PerformerJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Wildcards
 - type: roleLoadout
@@ -353,11 +283,6 @@
   - Pens
   #- BoxerJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Antagonist Loadouts
 - type: roleLoadout
@@ -381,11 +306,6 @@
   - BrighteyeGloves
   - Scarves
   - Pins
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Antag loadouts (Only has species stuff right now)
 - type: roleLoadout
@@ -446,18 +366,16 @@
   id: JobSalvageMedic
   groups:
   - GroupTankHarness
+  - SalvageMedicJumpsuit
+  - SalvageMedicPDA
+  - SalvageMedicNeck
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
   - SalvageSpecialistShoes
-  - Glasses
+  - MedicalEyewear
   - Survival
   - Trinkets
   - Scarves
   - Pins
   - Pens
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end

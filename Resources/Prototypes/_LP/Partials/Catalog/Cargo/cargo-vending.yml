@@ -1,0 +1,9 @@
+# Цены на рестоки одежды и костюмов
+
+- type: !PartialOnly cargoProduct
+  id: CrateVendingMachineRestockClothes
+  cost: 8300
+
+- type: !PartialOnly cargoProduct
+  id: CrateVendingMachineRestockAutoDrobe
+  cost: 5000

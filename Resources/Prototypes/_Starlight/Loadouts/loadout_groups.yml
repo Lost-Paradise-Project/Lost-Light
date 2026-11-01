@@ -721,13 +721,6 @@
   loadouts:
     - MiningSpecialistJumpsuit
     - MiningSpecialistJumpskirt
-#LP edit start
-    - LPPSalvageNTMiner
-    - LPPSalvageHephMiner
-    - LPPMinerJumpsuit
-    - LPPMinerJumpskirt
-    - LPPMinerJumpsuitOveralls
-#LP edit end
 
 - type: loadoutGroup
   id: MiningSpecialistPDA
@@ -743,6 +736,28 @@
   loadouts:
     - SalvagePDA
     - VeteranSalvagePDA
+
+# Salvage Medic
+- type: loadoutGroup
+  id: SalvageMedicPDA
+  name: loadout-group-salvage-medic-id
+  loadouts:
+    - SalvageMedicPDA
+    - VeteranSalvageMedicPDA
+
+- type: loadoutGroup
+  id: SalvageMedicJumpsuit
+  name: loadout-group-salvage-medic-jumpsuit
+  loadouts:
+    - SalvageMedicJumpsuit
+    - SalvageMedicJumpskirt
+
+- type: loadoutGroup
+  id: SalvageMedicNeck
+  name: loadout-group-salvage-medic-mantle
+  loadouts:
+    - SalvageMedicMantle
+    - VeteranSalvageMedicMantle
 
 # Service
 # Mime
@@ -1132,6 +1147,7 @@
   - LaceupShoes
   - Heels
   - LeatherShoes
+  - HighHeelBootsFilled
 
 - type: loadoutGroup
   id: NanotrasenCareerTrainerEyewear
@@ -1179,12 +1195,6 @@
   - SalvageSpecialistJumpskirt
   - SalvageSpecialistJumpsuitFormal
   - SalvageSpecialistJumpskirtFormal
-#LP edit end
-  - LPPSalvageSpecialistUniform
-  - LPPSalvageExplorerAlternative
-  - LPPSalvageExplorer
-  - LPPSalvageMilitary
-#LP edit end
 
 - type: loadoutGroup
   id: CaptainEyewear

@@ -21,12 +21,10 @@
     count: 158
 
 - type: !PartialOnly localizedDataset
-  id: NamesMilitaryFirstLeader
-  values:
-    count: 5
-
-- type: !PartialOnly localizedDataset
-  id: NamesMilitaryFirst
+  id: !type:CreateVariants
+    values:
+    - NamesMilitaryFirstLeader
+    - NamesMilitaryFirst
   values:
     count: 5
 

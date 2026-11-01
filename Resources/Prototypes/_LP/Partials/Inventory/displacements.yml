@@ -393,23 +393,10 @@
             state: jumpsuit
 
 - type: !PartialOnly entity
-  id: BaseMobNeoCyclorite
-  components:
-  - type: Inventory
-    displacements:
-      socks:
-        sizeMaps:
-          32:
-            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
-            state: shoes
-      underwear:
-        sizeMaps:
-          32:
-            sprite: _Starlight/Mobs/Species/Cyclorite/displacement.rsi
-            state: jumpsuit
-
-- type: !PartialOnly entity
-  id: AppearanceNeoCyclorite
+  id: !type:CreateVariants
+    values:
+    - BaseMobNeoCyclorite
+    - AppearanceNeoCyclorite
   components:
   - type: Inventory
     displacements:

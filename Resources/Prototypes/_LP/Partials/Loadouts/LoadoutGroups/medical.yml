@@ -1,0 +1,26 @@
+# Одежда LP в медицинских группах лодаутов
+
+- type: !PartialOnly loadoutGroup
+  id: ChiefMedicalOfficerJumpsuit
+  loadouts:
+  - LPPCMOFormalskirt
+  - LPPCMOMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: MedicalDoctorJumpsuit
+  loadouts:
+  - LPPMedicJeansJacket
+  - LPPMedicGorka
+  - LPPMedicGorkaRefl
+  - LPPMedicHoodieVest
+  - LPPMedicShirt
+  - LPPMedicShirtSkirt
+  - LPPMedicTurtleneck
+  - LPPMedicTurtleneckSkirt
+  - LPPMedicBlackShirt
+  - LPPMedicBlackSkirt
+
+- type: !PartialOnly loadoutGroup
+  id: ChemistJumpsuit
+  loadouts:
+  - LPPMedicMilitaryChemistry

@@ -1,0 +1,26 @@
+# Tactical planning console
+tactical-planning-console-title = Консоль тактического планирования
+tactical-planning-console-active-tool = АКТИВНЫЙ ИНСТРУМЕНТ
+tactical-planning-console-draw-tool = Рисовать
+tactical-planning-console-erase-tool = Стереть
+tactical-planning-console-icons-tool = Значки
+tactical-planning-console-ink-color = ЦВЕТ ЧЕРНИЛ
+tactical-planning-console-current-ink = Текущие чернила
+tactical-planning-console-red = Красный
+tactical-planning-console-blue = Синий
+tactical-planning-console-yellow = Жёлтый
+tactical-planning-console-violet = Фиолетовый
+tactical-planning-console-custom-color = СВОЙ ЦВЕТ
+tactical-planning-console-connecting = Подключение к общему плану...
+tactical-planning-console-sync-failed = Не удалось синхронизировать план. Закройте и снова откройте консоль.
+tactical-planning-console-waiting-for-target = Ожидание цели станции
+tactical-planning-console-initial-count = 0 общих пометок
+tactical-planning-console-count = Общих пометок: { $count }
+tactical-planning-console-count-full = Общих пометок: { $count } — план заполнен
+tactical-planning-console-reset = Сбросить весь план
+tactical-planning-console-reset-confirm = Подтвердите: стереть все рисунки?
+tactical-planning-console-footer = ЛКМ: перемещение/осмотр  •  ПКМ: точка/рисование  •  Колесо: масштаб  •  Рисунки показывают автора
+tactical-planning-console-details = Автор: { $author }
+tactical-planning-console-plan-full-rejection = План заполнен; рисунок не сохранён.
+tactical-planning-console-rate-limit-rejection = Слишком быстрое рисование; штрих не сохранён.
+tactical-planning-console-viewer-capacity = Консоль тактического планирования достигла предела числа зрителей.

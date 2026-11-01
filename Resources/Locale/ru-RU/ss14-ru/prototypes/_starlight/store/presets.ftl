@@ -4,5 +4,7 @@ ent-StorePresetShuttleBuilderDangerous = { "" }
     .desc = { "" }
 ent-StorePresetUSSP = { "" }
     .desc = { "" }
+ent-USSPHeadUplinkStore = { ent-StorePresetUSSP }
+    .desc = { ent-StorePresetUSSP.desc }
 ent-StorePresetCantrips = { "" }
     .desc = { "" }

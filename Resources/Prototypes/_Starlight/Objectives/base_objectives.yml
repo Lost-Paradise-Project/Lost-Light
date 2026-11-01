@@ -24,5 +24,6 @@
   - type: ObjectiveBlacklistRequirement
     blacklist:
       components:
-        - EscapeShuttleCondition
         - DieCondition
+  - type: Objective
+    difficulty: 0

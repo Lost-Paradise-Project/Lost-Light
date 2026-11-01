@@ -404,10 +404,12 @@
     channels:
     - Binary
     - Syndicate
+    - Gorlex # Starlight Nukie Comms
   - type: ActiveRadio
     channels:
     - Binary
     - Syndicate
+    - Gorlex # Starlight Nukie Comms
   - type: ShowSyndicateIcons
   - type: MovementAlwaysTouching
   - type: Speech

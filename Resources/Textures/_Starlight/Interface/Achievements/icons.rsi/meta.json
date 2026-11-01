@@ -47,6 +47,10 @@
         {
             "name": "whiskeyEcho",
             "copyright": "@trosling (discord)"
+        },
+        {
+            "name": "viva",
+            "copyright": "@wayiscute (discord)"
         }
     ]
 }

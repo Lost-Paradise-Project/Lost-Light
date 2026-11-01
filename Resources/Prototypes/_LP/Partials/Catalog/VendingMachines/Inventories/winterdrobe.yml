@@ -1,0 +1,24 @@
+# Одежда LP в WinterDrobe
+
+- type: !PartialOnly vendingMachineInventory
+  id: WinterDrobeInventory
+  startingInventory:
+    ClothingOuterVest: 2
+    ClothingOuterCoatExpensive: 1
+    ClothingOuterCoatSpaceAsshole: 1
+    ClothingOuterWinterCoatLong: 3
+    ClothingOuterCoatHyenhSweater: 2
+    ClothingOuterCoatJensen: 2
+    LPPClothingOuterCoatBomber1: 2
+    LPPClothingOuterCoatBomber2: 2
+    LPPClothingOuterCoatBomber3: 2
+    LPPClothingOuterCoatBomber4: 2
+    LPPClothingOuterCoatBomber5: 2
+    LPPClothingOuterCoatPajamsSharkPink: 2
+    LPPClothingOuterCoatPajamsSharkGray: 2
+    LPPClothingOuterCoatPajamsSharkBlue: 2
+    LPPClothingHeadHatGreenBeanie: 3
+    LPPClothingHeadHatRedBeanie: 3
+    LPPClothingHeadHatBlackBeanie: 3
+    LPPClothingHeadHatBlueBeanie: 3
+    ClothingNeckFurWrap: 2

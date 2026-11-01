@@ -66,10 +66,6 @@
   - ChiefMedicalOfficerVestSuit # DeltaV
   - ChiefMedicalOfficerVestSkirt # DeltaV
   - ChiefMedicalOfficerSummerSuit # DeltaV
-#LP edit start
-  - LPPCMOFormalskirt
-  - LPPCMOMilitary
-#LP edit end
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -151,18 +147,6 @@
   - CoronerJumpsuit
   - CoronerJumpsuitAlt
   # afterlight end
-  # LP edit start
-  - LPPMedicJeansJacket
-  - LPPMedicGorka
-  - LPPMedicGorkaRefl
-  - LPPMedicHoodieVest
-  - LPPMedicShirt
-  - LPPMedicShirtSkirt
-  - LPPMedicTurtleneck
-  - LPPMedicTurtleneckSkirt
-  - LPPMedicBlackShirt
-  - LPPMedicBlackSkirt
-  # LP edit end
 
 - type: loadoutGroup
   id: MedicalDoctorOuterClothing
@@ -214,7 +198,6 @@
   - ChemistJumpskirt
   - SeniorChemistJumpsuit # Starlight
   - SeniorChemistJumpskirt # starlight
-  - LPPMedicMilitaryChemistry #LP edit
 
 - type: loadoutGroup
   id: ChemistOuterClothing

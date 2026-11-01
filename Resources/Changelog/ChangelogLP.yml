@@ -251,4 +251,32 @@ Entries:
   id: 36
   time: '2026-10-25T16:17:13.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/41
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлен наш маппул.
+    type: Add
+  id: 37
+  time: '2026-11-01T17:53:30.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/59
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлены карты в наш маппул.
+    type: Add
+  id: 38
+  time: '2026-11-01T17:53:30.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/59
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлен наш файл миграции.
+    type: Add
+  id: 39
+  time: '2026-11-01T17:53:30.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/59
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлены наши прототипы и декали.
+    type: Add
+  id: 40
+  time: '2026-11-01T17:53:30.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/59
 Order: -3

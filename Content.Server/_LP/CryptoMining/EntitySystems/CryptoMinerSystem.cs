@@ -182,6 +182,6 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
         if (temperature >= miner.ShutdownTemperature)
             return 0f;
 
-        return 1f - (temperature - miner.OptimalTemperature) / (miner.ShutdownTemperature - miner.OptimalTemperature);
+        return 1f - ((temperature - miner.OptimalTemperature) / (miner.ShutdownTemperature - miner.OptimalTemperature));
     }
 }

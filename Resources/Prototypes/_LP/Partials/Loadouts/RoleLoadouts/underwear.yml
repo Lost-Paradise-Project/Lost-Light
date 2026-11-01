@@ -1,0 +1,62 @@
+# Базовое бельё LP (нижнее бельё, бюстгальтер, носки) в лодаутах всех ролей
+
+- type: !PartialOnly roleLoadout
+  id: !type:CreateVariants
+    values:
+    - JobCaptain
+    - JobHeadOfPersonnel
+    - JobAssistant
+    - JobBartender
+    - JobServiceWorker
+    - JobChef
+    - JobLibrarian
+    - JobLawyer
+    - JobChaplain
+    - JobJanitor
+    - JobBotanist
+    - JobClown
+    - JobMime
+    - JobMusician
+    - JobQuartermaster
+    - JobCargoTechnician
+    - JobSalvageSpecialist
+    - JobChiefEngineer
+    - JobTechnicalAssistant
+    - JobStationEngineer
+    - JobAtmosphericTechnician
+    - JobResearchDirector
+    - JobScientist
+    - JobResearchAssistant
+    - JobHeadOfSecurity
+    - JobWarden
+    - JobSecurityOfficer
+    - JobDetective
+    - JobSecurityCadet
+    - JobReporter
+    - JobPsychologist
+    - JobChiefMedicalOfficer
+    - JobMedicalDoctor
+    - JobMedicalIntern
+    - JobChemist
+    - JobParamedic
+    - JobMagistrate
+    - JobNanoTrasenRepresentative
+    - JobIAA
+    - JobBlueShield
+    - JobAssistantManager
+    - JobNanotrasenCareerTrainer
+    - JobMiningSpecialist
+    - JobMailTech
+    - JobSalvageLead
+    - JobBrigmedic
+    - JobDutyOfficer
+    - JobRoboticist
+    - JobSurgeon
+    - JobPerformer
+    - JobBoxer
+    - AntagBrighteye
+    - JobSalvageMedic
+  groups:
+  - LPunderwearloadout
+  - LPbraloadout
+  - LPsocksloadout
