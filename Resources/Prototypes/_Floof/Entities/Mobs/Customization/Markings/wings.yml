@@ -2,7 +2,7 @@
   id: WingsFlyAlt
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [SlimePerson, NeoSlimePerson Human, NeoHuman]
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
   rolesRequirement: LPSponsorTier3Req
   sprites:
     - sprite: _EE/Mobs/Customization/wings96x34.rsi
@@ -22,7 +22,7 @@
   id: WingsSkeleton
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [SlimePerson, NeoSlimePerson Human, NeoHuman]
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
   rolesRequirement: LPSponsorTier3Req
   sprites:
     - sprite: _EE/Mobs/Customization/wings96x34.rsi
@@ -32,7 +32,7 @@
   id: WingsHarpy
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [SlimePerson, NeoSlimePerson Human, NeoSlimePerson, NeoSlimePerson Human, NeoHuman]
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
   rolesRequirement: LPSponsorTier3Req
   sprites:
     - sprite: _EE/Mobs/Customization/wings64x32.rsi
@@ -42,7 +42,7 @@
   id: WingsHarpyBionic
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [SlimePerson, NeoSlimePerson Human, NeoHuman]
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
   rolesRequirement: LPSponsorTier3Req
   sprites:
     - sprite: _Floof/Mobs/Customization/wings64-32.rsi
