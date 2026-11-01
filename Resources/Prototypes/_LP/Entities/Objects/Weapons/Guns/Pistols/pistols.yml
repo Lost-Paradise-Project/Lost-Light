@@ -1,0 +1,261 @@
+- type: entity
+  name: PF20
+  parent: [BaseItem, BaseSecurityContraband]
+  id: LPPWeaponPistolPF20
+  description: Fischer 's pistol. Chambered .20, providing the compactness of the pistol and the power of a rifle cartridge. It is used by special forces throughout the galaxy.
+  components:
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Pistols/PF20.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,2,0
+    - 0,0,1,0
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Pistols/PF20.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 3.5
+    minAngle: 3
+    maxAngle: 15
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: LPPMagazinePistolPF20lethal
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - LPPMagazinePistolRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifleSP
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+      firing_pin: !type:Container # Starlight
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: FiringPinHolder
+    supportedPins: [ Pistol, GunUpgrade ]
+  - type: ContainerFill
+    containers:
+      firing_pin:
+      - FiringPinPistol
+  - type: AmmoCounter
+
+- type: entity
+  name: Hippocratic oath
+  parent: WeaponPistolMk58
+  id: LPPWeaponPistolHippocraticoath
+  description: Ze healing is not rewarding as ze hurting! Uses .35 ammo.
+  components:
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Pistols/m1911.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Pistols/m1911.rsi
+  - type: Gun
+    fireRate: 7
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+
+- type: entity
+  parent: [BaseItem, BaseSyndicateContraband]
+  id: LPPWeaponNailGun
+  name: Self Charge P-12 "Nail Gun"
+  description: Self recharing weapon that fires nail-like projectiles. Pretty deadly.
+  components:
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Pistols/Nailgun.rsi
+    layers:
+    - state: icon
+  - type: Item
+    sprite: _LP/Objects/Weapons/Guns/Pistols/Nailgun.rsi
+    size: Small
+    shape:
+    - 0,0,2,0
+    - 0,1,1,0
+  - type: Gun
+    fireRate: 4
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/click.ogg
+      params:
+        volume: 7
+  - type: AmmoCounter
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AmmoVisuals.HasAmmo:
+        empty-icon:
+          True: { visible: False }
+          False: { visible: True }
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 0.9
+  - type: BasicEntityAmmoProvider
+    proto: LPPNail
+    capacity: 15
+    count: 15
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Pistols/Nailgun.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+  - type: FiringPinHolder
+    supportedPins: [ AdvancedLaser ]
+  - type: ContainerContainer
+    containers:
+      firing_pin: !type:Container # Starlight
+  - type: ContainerFill
+    containers:
+      firing_pin:
+      - FiringPinPistol
+
+- type: entity
+  name: N1912
+  parent: [BaseItem, BaseSecurityContraband]
+  id: LPPWeaponPistolN1912
+  description:
+    N1912 is a fixed mag pistol- the oldest type of pistols. The reliability is at top and this model is still used by some of the old school security officers. It can shoot in hyperburst mod. Uses .35 auto.
+    We have taken point Butter.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    sprite: _LP/Objects/Weapons/Guns/Pistols/n1912.rsi
+  - type: Gun
+    fireRate: 5
+    burstFireRate: 40
+    minAngle: 5
+    maxAngle: 20
+    angleIncrease: 4
+    angleDecay: 6
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - Burst
+    shotsPerBurst: 2
+    burstCooldown: 0.25
+    soundGunshot:
+      path: /Audio/_Impstation/Weapons/Guns/Gunshots/pistolp2.ogg
+  - type: BallisticAmmoProvider
+    capacity: 18
+    proto: CartridgePistolSP
+    whitelist:
+      tags:
+      - CartridgePistol
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Pistols/n1912.rsi
+    quickEquip: true
+    slots:
+    - Belt
+    - suitStorage
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+    storedOffset: 0,-4
+  - type: AmmoCounter
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+      firing_pin: !type:Container # Starlight
+  - type: ContainerFill
+    containers:
+      firing_pin:
+      - FiringPinPistol
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: FiringPinHolder
+    supportedPins: [ Pistol, GunUpgrade ]
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+
+- type: entity
+  name: N1912 experimental
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
+  id: LPPWeaponPistolN1912Experimental
+  description:
+    Experimental model of N1912, this pistol have full auto mod and detachable magazine. Can use high capacity mags. Uses .35 auto.
+    We have captured point Apples.
+  components:
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Pistols/n1912.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Pistols/n1912.rsi
+  - type: Gun
+    fireRate: 5
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      path: /Audio/_Impstation/Weapons/Guns/Gunshots/pistolp2.ogg
+  - type: StealTarget
+    stealGroup: OfficerHandgun
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolHighCapacitySP
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
+            - MagazinePistolHighCapacity
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
