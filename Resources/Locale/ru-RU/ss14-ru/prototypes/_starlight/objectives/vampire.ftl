@@ -48,3 +48,7 @@ ent-VampireBSOHardsuitStealObjective = { ent-BaseVampireStealObjective }
     .desc = { ent-BaseVampireStealObjective.desc }
 ent-VampireBSOWeaponStealObjective = { ent-BaseVampireStealObjective }
     .desc = { ent-BaseVampireStealObjective.desc }
+ent-VampirePickerKillObjective = { ent-VampireKillRandomPersonObjective }
+    .desc = { ent-VampireKillRandomPersonObjective.desc }
+ent-VampireKillRandomHeadObjective = { ent-VampirePickerKillObjective }
+    .desc = Этот очень важный человек не должен добраться до ЦентКома.

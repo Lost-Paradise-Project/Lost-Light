@@ -14,9 +14,12 @@ ignored_untranslated_paths:
 - "Resources/Locale/ru-RU/teleportation/teleportation-menu-gui.ftl"
 - "Resources/Locale/ru-RU/advertisements/vending/magivend.ftl"
 - "Resources/Locale/ru-RU/lobby/lobby-state-background.ftl"
+- "Resources/Locale/ru-RU/_Starlight/lobby/lobby-state-background.ftl"
 - "Resources/Locale/ru-RU/_Moffstation/advertisements/other/narsie_prayers.ftl"
 # Нотация поворотов кубика (z, z')
 - "Resources/Locale/ru-RU/_Starlight/ui/twistycube.ftl"
+# Описания-эмодзи админских типпи (:godo:)
+- "Resources/Locale/ru-RU/ss14-ru/prototypes/_starlight/admeme/neomoth/bullshit/dumb_entities.ftl"
 ignored_variable_mismatch_paths:
 - "Resources/Locale/ru-RU/stack/stacks.ftl"
 - "Resources/Locale/ru-RU/bed/cryostorage/cryogenic-storage.ftl"

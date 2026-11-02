@@ -1,3 +1,10 @@
 ent-MobMimicHostile = { ent-MobMimic }
     .desc = { ent-MobMimic.desc }
     .suffix = Враждебный
+ent-ToolboxSyndicateMimic = подозрительный ящик для инструментов
+    .desc = Зловещего вида ящик, набитый элитными инструментами Синдиката. Он что, только что двинулся?
+ent-MimicSusToolboxWaking = подозрительный ящик для инструментов ?
+    .desc = Зловещего вида ящик, набитый инстру... стоп, что-то не так.
+ent-MimicSusToolbox = подозрительный мимик
+    .desc = Это были не бесплатные боевые перчатки.
+    .suffix = { ent-SimpleSpaceMobBase.suffix }

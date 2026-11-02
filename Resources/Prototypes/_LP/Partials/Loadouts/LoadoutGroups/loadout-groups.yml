@@ -1,0 +1,205 @@
+# Одежда LP в группах лодаутов
+
+- type: !PartialOnly loadoutGroup
+  id: CaptainJumpsuit
+  loadouts:
+  - LPPCaptainSummer
+  - LPPCaptainFormalskirt
+  - LPPCaptainMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: HoPJumpsuit
+  loadouts:
+  - LPPHOPSummer
+  - LPPHOPFormalskirt
+  - LPPHOPMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: AssistantJumpsuit
+  loadouts:
+  - LPPPassangerBlackTracksuit
+  - LPPPassangerBlueTracksuit
+  - LPPPassangerRedTracksuit
+  - LPPPassangerGreenTracksuit
+  - LPPPassangerMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: BotanistJumpsuit
+  loadouts:
+  - LPPBotanistMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: ClownJumpsuit
+  loadouts:
+  - LPPClownSuitBlue
+  - LPPClownSuitGreen
+  - LPPClownSuitOrange
+  - LPPClownSuitPurple
+  - LPPClownSuitYellow
+
+- type: !PartialOnly loadoutGroup
+  id: QuartermasterJumpsuit
+  loadouts:
+  - LPPQMSummer
+  - LPPQMFormalskirt
+  - LPPQMMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: CargoTechnicianJumpsuit
+  loadouts:
+  - LPPCargoJeansJacket
+  - LPPCargoGorka
+  - LPPCargoGorkaRefl
+  - LPPCargoHoodieVest
+  - LPPCargoShirt
+  - LPPCargoShirtSkirt
+  - LPPCargoTurtleneck
+  - LPPCargoTurtleneckSkirt
+  - LPPCargoBlackShirt
+  - LPPCargoBlackSkirt
+  - LPPCargoMilitary
+  - LPPCargoNTTech
+  - LPPCargoHephTech
+  - LPPCargoHephTechAlt
+
+- type: !PartialOnly loadoutGroup
+  id: ChiefEngineerJumpsuit
+  loadouts:
+  - LPPCESummer
+  - LPPCEMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: TechnicalAssistantJumpsuit
+  loadouts:
+  - LPPEngineerHephAlt
+  - LPPEngineerNTAlt
+  - LPPEngineerZavodAlt
+
+- type: !PartialOnly loadoutGroup
+  id: StationEngineerJumpsuit
+  loadouts:
+  - LPPEngineerJeansJacket
+  - LPPJumpsuitEngineerGorka
+  - LPPEngineerGorkaRefl
+  - LPPEngineerHoodieVest
+  - LPPEngineerShirt
+  - LPPEngineerShirtSkirt
+  - LPPEngineerTurtleneck
+  - LPPEngineerTurtleneckSkirt
+  - LPPEngineerBlackShirt
+  - LPPEngineerBlackSkirt
+  - LPPEngineerHeph
+  - LPPEngineerHephAlt
+  - LPPEngineerHephAlt2
+  - LPPEngineerNT
+  - LPPEngineerNTAlt
+  - LPPEngineerNTAlt2
+  - LPPEngineerZavod
+  - LPPEngineerZavodAlt
+  - LPPEngineerZavodAlt2
+
+- type: !PartialOnly loadoutGroup
+  id: AtmosphericTechnicianJumpsuit
+  loadouts:
+  - LPPAtmosJeansJacket
+  - LPPAtmosGorka
+  - LPPAtmosGorkaRefl
+  - LPPAtmosHoodieVest
+  - LPPAtmosShirt
+  - LPPAtmosShirtSkirt
+  - LPPAtmosTurtleneck
+  - LPPAtmosTurtleneckSkirt
+  - LPPAtmosBlackShirt
+  - LPPAtmosBlackSkirt
+  - LPPAtmosJumpsuitZavod
+  - LPPAtmosJumpsuitNT
+  - LPPAtmosJumpsuitHeph
+  - LPPAtmosJumpsuitMilitary
+  - LPPEngineerHephAlt2
+  - LPPEngineerNTAlt2
+  - LPPEngineerZavodAlt2
+
+- type: !PartialOnly loadoutGroup
+  id: ResearchDirectorJumpsuit
+  loadouts:
+  - LPPRDFormalskirt
+  - LPPRDSummer
+  - LPPRDMilitary
+
+- type: !PartialOnly loadoutGroup
+  id: ScientistJumpsuit
+  loadouts:
+  - LPPScienceJeansJacket
+  - LPPScienceGorka
+  - LPPScienceGorkaRefl
+  - LPPScienceHoodieVest
+  - LPPScienceShirt
+  - LPPScienceShirtSkirt
+  - LPPScienceTurtleneck
+  - LPPScienceTurtleneckSkirt
+  - LPPScienceBlackShirt
+  - LPPScienceBlackSkirt
+  - LPPScienceNTRoboticist
+
+- type: !PartialOnly loadoutGroup
+  id: ScientistOuterClothing
+  loadouts:
+  - LPPScienceExplorerCoat
+
+- type: !PartialOnly loadoutGroup
+  id: HeadofSecurityJumpsuit
+  loadouts:
+  - LPPHOSSummer
+  - LPPHOSFormalskirt
+
+- type: !PartialOnly loadoutGroup
+  id: HeadofSecurityNeck
+  loadouts:
+  - LPPHOSCloakFur
+
+- type: !PartialOnly loadoutGroup
+  id: WardenJumpsuit
+  loadouts:
+  - LPPWardenZavod
+
+- type: !PartialOnly loadoutGroup
+  id: SecurityJumpsuit
+  loadouts:
+  - LPPSecurityJeansJacket
+  - LPPSecurityGorka
+  - LPPSecurityGorkaRefl
+  - LPPSecurityHoodieVest
+  - LPPSecurityShirt
+  - LPPSecuritySkirtShirt
+  - LPPSecurityTurtleneck
+  - LPPSecuritySkirtTurtleneck
+  - LPPSecurityBlackShirt
+  - LPPSecuritySkirtBlackSkirt
+  - LPPSecurityJeansSportswear
+  - LPPSecurityZavod
+  - LPPSecurityZavodAlt
+  - LPPSecurityZavodAlt2
+  - LPPSecurityTactical
+
+- type: !PartialOnly loadoutGroup
+  id: SecurityOuterClothing
+  loadouts:
+  - LPPSecurityZavodJacket
+  - LPPSecurityZavodJacketAlt
+
+- type: !PartialOnly loadoutGroup
+  id: DetectiveJumpsuit
+  loadouts:
+  - LPPDetectiveZavod
+  - LPPDetectiveZavodAlt
+
+- type: !PartialOnly loadoutGroup
+  id: DetectiveOuterClothing
+  loadouts:
+  - LPPDetectiveZavodCoat
+  - LPPDetectiveZavodCaotalt
+
+- type: !PartialOnly loadoutGroup
+  id: SecurityCadetJumpsuit
+  loadouts:
+  - LPPSecurityZavodCadet

@@ -17,11 +17,6 @@
   - CapPens # Starlight
   #- CaptainJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -41,11 +36,6 @@
   - HoPPens # Starlight
   #- HoPJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Silicons
 - type: roleLoadout
@@ -83,11 +73,6 @@
   - Pens # Starlight
   - AssistantJobTrinkets # Starlight
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobBartender
@@ -106,11 +91,6 @@
   - Pens # Starlight
   - BartenderJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -128,11 +108,6 @@
   - Pens # Starlight
   #- ServiceWorkerJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobChef
@@ -152,11 +127,6 @@
   - Pens # Starlight
   #- ChefJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobLibrarian
@@ -173,11 +143,6 @@
   - LuxuryPens # Starlight
   #- LibrarianJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobLawyer
@@ -195,11 +160,6 @@
   - LuxuryPens # Starlight
   #- LawyerJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobChaplain
@@ -222,11 +182,6 @@
   - Pens # Starlight
   #- ChaplainJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobJanitor
@@ -246,11 +201,6 @@
   - Pens # Starlight
   - JanitorJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobBotanist
@@ -269,11 +219,6 @@
   - Pens # Starlight
   #- BotanistJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobClown
@@ -292,11 +237,6 @@
   - Pins # Starlight
   - ClownPens # Starlight
   - ClownJobTrinkets
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobMime
@@ -317,11 +257,6 @@
   - Pins # Starlight
   - MimePens # Starlight
   #- MimeJobTrinkets
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobMusician
@@ -342,11 +277,6 @@
   #- MusicianJobTrinkets
   - Instruments
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Cargo
 - type: roleLoadout
@@ -367,11 +297,6 @@
   - Pens # Starlight
   #- QuartermasterJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -392,11 +317,6 @@
   - Pens # Starlight
   #- CargoTechnicianJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -415,11 +335,6 @@
   - Pens # Starlight
   #- SalvageSpecialistJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Engineering
 - type: roleLoadout
@@ -440,11 +355,6 @@
   - Pens # Starlight
   #- ChiefEngineerJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -461,11 +371,6 @@
   - Pens # Starlight
   #- TechnicalAssistantJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobStationEngineer
@@ -484,11 +389,6 @@
   - Pens # Starlight
   #- StationEngineerJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -498,6 +398,7 @@
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
+  - AtmosphericTechnicianID # Starlight
   - SurvivalExtended
   - Trinkets
   - Scarves # Starlight
@@ -505,11 +406,6 @@
   - Pens # Starlight
   #- AtmosphericTechnicianJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Science
 - type: roleLoadout
@@ -531,11 +427,6 @@
   - Pens # Starlight
   #- ResearchDirectorJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobScientist
@@ -557,11 +448,6 @@
   - Pens # Starlight
   #- ScientistJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -582,11 +468,6 @@
   - Pens # Starlight
   #- ResearchAssistantJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Security
 - type: roleLoadout
@@ -610,11 +491,6 @@
   - Pens # Starlight
   - HeadofSecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobWarden
@@ -636,11 +512,6 @@
   - Pens # Starlight
   - WardenJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -665,11 +536,6 @@
   - Pens # Starlight
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobDetective
@@ -691,11 +557,6 @@
   - Pens # Starlight
   - DetectiveJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -713,11 +574,6 @@
   - Pens # Starlight
   #- SecurityCadetJobTrinkets
   - GroupSpeciesBreathToolSecurity
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # Wildcards
 - type: roleLoadout
@@ -737,11 +593,6 @@
   - LuxuryPens # Starlight
   - ReporterJobTrinkets # Starlight, keeping these, since they have other trinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 - type: roleLoadout
   id: JobPsychologist
@@ -761,11 +612,6 @@
   - Pens # Starlight
   #- PsychologistJobTrinkets
   - GroupSpeciesBreathTool
-#LP edit start
-  - LPunderwearloadout
-  - LPbraloadout
-  - LPsocksloadout
-#LP edit end
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

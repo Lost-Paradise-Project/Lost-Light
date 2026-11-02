@@ -1,0 +1,9 @@
+# Одежда LP в SyndieDrobe
+
+- type: !PartialOnly vendingMachineInventory
+  id: SyndieDrobeInventory
+  startingInventory:
+    ClothingUniformJumpsuitParamedicSyndie: 2
+    ClothingUniformJumpsuitRecruitSyndie: 2
+    ClothingUniformJumpsuitRepairmanSyndie: 2
+    ClothingUniformJumpsuitChiefEngineerSyndie: 2

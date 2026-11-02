@@ -36,3 +36,7 @@ ent-BulletGrenadeBola = гранаты-бола
     .desc = { ent-BaseBulletTrigger.desc }
 ent-CosmicLambdaBeam = Луч стабилизатора нуль-пространства
     .desc = { ent-BasicHitscan.desc }
+ent-Bullet60mmRocket = 60-мм ракета
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletLaserDestroy = разрушающий болт
+    .desc = { ent-BaseBullet.desc }

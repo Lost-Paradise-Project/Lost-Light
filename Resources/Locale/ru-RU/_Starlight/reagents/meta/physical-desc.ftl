@@ -18,7 +18,6 @@ reagent-physical-desc-highlander = бессмертный
 
 reagent-physical-desc-resinfera = колючий
 
-
 reagent-physical-desc-sawian = искусственный
 
 reagent-physical-desc-starry-and-thick = густая и звёздная

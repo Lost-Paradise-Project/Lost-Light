@@ -19,14 +19,10 @@
   - PhotoFilterPackFill
 
 - type: !PartialOnly entity
-  id: ServiceTechFab
-  components:
-  - type: Lathe
-    dynamicPacks:
-    - Photo
-
-- type: !PartialOnly entity
-  id: Protolathe
+  id: !type:CreateVariants
+    values:
+    - ServiceTechFab
+    - Protolathe
   components:
   - type: Lathe
     dynamicPacks:

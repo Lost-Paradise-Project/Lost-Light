@@ -6,9 +6,11 @@ plant-component-something-already-growing-low-health-message = Растение 
 plant-component-plant-old-adjective = [color=red]старым и увядающим[/color]
 plant-component-plant-unhealthy-adjective = [color=red]нездоровым[/color]
 plant-component-dead-plant-matter-message = Оно полно [color=red]мёртвой растительной массы[/color].
-
-plant-component-light-improper-warning = Мигает [color=yellow]индикатор неподходящего уровня освещения[/color].
-plant-component-heat-improper-warning = Мигает [color=orange]индикатор неподходящей температуры[/color].
-plant-component-pressure-improper-warning = Мигает [color=lightblue]индикатор неподходящего давления окружающей среды[/color].
-plant-component-gas-missing-warning = Мигает [color=cyan]индикатор неподходящего газового состава среды[/color].
 plant-component-ligneous-cant-harvest-message = Растение слишком жёсткое, чтобы собирать его голыми руками.
+
+plant-component-improper-heat-warning = Растению не подходит [color=orange]температура[/color].
+plant-component-improper-pressure-warning = Растению не подходит [color=lightblue]давление[/color].
+plant-component-missing-gas-warning = Растению не подходит [color=skyblue]газовый состав[/color].
+plant-component-toxins-high-warning = [color=mediumpurple]Уровень токсинов[/color] опасен для растения.
+plant-component-weeds-high-warning = [color=lightgreen]Уровень сорняков[/color] опасен для растения.
+plant-component-pests-high-warning = [color=gray]Уровень вредителей[/color] опасен для растения.

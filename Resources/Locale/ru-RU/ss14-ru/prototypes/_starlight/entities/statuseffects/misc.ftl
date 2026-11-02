@@ -8,3 +8,5 @@ ent-StatusEffectTheDarkMap = { ent-StatusEffectTheDark }
     .desc = { ent-StatusEffectTheDark.desc }
 ent-StatusEffectHeldBreath = задержка дыхания
     .desc = { ent-MobStatusEffectDebuff.desc }
+ent-StatusEffectAnxietySuppression = подавление тревожности
+    .desc = { ent-MobStatusEffectDebuff.desc }

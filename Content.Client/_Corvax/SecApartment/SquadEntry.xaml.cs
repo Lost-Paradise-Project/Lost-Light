@@ -31,8 +31,8 @@ public sealed partial class SquadEntry : PanelContainer
 
     private readonly SecApartmentStyles _styles;
 
-    private bool _isEditingName = false;
-    private bool _isEditingDescription = false;
+    private bool _isEditingName;
+    private bool _isEditingDescription;
     private Dictionary<string, PanelContainer> _memberPanels = new();
 
     public SquadEntry(Squad squad, SecApartmentStyles styles, IPrototypeManager protoMan, SpriteSystem sprite)
@@ -238,7 +238,7 @@ public sealed partial class SquadEntry : PanelContainer
             FontColorOverride = member.SensorStatus?.IsAlive == false
                 ? Color.FromHex("#888888")
                 : SecApartmentStyles.TextColor,
-            FontOverride = _styles.GetBoldFont(12)
+            FontOverride = _styles.GetBoldFont()
         };
 
         nameContainer.AddChild(nameLabel);

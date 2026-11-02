@@ -41,7 +41,7 @@
   container:
     entity: WrappedParcel
     containerId: contents
-  cost: 8300 # LP edit
+  cost: 4100 # Starlight-edit
   category: cargoproduct-category-name-service
   group: market
 
@@ -54,7 +54,7 @@
   container:
     entity: WrappedParcel
     containerId: contents
-  cost: 5000 # LP edit
+  cost: 4200 # Starlight-edit
   category: cargoproduct-category-name-service
   group: market
 

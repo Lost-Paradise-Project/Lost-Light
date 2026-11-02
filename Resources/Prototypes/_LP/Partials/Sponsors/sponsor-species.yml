@@ -1,0 +1,8 @@
+# Спонсорские расы: доступны со спонсорством 4 уровня
+
+- type: !PartialOnly species
+  id: !type:CreateVariants
+    values:
+    - Vox
+    - NeoVox
+  rolesRequirement: LPSponsorTier4Req

@@ -12,6 +12,8 @@ ent-KillRandomPersonObjective = { ent-BaseTraitorObjective }
     .desc = Сделайте это, как посчитаете нужным. Только убедитесь, что цель не покинет станцию.
 ent-KillRandomHeadObjective = { ent-BaseTraitorObjective }
     .desc = Нам нужно, чтобы этот глава исчез, и вы, вероятно, знаете, почему. Убедитесь, что глава не попадёт на Центком даже в мёртвом виде. Удачи, агент.
+ent-KillStationAiObjective = { ent-BaseTraitorObjective }
+    .desc = НаноТрейзен гордо хвастается своим современнейшим искусственным интеллектом. Напомните им, что это всего лишь очередная игрушка, которую можно сломать.
 ent-RandomTraitorAliveObjective = { ent-BaseTraitorSocialObjective }
     .desc = Раскрывать себя или нет — решайте сами. Нам нужно, чтобы он выжил.
 ent-RandomTraitorProgressObjective = { ent-BaseTraitorSocialObjective }
@@ -44,6 +46,8 @@ ent-CaptainGunStealObjective = { ent-BaseCaptainObjective }
     .desc = { ent-BaseCaptainObjective.desc }
 ent-NukeDiskStealObjective = { ent-BaseCaptainObjective }
     .desc = { ent-BaseCaptainObjective.desc }
+ent-SupercritAnomaliesObjective = { ent-BaseTraitorObjective }
+    .desc = НаноТрейзен очень интересуют аномалии с потенциально катастрофическими последствиями. Покажите им, с каким огнём они играют.
 ent-HijackTradeStationObjective = Взломайте Автоматическую торговую станцию.
     .desc = Вашему аплинку разрешён один маяк взлома. Разверните его на Автоматической торговой станции и защищайте, пока он взламывает станцию.
 

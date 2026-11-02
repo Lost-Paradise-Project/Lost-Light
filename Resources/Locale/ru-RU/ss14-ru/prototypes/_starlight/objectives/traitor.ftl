@@ -122,3 +122,5 @@ ent-HoPBoardStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
 ent-MindControlledFollowOrders = Выполнять приказы.
     .desc = Обеспечьте успех вашего куратора; в одиночестве действуйте по своему усмотрению.
+ent-TraitorAchieveObjective = Достигните своих целей.
+    .desc = Выполните назначенные вам задания. То, как вы закончите смену, зависит только от вас.

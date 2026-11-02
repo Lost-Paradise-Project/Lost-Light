@@ -144,7 +144,7 @@ namespace Content.Server.Atmos.EntitySystems
 
                 if (comp.Air != null)
                 {
-                    _atmosphereSystem.React(comp.Air, comp);
+                    _atmosphereSystem.React(comp.Air, comp, uid); // Starlight edit
                 }
 
                 CheckStatus(gasTank);
@@ -227,7 +227,7 @@ namespace Content.Server.Atmos.EntitySystems
                 // Give the gas a chance to build up more pressure.
                 for (var i = 0; i < 3; i++)
                 {
-                    _atmosphereSystem.React(component.Air, component);
+                    _atmosphereSystem.React(component.Air, component, owner); // Starlight edit
                 }
 
                 pressure = component.Air.Pressure;

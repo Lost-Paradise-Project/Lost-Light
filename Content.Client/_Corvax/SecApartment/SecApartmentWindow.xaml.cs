@@ -31,7 +31,6 @@ public sealed partial class SecApartmentWindow : BaseWindow
     private readonly SecApartmentStyles _styles;
     private string _station = Loc.GetString("sec-apartment-unknown");
     private Dictionary<string, SquadEntry> _squadEntries = new();
-    private Dictionary<string, CrewMemberInfo> _lastCrewData = new();
     private Dictionary<NetEntity, TimerEntryControl> _timerControls = new();
 
     public Action<string>? OnCreateSquad;
@@ -244,11 +243,6 @@ public sealed partial class SecApartmentWindow : BaseWindow
 
             SquadsContainer.AddChild(entry);
             _squadEntries[squad.SquadId] = entry;
-
-            foreach (var member in squad.Members)
-            {
-                _lastCrewData[member.MemberId] = member;
-            }
         }
     }
 
@@ -257,7 +251,7 @@ public sealed partial class SecApartmentWindow : BaseWindow
         TimersCountLabel.Text = timers.Count.ToString();
 
         var toRemove = new List<NetEntity>();
-        foreach (var (timerUid, control) in _timerControls)
+        foreach (var (timerUid, _) in _timerControls)
         {
             if (!timers.Any(t => t.TimerUid == timerUid))
                 toRemove.Add(timerUid);

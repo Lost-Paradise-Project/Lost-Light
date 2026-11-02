@@ -330,6 +330,16 @@
         {
             "name": "MakeshiftID",
             "copyright": "rhithebirdthing"
+        },
+        {
+            "name": "ITGMindshield",
+            "copyright": "Swonki",
+            "delays": [
+                [
+                    1.0,
+                    1.0
+                ]
+            ]
         }
     ]
 }

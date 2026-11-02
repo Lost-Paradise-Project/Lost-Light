@@ -7,7 +7,6 @@
     ClothingBackpackSatchel: 3
     ClothingBackpackSatchelLeather: 2
     ClothingRandomSpawner: 8
-    ClothingOuterCoatRandom: 8 # Starlight
     ClothingUniformRandomShorts: 4
     ClothingHeadHatBeret: 4
     ClothingHeadBandBlack: 2
@@ -57,24 +56,6 @@
     ClothingUniformJumpskirtCasualRed: 2
     ClothingUniformJumpsuitCasualGreen: 2
     ClothingUniformJumpskirtCasualGreen: 2
-    #Starlight
-    BodysuitJeansUniformSuit: 3
-    CamoUniformSuit: 2
-    CoolTanktopUniformSuit: 3
-    LumberjackOverallsUniformSuit: 2
-    MechanicOverallsUniformSuit: 2
-    TrendyTopSuit: 2
-    MessyDressShirtUniformSuit: 3
-    RuggedClothesUniformSuit: 2 # Starlight
-    OldWomanUniformSuit: 2
-    PunkJeansUniformSuit: 2
-    TieDyeUniformSuit: 2
-    VintageUniformSuit: 1
-    ClothingOutercorset: 2
-    ClothingOuterRedLeather: 2
-    ClothingOuterRoughSweater: 1
-    ClothingOuterSoftSweater: 1
-    ClothingOuterLargeShirt: 3
     # DO NOT ADD MORE, USE UNIFORM DYING
     ClothingShoesColorBlack: 8
     ClothingShoesColorBrown: 4
@@ -92,9 +73,6 @@
     ClothingHeadHatGreensoft: 2
     ClothingHeadHatOrangesoft: 2
     ClothingHeadHatRedsoft: 2
-    # Starlight
-    ClothingHeadHatBrimHat: 3
-    ClothingHeadHatFeatheredHat: 3
     # DO NOT ADD MORE, USE UNIFORM DYING
     ClothingHeadHatBlacksoft: 2
     ClothingHeadHatPurplesoft: 2
@@ -115,127 +93,13 @@
     ClothingHandsGlovesColorOrange: 2
     ClothingHandsGlovesColorPurple: 2
     ClothingEyesGlassesCheapSunglasses: 3
-    #Starlight
-    ClothingUnderSocksStirrup: 2
-    ClothingUnderSocksYellow: 2
-    # LP edit start
-    LPPClothingUniformBlackTracksuit: 2
-    LPPClothingUniformBlueTracksuit: 2
-    LPPClothingUniformRedTracksuit: 2
-    LPPClothingUniformGreenTracksuit: 2
-    ClothingUniformJumpsuitMilitaryColorBlack: 4
-    ClothingUniformJumpsuitMilitaryColorGrey: 4
-    ClothingUniformJumpsuitMilitaryContractor: 2
-    ClothingUniformJumpsuitMilitaryContractorTac: 2
-    ClothingUniformJumpsuitMilitaryColorPurple: 2
-    ClothingUniformJumpsuitMilitaryColorOrange: 2
-    ClothingUniformJumpsuitMilitaryColorRed: 2
-    ClothingUniformJumpsuitMilitaryColorBrown: 2
-    ClothingUniformJumpsuitMilitaryColorYellow: 2
-    ClothingUniformJumpsuitMilitaryColorGreen: 2
-    ClothingUniformJumpsuitMilitaryColorMaroon: 2
-    ClothingUniformJumpsuitMilitaryColorBlue: 2
-    ClothingUniformJumpsuitMilitaryColorLightBrown: 2
-    ClothingUniformJumpsuitMilitaryColorTeal: 2
-    ClothingUniformJumpskirtPinkStripedDress: 2
-    ClothingUniformJumpskirtOrangeStripedDress: 2
-    ClothingUniformJumpskirtRedStripedDress: 2
-    ClothingUniformJumpskirtGreenStripedDress: 2
-    ClothingUniformJumpskirtCyanStripedDress: 2
-    ClothingUniformJumpskirtYellowTurtleneckDress: 2
-    ClothingUniformJumpskirtGreenTurtleneckDress: 2
-    ClothingUniformJumpskirtBlueTurtleneckDress: 2
-    ClothingUniformJumpskirtPurpleTurtleneckDress: 2
-    ClothingUniformJumpskirtYellowOldDress: 2
-    ClothingUniformJumpskirtGreenElegantDress: 2
-    ClothingUniformJumpskirtRedElegantDress: 2
-    ClothingUniformJumpskirtBlueElegantDress: 2
-    ClothingUniformJumpskirtPurpleElegantDress: 2
-    ClothingUniformJumpskirtBlackElegantDress: 2
-    LPPClothingUniformJumpsuitDirtyblue: 2
-    LPPClothingUniformJumpsuitSky: 2
-    LPPClothingUniformJumpsuitSkysummer: 2
-    LPPClothingUniformJumpsuitSummer: 2
-    LPPClothingUniformJumpsuitShortsky: 2
-    LPPClothingUniformJumpskirtSky: 2
-    ClothingCostumeArcDress: 2
-    UniformGeisha: 2
-    ClothingUniformJumpskirtNurse: 2
-    ClothingCostumeMioSkirt: 2
-    ClothingCostumeNaota: 2
-    ClothingUniformRat: 1
-    ClothingUniformDressRed: 2
-    UniformSchoolgirlRed: 1
-    UniformSchoolgirlBlack: 1
-    UniformSchoolgirlBlue: 1
-    UniformSchoolgirlCyan: 1
-    UniformSchoolgirlGreen: 1
-    UniformSchoolgirlOrange: 1
-    UniformSchoolgirlPink: 1
-    UniformSchoolgirlPurple: 1
-    ClothingUniformKendoHakama: 2
-    ClothingUniformMartialGi: 2
-    ClothingKimonoBlue: 2
-    ClothingKimonoPink: 2
-    ClothingKimonoPurple: 2
-    ClothingKimonoSky: 2
-    ClothingKimonoGreen: 2
-    UniformSchoolgirlDusk: 2
-    UniformSchoolgirlBlazerTan: 2
-    ClothingUniformSchoolGakuranBlack: 2
-    ClothingUniformMNKOfficeSkirt: 2
-    ClothingUniformMNKUnderGarment: 2
-    ClothingUniformMNKGymBra: 2
-    ClothingUniformMNKDressBlack: 2
-    ClothingUniformMNKBlackOveralls: 2
-    ClothingUniformMNKBlackShoulder: 2
-    ClothingUniformMNKTracksuitBlack: 2
-    ClothingOuterCoatMNKBlackTopCoat: 2
-    ClothingOuterCoatMNKBlackJacket: 2
-    ClothingOuterCoatMNKWhiteHoodie: 2
-    ClothingUniformJumpsuitSuperstarCop: 1
-    ClothingUniformJumpsuitAncient: 1
-    LPPClothingUniformJumpsuitFleece: 1
-    LPPClothingUniformDressWedding: 1
-    ClothingUniformJumpsuitCossack: 1
-    ClothingUniformJumpsuitLoungewear: 1
-    ClothingUniformJumpsuitAerostatic: 1
-    ClothingUniformJumpsuitFamilyGuy: 1
-    ClothingUniformJumpsuitTshirtJeansPeach: 2
-    ClothingUniformJumpsuitTshirtJeans: 2
-    ClothingUniformJumpsuitTshirtJeansGray: 2
-    ClothingUniformTShirtKhakiPants: 2
-    LPPSwagOutfit: 2
-    LPPSwagShoes: 2
-    LPPGlowShoes: 2
-    ClothingShoesSchoolBlack: 2
-    ClothingShoesAerostatic: 1
-    ClothingShoesGreenLizardskin: 1
-    LPPClothingHeadHatCapRed: 2
-    LPPClothingHeadHatCapGreen: 2
-    LPPClothingHeadHatCapBlack: 2
-    LPPClothingHeadHatCapBlue: 2
-    LPPClothingNeckShemagWhite: 5
-    LPPClothingNeckShemagRed: 5
-    LPPClothingNeckShemagGreen: 5
-    LPPClothingNeckShemagBrown: 5
-    LPPClothingNeckShemagBlue: 5
-    LPPClothingNeckShemagPurple: 5
-    # LP edit end
     # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
-    ToyFigurineAssistant: 1
+    ToyFigurinePassenger: 1
+    ToyFigurineGreytider: 1
     ClothingBackpackSatchelSmugglerUnanchored: 1
     ClothingHeadHatSolidHeadband: 2
-    ClothingUniformJumpsuitTrackSuit: 2 #Starlight
-    DarkTurtleneckSuit: 2 # Starlight
-    TatteredClothesUniformSuit: 1 #Starlight
-    ClothingHeadHatTVHead: 1 #Starlight
-    ClothingNeckTatteredHood: 1 #Starlight
-    CuteTurtleNeckBlack: 2 #Starlight
-    CuteTurtleNeck: 2 #Starlight
-    ClothingUniformJumpsuitTurtleneckTactick: 2 # LP edit
   # DO NOT ADD MORE, USE UNIFORM DYING

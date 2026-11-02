@@ -1,0 +1,13 @@
+# Приём целей станции факсами
+
+- type: !PartialOnly entity
+  id: FaxMachineCentcom
+  components:
+  - type: FaxMachine
+    receiveStationGoal: true
+
+- type: !PartialOnly entity
+  id: FaxMachineCaptain
+  components:
+    - type: FaxMachine
+      receiveStationGoal: true

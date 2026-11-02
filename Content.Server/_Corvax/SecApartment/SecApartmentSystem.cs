@@ -7,7 +7,6 @@ using Content.Shared.GameTicking;
 using Content.Shared.Medical.SuitSensor;
 using Content.Shared.Roles;
 using Content.Shared.SecApartment;
-using Content.Shared.Security.Components;
 using Content.Shared.Station;
 using Content.Shared.UserInterface;
 using Robust.Server.GameObjects;

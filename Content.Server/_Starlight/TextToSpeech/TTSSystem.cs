@@ -90,6 +90,9 @@ public sealed partial class TTSSystem : EntitySystem
             || args.SuppressTTS)
             return;
 
+        if (!TryUseSpeechCooldown(args.Source, radio: true)) // LP edit - лимит частоты озвучки сущности
+            return;
+
         await Task.Yield();
         try
         {
@@ -167,6 +170,9 @@ public sealed partial class TTSSystem : EntitySystem
             )
             return;
 
+        if (!TryUseSpeechCooldown(uid)) // LP edit - лимит частоты озвучки сущности
+            return;
+
         await Task.Yield();
         try
         {
@@ -191,6 +197,18 @@ public sealed partial class TTSSystem : EntitySystem
         {
             _sawmill.Error($"TTS Entity error: {ex.Message}");
         }
+    }
+
+    /// <summary>
+    /// Plays a standard speech event at a different TTS-capable entity, preserving the original speaker's voice.
+    /// </summary>
+    public void PlaySpeechAt(EntityUid playbackEntity, EntitySpokeEvent args)
+    {
+        if (!TryComp(args.Source, out TextToSpeechComponent? speakerComponent)
+            || !HasComp<TextToSpeechComponent>(playbackEntity))
+            return;
+
+        OnEntitySpoke(playbackEntity, speakerComponent, args);
     }
 
     private Filter GetFilter(EntityUid uid, EntitySpokeEvent args)

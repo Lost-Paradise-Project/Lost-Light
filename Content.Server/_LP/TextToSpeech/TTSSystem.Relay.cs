@@ -32,9 +32,9 @@ public sealed partial class TTSSystem
 
             filter = filter.RemovePlayers(_ignoredRecipients)
                 .RemoveWhere(x => x.AttachedEntity == messageSource
-                    || language != null
+                    || (language != null
                     && x.AttachedEntity.HasValue
-                    && !_language.CanUnderstand(x.AttachedEntity.Value, language.ID));
+                    && !_language.CanUnderstand(x.AttachedEntity.Value, language.ID)));
 
             var voice = ResolveSpeakerVoice(messageSource);
             await GenerateAndStream(TTSType.IG, voice, CleanText(text), filter, effect, null, device,

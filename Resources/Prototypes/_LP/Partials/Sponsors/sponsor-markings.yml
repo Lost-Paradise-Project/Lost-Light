@@ -1,0 +1,8 @@
+# Кошачьи уши и хвост: доступны со спонсорством 3 уровня
+
+- type: !PartialOnly marking
+  id: !type:CreateVariants
+    values:
+    - CatEars
+    - CatTail
+  rolesRequirement: LPSponsorTier3Req

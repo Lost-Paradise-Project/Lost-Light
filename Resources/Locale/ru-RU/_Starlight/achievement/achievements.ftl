@@ -133,6 +133,21 @@ achievement-rodentia-rex-description = Будучи королём крыс, и�
 achievement-the-robust-salvagers-name = Крепкие утилизаторы
 achievement-the-robust-salvagers-description = Будучи утилизатором, убейте ядерного оперативника.
 
+achievement-elite-contractor-name = Элитный подрядчик
+achievement-elite-contractor-description = Выполните цели суммарной сложностью не менее 15 за одну смену в роли предателя.
+
+achievement-phantom-thief-name = Призрачный вор
+achievement-phantom-thief-description = Выполните цели суммарной сложностью не менее 10 за одну смену в роли вора.
+
+achievement-first-kindred-name = Первородный
+achievement-first-kindred-description = Выполните цели суммарной сложностью не менее 10 за одну смену в роли вампира.
+
+achievement-enemy-unknown-name = Неизвестный враг
+achievement-enemy-unknown-description = Выполните цели суммарной сложностью не менее 10 за одну смену в роли генокрада.
+
+achievement-theory-of-objectivity-name = Теория объективности
+achievement-theory-of-objectivity-description = Получите достижения «Элитный подрядчик», «Призрачный вор», «Первородный» и «Неизвестный враг».
+
 achievement-window-title = Отслеживайте свои вехи, скрытые трофеи и долгосрочный прогресс
 achievement-window-categories = Категории
 achievement-window-category-all = Все достижения
@@ -160,3 +175,8 @@ achievement-category-milestones = Вехи
 achievement-category-onboarding = Первые шаги
 achievement-category-special = Особые
 achievement-category-vampire = Вампир
+achievement-category-traitor = Предатель
+achievement-category-thief = Вор
+achievement-category-changeling = Генокрад
+achievement-category-revolutionary = Революционер
+achievement-category-nukeops = Ядерный оперативник

@@ -923,6 +923,23 @@ class LocalizationManager:
         logging.info("Обработка прототипов завершена.")
 
     @staticmethod
+    def _expand_variants(raw, count: int) -> list:
+        """Раскладывает поле прототипа на count значений.
+
+        Обычное значение одинаково для всех ID; !type:CreateVariants даёт по значению
+        на каждый ID: `values` - скаляры, `sequences` - списки (для parent).
+        """
+        if isinstance(raw, dict) and ("values" in raw or "sequences" in raw):
+            variants = raw.get("values")
+            if variants is None:
+                variants = raw.get("sequences")
+            if not isinstance(variants, list):
+                variants = []
+            variants = list(variants)
+            return (variants + [None] * count)[:count]
+        return [raw] * count
+
+    @staticmethod
     def _parse_yaml(filepath: Path) -> List[PrototypeEntry]:
         entries: List[PrototypeEntry] = []
         try:
@@ -957,23 +974,35 @@ class LocalizationManager:
                         if not raw_ids:
                             continue
 
-                        raw_name = item.get("name")
-                        raw_desc = item.get("description") or item.get("desc")
-                        raw_suffix = item.get("suffix")
-
+                        # name/description/suffix/parent тоже бывают !type:CreateVariants:
+                        # i-му ID соответствует i-е значение (для parent - i-я последовательность).
+                        count = len(raw_ids)
+                        names = LocalizationManager._expand_variants(item.get("name"), count)
+                        descs = LocalizationManager._expand_variants(
+                            item.get("description") or item.get("desc"), count
+                        )
+                        suffixes = LocalizationManager._expand_variants(
+                            item.get("suffix"), count
+                        )
                         parent_raw = item.get("parent") or item.get("parents", [])
-                        if isinstance(parent_raw, list):
-                            parents = [str(p) for p in parent_raw]
-                        elif parent_raw is not None:
-                            parents = [str(parent_raw)]
-                        else:
-                            parents = []
+                        parent_lists = LocalizationManager._expand_variants(
+                            parent_raw, count
+                        )
 
-                        for raw_id in raw_ids:
+                        for i, raw_id in enumerate(raw_ids):
+                            raw_name, raw_desc, raw_suffix = names[i], descs[i], suffixes[i]
+                            parent_i = parent_lists[i]
+                            if isinstance(parent_i, list):
+                                parents = [str(p) for p in parent_i]
+                            elif parent_i is not None:
+                                parents = [str(parent_i)]
+                            else:
+                                parents = []
+
                             entries.append(
                                 PrototypeEntry(
                                     id=str(raw_id),
-                                    parents=list(parents),
+                                    parents=parents,
                                     name=str(raw_name) if raw_name is not None else None,
                                     desc=str(raw_desc) if raw_desc is not None else None,
                                     suffix=str(raw_suffix)
