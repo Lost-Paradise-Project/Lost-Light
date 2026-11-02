@@ -1,6 +1,12 @@
 ent-LPPBaseMagazinePistolPF20 = пистолетный магазин (.20 винтовочные)
     .desc = { ent-BaseItem.desc }
-ent-LPPMagazinePistolPF20lethal = пистолетный магазин (.20 винтовочные)
+ent-LPPMagazinePistolPF20SP = пистолетный магазин (.20 SP)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20AP = пистолетный магазин (.20 AP)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20HP = пистолетный магазин (.20 HP)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20FMJ = пистолетный магазин (.20 FMJ)
     .desc = { ent-LPPBaseMagazinePistolPF20.desc }
 ent-LPPMagazinePistolPF20Practice = пистолетный магазин (.20 тренировочные)
     .desc = { ent-LPPBaseMagazinePistolPF20.desc }

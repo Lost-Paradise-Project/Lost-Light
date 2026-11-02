@@ -21,11 +21,91 @@
 
 - type: entity
   id: SpeedLoaderSpecial
-  name: "speed loader (.38 special)"
+  name: "speed loader (.38 special SP)"
   parent: BaseSpeedLoaderSpecial
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecial
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Special/special_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SpeedLoaderSpecialSP
+  name: "speed loader (.38 special SP)"
+  parent: BaseSpeedLoaderSpecial
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialSP
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Special/special_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SpeedLoaderSpecialHP
+  name: "speed loader (.38 special HP)"
+  parent: BaseSpeedLoaderSpecial
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialHP
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Special/special_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SpeedLoaderSpecialFMJ
+  name: "speed loader (.38 special FMJ)"
+  parent: BaseSpeedLoaderSpecial
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialFMJ
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Special/special_speed_loader.rsi
+    layers:
+      - state: base
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: base-6
+        map: [ "enum.GunVisualLayers.Mag" ]
+  - type: MagazineVisuals
+    magState: base
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SpeedLoaderSpecialAP
+  name: "speed loader (.38 special AP)"
+  parent: BaseSpeedLoaderSpecial
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialAP
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Special/special_speed_loader.rsi
     layers:

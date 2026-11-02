@@ -44,7 +44,7 @@
       tags:
         - CartridgeSpecial
         - SpeedLoaderSpecial
-    proto: CartridgeSpecial
+    proto: CartridgeSpecialSP
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
@@ -71,7 +71,7 @@
       tags:
         - CartridgeSpecial
         - SpeedLoaderSpecial
-    proto: CartridgeSpecial
+    proto: CartridgeSpecialSP
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]
@@ -98,7 +98,7 @@
       tags:
         - CartridgeSpecial
         - SpeedLoaderSpecial
-    proto: CartridgeSpecial
+    proto: CartridgeSpecialSP
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
@@ -125,7 +125,7 @@
       tags:
         - CartridgeSpecial
         - SpeedLoaderSpecial
-    proto: CartridgeSpecial
+    proto: CartridgeSpecialSP
     capacity: 4
     chambers: [ True, True, True, True ]
     ammoSlots: [ null, null, null, null ]

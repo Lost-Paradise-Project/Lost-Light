@@ -26,11 +26,53 @@
 # Boxes
 - type: entity
   parent: BaseMagazineBoxSpecial
-  id: MagazineBoxSpecial
-  name: ammunition box (.38 special)
+  id: MagazineBoxSpecialSP
+  name: ammunition box (.38 special SP)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSpecial
+    proto: CartridgeSpecialSP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxSpecial
+  id: MagazineBoxSpecialHP
+  name: ammunition box (.38 special HP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxSpecial
+  id: MagazineBoxSpecialFMJ
+  name: ammunition box (.38 special FMJ)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxSpecial
+  id: MagazineBoxSpecialAP
+  name: ammunition box (.38 special AP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeSpecialAP
   - type: Sprite
     layers:
     - state: base

@@ -284,7 +284,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: MagazineLightRifleSP
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2

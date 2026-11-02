@@ -1,6 +1,12 @@
 ent-BaseMagazineBoxSpecial = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-MagazineBoxSpecial = коробка патронов (.38 специальные)
+ent-MagazineBoxSpecialSP = коробка патронов (.38 специальные SP)
+    .desc = { ent-BaseMagazineBoxSpecial.desc }
+ent-MagazineBoxSpecialHP = коробка патронов (.38 специальные HP)
+    .desc = { ent-BaseMagazineBoxSpecial.desc }
+ent-MagazineBoxSpecialFMJ = коробка патронов (.38 специальные FMJ)
+    .desc = { ent-BaseMagazineBoxSpecial.desc }
+ent-MagazineBoxSpecialAP = коробка патронов (.38 специальные AP)
     .desc = { ent-BaseMagazineBoxSpecial.desc }
 ent-MagazineBoxSpecialPractice = коробка патронов (.38 специальные учебные)
     .desc = { ent-BaseMagazineBoxSpecial.desc }
