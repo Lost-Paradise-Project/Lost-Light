@@ -20,19 +20,17 @@
         ents: []
 
 - type: entity
-  id: SpeedLoaderSpecial
-  name: "speed loader (.38 special SP)"
+  id: SpeedLoaderSpecialEmpty
+  name: "speed loader (.38 special any)"
   parent: BaseSpeedLoaderSpecial
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSpecial
+    proto: null
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Special/special_speed_loader.rsi
     layers:
       - state: base
         map: [ "enum.GunVisualLayers.Base" ]
-      - state: base-6
-        map: [ "enum.GunVisualLayers.Mag" ]
   - type: MagazineVisuals
     magState: base
     steps: 7

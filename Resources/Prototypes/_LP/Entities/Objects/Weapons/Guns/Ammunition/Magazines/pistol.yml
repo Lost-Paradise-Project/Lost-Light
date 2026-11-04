@@ -32,6 +32,18 @@
   - type: Appearance
 
 - type: entity
+  id: LPPMagazinePistolPF20Empty
+  name: Pistol magazine (.20 any)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+  - type: Sprite
+    layers:
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: LPPMagazinePistolPF20SP
   name: Pistol magazine (.20 SP)
   parent: LPPBaseMagazinePistolPF20

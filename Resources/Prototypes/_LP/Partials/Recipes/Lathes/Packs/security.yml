@@ -1,0 +1,55 @@
+- type: !PartialOnly latheRecipePack
+  id: StarlightSecurityAmmoStatic
+  recipes:
+  - LPPMagazinePistolPF20Empty
+  - LPPMagazinePistolPF20SP
+  - LPPMagazinePistolPF20HP
+  - LPPMagazinePistolPF20FMJ
+  - LPPMagazinePistolPF20Practice
+  - LPPMagazineLightSniperEmpty
+  - LPPMagazineLightSniper
+  - PowerCellStarflarePrinted
+  - MagazinePistolSpecialEmpty
+  - MagazinePistolSpecialSP
+  - MagazinePistolSpecialHP
+  - MagazinePistolSpecialFMJ
+  - SpeedLoaderSpecialEmpty
+  - SpeedLoaderSpecialSP
+  - SpeedLoaderSpecialHP
+  - SpeedLoaderSpecialFMJ
+  - MagazinePistolSpecialPractice
+  - SpeedLoaderSpecialPractice
+  - SpeedLoaderSpecialRubber
+  - MagazinePistolSpecialRubber
+  - MagazineBoxSpecialSP
+  - MagazineBoxSpecialHP
+  - MagazineBoxSpecialFMJ
+  - MagazineBoxSpecialPractice
+  - MagazineBoxSpecialRubber
+  - WeaponPocketDisabler
+
+- type: !PartialOnly latheRecipePack
+  id: StarlightSecurityAmmoDynamic
+  recipes:
+  - LPPMagazinePistolPF20AP
+  - LPPMagazinePistolPF20Incendiary
+  - LPPMagazinePistolPF20Uranium
+  - MagazinePistolSpecialAP
+  - SpeedLoaderSpecialAP
+  - SpeedLoaderSpecialUranium
+  - MagazineBoxSpecialAP
+  - MagazineBoxSpecialUranium
+  - MagazineBoxSpecialIncendiary
+
+- type: !PartialOnly latheRecipePack
+  id: StarlightSecurityWeapons
+  recipes:
+  - WeaponAutoDisabler
+  - WeaponPocketDisabler
+  - WeaponStunProjector
+  - WeaponDisablerCarbine
+  - WeaponDisablerShotgun
+  - LPPWeaponRiflepadefame
+  - LPPWeaponRifleM14
+  - LPPWeaponSniperScout
+  - WeaponStarflareSMG

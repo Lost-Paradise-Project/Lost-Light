@@ -32,6 +32,18 @@
   - type: Appearance
 
 - type: entity
+  id: MagazinePistolSpecialEmpty
+  name: pistol magazine (.38 special any)
+  parent: BaseMagazinePistolSpecial
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+  - type: Sprite
+    layers:
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
   id: MagazinePistolSpecialSP
   name: pistol magazine (.38 special SP)
   parent: BaseMagazinePistolSpecial
@@ -74,7 +86,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: MagazinePistolSpecial
+  id: MagazinePistolSpecialAP
   name: pistol magazine (.38 special AP)
   parent: BaseMagazinePistolSpecial
   components:

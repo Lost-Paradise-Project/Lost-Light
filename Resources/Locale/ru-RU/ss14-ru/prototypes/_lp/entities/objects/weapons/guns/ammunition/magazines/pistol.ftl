@@ -1,5 +1,7 @@
 ent-LPPBaseMagazinePistolPF20 = пистолетный магазин (.20 винтовочные)
     .desc = { ent-BaseItem.desc }
+ent-LPPMagazinePistolPF20Empty = Pistol пистолетный магазин (.20 любые)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
 ent-LPPMagazinePistolPF20SP = пистолетный магазин (.20 SP)
     .desc = { ent-LPPBaseMagazinePistolPF20.desc }
 ent-LPPMagazinePistolPF20AP = пистолетный магазин (.20 AP)
