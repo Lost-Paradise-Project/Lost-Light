@@ -1,0 +1,7 @@
+- type: !PartialOnly entity
+  save: false
+  id: MobDamageable
+  abstract: true
+  components:
+  - type: ESViewcone # ES
+    coneIgnoreRadius: 1
