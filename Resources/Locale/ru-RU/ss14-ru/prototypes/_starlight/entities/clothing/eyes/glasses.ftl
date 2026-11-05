@@ -1,4 +1,4 @@
-ent-ClothingEyesGlassesBrigmedic = очки бригмедика
+ent-ClothingEyesGlassesBrigmedic = очки полевого врача
     .desc = Качественный ХУД, способный защищать от вспышек. В стиле Тамаши!
 ent-ClothingEyesGlassesCorpsman = очки санитара
     .desc = Могут защищать от вспышек, как очки СБ, и отслеживать жизненные показатели!
@@ -16,8 +16,8 @@ ent-ClothingEyesGlassesCentCommBase = { ent-ClothingEyesBase }
     .desc = { ent-ClothingEyesBase.desc }
 ent-ClothingEyesGlassesCentComm = очки центрального командования
     .desc = Очки для персонала центрального командования. Ничего личного.
-ent-ClothingEyesGlassesBrigmedicPrescription = рецептурные очки бригмедика
-    .desc = Комплект незащищённых рецептурных очков для бригмедиков.
+ent-ClothingEyesGlassesBrigmedicPrescription = рецептурные очки полевого врача
+    .desc = Комплект незащищённых рецептурных очков для полевых врачей.
 ent-ClothingEyeGlassesMedicalPrescription = рецептурные медицинские очки
     .desc = Комплект рецептурных очков для врачей. Страховкой не покрывается.
 ent-ClothingEyeGlassesSecurityPrescription = рецептурные очки СБ

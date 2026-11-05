@@ -72,18 +72,18 @@ ghost-role-information-decimus-description = Вы оперативник Дец�
 
 ghost-role-information-syndicate-cyborg-stealth-name = Скрытный киборг Синдиката
 
-ghost-role-information-tsf-marine-name = Морпех Солнечной федерации
-ghost-role-information-tsf-specops-name = Спецназ Солнечной федерации
-ghost-role-information-tsf-Phantom-name = Морпех-призрак Солнечной федерации
-ghost-role-information-tsf-MARSOC-name = Морпех МАРСОК Солнечной федерации
-ghost-role-information-tsf-crew-name = Член экипажа Солнечной федерации
+ghost-role-information-tsf-marine-name = Морпех Правительства Земли
+ghost-role-information-tsf-specops-name = Спецназ Правительства Земли
+ghost-role-information-tsf-Phantom-name = Морпех-призрак Правительства Земли
+ghost-role-information-tsf-MARSOC-name = Морпех МАРСОК Правительства Земли
+ghost-role-information-tsf-crew-name = Член экипажа Правительства Земли
 ghost-role-information-tsf-borg-name = Киборг АНС
 ghost-role-information-tsf-borg-desc = Вы киборг АНС. Выполните порученное задание.
-ghost-role-information-tsf-marine-desc = Вы морпех Солнечной федерации. Выполните порученное задание.
+ghost-role-information-tsf-marine-desc = Вы морпех Правительства Земли. Выполните порученное задание.
 
 ghost-role-information-tsf-officer-name = Патрульный офицер АНС
 ghost-role-information-tsf-officer-Sheriff-name = Шериф АНС
-ghost-role-information-tsf-officer-desc = Вы патрульный офицер Солнечной федерации. Выполните порученное задание.
+ghost-role-information-tsf-officer-desc = Вы патрульный офицер Правительства Земли. Выполните порученное задание.
 
 ghost-role-information-xenomoproach-name = Ксенотараканомоль
 ghost-role-information-xenomoproach-description = Вы маленький ксеноборг, носящий кожу таракамоля как маскировку.
@@ -95,8 +95,8 @@ ghost-role-information-terminator-name = Истребитель
 ghost-role-information-terminator-description = Вы ходячий автомат, одетый в марионетку из плоти. Уничтожьте свою цель с крайним предубеждением.
 ghost-role-information-terminator-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]. Вы должны выполнять свои цели. Вы не должны применять силу к посторонним целям, если только они не мешают вам выполнять ваши цели. У вас нет воспоминаний о вашей прошлой жизни.
 
-ghost-role-information-derelict-purrfus-cyborg-name = Заброшенный киборг Мурфус
-ghost-role-information-derelict-purrfus-cyborg-description = Вы киборг Мурфус, потерявшийся в космосе. После лет воздействия ионных бурь вы оказались рядом с космической станцией. ОШБ урфус по-еряет вас мурфус любит вас мУрфус любит ва- ОШБ
+ghost-role-information-derelict-purrfus-cyborg-name = Заброшенный киборг Керфур
+ghost-role-information-derelict-purrfus-cyborg-description = Вы киборг Керфур, потерявшийся в космосе. После лет воздействия ионных бурь вы оказались рядом с космической станцией. ОШБ урфус по-еряет вас Керфур любит вас Керфур любит ва- ОШБ
 
 ghostrole-information-derelict-heavy-xenoborg-name = Заброшенный тяжёлый ксеноборг
 ghostrole-information-derelict-heavy-xenoborg-description = Вы тяжёлый ксеноборг, оставленный материнским кораблём. После месяцев воздействия ионных бурь вы оказались рядом с космической станцией.

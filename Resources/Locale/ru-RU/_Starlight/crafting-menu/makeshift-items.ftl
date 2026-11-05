@@ -215,7 +215,7 @@ construction-graph-tag-plasteelfilament = пласталевая нить
 
 construction-graph-tag-insulthread = изолирующая нить
 
-crafting-menu-name-false-projector = ложный ставень-проектор
+crafting-menu-name-false-projector = ложный ставня-проектор
 crafting-menu-text-false-projector = Выглядит почти как настоящий. Полезен, чтобы закрыть обзор отвлечённым или невнимательным, пока вы делаете что нужно.
 construction-graph-tag-holoprojector = любой голопроектор
 

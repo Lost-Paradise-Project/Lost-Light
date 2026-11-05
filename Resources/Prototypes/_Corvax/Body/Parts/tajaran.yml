@@ -91,7 +91,7 @@
     - type: MovementBodyPart
       sprintSpeed : 5.5
     - type: MovementBodyPartHinderedByShoes
-      hinderModifier: 0.18
+      hinderModifier: 0.15
 
 - type: entity
   id: RightLegTajaran
@@ -104,7 +104,7 @@
     - type: MovementBodyPart
       sprintSpeed : 5.5
     - type: MovementBodyPartHinderedByShoes
-      hinderModifier: 0.18
+      hinderModifier: 0.15
 
 - type: entity
   id: LeftFootTajaran

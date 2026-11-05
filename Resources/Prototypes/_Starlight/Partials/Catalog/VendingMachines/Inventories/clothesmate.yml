@@ -112,6 +112,7 @@
     ClothingEyesGlassesCheapSunglasses: 3
     ClothingUnderSocksStirrup: 2
     ClothingUnderSocksYellow: 2
+    # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory: !Clear
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1

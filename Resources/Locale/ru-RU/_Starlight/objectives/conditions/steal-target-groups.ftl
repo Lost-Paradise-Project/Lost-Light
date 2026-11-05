@@ -1,7 +1,7 @@
 # Traitor single items
 steal-target-groups-rddiploma = диплом
 steal-target-groups-cmolicense = медицинская лицензия
-steal-target-groups-hypoinjector-combined = гипоспрей главного врача или тактический струйный инъектор бригмедика
+steal-target-groups-hypoinjector-combined = гипоспрей главного врача или тактический струйный инъектор полевого врача
 steal-target-groups-pinpointer-nuclear = ядерный пинпоинтер
 steal-target-groups-access-configurator = конфигуратор доступа
 steal-target-groups-hop-id-card = ID-карта главы персонала
@@ -11,7 +11,7 @@ steal-target-groups-clothing-outer-hardsuit-ce = скафандр главног
 steal-target-groups-jetpack-ce = пустотный реактивный ранец главного инженера
 steal-target-groups-clothing-outer-hardsuit-hos = скафандр главы СБ
 steal-target-groups-clothing-outer-hardsuit-warden = скафандр смотрителя
-steal-target-groups-clothing-outer-hardsuit-brigmedic = скафандр бригмедика
+steal-target-groups-clothing-outer-hardsuit-brigmedic = скафандр полевого врача
 steal-target-groups-clothing-outer-hardsuit-qm = роскошный скафандр «Максим» квартирмейстера
 steal-target-groups-clothing-outer-hardsuit-salvlead = скафандр главы спейсонавтов
 steal-target-groups-clothing-outer-hardsuit-captain = бронированный космический скафандр капитана
@@ -25,7 +25,7 @@ steal-target-groups-security-rare-guns = энергетический дробо
 steal-target-groups-bso-weapon = многофазный энергетический пистолет X-01 офицера Синего щита или служебный пистолет «Блюгард»
 
 # Thief single items
-steal-target-groups-strange-brigmed-bedsheet = странная простыня бригмедика
+steal-target-groups-strange-brigmed-bedsheet = странная простыня полевого врача
 steal-target-groups-salvlead-mantle = церемониальная мантия утилизатора главы утилизаторов
 
 steal-target-groups-firing-pin = боёк
@@ -55,7 +55,7 @@ steal-target-groups-handheld-monitors = портативный монитор
 steal-target-groups-galoshes = калоша
 steal-target-groups-rcd-rpd = РСУ и РПУ
 steal-target-groups-misc-sunglasses = пивные очки, очки музыканта, очки СБ, очки санитара или ноар-очки детектива
-steal-target-groups-rare-sunglasses = очки администрации, навыков, Синего щита или бригмедика
+steal-target-groups-rare-sunglasses = очки администрации, навыков, Синего щита или полевого врача
 steal-target-groups-assistant-headsets = гарнитура ассистента
 steal-target-groups-medical-belts = наполненный медицинский пояс, пояс парамедика, служебный пояс санитара, тактический травматологический пояс, тактическая травматологическая разгрузка, медицинский пояс Синего щита или ремни Синего щита
 

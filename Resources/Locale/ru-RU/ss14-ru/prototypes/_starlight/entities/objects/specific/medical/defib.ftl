@@ -1,4 +1,4 @@
-ent-DefibrillatorBrigmedical = дефибриллятор бригмедика
+ent-DefibrillatorBrigmedical = дефибриллятор полевого врача
     .desc = Портативное устройство, способное спасать жизни и в крайнем случае служить оружием.
 ent-DefibrillatorSyndicateOneHandedUnpowered = { ent-BaseDefibrillator }
     .desc = { ent-BaseDefibrillator.desc }

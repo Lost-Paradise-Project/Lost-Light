@@ -1,4 +1,4 @@
-ent-RandomHumanoidSpawnerETOOperativeRifle = Винтовочный оперативник ЕТО
+ent-RandomHumanoidSpawnerETOOperativeRifle = Оперативник-автоматчик ЕТО
     .desc = { "" }
     .suffix = АДМЕМЕ
 ent-RandomHumanoidSpawnerETOOperativeSMG = Оперативник ЕТО с ПП

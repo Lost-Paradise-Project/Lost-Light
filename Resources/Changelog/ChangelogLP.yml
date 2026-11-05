@@ -279,4 +279,32 @@ Entries:
   id: 40
   time: '2026-11-01T17:53:30.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/59
+- author: MegaDaimond
+  changes:
+  - message: Портирована кастомизация.
+    type: Add
+  id: 41
+  time: '2026-11-05T09:17:16.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/58
+- author: MegaDaimond
+  changes:
+  - message: Исправлены дисплейсменты.
+    type: Fix
+  id: 42
+  time: '2026-11-05T09:42:48.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/57
+- author: MegaDaimond
+  changes:
+  - message: Исправлены переводы.
+    type: Fix
+  id: 43
+  time: '2026-11-05T09:42:48.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/57
+- author: MegaDaimond
+  changes:
+  - message: Исправлены спрайты.
+    type: Fix
+  id: 44
+  time: '2026-11-05T09:42:48.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/57
 Order: -3

@@ -26,9 +26,9 @@ borg-type-SyndicateStealth-name = Скрытность Синдиката
 borg-type-SyndicateStealth-desc = Скрытный киборг, созданный для проникновения, ползания по вентиляции и тайных операций.
 borg-type-SyndicateStealth-transponder = скрытный киборг Синдиката
 
-borg-type-purrfus-name = Мурфус
+borg-type-purrfus-name = Керфур
 borg-type-purrfus-desc = Служит личным помощником для тех, кому нужна помощь с бумагами, особенно членам командования и юридического отдела.
-borg-type-purrfus-transponder = киборг Мурфус
+borg-type-purrfus-transponder = киборг Керфур
 
 borg-type-cargo-name = Карго
 borg-type-cargo-desc = Перевозите грузы, доставляйте заказы и обогащайте станцию!

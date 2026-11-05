@@ -9,7 +9,7 @@ species-name-lagomorph = Лагоморф
 species-name-resomi = Резоми
 species-name-shadekin = Теневик
 species-name-thaven = Тавен
-species-name-rodentia = Грызун
+species-name-rodentia = Мышинец
 species-name-experiment = Эксперимент
 
 species-name-sawian = Савиан

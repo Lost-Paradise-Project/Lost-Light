@@ -26,7 +26,7 @@ chat-speech-verb-name-resomi = Резоми
 chat-speech-verb-resomi-1 = каркает
 chat-speech-verb-resomi-2 = чирикает
 
-chat-speech-verb-name-rodentia = Грызун
+chat-speech-verb-name-rodentia = Мышинец
 chat-speech-verb-rodentia-1 = пищит
 chat-speech-verb-rodentia-2 = пищит
 chat-speech-verb-rodentia-3 = стрекочет

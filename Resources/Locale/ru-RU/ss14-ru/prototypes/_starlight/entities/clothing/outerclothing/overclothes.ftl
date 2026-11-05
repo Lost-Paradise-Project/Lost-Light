@@ -1,4 +1,4 @@
-ent-ClothingOuterBurnedRobes = обугленные мантии
+ent-ClothingOuterBurnedRobes = обугленная мантия
     .desc = Они пестрят следами ожогов и пахнут пеплом.
 ent-ClothingOutercorset = корсет
     .desc = Немного тесноват.

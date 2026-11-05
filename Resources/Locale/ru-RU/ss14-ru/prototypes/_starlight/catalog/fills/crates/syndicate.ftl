@@ -13,6 +13,6 @@ ent-SyndiBorgiKit2Bundle = Набор борги Синдиката
 ent-CrateCybersunDarkGygaxBundle = набор Гигакса Cybersun
     .desc = Содержит набор лёгких бронированных мехов Cybersun.
     .suffix = Заполнен
-ent-CrateCybersunMaulerBundle = набор Мордоворота Cybersun
+ent-CrateCybersunMaulerBundle = набор Маулера Cybersun
     .desc = Содержит набор тяжёлых бронированных мехов Cybersun.
     .suffix = Заполнен

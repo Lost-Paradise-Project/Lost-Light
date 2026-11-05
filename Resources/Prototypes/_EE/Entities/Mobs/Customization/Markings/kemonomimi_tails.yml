@@ -1,0 +1,522 @@
+- type: marking
+  id: BunnyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: bunnytail
+
+- type: marking
+  id: DobleFur
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: doblefurtailtone1
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: doblefurtailtone2
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type: marking
+  id: FluffyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: fluffytail
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type: marking
+  id: FoxNineTails
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: foxninetailstone1
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: foxninetailstone2
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type: marking
+  id: FoxThreeTails
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: foxthreetailstone1
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: foxthreetailstone2
+  emotes:
+    - emotePrototype: Yip
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Whine
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Bark
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Howl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+    - emotePrototype: Growl
+      requiredMarkingsAny:
+        - FopsEar
+        - FoxlikeEar
+        - FoxlikeEarFade
+        - FoxlikeEarSharp
+        - FoxlikeEarWolf
+        - FoxlikeEarFennec
+        - FoxlikeEarFox
+        - FoxlikeEarShock
+        - EarsFox
+        - EarsFennec
+        - MEarsFox
+        - EarsLunasune
+        - EarsOtie
+        - EarsWolf
+        - FoxEarsalt
+
+- type: marking
+  id: HorseTailCulty
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: horsetailculty
+
+- type: marking
+  id: HorseTailLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: horsetaillong
+
+- type: marking
+  id: SharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: sharktail
+
+- type: marking
+  id: TasselTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson, NeoSlimePerson, Human, NeoHuman]
+  rolesRequirement: LPSponsorTier3Req
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: tasseltailtone1
+  - sprite: _EE/Mobs/Customization/kemonomimi-tails.rsi
+    state: tasseltailtone2
