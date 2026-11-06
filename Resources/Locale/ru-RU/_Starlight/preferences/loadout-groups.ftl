@@ -71,6 +71,11 @@ loadout-group-k9-collar = K9, ошейник
 
 loadout-group-detective-lethal = Детектив, летальное личное оружие
 
+loadout-group-gunnery-sergeant-head = Артиллерийский сержант, голова
+loadout-group-gunnery-sergeant-jumpsuit = Артиллерийский сержант, комбинезон
+loadout-group-gunnery-sergeant-outerclothing = Артиллерийский сержант, верхняя одежда
+loadout-group-gunnery-sergeant-neck = Артиллерийский сержант, шея
+
 # Law
 loadout-group-magistrate-jumpsuit = Магистрат, комбинезон
 loadout-group-magistrate-eyewear = Магистрат, очки

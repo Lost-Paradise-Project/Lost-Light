@@ -1,6 +1,7 @@
 ui-options-function-open-m-help = Открыть помощь ментора
 ui-options-function-jump = Прыжок
 ui-options-function-latch-struggle = Вырываться (когда в вас вцепились)
+ui-options-function-hotbar-remove = Убрать с хотбара
 ui-escape-connect-discord = Привязать Discord
 server-info-connect-discord-button = Привязать Discord
 ui-escape-connect-steam = Привязать Steam
@@ -47,8 +48,10 @@ ui-options-radio-chime-mute = Отключить сигналы рации
 
 ui-options-tab-ui = Пользовательский интерфейс
 ui-options-ui-style = Стиль пользовательского интерфейса
+ui-options-classic-styling = Классический стиль
 ui-options-style-theme = Цветовая тема
 ui-options-style-accent = Акцентный цвет
+ui-options-style-secondary-accent = Дополнительный акцентный цвет
 ui-options-style-custom-accent = Свой акцентный цвет
 ui-options-style-accent-custom = Свой
 ui-options-style-accent-theme = Из темы
@@ -136,11 +139,19 @@ ui-options-admin-ghost-hud-setting-health-iconsandbars = Значки и пол�
 ui-options-admin-ghost-hud-show-faction-icons = Показывать значки фракций
 ui-options-admin-ghost-hud-show-satiation-icons = Показывать значки сытости
 
-ui-options-admin-ghost = Настройки админ-призрака
+ui-options-admin-tools = Настройки админ-инструментов
 ui-options-admin-ghost-script-label = Скрипт aghost
 ui-options-admin-ghost-script-tooltip =
     Название скрипта, который вы хотите автоматически запускать при становлении админ-призраком, командой или при наблюдении из лобби.
     Путь указывается относительно каталога данных вашего лаунчера, обычно внутри AppData в Windows или .local/share в Linux.
+ui-options-admin-space-map-label = Путь к админской арене
+ui-options-admin-space-map-tooltip =
+    Путь к .yml-файлу карты, которую нужно загружать как вашу админскую арену.
+    Если оставить пустым, будет использована карта по умолчанию.
+    Сначала проверяются пользовательские данные сервера, затем данные контента.
+ui-options-admin-space-map-init-label = Инициализировать админскую арену
+ui-options-admin-space-map-init-tooltip =
+  Если включено, карта инициализируется при загрузке. Если выключено, карта появляется неинициализированной.
 
 ## Theme
 
@@ -182,3 +193,5 @@ ui-options-handling-volume = Подбор и экипировка:
 ui-options-combat-volume = Оружие и бой:
 ui-options-voice-volume = Голоса и эмоции:
 ui-options-announcement-volume = Объявления и тревоги:
+ui-options-admin-sounds-volume = Админские звуки:
+ui-options-show-tippy = Показывать Типпи

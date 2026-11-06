@@ -1,6 +1,6 @@
+using Content.Shared._Corvax.Documents;
 using Content.Shared.Access.Components;
 using Content.Shared.Containers.ItemSlots;
-using Content.Shared._Corvax.Documents;
 using Content.Shared.Lathe;
 using Content.Shared.Paper;
 using Content.Shared.Station;
@@ -35,12 +35,10 @@ public sealed partial class DocumentPrinterSystem : EntitySystem
         _paper.SetContent((result.ResultItem, paper), FormatString(paper.Content, stationName, idCard));
     }
 
-    public string FormatString(string content, string? station, IdCardComponent? idCard = null)
-    {
+    public string FormatString(string content, string? station, IdCardComponent? idCard = null) =>
         // Дату ставит игрок тегом [datetime]
-        return content
+        content
             .Replace(Loc.GetString("doc-var-station"), station ?? Loc.GetString("doc-text-printer-default-station"))
             .Replace(Loc.GetString("doc-var-name"), idCard?.FullName ?? Loc.GetString("doc-text-printer-default-name"))
             .Replace(Loc.GetString("doc-var-job"), idCard?.LocalizedJobTitle ?? Loc.GetString("doc-text-printer-default-job"));
-    }
 }

@@ -1,6 +1,6 @@
 using Content.Shared._LP.VoiceMask;
-using Content.Shared.ActionBlocker;
 using Content.Shared._Starlight.TextToSpeech;
+using Content.Shared.ActionBlocker;
 using Content.Shared.Database;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
@@ -14,10 +14,7 @@ public sealed partial class VoiceMaskSystem
     [Dependency] private ActionBlockerSystem _lpActionBlocker = default!;
     [Dependency] private SharedInteractionSystem _lpInteraction = default!;
 
-    private void InitializeLP()
-    {
-        SubscribeLocalEvent<VoiceMaskComponent, VoiceMaskChangeTtsVoiceMessage>(OnChangeTtsVoice);
-    }
+    private void InitializeLP() => SubscribeLocalEvent<VoiceMaskComponent, VoiceMaskChangeTtsVoiceMessage>(OnChangeTtsVoice);
 
     /// <summary>
     /// Клиенту нельзя доверять ID голоса: принимаем только те голоса, что доступны в создании персонажа.

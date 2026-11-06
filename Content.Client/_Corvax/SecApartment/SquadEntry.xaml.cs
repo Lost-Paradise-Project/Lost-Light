@@ -33,7 +33,7 @@ public sealed partial class SquadEntry : PanelContainer
 
     private bool _isEditingName;
     private bool _isEditingDescription;
-    private Dictionary<string, PanelContainer> _memberPanels = new();
+    private readonly Dictionary<string, PanelContainer> _memberPanels = new();
 
     public SquadEntry(Squad squad, SecApartmentStyles styles, IPrototypeManager protoMan, SpriteSystem sprite)
     {
@@ -327,10 +327,7 @@ public sealed partial class SquadEntry : PanelContainer
         };
         removeButton.AddStyleClass(SecApartmentStyles.StyleClassButtonRed);
 
-        removeButton.OnPressed += _ =>
-        {
-            OnRemoveMemberPressed?.Invoke(member.MemberId);
-        };
+        removeButton.OnPressed += _ => OnRemoveMemberPressed?.Invoke(member.MemberId);
 
         container.AddChild(infoContainer);
         container.AddChild(removeButton);
@@ -385,12 +382,9 @@ public sealed partial class SquadEntry : PanelContainer
                 if (nameContainer != null)
                 {
                     var nameLabel = nameContainer.Children.OfType<Label>().FirstOrDefault();
-                    if (nameLabel != null)
-                    {
-                        nameLabel.FontColorOverride = status?.IsAlive == false
+                    nameLabel?.FontColorOverride = status?.IsAlive == false
                             ? Color.FromHex("#888888")
                             : SecApartmentStyles.TextColor;
-                    }
 
                     var statusIcon = nameContainer.Children.OfType<AnimatedTextureRect>().FirstOrDefault();
                     if (statusIcon != null)
@@ -470,7 +464,7 @@ public sealed partial class SquadEntry : PanelContainer
 
         if (_isEditingDescription)
         {
-            SquadDescriptionEdit.Text = Squad.Description ?? "";
+            SquadDescriptionEdit.Text = Squad.Description;
             SquadDescriptionEdit.GrabKeyboardFocus();
         }
     }
@@ -494,45 +488,39 @@ public sealed partial class SquadEntry : PanelContainer
         UpdateEditMode();
     }
 
-    private string GetStatusText(SquadStatus status)
+    private string GetStatusText(SquadStatus status) => status switch
     {
-        return status switch
-        {
-            SquadStatus.Active => Loc.GetString("sec-apartment-active"),
-            SquadStatus.OnBreak => Loc.GetString("sec-apartment-on-break"),
-            _ => Loc.GetString("sec-apartment-unknown")
-        };
-    }
+        SquadStatus.Active => Loc.GetString("sec-apartment-active"),
+        SquadStatus.OnBreak => Loc.GetString("sec-apartment-on-break"),
+        _ => Loc.GetString("sec-apartment-unknown")
+    };
 
-    private string GetIconText(SquadIconNum icon)
+    private string GetIconText(SquadIconNum icon) => icon switch
     {
-        return icon switch
-        {
-            SquadIconNum.Alpha => Loc.GetString("sec-apartment-icon-alpha"),
-            SquadIconNum.Beta => Loc.GetString("sec-apartment-icon-beta"),
-            SquadIconNum.Gamma => Loc.GetString("sec-apartment-icon-gamma"),
-            SquadIconNum.Delta => Loc.GetString("sec-apartment-icon-delta"),
-            SquadIconNum.Epsilon => Loc.GetString("sec-apartment-icon-epsilon"),
-            SquadIconNum.Zeta => Loc.GetString("sec-apartment-icon-zeta"),
-            SquadIconNum.Heta => Loc.GetString("sec-apartment-icon-heta"),
-            SquadIconNum.Theta => Loc.GetString("sec-apartment-icon-theta"),
-            SquadIconNum.Iota => Loc.GetString("sec-apartment-icon-iota"),
-            SquadIconNum.Kappa => Loc.GetString("sec-apartment-icon-kappa"),
-            SquadIconNum.Lambda => Loc.GetString("sec-apartment-icon-lambda"),
-            SquadIconNum.Mu => Loc.GetString("sec-apartment-icon-mu"),
-            SquadIconNum.Nu => Loc.GetString("sec-apartment-icon-nu"),
-            SquadIconNum.Xi => Loc.GetString("sec-apartment-icon-xi"),
-            SquadIconNum.Omicron => Loc.GetString("sec-apartment-icon-omicron"),
-            SquadIconNum.Pi => Loc.GetString("sec-apartment-icon-pi"),
-            SquadIconNum.Ro => Loc.GetString("sec-apartment-icon-ro"),
-            SquadIconNum.Sigma => Loc.GetString("sec-apartment-icon-sigma"),
-            SquadIconNum.Tau => Loc.GetString("sec-apartment-icon-tau"),
-            SquadIconNum.Upsilon => Loc.GetString("sec-apartment-icon-upsilon"),
-            SquadIconNum.Fi => Loc.GetString("sec-apartment-icon-fi"),
-            SquadIconNum.Hi => Loc.GetString("sec-apartment-icon-hi"),
-            SquadIconNum.Psi => Loc.GetString("sec-apartment-icon-psi"),
-            SquadIconNum.Omega => Loc.GetString("sec-apartment-icon-omega"),
-            _ => Loc.GetString("sec-apartment-unknown")
-        };
-    }
+        SquadIconNum.Alpha => Loc.GetString("sec-apartment-icon-alpha"),
+        SquadIconNum.Beta => Loc.GetString("sec-apartment-icon-beta"),
+        SquadIconNum.Gamma => Loc.GetString("sec-apartment-icon-gamma"),
+        SquadIconNum.Delta => Loc.GetString("sec-apartment-icon-delta"),
+        SquadIconNum.Epsilon => Loc.GetString("sec-apartment-icon-epsilon"),
+        SquadIconNum.Zeta => Loc.GetString("sec-apartment-icon-zeta"),
+        SquadIconNum.Heta => Loc.GetString("sec-apartment-icon-heta"),
+        SquadIconNum.Theta => Loc.GetString("sec-apartment-icon-theta"),
+        SquadIconNum.Iota => Loc.GetString("sec-apartment-icon-iota"),
+        SquadIconNum.Kappa => Loc.GetString("sec-apartment-icon-kappa"),
+        SquadIconNum.Lambda => Loc.GetString("sec-apartment-icon-lambda"),
+        SquadIconNum.Mu => Loc.GetString("sec-apartment-icon-mu"),
+        SquadIconNum.Nu => Loc.GetString("sec-apartment-icon-nu"),
+        SquadIconNum.Xi => Loc.GetString("sec-apartment-icon-xi"),
+        SquadIconNum.Omicron => Loc.GetString("sec-apartment-icon-omicron"),
+        SquadIconNum.Pi => Loc.GetString("sec-apartment-icon-pi"),
+        SquadIconNum.Ro => Loc.GetString("sec-apartment-icon-ro"),
+        SquadIconNum.Sigma => Loc.GetString("sec-apartment-icon-sigma"),
+        SquadIconNum.Tau => Loc.GetString("sec-apartment-icon-tau"),
+        SquadIconNum.Upsilon => Loc.GetString("sec-apartment-icon-upsilon"),
+        SquadIconNum.Fi => Loc.GetString("sec-apartment-icon-fi"),
+        SquadIconNum.Hi => Loc.GetString("sec-apartment-icon-hi"),
+        SquadIconNum.Psi => Loc.GetString("sec-apartment-icon-psi"),
+        SquadIconNum.Omega => Loc.GetString("sec-apartment-icon-omega"),
+        _ => Loc.GetString("sec-apartment-unknown")
+    };
 }

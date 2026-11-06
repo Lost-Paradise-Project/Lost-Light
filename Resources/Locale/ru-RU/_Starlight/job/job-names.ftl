@@ -9,11 +9,14 @@ job-name-medical-assistant = медицинский ассистент
 job-name-gardener-assistant = помощник садовника
 job-name-clerical-assistant = помощник делопроизводителя
 job-name-janitor-assistant = помощник уборщика
+job-name-scurret = слизенёк эмоциональной поддержки
+job-name-syndicate-scurret = подкрепление Синдиката: слизенёк
 
 # Role timers - Apparently someone from upstream will cut us if these aren't alphabetical?
 JobBlueShield = офицер «Синего щита»
 JobBoxer = боксёр
 JobDutyOfficer = дежурный офицер
+JobEmotionalSupportScurret = Слизенёк эмоциональной поддержки
 JobIAA = агент внутренних дел
 JobK9 = служебная собака СБ
 JobMagistrate = магистрат

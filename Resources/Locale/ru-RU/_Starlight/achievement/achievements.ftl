@@ -145,6 +145,9 @@ achievement-first-kindred-description = Выполните цели суммар
 achievement-enemy-unknown-name = Неизвестный враг
 achievement-enemy-unknown-description = Выполните цели суммарной сложностью не менее 10 за одну смену в роли генокрада.
 
+achievement-blood-herald-name = Вестник крови
+achievement-blood-herald-description = Выполните цели суммарной сложностью не менее 10 за один раунд, будучи связанным кровью.
+
 achievement-theory-of-objectivity-name = Теория объективности
 achievement-theory-of-objectivity-description = Получите достижения «Элитный подрядчик», «Призрачный вор», «Первородный» и «Неизвестный враг».
 
@@ -178,5 +181,6 @@ achievement-category-vampire = Вампир
 achievement-category-traitor = Предатель
 achievement-category-thief = Вор
 achievement-category-changeling = Генокрад
+achievement-category-bloodbound = Связанный кровью
 achievement-category-revolutionary = Революционер
 achievement-category-nukeops = Ядерный оперативник

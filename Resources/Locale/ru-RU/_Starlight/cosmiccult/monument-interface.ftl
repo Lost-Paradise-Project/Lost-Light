@@ -18,6 +18,11 @@ monument-interface-entropy-crew-convert-title = Обращений до след
 monument-interface-glyphs-title = Глифы
 monument-interface-glyphs-button-scribe = Начертить глиф
 monument-interface-glyphs-button-unscribe = Стереть глиф
+monument-interface-glyphs-requires-cultists = { $count ->
+    [one] Для вызова на глифе должен находиться 1 культист.
+    [few] Для вызова на глифе должны находиться { $count } культиста.
+    *[other] Для вызова на глифе должны находиться { $count } культистов.
+}
 
 # Influences
 monument-interface-influences-title = Влияния

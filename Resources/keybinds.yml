@@ -659,7 +659,7 @@ binds:
   type: State
   key: MouseRight
   canFocus: true
-# 🌟Starlight🌟
+# Starlight-start
 - function: Jump
   type: State
   key: Space
@@ -668,6 +668,11 @@ binds:
 - function: LatchStruggle
   type: State
   key: Space
+- function: HotbarRemove
+  type: State
+  key: MouseRight
+  canFocus: true
+# Starlight-end
 # Orion-Start
 - function: TogglePosing
   type: State

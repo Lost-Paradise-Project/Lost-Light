@@ -1,5 +1,9 @@
-ent-BaseMilkCrate = { ent-BaseStructureDynamic }
+ent-BaseMilkCrateBody = { ent-BaseStructureDynamic }
     .desc = { ent-BaseStructureDynamic.desc }
+ent-BaseMilkCrate = { ent-BaseMilkCrateBody }
+    .desc = { ent-BaseMilkCrateBody.desc }
+ent-BaseRecordCrate = { ent-BaseMilkCrateBody }
+    .desc = { ent-BaseMilkCrateBody.desc }
 ent-RecordMilkCrate = ящик для пластинок
     .desc = Прочный пластиковый ящик из-под молока, приспособленный для хранения виниловых пластинок в конвертах. Больше в него ничего не влезет.
 ent-RecordMilkCrateFilled = { ent-RecordMilkCrate }

@@ -2,7 +2,7 @@
                xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls">
     <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
         <!-- LP edit: фиксированная ширина, иначе список рецептов меняет ширину окна при прокрутке под длину видимых названий -->
-        <BoxContainer Orientation="Vertical" SetWidth="320" Margin="0 0 5 0">
+        <BoxContainer Orientation="Vertical" SetWidth="290" Margin="0 0 5 0"> <!-- LP edit - список рецептов чуть уже -->
             <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 0 0 5">
                 <LineEdit Name="SearchBar" PlaceHolder="{Loc 'construction-menu-search'}" HorizontalExpand="True"/>
                 <OptionButton Name="OptionCategories" Access="Public" MinSize="130 0"/>
@@ -12,7 +12,7 @@
                 <GridContainer Name="RecipesGrid" Columns="5" Access="Public"/>
             </ScrollContainer>
         </BoxContainer>
-        <BoxContainer Orientation="Vertical" HorizontalExpand="True">
+        <BoxContainer Orientation="Vertical" HorizontalExpand="True" MinSize="360 0"> <!-- LP edit - окно чуть шире вправо -->
             <BoxContainer Orientation="Horizontal">
                 <Button Name="MenuGridViewButton" ToggleMode="True" Text="{Loc construction-menu-grid-view}"/>
                 <Button Name="FavoriteButton" Visible="false"/>

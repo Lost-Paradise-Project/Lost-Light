@@ -28,6 +28,7 @@ job-name-performer = артист
 job-name-salvagelead = глава утилизаторов
 job-name-salvagemedic = медик утилизаторов
 job-name-dutyofficer = дежурный офицер
+job-name-gunnerysergeant = артиллерийский сержант
 job-name-k9 = служебная собака СБ
 job-name-assistantmanager = помощник управляющего
 job-name-abductor = похититель

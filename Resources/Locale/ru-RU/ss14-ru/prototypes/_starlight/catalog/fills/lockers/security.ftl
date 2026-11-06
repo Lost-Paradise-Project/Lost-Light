@@ -16,3 +16,6 @@ ent-GunSafeLMG = сейф тяжёлого оружия
 ent-GunSafeMelee = сейф холодного оружия
     .desc = Содержит набор тяжёлого холодного оружия.
     .suffix = { ent-GunSafeBaseArmorySL.suffix }
+ent-LockerGunnerySergeantFilled = { ent-LockerGunnerySergeant }
+    .desc = { ent-LockerGunnerySergeant.desc }
+    .suffix = Заполненный

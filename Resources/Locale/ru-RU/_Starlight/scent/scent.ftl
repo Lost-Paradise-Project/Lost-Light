@@ -21,6 +21,9 @@ scent-sniff-no-scents = На { $target } нет запахов!
 scent-sneeze-popup = Вы очищаете нос от выслеживаемого запаха.
 scent-track-fades-popup = Запах, по которому вы шли, развеивается...
 
+scent-sneeze-allergic = Аллергия заставляет вас чихнуть!
+pollen-allergy-nose-itch = От аллергии у вас чешется нос.
+
 scent-cleaning-self = Вы начинаете смывать { $evidence } с себя...
 scent-cleaning-other = Вы начинаете смывать { $evidence } с { $target }...
 scent-cleaning-cannot-clean-self = У вас нет улик, которые можно смыть.

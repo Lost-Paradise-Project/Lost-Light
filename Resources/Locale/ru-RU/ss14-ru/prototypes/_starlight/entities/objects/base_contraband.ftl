@@ -28,3 +28,5 @@ ent-BaseETOContraband = { ent-BaseContrabandTier3 }
     .desc = { ent-BaseContrabandTier3.desc }
 ent-BaseMedTakContraband = { "" }
     .desc = { "" }
+ent-BaseEmotionalSupportScurretContraband = { ent-BaseRestrictedContraband }
+    .desc = { ent-BaseRestrictedContraband.desc }
