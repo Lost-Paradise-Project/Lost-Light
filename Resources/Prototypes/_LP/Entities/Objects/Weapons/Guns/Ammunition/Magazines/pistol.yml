@@ -1,0 +1,144 @@
+- type: entity
+  id: LPPBaseMagazinePistolPF20
+  name: "Pistol magazine (.20)"
+  parent: [BaseItem, BaseSecurityContraband]
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - LPPMagazinePistolRifle
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle
+    capacity: 15
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Ammunition/Magazine/PF20mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: LPPMagazinePistolPF20Empty
+  name: Pistol magazine (.20 any)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+  - type: Sprite
+    layers:
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20SP
+  name: Pistol magazine (.20 SP)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleSP
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20AP
+  name: Pistol magazine (.20 AP)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleAP
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20HP
+  name: Pistol magazine (.20 HP)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleHP
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20FMJ
+  name: Pistol magazine (.20 FMJ)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleSP
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20Practice
+  name: Pistol magazine (.20 practice)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRiflePractice
+  - type: Sprite
+    layers:
+    - state: practice
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+      color: "#dbdbdb"
+
+- type: entity
+  id: LPPMagazinePistolPF20Uranium
+  name: Pistol magazine (.20 uranium)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleUranium
+  - type: Sprite
+    layers:
+    - state: uranium
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+      color: "#65fe08"
+
+- type: entity
+  id: LPPMagazinePistolPF20Incendiary
+  name: Pistol magazine (.20 incendiary)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleIncendiary
+  - type: Sprite
+    layers:
+    - state: piercing
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
