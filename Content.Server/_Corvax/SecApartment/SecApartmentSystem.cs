@@ -1,3 +1,5 @@
+using System.Linq;
+using System.Numerics;
 using Content.Server.CrewManifest;
 using Content.Server.DeviceLinking.Components;
 using Content.Server.Medical.CrewMonitoring;
@@ -15,8 +17,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-using System.Linq;
-using System.Numerics;
 
 namespace Content.Server._Corvax.SecApartment;
 
@@ -190,10 +190,7 @@ public sealed partial class SecApartmentSystem : EntitySystem
             args.Cancel();
     }
 
-    private void OnUIOpened(Entity<SecApartmentComponent> ent, ref BoundUIOpenedEvent args)
-    {
-        UpdateUi(ent.Owner, ent.Comp);
-    }
+    private void OnUIOpened(Entity<SecApartmentComponent> ent, ref BoundUIOpenedEvent args) => UpdateUi(ent.Owner, ent.Comp);
 
     private void OnRoundRestart(RoundRestartCleanupEvent ev)
     {
@@ -481,10 +478,7 @@ public sealed partial class SecApartmentSystem : EntitySystem
         return result;
     }
 
-    private string GenerateMemberId(CrewManifestEntry entry)
-    {
-        return $"{entry.Name.GetHashCode():X8}_{entry.JobPrototype}_{entry.JobTitle.GetHashCode():X8}";
-    }
+    private string GenerateMemberId(CrewManifestEntry entry) => $"{entry.Name.GetHashCode():X8}_{entry.JobPrototype}_{entry.JobTitle.GetHashCode():X8}";
 
     private (string Location, bool HasLocation) GetSquadApproximateLocation(Squad squad, List<CrewMemberInfo> securityCrew)
     {
@@ -533,37 +527,34 @@ public sealed partial class SecApartmentSystem : EntitySystem
         }
     }
 
-    private string GetIconPrototypeId(SquadIconNum icon)
+    private string GetIconPrototypeId(SquadIconNum icon) => icon switch
     {
-        return icon switch
-        {
-            SquadIconNum.Alpha => "SecuritySquadIconAlpha",
-            SquadIconNum.Beta => "SecuritySquadIconBeta",
-            SquadIconNum.Gamma => "SecuritySquadIconGamma",
-            SquadIconNum.Delta => "SecuritySquadIconDelta",
-            SquadIconNum.Epsilon => "SecuritySquadIconEpsilon",
-            SquadIconNum.Zeta => "SecuritySquadIconZeta",
-            SquadIconNum.Heta => "SecuritySquadIconHeta",
-            SquadIconNum.Theta => "SecuritySquadIconTheta",
-            SquadIconNum.Iota => "SecuritySquadIconIota",
-            SquadIconNum.Kappa => "SecuritySquadIconKappa",
-            SquadIconNum.Lambda => "SecuritySquadIconLambda",
-            SquadIconNum.Mu => "SecuritySquadIconMu",
-            SquadIconNum.Nu => "SecuritySquadIconNu",
-            SquadIconNum.Xi => "SecuritySquadIconXi",
-            SquadIconNum.Omicron => "SecuritySquadIconOmicron",
-            SquadIconNum.Pi => "SecuritySquadIconPi",
-            SquadIconNum.Ro => "SecuritySquadIconRo",
-            SquadIconNum.Sigma => "SecuritySquadIconSigma",
-            SquadIconNum.Tau => "SecuritySquadIconTau",
-            SquadIconNum.Upsilon => "SecuritySquadIconUpsilon",
-            SquadIconNum.Fi => "SecuritySquadIconFi",
-            SquadIconNum.Hi => "SecuritySquadIconHi",
-            SquadIconNum.Psi => "SecuritySquadIconPsi",
-            SquadIconNum.Omega => "SecuritySquadIconOmega",
-            _ => "SecuritySquadIconAlpha"
-        };
-    }
+        SquadIconNum.Alpha => "SecuritySquadIconAlpha",
+        SquadIconNum.Beta => "SecuritySquadIconBeta",
+        SquadIconNum.Gamma => "SecuritySquadIconGamma",
+        SquadIconNum.Delta => "SecuritySquadIconDelta",
+        SquadIconNum.Epsilon => "SecuritySquadIconEpsilon",
+        SquadIconNum.Zeta => "SecuritySquadIconZeta",
+        SquadIconNum.Heta => "SecuritySquadIconHeta",
+        SquadIconNum.Theta => "SecuritySquadIconTheta",
+        SquadIconNum.Iota => "SecuritySquadIconIota",
+        SquadIconNum.Kappa => "SecuritySquadIconKappa",
+        SquadIconNum.Lambda => "SecuritySquadIconLambda",
+        SquadIconNum.Mu => "SecuritySquadIconMu",
+        SquadIconNum.Nu => "SecuritySquadIconNu",
+        SquadIconNum.Xi => "SecuritySquadIconXi",
+        SquadIconNum.Omicron => "SecuritySquadIconOmicron",
+        SquadIconNum.Pi => "SecuritySquadIconPi",
+        SquadIconNum.Ro => "SecuritySquadIconRo",
+        SquadIconNum.Sigma => "SecuritySquadIconSigma",
+        SquadIconNum.Tau => "SecuritySquadIconTau",
+        SquadIconNum.Upsilon => "SecuritySquadIconUpsilon",
+        SquadIconNum.Fi => "SecuritySquadIconFi",
+        SquadIconNum.Hi => "SecuritySquadIconHi",
+        SquadIconNum.Psi => "SecuritySquadIconPsi",
+        SquadIconNum.Omega => "SecuritySquadIconOmega",
+        _ => "SecuritySquadIconAlpha"
+    };
 
     private static string SanitizeString(string input, int maxLength)
     {
@@ -573,15 +564,9 @@ public sealed partial class SecApartmentSystem : EntitySystem
         return sanitized;
     }
     #region Timers
-    private void OnTimerStartup(EntityUid uid, ActiveSignalTimerComponent component, ComponentStartup args)
-    {
-        AddTimerToTrack(uid);
-    }
+    private void OnTimerStartup(EntityUid uid, ActiveSignalTimerComponent component, ComponentStartup args) => AddTimerToTrack(uid);
 
-    private void OnTimerComponentShutdown(EntityUid uid, SignalTimerComponent component, ComponentShutdown args)
-    {
-        RemoveTimerFromTrack(uid);
-    }
+    private void OnTimerComponentShutdown(EntityUid uid, SignalTimerComponent component, ComponentShutdown args) => RemoveTimerFromTrack(uid);
 
     private void AddTimerToTrack(EntityUid timerUid)
     {

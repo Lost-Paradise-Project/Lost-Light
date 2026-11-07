@@ -11,15 +11,9 @@ public sealed partial class HolidayEffectsSystem : EntitySystem
 
     private readonly HashSet<string> _forced = new();
 
-    public override void Initialize()
-    {
-        SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestartCleanup);
-    }
+    public override void Initialize() => SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestartCleanup);
 
-    private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev)
-    {
-        _forced.Clear();
-    }
+    private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev) => _forced.Clear();
 
     public bool HolidaysEnabled => _holiday.enabled;
 

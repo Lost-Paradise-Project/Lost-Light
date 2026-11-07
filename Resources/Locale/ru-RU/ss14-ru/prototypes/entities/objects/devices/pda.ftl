@@ -169,5 +169,5 @@ ent-ChameleonAgentPDA = { ent-ChameleonPDA }
     .suffix = Хамелеон, ID Агента
 ent-WizardPDA = КПК волшебника
     .desc = Вы слышите слабый шёпот, доносящийся из него.
-ent-ScurretPDA = { ent-ClearPDA }
+ent-ScurretPDA = КПК слизенька
     .desc = Временный КПК, выдаваемый временным слизенькам. Не делает ничего особенного. Вава!

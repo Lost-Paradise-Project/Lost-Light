@@ -15,11 +15,14 @@ public sealed partial class HardsuitDnaComponent : Component
     [DataField, AutoNetworkedField]
     public string? Dna;
 
-    [DataField, AutoNetworkedField]
-    public bool Locked;
-
     [DataField]
     public TimeSpan CountdownDuration = TimeSpan.FromSeconds(5);
+
+    [DataField]
+    public TimeSpan FinalDelay = TimeSpan.FromSeconds(1);
+
+    [DataField]
+    public int CountVoiceFrom = 3;
 
     [DataField]
     public float ExplosionIntensity = 1f;

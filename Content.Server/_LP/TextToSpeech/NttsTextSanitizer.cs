@@ -20,17 +20,14 @@ public static partial class NttsTextSanitizer
         return text.Trim();
     }
 
-    private static string ReplaceNumber(Match match)
-    {
-        return long.TryParse(match.Value, out var number)
+    private static string ReplaceNumber(Match match) => long.TryParse(match.Value, out var number)
             ? RussianNumbers.NumberToText(number)
             : match.Value;
-    }
 
     private static string ReplaceWord(Match match)
     {
         var word = match.Value;
-        if (WordReplacement.TryGetValue(word.ToLowerInvariant(), out var replacement))
+        if (_wordReplacement.TryGetValue(word.ToLowerInvariant(), out var replacement))
             return replacement;
 
         if (!LatinRegex().IsMatch(word))
@@ -38,7 +35,7 @@ public static partial class NttsTextSanitizer
 
         // Латиница -> кириллица, затем ещё раз словарь: NT -> нт -> Эн Тэ
         word = LatinRegex().Replace(word, m => Transliterate(m.Value));
-        return WordReplacement.GetValueOrDefault(word.ToLowerInvariant(), word);
+        return _wordReplacement.GetValueOrDefault(word.ToLowerInvariant(), word);
     }
 
     private static string Transliterate(string word)
@@ -51,7 +48,7 @@ public static partial class NttsTextSanitizer
             var matched = false;
             for (var len = MaxTranslitLength; len > 0; len--)
             {
-                if (i + len > lower.Length || !ReverseTranslit.TryGetValue(lower.Substring(i, len), out var cyr))
+                if (i + len > lower.Length || !_reverseTranslit.TryGetValue(lower.Substring(i, len), out var cyr))
                     continue;
 
                 result.Append(cyr);
@@ -91,7 +88,7 @@ public static partial class NttsTextSanitizer
 
     private const int MaxTranslitLength = 3;
 
-    private static readonly IReadOnlyDictionary<string, string> WordReplacement =
+    private static readonly IReadOnlyDictionary<string, string> _wordReplacement =
         new Dictionary<string, string>()
         {
             {"нт", "Эн Тэ"},
@@ -188,7 +185,7 @@ public static partial class NttsTextSanitizer
             {"рпс", "Эр Пэ Эс"},
         };
 
-    private static readonly IReadOnlyDictionary<string, string> ReverseTranslit =
+    private static readonly IReadOnlyDictionary<string, string> _reverseTranslit =
         new Dictionary<string, string>()
         {
             {"a", "а"},
@@ -233,7 +230,7 @@ public static partial class NttsTextSanitizer
 /// </summary>
 internal static class RussianNumbers
 {
-    private static readonly string[] Frac20Male =
+    private static readonly string[] _frac20Male =
     {
         "", "один", "два", "три", "четыре", "пять", "шесть",
         "семь", "восемь", "девять", "десять", "одиннадцать",
@@ -241,7 +238,7 @@ internal static class RussianNumbers
         "шестнадцать", "семнадцать", "восемнадцать", "девятнадцать"
     };
 
-    private static readonly string[] Frac20Female =
+    private static readonly string[] _frac20Female =
     {
         "", "одна", "две", "три", "четыре", "пять", "шесть",
         "семь", "восемь", "девять", "десять", "одиннадцать",
@@ -249,13 +246,13 @@ internal static class RussianNumbers
         "шестнадцать", "семнадцать", "восемнадцать", "девятнадцать"
     };
 
-    private static readonly string[] Hunds =
+    private static readonly string[] _hunds =
     {
         "", "сто", "двести", "триста", "четыреста",
         "пятьсот", "шестьсот", "семьсот", "восемьсот", "девятьсот"
     };
 
-    private static readonly string[] Tens =
+    private static readonly string[] _tens =
     {
         "", "десять", "двадцать", "тридцать", "сорок", "пятьдесят",
         "шестьдесят", "семьдесят", "восемьдесят", "девяносто"
@@ -284,17 +281,17 @@ internal static class RussianNumbers
 
         var hundreds = (int) (value / 100);
         if (hundreds != 0)
-            AppendWithSpace(str, Hunds[hundreds]);
+            AppendWithSpace(str, _hunds[hundreds]);
 
         var less100 = (int) (value % 100);
-        var frac20 = male ? Frac20Male : Frac20Female;
+        var frac20 = male ? _frac20Male : _frac20Female;
         if (less100 < 20)
         {
             AppendWithSpace(str, frac20[less100]);
         }
         else
         {
-            AppendWithSpace(str, Tens[less100 / 10]);
+            AppendWithSpace(str, _tens[less100 / 10]);
             var less10 = less100 % 10;
             if (less10 != 0)
                 str.Append(" " + frac20[less10]);

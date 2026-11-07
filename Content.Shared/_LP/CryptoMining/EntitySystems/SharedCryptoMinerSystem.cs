@@ -86,12 +86,9 @@ public abstract partial class SharedCryptoMinerSystem : EntitySystem
         args.Handled = true;
     }
 
-    public CryptoMinerChipComponent? GetChip(Entity<CryptoMinerComponent> ent)
-    {
-        return _itemSlots.GetItemOrNull(ent, ent.Comp.ChipSlot) is { } chip
+    public CryptoMinerChipComponent? GetChip(Entity<CryptoMinerComponent> ent) => _itemSlots.GetItemOrNull(ent, ent.Comp.ChipSlot) is { } chip
             ? CompOrNull<CryptoMinerChipComponent>(chip)
             : null;
-    }
 
     /// <summary>Потребление от ЛКП с учётом емага и чипа, Вт.</summary>
     public float GetPowerDraw(Entity<CryptoMinerComponent> ent, bool emagged)

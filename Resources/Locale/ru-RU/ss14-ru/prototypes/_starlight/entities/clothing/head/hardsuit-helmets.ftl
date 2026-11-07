@@ -73,3 +73,5 @@ ent-ChangelingClothingHeadHelmetHardsuit = органический космич
     .suffix = Неснимаемый
 ent-ClothingHeadHelmetHardsuitLossPrevention = шлем службы предотвращения потерь МТГ
     .desc = Сбоку по царапине за каждого магазинного вора, которому не посчастливилось увидеть этот шлем.
+ent-ClothingHeadHelmetHardsuitSergeant = шлем скафандра артиллерийского сержанта
+    .desc = Бронированный шлем скафандра обтекаемой формы.

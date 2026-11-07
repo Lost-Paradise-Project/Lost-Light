@@ -35,5 +35,6 @@ objective-picker-difficulty-value = { $difficulty }
 
 objective-picker-hidden-help-progress = Помочь другому предателю достичь его целей.
 objective-picker-hidden-help-alive = Сохранить жизнь другому предателю.
+objective-picker-hidden-steal-heart = Украсть чьё-то сердце.
 objective-picker-under-budget-tip = Оставшиеся варианты не позволяют набрать требуемую сложность. Вы можете подтвердить меньший выбор.
 objective-condition-escape-identity-eliminate-title = Сбежать живым и без ограничений под видом { $targetName }, { CAPITALIZE($job) }, и не дать этому человеку добраться до ЦентКома.

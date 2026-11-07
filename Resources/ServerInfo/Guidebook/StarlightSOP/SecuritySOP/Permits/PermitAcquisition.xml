@@ -5,168 +5,168 @@ If a Syndicate item is level three and therefore can be approved by the HoS, and
 Please really think before changing this SOP if it is actually needed, or if it can be resolved by just changing the items.
 -->
 <Document>
-# Equipment, Weapons and Combat Gear Permits Guide
+# Разрешения на снаряжение, оружие и боевую экипировку
 
-[italic]Permit approval is a privilege, not a right. No one is obligated to sign, and permits are void if not kept on your person.[/italic]
+[italic]Одобрение разрешения - привилегия, а не право. Никто не обязан его подписывать, а разрешение недействительно, если вы не носите его с собой.[/italic]
 
-## Approval Process
+## Порядок одобрения
 
-- [bold]Order of Approval:[/bold] Seek stamps in the following order: Item Origin, [color=#fce742]Relevant Leader[/color], [color=#fcdf03]Captain[/color], [color=#86d420]Central Command[/color].
-- [bold]Relevant Leader:[/bold] The officially recognized highest-ranking person on station for a department or corporation listed on an item's approved list, such as the department head or interim department head.
-- [bold]Item Origin:[/bold] If an item physically originates from a specific department or corporation, approval must come from that department's [color=#fce742]Relevant Leader[/color]. Items without a origin (such as items found in maintenance) can be approved by any [color=#fce742]Relevant Leader[/color].
-- [bold]NT-CC Items:[/bold] Any item approved for at least one NT-CC department must have a stamp from at least one of their [color=#fce742]Relevant Leaders[/color] (in addition to its origin, if applicable). Items not approved for any NT-CC department only need a [color=#fce742]Relevant Leader[/color] stamp from the Affiliated Corporation, barring weapons and enemy organizations which still need the below additional approval.
-- [bold]Enemy Organizations:[/bold] Since there are no officially recognized [color=#fce742]Relevant Leaders[/color] for enemy organizations, use the Enemy Organizations column in the table below to determine the [color=#fce742]Relevant Leader[/color] for said item.
-- [bold]Weapons & Combat Gear:[/bold] These items follow equipment permits but require additional Security approval per the table below. Further the [color=#ff6666]Warden[/color] may authorize [color=#ff4242]Security[/color] Combat Gear or Weapons where listed in the table without the [color=#ff4242]Head of Security[/color], acting as the [color=#fce742]Relevant Leader[/color].
+- [bold]Порядок одобрения:[/bold] собирайте печати в таком порядке: происхождение предмета, [color=#fce742]профильный руководитель[/color], [color=#fcdf03]капитан[/color], [color=#86d420]Центральное командование[/color].
+- [bold]Профильный руководитель:[/bold] официально признанный старший на станции по отделу или корпорации из списка допуска предмета, например глава отдела или временно исполняющий его обязанности.
+- [bold]Происхождение предмета:[/bold] если предмет физически получен из конкретного отдела или корпорации, одобрить его должен [color=#fce742]профильный руководитель[/color] этого отдела. Предметы без происхождения (например, найденные в техтоннелях) может одобрить любой [color=#fce742]профильный руководитель[/color].
+- [bold]Предметы НТ-ЦК:[/bold] любой предмет, допущенный хотя бы для одного отдела НТ-ЦК, должен иметь печать хотя бы одного из их [color=#fce742]профильных руководителей[/color] (плюс печать по происхождению, если она нужна). Предметам, не допущенным ни для одного отдела НТ-ЦК, нужна только печать [color=#fce742]профильного руководителя[/color] союзной корпорации - кроме оружия и предметов враждебных организаций, которым всё равно нужно дополнительное одобрение ниже.
+- [bold]Враждебные организации:[/bold] у враждебных организаций нет официально признанных [color=#fce742]профильных руководителей[/color], поэтому [color=#fce742]профильного руководителя[/color] для такого предмета определяйте по столбцу «Враждебные организации» в таблице ниже.
+- [bold]Оружие и боевая экипировка:[/bold] на них распространяются правила для снаряжения, но по таблице ниже нужно дополнительное одобрение СБ. Кроме того, [color=#ff6666]смотритель[/color] и [color=#c4363b]артиллерийский сержант[/color] могут, выступая [color=#fce742]профильным руководителем[/color], одобрять оружие и боевую экипировку [color=#ff4242]СБ[/color] там, где это указано в таблице, без [color=#ff4242]главы службы безопасности[/color].
 
   <Table Columns="5">
     <ColorBox>
       <Box Margin="2">
-        [bold]Tier[/bold]
+        [bold]Уровень[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box Margin="2">
-        [bold]NT-CC Consortium[/bold]
+        [bold]Консорциум НТ-ЦК[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box Margin="2">
-        [bold]Affiliated Corporations[/bold]
+        [bold]Союзные корпорации[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box Margin="2">
-        [bold]Enemy Organizations[/bold]
+        [bold]Враждебные организации[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box Margin="2">
-        [bold]Weapons & Combat Gear[/bold]
+        [bold]Оружие и боевая экипировка[/bold]
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
-        [bold]Tier 1[/bold]
+        [bold]Уровень 1[/bold]
       </Box>
     </ColorBox>
     <ColorBox Color="#786341">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader
+        Профильный руководитель
       </Box>
     </ColorBox>
     <ColorBox Color="#786341">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader
+        Профильный руководитель
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Warden
+        Смотритель и артиллерийский сержант
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Warden
+        Смотритель и артиллерийский сержант
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
-        [bold]Tier 2[/bold]
+        [bold]Уровень 2[/bold]
       </Box>
     </ColorBox>
     <ColorBox Color="#786341">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader
+        Профильный руководитель
       </Box>
     </ColorBox>
     <ColorBox Color="#786341">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader
+        Профильный руководитель
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Warden
+        Смотритель и артиллерийский сержант
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Warden
+        Смотритель и артиллерийский сержант
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
-        [bold]Tier 3[/bold]
+        [bold]Уровень 3[/bold]
       </Box>
     </ColorBox>
     <ColorBox Color="#786341">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader
+        Профильный руководитель
       </Box>
     </ColorBox>
     <ColorBox Color="#786341">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader
+        Профильный руководитель
       </Box>
     </ColorBox>
     <ColorBox Color="#6e2d2d">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Head of Security
+        Глава службы безопасности
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Warden
+        Смотритель и артиллерийский сержант
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
-        [bold]Tier 4[/bold]
+        [bold]Уровень 4[/bold]
       </Box>
     </ColorBox>
     <ColorBox Color="#725225">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader and Captain
+        Профильный руководитель и капитан
       </Box>
     </ColorBox>
     <ColorBox Color="#725225">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader and Captain
+        Профильный руководитель и капитан
       </Box>
     </ColorBox>
     <ColorBox Color="#2d5234">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Captain and Central Command
+        Капитан и Центральное командование
       </Box>
     </ColorBox>
     <ColorBox Color="#6e2d2d">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Head of Security
+        Глава службы безопасности
       </Box>
     </ColorBox>
     <ColorBox>
       <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
-        [bold]Tier 5[/bold]
+        [bold]Уровень 5[/bold]
       </Box>
     </ColorBox>
     <ColorBox Color="#2d5234">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader and Central Command
+        Профильный руководитель и Центральное командование
       </Box>
     </ColorBox>
     <ColorBox Color="#2d5234">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Relevant Leader and Central Command
+        Профильный руководитель и Центральное командование
       </Box>
     </ColorBox>
     <ColorBox Color="#2d5234">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Captain and Central Command
+        Капитан и Центральное командование
       </Box>
     </ColorBox>
     <ColorBox Color="#725225">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Head of Security and Captain
+        Глава службы безопасности и капитан
       </Box>
     </ColorBox>
   </Table>

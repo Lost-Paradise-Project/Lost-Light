@@ -64,3 +64,5 @@ ent-EscapeMasterThiefObjective = Станьте величайшим вором 
     .desc = Просто убедитесь, что вы выберетесь живым и свободным.
 ent-FigurineStealCollectionObjective = { ent-BaseThiefStealCollectionObjective }
     .desc = { ent-BaseThiefStealCollectionObjective.desc }
+ent-RobDepartmentObjective = { ent-BaseDepartmentStoryObjective }
+    .desc = В этом отделе есть славные вещички, пора сделать их своими.

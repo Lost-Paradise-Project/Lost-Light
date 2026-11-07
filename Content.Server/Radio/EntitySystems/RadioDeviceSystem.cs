@@ -15,12 +15,9 @@ using Content.Shared.Radio.EntitySystems;
 using Content.Shared.Speech;
 using Content.Shared.Speech.Components;
 using Robust.Shared.Prototypes;
-using Content.Shared.Power.EntitySystems; // Goobstation - Radio Host
-// Goobstation - Radio Host
-
-#region Starlight
-
-#endregion Starlight
+using Content.Shared.Power.EntitySystems;
+using Content.Server._Starlight.StationRadio.Systems;
+using Robust.Shared.Random;
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -38,9 +35,10 @@ public sealed partial class RadioDeviceSystem : SharedRadioDeviceSystem
 
     [Dependency] private SharedPowerReceiverSystem _power = default!; // Goobstation - Radio Host
     [Dependency] private TTSSystem _tts = default!; // LP edit
+    [Dependency] private IRobustRandom _random = default!; // Starlight - Radio Host
 
     // Used to prevent a shitter from using a bunch of radios to spam chat.
-    private HashSet<(string, EntityUid, string)> _recentlySent = new(); // Starlight edit
+    private readonly HashSet<(string, EntityUid, string)> _recentlySent = []; // Starlight edit
 
     public override void Initialize()
     {
@@ -67,7 +65,6 @@ public sealed partial class RadioDeviceSystem : SharedRadioDeviceSystem
         base.Update(frameTime);
         _recentlySent.Clear();
     }
-
 
     #region Component Init
     private void OnMicrophoneInit(EntityUid uid, RadioMicrophoneComponent component, ComponentInit args)
@@ -221,15 +218,17 @@ public sealed partial class RadioDeviceSystem : SharedRadioDeviceSystem
             transmitRange = ChatTransmitRange.HideChat; // Message hidden from chat if from a Station Radio.
             chatType = !receiverComp.BoostVolume ? InGameICChatType.Whisper : InGameICChatType.Speak; // Radios will talk loudly if at full volume.
         }
-        // Starlight - End
 
         // log to chat so people can identity the speaker/source, but avoid clogging ghost chat if there are many radios
-        var message = args.OriginalChatMsg.Message; // Starlight-edit: The chat system will handle the rest and re-obfuscate if needed.
+        var message = args.OriginalChatMsg.Message;
+        if (receiverComp != null)
+            message = StationRadioServerSystem.Garble(message, receiverComp.Interference, _random);
         _chat.TrySendInGameICMessage(uid, message,
-            chatType, // Starlight - Radio Host (InGameICChatType.Whisper -> chatType)
-            transmitRange,// Starlight - Radio Host (ChatTransmitRange.GhostRangeLimit -> transmitRange)
+            chatType,
+            transmitRange,
             nameOverride: name, checkRadioPrefix: false,
-            languageOverride: args.Language); // Starlight
+            languageOverride: args.Language);
+        // Starlight - end
 
         _tts.PlayRelayedSpeech(uid, args.MessageSource, message, args.Language, chatType == InGameICChatType.Whisper, TTSEffect.Walkie); // LP edit - интерком и ручная рация говорят голосом говорящего
     }

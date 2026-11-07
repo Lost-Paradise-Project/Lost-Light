@@ -18,8 +18,5 @@ public static class VoiceMaskTtsVoices
     /// Маска предлагает те же голоса, что игрок видит при создании персонажа: рабочие голоса ntts для гуманоидов.
     /// Клиент и сервер проверяют голос одним правилом.
     /// </summary>
-    public static bool IsAllowed(VoicePrototype voice)
-    {
-        return voice.Speaker != null && !voice.Silicon;
-    }
+    public static bool IsAllowed(VoicePrototype voice) => voice.Speaker != null && !voice.Silicon;
 }

@@ -32,7 +32,7 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
     [Dependency] private SharedPowerReceiverSystem _power = default!;
     [Dependency] private StationSystem _station = default!;
 
-    private static readonly TimeSpan UpdateInterval = TimeSpan.FromSeconds(1);
+    private static readonly TimeSpan _updateInterval = TimeSpan.FromSeconds(1);
 
     private TimeSpan _nextUpdate;
 
@@ -84,8 +84,8 @@ public sealed partial class CryptoMinerSystem : SharedCryptoMinerSystem
         if (_timing.CurTime < _nextUpdate)
             return;
 
-        _nextUpdate = _timing.CurTime + UpdateInterval;
-        var dt = (float)UpdateInterval.TotalSeconds;
+        _nextUpdate = _timing.CurTime + _updateInterval;
+        var dt = (float)_updateInterval.TotalSeconds;
 
         var query = EntityQueryEnumerator<CryptoMinerComponent>();
         while (query.MoveNext(out var uid, out var miner))

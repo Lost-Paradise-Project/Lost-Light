@@ -13,3 +13,6 @@ ent-ClothingShoesSkatesCool = роликовые коньки покруче
 ent-ClownShoesNoSlip = нескользящие клоунские ботинки
     .desc = Новая линия одежды Тирании Хонка нацелена на более специализированные клоунские ниши. Теперь на 100% меньше скольжения операторов!
     .suffix = Нескользящие
+ent-ClothingShoesColorWhiteNoSound = { ent-ClothingShoesColorWhite }
+    .desc = { ent-ClothingShoesColorWhite.desc }
+    .suffix = Бесшумные, Синдикат

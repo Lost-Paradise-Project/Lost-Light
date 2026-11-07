@@ -1,8 +1,5 @@
 ent-WeaponPistolMakarov = Макаров
     .desc = Дешёвый и громоздкий пистолет с точкой на задней мушке, указывающей направление, в котором он склонен давать осечки, так как эта модель не бьёт прямо. Использует патроны .35 авто.
-ent-WeaponPistolMk58Nonlethal = { ent-WeaponPistolMk58 }
-    .desc = { ent-WeaponPistolMk58.desc }
-    .suffix = Нелетальный
 ent-WeaponPistolN1984Nonlethal = N1984
     .desc = { ent-WeaponPistolN1984.desc }
     .suffix = Нелетальный
@@ -22,8 +19,6 @@ ent-WeaponPistolDP = { ent-BaseWeaponPistolDP }
     .desc = { ent-BaseWeaponPistolDP.desc }
 ent-WeaponPistolBlueguard = SP-8T
     .desc = { ent-BaseWeaponPistolDP.desc }
-ent-WeaponPistolSP8AR = SP-8AR
-    .desc = { ent-WeaponPistolDP.desc }
 ent-WeaponPistolStechkinAPS = Стечкин АПС
     .desc = Высококачественное огнестрельное оружие, выдаваемое элите СНКВД и высокопоставленным чиновникам. Наполовину пистолет, наполовину заключительный аргумент. Использует патроны .40.
 ent-WeaponPistolDeagle = Ястреб джунглей

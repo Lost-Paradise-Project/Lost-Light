@@ -1,7 +1,7 @@
 <Document>
   # Кодовые замки
 
-  Кодовые замки используют четыре вещи: бомба станции, бомба Синдиката, защищённый чемодан и настенный сейф. Хотя у обеих бомб заранее заданные коды, которые можно получить, только отправив факс в Центральное командование или будучи ядерным оперативником, сейф и чемодан могут настраиваться их пользователями для защиты таких вещей, как бумажная документация.
+  There are three things that use Combination Locks. Nuclear Fission Devices, the Secure Briefcase, and the Wall Safe. While Nukes have pre-set codes that can usually only be obtained by faxing Central Command, the Safe and Briefcase can be set by their users to secure items like paperwork.
 
   <Box>
     <GuideEntityEmbed Entity="BriefcaseSecure" Caption=""/>

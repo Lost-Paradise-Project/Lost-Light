@@ -66,12 +66,9 @@ public sealed partial class VoiceMaskVoiceSelector : BoxContainer
         _window.OpenCentered();
     }
 
-    private void UpdateButton()
-    {
-        VoiceButton.Text = _voice != null && _prototype.TryIndex<VoicePrototype>(_voice, out var proto)
+    private void UpdateButton() => VoiceButton.Text = _voice != null && _prototype.TryIndex<VoicePrototype>(_voice, out var proto)
             ? Loc.GetString(proto.Name)
             : Loc.GetString("voice-mask-name-change-tts-voice-default");
-    }
 
     protected override void ExitedTree()
     {

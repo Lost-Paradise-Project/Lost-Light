@@ -3,3 +3,6 @@ ent-ClothingHeadHatWhiteCatEars = белые кошачьи ушки
 ent-ClothingHeadHatWhiteCatEarsValid = { ent-ClothingHeadHatWhiteCatEars }
     .desc = { ent-ClothingHeadHatWhiteCatEars.desc }
     .suffix = Действительны, НЕ МАППИТЬ
+ent-ClothingSyndiHeadHatCone = { ent-ClothingHeadHatCone }
+    .desc = { ent-ClothingHeadHatCone.desc }
+    .suffix = Хранилище, Синдикат

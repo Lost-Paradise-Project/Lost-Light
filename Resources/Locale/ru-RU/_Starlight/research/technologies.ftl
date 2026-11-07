@@ -42,3 +42,7 @@ research-technology-bluespace-manipulation = Манипуляции с блюс�
 research-technology-darkbreacher = Тёмный взломщик
 
 research-technology-basic-xenobiology = Базовая ксенобиология
+
+research-technology-combustion-turbines = Газовые турбины
+
+research-technology-radio-music-communication = Музыкальная радиосвязь

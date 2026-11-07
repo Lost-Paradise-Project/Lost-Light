@@ -159,3 +159,6 @@ language-Squeakish-description = Язык мышинцев, состоящий �
 
 language-Penguin-name = Пингвиний
 language-Penguin-description = Кррря!
+
+language-Spore-name = Споры
+language-Spore-description = Общение посредством грибных спор.

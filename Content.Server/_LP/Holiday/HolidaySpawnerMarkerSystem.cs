@@ -15,11 +15,9 @@ public sealed partial class HolidaySpawnerMarkerSystem : EntitySystem
     // Чтобы одна опечатка в маркере не засоряла лог при каждом проходе.
     private readonly HashSet<string> _reportedErrors = new();
 
-    public override void Initialize()
-    {
+    public override void Initialize() =>
         // После HolidayVisualsSystem: к этому моменту праздники обновлены, приветствие и DoCelebrate уже вызваны.
         SubscribeLocalEvent<GameRunLevelChangedEvent>(OnRunLevelChanged, after: [typeof(HolidayVisualsSystem)]);
-    }
 
     private void OnRunLevelChanged(GameRunLevelChangedEvent ev)
     {

@@ -57,6 +57,30 @@
         },
         {
             "name": "syndicrate-5"
+        },
+        {
+            "name": "spine0"
+        },
+        {
+            "name": "spine1"
+        },
+        {
+            "name": "spine2"
+        },
+        {
+            "name": "spine3"
+        },
+        {
+            "name": "spine4"
+        },
+        {
+            "name": "spine5"
+        },
+        {
+            "name": "spine6"
+        },
+        {
+            "name": "spine7"
         }
     ]
 }
