@@ -55,6 +55,7 @@ entities:
     - type: SpreaderGrid
     - type: Shuttle
       dampingModifier: 0.25
+    - type: SecurityShuttle
     - type: ImplicitRoof
     - type: GridPathfinding
     - type: Gravity
