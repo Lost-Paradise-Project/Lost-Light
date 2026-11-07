@@ -1,0 +1,48 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineCargo
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Отдел Снабжения"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoQM
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Квартирмейстер"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoSalvageMining
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Утилизаторы  Шахтёры"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoSalvage
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Утлизаторы"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoMining
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Шахтёры"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoMail
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Почта"
+      order: 500

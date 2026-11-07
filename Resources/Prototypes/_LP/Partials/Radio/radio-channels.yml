@@ -6,7 +6,7 @@
 
 - type: !PartialOnly radioChannel
   id: Law
-  keycode: 'л'
+  keycode: 'ю'
 
 - type: !PartialOnly radioChannel
   id: NanoTrasen

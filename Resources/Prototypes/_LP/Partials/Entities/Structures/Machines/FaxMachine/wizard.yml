@@ -1,0 +1,7 @@
+- type: !PartialOnly entity
+  id: FaxMachineWizardYeOleWizardFaxer
+  components:
+    - type: FaxMachine
+      group: FaxGroupWizard
+      name: "Его магичность Господин Колдун" # This is the one on the wizard shuttle.
+      order: 100

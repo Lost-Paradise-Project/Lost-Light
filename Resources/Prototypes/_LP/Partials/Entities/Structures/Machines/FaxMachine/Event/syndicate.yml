@@ -1,0 +1,13 @@
+# Group already exists in ../syndicate.yml
+
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineSyndicate
+  components:
+    - type: FaxMachine
+      group: FaxGroupSyndicate
+      responsePings: false # Stealthy -- only visible from emagged fax machines.
+      intrinsicGroup: FaxGroupSyndicate
+      intrinsicLocked: false # This is the only event fax that allows impersonating by default.
+      name: "Синдикат"
+      order: 500

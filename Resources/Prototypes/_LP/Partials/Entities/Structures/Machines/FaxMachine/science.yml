@@ -1,0 +1,16 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineScience
+  components:
+    - type: FaxMachine
+      group: FaxGroupScience
+      name: "Научно-исследовательский отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineScienceRD
+  components:
+    - type: FaxMachine
+      group: FaxGroupScience
+      name: "Научный руководитель"
+      order: 200

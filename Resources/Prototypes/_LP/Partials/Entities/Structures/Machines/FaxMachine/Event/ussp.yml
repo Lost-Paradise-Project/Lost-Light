@@ -1,0 +1,10 @@
+# Single fax -- can be edited for mapping/event purposes.
+- type: !PartialOnly entity
+  id: FaxMachineUSSP
+  components:
+    - type: FaxMachine
+      group: FaxGroupUSSP
+      intrinsicGroup: FaxGroupUSSP
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "СССП"
+      order: 500
