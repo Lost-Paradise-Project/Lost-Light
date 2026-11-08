@@ -60,7 +60,7 @@
   components:
     - type: FaxMachine
       group: FaxGroupService
-      name: "Священник"
+      name: "Храм"
       order: 600
 
 - type: !PartialOnly entity
@@ -68,7 +68,7 @@
   components:
     - type: FaxMachine
       group: FaxGroupService
-      name: "Храм"
+      name: "Священник"
       order: 610
 
 - type: !PartialOnly entity
