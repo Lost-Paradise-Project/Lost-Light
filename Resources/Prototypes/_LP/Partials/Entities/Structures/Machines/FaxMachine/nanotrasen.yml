@@ -4,7 +4,7 @@
   components:
     - type: FaxMachine
       group: FaxGroupNanoTrasen
-      name: "Представитель Нанотрейзен"
+      name: "Представитель НаноТрейзен"
       order: 100
 
 - type: !PartialOnly entity
