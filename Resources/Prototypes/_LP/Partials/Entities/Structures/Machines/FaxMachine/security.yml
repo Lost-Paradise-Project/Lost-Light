@@ -16,9 +16,7 @@
       order: 200
 
 - type: !PartialOnly entity
-  parent: FaxMachineSecurityBase
   id: FaxMachineSecurityWarden
-  suffix: "SEC: Warden"
   components:
     - type: FaxMachine
       group: FaxGroupSecurity
