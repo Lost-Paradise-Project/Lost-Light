@@ -15,7 +15,7 @@
       name: "Глава Службы Безопасности"
       order: 200
 
-- type: entity
+- type: !PartialOnly entity
   parent: FaxMachineSecurityBase
   id: FaxMachineSecurityWarden
   suffix: "SEC: Warden"
