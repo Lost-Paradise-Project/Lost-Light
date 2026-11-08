@@ -9,6 +9,6 @@
       group: FaxGroupITG
       intrinsicGroup: FaxGroupITG
       intrinsicLocked: true # No impersonating unless emagged
-      name: "Межзвёдзная Торговая Гильдия"
+      name: "Межзвёздная Торговая Гильдия"
       order: 500
       notifyAdmins: true
