@@ -4,8 +4,8 @@ meta:
   engineVersion: 290.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/07/2026 19:36:08
-  entityCount: 21913
+  time: 11/08/2026 10:19:51
+  entityCount: 21912
 maps:
 - 1
 grids:
@@ -14755,6 +14755,7 @@ entities:
       - 2
     - type: ZoneGrid
       shapes: []
+    - type: GridSplitNode
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 7644
@@ -17877,7 +17878,7 @@ entities:
       pos: -8.5,38.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -517194.34
+      secondsUntilStateChange: -517510.44
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -17889,7 +17890,7 @@ entities:
       pos: 9.5,38.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -517192.88
+      secondsUntilStateChange: -517508.97
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -17901,7 +17902,7 @@ entities:
       pos: -36.5,-19.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -517198.56
+      secondsUntilStateChange: -517514.66
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -17950,7 +17951,7 @@ entities:
       pos: -29.5,-42.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -356357.1
+      secondsUntilStateChange: -356673.2
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -21434,7 +21435,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 48.5,15.5
+      pos: 48.55,15.7
 - proto: BedsheetBrown
   entities:
   - uid: 20219
@@ -21449,13 +21450,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.5,-6.5
-- proto: BedsheetMedical
-  entities:
-  - uid: 16235
-    components:
-    - type: Transform
-      parent: 2
-      pos: 50.5,15.5
 - proto: BedsheetOrange
   entities:
   - uid: 13471
@@ -25467,6 +25461,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,-2.5
+  - uid: 5227
+    components:
+    - type: Transform
+      parent: 2
+      pos: 31.5,-23.5
   - uid: 5231
     components:
     - type: Transform
@@ -56664,7 +56663,7 @@ entities:
       pos: 27.5,-0.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -72897.63
+      secondsUntilStateChange: -73213.71
 - proto: CutterMachine
   entities:
   - uid: 16009
@@ -112298,11 +112297,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -10.5,24.5
-  - uid: 5227
-    components:
-    - type: Transform
-      parent: 2
-      pos: -16.5,-21.5
   - uid: 5682
     components:
     - type: Transform
