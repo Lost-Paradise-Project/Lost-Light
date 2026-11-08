@@ -20,7 +20,7 @@
   components:
     - type: FaxMachine
       group: FaxGroupCargo
-      name: "Утилизаторы  Шахтёры"
+      name: "Утилизаторы и Шахтёры"
       order: 300
 
 - type: !PartialOnly entity
