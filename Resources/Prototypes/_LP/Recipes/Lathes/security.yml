@@ -1,0 +1,330 @@
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: LPPWeaponRifleM14
+  result: LPPWeaponRifleM14
+  materials:
+    Steel: 2500
+    Plastic: 250
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20Empty
+  result: LPPMagazinePistolPF20Empty
+  materials:
+    Steel: 50
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20SP
+  result: LPPMagazinePistolPF20SP
+  materials:
+    Steel: 350
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20HP
+  result: LPPMagazinePistolPF20HP
+  materials:
+    Steel: 350
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20FMJ
+  result: LPPMagazinePistolPF20FMJ
+  materials:
+    Steel: 350
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20AP
+  result: LPPMagazinePistolPF20AP
+  materials:
+    Steel: 350
+    Uranium: 350
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazineLightSniperEmpty
+  result: LPPMagazineLightSniperEmpty
+  materials:
+    Steel: 50
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazineLightSniper
+  result: LPPMagazineLightSniper
+  materials:
+    Steel: 450
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: LPPWeaponSniperScout
+  result: LPPWeaponSniperScout
+  materials:
+    Steel: 2000
+    Plastic: 500
+    Glass: 1000
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponStarflareSMG
+  result: WeaponStarflareSMG
+  materials:
+    Steel: 1800
+    Glass: 800
+    Plastic: 500
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: PowerCellStarflarePrinted
+  result: PowerCellStarflarePrinted
+  materials:
+    Steel: 600
+    Glass: 300
+    Plastic: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialEmpty
+  result: MagazinePistolSpecialEmpty
+  materials:
+    Steel: 50
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialSP
+  result: MagazinePistolSpecialSP
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialHP
+  result: MagazinePistolSpecialHP
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialFMJ
+  result: MagazinePistolSpecialFMJ
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialAP
+  result: MagazinePistolSpecialAP
+  materials:
+    Steel: 300
+    Uranium: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialEmpty
+  result: SpeedLoaderSpecialEmpty
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialSP
+  result: SpeedLoaderSpecialSP
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialHP
+  result: SpeedLoaderSpecialHP
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialFMJ
+  result: SpeedLoaderSpecialFMJ
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialAP
+  result: SpeedLoaderSpecialAP
+  materials:
+    Steel: 300
+    Uranium: 300
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialPractice
+  result: MagazinePistolSpecialPractice
+  materials:
+    Steel: 175
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialPractice
+  result: SpeedLoaderSpecialPractice
+  materials:
+    Steel: 175
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialRubber
+  result: SpeedLoaderSpecialRubber
+  materials:
+    Steel: 150
+    Plastic: 140
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazinePistolSpecialRubber
+  result: MagazinePistolSpecialRubber
+  materials:
+    Steel: 150
+    Plastic: 140
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: SpeedLoaderSpecialUranium
+  result: SpeedLoaderSpecialUranium
+  materials:
+    Plastic: 150
+    Uranium: 140
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialSP
+  result: MagazineBoxSpecialSP
+  materials:
+    Steel: 450
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialHP
+  result: MagazineBoxSpecialHP
+  materials:
+    Steel: 450
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialFMJ
+  result: MagazineBoxSpecialFMJ
+  materials:
+    Steel: 450
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialAP
+  result: MagazineBoxSpecialAP
+  materials:
+    Steel: 450
+    Uranium: 450
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialPractice
+  result: MagazineBoxSpecialPractice
+  materials:
+    Steel: 275
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialRubber
+  result: MagazineBoxSpecialRubber
+  materials:
+    Steel: 275
+    Plastic: 125
+
+- type: latheRecipe
+  parent: BaseAmmoBoxRecipe
+  id: MagazineBoxSpecialUranium
+  result: MagazineBoxSpecialUranium
+  materials:
+    Plastic: 275
+    Uranium: 140
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: MagazineBoxSpecialIncendiary
+  result: MagazineBoxSpecialIncendiary
+  materials:
+    Steel: 125
+    Plastic: 275
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20Practice
+  result: LPPMagazinePistolPF20Practice
+  materials:
+    Steel: 125
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20Incendiary
+  result: LPPMagazinePistolPF20Incendiary
+  materials:
+    Steel: 100
+
+- type: latheRecipe
+  parent: BaseAmmoRecipe
+  id: LPPMagazinePistolPF20Uranium
+  result: LPPMagazinePistolPF20Uranium
+  materials:
+    Steel: 75
+    Uranium: 100
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeSidearm
+  id: WeaponAutoDisabler
+  result: WeaponAutoDisabler
+  materials:
+    Steel: 900
+    Glass: 300
+    Plastic: 300
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeSidearm
+  id: WeaponPocketDisabler
+  result: WeaponPocketDisabler
+  materials:
+    Steel: 500
+    Glass: 100
+    Plastic: 100
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeSidearm
+  id: WeaponStunProjector
+  result: WeaponStunProjector
+  materials:
+    Steel: 1000
+    Glass: 500
+    Plastic: 500
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeSidearm
+  id: WeaponDisablerCarbine
+  result: WeaponDisablerCarbine
+  materials:
+    Steel: 1000
+    Glass: 500
+    Plastic: 500
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeSidearm
+  id: WeaponDisablerShotgun
+  result: WeaponDisablerShotgun
+  materials:
+    Steel: 2000
+    Glass: 1000
+    Plastic: 1000
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: LPPWeaponRiflepadefame
+  result: LPPWeaponRiflepadefame
+  materials:
+    Steel: 3000
+    Glass: 250
+    Plastic: 1000

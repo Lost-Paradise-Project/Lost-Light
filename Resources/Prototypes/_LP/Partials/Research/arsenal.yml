@@ -1,0 +1,33 @@
+- type: !PartialOnly technology
+  id: AdvancedRiotControl
+  recipeUnlocks:
+  - WeaponAutoDisabler
+  - WeaponPocketDisabler
+  - WeaponStunProjector
+  - WeaponDisablerCarbine
+  - WeaponDisablerShotgun
+  - LPPWeaponRiflepadefame
+  - LPPWeaponRifleM14
+  - LPPWeaponSniperScout
+  - WeaponStarflareSMG
+
+- type: !PartialOnly technology
+  id: UraniumMunitions
+  recipeUnlocks:
+  - LPPMagazinePistolPF20Uranium
+  - SpeedLoaderSpecialUranium
+  - MagazineBoxSpecialUranium
+
+- type: technology
+  id: ArmorPenetrationMunitions
+  recipeUnlocks:
+  - LPPMagazinePistolPF20AP
+  - MagazinePistolSpecialAP
+  - SpeedLoaderSpecialAP
+  - MagazineBoxSpecialAP
+
+- type: technology
+  id: DraconicMunitions
+  recipeUnlocks:
+  - LPPMagazinePistolPF20Incendiary
+  - MagazineBoxSpecialIncendiary

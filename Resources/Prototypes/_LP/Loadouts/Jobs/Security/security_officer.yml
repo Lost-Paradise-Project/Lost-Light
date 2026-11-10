@@ -87,3 +87,89 @@
   id: LPPSecurityTactical
   equipment:
     jumpsuit: LPPClothingUniformJumpSuitTactical
+
+# Sidearm Options
+- type: loadout
+  id: LPPSecurityPF20
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: EliteOfficer
+  dummyEntity: LPPWeaponPistolPF20
+  storage:
+    back:
+      - LPPWeaponPistolPF20
+      - LPPMagazinePistolPF20SP
+
+- type: loadout
+  id: LPPSecurityPistolvalkyria
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SkilledOfficer
+  dummyEntity: WeaponPistolvalkyria
+  storage:
+    back:
+    - WeaponPistolvalkyria
+    - MagazinePistolSpecialSP
+
+- type: loadout
+  id: LPPSecurityRevolverColtpeacemaker
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SkilledOfficer
+  dummyEntity: LPPWeaponRevolverColtpeacemaker
+  storage:
+    back:
+    - LPPWeaponRevolverColtpeacemaker
+    - SpeedLoaderMagnumSP
+    - SpeedLoaderMagnumSP
+
+- type: loadout
+  id: LPPSecurityRevolverFitz
+  dummyEntity: WeaponRevolverFitz
+  storage:
+    back:
+      - WeaponRevolverFitz
+      - SpeedLoaderSpecialSP
+      - SpeedLoaderSpecialSP
+
+- type: loadout
+  id: LPPSecurityRevolverK38Master
+  dummyEntity: WeaponRevolverK38Master
+  storage:
+    back:
+      - WeaponRevolverK38Master
+      - SpeedLoaderSpecialSP
+      - SpeedLoaderSpecialSP
+
+- type: loadout
+  id: LPPSecurityPistolMk93
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SeniorOfficer
+  dummyEntity: WeaponPistolMk93
+  storage:
+    back:
+      - WeaponPistolMk93
+      - MagazinePistolSP
+
+- type: loadout
+  id: LPPSecurityPistolN1912Experimental
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SeniorOfficer
+  dummyEntity: LPPWeaponPistolN1912Experimental
+  storage:
+    back:
+      - LPPWeaponPistolN1912Experimental
+      - MagazinePistolHighCapacitySP
+
+- type: loadout
+  id: LPPSecurityPistolN1912
+  effects:
+    - !type:GroupLoadoutEffect
+      proto: SeniorOfficer
+  dummyEntity: LPPWeaponPistolN1912
+  storage:
+    back:
+      - LPPWeaponPistolN1912
+      - MagazinePistolSubMachineGunSP
