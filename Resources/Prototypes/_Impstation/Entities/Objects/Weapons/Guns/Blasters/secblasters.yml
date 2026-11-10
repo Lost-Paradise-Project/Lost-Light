@@ -1,6 +1,6 @@
 - type: entity
   name: Starflare EPDW-6
-  parent: [BaseWeaponPowerCell, BaseGunWieldable, BaseSecurityContraband ]
+  parent: [BaseWeaponPowerCell, BaseSecurityContraband ]
   id: WeaponStarflareSMG
   description: A patented cell-loaded fusion SMG. A slogan printed on the side reads "Spray and make 'em pray!"
   components:
@@ -32,18 +32,13 @@
     magState: mag
     steps: 6
     zeroVisible: true
-  - type: Wieldable
-    unwieldOnUse: false
-  - type: GunWieldBonus
-    minAngle: -14
-    maxAngle: -16
   - type: Gun
     projectileSpeed: 25
-    minAngle: 16
-    maxAngle: 36
+    minAngle: 2
+    maxAngle: 18
     angleIncrease: 2
     angleDecay: 20
-    fireRate: 6.5
+    fireRate: 7
     selectedMode: FullAuto
     availableModes:
     - FullAuto
