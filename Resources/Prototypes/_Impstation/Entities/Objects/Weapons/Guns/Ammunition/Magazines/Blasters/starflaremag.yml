@@ -42,7 +42,7 @@
     maxCharge: 1000
     startingCharge: 1000
   - type: BatteryAmmoProvider
-    proto: BulletLaserHeavy
+    proto: LPPBulletLaser
     fireCost: 40 #25 shots
   - type: Tag
     tags:

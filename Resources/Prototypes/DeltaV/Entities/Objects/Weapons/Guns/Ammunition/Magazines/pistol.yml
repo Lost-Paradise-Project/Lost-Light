@@ -63,7 +63,7 @@
   parent: BaseMagazinePistolSpecial
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeSpecialSHP
+    proto: CartridgeSpecialHP
   - type: Sprite
     layers:
     - state: red

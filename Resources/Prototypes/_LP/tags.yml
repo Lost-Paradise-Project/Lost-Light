@@ -27,3 +27,12 @@
 
 - type: Tag
   id: LPPpka
+
+- type: Tag
+  id: LPPMagazinePistolRifle
+
+- type: Tag
+  id: LPPMagazineHeavySniper
+
+- type: Tag
+  id: LPPMagazineLightSniper

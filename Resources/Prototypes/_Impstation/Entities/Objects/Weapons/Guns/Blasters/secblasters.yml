@@ -68,5 +68,5 @@
     containers:
       cell_slot: !type:ContainerSlot
   - type: BatteryAmmoProvider
-    proto: BulletLaserHeavy
+    proto: LPPBulletLaser
     fireCost: 40

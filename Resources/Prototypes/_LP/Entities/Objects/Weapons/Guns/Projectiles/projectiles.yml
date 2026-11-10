@@ -158,6 +158,26 @@
     lifetime: 0.2
 
 - type: entity
+  name: bolt
+  id: LPPBulletLaser
+  categories: [ HideSpawnMenu ]
+  parent: BulletLaser
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Weapons/Guns/Projectiles/energybolts.rsi
+    layers:
+    - state: lightgold
+      shader: unshaded
+  - type: PointLight
+    enabled: true
+    color: "#a60835"
+  - type: Projectile
+    impactEffect: BulletImpactEffectOrangeDisabler
+    damage:
+      types:
+        heat: 7.5
+
+- type: entity
   name: galvanic bolt
   id: LPPBulletLaserHeavy
   categories: [ HideSpawnMenu ]
