@@ -36,7 +36,7 @@
 
 - type: latheRecipe
   parent: BaseAmmoRecipe
-  id: LPPMagazinePistolPF20FAP
+  id: LPPMagazinePistolPF20AP
   result: LPPMagazinePistolPF20AP
   materials:
     Steel: 350
