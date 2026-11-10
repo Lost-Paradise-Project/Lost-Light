@@ -13,3 +13,6 @@ ent-CrateArmoryAdvancedRestraints = ящик продвинутых средст
 ent-CrateArmoryMelee = ящик холодного оружия оружейной
     .desc = Ящик с тактическим копьём и коротким мечом.
     .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateArmoryVerdict = ящик винтовок «Вердикт»
+    .desc = Ящик с двумя тяжёлыми винтовками.
+    .suffix = { ent-CrateWeaponSecure.suffix }

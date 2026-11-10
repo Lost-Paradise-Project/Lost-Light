@@ -27,7 +27,7 @@ public sealed partial class NttsClient : ITTSClient
     /// </summary>
     private const int StarlightAnnounceVoice = 2001;
 
-    private static readonly Dictionary<TTSEffect, string> Effects = new()
+    private static readonly Dictionary<TTSEffect, string> _effects = new()
     {
         [TTSEffect.Radio] = "radio_headset",
         [TTSEffect.Walkie] = "walkie_talkie",
@@ -67,12 +67,12 @@ public sealed partial class NttsClient : ITTSClient
     {
         _sawmill = Logger.GetSawmill("ntts");
 
-        _cfg.OnValueChanged(CCVars.TTSApiUrl, v => _apiUrl = v, true);
-        _cfg.OnValueChanged(CCVars.TTSApiToken, v => _apiToken = v, true);
-        _cfg.OnValueChanged(CCVars.TTSApiTimeout, v => _timeout = v, true);
-        _cfg.OnValueChanged(CCVars.TTSMaxCache, SetMaxCache, true);
-        _cfg.OnValueChanged(CCVars.TTSDefaultSpeaker, v => _defaultSpeaker = v, true);
-        _cfg.OnValueChanged(CCVars.TTSAnnounceSpeaker, v => _announceSpeaker = v, true);
+        _cfg.OnValueChanged(CCVars.TtsApiUrl, v => _apiUrl = v, true);
+        _cfg.OnValueChanged(CCVars.TtsApiToken, v => _apiToken = v, true);
+        _cfg.OnValueChanged(CCVars.TtsApiTimeout, v => _timeout = v, true);
+        _cfg.OnValueChanged(CCVars.TtsMaxCache, SetMaxCache, true);
+        _cfg.OnValueChanged(CCVars.TtsDefaultSpeaker, v => _defaultSpeaker = v, true);
+        _cfg.OnValueChanged(CCVars.TtsAnnounceSpeaker, v => _announceSpeaker = v, true);
 
         _prototype.PrototypesReloaded += OnPrototypesReloaded;
     }
@@ -193,7 +193,7 @@ public sealed partial class NttsClient : ITTSClient
     private async Task<(byte[]? Audio, bool ServiceFault)> Request(string speaker, string text, TTSEffect effect, CancellationToken cancellationToken)
     {
         var query = $"speaker={Uri.EscapeDataString(speaker)}&text={Uri.EscapeDataString(text)}&ext=ogg";
-        if (Effects.TryGetValue(effect, out var effectName))
+        if (_effects.TryGetValue(effect, out var effectName))
             query += $"&effect={effectName}";
 
         using var request = new HttpRequestMessage(HttpMethod.Get, $"{_apiUrl}?{query}");
@@ -233,7 +233,7 @@ public sealed partial class NttsClient : ITTSClient
         }
     }
 
-    private string? GetSpeaker(int voice)
+    private string GetSpeaker(int voice)
     {
         lock (_speakers)
         {

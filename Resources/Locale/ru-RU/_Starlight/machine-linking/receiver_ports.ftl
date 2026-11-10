@@ -24,3 +24,6 @@ signal-port-description-trigger-spawn = Активирует спавнер, з�
 
 signal-port-name-turret-controller-sync-receiver = Синхронизация
 signal-port-description-turret-controller-sync-receiver = Получает настройки вооружения и допуска от другой панели управления турелями.
+
+signal-port-name-combustion-turbine-console-receiver = Газовая турбина
+signal-port-description-combustion-turbine-console-receiver = Принимает команды от консоли управления газовой турбиной.

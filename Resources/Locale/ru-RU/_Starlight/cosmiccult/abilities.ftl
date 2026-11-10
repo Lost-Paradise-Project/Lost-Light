@@ -1,5 +1,9 @@
 cosmicability-generic-fail = Ваше влияние не берёт верх..
 
+cosmicability-fragmentation-confirm =
+    ЭТО, СКОРЕЕ ВСЕГО, РАСКРОЕТ КУЛЬТ ДЛЯ СТАНЦИИ!
+           Нажмите ещё раз, чтобы активировать нулевую фрагментацию.
+
 cosmicability-glare-confirm = Нажмите ещё раз, чтобы активировать Нулевой взгляд.
 
 cosmicability-siphon-cultist-success = Ваши попытки вытянуть энтропию холодят { CAPITALIZE(THE($target)) }

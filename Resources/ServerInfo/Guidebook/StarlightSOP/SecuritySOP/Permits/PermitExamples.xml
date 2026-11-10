@@ -1,14 +1,14 @@
 <Document>
-# Permit Examples
+# Примеры разрешений
 
   <Table Columns="1">
     <ColorBox>
       <Box Margin="4" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <GuideEntityEmbed Entity="ClothingEyesGlassesMeson" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
-          [bold]Engineering Goggles[/bold]
-          - [bold]From Engineering:[/bold] If you got the goggles from Engineering, you only need the [color=#ff733c]Chief Engineer[/color]'s stamp.
-          - [bold]Purchased from ITG:[/bold] If you bought them from ITG, you need both the [color=#963dca]Salvage Lead[/color]'s stamp and the [color=#ff733c]Chief Engineer[/color]'s stamp.
+          [bold]Инженерные очки[/bold]
+          - [bold]Из инженерного отдела:[/bold] если вы получили очки в инженерном отделе, нужна только печать [color=#ff733c]старшего инженера[/color].
+          - [bold]Куплены у МТГ:[/bold] если вы купили их у МТГ, нужны печати и [color=#963dca]главы утилизаторов[/color], и [color=#ff733c]старшего инженера[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -17,8 +17,8 @@
         <GuideEntityEmbed Entity="WeaponPistolMk58" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
           [bold]Mk 58[/bold]
-          - [bold]From Security:[/bold] If you got the Mk 58 from Security, you only need the [color=#ff6666]Warden[/color]'s stamp.
-          - [bold]Purchased from ITG:[/bold] If you bought it from ITG, you need both the [color=#963dca]Salvage Lead[/color]'s stamp and the [color=#ff6666]Warden[/color]'s stamp.
+          - [bold]Из СБ:[/bold] если вы получили Mk 58 в СБ, нужна только печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]артиллерийского сержанта[/color].
+          - [bold]Куплен у МТГ:[/bold] если вы купили его у МТГ, нужны печать [color=#963dca]главы утилизаторов[/color] и печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]артиллерийского сержанта[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -26,8 +26,8 @@
       <Box Margin="4" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <GuideEntityEmbed Entity="JawsOfLifeMed" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
-          [bold]Medical Jaws of Life[/bold]
-          - [bold]No Origin (e.g., found in maintenance):[/bold] Since it has no departmental origin and is approved for Medical and Security, you only need a stamp from any one Relevant Leader: the [color=#57b8f0]Chief Medical Officer[/color], [color=#ff6666]Warden[/color], or [color=#ff4242]Head of Security[/color].
+          [bold]Медицинские челюсти жизни[/bold]
+          - [bold]Без происхождения (например, найдены в техтоннелях):[/bold] предмет не привязан к отделу и допущен для медотдела и СБ, поэтому нужна печать любого одного профильного руководителя: [color=#57b8f0]главного врача[/color], [color=#ff6666]смотрителя[/color], [color=#c4363b]артиллерийского сержанта[/color] или [color=#ff4242]главы службы безопасности[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -35,8 +35,8 @@
       <Box Margin="4" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <GuideEntityEmbed Entity="ClothingHeadHatBeretSalvageMercGreen" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
-          [bold]Green Scrapper Beret[/bold]
-          - As an item not approved for any NT-CC department, you only need the [color=#963dca]Salvage Lead[/color]'s stamp.
+          [bold]Зелёный берет старателя[/bold]
+          - Предмет не допущен ни для одного отдела НТ-ЦК, поэтому нужна только печать [color=#963dca]главы утилизаторов[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -44,8 +44,8 @@
       <Box Margin="4" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <GuideEntityEmbed Entity="ClothingHeadHatCatEars" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
-          [bold]Cat Ears[/bold]
-          - As a Tier 1 Rival Corporation item, you only need the [color=#ff6666]Warden[/color]'s stamp.
+          [bold]Кошачьи ушки[/bold]
+          - Это предмет корпорации-соперника уровня 1, поэтому нужна только печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]артиллерийского сержанта[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -53,8 +53,8 @@
       <Box Margin="4" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <GuideEntityEmbed Entity="WeaponMedTakPistol" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
-          [bold]CODE-4 "Triage"[/bold]
-          - As a Tier 4 Affiliated Corporation weapon, you need stamps from [color=#880606]MedTak[/color], the [color=#ff4242]Head of Security[/color], and the [color=#fcdf03]Captain[/color].
+          [bold]CODE-4 «Сортировка»[/bold]
+          - Это оружие союзной корпорации уровня 4, поэтому нужны печати [color=#880606]МедТак[/color], [color=#ff4242]главы службы безопасности[/color] и [color=#fcdf03]капитана[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -62,8 +62,8 @@
       <Box Margin="4" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
-          [bold]Blood-Red Hardsuit[/bold] [color=#ff4242]This entry is restricted to crew with Secure Knowledge.[/color]
-          - As Tier 4 Rival Corporation combat gear, you need stamps from the [color=#ff4242]Head of Security[/color], the [color=#fcdf03]Captain[/color], and [color=#86d420]Central Command[/color].
+          [bold]Кроваво-красный скафандр[/bold] [color=#ff4242]Эта запись доступна только экипажу с допуском к секретным сведениям.[/color]
+          - Это боевая экипировка корпорации-соперника уровня 4, поэтому нужны печати [color=#ff4242]главы службы безопасности[/color], [color=#fcdf03]капитана[/color] и [color=#86d420]Центрального командования[/color].
         </Box>
       </Box>
     </ColorBox>

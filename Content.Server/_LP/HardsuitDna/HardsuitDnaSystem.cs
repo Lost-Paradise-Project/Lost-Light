@@ -1,9 +1,10 @@
 using Content.Server.Chat.Managers;
 using Content.Server.Chat.Systems;
 using Content.Server.Explosion.EntitySystems;
-using Content.Shared.Chat;
 using Content.Shared._LP.HardsuitDna;
+using Content.Shared.Chat;
 using Content.Shared.Database;
+using Content.Shared.Forensics;
 using Content.Shared.Forensics.Components;
 using Content.Shared.GameTicking;
 using Content.Shared.Gibbing;
@@ -40,6 +41,7 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
         SubscribeLocalEvent<HardsuitDnaComponent, GotEquippedEvent>(OnGotEquipped);
         SubscribeLocalEvent<HardsuitDnaComponent, GotUnequippedEvent>(OnGotUnequipped);
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnPlayerSpawnComplete);
+        SubscribeLocalEvent<DnaComponent, GenerateDnaEvent>(OnDnaGenerated);
     }
 
     private void OnGotEquipped(Entity<HardsuitDnaComponent> ent, ref GotEquippedEvent args)
@@ -65,21 +67,25 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
         StartCountdown(ent, wearer);
     }
 
-    private void OnGotUnequipped(Entity<HardsuitDnaComponent> ent, ref GotUnequippedEvent args)
-    {
-        CancelCountdown(ent.Owner, args.EquipTarget);
-    }
+    private void OnGotUnequipped(Entity<HardsuitDnaComponent> ent, ref GotUnequippedEvent args) => CancelCountdown(ent.Owner, args.EquipTarget);
 
-    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args)
+    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args) => BindCarriedSuits(args.Mob);
+
+    // Снаряжение могут выдать до того, как у моба появится ДНК (она создаётся при MapInit)
+    private void OnDnaGenerated(Entity<DnaComponent> ent, ref GenerateDnaEvent args) => BindCarriedSuits(ent.Owner);
+
+    // Скафандры, выданные персонажу при спавне, привязываются к нему сразу
+    private void BindCarriedSuits(EntityUid mob)
     {
-        // Скафандры, выданные персонажу при спавне, привязываются к нему сразу
-        foreach (var item in _inventory.GetHandOrInventoryEntities(args.Mob))
+        if (CompOrNull<DnaComponent>(mob)?.DNA is not { } dna)
+            return;
+
+        foreach (var item in _inventory.GetHandOrInventoryEntities(mob))
         {
             if (!TryComp<HardsuitDnaComponent>(item, out var suit) || !suit.AutoBindOnSpawn || suit.Dna != null)
                 continue;
 
-            if (CompOrNull<DnaComponent>(args.Mob)?.DNA is { } dna)
-                Bind((item, suit), args.Mob, dna);
+            Bind((item, suit), mob, dna);
         }
     }
 
@@ -135,7 +141,7 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
             }
 
             var left = countdown.EndTime - now;
-            if (left <= TimeSpan.Zero)
+            if (left <= -suit.FinalDelay)
             {
                 Detonate((uid, suit), countdown.Wearer);
                 continue;
@@ -143,8 +149,11 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
 
             if (countdown.NextAnnounce > 0 && left <= TimeSpan.FromSeconds(countdown.NextAnnounce))
             {
+                // Длинную первую фразу не перебиваем цифрами: считаем вслух только последние секунды
                 var first = countdown.NextAnnounce == (int) Math.Ceiling(suit.CountdownDuration.TotalSeconds);
-                Announce((uid, suit), countdown.NextAnnounce, first);
+                if (first || countdown.NextAnnounce <= suit.CountVoiceFrom)
+                    Announce((uid, suit), countdown.NextAnnounce, first);
+
                 countdown.NextAnnounce--;
             }
         }
@@ -153,13 +162,10 @@ public sealed partial class HardsuitDnaSystem : SharedHardsuitDnaSystem
     /// <summary>
     /// Скафандр всё ещё надет на этого живого носителя. Умерший или удалённый носитель отменяет отсчёт.
     /// </summary>
-    private bool IsWornBy(EntityUid suit, EntityUid wearer)
-    {
-        return !TerminatingOrDeleted(wearer)
+    private bool IsWornBy(EntityUid suit, EntityUid wearer) => !TerminatingOrDeleted(wearer)
                 && !_mobState.IsDead(wearer)
                 && Transform(suit).ParentUid == wearer
                 && _inventory.TryGetContainingSlot(suit, out _);
-    }
 
     private void Announce(Entity<HardsuitDnaComponent> ent, int seconds, bool first)
     {

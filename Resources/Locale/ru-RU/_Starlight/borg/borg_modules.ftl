@@ -22,3 +22,4 @@ borg-slot-rollerbeds-empty = Мешки для тел и роликовые кр
 borg-slot-music-media-empty = Винил и CD
 borg-slot-meat-empty = Мясо
 borg-slot-animbox-empty = Кубики и коробки с животными
+borg-slot-clothing-empty = Одежда

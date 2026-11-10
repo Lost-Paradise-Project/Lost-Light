@@ -30,8 +30,8 @@ public sealed partial class SecApartmentWindow : BaseWindow
 
     private readonly SecApartmentStyles _styles;
     private string _station = Loc.GetString("sec-apartment-unknown");
-    private Dictionary<string, SquadEntry> _squadEntries = new();
-    private Dictionary<NetEntity, TimerEntryControl> _timerControls = new();
+    private readonly Dictionary<string, SquadEntry> _squadEntries = new();
+    private readonly Dictionary<NetEntity, TimerEntryControl> _timerControls = new();
 
     public Action<string>? OnCreateSquad;
     public Action<string, string>? OnRenameSquad;
@@ -168,14 +168,13 @@ public sealed partial class SecApartmentWindow : BaseWindow
         return new Stylesheet(combinedRules);
     }
 
-    private void OnSquadNameTextChanged(LineEdit.LineEditEventArgs args)
-    {
-        CreateSquadButton.Disabled = string.IsNullOrWhiteSpace(NewSquadName.Text);
-    }
+    private void OnSquadNameTextChanged(LineEdit.LineEditEventArgs args) => CreateSquadButton.Disabled = string.IsNullOrWhiteSpace(NewSquadName.Text);
 
     public void UpdateState(SecApartmentUpdateState state)
     {
-        _station = state.StationName?.ToUpperInvariant() ?? Loc.GetString("sec-apartment-unknown");
+        _station = string.IsNullOrEmpty(state.StationName)
+            ? Loc.GetString("sec-apartment-unknown")
+            : state.StationName.ToUpperInvariant();
 
         UpdateUnassignedList(state.UnassignedSecurity, state.Squads);
         UpdateSquadsList(state.Squads);
@@ -189,10 +188,7 @@ public sealed partial class SecApartmentWindow : BaseWindow
         }
     }
 
-    public void UpdateTimerState(TimerUpdateState state)
-    {
-        UpdateTimersList(state.Timers);
-    }
+    public void UpdateTimerState(TimerUpdateState state) => UpdateTimersList(state.Timers);
 
     private void UpdateUnassignedList(List<CrewMemberInfo> unassigned, List<Squad> squads)
     {

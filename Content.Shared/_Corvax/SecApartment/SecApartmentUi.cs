@@ -50,10 +50,7 @@ public sealed class CreateSquadMessage : BoundUserInterfaceMessage
 {
     public string SquadName { get; }
 
-    public CreateSquadMessage(string squadName)
-    {
-        SquadName = squadName;
-    }
+    public CreateSquadMessage(string squadName) => SquadName = squadName;
 }
 
 [Serializable, NetSerializable]
@@ -61,10 +58,7 @@ public sealed class DeleteSquadMessage : BoundUserInterfaceMessage
 {
     public string SquadId { get; }
 
-    public DeleteSquadMessage(string squadId)
-    {
-        SquadId = squadId;
-    }
+    public DeleteSquadMessage(string squadId) => SquadId = squadId;
 }
 
 [Serializable, NetSerializable]
@@ -150,10 +144,7 @@ public sealed class TimerUpdateState : BoundUserInterfaceState
 {
     public List<TimerEntry> Timers { get; }
 
-    public TimerUpdateState(List<TimerEntry> timers)
-    {
-        Timers = timers;
-    }
+    public TimerUpdateState(List<TimerEntry> timers) => Timers = timers;
 }
 
 [Serializable, NetSerializable]
@@ -161,8 +152,5 @@ public sealed class RemoveTimerMessage : BoundUserInterfaceMessage
 {
     public NetEntity TimerUid { get; }
 
-    public RemoveTimerMessage(NetEntity timerUid)
-    {
-        TimerUid = timerUid;
-    }
+    public RemoveTimerMessage(NetEntity timerUid) => TimerUid = timerUid;
 }

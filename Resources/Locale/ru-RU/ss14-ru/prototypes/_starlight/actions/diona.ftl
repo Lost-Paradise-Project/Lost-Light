@@ -1,0 +1,12 @@
+ent-ActionOpenPollenShop = Открыть магазин пыльцы
+    .desc = Потратьте собранные очки пыльцы на телесные перки.
+ent-PollenTreeFloralT2PassiveMossFireResistEffect = { "" }
+    .desc = { "" }
+ent-PollenTreeBarkT1ActionMakeWood = Добыть древесину
+    .desc = Отрежьте часть своего тела, чтобы получить свежую древесину. Наносит урон вам самому.
+ent-PollenTreeBarkT2PassiveHardenEffect = { "" }
+    .desc = { "" }
+ent-ActionSporeCloud = Облако спор
+    .desc = Выпустите вокруг себя облако спор, пропитанных микофилином.
+ent-ActionInjectPhytovitalin = Ввести фитовиталин
+    .desc = Сосредоточьтесь на мгновение, затем введите 5 ед. фитовиталина в целевое существо или ёмкость.

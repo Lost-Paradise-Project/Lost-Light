@@ -1,0 +1,12 @@
+ent-MobPurrfusHostile = повреждённый мурчащий корпус
+    .desc = Повреждённое шасси, восстановлению не подлежит.
+    .suffix = { ent-BaseSimpleMob.suffix }
+ent-MobDerelictSiliconHostile = повреждённый киборг
+    .desc = { ent-MobPurrfusHostile.desc }
+    .suffix = { ent-MobPurrfusHostile.suffix }
+ent-MobDerelictEngineerHostile = повреждённый инженер
+    .desc = { ent-MobPurrfusHostile.desc }
+    .suffix = { ent-MobPurrfusHostile.suffix }
+ent-MobDerelictJanitorHostile = повреждённый уборщик
+    .desc = { ent-MobPurrfusHostile.desc }
+    .suffix = { ent-MobPurrfusHostile.suffix }

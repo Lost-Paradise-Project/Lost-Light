@@ -26,3 +26,5 @@ ent-CargoCommsComputerCircuitboard = плата консоли связи кар
     .desc = Печатная плата компьютера для консоли связи карго.
 ent-ShipyardComputerCircuitboard = плата компьютера верфи
     .desc = Печатная плата компьютера для компьютера верфи.
+ent-CombustionTurbineComputerCircuitboard = плата компьютера управления газовой турбиной
+    .desc = Печатная плата компьютера для компьютера управления газовой турбиной.

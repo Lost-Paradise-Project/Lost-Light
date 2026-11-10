@@ -165,3 +165,7 @@ ghost-role-information-spawn-point-ghost-cluwne-beast-name = Зверь-клув
 ghost-role-information-mob-nyr-mouse-ops-description = Вы — предводитель мышей. Ваша цель — украсть сыр у глав!
 ghost-role-information-spawn-point-ghost-cluwne-beast-description = Сейте смех и хаос: бейте членов экипажа и превращайте их в клувней.
 ghost-role-information-spawn-point-ghost-cluwne-beast-rules = Вы — антагонист. Превратите в клувней как можно больше членов экипажа.
+
+ghost-role-information-bombroach-name = Бомботаракамоль
+ghost-role-information-bombroach-description = Вы — верный дрессированный вредитель оперативников Синдиката с пикобомбой. Служите хозяину до самой смерти!
+ghost-role-information-bombroach-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] вместе с агентом, который вас призвал.

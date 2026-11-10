@@ -1657,6 +1657,7 @@
     shiveringHeatRegulation: 500
     normalBodyTemperature: 310.15
     thermalRegulationTemperatureThreshold: 2
+  - type: FootprintOwner
   # Starlight-end
 
 - type: entity
@@ -1782,15 +1783,6 @@
   parent: MobBaseSyndicateMonkey
   suffix: NukeOps
   components:
-  # Starlight-Start
-  - type: LanguageSpeaker
-  - type: LanguageKnowledge
-    speaks:
-    - Ancestor
-    understands:
-    - Ancestor
-    - GalacticCommon
-  # Starlight-End
   - type: NukeOperative
 
 - type: entity
@@ -3368,6 +3360,7 @@
     shiveringHeatRegulation: 500 # Allow corgis to shiver to warm up
     normalBodyTemperature: 311.45 # Slightly higher than human
     thermalRegulationTemperatureThreshold: 2 # Same as human
+  - type: FootprintOwner
   # Starlight End
 
 - type: entity

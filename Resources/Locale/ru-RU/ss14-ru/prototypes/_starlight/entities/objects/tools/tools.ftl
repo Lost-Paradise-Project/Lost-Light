@@ -56,3 +56,6 @@ ent-ToolboxSELF = { ent-ToolboxThief }
 ent-LoadoutRadioERTSec = блюспейс-рация снаряжения
     .desc = Передовая блюспейс-технология в корпусе рации. Позволяет вызывать разные комплекты снаряжения.
     .suffix = Служба безопасности
+ent-NetworkConfiguratorWithTrigger = { ent-NetworkConfigurator }
+    .desc = { ent-NetworkConfigurator.desc }
+    .suffix = Сигнализатор, Синдикат

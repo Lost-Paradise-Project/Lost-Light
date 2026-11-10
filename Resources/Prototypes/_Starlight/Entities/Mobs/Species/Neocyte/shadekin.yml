@@ -269,6 +269,7 @@
         - NeoKin
         - SiliconEmotesFH
         - NotLabelable
+    - type: FootprintOwner
 
 - type: entity
   save: false

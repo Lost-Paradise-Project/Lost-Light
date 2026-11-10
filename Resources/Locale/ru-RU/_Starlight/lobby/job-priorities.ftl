@@ -1,4 +1,4 @@
-lobby-character-preview-panel-job-priorities-button = Приоритеты профессий
+lobby-character-preview-panel-job-priorities-button = Профессии
 lobby-character-preview-panel-job-characters = {$count ->
     [0] Нет подходящих персонажей для этой профессии
     [one] { $count } подходящий персонаж для этой профессии

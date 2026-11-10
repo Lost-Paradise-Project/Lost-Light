@@ -10,3 +10,5 @@ ent-DonkFlag = Флаг DONK CO
     .desc = Поставь на это ДОНК!
 ent-WaffleCoFlag = Флаг Waffle Corp
     .desc = Надёжно и вкусно.
+ent-PluralFlag = флаг плюральности
+    .desc = Нас больше одного!

@@ -96,9 +96,6 @@ uplink-hydra-desc = Модифицированная Гидра, способн�
 uplink-pizza-bomb-name = Коварная пицца-бомба
 uplink-pizza-bomb-desc = Изначально тайно разработана DONK Co, чтобы отбить охоту у еретиков, предпочитающих пиццу не в карманном виде. Эта коробка из-под пиццы заминирована и взрывается через мгновения после открытия.
 
-uplink-shuttle-board-name = Плата консоли шаттла Синдиката
-uplink-shuttle-board-desc = Печатная плата компьютера для консоли шаттла Синдиката.
-
 uplink-shuttle-bundle-name = Ящик шаттла Синдиката
 uplink-shuttle-bundle-desc = Всё, кроме платы шаттла. Это шаттл в ящике* (требуется сборка)
 
@@ -167,3 +164,41 @@ uplink-estoc-desc = Пехотная снайперская винтовка, о
 
 uplink-plushie-linari-name = плюшевый линари миун
 uplink-plushie-linari-desc = Мастерски сшитая плюшевая ящерица в тактическом офицерском снаряжении, отсутствующая в стандартных каталогах НаноТрейзен. На шве сзади написано «Собственность Синдиката». Когда держишь её, кажется, что нарушаешь минимум три корпоративных правила.
+
+uplink-bombroach-microbomb-name = Телепортер бомботаракамоли
+uplink-bombroach-microbomb-desc = Вызовите удобную бомботаракамоль с имплантом пикобомбы. Взрывается после смерти или по команде самой бомботаракамоли.
+
+# These are from funky, but funky puts them in Wizden files, so in our files they go then
+uplink-hidden-radio-botany-name = Скрытый аплинк
+uplink-hidden-radio-botany-desc = Аплинк, замаскированный под анализатор растений. Оставьте его себе или передайте надёжному союзнику, чтобы помочь выполнить задание. Телекристаллы в комплект не входят.
+
+uplink-food-pepper-shaker-lead-name = Перечница со свинцом
+uplink-food-pepper-shaker-lead-desc = Добавьте немного остринки в жизнь экипажа на то время, что им осталось. Содержит 15 единиц свинца.
+
+uplink-pitcher-napalm-name = Кувшин с напалмом
+uplink-pitcher-napalm-desc = Ничто не сравнится с запахом напалма поутру. Кувшин с 60 единицами напалма.
+
+uplink-emergency-medipen-mute-name = Заглушающий автоинъектор
+uplink-emergency-medipen-mute-desc = Автоинъектор, замаскированный под экстренный медипен, наполненный 15 единицами токсина немоты и 5 единицами пакса.
+
+uplink-clothing-shoes-white-no-sound-name = Бесшумная обувь мима
+uplink-clothing-shoes-white-no-sound-desc = Тихая угроза. Никто не услышит ваших шагов в этой особой паре обуви.
+
+uplink-hidden-uplink-radio-science-name = Скрытый аплинк
+uplink-hidden-uplink-radio-science-desc = Аплинк, замаскированный под сканер аномалий. Оставьте его себе или передайте надёжному союзнику, чтобы помочь выполнить задание. Телекристаллы в комплект не входят.
+
+uplink-clothing-syndi-head-cone-name = Предупредительный конус с тайником
+uplink-clothing-syndi-head-cone-desc = Неприметный конус, скрывающий секрет. Используйте его, чтобы тайно прятать вещи или готовить сюрпризы на потом.
+
+uplink-network-configurator-with-trigger-name = Сетевой конфигуратор с сигнализатором
+uplink-network-configurator-with-trigger-desc = Он выглядит и работает как обычный сетевой конфигуратор, но скрывает дальний сигнализатор на все случаи, когда нужно что-нибудь запустить.
+
+uplink-appraisal-tool-radio-jammer-name = Замаскированный радиоглушитель
+uplink-appraisal-tool-radio-jammer-desc = Радиоглушитель, спрятанный внутри оценочного инструмента. Можно и глушить их связь, и оценивать цену трупа!
+
+uplink-lead-chemistry-vial-name = Пробирка со свинцом
+uplink-lead-chemistry-vial-desc = Небольшая пробирка, содержащая 15 единиц свинца.
+# Funky end
+
+uplink-boxcutter-syndi-name = Химический канцелярский нож
+uplink-boxcutter-syndi-desc = Канцелярский нож со специальными желобками, в которые помещается до 10 единиц химикатов.

@@ -519,3 +519,5 @@ guidebook-search-keywords-rulesl14 = Rule 14 — Continuity Guidelines; непр
 guidebook-search-keywords-rulesl15 = Rule 15 — Separation of Character from Player; разделение ic и ooc; разделение персонажа и игрока; перенос эмоций
 guidebook-search-keywords-rulesl16 = Rule 16 — End-of-Round Griefing; еорг; гриф в конце раунда; гриф после окончания раунда
 guidebook-search-keywords-metashield = метащиты; метащитинг; защищённые личности
+guidebook-sidebar-collapse = Свернуть боковую панель
+guidebook-sidebar-expand = Развернуть боковую панель
