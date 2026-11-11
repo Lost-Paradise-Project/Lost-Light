@@ -1,6 +1,6 @@
 - type: gameMap
   id: LP_StarlightElkridge
-  mapName: 'Elkridge Depot'
+  mapName: 'Депо Элькридге'
   mapPath: /Maps/_LP/Stations/LP_Elkridge.yml
   minPlayers: 5
   maxPlayers: 75

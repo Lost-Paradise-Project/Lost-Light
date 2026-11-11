@@ -1,6 +1,6 @@
 - type: gameMap
   id: LPBeta
-  mapName: 'Beta Station'
+  mapName: 'Бета'
   mapPath: /Maps/_LP/Stations/LP_Beta.yml
   randomRotation: false
   minPlayers: 0

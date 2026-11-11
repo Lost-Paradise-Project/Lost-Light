@@ -1,6 +1,6 @@
 - type: gameMap
   id: LP_StarlightOrwell
-  mapName: 'Orwell "Citadel" Station'
+  mapName: 'Оруэлл "Цитадель" Станция'
   mapPath: /Maps/_LP/Stations/LP_Orwell_1984.yml
   minPlayers: 0
   maxPlayers: 350

@@ -1,6 +1,6 @@
 - type: gameMap
   id: LP_StarlightCog
-  mapName: 'Cog'
+  mapName: 'Ког'
   mapPath: /Maps/_LP/Stations/LP_Cog.yml
   minPlayers: 10
   maxPlayers: 150 #big map
