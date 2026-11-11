@@ -4,8 +4,8 @@ meta:
   engineVersion: 290.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/08/2026 19:52:42
-  entityCount: 33324
+  time: 11/11/2026 21:45:39
+  entityCount: 33330
 maps:
 - 1
 grids:
@@ -15738,7 +15738,7 @@ entities:
       pos: 20.5,-15.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -142056.75
+      secondsUntilStateChange: -142303.73
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -15870,7 +15870,7 @@ entities:
       pos: -48.5,57.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -64407.484
+      secondsUntilStateChange: -64654.465
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -15881,7 +15881,7 @@ entities:
       pos: -51.5,52.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -65771.67
+      secondsUntilStateChange: -66018.65
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -17047,7 +17047,7 @@ entities:
       pos: 26.5,17.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -149223.88
+      secondsUntilStateChange: -149470.86
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -17358,7 +17358,7 @@ entities:
       pos: 5.5,-3.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -65555.91
+      secondsUntilStateChange: -65802.88
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -18561,7 +18561,7 @@ entities:
       pos: -48.5,48.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -64462.52
+      secondsUntilStateChange: -64709.5
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -25292,6 +25292,18 @@ entities:
       pos: -41.5,57.5
     - type: Fixtures
       fixtures: {}
+- proto: BroadcastRecorder
+  entities:
+  - uid: 33327
+    components:
+    - type: Transform
+      parent: 2
+      pos: 58.5,63.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        27685:
+        - - BroadcastRecorderPort
+          - StationRadioRigPort
 - proto: BrutepackAdvanced1
   entities:
   - uid: 1688
@@ -78806,6 +78818,18 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 58.32879,60.724243
+- proto: CDPlayer
+  entities:
+  - uid: 33328
+    components:
+    - type: Transform
+      parent: 2
+      pos: 58.5,62.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        27685:
+        - - CDPlayerPort
+          - StationRadioRigPort
 - proto: CdRackFilled
   entities:
   - uid: 12233
@@ -80263,12 +80287,12 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 55.44927,61.659878
-  - uid: 12487
+  - uid: 29011
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
-      pos: 57.51177,62.738003
+      pos: 57.522804,61.532932
 - proto: ChairOfficeLight
   entities:
   - uid: 12488
@@ -84036,11 +84060,12 @@ entities:
     - type: Transform
       parent: 2
       pos: -16.5,51.5
-  - uid: 13087
+  - uid: 33326
     components:
     - type: Transform
       parent: 2
-      pos: 55.5,64.5
+      rot: 3.141592653589793 rad
+      pos: 56.5,63.5
 - proto: ComfyChairGreen
   entities:
   - uid: 13088
@@ -153064,6 +153089,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -28.5,11.5
+- proto: LockerGunnerySergeantFilled
+  entities:
+  - uid: 33330
+    components:
+    - type: Transform
+      parent: 2
+      pos: -34.5,62.5
 - proto: LockerHeadOfPersonnelFilled
   entities:
   - uid: 23054
@@ -156935,8 +156967,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: 3.141592653589793 rad
-      pos: 57.473602,60.68328
+      pos: 56.31968,64.7673
   - uid: 33298
     components:
     - type: Transform
@@ -156948,8 +156979,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: 3.141592653589793 rad
-      pos: 58.027187,60.328503
+      pos: 56.56968,64.50168
   - uid: 33302
     components:
     - type: Transform
@@ -180742,6 +180772,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -35.5,50.5
+- proto: SpawnPointGunnerySergeant
+  entities:
+  - uid: 33329
+    components:
+    - type: Transform
+      parent: 2
+      pos: -35.5,62.5
 - proto: SpawnPointHeadOfPersonnel
   entities:
   - uid: 27460
@@ -181096,16 +181133,16 @@ entities:
     - type: Transform
       parent: 2
       pos: 55.5,61.5
-  - uid: 27521
-    components:
-    - type: Transform
-      parent: 2
-      pos: 57.5,62.5
   - uid: 27522
     components:
     - type: Transform
       parent: 2
-      pos: 55.5,64.5
+      pos: 56.5,63.5
+  - uid: 33325
+    components:
+    - type: Transform
+      parent: 2
+      pos: 57.5,61.5
 - proto: SpawnPointReporter
   entities:
   - uid: 27523
@@ -182011,6 +182048,19 @@ entities:
       pos: 41.5,-6.5
     - type: Fixtures
       fixtures: {}
+- proto: StationRadioMixer
+  entities:
+  - uid: 27521
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 57.5,60.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        27685:
+        - - StationRadioMixerPort
+          - StationRadioRigPort
 - proto: StationRadioReceiver
   entities:
   - uid: 27663
@@ -182120,21 +182170,22 @@ entities:
       pos: 50.5,-21.5
 - proto: StationRadioRig
   entities:
-  - uid: 27684
-    components:
-    - type: Transform
-      parent: 2
-      pos: 58.5,62.5
-- proto: StationRadioServer
-  entities:
   - uid: 27685
     components:
     - type: Transform
       parent: 2
+      rot: -1.5707963267948966 rad
       pos: 58.5,61.5
+- proto: StationRadioServer
+  entities:
+  - uid: 13087
+    components:
+    - type: Transform
+      parent: 2
+      pos: 55.5,64.5
     - type: DeviceLinkSource
       linkedPorts:
-        27684:
+        27685:
         - - StationRadioServerPort
           - StationRadioRigPort
 - proto: Stool
@@ -187750,6 +187801,16 @@ entities:
       pos: 63.5,-32.5
 - proto: TableWood
   entities:
+  - uid: 12487
+    components:
+    - type: Transform
+      parent: 2
+      pos: 56.5,64.5
+  - uid: 27684
+    components:
+    - type: Transform
+      parent: 2
+      pos: 58.5,62.5
   - uid: 28547
     components:
     - type: Transform
@@ -191476,15 +191537,6 @@ entities:
       pos: -15.211973,72.15056
 - proto: VinylPlayer
   entities:
-  - uid: 29011
-    components:
-    - type: Transform
-      parent: 2
-      pos: 58.5,63.5
-    - type: DeviceLinkSource
-      ports: []
-      linkedPorts: {}
-      lastSignals: {}
   - uid: 29012
     components:
     - type: Transform

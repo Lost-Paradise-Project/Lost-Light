@@ -4,8 +4,8 @@ meta:
   engineVersion: 290.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/07/2026 16:00:26
-  entityCount: 10274
+  time: 11/11/2026 21:53:53
+  entityCount: 10284
 maps:
 - 1
 grids:
@@ -10698,6 +10698,18 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 12.46389,-2.4599237
+- proto: BroadcastRecorder
+  entities:
+  - uid: 3181
+    components:
+    - type: Transform
+      parent: 2
+      pos: -24.5,-8.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        7111:
+        - - BroadcastRecorderPort
+          - StationRadioRigPort
 - proto: BruteAutoInjector
   entities:
   - uid: 154
@@ -21330,6 +21342,18 @@ entities:
     - type: Transform
       parent: 2
       pos: -16.723307,9.67929
+- proto: CassetteTape
+  entities:
+  - uid: 6532
+    components:
+    - type: Transform
+      parent: 2
+      pos: -24.62387,-9.012649
+  - uid: 6768
+    components:
+    - type: Transform
+      parent: 2
+      pos: -24.37387,-9.168899
 - proto: Catwalk
   entities:
   - uid: 2136
@@ -23062,13 +23086,25 @@ entities:
     - type: Transform
       parent: 9918
       pos: 0.5,-2.5
-- proto: CdRackFilled
+- proto: CDPlayer
   entities:
-  - uid: 2426
+  - uid: 3338
     components:
     - type: Transform
       parent: 2
-      pos: -21.5,-9.5
+      pos: -24.5,-9.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        7111:
+        - - CDPlayerPort
+          - StationRadioRigPort
+- proto: CdRackFilled
+  entities:
+  - uid: 3180
+    components:
+    - type: Transform
+      parent: 2
+      pos: -24.5,-10.5
 - proto: CentCommSectoralConsoleFilled
   entities:
   - uid: 10050
@@ -24719,12 +24755,12 @@ entities:
       pos: 13.5,9.5
 - proto: CoffeeDispenser
   entities:
-  - uid: 2613
+  - uid: 6055
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -24.5,-8.5
+      rot: -1.5707963267948966 rad
+      pos: -11.5,-13.5
 - proto: ComfyChair
   entities:
   - uid: 2614
@@ -25771,11 +25807,11 @@ entities:
       pos: 13.5,-4.5
 - proto: CrateLockBoxSecurity
   entities:
-  - uid: 2755
+  - uid: 6070
     components:
     - type: Transform
       parent: 2
-      pos: -8.5,16.5
+      pos: -5.5,12.5
 - proto: CrateNPCHamlet
   entities:
   - uid: 2756
@@ -25792,16 +25828,16 @@ entities:
       pos: 3.5,-18.5
 - proto: CrateRadioHostVinyls
   entities:
-  - uid: 2757
+  - uid: 2874
     components:
     - type: Transform
       parent: 2
-      pos: -23.5,-9.5
-  - uid: 2758
+      pos: -21.5,-10.5
+  - uid: 6936
     components:
     - type: Transform
       parent: 2
-      pos: -24.5,-6.5
+      pos: -20.5,27.5
 - proto: CrateSecurityTrackingMindshieldImplants
   entities:
   - uid: 2759
@@ -25976,26 +26012,24 @@ entities:
       parent: 8515
       rot: 3.141592653589793 rad
       pos: 6.5,-2.5
-- proto: CurtainsBlack
+- proto: CurtainsBlackOpen
   entities:
-  - uid: 2780
+  - uid: 2758
     components:
     - type: Transform
       parent: 2
       pos: -21.5,-10.5
-  - uid: 2781
+  - uid: 2780
     components:
     - type: Transform
       parent: 2
       pos: -24.5,-10.5
-- proto: CurtainsBlackOpen
-  entities:
-  - uid: 2782
+  - uid: 2781
     components:
     - type: Transform
       parent: 2
       pos: -22.5,-10.5
-  - uid: 2783
+  - uid: 2782
     components:
     - type: Transform
       parent: 2
@@ -26689,11 +26723,11 @@ entities:
       fixtures: {}
 - proto: DeployableBarrier
   entities:
-  - uid: 2874
+  - uid: 2755
     components:
     - type: Transform
       parent: 2
-      pos: -9.5,22.5
+      pos: -8.5,16.5
 - proto: DeskBell
   entities:
   - uid: 2875
@@ -28765,18 +28799,18 @@ entities:
       canCollide: False
 - proto: DrinkMugBlack
   entities:
-  - uid: 3180
+  - uid: 2613
     components:
     - type: Transform
       parent: 2
-      pos: -24.748047,-8.856445
+      pos: -11.778773,-13.519155
 - proto: DrinkMugBlue
   entities:
-  - uid: 3181
+  - uid: 6396
     components:
     - type: Transform
       parent: 2
-      pos: -24.294025,-8.8913555
+      pos: -11.781976,-13.19103
 - proto: DrinkMugMetal
   entities:
   - uid: 8946
@@ -29741,11 +29775,11 @@ entities:
       pos: -11.5,6.5
 - proto: FaxMachineRadioHost
   entities:
-  - uid: 3338
+  - uid: 2757
     components:
     - type: Transform
       parent: 2
-      pos: -24.5,-9.5
+      pos: -21.5,-9.5
 - proto: FaxMachineScience
   entities:
   - uid: 3339
@@ -48999,7 +49033,7 @@ entities:
       pos: 6.5,21.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -44502.203
+      secondsUntilStateChange: -44928.758
   - uid: 5666
     components:
     - type: Transform
@@ -49629,6 +49663,8 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -3.5,-1.5
+    - type: Setup
+      nameSet: True
     - type: WirelessNetworkConnection
       range: 2000000
     - type: DeviceLinkSource
@@ -50007,6 +50043,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.5,2.5
+- proto: LockerGunnerySergeantFilled
+  entities:
+  - uid: 2783
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.5,22.5
 - proto: LockerHeadOfPersonnelFilled
   entities:
   - uid: 5761
@@ -50548,7 +50591,6 @@ entities:
     components:
     - type: MetaData
       name: именной дымчатый кот
-      destruction: 'Плюшевая грушка тёмного кота. Имеет бирку с надписью: "В благодарность eleondex357 за помощь."'
     - type: Transform
       parent: 2
       pos: -11.384757,-11.4294405
@@ -55996,12 +56038,6 @@ entities:
       pos: 5.5,-20.5
 - proto: RandomPainting
   entities:
-  - uid: 6532
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: -18.5,23.5
   - uid: 6533
     components:
     - type: Transform
@@ -59912,6 +59948,18 @@ entities:
     - type: Transform
       parent: 2
       pos: -10.5,13.5
+- proto: SpawnPointGunnerySergeant
+  entities:
+  - uid: 6060
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.5,21.5
+  - uid: 6069
+    components:
+    - type: Transform
+      parent: 2
+      pos: -7.5,20.5
 - proto: SpawnPointHeadOfPersonnel
   entities:
   - uid: 7030
@@ -60483,6 +60531,18 @@ entities:
       pos: 5.5,11.5
     - type: Fixtures
       fixtures: {}
+- proto: StationRadioMixer
+  entities:
+  - uid: 3966
+    components:
+    - type: Transform
+      parent: 2
+      pos: -21.5,-6.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        7111:
+        - - StationRadioMixerPort
+          - StationRadioRigPort
 - proto: StationRadioReceiver
   entities:
   - uid: 7107
@@ -61816,6 +61876,12 @@ entities:
       pos: -2.5,3.5
 - proto: TableGlass
   entities:
+  - uid: 6072
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -11.5,-13.5
   - uid: 7278
     components:
     - type: Transform
@@ -62317,6 +62383,11 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 18.5,14.5
+  - uid: 2426
+    components:
+    - type: Transform
+      parent: 2
+      pos: -21.5,-9.5
   - uid: 2587
     components:
     - type: Transform
@@ -62335,6 +62406,11 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 20.5,14.5
+  - uid: 6929
+    components:
+    - type: Transform
+      parent: 2
+      pos: -18.5,23.5
   - uid: 7363
     components:
     - type: Transform
@@ -63862,16 +63938,11 @@ entities:
       pos: 14.5,5.5
 - proto: VinylPlayer
   entities:
-  - uid: 7504
+  - uid: 3329
     components:
     - type: Transform
       parent: 2
-      pos: -21.5,-6.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        7111:
-        - - VinylPlayerPort
-          - StationRadioRigPort
+      pos: -18.5,23.5
 - proto: WallAndesiteCobblebrick
   entities:
   - uid: 7505
@@ -72601,6 +72672,16 @@ entities:
       pos: -4.5,8.5
 - proto: WindoorServiceLocked
   entities:
+  - uid: 4647
+    components:
+    - type: Transform
+      parent: 2
+      pos: -23.5,-10.5
+  - uid: 6045
+    components:
+    - type: Transform
+      parent: 2
+      pos: -22.5,-10.5
   - uid: 8338
     components:
     - type: Transform
@@ -73011,16 +73092,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -21.5,-10.5
-  - uid: 8380
-    components:
-    - type: Transform
-      parent: 2
-      pos: -23.5,-10.5
-  - uid: 8381
-    components:
-    - type: Transform
-      parent: 2
-      pos: -22.5,-10.5
   - uid: 8382
     components:
     - type: Transform

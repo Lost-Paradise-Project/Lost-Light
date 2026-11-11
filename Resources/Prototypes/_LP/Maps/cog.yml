@@ -51,6 +51,7 @@
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
+            GunnerySergeant: [ 1, 1 ] # Старший сержант, он же инструктор СБ, он же "СЭР, ДА, СЭР"
             DutyOfficer: [ 1, 2 ]
             SecurityOfficer: [ 6, 8 ]
             SecurityCadet: [ 3, 4 ]
