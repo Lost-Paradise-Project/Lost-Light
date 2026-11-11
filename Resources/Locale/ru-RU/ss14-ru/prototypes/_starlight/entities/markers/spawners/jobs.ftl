@@ -52,6 +52,6 @@ ent-SpawnPointSalvageMedic = медик утилизаторов
 ent-SpawnPointK9 = служебная собака СБ
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
-ent-SpawnPointGunnerySergeant = артиллерийский сержант
+ent-SpawnPointGunnerySergeant = старший сержант
     .desc = { ent-SpawnPointJobBase.desc }
     .suffix = { ent-SpawnPointJobBase.suffix }
