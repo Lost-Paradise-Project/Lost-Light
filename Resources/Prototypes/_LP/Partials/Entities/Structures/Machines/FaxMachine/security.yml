@@ -1,0 +1,48 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineSecurity
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Служба Безопасности"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityHoS
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Глава Службы Безопасности"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityWarden
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Смотритель"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityDetective
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Детектив"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityFront
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Бригмедик"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityPrison
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Общая зона"
+      order: 600

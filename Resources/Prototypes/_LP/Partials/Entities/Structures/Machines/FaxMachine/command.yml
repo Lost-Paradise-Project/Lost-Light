@@ -1,0 +1,26 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineCommandBridge
+  components:
+    - type: FaxMachine
+      group: FaxGroupCommand
+      name: "Мостик"
+      order: 100
+
+# Captain's Office: order=200
+
+- type: !PartialOnly entity
+  id: FaxMachineCommandConference
+  components:
+    - type: FaxMachine
+      group: FaxGroupCommand
+      name: "Конференц-зал"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineCommandAICore
+  components:
+    - type: FaxMachine
+      group: FaxGroupCommand
+      name: "Ядро ИИ"
+      order: 400

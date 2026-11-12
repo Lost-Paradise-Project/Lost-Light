@@ -1,0 +1,80 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineService
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Сервисный отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceHoP
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Глава Персонала"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceReporter
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Репортёр"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceLawyer
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Адвокатура"
+      order: 310
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceLibrary
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Библиотека"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceBar
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Бар"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceBotany
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Ботаника"
+      order: 510
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceShrine
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Храм"
+      order: 600
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceChaplain
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Священник"
+      order: 610
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceTheater
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Театр"
+      order: 700

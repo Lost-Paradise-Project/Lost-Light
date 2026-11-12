@@ -1,0 +1,32 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineMedical
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Медицинский отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineMedicalCMO
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Главный врач"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineMedicalChemistry
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Химическая лаборатория"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineMedicalPsychology
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Психолог"
+      order: 400

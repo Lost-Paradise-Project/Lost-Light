@@ -26,5 +26,5 @@
         - LPPBedsheetGrey
         - LPPBedsheetWhite
         - LPPBedsheetRainbow
-      chance: 0.97
+      chance: 1
       offset: 0

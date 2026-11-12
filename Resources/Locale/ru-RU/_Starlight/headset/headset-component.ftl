@@ -1,4 +1,4 @@
-chat-radio-law = Закон
+chat-radio-law = Юридический
 chat-radio-nanotrasen = NanoTrasen
 chat-radio-soviet = Советский
 chat-radio-expedition = Экспедиция

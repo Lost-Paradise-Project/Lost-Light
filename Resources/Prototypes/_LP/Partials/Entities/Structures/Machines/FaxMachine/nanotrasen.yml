@@ -1,0 +1,55 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineNTRep
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Представитель НаноТрейзен"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineNTRepBSO
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "ПНТ и ОСЩ"
+      order: 100
+- type: !PartialOnly entity
+  id: FaxMachineNTMagi
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Магистрат"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineNTMagiInternalAffairs
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Магистрат и АВД"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineNTInternalAffairs
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Агент Внутренних Дел"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineNTBlueshield
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Офицер Синего Щита"
+      order: 600
+
+- type: !PartialOnly entity
+  id: FaxMachineNTCareerTrainer
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Коуч НТ"
+      order: 700
