@@ -1,6 +1,6 @@
 - type: gameMap
   id: LP_StarlightOrwell
-  mapName: 'Orwell "Citadel" Station'
+  mapName: 'Оруэлл "Цитадель" Станция'
   mapPath: /Maps/_LP/Stations/LP_Orwell_1984.yml
   minPlayers: 0
   maxPlayers: 350
@@ -49,6 +49,7 @@
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
+            GunnerySergeant: [ 1, 1 ] # Старший сержант, он же инструктор СБ, он же "СЭР, ДА, СЭР"
             DutyOfficer: [ 2, 2 ]
             SecurityOfficer: [ 12, 12 ]
             SecurityCadet: [ 6, 6 ]

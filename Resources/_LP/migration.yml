@@ -21,7 +21,7 @@ QuantumConsole: MachineFrame
 QuantumServer: MachineFrame
 Netpod: MachineFrame
 VendingMachineBitrunning: MachineFrame
-SpawnPointShaftMiner: Error
+SpawnPointShaftMiner: null
 SpawnPointPilot: SpawnPointSecurityOfficer
 SpawnPointBitrunner: SpawnPointCargoTechnician
 LPPSpaceForgeCMD: MachineFrame
@@ -40,3 +40,27 @@ LPPSpawnPointSecurityEngineer: SpawnPointSecurityOfficer
 LPPWeaponRevolverFieldEngineer: null
 LPPClothingHeadHelmetBasic: ClothingHeadHelmetBasic
 ComputerShuttleMiningLavaland: ComputerBroken
+
+# 2026.11.12 dodep
+ClothingBackpackSatchelCE: ClothingBackpackSatchelEngineering
+ClothingEyesBinoclardLenses: ClothingEyesGlassesJamjar
+ClothingEyesSalesman: ClothingEyesGlassesJensen
+ClothingHeadHatERTLeaderBeret: ClothingHeadHatBeretTSFElite
+ClothingNeckMantleHOSShoulder: ClothingNeckMantleHOS
+ClothingOuterCoatDetectiveDark: ClothingOuterCoatDetectiveLoadoutGrey
+ClothingShoesBootsJackSecFilled: ClothingShoesBootsJackFilled
+Coal1Unprocessed: Coal1
+DiamondOre1Unprocessed: DiamondOre1
+DrinkBadTouchGlass: DrinkBacchusBlessing
+FoodPelmeniBowl: FoodPelmeni
+LootSpawnerContrabandHigh: MaintenanceWeaponSpawner
+LootSpawnerContrabandLow: MaintenanceToolSpawner
+OpporozidoneBeakerSmall: ChemistryBottleOpporozidone
+PlasmaOre1Unprocessed: PlasmaOre1
+RescuePlating: null
+SpaceQuartz1Unprocessed: SpaceQuartz1
+WhiteEngineeringPlating: null
+GoldOreUnprocessed: GoldOre
+LPPScienceProtolatheMachineCircuitboard: ScienceTechFabCircuitboard
+SilverOreUnprocessed: SilverOre
+SteelOreUnprocessed: SteelOre

@@ -4,8 +4,8 @@ meta:
   engineVersion: 290.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/31/2026 17:24:09
-  entityCount: 15929
+  time: 11/11/2026 21:46:06
+  entityCount: 15932
 maps:
 - 1
 grids:
@@ -4864,15 +4864,6 @@ entities:
       container: 4
 - proto: ActionToggleLight
   entities:
-  - uid: 7
-    mapInit: true
-    paused: true
-    components:
-    - type: Transform
-      parent: 6
-    - type: Action
-      originalIconColor: '#FFFFFFFF'
-      container: 6
   - uid: 9
     mapInit: true
     paused: true
@@ -6297,7 +6288,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 16.5,13.5
+      pos: 15.5,13.5
     - type: Setup
       nameSet: True
     - type: DeviceList
@@ -7480,7 +7471,7 @@ entities:
       pos: 0.5,-38.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -7677.772
+      secondsUntilStateChange: -8680.808
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -7617,7 +7608,7 @@ entities:
       pos: 9.5,-1.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -8394.271
+      secondsUntilStateChange: -9397.308
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -11302,7 +11293,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -44.5,4.5
+      pos: -48.115967,4.352633
 - proto: BoxMouthSwab
   entities:
   - uid: 808
@@ -11368,11 +11359,11 @@ entities:
       pos: 30.5,-11.5
 - proto: BoxShelfEvidenceRoom
   entities:
-  - uid: 11546
+  - uid: 14025
     components:
     - type: Transform
       parent: 2
-      pos: 16.5,12.5
+      pos: 32.5,2.5
 - proto: BoxShelfHoP
   entities:
   - uid: 13879
@@ -11471,6 +11462,18 @@ entities:
     - type: Transform
       parent: 2
       pos: 28.472837,5.618985
+- proto: BroadcastRecorder
+  entities:
+  - uid: 15931
+    components:
+    - type: Transform
+      parent: 2
+      pos: -44.5,4.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        6738:
+        - - BroadcastRecorderPort
+          - StationRadioRigPort
 - proto: Brutepack
   entities:
   - uid: 822
@@ -34771,13 +34774,25 @@ entities:
     - type: Transform
       parent: 2
       pos: -25.46534,18.436153
-- proto: CdRackFilled
+- proto: CDPlayer
   entities:
-  - uid: 11912
+  - uid: 13690
     components:
     - type: Transform
       parent: 2
-      pos: -47.5,4.5
+      pos: -45.5,6.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        6738:
+        - - CDPlayerPort
+          - StationRadioRigPort
+- proto: CdRackFilled
+  entities:
+  - uid: 5852
+    components:
+    - type: Transform
+      parent: 2
+      pos: -48.5,4.5
 - proto: Chair
   entities:
   - uid: 5405
@@ -37704,13 +37719,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -4.5,27.5
-- proto: CrateRadioHostVinyls
-  entities:
-  - uid: 11911
-    components:
-    - type: Transform
-      parent: 2
-      pos: -48.5,4.5
 - proto: CrateSecurityTrackingMindshieldImplants
   entities:
   - uid: 5879
@@ -37971,11 +37979,11 @@ entities:
       pos: -41.635757,-9.447279
 - proto: DawInstrumentMachineCircuitboard
   entities:
-  - uid: 5920
+  - uid: 12460
     components:
     - type: Transform
       parent: 2
-      pos: -12.440802,-34.547344
+      pos: -10.484814,-32.819466
 - proto: DecalSpawnerDirtMonospace
   entities:
   - uid: 5921
@@ -44770,7 +44778,7 @@ entities:
       pos: -21.5,19.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -7100.1724
+      secondsUntilStateChange: -8103.2085
   - uid: 6901
     components:
     - type: Transform
@@ -44778,7 +44786,7 @@ entities:
       pos: -20.5,19.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -7124.372
+      secondsUntilStateChange: -8127.408
     - type: Firelock
       emergencyCloseCooldown: 1806.1315292
   - uid: 6902
@@ -46488,7 +46496,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -12.989951,-34.41355
+      pos: -13.422314,-34.444466
 - proto: FoamCutlass
   entities:
   - uid: 7093
@@ -78752,27 +78760,6 @@ entities:
       pos: -8.5137825,43.925583
 - proto: LampGold
   entities:
-  - uid: 6
-    components:
-    - type: Transform
-      parent: 2
-      pos: 4.7023053,7.8092117
-    - type: HandheldLight
-      toggleActionEntity: 7
-    - type: ContainerContainer
-      containers:
-        cell_slot: !type:ContainerSlot
-          ent: null
-          showEnts: False
-          occludes: True
-        actions: !type:Container
-          ents:
-          - 7
-          showEnts: False
-          occludes: True
-    - type: Physics
-      canCollide: True
-    - type: ActionsContainer
   - uid: 11459
     components:
     - type: Transform
@@ -78795,6 +78782,11 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -8.6681385,-31.113255
+  - uid: 11586
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.07366991,7.9235034
 - proto: LampInterrogator
   entities:
   - uid: 11464
@@ -79301,6 +79293,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -5.5,20.5
+- proto: LockerGunnerySergeantFilled
+  entities:
+  - uid: 11546
+    components:
+    - type: Transform
+      parent: 2
+      pos: 16.23,12.5
 - proto: LockerHeadOfPersonnelFilled
   entities:
   - uid: 11513
@@ -79538,11 +79537,11 @@ entities:
       pos: -21.5,2.5
 - proto: LockerWardenFilled
   entities:
-  - uid: 5852
+  - uid: 7
     components:
     - type: Transform
       parent: 2
-      pos: 16.5,11.5
+      pos: 16.74,12.5
 - proto: LockerWeldingSuppliesFilled
   entities:
   - uid: 11547
@@ -80007,6 +80006,48 @@ entities:
     - type: Transform
       parent: 2
       pos: -39.5,-13.5
+- proto: LPPVendingMachineBras
+  entities:
+  - uid: 11941
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-31.5
+- proto: LPPVendingMachineErp
+  entities:
+  - uid: 13443
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.5,-27.5
+- proto: LPPVendingMachinePillow
+  entities:
+  - uid: 11912
+    components:
+    - type: Transform
+      parent: 2
+      pos: -14.5,-27.5
+- proto: LPPVendingMachineSocks
+  entities:
+  - uid: 11921
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-33.5
+- proto: LPPVendingMachineUnderpants
+  entities:
+  - uid: 12458
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-32.5
+- proto: LPPVendingMachineWithSoftAnimals
+  entities:
+  - uid: 12157
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.5,-10.5
 - proto: LuxuryPen
   entities:
   - uid: 11582
@@ -81576,13 +81617,6 @@ entities:
       pos: 3.7203288,24.483206
 - proto: PersonalAI
   entities:
-  - uid: 11833
-    components:
-    - type: Transform
-      parent: 2
-      pos: 4.285874,7.6605496
-    - type: StockLimitedProcessing
-      processingListings: {}
   - uid: 11834
     components:
     - type: Transform
@@ -81625,6 +81659,11 @@ entities:
       pos: -1.9178436,24.633287
     - type: StockLimitedProcessing
       processingListings: {}
+  - uid: 15932
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.0513301,7.5953784
 - proto: PetCarrier
   entities:
   - uid: 154
@@ -82163,13 +82202,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 6.518513,-12.617201
-- proto: PottedPlant10
-  entities:
-  - uid: 11921
-    components:
-    - type: Transform
-      parent: 2
-      pos: -14.5,-27.5
 - proto: PottedPlant12
   entities:
   - uid: 11922
@@ -82268,16 +82300,16 @@ entities:
       pos: -13.5286255,-51.618233
 - proto: PottedPlantRandom
   entities:
+  - uid: 11911
+    components:
+    - type: Transform
+      parent: 2
+      pos: -10.5,-27.5
   - uid: 11940
     components:
     - type: Transform
       parent: 2
       pos: -3.5,46.5
-  - uid: 11941
-    components:
-    - type: Transform
-      parent: 2
-      pos: -10.5,-27.5
   - uid: 11942
     components:
     - type: Transform
@@ -82705,6 +82737,12 @@ entities:
       pos: 49.5,-4.5
 - proto: Poweredlight
   entities:
+  - uid: 11833
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -14.5,-29.5
   - uid: 12017
     components:
     - type: Transform
@@ -83511,12 +83549,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -0.5,-16.5
-  - uid: 12157
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -14.5,-27.5
   - uid: 12158
     components:
     - type: Transform
@@ -85250,13 +85282,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 8.5,-12.5
-- proto: RandomVendingClothing
-  entities:
-  - uid: 12458
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-33.5
 - proto: RandomVendingDrinks
   entities:
   - uid: 12459
@@ -85264,11 +85289,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -42.5,13.5
-  - uid: 12460
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-31.5
   - uid: 12461
     components:
     - type: Transform
@@ -85306,11 +85326,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.5,9.5
-  - uid: 12468
-    components:
-    - type: Transform
-      parent: 2
-      pos: -0.5,-10.5
   - uid: 12469
     components:
     - type: Transform
@@ -85326,11 +85341,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -32.5,-2.5
-  - uid: 12472
-    components:
-    - type: Transform
-      parent: 2
-      pos: 1.5,-32.5
   - uid: 12473
     components:
     - type: Transform
@@ -85406,7 +85416,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -13.480743,-34.428417
+      pos: -13.687939,-34.36413
 - proto: RecordMilkCrate
   entities:
   - uid: 11797
@@ -87765,11 +87775,11 @@ entities:
       pos: -13.5,-27.5
 - proto: ServiceTechFab
   entities:
-  - uid: 3725
+  - uid: 12472
     components:
     - type: Transform
       parent: 2
-      pos: -11.5,-29.5
+      pos: 4.5,7.5
     - type: TechnologyDatabase
       supportedDisciplines:
       - Industrial
@@ -90717,6 +90727,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 13.5,7.5
+- proto: SpawnPointGunnerySergeant
+  entities:
+  - uid: 6
+    components:
+    - type: Transform
+      parent: 2
+      pos: 15.5,10.5
 - proto: SpawnPointHeadOfPersonnel
   entities:
   - uid: 13334
@@ -91257,6 +91274,18 @@ entities:
       pos: 9.5,4.5
     - type: Fixtures
       fixtures: {}
+- proto: StationRadioMixer
+  entities:
+  - uid: 13893
+    components:
+    - type: Transform
+      parent: 2
+      pos: -47.5,4.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        6738:
+        - - StationRadioMixerPort
+          - StationRadioRigPort
 - proto: StationRadioReceiver
   entities:
   - uid: 11913
@@ -93238,11 +93267,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -13.5,-34.5
-  - uid: 13690
-    components:
-    - type: Transform
-      parent: 2
-      pos: -12.5,-34.5
   - uid: 13691
     components:
     - type: Transform
@@ -93979,6 +94003,17 @@ entities:
       pos: 21.5,10.5
 - proto: TableWood
   entities:
+  - uid: 3725
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -47.5,4.5
+  - uid: 5920
+    components:
+    - type: Transform
+      parent: 2
+      pos: -44.5,4.5
   - uid: 11587
     components:
     - type: Transform
@@ -94282,11 +94317,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -15.5,24.5
-  - uid: 13893
-    components:
-    - type: Transform
-      parent: 2
-      pos: 4.5,7.5
   - uid: 13894
     components:
     - type: Transform
@@ -95367,11 +95397,11 @@ entities:
       pos: -31.5,26.5
 - proto: VendingMachineTheater
   entities:
-  - uid: 14025
+  - uid: 12468
     components:
     - type: Transform
       parent: 2
-      pos: -9.5,-27.5
+      pos: -12.5,-34.5
 - proto: VendingMachineVendomat
   entities:
   - uid: 14026
@@ -95441,18 +95471,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -2.5,-24.5
-- proto: VinylPlayer
-  entities:
-  - uid: 11586
-    components:
-    - type: Transform
-      parent: 2
-      pos: -45.5,6.5
-    - type: DeviceLinkSource
-      linkedPorts:
-        6738:
-        - - VinylPlayerPort
-          - StationRadioRigPort
 - proto: WallmountMassScanner
   entities:
   - uid: 14037
@@ -105025,7 +105043,7 @@ entities:
       pos: -38.5,9.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -201046.16
+      secondsUntilStateChange: -202049.19
   - uid: 15893
     components:
     - type: Transform
@@ -105033,7 +105051,7 @@ entities:
       pos: -35.5,10.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -201046.66
+      secondsUntilStateChange: -202049.69
 - proto: Wrench
   entities:
   - uid: 15894
