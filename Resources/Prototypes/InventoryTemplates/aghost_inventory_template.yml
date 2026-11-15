@@ -73,6 +73,28 @@
       strippingWindowPos: 1,4
       displayName: Pocket 2
       stripHidden: true
+    # LP edit start
+    - name: pocket3
+      slotTexture: pocket
+      fullTextureName: template_small
+      slotFlags: POCKET
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 4,3
+      strippingWindowPos: 2,4
+      displayName: Pocket 3
+      stripHidden: true
+    - name: pocket4
+      slotTexture: pocket
+      fullTextureName: template_small
+      slotFlags: POCKET
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 6,3
+      strippingWindowPos: 4,4
+      displayName: Pocket 4
+      stripHidden: true
+    # LP edit end
     - name: suitstorage
       slotTexture: suit_storage
       slotFlags:   SUITSTORAGE
