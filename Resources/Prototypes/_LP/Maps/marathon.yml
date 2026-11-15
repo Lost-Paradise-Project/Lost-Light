@@ -1,7 +1,7 @@
 - type: gameMap
   id: LP_Marathon
   mapName: 'Марафон'
-  mapPath: /Maps/_LP/Station/LP_Marathon.yml
+  mapPath: /Maps/_LP/Stations/LP_Marathon.yml
   randomRotation: false
   minPlayers: 0
   maxPlayers: 65
