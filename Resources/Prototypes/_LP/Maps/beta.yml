@@ -85,7 +85,7 @@
             ResearchAssistant: [ 3, 3 ]
 
             # Сервис
-            AssistantManager: [ 1, 1 ] # Сверхъэффективный менеджер
+            AssistantManager: [ 1, 1 ] # Сверхэффективный менеджер
             Bartender: [ 2, 2 ]
             Botanist: [ 2, 3 ]
             Chaplain: [ 1, 1 ]

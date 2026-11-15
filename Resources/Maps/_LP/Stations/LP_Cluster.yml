@@ -70,6 +70,7 @@ entities:
       mapPaused: True
     - type: GridTree
     - type: Broadphase
+    - type: Parallax
     - type: OccluderTree
     - type: ChunkContainer
       chunkEntities: []

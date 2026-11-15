@@ -119,6 +119,7 @@ entities:
     - type: ChunkContainer
       chunkEntities: []
     - type: LightTree
+    - type: Parallax
   - uid: 2
     components:
     - type: MetaData

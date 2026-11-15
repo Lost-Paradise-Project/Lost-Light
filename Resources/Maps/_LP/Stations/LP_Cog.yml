@@ -94,6 +94,7 @@ entities:
     - type: OccluderTree
     - type: ChunkContainer
       chunkEntities: []
+    - type: Parallax
   - uid: 2
     components:
     - type: MetaData
