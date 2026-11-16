@@ -1,0 +1,8 @@
+- type: Tag
+  id: CartridgeSpecial
+
+- type: Tag
+  id: SpeedLoaderSpecial
+
+- type: Tag
+  id: MagazinePistolSpecial

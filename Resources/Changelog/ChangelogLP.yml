@@ -307,4 +307,11 @@ Entries:
   id: 44
   time: '2026-11-05T09:42:48.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/57
+- author: MegaDaimond
+  changes:
+  - message: Портированно вооружение в лодауты СБ и техфаб.
+    type: Add
+  id: 45
+  time: '2026-11-16T22:30:37.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/61
 Order: -3

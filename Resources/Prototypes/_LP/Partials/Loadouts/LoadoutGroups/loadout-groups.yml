@@ -203,3 +203,15 @@
   id: SecurityCadetJumpsuit
   loadouts:
   - LPPSecurityZavodCadet
+
+- type: !PartialOnly loadoutGroup
+  id: SecuritySidearm
+  loadouts:
+  - LPPSecurityPF20
+  - LPPSecurityPistolvalkyria
+  - LPPSecurityRevolverColtpeacemaker
+  - LPPSecurityRevolverFitz
+  - LPPSecurityRevolverK38Master
+  - LPPSecurityPistolMk93
+  - LPPSecurityPistolN1912Experimental
+  - LPPSecurityPistolN1912
