@@ -18,15 +18,6 @@
     explosionType: Default
     maxIntensity: 250
     intensitySlope: 1.5
-  - type: SolutionContainerManager
-    solutions:
-      battery:
-        maxVol: 8
-  - type: Extractable
-    juiceSolution:
-      reagents:
-        - ReagentId: Zinc
-          Quantity: 8
   - type: Appearance
   - type: MagazineVisuals
     magState: mag
