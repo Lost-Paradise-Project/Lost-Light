@@ -84393,7 +84393,7 @@ entities:
       pos: 4.5,24.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Bridge Entrance
+      id: Вход на мостик
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12665
@@ -84404,7 +84404,7 @@ entities:
       pos: -0.5,18.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Vault
+      id: Хранилище
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12666
@@ -84415,7 +84415,7 @@ entities:
       pos: 6.5,24.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Captain's Office
+      id: Кабинет капитана
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12667
@@ -84426,7 +84426,7 @@ entities:
       pos: 7.5,32.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Bridge East
+      id: Восточная часть мостика
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12668
@@ -84437,7 +84437,7 @@ entities:
       pos: -2.5,28.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Bridge West
+      id: Западная часть мостика
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12669
@@ -84447,7 +84447,7 @@ entities:
       pos: -0.5,23.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Conference Room
+      id: Конференц-зал
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12670
@@ -84457,7 +84457,7 @@ entities:
       pos: -1.5,47.5
     - type: SurveillanceCamera
       nameSet: True
-      id: AI Core South
+      id: Южная часть ядра ИИ
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12671
@@ -84468,7 +84468,7 @@ entities:
       pos: -4.5,55.5
     - type: SurveillanceCamera
       nameSet: True
-      id: AI Core North
+      id: Северная часть ядра ИИ
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12672
@@ -84479,7 +84479,7 @@ entities:
       pos: -2.5,43.5
     - type: SurveillanceCamera
       nameSet: True
-      id: AI Core Hallway
+      id: Коридор ядра ИИ
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12673
@@ -84490,7 +84490,7 @@ entities:
       pos: -4.5,36.5
     - type: SurveillanceCamera
       nameSet: True
-      id: AI Upload
+      id: Загрузка ИИ
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12674
@@ -84501,7 +84501,7 @@ entities:
       pos: 55.5,-10.5
     - type: SurveillanceCamera
       nameSet: True
-      id: High-Security Telecoms
+      id: Защищённая телекоммуникационная
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12675
@@ -84512,7 +84512,7 @@ entities:
       pos: -9.5,19.5
     - type: SurveillanceCamera
       nameSet: True
-      id: HOS
+      id: Кабинет главы службы безопасности
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12676
@@ -84523,7 +84523,7 @@ entities:
       pos: -42.5,6.5
     - type: SurveillanceCamera
       nameSet: True
-      id: NCT's Office
+      id: Кабинет представителя NanoTrasen
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12677
@@ -84534,7 +84534,7 @@ entities:
       pos: 8.5,11.5
     - type: SurveillanceCamera
       nameSet: True
-      id: EVA
+      id: Внешний выход (EVA)
       setupAvailableNetworks:
       - SurveillanceCameraCommand
   - uid: 12678
@@ -84545,7 +84545,7 @@ entities:
       pos: 10.5,17.5
     - type: SurveillanceCamera
       nameSet: True
-      id: HOP
+      id: Кабинет главы персонала
       setupAvailableNetworks:
       - SurveillanceCameraCommand
 - proto: SurveillanceCameraEngineering
@@ -84558,7 +84558,7 @@ entities:
       pos: 75.5,10.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Main Engine Northeast
+      id: Главный двигатель — северо-восток
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12680
@@ -84569,7 +84569,7 @@ entities:
       pos: 44.5,9.5
     - type: SurveillanceCamera
       nameSet: True
-      id: AME
+      id: Антиматериальный двигатель
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12681
@@ -84580,7 +84580,7 @@ entities:
       pos: 35.5,-1.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Engineering Locker Room
+      id: Раздевалка инженерного отдела
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12682
@@ -84591,7 +84591,7 @@ entities:
       pos: 39.5,0.5
     - type: SurveillanceCamera
       nameSet: True
-      id: CE's Office
+      id: Кабинет главного инженера
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12683
@@ -84602,7 +84602,7 @@ entities:
       pos: 41.5,6.5
     - type: SurveillanceCamera
       nameSet: True
-      id: SMES Bank
+      id: Блок накопителей СМЭС
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12684
@@ -84613,7 +84613,7 @@ entities:
       pos: 55.5,0.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Singulo
+      id: Сингулярность
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12685
@@ -84624,7 +84624,7 @@ entities:
       pos: 35.5,6.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Engineering Lobby
+      id: Холл инженерного отдела
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12686
@@ -84635,7 +84635,7 @@ entities:
       pos: 47.5,-9.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Telecomms
+      id: Телекоммуникационная
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12687
@@ -84645,7 +84645,7 @@ entities:
       pos: 38.5,11.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Atmospherics
+      id: Атмосферный отдел
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12688
@@ -84656,7 +84656,7 @@ entities:
       pos: 67.5,10.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Main Engine Northwest
+      id: Главный двигатель — северо-запад
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12689
@@ -84667,7 +84667,7 @@ entities:
       pos: 34.5,20.5
     - type: SurveillanceCamera
       nameSet: True
-      id: atmos northwest
+      id: Атмосферный отдел — северо-запад
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12690
@@ -84678,7 +84678,7 @@ entities:
       pos: 49.5,22.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Atmos Northeast
+      id: Атмосферный отдел — северо-восток
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12691
@@ -84689,7 +84689,7 @@ entities:
       pos: 44.5,14.5
     - type: SurveillanceCamera
       nameSet: True
-      id: atmos TEG
+      id: Термоэлектрогенератор атмосферного отдела
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12692
@@ -84700,7 +84700,7 @@ entities:
       pos: 56.5,-2.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Gravity
+      id: Генератор гравитации
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12693
@@ -84711,7 +84711,7 @@ entities:
       pos: 59.5,-8.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Anchor
+      id: Якорь
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12694
@@ -84721,7 +84721,7 @@ entities:
       pos: 53.5,-5.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Outside Telecoms
+      id: Снаружи телекоммуникационной
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12695
@@ -84731,7 +84731,7 @@ entities:
       pos: 51.5,1.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Storage
+      id: Склад
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12696
@@ -84741,7 +84741,7 @@ entities:
       pos: 75.5,-5.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Main Engine Southeast
+      id: Главный двигатель — юго-восток
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12697
@@ -84751,7 +84751,7 @@ entities:
       pos: 67.5,-5.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Main Engine Southwest
+      id: Главный двигатель — юго-запад
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
   - uid: 12698
@@ -84761,7 +84761,7 @@ entities:
       pos: 31.5,-7.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Tech/mats
+      id: Технические материалы
       setupAvailableNetworks:
       - SurveillanceCameraEngineering
 - proto: SurveillanceCameraGeneral
@@ -84774,7 +84774,7 @@ entities:
       pos: -39.5,7.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Evac W
+      id: Эвакуация — запад
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12700
@@ -84784,7 +84784,7 @@ entities:
       pos: 28.5,3.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Engineering Front
+      id: Передняя часть инженерного отдела
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12701
@@ -84795,7 +84795,7 @@ entities:
       pos: -37.5,-8.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Arrivals
+      id: Прибытие
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12702
@@ -84806,7 +84806,7 @@ entities:
       pos: -22.5,-1.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Upper Dorms
+      id: Верхняя часть жилых кают
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12703
@@ -84817,7 +84817,7 @@ entities:
       pos: -19.5,5.5
     - type: SurveillanceCamera
       nameSet: True
-      id: West Hallway
+      id: Западный коридор
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12704
@@ -84828,7 +84828,7 @@ entities:
       pos: 4.5,0.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Medical Hallway
+      id: Коридор медицинского отдела
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12705
@@ -84839,7 +84839,7 @@ entities:
       pos: 2.5,-8.5
     - type: SurveillanceCamera
       nameSet: True
-      id: South Hallway
+      id: Южный коридор
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12706
@@ -84850,7 +84850,7 @@ entities:
       pos: -34.5,7.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Evac camera
+      id: Камера эвакуации
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12707
@@ -84861,7 +84861,7 @@ entities:
       pos: 1.5,-18.5
     - type: SurveillanceCamera
       nameSet: True
-      id: South Hall
+      id: Южный холл
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12708
@@ -84872,7 +84872,7 @@ entities:
       pos: -14.5,-14.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Science Hall
+      id: Холл научного отдела
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12709
@@ -84883,7 +84883,7 @@ entities:
       pos: -30.5,5.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Hallway to Evac
+      id: Коридор к эвакуации
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12710
@@ -84894,7 +84894,7 @@ entities:
       pos: -54.5,-9.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Arrivals North
+      id: Зона прибытия — север
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12711
@@ -84904,7 +84904,7 @@ entities:
       pos: -41.5,-11.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Arrivals East
+      id: Зона прибытия — восток
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12712
@@ -84915,7 +84915,7 @@ entities:
       pos: -39.5,-22.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Arrivals Southeast
+      id: Зона прибытия — юго-восток
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12713
@@ -84926,7 +84926,7 @@ entities:
       pos: -53.5,-23.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Arrivals South
+      id: Зона прибытия — юг
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12714
@@ -84937,7 +84937,7 @@ entities:
       pos: -42.5,-4.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Cryosleep
+      id: Криосон
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12715
@@ -84948,7 +84948,7 @@ entities:
       pos: -24.5,-12.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Outside Janitor
+      id: Снаружи уборочной
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12716
@@ -84959,7 +84959,7 @@ entities:
       pos: 13.5,-27.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Law hall
+      id: Коридор юриспруденции
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12717
@@ -84970,7 +84970,7 @@ entities:
       pos: 2.5,-25.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Robotics Hall
+      id: Коридор робототехники
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12718
@@ -84981,7 +84981,7 @@ entities:
       pos: 20.5,-33.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Law Hall SE
+      id: Коридор юриспруденции — юго-восток
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
   - uid: 12719
@@ -84992,7 +84992,7 @@ entities:
       pos: 21.5,-39.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Courtroom
+      id: Зал суда
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
 - proto: SurveillanceCameraMedical
@@ -85005,7 +85005,7 @@ entities:
       pos: 8.5,-13.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Cloning
+      id: Клонирование
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12721
@@ -85016,7 +85016,7 @@ entities:
       pos: 19.5,-7.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Medbay Labs
+      id: Лаборатории медблока
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12722
@@ -85026,7 +85026,7 @@ entities:
       pos: 20.5,-17.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Surgery
+      id: Операционная
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12723
@@ -85037,7 +85037,7 @@ entities:
       pos: 22.5,-9.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Chief Medical Officer's Office
+      id: Кабинет главного врача
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12724
@@ -85047,7 +85047,7 @@ entities:
       pos: 10.5,-11.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Medbay
+      id: Медблок
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12725
@@ -85058,7 +85058,7 @@ entities:
       pos: 6.5,0.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Medical Lobby
+      id: Холл медицинского отдела
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12726
@@ -85069,7 +85069,7 @@ entities:
       pos: 15.5,-14.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Morgue
+      id: Морг
       setupAvailableNetworks:
       - SurveillanceCameraMedical
   - uid: 12727
@@ -85080,7 +85080,7 @@ entities:
       pos: 21.5,-7.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Locker Room
+      id: Раздевалка
       setupAvailableNetworks:
       - SurveillanceCameraMedical
 - proto: SurveillanceCameraRouterCommand
@@ -85149,7 +85149,7 @@ entities:
       pos: -11.5,-28.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Central Lab
+      id: Центральная лаборатория
       setupAvailableNetworks:
       - SurveillanceCameraScience
   - uid: 12737
@@ -85160,7 +85160,7 @@ entities:
       pos: -4.5,-19.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Research Director's Office
+      id: Кабинет научного руководителя
       setupAvailableNetworks:
       - SurveillanceCameraScience
   - uid: 12738
@@ -85171,7 +85171,7 @@ entities:
       pos: 0.5,-30.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Robotics
+      id: Робототехника
       setupAvailableNetworks:
       - SurveillanceCameraScience
   - uid: 12739
@@ -85182,7 +85182,7 @@ entities:
       pos: -9.5,-18.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Break Room
+      id: Комната отдыха
       setupAvailableNetworks:
       - SurveillanceCameraScience
   - uid: 12740
@@ -85193,7 +85193,7 @@ entities:
       pos: -17.5,-23.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Front Room
+      id: Приёмная
       setupAvailableNetworks:
       - SurveillanceCameraScience
   - uid: 12741
@@ -85204,7 +85204,7 @@ entities:
       pos: 1.5,-33.5
     - type: SurveillanceCamera
       nameSet: True
-      id: xenobio north
+      id: Ксенобиология — север
       setupAvailableNetworks:
       - SurveillanceCameraScience
   - uid: 12742
@@ -85215,7 +85215,7 @@ entities:
       pos: -6.5,-37.5
     - type: SurveillanceCamera
       nameSet: True
-      id: xenobio west
+      id: Ксенобиология — запад
       setupAvailableNetworks:
       - SurveillanceCameraScience
 - proto: SurveillanceCameraSecurity
@@ -85228,7 +85228,7 @@ entities:
       pos: 0.5,7.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Warden's Office
+      id: Кабинет смотрителя
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
   - uid: 12744
@@ -85238,7 +85238,7 @@ entities:
       pos: -6.5,11.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Security Main
+      id: Главная часть службы безопасности
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
   - uid: 12745
@@ -85249,7 +85249,7 @@ entities:
       pos: -7.5,9.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Genpop Lockers
+      id: Шкафчики общего содержания
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
 - proto: SurveillanceCameraService
@@ -85262,7 +85262,7 @@ entities:
       pos: -34.5,13.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Janitor/Shrine Hallway
+      id: Коридор уборочной/святилища
       setupAvailableNetworks:
       - SurveillanceCameraService
   - uid: 12747
@@ -85272,7 +85272,7 @@ entities:
       pos: -40.5,12.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Chapel
+      id: Часовня
       setupAvailableNetworks:
       - SurveillanceCameraService
   - uid: 12748
@@ -85283,7 +85283,7 @@ entities:
       pos: -10.5,1.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Kitchen
+      id: Кухня
       setupAvailableNetworks:
       - SurveillanceCameraService
   - uid: 12749
@@ -85294,7 +85294,7 @@ entities:
       pos: -26.5,-14.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Theater
+      id: Театр
       setupAvailableNetworks:
       - SurveillanceCameraService
   - uid: 12750
@@ -85305,7 +85305,7 @@ entities:
       pos: 0.5,-3.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Bar
+      id: Бар
       setupAvailableNetworks:
       - SurveillanceCameraService
   - uid: 12751
@@ -85315,7 +85315,7 @@ entities:
       pos: -36.5,-14.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Reporter
+      id: Редакция
       setupAvailableNetworks:
       - SurveillanceCameraService
   - uid: 12752
@@ -85326,7 +85326,7 @@ entities:
       pos: -20.5,-2.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Botany
+      id: Ботаника
       setupAvailableNetworks:
       - SurveillanceCameraService
 - proto: SurveillanceCameraSupply
@@ -85339,7 +85339,7 @@ entities:
       pos: 32.5,21.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Salvage Dock
+      id: Док утилизаторов
       setupAvailableNetworks:
       - SurveillanceCameraSupply
   - uid: 12754
@@ -85350,7 +85350,7 @@ entities:
       pos: 29.5,9.5
     - type: SurveillanceCamera
       nameSet: True
-      id: QM
+      id: Кабинет квартирмейстера
       setupAvailableNetworks:
       - SurveillanceCameraSupply
   - uid: 12755
@@ -85361,7 +85361,7 @@ entities:
       pos: 18.5,6.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Cargo front
+      id: Передняя часть карго
       setupAvailableNetworks:
       - SurveillanceCameraSupply
   - uid: 12756
@@ -85372,7 +85372,7 @@ entities:
       pos: 15.5,13.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Cargo desk
+      id: Стойка карго
       setupAvailableNetworks:
       - SurveillanceCameraSupply
   - uid: 12757
@@ -85383,7 +85383,7 @@ entities:
       pos: 18.5,21.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Cargo bay N
+      id: Грузовой отсек — север
       setupAvailableNetworks:
       - SurveillanceCameraSupply
   - uid: 12758
@@ -85394,7 +85394,7 @@ entities:
       pos: 23.5,14.5
     - type: SurveillanceCamera
       nameSet: True
-      id: Cargo bay S
+      id: Грузовой отсек — юг
       setupAvailableNetworks:
       - SurveillanceCameraSupply
 - proto: SurveillanceCameraWirelessRouterEntertainment

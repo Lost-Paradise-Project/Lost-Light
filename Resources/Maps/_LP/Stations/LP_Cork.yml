@@ -51151,7 +51151,7 @@ entities:
   - uid: 5796
     components:
     - type: MetaData
-      name: Банный веник
+      name: банный веник
       desc: Веник для бани, что сделан из листьев какого-то дерева.
     - type: Transform
       parent: 2

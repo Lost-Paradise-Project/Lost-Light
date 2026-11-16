@@ -37,7 +37,7 @@
             # Центком
             BlueShield: [ 1, 1 ] # ОСЩ
             NanoTrasenRepresentative: [ 1, 1 ] # ПЦК
-            NanotrasenCareerTrainer: [ 1, 1 ] # Карьерный коуч
+            NanotrasenCareerTrainer: [ 1, 2 ] # Карьерный коуч
 
             # Служба Безопасности
             Warden: [ 1, 1 ]
