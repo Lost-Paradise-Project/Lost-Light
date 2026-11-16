@@ -20,7 +20,7 @@
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/_LP/Weapons/Guns/Gunshots/latogunshot.ogg
+      path: /Audio/_LP/Weapons/Guns/Gunshots/shasspo.ogg
   - type: GunWieldBonus
     minAngle: -43
     maxAngle: -43
