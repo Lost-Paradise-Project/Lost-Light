@@ -63,5 +63,5 @@ ent-ChangelingClothingOuterHardsuit = органический космичес�
     .suffix = Неснимаемый
 ent-ClothingOuterHardsuitITGLossPrevention = скафандр службы предотвращения потерь МТГ
     .desc = Скафандр, созданный МТГ для защиты ценных активов в опасных секторах.
-ent-ClothingOuterHardsuitSergeant = скафандр артиллерийского сержанта
+ent-ClothingOuterHardsuitSergeant = скафандр старшего сержанта
     .desc = Особый скафандр, чтобы вести отряд в опасную среду. Высокотехнологичный и эффективный — идеальное воплощение корпоративной безопасности.

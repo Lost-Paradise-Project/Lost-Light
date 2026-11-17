@@ -1,0 +1,10 @@
+# For group and base prototype, see ../centcomm.yml.
+- type: !PartialOnly entity
+  id: FaxMachineCentralCommand
+  components:
+    - type: FaxMachine
+      group: FaxGroupCentralCommand
+      intrinsicGroup: FaxGroupCentralCommand
+      intrinsicLocked: true
+      name: "Центральное командование"
+      order: 500

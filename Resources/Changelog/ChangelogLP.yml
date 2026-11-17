@@ -307,4 +307,81 @@ Entries:
   id: 44
   time: '2026-11-05T09:42:48.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/57
+- author: MegaDaimond
+  changes:
+  - message: Портированно вооружение в лодауты СБ и техфаб.
+    type: Add
+  id: 45
+  time: '2026-11-16T22:30:37.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/61
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлены отсутствующие переводы текстов.
+    type: Add
+  id: 46
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлено 2 новых арта в лобби.
+    type: Add
+  id: 47
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлены названия и описания наших артов в лобби.
+    type: Add
+  id: 48
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Добавлено два дополнительных кармана админ призраку.
+    type: Add
+  id: 49
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Изменены переводы на текстурах на русский.
+    type: Tweak
+  id: 50
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Изменён шанс спавна двойного одеяла.
+    type: Tweak
+  id: 51
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Изменено содержимое рюкзака админ призрака.
+    type: Tweak
+  id: 52
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Изменена скорость полёта админ призрака.
+    type: Tweak
+  id: 53
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Исправлены переводы.
+    type: Fix
+  id: 54
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
+- author: SanitarDurkovic
+  changes:
+  - message: Исправлена несоединяемость консолей связи с другими консолями.
+    type: Fix
+  id: 55
+  time: '2026-11-16T23:50:39.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/64
 Order: -3

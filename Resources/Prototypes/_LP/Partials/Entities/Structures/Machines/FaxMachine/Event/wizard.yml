@@ -1,0 +1,11 @@
+# Group already exists, see ../wizard.yml
+
+- type: !PartialOnly entity
+  id: FaxMachineWizard
+  components:
+    - type: FaxMachine
+      group: FaxGroupWizard
+      intrinsicGroup: FaxGroupWizard
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "Маг"
+      order: 500

@@ -1,0 +1,20 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineITGSalvageLead
+  components:
+    - type: FaxMachine
+      group: FaxGroupITG
+      intrinsicGroup: FaxGroupITG
+      intrinsicLocked: true
+      name: "Лидер утилизаторов, торговый пост"
+      order: 700
+
+- type: !PartialOnly entity
+  id: FaxMachineITGSalvage
+  components:
+    - type: FaxMachine
+      group: FaxGroupITG
+      intrinsicGroup: FaxGroupITG
+      intrinsicLocked: true
+      name: "Утилизаторы, торговый пост"
+      order: 800

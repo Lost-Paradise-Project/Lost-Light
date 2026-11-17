@@ -1,0 +1,32 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineEngineering
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Инженерный отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineeringCE
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Старший инженер"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineeringAtmos
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Атмосферный отсек"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineeringNuclearReactor
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Ядерный реактор"
+      order: 400

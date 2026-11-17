@@ -1,0 +1,11 @@
+# Aghost
+- type: !PartialOnly startingGear
+  id: MobAghostGear
+  storage:
+    back: !Clear
+    - HandLabeler
+    - SprayPainterRecharging
+    - AccessConfiguratorUniversal
+    - AnomalyScanner
+    - BoxStampsCCAdministrative
+    - BoxStampsCCDepartments
