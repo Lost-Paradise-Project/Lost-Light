@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taked from sunrise, edited by Rinary, further edited + light graphics by Killer Tamashi resprited by Iris Cookia. Avali state by DocMoth (Github). Corgi state by Swonki, Vulpkanin by hanz5579 (discord)",
+    "copyright": "Taked from sunrise, edited by Rinary, further edited + light graphics by Killer Tamashi and resprited by MegaDaimond",
     "size": {
         "x": 32,
         "y": 32
@@ -15,42 +15,10 @@
             "directions": 4
         },
         {
-            "name": "inhand-left",
-            "directions": 4
-        },
-        {
-            "name": "inhand-right",
-            "directions": 4
-        },
-        {
             "name": "icon-flash"
         },
         {
             "name": "off-equipped-HELMET",
-            "directions": 4
-        },
-        {
-            "name": "off-equipped-HELMET-avali",
-            "directions": 4
-        },
-        {
-            "name": "on-equipped-HELMET-avali",
-            "directions": 4
-        },
-        {
-            "name": "off-equipped-HELMET-dog",
-            "directions": 4
-        },
-        {
-            "name": "on-equipped-HELMET-dog",
-            "directions": 4
-        },
-        {
-            "name": "off-equipped-HELMET-vulpkanin",
-            "directions": 4
-        },
-        {
-            "name": "on-equipped-HELMET-vulpkanin",
             "directions": 4
         }
     ]
