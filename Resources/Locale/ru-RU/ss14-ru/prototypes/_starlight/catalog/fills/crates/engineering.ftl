@@ -28,3 +28,6 @@ ent-CrateGasTurbineSmallFlatpack = ящик малой газовой турби
 ent-CrateCombustionTurbineFlatpack = ящик с газовой турбиной
     .desc = Ящик с упакованной газовой турбиной с деталями уровня 1, её компьютером управления и платой воспламенителя. Камера сгорания не входит в комплект.
     .suffix = { ent-CrateEngineeringSecure.suffix }
+ent-CrateJerryCanFuel = ящик с канистрой топлива
+    .desc = Ящик с канистрой сварочного топлива.
+    .suffix = { ent-CrateEngineeringSecure.suffix }

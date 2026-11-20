@@ -244,6 +244,12 @@ public sealed partial class FaxPrintout
     [DataField]
     public string? Account{ get; private set; }
 
+    /// <summary>
+    /// Base64 binary-serialized snapshot data, restored onto the printed photograph.
+    /// </summary>
+    [DataField]
+    public string? PhotographData { get; private set; }
+
     // Metadata
 
     /// <summary>
@@ -292,7 +298,8 @@ public sealed partial class FaxPrintout
         bool? retainMetadata = false,
         string? metaSender = null,
         string? metaSentAt = null,
-        bool includeMetadata = true
+        bool includeMetadata = true,
+        string? photographData = null
         //starlight-end
         )
     {
@@ -314,11 +321,8 @@ public sealed partial class FaxPrintout
         MetaSender = metaSender;
         MetaSentAt = metaSentAt;
         IncludeMetadata = includeMetadata;
+        PhotographData = photographData;
         // Starlight-end
 
-
     }
-
-
 }
-

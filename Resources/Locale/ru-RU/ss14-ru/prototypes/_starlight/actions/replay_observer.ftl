@@ -8,3 +8,7 @@ ent-ActionReplayToggleWeather = переключить погоду
     .desc = Показать или скрыть оверлеи погоды в этом повторе.
 ent-ReplayObserverStatusHud = { "" }
     .desc = { "" }
+ent-ActionReplayToggleFactionIcons = Переключить иконки фракций
+    .desc = Показывает в этом повторе иконки фракций, например ядерных оперативников и революционеров.
+ent-ReplayObserverFactionHud = { "" }
+    .desc = { "" }

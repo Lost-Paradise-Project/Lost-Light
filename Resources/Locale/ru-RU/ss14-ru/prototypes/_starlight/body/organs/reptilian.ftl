@@ -4,3 +4,6 @@ ent-OrganReptilianStomach = желудок рептилоида
 ent-OrganReptilianTongue = { ent-OrganHumanTongue }
     .desc = { ent-OrganHumanTongue.desc }
     .suffix = Рептилоид
+ent-OrganReptilianHeart = { ent-OrganAnimalHeart }
+    .desc = { ent-OrganAnimalHeart.desc }
+    .suffix = Рептилоид

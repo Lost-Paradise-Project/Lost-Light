@@ -1,1 +1,1 @@
-chat-channel-humanized-mentor = МЕНТОР
+chat-channel-humanized-mentor = НАСТАВНИК

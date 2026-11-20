@@ -6,3 +6,5 @@ metabolizer-type-rodentia = Мышинец
 metabolizer-type-neo-vox = Нео-вокс
 metabolizer-type-doll = Кукла
 metabolizer-type-experiment = Эксперимент
+metabolizer-type-xeno = Ксен'Кара
+metabolizer-type-reptilian = Рептилия

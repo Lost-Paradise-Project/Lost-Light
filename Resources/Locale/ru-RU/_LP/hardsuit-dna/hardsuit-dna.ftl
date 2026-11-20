@@ -12,5 +12,9 @@ hardsuit-dna-popup-cancelled = Самоуничтожение скафандра
 
 hardsuit-dna-chat-mismatch = Ошибка идентификации: ДНК носителя не совпадает с ДНК владельца скафандра. Снимите скафандр немедленно, самоуничтожение через { $seconds } с.
 
-hardsuit-dna-voice-start = Самоуничтожение через { $seconds } секунд.
+hardsuit-dna-voice-start = Самоуничтожение через { $seconds } { $seconds ->
+        [one] секунду
+        [few] секунды
+       *[other] секунд
+    }.
 hardsuit-dna-voice-tick = { $seconds }.

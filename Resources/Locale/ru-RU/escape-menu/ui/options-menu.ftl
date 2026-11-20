@@ -9,7 +9,7 @@ ui-options-tab-audio = Аудио
 ui-options-tab-network = Сеть
 ui-options-tab-misc = Основные
 
-ui-options-apply = Сохранить и применить
+ui-options-apply = Сохранить
 ui-options-reset-all = Сброс изменений
 ui-options-default = Сброс к настройкам по умолчанию
 

@@ -1,6 +1,6 @@
 ent-LightPostSmall = фонарный столб
     .desc = Всегда работающий светильник.
-    .suffix = Всегда запитанный
+    .suffix = Всегда запитан
 ent-PoweredLightPostSmallEmpty = фонарный столб
     .desc = Осветительный прибор.
     .suffix = Пустой

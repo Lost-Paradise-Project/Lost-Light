@@ -12,3 +12,5 @@ ent-ActionToggleCoolingUnit = Переключить охлаждающий бл
     .desc = Переключить портативный охлаждающий блок.
 ent-VentCrawlExitAction = Выйти из вентиляции
     .desc = покинуть эти старые ветхие трубы.
+ent-ActionToggleCyberTorso = Переключить торс.
+    .desc = Переключить торс

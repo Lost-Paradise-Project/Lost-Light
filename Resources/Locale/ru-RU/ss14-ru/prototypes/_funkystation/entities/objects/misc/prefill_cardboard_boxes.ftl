@@ -1,6 +1,6 @@
 ent-CardboardBoxLargeInternalsFilled = малая коробка аварийного дыхательного снабжения
     .desc = { ent-CardboardBoxLargeInternals.desc }
-    .suffix = ЗАПОЛНЕНО
+    .suffix = Заполненный
 ent-CardboardBoxLargeCargoRoundstart = коробка снабжения карго
     .desc = { ent-CardboardBoxLargeCargo.desc }
     .suffix = Начало раунда карго

@@ -89,6 +89,8 @@ ghost-role-information-xenomoproach-name = Ксенотараканомоль
 ghost-role-information-xenomoproach-description = Вы маленький ксеноборг, носящий кожу таракамоля как маскировку.
 ghost-role-information-xenomoproach-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] вместе со всеми остальными ксеноборгами. Ваша цель — не нападать на органиков, а быть милым и отвлекать органиков, собирая разведданные.
 
+ghost-role-information-survivor-rules = Вы [color={ role-type-survivor-aligned-colour }][bold]{ role-type-survivor-aligned-name }[/bold][/color], чья цель — выжить любой ценой. Не нападайте, не крадите и не причиняйте вред другим, если это не нужно для выживания.
+
 ghost-role-information-slime-sentience-potion-description = Разумным сделан силой зелья разума. Не волнуйтесь, вы можете двигаться и говорить!
 
 ghost-role-information-terminator-name = Истребитель

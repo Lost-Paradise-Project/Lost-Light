@@ -1,6 +1,6 @@
 ent-AlwaysPoweredStrobeLight = стробоскоп
     .desc = ЧТО?! Извини, всё, что я слышу, — это УИИ-УУУ-УИИ-УУУ!
-    .suffix = Всегда запитанный
+    .suffix = Всегда запитан
 ent-PoweredStrobeLightEmpty = стробоскоп
     .desc = ЧТО?! Извини, всё, что я слышу, — это УИИ-УУУ-УИИ-УУУ!
     .suffix = Пустой

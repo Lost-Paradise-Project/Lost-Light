@@ -7,4 +7,4 @@ ent-CaneSheath = { ent-Cane }
     .suffix = Пустой
 ent-CaneSheathFilled = { ent-CaneSheath }
     .desc = { ent-CaneSheath.desc }
-    .suffix = Полный
+    .suffix = Заполненный

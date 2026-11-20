@@ -14,4 +14,4 @@ ent-ToolboxInvisible = невидимый ящик с инструментами
     .desc = Идеальный невидимый носитель для вашего невидимого снаряжения!
 ent-ToolboxInvisibleFilled = невидимый ящик с инструментами
     .desc = { ent-ToolboxInvisible.desc }
-    .suffix = Заполнен
+    .suffix = Заполненный

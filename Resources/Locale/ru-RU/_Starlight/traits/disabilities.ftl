@@ -12,3 +12,6 @@ trait-nightblind-desc = В отличие от остальных предста
 
 trait-pollen-allergic-name = Аллергия на пыльцу
 trait-pollen-allergic-desc = У вас аллергия на пыльцу.
+
+trait-xeno-vision-name = Зрение улья
+trait-xeno-vision-desc = Ваши глаза приспособлены с одного взгляда узнавать членов ксено-улья. Зелёный цвет бросается в глаза, а все остальные кажутся вам приглушёнными.

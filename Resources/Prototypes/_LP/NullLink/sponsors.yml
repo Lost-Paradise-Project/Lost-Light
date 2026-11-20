@@ -1,7 +1,3 @@
-# Спонсорские уровни Discord Lost Paradise.
-# Каждый уровень включает бонусы предыдущих, поэтому в требование уровня N входят роли уровней N-6.
-# 6 уровень отличается от 5 только цветом.
-
 - type: roleRequirementPrototype
   id: LPSponsorTier1Req
   roles:

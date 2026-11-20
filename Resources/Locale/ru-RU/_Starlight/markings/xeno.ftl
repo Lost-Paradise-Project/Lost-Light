@@ -1,0 +1,41 @@
+marking-HeadXenoDeacon = Дьякон
+marking-HeadXenoDeacon-deacon = Панцирь
+marking-HeadXenoListener = Слушатель
+marking-HeadXenoListener-listener = Панцирь
+marking-HeadXenoSaggy = Обвисшая
+marking-HeadXenoSaggy-saggy = Панцирь
+marking-HeadXenoSkull = Череп
+marking-HeadXenoSkull-skull = Панцирь
+
+marking-HeadTopXenoLong = Длинный
+marking-HeadTopXenoLong-long = Панцирь
+marking-HeadTopXenoLurker = Скрытень
+marking-HeadTopXenoLurker-lurker = Панцирь
+marking-HeadTopXenoRunner = Бегун
+marking-HeadTopXenoRunner-runner = Панцирь
+marking-HeadTopXenoShortStubby = Короткий и толстый
+marking-HeadTopXenoShortStubby-short_stubby = Панцирь
+marking-HeadTopXenoSkullRidged = Ребристый череп
+marking-HeadTopXenoSkullRidged-skull_ridged = Панцирь
+marking-HeadTopXenoSpitter = Плевун
+marking-HeadTopXenoSpitter-spitter = Панцирь
+marking-HeadTopXenoTeeth = Зубы
+marking-HeadTopXenoTeeth-teeth = Панцирь
+
+marking-TailXenoDeacon = Дьякон
+marking-TailXenoDeacon-deacon = Панцирь
+marking-TailXenoLong = Длинный
+marking-TailXenoLong-long = Панцирь
+marking-TailXenoRunner = Бегун
+marking-TailXenoRunner-runner = Панцирь
+marking-TailXenoShortStubby = Короткий и толстый
+marking-TailXenoShortStubby-short_stubby = Панцирь
+marking-TailXenoSkullRidged = Ребристый череп
+marking-TailXenoSkullRidged-skull_ridged = Панцирь
+marking-TailXenoSpitter = Плевун
+marking-TailXenoSpitter-spitter = Панцирь
+
+marking-ChestXenoSlant = Наклон
+marking-ChestXenoSlant-torso_slant = Панцирь
+marking-ChestXenoSpitter = Плевун
+marking-ChestXenoSpitter-torso_spitter = Панцирь

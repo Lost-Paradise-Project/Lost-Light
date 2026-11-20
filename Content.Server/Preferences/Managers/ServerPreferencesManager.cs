@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Database;
+using Content.Shared._LP.Sponsors;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Content.Shared.Construction.Prototypes;
@@ -278,7 +279,7 @@ namespace Content.Server.Preferences.Managers
                 {
                     PrefsLoaded = true,
                     Prefs = new PlayerPreferences(
-                        new[] {new KeyValuePair<int, HumanoidCharacterProfile>(0, HumanoidCharacterProfile.Random())},
+                        new[] {new KeyValuePair<int, HumanoidCharacterProfile>(0, HumanoidCharacterProfile.Random(RolesRestrictions.GetRestrictedSpecies(session)))}, // LP edit - спонсорские расы
                         Color.Transparent,
                         [],
                         new Dictionary<ProtoId<JobPrototype>, JobPriority>{{ SharedGameTicker.FallbackOverflowJob, JobPriority.High }}),
@@ -390,8 +391,7 @@ namespace Content.Server.Preferences.Managers
             var prefs = await _db.GetPlayerPreferencesAsync(userId, cancel);
             if (prefs is null)
             {
-                var speciesToBlacklist =
-                    new HashSet<string>(_cfg.GetCVar(CCVars.ICNewAccountSpeciesBlacklist).Split(","));
+                var speciesToBlacklist = RolesRestrictions.GetRestrictedSpecies(null, _cfg.GetCVar(CCVars.ICNewAccountSpeciesBlacklist).Split(",")); // LP edit - спонсорские расы
                 return await _db.InitPrefsAsync(userId, HumanoidCharacterProfile.Random(speciesToBlacklist).AsEnabled(), cancel);
             }
 

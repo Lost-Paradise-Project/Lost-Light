@@ -8,5 +8,7 @@ ent-MedTakImplanterTrackingSilver = серебряный трекер МедТа
     .desc = { ent-MedTakImplanter.desc }
 ent-MedTakImplanterTrackingGold = золотой трекер МедТак
     .desc = { ent-MedTakImplanter.desc }
+ent-MedTakImplanterTrackingPlatinum = платиновый трекер МедТак
+    .desc = { ent-MedTakImplanter.desc }
 ent-MedTakImplanterTrackingTeam = трекер МедТак
     .desc = { ent-MedTakImplanter.desc }

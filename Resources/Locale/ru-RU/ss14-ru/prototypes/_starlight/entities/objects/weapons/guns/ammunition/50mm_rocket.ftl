@@ -6,4 +6,4 @@ ent-Magazine50mmRocket = магазин 50-мм ракет
     .desc = Магазин большой ёмкости на 26 выстрелов с 60-мм ракетами для шаттловой пушечной системы ADMP-27 VESPERA.
 ent-Magazine50mmRocketEmpty = магазин 50-мм ракет (пустой)
     .desc = { ent-Magazine60mmRocket.desc }
-    .suffix = пусто
+    .suffix = Пустой

@@ -1,6 +1,0 @@
-# Снаряжение LP в SecTech
-
-- type: !PartialOnly vendingMachineInventory
-  id: SecTechInventory
-  startingInventory:
-    ClothingBeltBandolier: 5

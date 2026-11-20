@@ -4,4 +4,4 @@ ent-BriefcaseSecure = защищенный чемодан
     .desc = { ent-BriefcaseBaseSecure.desc }
 ent-BriefcaseSyndicateRedspace = портфель Синдиката
     .desc = { ent-BriefcaseBase.desc }
-    .suffix = пусто
+    .suffix = Пустой

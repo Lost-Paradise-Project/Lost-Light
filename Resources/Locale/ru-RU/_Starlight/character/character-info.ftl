@@ -15,6 +15,7 @@ character-info-background-none = Нет предыстории.
 
 character-info-no-background = Предыстория не указана.
 character-info-ic-header = Информация о персонаже (IC):
+character-info-ic-hint = Что другие могут узнать о вашем персонаже в раунде.
 character-info-description = Описание:
 character-info-hidden = Скрытая информация
 character-info-exploitable = Слабые места:

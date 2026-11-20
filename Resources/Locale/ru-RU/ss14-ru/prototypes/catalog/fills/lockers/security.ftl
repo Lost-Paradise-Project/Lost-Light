@@ -1,6 +1,6 @@
 ent-LockerWardenFilledHardsuit = { ent-LockerWarden }
     .desc = { ent-LockerWarden.desc }
-    .suffix = Заполненный, Скафандр
+    .suffix = Заполненный, скафандр
 ent-LockerWardenFilled = { ent-LockerWarden }
     .desc = { ent-LockerWarden.desc }
     .suffix = Заполненный
@@ -9,7 +9,7 @@ ent-LockerSecurityFilled = { ent-LockerSecurity }
     .suffix = Заполненный
 ent-LockerBrigmedicFilled = { ent-LockerBrigmedic }
     .desc = { ent-LockerBrigmedic.desc }
-    .suffix = Полевой врач, Заполненный
+    .suffix = Полевой врач, заполненный
 ent-LockerDetectiveFilled = { ent-LockerDetective }
     .desc = { ent-LockerDetective.desc }
     .suffix = Заполненный

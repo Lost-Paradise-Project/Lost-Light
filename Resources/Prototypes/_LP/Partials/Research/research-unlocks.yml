@@ -10,20 +10,3 @@
   id: EngineeringBoards
   recipes:
   - LPCryptoMinerCircuitboard
-
-# Фотоаппараты из Corvax WL
-- type: !PartialOnly technology
-  id: AdvancedEntertainment
-  recipeUnlocks:
-  - PhotoCameraRecipe
-  - PhotoFilterPackFill
-
-- type: !PartialOnly entity
-  id: !type:CreateVariants
-    values:
-    - ServiceTechFab
-    - Protolathe
-  components:
-  - type: Lathe
-    dynamicPacks:
-    - Photo

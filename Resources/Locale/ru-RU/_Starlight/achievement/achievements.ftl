@@ -151,6 +151,81 @@ achievement-blood-herald-description = Выполните цели суммар�
 achievement-theory-of-objectivity-name = Теория объективности
 achievement-theory-of-objectivity-description = Получите достижения «Элитный подрядчик», «Призрачный вор», «Первородный» и «Неизвестный враг».
 
+achievement-really-with-that-name = Серьёзно? Этим?
+achievement-really-with-that-description = Попытайтесь покончить с собой несмертельным оружием.
+
+achievement-failed-phoenix-name = Несостоявшийся феникс
+achievement-failed-phoenix-description = Вам не удалось восстать из пепла.
+
+achievement-puny-god-name = Жалкий бог
+achievement-puny-god-description = Вы убили бога, и его богатства теперь ваши.
+
+achievement-da-roolz-name = Эт против правилоф
+achievement-da-roolz-description = Проучите админскую мышь.
+
+achievement-gorilla-punch-name = Удар гориллы
+achievement-gorilla-punch-description = У-У! У-У!
+
+achievement-osha-name = Сертифицировано по ТБ
+achievement-osha-description = Вы пренебрегли техникой безопасности.
+
+achievement-fishos-name = Рыбная ОС
+achievement-fishos-description = Сойдите с ума чуть сильнее обычного.
+
+achievement-lizard-plushie-army-name = Последние воины последней войны
+achievement-lizard-plushie-army-description = Призовите воинов армавехддона.
+
+achievement-defib-mouse-name = Каждая жизнь важна
+achievement-defib-mouse-description = Вы же знаете, что это вредители?
+
+achievement-bird-medic-name = Птичий медик
+achievement-bird-medic-description = Ах да, вы забыли про два других препарата от кровопотери.
+
+achievement-sci-exploded-name = Наука — дело грязное
+achievement-sci-exploded-description = Что там было написано?
+
+achievement-hamster-fax-name = Хомяка не существует
+achievement-hamster-fax-description = А чего вы ожидали?
+
+achievement-future-refused-name = Но будущее отказалось меняться.
+achievement-future-refused-description = Я вернусь.
+
+achievement-aaahhh-name = А-А-А-А!
+achievement-aaahhh-description = А-А-А-А!
+
+achievement-master-bartender-name = Мастер-бармен
+achievement-master-bartender-description = Знак отличия опытного бармена.
+
+achievement-weh-name = Вех!
+achievement-weh-description = Вех!
+
+achievement-spicy-rock-name = Острые камни
+achievement-spicy-rock-description = Калорий хватит до конца жизни.
+
+achievement-personal-liberties-name = Личные свободы
+achievement-personal-liberties-description = Просто подержу это «на хранении».
+
+achievement-imperfect-protection-name = Неидеальная защита
+achievement-imperfect-protection-description = 99% сопротивления — это меньше, чем 100%.
+
+achievement-vox-moment-name = Момент вокса
+achievement-vox-moment-description = СКРИИИИИ!!!!
+
+achievement-changeling-defib-name = Ну да, так тоже можно
+achievement-changeling-defib-description = Всё равно не хотелось впадать в стазис.
+
+achievement-uplink-balloon-name = Поездка в Синдиленд
+achievement-uplink-balloon-description = И всё, что я получил, — этот дурацкий шарик.
+
+achievement-no-room-hell-name = В аду больше нет мест
+achievement-no-room-hell-description = Будучи нулевым пациентом, вы превратили большую часть станции в ходячих мертвецов!
+
+achievement-broken-media-name = Разбитые соцсети
+achievement-broken-media-description = Вы хирургически удалили имплант «Нексус», чудовище!
+
+achievement-breaking-good-name = Во все хорошие
+achievement-breaking-good-description = Нам надо варить.
+
 achievement-window-title = Отслеживайте свои вехи, скрытые трофеи и долгосрочный прогресс
 achievement-window-categories = Категории
 achievement-window-category-all = Все достижения

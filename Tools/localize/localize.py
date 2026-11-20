@@ -33,16 +33,25 @@ class PartialType(str):
     """Тип прототипа с тегом !PartialOnly - дополняет существующий прототип, а не создаёт новый."""
 
 
+class PartialDict(dict):
+    """Прототип целиком под тегом !PartialOnly (тег стоит на самом маппинге)."""
+
+
 def construct_undefined(loader, tag_suffix, node):
+    # !PartialOnly и !type:PartialOnly дают разные суффиксы тега
+    is_partial_tag = tag_suffix.split(":")[-1] == "PartialOnly"
     if isinstance(node, yaml.ScalarNode):
         value = loader.construct_scalar(node)
-        if tag_suffix == "PartialOnly":
+        if is_partial_tag:
             return PartialType(value)
         return value
     elif isinstance(node, yaml.SequenceNode):
-        return loader.construct_sequence(node)
+        return loader.construct_sequence(node, deep=True)
     elif isinstance(node, yaml.MappingNode):
-        return loader.construct_mapping(node)
+        mapping = loader.construct_mapping(node, deep=True)
+        if is_partial_tag:
+            return PartialDict(mapping)
+        return mapping
     return None
 
 
@@ -962,7 +971,9 @@ class LocalizationManager:
                         ):
                             continue
 
-                        is_partial = isinstance(item.get("type"), PartialType)
+                        is_partial = isinstance(item, PartialDict) or isinstance(
+                            item.get("type"), PartialType
+                        )
 
                         # id: !type:CreateVariants { values: [...] } - несколько ID сразу
                         raw_ids = item["id"]

@@ -9,7 +9,6 @@ loadout-group-roboticist-shoes = Робототехник, обувь
 loadout-group-roboticist-neck = Робототехник, шея
 
 # Civilian
-loadout-group-assistant-glasses = Ассистент, очки
 loadout-group-assistant-head = Ассистент, голова
 loadout-group-assistant-backpack = Ассистент, рюкзак
 
@@ -71,10 +70,10 @@ loadout-group-k9-collar = K9, ошейник
 
 loadout-group-detective-lethal = Детектив, летальное личное оружие
 
-loadout-group-gunnery-sergeant-head = Артиллерийский сержант, голова
-loadout-group-gunnery-sergeant-jumpsuit = Артиллерийский сержант, комбинезон
-loadout-group-gunnery-sergeant-outerclothing = Артиллерийский сержант, верхняя одежда
-loadout-group-gunnery-sergeant-neck = Артиллерийский сержант, шея
+loadout-group-gunnery-sergeant-head = Старший сержант, голова
+loadout-group-gunnery-sergeant-jumpsuit = Старший сержант, комбинезон
+loadout-group-gunnery-sergeant-outerclothing = Старший сержант, верхняя одежда
+loadout-group-gunnery-sergeant-neck = Старший сержант, шея
 
 # Law
 loadout-group-magistrate-jumpsuit = Магистрат, комбинезон
@@ -162,3 +161,4 @@ loadout-group-NanotrasenCareerTrainer-eyewear = Карьерный коуч На
 
 # Security
 loadout-group-warden-neck = Смотритель, шея
+loadout-group-bartender-eyewear = Бармен, очки

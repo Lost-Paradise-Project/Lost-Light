@@ -16,3 +16,4 @@ materials-raw-bluespace-crystal = необработанный блюспейс-
 materials-ntcredit = кредит
 materials-salvage-ticket = талон
 materials-crushed-phosphorus = красный фосфор
+materials-chitin = хитиновый воск

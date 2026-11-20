@@ -37,15 +37,13 @@ public sealed partial class AnchorableSystem : EntitySystem
     [Dependency] private TagSystem _tagSystem = default!;
     [Dependency] private SharedAppearanceSystem _appearance = default!;
 
-    private EntityQuery<PhysicsComponent> _physicsQuery;
+    [Dependency] private EntityQuery<PhysicsComponent> _physicsQuery = default!;
 
     public readonly ProtoId<TagPrototype> Unstackable = "Unstackable";
 
     public override void Initialize()
     {
         base.Initialize();
-
-        _physicsQuery = GetEntityQuery<PhysicsComponent>();
 
         SubscribeLocalEvent<AnchorableComponent, InteractUsingEvent>(OnInteractUsing,
             before: new[] { typeof(ItemSlotsSystem) }, after: new[] { typeof(SharedConstructionSystem) });
@@ -170,6 +168,9 @@ public sealed partial class AnchorableSystem : EntitySystem
                 return;
             }
 
+            if (AnchorTileBlacklisted(uid, coordinates, args.User)) // Starlight
+                return;
+
             _transformSystem.SetCoordinates(uid, coordinates);
         }
 
@@ -246,6 +247,9 @@ public sealed partial class AnchorableSystem : EntitySystem
             _popup.PopupClient(Loc.GetString("construction-step-condition-no-unstackable-in-tile"), uid, userUid);
             return;
         }
+
+        if (AnchorTileBlacklisted(uid, transform.Coordinates, userUid)) // Starlight
+            return;
 
         _tool.UseTool(usingUid, userUid, uid, anchorable.Delay, usingTool.Qualities, new TryAnchorCompletedEvent());
     }

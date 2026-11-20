@@ -1,0 +1,42 @@
+- type: !PartialOnly entity
+  id: AdminObserver
+  components:
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 30
+
+# Aghost
+- type: !PartialOnly startingGear
+  id: MobAghostGear
+  storage:
+    back: !Clear
+    - HandLabeler
+    - SprayPainterRecharging
+    - AccessConfiguratorUniversal
+    - AnomalyScanner
+    - BoxStampsCCAdministrative
+    - BoxStampsCCDepartments
+
+# Дополнительные карманы агоста
+- type: !PartialOnly inventoryTemplate
+  id: aghost
+  slots:
+    - name: pocket3
+      slotTexture: pocket
+      fullTextureName: template_small
+      slotFlags: POCKET
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 4,3
+      strippingWindowPos: 2,4
+      displayName: Pocket 3
+      stripHidden: true
+    - name: pocket4
+      slotTexture: pocket
+      fullTextureName: template_small
+      slotFlags: POCKET
+      slotGroup: MainHotbar
+      stripTime: 3
+      uiWindowPos: 6,3
+      strippingWindowPos: 4,4
+      displayName: Pocket 4
+      stripHidden: true

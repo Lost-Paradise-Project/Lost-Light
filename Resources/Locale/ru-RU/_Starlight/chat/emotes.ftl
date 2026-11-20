@@ -23,6 +23,7 @@ chat-emote-name-hum = Напевать
 chat-emote-name-glub = Глюб
 chat-emote-name-arf = Гавкать
 chat-emote-name-blink = Моргать
+chat-emote-name-drool = Пускать слюни
 
 # Emote Messages
 chat-emote-msg-mew = мявкает
@@ -48,6 +49,7 @@ chat-emote-msg-hum = напевает
 chat-emote-msg-glub = глюбает
 chat-emote-msg-arf = гавкает
 chat-emote-msg-blink = моргает
+chat-emote-msg-drool = пускает слюни.
 
 # Emote binding
 

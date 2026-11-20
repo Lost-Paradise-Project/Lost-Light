@@ -6,4 +6,4 @@ ent-DrinkTheHighlanderGlass = { ent-DrinkGlass }
     .suffix = Горец
 ent-DrinkWaterBottleEmpty = бутылка воды
     .desc = Простая чистая вода неизвестного происхождения. Вам кажется, что, может быть, лучше не знать.
-    .suffix = Пусто
+    .suffix = Пустой

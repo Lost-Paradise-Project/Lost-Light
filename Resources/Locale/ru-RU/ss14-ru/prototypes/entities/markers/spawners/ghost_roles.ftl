@@ -44,4 +44,4 @@ ent-SpawnPointGhostDerelictSyndicateAssaultCyborg = { ent-SpawnPointGhostDerelic
     .desc = { ent-SpawnPointGhostDerelictCyborg.desc }
 ent-SpawnPointGhostWizard = спавнер роли призрак
     .desc = { ent-BaseAntagSpawner.desc }
-    .suffix = волшебник
+    .suffix = Волшебник

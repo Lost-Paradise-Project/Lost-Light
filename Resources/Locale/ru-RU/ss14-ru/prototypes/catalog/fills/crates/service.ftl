@@ -37,6 +37,6 @@ ent-CrateJanitorBiosuit = ящик биозащитных костюмов уб�
     .desc = Содержит 2 костюма биологической защиты, чтобы никакая зараза не отвлекала вас от уборки станции.
 ent-CrateTrashCartFilled = { ent-CrateTrashCart }
     .desc = { ent-CrateTrashCart.desc }
-    .suffix = Заполнен
+    .suffix = Заполненный
 ent-CrateCandles = ящик свечей
     .desc = Содержит 4 коробки свечей, 2 больших и 2 маленьких. Для создания атмосферы или ещё чего-нибудь.

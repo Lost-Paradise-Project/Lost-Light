@@ -25,7 +25,7 @@ vinyl-player-verb-play = Воспроизвести
 vinyl-player-verb-pause = Пауза
 vinyl-player-verb-rewind = Перемотать
 vinyl = винил
-station-radio-server-cancelled-anchor = Эта станция уже имеет радио сервер!
+station-radio-server-cancelled-anchor = На этой станции уже есть радиосервер!
 
 station-radio-receiver-examine-full-volume = Играет на полной громкости.
 station-radio-receiver-examine-low-volume = Играет на низкой громкости.
@@ -34,7 +34,7 @@ ui-options-radio-music-volume = Громкость музыки радио:
 station-radio-server-examine-recording = Сервер станции не записывает.
 station-radio-server-examine-not-recording = Сервер станции сейчас записывает.
 
-station-radio-server-microphone-on-use = Микрофон { $radioState }.
+station-radio-server-microphone-on-use = Микрофон: { $radioState }.
 
 item-slot-component-slot-name-vinyl = пластинка
 item-slot-component-slot-name-cd = компакт-диск
@@ -49,7 +49,7 @@ station-radio-mixer-empty = нет диска
 station-radio-mixer-playlist = Плейлист
 station-radio-mixer-next = Далее
 station-radio-mixer-eject = Извлечь
-station-radio-mixer-tracks = Треков: { $name }
+station-radio-mixer-tracks = Треки: { $name }
 station-radio-mixer-track = { $number }. { $disc }
 
 signal-port-name-broadcast-recorder = Выход радиорекордера

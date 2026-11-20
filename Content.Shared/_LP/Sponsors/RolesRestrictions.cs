@@ -2,6 +2,7 @@ using System.Linq;
 using Content.Shared._NullLink;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
+using Content.Shared.Humanoid.Prototypes;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
@@ -54,6 +55,29 @@ public static class RolesRestrictions
     public static IReadOnlyDictionary<string, MarkingPrototype> FilterMarkingsForLocal(
         IReadOnlyDictionary<string, MarkingPrototype> markings)
         => FilterMarkings(markings, IoCManager.Resolve<ISharedPlayerManager>().LocalSession);
+
+    /// <summary>
+    /// Расы, недоступные игроку, - чтобы случайный персонаж не получил расу, которую сервер потом заменит.
+    /// Без сессии недоступны все расы с требованием.
+    /// </summary>
+    public static HashSet<string> GetRestrictedSpecies(ICommonSession? session, IEnumerable<string>? extra = null)
+    {
+        var restricted = extra is null ? new HashSet<string>() : new HashSet<string>(extra);
+
+        foreach (var species in IoCManager.Resolve<IPrototypeManager>().EnumeratePrototypes<SpeciesPrototype>())
+        {
+            if (!IsAllowed(species.RolesRequirement, session))
+                restricted.Add(species.ID);
+        }
+
+        return restricted;
+    }
+
+    /// <summary>
+    /// <see cref="GetRestrictedSpecies"/> для локального игрока (клиентские меню).
+    /// </summary>
+    public static HashSet<string> GetRestrictedSpeciesForLocal()
+        => GetRestrictedSpecies(IoCManager.Resolve<ISharedPlayerManager>().LocalSession);
 
     /// <summary>
     /// Снимает с внешности недоступные маркинги и причёски.

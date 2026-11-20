@@ -1,6 +1,6 @@
 ent-ClothingBackpackDuffelAbductorFilled = { ent-ClothingBackpackDuffelAbductorBundle }
     .desc = { ent-ClothingBackpackDuffelAbductorBundle.desc }
-    .suffix = Заполнен
+    .suffix = Заполненный
 ent-ClothingBackpackDuffelSyndicateFilledMinotaurShotgun = Набор «Минотавр»
     .desc = Худой и злой: содержит гладкий, мощный, крайне незаконный дробовик и 5 барабанов картечи 12 калибра.
 ent-ClothingBackpackDuffelSyndicateFilledDeagle = набор Дезерт Игл

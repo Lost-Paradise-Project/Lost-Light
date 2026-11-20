@@ -1,5 +1,3 @@
-# Требования по ролям стаффа. Выбираются в LP.toml, секция [nulllink.roles_req].
-
 # Менторская система (mentors): менторы, вики и игровой стафф.
 - type: roleRequirementPrototype
   id: LPMentorsReq

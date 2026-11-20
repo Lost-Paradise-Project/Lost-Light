@@ -154,6 +154,12 @@ language-Carpmind-description = Различные рыбьи разумы.
 language-Xenomind-name = Разум роя
 language-Xenomind-description = Различные разумы ксеносов и террор-пауков.
 
+language-Xenocongress-name = Конгресс Ксен'Кара
+language-Xenocongress-description = Коллективные голоса народа Ксен'Кара, которые слышат только говорящий и избранная им Королева.
+
+language-Xenoqueen-name = Слова Королевы
+language-Xenoqueen-description = Мысленный голос избранного Голоса Королевы, который слышат все особи местного улья.
+
 language-Squeakish-name = Пискиш
 language-Squeakish-description = Язык мышинцев, состоящий из череды чириканья и писка.
 

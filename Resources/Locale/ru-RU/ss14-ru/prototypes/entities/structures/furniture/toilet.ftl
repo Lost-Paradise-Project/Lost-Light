@@ -17,4 +17,4 @@ ent-ToiletGoldenEmpty = золотой унитаз
     .suffix = Пустой
 ent-ToiletGoldenDirtyWater = { ent-ToiletGoldenEmpty }
     .desc = { ent-ToiletGoldenEmpty.desc }
-    .suffix = Грязная вода, Цель кражи
+    .suffix = Грязная вода, цель кражи

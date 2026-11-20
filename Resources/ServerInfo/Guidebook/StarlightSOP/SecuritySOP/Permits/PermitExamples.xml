@@ -17,8 +17,8 @@
         <GuideEntityEmbed Entity="WeaponPistolMk58" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
           [bold]Mk 58[/bold]
-          - [bold]Из СБ:[/bold] если вы получили Mk 58 в СБ, нужна только печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]артиллерийского сержанта[/color].
-          - [bold]Куплен у МТГ:[/bold] если вы купили его у МТГ, нужны печать [color=#963dca]главы утилизаторов[/color] и печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]артиллерийского сержанта[/color].
+          - [bold]Из СБ:[/bold] если вы получили Mk 58 в СБ, нужна только печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]старшего сержанта[/color].
+          - [bold]Куплен у МТГ:[/bold] если вы купили его у МТГ, нужны печать [color=#963dca]главы утилизаторов[/color] и печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]старшего сержанта[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -27,7 +27,7 @@
         <GuideEntityEmbed Entity="JawsOfLifeMed" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
           [bold]Медицинские челюсти жизни[/bold]
-          - [bold]Без происхождения (например, найдены в техтоннелях):[/bold] предмет не привязан к отделу и допущен для медотдела и СБ, поэтому нужна печать любого одного профильного руководителя: [color=#57b8f0]главного врача[/color], [color=#ff6666]смотрителя[/color], [color=#c4363b]артиллерийского сержанта[/color] или [color=#ff4242]главы службы безопасности[/color].
+          - [bold]Без происхождения (например, найдены в техтоннелях):[/bold] предмет не привязан к отделу и допущен для медотдела и СБ, поэтому нужна печать любого одного профильного руководителя: [color=#57b8f0]главного врача[/color], [color=#ff6666]смотрителя[/color], [color=#c4363b]старшего сержанта[/color] или [color=#ff4242]главы службы безопасности[/color].
         </Box>
       </Box>
     </ColorBox>
@@ -45,7 +45,7 @@
         <GuideEntityEmbed Entity="ClothingHeadHatCatEars" Caption="" Margin="4"/>
         <Box Margin="4" Orientation="Vertical" HorizontalAlignment="Stretch">
           [bold]Кошачьи ушки[/bold]
-          - Это предмет корпорации-соперника уровня 1, поэтому нужна только печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]артиллерийского сержанта[/color].
+          - Это предмет корпорации-соперника уровня 1, поэтому нужна только печать [color=#ff6666]смотрителя[/color] или [color=#c4363b]старшего сержанта[/color].
         </Box>
       </Box>
     </ColorBox>

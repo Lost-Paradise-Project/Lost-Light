@@ -21,7 +21,6 @@ id-card-access-level-robotics = Робототехника
 
 # Security
 id-card-access-level-brigmedic = Полевой врач
-id-card-access-level-cadet = Кадет
 
 # Service
 id-card-access-level-clown = Клоун

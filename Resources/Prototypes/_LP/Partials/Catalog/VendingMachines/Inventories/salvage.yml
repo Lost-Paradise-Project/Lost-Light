@@ -1,8 +1,0 @@
-# Одежда LP в SalvageVend
-
-- type: !PartialOnly vendingMachineInventory
-  id: SalvageEquipmentInventory
-  startingInventory:
-    LPPClothingHeadHelmetSalvager: 3
-    LPPClothingOuterVestSalvager: 3
-    ClothingBeltSalvageWebbing: 1

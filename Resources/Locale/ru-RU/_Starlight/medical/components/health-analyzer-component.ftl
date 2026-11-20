@@ -1,4 +1,5 @@
 health-analyzer-chat-message = Урон пациента: { $damage }, уровень крови: { $blood }
+health-analyzer-window-entity-soft-critical-text = Мягкое критическое состояние
 
 ## Printable health reports
 health-analyzer-window-print-report = Распечатать отчёт

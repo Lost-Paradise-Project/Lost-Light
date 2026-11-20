@@ -57,3 +57,12 @@
   id: Verbs
   values:
     count: 991
+
+- type: !PartialOnly localizedDataset
+  id: !type:CreateVariants
+    values:
+    - NamesFirstXenoMale
+    - NamesFirstXenoFemale
+    - NamesLastXeno
+  values:
+    count: 43

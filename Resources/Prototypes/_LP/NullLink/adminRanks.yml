@@ -1,10 +1,3 @@
-# Ранги админки по ролям Discord (admin_builder = "LostParadise" в LP.toml).
-# Берётся первый подходящий ранг сверху. Если в roles несколько ролей, нужны все сразу.
-# Роли с админкой защищайте Role Assignment Protection в Discord.
-# Флаги: ADMIN, BAN, DEBUG, FUN, PERMISSIONS, PLAYTIME, SERVER, SPAWN, VAREDIT, MAPPING, LOGS, ROUND, QUERY, ADMINHELP,
-# VIEWNOTES, EDITNOTES, MASSBAN, STEALTH, ADMINCHAT, PII, MODERATOR, ADMINWHO, NAMECOLOR, DANGER, HOST.
-# Базовые флаги всего стаффа: ADMINWHO, NAMECOLOR, ADMINCHAT. Остальные права добавляются к ним.
-
 - type: adminRankBuilder
   id: LostParadise
   ranks:
@@ -41,22 +34,22 @@
     - name: Ведущий Маппер
       roles:
         - 1459986748267434116 # Ведущий Маппер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PLAYTIME, SERVER, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, STEALTH, MODERATOR]
 
     - name: Ведущий Спрайтер
       roles:
         - 1459986747978154148 # Ведущий Спрайтер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, BAN, DEBUG, FUN, PLAYTIME, SERVER, SPAWN, VAREDIT, LOGS, ROUND, QUERY, ADMINHELP, VIEWNOTES, EDITNOTES, STEALTH, MODERATOR]
 
     - name: Куратор Вики
       roles:
         - 1159224716578529322 # Куратор Вики
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+      flags: [ROUND, ADMIN, ADMINWHO, NAMECOLOR, ADMINCHAT, MODERATOR]
 
     - name: Начальник Караула
       roles:
         - 1092786586447515710 # Начальник Караула
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
+      flags: [ROUND, ADMIN, ADMINWHO, NAMECOLOR, ADMINCHAT, MODERATOR]
 
     - name: Гейм-Мастер
       roles:
@@ -89,10 +82,6 @@
         - 1459597485512069386 # Кодер
       flags: [ADMINWHO, NAMECOLOR, ADMINCHAT]
 
-# Маппинг-сервер (admin_builder = "LostParadiseMapping" в конфиге маппинг-сервера).
-# Всем одинаковые права на маппинг (команде mapping нужны SERVER и MAPPING).
-# Руководству дополнительно баны, логи, заметки и управление раундом, владельцу и тех. админу - всё.
-
 - type: adminRankBuilder
   id: LostParadiseMapping
   ranks:
@@ -114,44 +103,44 @@
     - name: Главный Разработчик
       roles:
         - 1092218260918906901 # Главный Разработчик
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Ведущий Маппер
       roles:
         - 1459986748267434116 # Ведущий Маппер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Маппер
       roles:
         - 1459597486338609235 # Маппер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Старший Гейм-Мастер
       roles:
         - 1092789321515421789 # Старший Гейм-Мастер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Гейм-Мастер
       roles:
         - 1249385000990670993 # Гейм-Мастер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Младший Гейм-Мастер
       roles:
         - 1295344014085849150 # Младший Гейм-Мастер
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Старший Модератор
       roles:
         - 1092742774723448882 # Старший Модератор
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Модератор
       roles:
         - 1092217545332891758 # Модератор
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]
 
     - name: Младший Модератор
       roles:
         - 1092217644905660576 # Младший Модератор
-      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING]
+      flags: [ADMINWHO, NAMECOLOR, ADMINCHAT, ADMIN, DEBUG, SERVER, SPAWN, VAREDIT, MAPPING, MODERATOR]

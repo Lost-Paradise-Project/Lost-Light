@@ -42,14 +42,26 @@ marking-FelionoidFacialHairMane = Грива
 marking-FelionoidFacialHairNeck = Шея
 
 # Hair
+marking-FelionoidHairBubblePonytail = Хвост-пузырьки
+marking-FelionoidHairCovered = Покрытая
 marking-FelionoidHairCrestedQuills = Хохолковые иглы
 marking-FelionoidHairFlowing = Струящаяся
+marking-FelionoidHairFrontBangs = Передняя чёлка
 marking-FelionoidHairHawk = Ястреб
 marking-FelionoidHairKeelQuills = Килевые иглы
 marking-FelionoidHairKeetQuills = Кеетовые иглы
 marking-FelionoidHairKingly = Королевская
+marking-FelionoidHairLongPigtails = Длинные хвостики
+marking-FelionoidHairLongPonytailFront = Длинный хвост (Спереди)
 marking-FelionoidHairMange = Паршивая
+marking-FelionoidHairMatted = Свалявшаяся
+marking-FelionoidHairMattedShort = Свалявшаяся короткая
+marking-FelionoidHairMullet = Маллет
 marking-FelionoidHairNights = Ночная
+marking-FelionoidHairOverTheShoulderBraid = Коса через плечо
+marking-FelionoidHairPigtails = Хвостики
+marking-FelionoidHairStraightBangs = Прямая чёлка
+marking-FelionoidHairSurferBoy = Сёрфер
 
 # Head
 marking-FelionoidHeadTiger = Тигровая голова

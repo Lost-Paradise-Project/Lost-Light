@@ -28,3 +28,5 @@ ent-SiliconLiberationGamerule = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-CosmicCult = { ent-BaseRoundstartAntagRule }
     .desc = { ent-BaseRoundstartAntagRule.desc }
+ent-XenoDemocracy = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

@@ -1,6 +1,6 @@
 ent-LPPBedDoubleUp = двойная кровать
     .desc = На ней можно лежать или спать пристёгнутым.
-    .suffix = верх.
+    .suffix = Верх.
 ent-LPPBedDoubleDown = двойная кровать
     .desc = На ней можно лежать или спать пристёгнутым.
-    .suffix = ниж.
+    .suffix = Ниж.

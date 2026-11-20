@@ -1,0 +1,2 @@
+ent-BaseRemoteControlPlushie = { "" }
+    .desc = { "" }

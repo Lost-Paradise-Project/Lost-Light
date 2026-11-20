@@ -255,6 +255,11 @@
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
     # LP edit - убрано нижнее бельё (цензура наготы)
+    # LP edit start
+    - map: [ "breast" ]
+    - map: [ "underwear" ]
+    - map: [ "socks" ]
+    # LP edit end
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg
@@ -327,6 +332,11 @@
     - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
     - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
     # LP edit - убрано нижнее бельё (цензура наготы)
+    # LP edit start
+    - map: [ "breast" ]
+    - map: [ "underwear" ]
+    - map: [ "socks" ]
+    # LP edit end
     - shader: StencilClear
       sprite: Mobs/Species/Human/parts.rsi
       state: l_leg

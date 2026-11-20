@@ -228,9 +228,14 @@
       - map: [ "enum.HumanoidVisualLayers.BodyCover" ]
       - map: [ "enum.HumanoidVisualLayers.BodyCoverCover" ]
       # LP edit - убрано нижнее бельё (цензура наготы)
-      - map: ["jumpsuit"]
+      # LP edit start
+      - map: [ "breast" ]
+      - map: [ "underwear" ]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
       - map: ["enum.HumanoidVisualLayers.RFoot"]
+      - map: [ "socks" ]
+      - map: ["jumpsuit"]
+      # LP edit end
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: [ "outerClothing2" ] # FH + Starlight
       - map: ["enum.HumanoidVisualLayers.RHand"]

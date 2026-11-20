@@ -1,0 +1,9 @@
+ent-JerryCanEmpty = канистра
+    .desc = Тяжёлая пластиковая канистра для хранения топлива.
+    .suffix = Пустой
+ent-JerryCanFuel = { ent-JerryCanEmpty }
+    .desc = Тяжёлая пластиковая канистра для хранения топлива. Пахнет сварочным топливом.
+    .suffix = Полный, топливо
+ent-JerryCanWater = { ent-JerryCanEmpty }
+    .desc = Тяжёлая пластиковая канистра для хранения топлива.
+    .suffix = Полный, вода

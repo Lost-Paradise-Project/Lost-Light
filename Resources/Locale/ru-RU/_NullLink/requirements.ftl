@@ -23,6 +23,7 @@ roles-req-ticketsadministrator-roles = Администратор тикетов
 roles-req-first-writing-roles = Победитель первого конкурса сочинений
 roles-req-senior-developer = Старший разработчик
 roles-req-developer = Разработчик
+roles-req-staff-mapper = маппер (стафф)
 
 triesteport-main = TRIESTEPORT
 overall = общее время

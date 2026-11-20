@@ -42,10 +42,11 @@ public sealed partial class PaperSystem : EntitySystem
     [Dependency] private SharedAudioSystem _audio = default!;
     [Dependency] private SharedTimeSystem _timeSystem = default!; // Starlight-edit
 
+    [Dependency] private EntityQuery<PaperComponent> _paperQuery = default!;
+
     private static readonly ProtoId<TagPrototype> WriteIgnoreStampsTag = "WriteIgnoreStamps";
     private static readonly ProtoId<TagPrototype> WriteTag = "Write";
 
-    private EntityQuery<PaperComponent> _paperQuery;
 
     public override void Initialize()
     {
@@ -67,7 +68,6 @@ public sealed partial class PaperSystem : EntitySystem
         SubscribeLocalEvent<PaperComponent, PaperSignatureRequestMessage>(OnSignatureRequest); // Starlight-edit
         SubscribeLocalEvent<PaperComponent, PaperDateTimeRequestMessage>(OnDateTimeRequest); // Starlight-edit
 
-        _paperQuery = GetEntityQuery<PaperComponent>();
     }
 
     private void OnMapInit(Entity<PaperComponent> entity, ref MapInitEvent args)

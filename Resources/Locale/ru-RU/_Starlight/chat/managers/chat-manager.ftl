@@ -38,8 +38,14 @@ chat-speech-verb-experiment-2 = лает
 chat-speech-verb-experiment-3 = говорит
 chat-speech-verb-experiment-4 = тявкает
 
+chat-speech-verb-name-xeno = Ксен'Кара
+chat-speech-verb-xeno-1 = шипит
+chat-speech-verb-xeno-2 = рычит
+chat-speech-verb-xeno-3 = щёлкает
+chat-speech-verb-xeno-4 = клацает
+
 chat-speech-verb-name-pause = Пауза
 chat-speech-verb-pause = делает паузу
 
 chat-manager-send-mentor-chat-wrap-message = { $mentorChannelName }: [bold]{ $playerName }:[/bold] { $message }
-chat-manager-mentor-channel-name = МЕНТОР
+chat-manager-mentor-channel-name = НАСТАВНИК

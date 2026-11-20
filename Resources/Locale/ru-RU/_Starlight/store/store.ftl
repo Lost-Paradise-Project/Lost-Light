@@ -4,6 +4,7 @@ store-preset-name-soviet-uplink = Советский аплинк
 store-preset-name-revenant = Обмен ревенанта
 store-preset-name-pai = Загрузка личного ИИ
 store-preset-name-cantrips = Заговоры выживания для путешественников
+store-preset-name-xeno = Наследие предков
 
 store-listing-late = ПОЗДНО
 

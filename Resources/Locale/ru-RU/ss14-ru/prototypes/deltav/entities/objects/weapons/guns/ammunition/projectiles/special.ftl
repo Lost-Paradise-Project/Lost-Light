@@ -1,0 +1,16 @@
+ent-BulletSpecialSP = пуля (.38 специальные SP)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialFMJ = пуля (.38 специальные FMJ)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialHP = пуля (.38 специальные HP)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialPractice = пуля (.38 специальные учебные)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialRubber = пуля (.38 специальные резиновые)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialIncendiary = пуля (.38 специальные IC)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialUranium = пуля (.38 специальные урановые)
+    .desc = { ent-BulletTrace.desc }
+ent-BulletSpecialAP = пуля (.38 специальные AP)
+    .desc = { ent-BulletTrace.desc }

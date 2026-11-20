@@ -32,3 +32,5 @@ ent-BaseInventoryRodentia = { "" }
     .desc = { "" }
 ent-BaseInventoryExperiment = { "" }
     .desc = { "" }
+ent-BaseInventoryXeno = { "" }
+    .desc = { "" }

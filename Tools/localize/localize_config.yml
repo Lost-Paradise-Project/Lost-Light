@@ -1,9 +1,9 @@
 ignored_paths:
 - "Resources/Locale/ru-RU/datasets"
+- "Resources/Locale/ru-RU/_Starlight/datasets/names/xeno.ftl" # Имена Ксен'Кара: 43 суффикса вместо 36 (count в _LP/Partials/Datasets)
 - "Resources/Locale/ru-RU/_LP"
 - "Resources/Locale/ru-RU/_corvax"
 - "Resources/Locale/ru-RU/_Orion"
-- "Resources/Locale/ru-RU/_WL"
 ignored_untranslated_paths:
 # Названия клавиш, буквы каналов цвета, формулы газов
 - "Resources/Locale/ru-RU/robust-toolbox/input.ftl"
@@ -168,3 +168,4 @@ no_translate_tokens: # Вырезаются целыми словами, рег�
 # Типы пуль латиницей
 - "HP"
 - "AP"
+- "<Auto|Day|Night>"

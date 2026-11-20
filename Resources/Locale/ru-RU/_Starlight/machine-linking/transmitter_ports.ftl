@@ -1,3 +1,9 @@
+signal-port-name-toggleable-device-status = Статус
+signal-port-description-toggleable-device-status = Высокий, пока устройство включено, низкий, пока устройство выключено.
+
+signal-port-name-toggleable-device-status-inverted = Инвертированный статус
+signal-port-description-toggleable-device-status-inverted = Низкий, пока устройство включено, высокий, пока устройство выключено.
+
 signal-port-name-body-scanner-sender = Операционная консоль
 signal-port-description-body-scanner-sender = Получает информацию о пациенте только от операционного стола.
 
@@ -45,3 +51,13 @@ signal-port-description-turret-controller-sync-sender = Передаёт нас�
 
 signal-port-name-combustion-turbine-console-sender = Консоль газовой турбины
 signal-port-description-combustion-turbine-console-sender = Управляет газовой турбиной. Подключите её либо к компрессору, либо к турбине.
+
+signal-port-name-airlock-cycler-side-a = Сторона A
+signal-port-name-airlock-cycler-side-b = Сторона B
+signal-port-name-airlock-cycler-side-c = Сторона C
+signal-port-name-airlock-cycler-side-d = Сторона D
+signal-port-description-airlock-cycler-side = Подключите сюда двери и кнопки цикла одной из сторон камеры.
+signal-port-name-airlock-cycler-inlets = Впускные порты
+signal-port-description-airlock-cycler-inlets = Воздушные клапаны, наполняющие камеру.
+signal-port-name-airlock-cycler-outlets = Выпускные порты
+signal-port-description-airlock-cycler-outlets = Воздушные клапаны, скрубберы или насосы, опустошающие камеру. В небольшой камере один воздушный клапан можно подключить к обоим портам.

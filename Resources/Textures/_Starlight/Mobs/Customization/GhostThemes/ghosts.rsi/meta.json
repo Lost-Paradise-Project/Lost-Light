@@ -199,6 +199,11 @@
                     0.15
                 ]
             ]
+        },
+        {
+            "name": "ghost-architect",
+            "copyright": "By Cvlancer, based on the default ghost",
+            "directions": 4
         }
     ]
 }

@@ -46,3 +46,13 @@ research-technology-basic-xenobiology = Базовая ксенобиологи�
 research-technology-combustion-turbines = Газовые турбины
 
 research-technology-radio-music-communication = Музыкальная радиосвязь
+research-technology-modular-hud-modules-civilian-t2 = Продвинутые гражданские модули визора
+
+# Modular HUD techs
+research-technology-modular-hud-frames = Корпуса модульных визоров
+research-technology-modular-hud-modules-industrial-t1 = Базовые промышленные модули визора
+research-technology-modular-hud-modules-civilian-t1 = Базовые гражданские модули визора
+research-technology-modular-hud-modules-industrial-t2 = Продвинутые промышленные модули визора
+research-technology-modular-hud-modules-arsenal-t1 = Охранные модули визора
+research-technology-modular-hud-modules-arsenal-t2 = Продвинутые охранные модули визора
+research-technology-modular-hud-modules-medical-t2 = Медицинские модули визора

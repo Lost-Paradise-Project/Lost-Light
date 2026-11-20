@@ -1,6 +1,6 @@
 ent-ToolboxElectricalTurretPirateFilled = электрический ящик с инструментами
     .desc = { ent-ToolboxElectricalTurretPirate.desc }
-    .suffix = Пират, турель, заполнено
+    .suffix = Пират, турель, заполненный
 ent-ToolboxArtisticFilledCleaner = художественный ящик с инструментами
     .desc = { ent-ToolboxArtistic.desc }
     .suffix = Уборщик
@@ -8,4 +8,4 @@ ent-ToolboxRoboticist = ящик с инструментами робототе�
     .desc = Что, это просто ящик с инструментами робототехника? Вы ожидали чего-то другого?
 ent-ToolboxRoboticistFilled = ящик с инструментами робототехника
     .desc = { ent-ToolboxRoboticist.desc }
-    .suffix = Заполнен
+    .suffix = Заполненный

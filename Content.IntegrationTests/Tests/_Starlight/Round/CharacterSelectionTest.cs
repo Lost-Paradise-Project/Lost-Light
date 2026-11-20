@@ -7,6 +7,7 @@ using Content.Server.GameTicking;
 using Content.Server.Humanoid;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
+using Content.Shared._LP.Sponsors;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.Antag;
@@ -475,10 +476,13 @@ public sealed class CharacterSelectionTest : GameTest
                 { Passenger, JobPriority.Medium },
                 { Mime, JobPriority.Medium },
             });
-            cPref.CreateCharacter(HumanoidCharacterProfile.Random().AsEnabled().WithJobPreferences([Passenger]));
-            cPref.CreateCharacter(HumanoidCharacterProfile.Random().AsEnabled().WithJobPreferences([Passenger]));
-            cPref.CreateCharacter(HumanoidCharacterProfile.Random().AsEnabled().WithJobPreferences([Passenger, Mime]));
-            cPref.CreateCharacter(HumanoidCharacterProfile.Random().AsEnabled().WithJobPreferences([Mime]));
+            // LP edit start - спонсорские расы сервер заменяет на человека, и персонаж перестаёт совпадать со слотом
+            var sponsorSpecies = RolesRestrictions.GetRestrictedSpeciesForLocal();
+            cPref.CreateCharacter(HumanoidCharacterProfile.Random(sponsorSpecies).AsEnabled().WithJobPreferences([Passenger]));
+            cPref.CreateCharacter(HumanoidCharacterProfile.Random(sponsorSpecies).AsEnabled().WithJobPreferences([Passenger]));
+            cPref.CreateCharacter(HumanoidCharacterProfile.Random(sponsorSpecies).AsEnabled().WithJobPreferences([Passenger, Mime]));
+            cPref.CreateCharacter(HumanoidCharacterProfile.Random(sponsorSpecies).AsEnabled().WithJobPreferences([Mime]));
+            // LP edit end
         });
 
         HashSet<int> selectedCharacterSlots = new();

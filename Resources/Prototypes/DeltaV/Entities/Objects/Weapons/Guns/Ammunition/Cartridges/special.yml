@@ -1,0 +1,134 @@
+- type: entity
+  id: BaseCartridgeSpecial
+  name: cartridge (.38 special)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeSpecial
+  - type: CartridgeAmmo
+    proto: BulletSpecialSP
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+
+- type: entity
+  id: CartridgeSpecialSP
+  name: cartridge (.38 special SP)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialSP
+
+- type: entity
+  id: CartridgeSpecialHP
+  name: cartridge (.38 special HP)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialHP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#a89132"
+
+- type: entity
+  id: CartridgeSpecialFMJ
+  name: cartridge (.38 special FMJ)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialFMJ
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#6b6b6b"
+
+- type: entity
+  id: CartridgeSpecialAP
+  name: cartridge (.38 special AP)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialAP
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#171717"
+
+- type: entity
+  id: CartridgeSpecialPractice
+  name: cartridge (.38 special practice)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialPractice
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#dbdbdb"
+
+- type: entity
+  id: CartridgeSpecialRubber
+  name: cartridge (.38 special rubber)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialRubber
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#43c4f7"
+
+- type: entity
+  id: CartridgeSpecialIncendiary
+  name: cartridge (.38 special incendiary)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialIncendiary
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#ff6e52"
+
+- type: entity
+  id: CartridgeSpecialUranium
+  name: cartridge (.38 special uranium)
+  parent: BaseCartridgeSpecial
+  components:
+  - type: CartridgeAmmo
+    proto: BulletSpecialUranium
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#65fe08"

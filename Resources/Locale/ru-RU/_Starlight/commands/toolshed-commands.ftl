@@ -159,6 +159,10 @@ command-description-vv-rsave =
     Получает значение пути через VV (View Variables). Можно сохранить в переменную.
 command-description-vv-rsaveraw =
     Получает значение пути через VV (View Variables). Можно сохранить в переменную. Сохраняет сырое значение вместо сериализованной строки.
+command-description-vv-append =
+    Добавляет элемент в коллекцию по указанному пути с помощью VV (View Variables).
+command-description-vv-rmat =
+    Удаляет элемент с указанным индексом из коллекции по указанному пути с помощью VV (View Variables).
 command-description-mind-wipe =
     Стирает разум игрока или сущности. Учтите, что после этого игра за неё будет невозможна, пока вы не дадите ей новый разум.
 command-description-mind-takeover =

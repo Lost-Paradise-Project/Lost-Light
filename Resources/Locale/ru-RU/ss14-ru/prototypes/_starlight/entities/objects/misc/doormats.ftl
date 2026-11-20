@@ -1,0 +1,10 @@
+ent-BaseDoormatRoll = рулон придверного коврика
+    .desc = Свёрнутый придверный коврик, готовый к укладке на пол.
+ent-DoormatRoll = { ent-BaseDoormatRoll }
+    .desc = { ent-BaseDoormatRoll.desc }
+ent-DoormatRollWelcome = { ent-BaseDoormatRoll }
+    .desc = Свёрнутый придверный коврик, готовый к укладке на пол. На этом написано «Добро пожаловать».
+    .suffix = Добро пожаловать
+ent-DoormatRollBless = { ent-BaseDoormatRoll }
+    .desc = Свёрнутый придверный коврик, готовый к укладке на пол. На этом написано «Благослови этот космос».
+    .suffix = Благослови этот космос

@@ -1,5 +1,4 @@
 using System.Linq;
-using System.IO; // WL-Changes
 using Content.Client._Starlight.UserInterface; // Starlight
 using Content.Client.Resources;
 using Content.Shared.DeviceNetwork;
@@ -13,7 +12,6 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Graphics;
 using Robust.Shared.Prototypes;
-using SixLabors.ImageSharp; // WL-Changes
 
 namespace Content.Client.SurveillanceCamera.UI;
 
@@ -40,7 +38,6 @@ public sealed partial class SurveillanceCameraMonitorWindow : PopOutWindow // St
     public event Action? SubnetRefresh;
     public event Action? CameraSwitchTimer;
     public event Action? CameraDisconnect;
-    public event Action? SnapshotRequested; // WL-Changes
 
     private string _currentAddress = string.Empty;
     private bool _isSwitching;
@@ -73,7 +70,6 @@ public sealed partial class SurveillanceCameraMonitorWindow : PopOutWindow // St
         SubnetRefreshButtonMap.OnPressed += _ => SubnetRefresh?.Invoke();
         CameraRefreshButton.OnPressed += _ => CameraRefresh?.Invoke();
         CameraDisconnectButton.OnPressed += _ => CameraDisconnect?.Invoke();
-        SnapshotButton.OnPressed += _ => SnapshotRequested?.Invoke(); // WL-Changes
 
         CameraMap.EnableCameraSelection = true;
         CameraMap.CameraSelected += OnCameraMapSelected;
@@ -151,7 +147,6 @@ public sealed partial class SurveillanceCameraMonitorWindow : PopOutWindow // St
         CameraView.Eye = eye ?? _defaultEye;
         CameraView.Visible = !eyeChanged && !_isSwitching;
         CameraDisconnectButton.Disabled = eye == null;
-        SnapshotButton.Disabled = eye == null || _isSwitching; // WL-Changes
 
         if (eye != null)
         {
@@ -162,7 +157,6 @@ public sealed partial class SurveillanceCameraMonitorWindow : PopOutWindow // St
 
             _isSwitching = true;
             CameraViewBackground.Visible = true;
-            SnapshotButton.Disabled = true; // WL-Changes
             CameraStatus.Text = Loc.GetString("surveillance-camera-monitor-ui-status",
                 ("status", Loc.GetString("surveillance-camera-monitor-ui-status-connecting")),
                 ("address", _currentAddress));
@@ -183,34 +177,7 @@ public sealed partial class SurveillanceCameraMonitorWindow : PopOutWindow // St
         CameraStatus.Text = Loc.GetString("surveillance-camera-monitor-ui-status",
                             ("status", Loc.GetString("surveillance-camera-monitor-ui-status-connected")),
                             ("address", _currentAddress));
-
-        SnapshotButton.Disabled = CameraView.Eye == _defaultEye; // WL-Changes
     }
-
-    // WL-Changes-Start
-    public void RenderImage(Action<byte[]> callback)
-    {
-        // LP edit start
-        if (CameraViewBox.HideHud)
-            return;
-
-        CameraViewBox.HideHud = true;
-        // LP edit end
-
-        CameraView.Screenshot(image =>
-        {
-            CameraViewBox.HideHud = false; // LP edit
-
-            using var data = new MemoryStream();
-            image.SaveAsPng(data);
-
-            var bytes = data.ToArray();
-            image.Dispose();
-
-            callback(bytes);
-        });
-    }
-    // WL-Changes-End
 
     private int AddSubnet(ProtoId<DeviceFrequencyPrototype> subnet)
     {

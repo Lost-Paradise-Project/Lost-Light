@@ -1,12 +1,12 @@
 ent-ClothingBackpackSyndicateObserverBundle = рюкзак
     .desc = Вы носите это на спине и кладёте в него вещи.
-    .suffix = Набор наблюдателя, не маппить
+    .suffix = Набор наблюдателя, НЕ МАППИТЬ
 ent-ClothingBackpackBunnyGangBundle = Рюкзак банды зайцев
     .desc = Меч, который на самом деле рюкзак. Впечатляет, как им удалось впихнуть туда вещи, но всё равно управление инвентарём будет испытанием.
-    .suffix = Заполнен
+    .suffix = Заполненный
 ent-ClothingBackpackGreenshieldFilled = { ent-ClothingBackpackGreenshield }
     .desc = { ent-ClothingBackpackGreenshield.desc }
-    .suffix = Заполнен
+    .suffix = Заполненный
 ent-ClothingBackpackERTSecurityBallisticRiflemenFilled = { ent-ClothingBackpackERTSecurity }
     .desc = { ent-ClothingBackpackERTSecurity.desc }
     .suffix = Заполненный, баллистика

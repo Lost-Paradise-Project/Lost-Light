@@ -13,6 +13,9 @@ reagent-desc-dark-blood = Кровь существа Тьмы.
 reagent-name-cyclorite-blood = разбавленная азотнокислая кровь
 reagent-desc-cyclorite-blood = Слегка кислая на ощупь.
 
+reagent-name-xeno-blood = фторсерная кровь
+reagent-desc-xeno-blood = Она пытается разъесть ёмкость...
+
 reagent-name-amalgam = кровь-амальгама
 reagent-desc-amalgam = Напоминает человеческую кровь, слизь, аммиак, азотную кислоту... В общем, много всего.
 

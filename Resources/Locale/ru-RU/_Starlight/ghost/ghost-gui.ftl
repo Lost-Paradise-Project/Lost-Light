@@ -36,3 +36,8 @@ ghost-role-information-cc-janitor-description = Поддерживайте чи�
 ghost-important-role = [bold]Сейчас ищутся кандидаты на роль: { $rolename }[/bold]
 ghost-gui-aghost-toggle-ghost-visibility-popup-on = Невидимо для не-админов.
 ghost-gui-aghost-toggle-ghost-visibility-popup-off = Видимо для не-админов.
+ghost-gui-toggle-lighting-manager-popup-half-bright = Режим полуяркого освещения.
+
+ghost-own-sprite-hidden = Ваш призрак скрыт.
+ghost-own-sprite-shown = Ваш призрак виден.
+ghost-own-sprite-always-visible = Ваш призрак всегда виден, его нельзя скрыть.

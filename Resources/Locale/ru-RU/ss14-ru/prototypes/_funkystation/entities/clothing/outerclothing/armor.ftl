@@ -1,4 +1,4 @@
 ent-ClothingOuterArmorMetalHydrogen = броня из металлического водорода
     .desc = Превосходная броня, сделанная из самых прочных и редких материалов, доступных человеку.
-ent-ClothingOuterArmorAtmosian = броня атмосианина
+ent-ClothingOuterArmorAtmosian = броня атмосника
     .desc = Атмосферный противопожарный костюм, усиленный металлическим водородом.

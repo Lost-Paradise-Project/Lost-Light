@@ -1,6 +1,6 @@
 ent-DresserCaptainFilled = { ent-Dresser }
     .desc = { ent-Dresser.desc }
-    .suffix = Заполненный, Капитан
+    .suffix = Заполненный, капитан
 ent-DresserChiefEngineerFilled = { ent-Dresser }
     .desc = { ent-Dresser.desc }
     .suffix = Заполненный, Старший инженер
@@ -21,4 +21,4 @@ ent-DresserResearchDirectorFilled = { ent-Dresser }
     .suffix = Заполненный, Научный руководитель
 ent-DresserWardenFilled = { ent-Dresser }
     .desc = { ent-Dresser.desc }
-    .suffix = Заполненный, Смотритель
+    .suffix = Заполненный, смотритель

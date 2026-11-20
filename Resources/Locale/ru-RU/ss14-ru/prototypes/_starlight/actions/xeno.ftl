@@ -1,0 +1,14 @@
+ent-ActionToggleXenoTail = Переключить хвост
+    .desc = Подготовить или убрать хвост для боя
+ent-ActionXenoVote = Голосовать
+    .desc = Отдать голос за Голос Королевы
+ent-ActionXenoOpenShop = Наследие предков
+    .desc = Пробудить скрытую способность ваших предков
+ent-ActionXenoSpit = плевок
+    .desc = Плюнуть кислотой ценой очень больших затрат метаболизма
+ent-ActionXenoPounce = прыжок
+    .desc = Прыгнуть на врагов и укусить
+ent-ActionXenoTransfuse = переливание
+    .desc = Применить регенерирующие кислоты
+ent-ActionXenoWax = выделить воск
+    .desc = Создать хитиновый воск для строительства

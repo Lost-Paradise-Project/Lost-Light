@@ -58,8 +58,8 @@ ui-options-style-accent-theme = Из темы
 ui-options-viewport-label = Игровое окно
 ui-options-lobby-label = Лобби
 ui-options-lobby-background = Арт лобби
-ui-options-lobby-background-server = Выбор сервера
-ui-options-lobby-opacity = Прозрачность панели
+ui-options-lobby-background-server = На усмотрение сервера
+ui-options-lobby-opacity = Непрозрачность панели
 ui-options-lobby-ready-position = Кнопка готовности
 ui-options-lobby-ready-position-bottom = Под чатом
 ui-options-lobby-ready-position-top = Над чатом
@@ -118,6 +118,10 @@ ui-starlight = Lost Paradise
 ui-options-auto-punctuate = Автоматически ставить знаки препинания в игровых сообщениях
 ui-options-general-ghost-themes = Темы призрака
 ui-options-general-ghost-themes-force-tester = Принудительно показывать вкладку тестера в меню тем призрака
+ui-options-chat-stacking = Объединять повторяющиеся сообщения чата
+ui-options-chat-stacking-tooltip = Сворачивать одинаковые недавние сообщения чата в одну строку со счётчиком повторов.
+ui-options-chat-stacking-history = Глубина объединения сообщений
+ui-options-chat-stacking-disabled = Выключено
 
 ## Admin
 
@@ -160,6 +164,12 @@ ui-options-hud-theme-mpurp = М-Пурп
 # Graphics
 ui-options-show-stains = Показывать пятна на одежде
 
+ui-options-footprint-visibility = Следы:
+ui-options-footprint-visibility-all = Все
+ui-options-footprint-visibility-half = Половина
+ui-options-footprint-visibility-none = Нет
+ui-options-footprint-visibility-tooltip = Определяет, сколько следов ног и следов волочения отображается.
+
 # Technically this is a more general Sprite Effects option, but right now it's literally only used for weather, so I'm just going to label it that for now
 ui-options-sprite-quality = Качество погоды:
 ui-options-sprite-quality-low = Низкое
@@ -195,3 +205,53 @@ ui-options-voice-volume = Голоса и эмоции:
 ui-options-announcement-volume = Объявления и тревоги:
 ui-options-admin-sounds-volume = Админские звуки:
 ui-options-show-tippy = Показывать Типпи
+
+ui-options-atmosphere-label = Освещение и атмосфера
+ui-options-screen-brightness = Яркость экрана
+ui-options-screen-brightness-desc = Осветляет тусклые участки изображения. Абсолютная темнота остаётся чёрной.
+ui-options-light-boost = Яркость источников света
+ui-options-light-boost-desc = Делает каждую лампу чуть ярче и заставляет её светить чуть дальше.
+ui-options-color-grading = Цвета зон
+ui-options-color-grading-tooltip = Отделы слегка окрашивают изображение, а уровни угрозы затемняют его в сторону своего цвета.
+ui-options-color-grading-strength = Сила цвета зон
+ui-options-light-tonemap = Мягкий свет
+ui-options-light-tonemap-tooltip = Сглаживает яркие пятна в местах наложения источников света, чтобы спрайты не выгорали.
+ui-options-gi = Отражение света (экспериментально)
+ui-options-gi-tooltip = Освещённые стены отбрасывают часть своего света на окружающий пол, а свет проникает за углы и через дверные проёмы. Нагружает видеокарту.
+ui-options-gi-rays = Качество отражения света
+ui-options-gi-rays-desc = Количество лучей на пиксель. Больше лучей даёт более плавный результат, но работает медленнее.
+ui-options-gi-starlight = Starlight
+ui-options-gi-starlight-tooltip = Открытый космос подсвечивает пол слабым холодным сиянием.
+ui-options-gi-surface-color = Цветной отражённый свет
+ui-options-gi-surface-color-tooltip = Отражённый свет принимает цвет стен и пола, от которых отражается, поэтому красный ковёр даёт вокруг себя слабое красное свечение.
+ui-options-night-vision = Ночное зрение
+ui-options-night-vision-tooltip = Плохо освещённые участки теряют цвет и становятся холодно-синими, как при человеческом зрении в темноте.
+ui-options-vignette = Виньетирование
+ui-options-vignette-tooltip = Затемняет края изображения.
+ui-options-bloom = Свечение (bloom)
+ui-options-bloom-tooltip = Экраны, лампы и другие светящиеся объекты излучают свет вокруг себя, особенно в темноте. Снижает производительность.
+ui-options-film-grain = Плёночное зерно
+ui-options-film-grain-tooltip = Накладывает на изображение лёгкое плёночное зерно.
+ui-options-night-vision-strength = Сила ночного зрения
+ui-options-vignette-strength = Сила виньетирования
+ui-options-bloom-strength = Сила свечения
+ui-options-bloom-threshold = Порог свечения
+ui-options-bloom-threshold-desc = Насколько пиксель должен быть ярче своего освещения, чтобы начать светиться. Чем ниже значение, тем больше объектов светится.
+ui-options-bloom-radius = Радиус свечения
+ui-options-bloom-radius-desc = Насколько далеко распространяется свечение.
+ui-options-film-grain-strength = Сила плёночного зерна
+ui-options-impact-effects = Эффекты ударов
+ui-options-impact-effects-tooltip = Получение урона и взрывы рядом ненадолго расслаивают цвета по краям экрана. Взрывы также дают вспышку.
+ui-options-impact-effects-strength = Сила эффектов ударов
+ui-options-dust-motes = Пылинки
+ui-options-dust-motes-tooltip = Мелкие пылинки парят в ярком свете возле ламп.
+ui-options-floor-gloss = Блеск пола
+ui-options-floor-gloss-tooltip = Лужи и полированный пол отражают свет ближайших ламп.
+ui-options-floor-gloss-strength = Сила блеска пола
+ui-options-heat-haze = Тепловое марево
+ui-options-heat-haze-tooltip = Воздух дрожит над огнём и горящими предметами.
+ui-options-heat-haze-strength = Сила теплового марева
+ui-options-dust-motes-strength = Сила пылинок
+
+## Controls sections
+ui-options-function-sl-interact-with-other-hand = Взаимодействовать другой рукой

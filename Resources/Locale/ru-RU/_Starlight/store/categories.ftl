@@ -20,6 +20,7 @@ store-ling-category-sting = Жала
 store-ling-category-utility = Утилиты
 
 store-category-cantrips-standard = Стандартные заговоры
+store-category-evolutions-standard = Стандартные эволюции
 
 # Uplinks
 store-category-cybernetics = Кибернетика

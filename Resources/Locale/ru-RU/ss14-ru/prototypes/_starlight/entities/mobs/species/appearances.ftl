@@ -48,3 +48,5 @@ ent-AppearanceExperiment = { ent-BaseSpeciesDummy }
     .desc = { ent-BaseSpeciesDummy.desc }
 ent-GuideExpie = { "" }
     .desc = { "" }
+ent-AppearanceXeno = { ent-BaseSpeciesDummy }
+    .desc = Кукла-манекен, предназначенная для настройки персонажа.

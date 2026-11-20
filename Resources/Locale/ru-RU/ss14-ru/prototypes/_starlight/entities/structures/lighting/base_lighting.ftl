@@ -1,6 +1,6 @@
 ent-PoweredlightBlackLight = { ent-Poweredlight }
     .desc = Светильник. Потребляет энергию и излучает свет, когда в него вставлена лампа-трубка.
-    .suffix = ультрафиолетовая лампа
+    .suffix = Ультрафиолетовая лампа
 ent-AlwaysPoweredLightBlackLight = { ent-AlwaysPoweredWallLight }
     .desc = { ent-AlwaysPoweredWallLight.desc }
     .suffix = Всегда запитан, ультрафиолетовая лампа

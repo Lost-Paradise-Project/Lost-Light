@@ -16,7 +16,7 @@ Please really think before changing this SOP if it is actually needed, or if it 
 - [bold]Происхождение предмета:[/bold] если предмет физически получен из конкретного отдела или корпорации, одобрить его должен [color=#fce742]профильный руководитель[/color] этого отдела. Предметы без происхождения (например, найденные в техтоннелях) может одобрить любой [color=#fce742]профильный руководитель[/color].
 - [bold]Предметы НТ-ЦК:[/bold] любой предмет, допущенный хотя бы для одного отдела НТ-ЦК, должен иметь печать хотя бы одного из их [color=#fce742]профильных руководителей[/color] (плюс печать по происхождению, если она нужна). Предметам, не допущенным ни для одного отдела НТ-ЦК, нужна только печать [color=#fce742]профильного руководителя[/color] союзной корпорации - кроме оружия и предметов враждебных организаций, которым всё равно нужно дополнительное одобрение ниже.
 - [bold]Враждебные организации:[/bold] у враждебных организаций нет официально признанных [color=#fce742]профильных руководителей[/color], поэтому [color=#fce742]профильного руководителя[/color] для такого предмета определяйте по столбцу «Враждебные организации» в таблице ниже.
-- [bold]Оружие и боевая экипировка:[/bold] на них распространяются правила для снаряжения, но по таблице ниже нужно дополнительное одобрение СБ. Кроме того, [color=#ff6666]смотритель[/color] и [color=#c4363b]артиллерийский сержант[/color] могут, выступая [color=#fce742]профильным руководителем[/color], одобрять оружие и боевую экипировку [color=#ff4242]СБ[/color] там, где это указано в таблице, без [color=#ff4242]главы службы безопасности[/color].
+- [bold]Оружие и боевая экипировка:[/bold] на них распространяются правила для снаряжения, но по таблице ниже нужно дополнительное одобрение СБ. Кроме того, [color=#ff6666]смотритель[/color] и [color=#c4363b]старший сержант[/color] могут, выступая [color=#fce742]профильным руководителем[/color], одобрять оружие и боевую экипировку [color=#ff4242]СБ[/color] там, где это указано в таблице, без [color=#ff4242]главы службы безопасности[/color].
 
   <Table Columns="5">
     <ColorBox>
@@ -61,12 +61,12 @@ Please really think before changing this SOP if it is actually needed, or if it 
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Смотритель и артиллерийский сержант
+        Смотритель и старший сержант
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Смотритель и артиллерийский сержант
+        Смотритель и старший сержант
       </Box>
     </ColorBox>
     <ColorBox>
@@ -86,12 +86,12 @@ Please really think before changing this SOP if it is actually needed, or if it 
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Смотритель и артиллерийский сержант
+        Смотритель и старший сержант
       </Box>
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Смотритель и артиллерийский сержант
+        Смотритель и старший сержант
       </Box>
     </ColorBox>
     <ColorBox>
@@ -116,7 +116,7 @@ Please really think before changing this SOP if it is actually needed, or if it 
     </ColorBox>
     <ColorBox Color="#784a4a">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Смотритель и артиллерийский сержант
+        Смотритель и старший сержант
       </Box>
     </ColorBox>
     <ColorBox>

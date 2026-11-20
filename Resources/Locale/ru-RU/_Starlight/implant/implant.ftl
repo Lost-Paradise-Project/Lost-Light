@@ -14,3 +14,5 @@ mind-control-invalid = Субъект должен быть жив.
 roles-antag-mind-controlled-name = Под контролем разума
 roles-antag-mind-controlled-objective = Подчиняйтесь командам вашего куратора.
 fragile-implant-extraction = Хрупкий имплант распадается при извлечении...
+
+injection-port-examine = { CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } установленный [color=#9dc6cf]инъекционный порт[/color], ускоряющий инъекции.

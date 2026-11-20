@@ -1,0 +1,462 @@
+# Fax machines
+- type: !PartialOnly entity
+  id: FaxMachineCargo
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Отдел Снабжения"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoQM
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Квартирмейстер"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoSalvageMining
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Утилизаторы и Шахтёры"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoSalvage
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Утлизаторы"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoMining
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Шахтёры"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineCargoMail
+  components:
+    - type: FaxMachine
+      group: FaxGroupCargo
+      name: "Почта"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineCommandBridge
+  components:
+    - type: FaxMachine
+      group: FaxGroupCommand
+      name: "Мостик"
+      order: 100
+
+# Captain's Office: order=200
+
+- type: !PartialOnly entity
+  id: FaxMachineCommandConference
+  components:
+    - type: FaxMachine
+      group: FaxGroupCommand
+      name: "Конференц-зал"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineCommandAICore
+  components:
+    - type: FaxMachine
+      group: FaxGroupCommand
+      name: "Ядро ИИ"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineering
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Инженерный отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineeringCE
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Старший инженер"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineeringAtmos
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Атмосферный отсек"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineEngineeringNuclearReactor
+  components:
+    - type: FaxMachine
+      group: FaxGroupEngineering
+      name: "Ядерный реактор"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineMedical
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Медицинский отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineMedicalCMO
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Главный врач"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineMedicalChemistry
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Химическая лаборатория"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineMedicalPsychology
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedical
+      name: "Психолог"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineNTRep
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Представитель НаноТрейзен"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineNTRepBSO
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "ПНТ и ОСЩ"
+      order: 100
+- type: !PartialOnly entity
+  id: FaxMachineNTMagi
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Магистрат"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineNTMagiInternalAffairs
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Магистрат и АВД"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineNTInternalAffairs
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Агент Внутренних Дел"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineNTBlueshield
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Офицер Синего Щита"
+      order: 600
+
+- type: !PartialOnly entity
+  id: FaxMachineNTCareerTrainer
+  components:
+    - type: FaxMachine
+      group: FaxGroupNanoTrasen
+      name: "Коуч НТ"
+      order: 700
+
+- type: !PartialOnly entity
+  id: FaxMachineScience
+  components:
+    - type: FaxMachine
+      group: FaxGroupScience
+      name: "Научно-исследовательский отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineScienceRD
+  components:
+    - type: FaxMachine
+      group: FaxGroupScience
+      name: "Научный руководитель"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurity
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Служба Безопасности"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityHoS
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Глава Службы Безопасности"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityWarden
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Смотритель"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityDetective
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Детектив"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityFront
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Бригмедик"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineSecurityPrison
+  components:
+    - type: FaxMachine
+      group: FaxGroupSecurity
+      name: "Общая зона"
+      order: 600
+
+- type: !PartialOnly entity
+  id: FaxMachineService
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Сервисный отдел"
+      order: 100
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceHoP
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Глава Персонала"
+      order: 200
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceReporter
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Репортёр"
+      order: 300
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceLawyer
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Адвокатура"
+      order: 310
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceLibrary
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Библиотека"
+      order: 400
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceBar
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Бар"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceBotany
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Ботаника"
+      order: 510
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceShrine
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Храм"
+      order: 600
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceChaplain
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Священник"
+      order: 610
+
+- type: !PartialOnly entity
+  id: FaxMachineServiceTheater
+  components:
+    - type: FaxMachine
+      group: FaxGroupService
+      name: "Театр"
+      order: 700
+
+- type: !PartialOnly entity
+  id: FaxMachineITGSalvageLead
+  components:
+    - type: FaxMachine
+      group: FaxGroupITG
+      intrinsicGroup: FaxGroupITG
+      intrinsicLocked: true
+      name: "Лидер утилизаторов, торговый пост"
+      order: 700
+
+- type: !PartialOnly entity
+  id: FaxMachineITGSalvage
+  components:
+    - type: FaxMachine
+      group: FaxGroupITG
+      intrinsicGroup: FaxGroupITG
+      intrinsicLocked: true
+      name: "Утилизаторы, торговый пост"
+      order: 800
+
+- type: !PartialOnly entity
+  id: FaxMachineWizardYeOleWizardFaxer
+  components:
+    - type: FaxMachine
+      group: FaxGroupWizard
+      name: "Его магичность Господин Колдун" # This is the one on the wizard shuttle.
+      order: 100
+
+# Single fax -- can be edited for mapping/event purposes.
+- type: !PartialOnly entity
+  id: FaxMachineBlackstar
+  components:
+    - type: FaxMachine
+      group: FaxGroupBlackstar
+      intrinsicGroup: FaxGroupBlackstar
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "Тёмная звезда"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineCentralCommand
+  components:
+    - type: FaxMachine
+      group: FaxGroupCentralCommand
+      intrinsicGroup: FaxGroupCentralCommand
+      intrinsicLocked: true
+      name: "Центральное командование"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineMedTak
+  components:
+    - type: FaxMachine
+      group: FaxGroupMedTak
+      intrinsicGroup: FaxGroupMedTak
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "МедТак"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineNTSF
+  components:
+    - type: FaxMachine
+      group: FaxGroupNTSF
+      intrinsicGroup: FaxGroupNTSF
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "НТСФ"
+      order: 500
+
+
+- type: !PartialOnly entity
+  id: FaxMachineSyndicate
+  components:
+    - type: FaxMachine
+      group: FaxGroupSyndicate
+      responsePings: false # Stealthy -- only visible from emagged fax machines.
+      intrinsicGroup: FaxGroupSyndicate
+      intrinsicLocked: false # This is the only event fax that allows impersonating by default.
+      name: "Синдикат"
+      order: 500
+
+# Order = 10_000, so I can't imagine you'd really want to use this particular group for events.
+
+- type: !PartialOnly entity
+  id: FaxMachineITG
+  components:
+    - type: FaxMachine
+      group: FaxGroupITG
+      intrinsicGroup: FaxGroupITG
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "Межзвёздная Торговая Гильдия"
+      order: 500
+      notifyAdmins: true
+
+- type: !PartialOnly entity
+  id: FaxMachineTSF
+  components:
+    - type: FaxMachine
+      group: FaxGroupTSF
+      intrinsicGroup: FaxGroupTSF
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "Транс-Солнечная Федерация"
+      order: 500
+
+- type: !PartialOnly entity
+  id: FaxMachineUSSP
+  components:
+    - type: FaxMachine
+      group: FaxGroupUSSP
+      intrinsicGroup: FaxGroupUSSP
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "СССП"
+      order: 500
+
+
+- type: !PartialOnly entity
+  id: FaxMachineWizard
+  components:
+    - type: FaxMachine
+      group: FaxGroupWizard
+      intrinsicGroup: FaxGroupWizard
+      intrinsicLocked: true # No impersonating unless emagged
+      name: "Маг"
+      order: 500

@@ -31,3 +31,5 @@ ent-ClothingHeadHelmetGreenshield = шлем Зелёного щита
 ent-ChangelingClothingHeadHelmet = хитиновый шлем
     .desc = Всепоглощающая хитиновая масса брони.
     .suffix = Неснимаемый
+ent-ClothingHeadHelmetAtmosian = шлем атмосника
+    .desc = Атмосферный пожарный шлем, усиленный металлическим водородом.

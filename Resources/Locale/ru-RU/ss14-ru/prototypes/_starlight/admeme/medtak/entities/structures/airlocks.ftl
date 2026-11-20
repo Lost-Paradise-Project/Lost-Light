@@ -1,12 +1,12 @@
 ent-AirlockMedTakBasicGlassLocked = { ent-AirlockGlass }
     .desc = { ent-AirlockGlass.desc }
-    .suffix = МедТак, заперт
+    .suffix = МедТак, закрыт
 ent-AirlockMedTakLocked = { ent-AirlockBrigmed }
     .desc = { ent-AirlockBrigmed.desc }
-    .suffix = МедТак, заперт
+    .suffix = МедТак, закрыт
 ent-AirlockMedTakGlassLocked = { ent-AirlockBrigmedGlass }
     .desc = { ent-AirlockBrigmedGlass.desc }
-    .suffix = МедТак, заперт
+    .suffix = МедТак, закрыт
 ent-AirlockGlassShuttleMedTakLocked = { ent-AirlockGlassShuttle }
     .desc = { ent-AirlockGlassShuttle.desc }
-    .suffix = Стеклянный, стыковочный, МедТак, заперт
+    .suffix = Стеклянный, стыковочный, МедТак, закрыт

@@ -27,11 +27,3 @@
       children:
       - id: LPCryptoMinerChipBooster
       - id: LPCryptoMinerChipCooling
-    - id: PhotoCamera
-      weight: 0.8
-    - !type:GroupSelector
-      weight: 0.4
-      children:
-      - id: PhotoFilterMonochrome
-      - id: PhotoFilterNightVision
-      - id: PhotoFilterGhost

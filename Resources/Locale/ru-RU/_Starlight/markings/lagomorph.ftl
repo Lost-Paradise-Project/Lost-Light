@@ -66,6 +66,7 @@ marking-LagomorphEarsAntlersTall-tall_ears_outer = Внешняя часть
 marking-LagomorphEarsAntlersTall-tall_ears_inner = Внутренняя часть
 marking-LagomorphEarsAntlersTall-antlers-tall-ears = Рога
 marking-LagomorphEarsDeer = Олень
+marking-LagomorphEarsDeer-deer = Уши
 marking-LagomorphEarsDeerAntlers = Оленьи рога
 marking-LagomorphEarsDeerAntlers-deer = Олень
 marking-LagomorphEarsDeerAntlers-antlers = Рога
@@ -84,6 +85,8 @@ marking-LagomorphEarsDeerAntlersDriedbush-antlers-driedbush = Рога
 marking-LagomorphEarsAirplane = Самолётные
 marking-LagomorphEarsAirplane-airplane = Внешняя часть
 marking-LagomorphEarsAirplane-inner_airplane = Внутренняя часть
+marking-LagomorphEarsFluffed = Пушистые
+marking-LagomorphEarsFluffed-fluffed = Уши
 
 # tails
 marking-LagomorphTailCotton = Хвост-помпон
@@ -98,35 +101,101 @@ marking-LagomorphTailLong-long_tail_twotone = Низ
 
 # head side
 marking-LagomorphDewlap = Подгрудок
+marking-LagomorphDewlap-dewlap = Подгрудок
 
 # head
 marking-LagomorphEyeScarRight = Шрам на правом глазу
+marking-LagomorphEyeScarRight-eye_scar_R = Шрам на правом глазу
 marking-LagomorphEyeScarLeft = Шрам на левом глазу
+marking-LagomorphEyeScarLeft-eye_scar_L = Шрам на левом глазу
+marking-LagomorphEyeScar2Right = Шрам на правом глазу 2
+marking-LagomorphEyeScar2Right-eye_scar2_R = Шрам на правом глазу 2
+marking-LagomorphEyeScar2Left = Шрам на левом глазу 2
+marking-LagomorphEyeScar2Left-eye_scar2_L = Шрам на левом глазу 2
+marking-LagomorphEyeSpotR = Пятно на правом глазу
+marking-LagomorphEyeSpotR-eye_spot_R = Пятно на правом глазу
+marking-LagomorphEyeSpotL = Пятно на левом глазу
+marking-LagomorphEyeSpotL-eye_spot_L = Пятно на левом глазу
+marking-LagomorphHeadBlaze= Проточина
+marking-LagomorphHeadBlaze-head_blaze= Проточина
+marking-LagomorphHeadDutch = Голландский
+marking-LagomorphHeadDutch-head_dutch = Голландский
+marking-LagomorphHeadLion = Лев
+marking-LagomorphHeadLion-head_lion = Лев
+marking-LagomorphHeadHarlequinnR = Арлекин, правая сторона
+marking-LagomorphHeadHarlequinnR-head_harlequinn_R = Арлекин, правая сторона
+marking-LagomorphHeadHarlequinnL = Арлекин, левая сторона
+marking-LagomorphHeadHarlequinnL-head_harlequinn_L = Арлекин, левая сторона
 
 # chest
 marking-LagomorphBellyColour = Живот
+marking-LagomorphBellyColour-belly_color = Живот
 marking-LagomorphTorsoSpots = Пятна на груди
+marking-LagomorphTorsoSpots-torso_spots = Пятна на груди
 marking-LagomorphChestScarRight = Шрам на правой стороне груди
+marking-LagomorphChestScarRight-chest_scar_R = Шрам на правой стороне груди
 marking-LagomorphChestScarLeft = Шрам на левой стороне груди
+marking-LagomorphChestScarLeft-chest_scar_L = Шрам на левой стороне груди
 marking-LagomorphBackScarRight = Шрам на правой стороне спины
+marking-LagomorphBackScarRight-back_scar_R = Шрам на правой стороне спины
 marking-LagomorphBackScarLeft = Шрам на левой стороне спины
+marking-LagomorphBackScarLeft-back_scar_L = Шрам на левой стороне спины
+marking-LagomorphChestScar = Шрам на груди
+marking-LagomorphChestScar-chest_scar = Шрам на груди
+marking-LagomorphBackScar = Шрам на спине
+marking-LagomorphBackScar-back_scar = Шрам на спине
+marking-LagomorphChestDutch = Голландский
+marking-LagomorphChestDutch-chest_dutch = Голландский
+marking-LagomorphChestHarlR = Арлекин, правая сторона
+marking-LagomorphChestHarlR-chest_harl_R = Арлекин, правая сторона
+marking-LagomorphChestHarlL = Арлекин, левая сторона
+marking-LagomorphChestHarlL-chest_harl_L = Арлекин, левая сторона
 
 # legs
 marking-LagomorphClaws = Когти
+marking-LagomorphClaws-claws = Когти
 marking-LagomorphLegSockL = Гамаши
+marking-LagomorphLegSockL-leg_socks = Гамаши
 marking-LagomorphFootSockR = Носки
+marking-LagomorphFootSockR-feet_socks = Носки
 marking-LagomorphLegSpotsR = Пятна на правой ноге
+marking-LagomorphLegSpotsR-right_leg_spots = Пятна на правой ноге
 marking-LagomorphLegSpotsL = Пятна на левой ноге
+marking-LagomorphLegSpotsL-left_leg_spots = Пятна на левой ноге
+marking-LagomorphLegSleeveL = Левая штанина
+marking-LagomorphLegSleeveL-l_leg = Левая штанина
+marking-LagomorphLegSleeveR = Правая штанина
+marking-LagomorphLegSleeveR-r_leg = Правая штанина
 
 # arms
 marking-LagomorphHandMittsR = Варежка на правой кисти
+marking-LagomorphHandMittsR-r_hand_mitt = Варежка на правой кисти
 marking-LagomorphHandMittsL = Варежка на левой кисти
+marking-LagomorphHandMittsL-l_hand_mitt = Варежка на левой кисти
 marking-LagomorphArmMittsR = Варежка на правой руке
+marking-LagomorphArmMittsR-r_arm_mitt = Варежка на правой руке
 marking-LagomorphArmMittsL = Варежка на левой руке
+marking-LagomorphArmMittsL-l_arm_mitt = Варежка на левой руке
 marking-LagomorphArmSpotsR = Пятна на правой руке
+marking-LagomorphArmSpotsR-right_arm_spots = Пятна на правой руке
 marking-LagomorphArmSpotsL = Пятна на левой руке
+marking-LagomorphArmSpotsL-left_arm_spots = Пятна на левой руке
 marking-LagomorphBraceletR = Правый браслет
+marking-LagomorphBraceletR-bracelet_R = Правый браслет
 marking-LagomorphBraceletL = Левый браслет
+marking-LagomorphBraceletL-bracelet_L = Левый браслет
+marking-LagomorphArmSleeveL = Левый рукав
+marking-LagomorphArmSleeveL-l_arm = Левый рукав
+marking-LagomorphArmSleeveR = Правый рукав
+marking-LagomorphArmSleeveR-r_arm = Правый рукав
+
+# overlay
+marking-LagomorphHeadGauze = Повязка на глаза
+marking-LagomorphHeadGauze-head_gauze_blindfold = Повязка на глаза
+marking-LagomorphLegGauzeR = Бинт на правой ноге
+marking-LagomorphLegGauzeR-leg_gauze_R = Бинт на правой ноге
+marking-LagomorphLegGauzeL = Бинт на левой ноге
+marking-LagomorphLegGauzeL-leg_gauze_L = Бинт на левой ноге
 
 # underwear
 

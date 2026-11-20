@@ -2,4 +2,8 @@
   parent: [ ClothingOuterHardsuitJuggernaut, BaseSyndicateContraband ]
   id: ClothingOuterHardsuitJuggernautLocked
   suffix: Locked
-  # LP edit - убрано: доступ NuclearOperative (AccessReader, AccessClothingBlocker), вместо него привязка к ДНК (HardsuitDna)
+  components:
+  - type: AccessReader
+    access: [[ "NuclearOperative" ]]
+  - type: AccessClothingBlocker
+    access: NuclearOperative

@@ -1,3 +1,4 @@
+using Content.Shared._LP.Sponsors;
 using Content.Shared.Preferences;
 
 namespace Content.Client._Starlight.Lobby.UI;
@@ -17,7 +18,7 @@ public sealed partial class HumanoidProfileEditor
 
     private void RandomizeEverything()
     {
-        Profile = HumanoidCharacterProfile.Random();
+        Profile = HumanoidCharacterProfile.Random(RolesRestrictions.GetRestrictedSpeciesForLocal()); // LP edit - спонсорские расы
         SetProfile(Profile, CharacterSlot);
         SetDirty();
     }

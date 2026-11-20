@@ -3,4 +3,4 @@ ent-AirlockExternal = { ent-AirlockRCDResistant }
     .suffix = Внешний
 ent-AirlockExternalGlass = { ent-AirlockExternal }
     .desc = { ent-AirlockExternal.desc }
-    .suffix = Внешний, Стеклянный
+    .suffix = Внешний, стеклянный

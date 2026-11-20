@@ -17,9 +17,6 @@ public sealed class ViewconeCCVars : CVars
     public static readonly CVarDef<float> ViewconeBaseAngle =
         CVarDef.Create("funkystation.viewcone_base_angle", 210f, CVar.SERVER | CVar.REPLICATED);
 
-    // whether moving opposite your facing direction forces walk
-    public static readonly CVarDef<bool> ForceWalkBackwards =
-        CVarDef.Create("funkystation.force_walk_backwards", true, CVar.SERVER | CVar.REPLICATED);
 
     // whether mobs always rotate to face the mouse cursor
     public static readonly CVarDef<bool> AlwaysFaceCursor =

@@ -24,4 +24,4 @@ ent-CyborgEnergySwordDouble = { ent-EnergySwordDouble }
     .suffix = Одноручное, Для боргов
 ent-EnergyDaggerLoudBlue = { ent-EnergyDaggerLoud }
     .desc = { ent-EnergyDaggerLoud.desc }
-    .suffix = синий
+    .suffix = Синий

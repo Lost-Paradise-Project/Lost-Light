@@ -1,0 +1,10 @@
+ent-BaseDoormat = придверный коврик
+    .desc = Вытирайте ноги, прежде чем входить.
+ent-Doormat = { ent-BaseDoormat }
+    .desc = { ent-BaseDoormat.desc }
+ent-DoormatWelcome = { ent-BaseDoormat }
+    .desc = { ent-BaseDoormat.desc }
+    .suffix = Добро пожаловать
+ent-DoormatBless = { ent-BaseDoormat }
+    .desc = { ent-BaseDoormat.desc }
+    .suffix = Благослови этот космос

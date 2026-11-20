@@ -16,3 +16,4 @@ lathe-category-error = Оͬ͌̔̄̀Ш̫̼̈ͭͧͅИ̣̩̰̳Б̥̜̥̇͊̿͆̍̚�
 lathe-category-communication = Связь
 
 lathe-category-silicon = Кремний
+lathe-category-eyewear = Очки

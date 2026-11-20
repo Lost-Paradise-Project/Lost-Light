@@ -103,3 +103,10 @@
   - !type:DiscordRolesRequirement
     requirement: LPDevelopersReq
   category: LPGhostDevelopers
+
+- type: !PartialOnly ghostTheme
+  id: ArchitectTheme
+  requirements: !Clear
+    - !type:DiscordRolesRequirement
+      requirement: LPDevelopersReq
+  category: LPGhostDevelopers

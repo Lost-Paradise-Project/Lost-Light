@@ -1,6 +1,6 @@
 ent-CrateSyndicateChameleonBundle = ящик набора хамелеона
     .desc = Содержит рюкзак, полный предметов с технологией хамелеона, позволяющей маскироваться практически под что угодно на станции, и не только!
-    .suffix = Заполнен
+    .suffix = Заполненный
 ent-SyndiBorgiKitBasicBundle = Набор борги Синдиката
     .desc = Скорая доставка, лучший друг человека!
     .suffix = Простой
@@ -12,7 +12,7 @@ ent-SyndiBorgiKit2Bundle = Набор борги Синдиката
     .suffix = Скорость
 ent-CrateCybersunDarkGygaxBundle = набор Гигакса Cybersun
     .desc = Содержит набор лёгких бронированных мехов Cybersun.
-    .suffix = Заполнен
+    .suffix = Заполненный
 ent-CrateCybersunMaulerBundle = набор Маулера Cybersun
     .desc = Содержит набор тяжёлых бронированных мехов Cybersun.
-    .suffix = Заполнен
+    .suffix = Заполненный

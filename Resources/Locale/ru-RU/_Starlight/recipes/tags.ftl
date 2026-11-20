@@ -1,5 +1,6 @@
 construction-graph-tag-disposal-pipe = утилизационная труба
 construction-graph-tag-wallmount-mass-scanner-electronics = электроника настенного сканера массы
+construction-graph-tag-airlock-cycler-electronics = электроника контроллера шлюза
 
 construction-graph-tag-meson = инженерные очки
 construction-graph-tag-shadekin-eye = глаза теневика

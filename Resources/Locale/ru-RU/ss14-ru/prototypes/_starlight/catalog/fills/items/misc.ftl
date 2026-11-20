@@ -1,6 +1,6 @@
 ent-SecureBriefings = Защищённые брифинговые документы
     .desc = Набор секретных документов для информирования новых сотрудников СБ
-    .suffix = Не маппить
+    .suffix = НЕ МАППИТЬ
 ent-ClothingShoesBootsMagERTFilled = { ent-ClothingShoesBootsMagERT }
     .desc = { ent-ClothingShoesBootsMagERT.desc }
-    .suffix = Заполнен
+    .suffix = Заполненный

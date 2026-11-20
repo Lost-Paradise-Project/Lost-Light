@@ -2,6 +2,7 @@ humanoid-profile-editor-customspeciename-label = Своё название ви�
 humanoid-profile-editor-height-label = Рост: { $height } см
 humanoid-profile-editor-width-label = Вес: { $weight } кг
 humanoid-profile-editor-slider-reset = Сброс
+humanoid-profile-editor-body-tab = Тело
 
 humanoid-profile-editor-voice-select = Выбрать голос
 humanoid-profile-editor-silicon-voice-select = Выбрать голос синтетика
@@ -70,3 +71,17 @@ tts-tag-soft = Мягкий
 tts-tag-squalky = Визгливый
 
 humanoid-profile-editor-species-loadout-select = Выбрать снаряжение вида
+humanoid-profile-editor-height = Рост
+humanoid-profile-editor-height-unit = см
+humanoid-profile-editor-weight = Вес
+humanoid-profile-editor-weight-unit = кг
+humanoid-profile-editor-voice-tab = Голос
+voice-selector-any = Любой
+voice-selector-shown = { $shown } из { $total }
+voice-selector-kind-character = Персонаж
+voice-selector-kind-silicon = Синтетик
+loadout-tab-title = Снаряжение
+loadout-tab-pick-role = Выберите роль слева, чтобы изменить её стартовое снаряжение.
+loadout-tab-search = Поиск предметов
+loadout-tab-antags = Антагонисты
+loadout-tab-species = Расы

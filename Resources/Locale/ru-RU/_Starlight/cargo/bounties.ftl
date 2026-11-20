@@ -5,6 +5,16 @@ bounty-item-abyssium-ore = Руда абиссия
 bounty-item-old-treasure = Старое сокровище
 bounty-item-space-bear-hide = Шкура космического медведя
 
+bounty-item-protolathe = Плата протолата
+bounty-item-vodkizine = Бутылка водкизина
+bounty-item-mop = Продвинутая швабра
+bounty-item-weapons = Макаров/Финка/Мосин
+bounty-item-keg = Бочонок-бомба
+bounty-item-cloning = Плата клонирования
+bounty-item-dragon = Мясо дракона
+bounty-item-reactor = Реакторы экспедиционных мехов
+bounty-item-akms = АКМС
+
 bounty-item-cotton-cake = Хлопковый торт
 bounty-item-cotton-bread = Хлопковый хлеб
 bounty-item-coupe-glass = Бокал-купе

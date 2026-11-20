@@ -60,4 +60,4 @@ ent-WeaponLaserCannonXenoborg = тяжёлая лазерная пушка кс�
     .desc = { ent-WeaponLaserCannon.desc }
 ent-WeaponLaser = лучевой излучатель
     .desc = Выглядит старым и обветшалым, какая от него польза?
-    .suffix = Отладка
+    .suffix = ОТЛАДКА

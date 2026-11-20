@@ -1,5 +1,7 @@
 ent-MindRoleGhostCorporateAligned = Роль призрака (корпоративный курс)
     .desc = { ent-MindRoleGhostRoleNeutral.desc }
+ent-MindRoleGhostSurvivorAligned = Роль призрака (курс выживших)
+    .desc = { ent-MindRoleGhostRoleNeutral.desc }
 ent-MindRoleGhostCentCommAligned = Роль призрака (курс ЦентКома)
     .desc = { ent-MindRoleGhostRoleNeutral.desc }
 ent-MindRoleGhostTSFAligned = Роль призрака (курс АНС)

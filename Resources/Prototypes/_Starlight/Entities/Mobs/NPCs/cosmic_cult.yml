@@ -48,7 +48,9 @@
   - type: NpcFactionMember
     factions:
     - CosmicCult
-  - type: CosmicMalignantHealing
+  - type: HealFromTiles
+    tiles:
+    - FloorCosmicCorruption
     healInterval: 10s
     healAmount: 0.75
   - type: GhostRole
@@ -160,7 +162,7 @@
       types:
         Cold: 5
         Blunt: 10
-        Structural: 16
+        Structural: 20
     soundHit:
       path: /Audio/_Starlight/CosmicCult/cosmicsword_hit.ogg
       params:
@@ -194,7 +196,7 @@
         Asphyxiation: 10
         Cold: 5
         Blunt: 5
-        Structural: 12
+        Structural: 15
     soundHit:
       path: /Audio/_Starlight/CosmicCult/cosmiclance_hit.ogg
       params:

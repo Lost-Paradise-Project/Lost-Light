@@ -1,3 +1,9 @@
+signal-port-name-toggleable-device-state = Состояние
+signal-port-description-toggleable-device-state = Состояние, которому должно соответствовать устройство. Высокий = включено, низкий = выключено.
+
+signal-port-name-toggleable-device-state-inverted = Инвертированное состояние
+signal-port-description-toggleable-device-state-inverted = Состояние, противоположное тому, которому должно соответствовать устройство. Высокий = выключено, низкий = включено.
+
 signal-port-name-body-scanner-receiver = Операционный стол
 signal-port-description-body-scanner-receiver = Отправляет информацию о пациенте только на операционную консоль.
 
@@ -27,3 +33,10 @@ signal-port-description-turret-controller-sync-receiver = Получает на�
 
 signal-port-name-combustion-turbine-console-receiver = Газовая турбина
 signal-port-description-combustion-turbine-console-receiver = Принимает команды от консоли управления газовой турбиной.
+
+signal-port-name-airlock-cycler-door = Контроллер шлюза
+signal-port-description-airlock-cycler-door = Позволяет контроллеру шлюза заболтировать, закрывать и открывать эту дверь.
+signal-port-name-airlock-cycler-button = Контроллер шлюза
+signal-port-description-airlock-cycler-button = Запрашивает у контроллера шлюза цикл в сторону, на которой расположена эта кнопка.
+signal-port-name-airlock-cycler-device = Контроллер шлюза
+signal-port-description-airlock-cycler-device = Позволяет контроллеру шлюза наполнять или опустошать камеру с помощью этого клапана, скруббера или насоса.

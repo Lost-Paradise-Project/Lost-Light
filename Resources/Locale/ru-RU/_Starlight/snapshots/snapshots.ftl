@@ -1,0 +1,15 @@
+snapshot-view-window-title = Фотография
+snapshot-capture-raise = Вы подносите видоискатель камеры к глазу.
+snapshot-capture-lower = Вы опускаете камеру.
+snapshot-capture-out-of-range = Цель была не в фокусе.
+snapshot-capture-zoom-category = Зум камеры
+snapshot-capture-zoom-option = { $width }x{ $height }
+snapshot-capture-failed = Фотографию не удалось проявить.
+snapshot-capture-rate-limited = Камера ещё заряжается.
+snapshot-cartridge-installed = Картридж для фото установлен. Держите КПК, чтобы использовать камеру.
+snapshot-film-category = Плёнка
+snapshot-film-load = Зарядить чистую фотографию
+snapshot-film-needs-blank = В камере закончилась плёнка.
+snapshot-film-full = Камера уже заряжена до предела: { $max } шт.
+snapshot-film-loaded = Заряжена чистая фотография ({ $charges }/{ $max }).
+snapshot-examine-flash = В установленной вспышке осталось зарядов: { $charges }.

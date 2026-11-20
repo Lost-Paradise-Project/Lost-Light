@@ -45,3 +45,10 @@
   - type: HardsuitDna
   - type: TextToSpeech
     voice: ntts_adjutant
+
+# Запертый джаггернаут: вместо доступа NuclearOperative - привязка к ДНК (HardsuitDna)
+- type: !PartialOnly entity
+  id: ClothingOuterHardsuitJuggernautLocked
+  components:
+  - type: !Remove AccessReader
+  - type: !Remove AccessClothingBlocker

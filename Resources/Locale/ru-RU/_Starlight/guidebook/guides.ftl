@@ -26,9 +26,9 @@ guide-entry-sl-rule-15 = Правило 15
 guide-entry-sl-rule-16 = Правило 16
 guide-entry-sl-metashield = Метащит
 
-guide-entry-sl-silicon-1 = Правило Sil. 1
-guide-entry-sl-silicon-2 = Правило Sil. 2
-guide-entry-sl-silicon-3 = Правило Sil. 3
+guide-entry-sl-silicon-1 = Правило синтетиков 1
+guide-entry-sl-silicon-2 = Правило синтетиков 2
+guide-entry-sl-silicon-3 = Правило синтетиков 3
 
 guide-entry-sl-clarification-1 = Пояснение 1
 
@@ -85,13 +85,14 @@ guide-entry-sl-security-sop-brigmedic = Полевой врач
 guide-entry-sl-security-sop-k9 = Служебная собака
 guide-entry-sl-security-sop-warden = Смотритель
 guide-entry-sl-security-sop-headofsecurity = Глава службы безопасности
-guide-entry-sl-security-sop-gunnerysergeant = Артиллерийский сержант
+guide-entry-sl-security-sop-gunnerysergeant = Старший сержант
 guide-entry-sl-security-sop-prisonertreatment = Обращение с заключёнными
 guide-entry-sl-security-sop-parole = Условно-досрочное освобождение
 guide-entry-sl-security-sop-permitacquisition = Получение разрешений
 guide-entry-sl-security-sop-permitacquisition-examples = Примеры разрешений
 guide-entry-sl-security-sop-specialsituations = Особые ситуации
 guide-entry-sl-security-sop-enemy-of-corporation = Враги корпорации
+guide-entry-sl-security-sop-induced-mutiny = Спровоцированный мятеж
 guide-entry-sl-security-sop-hostage-situations = Ситуации с заложниками
 guide-entry-sl-security-sop-criminal-status = Криминальный статус
 guide-entry-sl-security-ammo-types = Типы боеприпасов

@@ -1,0 +1,42 @@
+- type: entity
+  name: blueshield revolver
+  parent: [BaseWeaponBatterySmall, BaseCentcommContraband]
+  id: LPPBlueshieldRevolver
+  description: Stylish and tasteful.
+  components:
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Battery/blueshield_laser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Battery/blueshield_laser.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: BatteryAmmoProvider
+    proto: LPPPulse
+    fireCost: 250
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: Battery
+    maxCharge: 4250
+    startingCharge: 4250
+  - type: ContainerContainer
+    containers:
+      firing_pin: !type:Container
+  - type: ContainerFill
+    containers:
+      firing_pin:
+      - FiringPinAdvancedLaser
+  - type: FiringPinHolder
+    supportedPins: [ AdvancedLaser ]

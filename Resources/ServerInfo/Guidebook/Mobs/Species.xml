@@ -31,6 +31,7 @@
   <Box>
   <GuideEntityEmbed Entity="AppearanceVox" Caption="Вокс"/>
   <GuideEntityEmbed Entity="AppearanceVulpkanin" Caption="Вульпканин"/>
+  <GuideEntityEmbed Entity="AppearanceXeno" Caption="Xen'Kara"/>
   <GuideEntityEmbed Entity="AppearanceNeocyte" Caption="Протоген"/> <!--FH-->
   <GuideEntityEmbed Entity="AppearanceIPC" Caption="КПБ"/> <!--FH-->
   <GuideEntityEmbed Entity="AppearanceTajaran" Caption="Таяран"/> <!--LP-->

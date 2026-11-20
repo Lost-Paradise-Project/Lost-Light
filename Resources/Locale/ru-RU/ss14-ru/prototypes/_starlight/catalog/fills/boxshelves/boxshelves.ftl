@@ -1,6 +1,6 @@
 ent-BoxShelfCargo = { ent-BoxShelf }
     .desc = { ent-BoxShelf.desc }
-    .suffix = Карго
+    .suffix = Снабжение
 ent-BoxShelfMedbay = { ent-BoxShelf }
     .desc = { ent-BoxShelf.desc }
     .suffix = Медотсек

@@ -1,4 +1,5 @@
 comms-console-announcement-title-tsf = Альянс Независимых Систем
+comms-console-announcement-title-medtak = МедТак
 
 comms-console-announcement-title-command = Командование
 comms-console-announcement-title-eng = Инженерия
@@ -8,5 +9,6 @@ comms-console-announcement-title-sec = Служба безопасности
 comms-console-announcement-title-srv = Сервис
 comms-console-announcement-title-sup = Карго
 comms-console-announcement-title-law = Закон
+comms-console-announcement-title-news = Срочные новости
 
 comms-console-menu-shuttle-button-disabled = { $text } (недоступно)

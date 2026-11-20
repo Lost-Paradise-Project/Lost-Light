@@ -49,7 +49,6 @@ public sealed class KillSignCommand : ToolshedCommand
             ["admin"] = (_slContentPath, "admin"),
             ["dm"] = (_slContentPath, "dm"),
             ["point"] = (_slContentPath, "point"),
-            // lp
             ["fuck"] = (_lpContentPath, "fuck"), // LP edit
         };
 

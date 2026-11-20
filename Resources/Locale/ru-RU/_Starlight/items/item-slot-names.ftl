@@ -7,3 +7,4 @@ item-slot-component-slot-name-sabre = сабля
 item-slot-component-slot-name-turbine-blade = лопатки турбины
 item-slot-component-slot-name-turbine-stator = статор турбины
 item-slot-component-slot-name-personal-ai = персональный ИИ
+item-slot-component-slot-name-flash = вспышка

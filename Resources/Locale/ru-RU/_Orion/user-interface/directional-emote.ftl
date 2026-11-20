@@ -1,4 +1,4 @@
-directional-emote-title = Меню направленного действия
+directional-emote-title = Меню направленной эмоции
 directional-emote-button = Отправить
 
 directional-emote-verb-name = Направленная эмоция

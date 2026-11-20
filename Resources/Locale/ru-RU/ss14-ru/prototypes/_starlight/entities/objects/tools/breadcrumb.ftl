@@ -1,0 +1,17 @@
+ent-GlowstoneDropper = мешочек со светящимися камнями
+    .desc = Добротный кожаный мешочек, специально созданный для того, чтобы оставлять за собой дорожку из светящихся камней. Больше никогда не заблудитесь! Пополняется осколками кристаллов.
+    .suffix = Пустой
+ent-GlowstoneDropperEmpty = { ent-GlowstoneDropper }
+    .desc = { ent-GlowstoneDropper.desc }
+    .suffix = Пустой
+ent-GlowstoneDropperFilled25 = { ent-GlowstoneDropper }
+    .desc = { ent-GlowstoneDropper.desc }
+    .suffix = Заполненный, 25
+ent-GlowstoneDropperFilled50 = { ent-GlowstoneDropper }
+    .desc = { ent-GlowstoneDropper.desc }
+    .suffix = Заполненный, 50
+ent-GlowstoneDropperFilled500 = { ent-GlowstoneDropper }
+    .desc = { ent-GlowstoneDropper.desc }
+    .suffix = Заполненный, 500
+ent-Glowstone = светящийся камень
+    .desc = Камень, который некоторое время светится. Полезен, чтобы отслеживать, где вы уже были.

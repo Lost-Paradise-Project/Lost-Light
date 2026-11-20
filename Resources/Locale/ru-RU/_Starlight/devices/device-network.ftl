@@ -1,5 +1,7 @@
 ## camera frequencies
 device-frequency-prototype-name-surveillance-camera-isolated-network = Изолированная сеть камер
+device-frequency-prototype-name-medtak = МедТак
+device-frequency-prototype-name-medtak-operators = Операторы МедТак
 
 ## atmospheric devices
 device-address-prefix-gas-pump = GPP-
