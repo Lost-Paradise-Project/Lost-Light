@@ -95,6 +95,8 @@ no_translate_tokens: # Вырезаются целыми словами, рег�
 - "setgamepreset"
 - "1.0 REV 1"
 - "RGB"
+- "HSV"
+- "HSL"
 
 - "ZXA"
 - "XP"

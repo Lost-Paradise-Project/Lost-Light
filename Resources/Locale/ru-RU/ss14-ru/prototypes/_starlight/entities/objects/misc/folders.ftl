@@ -12,6 +12,7 @@ ent-BoxFolderAssistantManagerClipboard = цифровая доска руков�
     .suffix = { ent-BoxFolderClipboard.suffix }
 ent-BoxFolderClipboardSalvageLead = планшет главы утилизаторов
     .desc = Похоже, его склеивали скотчем. Покрыт космической пылью.
+    .suffix = { ent-BoxFolderClipboard.suffix }
 ent-BoxFolderRedCargo = { ent-BoxFolderRedEmpty }
     .desc = { ent-BoxFolderRedEmpty.desc }
     .suffix = Красная, заказы продукции

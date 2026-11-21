@@ -49,6 +49,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
           FORK_ID: ${{ vars.FORK_ID_PUBLIC }}
           ROBUST_CDN_URL: ${{ vars.ROBUST_CDN_URL }}
+          PYTHONUNBUFFERED: "1" # LP edit
 
   # LP edit start - чейнджлог Starlight в Discord после публикации паблика
   update-changelog:

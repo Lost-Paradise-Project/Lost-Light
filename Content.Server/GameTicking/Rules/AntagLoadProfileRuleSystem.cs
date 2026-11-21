@@ -5,6 +5,7 @@ using Content.Server.Antag;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Humanoid;
 using Content.Server.Preferences.Managers;
+using Content.Shared._LP.Sponsors;
 using Content.Shared._Starlight.Character.Info;
 using Content.Shared._Starlight.Station;
 using Content.Shared.Humanoid;
@@ -74,7 +75,13 @@ public sealed partial class AntagLoadProfileRuleSystem : GameRuleSystem<AntagLoa
             && (ent.Comp.SpeciesOverrideBlacklist?.Contains(new ProtoId<SpeciesPrototype>(species.ID)) ?? false))
             species = Proto.Index(ent.Comp.SpeciesOverride.Value);
 
-        profile ??= HumanoidCharacterProfile.RandomWithSpecies(species.ID);
+        // LP edit start - спонсорские маркинги
+        if (profile is null)
+        {
+            profile = HumanoidCharacterProfile.RandomWithSpecies(species.ID);
+            RolesRestrictions.FilterAppearance(profile.Appearance, args.Session);
+        }
+        // LP edit end
         profile = profile.WithSpecies(species.ID);
 
         // This exact profile is subsequently used for its loadout.

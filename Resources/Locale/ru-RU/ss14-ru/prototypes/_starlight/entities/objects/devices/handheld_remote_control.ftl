@@ -4,5 +4,5 @@ ent-HandheldRemoteControlAntag = ручной пульт дистанционн�
     .desc = Планшетный компьютер, мощный пульт дистанционного управления.
 ent-HandheldRemoteControlAntagMind = ручной пульт дистанционного управления разума
     .desc = Планшетный компьютер, невероятно мощный пульт дистанционного управления.
-ent-HandheldRemoteControlExpedition = игрушечный пульт
+ent-HandheldRemoteControlToy = игрушечный пульт
     .desc = Компактный пульт без экрана для радиоуправляемых игрушек.

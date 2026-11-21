@@ -5,7 +5,9 @@ using Content.Shared.IdentityManagement;
 using Content.Shared.Preferences;
 using Content.Shared.Popups;
 using Content.Shared.Trigger.Components.Effects;
+using Content.Shared._LP.Sponsors;
 using Robust.Shared.Network;
+using Robust.Shared.Player;
 
 namespace Content.Shared.Trigger.Systems;
 
@@ -32,6 +34,7 @@ public sealed partial class DnaScrambleOnTriggerSystem : XOnTriggerSystem<DnaScr
 
         var newProfile = HumanoidCharacterProfile.RandomWithSpecies(humanoid.Species);
         newProfile.Appearance = HumanoidCharacterAppearance.EnsureValid(newProfile.Appearance, humanoid.Species, newProfile.Sex);
+        RolesRestrictions.FilterAppearance(newProfile.Appearance, CompOrNull<ActorComponent>(target)?.PlayerSession); // LP edit - спонсорские маркинги
         _humanoidAppearance.LoadProfile(target, newProfile, humanoid);
         _metaData.SetEntityName(target, newProfile.Name, raiseEvents: false); // raising events would update ID card, station record, etc.
 

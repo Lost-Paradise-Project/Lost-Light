@@ -21,6 +21,8 @@ alerts-surge-name = [color=yellow]Всплеск выносливости[/color
 alerts-surge-desc = У вас повышены восстановление выносливости и сопротивление [color=red]ценой повышенного расхода сытости[/color]
 alerts-tracking-scent-name = Выслеживание запаха
 alerts-tracking-scent-desc = Вы идёте по следу запаха. Вечно держать его не получится.
+alerts-tiredness-name = Усталость
+alerts-tiredness-desc = Вы всё сильнее устаёте. Если долго обходиться без отдыха, это вас вымотает.
 alerts-wrapped-name = [color=lightblue]Замотан[/color]
 alerts-wrapped-desc = Вы [color=red]замотаны[/color]! Нажмите на оповещение, чтобы попытаться размотаться.
 alerts-zoomies-name = [color=lightblue]Зумеры!![/color]

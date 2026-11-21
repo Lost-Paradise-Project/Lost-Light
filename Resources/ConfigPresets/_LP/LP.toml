@@ -1,7 +1,7 @@
 [game]
 hostname = "🔥 Lost Paradise - Main ❤️ [18+][RU]"
 desc = "- Мы проект со средним требованием к отыгрышу с разрешенным ЕРП. \n- Наша цель это создание приятного времяпрепровождения для всех игроков не зависимо от их предпочитаемого геймплея \n- Присоединяйтесь в наше Дискорд сообщество"
-lobbyduration = 120
+lobbyduration = 180
 map_pool = "DefaultLPMapPool"
 soft_max_players = 111
 hostname_in_titlebar = false
@@ -75,6 +75,7 @@ preset_enabled = true
 restart_enabled = false
 run_map_vote_after_restart = true
 run_preset_vote_after_restart = true
+votings_delay = 120
 
 [rules]
 time = 30.0
