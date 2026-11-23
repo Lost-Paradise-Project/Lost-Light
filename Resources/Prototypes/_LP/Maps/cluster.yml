@@ -3,7 +3,7 @@
   mapName: 'Кластер'
   mapPath: /Maps/_LP/Stations/LP_Cluster.yml
   minPlayers: 0
-  # maxPlayers: 35
+  # maxPlayers: 40
   stations:
     LP_StarlightCluster:
       stationProto: StandardNanotrasenStation

@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 290.0.0
+  engineVersion: 295.0.3
   forkId: ""
   forkVersion: ""
-  time: 11/11/2026 22:30:35
-  entityCount: 15309
+  time: 11/22/2026 18:31:48
+  entityCount: 15318
 maps:
 - 1
 grids:
@@ -347,11 +347,11 @@ entities:
           immutable: True
         - temperature: 293.15
           volume: 2500
-          moles: {}
-        - temperature: 293.15
-          volume: 2500
           moles:
             Nitrogen: 6666.982
+        - temperature: 293.15
+          volume: 2500
+          moles: {}
         - temperature: 293.15
           volume: 2500
           moles:
@@ -946,10 +946,10 @@ entities:
             0: 3549
           8,6:
             2: 4381
-            4: 34816
+            3: 34816
           8,7:
             2: 62737
-            4: 8
+            3: 8
           0,12:
             0: 13073
             2: 8
@@ -996,11 +996,11 @@ entities:
           11,2:
             0: 4351
             2: 8192
-            3: 32768
+            4: 32768
           11,3:
             0: 61713
             2: 34
-            3: 136
+            4: 136
           11,-1:
             0: 30583
           11,4:
@@ -1011,9 +1011,9 @@ entities:
             0: 28791
           12,2:
             0: 119
-            3: 28672
+            4: 28672
           12,3:
-            3: 119
+            4: 119
             0: 61440
           12,-1:
             0: 29311
@@ -1495,22 +1495,22 @@ entities:
           9,6:
             2: 15
             5: 8704
-            3: 34816
+            4: 34816
           9,7:
             2: 61440
             5: 2
-            3: 8
+            4: 8
           9,8:
             2: 61441
           10,5:
             0: 4095
           10,6:
             2: 15
-            3: 8704
+            4: 8704
             6: 34816
           10,7:
             2: 61440
-            3: 2
+            4: 2
             6: 8
           10,8:
             2: 13094
@@ -1519,10 +1519,10 @@ entities:
             0: 4095
           11,6:
             2: 15
-            3: 43520
+            4: 43520
           11,7:
             2: 61696
-            3: 10
+            4: 10
           12,5:
             0: 4095
           12,6:
@@ -1545,7 +1545,7 @@ entities:
           14,7:
             2: 29945
           14,4:
-            3: 61152
+            4: 61152
           15,6:
             2: 1141
           15,5:
@@ -63089,12 +63089,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -40.5,1.5
-  - uid: 9302
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -40.5,6.5
   - uid: 9303
     components:
     - type: Transform
@@ -68656,6 +68650,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.524162,8.456316
+  - uid: 15317
+    components:
+    - type: Transform
+      parent: 2
+      pos: 9.481892,1.4529485
 - proto: HandLabeler
   entities:
   - uid: 10331
@@ -70355,12 +70354,6 @@ entities:
         - - Pressed
           - Toggle
         618:
-        - - Pressed
-          - Toggle
-        12126:
-        - - Pressed
-          - Toggle
-        12127:
         - - Pressed
           - Toggle
     - type: Fixtures
@@ -72535,13 +72528,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -37.2917,-14.606816
-- proto: PhotoFilterPackFill
-  entities:
-  - uid: 5894
-    components:
-    - type: Transform
-      parent: 2
-      pos: -37.69795,-14.231816
 - proto: PianoInstrument
   entities:
   - uid: 10819
@@ -73008,13 +72994,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -31.076923,-22.397106
-- proto: PlushieRouny
-  entities:
-  - uid: 10890
-    components:
-    - type: Transform
-      parent: 2
-      pos: 34.579575,42.51338
 - proto: PlushieShadekin
   entities:
   - uid: 10891
@@ -73394,19 +73373,19 @@ entities:
       pos: 43.5,-26.5
     - type: Fixtures
       fixtures: {}
-  - uid: 10941
-    components:
-    - type: Transform
-      parent: 2
-      pos: -40.5,5.5
-    - type: Fixtures
-      fixtures: {}
   - uid: 10942
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -33.5,10.5
+    - type: Fixtures
+      fixtures: {}
+  - uid: 11642
+    components:
+    - type: Transform
+      parent: 2
+      pos: -41.5,3.5
     - type: Fixtures
       fixtures: {}
   - uid: 11873
@@ -76493,6 +76472,78 @@ entities:
     - type: Transform
       parent: 2
       pos: 32.645943,-3.4701073
+- proto: RadioHandheldStation
+  entities:
+  - uid: 12126
+    components:
+    - type: Transform
+      parent: 2
+      pos: -23.261456,-6.4606447
+    missingComponents:
+    - ActiveRadio
+  - uid: 12127
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.51709175,-6.5266323
+    missingComponents:
+    - ActiveRadio
+  - uid: 15310
+    components:
+    - type: Transform
+      parent: 2
+      pos: -20.08968,30.572666
+    missingComponents:
+    - ActiveRadio
+  - uid: 15311
+    components:
+    - type: Transform
+      parent: 2
+      pos: -20.37093,30.541416
+    missingComponents:
+    - ActiveRadio
+  - uid: 15312
+    components:
+    - type: Transform
+      parent: 2
+      pos: -0.5360756,25.493717
+    missingComponents:
+    - ActiveRadio
+  - uid: 15313
+    components:
+    - type: Transform
+      parent: 2
+      pos: 7.4814854,-8.459236
+    missingComponents:
+    - ActiveRadio
+  - uid: 15314
+    components:
+    - type: Transform
+      parent: 2
+      pos: 23.507212,-2.4525728
+    missingComponents:
+    - ActiveRadio
+  - uid: 15315
+    components:
+    - type: Transform
+      parent: 2
+      pos: 33.493702,-2.5434582
+    missingComponents:
+    - ActiveRadio
+  - uid: 15316
+    components:
+    - type: Transform
+      parent: 2
+      pos: 47.49282,1.4913435
+    missingComponents:
+    - ActiveRadio
+  - uid: 15318
+    components:
+    - type: Transform
+      parent: 2
+      pos: 18.490616,-39.503696
+    missingComponents:
+    - ActiveRadio
 - proto: RagItem
   entities:
   - uid: 11406
@@ -77297,6 +77348,7 @@ entities:
       parent: 2
       pos: -51.5,-9.5
     - type: RandomSpawner
+      rarePrototypes: []
       prototypes:
       - VendingMachineDiscount
       - VendingMachineSnack
@@ -77306,6 +77358,7 @@ entities:
       - VendingMachineSnackTeal
       - VendingMachineChang
       - VendingMachineDonut
+      gameRules: []
 - proto: RCD
   entities:
   - uid: 11549
@@ -77853,12 +77906,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -44.5,5.5
-  - uid: 11642
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -40.5,6.5
   - uid: 11643
     components:
     - type: Transform
@@ -80558,20 +80605,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 61.5,0.5
-- proto: ShuttersWindow
-  entities:
-  - uid: 12126
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -40.5,5.5
-  - uid: 12127
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -40.5,6.5
 - proto: ShuttersWindowOpen
   entities:
   - uid: 12128
@@ -81627,6 +81660,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -26.5,-7.5
+    - type: Fixtures
+      fixtures: {}
+  - uid: 10941
+    components:
+    - type: Transform
+      parent: 2
+      pos: -36.5,11.5
     - type: Fixtures
       fixtures: {}
   - uid: 15282
@@ -88455,6 +88495,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -7.5,26.5
+  - uid: 5894
+    components:
+    - type: Transform
+      parent: 2
+      pos: -40.5,6.5
   - uid: 9299
     components:
     - type: Transform
@@ -98217,6 +98262,16 @@ entities:
     - type: Transform
       parent: 2
       pos: -11.5,16.5
+  - uid: 9302
+    components:
+    - type: Transform
+      parent: 2
+      pos: -36.5,12.5
+  - uid: 10890
+    components:
+    - type: Transform
+      parent: 2
+      pos: -36.5,13.5
   - uid: 12789
     components:
     - type: Transform

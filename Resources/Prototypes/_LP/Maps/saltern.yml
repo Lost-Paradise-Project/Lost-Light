@@ -3,7 +3,7 @@
   mapName: 'Салтерн'
   mapPath: /Maps/_LP/Stations/LP_Saltern.yml
   minPlayers: 0
-  # maxPlayers: 40
+  # maxPlayers: 45
   stations:
     LP_StarlightSaltern:
       stationProto: StandardNanotrasenStation

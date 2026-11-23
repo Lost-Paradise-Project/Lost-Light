@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 290.0.0
+  engineVersion: 295.0.3
   forkId: ""
   forkVersion: ""
-  time: 11/11/2026 21:53:53
-  entityCount: 10284
+  time: 11/22/2026 17:19:56
+  entityCount: 10281
 maps:
 - 1
 grids:
@@ -25009,6 +25009,13 @@ entities:
         5847:
         - - MedicalScannerSender
           - MedicalScannerReceiver
+- proto: ComputerCommsBreakingNews
+  entities:
+  - uid: 2681
+    components:
+    - type: Transform
+      parent: 2
+      pos: -9.5,1.5
 - proto: ComputerCommsCargoFilled
   entities:
   - uid: 133
@@ -25340,11 +25347,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -15.5,14.5
-  - uid: 2681
-    components:
-    - type: Transform
-      parent: 2
-      pos: -9.5,1.5
 - proto: ComputerTechnologyDiskTerminal
   entities:
   - uid: 2682
@@ -49033,7 +49035,7 @@ entities:
       pos: 6.5,21.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -44928.758
+      secondsUntilStateChange: -45298.953
   - uid: 5666
     components:
     - type: Transform
@@ -51523,13 +51525,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -22.763432,-6.0922174
-- proto: PhotoFilterPackFill
-  entities:
-  - uid: 10280
-    components:
-    - type: Transform
-      parent: 2
-      pos: -23.373795,-6.106408
 - proto: PianoInstrument
   entities:
   - uid: 5896
@@ -51833,13 +51828,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 5.402574,1.6092111
-- proto: PlushieRouny
-  entities:
-  - uid: 5942
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.204371,-16.334824
 - proto: PlushieShadekin
   entities:
   - uid: 5943
@@ -62470,12 +62458,6 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -16.5,10.5
-  - uid: 7375
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -9.5,1.5
   - uid: 7376
     components:
     - type: Transform
