@@ -87,9 +87,6 @@ public sealed class DoAfterOverlay : Overlay
             if (xform.MapID != args.MapId)
                 continue;
 
-            if (!sprite.Visible) // ES, ported to Funky
-                continue;
-
             if (comp.DoAfters.Count == 0)
                 continue;
 

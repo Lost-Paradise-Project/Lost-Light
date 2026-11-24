@@ -8,7 +8,7 @@ autolog-mentor-mouse = Стал мышью ментора
 
 autolog-setgamemap = Карта принудительно задана: { $map }, админ: { $admin }
 autolog-setalertlevel = Уровень тревоги принудительно задан: { $level }, админ: { $admin } (заблокирован: { $locked })
-autolog-announce = { $admin } отправил объявление { $sender } Объявление: { $message }
+autolog-announce = { $admin } отправил объявление { $sender }: { $message }
 autolog-tippy = Отправлена подсказка { $message } с прототипом { $prototype }
 autolog-global-sound = Проигран глобальный звук { $path } на { $volume } дБ для { $count } игроков
 autolog-explosion = Создан взрыв { $type }, интенсивность { $intensity } (не более { $maxIntensity } на тайл), координаты: { $coords }

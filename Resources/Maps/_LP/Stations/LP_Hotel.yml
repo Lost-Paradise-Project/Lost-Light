@@ -57339,10 +57339,7 @@ entities:
     - type: Transform
       parent: 2
       pos: 22.5,-19.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: CrateEmergencyRadiation
   entities:
   - uid: 9245
@@ -69993,8 +69990,6 @@ entities:
       deviceLists:
       - 82
       - 83
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 2159.2978407
   - uid: 20750
     components:
     - type: Transform

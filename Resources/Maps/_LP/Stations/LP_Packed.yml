@@ -47261,10 +47261,7 @@ entities:
       parent: 2
       pos: 40.5,36.5
       anchored: True
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
     - type: Physics
       bodyType: Static
 - proto: CrateTechBoardRandom
@@ -96094,10 +96091,7 @@ entities:
     - type: Transform
       parent: 2
       pos: 41.5,33.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 14095
     components:
     - type: Transform

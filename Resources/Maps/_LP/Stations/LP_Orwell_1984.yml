@@ -78835,10 +78835,7 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -29.5,-4.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 13143
     components:
     - type: Transform
@@ -78885,10 +78882,7 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 20.5,20.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 13151
     components:
     - type: Transform
@@ -199665,10 +199659,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -6.3161383,3.3245654
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: WeaponEnergyTurretAI
   entities:
   - uid: 31576

@@ -68961,8 +68961,6 @@ entities:
       deviceLists:
       - 21941
       - 23362
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 14282.7523839
   - uid: 11247
     components:
     - type: Transform
@@ -70839,8 +70837,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 23420
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 7852.4588142
 - proto: Fireplace
   entities:
   - uid: 4984
@@ -113381,10 +113377,7 @@ entities:
     - type: Transform
       parent: 30
       pos: -38.5,11.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
     - type: EntityStorage
       air:
         temperature: 293.1496

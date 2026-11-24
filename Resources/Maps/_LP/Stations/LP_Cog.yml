@@ -84500,10 +84500,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -39.5,56.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 13146
     components:
     - type: Transform
@@ -84545,10 +84542,7 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 3.5,2.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: ComputerCriminalRecordsDesktop
   entities:
   - uid: 13153
@@ -86264,10 +86258,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -35.5,68.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: CrateServiceBureaucracy
   entities:
   - uid: 13413

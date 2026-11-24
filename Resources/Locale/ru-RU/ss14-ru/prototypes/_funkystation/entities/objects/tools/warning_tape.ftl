@@ -1,0 +1,10 @@
+ent-BaseWarningTape = { "" }
+    .desc = { "" }
+ent-WarningTapeEngineering = предупредительная лента
+    .desc = Полоса сигнальной ленты, предупреждающая не входить.
+ent-WarningTapeSecurity = лента службы безопасности
+    .desc = Полоса красной ленты с логотипом AEGIS Security Consolidated. Проходите мимо.
+ent-WarningTapeRollEngineering = рулон предупредительной ленты
+    .desc = Рулон жёлто-чёрной сигнальной ленты.
+ent-WarningTapeRollSecurity = рулон ленты службы безопасности
+    .desc = Рулон красной ленты с логотипом AEGIS Security Consolidated.

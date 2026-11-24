@@ -205,6 +205,8 @@ public sealed partial class ChatSystem : SharedChatSystem
             _chatManager.EnsurePlayer(player.UserId).AddEntity(GetNetEntity(source));
         }
 
+        var ttsFollowsText = message.Tts == null || message.Tts == message.Text; // LP edit
+
         if (desiredType == InGameICChatType.Speak && message.Text.StartsWith(LocalPrefix)) //Starlight
         {
             // prevent radios and remove prefix.
@@ -232,6 +234,8 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         message.Text = SanitizeInGameICMessage(source, message.Text, out var emoteStr, shouldCapitalize, shouldPunctuate, shouldCapitalizeTheWordI); //Starlight
         message.OriginalText = message.Text; // starlight
+        if (ttsFollowsText) // LP edit
+            message.Tts = message.Text; // LP edit
 
         // Was there an emote in the message? If so, send it.
         if (player != null && emoteStr != message.Text && emoteStr != null) // Starlight
@@ -605,7 +609,10 @@ public sealed partial class ChatSystem : SharedChatSystem
             return;
 
         var original = message.Text; // Starlight
+        var ttsFollowsText = message.Tts == null || message.Tts == message.Text; // LP edit
         message.Text = FormattedMessage.RemoveMarkupOrThrow(message.Text);
+        if (ttsFollowsText) // LP edit
+            message.Tts = message.Text; // LP edit
         message = TransformSpeech(source, message, language); // Starlight-edit: Languages, tts v5.0
         if (message.Text.Length == 0) // Starlight
             return;
@@ -986,9 +993,16 @@ public sealed partial class ChatSystem : SharedChatSystem
         if (!language.Speech.RequireSpeech) // Starlight
             return message; // Do not apply speech accents if there's no speech involved.
 
+        // LP edit start
+        // Пока акцент не задал отдельный текст для TTS, TTS берёт текст с акцентами
+        if (message.Tts == message.Text)
+            message.Tts = null;
+        // LP edit end
+
         var ev = new TransformSpeechEvent(sender, message);
         RaiseLocalEvent(sender, ev, true);
 
+        ev.Message.Tts ??= ev.Message.Text; // LP edit
         return ev.Message;// Starlight
     }
 

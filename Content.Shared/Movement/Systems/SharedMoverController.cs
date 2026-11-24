@@ -1,7 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
-using Content.Shared._ES.Viewcone;
-using Robust.Shared.Configuration; // Funky
 using Content.Shared.ActionBlocker;
 using Content.Shared.CCVar;
 using Content.Shared.Friction;
@@ -15,6 +13,7 @@ using Content.Shared.Shuttles.Components;
 using Content.Shared.Tag;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Configuration;
 using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -60,9 +59,6 @@ public abstract partial class SharedMoverController : VirtualController
     [Dependency] private   TagSystem _tags = default!;
     [Dependency] private   SharedActionsSystem _action = default!; //🌟Starlight🌟
     [Dependency] private   SharedChargesSystem _charges = default!; //🌟Starlight🌟
-    // ES START
-    [Dependency] private   ESViewconeEffectSystem _viewconeEffect = default!;
-    // ES END
 
     [Dependency] protected EntityQuery<CanMoveInAirComponent> CanMoveInAirQuery = default!;
     [Dependency] protected EntityQuery<FootstepModifierComponent> FootstepModifierQuery = default!;
@@ -82,10 +78,6 @@ public abstract partial class SharedMoverController : VirtualController
     [Dependency] protected EntityQuery<TransformComponent> XformQuery = default!;
 
     private static readonly ProtoId<TagPrototype> FootstepSoundTag = "FootstepSound";
-
-    // ES START
-    private static readonly EntProtoId ESFootstepViewconeEffect = "ESViewconeEffectFootstep";
-    // ES END
 
     private bool _relativeMovement;
     protected float _minDamping;
@@ -364,13 +356,9 @@ public abstract partial class SharedMoverController : VirtualController
                 _transform.SetLocalRotation(uid, xform.LocalRotation + wishDir.ToWorldAngle() - worldRot, xform);
             }
 
-            // ES START
-            // no footsteps on walk
             if (!weightless && MobMoverQuery.TryGetComponent(uid, out var mobMover) &&
-                mover.Sprinting && // LP edit - убран forceWalk
                 TryGetSound(weightless, uid, mover, mobMover, xform, out var sound, out var surfaceSound, tileDef: tileDef)) // Starlight-edit
             {
-                // ES END
                 var soundModifier = mover.Sprinting ? InputMoverComponent.SprintingSoundModifier : InputMoverComponent.WalkingSoundModifier;
 
                 var audioParams = sound.Params
@@ -392,10 +380,6 @@ public abstract partial class SharedMoverController : VirtualController
                 }
 
                 PlayFootstepLayers(uid, relaySource ?? uid, audioParams); // Starlight
-
-                // ES START
-                _viewconeEffect.SpawnEffect(uid, ESFootstepViewconeEffect, wishDir.ToWorldAngle());
-                // ES END
             }
         }
     }

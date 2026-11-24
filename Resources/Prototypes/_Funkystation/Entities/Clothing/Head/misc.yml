@@ -1,0 +1,7 @@
+- type: entity
+  parent: ClothingHeadHatCone
+  id: ClothingHeadHatConeFull
+  suffix: Full
+  components:
+  - type: Stack
+    count: 8

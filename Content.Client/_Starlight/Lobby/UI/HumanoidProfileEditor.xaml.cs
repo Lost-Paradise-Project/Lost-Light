@@ -340,6 +340,7 @@ namespace Content.Client._Starlight.Lobby.UI
             if (!disposing)
                 return;
 
+            _playerRoles.PlayerRolesChanged -= OnPlayerRolesChanged; // LP edit
         }
 
         protected override void EnteredTree()

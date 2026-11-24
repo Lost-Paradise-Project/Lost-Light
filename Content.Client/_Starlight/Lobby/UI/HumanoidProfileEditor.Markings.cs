@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Client.Administration.Managers;
 using Content.Shared.Humanoid;
 using Content.Shared._Starlight.Humanoid;
 
@@ -7,6 +8,7 @@ namespace Content.Client._Starlight.Lobby.UI;
 public sealed partial class HumanoidProfileEditor
 {
     private HumanoidBodyEditorBackend _bodyBackend = default!;
+    private INullLinkPlayerRolesManager _playerRoles = default!; // LP edit
 
     /// <summary>
     /// The body tab draws its own preview of the character, so the side preview hides while it's open.
@@ -28,6 +30,11 @@ public sealed partial class HumanoidProfileEditor
         };
         BodyTab.SetBackend(_bodyBackend);
 
+        // LP edit start - спонсорские маркинги: роли приходят с сервера позже, список доступных пересобирается
+        _playerRoles = IoCManager.Resolve<INullLinkPlayerRolesManager>();
+        _playerRoles.PlayerRolesChanged += OnPlayerRolesChanged;
+        // LP edit end
+
         // The species decides the whole body, so it comes first and is what the tab opens on.
         BodyTab.AddSection(Loc.GetString("body-editor-species"), SpeciesSection, leading: true);
         BodyTab.AddSection(Loc.GetString("humanoid-profile-editor-cybernetics-tab"), CyberneticsSection);
@@ -42,6 +49,11 @@ public sealed partial class HumanoidProfileEditor
             ReloadPreview();
         };
     }
+
+    // LP edit start
+    private void OnPlayerRolesChanged()
+        => _bodyBackend.Reload();
+    // LP edit end
 
     private void MoveSizeRows()
     {

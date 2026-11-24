@@ -51,3 +51,6 @@
 
 - type: Tag
   id: LaundryBag
+
+- type: Tag # LP edit - тег из forky#327, в источнике не объявлен
+  id: TapeRoll

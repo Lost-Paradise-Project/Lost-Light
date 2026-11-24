@@ -208,6 +208,7 @@
     - id: BlankPhotographBox # Starlight
     - id: PlushieLizardJobDetective
       prob: 0.02
+    - id: WarningTapeRollSecurity # funky
 
 - type: entity
   id: ClosetBombFilled

@@ -55416,10 +55416,7 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -3.5,-38.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 8171
     components:
     - type: Transform
@@ -66532,8 +66529,6 @@ entities:
       deviceLists:
       - 129
       - 130
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 1699.1983008
 - proto: Fireplace
   entities:
   - uid: 9809

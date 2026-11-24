@@ -22,6 +22,7 @@
     id: JanitorPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
+    pocket1: KeyRingJanitor # Goobstation
   #storage:
     #back:
     #- Stuff
@@ -35,6 +36,7 @@
     head: ClothingHeadHatWhiteCatEars #Starlight
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
+    pocket1: KeyRingJanitor # Goobstation
 
 - type: chameleonOutfit
   id: JanitorChameleonOutfit

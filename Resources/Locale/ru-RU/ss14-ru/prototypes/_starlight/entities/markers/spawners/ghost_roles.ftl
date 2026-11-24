@@ -28,3 +28,5 @@ ent-SpawnPointGhostCluwneBeast = точка появления роли приз
     .suffix = Клюн-зверь
 ent-SpawnPointGhostDroneRogue = спавнер роли призрака дрона-скраппера
     .desc = { ent-BaseAntagSpawner.desc }
+ent-SpawnPointGhostSyndicateListeningOp = точка появления роли призрака оперативника прослушки Синдиката
+    .desc = { ent-BaseAntagSpawner.desc }

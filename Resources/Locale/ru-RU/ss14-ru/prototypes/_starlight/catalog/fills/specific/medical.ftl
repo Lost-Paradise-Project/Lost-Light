@@ -22,3 +22,6 @@ ent-MedkitRoboticFilled = { ent-MedkitRobotic }
 ent-NukeOpRobotkit = { ent-RoboticNukeMedkit }
     .desc = { ent-RoboticNukeMedkit.desc }
     .suffix = Заполненный
+ent-MedkitCombatFilledAlternative = { ent-MedkitCombat }
+    .desc = { ent-MedkitCombat.desc }
+    .suffix = Заполненный, альт

@@ -171,3 +171,6 @@ ghost-role-information-spawn-point-ghost-cluwne-beast-rules = Вы — анта�
 ghost-role-information-bombroach-name = Бомботаракамоль
 ghost-role-information-bombroach-description = Вы — верный дрессированный вредитель оперативников Синдиката с пикобомбой. Служите хозяину до самой смерти!
 ghost-role-information-bombroach-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color] вместе с агентом, который вас призвал.
+
+ghost-role-information-syndicate-listening-op-name = Оперативник прослушки Синдиката
+ghost-role-information-syndicate-listening-op-description = Вы — опытный оперативник, мастер обмана и саботажа. Прослушивайте ближайшую станцию с помощью своего оборудования и помогайте агентам на борту получить нужные сведения и поддержку.
