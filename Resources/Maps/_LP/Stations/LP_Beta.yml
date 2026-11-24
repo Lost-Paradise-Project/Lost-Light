@@ -70872,8 +70872,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 16889
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 21106.6788933
   - uid: 21088
     components:
     - type: Transform
@@ -70884,8 +70882,6 @@ entities:
       deviceLists:
       - 3225
       - 3226
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 22031.3113019
 - proto: FirelockEdge
   entities:
   - uid: 690
@@ -70980,8 +70976,6 @@ entities:
       deviceLists:
       - 20954
       - 4465
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 18546.4814535
   - uid: 3985
     components:
     - type: Transform
@@ -71916,8 +71910,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 20866
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 12742.8872571
   - uid: 20912
     components:
     - type: Transform
@@ -71927,8 +71919,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 20866
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 12756.1872437
   - uid: 20952
     components:
     - type: Transform
@@ -71939,8 +71929,6 @@ entities:
       deviceLists:
       - 20954
       - 4465
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 18545.8147875
   - uid: 20953
     components:
     - type: Transform
@@ -71950,8 +71938,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 20954
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 18533.0148003
 - proto: FirelockElectronics
   entities:
   - uid: 14971
@@ -72042,8 +72028,6 @@ entities:
       deviceLists:
       - 16889
       - 16885
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 21113.9455527
   - uid: 386
     components:
     - type: Transform
@@ -72239,8 +72223,6 @@ entities:
       - 20954
       - 18870
       - 4465
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 5197.5948024
   - uid: 2885
     components:
     - type: Transform
@@ -72263,8 +72245,6 @@ entities:
       - 20954
       - 18870
       - 4465
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 5198.5948013
   - uid: 3230
     components:
     - type: Transform

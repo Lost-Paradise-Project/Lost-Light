@@ -1,4 +1,3 @@
-using Content.Shared._ES.Viewcone.Components;
 using Content.Shared._Starlight.Medical.Body.Events;
 using Content.Shared.Damage.Events;
 using Content.Shared.Damage.Systems;
@@ -40,9 +39,6 @@ public sealed partial class StatusEffectsSystem
 
         SubscribeLocalEvent<StatusEffectContainerComponent, BleedModifierEvent>(RefRelayStatusEffectEvent);
         SubscribeLocalEvent<StatusEffectContainerComponent, DamageModifyEvent>(RelayStatusEffectEvent);
-        // ES START
-        SubscribeLocalEvent<StatusEffectContainerComponent, ESViewconeGetAngleModifierEvent>(RelayStatusEffectEvent);
-        // ES END
     }
 
     private void RefRelayStatusEffectEvent<T>(EntityUid uid, StatusEffectContainerComponent component, ref T args) where T : struct

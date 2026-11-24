@@ -37552,19 +37552,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -1.5,8.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 5860
     components:
     - type: Transform
       parent: 2
       pos: 8.5,30.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 5861
     components:
     - type: Transform
@@ -37578,10 +37572,7 @@ entities:
     - type: Transform
       parent: 2
       pos: 11.5,-45.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 5863
     components:
     - type: Transform
@@ -39260,19 +39251,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -6.5,17.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 6106
     components:
     - type: Transform
       parent: 2
       pos: -5.5,17.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: DeskBell
   entities:
   - uid: 6107
@@ -44326,8 +44311,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 15260
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 5995.6273377
 - proto: FirelockEdge
   entities:
   - uid: 6898
@@ -70842,10 +70825,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -13.5,13.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
 - proto: LockerSurgeonFilled
   entities:
   - uid: 10108
@@ -82217,10 +82196,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -14.5,13.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
     - type: StockLimitedProcessing
       processingListings: {}
 - proto: SmartFridge

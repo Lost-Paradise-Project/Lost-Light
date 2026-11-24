@@ -85,3 +85,4 @@ loadout-tab-pick-role = Выберите роль слева, чтобы изм�
 loadout-tab-search = Поиск предметов
 loadout-tab-antags = Антагонисты
 loadout-tab-species = Расы
+loadout-tab-folder-tooltip = Похожих на { $item } предметов: { $count }. Нажмите, чтобы показать все.

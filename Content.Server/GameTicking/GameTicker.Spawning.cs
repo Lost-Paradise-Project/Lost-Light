@@ -7,6 +7,7 @@ using Content.Server.GameTicking.Events;
 using Content.Server.Polymorph.Systems;
 using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
+using Content.Shared._LP.Sponsors;
 using Content.Shared.Antag;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
@@ -304,7 +305,7 @@ namespace Content.Server.GameTicking
                     var speciesPrototypes = _prototypeManager.EnumeratePrototypes<SpeciesPrototype>();
                     foreach (var proto in speciesPrototypes)
                     {
-                        if (proto.RoundStart)
+                        if (proto.RoundStart && RolesRestrictions.IsAllowed(proto.RolesRequirement, player)) // LP edit - спонсорские расы
                             roundStart.Add(proto.ID);
                     }
 
@@ -316,9 +317,16 @@ namespace Content.Server.GameTicking
                 {
                     var weights = _prototypeManager.Index<WeightedRandomSpeciesPrototype>(weightId);
                     speciesId = weights.Pick(_robustRandom);
+
+                    // LP edit start - спонсорские расы
+                    if (_prototypeManager.TryIndex<SpeciesPrototype>(speciesId, out var picked)
+                        && !RolesRestrictions.IsAllowed(picked.RolesRequirement, player))
+                        speciesId = SharedHumanoidAppearanceSystem.DefaultSpecies;
+                    // LP edit end
                 }
 
                 character = HumanoidCharacterProfile.RandomWithSpecies(speciesId);
+                RolesRestrictions.FilterAppearance(character.Appearance, player); // LP edit - спонсорские маркинги
             }
 
             // We raise this event to allow other systems to handle spawning this player themselves. (e.g. late-join wizard, etc)

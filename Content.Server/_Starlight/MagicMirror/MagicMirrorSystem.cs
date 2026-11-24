@@ -1,6 +1,7 @@
 using System.Linq;
 using Content.Server.DoAfter;
 using Content.Server.Humanoid;
+using Content.Shared._LP.Sponsors;
 using Content.Shared._Starlight.MagicMirror;
 using Content.Shared.DoAfter;
 using Content.Shared.Humanoid;
@@ -12,6 +13,7 @@ using Content.Shared.MagicMirror;
 using Content.Shared.Popups;
 using Content.Shared.Tag;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server._Starlight.MagicMirror;
@@ -129,6 +131,12 @@ public sealed partial class MagicMirrorSystem : SharedMagicMirrorSystem
             default:
                 return;
         }
+
+        // LP edit start - спонсорские маркинги: клиент показывает их по ролям того, кто держит зеркало
+        if (_markings.Markings.TryGetValue(args.Marking, out var markingProto)
+            && !RolesRestrictions.IsAllowed(markingProto, CompOrNull<ActorComponent>(args.User)?.PlayerSession))
+            return;
+        // LP edit end
 
         _humanoid.SetMarkingId(component.Target.Value, category, args.Slot, args.Marking);
 
@@ -370,7 +378,7 @@ public sealed partial class MagicMirrorSystem : SharedMagicMirrorSystem
                 return;
         }
 
-        var marking = _markings.MarkingsByCategoryAndSpecies(category, humanoid.Species).Keys.FirstOrDefault();
+        var marking = RolesRestrictions.FilterMarkings(_markings.MarkingsByCategoryAndSpecies(category, humanoid.Species), CompOrNull<ActorComponent>(args.User)?.PlayerSession).Keys.FirstOrDefault(); // LP edit - спонсорские маркинги
 
         if (string.IsNullOrEmpty(marking))
             return;

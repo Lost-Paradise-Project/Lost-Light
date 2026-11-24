@@ -207,6 +207,9 @@ uplink-lead-chemistry-vial-name = Пробирка со свинцом
 uplink-lead-chemistry-vial-desc = Небольшая пробирка, содержащая 15 единиц свинца.
 # Funky end
 
+uplink-combat-medkit-alt-name = Альтернативная боевая аптечка
+uplink-combat-medkit-alt-desc = Аптечка, в которой вместо обычного набора лежат пластыри и таблетки.
+
 uplink-boxcutter-syndi-name = Химический канцелярский нож
 uplink-boxcutter-syndi-desc = Канцелярский нож со специальными желобками, в которые помещается до 10 единиц химикатов.
 

@@ -143,8 +143,6 @@
   - type: HideLayerClothing
     layers:
       Hair: HEAD
-  - type: ESViewconeModifier # Funky
-    angleModifier: -35
 
 #Bombsuit Helmet
 - type: entity
@@ -172,8 +170,6 @@
     layers:
       Hair: HEAD
       Snout: HEAD
-  - type: ESViewconeModifier # Funky
-    angleModifier: -90
 # Starlight
   - type: Tag
     tags:
@@ -261,8 +257,6 @@
   - type: HideLayerClothing
     layers:
       Hair: HEAD
-  - type: ESViewconeModifier # Funky
-    angleModifier: -90
 
 #Thunderdome Helmet
 - type: entity
@@ -324,8 +318,6 @@
     layers:
       Hair: HEAD
       Snout: HEAD
-  - type: ESViewconeModifier # Funky
-    angleModifier: -90
 
 #Atmos Fire Helmet
 - type: entity
@@ -359,8 +351,6 @@
       Hair: HEAD
       Snout: HEAD
   - type: BreathMask
-  - type: ESViewconeModifier # Funky
-    angleModifier: -90
   - type: PointLight # Starlight
     color: "#a1f7f7" # Starlight
 

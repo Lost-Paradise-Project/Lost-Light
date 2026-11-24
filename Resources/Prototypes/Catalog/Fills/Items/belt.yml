@@ -29,6 +29,7 @@
         - id: Wirecutter
         - id: Welder
         - id: Multitool
+        - id: WarningTapeRollEngineering # Funky
 
 - type: entity
   id: ClothingBeltChiefEngineerFilled
@@ -47,6 +48,7 @@
         - id: GasAnalyzer
         - id: trayScanner
         - id: AccessConfigurator # Starlight-edit
+        - id: WarningTapeRollEngineering # Funky
 
 - type: entityTable
   id: BeltSecurityEntityTable
@@ -57,6 +59,7 @@
       amount: 2
     - id: HoloprojectorSecurity
     - id: RadioHandheldSecurity
+    - id: WarningTapeRollSecurity # Funky
 
 - type: entity
   id: ClothingBeltSecurityFilled

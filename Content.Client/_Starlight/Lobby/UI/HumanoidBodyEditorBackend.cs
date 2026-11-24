@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Shared._LP.Sponsors;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
@@ -34,7 +35,8 @@ public sealed class HumanoidBodyEditorBackend : IBodyEditorBackend
         ],
         [
             MarkingCategories.Chest, MarkingCategories.Tail, MarkingCategories.TailExtras,
-            MarkingCategories.BodyCover, MarkingCategories.BodyCoverCover, MarkingCategories.Overlay
+            MarkingCategories.BodyCover, MarkingCategories.BodyCoverCover, MarkingCategories.Overlay,
+            MarkingCategories.Special
         ],
         [
             new("head", "body-editor-part-head",
@@ -171,18 +173,18 @@ public sealed class HumanoidBodyEditorBackend : IBodyEditorBackend
         if (_profile == null)
             return [];
 
-        var category = group.Id switch
+        MarkingCategories? found = group.Id switch
         {
             HairGroup => MarkingCategories.Hair,
             FacialHairGroup => MarkingCategories.FacialHair,
-            _ => TryParseGroup(group, out _, out var parsed) ? parsed : MarkingCategories.Special,
+            _ => TryParseGroup(group, out _, out var parsed) ? parsed : null,
         };
-        if (category == MarkingCategories.Special)
+        if (found is not { } category)
             return [];
 
         var onlyWhitelisted = _points.TryGetValue(category, out var points) && points.OnlyWhitelisted;
         var def = _defs.GetValueOrDefault(group.Id.Split('|')[0]);
-        return [.. _markings.MarkingsByCategoryAndSpeciesAndSex(category, _profile.Species, _profile.Sex).Values
+        return [.. RolesRestrictions.FilterMarkingsForLocal(_markings.MarkingsByCategoryAndSpeciesAndSex(category, _profile.Species, _profile.Sex)).Values // LP edit - спонсорские маркинги
             .Where(m => !onlyWhitelisted || m.SpeciesRestrictions?.Contains(_profile.Species) == true)
             .Where(m => def == null || def.Categories.Length > 1 || def.Layers.Contains(m.BodyPart))
             .OrderBy(m => Loc.GetString($"marking-{m.ID}"))];

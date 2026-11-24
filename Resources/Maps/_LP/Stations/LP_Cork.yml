@@ -25116,10 +25116,7 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -15.5,13.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 2656
     components:
     - type: Transform
@@ -25683,10 +25680,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -11.5,16.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: CrateEmergencyInternals
   entities:
   - uid: 2736
@@ -25847,10 +25841,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -11.5,19.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: CrateServiceGuidebooks
   entities:
   - uid: 2760
@@ -50260,10 +50251,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -7.5,12.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 5784
     components:
     - type: Transform
@@ -60838,19 +60826,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -9.5,14.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
   - uid: 7145
     components:
     - type: Transform
       parent: 2
       pos: -10.5,14.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: SurveillanceCameraAssembly
   entities:
   - uid: 7146
@@ -63814,10 +63796,7 @@ entities:
     - type: Transform
       parent: 2
       pos: -6.5,12.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Security
-      - - Cadet
+
 - proto: VendingMachineSeeds
   entities:
   - uid: 7490

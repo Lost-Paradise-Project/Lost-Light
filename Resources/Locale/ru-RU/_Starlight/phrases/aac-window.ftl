@@ -1,0 +1,3 @@
+aac-window-search-placeholder = Искать фразы, группы или вкладки...
+aac-window-search-tab = Поиск
+aac-window-search-no-results = Ничего не найдено по запросу «{ $query }»

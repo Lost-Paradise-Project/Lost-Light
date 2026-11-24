@@ -22,7 +22,6 @@
         layer:
         - MobLayer
   - type: FloorOcclusion
-  - type: ESViewconeOccludable
   - type: ComplexInteraction
   - type: MobState
   - type: Pullable

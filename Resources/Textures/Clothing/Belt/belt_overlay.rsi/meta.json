@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/dc89ef0239830774bd3d9d7d6c8da2856da2b869, wetfloorsign, wire_brush, plunger, golden_plunger and cleaner_grenade by AndrewFenriz (github), wetfloorsign, wire_brush, plunger, golden_plunger and cleaner_grenade by AndrewFenriz (github)",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/dc89ef0239830774bd3d9d7d6c8da2856da2b869, wetfloorsign, wire_brush, plunger, golden_plunger and cleaner_grenade by AndrewFenriz (github), wetfloorsign, wire_brush, plunger, golden_plunger and cleaner_grenade by AndrewFenriz (github), keyring by SolsticeOfTheWinter for Goobstation",
   "size": {
     "x": 32,
     "y": 32
@@ -170,6 +170,9 @@
       "name": "wrench_medical"
     },
     {
+      "name": "keyring"
+    },
+    {
       "name": "syn_jaws"
     },
     {
@@ -225,6 +228,10 @@
     },
     {
       "name": "tray-equipped-BELT",
+      "directions": 4
+    },
+    {
+      "name": "keyring-equipped-BELT",
       "directions": 4
     },
     {

@@ -1,4 +1,3 @@
-using Content.Shared._Funkystation.Viewcone; // Funky
 using Content.Shared.MouseRotator;
 using Content.Shared.Movement.Components;
 using Robust.Shared.Audio;
@@ -47,8 +46,6 @@ namespace Content.Shared.CombatMode
         ///     to entities with this flag enabled that enter combat mode, and vice versa for removal.
         /// </summary>
         [DataField, AutoNetworkedField]
-        // Funky, added access
-        [Access(typeof(SharedCombatModeSystem), typeof(ViewconeAlwaysFaceCursorSystem))]
         public bool ToggleMouseRotator = true;
     }
 }

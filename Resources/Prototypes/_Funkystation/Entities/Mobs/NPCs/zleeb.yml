@@ -108,7 +108,6 @@
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepHoverXenoborg
-  - type: ESViewconeOccludable
   - type: Mech
     baseState: ship
     openState: ship
