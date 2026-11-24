@@ -9,41 +9,21 @@
     "states": [
         {
             "name": "icon",
-            "copyright": "Romero/Littlemen"
+            "copyright": "Sprited by MegaDaimond"
         },
         {
             "name": "icon-flash",
-            "copyright": "Romero/Littlemen"
+            "copyright": "Sprited by MegaDaimond"
         },
         {
             "name": "off-equipped-HELMET",
             "directions": 4,
-            "copyright": "Romero/Littlemen"
+            "copyright": "Sprited by MegaDaimond"
         },
         {
             "name": "on-equipped-HELMET",
             "directions": 4,
-            "copyright": "Romero/Littlemen"
-        },
-        {
-            "name": "off-equipped-HELMET-reptilian",
-            "directions": 4,
-            "copyright": "Romero/Littlemen"
-        },
-        {
-            "name": "on-equipped-HELMET-reptilian",
-            "directions": 4,
-            "copyright": "Romero/Littlemen"
-        },
-        {
-            "name": "off-equipped-HELMET-avali",
-            "directions": 4,
-            "copyright": "Romero/Littlemen"
-        },
-        {
-            "name": "on-equipped-HELMET-avali",
-            "directions": 4,
-            "copyright": "Romero/Littlemen"
+            "copyright": "Sprited by MegaDaimond"
         }
     ]
 }

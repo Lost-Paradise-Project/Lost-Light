@@ -8,12 +8,13 @@
     },
     "states": [
         {
-            "name": "icon"
+            "name": "icon",
+            "copyright": "sprited by MegaDaimond"
         },
         {
             "name": "equipped-OUTERCLOTHING",
             "directions": 4,
-            "copyright": "TGstation at commit https://github.com/tgstation/tgstation/commit/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a"
+            "copyright": "sprited by MegaDaimond"
         },
         {
             "name": "equipped-OUTERCLOTHING-monkey",
@@ -21,24 +22,9 @@
             "copyright": "Made by brainfood1183 (github)"
         },
         {
-            "name": "equipped-OUTERCLOTHING-reptilian",
-            "directions": 4,
-            "copyright": "Made by kuro(388673708753027083)"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-avali",
-            "directions": 4,
-            "copyright": "Made by DocMoth (Github)"
-        },
-        {
             "name": "equipped-OUTERCLOTHING-dog",
             "directions": 4,
             "copyright": "Made by Sparlight (GitHub)"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-vox",
-            "directions": 4,
-            "copyright": "Made by Pastres (GitHub)"
         },
         {
             "name": "inhand-left",
@@ -49,11 +35,6 @@
             "name": "inhand-right",
             "directions": 4,
             "copyright": "TGstation at commit https://github.com/tgstation/tgstation/commit/40d89d11ea4a5cb81d61dc1018b46f4e7d32c62a"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-resomi",
-            "directions": 4,
-            "copyright": "Made by svarshiksatanist (Discord)"
         }
     ]
 }

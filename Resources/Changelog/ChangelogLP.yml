@@ -426,4 +426,18 @@ Entries:
   id: 61
   time: '2026-11-23T16:40:08.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/97
+- author: MegaDaimond
+  changes:
+  - message: Изменены спрайты скафандров Старлайта.
+    type: Tweak
+  id: 62
+  time: '2026-11-24T19:15:53.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/99
+- author: MegaDaimond
+  changes:
+  - message: Исправлены хвосты унатхов.
+    type: Fix
+  id: 63
+  time: '2026-11-24T19:15:53.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/99
 Order: -3

@@ -28,10 +28,6 @@
             "directions": 4
         },
         {
-            "name": "equipped-head-reptilian",
-            "directions": 4
-        },
-        {
             "name": "equipped-head-vox",
             "directions": 4
         },
@@ -40,19 +36,7 @@
             "directions": 4
         },
         {
-            "name": "equipped-head-avali",
-            "directions": 4
-        },
-        {
             "name": "equipped-head-light",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-light-dog",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-light-reptilian",
             "directions": 4
         },
         {
@@ -60,11 +44,11 @@
             "directions": 4
         },
         {
-            "name": "equipped-head-light-vulpkanin",
+            "name": "equipped-head-light-dog",
             "directions": 4
         },
         {
-            "name": "equipped-head-light-avali",
+            "name": "equipped-head-light-vulpkanin",
             "directions": 4
         },
         {
@@ -72,23 +56,15 @@
             "directions": 4
         },
         {
-            "name": "equipped-head-unshaded-dog",
-            "directions": 4
-        },
-        {
-            "name": "equipped-head-unshaded-reptilian",
-            "directions": 4
-        },
-        {
             "name": "equipped-head-unshaded-vox",
             "directions": 4
         },
         {
-            "name": "equipped-head-unshaded-vulpkanin",
+            "name": "equipped-head-unshaded-dog",
             "directions": 4
         },
         {
-            "name": "equipped-head-unshaded-avali",
+            "name": "equipped-head-unshaded-vulpkanin",
             "directions": 4
         }
     ]

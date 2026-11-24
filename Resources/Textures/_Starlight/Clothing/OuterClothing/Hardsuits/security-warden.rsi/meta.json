@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Sprited by ItsAbby for Starlight. Avali state by DocMoth. Tail sprites by Tiniest Shark (github). Resomi state created by Huaqas (GitHub). Dog state by Swonkus (Github). Edits by Conflee",
+    "copyright": "Sprited by ItsAbby for Starlight. Dog state by Swonkus (Github). Edits by Conflee and resprited by MegaDaimond",
     "size": {
         "x": 32,
         "y": 32
@@ -9,32 +9,12 @@
     "states": [
         {
             "name": "icon",
-            "copyright": "ItsAbby"
+            "copyright": "ItsAbby, resprited by MegaDaimond"
         },
         {
             "name": "equipped-OUTERCLOTHING",
             "directions": 4,
-            "copyright": "ItsAbby"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-vox",
-            "directions": 4,
-            "copyright": "ItsAbby"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-reptilian",
-            "directions": 4,
-            "copyright": "Conflee, Tiniest Shark"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-resomi",
-            "directions": 4,
-            "copyright": "Conflee, Huaqas"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-avali",
-            "directions": 4,
-            "copyright": "DocMoth"
+            "copyright": "ItsAbby, resprited by MegaDaimond"
         },
         {
             "name": "equipped-OUTERCLOTHING-dog",
