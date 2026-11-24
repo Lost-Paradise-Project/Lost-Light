@@ -3,47 +3,15 @@
   components:
   - type: ToggleableVisuals
     clothingVisuals:
-      head:
-        - state: equipped-head-light
-          shader: unshaded
-      # head-vox:
-      #   - state: equipped-head-light-vox
-      #     shader: unshaded
-      # head-vulpkanin:
-      #   - state: equipped-head-light-vulpkanin
-      #     shader: unshaded
-      # head-reptilian:
-      #   - state: equipped-head-light-reptilian
-      #     shader: unshaded
-      # head-dog:
-      #   - state: equipped-head-light-dog
-      #     shader: unshaded
-      # head-avali:
-      #   - state: equipped-head-light-avali
-      #     shader: unshaded
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-dog: !Remove
+      head-avali: !Remove
   - type: Clothing
     clothingVisuals:
-      head:
-        - state: equipped-head
-        - state: equipped-head-unshaded
-          shader: unshaded
-      # head-vox:
-      #   - state: equipped-head-vox
-      #   - state: equipped-head-unshaded-vox
-      #     shader: unshaded
-      # head-vulpkanin:
-      #   - state: equipped-head-vulpkanin
-      #   - state: equipped-head-unshaded-vulpkanin
-      #     shader: unshaded
-      # head-reptilian:
-      #   - state: equipped-head-reptilian
-      #   - state: equipped-head-unshaded-reptilian
-      #     shader: unshaded
-      # head-dog:
-      #   - state: equipped-head-dog
-      #   - state: equipped-head-unshaded-dog
-      #     shader: unshaded
-      # head-avali:
-      #   - state: equipped-head-avali
-      #   - state: equipped-head-unshaded-avali
-      #     shader: unshaded
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-dog: !Remove
+      head-avali: !Remove
