@@ -27,8 +27,6 @@ ignored_variable_mismatch_paths:
 - "Resources/Locale/ru-RU/chat/managers/chat-manager.ftl"
 # В русском притяжательное ("his tail") не нужно, $entity в части эмоций не используется
 - "Resources/Locale/ru-RU/chat/emotes.ftl"
-# Чтоб бот не докапывался к нормальным переводам
-- "Resources/Locale/ru-RU/ss14-ru/prototypes/_starlight/entities/structures/storage/canisters/gas_canisters.ftl"
 no_translate_tokens: # Вырезаются целыми словами, регистр не важен
 # Название сервера
 - "Lost Paradise"
