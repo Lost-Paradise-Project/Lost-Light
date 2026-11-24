@@ -9,17 +9,12 @@
     "states": [
         {
             "name": "icon",
-            "copyright": "Romero/Littlemen"
+            "copyright": "Romero/Littlemen, resprited by MegaDaimond"
         },
         {
             "name": "equipped-OUTERCLOTHING",
             "directions": 4,
-            "copyright": "Romero/Littlemen"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-reptilian",
-            "directions": 4,
-            "copyright": "Romero/Littlemen"
+            "copyright": "Romero/Littlemen, resprited by MegaDaimond"
         },
         {
             "name": "inhand-left",
@@ -28,11 +23,6 @@
         },
         {
             "name": "inhand-right",
-            "directions": 4,
-            "copyright": "Romero/Littlemen"
-        },
-        {
-            "name": "equipped-OUTERCLOTHING-avali",
             "directions": 4,
             "copyright": "Romero/Littlemen"
         }

@@ -1,0 +1,49 @@
+- type: !PartialOnly entity
+  id: ClothingHeadHelmetHardsuitAdvancedMining
+  components:
+  - type: ToggleableVisuals
+    clothingVisuals:
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-dog: !Remove
+      head-avali: !Remove
+  - type: Clothing
+    clothingVisuals:
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-dog: !Remove
+      head-avali: !Remove
+
+- type: !PartialOnly entity
+  id: ClothingHeadHelmetHardsuitMining
+  components:
+  - type: ToggleableVisuals
+    clothingVisuals:
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-avali: !Remove
+  - type: Clothing
+    clothingVisuals:
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-avali: !Remove
+
+- type: !PartialOnly entity
+  id: ClothingHeadHelmetHardsuitSpatioLead
+  components:
+  - type: ToggleableVisuals
+    clothingVisuals:
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-avali: !Remove
+  - type: Clothing
+    clothingVisuals:
+      head-vox: !Remove
+      head-vulpkanin: !Remove
+      head-reptilian: !Remove
+      head-avali: !Remove
