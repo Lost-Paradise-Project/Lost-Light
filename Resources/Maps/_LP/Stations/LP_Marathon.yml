@@ -12262,9 +12262,6 @@ entities:
     - type: Transform
       parent: 30
       pos: 34.5,45.5
-    - type: Door
-      state: Opening
-      secondsUntilStateChange: -159030.8
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -69135,8 +69132,6 @@ entities:
       deviceLists:
       - 24904
       - 23420
-    - type: FirelockBoltControl
-      lastManualInteractionTime: 7630.6257027
 - proto: FirelockEdge
   entities:
   - uid: 596
@@ -113569,7 +113564,10 @@ entities:
     - type: Transform
       parent: 30
       pos: -38.5,11.5
-
+    - type: AccessReader
+      accessListsOriginal:
+      - - Security
+      - - Cadet
     - type: EntityStorage
       air:
         temperature: 293.1496
