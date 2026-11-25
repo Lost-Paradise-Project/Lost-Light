@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "State based in copyright",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "business-sloppy",
+            "directions": 4,
+            "copyright": "s3ph1ra (discord)"
+        }
+    ]
+}

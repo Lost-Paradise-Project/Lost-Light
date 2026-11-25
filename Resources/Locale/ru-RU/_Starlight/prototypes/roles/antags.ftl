@@ -1,4 +1,4 @@
-roles-antag-terminator-name = истребитель
+roles-antag-terminator-name = терминатор
 roles-antag-terminator-objective = Ликвидируйте цель любой ценой, от этого зависит будущее.
 
 roles-antag-pirate-objective = Вы член экипажа пиратского судна. Выполняйте приказы своего капитана и грабьте что можете.
