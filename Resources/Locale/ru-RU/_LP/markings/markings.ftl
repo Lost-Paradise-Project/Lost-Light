@@ -332,3 +332,4 @@ marking-HeadSeptum = Септим
 marking-TattooBigEyes = Большие глаза
 marking-TattooBigEyeLeft = Большие глаза (левый)
 marking-TattooBigEyeRight = Большие глаза (правый)
+marking-LPPHumanHairBusinessSloppy = Деловая небрежная

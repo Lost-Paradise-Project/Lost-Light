@@ -1,0 +1,166 @@
+########## WIZARD ##########
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsAir
+  icon:
+    sprite: &normalCanister _Starlight/Structures/Storage/canister.rsi
+    state: air
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsOxygen
+  icon:
+    sprite: *normalCanister
+    state: oxygen
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsLiquidOxygen
+  icon:
+    sprite: *normalCanister
+    state: l_oxygen
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsNitrogen
+  icon:
+    sprite: *normalCanister
+    state: nitrogen
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsLiquidNitrogen
+  icon:
+    sprite: *normalCanister
+    state: l_nitrogen
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsCarbonDioxide
+  icon:
+    sprite: *normalCanister
+    state: carbon
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsLiquidCarbonDioxide
+  icon:
+    sprite: *normalCanister
+    state: carbon
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsStorage
+  icon:
+    sprite: *normalCanister
+    state: storage
+
+#- type: cargoProduct
+#  id: AtmosphericsWaterVapor
+#  icon:
+#    sprite: Structures/Storage/canister.rsi
+#    state: water_vapor
+#  product: WaterVaporCanister
+#  cost: 2600
+#  category: cargoproduct-category-name-atmospherics
+#  group: market
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsPlasma
+  icon:
+    sprite: *normalCanister
+    state: plasma
+
+#- type: cargoProduct
+#  id: AtmosphericsTritium
+#  icon:
+#    sprite: Structures/Storage/canister.rsi
+#    state: green
+#  product: TritiumCanister
+#  cost: 15500
+#  category: cargoproduct-category-name-atmospherics
+#  group: market
+
+########## STARLIGHT ##########
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsWaterVapor
+  icon:
+    sprite: *normalCanister
+    state: water_vapor
+
+# Bulk gases BEGIN
+
+## Oxygen
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsOxygenBulk
+  icon:
+    sprite: *normalCanister
+    state: oxygen
+
+## Oxygen (Liquid)
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsOxygenLiquidBulk
+  icon:
+    sprite: *normalCanister
+    state: oxygen
+
+## Nitrogen
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsNitrogenBulk
+  name: cargo-product-gas-nitrogen
+  icon:
+    sprite: *normalCanister
+    state: nitrogen
+
+## Nitrogen (Liquid)
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsNitrogenLiquidBulk
+  icon:
+    sprite: *normalCanister
+    state: nitrogen
+
+## Carbon Dioxide
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsCarbonDioxideBulk
+  icon:
+    sprite: *normalCanister
+    state: carbon
+
+## Carbon Dioxide (Liquid)
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsCarbonDioxideLiquidBulk
+  icon:
+    sprite: *normalCanister
+    state: carbon
+
+## Water Vapor
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsWaterVaporBulk
+  icon:
+    sprite: *normalCanister
+    state: water_vapor
+
+## Plasma
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsPlasmaBulk
+  icon:
+    sprite: *normalCanister
+    state: plasma
+
+## Plasma (Liquid)
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsPlasmaLiquidBulk
+  icon:
+    sprite: *normalCanister
+    state: plasma
+
+## BZ
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsBZBulk
+  icon:
+    sprite: *normalCanister
+    state: bz
+
+# Bulk gases END
+
+########## FunkyStation ##########
+
+- type: !PartialOnly cargoProduct
+  id: AtmosphericsBZ
+  icon:
+    sprite: *normalCanister
+    state: bz

@@ -1,55 +1,55 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "State based Copyright",
+    "copyright": "State based copyright",
     "size": {
-        "x": 64,
-        "y": 64
+        "x": 32,
+        "y": 32
     },
     "states": [
         {
             "name": "air",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "air_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "ammonia",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "ammonia_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "anti_noblium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "anti_noblium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "bounty",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Made by Vermidia"
         },
         {
             "name": "bz",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "bz_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "can-connector",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "can-o0",
-            "copyright": "Created by Conf (Starlight)",
+            "copyright": "Taken from tg station ss13",
             "delays": [
                 [
                     0.2,
@@ -59,239 +59,239 @@
         },
         {
             "name": "can-o1",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "can-o2",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "can-o3",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "can-oa1",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "can-open",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "captains_paper",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Made by Vermidia"
         },
         {
             "name": "carbon",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "carbon_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "freezon",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "modified from tgstation"
         },
         {
             "name": "freezon_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "modified from tgstation"
         },
         {
             "name": "gray",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "gray_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "halon",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "halon_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "healium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "healium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "helium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "helium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "hydrogen",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "hydrogen_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "hyper_noblium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "hyper_noblium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "invoice",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Made by Vermidia"
         },
         {
             "name": "locked",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "l_nitrogen",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "l_nitrogen_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "l_oxygen",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "l_oxygen_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "nitrium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "nitrium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "nitrogen",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "nitrogen_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "nitrous_oxide",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "nitrous_oxide_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "oxygen",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "oxygen_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "paper",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Made by Vermidia"
         },
         {
             "name": "plasma",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "plasma_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "pluoxium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "pluoxium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "proto_nitrate",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "proto_nitrate_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "rainbow",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "rainbow_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "storage",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "storage_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "tritium",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "tritium_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "unlocked",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "water_vapor",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "water_vapor_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13"
         },
         {
             "name": "ulnitranium",
-            "copyright": "Created by Conf (Starlight), modified into ulnitranium by wonderfulnewworld (GitHub)"
+            "copyright": "Created by Conf (Starlight), modified into ulnitranium by wonderfulnewworld (GitHub), modified by SanitarDurkovic (github)"
         },
         {
             "name": "ulnitranium_broken",
-            "copyright": "Created by Conf (Starlight), modified into ulnitranium by wonderfulnewworld (GitHub)"
+            "copyright": "Created by Conf (Starlight), modified into ulnitranium by wonderfulnewworld (GitHub), modified by SanitarDurkovic (github)"
         },
         {
             "name": "zauker",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "zauker_broken",
-            "copyright": "Created by Conf (Starlight)"
+            "copyright": "Taken from tg station ss13, modified by SanitarDurkovic (github)"
         },
         {
             "name": "zxa",
-            "copyright": "Created by Conf (Starlight), modified into ZXA by wonderfulnewworld (GitHub)"
+            "copyright": "Created by Conf (Starlight), modified into ZXA by wonderfulnewworld (GitHub), modified by SanitarDurkovic (github)"
         },
         {
             "name": "zxa_broken",
-            "copyright": "Created by Conf (Starlight), modified into ZXA by wonderfulnewworld (GitHub)"
+            "copyright": "Created by Conf (Starlight), modified into ZXA by wonderfulnewworld (GitHub), modified by SanitarDurkovic (github)"
         },
         {
             "name": "HoseAttachment",
-            "copyright": "Made by AegisShield (Discord: aegis_shield) for Starlight"
+            "copyright": "Made by AegisShield (Discord: aegis_shield) for Starlight, modified by SanitarDurkovic (github)"
         }
     ]
 }

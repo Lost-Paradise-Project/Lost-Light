@@ -10,12 +10,12 @@
         {
             "name": "offline",
             "directions": 1,
-            "copyright": "Taken From TG Station"
+            "copyright": "Taken From TG Station, rusified by SanitarDurkovic (github)"
         },
         {
             "name": "unshaded",
             "directions": 1,
-            "copyright": "Taken From TG Station"
+            "copyright": "Taken From TG Station, rusified by SanitarDurkovic (github)"
         }
     ]
 }

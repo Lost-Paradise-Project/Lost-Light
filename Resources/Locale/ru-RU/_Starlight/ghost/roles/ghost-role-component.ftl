@@ -93,7 +93,7 @@ ghost-role-information-survivor-rules = Вы [color={ role-type-survivor-aligned
 
 ghost-role-information-slime-sentience-potion-description = Разумным сделан силой зелья разума. Не волнуйтесь, вы можете двигаться и говорить!
 
-ghost-role-information-terminator-name = Истребитель
+ghost-role-information-terminator-name = Терминатор
 ghost-role-information-terminator-description = Вы ходячий автомат, одетый в марионетку из плоти. Уничтожьте свою цель с крайним предубеждением.
 ghost-role-information-terminator-rules = Вы — [color={ role-type-team-antagonist-color }][bold]{ role-type-team-antagonist-name }[/bold][/color]. Вы должны выполнять свои цели. Вы не должны применять силу к посторонним целям, если только они не мешают вам выполнять ваши цели. У вас нет воспоминаний о вашей прошлой жизни.
 
