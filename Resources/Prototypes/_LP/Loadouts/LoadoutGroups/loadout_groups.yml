@@ -383,3 +383,20 @@
   - LPClothingUnderSocksBlue
   - LPClothingUnderSocksMime
   - LPClothingUnderSocksPink
+
+- type: loadoutGroup
+  id: LPPHosSidearm
+  name: loadout-group-hos-sidearm
+  loadouts:
+  - LPPHOSPeacemaker
+  - LPPSecurityHOSSnub
+  - LPPSecurityHOSVolcanicPistol
+
+- type: loadoutGroup
+  id: LPPDutyOficerSidearm
+  name: loadout-group-dutyofficer-sidearm
+  minLimit: 1
+  defaultSelected: 1
+  hidden: true
+  loadouts:
+  - LPPDutyOficerSidearm

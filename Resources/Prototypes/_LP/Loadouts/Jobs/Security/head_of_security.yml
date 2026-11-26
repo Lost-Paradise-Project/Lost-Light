@@ -17,3 +17,28 @@
   id: LPPHOSCloakFur
   equipment:
     neck: ClothingNeckCloakHosFur
+
+# Sidearm Options
+- type: loadout
+  id: LPPHOSPeacemaker
+  dummyEntity: LPPWeaponRevolverPeacemaker
+  storage:
+    back:
+      - LPPWeaponRevolverPeacemaker
+      - SpeedLoaderMagnumSP
+
+- type: loadout
+  id: LPPSecurityHOSSnub
+  dummyEntity: WeaponRevolverSnub
+  storage:
+    back:
+      - WeaponRevolverSnub
+      - SpeedLoaderMagnumSP
+
+- type: loadout
+  id: LPPSecurityHOSVolcanicPistol
+  dummyEntity: LPPWeaponVolcanicPistol
+  storage:
+    back:
+      - LPPWeaponVolcanicPistol
+      - StripperclipSpecial

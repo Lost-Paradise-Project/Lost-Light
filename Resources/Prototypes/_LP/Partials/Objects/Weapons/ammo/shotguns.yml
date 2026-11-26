@@ -1,0 +1,25 @@
+- type: !PartialOnly entity
+  id: ShellShotgunSlug
+  components:
+  - type: Tag
+    tags:
+    - ShellShotgun
+    - LPPShellShotgunrifled
+
+- type: !PartialOnly entity
+  id: ShellShotgunBeanbag
+  components:
+  - type: Tag
+    tags:
+    - LPPShellShotgunrifled
+    - ShellShotgun
+    - ShellShotgunLight
+
+- type: !PartialOnly entity
+  id: ShellTranquilizer
+  components:
+  - type: Tag
+    tags:
+    - LPPShellShotgunrifled
+    - ShellShotgun
+    - ShellShotgunLight

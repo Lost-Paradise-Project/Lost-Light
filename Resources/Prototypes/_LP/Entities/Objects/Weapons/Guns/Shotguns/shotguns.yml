@@ -1,6 +1,6 @@
 - type: entity
   name: TBS-2s "Boomstick"
-  parent: [BaseWeaponShotgun, BaseGunWieldable]
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSyndicateContraband]
   id: LPPWeaponShotgunTBS2S
   description: A pump action shotgun that uses two tubes for ammo storaging, uses .50 ammo.
   components:
@@ -18,3 +18,31 @@
   - type: GunRequiresWield
   - type: FiringPinHolder
     supportedPins: [ Rifle, GunUpgrade ]
+
+- type: entity
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
+  id: LPPWeaponShotgunOrder
+  name: Order
+  description: An obscure modification of the Enforcer, fitted with rifled barrel. Great for those who needs to calm down some prisoners. Uses only bullet-like 12 gauge ammo. # Starlight
+  components:
+  - type: Sprite
+    sprite: _LP/Objects/Weapons/Guns/Shotguns/Order.rsi
+  - type: Clothing
+    sprite: _LP/Objects/Weapons/Guns/Shotguns/Order.rsi
+  - type: Item
+    sprite: _LP/Objects/Weapons/Guns/Shotguns/Order.rsi
+    shape:
+    - 0,0,3,0 # smaller than BaseShotgun by 1 tile
+  - type: BallisticAmmoProvider
+    capacity: 6
+    proto: ShellShotgunBeanbag
+    whitelist:
+      tags:
+        - LPPShellShotgunrifled
+  - type: GunRequiresWield
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/hushpup.ogg
+    fireRate: 2
+  - type: GunSpreadModifier
+    spread: 1.1
