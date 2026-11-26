@@ -213,7 +213,7 @@
   name: Volcanic pistol
   parent: [BaseWeaponSniper, BaseSecurityContraband, BaseCommandContraband, BaseContrabandTier3]
   id: LPPWeaponVolcanicPistol
-  description: Realy ancient pistol design brought back to life by 
+  description: Realy ancient pistol design brought back to life by
   components:
   - type: BallisticAmmoProvider
     capacity: 10
