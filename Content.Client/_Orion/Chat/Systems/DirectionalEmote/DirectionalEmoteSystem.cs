@@ -1,5 +1,6 @@
 using Content.Shared._Orion.Chat.Components;
 using Content.Shared.CCVar;
+using Content.Shared.Ghost;
 using Content.Shared.Verbs;
 using Robust.Client.UserInterface;
 using Robust.Shared.Configuration;
@@ -38,7 +39,9 @@ public sealed partial class DirectionalEmoteSystem : EntitySystem
     private void OnGetVerbs(EntityUid uid, DirectionalEmoteTargetComponent component, GetVerbsEvent<Verb> args)
     {
         if (args.Target == args.User ||
-            !HasComp<DirectionalEmoteTargetComponent>(args.User))
+            !HasComp<DirectionalEmoteTargetComponent>(args.User) ||
+            HasComp<GhostComponent>(args.User) || // LP edit
+            HasComp<GhostComponent>(args.Target)) // LP edit
             return;
 
         var source = GetNetEntity(args.User);

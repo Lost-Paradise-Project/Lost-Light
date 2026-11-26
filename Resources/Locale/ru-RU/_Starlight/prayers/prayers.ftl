@@ -1,0 +1,3 @@
+prayer-chat-notify-medtak = МЕДТАК
+
+prayer-popup-notify-medtak-sent = Вы оставили голосовое сообщение Верховному командованию МедТак...

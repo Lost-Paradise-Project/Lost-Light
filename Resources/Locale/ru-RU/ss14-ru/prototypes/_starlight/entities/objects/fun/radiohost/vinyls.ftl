@@ -200,3 +200,5 @@ ent-VinylHeartloose = винил: Heartloose
     .desc = Романтическая рок-баллада, идеальная для конца света. Автор: hermitsabee
 ent-VinylPlasmaflare = винил: Plasmaflare
     .desc = Напряжённый джаз-фьюжн с синтетическими гитарами и утечками газа. Автор: hermitsabee
+ent-VinylWelcomeToSS14 = винил: Добро пожаловать в SS14
+    .desc = Музыка о видеоигре. Автор: Alice

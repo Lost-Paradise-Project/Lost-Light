@@ -3,7 +3,7 @@
   mapName: 'Пакет'
   mapPath: /Maps/_LP/Stations/LP_Packed.yml
   minPlayers: 0
-  maxPlayers: 35
+  maxPlayers: 45
   stations:
     LP_StarlightPacked:
       stationProto: StandardNanotrasenStation

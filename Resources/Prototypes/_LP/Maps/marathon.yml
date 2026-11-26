@@ -93,6 +93,7 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             RadioHost: [ 1, 1 ] # Ведущий радио Шансон
+            Reporter: [ 1, 2 ]
             ServiceWorker: [ 2, 2 ]
             Assistant: [ -1, -1 ]
 
