@@ -1,6 +1,6 @@
-ent-WeaponTurretPointDefenseMachineCircuitboard = плата станка батареи точечной обороны
-    .desc = Печатная плата станка для батареи точечной обороны.
+ent-WeaponTurretPointDefenseMachineCircuitboard = турель точечной обороны (машинная плата)
+    .desc = Печатная плата турели точечной обороны.
     .suffix = { ent-BaseMachineCircuitboard.suffix }
 ent-WeaponEnergyTurretSiliconMachineCircuitboard = { ent-WeaponEnergyTurretStationMachineCircuitboardBase }
     .desc = { ent-WeaponEnergyTurretStationMachineCircuitboardBase.desc }
-    .suffix = Кремний
+    .suffix = Киборг
