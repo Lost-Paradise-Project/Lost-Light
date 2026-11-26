@@ -1,0 +1,8 @@
+- type: loadout
+  id: LPPDutyOficerSidearm
+  dummyEntity: LPPWeaponShotgunOrder
+  storage:
+    back:
+      - LPPWeaponShotgunOrder
+      - SpeedLoaderShotgunBeanbag
+      - SpeedLoaderShotgunSlug

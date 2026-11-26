@@ -216,7 +216,7 @@
 
 - type: entity
   name: N1912 experimental
-  parent: [BaseWeaponPistol, BaseGunWieldable BaseSecurityContraband]
+  parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: LPPWeaponPistolN1912Experimental
   description:
     Experimental model of N1912, this pistol have full auto mod and detachable magazine. Can use high capacity mags. Uses .35 auto.

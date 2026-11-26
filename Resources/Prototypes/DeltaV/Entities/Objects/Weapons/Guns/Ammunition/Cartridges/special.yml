@@ -132,3 +132,56 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"
+
+
+- type: entity
+  parent: [ BaseItem, BaseSecurityContraband ]
+  id: StripperclipSpecial
+  name: "stripper clip (.38 special SP)"
+  description: A stripper clip pre-loaded with .38 special rounds.
+  components:
+  - type: Tag
+    tags:
+    - SpeedLoaderSpecial
+  - type: SpeedLoader
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    fillDelay: 0.1
+    whitelist:
+      tags:
+      - CartridgeSpecial
+    capacity: 10
+    proto: CartridgeSpecialSP
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Ammunition/SpeedLoaders/SpecialClip/special_speed_loader.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-5
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: StripperclipSpecial
+  id: StripperclipSpecialEmpty
+  name: "speed loader (.38 special any)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: Null
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/LightRifle/light_rifle_speed_loader.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-5
+      map: ["enum.GunVisualLayers.Mag"]

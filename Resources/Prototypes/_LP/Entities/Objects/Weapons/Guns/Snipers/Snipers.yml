@@ -220,9 +220,9 @@
     proto: CartridgeSpecialSP
     whitelist:
       tags:
-        - CartridgeMagnum
+        - CartridgeSpecial
     soundRack:
-      path: /Audio/_Starlight/Weapons/Guns/Cock/cycle_bolt.ogg
+      path: /Audio/_LP/Weapons/Guns/Bolt/lever_action.ogg
       params:
         variation: 0.146
   - type: Gun
@@ -231,34 +231,9 @@
       params:
         variation: 0.246
     pump: true
-    fireRate: 1
+    fireRate: 2
   - type: Sprite
-    sprite: _LP\Objects\Weapons\Guns\Snipers\volcanic.rsi
-    layers:
-    - state: base
-    - state: base1
-      map: [ "enum.SolutionContainerLayers.Fill" ]
-      visible: false
+    sprite: _LP/Objects/Weapons/Guns/Snipers/volcanic.rsi
   - type: Appearance
-  - type: SolutionContainerVisuals
-    maxFillLevels: 1
-    fillBaseName: base
-    inHandsFillBaseName: -fill-
-    inHandsMaxFillLevels: 1
-    equippedFillBaseName: -fill-
-    equippedMaxFillLevels: 1
-  - type: MeleeWeapon
-    wideAnimationRotation: -135
-    damage:
-      types:
-        Piercing: 12
-    angle: 0
-    animation: WeaponArcThrust
-    soundHit:
-      path: /Audio/Weapons/bladeslice.ogg
   - type: StaticPrice
     price: 500
-  - type: CursorOffsetRequiresWield
-  - type: EyeCursorOffset
-    maxOffset: 2
-    pvsIncrease: 0.1
