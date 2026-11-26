@@ -96,7 +96,7 @@ public sealed partial class TapeRollSystem : EntitySystem
         var userMap = _transform.GetMapCoordinates(args.User);
         var clickMap = _transform.ToMapCoordinates(args.ClickLocation);
 
-        if (userMap.MapId != clickMap.MapId || (userMap.Position - clickMap.Position).Length() > 1.0f)
+        if (userMap.MapId != clickMap.MapId || (userMap.Position - clickMap.Position).Length() > SharedInteractionSystem.InteractionRange) // LP edit - обычная досягаемость вместо 1 тайла
             return;
 
         var roll = ent.Comp;

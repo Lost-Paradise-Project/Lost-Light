@@ -5,6 +5,7 @@ construction-recipe-comfy-chair-blue = удобное кресло (синее)
 construction-recipe-comfy-chair-green = удобное кресло (зелёное)
 construction-recipe-comfy-chair-red = удобное кресло (красное)
 construction-recipe-comfy-chair-brown = удобное кресло (коричневое)
+construction-recipe-comfy-chair-xeno = удобное кресло (ксено)
 
 # Chairs
 construction-recipe-evac-seat = эвакуационное кресло
@@ -55,36 +56,6 @@ construction-recipe-pew-mid = деревянная церковная скамь
 construction-recipe-pew-right = деревянная церковная скамья (правая)
 
 ## Sofas
-construction-recipe-sofa-gray-corner = диван (серый, угловой)
-construction-recipe-sofa-gray-left = диван (серый, левый край)
-construction-recipe-sofa-gray-right = диван (серый, правый край)
-construction-recipe-sofa-gray-mid = диван (серый, середина)
-
-construction-recipe-sofa-white-corner = диван (белый, угловой)
-construction-recipe-sofa-white-left = диван (белый, левый край)
-construction-recipe-sofa-white-right = диван (белый, правый край)
-construction-recipe-sofa-white-mid = диван (белый, середина)
-
-construction-recipe-sofa-blue-corner = диван (синий, угловой)
-construction-recipe-sofa-blue-left = диван (синий, левый край)
-construction-recipe-sofa-blue-right = диван (синий, правый край)
-construction-recipe-sofa-blue-mid = диван (синий, середина)
-
-construction-recipe-sofa-red-corner = диван (красный, угловой)
-construction-recipe-sofa-red-left = диван (красный, левый край)
-construction-recipe-sofa-red-right = диван (красный, правый край)
-construction-recipe-sofa-red-mid = диван (красный, середина)
-
-construction-recipe-sofa-green-corner = диван (зелёный, угловой)
-construction-recipe-sofa-green-left = диван (зелёный, левый край)
-construction-recipe-sofa-green-right = диван (зелёный, правый край)
-construction-recipe-sofa-green-mid = диван (зелёный, середина)
-
-construction-recipe-sofa-brown-corner = диван (коричневый, угловой)
-construction-recipe-sofa-brown-left = диван (коричневый, левый край)
-construction-recipe-sofa-brown-right = диван (коричневый, правый край)
-construction-recipe-sofa-brown-mid = диван (коричневый, середина)
-
 construction-recipe-sofa-fancy-left = шикарный диван (левый)
 construction-recipe-sofa-fancy-right = шикарный диван (правый)
 construction-recipe-sofa-fancy-mid = шикарный диван (средний)
@@ -101,6 +72,9 @@ construction-recipe-counter-retro-steel-wood = ретро-стойка стал�
 construction-recipe-counter-retro-white-orange = ретро-стойка бело-оранжевая
 construction-recipe-counter-retro-white-teal = ретро-стойка бело-бирюзовая
 construction-recipe-counter-retro-diner = ретро-стойка закусочной
+
+## Xeno Sofa
+
 
 ## Froggy Chair
 construction-recipe-froggy-chair = лягушачий стул

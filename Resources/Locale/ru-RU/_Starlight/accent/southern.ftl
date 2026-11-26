@@ -1,17 +1,17 @@
 accent-southern-words-1 = вы все
-accent-southern-words-replace-1 = вы, хлопцы
+accent-southern-words-replace-1 = вы, братцы
 
-accent-southern-words-2 = вы ребята
-accent-southern-words-replace-2 = вы, хлопцы
+accent-southern-words-2 = ребята
+accent-southern-words-replace-2 = братцы
 
-accent-southern-words-3 = не является
-accent-southern-words-replace-3 = нема
+accent-southern-words-3 = нет
+accent-southern-words-replace-3 = не-а
 
-accent-southern-words-4 = это не
-accent-southern-words-replace-4 = нема
+accent-southern-words-4 = да
+accent-southern-words-replace-4 = ага
 
-accent-southern-words-5 = не являются
-accent-southern-words-replace-5 = нема
+accent-southern-words-5 = привет
+accent-southern-words-replace-5 = здорово
 
-accent-southern-words-6 = не есть
-accent-southern-words-replace-6 = нема
+accent-southern-words-6 = очень
+accent-southern-words-replace-6 = чертовски

@@ -5,6 +5,7 @@ using Content.Shared.CCVar;
 using Content.Shared.Chat;
 using Content.Shared.Database;
 using Content.Shared.Examine;
+using Content.Shared.Ghost;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
@@ -39,7 +40,9 @@ public sealed partial class DirectionalEmoteSystem : EntitySystem
             !TryComp<ActorComponent>(source, out var sourceActor) ||
             !TryComp<ActorComponent>(target, out var targetActor) ||
             !TryComp<DirectionalEmoteTargetComponent>(source, out var directEmote) ||
-            !HasComp<DirectionalEmoteTargetComponent>(target))
+            !HasComp<DirectionalEmoteTargetComponent>(target) ||
+            HasComp<GhostComponent>(source) || // LP edit
+            HasComp<GhostComponent>(target)) // LP edit
             return;
 
         var curTime = _gameTiming.CurTime;

@@ -32,8 +32,17 @@ public sealed class TapeVisualsOverlay(IEntityManager entManager, IPrototypeMana
             var posA = xformSystem.ToMapCoordinates(xform.Coordinates).Position;
             var posB = xformSystem.ToMapCoordinates(visuals.End).Position;
 
-            // LP edit start - отсечение лент вне экрана по всему отрезку, а не по точке начала
-            if (!IsSegmentVisible(args.WorldAABB, posA, posB))
+            // LP edit start - отсечение лент вне экрана по всему нарисованному отрезку, а не по точке начала
+            var diff = posB - posA;
+            var length = diff.Length();
+            var drawnEnd = posB;
+            if (length > 0.01f)
+            {
+                var drawnLength = visuals.TileCount * visuals.ContentRegion.Width / EyeManager.PixelsPerMeter;
+                drawnEnd = posA + diff / length * drawnLength;
+            }
+
+            if (!IsSegmentVisible(args.WorldAABB, posA, drawnEnd))
                 continue;
             // LP edit end
 
