@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 290.0.0
+  engineVersion: 295.0.3
   forkId: ""
   forkVersion: ""
-  time: 11/16/2026 14:46:45
-  entityCount: 21966
+  time: 11/22/2026 18:38:38
+  entityCount: 21977
 maps:
 - 1
 grids:
@@ -54543,7 +54543,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 14.284214,-12.742802
+      pos: 14.4805,-13.314803
 - proto: ClothingNeckStethoscope
   entities:
   - uid: 3322
@@ -55185,6 +55185,14 @@ entities:
     - type: Transform
       parent: 2
       pos: 20.5,9.5
+- proto: ComputerCommsBreakingNews
+  entities:
+  - uid: 20863
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 14.5,-12.5
 - proto: ComputerCommsFilled
   entities:
   - uid: 230
@@ -55568,16 +55576,16 @@ entities:
       pos: 21.5,4.5
 - proto: ComputerTelevisionCircuitboard
   entities:
-  - uid: 20276
+  - uid: 21967
     components:
     - type: Transform
       parent: 2
-      pos: 14.383061,-13.352899
-  - uid: 20277
+      pos: 13.308625,-16.255917
+  - uid: 21968
     components:
     - type: Transform
       parent: 2
-      pos: 14.226811,-13.118524
+      pos: 13.683625,-16.349667
 - proto: ConveyorBelt
   entities:
   - uid: 7489
@@ -68213,16 +68221,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 45.5,12.5
-  - uid: 21048
-    components:
-    - type: Transform
-      parent: 2
-      pos: 35.5,34.5
-  - uid: 21049
-    components:
-    - type: Transform
-      parent: 2
-      pos: 35.5,33.5
 - proto: ESSpawnerRandomPeriodicalsContraband
   entities:
   - uid: 21050
@@ -68672,13 +68670,11 @@ entities:
       pos: -14.5,-39.5
     - type: FaxMachine
       name: Юридический департамент
-  - uid: 20278
+  - uid: 21049
     components:
     - type: Transform
       parent: 2
-      pos: 14.5,-12.5
-    - type: FaxMachine
-      name: Репортёр
+      pos: 16.5,-11.5
 - proto: FaxMachineCaptain
   entities:
   - uid: 7350
@@ -104204,6 +104200,16 @@ entities:
     - type: Transform
       parent: 2
       pos: 34.45458,43.436893
+  - uid: 21975
+    components:
+    - type: Transform
+      parent: 2
+      pos: -37.69285,34.467113
+  - uid: 21976
+    components:
+    - type: Transform
+      parent: 2
+      pos: -37.333473,34.45149
 - proto: HandheldHealthAnalyzer
   entities:
   - uid: 16236
@@ -104885,6 +104891,13 @@ entities:
     - type: Transform
       parent: 2
       pos: 33.51256,-11.431443
+- proto: HoloReporterPin
+  entities:
+  - uid: 5731
+    components:
+    - type: Transform
+      parent: 2
+      pos: 14.168,-13.408553
 - proto: HonkCoFlippo
   entities:
   - uid: 20790
@@ -111660,13 +111673,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 16.575401,-13.468837
-- proto: PhotoFilterPackFill
-  entities:
-  - uid: 16733
-    components:
-    - type: Transform
-      parent: 2
-      pos: 14.689583,-12.986103
 - proto: PianoInstrument
   entities:
   - uid: 951
@@ -116157,6 +116163,99 @@ entities:
     - type: Transform
       parent: 2
       pos: -14.44252,4.609347
+- proto: RadioHandheldStation
+  entities:
+  - uid: 5689
+    components:
+    - type: Transform
+      parent: 2
+      pos: 42.625343,-30.293398
+    missingComponents:
+    - ActiveRadio
+  - uid: 15977
+    components:
+    - type: Transform
+      parent: 2
+      pos: 42.45347,-30.527773
+    missingComponents:
+    - ActiveRadio
+  - uid: 16733
+    components:
+    - type: Transform
+      parent: 2
+      pos: 42.39097,-30.230898
+    missingComponents:
+    - ActiveRadio
+  - uid: 20276
+    components:
+    - type: Transform
+      parent: 2
+      pos: -41.6616,35.64992
+    missingComponents:
+    - ActiveRadio
+  - uid: 20955
+    components:
+    - type: Transform
+      parent: 2
+      pos: 14.296787,-12.419556
+    missingComponents:
+    - ActiveRadio
+  - uid: 21048
+    components:
+    - type: Transform
+      parent: 2
+      pos: 5.5026026,5.3871846
+    missingComponents:
+    - ActiveRadio
+  - uid: 21969
+    components:
+    - type: Transform
+      parent: 2
+      pos: -19.761396,-23.353388
+    missingComponents:
+    - ActiveRadio
+  - uid: 21970
+    components:
+    - type: Transform
+      parent: 2
+      pos: 17.523926,8.953625
+    missingComponents:
+    - ActiveRadio
+  - uid: 21971
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.321346,7.0838413
+    missingComponents:
+    - ActiveRadio
+  - uid: 21972
+    components:
+    - type: Transform
+      parent: 2
+      pos: -35.26681,25.372864
+    missingComponents:
+    - ActiveRadio
+  - uid: 21973
+    components:
+    - type: Transform
+      parent: 2
+      pos: 51.799202,24.56653
+    missingComponents:
+    - ActiveRadio
+  - uid: 21974
+    components:
+    - type: Transform
+      parent: 2
+      pos: 38.724506,0.4693532
+    missingComponents:
+    - ActiveRadio
+  - uid: 21977
+    components:
+    - type: Transform
+      parent: 2
+      pos: -41.31785,35.52492
+    missingComponents:
+    - ActiveRadio
 - proto: RagItem
   entities:
   - uid: 3329
@@ -124183,7 +124282,7 @@ entities:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
-      pos: 36.5,22.5
+      pos: 36.4,22.5
     - type: SignalTimer
       delay: 3
     - type: DeviceLinkSource
@@ -130142,16 +130241,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 21.5,-14.5
-  - uid: 20863
-    components:
-    - type: Transform
-      parent: 2
-      pos: 42.5,-30.5
-  - uid: 20955
-    components:
-    - type: Transform
-      parent: 2
-      pos: -41.5,35.5
 - proto: StationRadioRig
   entities:
   - uid: 20846
@@ -131917,11 +132006,11 @@ entities:
       - SurveillanceCameraSupply
 - proto: SurveillanceCameraWirelessRouterEntertainment
   entities:
-  - uid: 15977
+  - uid: 20278
     components:
     - type: Transform
       parent: 2
-      pos: 16.5,-11.5
+      pos: 13.5,-16.5
 - proto: SurveillanceWirelessCameraAnchoredEntertainment
   entities:
   - uid: 1174
@@ -131930,12 +132019,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 14.5,-16.5
-  - uid: 5731
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 13.5,-16.5
   - uid: 21679
     components:
     - type: Transform
@@ -133997,12 +134080,6 @@ entities:
     - type: Transform
       parent: 2
       pos: 1.5,-15.5
-  - uid: 5689
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 14.5,-12.5
   - uid: 6161
     components:
     - type: Transform
@@ -134321,6 +134398,11 @@ entities:
     - type: Transform
       parent: 2
       pos: 43.5,-31.5
+  - uid: 20277
+    components:
+    - type: Transform
+      parent: 2
+      pos: 16.5,-11.5
   - uid: 20334
     components:
     - type: Transform
