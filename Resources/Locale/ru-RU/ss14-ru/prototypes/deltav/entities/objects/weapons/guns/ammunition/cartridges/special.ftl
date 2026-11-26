@@ -16,3 +16,7 @@ ent-CartridgeSpecialIncendiary = патрон (.38 специальные заж
     .desc = { ent-BaseCartridgeSpecial.desc }
 ent-CartridgeSpecialUranium = патрон (.38 специальные урановые)
     .desc = { ent-BaseCartridgeSpecial.desc }
+ent-StripperclipSpecial = обойма (.38 специальные SP)
+    .desc = Обойма под патроны .38 специальные.
+ent-StripperclipSpecialEmpty = обойма (.38 специальные любые)
+    .desc = { ent-StripperclipSpecial.desc }

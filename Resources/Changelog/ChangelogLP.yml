@@ -475,4 +475,11 @@ Entries:
   id: 68
   time: '2026-11-25T16:27:38.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/100
+- author: MegaDaimond
+  changes:
+  - message: Добавлено табельное оружие для ГСБ и дежурного офицера.
+    type: Add
+  id: 69
+  time: '2026-11-26T16:39:54.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/115
 Order: -3

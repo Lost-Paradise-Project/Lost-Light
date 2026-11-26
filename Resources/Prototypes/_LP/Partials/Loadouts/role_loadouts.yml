@@ -1,0 +1,9 @@
+- type:  !PartialOnly roleLoadout
+  id: JobHeadOfSecurity
+  groups:
+  - LPPHosSidearm
+
+- type:  !PartialOnly roleLoadout
+  id: JobDutyOfficer
+  groups:
+  - LPPDutyOficerSidearm
