@@ -482,4 +482,18 @@ Entries:
   id: 69
   time: '2026-11-26T16:39:54.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/115
+- author: SanitarDurkovic
+  changes:
+  - message: Изменены карты.
+    type: Tweak
+  id: 70
+  time: '2026-11-27T10:52:58.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/120
+- author: SanitarDurkovic
+  changes:
+  - message: Исправлены переводы.
+    type: Fix
+  id: 71
+  time: '2026-11-27T10:52:58.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/120
 Order: -3

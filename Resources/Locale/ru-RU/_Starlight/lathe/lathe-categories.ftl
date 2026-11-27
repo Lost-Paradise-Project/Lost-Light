@@ -15,5 +15,5 @@ lathe-category-conclusions-and-decisions = Заключения и решени�
 lathe-category-error = Оͬ͌̔̄̀Ш̫̼̈ͭͧͅИ̣̩̰̳Б̥̜̥̇͊̿͆̍̚̕К̫̽̍̋ͫ́͛͑А̛̼̚
 lathe-category-communication = Связь
 
-lathe-category-silicon = Кремний
+lathe-category-silicon = Силиконы
 lathe-category-eyewear = Очки

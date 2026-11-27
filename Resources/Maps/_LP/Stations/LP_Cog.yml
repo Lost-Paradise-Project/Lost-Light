@@ -4,8 +4,8 @@ meta:
   engineVersion: 295.0.3
   forkId: ""
   forkVersion: ""
-  time: 11/25/2026 13:37:03
-  entityCount: 33331
+  time: 11/26/2026 16:17:33
+  entityCount: 33470
 maps:
 - 1
 grids:
@@ -597,6 +597,17 @@ entities:
             angle: 4.71238898038469 rad
           decals:
             8723: 57,7
+        - node:
+            id: ArrowsGreyscale
+            color: '#FF0000FF'
+          decals:
+            11760: -49.998856,-24.282421
+        - node:
+            id: ArrowsGreyscale
+            color: '#FF0000FF'
+            angle: 3.141592653589793 rad
+          decals:
+            11761: -49.032253,-25.940187
         - node:
             id: Basalt1
             color: '#FFFFFFFF'
@@ -4069,7 +4080,6 @@ entities:
             3765: -49,-36
             3766: -45,-30
             3767: -44,-28
-            3768: -49,-26
             3769: -48,-25
             3770: -45,-25
             3771: -45,-27
@@ -5030,8 +5040,6 @@ entities:
             id: FullTileOverlayGreyscale
             color: '#52B4E9FF'
           decals:
-            146: -49,-26
-            147: -49,-22
             148: -47,-23
         - node:
             id: FullTileOverlayGreyscale
@@ -5175,9 +5183,7 @@ entities:
             id: FullTileOverlayGreyscale
             color: '#DE3A3AFF'
           decals:
-            143: -49,-28
             144: -46,-23
-            145: -49,-24
         - node:
             id: FullTileOverlayGreyscale
             color: '#EFB34196'
@@ -9080,7 +9086,6 @@ entities:
             0: -48,-41
             1: -48,-40
             2: -48,-39
-            24: -50,-28
             25: -50,-27
             26: -50,-26
             27: -50,-25
@@ -10305,16 +10310,6 @@ entities:
         - volume: 2500
           moles: {}
           immutable: True
-        - temperature: 293.14975
-          volume: 2500
-          moles:
-            Oxygen: 20.078888
-            Nitrogen: 75.53487
-        - temperature: 293.15
-          volume: 2500
-          moles:
-            Oxygen: 21.813705
-            Nitrogen: 82.06108
         - temperature: 293.15
           volume: 2500
           moles:
@@ -10327,16 +10322,6 @@ entities:
           volume: 2500
           moles:
             Plasma: 6666.982
-        - temperature: 293.15
-          volume: 2500
-          moles:
-            Oxygen: 21.823984
-            Nitrogen: 82.09976
-        - temperature: 293.15
-          volume: 2500
-          moles:
-            Oxygen: 21.6852
-            Nitrogen: 81.57766
         - temperature: 235
           volume: 2500
           moles:
@@ -10435,8 +10420,7 @@ entities:
           -4,1:
             0: 49073
           -5,1:
-            3: 1
-            0: 64984
+            0: 64985
           -4,2:
             0: 48059
           -5,2:
@@ -10604,7 +10588,7 @@ entities:
           0,-5:
             0: 238
           1,-8:
-            0: 3002
+            0: 2994
           1,-7:
             0: 12287
           1,-6:
@@ -10612,13 +10596,13 @@ entities:
           1,-9:
             0: 41710
           2,-8:
-            0: 37819
+            0: 37818
           2,-7:
             0: 4095
           2,-6:
             0: 65535
           2,-9:
-            0: 14843
+            0: 15099
           3,-8:
             0: 45311
           3,-7:
@@ -10736,8 +10720,7 @@ entities:
           -7,4:
             0: 47935
           -6,1:
-            0: 65527
-            3: 8
+            0: 65535
           -6,2:
             0: 65535
           -6,3:
@@ -10789,8 +10772,7 @@ entities:
             0: 45056
             2: 119
           -13,-4:
-            4: 32
-            0: 60992
+            0: 61024
           -11,-4:
             0: 62365
           -11,-5:
@@ -10968,7 +10950,7 @@ entities:
           -15,-8:
             0: 15290
           -15,-7:
-            0: 13107
+            0: 13139
             2: 32768
           -15,-6:
             0: 9011
@@ -11254,11 +11236,11 @@ entities:
             0: 4369
             2: 50244
           6,-3:
-            5: 48
-            6: 12288
+            3: 48
+            4: 12288
             2: 34952
           6,-2:
-            7: 48
+            5: 48
             1: 12288
             2: 34952
           6,-1:
@@ -11377,7 +11359,7 @@ entities:
           10,2:
             0: 47919
           10,3:
-            0: 10799
+            0: 10767
           10,4:
             0: 48059
           11,1:
@@ -11615,7 +11597,7 @@ entities:
           14,-7:
             0: 30071
           14,-6:
-            0: 65407
+            0: 63359
           14,-5:
             0: 28799
           14,-4:
@@ -11623,8 +11605,7 @@ entities:
           15,-7:
             0: 65520
           15,-6:
-            0: 64271
-            3: 1024
+            0: 65295
           15,-5:
             0: 61695
           15,-4:
@@ -11636,8 +11617,7 @@ entities:
           13,-1:
             0: 65518
           13,0:
-            3: 1
-            0: 20478
+            0: 20479
           14,-3:
             0: 4215
             2: 49152
@@ -11818,8 +11798,8 @@ entities:
           2,8:
             0: 45827
           3,8:
-            2: 68
-            0: 28672
+            2: 4
+            0: 29440
           -13,4:
             2: 128
             0: 29491
@@ -11962,8 +11942,7 @@ entities:
           -12,10:
             0: 15275
           -13,10:
-            0: 56597
-            3: 8
+            0: 56605
           -12,11:
             0: 48123
           -13,11:
@@ -11985,8 +11964,7 @@ entities:
           -10,11:
             0: 47931
           -10,12:
-            0: 39823
-            3: 8192
+            0: 48015
           -9,9:
             0: 65519
           -9,10:
@@ -12152,9 +12130,7 @@ entities:
             1: 49152
           14,3:
             2: 4064
-            0: 45064
-            8: 2
-            4: 4
+            0: 45070
           14,1:
             0: 61166
           14,2:
@@ -12166,8 +12142,7 @@ entities:
           15,2:
             0: 30576
           15,3:
-            0: 16385
-            9: 6
+            0: 16391
             2: 4080
           16,1:
             0: 9011
@@ -12197,8 +12172,7 @@ entities:
           14,7:
             0: 30583
           14,8:
-            0: 30519
-            3: 64
+            0: 30583
           15,5:
             2: 7952
           15,6:
@@ -12287,10 +12261,10 @@ entities:
             0: 45532
           9,12:
             0: 29688
-            10: 32768
+            6: 32768
           10,12:
             0: 187
-            10: 28672
+            6: 28672
           11,12:
             0: 65535
           4,11:
@@ -12412,8 +12386,7 @@ entities:
           13,15:
             0: 57308
           13,16:
-            0: 793
-            3: 4
+            0: 797
             2: 52224
           14,13:
             0: 65535
@@ -12442,7 +12415,7 @@ entities:
             0: 65287
           9,13:
             0: 62259
-            10: 136
+            6: 136
           9,14:
             0: 61695
           9,15:
@@ -12450,7 +12423,7 @@ entities:
           8,16:
             0: 61176
           10,13:
-            10: 119
+            6: 119
             0: 61440
           10,14:
             0: 64669
@@ -14091,21 +14064,6 @@ entities:
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
-  - uid: 121
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -50.5,-24.5
-    - type: DeviceList
-      devices:
-      - 20728
-      - 825
-      - 824
-      - 20727
-    - type: Fixtures
-      fixtures: {}
-    - type: SonarDamageThreshold
   - uid: 122
     components:
     - type: Transform
@@ -15678,6 +15636,21 @@ entities:
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
+- proto: AirAlarmChamberUnlocked
+  entities:
+  - uid: 121
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -50.5,-24.5
+    - type: DeviceList
+      devices:
+      - 33337
+      - 33336
+    - type: Fixtures
+      fixtures: {}
+    - type: SonarDamageThreshold
 - proto: AirCanister
   entities:
   - uid: 209
@@ -15913,7 +15886,7 @@ entities:
       pos: 20.5,-15.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -145243.08
+      secondsUntilStateChange: -147553.19
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -16064,7 +16037,7 @@ entities:
       pos: -48.5,57.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -67593.8
+      secondsUntilStateChange: -69903.9
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -16076,7 +16049,7 @@ entities:
       pos: -51.5,52.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -68957.98
+      secondsUntilStateChange: -71268.08
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -16686,6 +16659,11 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 60.5,-2.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        27656:
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: SonarDamageThreshold
@@ -16779,6 +16757,11 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 60.5,-1.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        27656:
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: SonarDamageThreshold
@@ -16868,9 +16851,9 @@ entities:
       invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
-        402:
+        16801:
         - - DoorStatus
-          - DoorBolt
+          - InputB
     - type: SonarDamageThreshold
   - uid: 364
     components:
@@ -16882,9 +16865,9 @@ entities:
       invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
-        402:
+        16801:
         - - DoorStatus
-          - DoorBolt
+          - InputA
     - type: SonarDamageThreshold
   - uid: 365
     components:
@@ -17252,6 +17235,11 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 63.5,-1.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        33470:
+        - - DoorStatus
+          - InputA
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: SonarDamageThreshold
@@ -17261,6 +17249,11 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 63.5,-2.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        33470:
+        - - DoorStatus
+          - InputB
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: SonarDamageThreshold
@@ -17287,13 +17280,13 @@ entities:
       rot: 3.141592653589793 rad
       pos: -29.5,-0.5
     - type: DeviceLinkSink
-      invokeCounter: 2
+      invokeCounter: 1
     - type: DeviceLinkSource
       linkedPorts:
-        363:
+        364:
         - - DoorStatus
           - DoorBolt
-        364:
+        363:
         - - DoorStatus
           - DoorBolt
     - type: SonarDamageThreshold
@@ -17388,7 +17381,7 @@ entities:
       pos: 26.5,17.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -152410.2
+      secondsUntilStateChange: -154720.31
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -17739,7 +17732,7 @@ entities:
       pos: 5.5,-3.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -68742.21
+      secondsUntilStateChange: -71052.31
     - type: DeviceLinkSink
       invokeCounter: 1
     - type: DeviceLinkSource
@@ -19145,7 +19138,7 @@ entities:
       pos: -48.5,48.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -67648.836
+      secondsUntilStateChange: -69958.94
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -20481,9 +20474,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -53.5,-26.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 121
     - type: SonarDamageThreshold
   - uid: 825
     components:
@@ -20491,9 +20481,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -53.5,-22.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 121
     - type: SonarDamageThreshold
   - uid: 826
     components:
@@ -22467,15 +22454,6 @@ entities:
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
-  - uid: 1050
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 2.5,-56.5
-    - type: Fixtures
-      fixtures: {}
-    - type: SonarDamageThreshold
   - uid: 1051
     components:
     - type: Transform
@@ -22579,6 +22557,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 54.5,65.5
+    - type: Fixtures
+      fixtures: {}
+    - type: SonarDamageThreshold
+  - uid: 17037
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 6.5,-58.5
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
@@ -51158,12 +51145,6 @@ entities:
       parent: 2
       pos: -50.5,51.5
     - type: SonarDamageThreshold
-  - uid: 5792
-    components:
-    - type: Transform
-      parent: 2
-      pos: 2.5,-56.5
-    - type: SonarDamageThreshold
   - uid: 5793
     components:
     - type: Transform
@@ -53899,6 +53880,12 @@ entities:
     - type: Transform
       parent: 2
       pos: -11.5,57.5
+    - type: SonarDamageThreshold
+  - uid: 33456
+    components:
+    - type: Transform
+      parent: 2
+      pos: 6.5,-58.5
     - type: SonarDamageThreshold
 - proto: CableApcStack
   entities:
@@ -67903,6 +67890,528 @@ entities:
       parent: 2
       pos: -52.5,-45.5
     - type: SonarDamageThreshold
+  - uid: 12798
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.5,-6.5
+    - type: SonarDamageThreshold
+  - uid: 33332
+    components:
+    - type: Transform
+      parent: 2
+      pos: -28.5,-6.5
+    - type: SonarDamageThreshold
+  - uid: 33348
+    components:
+    - type: Transform
+      parent: 2
+      pos: -54.5,-39.5
+    - type: SonarDamageThreshold
+  - uid: 33349
+    components:
+    - type: Transform
+      parent: 2
+      pos: -55.5,-39.5
+    - type: SonarDamageThreshold
+  - uid: 33350
+    components:
+    - type: Transform
+      parent: 2
+      pos: -56.5,-39.5
+    - type: SonarDamageThreshold
+  - uid: 33351
+    components:
+    - type: Transform
+      parent: 2
+      pos: -65.5,-19.5
+    - type: SonarDamageThreshold
+  - uid: 33352
+    components:
+    - type: Transform
+      parent: 2
+      pos: -64.5,-19.5
+    - type: SonarDamageThreshold
+  - uid: 33354
+    components:
+    - type: Transform
+      parent: 2
+      pos: -64.5,-27.5
+    - type: SonarDamageThreshold
+  - uid: 33355
+    components:
+    - type: Transform
+      parent: 2
+      pos: -65.5,-27.5
+    - type: SonarDamageThreshold
+  - uid: 33356
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-21.5
+    - type: SonarDamageThreshold
+  - uid: 33357
+    components:
+    - type: Transform
+      parent: 2
+      pos: -63.5,-21.5
+    - type: SonarDamageThreshold
+  - uid: 33358
+    components:
+    - type: Transform
+      parent: 2
+      pos: -64.5,-21.5
+    - type: SonarDamageThreshold
+  - uid: 33359
+    components:
+    - type: Transform
+      parent: 2
+      pos: -65.5,-21.5
+    - type: SonarDamageThreshold
+  - uid: 33360
+    components:
+    - type: Transform
+      parent: 2
+      pos: -64.5,-20.5
+    - type: SonarDamageThreshold
+  - uid: 33361
+    components:
+    - type: Transform
+      parent: 2
+      pos: -64.5,-28.5
+    - type: SonarDamageThreshold
+  - uid: 33362
+    components:
+    - type: Transform
+      parent: 2
+      pos: -64.5,-29.5
+    - type: SonarDamageThreshold
+  - uid: 33363
+    components:
+    - type: Transform
+      parent: 2
+      pos: -65.5,-29.5
+    - type: SonarDamageThreshold
+  - uid: 33364
+    components:
+    - type: Transform
+      parent: 2
+      pos: -63.5,-27.5
+    - type: SonarDamageThreshold
+  - uid: 33365
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-27.5
+    - type: SonarDamageThreshold
+  - uid: 33366
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-26.5
+    - type: SonarDamageThreshold
+  - uid: 33367
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-25.5
+    - type: SonarDamageThreshold
+  - uid: 33368
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-24.5
+    - type: SonarDamageThreshold
+  - uid: 33369
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-23.5
+    - type: SonarDamageThreshold
+  - uid: 33370
+    components:
+    - type: Transform
+      parent: 2
+      pos: -62.5,-22.5
+    - type: SonarDamageThreshold
+  - uid: 33371
+    components:
+    - type: Transform
+      parent: 2
+      pos: -61.5,-22.5
+    - type: SonarDamageThreshold
+  - uid: 33372
+    components:
+    - type: Transform
+      parent: 2
+      pos: -60.5,-22.5
+    - type: SonarDamageThreshold
+  - uid: 33373
+    components:
+    - type: Transform
+      parent: 2
+      pos: -59.5,-22.5
+    - type: SonarDamageThreshold
+  - uid: 33390
+    components:
+    - type: Transform
+      parent: 2
+      pos: -30.5,-6.5
+    - type: SonarDamageThreshold
+  - uid: 33391
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.5,-5.5
+    - type: SonarDamageThreshold
+  - uid: 33392
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.5,-4.5
+    - type: SonarDamageThreshold
+  - uid: 33393
+    components:
+    - type: Transform
+      parent: 2
+      pos: -30.5,-4.5
+    - type: SonarDamageThreshold
+  - uid: 33394
+    components:
+    - type: Transform
+      parent: 2
+      pos: -47.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33395
+    components:
+    - type: Transform
+      parent: 2
+      pos: -47.5,1.5
+    - type: SonarDamageThreshold
+  - uid: 33396
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33397
+    components:
+    - type: Transform
+      parent: 2
+      pos: -45.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33398
+    components:
+    - type: Transform
+      parent: 2
+      pos: -44.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33399
+    components:
+    - type: Transform
+      parent: 2
+      pos: -43.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33400
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33401
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,3.5
+    - type: SonarDamageThreshold
+  - uid: 33402
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,4.5
+    - type: SonarDamageThreshold
+  - uid: 33403
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,5.5
+    - type: SonarDamageThreshold
+  - uid: 33404
+    components:
+    - type: Transform
+      parent: 2
+      pos: -41.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33405
+    components:
+    - type: Transform
+      parent: 2
+      pos: -40.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33406
+    components:
+    - type: Transform
+      parent: 2
+      pos: -39.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33407
+    components:
+    - type: Transform
+      parent: 2
+      pos: -38.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33408
+    components:
+    - type: Transform
+      parent: 2
+      pos: -37.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33409
+    components:
+    - type: Transform
+      parent: 2
+      pos: -36.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33410
+    components:
+    - type: Transform
+      parent: 2
+      pos: -35.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33411
+    components:
+    - type: Transform
+      parent: 2
+      pos: -34.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33412
+    components:
+    - type: Transform
+      parent: 2
+      pos: -33.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33413
+    components:
+    - type: Transform
+      parent: 2
+      pos: -32.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33414
+    components:
+    - type: Transform
+      parent: 2
+      pos: -31.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33415
+    components:
+    - type: Transform
+      parent: 2
+      pos: -30.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33416
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33417
+    components:
+    - type: Transform
+      parent: 2
+      pos: -28.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33418
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,2.5
+    - type: SonarDamageThreshold
+  - uid: 33419
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,1.5
+    - type: SonarDamageThreshold
+  - uid: 33420
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,0.5
+    - type: SonarDamageThreshold
+  - uid: 33421
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-0.5
+    - type: SonarDamageThreshold
+  - uid: 33422
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-1.5
+    - type: SonarDamageThreshold
+  - uid: 33423
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-2.5
+    - type: SonarDamageThreshold
+  - uid: 33424
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-3.5
+    - type: SonarDamageThreshold
+  - uid: 33425
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-4.5
+    - type: SonarDamageThreshold
+  - uid: 33426
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-5.5
+    - type: SonarDamageThreshold
+  - uid: 33427
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,13.5
+    - type: SonarDamageThreshold
+  - uid: 33428
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,14.5
+    - type: SonarDamageThreshold
+  - uid: 33429
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,15.5
+    - type: SonarDamageThreshold
+  - uid: 33430
+    components:
+    - type: Transform
+      parent: 2
+      pos: -42.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33432
+    components:
+    - type: Transform
+      parent: 2
+      pos: -41.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33433
+    components:
+    - type: Transform
+      parent: 2
+      pos: -40.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33434
+    components:
+    - type: Transform
+      parent: 2
+      pos: -39.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33435
+    components:
+    - type: Transform
+      parent: 2
+      pos: -38.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33436
+    components:
+    - type: Transform
+      parent: 2
+      pos: -37.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33437
+    components:
+    - type: Transform
+      parent: 2
+      pos: -36.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33438
+    components:
+    - type: Transform
+      parent: 2
+      pos: -35.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33439
+    components:
+    - type: Transform
+      parent: 2
+      pos: -34.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33440
+    components:
+    - type: Transform
+      parent: 2
+      pos: -33.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33441
+    components:
+    - type: Transform
+      parent: 2
+      pos: -32.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33442
+    components:
+    - type: Transform
+      parent: 2
+      pos: -31.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33443
+    components:
+    - type: Transform
+      parent: 2
+      pos: -30.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33444
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33445
+    components:
+    - type: Transform
+      parent: 2
+      pos: -28.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33446
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33447
+    components:
+    - type: Transform
+      parent: 2
+      pos: -26.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33448
+    components:
+    - type: Transform
+      parent: 2
+      pos: -25.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33449
+    components:
+    - type: Transform
+      parent: 2
+      pos: -24.5,16.5
+    - type: SonarDamageThreshold
+  - uid: 33450
+    components:
+    - type: Transform
+      parent: 2
+      pos: -23.5,16.5
+    - type: SonarDamageThreshold
 - proto: CableHVStack
   entities:
   - uid: 8580
@@ -80298,12 +80807,6 @@ entities:
       parent: 2
       pos: 3.5,-56.5
     - type: SonarDamageThreshold
-  - uid: 10647
-    components:
-    - type: Transform
-      parent: 2
-      pos: 2.5,-56.5
-    - type: SonarDamageThreshold
   - uid: 10648
     components:
     - type: Transform
@@ -81233,6 +81736,30 @@ entities:
     - type: Transform
       parent: 2
       pos: -11.5,57.5
+    - type: SonarDamageThreshold
+  - uid: 33452
+    components:
+    - type: Transform
+      parent: 2
+      pos: 4.5,-57.5
+    - type: SonarDamageThreshold
+  - uid: 33453
+    components:
+    - type: Transform
+      parent: 2
+      pos: 5.5,-57.5
+    - type: SonarDamageThreshold
+  - uid: 33454
+    components:
+    - type: Transform
+      parent: 2
+      pos: 6.5,-57.5
+    - type: SonarDamageThreshold
+  - uid: 33455
+    components:
+    - type: Transform
+      parent: 2
+      pos: 6.5,-58.5
     - type: SonarDamageThreshold
 - proto: CableMVStack
   entities:
@@ -94370,11 +94897,11 @@ entities:
     - type: Transform
       parent: 2
       pos: -3.459998,-35.53257
-  - uid: 12798
+  - uid: 33388
     components:
     - type: Transform
       parent: 2
-      pos: -26.519247,-29.485016
+      pos: -25.308256,-31.506933
 - proto: ClothingBackpackSatchelGenetics
   entities:
   - uid: 12799
@@ -96335,6 +96862,20 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -43.5,50.5
+    - type: SonarDamageThreshold
+  - uid: 27038
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -13.5,71.5
+    - type: SonarDamageThreshold
+  - uid: 27039
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -14.5,71.5
     - type: SonarDamageThreshold
 - proto: ComfyChairBlue
   entities:
@@ -98675,9 +99216,10 @@ entities:
       containers:
         entity_storage: !type:Container
           ents:
-          - 13386
           - 13385
           - 13384
+          - 13386
+          - 23498
           showEnts: False
           occludes: True
         paper_label: !type:ContainerSlot
@@ -99218,6 +99760,20 @@ entities:
     - type: SonarDamageThreshold
 - proto: CurtainsBlack
   entities:
+  - uid: 5792
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,39.5
+    - type: SonarDamageThreshold
+  - uid: 10647
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,33.5
+    - type: SonarDamageThreshold
   - uid: 13451
     components:
     - type: Transform
@@ -99235,6 +99791,85 @@ entities:
     - type: Transform
       parent: 2
       pos: -20.5,-35.5
+    - type: SonarDamageThreshold
+- proto: CurtainsBlackOpen
+  entities:
+  - uid: 33457
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,38.5
+    - type: SonarDamageThreshold
+  - uid: 33458
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,37.5
+    - type: SonarDamageThreshold
+  - uid: 33459
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,36.5
+    - type: SonarDamageThreshold
+  - uid: 33460
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,35.5
+    - type: SonarDamageThreshold
+  - uid: 33461
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 53.5,34.5
+    - type: SonarDamageThreshold
+  - uid: 33462
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 45.5,37.5
+    - type: SonarDamageThreshold
+  - uid: 33463
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 45.5,36.5
+    - type: SonarDamageThreshold
+  - uid: 33464
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 45.5,35.5
+    - type: SonarDamageThreshold
+  - uid: 33465
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 49.5,42.5
+    - type: SonarDamageThreshold
+  - uid: 33466
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 47.5,42.5
+    - type: SonarDamageThreshold
+  - uid: 33467
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 51.5,42.5
     - type: SonarDamageThreshold
 - proto: CurtainsBlueOpen
   entities:
@@ -115975,14 +116610,6 @@ entities:
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
-  - uid: 15877
-    components:
-    - type: Transform
-      parent: 2
-      pos: -18.5,-3.5
-    - type: Fixtures
-      fixtures: {}
-    - type: SonarDamageThreshold
   - uid: 15879
     components:
     - type: Transform
@@ -116209,6 +116836,15 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 33.5,55.5
+    - type: Fixtures
+      fixtures: {}
+    - type: SonarDamageThreshold
+  - uid: 19744
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -18.5,-3.5
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
@@ -123129,6 +123765,16 @@ entities:
     - type: Transform
       parent: 2
       pos: 25.5,-10.5
+- proto: GasMinerPlasma
+  entities:
+  - uid: 24391
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 25.5,-6.5
+    - type: GasMiner
+      spawnAmount: 35
 - proto: GasMinerWaterVapor
   entities:
   - uid: 16660
@@ -123161,20 +123807,6 @@ entities:
     - type: SonarDamageThreshold
 - proto: GasOutletInjector
   entities:
-  - uid: 16664
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -52.5,-25.5
-    - type: SonarDamageThreshold
-  - uid: 16665
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -52.5,-21.5
-    - type: SonarDamageThreshold
   - uid: 16666
     components:
     - type: Transform
@@ -123256,6 +123888,24 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 19.5,14.5
+    - type: SonarDamageThreshold
+  - uid: 33335
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -52.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33347
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -52.5,-21.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
 - proto: GasPassiveVent
   entities:
@@ -123453,14 +124103,6 @@ entities:
       pos: -41.5,-35.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
-    - type: SonarDamageThreshold
-  - uid: 16704
-    components:
-    - type: Transform
-      parent: 2
-      pos: -43.5,-25.5
-    - type: AtmosPipeColor
-      color: '#990000FF'
     - type: SonarDamageThreshold
   - uid: 16705
     components:
@@ -124282,13 +124924,6 @@ entities:
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: SonarDamageThreshold
-  - uid: 16801
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 9.5,26.5
-    - type: SonarDamageThreshold
   - uid: 16802
     components:
     - type: Transform
@@ -124297,12 +124932,6 @@ entities:
       pos: 31.5,-14.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
-    - type: SonarDamageThreshold
-  - uid: 16803
-    components:
-    - type: Transform
-      parent: 2
-      pos: 13.5,26.5
     - type: SonarDamageThreshold
   - uid: 16804
     components:
@@ -126302,33 +126931,6 @@ entities:
     - type: AtmosPipeColor
       color: '#990000FF'
     - type: SonarDamageThreshold
-  - uid: 17036
-    components:
-    - type: Transform
-      parent: 2
-      pos: 10.5,24.5
-    - type: SonarDamageThreshold
-  - uid: 17037
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: 9.5,24.5
-    - type: SonarDamageThreshold
-  - uid: 17038
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 13.5,24.5
-    - type: SonarDamageThreshold
-  - uid: 17039
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 12.5,24.5
-    - type: SonarDamageThreshold
   - uid: 17040
     components:
     - type: Transform
@@ -126770,12 +127372,86 @@ entities:
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: SonarDamageThreshold
+  - uid: 19745
+    components:
+    - type: Transform
+      parent: 2
+      pos: 12.5,26.5
+    - type: SonarDamageThreshold
+  - uid: 19994
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 10.5,26.5
+    - type: SonarDamageThreshold
   - uid: 27344
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 56.5,45.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33342
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -48.5,-24.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33381
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -46.5,-25.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+  - uid: 33382
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-23.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+  - uid: 33383
+    components:
+    - type: Transform
+      parent: 2
+      pos: -43.5,-24.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+- proto: GasPipeBendAlt3
+  entities:
+  - uid: 16664
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -44.5,-28.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 20727
+    components:
+    - type: Transform
+      parent: 2
+      pos: -44.5,-27.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33353
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-21.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: SonarDamageThreshold
@@ -126980,6 +127656,44 @@ entities:
       pos: 32.5,12.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
+    - type: SonarDamageThreshold
+- proto: GasPipeManifold
+  entities:
+  - uid: 17039
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -50.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 17158
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -50.5,-21.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 17191
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -43.5,-28.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33380
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -44.5,-24.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
     - type: SonarDamageThreshold
 - proto: GasPipeStraight
   entities:
@@ -127330,13 +128044,8 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -51.5,-27.5
-    - type: SonarDamageThreshold
-  - uid: 17158
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -50.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 17159
     components:
@@ -127344,6 +128053,8 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -51.5,-25.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 17160
     components:
@@ -127351,6 +128062,8 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -50.5,-25.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 17161
     components:
@@ -127358,6 +128071,8 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -51.5,-23.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 17162
     components:
@@ -127365,6 +128080,8 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -50.5,-23.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 17163
     components:
@@ -127372,13 +128089,17 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -51.5,-21.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 17164
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -50.5,-21.5
+      rot: 3.141592653589793 rad
+      pos: -43.5,-26.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
     - type: SonarDamageThreshold
   - uid: 17165
     components:
@@ -127604,23 +128325,6 @@ entities:
       pos: -37.5,-31.5
     - type: AtmosPipeColor
       color: '#990000FF'
-    - type: SonarDamageThreshold
-  - uid: 17191
-    components:
-    - type: Transform
-      parent: 2
-      pos: -43.5,-26.5
-    - type: AtmosPipeColor
-      color: '#990000FF'
-    - type: SonarDamageThreshold
-  - uid: 17192
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -43.5,-28.5
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
     - type: SonarDamageThreshold
   - uid: 17193
     components:
@@ -149837,19 +150541,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 12.5,19.5
     - type: SonarDamageThreshold
-  - uid: 19744
-    components:
-    - type: Transform
-      parent: 2
-      pos: 9.5,25.5
-    - type: SonarDamageThreshold
-  - uid: 19745
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: 13.5,25.5
-    - type: SonarDamageThreshold
   - uid: 19746
     components:
     - type: Transform
@@ -152017,20 +152708,6 @@ entities:
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: SonarDamageThreshold
-  - uid: 19994
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 12.5,26.5
-    - type: SonarDamageThreshold
-  - uid: 19995
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 10.5,26.5
-    - type: SonarDamageThreshold
   - uid: 19996
     components:
     - type: Transform
@@ -152289,8 +152966,141 @@ entities:
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: SonarDamageThreshold
+  - uid: 33384
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -45.5,-24.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+- proto: GasPipeStraightAlt3
+  entities:
+  - uid: 20436
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -49.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 20437
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -48.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 20479
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -45.5,-27.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33345
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -49.5,-21.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33346
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -48.5,-21.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33374
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-26.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33375
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-25.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33376
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-24.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33377
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-23.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+  - uid: 33378
+    components:
+    - type: Transform
+      parent: 2
+      pos: -46.5,-22.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
 - proto: GasPipeTJunction
   entities:
+  - uid: 16665
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -43.5,-25.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+  - uid: 16704
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 12.5,25.5
+    - type: SonarDamageThreshold
+  - uid: 16803
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 10.5,25.5
+    - type: SonarDamageThreshold
+  - uid: 17036
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 10.5,24.5
+    - type: SonarDamageThreshold
+  - uid: 17192
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 12.5,24.5
+    - type: SonarDamageThreshold
   - uid: 20025
     components:
     - type: Transform
@@ -155851,6 +156661,43 @@ entities:
     - type: AtmosPipeColor
       color: '#0055CCFF'
     - type: SonarDamageThreshold
+  - uid: 33339
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -48.5,-25.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33341
+    components:
+    - type: Transform
+      parent: 2
+      pos: -48.5,-23.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33379
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -46.5,-24.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+- proto: GasPipeTJunctionAlt3
+  entities:
+  - uid: 15895
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -46.5,-27.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
 - proto: GasPort
   entities:
   - uid: 20435
@@ -155859,20 +156706,8 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -48.5,-21.5
-    - type: SonarDamageThreshold
-  - uid: 20436
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -48.5,-23.5
-    - type: SonarDamageThreshold
-  - uid: 20437
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -48.5,-25.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 20438
     components:
@@ -155880,6 +156715,8 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -48.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
   - uid: 20439
     components:
@@ -156126,6 +156963,35 @@ entities:
       parent: 2
       pos: 18.5,18.5
     - type: SonarDamageThreshold
+  - uid: 33333
+    components:
+    - type: MetaData
+      name: соединительный порт (северная камера)
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -49.5,-24.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: северная камера
+    - type: NameModifier
+      baseName: соединительный порт
+  - uid: 33334
+    components:
+    - type: MetaData
+      name: соединительный порт (южная камера)
+    - type: Transform
+      parent: 2
+      pos: -48.5,-24.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: южная камера
+    - type: NameModifier
+      baseName: соединительный порт
 - proto: GasPressurePump
   entities:
   - uid: 20475
@@ -156137,32 +157003,49 @@ entities:
     - type: SonarDamageThreshold
   - uid: 20476
     components:
+    - type: MetaData
+      name: газовый насос (закачка порта)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -49.5,-21.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: закачка порта
+    - type: NameModifier
+      baseName: газовый насос
   - uid: 20477
     components:
+    - type: MetaData
+      name: газовый насос (откачка)
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -49.5,-23.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: откачка
+    - type: NameModifier
+      baseName: газовый насос
   - uid: 20478
     components:
+    - type: MetaData
+      name: газовый насос (закачка порта)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
-      pos: -49.5,-25.5
-    - type: SonarDamageThreshold
-  - uid: 20479
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
       pos: -49.5,-27.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: закачка порта
+    - type: NameModifier
+      baseName: газовый насос
   - uid: 20480
     components:
     - type: Transform
@@ -156313,6 +157196,83 @@ entities:
       parent: 2
       pos: 18.5,17.5
     - type: SonarDamageThreshold
+  - uid: 33338
+    components:
+    - type: MetaData
+      name: газовый насос (откачка)
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -49.5,-25.5
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: откачка
+    - type: NameModifier
+      baseName: газовый насос
+  - uid: 33340
+    components:
+    - type: MetaData
+      name: газовый насос (слив порта)
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -47.5,-25.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: слив порта
+    - type: NameModifier
+      baseName: газовый насос
+  - uid: 33343
+    components:
+    - type: MetaData
+      name: газовый насос (слив порта)
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -47.5,-23.5
+    - type: AtmosPipeColor
+      color: '#990000FF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: слив порта
+    - type: NameModifier
+      baseName: газовый насос
+- proto: GasPressurePumpAlt3
+  entities:
+  - uid: 19995
+    components:
+    - type: MetaData
+      name: газовый насос (закачка воздуха)
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -47.5,-27.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: закачка воздуха
+    - type: NameModifier
+      baseName: газовый насос
+  - uid: 33344
+    components:
+    - type: MetaData
+      name: газовый насос (закачка воздуха)
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -47.5,-21.5
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
+    - type: SonarDamageThreshold
+    - type: Label
+      currentLabel: закачка воздуха
+    - type: NameModifier
+      baseName: газовый насос
 - proto: GasThermoMachineFreezer
   entities:
   - uid: 20500
@@ -158742,26 +159702,6 @@ entities:
       deviceLists:
       - 201
     - type: SonarDamageThreshold
-  - uid: 20727
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -52.5,-27.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 121
-    - type: SonarDamageThreshold
-  - uid: 20728
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -52.5,-23.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 121
-    - type: SonarDamageThreshold
   - uid: 20729
     components:
     - type: Transform
@@ -160588,6 +161528,30 @@ entities:
       - 158
     - type: AtmosPipeColor
       color: '#990000FF'
+    - type: SonarDamageThreshold
+  - uid: 33336
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -52.5,-25.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 121
+    - type: AtmosPipeColor
+      color: '#947507FF'
+    - type: SonarDamageThreshold
+  - uid: 33337
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -52.5,-23.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 121
+    - type: AtmosPipeColor
+      color: '#947507FF'
     - type: SonarDamageThreshold
 - proto: GasVolumePump
   entities:
@@ -172326,6 +173290,20 @@ entities:
       parent: 2
       pos: 25.5,15.5
     - type: SonarDamageThreshold
+  - uid: 33431
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 11.5,25.5
+    - type: SonarDamageThreshold
+  - uid: 33451
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 11.5,24.5
+    - type: SonarDamageThreshold
 - proto: HighSecArmoryLocked
   entities:
   - uid: 22718
@@ -175584,6 +176562,62 @@ entities:
       parent: 2
       pos: 44.5,-41.5
     - type: SonarDamageThreshold
+- proto: LogicGateOr
+  entities:
+  - uid: 16801
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,-0.5
+      anchored: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        402:
+        - - Output
+          - DoorBolt
+    - type: Physics
+      canCollide: False
+      bodyType: Static
+  - uid: 27656
+    components:
+    - type: Transform
+      parent: 2
+      pos: 62.5,-1.5
+      anchored: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        399:
+        - - Output
+          - DoorBolt
+        400:
+        - - Output
+          - DoorBolt
+    - type: Physics
+      canCollide: False
+      bodyType: Static
+  - uid: 33470
+    components:
+    - type: Transform
+      parent: 2
+      pos: 62.5,-2.5
+      anchored: True
+    - type: DeviceLinkSink
+      invokeCounter: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        356:
+        - - Output
+          - DoorBolt
+        349:
+        - - Output
+          - DoorBolt
+    - type: Physics
+      canCollide: False
+      bodyType: Static
 - proto: LootSpawnerCableCoil
   entities:
   - uid: 23106
@@ -177403,6 +178437,14 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: -24.5,-31.5
+    - type: EntityStorage
+      air:
+        temperature: 293.14673
+        volume: 200
+        moles:
+          Oxygen: 1.7459903
+          Nitrogen: 6.568249
+        immutable: False
 - proto: MouseTimedSpawner
   entities:
   - uid: 23390
@@ -178194,8 +179236,9 @@ entities:
     - type: MetaData
       name: Объяснительная
     - type: Transform
-      parent: 2
-      pos: 62.48956,-21.356785
+      parent: 13383
+    - type: Physics
+      canCollide: False
     - type: Paper
       stampState: paper_stamp-ntrep
       stampedBy:
@@ -178212,6 +179255,8 @@ entities:
         Учитывая данную ситуацию, возмещаю часть средств из своего кармана в размере 1500(одна тысяча пятьсот) кредитов.
 
     - type: SonarDamageThreshold
+    - type: InsideEntityStorage
+      storage: 13383
   - uid: 23499
     components:
     - type: Transform
@@ -182119,13 +183164,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 25.5,56.5
     - type: SonarDamageThreshold
-  - uid: 15895
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 7.5,56.5
-    - type: SonarDamageThreshold
   - uid: 24034
     components:
     - type: Transform
@@ -183570,13 +184608,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 25.5,59.5
     - type: SonarDamageThreshold
-  - uid: 24250
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 23.5,58.5
-    - type: SonarDamageThreshold
   - uid: 24251
     components:
     - type: Transform
@@ -184028,7 +185059,7 @@ entities:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
-      pos: 15.5,57.5
+      pos: 15.5,55.5
     - type: SonarDamageThreshold
   - uid: 24319
     components:
@@ -184515,13 +185546,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 62.5,1.5
     - type: SonarDamageThreshold
-  - uid: 24391
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: 32.5,69.5
-    - type: SonarDamageThreshold
   - uid: 24392
     components:
     - type: Transform
@@ -184817,6 +185841,27 @@ entities:
     - type: Transform
       parent: 2
       pos: 55.5,45.5
+    - type: SonarDamageThreshold
+  - uid: 26478
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 23.5,57.5
+    - type: SonarDamageThreshold
+  - uid: 33468
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: 30.5,70.5
+    - type: SonarDamageThreshold
+  - uid: 33469
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 7.5,55.5
     - type: SonarDamageThreshold
 - proto: PoweredlightBlue
   entities:
@@ -187479,6 +188524,29 @@ entities:
     - type: Transform
       parent: 2
       pos: -8.635988,32.60505
+- proto: RadioHandheldStation
+  entities:
+  - uid: 1050
+    components:
+    - type: Transform
+      parent: 2
+      pos: 10.486056,81.42881
+    missingComponents:
+    - ActiveRadio
+  - uid: 15877
+    components:
+    - type: Transform
+      parent: 2
+      pos: -29.518559,31.411701
+    missingComponents:
+    - ActiveRadio
+  - uid: 20728
+    components:
+    - type: Transform
+      parent: 2
+      pos: -12.489528,-0.5397408
+    missingComponents:
+    - ActiveRadio
 - proto: RagItem
   entities:
   - uid: 24804
@@ -197900,11 +198968,11 @@ entities:
       pos: -4.4072175,-32.679348
 - proto: SawElectric
   entities:
-  - uid: 26478
+  - uid: 33389
     components:
     - type: Transform
       parent: 2
-      pos: -26.509333,-29.227335
+      pos: -25.683256,-31.475683
 - proto: SawImprov
   entities:
   - uid: 26479
@@ -200802,6 +201870,17 @@ entities:
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
+- proto: SignBreakMedical
+  entities:
+  - uid: 17038
+    components:
+    - type: Transform
+      parent: 2
+      rot: 3.141592653589793 rad
+      pos: -18.5,-49.5
+    - type: Fixtures
+      fixtures: {}
+    - type: SonarDamageThreshold
 - proto: SignBridge
   entities:
   - uid: 26761
@@ -203272,24 +204351,6 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: -57.5,-15.5
-    - type: SonarDamageThreshold
-- proto: SofaEndLeft
-  entities:
-  - uid: 27038
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: -13.5,71.5
-    - type: SonarDamageThreshold
-- proto: SofaEndRight
-  entities:
-  - uid: 27039
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: -14.5,71.5
     - type: SonarDamageThreshold
 - proto: SolarControlComputerCircuitboard
   entities:
@@ -207212,6 +208273,15 @@ entities:
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
+  - uid: 24250
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: 56.5,2.5
+    - type: Fixtures
+      fixtures: {}
+    - type: SonarDamageThreshold
   - uid: 25725
     components:
     - type: Transform
@@ -207322,15 +208392,8 @@ entities:
     components:
     - type: Transform
       parent: 2
+      rot: 1.5707963267948966 rad
       pos: 10.5,76.5
-    - type: Fixtures
-      fixtures: {}
-    - type: SonarDamageThreshold
-  - uid: 27656
-    components:
-    - type: Transform
-      parent: 2
-      pos: 56.5,2.5
     - type: Fixtures
       fixtures: {}
     - type: SonarDamageThreshold
@@ -207516,6 +208579,18 @@ entities:
     - type: Transform
       parent: 2
       pos: 50.5,-21.5
+    - type: SonarDamageThreshold
+  - uid: 33385
+    components:
+    - type: Transform
+      parent: 2
+      pos: -24.5,-27.5
+    - type: SonarDamageThreshold
+  - uid: 33387
+    components:
+    - type: Transform
+      parent: 2
+      pos: -26.5,-29.5
     - type: SonarDamageThreshold
 - proto: StationRadioRig
   entities:
@@ -212721,6 +213796,13 @@ entities:
     - type: Transform
       parent: 2
       pos: -26.5,-18.5
+    - type: SonarDamageThreshold
+  - uid: 33386
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -37.5,-26.5
     - type: SonarDamageThreshold
 - proto: TableCarpet
   entities:
@@ -231185,6 +232267,27 @@ entities:
       parent: 2
       pos: 78.5,-3.5
     - type: SonarDamageThreshold
+  - uid: 31942
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -47.5,-28.5
+    - type: SonarDamageThreshold
+  - uid: 31943
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -49.5,-28.5
+    - type: SonarDamageThreshold
+  - uid: 31944
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -48.5,-28.5
+    - type: SonarDamageThreshold
 - proto: WallSolid
   entities:
   - uid: 15899
@@ -237319,25 +238422,8 @@ entities:
     components:
     - type: Transform
       parent: 2
+      rot: 1.5707963267948966 rad
       pos: -47.5,-30.5
-    - type: SonarDamageThreshold
-  - uid: 31942
-    components:
-    - type: Transform
-      parent: 2
-      pos: -47.5,-28.5
-    - type: SonarDamageThreshold
-  - uid: 31943
-    components:
-    - type: Transform
-      parent: 2
-      pos: -49.5,-28.5
-    - type: SonarDamageThreshold
-  - uid: 31944
-    components:
-    - type: Transform
-      parent: 2
-      pos: -48.5,-28.5
     - type: SonarDamageThreshold
   - uid: 31945
     components:

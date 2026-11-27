@@ -10,7 +10,7 @@ chat-radio-winds = Ветры магии
 chat-radio-global = Общий
 chat-radio-aspace = Аспейс
 chat-radio-medtak = МедТак
-chat-radio-medtak-borg = Кремний МедТак
+chat-radio-medtak-borg = Киборг МедТак
 chat-radio-gorlex = Мародёры Горлекса
 
 headset-loud-mode-examine-active = Динамик громкого режима гарнитуры [color=green]АКТИВЕН[/color].
