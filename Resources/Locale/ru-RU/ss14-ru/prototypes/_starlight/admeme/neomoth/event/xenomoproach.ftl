@@ -1,5 +1,5 @@
-ent-MobXenomoproach = ксеномопротаракан
-    .desc = Этот маленький мопротаракан, похоже, отчасти злой робот! Как ужасно!
+ent-MobXenomoproach = ксеношвабракан
+    .desc = Этот маленький швабракан, похоже, отчасти злой робот! Как ужасно!
     .suffix = АДМЕМЕ
 ent-SolutionMobXenomoproachAbsorbed = { ent-Solution }
     .desc = { ent-Solution.desc }

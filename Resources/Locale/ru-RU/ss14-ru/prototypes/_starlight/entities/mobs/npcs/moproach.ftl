@@ -1,11 +1,11 @@
 ent-MobMoproachHat = { ent-MobMoproach }
     .desc = { ent-MobMoproach.desc }
     .suffix = Шляпа
-ent-MoproachBox = набор мопротараканов
-    .desc = Набор для быстрой подготовки двух мопротараканов к работе.
-ent-MoproachCubeWrapped = кубик мопротаракана
-    .desc = Разверните, чтобы получить кубик мопротаракана.
+ent-MoproachBox = набор швабраканов
+    .desc = Набор для быстрой подготовки двух швабраканов к работе.
+ent-MoproachCubeWrapped = кубик швабракана
+    .desc = Разверните, чтобы получить кубик швабракана.
     .suffix = Завёрнут
 ent-PaperMoproachManual = { ent-Paper }
     .desc = { ent-Paper.desc }
-    .suffix = Руководство по мопротараканам
+    .suffix = Руководство по швабраканам

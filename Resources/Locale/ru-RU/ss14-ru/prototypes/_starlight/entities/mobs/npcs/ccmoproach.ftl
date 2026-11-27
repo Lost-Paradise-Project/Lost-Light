@@ -1,11 +1,11 @@
 ent-CCMoproachGlasses = { ent-ClothingEyesGlassesCentComm }
     .desc = Очки офицера ЦентКома, совместимые с таракамолями. К сожалению, из-за этого они приклеены к их морде.
-ent-MobCCMoproach = мопротаракан ЦК
-    .desc = Мопротаракан, специально обученный уборке лучшими специалистами НТ.
+ent-MobCCMoproach = швабракан ЦК
+    .desc = Швабракан, специально обученный уборке лучшими специалистами НТ.
     .suffix = Уборочный ОБР
 ent-MobCCMoproachHat = { ent-MobCCMoproach }
     .desc = { ent-MobCCMoproach.desc }
     .suffix = Уборочный ОБР, шляпа
-ent-CCMoproachCubeWrapped = кубик мопротаракана ЦК
+ent-CCMoproachCubeWrapped = кубик швабракана ЦК
     .desc = Просто добавьте воды! *стрекочет*
     .suffix = { ent-MoproachCubeWrapped.suffix }
