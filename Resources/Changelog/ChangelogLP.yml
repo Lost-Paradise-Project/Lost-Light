@@ -496,4 +496,25 @@ Entries:
   id: 71
   time: '2026-11-27T10:52:58.000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/120
+- author: MegaDaimond
+  changes:
+  - message: Добавлен софткрит для всех играбельных рас.
+    type: Add
+  id: 72
+  time: '2026-11-27T21:17:37.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/129
+- author: MegaDaimond
+  changes:
+  - message: Добавлена ксенофобия по отношению к экспериментам.
+    type: Add
+  id: 73
+  time: '2026-11-27T21:17:37.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/129
+- author: MegaDaimond
+  changes:
+  - message: Исправлены спрайты шлема скафандра утилизаторов.
+    type: Fix
+  id: 74
+  time: '2026-11-27T21:17:37.000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Light/pull/129
 Order: -3
