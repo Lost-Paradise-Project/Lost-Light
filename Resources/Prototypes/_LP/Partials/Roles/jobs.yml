@@ -108,3 +108,235 @@
       time: 18000 # 5h
     - !type:RolesRequirement
       proto: LPGameStaffReq
+
+- type: !PartialOnly job
+  id: SecurityCadet
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 20h
+      inverted: true
+
+- type: !PartialOnly job
+  id: ResearchAssistant
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Science
+      time: 10h
+      inverted: true
+
+- type: !PartialOnly job
+  id: MedicalIntern
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 10h
+      inverted: true
+
+- type: !PartialOnly job
+  id: TechnicalAssistant
+  requirements: !Clear
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 10h
+      inverted: true
+
+- type: !PartialOnly job
+  id: AtmosphericTechnician
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: ChiefEngineer
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: StationEngineer
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Quartermaster
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Captain
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: HeadOfPersonnel
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Chemist
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: ChiefMedicalOfficer
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: MedicalDoctor
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Paramedic
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: ResearchDirector
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Scientist
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Detective
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: HeadOfSecurity
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: SecurityOfficer
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Warden
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: SalvageLead
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Surgeon
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: BlueShield
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Magistrate
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: NanoTrasenRepresentative
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: NanotrasenCareerTrainer
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: Roboticist
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: DutyOfficer
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment
+
+- type: !PartialOnly job
+  id: GunnerySergeant
+  requirements:
+    - !type:SpeciesRequirement
+      inverted: true
+      species:
+      - Experiment

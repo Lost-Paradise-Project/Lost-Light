@@ -1,0 +1,461 @@
+- type: !PartialOnly entity
+  id: BaseMobAbductor
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobArachnid
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      150: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobAvali
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobCyclorite
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      150: SoftCritical
+      200: Critical
+      300: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobDiona
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      125: SoftCritical
+      175: Critical
+      250: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobDoll
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobDoll
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      110: SoftCritical
+      150: Critical
+      220: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobElf
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobFelionoid
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      90: SoftCritical
+      135: Critical
+      170: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobHuman
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobLagomorph
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      150: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobMoth
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobReptilian
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      150: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobResomi
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      85: SoftCritical
+      135: Critical
+      170: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobRodentia
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      85: SoftCritical
+      135: Critical
+      170: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobShadekin
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobSlimePerson
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobThaven
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobVox
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobVulpkanin
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      135: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobXeno
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      150: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
+
+- type: !PartialOnly entity
+  id: BaseMobTajaran
+  components:
+  - type: MobThresholds
+    stateAlertDict:
+      Alive: "HumanHealth"
+      SoftCritical: "HumanCrit"
+      Critical: "HumanCrit"
+      Dead: "HumanDead"
+    thresholds:
+      0: Alive
+      100: SoftCritical
+      150: Critical
+      200: Dead
+  - type: MobState
+    allowedStates:
+      - Alive
+      - SoftCritical
+      - Critical
+      - Dead
