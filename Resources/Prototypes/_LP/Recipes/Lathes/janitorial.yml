@@ -1,0 +1,6 @@
+- type: latheRecipe
+  id: BucketSmall
+  result: BucketSmall
+  completetime: 2
+  materials:
+    Plastic: 50

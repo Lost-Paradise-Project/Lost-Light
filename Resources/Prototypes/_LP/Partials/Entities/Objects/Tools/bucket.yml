@@ -1,0 +1,11 @@
+- type: !PartialOnly entity
+  id: BucketSmall
+  components:
+  - type: Item
+    size: !Remove Large #Parent bucket is already normal through a different partial
+    shape:
+    - !Remove 0,0,2,1
+    - 0,0,1,1
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 25
